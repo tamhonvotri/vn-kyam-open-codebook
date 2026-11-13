@@ -1,0 +1,83 @@
+{
+  "target": {
+    "id": "vie-central",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Phương ngữ Trung Bộ (Quảng Bình, Quảng Trị, Huế)",
+    "hint": "Giọng Huế; ca Huế, hò mái nhì, hò mái đẩy."
+  },
+  "started": "2026-11-13T21:41:13.478105",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 9415,
+      "totalTokenCount": 18800,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9415
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11010,
+      "candidatesTokenCount": 9596,
+      "totalTokenCount": 21520,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11010
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9596
+        }
+      ],
+      "thoughtsTokenCount": 914,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "correspondences_from_standard_vietnamese[16].example_standard",
+        "severity": "medium",
+        "problem": "Ví dụ cho vần 'ươn' -> 'ương' lại lấy từ 'thương' vốn đã có vần 'ương' trong tiếng Việt chuẩn.",
+        "fix": "Đổi 'thương / vườn' -> 'thương / vường' thành 'vườn / mượn' -> 'vường / mượng'."
+      },
+      {
+        "path": "phonology.codas[0].grapheme",
+        "severity": "low",
+        "problem": "Ghi chú âm cuối -n/-t sau nguyên âm trước (i, ê) trong tiếng Huế: thực tế trong tiếng Huế, vần -in/-inh cùng phát âm là [ɨn], -ên/-ênh cùng phát âm là [ən] (tức âm cuối vẫn là /-n/, /-t/ nhưng nguyên âm chính dịch chuyển vào giữa).",
+        "fix": "Làm rõ hơn trong phần note của codas để tránh hiểu nhầm rằng -in, -ên giữ nguyên nguyên âm [i], [e] như giọng Bắc."
+      },
+      {
+        "path": "music.ornaments[2].confidence",
+        "severity": "low",
+        "problem": "Mục 'Luyến chữ mang thanh sắc thấp (sắc Huế)' mang tính mô tả kinh nghiệm âm nhạc học hơn là quy tắc ký âm chuẩn hóa có ký hiệu ABC cụ thể, nhưng đang để confidence='high'.",
+        "fix": "Hạ confidence xuống 'medium'."
+      },
+      {
+        "path": "regions[0]",
+        "severity": "low",
+        "problem": "Cập nhật tên gọi hành chính mới của Huế (Thành phố Huế trực thuộc trung ương kèm tên lịch sử Thừa Thiên Huế).",
+        "fix": "Đổi thành 'Thành phố Huế (Thừa Thiên Huế)'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

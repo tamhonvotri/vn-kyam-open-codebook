@@ -1,0 +1,899 @@
+{
+  "id": "co-tu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cơ Tu",
+  "name_en": "Eastern Katu (Cơ Tu)",
+  "autonym": "P'rá Cơ Tu / Pơraq Kơ Tu",
+  "ethnic_group_vi": "Cơ Tu",
+  "language": {
+    "iso639_3": "ktv",
+    "glottocode": "east1236",
+    "family": "Austroasiatic",
+    "branch": "Katuic"
+  },
+  "regions": [
+    "Quảng Nam / TP. Đà Nẵng (Tây Giang, Đông Giang, Nam Giang, Hòa Vang)",
+    "TP. Huế (Nam Đông, A Lưới)"
+  ],
+  "speakers_estimate": "Khoảng 74.173 người Cơ Tu tại Việt Nam (Tổng điều tra dân số và nhà ở năm 2019), phân bố ở các biến thể Katu Đông, Katu Tây và Phương.",
+  "scripts": [
+    {
+      "name": "Bộ chữ viết tiếng Cơ Tu hệ Latinh",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Chữ Latinh dựa trên chữ Quốc ngữ hình thành từ trước 1975 (Costello 1971; sách Boop Katu 1985; Pơraq Kơ Tu 2006). Ngày 22/04/2025, UBND tỉnh Quảng Nam ban hành Quyết định số 1052/QĐ-UBND phê chuẩn Bộ chữ viết Cơ Tu thống nhất (gồm 27 chữ ghi phụ âm đơn, 16 chữ ghi tổ hợp phụ âm đầu, 27 nguyên âm, 17 phụ âm cuối gồm 14 âm đơn và 3 tổ hợp phụ âm); ngày 04/11/2026 Bộ GD&ĐT công bố dự thảo Thông tư ban hành Chương trình giáo dục phổ thông môn học tiếng Cơ Tu cấp tiểu học."
+    },
+    {
+      "name": "Chữ Lào (dùng cho tiếng Katu Tây tại Lào)",
+      "iso15924": "Laoo",
+      "unicode_block": "Lao",
+      "official_in_vietnam": false,
+      "note": "Dùng cho cộng đồng người Katu tại tỉnh Sekong và Savannakhet (Lào), không sử dụng chính thức tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngôn ngữ học Katuic (Wallace 1969; Costello 1971; Nguyễn Hữu Hoành & Nguyễn Văn Lợi 1998; Sidwell 2005) và thông tin công bố về Bộ chữ viết Cơ Tu (Quyết định 1052/QĐ-UBND năm 2025 và dự thảo Chương trình môn học năm 2026). Do tồn tại nhiều quy ước chính tả qua các thời kỳ (Costello 1971, Pơraq Kơ Tu 2006, VOV4 và bộ chữ phê chuẩn năm 2025 chưa công bố bảng ánh xạ chi tiết từng con chữ trên mạng), cần đối chiếu trực tiếp với Phụ lục Quyết định 1052/QĐ-UBND của UBND tỉnh Quảng Nam và người bản xứ.",
+  "phonology": {
+    "syllable_structure": "(C1ə)C2(C3)V(ː)(C4) — cấu trúc âm tiết rưỡi (sesquisyllabic) gồm tiền âm tiết nhẹ và âm tiết chính mang trọng âm.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh [c ~ tɕ]; một số tài liệu nghiên cứu ghi là c",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh; viết k hoặc c theo quy tắc gần chữ Quốc ngữ tùy hệ chữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / ' / (không ghi đầu từ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết hoặc giữa tiền âm tiết và âm tiết chính",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (không phải âm xát [f] như tiếng Việt hiện đại)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s ~ cʰ",
+        "note": "Phát triển từ âm bật hơi mặt lưỡi *cʰ, hiện thực hóa là [s] hoặc [cʰ] tùy thổ ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi vô thanh bật hơi (không phải âm xát [x] của tiếng Việt Bắc Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh thường; lưu ý trong một số văn bản chịu ảnh hưởng chữ Quốc ngữ có sự chồng chéo cách ghi giữa /b/ và /ɓ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh thường",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j / dz",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɡ",
+        "note": "Tắc gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bh / ƀ",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh hút vào (implosive) theo quy ước Costello (1971) và chính tả VOV4 (ví dụ: Bhling, Bhalêê)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dh / đh / đ",
+        "ipa": "ɗ",
+        "note": "Tắc đầu lưỡi hữu thanh hút vào (ví dụ: Đh'Rôồng, dha)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y / z / jh",
+        "ipa": "ʄ ~ ʔj ~ ʔdʒ",
+        "note": "Âm hút vào ngạc cứng hoặc âm lướt tiền thanh hầu hóa (ví dụ: ya yá / za zá / da dá)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi - ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, pr, bl, br, bhl, bhr, kl, kr, gl, gr, chr, dr",
+        "ipa": "pl, pr, bl, br, ɓl, ɓr, kl, kr, ɡl, ɡr, cr, dr",
+        "note": "Các tổ hợp phụ âm đầu phổ biến kết hợp phụ âm tắc với /l/ hoặc /r/ (Bộ chữ 2025 ghi nhận 16 tổ hợp phụ âm đầu)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ii / i",
+        "ipa": "iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp, dài (quy ước Costello & VOV4 nhân đôi chữ cái để ghi nguyên âm dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / ĕ",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "êê / ê",
+        "ipa": "eː",
+        "note": "Nguyên âm hàng trước hơi hẹp, dài (ví dụ: Bhalêê, ha rêê)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ee",
+        "ipa": "ɛː",
+        "note": "Nguyên âm hàng trước hơi rộng, dài (ví dụ: cơleeng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm hàng giữa độ mở hẹp, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm hàng giữa độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə",
+        "note": "Nguyên âm hàng giữa độ mở trung bình, ngắn (cũng dùng ghi nguyên âm lướt ở tiền âm tiết như pơ-, cơ-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơơ",
+        "ipa": "əː",
+        "note": "Nguyên âm hàng giữa độ mở trung bình, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ʌ ~ ə",
+        "note": "Nguyên âm giữa/sau hơi rộng, ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ââ",
+        "ipa": "ʌː",
+        "note": "Nguyên âm giữa/sau hơi rộng, dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă / a",
+        "ipa": "a",
+        "note": "Nguyên âm độ mở rộng, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aa / a",
+        "ipa": "aː",
+        "note": "Nguyên âm độ mở rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi hẹp, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uu / u",
+        "ipa": "uː",
+        "note": "Nguyên âm hàng sau tròn môi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ôô",
+        "ipa": "oː",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp, dài (ví dụ: Bhờ Hôồng, Đh'Rôồng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oo",
+        "ipa": "ɔː",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, dài (ví dụ: babooch, boop)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ó",
+        "ipa": "ɒ",
+        "note": "Nguyên âm hàng sau tròn môi mở rộng, ngắn (ghi nhận trong hệ Wallace/Costello)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "óó",
+        "ipa": "ɒː",
+        "note": "Nguyên âm hàng sau tròn môi mở rộng, dài (dấu sắc dùng phân biệt âm sắc/độ mở, không phải thanh điệu)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "ia",
+        "note": "Nguyên âm đôi hướng tâm hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɨa",
+        "note": "Nguyên âm đôi hướng tâm hàng giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "ua",
+        "note": "Nguyên âm đôi hướng tâm hàng sau",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng, không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi đóng, không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / c",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi đóng (ví dụ: babooch, a guôch)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k̚",
+        "note": "Tắc gốc lưỡi đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / '",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ: pơraq, anuq, asoq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi cuối âm tiết (không có trong tiếng Việt; ví dụ: abel, chgơl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi cuối âm tiết (không có trong tiếng Việt; ví dụ: kator, bơơr)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết (không có trong tiếng Việt; ví dụ: moh, toh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o / w",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih / yh",
+        "ipa": "jh ~ ç",
+        "note": "Tổ hợp bán nguyên âm + xát thanh hầu cuối âm tiết (ví dụ: oih 'lửa', manưih 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uh / wh",
+        "ipa": "wh",
+        "note": "Tổ hợp bán nguyên âm môi + xát thanh hầu cuối âm tiết (cần đối chiếu với 3 tổ hợp phụ âm cuối trong Quyết định 1052/QĐ-UBND)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "iq / yq, uq / wq",
+        "ipa": "jʔ, wʔ",
+        "note": "Tổ hợp bán nguyên âm + tắc thanh hầu cuối âm tiết (cần đối chiếu với 3 tổ hợp phụ âm cuối trong Quyết định 1052/QĐ-UBND)",
+        "confidence": "low"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ phi thanh điệu và không có đối lập âm vực (register/phonation) âm vị học. Khác với nhiều ngôn ngữ Katuic khác (như Bru hay Pacoh vốn vô thanh hóa phụ âm tắc hữu thanh cổ để sinh ra âm vực giọng thở/giọng trong), tiếng Cơ Tu bảo lưu đầy đủ 4 loạt phụ âm tắc (vô thanh thường, vô thanh bật hơi, hữu thanh thường, hữu thanh hút vào) và đối lập độ dài nguyên âm (ngắn/dài) cùng hệ phụ âm cuối phong phú (/-ʔ/, /-h/, /-l/, /-r/). Một số dấu phụ trong chữ viết dùng để phân biệt độ dài hoặc độ mở nguyên âm, không phải dấu thanh điệu."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi",
+      "form": "ku",
+      "ipa": "ku",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "mui",
+      "ipa": "muj",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "bơơr",
+      "ipa": "bəːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "manưih / nak",
+      "ipa": "manɨjh / nak",
+      "gloss_en": "person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "kadong",
+      "ipa": "kadɔŋ",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "anuq",
+      "ipa": "ʔanuʔ",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá",
+      "form": "asoq",
+      "ipa": "ʔasɔʔ",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "aham",
+      "ipa": "ʔaham",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tai",
+      "form": "kator",
+      "ipa": "katɔr",
+      "gloss_en": "ear",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mat",
+      "ipa": "mat",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "moh",
+      "ipa": "mɔh",
+      "gloss_en": "nose",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tay",
+      "form": "tai",
+      "ipa": "taj",
+      "gloss_en": "hand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "đooc / dhooc",
+      "ipa": "ɗɔːk",
+      "gloss_en": "water",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "oih",
+      "ipa": "ʔɔjh",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mới",
+      "form": "tamê",
+      "ipa": "tame",
+      "gloss_en": "new",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng nói / lời nói",
+      "form": "pơraq / p'rá",
+      "ipa": "pəraʔ",
+      "gloss_en": "language / speech",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Nói lý – Hát lý Cơ Tu",
+        "note": "Nghệ thuật diễn xướng ứng khẩu, đối đáp giàu hình ảnh ẩn dụ trong lễ cưới, lễ mừng lúa mới, lễ kết nghĩa anh em (prơngooch) hoặc hòa giải cộng đồng; được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2015."
+      },
+      {
+        "name": "Babooch (Baboih — hát giao duyên)",
+        "note": "Làn điệu hát đối đáp trữ tình nam nữ phổ biến của người Cơ Tu."
+      },
+      {
+        "name": "Bhơnooch, Cơleeng (Kơlâu kơlênh), Chơxur, Cha chấp",
+        "note": "Các làn điệu dân ca truyền thống gắn với sinh hoạt nương rẫy, ru con, tâm tình và lễ hội."
+      },
+      {
+        "name": "Âm nhạc vũ điệu Tân'tung – Da'dă (Tung tung da dá)",
+        "note": "Nhạc trống chiêng và khèn đệm cho vũ điệu dâng trời của nam (tân'tung) và nữ (da'dă) trong các lễ hội lớn của làng."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung và luyến láy ứng khẩu trong Hát lý",
+        "description": "Giai điệu bán nói bán hát (recitative-like), cao độ và trường độ co giãn linh hoạt theo nhịp thở, trọng âm âm tiết chính và độ dài nguyên âm tự nhiên của lời ứng khẩu (tiếng Cơ Tu không bị ràng buộc bởi thanh điệu từ vựng).",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn abel (h'ra)",
+        "note": "Nhạc cụ dây kéo (dáng tựa đàn cò, thân bằng ống nứa, 1 dây, kéo bằng cung nứa đồng thời người chơi ngậm mảnh kheel làm bằng vảy tê tê hoặc lá rừng ở miệng để điều khiển âm sắc, dùng thổ lộ tâm tình đôi lứa; lưu ý một số tư liệu báo chí đôi khi gọi một loại khèn hoặc đàn môi là abel)."
+      },
+      {
+        "name": "Đàn h'jưl ('njưl) và đàn tơm rech (tơbhréch / tâm bét alui / tâm brêê)",
+        "note": "Nhạc cụ dây gảy truyền thống (thân tre/trúc có hộp cộng hưởng bằng vỏ quả bầu khô áp vào ngực) dùng trong đám cưới, lễ hội và sinh hoạt tâm tình."
+      },
+      {
+        "name": "Khèn bè (khèn a guôch, khèn bơ rét)",
+        "note": "Nhạc cụ hơi đa quản có lưỡi gà bằng đồng cắm qua bầu gỗ trám sáp ong rú, đệm cho hát và múa lễ hội."
+      },
+      {
+        "name": "Đàn môi (âng kro)",
+        "note": "Đàn môi bằng tre già hoặc đồng mỏng dùng trong giao duyên."
+      },
+      {
+        "name": "Sáo, tiêu (a'luốt / a buốt, cr'toót / crtooc, rahêm, a'hel, t'rel, tarqơơi took) và tù và / sừng thú (thêy, cr'dool, cabluôc, bhơlưa, karyok ayol)",
+        "note": "Nhạc cụ hơi báo hiệu, mô phỏng tiếng chim thú và độc tấu."
+      },
+      {
+        "name": "Bộ trống chiêng: chiêng (chieng / ching), trống lớn (k'thu / cathu), trống trung (par'lư), trống nhỏ (ch'gơr / chgơl / ch'gân) và thanh la (bhr'noóh / prnoóch)",
+        "note": "Bộ gõ chủ đạo giữ nhịp cho lễ hội và điệu múa Tân'tung – Da'dă."
+      }
+    ]
+  },
+  "ml_hints": {
+    "phonological_notes_for_tts_and_svs": "Tiếng Cơ Tu là ngôn ngữ phi thanh điệu nhưng có đối lập nguyên âm ngắn/dài và hệ thống tiền âm tiết (sesquisyllable) + âm cuối phong phú. Khi dùng mô hình chỉ biết tiếng Việt, cần tránh gán thanh điệu biến thiên mạnh lên từ gốc, ưu tiên thanh ngang (33) cho âm tiết mở/mũi và thanh sắc/nặng nhẹ cho âm tiết khép bằng /-p, -t, -c, -k, -ʔ/.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "pơraq / p'rá",
+        "quoc_ngu": "pơ-rắc",
+        "note": "Âm tiết phụ pơ- đọc cực ngắn, không nhấn; âm cuối tắc thanh hầu /-ʔ/ (-q) không có chữ tương đương trong Quốc ngữ, xấp xỉ bằng âm tiết khép ngắn hoặc thanh nặng/sắc ngắt giọng."
+      },
+      {
+        "native": "Bhalêê",
+        "quoc_ngu": "ba-lê",
+        "note": "Chữ bh ghi âm hút vào /ɓ/ tương đương chữ 'b' trong tiếng Việt chuẩn; nguyên âm đôi chữ cái êê ghi âm /eː/ kéo dài hơn bình thường."
+      },
+      {
+        "native": "Đh'Rôồng",
+        "quoc_ngu": "đơ-rôồng (đ-rồng kéo dài)",
+        "note": "Tổ hợp tiền âm tiết hút vào + r; nguyên âm ôô dài /oː/ không có đối lập riêng trong chữ Quốc ngữ."
+      },
+      {
+        "native": "bơơr",
+        "quoc_ngu": "bơơ-rờ (bơ kéo dài + r cuối)",
+        "note": "Âm cuối /-r/ không tồn tại trong tiếng Việt; mô hình chỉ biết tiếng Việt không đọc được -r cuối nếu viết liền, chỉ có thể nối nhẹ âm r rất ngắn phía sau."
+      },
+      {
+        "native": "abel",
+        "quoc_ngu": "a-ben (lưỡi cong chạm lợi)",
+        "note": "Âm cuối /-l/ không có trong tiếng Việt; người Việt thường xấp xỉ thành -n nhưng phát âm chuẩn phải giữ vị trí bên lưỡi [l]."
+      },
+      {
+        "native": "moh",
+        "quoc_ngu": "mo-hờ (bật hơi nhẹ cuối âm tiết)",
+        "note": "Âm xát thanh hầu cuối /-h/ không có trong tiếng Việt; cần luồng hơi thở vô thanh thoát ra ở cuối nguyên âm."
+      },
+      {
+        "native": "oih",
+        "quoc_ngu": "oi-hờ",
+        "note": "Vần /-ɔjh/ kết thúc bằng lướt ngạc + xát thanh hầu /-h/, không có trong tiếng Việt."
+      },
+      {
+        "native": "manưih",
+        "quoc_ngu": "ma-nươi-hờ",
+        "note": "Tiền âm tiết ma- nhẹ, âm tiết chính chứa /-ɨjh/ (kết hợp bán nguyên âm và /-h/ cuối)."
+      },
+      {
+        "native": "babooch",
+        "quoc_ngu": "ba-boóc",
+        "note": "Nguyên âm dài /ɔː/ đi với âm cuối mặt lưỡi /-c/ (trong tiếng Việt sau o/ô không có -ch mà bị môi hóa thành -c [k͡p], nên đây chỉ là xấp xỉ gần đúng)."
+      },
+      {
+        "native": "ph",
+        "quoc_ngu": "p-h (tắc bật hơi [pʰ], không đọc [f])",
+        "note": "Chữ ph trong tiếng Cơ Tu là âm tắc hai môi bật hơi [pʰ], khác chữ 'ph' [f] của tiếng Việt."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Katu Đông (Cơ Tu vùng thấp / trung — biến thể chính tại Quảng Nam, Đà Nẵng)",
+        "name_en": "Eastern Katu",
+        "iso639_3": "ktv",
+        "glottocode": "east1236",
+        "note": "Biến thể chính tại Đông Giang, Tây Giang, Nam Giang (Quảng Nam / Đà Nẵng) và Nam Đông (Huế); làm cơ sở cho ngữ vựng Costello (1971) và chữ viết Cơ Tu tại Quảng Nam."
+      },
+      {
+        "name_vi": "Tiếng Katu Tây (Katu Hạ / Low Katu)",
+        "name_en": "Western Katu",
+        "iso639_3": "kuf",
+        "glottocode": "west2398",
+        "note": "Phân bố chủ yếu ở Nam Lào (Sekong, Savannakhet) và một bộ phận tại A Lưới (TP. Huế) cũng như vùng biên giới Việt – Lào; gồm các phương ngữ Triw, Dak Kang, Kantu, Kalum."
+      },
+      {
+        "name_vi": "Tiếng Cơ Tu Phương (Katu Thượng / High Katu)",
+        "name_en": "Phuong",
+        "iso639_3": "phg",
+        "glottocode": "phuo1238",
+        "note": "Phân bố tại một số vùng núi cao thuộc TP. Huế và Đà Nẵng / Quảng Nam; đôi khi được gộp chung với Katu Đông (ktv) trong phân loại dân tộc học tại Việt Nam."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ku",
+        "ipa": "ku",
+        "meaning_vi": "tôi",
+        "gloss_en": "I"
+      },
+      {
+        "native": "mui",
+        "ipa": "muj",
+        "meaning_vi": "một",
+        "gloss_en": "one"
+      },
+      {
+        "native": "bơơr",
+        "ipa": "bəːr",
+        "meaning_vi": "hai",
+        "gloss_en": "two"
+      },
+      {
+        "native": "manưih",
+        "ipa": "manɨjh",
+        "meaning_vi": "con người",
+        "gloss_en": "person"
+      },
+      {
+        "native": "kadong",
+        "ipa": "kadɔŋ",
+        "meaning_vi": "con cá",
+        "gloss_en": "fish"
+      },
+      {
+        "native": "anuq",
+        "ipa": "ʔanuʔ",
+        "meaning_vi": "con chó",
+        "gloss_en": "dog"
+      },
+      {
+        "native": "asoq",
+        "ipa": "ʔasɔʔ",
+        "meaning_vi": "chiếc lá",
+        "gloss_en": "leaf"
+      },
+      {
+        "native": "aham",
+        "ipa": "ʔaham",
+        "meaning_vi": "máu",
+        "gloss_en": "blood"
+      },
+      {
+        "native": "mat",
+        "ipa": "mat",
+        "meaning_vi": "mắt",
+        "gloss_en": "eye"
+      },
+      {
+        "native": "moh",
+        "ipa": "mɔh",
+        "meaning_vi": "mũi",
+        "gloss_en": "nose"
+      },
+      {
+        "native": "tai",
+        "ipa": "taj",
+        "meaning_vi": "bàn tay",
+        "gloss_en": "hand"
+      },
+      {
+        "native": "oih",
+        "ipa": "ʔɔjh",
+        "meaning_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "tamê",
+        "ipa": "tame",
+        "meaning_vi": "mới",
+        "gloss_en": "new"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog — Eastern Katu (east1236)",
+      "url": "https://glottolog.org/resource/languoid/id/east1236",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog — Western Katu (west2398)",
+      "url": "https://glottolog.org/resource/languoid/id/west2398",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL International — ISO 639-3: ktv (Eastern Katu)",
+      "url": "https://iso639-3.sil.org/code/ktv",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Katu language",
+      "url": "https://en.wikipedia.org/wiki/Katu_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Phuong language (Eastern Katu / High Katu)",
+      "url": "https://en.wikipedia.org/wiki/Phuong_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Cơ Tu",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_C%C6%A1_Tu",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wallace, Judith M. (1969). Katu phonemes. Mon-Khmer Studies, 3, 64–73.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Costello, Nancy A. (1971). Ngữ-vựng Katu = Katu Vocabulary. Sài Gòn: Trung tâm Học liệu, Bộ Giáo dục.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Hữu Hoành & Nguyễn Văn Lợi (1998). Tiếng Katu. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Sidwell, Paul (2005). The Katuic languages: classification, reconstruction and comparative lexicon. LINCOM studies in Asian linguistics, 58. Muenchen: Lincom Europa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UBND tỉnh Quảng Nam (22/04/2025). Quyết định số 1052/QĐ-UBND về việc phê chuẩn Bộ chữ viết Cơ Tu; Dự thảo Thông tư ban hành Chương trình giáo dục phổ thông môn học tiếng Cơ Tu cấp tiểu học, Bộ Giáo dục và Đào tạo (04/11/2026).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "scripts[0].note",
+          "severity": "medium",
+          "problem": "Chi tiết 'bảng chữ cái 36 chữ cái' trong dự thảo Chương trình môn học Tiếng Cơ Tu cấp tiểu học (Bộ GD&ĐT công bố ngày 04/11/2026) không kiểm chứng được từ các văn bản công khai trên mạng (chỉ xác minh được Quyết định số 1052/QĐ-UBND ngày 22/04/2025 của UBND tỉnh Quảng Nam gồm: 27 phụ âm đơn, 16 tổ hợp phụ âm đầu, 27 nguyên âm, 17 phụ âm cuối gồm 14 âm đơn và 3 tổ hợp âm cuối).",
+          "fix": "Bỏ con số '36 chữ cái' chưa kiểm chứng được trong scripts[0].note và validation.open_issues; bổ sung số hiệu Quyết định 1052/QĐ-UBND và ngày công bố dự thảo 04/11/2026."
+        },
+        {
+          "path": "music.instruments[0]",
+          "severity": "medium",
+          "problem": "Gộp chung 'abel' vào mục 'Khèn bè (abel, khèn a guôch)' dễ gây nhầm lẫn về phân loại nhạc cụ học: theo tư liệu điền dã văn hóa Cơ Tu (Cục Di sản Văn hóa, Báo Đà Nẵng, Báo Biên phòng), 'đàn abel' phổ biến nhất là đàn nhị 1 dây (dáng như đàn cò, kéo bằng cung nứa kết hợp ngậm mảnh vảy tê tê/lá 'kheel' ở miệng để điều âm), đôi khi từ 'abel' cũng được một số bài báo dùng chỉ đàn môi hoặc khèn tùy địa phương.",
+          "fix": "Tách riêng mục 'Đàn abel' (nhạc cụ dây kéo kết hợp ngậm mảnh kheel ở miệng) khỏi mục 'Khèn bè (khèn a guôch, khèn bơ rét)' và ghi chú rõ sự đa nghĩa trong cách gọi của một số tư liệu báo chí."
+        },
+        {
+          "path": "music.instruments[1]",
+          "severity": "low",
+          "problem": "Thiếu tên các biến thể phổ biến của đàn bầu truyền thống Cơ Tu có vỏ bầu khô gắn ống tre 2 dây là 'tơbhréch / tâm bét alui / tâm brêê'.",
+          "fix": "Bổ sung các tên gọi đồng danh 'tơbhréch / tâm bét alui / tâm brêê' bên cạnh 'tơm rech' để đầy đủ dữ liệu dân tộc nhạc học."
+        },
+        {
+          "path": "phonology.codas[15]",
+          "severity": "low",
+          "problem": "Theo Quyết định số 1052/QĐ-UBND (22/04/2025) của tỉnh Quảng Nam, bộ chữ Cơ Tu có 17 phụ âm cuối gồm 14 phụ âm đơn và đúng 3 tổ hợp phụ âm cuối. Trong bảng hiện liệt kê nhiều tổ hợp cuối giả định (-ih/-jh, -uh/-wh, -iq/-yq, -uq/-wq) vượt quá con số 3 tổ hợp chính thức.",
+          "fix": "Hạ confidence của các tổ hợp phụ âm cuối ít gặp (-uh/-wh, -iq/-yq, -uq/-wq) xuống 'low' và ghi chú rõ cần đối chiếu 3 tổ hợp phụ âm cuối chính thức trong Quyết định 1052/QĐ-UBND."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết danh mục 27 phụ âm đơn, 16 tổ hợp phụ âm đầu, 27 nguyên âm và 17 phụ âm cuối (14 âm đơn, 3 tổ hợp phụ âm cuối) theo đúng Phụ lục Quyết định số 1052/QĐ-UBND của UBND tỉnh Quảng Nam (22/04/2025) và dự thảo Chương trình môn học tiếng Cơ Tu cấp tiểu học của Bộ GD&ĐT (04/11/2026), đặc biệt là quy ước dùng dấu phụ ghi độ dài nguyên âm so với lối nhân đôi con chữ truyền thống.",
+      "Cần xác minh cách phân biệt chính tả thống nhất giữa loạt tắc hữu thanh thường (/b, d, ɟ/) và loạt tắc hút vào (/ɓ, ɗ, ʄ/) trong bộ sách giáo khoa mới.",
+      "Cần chuyên gia âm nhạc dân tộc học ký âm chuẩn thang âm/điệu thức của Hát lý và điệu Babooch."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

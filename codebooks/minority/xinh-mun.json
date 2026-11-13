@@ -1,0 +1,750 @@
+{
+  "id": "xinh-mun",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xinh Mun",
+  "name_en": "Ksingmul (Puoc / Xinh Mun)",
+  "autonym": "Ksingmul (Ksing Mul)",
+  "ethnic_group_vi": "Xinh Mun",
+  "language": {
+    "iso639_3": "puo",
+    "glottocode": "puoc1238",
+    "family": "Austroasiatic",
+    "branch": "Khmuic"
+  },
+  "regions": [
+    "Sơn La (Yên Châu, Sông Mã, Mai Sơn, Mộc Châu)",
+    "Điện Biên (xã Chiềng Sơ, huyện Điện Biên Đông)",
+    "Tỉnh Hủa Phăn / Houaphanh (huyện Xiêng Khọ, Lào)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Xinh Mun tại Việt Nam là 29.503 người (Điều tra 53 DTTS năm 2019, trong đó Sơn La có 27.031 người và Điện Biên có 2.285 người); tổng số người nói ước khoảng 26.500–27.000 người ở Việt Nam và Lào, tuy nhiên tỷ lệ song ngữ và chuyển dịch sang tiếng Thái Đen và tiếng Việt ở thế hệ trẻ khá cao.",
+  "scripts": [
+    {
+      "name": "Chưa có bộ chữ viết riêng chính thức (dùng chữ Quốc ngữ / Latinh phiên âm thực hành và nghiên cứu)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Người Xinh Mun ở Việt Nam chưa có bộ chữ viết riêng do Nhà nước ban hành. Trong đời sống và văn bản báo chí, các từ vựng, tên lễ hội được ghi âm ước lệ dựa trên chữ Quốc ngữ tiếng Việt; giới ngôn ngữ học dùng ký âm IPA/Latinh (Pogibenko & Bùi Khánh Thế 1990; Edmondson 2010)."
+    },
+    {
+      "name": "Chữ Thái Đen truyền thống (lịch sử, hạn chế)",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet",
+      "official_in_vietnam": false,
+      "note": "Trước đây một bộ phận người Xinh Mun lớn tuổi cư trú xen kẽ với người Thái Tây Bắc biết đọc viết chữ Thái, nhưng không phát triển thành văn tự riêng cho tiếng Xinh Mun."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp tự động từ tư liệu ngôn ngữ học đã công bố (Pogibenko & Bùi Khánh Thế 1990 qua cơ sở dữ liệu PHOIBLE EA 2386 / SEAlang, Edmondson 2010, Sidwell 2014, Badenoch 2022) và tư liệu dân tộc học Việt Nam. Tiếng Xinh Mun chưa có chữ viết chuẩn hóa nên cột grapheme nêu cách ghi Latinh/Quốc ngữ ước lệ thường gặp trong tài liệu điền dã. Chưa được người bản ngữ và chuyên gia ngôn ngữ học Khơ Mú thẩm định trực tiếp.",
+  "phonology": {
+    "syllable_structure": "(C1(ə/l))C2(C3)V(ː)(C4) — ngôn ngữ cận âm tiết tính (sesquisyllabic / 'một âm tiết rưỡi'), gồm tiền âm tiết không mang trọng âm (thường có âm cuối tùy chọn /-l/, ví dụ kəgaŋ ~ kəlgaŋ) và âm tiết chính mang trọng âm.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi; phổ biến ở đầu âm tiết chính và tiền âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (chú ý: trong Quốc ngữ 'ph' đọc là [f])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc lợi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d",
+        "note": "Tắc lợi hữu thanh (ghi bằng 'd' trong chuyển tự quốc tế, 'đ' theo thói quen Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / c",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (khác [x] của tiếng Việt chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh (khác âm xát [ɣ] của tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm; có thể đứng đầu âm tiết (WALS 9A)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ / (không ghi)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z / d / gi",
+        "ipa": "zʲ",
+        "note": "Xát lợi ngạc hóa hữu thanh; theo PHOIBLE (EA 2386), tiếng Xinh Mun có /zʲ/ thay vì bán nguyên âm /j/ ở vị trí đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / qu / u / o",
+        "ipa": "w",
+        "note": "Tiếp cận môi - ngạc mềm; xuất hiện độc lập hoặc trong tổ hợp Cw-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận cạnh lưỡi; xuất hiện ở đầu âm tiết chính, tổ hợp phụ âm đầu và cuối tiền âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ks- / kơx-",
+        "ipa": "ks",
+        "note": "Tổ hợp phụ âm đầu / tiền âm tiết đặc trưng (ví dụ Ksingmul, ksai)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i (ngắn)",
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / ii (dài)",
+        "ipa": "iː",
+        "note": "Nguyên âm đóng hàng trước dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (ngắn)",
+        "ipa": "ɨ",
+        "note": "Nguyên âm đóng hàng giữa ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ưư (dài)",
+        "ipa": "ɨː",
+        "note": "Nguyên âm đóng hàng giữa dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u (ngắn)",
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / uu (dài)",
+        "ipa": "uː",
+        "note": "Nguyên âm đóng hàng sau dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / â (ngắn)",
+        "ipa": "ə",
+        "note": "Nguyên âm nửa đóng/giữa trung hòa ngắn; cũng làm nguyên âm tiền âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ơơ (dài)",
+        "ipa": "əː",
+        "note": "Nguyên âm nửa đóng hàng giữa dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô (ngắn)",
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ôô (dài)",
+        "ipa": "oː",
+        "note": "Nguyên âm nửa đóng hàng sau dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e (ngắn)",
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở hàng trước ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / ee (dài)",
+        "ipa": "ɛː",
+        "note": "Nguyên âm nửa mở hàng trước dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / oo (dài)",
+        "ipa": "ɔː",
+        "note": "Nguyên âm nửa mở hàng sau; chỉ xuất hiện ở dạng dài (không có đối lập ngắn theo PHOIBLE EA 2386)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă (ngắn)",
+        "ipa": "ä",
+        "note": "Nguyên âm mở hàng giữa ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / aa (dài)",
+        "ipa": "äː",
+        "note": "Nguyên âm mở hàng giữa dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɨə",
+        "note": "Nguyên âm đôi hướng tâm hàng giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm hàng sau",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không nổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không nổ (ví dụ mɨt, hɔːt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-c / -ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) cuối âm tiết đặc trưng Môn-Khmer (ví dụ sec 'thịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k / -c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh (ví dụ səlmok)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ʔ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (biến đổi hoặc rụng ở một số từ so với tiếng Khơ Mú nguyên thủy, ví dụ *kaʔ > kaː)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ miəm 'máu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi lợi (ví dụ kəlwiən)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-nh / -ɲ",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng cuối âm tiết (ví dụ ʔaɲ 'tôi', kdɨɲ 'to/lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ví dụ kəgaŋ 'rừng', ksiŋ 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết — không có trong tiếng Việt chuẩn; xuất hiện cả ở âm tiết chính (mul) và cuối tiền âm tiết (kəlgaŋ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-s",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh cuối âm tiết (ví dụ kʰras 'cười')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết (ví dụ mih 'mày/bạn', kəh 'đó')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-w / -u / -o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi - ngạc mềm",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-j / -i / -y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng (ví dụ ksai)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (toneless) và không có đối lập âm vực (register) âm vị học (Pogibenko & Bùi Khánh Thế 1990; Sidwell 2014). Từ âm vị học phân biệt độ dài nguyên âm (ngắn/dài) và có trọng âm rơi vào âm tiết chính trong cấu trúc cận âm tiết (sesquisyllabic). Một số từ vay mượn tiếng Thái Đen hoặc tiếng Việt có thể giữ nét cao độ trong lời nói song ngữ nhưng không tạo thành hệ thống thanh điệu bản ngữ."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "cá",
+      "form": "kaː",
+      "ipa": "kaː",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thịt",
+      "form": "sec",
+      "ipa": "sɛc ~ sec",
+      "gloss_en": "meat / flesh",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "miəm",
+      "ipa": "miəm",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "hɔːt",
+      "ipa": "hɔːt",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rừng",
+      "form": "kəgaŋ ~ kəlgaŋ",
+      "ipa": "kəɡaŋ ~ kəlɡaŋ",
+      "gloss_en": "forest",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cho ăn",
+      "form": "p-caː",
+      "ipa": "pəcaː",
+      "gloss_en": "to feed (causative)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quen",
+      "form": "kəlwiən",
+      "ipa": "kəlwiən",
+      "gloss_en": "to be acquainted (Vietic loan)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thợ mộc",
+      "form": "səlmok",
+      "ipa": "səlmok",
+      "gloss_en": "carpenter (Vietic loan)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cười",
+      "form": "kʰras",
+      "ipa": "kʰras",
+      "gloss_en": "to laugh",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Xinh Mun (người núi)",
+      "form": "Ksing Mul",
+      "ipa": "ksiŋ mul ~ kəsiŋ mul",
+      "gloss_en": "Ksingmul people (mountain people)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá",
+      "form": "na",
+      "ipa": "na",
+      "gloss_en": "leaf (unverified form)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "một",
+      "form": "mốt",
+      "ipa": null,
+      "gloss_en": "one (ethnographic transcription)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "biel",
+      "ipa": "biəl",
+      "gloss_en": "two (ethnographic transcription)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pe",
+      "ipa": "pɛ ~ pe",
+      "gloss_en": "three (ethnographic transcription)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "giỏ đựng cơm nếp đi nương",
+      "form": "ếm pá",
+      "ipa": null,
+      "gloss_en": "bamboo sticky-rice basket (ethnographic transcription)",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Khắp dân gian (giao thoa Xinh Mun – Thái Tây Bắc)",
+        "note": "Gồm khắp ủ lục nòn (hát ru), khắp lồng tồng (hát khi làm ruộng), hát đối đáp bên vò rượu cần, hát mừng cơm mới và đám cưới; nhiều bài hát bằng tiếng Thái hoặc pha trộn tiếng Xinh Mun."
+      },
+      {
+        "name": "Hát cúng trong nghi lễ Mượng ma (Mạng ma / Mạ ma) và Ksai sà tip",
+        "note": "Lời khấn hát của thầy mo cầu sức khỏe, gọi hồn vía (Mượng ma) quanh cây hoa xặng bok và lễ lộc hoa / cúng hoa ban cầu mùa màng bình an (Ksai sà tip)."
+      },
+      {
+        "name": "Nhạc múa xòe vòng và xòe tenh",
+        "note": "Múa tập thể quanh cây nêu và vò rượu cần theo nhịp trống, chiêng, bàn sang và ống tre gõ sàn (tăng bu); xòe tenh là điệu múa phồn thực truyền thống."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Trống gỗ / Trống độc mộc",
+        "note": "Nhạc cụ gõ truyền thống dùng trong các nghi lễ cộng đồng của người Xinh Mun."
+      },
+      {
+        "name": "Bàn sang",
+        "note": "Nhạc cụ gõ tự chế từ chum/vò sành nhỏ kết hợp với mảnh/chậu thau đồng tạo âm vang trầm, dùng trong lễ cúng Ksai sà tip và Mượng ma."
+      },
+      {
+        "name": "Ống tre gõ sàn (Tăng bu)",
+        "note": "Ống tre dài dùng để chọc/gõ nhịp xuống sàn nhà sàn tạo âm thanh rộn ràng trong lễ hội."
+      },
+      {
+        "name": "Chiêng",
+        "note": "Nhạc cụ gõ dùng kết hợp với trống và bàn sang trong lễ hội và nghi lễ."
+      },
+      {
+        "name": "Đàn một dây",
+        "note": "Nhạc cụ dây truyền thống."
+      },
+      {
+        "name": "Khèn và sáo",
+        "note": "Nhạc cụ hơi phổ biến trong sinh hoạt văn nghệ và lễ hội (giao lưu văn hóa vùng Tây Bắc)."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name_vi": "Xinh Mun Dạ (Ksingmul Dạ)",
+        "iso639_3": "puo",
+        "region": "Xã Chiềng On, huyện Yên Châu và các huyện biên giới tỉnh Sơn La, Việt Nam",
+        "note": "Phương ngữ chính tại Việt Nam; tiếp xúc mạnh và vay mượn nhiều từ vựng từ tiếng Thái Đen và tiếng Việt (Đặng Nghiêm Vạn et al. 1972; Edmondson 2010)."
+      },
+      {
+        "name_vi": "Xinh Mun Nghệt (Ksingmul Nghệt)",
+        "iso639_3": "puo",
+        "region": "Nà Nghệt, huyện Xiêng Khọ, tỉnh Hủa Phăn (Houaphanh), Lào và vùng giáp biên Việt Nam",
+        "note": "Phương ngữ bảo lưu được nhiều đặc điểm ngữ âm - từ vựng cổ nguyên thủy nhất của tiếng Xinh Mun (Edmondson 2010)."
+      },
+      {
+        "name_vi": "Xinh Mun Đồng (Ksingmul Đồng)",
+        "iso639_3": "puo",
+        "region": "Tây Bắc Việt Nam",
+        "note": "Một trong ba nhóm phương ngữ được ghi nhận trong Đặng Nghiêm Vạn et al. (1972) và Edmondson (2010)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Ksingmul",
+        "quoc_ngu": "cơ-xinh mun",
+        "note": "Tổ hợp phụ âm đầu /ks-/ và âm cuối /-l/ không có trong tiếng Việt chuẩn: tách tiền âm tiết thành 'cơ-' (đọc lướt nhẹ, không nhấn) và xấp xỉ âm cuối /-l/ bằng '-n' (hoặc nối âm 'l' nhẹ ở cuối nếu mô hình hỗ trợ)."
+      },
+      {
+        "native": "kəlgaŋ",
+        "quoc_ngu": "cân-gang",
+        "note": "Tiền âm tiết đóng có âm cuối /-l/ (/kəl-/) không tồn tại trong tiếng Việt; xấp xỉ tạm bằng 'cân-' đọc thật ngắn, nhấn trọng âm vào âm tiết chính 'gang' (chú ý /ɡ/ trong tiếng Xinh Mun là âm tắc [ɡ], không phải âm xát [ɣ] như 'g' tiếng Việt)."
+      },
+      {
+        "native": "sec",
+        "quoc_ngu": "xếch",
+        "note": "Âm tắc vô thanh cuối âm tiết trong tiếng không thanh điệu thường nghe giống thanh sắc của tiếng Việt; âm cuối ngạc cứng /-c/ xấp xỉ gần với '-ch' tiếng Việt."
+      },
+      {
+        "native": "miəm",
+        "quoc_ngu": "miêm",
+        "note": "Âm tiết mở hoặc kết thúc bằng âm vang trong tiếng Xinh Mun (không thanh điệu) nên gán thanh ngang của tiếng Việt để giữ cao độ bằng phẳng."
+      },
+      {
+        "native": "pʰ- (ví dụ pʰaː)",
+        "quoc_ngu": "p-ha (hoặc pha)",
+        "note": "Chữ 'ph' trong Quốc ngữ tiếng Việt phát âm là âm xát môi-răng [f], trong khi tiếng Xinh Mun có âm tắc hai môi bật hơi [pʰ] (không có trong tiếng Việt chuẩn)."
+      },
+      {
+        "native": "kʰ- (ví dụ kʰras)",
+        "quoc_ngu": "kh-rát",
+        "note": "Âm /kʰ/ trong tiếng Xinh Mun là âm tắc bật hơi [kʰ], trong khi 'kh' tiếng Việt chuẩn đọc là âm xát [x]."
+      },
+      {
+        "native": "zʲ-",
+        "quoc_ngu": "di / gi (giọng Bắc)",
+        "note": "Âm xát lợi ngạc hóa hữu thanh [zʲ] không có nguyên bản trong tiếng Việt chuẩn; xấp xỉ gần nhất bằng 'gi/d' giọng Bắc [z] kèm trượt ngạc."
+      },
+      {
+        "native": "biel",
+        "quoc_ngu": "biên",
+        "note": "Âm cuối /-l/ không có trong tiếng Việt, TTS tiếng Việt buộc phải xấp xỉ bằng '-n' (làm mất đối lập /-n/ và /-l/)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "kaː",
+        "ipa": "kaː",
+        "gloss_vi": "cá"
+      },
+      {
+        "native": "sec",
+        "ipa": "sec",
+        "gloss_vi": "thịt"
+      },
+      {
+        "native": "miəm",
+        "ipa": "miəm",
+        "gloss_vi": "máu"
+      },
+      {
+        "native": "hɔːt",
+        "ipa": "hɔːt",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "kəlgaŋ",
+        "ipa": "kəlɡaŋ",
+        "gloss_vi": "rừng"
+      },
+      {
+        "native": "p-caː",
+        "ipa": "pəcaː",
+        "gloss_vi": "cho ăn"
+      },
+      {
+        "native": "kəlwiən",
+        "ipa": "kəlwiən",
+        "gloss_vi": "quen"
+      },
+      {
+        "native": "səlmok",
+        "ipa": "səlmok",
+        "gloss_vi": "thợ mộc"
+      }
+    ],
+    "tts_singing_notes": [
+      "Tiếng Xinh Mun không có thanh điệu: khi đưa vào mô hình TTS/giọng hát tiếng Việt, dùng thanh ngang cho âm tiết mở/âm vang và thanh sắc (hoặc nặng) cho âm tiết kết thúc bằng -p, -t, -ch, -c để tránh tạo đường nét thanh điệu giả.",
+      "Các âm không có trong tiếng Việt chuẩn cần lưu ý nếu huấn luyện đa ngữ: phụ âm bật hơi hai môi /pʰ/, tắc ngạc mềm bật hơi /kʰ/, tắc ngạc mềm hữu thanh /ɡ/, xát ngạc hóa /zʲ/, phụ âm cuối /-l/, /-s/, /-h/, tiền âm tiết cận âm tiết tính (Cə-/Cəl-) và đối lập nguyên âm ngắn/dài."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.4 — Ksingmul (puoc1238)",
+      "url": "https://glottolog.org/resource/languoid/id/puoc1238",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Ksingmul sound inventory (EA 2386, Dmitry Nikolaev, theo Pogibenko & Bùi Khánh Thế 1990)",
+      "url": "https://phoible.org/languages/puoc1238",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Ksingmul (wals_code_ksi)",
+      "url": "https://wals.info/languoid/lect/wals_code_ksi",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Ksingmul language",
+      "url": "https://en.wikipedia.org/wiki/Ksingmul_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Xinh Mun",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Xinh_Mun",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Pogibenko, T. G. & Bùi Khánh Thế (1990). Jazyk Ksingmul: Materialy sovetsko-v'etnamskoj lingvisticheskoj ekspeditsii 1979 goda. Moskva: Nauka.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. (2010). The Kháng language of Vietnam in comparison to Ksingmul (Xinh-mun). In K. A. McElhanon & G. Reesink (eds.), A Mosaic of Languages and Cultures: Studies Celebrating the Career of Karl J. Franklin, pp. 138–154. Dallas: SIL International.",
+      "url": "https://www.sil.org/resources/archives/9267",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sidwell, Paul (2014). Khmuic classification and homeland. Mon-Khmer Studies 43.1: 47–56.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Badenoch, Nathan (2022). Speaking like a Ghost: Registers of Intimacy and Incompatibility in the Forests of Northern Laos. Journal of the Siam Society 110.1: 103–122.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả Điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "autonym",
+          "severity": "medium",
+          "problem": "Cụm 'khoăm Kơxinh mul' thực chất được suy diễn tương tự từ 'khoăm Kơhmụ' (tiếng Khơ Mú, trong đó 'khoăm/quăm' là từ mượn tiếng Thái nghĩa là tiếng nói). Tư liệu ngôn ngữ học và dân tộc học ghi nhận tộc danh tự gọi là Ksingmul / Ksing Mul ('người núi').",
+          "fix": "Đổi autonym thành 'Ksingmul (Ksing Mul)' và hạ mức độ tin cậy hoặc chỉnh lại mục từ tương ứng trong lexicon."
+        },
+        {
+          "path": "phonology.codas[7].note",
+          "severity": "medium",
+          "problem": "Ghi chú lấy ví dụ 'Ksing ~ Kơxinh' cho âm cuối ngạc cứng /-ɲ/ là thiếu chính xác vì hình vị gốc là 'Ksing' /ksiŋ/ (âm cuối ngạc mềm /-ŋ/); cách viết 'Xinh' trong tiếng Việt chỉ là quy tắc chính tả/ngữ âm tiếng Việt chuyển /-iŋ/ thành 'inh'.",
+          "fix": "Bỏ ví dụ 'Ksing ~ Kơxinh' khỏi mục âm cuối /-ɲ/ và giải thích rõ sự tương ứng /-iŋ/ -> Quốc ngữ '-inh'."
+        },
+        {
+          "path": "phonology.codas",
+          "severity": "low",
+          "problem": "Bảng âm cuối thiếu âm xát cuối /-h/ và /-s/ vốn được ghi nhận trong tư liệu tiếng Xinh Mun (ví dụ: mih 'mày/bạn', kəh 'đó', kʰras 'cười' trong Pogibenko & Bùi Khánh Thế 1990 và Badenoch 2022).",
+          "fix": "Bổ sung /-h/ và /-s/ vào danh sách codas với confidence='medium'."
+        },
+        {
+          "path": "lexicon[3]",
+          "severity": "high",
+          "problem": "Mục từ 'na' ('lá') gán confidence='high' nhưng không kiểm chứng được trong các bảng từ Khmuic/Ksingmul công bố (Proto-Khmuic *slaʔ > laː/ʰlaʔ; các ngôn ngữ lân cận ghi nhận la/lạ).",
+          "fix": "Hạ confidence của 'na' xuống 'low', bỏ khỏi ml_hints.sample_words và thay bằng từ có nguồn kiểm chứng rõ ràng (như hɔːt 'nước' hoặc mɨt 'mật')."
+        },
+        {
+          "path": "lexicon[8..12]",
+          "severity": "medium",
+          "problem": "Các từ 'mốt' (1), 'biel' (2), 'pe' (3), 'ếm pá' (giỏ đựng cơm nếp) lấy từ tài liệu dân tộc học/tiếp xúc ngôn ngữ viết bằng chữ Quốc ngữ ước lệ (không có ký âm IPA gốc), và mục 'khoăm Kơxinh mul' dùng ký hiệu 'ă' (không chuẩn IPA) cùng âm cuối /-ɲ/ sai cho 'Ksing'.",
+          "fix": "Hạ confidence của 'mốt', 'biel', 'pe', 'ếm pá' xuống 'low' (do chỉ có dạng ghi Quốc ngữ dân tộc học); sửa mục 'khoăm Kơxinh mul' thành 'Ksing Mul' (/ksiŋ mul ~ kəsiŋ mul/) và bổ sung các từ có kiểm chứng ngữ âm học cao như 'hɔːt' (nước), 'kʰras' (cười)."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các trường url_check đang để null và thiếu URL lưu trữ chính thức của SIL cho bài viết của Edmondson (2010).",
+          "fix": "Cập nhật url_check='verified' cho các URL đã kiểm tra qua Google Search và bổ sung URL lưu trữ SIL cho Edmondson (2010)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Xinh Mun chưa có hệ thống chữ viết chính thức tại Việt Nam; cần thống nhất quy ước chuyển tự Latinh nếu xây dựng học liệu hoặc kho ngữ liệu TTS.",
+      "Cần tư liệu điền dã trực tiếp từ nghệ nhân người Xinh Mun tại Yên Châu / Sông Mã (Sơn La) để tách bạch các bài hát dân ca hát bằng tiếng Xinh Mun bản ngữ với các bài khắp hát bằng tiếng Thái Tây Bắc.",
+      "Cần đối chiếu trực tiếp toàn bộ bảng phụ âm cuối và từ vựng từ nguyên bản tiếng Nga cuốn Jazyk Ksingmul (Pogibenko & Bùi Khánh Thế 1990) để chuẩn hóa IPA cho các mục từ đang ghi theo chữ Quốc ngữ dân tộc học (mốt, biel, pe, ếm pá) và xác minh lại từ chỉ 'lá'."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

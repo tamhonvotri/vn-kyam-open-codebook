@@ -1,0 +1,963 @@
+{
+  "id": "ba-na",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ba Na",
+  "name_en": "Bahnar",
+  "autonym": "Bahnar",
+  "ethnic_group_vi": "Ba Na",
+  "language": {
+    "iso639_3": "bdq",
+    "glottocode": "bahn1262",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (Central / North Bahnaric)"
+  },
+  "regions": [
+    "Gia Lai",
+    "Kon Tum",
+    "Bình Định (Vĩnh Thạnh, An Lão, Vân Canh)",
+    "Phú Yên (Đồng Xuân, Sơn Hòa, Sông Hinh)"
+  ],
+  "speakers_estimate": "Khoảng 227.700–286.900 người (Tổng điều tra dân số 2009 ghi nhận 227.716 người nói; dân số dân tộc Ba Na năm 2019 là 286.910 người)",
+  "scripts": [
+    {
+      "name": "Chữ Ba Na Latinh (dựa trên chữ Quốc ngữ mở rộng)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended-A; Latin Extended-B; Combining Diacritical Marks",
+      "official_in_vietnam": true,
+      "note": "Hình thành từ năm 1861 do các giáo sĩ Hội Thừa sai Paris (P. X. Dourisboure, từ điển 1889) biên soạn, sau đó được điều chỉnh bởi Guilleminet, SIL (Banker 1979) và chuẩn hóa trong sách giáo khoa, chương trình bồi dưỡng giáo viên dạy tiếng Ba-na của Bộ Giáo dục và Đào tạo (Thông tư 19/2014/TT-BGDĐT). Dùng dấu trăng khuyết (◌̆) để ghi nguyên âm ngắn (ă, ĕ, ê̆, ĭ, ŏ, ô̆, ơ̆, ŭ, ư̆) và dấu phẩy trên trước phụ âm ('b / ʼb, 'm, 'n...) hoặc chữ ƀ, đ để ghi âm tiền thanh hầu hóa / hút vào."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ các nguồn ngôn ngữ học (Banker, Banker & Mơ 1979; Sidwell; Wikipedia; Wiktionary; Tạp chí Ngôn ngữ) và văn bản chương trình giáo dục tiếng Ba-na tại Việt Nam. Chưa qua thẩm định của người bản ngữ và chuyên gia ngôn ngữ học.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C(C)V(ː)(C) — cấu trúc từ đơn tiết hoặc bán âm tiết (sesquisyllabic) gồm tiền âm tiết yếu (thường chứa nguyên âm /ə/ viết là ơ hoặc a) + âm tiết chính mang trọng âm.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "tɕ",
+        "note": "Tắc/tắc-xát mặt lưỡi-ngạc vô thanh (thường phiên âm /c/ hoặc /tɕ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ đầu nguyên âm)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm đầu âm tiết (ví dụ ao /ʔaːw/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh thường (khác với [ɓ] hút vào của chữ Quốc ngữ tiếng Việt); có biến đổi VOT theo phương ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh thường (KHÔNG đọc là [z]/[j] như chữ d tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "dʑ",
+        "note": "Tắc/tắc-xát ngạc hữu thanh (/ɟ/ ~ /dʑ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh (KHÔNG phải âm xát [ɣ] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'b / ʼb / ƀ",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi tiền thanh hầu hóa / hút vào (/ʔb/ ~ [ɓ]); tài liệu SIL dùng 'b/ʼb, báo chí và SGK hiện hành tại Gia Lai thường dùng ƀ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng tiền thanh hầu hóa / hút vào (/ʔd/ ~ [ɗ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'j / ʼj / dj",
+        "ipa": "ʔdʑ",
+        "note": "Âm ngạc tiền thanh hầu hóa / hút vào (/ʔɟ/ ~ /ʄ/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (xuất hiện ở một số phương ngữ và từ vay mượn, ví dụ pham 'máu')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'m / ʼm",
+        "ipa": "ʔm",
+        "note": "Mũi hai môi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'n / ʼn",
+        "ipa": "ʔn",
+        "note": "Mũi chân răng tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'nh / ʼnh",
+        "ipa": "ʔɲ",
+        "note": "Mũi ngạc cứng tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'ng / ʼng",
+        "ipa": "ʔŋ",
+        "note": "Mũi ngạc mềm tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm",
+        "ipa": "m̥",
+        "note": "Tổ hợp /hm/ hoặc âm mũi hai môi vô thanh hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hn",
+        "ipa": "n̥",
+        "note": "Tổ hợp /hn/ hoặc âm mũi chân răng vô thanh hóa (ví dụ hnam 'nhà')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hnh",
+        "ipa": "ɲ̊",
+        "note": "Tổ hợp /hɲ/ hoặc âm mũi ngạc vô thanh hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hng",
+        "ipa": "ŋ̊",
+        "note": "Tổ hợp /hŋ/ hoặc âm mũi ngạc mềm vô thanh hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (tài liệu SIL dùng s; một số tài liệu Công giáo/hành chính dùng x)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hr",
+        "ipa": "r̥",
+        "note": "Âm r vô thanh hóa hoặc tổ hợp /hr/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'l / ʼl",
+        "ipa": "ʔl",
+        "note": "Bên chân răng tiền thanh hầu hóa (ví dụ 'lơ̆ng 'tốt, đẹp')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "l̥",
+        "note": "Bên chân răng vô thanh hóa hoặc tổ hợp /hl/ (ví dụ hla 'lá')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'w / ʼw",
+        "ipa": "ʔw",
+        "note": "Tiếp cận môi-ngạc mềm tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'y / ʼy",
+        "ipa": "ʔj",
+        "note": "Tiếp cận ngạc cứng tiền thanh hầu hóa",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm trước đóng dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm trước đóng ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm trước nửa đóng dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê̆",
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa đóng ngắn (ít gặp hơn các cặp khác)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm trước nửa mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm giữa đóng dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư̆",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa đóng ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa vừa dài; khi ở tiền âm tiết không trọng âm (kơ-, pơ-, tơ-, bơ-, hơ-) đọc ngắn [ə]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ̆ / â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa vừa ngắn trong âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài; ở tiền âm tiết không trọng âm thường rút ngắn thành [ə ~ a]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn; ở cuối âm tiết mở mang dấu ◌̆ (như bă) biểu thị kết thúc bằng tắc thanh hầu [aʔ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm sau đóng dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm sau đóng ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm sau nửa đóng dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô̆",
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa đóng ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm sau nửa mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ch",
+        "ipa": "c̚",
+        "note": "Tắc ngạc vô thanh (/tɕ/ ~ /c/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nguyên âm ngắn cuối âm tiết (◌̆)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết thường được ghi bằng dấu trăng khuyết trên nguyên âm cuối (ví dụ bă /baʔ/ 'cha', kŏ /kɔʔ/ 'chó')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng (phát âm [ɲ] thật, không bị biến đổi vần như trong tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (ví dụ muh /muh/ 'mũi', ʼboh /ɓɔh/ 'muối') — không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ih / -yh",
+        "ipa": "jh",
+        "note": "Tổ hợp âm cuối /jh/ (phản ánh *-s nguyên thủy); nhiều biến thể phát âm như bán nguyên âm ngắn kèm hơi thở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r",
+        "note": "Âm r cuối âm tiết (ví dụ ʼbar /ɓaːr/ 'hai') — không có trong tiếng Việt hiện đại",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết (ví dụ prĕl 'mưa đá') — không có trong tiếng Việt hiện đại",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w / -o / -u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y / -i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ĭ / -y'",
+        "ipa": "jˀ",
+        "note": "Bán nguyên âm cuối thanh hầu hóa (ví dụ kơmaĭ)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (non-tonal). Tiếng Ba Na bảo lưu hệ thống 9 nguyên âm đơn phân biệt độ dài ngắn (tương phản trường độ nguyên âm) thay vì phân hóa thành thanh điệu hay đối lập âm vực căng/lỏng (tense/lax register) mạnh như nhánh Bắc Bahnaric (Xơ Đăng, Rơ Ngao). Tương phản tiền thanh hầu hóa / hút vào nằm ở phụ âm đầu ('b/ƀ, đ, 'j, 'm, 'n, 'nh, 'ng, 'l, 'w, 'y)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "đak",
+      "ipa": "ɗaːk",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "ŭnh",
+      "ipa": "ʔuɲ",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "hnam",
+      "ipa": "hnaːm",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà rông",
+      "form": "rông",
+      "ipa": "roːŋ",
+      "gloss_en": "communal house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng, buôn",
+      "form": "pơlei",
+      "ipa": "pəlej",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "bơngai",
+      "ipa": "bəŋaːj",
+      "gloss_en": "person, human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha, bố",
+      "form": "bă",
+      "ipa": "baʔ",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt / mắt",
+      "form": "măt",
+      "ipa": "mat",
+      "gloss_en": "face / eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "muh",
+      "ipa": "muh",
+      "gloss_en": "nose",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ka",
+      "ipa": "kaː",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "sem",
+      "ipa": "sɛːm",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dê",
+      "form": "bơbe",
+      "ipa": "bəbɛː",
+      "gloss_en": "goat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ếch",
+      "form": "kưt",
+      "ipa": "kɨːt",
+      "gloss_en": "frog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "krong",
+      "ipa": "krɔːŋ",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "muối",
+      "form": "ʼboh",
+      "ipa": "ɓɔh",
+      "gloss_en": "salt",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đùi",
+      "form": "blu",
+      "ipa": "bluː",
+      "gloss_en": "thigh",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "họ, người ta",
+      "form": "đe",
+      "ipa": "ɗɛː",
+      "gloss_en": "they, people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dệt",
+      "form": "tanh",
+      "ipa": "taːɲ",
+      "gloss_en": "to weave",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đắng",
+      "form": "tăng",
+      "ipa": "taŋ",
+      "gloss_en": "bitter",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhiều, đông",
+      "form": "lơ",
+      "ipa": "ləː",
+      "gloss_en": "many, crowded",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hơmon (H'mon / Hơamon)",
+        "note": "Hát kể sử thi truyền thống của người Ba Na (thường diễn xướng nhiều đêm bên bếp lửa nhà rông, kết hợp lối kể dẫn chuyện 'hơri' và lối hát vần 'hơmon'); sử thi Hơmon của người Ba Na Rơ Ngao (Kon Tum) và Ba Na (Gia Lai) đã được công nhận là Di sản văn hóa phi vật thể quốc gia."
+      },
+      {
+        "name": "Hơri (H'ri) và Avơng",
+        "note": "Các làn điệu dân ca trữ tình: Hơri (hát đối đáp, sinh hoạt cộng đồng, lễ hội) và Avơng (hát giao duyên nam nữ)."
+      },
+      {
+        "name": "Plung (Hát ru)",
+        "note": "Các khúc hát ru con, ru em êm đềm, giai điệu bình ổn, nhịp điệu giản dị."
+      },
+      {
+        "name": "Nhạc cồng chiêng Tây Nguyên",
+        "note": "Không gian văn hóa Cồng chiêng Tây Nguyên (trong đó có cộng đồng người Ba Na) được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại (tuyên bố năm 2005, ghi danh 2008)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Bước nhảy quãng 4 bình ổn",
+        "description": "Đặc trưng tiến hành giai điệu (không phải hoa mỹ trang điểm nốt đơn lẻ): dân ca Ba Na thường tiến hành bình ổn, thiết tha, sử dụng đặc trưng các bước nhảy quãng 4 đúng (như Si–Mi / Mi–Si), ít đột biến kịch tính, câu nhạc ngắn.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dân gian Ba Na (hệ thống đon, đen, ton, ten)",
+        "note": "Thang âm không bán âm / ngũ cung đặc trưng vùng Bắc Tây Nguyên; ở nhóm Ba Na Rơ Ngao các bậc âm dân gian được gọi tên theo âm thanh bộ chiêng là đon, đen, ton, ten.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cồng chiêng (Chêng / Chêng khêl)"
+      },
+      {
+        "name": "Đàn T'rưng (đàn ống tre nứa gõ)"
+      },
+      {
+        "name": "Đàn Klông pút (ống nứa vỗ hơi bằng hai bàn tay)"
+      },
+      {
+        "name": "Đàn Kơni (đàn kéo 1 dây truyền âm qua dây ngậm miệng người chơi)"
+      },
+      {
+        "name": "Đàn Ting ning (đàn ống tre nhiều dây gảy, bầu cộng hưởng quả bầu khô)"
+      },
+      {
+        "name": "Đàn Brọ / Goong"
+      },
+      {
+        "name": "Đinh túk / Khinh khung"
+      },
+      {
+        "name": "Kèn Tơ-nốt / Arơng / Tơ-tiếp"
+      },
+      {
+        "name": "Trống Sơgơr (Sơgơ̆r)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Bahnar Kon Tum",
+        "iso639_3": "bdq",
+        "region": "TP. Kon Tum và vùng phụ cận (tỉnh Kon Tum)"
+      },
+      {
+        "name": "Bahnar Gơlar (Golar)",
+        "iso639_3": "bdq",
+        "region": "Mang Yang, Đak Đoa, Pleiku, Chư Sê (tỉnh Gia Lai)"
+      },
+      {
+        "name": "Bahnar Tơlô (Tolo)",
+        "iso639_3": "bdq",
+        "region": "Kông Chro và phía nam An Khê (tỉnh Gia Lai)"
+      },
+      {
+        "name": "Bahnar Alakông (A-La Cong)",
+        "iso639_3": "bdq",
+        "region": "Huyện K'Bang (tỉnh Gia Lai)"
+      },
+      {
+        "name": "Bahnar Bơnâm (Bonom)",
+        "iso639_3": "bdq",
+        "region": "Phía đông An Khê, Kông Chro (tỉnh Gia Lai)"
+      },
+      {
+        "name": "Bahnar Jơlơng (Jolong)",
+        "iso639_3": "bdq",
+        "region": "Kon Rẫy và đông bắc Kon Tum"
+      },
+      {
+        "name": "Bahnar Krem (Kriêm)",
+        "iso639_3": "bdq",
+        "region": "Vĩnh Thạnh, An Lão, Hoài Ân (tỉnh Bình Định) và một phần K'Bang (Gia Lai)"
+      },
+      {
+        "name": "Bahnar Vân Canh (Bahnar Chăm)",
+        "iso639_3": "bdq",
+        "region": "Vân Canh (tỉnh Bình Định)"
+      },
+      {
+        "name": "Bahnar Thồ Lồ",
+        "iso639_3": "bdq",
+        "region": "Đồng Xuân, Sơn Hòa, Sông Hinh (tỉnh Phú Yên)"
+      },
+      {
+        "name": "Bahnar Roh / Kon Kđe / Tosung",
+        "iso639_3": "bdq",
+        "region": "An Khê, K'Bang, Mang Yang (tỉnh Gia Lai)"
+      },
+      {
+        "name": "Tiếng Rơ Ngao (Rengao)",
+        "iso639_3": "ren",
+        "glottocode": "reng1252",
+        "region": "Kon Tum, Đăk Hà, Đăk Tô (tỉnh Kon Tum)",
+        "note": "Về mặt dân tộc học tại Việt Nam, người Rơ Ngao được xếp là một nhóm địa phương thuộc dân tộc Ba Na, nhưng về ngôn ngữ học được định danh là ngôn ngữ riêng (ISO 639-3: ren) thuộc nhánh Bắc Bahnaric (có đối lập âm vực thanh tính nguyên âm)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "pơ-, kơ-, tơ-, bơ-, hơ- (tiền âm tiết)",
+        "quoc_ngu": "pơ-, cơ-, tơ-, bơ-, hơ- (đọc lướt cực ngắn, không nhấn)",
+        "note": "Tiếng Việt là ngôn ngữ đơn tiết nên TTS tiếng Việt dễ đọc tiền âm tiết dài ngang âm tiết chính; cần rút ngắn thời lượng tiền âm tiết khi tổng hợp tiếng nói/hát."
+      },
+      {
+        "native": "'b / ʼb / ƀ và b",
+        "quoc_ngu": "'b / ƀ → b (Việt); b → b (nhẹ, không hút vào)",
+        "note": "Chữ b tiếng Việt chuẩn là âm hút vào [ɓ], khớp với 'b / ƀ của tiếng Ba Na; ngược lại chữ b thường của tiếng Ba Na là [b] nổ hữu thanh thuần túy không có đối lập riêng trong tiếng Việt."
+      },
+      {
+        "native": "d và đ",
+        "quoc_ngu": "đ → đ; d → đ (nhẹ)",
+        "note": "CẢNH BÁO: chữ d trong tiếng Ba Na đọc là [d] (tắc chân răng hữu thanh), TUYỆT ĐỐI không đọc là [z] (Bắc) hay [j] (Nam) như chữ d Quốc ngữ."
+      },
+      {
+        "native": "j và 'j",
+        "quoc_ngu": "gi / d (giọng Bắc [z] chỉ xấp xỉ yếu; gần hơn với ch hữu thanh)",
+        "note": "Âm [dʑ] và [ʔdʑ] không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "'m, 'n, 'nh, 'ng, 'l (tiền thanh hầu hóa) và hm, hn, hl, hr (vô thanh hóa)",
+        "quoc_ngu": "m, n, nh, ng, l (hoặc tách nhẹ âm h- lướt trước với hm, hn, hl, hr)",
+        "note": "Tiếng Việt không có loạt phụ âm vang tiền thanh hầu hóa (/ʔm, ʔn, ʔl.../) và phụ âm vang vô thanh (/m̥, n̥, l̥, r̥/)."
+      },
+      {
+        "native": "pl-, bl-, kl-, kr-, pr-, br- (tổ hợp phụ âm đầu)",
+        "quoc_ngu": "pờ-l, bờ-l, cờ-l, cờ-r, pờ-r, bờ-r (lướt cực nhanh)",
+        "note": "Tiếng Việt hiện đại không còn cụm phụ âm đầu CC-; nếu đưa thẳng vào TTS tiếng Việt mô hình dễ đánh vần rời từng chữ cái."
+      },
+      {
+        "native": "ĕ, ŏ, ŭ, ĭ, ơ̆ (nguyên âm ngắn) và nguyên âm mở cuối có ◌̆ (như bă)",
+        "quoc_ngu": "e, o, u, i, â (cắt ngắn; ở cuối âm tiết thêm thanh sắc/nặng ngắt nhanh, ví dụ bă → bắc/bạ ngắt thanh hầu)",
+        "note": "Dấu ◌̆ trên e, o, u, i, ơ không tồn tại trong bảng chữ Quốc ngữ nên sẽ làm vỡ sub-token của các tokenizer chỉ huấn luyện trên tiếng Việt."
+      },
+      {
+        "native": "-r, -l, -h, -ih/-yh (phụ âm cuối)",
+        "quoc_ngu": "-r/-l → không có âm tương đương (chỉ xấp xỉ rất xa bằng -n); -h → hà hơi ngắn cuối vần; -ih → -i kèm hơi thở nhẹ",
+        "note": "Tiếng Việt hoàn toàn thiếu các âm cuối /-r/, /-l/, /-h/, /-jh/; đây là điểm lệch lớn nhất khi dùng giọng tiếng Việt xấp xỉ tiếng Ba Na."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "đak",
+        "ipa": "ɗaːk",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "ŭnh",
+        "ipa": "ʔuɲ",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "hnam",
+        "ipa": "hnaːm",
+        "gloss_vi": "nhà"
+      },
+      {
+        "native": "pơlei",
+        "ipa": "pəlej",
+        "gloss_vi": "làng, buôn"
+      },
+      {
+        "native": "bơngai",
+        "ipa": "bəŋaːj",
+        "gloss_vi": "người"
+      },
+      {
+        "native": "bă",
+        "ipa": "baʔ",
+        "gloss_vi": "cha, bố"
+      },
+      {
+        "native": "măt",
+        "ipa": "mat",
+        "gloss_vi": "mặt, mắt"
+      },
+      {
+        "native": "muh",
+        "ipa": "muh",
+        "gloss_vi": "mũi"
+      },
+      {
+        "native": "ka",
+        "ipa": "kaː",
+        "gloss_vi": "cá"
+      },
+      {
+        "native": "sem",
+        "ipa": "sɛːm",
+        "gloss_vi": "chim"
+      },
+      {
+        "native": "krong",
+        "ipa": "krɔːŋ",
+        "gloss_vi": "sông"
+      },
+      {
+        "native": "ʼboh",
+        "ipa": "ɓɔh",
+        "gloss_vi": "muối"
+      }
+    ],
+    "tokenizer_notes": "Chữ viết Ba Na dùng nhiều ký tự kết hợp dấu trăng khuyết tổ hợp Unicode (như ê̆ = ê + U+0306, ô̆ = ô + U+0306, ơ̆ = ơ + U+0306, ư̆ = ư + U+0306), chữ ƀ (U+0180) hoặc dấu U+02BC (ʼ) / dấu nháy đơn (') trước phụ âm. Cần chuẩn hóa NFC/NFD và đồng nhất quy ước ƀ vs ʼb trước khi đưa vào mô hình học máy."
+  },
+  "sources": [
+    {
+      "title": "Banker, John E., Elizabeth Banker, & Siu Mơ (1979). Bahnar Dictionary: Plei Bong – Mang Yang Dialect (Ngữ-vựng Bahnar). Huntington Beach, CA: Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Bahnar (bahn1262) & Rengao (reng1252)",
+      "url": "https://glottolog.org/resource/languoid/id/bahn1262",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Bahnar language",
+      "url": "https://en.wikipedia.org/wiki/Bahnar_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Ba Na",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ba_Na",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt & tiếng Anh — Category:Bahnar lemmas / Mục từ tiếng Ba Na (Ŏ, Ơ, Ư, bă, đe, muh, măt, ka, tanh, tăng, hnam, sem, kưt, krong, bơbe...)",
+      "url": "https://en.wiktionary.org/wiki/Category:Bahnar_lemmas",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bộ Giáo dục và Đào tạo (2014). Thông tư 19/2014/TT-BGDĐT ngày 30/05/2014 ban hành Chương trình bồi dưỡng giáo viên dạy tiếng Ba-na, Ê-đê và Chăm.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Trần Quý, Quản Thành Thơ, Đinh Lư Giang, Phan Trần Công, Vũ Hoàng Hải, & Nguyễn Quang Đức (2023). Sự biến đổi về âm học của phụ âm tiếng Ba Na qua giá trị VOT (Voice Onset Time - thời gian khởi thanh). Tạp chí Ngôn ngữ, số 12/2023, tr. 14–26.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cục Di sản văn hóa — Hơmon (Sử thi) của người Ba Na ở tỉnh Gia Lai & Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO 00120)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "music.genres[1].name",
+          "severity": "medium",
+          "problem": "Gộp 'Alơu' vào làn điệu dân ca Ba Na ('Hơri (H'ri) / Alơu'). Thực tế, 'Alơu' (cùng với Siri, Rutu) là làn điệu dân ca đặc trưng của người Raglai (ngữ hệ Nam Đảo), trong khi dân ca giao duyên/đối đáp của người Ba Na được gọi là 'Hơri' (hát đối đáp) và 'Avơng' (hát giao duyên).",
+          "fix": "Đổi tên thể loại thành 'Hơri (H'ri) và Avơng' và chỉnh lại ghi chú cho đúng với văn hóa dân gian Ba Na."
+        },
+        {
+          "path": "music.genres[2].name",
+          "severity": "medium",
+          "problem": "Dùng 'Pơlung kon' làm tên thể loại hát ru. Trong tiếng Ba Na, 'pơlung' thường mang nghĩa khuyên nhủ, an ủi, khích lệ ('pơlung kon pơlei' = vận động/khích lệ dân làng, 'bơtho pơlung kon' = dạy dỗ khuyên nhủ con), còn thể loại hát ru trong các tài liệu văn học dân gian Ba Na thường được ghi là 'Plung' (hoặc 'Hơri plung').",
+          "fix": "Sửa thành 'Plung (Hát ru)' và ghi chú rõ hơn."
+        },
+        {
+          "path": "phonology.onsets[9].grapheme",
+          "severity": "low",
+          "problem": "Thiếu biến thể chữ 'ƀ' (U+0180). Bên cạnh cách viết của SIL (Banker 1979) dùng dấu nháy ('b / ʼb), sách giáo khoa, chương trình tiếng Ba Na ở Gia Lai và báo chí tiếng Ba Na hiện hành (như VOV4 tiếng Ba Na) sử dụng rất phổ biến ký tự 'ƀ' (ƀă, ƀôh, ƀơ̆r...).",
+          "fix": "Bổ sung 'ƀ' vào grapheme ('b / ʼb / ƀ) và thêm ghi chú về chuẩn chính tả hiện hành tại Việt Nam."
+        },
+        {
+          "path": "music.ornaments[0]",
+          "severity": "low",
+          "problem": "'Bước nhảy quãng 4 bình ổn' thực chất là đặc trưng tiến hành giai điệu (melodic interval/motion) chứ không phải là kỹ thuật tô điểm/hoa mỹ (ornament như luyến, láy, rung, mổ). Tuy nhiên do trích từ nhận định phổ biến về dân ca Ba Na của Huỳnh Ngọc La Sơn nên có thể giữ nhưng cần hạ confidence xuống 'low' và ghi chú rõ.",
+          "fix": "Hạ confidence xuống 'low' và làm rõ trong description."
+        },
+        {
+          "path": "sources[6].title",
+          "severity": "low",
+          "problem": "Bài báo 'Sự biến đổi về âm học của phụ âm tiếng Ba Na qua giá trị VOT' trên Tạp chí Ngôn ngữ số 12/2023 có danh sách đầy đủ 6 tác giả (Nguyễn Trần Quý, Quản Thành Thơ, Đinh Lư Giang, Phan Trần Công, Vũ Hoàng Hải, Nguyễn Quang Đức), trang 14–26.",
+          "fix": "Cập nhật đầy đủ tên các tác giả và số trang trong mục sources."
+        }
+      ]
+    },
+    "open_issues": [
+      "Chính tả tiếng Ba Na có sự khác biệt giữa truyền thống Công giáo Kon Tum (Dourisboure/Guilleminet, dùng x cho /s/), hệ thống SIL (Banker 1979 - phương ngữ Plei Bong - Mang Yang dùng 'b/ʼb) và hệ thống báo chí/SGK tại Gia Lai (dùng ƀ); cần đối chiếu bảng chữ cái chuẩn trong SGK mới nhất để tách riêng quy ước theo từng vùng Kon Tum / Gia Lai / Bình Định.",
+      "Cần bổ sung ký hiệu cao độ ABC và kỹ thuật luyến láy cụ thể (ornaments) cho các làn điệu Hơri, Avơng, Plung và Hơmon dựa trên bản ký âm của các nhà nghiên cứu âm nhạc dân tộc học.",
+      "Cần kiểm tra thực nghiệm mức độ vô thanh hóa của các phụ âm đầu tắc hữu thanh (/b, d, ɡ/) ở phương ngữ Kon Tum so với Gia Lai (theo kết quả đo VOT trong bài báo trên Tạp chí Ngôn ngữ số 12/2023)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

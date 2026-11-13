@@ -1,0 +1,88 @@
+id,slot,from,to,level,optional,note
+vie-central,word,cũ,củ,light,False,"Nhập ngã vào hỏi ở từ thông dụng, an toàn cho tokenizer"
+vie-central,word,sao,răng,light,True,Thay thế từ vựng đặc trưng Trung Bộ khi chuyển lời thoại/ca từ thân mật
+vie-central,word,đâu,mô,light,True,Chỉ áp dụng cho đại từ nghi vấn/phiếm chỉ
+vie-central,word,thế,rứa,light,True,Từ chỉ trỏ đặc trưng Bình Trị Thiên
+vie-central,tone,nga,hoi,full,False,Chuẩn tiếng Huế; cần kiểm tra vỡ sub-token trước khi đưa vào mô hình TTS/SVS
+vie-central,tone,nga,nang,full,True,Tùy chọn khi muốn mô phỏng thổ ngữ Quảng Bình / Quảng Trị thay vì giọng Huế đô thị
+vie-central,rhyme,an,ang,full,False,Nhập âm cuối /-n/ → /-ŋ/ trong tiếng Huế
+vie-central,rhyme,at,ac,full,False,Nhập âm cuối /-t/ → /-k/ trong tiếng Huế
+vie-central,rhyme,anh,ăn,full,False,
+vie-central,rhyme,ach,ăt,full,False,
+vie-central,rhyme,inh,ưn,full,False,
+vie-central,rhyme,ich,ưt,full,False,
+vie-central,rhyme,iên,iêng,full,False,
+vie-central,rhyme,iêt,iêc,full,False,
+vie-central,rhyme,uôn,uông,full,False,
+vie-central,rhyme,ươn,ương,full,False,
+vie-north-central,tone,nga,nang,full,True,"Áp dụng cho khẩu âm Nghệ Tĩnh (ví dụ cũng → cụng, đã → đạ). Không bật quy tắc này nếu mô phỏng giọng Thanh Hóa (nơi ngã nhập vào hỏi). Kiểm tra độ vỡ sub-token trước khi đưa vào mô hình TTS/SVS."
+vie-north-central,word,cũng,cụng,light,True,Đặc trưng tần suất cao của khẩu ngữ Nghệ Tĩnh
+vie-north-central,word,đã,đạ,light,True,Đặc trưng tần suất cao của khẩu ngữ Nghệ Tĩnh
+vie-north-central,word,bữa,bựa,full,True,Khẩu âm Nghệ Tĩnh; dễ tách sub-token trên một số BPE tokenizer
+vie-north-central,word,nước,nác,full,True,Chỉ dùng cho lời ca dân gian hoặc khẩu ngữ đậm chất Nghệ Tĩnh
+vie-north-central,word,trâu,tru,full,True,"Biến thể thổ ngữ Nghệ Tĩnh (ví dụ: chăn tru, trốc tru)"
+vie-north-central,word,sâu,su,full,True,Biến thể thổ ngữ Nghệ Tĩnh (ví dụ: nác su = nước sâu)
+vie-north-central,word,chân,chưn,full,True,Có thể làm vỡ token trên các bộ BPE tiếng Việt phổ thông
+vie-north-central,word,gần,gưn,full,True,Biến thể thổ ngữ Bắc Trung Bộ
+vie-north-central,word,ruột,rọt,full,True,Biến thể thổ ngữ Nghệ Tĩnh (ví dụ: đau rọt)
+vie-north-central,word,ruộng,rọng,full,True,Biến thể thổ ngữ Nghệ Tĩnh
+vie-north-central,word,chơi,nhởi,full,True,"Từ địa phương phổ biến trong ca từ Ví, Giặm"
+vie-north-central,rhyme,anh,eng,full,True,"Mô phỏng nguyên âm [ɛːŋ] ở thổ ngữ sâu Nghệ Tĩnh; rất dễ làm vỡ token BPE, chỉ dùng cho nghiên cứu ngữ âm"
+vie-north,onset,tr,ch,full,True,"Chỉ bật khi mô hình TTS/hát đọc cứng âm quặt lưỡi [ʈ] theo chính tả, trong khi cần giọng Hà Nội tự nhiên [tɕ]. Với mô hình đã huấn luyện giọng Bắc chuẩn, giữ nguyên chính tả Quốc ngữ để tránh vỡ token."
+vie-north,onset,s,x,full,True,Chỉ bật khi mô hình đọc nặng [ʂ] nhân tạo; tắt mặc định vì các mô hình giọng Hà Nội đã tự phát âm s thành [s].
+vie-north,onset,r,d,full,True,Mô phỏng phát âm [z] tự nhiên của Hà Nội nếu bộ G2P ép rung lưỡi [r]. Không dùng cho nhạc đỏ/thính phòng nơi ca sĩ chủ đích rung r.
+vie-north,rhyme,ưu,iu,full,True,"Mô phỏng khẩu ngữ Bắc Bộ (hưu→hiu, mưu→miu); có thể làm lạ mặt chữ với bộ tách token BPE."
+vie-north,rhyme,ươu,iêu,full,True,"Mô phỏng khẩu ngữ Bắc Bộ (rượu→riệu, hươu→hiêu)."
+vie-north,onset,l,n,full,True,KHÔNG thuộc chuẩn Hà Nội. Chỉ dùng có chủ đích khi tổng hợp nhân vật/thổ ngữ địa phương đồng bằng Bắc Bộ có hiện tượng nhập l→n.
+vie-north,onset,n,l,full,True,KHÔNG thuộc chuẩn Hà Nội. Chỉ dùng có chủ đích khi mô phỏng thổ ngữ địa phương đồng bằng Bắc Bộ có hiện tượng nhập/đảo n→l.
+vie-south-central,tone,nga,hoi,full,False,Nhập thanh ngã vào thanh hỏi trên toàn vùng Nam Trung Bộ. Cần kiểm tra độ vỡ sub-token trước khi đưa vào mô hình TTS/SVS.
+vie-south-central,word,cũ,củ,light,False,Từ đơn phổ biến khi nhập thanh ngã → hỏi
+vie-south-central,word,rồi,rầu,light,True,Từ nhận diện đặc trưng của giọng Bình Định – Phú Yên (xứ Nẫu) và câu hô Bài chòi
+vie-south-central,word,thôi,thâu,light,True,Đặc trưng Bình Định – Phú Yên
+vie-south-central,onset,v,d,full,False,"Phát âm [j] trong khẩu ngữ. Lưu ý không gộp tr→ch hay s→x vì người Nam Trung Bộ (nhất là Bình Định, Phú Yên, Quảng Ngãi) vẫn phân biệt rõ."
+vie-south-central,rhyme,an,ang,full,False,
+vie-south-central,rhyme,at,ac,full,False,
+vie-south-central,rhyme,anh,ăn,full,False,
+vie-south-central,rhyme,ach,ăt,full,False,
+vie-south-central,rhyme,inh,ưn,full,False,
+vie-south-central,rhyme,ich,ưt,full,False,
+vie-south-central,rhyme,iêu,iu,full,False,
+vie-south-central,rhyme,uôi,ui,full,False,
+vie-south-central,rhyme,ươi,ưi,full,True,
+vie-south-central,rhyme,ao,ô,full,True,Chỉ bật khi mô phỏng khẩu âm xứ Quảng (Quảng Nam – Đà Nẵng – Quảng Ngãi)
+vie-south-central,rhyme,am,ôm,full,True,Chỉ bật khi mô phỏng khẩu âm xứ Quảng
+vie-south-central,rhyme,ap,ôp,full,True,Chỉ bật khi mô phỏng khẩu âm xứ Quảng
+vie-south-central,rhyme,âu,ao,full,True,Chỉ bật khi mô phỏng khẩu âm xứ Quảng (áp dụng sau quy tắc ao → ô để tránh gộp ngược)
+vie-south-central,rhyme,ây,ai,full,True,Chỉ bật khi mô phỏng khẩu âm xứ Quảng
+vie-south-central,rhyme,ăn,eng,full,True,Chỉ bật cho giọng Quảng đậm; dễ tạo âm tiết hiếm gây vỡ token
+vie-south-central,rhyme,ăng,eng,full,True,Chỉ bật cho giọng Quảng đậm
+vie-south-central,rhyme,ôi,âu,full,True,Chỉ bật khi mô phỏng khẩu âm xứ Nẫu (Bình Định – Phú Yên); không bật chung với bộ quy tắc xứ Quảng
+vie-south,tone,nga,hoi,full,False,"Nhập thanh ngã vào hỏi. Với qwen.tiktoken, một số dạng (ví dụ mãi→mải) bị vỡ token: kiểm tra bằng tools/tokenizer_check.py trước khi dùng cho mô hình."
+vie-south,word,cũ,củ,light,False,Đã kiểm 1-token trong qwen.tiktoken
+vie-south,word,may,mai,light,False,Đã kiểm 1-token trong qwen.tiktoken
+vie-south,word,hay,hai,light,False,Đã kiểm 1-token trong qwen.tiktoken
+vie-south,word,tay,tai,light,False,qwen.tiktoken: 2 token → 1 token
+vie-south,word,say,sai,light,False,Đã kiểm 1-token
+vie-south,word,thay,thai,light,False,qwen.tiktoken: 2 token → 1 token
+vie-south,onset,v,d,full,False,Phát âm [j]. Có thể làm vỡ token với một số tokenizer — kiểm tra trước.
+vie-south,onset,qu,w,full,False,Dễ làm vỡ token
+vie-south,onset,tr,ch,full,True,Biến thể theo người nói
+vie-south,onset,s,x,full,True,Biến thể theo người nói
+vie-south,rhyme,an,ang,full,False,
+vie-south,rhyme,at,ac,full,False,
+vie-south,rhyme,anh,ăn,full,False,
+vie-south,rhyme,ach,ăt,full,False,
+vie-south,rhyme,inh,ưn,full,False,
+vie-south,rhyme,in,ưn,full,True,
+vie-south,rhyme,ich,ưt,full,False,
+vie-south,rhyme,ên,ơn,full,True,
+vie-south,rhyme,ênh,ơn,full,True,
+vie-south,rhyme,un,ung,full,False,
+vie-south,rhyme,ut,uc,full,False,
+vie-south,rhyme,iên,iêng,full,False,
+vie-south,rhyme,iêt,iêc,full,False,
+vie-south,rhyme,uôn,uông,full,False,
+vie-south,rhyme,ươn,ương,full,False,
+vie-south,rhyme,ươi,ưi,full,True,
+vie-south,rhyme,ưu,iu,full,False,
+vie-south,rhyme,ươu,iu,full,False,

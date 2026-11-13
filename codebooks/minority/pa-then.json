@@ -1,0 +1,816 @@
+{
+  "id": "pa-then",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pà Thẻn",
+  "name_en": "Pa-Hng (Vietnamese Pà Thẻn)",
+  "autonym": "Pà Hưng / Pạ Humg ([pa31 ŋ̊ŋ35])",
+  "ethnic_group_vi": "Pà Thẻn",
+  "language": {
+    "iso639_3": "pha",
+    "glottocode": "pahn1237",
+    "family": "Hmong-Mien",
+    "branch": "Hmongic (Pahengic / Bahengic)"
+  },
+  "regions": [
+    "Hà Giang (Quang Bình: Tân Trịnh, Tân Bắc, Xuân Minh, Yên Bình, Yên Thành; Bắc Quang: Tân Lập, Tân Thịnh)",
+    "Tuyên Quang (Lâm Bình: Hồng Quang; Chiêm Hóa: Linh Phú; Yên Sơn)"
+  ],
+  "speakers_estimate": "Dân số người Pà Thẻn tại Việt Nam là 8.248 người (Tổng điều tra dân số 2019); tổng số người nói tiếng Pa-Hng ở Trung Quốc và Việt Nam khoảng 33.600–34.000 người. Tại Việt Nam, năng lực tiếng mẹ đẻ ở nhóm dưới 20 tuổi đang suy giảm rõ rệt.",
+  "scripts": [
+    {
+      "name": "Chữ Latinh thử nghiệm / phiên âm dựa trên chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Nhà nước chưa ban hành bộ chữ Pà Thẻn chính thức. Trong cộng đồng truyền dạy truyền khẩu thường mượn chữ Quốc ngữ ghi âm gần đúng; giới nghiên cứu đã đề xuất phương án chữ Latinh (Nguyễn Thu Quỳnh 2009; Đề tài ĐH2024-TN04-04 'Xây dựng bộ chữ tự dạng Latin cho tiếng Pà Thẻn ở Việt Nam phục vụ bảo tồn và phát huy bản sắc văn hóa dân tộc' do TS. Nguyễn Thu Quỳnh chủ nhiệm, nghiệm thu cấp cơ sở tháng 11/2026 tại Trường ĐHSP - ĐH Thái Nguyên)."
+    },
+    {
+      "name": "Hình vẽ nghi lễ cổ truyền Pà Thẻn",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Hệ thống ký hiệu/hình vẽ truyền thống trong sách cúng của thầy cúng, hiện đã mai một nặng và không dùng cho giao tiếp đời thường."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp tự động từ tư liệu ngôn ngữ học thực địa về phương ngữ Pà Thẻn tại Tân Trịnh (Quang Bình, Hà Giang) của Barbara Niederer (1996, 1997), nghiên cứu ngữ âm học thực nghiệm của Yamaoka Sho (2025), các công trình của Nguyễn Thu Quỳnh (2009, 2011, 2026) và tư liệu dân tộc học Việt Nam. Vì chưa có bộ chữ Latinh chuẩn hóa được công bố chính thức ở cấp nhà nước, mục grapheme trong phonology để null.",
+  "phonology": {
+    "syllable_structure": "(C1)(ʲ/ʷ)V(ʔ/h)+T (âm tiết chính mở hoặc có nguyên âm mũi hóa, kết thúc bằng tắc thanh hầu /-ʔ/ hoặc hơi thở /-h/; có tiền âm tiết dạng /ʔa-/, /tɤ-/, /ka-/ và âm mũi thanh tiết)",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi; có đối lập thanh tính thường (modal) và giọng chùng/thở (slack voice [pʱ]) theo Yamaoka (2025)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (ví dụ: pʰiʔ³¹ 'phụ nữ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "mb",
+        "note": "Tắc hai môi hữu thanh tiền mũi hóa (ví dụ: mbi⁵⁵ 'giấc mơ', mbɤ²⁴ 'trèo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʲ",
+        "note": "Âm môi ngạc hóa; theo dữ liệu thực nghiệm của Yamaoka (2025) được hiện thực hóa như âm đồng cấu âm môi-ngạc/đầu lưỡi [p͡ṯʲ] (ví dụ: pjɤ³³ 'gieo hạt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh (ví dụ: mẽh²⁴ trong ʔa³³kʰũʔ³¹mẽh²⁴ 'mắt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m̥",
+        "note": "Mũi hai môi vô thanh / bật hơi [m̥ ~ mʰ] (ví dụ: m̥ẽʔ³¹ 'răng', tɤ³³mʰa³³ 'dây leo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh; có biến thể ngạc hóa /vj/ (ví dụ: vi³³ 'rau', tɤ³³vjeh³³ 'dãy núi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi-lợi vô thanh không bật hơi (ví dụ: te²⁴ 'chết', ʔa³³tũ³³ 'núi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi-lợi vô thanh bật hơi (ví dụ: ʔa³³tʰɛ̃³³ 'làng, bản')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "nd",
+        "note": "Tắc đầu lưỡi-lợi hữu thanh tiền mũi hóa (ví dụ: nde³³ 'củ', ndo⁵⁵ 'sưởi ấm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi-lợi hữu thanh; có biến thể giọng thở /nɦ/ (ví dụ: nɔ̃h³³ 'ăn', ta³³nɦẽh³¹ 'chuột')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n̥",
+        "note": "Mũi đầu lưỡi-lợi vô thanh / bật hơi [n̥ ~ nʰ] (ví dụ: nʰĩ³³ 'trong trẻo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Xát đầu lưỡi-lợi vô thanh (ví dụ: sɯ³³ 'chua', sɔ̃⁵⁵ 'đi cùng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên đầu lưỡi-lợi hữu thanh (ví dụ: ʔa³³la⁵⁵ 'miệng', lɛ̃h³³ 'loại từ chỉ người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l̥",
+        "note": "Bên đầu lưỡi-lợi vô thanh / bật hơi [l̥ ~ lʰ] (ví dụ: ʔa³³lʰa⁵⁵ 'mặt trăng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tɕ",
+        "note": "Tắc-xát lợi-ngạc vô thanh không bật hơi (ví dụ: tɕi⁵⁵ 'gió', tɕɤʔ³¹ 'rượu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲdʑ",
+        "note": "Tắc-xát lợi-ngạc hữu thanh tiền mũi hóa (tư liệu Hán-Tạng học thường ký hiệu là ȵdʑ; ví dụ: ɲdʑo⁵⁵ 'leo, trèo', ɲdʑiʔ³¹ 'vo gạo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi lợi-ngạc / ngạc cứng hữu thanh (tư liệu Hán-Tạng học ký hiệu là ȵ; ví dụ: ʔõ³³ɲɔʔ³¹ 'nước đục')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʝ",
+        "note": "Xát ngạc cứng hữu thanh (ví dụ: ʝɔ̃³³ 'rồng', ʝĩh³¹ 'tám')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh không bật hơi; có đối lập môi hóa /kʷ/ (ví dụ: kaʔ³¹siʔ³¹ 'tro', kʷɔ³³ 'trắng', kʷi⁵⁵ 'đắt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc mạc vô thanh bật hơi; có đối lập môi hóa /kʰʷ/ (ví dụ: kʰeʔ³¹ 'khô', kʰʷɛ̃⁵⁵lĩ³³ 'bờ ruộng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋg",
+        "note": "Tắc mạc hữu thanh tiền mũi hóa; có biến thể môi hóa /ŋgʷ/ (ví dụ: ŋge²⁴ 'chăm chỉ', ta³³ŋgo³³ 'rùa', ŋgʷɤ²⁴ 'quanh co')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi mạc hữu thanh; có thể làm âm tiết độc lập kèm hơi thở như ŋh³³ 'con bò' hoặc tổ hợp /nɣ/ như ʔa³³nɣẽ³³ 'mặt trời'",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋɢʷ",
+        "note": "Tắc lưỡi con tiền mũi hóa môi hóa, ghi nhận hạn chế trong tư liệu Tân Trịnh (ví dụ: ʔɔ̃³³ŋɢweh³¹ 'nước tiểu')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết (ví dụ: ʔɔ̃³³ 'nước', ʔa⁵² 'vịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ví dụ: iʔ³¹hoʔ³¹ʔɔ̃³³ 'một ngụm nước')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm trước khép không tròn môi (ví dụ: tɕi⁵⁵ 'gió', vi³³ 'rau')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa khép không tròn môi (ví dụ: te²⁴ 'chết', nde³³ 'củ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở không tròn môi (ví dụ: ka³³ŋɛ³³ 'cỏ tranh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a",
+        "note": "Nguyên âm mở (ví dụ: ʔa³³la⁵⁵ 'miệng', ʔa⁵² 'vịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯ",
+        "note": "Nguyên âm sau khép không tròn môi (ví dụ: sɯ³³ 'chua', pɯ⁵⁵ 'chúng tôi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ",
+        "note": "Nguyên âm sau nửa khép không tròn môi (ví dụ: tɕɤʔ³¹ 'rượu', mbɤ²⁴ 'trèo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm sau khép tròn môi, rất thường gặp ở dạng mũi hóa /ũ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa khép tròn môi (ví dụ: ʔa³³ko⁵⁵ 'trứng', ndo⁵⁵ 'sưởi ấm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở tròn môi (ví dụ: kʷɔ³³ 'trắng', tʰɔ⁵⁵ 'ly hôn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ĩ",
+        "note": "Nguyên âm /i/ mũi hóa, phản ánh vần mũi Proto-Hmong-Mien bị rụng phụ âm cuối (ví dụ: ʔĩ⁵⁵ 'làm', ʝĩh³¹ 'tám')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ẽ",
+        "note": "Nguyên âm /e/ mũi hóa (ví dụ: m̥ẽʔ³¹ 'răng', ʔa³³nɣẽ³³ 'mặt trời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ̃",
+        "note": "Nguyên âm /ɛ/ mũi hóa (ví dụ: ʔa³³tʰɛ̃³³ 'làng, bản', lɛ̃h³³ 'người [loại từ]')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ũ",
+        "note": "Nguyên âm /u/ mũi hóa (ví dụ: ʔa³³tũ³³ 'núi', ʔũ⁵⁵ 'sưng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "õ",
+        "note": "Nguyên âm /o/ mũi hóa (ví dụ: ʔa³³tẽʔ³¹tõ³³ 'đỉnh núi')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ̃",
+        "note": "Nguyên âm /ɔ/ mũi hóa (ví dụ: ʔɔ̃³³ 'nước', nɔ̃h³³ 'ăn', sɔ̃⁵⁵ 'đi cùng')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết gắn với các thanh điệu nghẽn/tắc (thanh 3, thanh 7); tiếng Pà Thẻn đã mất toàn bộ phụ âm tắc cuối /-p, -t, -k/ và phụ âm mũi cuối /-m, -n, -ŋ/ (chuyển thành mũi hóa nguyên âm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Thành tố xát thanh hầu / giọng thở cuối âm tiết trong ký âm của Niederer (1996) cho các thanh 2, 4, 6, 8; Yamaoka (2025) phân tích đây là đặc trưng thanh tính giọng chùng/thở (slack/breathy phonation) của âm tiết/phụ âm đầu",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1",
+        "name": "Thanh 1 (sơ phân A1)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "modal (giọng thường)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T2",
+        "name": "Thanh 2 (sơ phân A2)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "breathy / slack voice (giọng thở [3̤3̤] theo Niederer 1997; gắn với phụ âm đầu giọng chùng [Cʱ] theo Yamaoka 2025)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T3",
+        "name": "Thanh 3 (sơ phân B1 / tắc thanh hầu)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "glottalized / checked (thường kết thúc bằng [-ʔ], ví dụ tɕɤʔ³¹ 'rượu', m̥ẽʔ³¹ 'răng')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T4",
+        "name": "Thanh 4 (sơ phân B2)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "breathy / slack voice (kèm hơi thở [-h], ví dụ tɕĩh³¹ 'lạnh', tẽh³¹ 'đợi')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T5",
+        "name": "Thanh 5 (sơ phân C1)",
+        "mark": null,
+        "chao_contour": "55",
+        "phonation": "modal (cao ngang giọng thường, ví dụ tɕi⁵⁵ 'gió', pɯ⁵⁵ 'chúng tôi')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T6",
+        "name": "Thanh 6 (sơ phân C2)",
+        "mark": null,
+        "chao_contour": "24",
+        "phonation": "modal ~ breathy/slack (đi lên, thường kèm hơi thở [-h] như pɯh²⁴ 'vào' hoặc sau âm hữu thanh/tiền mũi hóa như te²⁴ 'chết', ŋge²⁴ 'chăm chỉ')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T7",
+        "name": "Thanh 7 (sơ phân D1)",
+        "mark": null,
+        "chao_contour": "52",
+        "phonation": "glottalized / checked (cao đi xuống, thường có [-ʔ] như teʔ⁵² 'cánh', ʔa⁵² 'vịt')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T8",
+        "name": "Thanh 8 (sơ phân D2)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "breathy / slack checked (thấp đi xuống kèm hơi thở [-h], ví dụ ʝĩh³¹ 'tám', kɯh³¹ 'mười')",
+        "merges_with": "T4",
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 8 thanh điệu kết hợp chặt chẽ giữa đường nét cao độ (33, 31, 55, 24, 52) và kiểu phát thanh (phonation): giọng thường (modal), giọng thở/chùng (breathy/slack voice — Niederer 1996/1997 ký hiệu bằng -h hoặc [3̤3̤], Yamaoka 2025 chứng minh bằng EGG/âm học có hai kiểu đối lập thanh tính trong đó slackness gắn với pha mở của phụ âm đầu [Cʱ]), và tắc thanh hầu cuối âm tiết ([-ʔ])."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "ʔɔ̃³³",
+      "ipa": "ʔɔ̃³³",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "uống nước",
+      "form": "ʔɔ⁵⁵ ʔɔ̃³³",
+      "ipa": "ʔɔ⁵⁵ ʔɔ̃³³",
+      "gloss_en": "to drink water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "nɔ̃h³³",
+      "ipa": "nɔ̃h³³",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "ʔa³³pah³³",
+      "ipa": "ʔa³³pah³³",
+      "gloss_en": "tree",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời",
+      "form": "ʔa³³nɣẽ³³",
+      "ipa": "ʔa³³nɣẽ³³",
+      "gloss_en": "sun",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "ʔa³³lʰa⁵⁵",
+      "ipa": "ʔa³³lʰa⁵⁵",
+      "gloss_en": "moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "núi",
+      "form": "ʔa³³tũ³³",
+      "ipa": "ʔa³³tũ³³",
+      "gloss_en": "mountain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gió",
+      "form": "tɕi⁵⁵",
+      "ipa": "tɕi⁵⁵",
+      "gloss_en": "wind",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng, bản",
+      "form": "ʔa³³tʰɛ̃³³",
+      "ipa": "ʔa³³tʰɛ̃³³",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rượu",
+      "form": "tɕɤʔ³¹",
+      "ipa": "tɕɤʔ³¹",
+      "gloss_en": "alcohol / wine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "răng",
+      "form": "m̥ẽʔ³¹",
+      "ipa": "m̥ẽʔ³¹",
+      "gloss_en": "tooth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lưỡi",
+      "form": "tɤ³³mbɤh³¹",
+      "ipa": "tɤ³³mbɤh³¹",
+      "gloss_en": "tongue",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "miệng",
+      "form": "ʔa³³la⁵⁵",
+      "ipa": "ʔa³³la⁵⁵",
+      "gloss_en": "mouth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "ʔa³³kʰũʔ³¹mẽh²⁴",
+      "ipa": "ʔa³³kʰũʔ³¹mẽh²⁴",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng tôi / chúng ta",
+      "form": "pɯ⁵⁵",
+      "ipa": "pɯ⁵⁵",
+      "gloss_en": "we",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tám",
+      "form": "ʝĩh³¹",
+      "ipa": "ʝĩh³¹",
+      "gloss_en": "eight",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mười",
+      "form": "kɯh³¹",
+      "ipa": "kɯh³¹",
+      "gloss_en": "ten",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lễ hội nhảy lửa",
+      "form": "Po dinh họn a tờ",
+      "ipa": null,
+      "gloss_en": "Fire-dancing festival",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát đối đáp giao duyên Pà Thẻn",
+        "note": "Hát đối đáp nam nữ trong dịp cưới hỏi, lễ tết, sum họp bản làng; lời ca giàu hình ảnh ẩn dụ núi rừng và lao động dệt vải, làm nương."
+      },
+      {
+        "name": "Hát ru và dân ca trữ tình Pà Thẻn",
+        "note": "Giai điệu nhẹ nhàng, sâu lắng, truyền khẩu qua nhiều thế hệ ở Hà Giang và Tuyên Quang."
+      },
+      {
+        "name": "Bài cúng lễ nhảy lửa (Po dinh họn a tờ)",
+        "note": "Thầy cúng (Pác mân) vừa hát đọc bài cúng mời thần linh bằng tiếng Pà Thẻn vừa gõ que tre vào đàn Pàn dơ (pạn dơ) và lắc vòng sắt Pà sán tầu (pạ xen to) theo nhịp dồn dập liên tục suốt buổi lễ nhảy lửa (Di sản văn hóa phi vật thể quốc gia)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến láy và bật hơi theo thanh tính Pà Thẻn",
+        "description": "Lời hát gắn chặt với hệ thống 8 thanh điệu, nguyên âm mũi hóa và hơi thở/giọng chùng của tiếng Pà Thẻn; nghệ nhân địa phương nhận xét nhiều âm luyến và bật hơi khó chép chính xác bằng chữ phổ thông.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn Pàn dơ (pạn dơ) và vòng lắc Pà sán tầu (pạ xen to)",
+        "note": "Bộ nhạc cụ thiêng trong lễ nhảy lửa: Pàn dơ là thanh gỗ dài khoảng 4 gang tay có gắn miếng sắt dọc thân, được thầy cúng gõ bằng que tre kết hợp với tay kia lắc chiếc vòng sắt Pà sán tầu tạo tiết tấu dồn dập liên tục."
+      },
+      {
+        "name": "Đàn tầy nhậy",
+        "note": "Nhạc cụ dây kéo vĩ dùng trong sinh hoạt văn nghệ dân gian của người Pà Thẻn (một số tài liệu thứ cấp đôi khi nhầm lẫn tên gọi đàn tầy nhậy với đàn gõ Pàn dơ)."
+      },
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ hơi đa thanh dùng trong sinh hoạt văn nghệ dân gian."
+      },
+      {
+        "name": "Sáo trúc",
+        "note": "Nhạc cụ thổi giai điệu phổ biến trong đời sống tinh thần người Pà Thẻn."
+      },
+      {
+        "name": "Kèn lá",
+        "note": "Dùng trong giao duyên và gọi bạn trên triền núi."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Pà Thẻn Việt Nam (Tân Trịnh / Bắc Quang / Lâm Bình / Chiêm Hóa; gồm cả biến thể Na-e do Bonifacy 1905 ghi chép)",
+        "iso639_3": "pha",
+        "note": "Biến thể chính tại Việt Nam; Edmondson (1992) và Niederer (1997) chỉ ra phương ngữ này gần gũi nhất với tiếng Pa-Hng Nam (Southern Pa-Hng) tại Tam Giang (Sanjiang), Quảng Tây, Trung Quốc."
+      },
+      {
+        "name": "Southern Pa-Hng (Pa-Hng Nam: Văn Giới / Wenjie, Tam Giang, Quảng Tây, Trung Quốc)",
+        "iso639_3": "pha",
+        "note": "Phương ngữ Pa-Hng ở Trung Quốc có quan hệ gần với tiếng Pà Thẻn tại Việt Nam."
+      },
+      {
+        "name": "Northern Pa-Hng (Pa-Hng Bắc: Cổn Đổng / Gundong, Lê Bình, Quý Châu và Dung Thủy, Quảng Tây, Trung Quốc)",
+        "iso639_3": "pha",
+        "note": "Nhóm phương ngữ Pa-Hng phía bắc tại Trung Quốc."
+      },
+      {
+        "name": "Hm Nai / Wunai Bunu (Ngô Nại / 唔奈)",
+        "iso639_3": "bwn",
+        "note": "Ngôn ngữ chị em rất gần trong tiểu nhánh Paheng tại Hồ Nam, Trung Quốc (Mao & Li 1997 xếp chung cụm phương ngữ với Pa-Hng, ISO 639-3 tách mã riêng)."
+      },
+      {
+        "name": "Younuo Bunu (Ưu Nặc / 优诺)",
+        "iso639_3": "buh",
+        "note": "Ngôn ngữ cùng nhánh Paheng-Younuo (Bahengic) tại Quảng Tây, Trung Quốc."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "[ʔɔ⁵⁵ ʔɔ̃³³] 'uống nước'",
+        "quoc_ngu": "o ó",
+        "note": "Cách ghi thực tế của người dạy tiếng Pà Thẻn ở Lâm Bình (Tuyên Quang). Tiếng Việt không có nguyên âm mũi hóa /ɔ̃/ đối lập âm vị học; khi đọc bằng TTS tiếng Việt bị mất nét mũi hóa của âm tiết thứ hai."
+      },
+      {
+        "native": "[ʔa³³pah³³] / [tɤ³³pah³³] 'cái cây'",
+        "quoc_ngu": "a pa / tơ pa",
+        "note": "Tiếng Việt không có giọng thở/chùng (slack/breathy voice [-h]) ở âm tiết mở thanh bằng; viết 'pa' chỉ giữ được cao độ ngang 33."
+      },
+      {
+        "native": "[nɔ̃h³³] 'ăn'",
+        "quoc_ngu": "no / nong",
+        "note": "'no' giữ được âm tiết mở nhưng mất mũi hóa /ɔ̃/; 'nong' giữ âm sắc mũi nhưng thêm phụ âm đóng môi-mạc [-ŋ͡m] không có trong tiếng Pà Thẻn."
+      },
+      {
+        "native": "[ʔa³³lʰa⁵⁵] 'mặt trăng'",
+        "quoc_ngu": "a lha / a la",
+        "note": "Âm bên vô thanh/bật hơi /l̥ ~ lʰ/ hoàn toàn không có trong tiếng Việt; TTS tiếng Việt chỉ có thể đọc xấp xỉ thành 'la' hoặc 'kha/tha' nhưng đều sai lệch cấu âm."
+      },
+      {
+        "native": "[m̥ẽʔ³¹] 'răng'",
+        "quoc_ngu": "mẹ / mễnh",
+        "note": "Âm mũi vô thanh /m̥/ và nguyên âm mũi hóa kèm tắc thanh hầu [-ẽʔ³¹] đều không tồn tại trong tiếng Việt; thanh nặng tiếng Việt ('mẹ') chỉ mô phỏng được phần tắc thanh hầu cuối âm tiết [ʔ] và cao độ thấp."
+      },
+      {
+        "native": "[tɤ³³mbɤh³¹] 'lưỡi'",
+        "quoc_ngu": "tơ bờ",
+        "note": "Phụ âm tắc tiền mũi hóa /mb, nd, ɲdʑ, ŋg/ và âm môi ngạc hóa đồng cấu âm [p͡ṯʲ] không có trong tiếng Việt chuẩn (dù 'b, d' tiếng Việt có tiền thanh hầu hóa, không có thành tố mũi đi trước)."
+      },
+      {
+        "native": "[tɕɤʔ³¹] 'rượu'",
+        "quoc_ngu": "chợ",
+        "note": "Xấp xỉ khá sát bằng chữ Quốc ngữ giọng Bắc nhờ phụ âm đầu 'ch' [tɕ] và thanh nặng [˨˩̰ʔ] có tắc thanh hầu cuối."
+      },
+      {
+        "native": "[pɯ⁵⁵] 'chúng tôi'",
+        "quoc_ngu": "pư",
+        "note": "Thanh 5 [55] cao ngang hơn thanh ngang tiếng Việt [33] và không đi lên như thanh sắc [35]."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ʔɔ̃³³",
+        "ipa": "ʔɔ̃³³",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "ʔɔ⁵⁵ ʔɔ̃³³",
+        "ipa": "ʔɔ⁵⁵ ʔɔ̃³³",
+        "gloss_vi": "uống nước"
+      },
+      {
+        "native": "nɔ̃h³³",
+        "ipa": "nɔ̃h³³",
+        "gloss_vi": "ăn"
+      },
+      {
+        "native": "ʔa³³pah³³",
+        "ipa": "ʔa³³pah³³",
+        "gloss_vi": "cây"
+      },
+      {
+        "native": "ʔa³³nɣẽ³³",
+        "ipa": "ʔa³³nɣẽ³³",
+        "gloss_vi": "mặt trời"
+      },
+      {
+        "native": "ʔa³³lʰa⁵⁵",
+        "ipa": "ʔa³³lʰa⁵⁵",
+        "gloss_vi": "mặt trăng"
+      },
+      {
+        "native": "ʔa³³tũ³³",
+        "ipa": "ʔa³³tũ³³",
+        "gloss_vi": "núi"
+      },
+      {
+        "native": "tɕi⁵⁵",
+        "ipa": "tɕi⁵⁵",
+        "gloss_vi": "gió"
+      },
+      {
+        "native": "ʔa³³tʰɛ̃³³",
+        "ipa": "ʔa³³tʰɛ̃³³",
+        "gloss_vi": "làng, bản"
+      },
+      {
+        "native": "tɕɤʔ³¹",
+        "ipa": "tɕɤʔ³¹",
+        "gloss_vi": "rượu"
+      },
+      {
+        "native": "m̥ẽʔ³¹",
+        "ipa": "m̥ẽʔ³¹",
+        "gloss_vi": "răng"
+      },
+      {
+        "native": "ʔa³³la⁵⁵",
+        "ipa": "ʔa³³la⁵⁵",
+        "gloss_vi": "miệng"
+      },
+      {
+        "native": "pɯ⁵⁵",
+        "ipa": "pɯ⁵⁵",
+        "gloss_vi": "chúng tôi"
+      },
+      {
+        "native": "ʝĩh³¹",
+        "ipa": "ʝĩh³¹",
+        "gloss_vi": "tám"
+      },
+      {
+        "native": "kɯh³¹",
+        "ipa": "kɯh³¹",
+        "gloss_vi": "mười"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Không nên ép tiếng Pà Thẻn qua bộ quy tắc G2P chữ Quốc ngữ vì sẽ làm mất 4 đặc trưng cốt lõi phân biệt nghĩa: (1) nguyên âm mũi hóa đối lập nguyên âm miệng (/ɔ̃/ ≠ /ɔ/), (2) chuỗi phụ âm tiền mũi hóa (/mb, nd, ɲdʑ, ŋg/), (3) chuỗi âm mũi/bên vô thanh (/m̥, n̥, l̥/) và âm môi-đầu lưỡi đồng cấu âm [p͡ṯʲ], (4) đối lập giọng thường (modal) với giọng chùng/thở (slack/breathy).",
+      "Nếu huấn luyện mô hình TTS/SVS đa ngôn ngữ cho tiếng Pà Thẻn, nên nhận đầu vào trực tiếp là chuỗi âm vị IPA kèm mã số 8 thanh điệu (T1–T8)."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Pa-Hng (pahn1237)",
+      "url": "https://glottolog.org/resource/languoid/id/pahn1237",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Niederer, Barbara (1997). Notes comparatives sur le pa-hng. Cahiers de Linguistique – Asie Orientale, 26(1), 71–130.",
+      "url": "https://doi.org/10.3406/clao.1997.1506",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Yamaoka, Sho (2025). パテン語ベトナム変種の頭子音体系に関する試論 ―硬口蓋性唇音とslack voiceに着目して― [A Preliminary Study on the Onset System of Vietnamese Pa Then: Focusing on the Palatal Series of Labials and Slack Voice]. Gengo Kenkyu (言語研究), 168, 77–101.",
+      "url": "https://doi.org/10.11435/gengo.168.0_77",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Appendix:Pa-Hng comparative vocabulary list (bao gồm bảng từ Pa-Hng Tân Trịnh, Hà Giang từ Barbara Niederer 1996)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Pa-Hng_comparative_vocabulary_list",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Pa-Hng language",
+      "url": "https://en.wikipedia.org/wiki/Pa-Hng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Pà Thẻn & Người Pà Thẻn",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_P%C3%A0_Th%E1%BA%BBn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A. (1992). Pa-hng development and diversity. Papers from the First Annual Meeting of the Southeast Asian Linguistics Society (SEALS 1), Arizona State University, 159–186.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Thu Quỳnh (2009). Vài nét về ngữ âm Pà Thẻn và phương án phiên âm tiếng Pà Thẻn. Tạp chí Ngôn ngữ & Đời sống, số 1+2 (159+160), 74–82.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Thu Quỳnh (2011). Vài nét về hệ thống thanh điệu tiếng Pà Thẻn. Tạp chí Khoa học & Công nghệ – Đại học Thái Nguyên, số 80(04), 31–36.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets[16].ipa & phonology.onsets[17].ipa",
+          "severity": "medium",
+          "problem": "Sử dụng ký hiệu ngữ âm học Hán-Tạng 'ȵ' (U+0235) thay vì ký hiệu IPA chuẩn 'ɲ' cho âm mũi ngạc cứng / lợi-ngạc trong trường ipa máy đọc.",
+          "fix": "Đổi trường ipa thành 'ɲdʑ' và 'ɲ', đồng thời ghi chú cách ký hiệu 'ȵdʑ' / 'ȵ' của truyền thống Hán-Tạng học (Niederer 1996/1997, Mao & Li 1997) vào trường note."
+        },
+        {
+          "path": "phonology.onsets[5].ipa, phonology.onsets[11].ipa, phonology.onsets[14].ipa",
+          "severity": "low",
+          "problem": "Trường ipa chứa ký hiệu biến thể tự do 'm̥ ~ mʰ', 'n̥ ~ nʰ', 'l̥ ~ lʰ' gây khó khăn cho bộ phân tích IPA tự động.",
+          "fix": "Chuẩn hóa trường ipa về một ký hiệu chuẩn ('m̥', 'n̥', 'l̥') và chuyển biến thể bật hơi ('mʰ', 'nʰ', 'lʰ') sang trường note."
+        },
+        {
+          "path": "lexicon[1].form & lexicon[3].form",
+          "severity": "medium",
+          "problem": "Trường form chứa cả chú thích giải thích trong ngoặc đơn ('ʔɔ⁵⁵ ʔɔ̃³³ (ghi âm cộng đồng: o ó)' và 'ʔa³³pah³³ (ghi âm cộng đồng: tơ pa)'), làm bẩn dữ liệu từ vựng máy đọc.",
+          "fix": "Giữ nguyên hình thức ngữ âm thuần túy trong trường form ('ʔɔ⁵⁵ ʔɔ̃³³' và 'ʔa³³pah³³'); thông tin phiên âm cộng đồng đã có trong ml_hints.quoc_ngu_approximation."
+        },
+        {
+          "path": "music.genres[2].note & music.instruments[0]",
+          "severity": "medium",
+          "problem": "Đánh đồng 'đàn Pàn dơ (pạn dơ)' với 'đàn tầy nhậy' và giải thích nhầm 'pạ xen to' (biến âm của vòng lắc 'Pà sán tầu') thành que gõ tre. Theo hồ sơ Di sản văn hóa phi vật thể quốc gia và điền dã tại Thượng Minh / Tân Bắc, bộ nhạc cụ cúng lễ nhảy lửa gồm đàn gõ 'Pàn dơ' (thanh gỗ gắn sắt gõ bằng que tre) và vòng lắc sắt 'Pà sán tầu', còn 'đàn tầy nhậy' là đàn kéo nhị trong sinh hoạt dân gian.",
+          "fix": "Tách rõ 'Đàn Pàn dơ (pạn dơ) và vòng lắc Pà sán tầu' (nhạc cụ nghi lễ nhảy lửa) và 'Đàn tầy nhậy' (nhạc cụ dây kéo vĩ dân gian) trong music.instruments, đồng thời chỉnh lại mô tả ở music.genres[2].note."
+        },
+        {
+          "path": "scripts[0].note",
+          "severity": "low",
+          "problem": "Thông tin về đề tài ĐH2024-TN04-04 có thể cập nhật chính xác hơn theo thông báo nghiệm thu cấp cơ sở tháng 11/2026 tại Trường ĐHSP - ĐH Thái Nguyên.",
+          "fix": "Bổ sung thông tin đề tài ĐH2024-TN04-04 được nghiệm thu cấp cơ sở tháng 11/2026 nhưng chưa ban hành chính thức ở cấp nhà nước."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần cập nhật bảng ánh xạ grapheme -> IPA chính thức ngay khi bộ chữ tự dạng Latinh cho tiếng Pà Thẻn ở Việt Nam (Đề tài ĐH2024-TN04-04 của TS. Nguyễn Thu Quỳnh và cộng sự, nghiệm thu cấp cơ sở tháng 11/2026) được công bố đầy đủ và phê duyệt áp dụng.",
+      "Cần đối chiếu sự khác biệt ngữ âm - thanh điệu giữa điểm khảo sát Tân Trịnh (Quang Bình, Hà Giang) và các điểm cư trú tại Bắc Quang (Hà Giang), Lâm Bình và Chiêm Hóa (Tuyên Quang).",
+      "Cần nhạc sĩ dân tộc học và nghệ nhân Pà Thẻn ký âm thang âm, tiết tấu đàn Pàn dơ (pạn dơ) cùng vòng lắc Pà sán tầu và giai điệu hát đối đáp giao duyên sang chuẩn ABC/MIDI."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

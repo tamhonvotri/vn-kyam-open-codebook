@@ -1,0 +1,819 @@
+{
+  "id": "giay",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Giáy",
+  "name_en": "Giáy (Yay / Bouyei)",
+  "autonym": "Pú Giáy / Yay",
+  "ethnic_group_vi": "Giáy",
+  "language": {
+    "iso639_3": "pcc",
+    "glottocode": "bouy1240",
+    "family": "Kra-Dai",
+    "branch": "Tai (Northern Tai)"
+  },
+  "regions": [
+    "Lào Cai (Sa Pa, Bát Xát, Bảo Thắng, Mường Khương, Bảo Yên)",
+    "Hà Giang (Yên Minh, Đồng Văn, Quản Bạ, Mèo Vạc)",
+    "Lai Châu (Phong Thổ, Tam Đường, Mường Tè, Nậm Nhùn)",
+    "Yên Bái (Văn Chấn)",
+    "Cao Bằng (Bảo Lạc)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Giáy tại Việt Nam: 67.858 người (Điều tra 53 DTTS năm 2019); tổng số người nói dải phương ngữ Bouyei–Giáy (pcc) khoảng 2,65–2,7 triệu người (khoảng 98% tại Quý Châu và Vân Nam, Trung Quốc).",
+  "scripts": [
+    {
+      "name": "Chữ Latinh phiên âm theo chữ Quốc ngữ (phi chính thức)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Giáy tại Việt Nam chưa có bộ chữ viết chuẩn do Nhà nước ban hành riêng cho giáo dục phổ thông. Trong cộng đồng và sưu tầm văn nghệ dân gian (ghi lời dân ca Vươn, bài cúng), người Giáy thường mượn quy tắc chính tả chữ Quốc ngữ tiếng Việt để ký âm tự phát (thói quen đã được Gedney 1965 ghi nhận từ năm 1964)."
+    },
+    {
+      "name": "Chữ Hán và Chữ Nôm Giáy (Sawndip / cổ tự thầy cúng)",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Dùng hạn chế trong sách cúng, bài mo, lịch trạch cát và gia phả truyền thống của một số dòng họ, thầy cúng."
+    },
+    {
+      "name": "Chữ Bố Y Latinh hiện đại (Qiannan Bouyei orthography 1985)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh chính thức cho ngôn ngữ pcc tại Quý Châu (Trung Quốc), dùng chữ cái cuối âm tiết (l, z, c, x, s, h, t, b) để ghi thanh điệu; hầu như không được sử dụng trong cộng đồng người Giáy tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp bởi mô hình ngôn ngữ dựa trên tư liệu điền dã ngữ âm học kinh điển của William J. Gedney (1965, 1991) về phương ngữ Giáy (Yay) tại Mường Hum (Bát Xát) và Sa Pa (Lào Cai), đối chiếu với PHOIBLE (UPSID 515 / SPA 28), Edmondson & Gregerson (2001) và các tư liệu văn hóa dân gian Giáy tại Việt Nam. Do tiếng Giáy ở Việt Nam chưa có bộ chữ Latinh chuẩn hóa thống nhất, cột grapheme trong phonology ghi ký hiệu phiên âm học thuật (Gedney) kèm cách ghi xấp xỉ theo Quốc ngữ thường gặp trong sưu tầm dân ca.",
+  "phonology": {
+    "syllable_structure": "C(G)V(C)+T, trong đó G ∈ {w, j}; nguyên âm chỉ phân biệt ngắn/dài đối với /a/ ≠ /aː/ ở âm tiết đóng; âm cuối C ∈ {p, t, k, m, n, ŋ, w, j, ɰ}.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (ví dụ: po⁵ 'bố'); Quốc ngữ dân gian thường viết p-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi; tần suất thấp, chủ yếu trong từ vay mượn hoặc biến thể tự do với /p/; Quốc ngữ dễ nhầm với âm xát /f/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (ví dụ: ba² 'vai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ: ma¹ 'chó')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f (QN: ph)",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh (ví dụ: fi⁴ 'lửa'); cách ghi Quốc ngữ dân gian thường viết là ph-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát/tiếp cận môi-răng hữu thanh (ví dụ: vaay⁴ 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi (ví dụ: ta¹ 'mắt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi; ít gặp hơn âm không bật hơi, thường thấy ở từ mượn hoặc biến thể với /t/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d (QN: đ)",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh (ví dụ: da² 'mắng'); Quốc ngữ dân gian viết đ-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi (ví dụ: nu¹ 'chuột')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "θ (QN: x / th / sr)",
+        "ipa": "θ",
+        "note": "Xát răng vô thanh (ví dụ: θi² 'bốn'); âm vị đặc trưng của tiếng Giáy Lào Cai theo Gedney (1965), không có trong tiếng Việt chuẩn. Ở thổ ngữ Sa Pa, /r/ của Mường Hum cũng nhập vào /θ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s (QN: x / s)",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh (ví dụ: sa⁵ 'con dao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r (QN: r / sr)",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi tại Mường Hum (ví dụ: rok¹ 'chim', ran¹ 'thấy'); tại Sa Pa biến đổi tương ứng thành [θ] (Gedney 1965)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi (ví dụ: liaw⁵ 'chơi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c (QN: ch / ts)",
+        "ipa": "c ~ tɕ",
+        "note": "Tắc/tắc-xát mặt lưỡi vô thanh không bật hơi (ví dụ: caaŋ⁴ 'voi'); tư liệu dân ca Việt Nam đôi khi ghi ch- hoặc ts-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch (QN: ts' / s)",
+        "ipa": "cʰ ~ tɕʰ",
+        "note": "Tắc/tắc-xát mặt lưỡi bật hơi (ví dụ: chə¹ 'xe'); chủ yếu xuất hiện trong lớp từ vay mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ (QN: nh)",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ: ɲa³ 'cỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y (QN: gi / d)",
+        "ipa": "j",
+        "note": "Tiếp cận mặt lưỡi (ví dụ: yay⁶ 'người Giáy'); khi phát âm rời rạc từng từ, người nói song ngữ Việt–Giáy đôi khi đọc thành [z] do ảnh hưởng cách đọc chữ Quốc ngữ (Gedney 1965)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k (QN: c / k)",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh không bật hơi (ví dụ: kaay¹ 'bán')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi bật hơi (ví dụ: khi¹ 'khinh thường'); chủ yếu trong từ mượn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ ~ ɣ",
+        "note": "Tắc/xát gốc lưỡi hữu thanh; âm vị ngoại vi rất hiếm gặp (ví dụ: gek³ 'kẻ vạch', Gedney 1965)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ŋ (QN: ng / ngh)",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi (ví dụ: ŋa⁴ 'vừng; ngà voi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ (QN: không ghi chữ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết (ví dụ: ʔa¹ 'con quạ', ʔaw¹ 'lấy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ví dụ: ha³ 'năm [5]', hun⁴ 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "py, by, my",
+        "ipa": "pj, bj, mj",
+        "note": "Tổ hợp phụ âm môi + âm lướt ngạc /j/ (ví dụ: pya¹ [pjaː˨˨] 'cá', bya³ 'dệt thưa', mya¹ 'trát vữa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw, ŋw, ʔw, yw, hw (QN: qu, ngu, o/u, giu, hu)",
+        "ipa": "kw, ŋw, ʔw, jw, hw",
+        "note": "Tổ hợp phụ âm + âm lướt môi /w/ (ví dụ: kwa² 'đi qua', ʔwan¹ 'gai', ŋwaak⁵ 'ngoảnh đầu')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước cao không tròn môi; phát âm dài khi ở cuối âm tiết mở (ví dụ: mi⁴ 'có')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɯ / ɨ (QN: ư)",
+        "ipa": "ɯ",
+        "note": "Nguyên âm sau cao không tròn môi (Gedney ký hiệu ɨ; ví dụ: kɯ² 'cưa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau cao tròn môi (ví dụ: nu¹ 'chuột')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e (QN: ê / e)",
+        "ipa": "ɛ ~ æ",
+        "note": "Nguyên âm trước nửa mở/thấp (Gedney mô tả là [æ^]; ví dụ: pe¹ 'bè', hew¹ 'xanh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ə (QN: ơ)",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa trung bình; gặp ở âm tiết mở (ví dụ: chə¹ 'xe', mə⁶ 'ngựa'), rất hiếm khi đi trước phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a (QN: ă / â)",
+        "ipa": "a",
+        "note": "Nguyên âm thấp ngắn; chỉ đối lập trường độ với /aː/ khi đứng trước phụ âm cuối hoặc bán nguyên âm (ví dụ: taŋ² 'ghế' ≠ taaŋ² 'khác', ʔay¹ 'ho' ≠ ʔaay¹ 'bướu cổ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aa / a (cuối âm tiết)",
+        "ipa": "aː",
+        "note": "Nguyên âm thấp dài; dài ở cuối âm tiết mở (viết a trong Gedney: ta¹ [taː] 'mắt') và đối lập với /a/ ngắn ở âm tiết đóng (viết aa: haaw¹ 'trắng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o (QN: o / ô)",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở tròn môi (Gedney mô tả là [ɔ^]; ví dụ: po⁵ 'bố', mo² 'mới')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia (QN: ia / iê)",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước (ví dụ: ria⁴ 'liếm', pian¹ 'xứ/nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɯa / ɨa (QN: ưa / ươ)",
+        "ipa": "ɯə",
+        "note": "Nguyên âm đôi hướng tâm sau không tròn môi (ví dụ: rɯa⁴ 'tai', pɯaŋ⁴ 'mường')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua (QN: ua / uô)",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau tròn môi (ví dụ: rua⁴ 'thuyền')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết (ví dụ: ram⁶ 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết (ví dụ: hun⁴ 'người', ran¹ 'thấy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ŋ (QN: -ng)",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi cuối âm tiết (ví dụ: taaŋ² 'khác')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh đóng (không bật ra) ở âm tiết khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh đóng ở âm tiết khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k (QN: -c)",
+        "ipa": "k̚",
+        "note": "Tắc gốc lưỡi vô thanh đóng ở âm tiết khép (ví dụ: rok¹ 'chim', rok³ 'sáu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w (QN: -u / -o)",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-mạc trong các vần iw, iaw, ew, aw, aaw (ví dụ: haaw¹ 'trắng', ʔaw¹ 'lấy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y (QN: -i / -y)",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc trong các vần iay, uy, uay, ay, aay, oy (ví dụ: kaay¹ 'bán', ʔoy³ 'mía')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ɰ / -ɨ (QN: -ư)",
+        "ipa": "ɰ",
+        "note": "Bán nguyên âm cuối sau cao không tròn môi trong vần đặc trưng aɰ (Gedney ghi aɨ, tương đương -ăư trong chữ Tày; ví dụ: baɰ¹ 'lá')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1 (Gedney 1 — tương ứng Proto-Tai *A123, *DS4)",
+        "mark": "¹ (Bố Y TQ: -l)",
+        "chao_contour": "22",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2 (Gedney 2 — tương ứng Proto-Tai *B123)",
+        "mark": "² (Bố Y TQ: -x)",
+        "chao_contour": "11",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3 (Gedney 3 — tương ứng Proto-Tai *C123, *DS123)",
+        "mark": "³ (Bố Y TQ: -c)",
+        "chao_contour": "24",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4 (Gedney 4 — tương ứng Proto-Tai *A4)",
+        "mark": "⁴ (Bố Y TQ: -z)",
+        "chao_contour": "454",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5 (Gedney 5 — tương ứng Proto-Tai *B4, *DL4)",
+        "mark": "⁵ (Bố Y TQ: -h)",
+        "chao_contour": "41",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6 (Gedney 6 — tương ứng Proto-Tai *C4)",
+        "mark": "⁶ (Bố Y TQ: -s)",
+        "chao_contour": "34",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu thuần túy (6 thanh trên âm tiết mở/mũi/bán nguyên âm; trên âm tiết khép kết thúc bằng -p, -t, -k xuất hiện phổ biến 4 mức cao độ trùng với các thanh 1, 2, 3, 5). Các chỉ số Chao được quy đổi từ mô tả thính giác chi tiết của Gedney (1965: 402): Thanh 1 bằng hơi thấp hơn trung bình (22), Thanh 2 bằng thấp (11), Thanh 3 đi lên (24), Thanh 4 cao hơi nhô lên rồi xuống cuối âm tiết (454), Thanh 5 đi xuống (41), Thanh 6 cao hơn trung bình và hơi đi lên ở cuối (34)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "mưa",
+      "form": "hun¹",
+      "ipa": "hun˨˨",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "hun⁴",
+      "ipa": "hun˦˥˦",
+      "gloss_en": "person, human being",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tìm kiếm",
+      "form": "hun⁵",
+      "ipa": "hun˦˩",
+      "gloss_en": "to seek, search",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ram⁶",
+      "ipa": "ram˧˦",
+      "gloss_en": "water",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bố, cha",
+      "form": "po⁵",
+      "ipa": "pɔː˦˩",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "ta¹",
+      "ipa": "taː˨˨",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "pya¹",
+      "ipa": "pjaː˨˨",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "rok¹",
+      "ipa": "rɔk̚˨˨",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "ma¹",
+      "ipa": "maː˨˨",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chuột",
+      "form": "nu¹",
+      "ipa": "nuː˨˨",
+      "gloss_en": "rat, mouse",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá cây",
+      "form": "baɰ¹",
+      "ipa": "baɰ˨˨",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trắng",
+      "form": "haaw¹",
+      "ipa": "haːw˨˨",
+      "gloss_en": "white",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xanh (lá cây)",
+      "form": "hew¹",
+      "ipa": "hɛw˨˨",
+      "gloss_en": "green",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mới",
+      "form": "mo²",
+      "ipa": "mɔː˩˩",
+      "gloss_en": "new",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn (4)",
+      "form": "θi²",
+      "ipa": "θiː˩˩",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (5)",
+      "form": "ha³",
+      "ipa": "haː˨˦",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu (6)",
+      "form": "rok³",
+      "ipa": "rɔk̚˨˦",
+      "gloss_en": "six",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Vươn (dân ca Giáy)",
+        "note": "Tên gọi chung cho kho tàng dân ca truyền thống người Giáy; đặc trưng bởi một vài làn điệu nền tảng nhưng người hát biến tấu linh hoạt theo tâm trạng, hoàn cảnh và ứng tác lời ca giàu hình ảnh thiên nhiên."
+      },
+      {
+        "name": "Vươn chăng hằm (Vươn chang hầm)",
+        "note": "Hát giao duyên nam nữ ban đêm (nhất là dịp đầu xuân, lễ hội), thường hát đối đáp theo trình tự bài bản bắt buộc gọi là 'vươn chìn tiều' rồi mới sang phần hát ngẫu hứng."
+      },
+      {
+        "name": "Vươn há lản",
+        "note": "Hát đối đáp, chúc tụng bên mâm rượu trong tiệc cưới, mừng nhà mới, lễ Tết."
+      },
+      {
+        "name": "Vươn srỏng răn (Vươn tống poạc) & Vươn chao pắư",
+        "note": "Hát tiễn đường, chia tay bạn tình sau phiên chợ/cuộc vui và hát nghi lễ trao dâu, căn dặn cô dâu trong đám cưới."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung và luyến cuối câu theo thanh điệu (Vươn không nhạc đệm)",
+        "description": "Dân ca Vươn truyền thống thường hát mộc (a cappella), nhịp tự do, kéo dài nguyên âm cuối câu kèm rung nhẹ và luyến bám sát đường nét 6 thanh điệu của lời tiếng Giáy.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung dân ca vùng Tày – Thái Bắc Bộ",
+        "note": "Giai điệu Vươn trữ tình, mềm mại, tầm cữ vừa phải, tiến hành quãng liền bậc hoặc quãng 3, quãng 4; biến tấu cao độ tùy theo thanh điệu từ ngữ (chưa có công trình đo âm học chuẩn hóa hệ thống hơi/điệu thức riêng).",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Kèn Pồ lế (Pí lè)",
+        "note": "Nhạc cụ hơi dăm kép giữ vai trò chủ đạo trong đám cưới, Tết và lễ hội Roóng Poọc"
+      },
+      {
+        "name": "Sáo lá (Pơ bơ mấy)",
+        "note": "Dùng phổ biến để gọi bạn, tỏ tình giao duyên"
+      },
+      {
+        "name": "Sáo lưỡi / Sáo ngang (Náu lín, Náu vang)",
+        "note": "Nhạc cụ hơi dùng trong sinh hoạt đời thường"
+      },
+      {
+        "name": "Trống (Trổông)",
+        "note": "Nhạc cụ màng rung kết hợp với kèn pồ lế và não bạt trong lễ hội, nghi lễ múa trống"
+      },
+      {
+        "name": "Não bạt / Chũm chọe (Xéo)",
+        "note": "Nhạc cụ tự thân vang bằng đồng đi theo bộ gõ lễ hội"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Giáy Mường Hum (Bát Xát, Lào Cai)",
+        "iso639_3": "pcc",
+        "note": "Phương ngữ cơ sở của công trình mô tả ngữ âm và từ điển 'Yay' (Gedney 1965; Hudak 1991); phân biệt rõ /r/ và /θ/."
+      },
+      {
+        "name": "Giáy Sa Pa / Tả Van (Lào Cai)",
+        "iso639_3": "pcc",
+        "note": "Rất gần với Giáy Mường Hum nhưng phụ âm /r/ của Mường Hum biến đổi tương ứng thành /θ/ (Gedney 1965); trung tâm bảo tồn dân ca Vươn."
+      },
+      {
+        "name": "Giáy Hà Giang (Yên Minh, Đồng Văn) và Phong Thổ (Lai Châu)",
+        "iso639_3": "pcc",
+        "note": "Các thổ ngữ Giáy thông hiểu được với Giáy Lào Cai, có tiếp xúc từ vựng với tiếng Tày, Thái và Quan Hỏa."
+      },
+      {
+        "name": "Pú Nả / Cùi Chu (Vần Nả — Tam Đường, Lai Châu)",
+        "iso639_3": "pcc",
+        "note": "Nhóm địa phương thuộc dân tộc Giáy (~5.000 người), nói một biến thể Tai Bắc gần với phương ngữ Bố Y Tây Nam Quý Châu (Edmondson & Gregerson 2001; Lò Văn Chiến 2012), khó thông hiểu trực tiếp với tiếng Giáy Lào Cai."
+      },
+      {
+        "name": "Tu Dí (Mường Khương, Lào Cai)",
+        "iso639_3": "cmn",
+        "note": "Nhóm địa phương được xếp vào dân tộc Giáy (nguồn gốc Đô Quân, Quý Châu) nhưng đã chuyển hoàn toàn sang nói một phương ngữ tiếng Hán Tây Nam (Quan Hỏa), không nói tiếng Giáy hệ Kra-Dai (Edmondson & Gregerson 2001)."
+      },
+      {
+        "name": "Tiếng Bố Y (Quản Bạ, Hà Giang — dân tộc Bố Y)",
+        "iso639_3": "pcc",
+        "note": "Cùng mã ISO 639-3 (pcc) với tiếng Giáy (nguồn gốc Vọng Mô, Quý Châu); nhiều người Bố Y tại Hà Giang hiện nói tiếng Giáy hoặc tiếng Tày."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "pya¹ [pjaː˨˨]",
+        "quoc_ngu": "pia",
+        "note": "Tiếng Việt không có cụm phụ âm đầu /pj-/; viết xấp xỉ thành 'pia' đọc nhanh thành 1 âm tiết, giữ âm p- tắc hai môi (tránh đọc thành b-)."
+      },
+      {
+        "native": "bya³ [bjaː˨˦]",
+        "quoc_ngu": "bia / bía",
+        "note": "Cụm phụ âm đầu /bj-/ không có trong tiếng Việt; xấp xỉ bằng nguyên âm đôi 'ia' sau 'b'."
+      },
+      {
+        "native": "θi² [θiː˩˩]",
+        "quoc_ngu": "xì / thì",
+        "note": "Âm xát răng vô thanh /θ/ (như 'th' trong tiếng Anh 'thin') KHÔNG có trong tiếng Việt chuẩn; trong văn bản dân gian thường viết xấp xỉ bằng 'x-' hoặc 'th-' (cần chú ý vì dễ lẫn với /s/ và /tʰ/)."
+      },
+      {
+        "native": "baɰ¹ [baɰ˨˨]",
+        "quoc_ngu": "băư / bư",
+        "note": "Vần /-aɰ/ (nguyên âm /a/ ngắn + bán nguyên âm sau không tròn môi /ɰ/) KHÔNG có trong tiếng Việt chuẩn; truyền thống ký âm Tày–Thái–Giáy ở Việt Nam thường viết là '-ăư' (như 'chao pắư'). Với TTS chỉ biết Quốc ngữ chuẩn, có thể xấp xỉ tạm bằng 'bâu' (giảm tròn môi) nhưng sẽ lệch âm sắc."
+      },
+      {
+        "native": "caaŋ⁴ [caːŋ˦˥˦]",
+        "quoc_ngu": "chang / cháng",
+        "note": "Âm /c/ tương đương 'ch-' tiếng Việt Bắc Bộ; thanh 4 [454] cao nhô nhẹ rồi hạ cuối âm tiết không trùng khít thanh tiếng Việt nào, thường được người bản ngữ xấp xỉ bằng thanh ngang hoặc sắc."
+      },
+      {
+        "native": "po⁵ [pɔː˦˩]",
+        "quoc_ngu": "pò / pọ",
+        "note": "Âm đầu /p-/ đứng đầu âm tiết ít phổ biến trong từ thuần Việt; thanh 5 đi xuống [41] gần thanh huyền đọc dứt khoát từ tầm cao-trung xuống thấp."
+      },
+      {
+        "native": "ph / th / kh [pʰ, tʰ, kʰ]",
+        "quoc_ngu": "p' / th / kh",
+        "note": "Chữ 'ph' trong Quốc ngữ đọc là [f] (trùng với âm /f/ của tiếng Giáy như 'phì' = fi⁴ 'lửa'), trong khi tiếng Giáy còn có âm tắc bật hơi /pʰ/ riêng không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "taŋ² [taŋ˩˩] vs taaŋ² [taːŋ˩˩]",
+        "quoc_ngu": "tằng vs tàng",
+        "note": "Đối lập nguyên âm /a/ ngắn và /aː/ dài trước phụ âm cuối có thể biểu diễn chính xác trong Quốc ngữ bằng cặp chữ 'ă' (tằng) và 'a' (tàng)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "hun⁴",
+        "ipa": "hun˦˥˦",
+        "meaning_vi": "người",
+        "gloss_en": "person"
+      },
+      {
+        "native": "ram⁶",
+        "ipa": "ram˧˦",
+        "meaning_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "fi⁴",
+        "ipa": "fiː˦˥˦",
+        "meaning_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "hun¹",
+        "ipa": "hun˨˨",
+        "meaning_vi": "mưa",
+        "gloss_en": "rain"
+      },
+      {
+        "native": "po⁵",
+        "ipa": "pɔː˦˩",
+        "meaning_vi": "bố, cha",
+        "gloss_en": "father"
+      },
+      {
+        "native": "ta¹",
+        "ipa": "taː˨˨",
+        "meaning_vi": "mắt",
+        "gloss_en": "eye"
+      },
+      {
+        "native": "pya¹",
+        "ipa": "pjaː˨˨",
+        "meaning_vi": "cá",
+        "gloss_en": "fish"
+      },
+      {
+        "native": "rok¹",
+        "ipa": "rɔk̚˨˨",
+        "meaning_vi": "chim",
+        "gloss_en": "bird"
+      },
+      {
+        "native": "ma¹",
+        "ipa": "maː˨˨",
+        "meaning_vi": "chó",
+        "gloss_en": "dog"
+      },
+      {
+        "native": "baɰ¹",
+        "ipa": "baɰ˨˨",
+        "meaning_vi": "lá cây",
+        "gloss_en": "leaf"
+      },
+      {
+        "native": "haaw¹",
+        "ipa": "haːw˨˨",
+        "meaning_vi": "trắng",
+        "gloss_en": "white"
+      },
+      {
+        "native": "θi²",
+        "ipa": "θiː˩˩",
+        "meaning_vi": "bốn (4)",
+        "gloss_en": "four"
+      },
+      {
+        "native": "ha³",
+        "ipa": "haː˨˦",
+        "meaning_vi": "năm (5)",
+        "gloss_en": "five"
+      },
+      {
+        "native": "rok³",
+        "ipa": "rɔk̚˨˦",
+        "meaning_vi": "sáu (6)",
+        "gloss_en": "six"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Theo Gedney (1965: 402), người cung cấp tư liệu ở Mường Hum quen xếp thứ tự 6 thanh tiếng Giáy là 1–4–6–5–2–3 dựa theo thói quen quy chiếu sang dấu thanh chữ Quốc ngữ, nhưng đường nét F0 thực tế (đặc biệt thanh 4 [454], thanh 5 [41] không nghẹt thanh hầu và thanh 6 [34]) khác với thanh điệu Hà Nội chuẩn; không nên ép trực tiếp thanh ngã/nặng có thanh hầu hóa của giọng Bắc vào tiếng Giáy.",
+      "Trong lời nói rời từng từ, người Giáy biết chữ Quốc ngữ hay đọc âm /j/ (viết gi-/d-) thành [z], nhưng trong lời nói và câu hát Vươn tự nhiên cần phát âm là bán nguyên âm [j]."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Gedney, William J. (1965). 'Yay, a Northern Tai language in North Vietnam'. Lingua 14: 180–193. (In lại trong Selected Papers on Comparative Tai Studies, University of Michigan, 1989, tr. 401–414).",
+      "url": "http://sealang.net/sala/archives/pdf8/gedney1989yay.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hudak, Thomas John (ed.) (1991). William J. Gedney's The Yay Language: Glossary, Texts, and Translations. Michigan Papers on South and Southeast Asia, No. 38. Ann Arbor: University of Michigan.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. & Kenneth J. Gregerson (2001). 'Four Languages of the Vietnam-China Borderlands'. Papers from the Sixth Annual Meeting of the Southeast Asian Linguistics Society, Arizona State University, tr. 101–133.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Bouyei (bouy1240) & Giay",
+      "url": "https://glottolog.org/resource/languoid/id/bouy1240",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Yay Phonemic Inventories (SPA 28 & UPSID 515, based on Gedney 1965)",
+      "url": "https://phoible.org/languages/bouy1240",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Yay (wals_code_yay)",
+      "url": "https://wals.info/languoid/lect/wals_code_yay",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Bouyei language & Giáy people",
+      "url": "https://en.wikipedia.org/wiki/Bouyei_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đài Tiếng nói Việt Nam (VOV4 / VOV5) — Làn điệu dân ca Vươn và hát giao duyên của đồng bào Giáy ở Lào Cai",
+      "url": "https://vovworld.vn/vi-VN/sac-mau-cac-dan-toc-viet-nam/lan-dieu-dan-ca-cua-dong-bao-giay-o-lao-cai-849285.vov",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.tones",
+          "severity": "low",
+          "problem": "Gedney (1965: 402 / 1989: 402) chỉ mô tả định tính đường nét 6 thanh điệu (ví dụ: '1 level, slightly lower than mid', '2 low level', '3 rising', '4 high, with a slight rise and fall toward the end', '5 falling', '6 higher than mid, with a slight rise toward the end') chứ không đưa ra chỉ số Chao 5 bậc cụ thể. Tuy nhiên, tone2 đang để confidence='high' trong khi các thanh còn lại để 'medium'.",
+          "fix": "Hạ confidence của tone2 xuống 'medium' cho đồng nhất với các thanh còn lại vì tất cả chỉ số Chao đều là quy đổi ước lượng từ mô tả định tính của Gedney (1965)."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check trong các mục thuộc sources đang để null thay vì ghi trạng thái kiểm chứng URL.",
+          "fix": "Cập nhật url_check='verified' cho các URL đã kiểm tra hoạt động (SEAlang PDF của Gedney 1989, Glottolog, PHOIBLE, WALS, Wikipedia, VOV5)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đo kiểm âm học (F0) hiện đại trên người nói bản ngữ tại Lào Cai, Hà Giang và Lai Châu để xác nhận giá trị số Chao chính xác cho 6 thanh điệu (hiện đang quy đổi từ mô tả định tính của Gedney 1965).",
+      "Cần khảo sát quy ước phiên âm chữ Quốc ngữ thực tế đang dùng trong các lớp truyền dạy tiếng nói và câu lạc bộ hát Vươn tại Tả Van (Sa Pa), Bát Xát (Lào Cai) và Văn Chấn (Yên Bái).",
+      "Cần bổ sung ký âm nhạc học chuẩn (thang âm, quãng luyến đặc trưng) của làn điệu Vươn chăng hằm do nhạc sĩ dân tộc học thẩm định."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

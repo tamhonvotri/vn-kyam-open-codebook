@@ -1,0 +1,90 @@
+{
+  "target": {
+    "id": "co-ho",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cơ Ho",
+    "ethnic_group_vi": "Cơ Ho",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:57:32.135918",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9382,
+      "candidatesTokenCount": 11433,
+      "totalTokenCount": 20815,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9382
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11433
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12129,
+      "candidatesTokenCount": 11766,
+      "totalTokenCount": 25353,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12129
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11766
+        }
+      ],
+      "thoughtsTokenCount": 1458,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "autonym",
+        "severity": "high",
+        "problem": "Ghi 'dà Kơho' làm tên tự gọi ngôn ngữ là sai sót nghiêm trọng do nhầm từ vựng: trong tiếng Cơ Ho, 'dà' [daː] nghĩa là 'nước' (water), không phải 'tiếng/ngôn ngữ' (lời nói/ngôn ngữ là 'jơnau' hoặc 'đơs'). Theo Olsen (2014: 6), tên gọi ngôn ngữ là Kơho [kəˈhɔ] (vốn bắt nguồn từ ngoại danh tiếng Chăm nhưng đã được cộng đồng dùng chung), còn tự danh tộc người là 'kon cau' [kɔn caw].",
+        "fix": "Sửa autonym thành \"Kơho [kəˈhɔ] (tự danh tộc người: kon cau [kɔn caw])\"."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "medium",
+        "problem": "Mô tả dấu sắc (◌́) trong phương án chữ Kơho 1983 chưa đầy đủ: theo 'Ngữ pháp tiếng Kơho' (Lý Toàn Thắng, Tạ Văn Thông et al. 1985/1986), ngoài việc ghi âm tắc thanh hầu cuối /-ʔ/ ở âm tiết mở (như srá [sraʔ] 'sách', cá [caʔ] 'gừng'), dấu sắc còn dùng để ghi thanh cao (nguyên âm ngắn) trong các âm tiết khép kết thúc bằng phụ âm tắc vô thanh /-p, -t, -c, -k/ (như mát [mat] 'mắt', puác [pwaʲc] 'thịt', lík [lik] 'mọc'), đối lập với dấu huyền (◌̀) ghi nguyên âm dài/thanh thấp (như hùc [huːc] 'uống').",
+        "fix": "Bổ sung quy tắc dùng dấu sắc (◌́) cho cả nguyên âm ngắn trước /-p, -t, -c, -k/ và trước /-ʔ/ trong phương án 1983."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "medium",
+        "problem": "Để trống mảng `tones: []` khiến công cụ đọc máy không nắm được cách ánh xạ các dấu thanh trên chữ viết (dấu huyền ◌̀, dấu sắc ◌́ trong hệ 1983; dấu huyền ◌̀, dấu trăng ◌̆ trong hệ SIL) vào hệ thống siêu đoạn tính (trường độ kết hợp cao độ / pitch-length).",
+        "fix": "Bổ sung 2 mục vào `phonology.tones` tương ứng với 2 thanh/trường độ ('Thanh cao / nguyên âm ngắn' và 'Thanh thấp / nguyên âm dài') theo mô tả của Ngữ pháp tiếng Kơho (1985) và Olsen (2014)."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Một số mục từ trộn lẫn không nhất quán giữa chính tả 1983 và chính tả SIL/Olsen: ví dụ 'mắt' ghi là 'mat' (chính tả SIL/Olsen; chính tả 1983 phải có dấu sắc là 'mát'), trong khi 'thịt' ngay bên dưới lại ghi là 'puác' (chính tả 1983; chính tả SIL/Olsen là 'poac').",
+        "fix": "Ghi rõ cả hai dạng ở các mục có sự khác biệt chính tả như 'mát (SIL: mat)', 'puác (SIL: poac)', 'anh (SIL: añ)', 'bòn (SIL: ƀòn)' để nhất quán với phần ghi chú chuẩn hóa TTS."
+      },
+      {
+        "path": "sources[2].title",
+        "severity": "low",
+        "problem": "Chương 'Kơho-Sre' của Neil H. Olsen trong 'The Handbook of Austroasiatic Languages' (Jenny & Sidwell chủ biên, Brill) có năm xuất bản chính thức là cuối năm 2014 (bản in đề copyright 2015, thường trích dẫn là 2014 hoặc 2014/2015).",
+        "fix": "Cập nhật năm xuất bản thành 2014/2015 để khớp với các thư mục học thuật chuẩn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

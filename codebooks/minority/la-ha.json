@@ -1,0 +1,875 @@
+{
+  "id": "la-ha",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Ha",
+  "name_en": "Laha",
+  "autonym": "La Ha / Khlá / Khlá Phlao / La Ha Ung",
+  "ethnic_group_vi": "La Ha",
+  "language": {
+    "iso639_3": "lha",
+    "glottocode": "laha1250",
+    "family": "Kra-Dai",
+    "branch": "Kra (Southern Kra)"
+  },
+  "regions": [
+    "Sơn La (huyện Mường La, Thuận Châu, Quỳnh Nhai)",
+    "Lai Châu (huyện Tân Uyên, Than Uyên — trước năm 2004 thuộc tỉnh Lào Cai)",
+    "Lào Cai"
+  ],
+  "speakers_estimate": "Khoảng 1.400–5.700 người còn nói tiếng mẹ đẻ trên tổng dân số 10.157 người La Ha (Tổng điều tra dân số 2019); ngôn ngữ bị đe dọa nghiêm trọng do chuyển ngữ sang tiếng Thái Đen và tiếng Việt",
+  "scripts": [
+    {
+      "name": "Không có chữ viết truyền thống (ngôn ngữ truyền khẩu)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Dân tộc La Ha chưa có bộ chữ viết chính thức do Nhà nước ban hành ở cấp quốc gia; hoạt động truyền dạy tiếng nói trong cộng đồng tại Sơn La hiện nay chủ yếu vẫn theo hình thức truyền khẩu."
+    },
+    {
+      "name": "Chữ Latinh (ghi âm học thuật dựa trên IPA và chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Được dùng trong các tư liệu điền dã ngôn ngữ học (công trình của Solntseva & Hoàng Văn Ma 1986 dùng ký âm dựa trên IPA/Latinh kèm chú giải tiếng Nga và tiếng Việt; Edmondson & Gregerson 1997; Ostapirat 2000) và khi phiên âm lời cúng, dân ca trong các tài liệu văn hóa dân gian."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các nguồn ngôn ngữ học lịch sử – miêu tả về tiếng La Ha (Solntseva & Hoàng Văn Ma 1986; Ostapirat 1995, 2000; Edmondson & Gregerson 1997; Wardlaw 2000; Edmondson 2008). Tiếng La Ha có hai phương ngữ khá khác biệt (La Ha Ướt ở Tà Mít, Lai Châu và La Ha Khô ở Noong Lay / Mường La, Sơn La) và chưa có chính tả chuẩn hóa; bảng ngữ âm dưới đây tổng hợp hệ thống âm vị của hai phương ngữ chính kèm quy ước chữ Latinh thực dụng gần chữ Quốc ngữ.",
+  "phonology": {
+    "syllable_structure": "(C0V0)C1(l/r)V(ː)(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (có ở cả Tà Mít và Noong Lay)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (khác với 'ph' [f] của tiếng Việt chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ʔb",
+        "note": "Tắc hai môi hữu thanh, thường tiền thanh hầu hóa nhẹ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d ~ ʔd",
+        "note": "Tắc chân răng hữu thanh, thường tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / c",
+        "ipa": "tʃ ~ tɕ",
+        "note": "Tắc xát sau chân răng vô thanh; biến thể [tɕ] trước nguyên âm hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "dʒ",
+        "note": "Tắc xát sau chân răng hữu thanh; ghi nhận ở phương ngữ Noong Lay (Sơn La)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (khác với âm xát [x] trong tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh; ghi nhận ở phương ngữ Tà Mít (Lai Châu)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh (ghi nhận trong tư liệu Solntseva & Hoàng Văn Ma 1986)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z / d",
+        "ipa": "ʑ ~ z",
+        "note": "Xát chân răng-ngạc hoặc chân răng hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh / x",
+        "ipa": "x",
+        "note": "Xát ngạc mềm vô thanh (phân biệt với âm tắc bật hơi /kʰ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "Tổ hợp phụ âm đầu bảo lưu ở phương ngữ La Ha Khô (Sơn La), vd: plaat 'máu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "phl",
+        "ipa": "pʰl",
+        "note": "Tổ hợp phụ âm đầu ở phương ngữ La Ha Khô (Sơn La), vd: phlaat 'trượt ngã' (Benedict 1992)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bl",
+        "ipa": "bl",
+        "note": "Tổ hợp phụ âm đầu bảo lưu ở phương ngữ La Ha Khô (Sơn La), vd: bli44 'kim khâu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ml",
+        "ipa": "ml",
+        "note": "Tổ hợp phụ âm đầu ở phương ngữ La Ha Khô (Sơn La), vd: mla41 'cơm/gạo' (Edmondson 2008)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kl",
+        "ipa": "kl",
+        "note": "Tổ hợp phụ âm đầu ở phương ngữ La Ha Khô (Sơn La), vd: kla 'đầu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khl",
+        "ipa": "kʰl",
+        "note": "Tổ hợp phụ âm đầu ở phương ngữ La Ha Khô (Sơn La), vd: khlaa 'tai'",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "ɪ",
+        "note": "Nguyên âm gần đóng hàng trước (ghi nhận trong Wardlaw 2000)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm đóng hàng sau không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə ~ ɤ",
+        "note": "Nguyên âm giữa trung tâm / hàng sau không tròn môi; cũng xuất hiện ở tiền âm tiết yếu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở hàng trước (ngắn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ee",
+        "ipa": "ɛː",
+        "note": "Nguyên âm nửa mở hàng trước dài (đối lập độ dài trong âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ɐ ~ a",
+        "note": "Nguyên âm mở/gần mở ngắn (trong âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / aa",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi (ngắn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oo",
+        "ipa": "ɔː",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi dài",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ghi nhận trong Wardlaw 2000)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên chân răng cuối âm tiết /-l/: đặc trưng bảo lưu cổ của phương ngữ Noong Lay (La Ha Khô, Sơn La); ở Tà Mít đã nhập vào /-n/ (Ostapirat 1995)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "i ~ j",
+        "note": "Bán nguyên âm / nguyên âm cuối hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "u ~ w",
+        "note": "Bán nguyên âm / nguyên âm cuối hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm cuối không tròn môi /-ɯ/ (ghi nhận ở phương ngữ Tà Mít, Edmondson & Gregerson 1997)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tm_1",
+        "name": "Thanh 1 Tà Mít (tương ứng lịch sử A4)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tm_2",
+        "name": "Thanh 2 Tà Mít (tương ứng một phần B/C)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tm_3",
+        "name": "Thanh 3 Tà Mít (tương ứng lịch sử A1)",
+        "mark": null,
+        "chao_contour": "343",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tm_4",
+        "name": "Thanh 4 Tà Mít (tương ứng lịch sử A23)",
+        "mark": null,
+        "chao_contour": "24",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tm_5",
+        "name": "Thanh 5 Tà Mít (tương ứng một phần B123/C123)",
+        "mark": null,
+        "chao_contour": "212",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tm_6",
+        "name": "Thanh 6 Tà Mít (thấp giảm)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu điển hình của ngữ hệ Kra-Dai: 6 thanh ở âm tiết mở/vang và 2 mức cao độ ở âm tiết khép tắc (-p, -t, -k; tại Tà Mít là thanh cao ~43/34 cho D4 gốc hữu thanh và thanh thấp ~23/32/11 cho D123 gốc vô thanh — hiện tượng đảo thanh cục bộ theo Edmondson & Gregerson 1997). Phương ngữ Sơn La theo Solntseva & Hoàng Văn Ma (1986) và Benedict (1992) cũng có 6 thanh điệu với đường nét cao độ hơi khác (trong đó có một thanh cao kèm thanh hầu hóa)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "ʔuŋ31",
+      "ipa": "ʔuŋ˧˩",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm / gạo",
+      "form": "ma21",
+      "ipa": "ma˨˩",
+      "gloss_en": "cooked rice / rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruộng nước",
+      "form": "na33",
+      "ipa": "na˧˧",
+      "gloss_en": "wet rice field",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt",
+      "form": "na343",
+      "ipa": "na˧˦˧",
+      "gloss_en": "face",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi tên",
+      "form": "na212",
+      "ipa": "na˨˩˨",
+      "gloss_en": "arrow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rắn",
+      "form": "na33",
+      "ipa": "na˧˧",
+      "gloss_en": "snake",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngựa",
+      "form": "ma31",
+      "ipa": "ma˧˩",
+      "gloss_en": "horse",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con rết",
+      "form": "ma24",
+      "ipa": "ma˨˦",
+      "gloss_en": "centipede",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "ma33 ta24",
+      "ipa": "ma˧˧ ta˨˦",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "ma33 nok11",
+      "ipa": "ma˧˧ nok˩˩",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vịt",
+      "form": "ko212 kap23",
+      "ipa": "ko˨˩˨ kap˨˧",
+      "gloss_en": "duck",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gan",
+      "form": "tap23",
+      "ipa": "tap˨˧",
+      "gloss_en": "liver",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vườn",
+      "form": "suan343",
+      "ipa": "suan˧˦˧",
+      "gloss_en": "garden",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "plaat",
+      "ipa": "plaːt",
+      "gloss_en": "blood (Noong Lay, tone D1)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xương",
+      "form": "dak",
+      "ipa": "dak",
+      "gloss_en": "bone (Noong Lay, tone D2)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tai",
+      "form": "khlaa",
+      "ipa": "kʰlaː",
+      "gloss_en": "ear (Noong Lay, tone A2)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kim khâu",
+      "form": "bli44",
+      "ipa": "bli˦˦",
+      "gloss_en": "needle (Noong Lay)",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát nghi lễ trong lễ hội Pang A (Xên Pang A)",
+        "note": "Lễ hội Pang A của người La Ha tại Sơn La đã được công nhận là Di sản văn hóa phi vật thể quốc gia; gồm các bài hát cúng mời thần linh, cầu mùa màng, cầu sức khỏe và tạ ơn thầy lang/thầy cúng."
+      },
+      {
+        "name": "Hát ru con (Ru con La Ha)",
+        "note": "Làn điệu dân ca truyền thống được ghi âm, lưu trữ tại Đài Tiếng nói Việt Nam (VOV) và Viện Âm nhạc (ví dụ tại xã Nậm Păm, huyện Mường La, tỉnh Sơn La)."
+      },
+      {
+        "name": "Âm nhạc múa tín ngưỡng – sinh hoạt (tăng bu, hưn mạy, sừng lừng)",
+        "note": "Kết hợp nhịp dập ống tre và múa tập thể trong lễ hội Pang A, lễ dâng hoa măng, lễ mừng cơm mới."
+      },
+      {
+        "name": "Hát giao duyên, hát đám cưới",
+        "note": "Có sự giao thoa sâu đậm với dân ca Thái Đen vùng Tây Bắc; nhiều nghệ nhân La Ha hát song ngữ bằng cả tiếng La Ha và tiếng Thái."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dân ca Tây Bắc (giao thoa Kra – Thái)",
+        "note": "Chưa có công trình ký âm học thuật định lượng riêng về hệ thống thang âm cổ của riêng tiếng La Ha; cần điền dã và phân tích băng tư liệu của Viện Âm nhạc.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Tăng bu (ống tre/bương dập nhịp)",
+        "note": "Nhạc cụ tự thân vang bằng tre/nứa đặc trưng dùng giữ nhịp và làm đạo cụ múa trong lễ hội Pang A."
+      },
+      {
+        "name": "Sáo trúc",
+        "note": "Nhạc cụ hơi truyền thống còn được lưu giữ tại cộng đồng La Ha xã Tà Mít (Lai Châu) và Sơn La."
+      },
+      {
+        "name": "Trống, chiêng và nhạc cụ tre nứa tự chế",
+        "note": "Sử dụng đệm nhịp trong nghi lễ Pang A và sinh hoạt cộng đồng."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "id": "lha-wet",
+        "name_vi": "Phương ngữ La Ha Ướt (La Ha Nước / La Ha Ủng)",
+        "autonym": "La Ha Ung [la33 ha21 ʔuŋ31]",
+        "iso639_3": "lha",
+        "glottocode": "laha1250",
+        "regions": [
+          "Xã Tà Mít, Pha Mu, Nặm Cần (huyện Tân Uyên và Than Uyên, tỉnh Lai Châu; trước đây thuộc tỉnh Lào Cai)"
+        ],
+        "note": "Bảo lưu nhiều từ song tiết / bán song tiết (tiền âm tiết yếu như ma33 ta24 'mắt'); phụ âm cuối *-l đã biến đổi thành -n."
+      },
+      {
+        "id": "lha-dry",
+        "name_vi": "Phương ngữ La Ha Khô (La Ha Cạn / Khlá Phlao)",
+        "autonym": "Khlá Phlao",
+        "iso639_3": "lha",
+        "glottocode": "laha1250",
+        "regions": [
+          "Xã Noong Lay, Nặm Ét (huyện Thuận Châu, Sơn La)",
+          "Xã Pi Toong (bản Nà Tạy, Pá Hát), Nặm Păm, Mường Trai, Mường Bú (huyện Mường La, Sơn La)",
+          "Huyện Quỳnh Nhai (Sơn La)"
+        ],
+        "note": "Rút gọn từ song tiết thành đơn tiết có tổ hợp phụ âm đầu (pl-, phl-, bl-, ml-, kl-, khl-); bảo lưu phụ âm cuối /-l/ cực hiếm trong ngữ hệ Kra-Dai (Ostapirat 1995)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "la33 ha21 ʔuŋ31",
+        "quoc_ngu": "la hà ủng",
+        "note": "Xấp xỉ thanh 33 bằng ngang, thanh 21 bằng huyền, thanh 31 bằng hỏi/huyền; tắc thanh hầu đầu [ʔ] tự nhiên có sẵn khi viết nguyên âm đầu chữ Quốc ngữ."
+      },
+      {
+        "native": "ma33 ta24",
+        "quoc_ngu": "ma tá",
+        "note": "Từ song tiết chỉ 'mắt' (Tà Mít); tiền âm tiết 'ma' đọc nhẹ, ngắn và không nhấn trọng âm."
+      },
+      {
+        "native": "ma33 nok11",
+        "quoc_ngu": "ma nộc",
+        "note": "Từ song tiết chỉ 'chim' (Tà Mít); âm tiết khép thanh thấp [11] xấp xỉ bằng thanh nặng tiếng Việt."
+      },
+      {
+        "native": "ko212 kap23",
+        "quoc_ngu": "cổ cặp",
+        "note": "Từ song tiết chỉ 'vịt' (Tà Mít); thanh 212 (xuống-lên thấp) xấp xỉ bằng thanh hỏi Nam Bộ hoặc nặng nhẹ; 'kap' [kap˨˧] viết 'cặp'."
+      },
+      {
+        "native": "plaat",
+        "quoc_ngu": "pơ-lát",
+        "note": "Tiếng Việt hiện đại không còn tổ hợp phụ âm đầu /pl-/; với TTS chỉ biết tiếng Việt, cần tách bằng tiền âm tiết cực ngắn 'pơ-lát' (hoặc dùng embedding âm /p/ + /l/) nhưng sẽ dư một nguyên âm lướt."
+      },
+      {
+        "native": "khlaa",
+        "quoc_ngu": "khơ-la",
+        "note": "Âm đầu /kʰl-/ trong tiếng La Ha Khô gồm tắc ngạc mềm bật hơi [kʰ] + [l] (không có trong tiếng Việt; 'kh' tiếng Việt là âm xát [x]). Xấp xỉ tạm thời bằng 'khơ-la'."
+      },
+      {
+        "native": "bli44",
+        "quoc_ngu": "bơ-li",
+        "note": "Tổ hợp phụ âm đầu /bl-/ không có trong tiếng Việt hiện đại; tách tạm thành 'bơ-li'."
+      },
+      {
+        "native": "-l (âm cuối Noong Lay)",
+        "quoc_ngu": "-n",
+        "note": "Tiếng Việt hoàn toàn không có phụ âm bên /-l/ ở vị trí cuối âm tiết. TTS tiếng Việt chỉ có thể xấp xỉ gần nhất bằng '-n' (trùng với cách biến đổi tự nhiên của phương ngữ La Ha Tà Mít *-l > -n)."
+      },
+      {
+        "native": "pʰ- / kʰ-",
+        "quoc_ngu": "p-h / kh",
+        "note": "Âm tắc hai môi bật hơi [pʰ] và tắc ngạc mềm bật hơi [kʰ] không có trong tiếng Việt chuẩn Hà Nội ('ph' là [f], 'kh' là [x]); cần lưu ý nếu tổng hợp ngữ âm chính xác."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "la33 ha21 ʔuŋ31",
+        "ipa": "la˧˧ ha˨˩ ʔuŋ˧˩",
+        "meaning_vi": "người La Ha Nước (La Ha Ướt)",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ʔuŋ31",
+        "ipa": "ʔuŋ˧˩",
+        "meaning_vi": "nước",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ma21",
+        "ipa": "ma˨˩",
+        "meaning_vi": "cơm, gạo",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "na33",
+        "ipa": "na˧˧",
+        "meaning_vi": "ruộng nước",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "na343",
+        "ipa": "na˧˦˧",
+        "meaning_vi": "mặt",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "na212",
+        "ipa": "na˨˩˨",
+        "meaning_vi": "mũi tên",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ma31",
+        "ipa": "ma˧˩",
+        "meaning_vi": "ngựa",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ma24",
+        "ipa": "ma˨˦",
+        "meaning_vi": "con rết",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ma33 ta24",
+        "ipa": "ma˧˧ ta˨˦",
+        "meaning_vi": "mắt",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ma33 nok11",
+        "ipa": "ma˧˧ nok˩˩",
+        "meaning_vi": "chim",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "ko212 kap23",
+        "ipa": "ko˨˩˨ kap˨˧",
+        "meaning_vi": "vịt",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "tap23",
+        "ipa": "tap˨˧",
+        "meaning_vi": "gan",
+        "dialect": "Tà Mít"
+      },
+      {
+        "native": "plaat",
+        "ipa": "plaːt",
+        "meaning_vi": "máu (thanh D1)",
+        "dialect": "Noong Lay"
+      },
+      {
+        "native": "dak",
+        "ipa": "dak",
+        "meaning_vi": "xương (thanh D2)",
+        "dialect": "Noong Lay"
+      },
+      {
+        "native": "khlaa",
+        "ipa": "kʰlaː",
+        "meaning_vi": "tai (thanh A2)",
+        "dialect": "Noong Lay"
+      },
+      {
+        "native": "bli44",
+        "ipa": "bli˦˦",
+        "meaning_vi": "kim khâu",
+        "dialect": "Noong Lay"
+      }
+    ],
+    "phonetic_gaps_for_vietnamese_tts": [
+      "Phụ âm cuối bên /-l/ ở phương ngữ La Ha Khô (Sơn La) không tồn tại trong tiếng Việt.",
+      "Các tổ hợp phụ âm đầu /pl-/, /pʰl-/, /bl-/, /ml-/, /kl-/, /kʰl-/ không tồn tại trong tiếng Việt hiện đại.",
+      "Âm tắc bật hơi /pʰ/, /kʰ/ khác với âm xát /f/ ('ph') và /x/ ('kh') của tiếng Việt chuẩn.",
+      "Âm tắc xát hữu thanh /dʒ/ và xát hữu thanh /ʑ/ không có trong phương ngữ chuẩn Hà Nội.",
+      "Tiền âm tiết yếu (sesquisyllable / disyllabic iambic stress) trong La Ha Ướt cần đọc ngắn, nhẹ hơn âm tiết chính."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.4 — Laha (Viet Nam) [laha1250]",
+      "url": "https://glottolog.org/resource/languoid/id/laha1250",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Laha language",
+      "url": "https://en.wikipedia.org/wiki/Laha_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng La Ha",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_La_Ha",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A. & Kenneth J. Gregerson (1997). \"Outlying Kam-Tai: notes on Ta Mit Laha.\" The Mon-Khmer Studies Journal, 27: 257–269.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ostapirat, Weera (1995). \"Notes on Laha final -l.\" Linguistics of the Tibeto-Burman Area, 18(1): 173–181.",
+      "url": "https://dx.doi.org/10.32655/LTBA.18.1.12",
+      "url_check": "http_405",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ostapirat, Weera (2000). \"Proto-Kra.\" Linguistics of the Tibeto-Burman Area, 23(1): 1–251.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wardlaw, Terrance Randall (2000). A phonological comparison between two varieties of Laha: Syllable constituents and tone in Ta Mit and Noong Lay Laha. M.A. Thesis, The University of Texas at Arlington.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Solntseva, N. V. & Hoàng Văn Ma (1986). Jazyk Laxa [Язык лаха / Tiếng La Ha] (Tài liệu đoàn khảo sát ngôn ngữ học Xô–Việt năm 1979). Moscow: Nauka.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wiktionary — Appendix:Laha word list & Category:Laha (Vietnam) language",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Laha_word_list",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê & Ủy ban Dân tộc (2020). Kết quả điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "sources[3].title",
+          "severity": "low",
+          "problem": "Thứ tự tác giả trên ấn bản gốc của tạp chí Mon-Khmer Studies (vol. 27, tr. 257) là Jerold A. Edmondson & Kenneth J. Gregerson (1997), dù một số thư mục trích dẫn ngược lại.",
+          "fix": "Sửa lại thứ tự tác giả thành 'Edmondson, Jerold A. & Kenneth J. Gregerson (1997)' (kèm ghi chú đôi khi được trích dẫn là Gregerson & Edmondson 1997)."
+        },
+        {
+          "path": "scripts[1].note",
+          "severity": "medium",
+          "problem": "Ghi chú nêu chữ Latinh 'được dùng phi chính thức trong các lớp truyền dạy tiếng nói cộng đồng tại huyện Mường La (Sơn La) từ năm 2020', nhưng thực tế các câu lạc bộ/lớp truyền dạy văn hóa và tiếng nói La Ha (như tại Quỳnh Nhai, Mường La, Thuận Châu từ năm 2020) chủ yếu do nghệ nhân cao tuổi truyền dạy truyền khẩu, chưa có bằng chứng kiểm chứng về việc sử dụng bộ chữ Latinh thực nghiệm riêng trong lớp học.",
+          "fix": "Điều chỉnh lại ghi chú ở scripts[1].note để phản ánh đúng thực tế: hệ thống ký âm Latinh/IPA chủ yếu xuất hiện trong các công trình ngôn ngữ học điền dã và tài liệu sưu tầm văn hóa."
+        },
+        {
+          "path": "lexicon[13..16]",
+          "severity": "low",
+          "problem": "Các mục từ phương ngữ Noong Lay ('plaat', 'dak', 'khlaa', 'bli') chưa ghi thông tin thanh điệu (trong khi các mục từ Tà Mít đều ghi số thanh điệu Chao), dễ gây hiểu nhầm là phương ngữ Noong Lay không có thanh điệu.",
+          "fix": "Bổ sung thông tin thanh điệu theo tư liệu của Ostapirat (2000) và Edmondson (2008) (ví dụ: bli44 [bli˦˦], hoặc ghi rõ nhóm thanh lịch sử D1/D2/A2 trong gloss_en)."
+        },
+        {
+          "path": "phonology.syllable_structure",
+          "severity": "low",
+          "problem": "Công thức âm tiết '(C0V0)C1(l)V(ː)(C2)+T' chỉ nêu âm đệm bên (l) trong tổ hợp phụ âm đầu, trong khi tư liệu về phương ngữ Sơn La (Solntseva & Hoàng Văn Ma 1986; Edmondson 2008) còn ghi nhận cả âm rền (r) trong các tổ hợp /tr-/, /dr-/ (vd: trai132 'gùi đeo lưng', drai423 'tất cả') và tổ hợp mũi-bên /ml-/ (vd: mla41 'cơm').",
+          "fix": "Cập nhật syllable_structure thành '(C0V0)C1(l/r)V(ː)(C2)+T' và bổ sung ghi chú về /ml-/, /tr-/, /dr-/."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng La Ha chưa có bộ chữ Latinh chuẩn hóa chính thức; các lớp truyền dạy tiếng nói trong cộng đồng tại Sơn La (Mường La, Quỳnh Nhai, Thuận Châu) chủ yếu dạy truyền khẩu, cần khảo sát thêm nếu địa phương có biên soạn tài liệu ghi âm chữ cái riêng.",
+      "Hệ thống thanh điệu giữa phương ngữ Tà Mít (Edmondson & Gregerson 1997) và phương ngữ Sơn La / Noong Lay (Solntseva & Hoàng Văn Ma 1986; Wardlaw 2000) có sự khác biệt đáng kể về đường nét cao độ; cần tách thành hai hồ sơ con nếu phục vụ tổng hợp tiếng nói theo từng vùng.",
+      "Cần bổ sung ký âm giai điệu và thang âm từ băng tư liệu dân ca La Ha (lễ hội Pang A, hát ru con) tại Viện Âm nhạc."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

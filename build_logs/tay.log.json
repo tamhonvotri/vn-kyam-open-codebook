@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "tay",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày",
+    "ethnic_group_vi": "Tày",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:32:01.639673",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9267,
+      "candidatesTokenCount": 9558,
+      "totalTokenCount": 24156,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9267
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9558
+        }
+      ],
+      "thoughtsTokenCount": 5331,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11854,
+      "candidatesTokenCount": 10941,
+      "totalTokenCount": 22795,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11854
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10941
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[3].note",
+        "severity": "medium",
+        "problem": "Glottocode của tiếng Thu Lao / Dai Zhuang bị ghi sai là 'thul1245'. Theo Glottolog, mã của Thu Lao là 'thul1247' (mục bookkeeping do mã ISO 'tyl' bị gộp với 'zhd') và ngôn ngữ chính Dai Zhuang có Glottocode là 'daiz1235'.",
+        "fix": "Sửa Glottocode trong ghi chú thành 'daiz1235' (mục bookkeeping của mã tyl là 'thul1247')."
+      },
+      {
+        "path": "ml_hints.sub_varieties[4].note",
+        "severity": "medium",
+        "problem": "Glottocode của tiếng Pa Dí (ISO 639-3: pdi) bị ghi sai là 'padi1247' (nhầm hậu tố với mã taid1247 của tiếng Thái Đen). Mã đúng trên Glottolog là 'padi1241'.",
+        "fix": "Sửa Glottocode trong ghi chú từ 'padi1247' thành 'padi1241'."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "low",
+        "problem": "Tên gọi truyền thống bằng tiếng Tày của 6 thanh điệu trong ngoặc đơn (khoang, pàn, thỏi, lương, pắc, lộm/chậm) có sự biến thiên giữa các tài liệu phương ngữ học và sách dạy chữ Tày - Nùng; một số mục đang để confidence='high'.",
+        "fix": "Hạ confidence của các mục thanh điệu có kèm tên gọi phương ngữ chưa đồng nhất hoặc biến thiên cao độ vùng miền xuống 'medium', đồng thời ghi rõ trị số Chao (/53, 21, 43, 33, 34, 25/) là của phương ngữ Cao Bằng theo Hoàng Văn Ma (1997) và Pittayaporn & Kirby (2017)."
+      },
+      {
+        "path": "sources[2].title",
+        "severity": "low",
+        "problem": "Số trang bài viết của Hoàng Văn Ma (1997) 'The sound system of the Tày language of Cao Bằng Province, Vietnam' trong sách Comparative Kadai: The Tai branch là pp. 221–235 (theo trích dẫn chuẩn trong Pittayaporn & Kirby 2017), không phải 221–231.",
+        "fix": "Sửa số trang thành pp. 221–235 và cập nhật trạng thái url_check cho các nguồn có URL."
+      }
+    ]
+  },
+  "schema_errors": []
+}

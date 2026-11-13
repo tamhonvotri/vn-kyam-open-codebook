@@ -1,0 +1,801 @@
+{
+  "id": "hoa",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hoa",
+  "name_en": "Hoa Chinese varieties in Vietnam (primary reference: Cantonese / Yue)",
+  "autonym": "廣東話 / 粵語 (Gwong2 dung1 waa2 / Jyut6 jyu5); 唐話 (Tong4 waa2); 華語 (Waa4 jyu5 / Huáyǔ)",
+  "ethnic_group_vi": "Hoa",
+  "language": {
+    "iso639_3": "yue",
+    "glottocode": "yuec1235",
+    "family": "Sino-Tibetan",
+    "branch": "Sinitic (Yue)"
+  },
+  "regions": [
+    "TP. Hồ Chí Minh (đặc biệt khu vực Chợ Lớn: Quận 5, Quận 6, Quận 11, Bình Tân)",
+    "Đồng Nai",
+    "Sóc Trăng",
+    "Kiên Giang",
+    "Bạc Liêu",
+    "Cần Thơ",
+    "Trà Vinh",
+    "An Giang",
+    "Cà Mau",
+    "Bình Dương",
+    "Quảng Ninh",
+    "Bắc Giang",
+    "Lạng Sơn",
+    "Quảng Nam (Hội An)"
+  ],
+  "speakers_estimate": "749.466 người dân tộc Hoa tại Việt Nam (Tổng điều tra dân số và nhà ở 2019), phân bố ở nhiều nhóm phương ngữ Hán khác nhau; tiếng Quảng Đông (yue) là phương ngữ giao tiếp liên bang (lingua franca) phổ biến nhất tại TP. Hồ Chí Minh và Đông Nam Bộ, trong khi tiếng Triều Châu (nan) chiếm ưu thế tại nhiều tỉnh Tây Nam Bộ.",
+  "scripts": [
+    {
+      "name": "Chữ Hán phồn thể (Traditional Chinese)",
+      "iso15924": "Hant",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": null,
+      "note": "Hệ chữ truyền thống phổ biến trên biển hiệu, hội quán, chùa miếu, báo chí và sinh hoạt văn hóa cộng đồng người Hoa tại Chợ Lớn và Nam Bộ; có kèm chữ Nôm Quảng Đông (粵字) khi ghi khẩu ngữ."
+    },
+    {
+      "name": "Chữ Hán giản thể (Simplified Chinese)",
+      "iso15924": "Hans",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": true,
+      "note": "Được sử dụng rộng rãi trong sách giáo khoa tiếng Hoa thuộc chương trình giáo dục phổ thông, trung tâm Hoa văn và giao thương hiện đại tại Việt Nam."
+    },
+    {
+      "name": "Phiên âm Latinh Jyutping (粵拼 — Việt bính) và Hanyu Pinyin (漢語拼音)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": null,
+      "note": "Việt Nam không ban hành bộ chữ Latinh riêng cho dân tộc Hoa. Trong ngôn ngữ học và xử lý ngôn ngữ tự nhiên, Jyutping (LSHK, 1993) là chuẩn ký âm Latinh phổ biến nhất cho tiếng Quảng Đông; Hanyu Pinyin dùng trong giảng dạy tiếng Hoa phổ thông (cmn)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ tài liệu ngôn ngữ học về tiếng Quảng Đông chuẩn (Quảng Châu / Chợ Lớn) và tư liệu dân tộc học người Hoa tại Việt Nam. Vì dân tộc Hoa ở Việt Nam nói nhiều ngôn ngữ/phương ngữ nhánh Hán không thông hiểu lẫn nhau (Ngũ bang: Quảng Đông, Triều Châu, Phúc Kiến, Khách Gia, Hải Nam, cùng tiếng Phổ thông và các thổ ngữ vùng Đông Bắc), bảng ngữ âm dưới đây chọn tiếng Quảng Đông (ISO 639-3: yue, ký âm Jyutping) làm biến thể tham chiếu chính và liệt kê đầy đủ các biến thể khác trong ml_hints.sub_varieties.",
+  "phonology": {
+    "syllable_structure": "(C1)V(C2)+T hoặc N̩+T (âm mũi độc lập m̩, ŋ̩ mang thanh điệu)",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "p",
+        "note": "tắc hai môi vô thanh không bật hơi (tương đương p trong tiếng Việt, không phải /ɓ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "pʰ",
+        "note": "tắc hai môi vô thanh bật hơi mạnh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t",
+        "note": "tắc lợi vô thanh không bật hơi (tương đương t tiếng Việt, không phải /ɗ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "tʰ",
+        "note": "tắc lợi vô thanh bật hơi (tương đương th tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "mũi lợi; một bộ phận người nói trẻ nhập /n-/ vào /l-/, nhưng người Hoa lớn tuổi ở Chợ Lớn thường giữ phân biệt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "tiếp cận bên lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k",
+        "note": "tắc ngạc mềm vô thanh không bật hơi (tương đương c/k tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "kʰ",
+        "note": "tắc ngạc mềm vô thanh bật hơi mạnh (tiếng Việt chuẩn không có /kʰ/, chỉ có xát /x/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "mũi ngạc mềm; trong khẩu ngữ hiện đại đôi khi rụng thành âm đầu rỗng hoặc thêm vào trước nguyên âm mở/sau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gw",
+        "ipa": "kʷ",
+        "note": "tắc ngạc mềm môi hóa không bật hơi (gần với qu- [kw] tiếng Việt Bắc Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw",
+        "ipa": "kʷʰ",
+        "note": "tắc ngạc mềm môi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "t͡s ~ t͡ɕ",
+        "note": "tắc-xát lợi vô thanh không bật hơi; ngạc hóa thành [t͡ɕ] trước nguyên âm trước tròn môi /yː, œː, ɵ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "t͡sʰ ~ t͡ɕʰ",
+        "note": "tắc-xát lợi vô thanh bật hơi; ngạc hóa thành [t͡ɕʰ] trước nguyên âm trước tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s ~ ɕ",
+        "note": "xát lợi vô thanh; ngạc hóa thành [ɕ] trước nguyên âm trước tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "j",
+        "note": "tiếp cận ngạc cứng (tương đương d/gi giọng Nam Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ ~ ∅",
+        "note": "âm đầu rỗng khi âm tiết bắt đầu bằng nguyên âm hoặc âm mũi thành âm tiết",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "aa",
+        "ipa": "aː",
+        "note": "nguyên âm mở dài; đối lập âm vị học với a ngắn /ɐ/ khi có âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "ɐ",
+        "note": "nguyên âm gần mở giữa ngắn, chỉ xuất hiện trong âm tiết khép (ai, au, am, an, ang, ap, at, ak); tương đương ă/â tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "iː ~ ɪ",
+        "note": "[iː] ở âm tiết mở và trước -u, -m, -n, -p, -t; hạ thấp thành [ɪ] (hoặc [e]) trước -ng, -k (ing, ik)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yu",
+        "ipa": "yː",
+        "note": "nguyên âm đóng trước tròn môi (không có trong tiếng Việt; chỉ đứng mở hoặc trước -n, -t)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː ~ ʊ",
+        "note": "[uː] ở âm tiết mở và trước -i, -n, -t; hạ thấp thành [ʊ] (hoặc [o]) trước -ng, -k (ung, uk)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː ~ e",
+        "note": "[ɛː] ở âm tiết mở và trước -u, -m, -ng, -p, -k; [e] trong vần nhị trùng âm ei /ej/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː ~ o",
+        "note": "[ɔː] ở âm tiết mở và trước -i, -n, -ng, -t, -k; [o] trong vần nhị trùng âm ou /ow/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oe",
+        "ipa": "œː",
+        "note": "nguyên âm nửa mở trước tròn môi (mở hoặc trước -ng, -k: oeng, oek)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "eo",
+        "ipa": "ɵ",
+        "note": "nguyên âm nửa đóng giữa tròn môi ngắn, xuất hiện trong eoi /ɵɥ/, eon /ɵn/, eot /ɵt̚/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m̩",
+        "note": "âm mũi hai môi thành âm tiết độc lập (ví dụ: 唔 m4 [m̩˨˩] 'không')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ̩",
+        "note": "âm mũi ngạc mềm thành âm tiết độc lập (ví dụ: 五 ng5 [ŋ̩˩˧] 'số năm')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "i",
+        "ipa": "j ~ ɥ",
+        "note": "[j] trong aai, ai, ei, oi, ui; tròn môi thành [ɥ] sau eo trong vần eoi /ɵɥ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "w",
+        "note": "bán nguyên âm cuối vần trong aau, au, eu, iu, ou",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "mũi lợi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "mũi ngạc mềm cuối âm tiết (không đồng hóa môi hóa kép [ŋ͡m] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "tắc hai môi đóng không bật ra (nhập thanh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "tắc lợi đóng không bật ra (nhập thanh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "tắc ngạc mềm đóng không bật ra (nhập thanh)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Âm bình (陰平) / Thượng âm nhập (上陰入 - thanh 7)",
+        "mark": "1",
+        "chao_contour": "55",
+        "phonation": "modal; biến thể 53 vẫn gặp ở phương ngữ Quảng Châu truyền thống và người Hoa lớn tuổi tại Chợ Lớn; trên âm tiết -p/-t/-k đọc ngắn [5]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Âm thượng (陰上)",
+        "mark": "2",
+        "chao_contour": "25",
+        "phonation": "modal (thanh cao vút lên, đôi khi ghi 35)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Âm khứ (陰去) / Hạ âm nhập (下陰入 - thanh 8)",
+        "mark": "3",
+        "chao_contour": "33",
+        "phonation": "modal; trên âm tiết -p/-t/-k (thường đi với nguyên âm dài) đọc ngắn [3]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Dương bình (陽平)",
+        "mark": "4",
+        "chao_contour": "21",
+        "phonation": "modal hoặc hơi khàn/kẹt nhẹ (creaky) ở cuối đường nét trầm [21 ~ 11]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone5",
+        "name": "Dương thượng (陽上)",
+        "mark": "5",
+        "chao_contour": "13",
+        "phonation": "modal (thanh thấp đi lên nhẹ, đôi khi ghi 23)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone6",
+        "name": "Dương khứ (陽去) / Dương nhập (陽入 - thanh 9)",
+        "mark": "6",
+        "chao_contour": "22",
+        "phonation": "modal; trên âm tiết -p/-t/-k đọc ngắn [2]",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu phức hợp: tiếng Quảng Đông có 6 điệu vị (phonemic tones) ký hiệu từ 1 đến 6 trong Jyutping, tương ứng với 9 thanh truyền thống ('cửu thanh lục điệu' 九聲六調) khi tính riêng 3 thanh nhập trên vần tắc -p, -t, -k. Không có đối lập thanh hầu hóa mạnh như thanh ngã/nặng tiếng Việt Bắc Bộ."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "xin chào",
+      "form": "你好 (nei5 hou2)",
+      "ipa": "nej˩˧ how˨˥",
+      "gloss_en": "hello",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cảm ơn (khi nhận quà / tiền)",
+      "form": "多謝 (do1 ze6)",
+      "ipa": "tɔː˥˥ t͡sɛː˨˨",
+      "gloss_en": "thank you (for a gift/favor)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cảm ơn (nhờ giúp đỡ) / làm ơn",
+      "form": "唔該 (m4 goi1)",
+      "ipa": "m̩˨˩ kɔːj˥˥",
+      "gloss_en": "thank you (for service) / excuse me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Hoa / người Đường",
+      "form": "唐人 (tong4 jan4)",
+      "ipa": "tʰɔːŋ˨˩ jɐn˨˩",
+      "gloss_en": "Chinese / Hoa person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "uống trà / đi ăn điểm tâm",
+      "form": "飲茶 (jam2 caa4)",
+      "ipa": "jɐm˨˥ t͡sʰaː˨˩",
+      "gloss_en": "to drink tea / have dim sum",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "điểm tâm (dim sum)",
+      "form": "點心 (dim2 sam1)",
+      "ipa": "tiːm˨˥ sɐm˥˥",
+      "gloss_en": "dim sum",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xíu mại",
+      "form": "燒賣 (siu1 maai2)",
+      "ipa": "siːw˥˥ maːj˨˥",
+      "gloss_en": "shumai dumpling",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sủi cảo",
+      "form": "水餃 (seoi2 gaau2)",
+      "ipa": "sɵɥ˨˥ kaːw˨˥",
+      "gloss_en": "water dumpling",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lì xì (bao đỏ mừng tuổi)",
+      "form": "利是 (lei6 si6)",
+      "ipa": "lej˨˨ siː˨˨",
+      "gloss_en": "red envelope / lucky money",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hội quán",
+      "form": "會館 (wui6 gun2)",
+      "ipa": "wuːj˨˨ kuːn˨˥",
+      "gloss_en": "assembly hall",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Việt kịch / Hát Quảng (粵劇 — Jyut6 kek6)",
+        "note": "Ca kịch truyền thống tiếng Quảng Đông biểu diễn thường xuyên tại các hội quán ở Chợ Lớn (như Tuệ Thành Hội Quán) dịp Tết Nguyên tiêu và lễ vía Bà Thiên Hậu; có ảnh hưởng lịch sử sâu sắc đến sân khấu Hát bội / Cải lương tuồng cổ (Hồ Quảng) Nam Bộ."
+      },
+      {
+        "name": "Triều kịch / Hát Tiều (潮劇) và Nhạc lễ Triều Châu (Đại la cổ 大鑼鼓)",
+        "note": "Loại hình ca kịch và hòa tấu nhạc lễ đặc trưng của nhóm người Hoa Triều Châu tại TP. Hồ Chí Minh, Sóc Trăng, Bạc Liêu (biểu diễn tại Nghĩa An Hội Quán và các miếu Ông Bổn)."
+      },
+      {
+        "name": "Sơn ca Khách Gia (客家山歌) và Hán nhạc",
+        "note": "Dân ca đối đáp truyền thống của cộng đồng người Hoa Hẹ (Khách Gia) tại Đông Nam Bộ và TP. Hồ Chí Minh."
+      },
+      {
+        "name": "Nhạc Hoa lời Quảng (粵語流行曲 / Cantopop) và nhạc Hoa lời Việt",
+        "note": "Dòng nhạc đại chúng gắn bó mật thiết với cộng đồng người Hoa đô thị Việt Nam từ thập niên 1970–2000; đòi hỏi khớp chặt cao độ nốt nhạc với 6 thanh điệu tiếng Quảng Đông ('y tự hành xoang / khang' 依字行腔)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Nốt luyến chữ theo thanh điệu (依字行腔 — Ji1 zi6 haang4 hong1)",
+        "description": "Trong Việt kịch và ca khúc tiếng Quảng Đông, các chữ mang thanh đi lên (thanh 2 [25], thanh 5 [13]) thường có nốt hoa mỹ luyến từ dưới lên (grace note quãng 2 hoặc quãng 3 dưới) để không bị nghe nhầm sang thanh ngang/huyền (đảo tự 倒字).",
+        "abc": "{d}e4",
+        "confidence": "medium"
+      },
+      {
+        "name": "Hạ giọng chữ Dương bình (thanh 4 [21])",
+        "description": "Chữ mang thanh 4 đặt ở nốt trầm cuối tiết nhạc thường luyến nhẹ đi xuống ở đầu hoặc cuối âm tiết.",
+        "abc": "(B1A3)",
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung truyền thống (五聲音階: Cung – Thương – Giốc [Giác] – Chủy – Vũ)",
+        "note": "Tương ứng C–D–E–G–A; trong Việt kịch và nhạc Quảng Đông truyền thống (廣東音樂) còn dùng thang bảy âm có bậc Ất (乙, B hơi non) và Phản (反, F hơi già) tạo màu sắc riêng tùy điệu thức (Chính tuyến, Ất phản tuyến).",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cao hồ / Nhị hồ (高胡 / 二胡 — đàn cò Quảng Đông, nhạc cụ chủ đạo của nhạc Quảng Đông)"
+      },
+      {
+        "name": "Dương cầm / Tam thập lục (揚琴)"
+      },
+      {
+        "name": "Tỳ bà (琵琶)"
+      },
+      {
+        "name": "Cổ tranh (古箏)"
+      },
+      {
+        "name": "Địch tử / Tiêu (笛子 / 簫) và Kèn Sona (嗩吶)"
+      },
+      {
+        "name": "Bộ gõ Đại la cổ (大鑼鼓: trống, chiêng lớn, chũm chọe, mộc ngư — dùng trong nhạc lễ và múa lân sư rồng)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "primary_variety_rationale": "Chọn tiếng Quảng Đông (yue, ký âm Jyutping) làm chuẩn ánh xạ vì đây là phương ngữ chung phổ biến nhất của người Hoa tại TP. Hồ Chí Minh (nơi tập trung hơn 51% dân số người Hoa cả nước) và trong đời sống ca nhạc/sân khấu đô thị.",
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Quảng Đông (Việt ngữ / Quảng Châu - Chợ Lớn)",
+        "name_en": "Cantonese (Standard Yue / Cholon Cantonese)",
+        "iso639_3": "yue",
+        "glottocode": "yuec1235",
+        "regions_in_vn": [
+          "TP. Hồ Chí Minh",
+          "Đồng Nai",
+          "Bình Dương",
+          "Quảng Ninh"
+        ],
+        "note": "Biến thể chính trong bảng mã này (Glottocode phương ngữ Quảng Châu–Hồng Kông: cant1236 dưới nhánh yuec1235); đóng vai trò ngôn ngữ giao tiếp chung giữa các bang người Hoa tại Nam Bộ."
+      },
+      {
+        "name_vi": "Tiếng Triều Châu (Tiều)",
+        "name_en": "Teochew (Chaoshan Min Nan)",
+        "iso639_3": "nan",
+        "glottocode": "minn1241",
+        "regions_in_vn": [
+          "Sóc Trăng",
+          "Bạc Liêu",
+          "Kiên Giang",
+          "Cà Mau",
+          "Trà Vinh",
+          "Cần Thơ",
+          "TP. Hồ Chí Minh"
+        ],
+        "note": "Thuộc nhánh Mân Nam (ISO 639-3 gộp chung trong mã nan; Glottocode phương ngữ Triều Châu: teoc1236 dưới minn1241); là nhóm phương ngữ lớn nhất tại Đồng bằng sông Cửu Long (người Minh Hương / người Tiều), có 8 thanh điệu và đối lập nguyên âm mũi hóa."
+      },
+      {
+        "name_vi": "Tiếng Phúc Kiến (Mân Nam / Tuyền Chương)",
+        "name_en": "Hokkien (Quanzhang Min Nan)",
+        "iso639_3": "nan",
+        "glottocode": "minn1241",
+        "regions_in_vn": [
+          "TP. Hồ Chí Minh",
+          "Đồng Nai",
+          "Quảng Nam (Hội An)"
+        ],
+        "note": "Thuộc nhánh Mân Nam (mã nan; Glottocode phương ngữ Phúc Kiến: hokk1242 dưới minn1241); gần gũi với tiếng Triều Châu nhưng khác biệt đáng kể về âm đọc và từ vựng."
+      },
+      {
+        "name_vi": "Tiếng Khách Gia (Hẹ)",
+        "name_en": "Hakka Chinese",
+        "iso639_3": "hak",
+        "glottocode": "hakk1236",
+        "regions_in_vn": [
+          "Đồng Nai",
+          "Bình Dương",
+          "TP. Hồ Chí Minh",
+          "Lâm Đồng"
+        ],
+        "note": "Giữ đầy đủ âm cuối -m/-n/-ng và -p/-t/-k như tiếng Quảng Đông nhưng có 6 thanh điệu với đường nét khác."
+      },
+      {
+        "name_vi": "Tiếng Hải Nam (Quỳnh Văn)",
+        "name_en": "Hainanese",
+        "iso639_3": "hnm",
+        "glottocode": "hain1238",
+        "regions_in_vn": [
+          "Kiên Giang (Phú Quốc, Hà Tiên)",
+          "TP. Hồ Chí Minh",
+          "Quảng Nam"
+        ],
+        "note": "Thuộc nhánh Mân Quỳnh Lôi, được cấp mã ISO 639-3 riêng là hnm (năm 2024); nổi bật với phụ âm tắc hút vào /ɓ, ɗ/ giống tiếng Việt."
+      },
+      {
+        "name_vi": "Tiếng Hoa phổ thông (Quan Thoại / Bắc Kinh)",
+        "name_en": "Mandarin Chinese",
+        "iso639_3": "cmn",
+        "glottocode": "mand1415",
+        "regions_in_vn": [
+          "TP. Hồ Chí Minh",
+          "Hà Nội",
+          "Lào Cai",
+          "Hà Giang"
+        ],
+        "note": "Ngôn ngữ tiêu chuẩn giảng dạy tại các trường và trung tâm Hoa văn ở Việt Nam; một số nhóm Hoa vùng biên giới phía Bắc cũng nói phương ngữ Quan Thoại Tây Nam."
+      },
+      {
+        "name_vi": "Các thổ ngữ Hoa nông thôn Đông Bắc (Xạ Phạng / Thoòng Nhằn / Bình Thoại)",
+        "name_en": "Rural Northeastern Vietnam Yue / Pinghua varieties",
+        "iso639_3": "yue",
+        "glottocode": "yuec1235",
+        "regions_in_vn": [
+          "Quảng Ninh",
+          "Bắc Giang",
+          "Lạng Sơn"
+        ],
+        "note": "Gần với phương ngữ Khâm Liêm (Qinlian Yue) hoặc Bình Thoại Nam (Southern Pinghua, ISO 639-3: csp), có giao thoa với cộng đồng người Ngái và Sán Dìu."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "你好 (nei5 hou2)",
+        "quoc_ngu": "nị hổ",
+        "note": "Cách đọc xấp xỉ phổ biến tại Sài Gòn – Chợ Lớn; thanh 5 [13] gần giữa thanh nặng/hỏi nhẹ, thanh 2 [25] gần thanh sắc/hỏi vút cao; vần ou /ow/ gần 'ô/âu'."
+      },
+      {
+        "native": "唔該 (m4 goi1)",
+        "quoc_ngu": "ừm coi",
+        "note": "Âm mũi độc lập m4 [m̩˨˩] không có trong tiếng Việt chuẩn, phải tách thành 'ừm' đọc ngậm môi nhanh; g- trong Jyutping là /k/ không bật hơi nên viết bằng 'c/k' Quốc ngữ (KHÔNG viết 'g' vì 'g' tiếng Việt là âm xát /ɣ/)."
+      },
+      {
+        "native": "多謝 (do1 ze6)",
+        "quoc_ngu": "to chẹ",
+        "note": "d- Jyutping là /t/ (viết 't' Quốc ngữ, tránh viết 'đ' /ɗ/); z- Jyutping là /t͡s/ không có trong tiếng Việt, xấp xỉ gần nhất bằng 'ch' [c]."
+      },
+      {
+        "native": "廣東話 (Gwong2 dung1 waa2)",
+        "quoc_ngu": "Quỏng tung quá",
+        "note": "gw- /kʷ/ khớp tốt với 'qu-' giọng Bắc hoặc 'qu-' giữ môi hóa; w- /w/ xấp xỉ bằng 'qu-/o-/u-' giọng Nam."
+      },
+      {
+        "native": "飲茶 (jam2 caa4)",
+        "quoc_ngu": "dẩm trà",
+        "note": "j- /j/ khớp với 'd-' giọng Nam Bộ; c- /t͡sʰ/ là tắc-xát bật hơi không có trong tiếng Việt (tiếng Việt không có đối lập bật hơi ở tắc-xát), tạm xấp xỉ bằng 'tr/x/s' hoặc 'ch' bật hơi nhẹ."
+      },
+      {
+        "native": "粵語 (Jyut6 jyu5)",
+        "quoc_ngu": "duỵt dử",
+        "note": "Nguyên âm tròn môi trước yu /yː/ KHÔNG có trong tiếng Việt; xấp xỉ bằng 'uy' [wi] nhưng môi phải chúm tròn cố định từ đầu đến cuối."
+      },
+      {
+        "native": "香港 (Hoeng1 gong2)",
+        "quoc_ngu": "Hơn cảng",
+        "note": "Nguyên âm tròn môi trước nửa mở oe /œː/ KHÔNG có trong tiếng Việt; xấp xỉ bằng 'ơ' kèm tròn môi nhẹ."
+      },
+      {
+        "native": "朋友 (pang4 jau5)",
+        "quoc_ngu": "phằng dẩu",
+        "note": "p- /pʰ/ và k- /kʰ/ trong Jyutping là âm tắc bật hơi mạnh, không có tương đương chính xác trong tiếng Việt (Quốc ngữ 'ph' là /f/, 'kh' là /x/). Với TTS chỉ biết tiếng Việt, tránh lạm dụng 'ph/kh' nếu nghe quá xát."
+      }
+    ],
+    "phonemes_absent_in_vietnamese": [
+      "Chuỗi phụ âm tắc và tắc-xát bật hơi /pʰ, kʰ, kʷʰ, t͡sʰ/ (tiếng Việt chỉ có /tʰ/, còn 'ph' là /f/ và 'kh' là /x/)",
+      "Phụ âm tắc-xát lợi vô thanh /t͡s/ (z trong Jyutping)",
+      "Các nguyên âm trước tròn môi /yː/ (yu), /œː/ (oe) và nguyên âm giữa tròn môi /ɵ/ (eo)",
+      "Âm mũi thành âm tiết độc lập mang thanh điệu /m̩/ (m) và /ŋ̩/ (ng)",
+      "Đối lập độ dài/căng-chùng hệ thống ở nhiều cặp nguyên âm trước cùng âm cuối, đặc biệt /aː/ vs /ɐ/"
+    ],
+    "sample_words": [
+      {
+        "native": "一 (jat1)",
+        "ipa": "jɐt̚˥",
+        "gloss_vi": "một"
+      },
+      {
+        "native": "二 (ji6)",
+        "ipa": "jiː˨˨",
+        "gloss_vi": "hai"
+      },
+      {
+        "native": "三 (saam1)",
+        "ipa": "saːm˥˥",
+        "gloss_vi": "ba"
+      },
+      {
+        "native": "五 (ng5)",
+        "ipa": "ŋ̩˩˧",
+        "gloss_vi": "năm"
+      },
+      {
+        "native": "水 (seoi2)",
+        "ipa": "sɵɥ˨˥",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "火 (fo2)",
+        "ipa": "fɔː˨˥",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "人 (jan4)",
+        "ipa": "jɐn˨˩",
+        "gloss_vi": "người"
+      },
+      {
+        "native": "食飯 (sik6 faan6)",
+        "ipa": "sɪk̚˨ faːn˨˨",
+        "gloss_vi": "ăn cơm"
+      },
+      {
+        "native": "唔 (m4)",
+        "ipa": "m̩˨˩",
+        "gloss_vi": "không (phủ định)"
+      },
+      {
+        "native": "堤岸 (Tai4 ngon6)",
+        "ipa": "tʰɐj˨˩ ŋɔːn˨˨",
+        "gloss_vi": "Chợ Lớn (Đề Ngạn)"
+      },
+      {
+        "native": "越南 (Jyut6 naam4)",
+        "ipa": "jyːt̚˨ naːm˨˩",
+        "gloss_vi": "Việt Nam"
+      },
+      {
+        "native": "心肝 (sam1 gon1)",
+        "ipa": "sɐm˥˥ kɔːn˥˥",
+        "gloss_vi": "tâm can / cục cưng"
+      }
+    ],
+    "singing_synthesis_notes": "Khi tổng hợp giọng hát tiếng Quảng Đông (Việt kịch hoặc Cantopop), giai điệu bắt buộc phải tôn trọng tương quan cao độ giữa các chữ liền kề (6 thanh điệu bình/thượng/khứ). Nếu dùng mô hình chỉ huấn luyện trên tiếng Việt Quốc ngữ, cách xấp xỉ chữ Quốc ngữ chỉ dùng được cho demo thô vì sai lệch lớn ở phụ âm bật hơi /pʰ, kʰ, t͡sʰ/ và nguyên âm tròn môi /yː, œː/; khuyến nghị ưu tiên tokenizer hỗ trợ CJK hoặc đầu vào âm vị IPA/Jyutping."
+  },
+  "sources": [
+    {
+      "title": "Ban Chỉ đạo Tổng điều tra dân số và nhà ở Trung ương (2019). Kết quả toàn bộ Tổng điều tra dân số và nhà ở thời điểm 0 giờ ngày 01 tháng 4 năm 2019. NXB Thống kê.",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Yue Chinese (yuec1235)",
+      "url": "https://glottolog.org/resource/languoid/id/yuec1235",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL International — ISO 639-3 Documentation for [zho] Chinese macrolanguage and [yue], [nan], [hak], [hnm], [cmn]",
+      "url": "https://iso639-3.sil.org/code/zho",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bauer, Robert S. & Benedict, Paul K. (1997). Modern Cantonese Phonology. Berlin: Mouton de Gruyter.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Matthews, Stephen & Yip, Virginia (2011). Cantonese: A Comprehensive Grammar (2nd ed.). London: Routledge.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Cantonese phonology",
+      "url": "https://en.wikipedia.org/wiki/Cantonese_phonology",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Jyutping",
+      "url": "https://en.wikipedia.org/wiki/Jyutping",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Người Hoa (Việt Nam)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Hoa_(Vi%E1%BB%87t_Nam)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hoa people",
+      "url": "https://en.wikipedia.org/wiki/Hoa_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "music.scales_or_modes[0].name",
+          "severity": "medium",
+          "problem": "Chữ '角' trong ngũ cung truyền thống Trung Hoa được dịch âm Hán-Việt là 'Giốc' (hoặc đọc trại là 'Giác'), không phải 'Chước' ('Chước' là âm đọc của 酌/灼).",
+          "fix": "Sửa 'Chước' thành 'Giốc (Giác)' trong tên thang ngũ cung (Cung – Thương – Giốc – Chủy – Vũ)."
+        },
+        {
+          "path": "music.genres[3].note",
+          "severity": "low",
+          "problem": "Thuật ngữ '依字行腔' có âm Hán-Việt chuẩn là 'y tự hành xoang' (hoặc đọc là 'khang' theo từ điển Hán-Việt cho chữ 腔), không phải 'y tự hành khốc' (khốc là 哭/酷).",
+          "fix": "Sửa 'y tự hành khốc' thành 'y tự hành xoang / khang'."
+        },
+        {
+          "path": "ml_hints.sub_varieties",
+          "severity": "low",
+          "problem": "Mã Glottocode của tiếng Triều Châu và tiếng Phúc Kiến đang dùng chung mã mức nhánh Mân Nam là 'minn1241', trong khi Glottolog có mã chi tiết hơn cho từng phương ngữ ('teoc1236' cho Teochew và 'hokk1242' cho Hokkien) bên dưới nhánh 'minn1241'.",
+          "fix": "Bổ sung chú thích mã Glottocode chi tiết ('teoc1236', 'hokk1242', 'cant1236') vào phần note hoặc glottocode của sub_varieties để tăng độ chính xác khi tra cứu."
+        },
+        {
+          "path": "sources[0].url",
+          "severity": "low",
+          "problem": "URL trực tiếp tới file PDF trên nso.gov.vn đôi khi thay đổi đường dẫn theo đợt bảo trì cổng thông tin của Tổng cục Thống kê (gso.gov.vn / nso.gov.vn).",
+          "fix": "Đánh dấu url_check='unverified-direct-pdf' để lưu ý kiểm tra liên kết tĩnh."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần tách các bảng mã con riêng (ví dụ hoa-yue, hoa-teochew, hoa-hakka, hoa-hainanese) nếu dự án mở rộng sang cộng đồng người Hoa Tây Nam Bộ (nơi tiếng Triều Châu phổ biến hơn tiếng Quảng Đông).",
+      "Cần khảo sát thực địa thêm về đặc điểm khẩu âm tiếng Quảng Đông Chợ Lớn so với tiếng Quảng Đông Hồng Kông / Quảng Châu hiện đại (tỷ lệ bảo lưu thanh 53 Âm bình, sự phân biệt /n-/ và /l-/, từ mượn tiếng Việt trong khẩu ngữ người Hoa Việt Nam).",
+      "Cần nghệ nhân Việt kịch và Triều kịch tại Quận 5 (TP. Hồ Chí Minh) thẩm định ký hiệu ABC cho các lối luyến chữ truyền thống."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

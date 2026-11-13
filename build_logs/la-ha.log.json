@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "la-ha",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Ha",
+    "ethnic_group_vi": "La Ha",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:38:04.479479",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 8750,
+      "totalTokenCount": 24470,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8750
+        }
+      ],
+      "thoughtsTokenCount": 6339,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11163,
+      "candidatesTokenCount": 10633,
+      "totalTokenCount": 22686,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11163
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10633
+        }
+      ],
+      "thoughtsTokenCount": 890,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "sources[3].title",
+        "severity": "low",
+        "problem": "Thứ tự tác giả trên ấn bản gốc của tạp chí Mon-Khmer Studies (vol. 27, tr. 257) là Jerold A. Edmondson & Kenneth J. Gregerson (1997), dù một số thư mục trích dẫn ngược lại.",
+        "fix": "Sửa lại thứ tự tác giả thành 'Edmondson, Jerold A. & Kenneth J. Gregerson (1997)' (kèm ghi chú đôi khi được trích dẫn là Gregerson & Edmondson 1997)."
+      },
+      {
+        "path": "scripts[1].note",
+        "severity": "medium",
+        "problem": "Ghi chú nêu chữ Latinh 'được dùng phi chính thức trong các lớp truyền dạy tiếng nói cộng đồng tại huyện Mường La (Sơn La) từ năm 2020', nhưng thực tế các câu lạc bộ/lớp truyền dạy văn hóa và tiếng nói La Ha (như tại Quỳnh Nhai, Mường La, Thuận Châu từ năm 2020) chủ yếu do nghệ nhân cao tuổi truyền dạy truyền khẩu, chưa có bằng chứng kiểm chứng về việc sử dụng bộ chữ Latinh thực nghiệm riêng trong lớp học.",
+        "fix": "Điều chỉnh lại ghi chú ở scripts[1].note để phản ánh đúng thực tế: hệ thống ký âm Latinh/IPA chủ yếu xuất hiện trong các công trình ngôn ngữ học điền dã và tài liệu sưu tầm văn hóa."
+      },
+      {
+        "path": "lexicon[13..16]",
+        "severity": "low",
+        "problem": "Các mục từ phương ngữ Noong Lay ('plaat', 'dak', 'khlaa', 'bli') chưa ghi thông tin thanh điệu (trong khi các mục từ Tà Mít đều ghi số thanh điệu Chao), dễ gây hiểu nhầm là phương ngữ Noong Lay không có thanh điệu.",
+        "fix": "Bổ sung thông tin thanh điệu theo tư liệu của Ostapirat (2000) và Edmondson (2008) (ví dụ: bli44 [bli˦˦], hoặc ghi rõ nhóm thanh lịch sử D1/D2/A2 trong gloss_en)."
+      },
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "low",
+        "problem": "Công thức âm tiết '(C0V0)C1(l)V(ː)(C2)+T' chỉ nêu âm đệm bên (l) trong tổ hợp phụ âm đầu, trong khi tư liệu về phương ngữ Sơn La (Solntseva & Hoàng Văn Ma 1986; Edmondson 2008) còn ghi nhận cả âm rền (r) trong các tổ hợp /tr-/, /dr-/ (vd: trai132 'gùi đeo lưng', drai423 'tất cả') và tổ hợp mũi-bên /ml-/ (vd: mla41 'cơm').",
+        "fix": "Cập nhật syllable_structure thành '(C0V0)C1(l/r)V(ː)(C2)+T' và bổ sung ghi chú về /ml-/, /tr-/, /dr-/."
+      }
+    ]
+  },
+  "schema_errors": []
+}

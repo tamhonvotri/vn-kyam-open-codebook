@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "thai",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thái",
+    "ethnic_group_vi": "Thái",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:41:13.479622",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9376,
+      "candidatesTokenCount": 9708,
+      "totalTokenCount": 24112,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9376
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9708
+        }
+      ],
+      "thoughtsTokenCount": 5028,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12108,
+      "candidatesTokenCount": 11136,
+      "totalTokenCount": 25238,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12108
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11136
+        }
+      ],
+      "thoughtsTokenCount": 1994,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[1].glottocode",
+        "severity": "high",
+        "problem": "Glottocode của tiếng Thái Trắng / Tai Dón (ISO 639-3: twh) bị ghi nhầm là 'taid1248' (thực chất 'taid1248' là mã Glottolog của Tai Do-Mene-Yo [tyj]).",
+        "fix": "Sửa glottocode của Tai Dón (twh) thành 'taid1250'."
+      },
+      {
+        "path": "ml_hints.sub_varieties[3].glottocode",
+        "severity": "high",
+        "problem": "Glottocode của tiếng Thái Yo / Tay Dọ (ISO 639-3: tyj) bị ghi là 'taiy1241' (mã không tồn tại trên Glottolog).",
+        "fix": "Sửa glottocode của Tai Yo / Tai Do-Mene-Yo (tyj) thành 'taid1248'."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "high",
+        "problem": "Nhầm lẫn ánh xạ tự dạng – âm vị giữa /e/, /iə/ và /ɨə/ trong chữ Thái Đen (Tai Viet): ký tự U+AAB9 (ꪹ◌, TAI VIET VOWEL UEA) đứng một mình ghi nguyên âm đôi /ɨə/ (như trong ꪹꪣꪉ /mɨəŋ˥/, ꪹꪭꪙ /hɨən˥/); tổ hợp ꪹ◌ꪸ ghi nguyên âm đơn /e/ (chứ không phải /iə/); còn ◌ꪸ (U+AAB8, TAI VIET VOWEL IA) đứng một mình ghi /iə/. Ngoài ra ꪹ◌ꪱ trong mục /ɨə/ bị trùng với vần /aw/.",
+        "fix": "Sửa vowels[3] (/e/) thành 'ꪹ◌ꪸ (hoặc ꪹ◌ ở phương ngữ Thái Trắng)', vowels[10] (/iə/) thành '◌ꪸ (ia / iê)', và vowels[11] (/ɨə/) thành 'ꪹ◌ (ưa / uea)'."
+      },
+      {
+        "path": "scripts[2].note",
+        "severity": "low",
+        "problem": "Chưa ghi nhận mốc mã hóa chính thức của khối chữ Tai Yo (U+1E6C0..U+1E6FF) trong Unicode.",
+        "fix": "Bổ sung thông tin chữ Lai Tay (Tai Yo) đã được mã hóa chính thức từ Unicode 17.0 (2025)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

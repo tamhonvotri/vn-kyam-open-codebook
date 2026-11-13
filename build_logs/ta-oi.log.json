@@ -1,0 +1,97 @@
+{
+  "target": {
+    "id": "ta-oi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tà Ôi",
+    "ethnic_group_vi": "Tà Ôi",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:17:33.219868",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 9142,
+      "totalTokenCount": 22458,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9142
+        }
+      ],
+      "thoughtsTokenCount": 3931,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11650,
+      "candidatesTokenCount": 10984,
+      "totalTokenCount": 23664,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11650
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10984
+        }
+      ],
+      "thoughtsTokenCount": 1030,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[5].glottocode",
+        "severity": "high",
+        "problem": "Glottocode của Ir [irr] bị ghi sai thành 'irrr1241'. Trong Glottolog 5.3, mã đúng là 'irrr1240' (mục Bookkeeping/retired do Ferlus 1974 xác nhận Ir trùng khít với Ong [oog]); ngoài ra phương ngữ Hantong' có mã riêng là 'hant1239' thuộc Lower Ta'oih (lowe1395).",
+        "fix": "Sửa glottocode thành 'irrr1240' và ghi chú rõ trạng thái Bookkeeping cùng mã phương ngữ Hantong' (hant1239)."
+      },
+      {
+        "path": "ml_hints.sub_varieties[6].glottocode",
+        "severity": "high",
+        "problem": "Glottocode của Kriang / Ngeq [ngt] bị ghi sai thành 'kria1253' (mã không tồn tại cho Ngeq trên Glottolog).",
+        "fix": "Sửa glottocode thành 'ngeq1245' theo đúng Glottolog 5.3."
+      },
+      {
+        "path": "ml_hints.sub_varieties[7].glottocode",
+        "severity": "high",
+        "problem": "Glottocode của Northern Katang [ncq] và Southern Katang [sct] bị ghi sai thành 'nort3291 / sout3261'. Theo Glottolog 5.3, mã đúng lần lượt là 'nort3270' (Northern Katang) và 'sout3251' (Southern Katang, tách từ mã cũ Kataang [kgd] / kata1264 theo ISO 639-3 CR 2016-021 và Gehrmann 2016).",
+        "fix": "Sửa glottocode thành 'nort3270 / sout3251' và bổ sung thuyết minh phân loại của Gehrmann (2016)."
+      },
+      {
+        "path": "lexicon[4]",
+        "severity": "medium",
+        "problem": "Mục từ 'nhăng' /ɲaŋ/ ('hai chúng tôi', 1du) là hình thái quen thuộc trong tiếng Pa Cô (Pacoh), trong khi tài liệu phương ngữ Ta'uaih (van der Haak 1993: 257) ghi nhận là /ɲɔːŋ/ ('nhoong').",
+        "fix": "Cập nhật form thành 'nhăng / nhoong', ipa thành 'ɲaŋ ~ ɲɔːŋ' và hạ confidence xuống 'low' cho tới khi xác nhận phương ngữ cụ thể."
+      },
+      {
+        "path": "lexicon[17]",
+        "severity": "low",
+        "problem": "Mục từ 'dăm' ('ngã / đổ') trong ngữ liệu Georgi (2019) xuất hiện trong cấu trúc khiên động 'pa-dăm' ('làm đổ, đốn hạ cây'), chưa có nguồn độc lập xác nhận phiên âm IPA chính xác của âm đầu (tắc hữu thanh /d/ hay tiền thanh hầu hóa /ʔd/) ở dạng gốc tự do.",
+        "fix": "Hạ confidence từ 'high' xuống 'medium'."
+      },
+      {
+        "path": "music.ornaments[0]",
+        "severity": "low",
+        "problem": "Mục 'Hát nói trì tục trên trục âm hẹp' mô tả phong cách tiến hành giai điệu (recitative style) hơn là một kỹ thuật tô điểm/hoa mỹ (ornament) cụ thể và chưa có ký âm ABC kiểm chứng.",
+        "fix": "Hạ confidence từ 'medium' xuống 'low'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

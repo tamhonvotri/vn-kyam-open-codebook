@@ -1,0 +1,916 @@
+{
+  "id": "xo-dang",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xơ Đăng",
+  "name_en": "Sedang",
+  "autonym": "Rơtéang / Rơteăng / Xơ Đeng (Hđang)",
+  "ethnic_group_vi": "Xơ Đăng",
+  "language": {
+    "iso639_3": "sed",
+    "glottocode": "seda1262",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric)"
+  },
+  "regions": [
+    "Kon Tum (Đăk Tô, Tu Mơ Rông, Đăk Hà, Kon Plông, Kon Rẫy, Đăk Glei, Sa Thầy, Ngọc Hồi)",
+    "Quảng Nam (Nam Trà My, Bắc Trà My)",
+    "Quảng Ngãi (Sơn Tây)",
+    "Đắk Lắk",
+    "Gia Lai"
+  ],
+  "speakers_estimate": "212.277 người dân tộc Xơ Đăng tại Việt Nam (Điều tra 53 DTTS năm 2019); riêng nhánh ngôn ngữ Xơ Đeng/Sedang chính (ISO 639-3: sed) khoảng 98.000 người nói (Ethnologue 2007), các nhóm địa phương còn lại nói các ngôn ngữ Bắc Bahnaric gần gũi.",
+  "scripts": [
+    {
+      "name": "Chữ Xơ Đăng hệ Latinh (cải biên từ chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": null,
+      "note": "Bắt nguồn từ chữ viết Latinh do các giáo sĩ tại Kon Tum đặt nền móng cuối thế kỷ XIX – đầu thế kỷ XX, được Kenneth D. Smith hệ thống hóa ngữ âm học (1967–2000) và được các nhà ngôn ngữ học Việt Nam (Lê Đông, Tạ Văn Thông 2008), ngành giáo dục tỉnh Kon Tum cùng Đài Tiếng nói Việt Nam (VOV Tây Nguyên) sử dụng trong từ điển, tài liệu song ngữ và phát thanh. Chưa có một chuẩn chính tả duy nhất áp dụng chung cho mọi nhóm địa phương (như Ca Dong ở Quảng Nam có tài liệu ngữ vựng riêng)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình ngữ âm học và từ điển học thuật về tiếng Xơ Đăng trung tâm (Central Sedang — ISO 639-3: sed) của Kenneth D. Smith (1968, 1975, 1979, 2000/2012), Smith & Sidwell (2014), Lê Đông & Tạ Văn Thông (2008) và cơ sở dữ liệu PHOIBLE/Glottolog. Cần người bản xứ các nhánh Xơ Đeng, Tơ Đra, Mơ Nâm, Ca Dong, Hà Lăng và chuyên gia ngữ âm học Môn-Khmer thẩm định thực địa.",
+  "phonology": {
+    "syllable_structure": "(C_p ə) C1(l/r)V(C2) — cấu trúc bán âm tiết (sesquisyllabic) gồm tiền âm tiết nhẹ không mang trọng âm tùy chọn và âm tiết chính mang trọng âm; khoảng 50% từ vựng là âm tiết mở do rụng các âm cuối *-ʔ, *-l, *-r cổ.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "tɕ",
+        "note": "Tắc-xát mặt lưỡi/ngạc cứng vô thanh không bật hơi (một số tài liệu phiên âm /c/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "Ø (đầu âm tiết mở đầu bằng nguyên âm) / '",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm đầu từ (ví dụ: on /ʔɔn/ 'lửa', á /ʔa̰/ 'tôi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (khác 'ph' /f/ của tiếng Việt chuẩn; đôi khi biến thể tự do hoặc vay mượn đọc [f])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chh / khj",
+        "ipa": "tɕʰ",
+        "note": "Tắc-xát ngạc vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (khác 'kh' /x/ của tiếng Việt Hà Nội; đôi khi có biến thể xát [x])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mb (hoặc b)",
+        "ipa": "ᵐb",
+        "note": "Tắc hai môi hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nd (hoặc d)",
+        "ipa": "ⁿd",
+        "note": "Tắc chân răng hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nj (hoặc j / dj)",
+        "ipa": "ᶮdʑ",
+        "note": "Tắc-xát ngạc hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngg (hoặc g)",
+        "ipa": "ᵑɡ",
+        "note": "Tắc ngạc mềm hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'b / ƀ / b",
+        "ipa": "ˀb",
+        "note": "Tắc hai môi tiền thanh hầu hóa / hút vào [ɓ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "'d / đ",
+        "ipa": "ˀd",
+        "note": "Tắc chân răng tiền thanh hầu hóa / hút vào [ɗ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm",
+        "ipa": "m̥",
+        "note": "Mũi hai môi vô thanh (phân tích âm vị học có thể coi là tổ hợp /hm/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hn",
+        "ipa": "n̥",
+        "note": "Mũi chân răng vô thanh (ví dụ: hnam 'nhà/năm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hnh",
+        "ipa": "ɲ̊",
+        "note": "Mũi ngạc cứng vô thanh (ví dụ: hnhon 'múa xoang')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hng",
+        "ipa": "ŋ̊",
+        "note": "Mũi ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'m",
+        "ipa": "ˀm",
+        "note": "Mũi hai môi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'n",
+        "ipa": "ˀn",
+        "note": "Mũi chân răng tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'nh",
+        "ipa": "ˀɲ",
+        "note": "Mũi ngạc cứng tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "'ng",
+        "ipa": "ˀŋ",
+        "note": "Mũi ngạc mềm tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (tài liệu dựa Quốc ngữ đôi khi phân biệt s và x theo phương ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "l̥",
+        "note": "Bên chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'l",
+        "ipa": "ˀl",
+        "note": "Bên chân răng tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi [r ~ ɾ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hr",
+        "ipa": "r̥",
+        "note": "Rung đầu lưỡi vô thanh (ví dụ: hríng /r̥ḭŋ/ 'trăm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'r",
+        "ipa": "ˀr",
+        "note": "Rung đầu lưỡi tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, pr, kl, kr, phl, phr, khl, khr, bl, br, dr",
+        "ipa": "pl, pr, kl, kr, pʰl, pʰr, kʰl, kʰr, ᵐbl, ᵐbr, ⁿdr",
+        "note": "Tổ hợp phụ âm đầu C + /l, r/ rất phổ biến ở âm tiết chính (ví dụ: plơi 'làng', kră 'già/lớn', kleng 'máng')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước khép, âm vực thường (modal); tiếng Xơ Đăng trung tâm mất đối lập độ dài nguyên âm đơn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa khép, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / â / ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở, âm vực thường (trong vần đóng hoặc trước bán nguyên âm đôi khi ghi bằng 'â' hoặc 'ă' theo thói quen chữ Quốc ngữ, ví dụ: hâi 'ngày')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau khép tròn môi, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa khép tròn môi, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở tròn môi, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə",
+        "note": "Nguyên âm trung tâm ở tiền âm tiết không trọng âm (kơ-, tơ-, hơ-, rơ-, mơ-, pơ-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "í, ế, é, á, ú, ố, ó (dấu sắc trên nguyên âm)",
+        "ipa": "ḭ, ḛ, ɛ̰, a̰, ṵ, o̰, ɔ̰",
+        "note": "7 nguyên âm đơn ở âm vực căng / thanh hầu hóa kẹt (creaky/laryngealized register) trong chính tả Smith (1979, 2000) và Lê Đông & Tạ Văn Thông (2008)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĩ, ễ, ẽ, ã, ũ, ỗ, õ (mũi hóa)",
+        "ipa": "ĩ, ẽ, ɛ̃, ã, ũ, õ, ɔ̃",
+        "note": "Nguyên âm mũi hóa độc lập (hiếm hơn nguyên âm miệng; riêng /i, a, o/ có thể vừa mũi hóa vừa thanh hầu hóa /ḭ̃, ã̰, õ̰/ ở âm tiết mở hoặc kết thúc bằng bán nguyên âm)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước khép (có thể mang âm vực thường hoặc thanh hầu hóa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea / êa (péa, tea)",
+        "ipa": "eə",
+        "note": "Nguyên âm đôi hướng tâm trước vừa, hình thành do nguyên âm hóa từ nguyên âm dài cổ (ví dụ: tea /teə/ 'nước', péa /pḛə/ 'hai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô (túan, kúên)",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau khép (có thể mang âm vực thường hoặc thanh hầu hóa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oa / ôa",
+        "ipa": "oə",
+        "note": "Nguyên âm đôi hướng tâm sau vừa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iô, uô, êu, oe",
+        "ipa": "io, uo, eo, oɛ",
+        "note": "Các nguyên âm đôi thứ sinh đặc trưng trong hệ thống nguyên âm mở rộng của tiếng Xơ Đăng (Smith 1979)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi đóng không nổ [p̚]; chỉ đi với nguyên âm âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng đóng không nổ [t̚]; chỉ đi với nguyên âm âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi đóng không nổ [c̚ ~ tɕ̚]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm đóng không nổ [k̚]; nhiều từ gốc Bắc Bahnaric có *-k đã rụng âm cuối trong tiếng Xơ Đăng trung tâm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết; cho phép đối lập âm vực thường và căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết; cho phép đối lập âm vực thường và căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết; cho phép đối lập âm vực thường và căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm cuối âm tiết (ví dụ: nôu /now/, pôm chau)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng cuối âm tiết (ví dụ: môi /moj/, pái /pa̰j/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết; chỉ bảo lưu ở âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih / yh",
+        "ipa": "j̊ ~ ç",
+        "note": "Bán nguyên âm ngạc vô thanh / xát ngạc cứng cuối âm tiết (Smith 1979)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "uh / wh",
+        "ipa": "w̥",
+        "note": "Bán nguyên âm môi-ngạc mềm vô thanh cuối âm tiết (Smith 1979)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu mà đối lập 2 âm vực thanh hầu (register) trên âm tiết chính: (1) Âm vực thường / lỏng (lax/modal voice [V]), chữ viết không đánh dấu thanh; (2) Âm vực căng / thanh hầu hóa kẹt (tense/laryngealized/creaky voice [V̰]), chữ viết đánh dấu sắc (´) trên nguyên âm chính. Kết hợp với mũi hóa nguyên âm ([Ṽ]) và hệ nguyên âm đôi phong phú, tiếng Xơ Đăng có 24 nguyên âm đơn và khoảng 33–55 âm vị nhân vần. (Lưu ý: các nhóm địa phương khác như Hà Lăng hay Tơ Đra đối lập giọng trong với giọng thở [V̤] hoặc có ba âm vực)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi",
+      "form": "á",
+      "ipa": "ʔa̰",
+      "gloss_en": "I",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "môi",
+      "ipa": "moj",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "péa",
+      "ipa": "pḛə",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pái",
+      "ipa": "pa̰j",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trăm",
+      "form": "hríng",
+      "ipa": "r̥ḭŋ",
+      "gloss_en": "hundred",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước / sông suối",
+      "form": "tea",
+      "ipa": "teə",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "on",
+      "ipa": "ʔɔn",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời / ngày",
+      "form": "hâi (hoặc hài)",
+      "ipa": "haj",
+      "gloss_en": "sun / day",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mặt trăng / tháng",
+      "form": "khế",
+      "ipa": "kʰḛ",
+      "gloss_en": "moon / month",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngôi sao",
+      "form": "hơlóng",
+      "ipa": "həlɔ̰ŋ",
+      "gloss_en": "star",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "pa",
+      "ipa": "pa",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "nôu",
+      "ipa": "now",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con",
+      "form": "kúan / kon (hoặc kúên)",
+      "ipa": "kṵən / kɔn",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tai",
+      "form": "túan",
+      "ipa": "tṵən",
+      "gloss_en": "ear",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ká",
+      "ipa": "ka̰",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "chêm",
+      "ipa": "tɕem",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nói / trò chuyện",
+      "form": "tơpui",
+      "ipa": "təpuj",
+      "gloss_en": "to speak / talk",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhặt",
+      "form": "tôm / tep",
+      "ipa": "tom / tɛp",
+      "gloss_en": "to pick up",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dỗ (trẻ)",
+      "form": "lông",
+      "ipa": "loŋ",
+      "gloss_en": "to soothe / coax",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng",
+      "form": "pơlê (hoặc plơi)",
+      "ipa": "pəle",
+      "gloss_en": "village",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Ting ting (Tinh tinh)",
+        "note": "Thể loại hát đối đáp, giao duyên trữ tình giữa nam và nữ thanh niên Xơ Đăng (phổ biến tại Tu Mơ Rông, Đăk Tô – Kon Tum và Nam Trà My – Quảng Nam)."
+      },
+      {
+        "name": "Hát Cheo",
+        "note": "Làn điệu dân ca sinh hoạt cộng đồng và nghi lễ nông nghiệp như Cheo mừng năm mới (Cheo hra hnam nia), Cheo mừng lúa mới, Cheo lao động sản xuất (Cheo lam pek chiêng), Cheo khuyên răn con cháu."
+      },
+      {
+        "name": "Hát ru Xơ Đăng (Ru em)",
+        "note": "Khúc hát ru mộc mạc, tha thiết gắn với sinh hoạt gia đình; bài dân ca Xơ Đăng 'Ru em' là một trong những giai điệu dân tộc Tây Nguyên tiêu biểu được phổ biến rộng rãi tại Việt Nam."
+      },
+      {
+        "name": "Nhạc cồng chiêng và múa Xoang (Hnhon)",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO công nhận năm 2005), gắn với lễ cúng máng nước (hnhon kleng tea), lễ cúng đâm trâu (hnhon ka pô), lễ ăn lúa mới, lễ dựng nhà rông mới."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến lấy hơi và nhấn trọng âm iambic (tiền âm tiết – âm tiết chính)",
+        "description": "Lời ca tôn trọng nhịp iambic tự nhiên của từ song tiết Môn-Khmer: tiền âm tiết (rơ-, hơ-, tơ-) rơi vào nốt lướt ngắn đầu phách nhẹ, âm tiết chính rơi vào phách mạnh và ngân hoặc kẹt thanh hầu tùy âm vực.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung / khuyết bán cung Tây Nguyên",
+        "note": "Thường dựa trên hàng âm tự nhiên của dàn cồng chiêng, đàn Tơ-rưng và đàn Klông-pút (2–5 ống nứa định âm), biến đổi linh hoạt theo nhóm địa phương.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn Klông-pút (Kong Kră) — đàn vỗ ống nứa rỗng (2 đến 5 ống)"
+      },
+      {
+        "name": "Cồng chiêng (Arap / Kơr pát / Chéc tok, Chéc tup)"
+      },
+      {
+        "name": "Đàn Tơ-rưng và Đàn nước (Tơ-rưng nước)"
+      },
+      {
+        "name": "Trống (Hơgơl)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name_vi": "Xơ Đeng / Xơ Tơng (Hđang, Rơtéang — nhánh chính)",
+        "name_en": "Central / Greater Sedang",
+        "iso639_3": "sed",
+        "glottocode": "seda1262",
+        "region": "Đăk Tô, Tu Mơ Rông, Đăk Hà, Kon Rẫy, Đăk Glei (Kon Tum)"
+      },
+      {
+        "name_vi": "Ca Dong (Cà Dong / Kayong)",
+        "name_en": "Kayong",
+        "iso639_3": "kxy",
+        "glottocode": "kayo1245",
+        "region": "Sa Thầy, Kon Plông (Kon Tum); Nam Trà My, Bắc Trà My (Quảng Nam); Sơn Tây (Quảng Ngãi)"
+      },
+      {
+        "name_vi": "Hà Lăng (Salang)",
+        "name_en": "Halang",
+        "iso639_3": "hal",
+        "glottocode": "hala1252",
+        "region": "Đăk Na – Tu Mơ Rông, Đăk Tô, Ngọc Hồi (Kon Tum) và Attapeu (Lào)"
+      },
+      {
+        "name_vi": "Tơ Đra (Tơ-đrá, Xơtrá, SơRá)",
+        "name_en": "Todrah",
+        "iso639_3": "tdr",
+        "glottocode": "todr1244",
+        "region": "Kon Rẫy, Đăk Hà, vùng đông bắc TP. Kon Tum"
+      },
+      {
+        "name_vi": "Mơ Nâm (Mơ-nâm, Bonam)",
+        "name_en": "Monom",
+        "iso639_3": "moo",
+        "glottocode": "mono1268",
+        "region": "Kon Plông (Kon Tum)"
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "tơpui / hơlóng / rơtéang",
+        "quoc_ngu": "tơ pui / hơ lọong / rơ teng",
+        "note": "Tiền âm tiết (tơ-, hơ-, rơ-, kơ-, mơ-) tách thành một tiếng nhẹ chứa 'ơ', phát âm cực ngắn (1/4–1/2 thời lượng âm tiết chính) để giữ nhịp iambic."
+      },
+      {
+        "native": "á / ká / khế / pái (dấu sắc ghi âm vực căng/kẹt thanh hầu)",
+        "quoc_ngu": "ạ / cạ / khễ / pại (khi đọc TTS) hoặc giữ nguyên nguyên âm kèm giọng nén khi hát",
+        "note": "Dấu sắc trong chính tả Xơ Đăng biểu thị chất giọng kẹt thanh hầu [V̰], KHÔNG phải thanh sắc vút cao [35] của tiếng Việt. Trong TTS chỉ biết tiếng Việt, thanh nặng hoặc thanh ngã tạo hiệu ứng thanh hầu hóa gần hơn thanh sắc; khi tổng hợp giọng hát (cao độ đã do nốt nhạc quy định), không nên để dấu sắc làm méo đường F0."
+      },
+      {
+        "native": "tea / péa",
+        "quoc_ngu": "te-a / pe-ạ",
+        "note": "Nguyên âm đôi /eə/ không có sẵn dạng chữ đơn trong Quốc ngữ chuẩn; viết liền 'tea' dễ bị tokenizer tiếng Việt đọc thành âm ngoại lai hoặc tách ký tự, nên tách nhẹ hoặc ánh xạ gần sang vần 'ia/e-ơ' đọc lướt."
+      },
+      {
+        "native": "ph / kh (ví dụ: khế)",
+        "quoc_ngu": "p'h / k'h",
+        "note": "Trong tiếng Xơ Đăng 'ph' là tắc hai môi bật hơi /pʰ/ (không phải xát môi-răng /f/ của tiếng Việt) và 'kh' là tắc ngạc mềm bật hơi /kʰ/ (không phải xát /x/ giọng Bắc)."
+      },
+      {
+        "native": "hm, hn, hnh, hng, hl, hr (ví dụ: hnam, hríng, hnhon)",
+        "quoc_ngu": "hơ-nam / hơ-rịnh / hơ-nhon (lướt rất nhanh âm 'hơ')",
+        "note": "Phụ âm mũi và lỏng vô thanh (/m̥, n̥, ɲ̊, ŋ̊, l̥, r̥/) không tồn tại trong tiếng Việt; chỉ có thể xấp xỉ gần đúng bằng luồng hơi 'h' cực ngắn ngay trước phụ âm hữu thanh."
+      },
+      {
+        "native": "mb, nd, nj, ngg",
+        "quoc_ngu": "m-b, n-đ, nh-gi, ng-g (hoặc b, đ, d, g)",
+        "note": "Phụ âm tắc tiền mũi hóa (/ᵐb, ⁿd, ᶮdʑ, ᵑɡ/) không có trong tiếng Việt chuẩn; nếu nối từ trước kết thúc bằng nguyên âm có thể mượn âm cuối mũi nhẹ của âm tiết trước."
+      },
+      {
+        "native": "plơi, kră, kleng",
+        "quoc_ngu": "pơ-lơi, cơ-ră, cơ-leng (lướt cực ngắn âm đệm)",
+        "note": "Tổ hợp phụ âm đầu C + l/r không có trong tiếng Việt hiện đại; TTS tiếng Việt thường đánh vần từng chữ cái nếu viết liền 'pl', 'kr', 'kl', nên cần chèn nguyên âm lướt siêu ngắn khi tiền xử lý văn bản."
+      },
+      {
+        "native": "-h, -ih/-yh, -uh/-wh (âm cuối xát thanh hầu)",
+        "quoc_ngu": "nguyên âm mở ngắt hơi nhanh (hoặc -i/-u kèm hơi thở)",
+        "note": "Tiếng Việt không có âm cuối /-h, -j̊, -w̥/; tránh thay bằng '-ch' hay '-t' vì sẽ làm biến chất hoàn toàn âm sắc cuối từ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "á",
+        "ipa": "ʔa̰",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "môi",
+        "ipa": "moj",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "péa",
+        "ipa": "pḛə",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "pái",
+        "ipa": "pa̰j",
+        "meaning_vi": "ba"
+      },
+      {
+        "native": "hríng",
+        "ipa": "r̥ḭŋ",
+        "meaning_vi": "một trăm"
+      },
+      {
+        "native": "tea",
+        "ipa": "teə",
+        "meaning_vi": "nước, sông suối"
+      },
+      {
+        "native": "on",
+        "ipa": "ʔɔn",
+        "meaning_vi": "lửa"
+      },
+      {
+        "native": "hâi (hài)",
+        "ipa": "haj",
+        "meaning_vi": "mặt trời, ngày"
+      },
+      {
+        "native": "khế",
+        "ipa": "kʰḛ",
+        "meaning_vi": "mặt trăng, tháng"
+      },
+      {
+        "native": "hơlóng",
+        "ipa": "həlɔ̰ŋ",
+        "meaning_vi": "ngôi sao"
+      },
+      {
+        "native": "pa",
+        "ipa": "pa",
+        "meaning_vi": "cha, bố"
+      },
+      {
+        "native": "nôu",
+        "ipa": "now",
+        "meaning_vi": "mẹ"
+      },
+      {
+        "native": "túan",
+        "ipa": "tṵən",
+        "meaning_vi": "tai"
+      },
+      {
+        "native": "ká",
+        "ipa": "ka̰",
+        "meaning_vi": "cá"
+      },
+      {
+        "native": "chêm",
+        "ipa": "tɕem",
+        "meaning_vi": "chim"
+      },
+      {
+        "native": "tơpui",
+        "ipa": "təpuj",
+        "meaning_vi": "nói, trò chuyện"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Smith, Kenneth D. (1968). Laryngealization and de-laryngealization in Sedang phonemics. Linguistics, 6(38), 52–69.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Smith, Kenneth D. (1979). Sedang Grammar: Phonological and Syntactic Structure. Pacific Linguistics, Series B-50. Canberra: Australian National University.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Smith, Kenneth D. (2000; tái bản 2012). Từ-điển Xơ-đăng–Anh–Việt–Pháp / Sedang Dictionary with English, Vietnamese, and French Glossaries. Mon-Khmer Studies Special Volume No. 1 / SIL Language and Culture Documentation and Description.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Smith, Kenneth & Paul Sidwell (2014). Sedang. In Mathias Jenny & Paul Sidwell (eds.), The Handbook of Austroasiatic Languages, Vol. 2, pp. 789–833. Leiden: Brill.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lê Đông & Tạ Văn Thông (2008). Từ điển Việt – Xơ Đăng. Hà Nội: NXB Văn hóa Thông tin.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Spoken L1 Language: Sedang (seda1262)",
+      "url": "https://glottolog.org/resource/languoid/id/seda1262",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Sedang phonological inventory (SPA 13 / UPSID 535, citing Smith 1968)",
+      "url": "https://phoible.org/languages/seda1262",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Sedang language, Kayong language (Vietnam), Halang language, Todrah language, Monom language",
+      "url": "https://en.wikipedia.org/wiki/Sedang_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Appendix:Austroasiatic Swadesh lists (Sedang lexical data from Smith 2012)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Austroasiatic_Swadesh_lists",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Space of gong culture (Viet Nam, 2005)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "lexicon[7] & ml_hints.sample_words[7]",
+          "severity": "medium",
+          "problem": "Mục từ 'mặt trời / ngày' chỉ ghi dạng 'hài' (theo quy ước chính tả cũ năm 1967 của Smith dùng dấu huyền để phân biệt nguyên âm dòng giữa/ngắn), trong khi chính tả tiếng Xơ Đăng hiện hành trên VOV4 và tài liệu sau này ghi là 'hâi'. Việc để riêng 'hài' dễ gây hiểu nhầm rằng tiếng Xơ Đăng dùng dấu huyền để ghi thanh điệu.",
+          "fix": "Sửa form thành 'hâi (hoặc hài)' kèm chú thích rõ trong phần ngữ âm/từ vựng."
+        },
+        {
+          "path": "lexicon[12]",
+          "severity": "low",
+          "problem": "Mục từ 'con' (child) ghi 'kúên' (theo Từ điển Việt – Xơ Đăng của Lê Đông & Tạ Văn Thông 2008), nhưng trong danh sách Swadesh của Smith (2000/2012) và phương ngữ trung tâm (cũng như VOV4) phổ biến dạng 'kúan / kon / kuăn'.",
+          "fix": "Mở rộng form thành 'kúan / kon (hoặc kúên)' để bao quát cả hai hệ chuẩn từ điển."
+        },
+        {
+          "path": "lexicon[19]",
+          "severity": "medium",
+          "problem": "Mục từ 'làng' chỉ ghi 'plơi' (dạng dùng ở vùng tiếp giáp Ba Na / Măng Đen) và để trống IPA, trong khi dạng chuẩn phổ biến trong tiếng Xơ Đăng trung tâm và phát thanh VOV Xơ Đăng là 'pơlê' (/pəle/).",
+          "fix": "Cập nhật form thành 'pơlê (hoặc plơi)' và bổ sung IPA 'pəle' cho dạng trung tâm."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn trực tuyến đang để null; mục từ điển Smith (2000) chưa ghi chú bản tái bản mở rộng năm 2012 của SIL.",
+          "fix": "Cập nhật url_check thành 'verified' cho các URL đã kiểm chứng và bổ sung thông tin ấn bản 2000/2012 của Smith."
+        }
+      ]
+    },
+    "open_issues": [
+      "Quy ước chữ viết tiếng Xơ Đăng giữa dòng từ điển học thuật SIL (Kenneth D. Smith), từ điển Việt Nam (Lê Đông & Tạ Văn Thông 2008), bản tin phát thanh VOV4 và tài liệu giáo dục song ngữ địa phương ở Kon Tum có khác biệt ở cách ghi phụ âm tiền mũi hóa (mb/nd/nj/ngg so với b/d/j/g), phụ âm tiền thanh hầu hóa ('b/ƀ/'m), dấu mũ/dấu trăng trên nguyên âm và nguyên âm mũi hóa.",
+      "Dân tộc Xơ Đăng ở Việt Nam bao gồm ít nhất 5 ngôn ngữ Bắc Bahnaric riêng biệt theo phân loại ISO 639-3 (sed, kxy, hal, tdr, moo) với hệ thống âm vực rất khác nhau (Xơ Đeng dùng giọng kẹt thanh hầu [V̰], trong khi Hà Lăng và Tơ Đra có giọng thở [V̤] và giữ nhiều âm cuối hơn); cần tách bảng mã riêng nếu xây dựng mô hình giọng nói/giọng hát cho nhóm Ca Dong hoặc Hà Lăng.",
+      "Cần nhạc sĩ dân tộc nhạc học bổ sung ký âm chuẩn và thang âm chi tiết của các làn điệu hát Ting ting và hát Cheo."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

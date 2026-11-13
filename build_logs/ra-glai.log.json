@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "ra-glai",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ra Glai",
+    "ethnic_group_vi": "Ra Glai",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:03:34.137191",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 8768,
+      "totalTokenCount": 21319,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8768
+        }
+      ],
+      "thoughtsTokenCount": 3166,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11464,
+      "candidatesTokenCount": 10736,
+      "totalTokenCount": 23336,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11464
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10736
+        }
+      ],
+      "thoughtsTokenCount": 1136,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Gộp chung Quyết định 287/2007/QĐ-UBND (phương án của Viện Ngôn ngữ học) và bộ chữ phê duyệt tháng 10/2019 (Quyết định 383/QĐ-UBND ngày 08/10/2019 của UBND tỉnh Ninh Thuận) như cùng một phương án duy nhất, trong khi tài liệu ngôn ngữ học xã hội chỉ ra đây là hai phương án có sự khác biệt và phương án 26 chữ cái năm 2019 mới là bộ chữ được đưa vào Thông tư 14/2026/TT-BGDĐT.",
+        "fix": "Làm rõ lịch sử hai quyết định (287/2007/QĐ-UBND năm 2007 và 383/QĐ-UBND ngày 08/10/2019) và nêu rõ 6 chữ cái phát âm khác tiếng Việt theo Thông tư 14/2026/TT-BGDĐT là c, d, j, w, y, z."
+      },
+      {
+        "path": "phonology.vowels[8].note",
+        "severity": "low",
+        "problem": "Ghi chú nêu bộ chữ hiện hành hoàn toàn không dùng dấu ngã, nhưng trong văn bản Thông tư 14/2026/TT-BGDĐT (ví dụ câu mẫu 'Tapuơl kalid Mĩ harơh maiq vhum') vẫn xuất hiện con chữ mang dấu ngã ('Mĩ') để ghi nguyên âm mũi hóa (dù quy tắc chung cấm dùng dấu thanh điệu tiếng Việt).",
+        "fix": "Cập nhật ghi chú ở phonology.vowels[8] để phản ánh đúng thực tế trong Thông tư 14/2026/TT-BGDĐT: quy tắc chung không dùng dấu thanh điệu, nhưng dấu ngã (~) biểu thị nguyên âm mũi hóa vẫn xuất hiện hạn chế trong một số từ vựng."
+      },
+      {
+        "path": "lexicon[3].ipa",
+        "severity": "low",
+        "problem": "Từ 'tijuh' (bảy) ghi IPA là 'tidʒuh ~ tiɟuh', trong khi hệ thống âm vị Raglai (Wikipedia, Brunelle et al. 2022) xác định âm vị tương ứng với con chữ 'j' là tắc ngạc cứng hữu thanh /ɟ/.",
+        "fix": "Chuẩn hóa IPA thành 'tiɟuh' cho nhất quán với bảng âm đầu."
+      },
+      {
+        "path": "lexicon[16].ipa",
+        "severity": "low",
+        "problem": "Từ 'kơw' (tôi) ghi IPA là 'kɔ̆w' với confidence 'high', chưa khớp trực tiếp với quy ước nguyên âm 'ơ' /ə/ trong cùng bảng mã.",
+        "fix": "Sửa IPA thành 'kəw ~ kɔ̆w' và hạ confidence xuống 'medium'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

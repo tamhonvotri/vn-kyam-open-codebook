@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "san-chay",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Sán Chay",
+    "ethnic_group_vi": "Sán Chay",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:54:11.116617",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9387,
+      "candidatesTokenCount": 10772,
+      "totalTokenCount": 33872,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9387
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10772
+        }
+      ],
+      "thoughtsTokenCount": 13713,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11452,
+      "candidatesTokenCount": 10536,
+      "totalTokenCount": 21988,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11452
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10536
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "music.instruments[0] & lexicon[15]",
+        "severity": "medium",
+        "problem": "Gộp lẫn 'trống đất (náy cau)' và 'trống tang sành' thành một nhạc cụ. Trong thực tế văn hóa Sán Chay (Cao Lan), 'trống đất' (náy cau) dùng trong múa Tắc Xình là nhạc cụ dây-đất (đào hố sâu dưới đất, phủ vỏ cây lên mặt hố và chăng dây rừng gõ nhịp), còn 'trống tang sành' là trống hai mặt bịt da có tang bằng đất nung/sành dùng trong nghi lễ và hát múa khác.",
+        "fix": "Tách riêng 'Trống đất (náy cau)' và 'Trống tang sành' trong music.instruments; sửa lại định nghĩa ở lexicon[15] thành 'trống đất (hố đất phủ vỏ cây chăng dây trong múa Tắc Xình)'."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Một số ánh xạ grapheme->IPA (như 'sl' /ɬ/, 'b' /ɓ/, 'đ' /ɗ/) dùng quy ước chữ Quốc ngữ / Tày-Nùng trong khi tiếng Cao Lan chưa có bộ chữ Latinh chuẩn hóa chính thức; và việc bảo lưu hay biến đổi của /ɬ/ tùy thuộc thổ ngữ.",
+        "fix": "Giữ mức confidence 'medium' hoặc hạ các mục suy diễn lịch đại chưa dẫn xuất trực tiếp từ bảng âm vị chuẩn về 'medium', ghi chú rõ tính chất quy ước."
+      },
+      {
+        "path": "lexicon[12..13]",
+        "severity": "low",
+        "problem": "Hai mục từ 'phác' [pʰak] ('rau') và 'khay' [kʰaj] ('gần') thiếu ký hiệu thanh điệu trong chuỗi IPA so với các mục từ khác trong cùng danh sách.",
+        "fix": "Hạ confidence của hai mục từ này từ 'high' xuống 'medium' do phiên âm IPA chưa ghi đầy đủ điệu trị."
+      },
+      {
+        "path": "sources[1..2]",
+        "severity": "low",
+        "problem": "Hai nguồn học thuật quan trọng của Phan Lương Hùng (2011, 2012) có thể xác thực trực tuyến trên hệ thống ThaiJO (Chulalongkorn University) và Tạp chí Ngôn ngữ (jol.vn) nhưng đang để url=null, đồng thời các nguồn khác chưa điền trạng thái url_check.",
+        "fix": "Bổ sung thông tin url_check xác nhận các nguồn đã được kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

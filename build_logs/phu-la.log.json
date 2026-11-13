@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "phu-la",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Phù Lá",
+    "ethnic_group_vi": "Phù Lá",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:33:15.204512",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 8672,
+      "totalTokenCount": 23978,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8672
+        }
+      ],
+      "thoughtsTokenCount": 5923,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10859,
+      "candidatesTokenCount": 10148,
+      "totalTokenCount": 21007,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10859
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10148
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.register_or_phonation",
+        "severity": "medium",
+        "problem": "Ghi nhận rằng khảo sát tại thôn Cồ Dề Chải (Bắc Hà, Lào Cai) của Viện Ngôn ngữ học (Phan Lương Hùng 2026) đã 'ghi nhận 4 thanh điệu và có hiện tượng biến thanh (tone sandhi)'. Thực tế theo thông tin hội thảo của Viện Ngôn ngữ học (23/04/2026), báo cáo của TS. Phan Lương Hùng xác lập 4 thanh điệu, còn hiện tượng biến thanh (tone sandhi) là ý kiến góp ý của ThS. Bùi Đăng Bình đề xuất nhóm đề tài nghiên cứu bổ sung thêm.",
+        "fix": "Sửa lại diễn đạt chính xác theo biên bản hội thảo: báo cáo xác lập 4 thanh điệu (và được góp ý nghiên cứu bổ sung hiện tượng biến thanh - tone sandhi)."
+      },
+      {
+        "path": "lexicon[2] / music.ornaments[0] / music.instruments[0]",
+        "severity": "medium",
+        "problem": "Trong lexicon[2] gộp chung 'cúc kẹ / khùi xì mờ' làm tên gọi của 'sáo mũi một lỗ'. Thực tế trong văn hóa Xá Phó (Phù Lá) ở Châu Quế Thượng (Văn Yên, Yên Bái), 'cúc kẹ' là tên nhạc cụ (sáo mũi), còn 'khùi xì mờ' (Mời trăng) là tên làn điệu/bài dân ca nổi tiếng thường tấu trên sáo cúc kẹ. Ngoài ra, sáo cúc kẹ ở Văn Yên có 1 lỗ duy nhất ở đầu ống nứa (kề vào mũi để thổi, không phải lỗ bấm ngón tay), trong khi biến thể ở Lào Cai có 3 lỗ (1 lỗ thổi bằng mũi và 2 lỗ bấm nhịp ở dưới).",
+        "fix": "Tách riêng 'cúc kẹ' (tên sáo mũi) và 'khùi xì mờ' (tên làn điệu 'Mời trăng') trong lexicon; hiệu chỉnh mô tả cấu tạo sáo cúc kẹ ở music.ornaments[0] và music.instruments[0] cho chuẩn xác theo tư liệu dân tộc học."
+      },
+      {
+        "path": "lexicon[3] / music.instruments[1]",
+        "severity": "medium",
+        "problem": "Mô tả nhạc cụ 'ma nhí' là 'đàn môi bằng tre' (bamboo jaw harp / mouth organ) do dịch nhầm cụm từ tiếng Anh 'bamboo mouth organ' trên Wikipedia. Trong tiếng Anh nhạc học, 'mouth organ' là khèn (free-reed mouth organ, như khèn bầu / sênh tiền), không phải đàn môi (jaw harp). Các nguồn dân tộc học tiếng Việt tại Lào Cai và Yên Bái đều gọi rõ là 'khèn ma nhí' / 'kèn ma nhí' / 'khèn bầu (ma nhí)' thuộc bộ hơi.",
+        "fix": "Sửa 'đàn môi bằng tre' thành 'khèn bầu / khèn ma nhí bằng tre nứa (bamboo mouth organ)' ở cả lexicon, music.instruments và ml_hints.sample_words."
+      },
+      {
+        "path": "scripts[0].note / sources[11]",
+        "severity": "low",
+        "problem": "Bài báo 'Vị thế, vai trò của tiếng Phù Lá trong đời sống hiện nay' trên Tạp chí Ngôn ngữ số 11 (2025) có đồng tác giả là Phan Hoàng Anh và Phạm Thị Thảo (thiếu tên đồng tác giả Phạm Thị Thảo). Đồng thời tuyên bố '100% người Phù Lá được khảo sát xác nhận...' không nằm trong tóm tắt công bố chính thức nên cần diễn đạt thận trọng hơn.",
+        "fix": "Bổ sung đồng tác giả Phạm Thị Thảo vào sources[11] và điều chỉnh câu chữ trong scripts[0].note."
+      }
+    ]
+  },
+  "schema_errors": []
+}

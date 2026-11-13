@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "san-diu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Sán Dìu",
+    "ethnic_group_vi": "Sán Dìu",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:00:47.344484",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9389,
+      "candidatesTokenCount": 10725,
+      "totalTokenCount": 31915,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9389
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10725
+        }
+      ],
+      "thoughtsTokenCount": 11801,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11772,
+      "candidatesTokenCount": 12465,
+      "totalTokenCount": 26284,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11772
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12465
+        }
+      ],
+      "thoughtsTokenCount": 2047,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "lexicon[2..10].confidence",
+        "severity": "medium",
+        "problem": "Các từ chỉ số đếm từ 3 đến 100 ('sam', 'sị', 'ngú', 'lộc', 'sết', 'bát', 'kíu', 'sịp', 'ết bác') và 'soọng cô' được lấy từ bản phiên âm Quốc ngữ thực hành cộng đồng (Wikipedia tiếng Việt), chưa có phiên âm IPA và số thanh điệu đối chiếu trực tiếp từ luận án của Nguyễn Thị Kim Thoa (2013), nhưng đang để confidence='high'.",
+        "fix": "Hạ confidence của các mục từ chỉ có dạng viết Quốc ngữ cộng đồng (chưa có IPA chuẩn từ luận án) xuống 'medium'; đồng thời bổ sung các từ có IPA và nghĩa xác thực trực tiếp trong luận án Nguyễn Thị Kim Thoa (2013) như /i2/ ('dạ'), /haŋ1/ ('hang'), /sɔŋ1/ ('ruột'), /sɔːŋ1/ ('dài'), /vɔŋ1/ ('vàng'), /vɔːŋ1/ ('võng') với confidence='high'."
+      },
+      {
+        "path": "phonology.onsets[5]",
+        "severity": "low",
+        "problem": "Âm /p/ được đưa vào danh sách phụ âm đầu theo đề xuất chữ viết ở trang 24 luận án Nguyễn Thị Kim Thoa (2013), nhưng trong danh sách 20 phụ âm đầu tại điểm khảo sát chính Vĩnh Phúc (trang 20) không liệt kê /p/.",
+        "fix": "Giữ confidence='medium' và ghi chú rõ sự khác biệt giữa danh sách 20 phụ âm đầu tại Vĩnh Phúc (trang 20) và danh sách con chữ phụ âm đầu mở rộng trong đề xuất chữ viết chung (trang 24) của cùng tác giả."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "low",
+        "problem": "Nguyên âm đôi phương ngữ Quảng Ninh /uo/ được tách thành mục riêng trong phonology.vowels, nhưng nguyên âm dài /ɔː/ (đối lập trường độ với /ɔ/ tại Quảng Ninh: /sɔŋ1/ 'ruột' – /sɔːŋ1/ 'dài', /vɔŋ1/ 'vàng' – /vɔːŋ1/ 'võng', trang 19 luận án) mới chỉ được nhắc trong phần ghi chú của /ɔ/.",
+        "fix": "Bổ sung mục /ɔː/ (confidence='medium', ghi chú chỉ xuất hiện ở phương ngữ Quảng Ninh) để nhất quán với cách xử lý /uo/."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check ở tất cả các nguồn đang để null; nguồn luận án Tiến sĩ của Nguyễn Thị Kim Thoa (2013) tại Thư viện Quốc gia Việt Nam chưa điền URL tra cứu toàn văn.",
+        "fix": "Bổ sung URL cơ sở dữ liệu luận án Thư viện Quốc gia Việt Nam và cập nhật trạng thái url_check cho các nguồn đã kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

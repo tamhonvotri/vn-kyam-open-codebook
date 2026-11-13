@@ -1,0 +1,784 @@
+{
+  "id": "ha-nhi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hà Nhì",
+  "name_en": "Hani",
+  "autonym": "Hà Nhì tò / Hà Nhì già / Haqniqdoq",
+  "ethnic_group_vi": "Hà Nhì",
+  "language": {
+    "iso639_3": "hni",
+    "glottocode": "hani1248",
+    "family": "Sino-Tibetan",
+    "branch": "Tibeto-Burman, Lolo-Burmese, Southern Loloish (Hanoid)"
+  },
+  "regions": [
+    "Lai Châu (Mường Tè, Phong Thổ, Sìn Hồ)",
+    "Lào Cai (Bát Xát — Y Tý, A Lù, Trịnh Tường, Nậm Pung)",
+    "Điện Biên (Mường Nhé — Sín Thầu, Chung Chải, Sen Thượng, Leng Su Sìn)"
+  ],
+  "speakers_estimate": "Khoảng 25.539 người dân tộc Hà Nhì tại Việt Nam (Tổng điều tra dân số và nhà ở 2019); tổng số người nói tiếng Hà Nhì trên thế giới khoảng 760.000–770.000 người (chủ yếu tại tỉnh Vân Nam, Trung Quốc, cùng một bộ phận ở Lào và Myanmar).",
+  "scripts": [
+    {
+      "name": "Bộ chữ dân tộc Hà Nhì tỉnh Lai Châu (chữ Latinh dựa trên hệ thống chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Do Viện Ngôn ngữ học (TS. Phan Lương Hùng chủ nhiệm) phối hợp xây dựng và được UBND tỉnh Lai Châu phê chuẩn theo Quyết định số 78/QĐ-UBND ngày 24/01/2022. Gồm 27 chữ cái (25 chữ ghi âm bản ngữ, 2 chữ v và w ghi từ vay mượn) và 3 dấu thanh (huyền, sắc, nặng; thanh không dấu cho thanh ngang/trung)."
+    },
+    {
+      "name": "Chữ Hà Nhì Latinh tại Trung Quốc (Haqniqdoq)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Ban hành năm 1957–1958 tại châu tự trị Hồng Hà (Vân Nam, Trung Quốc), lấy thổ ngữ Đại Trại (huyện Lục Xuân) làm chuẩn; dùng chữ cái cuối âm tiết (-l, -q, -f) để ghi thanh điệu và -v để ghi nguyên âm căng."
+    },
+    {
+      "name": "Truyền thống truyền khẩu",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": null,
+      "note": "Người Hà Nhì ở Việt Nam không còn lưu giữ văn tự cổ truyền (truyền thuyết dân gian cho rằng chữ viết cổ bị thất lạc trên đường thiên di); sử thi, gia phả nối tên cha-con và dân ca được bảo tồn bằng truyền khẩu trước khi có bộ chữ Latinh."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngôn ngữ học (Tạ Văn Thông & Lê Đông 2001; Edmondson 2002; Chung Kiều 2024; Li & Wang 1986) và Quyết định số 78/QĐ-UBND ngày 24/01/2022 của UBND tỉnh Lai Châu về Bộ chữ dân tộc Hà Nhì. Do tiếng Hà Nhì ở Việt Nam có sự phân hóa giữa các nhóm Cồ Chồ, La Mí (Lai Châu, Điện Biên) và Hà Nhì Đen (Lào Cai, Phong Thổ), cần chuyên gia ngữ âm học và người bản ngữ từng vùng thẩm định chi tiết đường nét thanh điệu và đối ứng chữ–âm.",
+  "phonology": {
+    "syllable_structure": "(C)(j)V(q)+T — Âm tiết mở (CV+T hoặc V+T); từ thuần Hà Nhì không có phụ âm cuối mũi hay tắc miệng, chữ -q cuối âm tiết trong bộ chữ Lai Châu biểu thị nguyên âm căng/tắc thanh hầu.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (Bộ chữ Lai Châu 2022; ví dụ: pa 'rách')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (khác 'ph' [f] của tiếng Việt; ví dụ: phiá 'nhẹ', phí khò 'áo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (ví dụ: bạ li 'đi lấy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bh",
+        "ipa": "b̤",
+        "note": "Tắc hai môi hữu thanh thở/hơi (đặc thù thổ ngữ Sì Lở Lầu, Huổi Luông - Phong Thổ; ví dụ: bha lha 'mặt trăng')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ: mà xì 'không biết', mẹ 'đói, khát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi - lợi vô thanh không bật hơi (ví dụ: y ta 'sắc', te 'đánh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi - lợi vô thanh bật hơi (ví dụ: thò 'giã', hò thò 'bánh giầy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi - lợi hữu thanh (ví dụ: đa 'lên', đo 'vào', điẹ 'sống')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đh",
+        "ipa": "d̤",
+        "note": "Tắc đầu lưỡi - lợi hữu thanh thở/hơi (ví dụ: à đha 'bố', đhò thó 'nói chuyện')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi - lợi (ví dụ: nạ 'sâu', ní 'đỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi - lợi hữu thanh (ví dụ: lạ phí 'ớt', ló thò 'sông, suối')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "lh",
+        "ipa": "l̥ ~ lʰ",
+        "note": "Bên vô thanh / bật hơi (ví dụ: lhá ma 'lưỡi', lhò 'thuyền')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "ts",
+        "note": "Tắc xát đầu lưỡi vô thanh không bật hơi (ví dụ: ú chụ 'nước', hò chạ 'nấu cơm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chs",
+        "ipa": "tsʰ",
+        "note": "Tắc xát đầu lưỡi vô thanh bật hơi (ví dụ: chsé 'thóc, lúa', y chsứ 'nóng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dz",
+        "ipa": "dz",
+        "note": "Tắc xát đầu lưỡi hữu thanh (ví dụ: hò dzà 'ăn cơm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh (đọc như 'x' tiếng Việt chuẩn; ví dụ: xạ gó 'thở', xú kà 'giàu có')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "z",
+        "note": "Xát đầu lưỡi hữu thanh (đọc như 'd' tiếng Việt chuẩn; ví dụ: dà 'con cái', dá 'khỏe')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "tɕ",
+        "note": "Tắc xát mặt lưỡi - ngạc vô thanh không bật hơi (ví dụ: mí trạ 'đất', tro đo 'đâm vào')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "trs",
+        "ipa": "tɕʰ",
+        "note": "Tắc xát mặt lưỡi - ngạc vô thanh bật hơi (ví dụ: trsó 'con người', à trsu 'chị dâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dj",
+        "ipa": "dʑ ~ dʒ",
+        "note": "Tắc xát mặt lưỡi - ngạc hữu thanh (ví dụ: y djà 'đẹp', djó 'ngồi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi - ngạc (ví dụ: nhí 'nhỏ', y nhó 'ngắn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ɕ",
+        "note": "Xát mặt lưỡi - ngạc vô thanh (ví dụ: sí 'chết', y sự 'mới', no sò 'ngày mai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "ʑ ~ ʒ",
+        "note": "Xát mặt lưỡi / sau lợi hữu thanh (ví dụ: ù zé 'trời mưa', za bhó 'gom thành đống')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng khi đứng làm âm đầu (ví dụ: ja 'được', jụ 'ngủ'); ở vị trí âm đệm viết bằng 'i'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (đọc giống 'c/k' tiếng Việt theo bảng gốc Viện Ngôn ngữ học; ví dụ: ca tư 'cái nỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "q ~ kʰ",
+        "note": "Trong bảng gốc Viện Ngôn ngữ học ghi âm tắc lưỡi con /q/ (ví dụ: ká ma 'con đường', hà kừ 'cây giang'); một số tài liệu hướng dẫn phổ thông ghi /kʰ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "qh",
+        "ipa": "kʰ ~ qʰ",
+        "note": "Tắc ngạc mềm hoặc lưỡi con vô thanh bật hơi (ví dụ: qhá bie 'bùn', qhò ló 'cổ', à qhừ 'con chó')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɣ ~ ɡ",
+        "note": "Xát hoặc tắc ngạc mềm hữu thanh (bảng Viện Ngôn ngữ học ghi /ɣ/, Chung Kiều 2024 tách /ɡ/ và /ɣ/; ví dụ: go 'bay', gò 'cong')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ví dụ: ngá 'tôi', miò ngè 'công việc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "χ ~ x",
+        "note": "Xát lưỡi con / ngạc mềm vô thanh (ví dụ: khụ 'năm', khà tre 'con nai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h ~ x",
+        "note": "Xát hầu / ngạc mềm vô thanh (ví dụ: hiá đhe 'ruộng', hò nhò 'cơm nếp', y hừ 'to, lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi) / y-",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu mở đầu âm tiết nguyên âm; riêng /ʔi/ được viết bằng 'y' đứng độc lập (ví dụ: y naq 'màu đen')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / y",
+        "ipa": "i",
+        "note": "Nguyên âm trước cao không tròn môi; viết 'y' khi đứng sau phụ âm đầu /ʔ/ (hoặc đứng độc lập), viết 'i' trong các trường hợp còn lại",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ e ~ ɤ",
+        "note": "Bảng chữ cái Lai Châu quy định /ɛ/ (đọc giống 'e' tiếng Việt; ví dụ: é dzà 'cãi nhau', ge 'làm'); trong các khảo sát ngữ âm học (Chung Kiều 2024) còn ghi nhận biến thể /e/ và /ɤ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở trung tâm/sau (ví dụ: a mí 'con mèo', à ta 'ở trên')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau tròn môi độ mở trung bình (ví dụ: ọ trsá 'ánh nắng', djó 'ngồi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau cao tròn môi (ví dụ: ù đhù 'cái đầu', nhù 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ ~ ɨ",
+        "note": "Nguyên âm cao không tròn môi (sau hoặc giữa, bao gồm biến thể xuýt [ɿ] sau phụ âm xuýt; ví dụ: ự 'cõng', hừ 'to, lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uy",
+        "ipa": "y ~ ø",
+        "note": "Nguyên âm trước tròn môi: bảng Viện Ngôn ngữ học ghi /y/ (ví dụ: bhùy qhó 'tơ, chỉ', y úy 'cũ'), trong khi Chung Kiều (2024) ghi /ø/ cho thổ ngữ Thu Lũm; không đánh vần u-y như tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia, ie, io, iu, iư",
+        "ipa": "ja, jɛ, jɔ, ju, jɯ",
+        "note": "Tổ hợp âm đệm /j/ (viết bằng 'i') + nguyên âm chính (ví dụ: phiá 'nhẹ', phiè sa 'thả ra', mio 'chín')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "Vq (iq, eq, aq, oq, uq, ưq...)",
+        "ipa": "V̰ ~ V̠",
+        "note": "Nguyên âm căng / thanh hầu hóa (laryngealized/tense vowel), viết thêm hậu tố '-q' sau nguyên âm (ví dụ: miaq nưq 'con mắt', y naq 'màu đen')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "q",
+        "ipa": "◌̰ ~ ʔ",
+        "note": "Không phải phụ âm tắc cuối độc lập mà là ký hiệu ghi phẩm chất nguyên âm căng / tắc thanh hầu cuối âm tiết (ví dụ: miaq nưq 'con mắt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng (từ vay mượn)",
+        "ipa": "ŋ",
+        "note": "Chỉ xuất hiện hạn chế trong từ vay mượn tiếng Hán hoặc tiếng Việt (ví dụ: khoàng ti 'hoàng đế')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "mid_level",
+        "name": "Thanh trung bằng (thanh 1)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "lỏng (modal) hoặc căng khi đi kèm -q",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "high_level",
+        "name": "Thanh cao / cao lên (thanh 2)",
+        "mark": "ˊ",
+        "chao_contour": "55",
+        "phonation": "lỏng (modal); đi lên thẳng đều với cao độ lớn hơn dấu sắc tiếng Việt",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "low_falling",
+        "name": "Thanh thấp xuống (thanh 3)",
+        "mark": "ˋ",
+        "chao_contour": "31",
+        "phonation": "lỏng (modal) hoặc căng khi đi kèm -q",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "low_checked_or_fourth",
+        "name": "Thanh thứ tư (ghi bằng dấu nặng trong Bộ chữ Lai Châu)",
+        "mark": "̣",
+        "chao_contour": "21",
+        "phonation": "thường gắn với âm vực thấp / căng thanh hầu (Lưu ý: số lượng thanh điệu dao động 3–4 thanh tùy thổ ngữ; Thu Lũm ghi nhận 3 thanh 33, 55, 31 không có thanh 24 như Đại Trại, còn Mù Cả / Bộ chữ Lai Châu ghi 4 thanh)",
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Hệ thống kết hợp thanh điệu với đối lập âm vực căng – lỏng (tense/laryngealized vs. lax/modal vowels) điển hình của nhánh Lô Lô Nam. Nguyên âm căng có hiện tượng co thắt thanh hầu (IPA: [V̰] hoặc [V̠]), được ghi bằng hậu tố '-q' trong Bộ chữ Lai Châu 2022 và '-v' trong bộ chữ Haqniqdoq Trung Quốc."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "mẹ",
+      "form": "à ma",
+      "ipa": "a˧˩ ma˧˧",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố / cha",
+      "form": "à đha",
+      "ipa": "a˧˩ d̤a˧˧",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ú chụ",
+      "ipa": "u˥˥ tsu˨˩",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn cơm",
+      "form": "hò dzà",
+      "ipa": "hɔ˧˩ dza˧˩",
+      "gloss_en": "to eat rice / meal",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con người",
+      "form": "trsó",
+      "ipa": "tɕʰɔ˥˥",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đất",
+      "form": "mí trạ",
+      "ipa": "mi˥˥ tɕa˨˩",
+      "gloss_en": "earth / land",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con mắt",
+      "form": "miaq nưq",
+      "ipa": "mja̰˧˧ nɯ̰˧˧",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "màu đen",
+      "form": "y naq",
+      "ipa": "ʔi˧˧ na̰˧˧",
+      "gloss_en": "black",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "màu đỏ",
+      "form": "ní",
+      "ipa": "ni˥˥",
+      "gloss_en": "red",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhỏ, bé",
+      "form": "nhí",
+      "ipa": "ɲi˥˥",
+      "gloss_en": "small",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thóc, lúa",
+      "form": "chsé",
+      "ipa": "tsʰɛ˥˥",
+      "gloss_en": "paddy / unhusked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái thuyền",
+      "form": "lhò",
+      "ipa": "l̥ɔ˧˩",
+      "gloss_en": "boat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "bha lha",
+      "ipa": "b̤a˧˧ l̥a˧˧",
+      "gloss_en": "moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời mưa",
+      "form": "ù zé",
+      "ipa": "u˧˩ ʑɛ˥˥",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sông, suối",
+      "form": "ló thò",
+      "ipa": "lɔ˥˥ tʰɔ˧˩",
+      "gloss_en": "river / stream",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "áo",
+      "form": "phí khò",
+      "ipa": "pʰi˥˥ χɔ˧˩",
+      "gloss_en": "shirt / coat",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát đối, hát giao duyên",
+        "note": "Nam nữ thanh niên Hà Nhì hát đối đáp tâm tình trong đêm trăng, ngày hội hoặc trên nương, thường có đệm sáo dọc, sáo ngang, đàn nhị hoặc đàn tròn."
+      },
+      {
+        "name": "Dân ca nghi lễ và lễ hội (Khô già già / Khu già già, Gạ ma thú, Ga tho tho, Ba sa ma)",
+        "note": "Các bài ca cầu mùa (Khô già già), hát đón trăng (Ba sa ma), hát chúc Tết (Ga tho tho), hát đám cưới và hát đồng dao (A đù lu)."
+      },
+      {
+        "name": "Trường ca / sử thi dân gian (Phuỳ ca Na ca / Xa nhà ca)",
+        "note": "Sử thi - trường ca truyền khẩu kể về cội nguồn vạn vật, hành trình thiên di và phong tục tập quán của người Hà Nhì."
+      },
+      {
+        "name": "Dân vũ cộng đồng (múa xòe vòng, múa nón, múa dệt vải, múa trống chiêng, múa mặt trăng)",
+        "note": "Động tác nhún chân, vung tay uyển chuyển mang tính tập thể cao theo nhịp trống và chiêng."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Hát bám sát cao độ thanh điệu âm tiết mở",
+        "description": "Do tiếng Hà Nhì hầu hết là âm tiết mở (không có phụ âm cuối đóng), các nốt ngân cuối câu mở khẩu hình tròn đều, ít luyến trượt đóng vần như tiếng Việt.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung không bán âm vùng Tạng-Miến / Lô Lô",
+        "note": "Giai điệu mộc mạc, quãng nhảy vừa phải gắn với tầm cữ giọng tự nhiên và thanh điệu (cao 55, trung 33, thấp 31); cần nhạc sĩ dân tộc học ghi âm thực địa để xác định cấu trúc quãng chính xác cho từng nhóm Cồ Chồ, La Mí và Hà Nhì Đen.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn tròn Hó tơ / Hó tờ (ở Lào Cai, Lai Châu) hoặc Si gu / La khư / Lạc hư (đàn 3–4 dây bầu tròn hoặc làm bằng vỏ quả bầu, do nam giới gảy đệm hát múa)"
+      },
+      {
+        "name": "Sáo dọc Pí si (sáo trúc/nứa 7 lỗ bấm mặt trên, 1 lỗ thoát hơi phía sau) và sáo Lạ pi lạ pạ"
+      },
+      {
+        "name": "Sáo ngang Sé pi (dùng thổi trên nương và đệm hát giao duyên)"
+      },
+      {
+        "name": "Đàn nhị Si vu / Lạ khư (bầu nhị làm bằng ống tre già, mặt bịt mo tre)"
+      },
+      {
+        "name": "Đàn môi Lạ tỳ và kèn lá (dùng trong sinh hoạt giao duyên thanh niên)"
+      },
+      {
+        "name": "Tù và Có tu (làm bằng sừng trâu, dùng báo hiệu sinh hoạt cộng đồng)"
+      },
+      {
+        "name": "Trống (Khù từ) và chiêng (Piu ly) (giữ nhịp cho múa xòe vòng và lễ hội)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Hà Nhì Cồ Chồ (Co Chò)",
+        "iso639_3": "hni",
+        "regions": [
+          "Mường Tè, Sìn Hồ (Lai Châu)"
+        ],
+        "note": "Một trong hai nhóm được gọi chung là Hà Nhì Hoa; gần gũi về ngôn ngữ và văn hóa với nhóm La Mí."
+      },
+      {
+        "name": "Hà Nhì La Mí (Lạ Mí)",
+        "iso639_3": "hni",
+        "regions": [
+          "Mường Tè (Lai Châu: Thu Lũm, Ka Lăng, Mù Cả)",
+          "Mường Nhé (Điện Biên: Sín Thầu, Chung Chải)"
+        ],
+        "note": "Gần với tiểu phương ngữ Hà Nhì (thuộc phương ngữ Hà-Nhã) ở Lục Xuân, Kim Bình (Vân Nam, Trung Quốc)."
+      },
+      {
+        "name": "Hà Nhì Đen (Nhì Na)",
+        "iso639_3": "hni",
+        "regions": [
+          "Bát Xát (Lào Cai: Y Tý, A Lù, Trịnh Tường)",
+          "Phong Thổ (Lai Châu: Sì Lở Lầu, Huổi Luông, Dào San)"
+        ],
+        "note": "Có một số khác biệt từ vựng và phụ âm (như lưu giữ phụ âm thở bh, bên vô thanh lh) so với nhóm Cồ Chồ / La Mí, nhưng theo Edmondson (2002) các nhóm ở Việt Nam vẫn có thể giao tiếp hiểu nhau."
+      },
+      {
+        "name": "Các ngôn ngữ họ hàng gần ngoài Việt Nam hoặc dân tộc khác cùng nhóm Hanoid",
+        "iso639_3": "ahk",
+        "regions": [
+          "Vân Nam (Trung Quốc), Lào, Thái Lan, Myanmar; ở Việt Nam người Hà Nhì đôi khi được so sánh lịch sử với nhóm Akha (ahk), Bích Ước/Biyo (byo), Ca Đa/Kaduo (kdu)"
+        ],
+        "note": "Tại Việt Nam chỉ công nhận dân tộc Hà Nhì nói tiếng Hà Nhì (hni)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ph (ví dụ: phí khò)",
+        "quoc_ngu": "p-h (đọc p bật hơi mạnh, không đọc như 'phờ' [f])",
+        "note": "Tiếng Việt không có âm tắc hai môi bật hơi [pʰ]; nếu đưa thẳng 'phí' vào TTS tiếng Việt, mô hình sẽ đọc thành [fi˧˥] sai hoàn toàn."
+      },
+      {
+        "native": "ch / chs (ví dụ: ú chụ, chsé)",
+        "quoc_ngu": "x / x-h (hoặc ts / ts-h)",
+        "note": "Âm tắc xát đầu lưỡi [ts] và [tsʰ] không có trong tiếng Việt chuẩn; TTS tiếng Việt chỉ có thể xấp xỉ gần bằng 'ch' (nhẹ đầu lưỡi) hoặc 'x'."
+      },
+      {
+        "native": "trs (ví dụ: trsó)",
+        "quoc_ngu": "ch-h (ch bật hơi)",
+        "note": "Âm tắc xát mặt lưỡi bật hơi [tɕʰ] không có trong tiếng Việt; xấp xỉ gần nhất trong Quốc ngữ là 'ch' kèm luồng hơi mạnh."
+      },
+      {
+        "native": "dz / dj (ví dụ: hò dzà, y djà)",
+        "quoc_ngu": "d / gi",
+        "note": "Tiếng Việt chuẩn Hà Nội đọc 'd/gi' là xát [z] chứ không tắc xát [dz]/[dʑ] như tiếng Hà Nhì."
+      },
+      {
+        "native": "lh (ví dụ: lhò)",
+        "quoc_ngu": "kh-l / h-l -> l",
+        "note": "Âm bên vô thanh [l̥ ~ lʰ] hoàn toàn không có trong tiếng Việt; TTS tiếng Việt buộc phải xấp xỉ bằng 'l' hoặc chèn hơi nhẹ trước 'l'."
+      },
+      {
+        "native": "bh / đh (ví dụ: bha lha, à đha)",
+        "quoc_ngu": "b / đ (giọng hơi thở)",
+        "note": "Âm tắc hữu thanh thở [b̤], [d̤] không có trong tiếng Việt; xấp xỉ bằng 'b' và 'đ' với thanh trầm."
+      },
+      {
+        "native": "qh / k (ví dụ: à qhừ, ká ma)",
+        "quoc_ngu": "c / kh",
+        "note": "Âm tắc lưỡi con /q/ (viết bằng 'k') và âm bật hơi /kʰ ~ qʰ/ (viết bằng 'qh') không có trong tiếng Việt; TTS tiếng Việt chỉ xấp xỉ được bằng 'c/q' và 'kh'."
+      },
+      {
+        "native": "uy (ví dụ: y úy, bhùy qhó)",
+        "quoc_ngu": "uê / uy (tròn môi [y ~ ø])",
+        "note": "Nguyên âm đơn trước tròn môi [y ~ ø] không có trong tiếng Việt; tránh viết 'uy' trực tiếp vào TTS tiếng Việt vì sẽ bị đọc thành vần đôi [wi]."
+      },
+      {
+        "native": "-q cuối âm tiết (ví dụ: miaq nưq, y naq)",
+        "quoc_ngu": "dấu nặng (mia nự, i nạ)",
+        "note": "Hậu tố '-q' biểu thị nguyên âm căng/tắc thanh hầu [V̰]. Trong tiếng Việt, thanh nặng (giọng Bắc [˨˩ˀ]) có hiện tượng thanh hầu hóa cuối vần nên dùng dấu nặng là cách xấp xỉ tốt nhất cho TTS tiếng Việt."
+      },
+      {
+        "native": "y đứng độc lập (ví dụ: y naq, y djà)",
+        "quoc_ngu": "i",
+        "note": "Chữ 'y' đứng một mình trong bộ chữ Hà Nhì đọc là [ʔi]; viết thành 'i' để tránh một số tokenizer tách hoặc đọc theo tên chữ cái."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "à ma",
+        "ipa": "a˧˩ ma˧˧",
+        "meaning_vi": "mẹ"
+      },
+      {
+        "native": "à đha",
+        "ipa": "a˧˩ d̤a˧˧",
+        "meaning_vi": "bố, cha"
+      },
+      {
+        "native": "ú chụ",
+        "ipa": "u˥˥ tsu˨˩",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "hò dzà",
+        "ipa": "hɔ˧˩ dza˧˩",
+        "meaning_vi": "ăn cơm"
+      },
+      {
+        "native": "trsó",
+        "ipa": "tɕʰɔ˥˥",
+        "meaning_vi": "con người"
+      },
+      {
+        "native": "mí trạ",
+        "ipa": "mi˥˥ tɕa˨˩",
+        "meaning_vi": "đất"
+      },
+      {
+        "native": "miaq nưq",
+        "ipa": "mja̰˧˧ nɯ̰˧˧",
+        "meaning_vi": "con mắt"
+      },
+      {
+        "native": "y naq",
+        "ipa": "ʔi˧˧ na̰˧˧",
+        "meaning_vi": "màu đen"
+      },
+      {
+        "native": "ní",
+        "ipa": "ni˥˥",
+        "meaning_vi": "màu đỏ"
+      },
+      {
+        "native": "nhí",
+        "ipa": "ɲi˥˥",
+        "meaning_vi": "nhỏ, bé"
+      },
+      {
+        "native": "chsé",
+        "ipa": "tsʰɛ˥˥",
+        "meaning_vi": "thóc, lúa"
+      },
+      {
+        "native": "lhò",
+        "ipa": "l̥ɔ˧˩",
+        "meaning_vi": "cái thuyền"
+      },
+      {
+        "native": "ló thò",
+        "ipa": "lɔ˥˥ tʰɔ˧˩",
+        "meaning_vi": "sông, suối"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "UBND tỉnh Lai Châu (2022). Quyết định số 78/QĐ-UBND ngày 24/01/2022 về việc phê chuẩn Bộ chữ dân tộc Hà Nhì tỉnh Lai Châu (dựa trên đề tài của Viện Ngôn ngữ học do TS. Phan Lương Hùng chủ nhiệm).",
+      "url": "https://skhcn.laichau.gov.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Chung Kiều (2024). Nghiên cứu hệ thống ngữ âm tiếng Hà Nhì ở Việt Nam (có liên hệ với tiếng Hà Nhì ở Trung Quốc). Luận án Tiến sĩ Ngôn ngữ học, Trường Đại học Khoa học Xã hội và Nhân văn – ĐHQGHN.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Chung Kiều (2026). Nghiên cứu hệ thống ngữ âm tiếng Hà Nhì ở xã Thu Lũm, huyện Mường Tè, tỉnh Lai Châu. Tạp chí Ngôn ngữ và Đời sống, Số 3 (379), tr. 131–136.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Văn Thông, Lê Đông (2001). Tiếng Hà Nhì. Hà Nội: NXB Văn hóa Dân tộc.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. (2002). The Central and Southern Loloish Languages of Vietnam. Proceedings of the Twenty-Eighth Annual Meeting of the Berkeley Linguistics Society: Special Session on Tibeto-Burman and Southeast Asian Linguistics, pp. 1–13.",
+      "url": "https://doi.org/10.3765/bls.v28i2.1042",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Li, Yongsui (李永燧) & Wang, Ersong (王尔松) (1986). Hāníyǔ jiǎnzhì (哈尼语简志) [Khái lược tiếng Hà Nhì]. Bắc Kinh: Minzu Chubanshe.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phạm Anh Tú (2024). Cơ sở lí thuyết cho việc biên soạn Từ điển đối dịch Hà Nhì - Việt, Việt - Hà Nhì ở Việt Nam. Tạp chí Ngôn ngữ, Số 7 (2024), tr. 17–26.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Hani (hani1248)",
+      "url": "https://glottolog.org/resource/languoid/id/hani1248",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hani language & Tiếng Hà Nhì",
+      "url": "https://en.wikipedia.org/wiki/Hani_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "lexicon[8] & ml_hints.sample_words[8]",
+          "severity": "high",
+          "problem": "Mục từ 'nhí' (/ɲi˥˥/) được dịch là 'màu đỏ' (red). Tuy nhiên, theo bảng chữ cái Hà Nhì của Viện Ngôn ngữ học (Quyết định 78/QĐ-UBND Lai Châu), 'nhí' (/ɲi˥˥/) có nghĩa là 'nhỏ, bé' (small), còn 'đỏ, màu đỏ' là 'ní' (/ni˥˥/, tương ứng Haqniqdoq 'nil').",
+          "fix": "Sửa mục từ 'màu đỏ' thành form 'ní' (/ni˥˥/) và bổ sung/làm rõ 'nhí' (/ɲi˥˥/) là 'nhỏ, bé'."
+        },
+        {
+          "path": "phonology.onsets[24..25]",
+          "severity": "medium",
+          "problem": "Gộp chung 'k / qh' vào một mục và ghi 'c' là /k ~ c/ chưa phản ánh sát bảng quy tắc chữ–âm của Viện Ngôn ngữ học cho tỉnh Lai Châu: trong bảng gốc, 'c' ghi /k/ (như c/k tiếng Việt), 'k' ghi âm tắc lưỡi con không bật hơi /q/ (ví dụ: ká ma 'con đường', hà kừ 'cây giang'), còn 'qh' ghi âm bật hơi /kʰ ~ qʰ/ (ví dụ: qhá bie 'bùn', qhò ló 'cổ') — dù một bài hướng dẫn thứ cấp trên cổng phổ biến chữ Hà Nhì có sự dao động ký hiệu giữa k và qh.",
+          "fix": "Tách riêng 'c' (/k/), 'k' (/q ~ kʰ/) và 'qh' (/kʰ ~ qʰ/) thành 3 mục độc lập và ghi chú rõ sự khác biệt giữa bảng gốc của Viện Ngôn ngữ học và tài liệu hướng dẫn phổ thông."
+        },
+        {
+          "path": "phonology.vowels[1] & phonology.vowels[6]",
+          "severity": "medium",
+          "problem": "Nguyên âm 'e' mới chỉ ghi /e ~ ɤ/, thiếu giá trị /ɛ/ được quy định trực tiếp trong bảng chữ cái Hà Nhì Lai Châu ('6. e /ɛ/: đọc giống e trong tiếng Việt, ví dụ: é dzà, ge'). Nguyên âm 'uy' chỉ ghi /ø/ (theo thổ ngữ Thu Lũm trong Chung Kiều 2024), thiếu giá trị /y/ (nguyên âm trước cao tròn môi) được quy định trong bảng chữ cái của Viện Ngôn ngữ học ('40. uy /y/: bhùy qhó, y úy').",
+          "fix": "Cập nhật IPA của 'e' thành 'ɛ ~ e ~ ɤ' và IPA của 'uy' thành 'y ~ ø' kèm giải thích theo từng nguồn."
+        },
+        {
+          "path": "music.instruments",
+          "severity": "low",
+          "problem": "Danh sách nhạc cụ mới liệt kê tên gọi ở Lào Cai/Lai Châu (Hó tơ, Pí si, Sé pi, Si vu, Có tu), thiếu các tên gọi bản ngữ tương ứng ở Điện Biên / Mường Tè (như đàn 3 dây Si gu / La khư / Lạc hư, trống Khù từ, chiêng Piu ly, đàn môi Lạ tỳ).",
+          "fix": "Bổ sung các tên gọi địa phương có kiểm chứng từ nguồn văn hóa dân tộc Hà Nhì tại Điện Biên và Lai Châu."
+        }
+      ]
+    },
+    "open_issues": [
+      "Trong tài liệu phổ biến chữ Hà Nhì tỉnh Lai Châu có sự không đồng nhất nhỏ giữa bảng 40 mục của Viện Ngôn ngữ học (c=/k/, k=/q/, qh=/kʰ/) và bài hướng dẫn phân biệt chữ (c=/c/, k=/kʰ/, qh=/qʰ/); cần đối chiếu bản đóng dấu Phụ lục Quyết định số 78/QĐ-UBND ngày 24/01/2022.",
+      "Sự khác biệt thanh điệu giữa thổ ngữ Thu Lũm (3 thanh: 33, 55, 31 theo Chung Kiều 2024), thổ ngữ Mù Cả (4 thanh theo Tạ Văn Thông 2001) và nhóm Hà Nhì Đen ở Bát Xát (Lào Cai) cần được chuẩn hóa riêng nếu huấn luyện mô hình TTS đa phương ngữ.",
+      "Cần bổ sung ký âm nhạc học (ABC notation) từ băng thu thực địa cho các làn điệu hát giao duyên và nhạc đàn tròn Hó tơ."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

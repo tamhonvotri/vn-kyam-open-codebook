@@ -1,0 +1,89 @@
+{
+  "target": {
+    "id": "ba-na",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ba Na",
+    "ethnic_group_vi": "Ba Na",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:52:21.406514",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 9546,
+      "totalTokenCount": 18927,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9546
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12053,
+      "candidatesTokenCount": 11309,
+      "totalTokenCount": 23362,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12053
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11309
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "music.genres[1].name",
+        "severity": "medium",
+        "problem": "Gộp 'Alơu' vào làn điệu dân ca Ba Na ('Hơri (H'ri) / Alơu'). Thực tế, 'Alơu' (cùng với Siri, Rutu) là làn điệu dân ca đặc trưng của người Raglai (ngữ hệ Nam Đảo), trong khi dân ca giao duyên/đối đáp của người Ba Na được gọi là 'Hơri' (hát đối đáp) và 'Avơng' (hát giao duyên).",
+        "fix": "Đổi tên thể loại thành 'Hơri (H'ri) và Avơng' và chỉnh lại ghi chú cho đúng với văn hóa dân gian Ba Na."
+      },
+      {
+        "path": "music.genres[2].name",
+        "severity": "medium",
+        "problem": "Dùng 'Pơlung kon' làm tên thể loại hát ru. Trong tiếng Ba Na, 'pơlung' thường mang nghĩa khuyên nhủ, an ủi, khích lệ ('pơlung kon pơlei' = vận động/khích lệ dân làng, 'bơtho pơlung kon' = dạy dỗ khuyên nhủ con), còn thể loại hát ru trong các tài liệu văn học dân gian Ba Na thường được ghi là 'Plung' (hoặc 'Hơri plung').",
+        "fix": "Sửa thành 'Plung (Hát ru)' và ghi chú rõ hơn."
+      },
+      {
+        "path": "phonology.onsets[9].grapheme",
+        "severity": "low",
+        "problem": "Thiếu biến thể chữ 'ƀ' (U+0180). Bên cạnh cách viết của SIL (Banker 1979) dùng dấu nháy ('b / ʼb), sách giáo khoa, chương trình tiếng Ba Na ở Gia Lai và báo chí tiếng Ba Na hiện hành (như VOV4 tiếng Ba Na) sử dụng rất phổ biến ký tự 'ƀ' (ƀă, ƀôh, ƀơ̆r...).",
+        "fix": "Bổ sung 'ƀ' vào grapheme ('b / ʼb / ƀ) và thêm ghi chú về chuẩn chính tả hiện hành tại Việt Nam."
+      },
+      {
+        "path": "music.ornaments[0]",
+        "severity": "low",
+        "problem": "'Bước nhảy quãng 4 bình ổn' thực chất là đặc trưng tiến hành giai điệu (melodic interval/motion) chứ không phải là kỹ thuật tô điểm/hoa mỹ (ornament như luyến, láy, rung, mổ). Tuy nhiên do trích từ nhận định phổ biến về dân ca Ba Na của Huỳnh Ngọc La Sơn nên có thể giữ nhưng cần hạ confidence xuống 'low' và ghi chú rõ.",
+        "fix": "Hạ confidence xuống 'low' và làm rõ trong description."
+      },
+      {
+        "path": "sources[6].title",
+        "severity": "low",
+        "problem": "Bài báo 'Sự biến đổi về âm học của phụ âm tiếng Ba Na qua giá trị VOT' trên Tạp chí Ngôn ngữ số 12/2023 có danh sách đầy đủ 6 tác giả (Nguyễn Trần Quý, Quản Thành Thơ, Đinh Lư Giang, Phan Trần Công, Vũ Hoàng Hải, Nguyễn Quang Đức), trang 14–26.",
+        "fix": "Cập nhật đầy đủ tên các tác giả và số trang trong mục sources."
+      }
+    ]
+  },
+  "schema_errors": []
+}

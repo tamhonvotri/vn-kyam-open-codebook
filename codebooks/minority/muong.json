@@ -1,0 +1,887 @@
+{
+  "id": "muong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mường",
+  "name_en": "Mường language",
+  "autonym": "thiểng Mường / thiểng Mọl",
+  "ethnic_group_vi": "Mường",
+  "language": {
+    "iso639_3": "mtq",
+    "glottocode": "muon1246",
+    "family": "Austroasiatic",
+    "branch": "Vietic (Viet–Muong)"
+  },
+  "regions": [
+    "Phú Thọ (bao gồm địa bàn tỉnh Hòa Bình cũ với 4 vùng Mường lớn: Mường Bi, Mường Vang, Mường Thàng, Mường Động; cùng Thanh Sơn, Tân Sơn, Yên Lập)",
+    "Thanh Hóa (Bá Thước, Ngọc Lặc, Cẩm Thủy, Lang Chánh, Thạch Thành, Như Xuân)",
+    "Sơn La (Phù Yên, Bắc Yên, Mộc Châu)",
+    "Ninh Bình (Nho Quan)",
+    "Hà Nội (Ba Vì, Thạch Thất, Quốc Oai)",
+    "Lào Cai, Đắk Lắk và một số tỉnh Tây Nguyên (cộng đồng di cư)"
+  ],
+  "speakers_estimate": "Khoảng 1.452.095 người dân tộc Mường (Tổng điều tra dân số và nhà ở Việt Nam năm 2019)",
+  "scripts": [
+    {
+      "name": "Bộ chữ dân tộc Mường tỉnh Hòa Bình (cũ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Phê chuẩn theo Quyết định số 2295/QĐ-UBND ngày 08/9/2016 của UBND tỉnh Hòa Bình (gồm 28 chữ cái và 4 dấu thanh ghi 5 thanh điệu dựa trên chữ Quốc ngữ cải biên, có thêm F, W, Z, lược bỏ một số chữ cái không dùng trong phương ngữ Hòa Bình; ghi được các tổ hợp phụ âm đầu bl, tl, pl, ml, kl và phụ âm cuối -l, -k/-c, -ch, -nh)."
+    },
+    {
+      "name": "Bộ chữ dân tộc Mường tỉnh Thanh Hóa",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Phê chuẩn theo Quyết định số 2677/QĐ-UBND ngày 24/8/2026 của UBND tỉnh Thanh Hóa (gồm 29 chữ cái, ghi nhận 23 phụ âm đầu, 10 phụ âm cuối, 2 âm đệm, 14 nguyên âm, 142 vần và 7 dấu thanh, trong đó có dấu sắc kép [”] đặc trưng cho phát âm tiếng Mường Thanh Hóa)."
+    },
+    {
+      "name": "Chữ Quốc ngữ cải biên (truyền thống học thuật thế kỷ XX)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Dùng trong Từ điển Mường - Việt (Nguyễn Văn Khang et al., 2002), văn bản sưu tầm Mo Mường, dân ca Thường rang - Bộ mẹng trước khi có quyết định chuẩn hóa cấp tỉnh."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học (Nguyễn Văn Tài, Nguyễn Văn Khang et al., Pangloss Collection CNRS, Wikipedia, Glottolog) và văn bản chữ viết Mường tại Hòa Bình (Quyết định 2295/QĐ-UBND năm 2016), Thanh Hóa (Quyết định 2677/QĐ-UBND năm 2026). Tiếng Mường là một cụm phương ngữ đa dạng (paraphyletic dialect cluster); hệ thống âm đầu - vần lấy phương ngữ Mường Bi (Hòa Bình cũ, nay thuộc Phú Thọ) làm trục tham chiếu chính, còn hệ thống 6 thanh điệu đối chiếu giữa Kim Thượng (Phú Thọ), Mường Bi (Hòa Bình cũ, 5 thanh) và Thanh Hóa. Chưa được người bản xứ và nhà ngôn ngữ học thẩm định trực tiếp.",
+  "phonology": {
+    "syllable_structure": "(C1)(l)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi, đối lập âm vị học với b [ɓ] (ví dụ: pát 'bát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Âm tắc hai môi hữu thanh/tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f / ph",
+        "ipa": "f ~ pʰ",
+        "note": "Bộ chữ Hòa Bình dùng f/ph; một số thổ ngữ Phú Thọ, Thanh Hóa giữ âm tắc bật hơi [pʰ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm đầu âm tiết (ví dụ: wa 'hoa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ β",
+        "note": "Tần suất thấp hơn hoặc giao thoa với w/b tùy thổ ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi vô thanh (tương ứng lịch sử với cả đ- trong tiếng Việt, ví dụ: ti 'đi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Âm tắc đầu lưỡi hữu thanh/tiền thanh hầu hóa (ví dụ: đác 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Không có hiện tượng lẫn lộn l/n như một số thổ ngữ đồng bằng Bắc Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ z ~ ʐ",
+        "note": "Biến thiên mạnh giữa các vùng Mường",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s ~ ʂ",
+        "note": "Nhiều thổ ngữ không đối lập s và x, quy về [s]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "z / d / gi",
+        "ipa": "z ~ j ~ ɟ",
+        "note": "Bộ chữ Hòa Bình (2016) dùng z/gi (không có chữ d đơn trong bảng 28 chữ cái); một số thổ ngữ phát âm gần [ɟ] hoặc [z]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Âm tắc mặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k / q",
+        "ipa": "k",
+        "note": "Từ điển Mường - Việt dùng c/k/q tương tự chữ Quốc ngữ; Bộ chữ Hòa Bình 2016 dùng c/k (không có chữ q trong bảng 28 chữ cái)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Nhiều thổ ngữ Mường giữ âm tắc bật hơi [kʰ] rõ (ví dụ: không [kʰoŋ] 'sông')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɣ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu / kw / cw",
+        "ipa": "kʷ",
+        "note": "Âm tắc ngạc mềm môi hóa (tổ hợp phụ âm đầu + âm đệm /-w-/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "khw",
+        "ipa": "kʷʰ",
+        "note": "Ghi nhận ở một số phương ngữ Mường bảo lưu đối lập bật hơi môi hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tl",
+        "ipa": "tl",
+        "note": "Tổ hợp phụ âm đầu đặc trưng ở Mường Bi (tương ứng tr- tiếng Việt, ví dụ: tlời 'trời', tlốc 'đầu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bl",
+        "ipa": "ɓl ~ bl",
+        "note": "Tổ hợp phụ âm đầu cổ còn bảo lưu trong tiếng Mường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "Bảo lưu ở một số thổ ngữ; nhiều nơi đã nhập vào tl hoặc bl",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kl",
+        "ipa": "kl",
+        "note": "Bảo lưu ở một số thổ ngữ; nhiều nơi chuyển thành tl hoặc kh/s",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ml",
+        "ipa": "ml",
+        "note": "Bảo lưu hạn chế ở một số thổ ngữ (tương ứng nh-/l-/m- tiếng Việt)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / y",
+        "ipa": "i",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ɤː",
+        "note": "Nguyên âm giữa không tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ɤ",
+        "note": "Nguyên âm giữa không tròn môi ngắn (chỉ đứng trước phụ âm cuối)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (chỉ đứng trước phụ âm cuối/bán nguyên âm cuối)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɯə",
+        "note": "Nguyên âm đôi hướng tâm giữa/sau không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau tròn môi",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi khép chặt không bật ra [p̚]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi khép chặt [t̚]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Âm tắc mặt lưỡi cuối [c̚]; phân bố rộng hơn tiếng Việt: đứng được sau cả nguyên âm tròn môi o, ô, u (ví dụ: môch 'một', roch 'ruột')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm cuối [k̚]; một số tài liệu dùng -k sau ê, ô, ơ để tránh nhầm chính tả (ví dụ: tlốk / tlốc 'đầu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm cạnh đầu lưỡi cuối âm tiết đặc trưng của tiếng Mường, không có trong tiếng Việt (ví dụ: hal 'hai', mọl 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "thanh_1",
+        "name": "thanh ngang (không dấu)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal (ghi nhận 33 trong Quyết định 2295/QĐ-UBND tỉnh Hòa Bình)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "thanh_2",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21 ~ 42",
+        "phonation": "modal (ở Hòa Bình thường là 21/31; ở Kim Thượng Phú Thọ là 42)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "thanh_3",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "324 ~ 214",
+        "phonation": "modal / hơi luyến gãy (324 ở Kim Thượng hoặc 214/313 tùy thổ ngữ; nhiều từ thuần Việt thanh sắc ứng với thanh hỏi trong Mường Bi như cả 'cá')",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "thanh_4",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "modal / căng (ở Kim Thượng Phú Thọ ghi nhận khoảng 34 ~ 35)",
+        "merges_with": "thanh_6 (tại nhiều thổ ngữ Hòa Bình cũ)",
+        "confidence": "medium"
+      },
+      {
+        "id": "thanh_5",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "342",
+        "phonation": "thanh hầu hóa cuối thanh (342ʔ ở Kim Thượng; ở một số vùng Hòa Bình nhập hoặc biến đổi gần thanh hỏi/nặng)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "thanh_6",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "21",
+        "phonation": "ngắn, thanh hầu hóa/khép tắc (chỉ xuất hiện độc lập ở Phú Thọ và Thanh Hóa; Bộ chữ Hòa Bình 2016 chỉ dùng 4 dấu thanh do không tách riêng thanh nặng)",
+        "merges_with": "thanh_4 (tại vùng Hòa Bình cũ thường đọc nhập vào thanh sắc; phân biệt rõ ở Thanh Hóa và một phần Phú Thọ)",
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu (5 thanh tại vùng Hòa Bình cũ; 6 thanh tại Thanh Hóa và một phần Phú Thọ; Bộ chữ Mường Thanh Hóa 2026 dùng tới 7 dấu thanh bao gồm dấu sắc kép [”]). Lưu ý: đối ứng từ nguyên thanh điệu Việt–Mường không đồng nhất 1-1 với chính tả tiếng Việt (ví dụ tiếng Việt 'trời' thanh huyền -> Mường Bi 'tlời'/'tlơi', tiếng Việt 'cá' thanh sắc -> Mường Bi 'cả' thanh hỏi)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người / người Mường",
+      "form": "mọl",
+      "ipa": "mɔl",
+      "gloss_en": "person / Muong person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng (ngôn ngữ)",
+      "form": "thiểng",
+      "ipa": "tʰiəŋ",
+      "gloss_en": "language / voice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "đác",
+      "ipa": "ɗaːk",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "tlời",
+      "ipa": "tlɤːj",
+      "gloss_en": "sky / heaven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "tlốc",
+      "ipa": "tlok",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "tlu",
+      "ipa": "tlu",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "không",
+      "ipa": "kʰoŋ",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "cả",
+      "ipa": "kaː",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "môch",
+      "ipa": "moc",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "hal",
+      "ipa": "haːl",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruột",
+      "form": "roch",
+      "ipa": "rɔc",
+      "gloss_en": "intestine / gut",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bát",
+      "form": "pát",
+      "ipa": "paːt",
+      "gloss_en": "bowl",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "ti",
+      "ipa": "ti",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bữa",
+      "form": "pữa",
+      "ipa": "pɯə",
+      "gloss_en": "meal",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trong",
+      "form": "tlong",
+      "ipa": "tlɔŋ",
+      "gloss_en": "inside",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sau",
+      "form": "khau",
+      "ipa": "kʰaw",
+      "gloss_en": "after / behind",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "anh",
+      "form": "enh",
+      "ipa": "ɛɲ",
+      "gloss_en": "elder brother / you (male)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi / tao",
+      "form": "hò",
+      "ipa": "hɔ",
+      "gloss_en": "I / me",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Mo Mường (Tiếng Mo)",
+        "note": "Diễn xướng nghi lễ tâm linh truyền thống gắn với sử thi 'Đẻ đất đẻ nước', kết hợp hai khổ xướng văn và đọc văn (như Tiếng Mo Ha a za za, Hâm Mo, Ò hoi ơ). Di sản văn hóa phi vật thể quốc gia; hồ sơ quốc gia Việt Nam đã đệ trình UNESCO xét ghi danh vào Danh sách Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp."
+      },
+      {
+        "name": "Hát Thường rang, Bộ mẹng (Rằng thường / Rằng đang)",
+        "note": "Dân ca trữ tình, tự sự và đối đáp giao duyên tiêu biểu của người Mường vùng Hòa Bình cũ (nay thuộc Phú Thọ), trình diễn theo lối hát - nói - ngâm - ngợi; đã được ghi danh Di sản văn hóa phi vật thể quốc gia."
+      },
+      {
+        "name": "Hát Xắc bùa (Sắc bùa)",
+        "note": "Lối hát chúc tụng đầu xuân, mừng nhà mới, lễ hội gắn liền với phường bùa diễn tấu bộ cồng chiêng Mường."
+      },
+      {
+        "name": "Hát Đúm, hát Ví, hát Ru (úp em)",
+        "note": "Các thể loại dân ca giao duyên sinh hoạt đời thường và hát ru trẻ nhỏ của đồng bào Mường."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngâm xướng và hư từ đưa hơi (ơ, ha, za, ờ)",
+        "description": "Trong Tiếng Mo và Thường rang - Bộ mẹng, người hát dùng các hư từ mở đầu và kết câu kéo dài, luyến mềm bám sát thanh điệu tự nhiên của từ tiếng Mường theo nhịp tự do.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống thang âm quãng hẹp (3–5 âm) bám thanh điệu",
+        "note": "Giai điệu Thường rang, Bộ mẹng và Tiếng Mo thường vận hành bình ổn, trầm mặc trong tầm cữ hẹp, nét nhạc chịu sự chi phối chặt chẽ của tuyến điệu ngôn ngữ Mường.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cồng chiêng Mường (bộ 12 chiêng: chiêng Đầm, chiêng Bồng, chiêng Tlé/Chót)"
+      },
+      {
+        "name": "Sáo ôi (ống ôi / sáo côi — sáo dọc thổi đầu dùng độc tấu và đệm hát dân ca)"
+      },
+      {
+        "name": "Cò ke (nhạc cụ dây kéo vĩ bầu ống tre/nứa gần với đàn nhị)"
+      },
+      {
+        "name": "Ống kháo / ống sáo"
+      },
+      {
+        "name": "Trống đồng, trống da, khèn bè, sênh tiền"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Mường Bi (Tân Lạc, Hòa Bình cũ — nay thuộc Phú Thọ)",
+        "iso639_3": "mtq",
+        "note": "Phương ngữ uy tín truyền thống ('Nhất Bi, nhì Vang, tam Thàng, tứ Động'), làm cơ sở chính cho Từ điển Mường - Việt (2002) và Bộ chữ Hòa Bình (2016)."
+      },
+      {
+        "name": "Mường Vang (Lạc Sơn, Hòa Bình cũ — nay thuộc Phú Thọ)",
+        "iso639_3": "mtq",
+        "note": "Một trong bốn vùng Mường trọng điểm ở Hòa Bình cũ."
+      },
+      {
+        "name": "Mường Thàng (Cao Phong, Hòa Bình cũ — nay thuộc Phú Thọ)",
+        "iso639_3": "mtq",
+        "note": "Một trong bốn vùng Mường trọng điểm ở Hòa Bình cũ."
+      },
+      {
+        "name": "Mường Động (Kim Bôi, Hòa Bình cũ — nay thuộc Phú Thọ)",
+        "iso639_3": "mtq",
+        "note": "Nổi tiếng với truyền thống hòa tấu cò ke, ống kháo và cồng chiêng."
+      },
+      {
+        "name": "Mường Kim Thượng / Tân Sơn - Thanh Sơn (Phú Thọ)",
+        "iso639_3": "mtq",
+        "note": "Bảo lưu hệ thống 6 thanh điệu và một số phụ âm bật hơi khác biệt với Mường Bi; có tư liệu âm học chuẩn trong kho Pangloss (CNRS)."
+      },
+      {
+        "name": "Mường Thanh Hóa (Bá Thước, Ngọc Lặc, Cẩm Thủy, Lang Chánh...)",
+        "iso639_3": "mtq",
+        "note": "Phân biệt rõ thanh nặng, có biến thể thanh điệu đặc thù và bộ chữ viết 29 chữ cái riêng phê chuẩn theo Quyết định 2677/QĐ-UBND ngày 24/8/2026."
+      },
+      {
+        "name": "Mường Phù Yên - Bắc Yên (Sơn La)",
+        "iso639_3": "mtq",
+        "note": "Tiếp xúc ngôn ngữ nhiều với tiếng Thái Tây Bắc."
+      },
+      {
+        "name": "Tiếng Nguồn (Minh Hóa, Tuyên Hóa — Quảng Bình)",
+        "iso639_3": "nuo",
+        "note": "Glottocode: nguo1239; ngôn ngữ chị em cực nam trong tiểu nhóm Việt–Mường (Mường–Nguồn), đôi khi được coi là phương ngữ Mường cực nam hoặc ngôn ngữ độc lập."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "tlời",
+        "quoc_ngu": "tờ-lời (lướt cực nhanh) / trời",
+        "note": "Tổ hợp phụ âm đầu /tl-/ không có trong tiếng Việt hiện đại. Mô hình TTS chỉ biết tiếng Việt không ghép được 'tl'; có thể đọc lướt âm 't' rất ngắn sang 'lời', tránh đọc thành 'trời' nếu muốn giữ đặc trưng khẩu âm Mường."
+      },
+      {
+        "native": "tlốc",
+        "quoc_ngu": "tờ-lốc (lướt nhanh)",
+        "note": "Tổ hợp /tl-/ không có trong tiếng Việt hiện đại."
+      },
+      {
+        "native": "blic",
+        "quoc_ngu": "bờ-lích (lướt nhanh)",
+        "note": "Tổ hợp phụ âm đầu /ɓl-/ không tồn tại trong tiếng Việt hiện đại."
+      },
+      {
+        "native": "hal",
+        "quoc_ngu": "han",
+        "note": "Âm cuối cạnh lưỡi /-l/ không tồn tại trong tiếng Việt (tiếng Việt chỉ có /-n/ hoặc bán nguyên âm /-j/). Viết 'han' chỉ là xấp xỉ vị trí đầu lưỡi, làm mất tính chất âm bên [l]."
+      },
+      {
+        "native": "mọl",
+        "quoc_ngu": "mọn / món / mon",
+        "note": "Âm cuối /-l/ không có trong tiếng Việt; ở vùng Hòa Bình cũ thanh nặng đọc nhập vào thanh sắc ('mốl' ~ 'món' với đuôi [-l])."
+      },
+      {
+        "native": "môch",
+        "quoc_ngu": "mốt / mốch",
+        "note": "Trong tiếng Việt chuẩn, âm cuối mặt lưỡi '-ch' [c] không kết hợp sau nguyên âm tròn môi 'ô' [o]; chuỗi 'môch' sẽ bị vỡ sub-token trên tokenizer tiếng Việt."
+      },
+      {
+        "native": "roch",
+        "quoc_ngu": "rọt / rọch",
+        "note": "Vần /-ɔc/ (nguyên âm tròn môi mở + âm tắc mặt lưỡi cuối) không có trong hệ thống vần Quốc ngữ chuẩn."
+      },
+      {
+        "native": "pát",
+        "quoc_ngu": "pát",
+        "note": "Âm đầu /p-/ xuất hiện phổ biến ở từ thuần Mường; một số giọng TTS tiếng Việt dễ đọc chệch /p-/ thành /b-/ do tiếng Việt ít từ thuần Việt bắt đầu bằng p-."
+      },
+      {
+        "native": "wa",
+        "quoc_ngu": "oa",
+        "note": "Chữ 'w' đầu âm tiết phát âm là bán nguyên âm môi [w], tương đương cách đọc vần 'oa' [wa] không phụ âm đầu của tiếng Việt Bắc Bộ."
+      },
+      {
+        "native": "đác",
+        "quoc_ngu": "đác",
+        "note": "Trùng hoàn toàn với âm tiết hợp lệ trong chữ Quốc ngữ (/ɗaːk/), mô hình tiếng Việt phát âm chính xác."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "đác",
+        "ipa": "ɗaːk˧˥",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "tlời",
+        "ipa": "tlɤːj˨˩ ~ tlɤːj˦˨",
+        "gloss_vi": "trời"
+      },
+      {
+        "native": "tlốc",
+        "ipa": "tlok˧˥",
+        "gloss_vi": "đầu"
+      },
+      {
+        "native": "mọl",
+        "ipa": "mɔl˨˩ ~ mɔl˧˥",
+        "gloss_vi": "người / người Mường"
+      },
+      {
+        "native": "thiểng",
+        "ipa": "tʰiəŋ˧˨˦",
+        "gloss_vi": "tiếng / ngôn ngữ"
+      },
+      {
+        "native": "môch",
+        "ipa": "moc˧˥",
+        "gloss_vi": "một"
+      },
+      {
+        "native": "hal",
+        "ipa": "haːl˧˧",
+        "gloss_vi": "hai"
+      },
+      {
+        "native": "cả",
+        "ipa": "kaː˧˨˦",
+        "gloss_vi": "cá"
+      },
+      {
+        "native": "tlu",
+        "ipa": "tlu˧˧",
+        "gloss_vi": "trâu"
+      },
+      {
+        "native": "không",
+        "ipa": "kʰoŋ˧˧",
+        "gloss_vi": "sông"
+      },
+      {
+        "native": "roch",
+        "ipa": "rɔc˨˩ ~ rɔc˧˥",
+        "gloss_vi": "ruột"
+      },
+      {
+        "native": "pát",
+        "ipa": "paːt˧˥",
+        "gloss_vi": "bát"
+      }
+    ],
+    "tokenizer_and_tts_notes": "Mặc dù dùng chữ cái Latinh gần chữ Quốc ngữ, văn bản tiếng Mường chứa nhiều chuỗi ký tự ngoài phân phối tiếng Việt (tl-, bl-, pl-, w-, -al, -ol, -ôch, -och) khiến BPE/tiktoken tách thành các token rời rạc. Khi huấn luyện TTS hoặc mô hình giọng hát tiếng Mường từ backbone tiếng Việt, nên chuyển văn bản sang chuỗi âm vị IPA (G2P riêng theo phương ngữ Mường cụ thể) thay vì đưa thẳng chính tả chữ Mường vào bộ tách từ Quốc ngữ."
+  },
+  "sources": [
+    {
+      "title": "Nguyễn Văn Tài (1982 / 2005). Ngữ âm tiếng Mường qua các phương ngôn. Luận án Phó Tiến sĩ Ngôn ngữ học (1982) / NXB Từ điển Bách khoa, Hà Nội (2005).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Văn Khang, Bùi Chỉ, Hoàng Văn Hành (2002). Từ điển Mường - Việt. NXB Văn hóa Dân tộc, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban nhân dân tỉnh Hòa Bình (2016). Quyết định số 2295/QĐ-UBND ngày 08/9/2016 phê chuẩn Bộ chữ dân tộc Mường tỉnh Hòa Bình.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban nhân dân tỉnh Thanh Hóa (2026). Quyết định số 2677/QĐ-UBND ngày 24/8/2026 phê chuẩn Bộ chữ dân tộc Mường tỉnh Thanh Hóa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Mường",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%C6%B0%E1%BB%9Dng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia (English) — Mường language",
+      "url": "https://en.wikipedia.org/wiki/M%C6%B0%E1%BB%9Dng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog — Spoken L1 Language: Muong (muon1246)",
+      "url": "https://glottolog.org/resource/languoid/id/muon1246",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL International — ISO 639-3 Code: mtq (Muong)",
+      "url": "https://iso639-3.sil.org/code/mtq",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Pangloss Collection (CNRS) — Tài liệu nghiên cứu thanh điệu tiếng Mường Kim Thượng",
+      "url": "https://doi.org/10.24397/pangloss-0006808",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Mục từ 'đác' (Tiếng Mường)",
+      "url": "https://vi.wiktionary.org/wiki/%C4%91%C3%A1c",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "scripts[1].note & sources[3].title",
+          "severity": "low",
+          "problem": "Thiếu số hiệu văn bản pháp lý của Quyết định phê chuẩn Bộ chữ dân tộc Mường tỉnh Thanh Hóa ban hành ngày 24/8/2026.",
+          "fix": "Bổ sung số hiệu chính xác đã kiểm chứng: Quyết định số 2677/QĐ-UBND ngày 24/8/2026 của UBND tỉnh Thanh Hóa."
+        },
+        {
+          "path": "scripts[0].note",
+          "severity": "low",
+          "problem": "Chưa nêu rõ số lượng dấu thanh trong Bộ chữ dân tộc Mường tỉnh Hòa Bình theo Quyết định 2295/QĐ-UBND (gồm 28 chữ cái và 4 dấu thanh để ghi 5 thanh điệu của phương ngữ Hòa Bình).",
+          "fix": "Bổ sung thông tin 4 dấu thanh (ghi 5 thanh điệu) trong Quyết định 2295/QĐ-UBND để phân biệt rõ với hệ thống 7 dấu thanh của Bộ chữ Mường Thanh Hóa (Quyết định 2677/QĐ-UBND)."
+        },
+        {
+          "path": "phonology.onsets[16]",
+          "severity": "medium",
+          "problem": "Mục 'c / k / q' ghi phân bố chính tả tương tự chữ Quốc ngữ với confidence='high', nhưng trong Bộ chữ Mường Hòa Bình (28 chữ cái) không dùng con chữ 'q' (thay bằng c/k kết hợp âm đệm w) và loại bỏ chữ 'd' đơn (thay bằng z).",
+          "fix": "Hạ confidence của mục 'c / k / q' xuống 'medium' và chỉnh lại ghi chú để phản ánh đúng sự khác biệt giữa quy ước học thuật (Từ điển Mường - Việt) và Bộ chữ Hòa Bình 2016."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "medium",
+          "problem": "Trường status_note nêu lấy Mường Bi (Hòa Bình cũ) làm trục tham chiếu chính, nhưng các giá trị chao_contour của thanh 2 ('42'), thanh 3 ('324'), thanh 5 ('342') lại lấy theo số liệu âm học của thổ ngữ Kim Thượng (Phú Thọ) trong khi ở Hòa Bình cũ chỉ có 5 thanh (thanh nặng nhập vào thanh sắc, thanh huyền thường là 21).",
+          "fix": "Ghi rõ trong status_note và note của từng thanh điệu rằng giá trị chao_contour đang dẫn theo tư liệu đo đạc âm học tại Kim Thượng (Phú Thọ) và Quyết định 2295/QĐ-UBND (Hòa Bình), đồng thời giữ confidence='medium'."
+        },
+        {
+          "path": "ml_hints.sample_words",
+          "severity": "low",
+          "problem": "Các từ mẫu 'mọl' (mɔl˨˩) và 'roch' (rɔc˨˩) đang gán thanh nặng [˨˩] độc lập, trong khi ở phương ngữ Mường Bi (Hòa Bình cũ) thanh nặng nhập vào thanh sắc [˧˥] (thường viết là mốl/mọl đọc như sắc).",
+          "fix": "Làm rõ biến thể thanh điệu giữa vùng bảo lưu 6 thanh (Thanh Hóa, một phần Phú Thọ: [˨˩]) và vùng Hòa Bình cũ ([˧˥]) trong sample_words."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết bảng quy tắc chính tả giữa Bộ chữ Mường Hòa Bình (Quyết định 2295/QĐ-UBND năm 2016, 28 chữ cái, 4 dấu thanh) và Bộ chữ Mường Thanh Hóa (Quyết định 2677/QĐ-UBND năm 2026, 29 chữ cái, 7 dấu thanh có dấu sắc kép) để tách module G2P riêng cho từng vùng.",
+      "Đường nét thanh điệu (Chao contour) thay đổi rất mạnh giữa Mường Bi (Hòa Bình cũ, 5 thanh), Kim Thượng (Phú Thọ, 6 thanh) và Mường Thanh Hóa; cần người bản xứ từng vùng và chuyên gia ngữ âm học xác nhận giá trị chuẩn cho từng thổ ngữ.",
+      "Cần nhạc sĩ dân tộc học bổ sung ký âm ABC chuẩn hóa từ băng thu thực địa cho các làn điệu Thường rang, Bộ mẹng và ba lối xướng Tiếng Mo."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

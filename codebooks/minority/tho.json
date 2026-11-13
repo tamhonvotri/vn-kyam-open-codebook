@@ -1,0 +1,875 @@
+{
+  "id": "tho",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thổ",
+  "name_en": "Tho (Tho–Cuoi language cluster)",
+  "autonym": "tiếng Thổ / tiếng Cuối (Cượi)",
+  "ethnic_group_vi": "Thổ",
+  "language": {
+    "iso639_3": "tou",
+    "glottocode": "thoo1240",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Nghệ An (Quỳ Hợp, Nghĩa Đàn, Tân Kỳ, thị xã Thái Hòa, Con Cuông, Tương Dương)",
+    "Thanh Hóa (Như Xuân)"
+  ],
+  "speakers_estimate": "Dân tộc Thổ tại Việt Nam có 91.430 người (Tổng điều tra dân số 2019), tập trung chủ yếu ở Nghệ An (71.420 người) và Thanh Hóa (11.470 người); số người nói các biến thể thuộc cụm tiếng Thổ – Cuối (ISO tou) ước khoảng 60.000–70.000 người do một số nhóm địa phương nói tiếng Việt hoặc thổ ngữ Mường.",
+  "scripts": [
+    {
+      "name": "Chữ Latinh dựa trên chữ Quốc ngữ (ký âm tự phát, chưa chuẩn hóa)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Dân tộc Thổ chưa có bộ chữ viết riêng chính thức do Nhà nước ban hành. Cộng đồng và các nhà sưu tầm văn hóa dân gian sử dụng chữ Quốc ngữ tiếng Việt có điều chỉnh tự phát (ví dụ ghi tổ hợp phụ âm đầu t'l-, âm cuối -l ở phương ngữ Cuối Tân Hợp) để chép thơ lục bát và dân ca truyền miệng; các công trình ngôn ngữ học ghi âm trực tiếp bằng IPA."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình điền dã ngữ âm học về tiếng Thổ tại Yên Lễ/Yên Cát (Như Xuân, Thanh Hóa — Nguyễn Hữu Hoành 2024) và tiếng Cuối tại Tân Kỳ, Thái Hòa (Nghệ An — Ferlus 1994; Nguyễn Hữu Hoành & Nguyễn Văn Lợi 2019; Nguyễn Hữu Hoành et al. 2022). Lưu ý quan trọng: theo Nguyễn Hữu Hoành (2024), dân tộc Thổ không nói một ngôn ngữ đồng nhất; ngoài nhóm Kẹo (nói tiếng Việt) và Mọn, Họ (nói tiếng Mường), các nhóm còn lại nói 3 ngôn ngữ Vietic riêng biệt là tiếng Thổ, tiếng Cuối và tiếng Poọng. Do ISO 639-3 [tou] và Glottolog [thoo1240] vẫn gộp chung cụm Thổ – Cuối, bảng mã này lấy hệ thống âm vị và 5 thanh điệu của tiếng Thổ (Như Xuân) làm khung cơ sở, đồng thời ghi nhận bổ sung các âm vị bảo lưu đặc thù của tiếng Cuối (Tân Hợp – Thái Hòa) với độ tin cậy 'medium'.",
+  "phonology": {
+    "syllable_structure": "(C1)(C2)(w)V(C3)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi; bảo lưu âm cổ Vietic (ví dụ /pen44/ 'bên', [pɑk24] 'bạc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi ở Thổ Như Xuân và Cuối Tân Hợp; ở Cuối Làng Lỡ/Thái Hòa phát âm xát [f]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Tắc hai môi hữu thanh / tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Ở phương ngữ Cuối Làng Lỡ còn gặp biến thể xát hai môi hữu thanh [β]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "d ~ ɗ",
+        "note": "Tắc chân răng hữu thanh / tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d, gi",
+        "ipa": "z",
+        "note": "Ở Thổ Như Xuân là [z]; ở Cuối Làng Lỡ / Thái Hòa có các âm [ð], [ˀð] và [j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɽ ~ ʐ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ",
+        "note": "Xát quặt lưỡi vô thanh; ở Thổ Như Xuân và Cuối Làng Lỡ còn có biến thể tắc quặt lưỡi [ʈ] (do biến đổi từ /tl/ hoặc trong từ mượn tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Ở Cuối Làng Lỡ có thêm âm tắc mặt lưỡi thanh hầu hóa [ˀɟ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k, q",
+        "ipa": "k",
+        "note": "Kết hợp với âm đệm /-u̯-/ tạo thành /ku̯-/ (tương đương qu-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi ở Thổ Như Xuân và Cuối Tân Hợp (khác tiếng Việt chuẩn là xát [x]); ở Cuối Thái Hòa là [χ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g, gh",
+        "ipa": "ɣ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng, ngh",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết (không ghi bằng con chữ riêng trong lối viết tự phát)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t'l, tl",
+        "ipa": "tl",
+        "note": "Tổ hợp phụ âm đầu cổ bảo lưu trong tiếng Thổ Như Xuân/Nghĩa Đàn, thường biến thể tự do sang [ʈ] (ví dụ /tlieŋ44/ ~ [ʈieŋ44] 'gánh', /tlɑ̆m44/ ~ [ʈɑ̆m44] 'trăm', t'lời 'trời', t'lu 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "Tổ hợp phụ âm đầu chỉ bảo lưu trong phương ngữ Cuối Chăm / Tân Hợp (ví dụ [ple24] 'bánh chè'); không còn trong tiếng Thổ Như Xuân",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "phr",
+        "ipa": "pʰr",
+        "note": "Tổ hợp phụ âm đầu chỉ bảo lưu trong phương ngữ Cuối Chăm / Tân Hợp; không còn trong tiếng Thổ Như Xuân",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "khr",
+        "ipa": "kʰr",
+        "note": "Tổ hợp phụ âm đầu chỉ bảo lưu trong phương ngữ Cuối Chăm / Tân Hợp (ví dụ [kʰrʌm] 'sấm'); không còn trong tiếng Thổ Như Xuân",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i, y",
+        "ipa": "i",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Một số tài liệu tiếng Cuối phiên âm là /ɨ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ɤ",
+        "note": "Một số tài liệu tiếng Cuối phiên âm là /ə/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ɤ̆",
+        "note": "Nguyên âm ngắn (cũng được phiên là /ʌ̆/ trong tài liệu của Ferlus)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "ɑ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ɑ̆",
+        "note": "Nguyên âm ngắn (cũng ký hiệu /ă/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê, ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi dòng trước (Nguyễn Hữu Hoành 2024 ký hiệu /ie/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ, ưa",
+        "ipa": "ɯɤ",
+        "note": "Nguyên âm đôi dòng sau không tròn môi (cũng ghi /ɨə/ hoặc /ɯ͜ɤ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô, ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi dòng sau tròn môi (cũng ghi /uo/ hoặc /u͜o/); riêng Cuối Thái Hòa còn có các nguyên âm đôi /ɛɑ, ɤɑ, ɔɑ, uɔ, iɛ/",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi vô thanh cuối âm tiết (ví dụ [kɔc43] 'gót', [kɔc24] 'gọt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Ở Thổ Như Xuân, /-ɲ/ và /-ŋ/ có hiện tượng trung hòa hóa sau /i, e/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i, y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối /-i̯/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u, o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối /-u̯/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Chỉ bảo lưu ở phương ngữ Cuối Chăm / Tân Hợp (ví dụ [kɤ̆l35] 'cây', [mul31ˀ] 'mũi'); ở Cuối Thái Hòa đã nhập vào /-n/, còn ở Thổ Như Xuân hoàn toàn vắng mặt (ứng với /-j/ như tiếng Việt)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1",
+        "name": "Thanh 1 (Thổ Như Xuân)",
+        "mark": null,
+        "chao_contour": "44",
+        "phonation": "giọng thường (modal voice), trường độ ~300 ms, chỉ xuất hiện ở âm tiết kết thúc vang; đối ứng ở Cuối Tân Hợp là 35, Cuối Thái Hòa là 32",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T2",
+        "name": "Thanh 2 (Thổ Như Xuân)",
+        "mark": null,
+        "chao_contour": "55",
+        "phonation": "giọng thường (modal voice), chỉ xuất hiện ở âm tiết kết thúc vang (tương ứng thanh huyền tiếng Việt); đối ứng ở Cuối Tân Hợp là 53, Cuối Thái Hòa là 33",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T3",
+        "name": "Thanh 3 (Thổ Như Xuân)",
+        "mark": null,
+        "chao_contour": "412",
+        "phonation": "ở âm tiết vang trường độ ~400 ms, có kẹt thanh / thanh quản hóa (creaky voice) giữa âm tiết [412]; ở âm tiết khép (-p, -t, -c, -k) có đường nét đi lên [24]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T4",
+        "name": "Thanh 4 (Thổ Như Xuân)",
+        "mark": null,
+        "chao_contour": "43",
+        "phonation": "ở âm tiết vang trường độ ngắn (~250 ms) và kết thúc bằng tắc thanh môn [43ʔ]; ở âm tiết khép là [43] không kèm tắc thanh môn",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T5",
+        "name": "Thanh 5 (Thổ Như Xuân)",
+        "mark": null,
+        "chao_contour": "43",
+        "phonation": "đi xuống thoai thoải (~320 ms) kèm chất giọng thở (breathy voice), chỉ xuất hiện ở âm tiết vang",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu kết hợp chặt chẽ với chất giọng (phonation). Cả tiếng Thổ (Như Xuân) và tiếng Cuối (Tân Hợp, Thái Hòa) đều có hệ thống 5 thanh điệu âm vị học (nếu tách riêng 2 thanh ở âm tiết khép kết thúc bằng -p/-t/-c/-k theo lối truyền thống như Ferlus 1994 thì tính thành 7–8 thanh). Ở Cuối Tân Hợp, 5 thanh có đường nét lần lượt là 35, 53, 24, 31 (thanh hầu hóa [31ˀ]) và 44 (tắc thanh môn [44ʔ])."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người",
+      "form": "cuối / cượi",
+      "ipa": "kuoj24 ~ kɯɤj31ˀ",
+      "gloss_en": "person / Cuoi people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm",
+      "form": "cơm",
+      "ipa": "kɤm35",
+      "gloss_en": "cooked rice (Cuoi Tan Hop)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "câl",
+      "ipa": "kɤ̆l35",
+      "gloss_en": "tree (Cuoi Tan Hop)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tối",
+      "form": "xul",
+      "ipa": "sul24",
+      "gloss_en": "dark (Cuoi Tan Hop)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ",
+      "form": "khal",
+      "ipa": "kʰal24",
+      "gloss_en": "tiger (Cuoi Tan Hop)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lưỡi",
+      "form": "lal",
+      "ipa": "lal31ˀ",
+      "gloss_en": "tongue (Cuoi Tan Hop)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "mul",
+      "ipa": "mul31ˀ",
+      "gloss_en": "nose (Cuoi Tan Hop)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "cho",
+      "ipa": "cɔ412",
+      "gloss_en": "dog (Tho Nhu Xuan)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đất",
+      "form": "tất",
+      "ipa": "tɤ̆t43",
+      "gloss_en": "earth / soil (Tho Nhu Xuan)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chết",
+      "form": "chết",
+      "ipa": "cet43",
+      "gloss_en": "to die (Tho Nhu Xuan)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "củi",
+      "form": "củi",
+      "ipa": "kui̯43",
+      "gloss_en": "firewood (Tho Nhu Xuan)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "gánh",
+      "form": "t'liêng",
+      "ipa": "tlieŋ44 ~ ʈieŋ44",
+      "gloss_en": "to carry on a shoulder pole (Tho Nhu Xuan)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trăm",
+      "form": "t'lăm",
+      "ipa": "tlɑ̆m44 ~ ʈɑ̆m44",
+      "gloss_en": "hundred (Tho Nhu Xuan)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "t'lời",
+      "ipa": null,
+      "gloss_en": "sky / heaven",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trăng",
+      "form": "t'lăng",
+      "ipa": null,
+      "gloss_en": "moon",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "t'lu",
+      "ipa": null,
+      "gloss_en": "water buffalo",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "t'lôốc",
+      "ipa": null,
+      "gloss_en": "head",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bụng",
+      "form": "t'lôống",
+      "ipa": null,
+      "gloss_en": "belly",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Đu đu điềng điềng",
+        "note": "Làn điệu hát ru tiêu biểu nhất của người Thổ ở Nghệ An (phụ nữ hát đơn lẻ trong gia đình bên nhịp võng gai để ru con, ru cháu ngủ; lời ca giàu hình ảnh lao động và tình cảm gia đình)"
+      },
+      {
+        "name": "Dạ ời (Dạ ời - ngủ mái / Dạ ôi)",
+        "note": "Làn điệu hát đối đáp, giao duyên truyền thống giàu tính luyến láy và ứng tác của thanh niên người Thổ miền Tây Nghệ An"
+      },
+      {
+        "name": "Tập tình tập tang",
+        "note": "Làn điệu hát giao duyên dành cho nam nữ thanh niên người Thổ"
+      },
+      {
+        "name": "Ta ta tún",
+        "note": "Điệu hát nựng trẻ (mẹ nựng con, bà nựng cháu với lời ca dí dỏm trước khi ngủ)"
+      },
+      {
+        "name": "Ên ên ạc ạc, Tang khang lẻ, Xầy eng",
+        "note": "Các làn điệu dân ca, dân vũ cổ truyền được bảo tồn tại các câu lạc bộ văn nghệ dân gian Thổ huyện Quỳ Hợp (Nghệ An)"
+      },
+      {
+        "name": "Khắc luống",
+        "note": "Nghệ thuật gõ chày vào cối/máng gỗ tạo tiết tấu rộn ràng trong lễ hội, đám cưới và nghi lễ vòng đời"
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang 5 âm điệu Đu đu điềng điềng (đô - rê - fa - sol - la)",
+        "notes": [
+          "C",
+          "D",
+          "F",
+          "G",
+          "A"
+        ],
+        "note": "Thang âm ngũ cung được ghi nhận trong nghiên cứu dân ca Thổ cho làn điệu hát ru 'Đu đu điềng điềng'",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cồng chiêng"
+      },
+      {
+        "name": "Luống và chày gõ (khắc luống)"
+      },
+      {
+        "name": "Đàn tính"
+      },
+      {
+        "name": "Đàn nhị"
+      },
+      {
+        "name": "Sáo trúc"
+      },
+      {
+        "name": "Kèn"
+      },
+      {
+        "name": "Trống"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Tiếng Thổ (Như Xuân – Nghĩa Đàn)",
+        "ethnic_subgroup": "Thổ",
+        "regions": [
+          "Như Xuân (Thanh Hóa)",
+          "Nghĩa Đàn, Quỳ Hợp (Nghệ An)"
+        ],
+        "iso639_3": "tou",
+        "glottocode": "thoo1240",
+        "note": "Biến thể gần gũi về ngữ âm với tiếng Mường nhưng giữ nét riêng (5 thanh điệu, tổ hợp phụ âm đầu /tl/ ~ [ʈ])."
+      },
+      {
+        "name": "Tiếng Cuối Chăm (Cuối Tẻ / Tân Hợp)",
+        "ethnic_subgroup": "Cuối",
+        "regions": [
+          "Xã Tân Hợp, huyện Tân Kỳ (Nghệ An)"
+        ],
+        "iso639_3": "tou",
+        "glottocode": "cuoi1243",
+        "note": "Rất bảo thủ về ngữ âm trong nhánh Vietic: bảo lưu âm cuối /-l/ và các tổ hợp phụ âm đầu /pl-, pʰr-, kʰr-/."
+      },
+      {
+        "name": "Tiếng Cuối Đẹp (Cuối Nếp / Làng Lỡ – Thái Hòa)",
+        "ethnic_subgroup": "Cuối",
+        "regions": [
+          "Phường Quang Tiến, Quang Phong, thị xã Thái Hòa (Nghệ An)"
+        ],
+        "iso639_3": "tou",
+        "glottocode": "cuoi1242",
+        "note": "Âm cuối /-l/ đã nhập vào /-n/; có loạt âm xát/thanh hầu hóa [β, ð, ɣ, ˀð, ˀɟ] và nhiều nguyên âm đôi đặc thù."
+      },
+      {
+        "name": "Tiếng Tày Poọng và Đan Lai – Ly Hà (cụm Phong / Hung)",
+        "ethnic_subgroup": "Tày Poọng, Đan Lai, Ly Hà",
+        "regions": [
+          "Con Cuông, Tương Dương (Nghệ An) và tỉnh Bolikhamsai (Lào)"
+        ],
+        "iso639_3": "hnu",
+        "glottocode": "phon1243",
+        "note": "Ngôn ngữ Vietic riêng biệt thuộc tiểu nhóm Phong–Hung (Glottolog cũng xếp dưới mã hung1275 cho cụm Hung–Phong)."
+      },
+      {
+        "name": "Thổ ngữ nhóm Mọn và Họ (Nam Mường)",
+        "ethnic_subgroup": "Mọn, Họ",
+        "regions": [
+          "Miền Tây Nghệ An"
+        ],
+        "iso639_3": "mtq",
+        "glottocode": "muon1246",
+        "note": "Tương đồng từ vựng tới ~98% với tiếng Mường, được các nhà ngôn ngữ học xếp là thổ ngữ Nam Mường."
+      },
+      {
+        "name": "Thổ ngữ nhóm Kẹo",
+        "ethnic_subgroup": "Kẹo",
+        "regions": [
+          "Nghệ An"
+        ],
+        "iso639_3": "vie",
+        "glottocode": "viet1252",
+        "note": "Nói một thổ ngữ tiếng Việt vùng Nghệ Tĩnh mang nhiều yếu tố Việt cổ."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "t'lời / t'lăng / t'lu",
+        "quoc_ngu": "tơ lời / tơ lăng / tơ lu",
+        "note": "Tổ hợp phụ âm đầu /tl-/ không có trong tiếng Việt hiện đại; nếu viết liền 'tl-' mô hình TTS tiếng Việt sẽ đánh vần chữ cái. Tách bằng nguyên âm lướt cực ngắn 'tơ l-' (hoặc thay bằng 'tr-' vì trong tiếng Thổ Như Xuân /tl-/ cũng thường phát âm thành [ʈ])."
+      },
+      {
+        "native": "khrâm / plê (Cuối Tân Hợp)",
+        "quoc_ngu": "khơ râm / pơ lê",
+        "note": "Các tổ hợp phụ âm đầu /kʰr-, pʰr-, pl-/ không tồn tại trong tiếng Việt chuẩn; chèn nguyên âm trung hòa ngắn để mô hình đọc lướt hai phụ âm."
+      },
+      {
+        "native": "kɤ̆l35 / sul24 / mul31ˀ (Cuối Tân Hợp)",
+        "quoc_ngu": "cân / xun / mun",
+        "note": "Âm cuối bên /-l/ hoàn toàn không có trong tiếng Việt. Xấp xỉ bằng âm cuối '-n' (tương tự quá trình biến đổi tự nhiên từ Cuối Tân Hợp sang Cuối Thái Hòa: kɤ̆l → ɣɤ̆n, sul → sun, mul → mun)."
+      },
+      {
+        "native": "pen44 / pɑk24 (Thổ Như Xuân)",
+        "quoc_ngu": "pen / pác",
+        "note": "Phụ âm đầu /p/ vô thanh không bật hơi ít gặp trong từ thuần Việt; cần kiểm tra tokenizer của mô hình vì một số vần ghép với 'p-' hiếm gặp dễ bị tách sub-token hoặc đọc chệch thành /b/."
+      },
+      {
+        "native": "kʰal24 / pʰol44ˀ (Cuối Tân Hợp)",
+        "quoc_ngu": "khan / phôn",
+        "note": "Trong tiếng Thổ và Cuối Tân Hợp, 'kh' [kʰ] và 'ph' [pʰ] là âm tắc bật hơi, trong khi TTS tiếng Việt sẽ phát âm thành âm xát [x] và [f]; đây là giới hạn âm học cần lưu ý khi tổng hợp giọng."
+      },
+      {
+        "native": "ku43ˀ ('cũ') / pen43ˀ ('bện') (Thanh 4 Thổ Như Xuân)",
+        "quoc_ngu": "cụ / bện",
+        "note": "Thanh 4 âm tiết vang đi xuống ngắn và ngắt thanh môn cuối âm tiết [43ʔ] (đối ứng lịch sử với cả thanh ngã như /ku43ˀ/ 'cũ' và thanh nặng như /pen43ˀ/ 'bện' trong tiếng Việt); dấu nặng của giọng Bắc Bộ chuẩn (có thanh hầu hóa/ngắt cuối) là xấp xỉ âm học gần nhất cho mô hình tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "cuối",
+        "ipa": "kuoj24",
+        "gloss_vi": "người (tộc danh người Cuối)",
+        "variety": "Cuối Tân Kỳ"
+      },
+      {
+        "native": "kơm",
+        "ipa": "kɤm35",
+        "gloss_vi": "cơm",
+        "variety": "Cuối Tân Hợp"
+      },
+      {
+        "native": "kâl",
+        "ipa": "kɤ̆l35",
+        "gloss_vi": "cây",
+        "variety": "Cuối Tân Hợp"
+      },
+      {
+        "native": "xul",
+        "ipa": "sul24",
+        "gloss_vi": "tối",
+        "variety": "Cuối Tân Hợp"
+      },
+      {
+        "native": "khal",
+        "ipa": "kʰal24",
+        "gloss_vi": "hổ",
+        "variety": "Cuối Tân Hợp"
+      },
+      {
+        "native": "lal",
+        "ipa": "lal31ˀ",
+        "gloss_vi": "lưỡi",
+        "variety": "Cuối Tân Hợp"
+      },
+      {
+        "native": "mul",
+        "ipa": "mul31ˀ",
+        "gloss_vi": "mũi",
+        "variety": "Cuối Tân Hợp"
+      },
+      {
+        "native": "ta",
+        "ipa": "tɑ44",
+        "gloss_vi": "da",
+        "variety": "Thổ Như Xuân"
+      },
+      {
+        "native": "cho",
+        "ipa": "cɔ412",
+        "gloss_vi": "chó",
+        "variety": "Thổ Như Xuân"
+      },
+      {
+        "native": "tất",
+        "ipa": "tɤ̆t43",
+        "gloss_vi": "đất",
+        "variety": "Thổ Như Xuân"
+      },
+      {
+        "native": "chết",
+        "ipa": "cet43",
+        "gloss_vi": "chết",
+        "variety": "Thổ Như Xuân"
+      },
+      {
+        "native": "củi",
+        "ipa": "kui̯43",
+        "gloss_vi": "củi",
+        "variety": "Thổ Như Xuân"
+      }
+    ],
+    "tts_and_svs_notes": "Khi huấn luyện hoặc fine-tune mô hình giọng nói/giọng hát cho tiếng Thổ, tuyệt đối không gộp chung dữ liệu âm thanh của nhóm Thổ (Như Xuân/Nghĩa Đàn), nhóm Cuối (Tân Kỳ/Thái Hòa) và nhóm Đan Lai – Tày Poọng (Con Cuông/Tương Dương) vào cùng một speaker/dialect ID vì khác biệt lớn về thanh điệu, tổ hợp phụ âm đầu và âm cuối."
+  },
+  "sources": [
+    {
+      "title": "Nguyễn Hữu Hoành (2024). Hệ thống ngữ âm tiếng Thổ. Tạp chí Ngôn ngữ, Số 6 (2024), tr. 18–26.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Hữu Hoành & Nguyễn Văn Lợi (2019). Tones in the Cuoi Language of Tan Ki District in Nghe An Province, Vietnam. Journal of the Southeast Asian Linguistics Society (JSEALS), 12.1: lvii–lxvi.",
+      "url": "http://hdl.handle.net/10524/52449",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Hữu Hoành, Bùi Thị Ngọc Anh & Hoàng Ngọc Tuệ (2022). A Cuoi Language Description and Glossary. JSEALS Special Publication No. 10. University of Hawaiʻi Press.",
+      "url": "https://hdl.handle.net/10524/52504",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Tho [thoo1240]",
+      "url": "https://glottolog.org/resource/languoid/id/thoo1240",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "CNRS Pangloss Collection — Cuối Chăm corpus (Michel Ferlus)",
+      "url": "https://pangloss.cnrs.fr/corpus/Cu%E1%BB%91i_Ch%C4%83m",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Cuối language",
+      "url": "https://en.wikipedia.org/wiki/Cu%E1%BB%91i_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Thổ (Việt Nam)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Th%E1%BB%95_(Vi%E1%BB%87t_Nam)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "status_note",
+          "severity": "medium",
+          "problem": "Bảng mã gộp chung hệ thống âm vị của tiếng Thổ (Như Xuân – Nghĩa Đàn) và tiếng Cuối (Tân Hợp – Thái Hòa) vào cùng một mục phonology mặc dù Nguyễn Hữu Hoành (2024: 18, 26) khẳng định đây là hai ngôn ngữ Vietic khác nhau khá xa về diện mạo ngữ âm (tiếng Thổ gần tiếng Mường, không còn âm cuối /-l/ và các tổ hợp /pl-, pʰr-, kʰr-/, trong khi hệ thống 5 thanh điệu T1–T5 trong bảng mã lại lấy hoàn toàn theo tiếng Thổ Như Xuân).",
+          "fix": "Làm rõ trong status_note rằng khung âm vị và thanh điệu cơ sở của bảng mã lấy theo tiếng Thổ Như Xuân (Nguyễn Hữu Hoành 2024), còn các yếu tố bảo lưu riêng của tiếng Cuối Tân Hợp (/pl, pʰr, kʰr/, /-l/) được hạ độ tin cậy xuống 'medium' ở cấp bảng mã chung và ghi chú phân tách phương ngữ."
+        },
+        {
+          "path": "phonology.onsets[23]",
+          "severity": "medium",
+          "problem": "Mục 'pl, khr, phr' gộp 3 tổ hợp phụ âm khác nhau vào một chuỗi IPA ('pl, kʰr, pʰr') và các tổ hợp này chỉ có ở tiếng Cuối Tân Hợp (không có trong tiếng Thổ Như Xuân theo Nguyễn Hữu Hoành 2024).",
+          "fix": "Tách thành các mục riêng biệt (/pl/, /pʰr/, /kʰr/) và hạ confidence xuống 'medium' kèm ghi chú chỉ xuất hiện ở phương ngữ Cuối Tân Hợp."
+        },
+        {
+          "path": "phonology.codas[10]",
+          "severity": "low",
+          "problem": "Âm cuối /-l/ chỉ bảo lưu ở tiếng Cuối Chăm (Tân Hợp), hoàn toàn vắng mặt trong tiếng Thổ Như Xuân (vốn là hệ thống cơ sở của bảng thanh điệu T1–T5), nhưng đang để confidence='high'.",
+          "fix": "Hạ confidence xuống 'medium' để phản ánh tính chất cục bộ phương ngữ trong cụm mã ISO [tou]."
+        },
+        {
+          "path": "lexicon",
+          "severity": "high",
+          "problem": "1) Các mục từ số 1 đến 10 chèn thêm tên phương ngữ trong ngoặc đơn như '(Cuối Tân Hợp)', '(Thổ Như Xuân)' ngay trong trường 'form', làm bẩn dữ liệu chuỗi từ vựng máy đọc. 2) Các mục từ Thổ Như Xuân ('cho', 'tất', 'chết', 'củi') trong Nguyễn Hữu Hoành (2024) chỉ được công bố dưới dạng phiên âm IPA (/cɔ412/, [tɤ̆t43], [cet43], /kui̯43/), không có dạng chữ viết Quốc ngữ trong nguồn nhưng LLM tự chuyển tự và gán confidence='high'. 3) Các mục 't'lời', 't'lăng', 't'lu', 't'lôốc', 't'lôống' lấy từ nguồn dân tộc học (không có IPA) nhưng để confidence='high'.",
+          "fix": "Loại bỏ phần chú thích tên phương ngữ khỏi trường 'form'; hạ confidence của các mục tự chuyển tự từ IPA hoặc thiếu IPA xuống 'medium'; bổ sung các từ có IPA xác thực của tổ hợp /tl-/ từ Nguyễn Hữu Hoành (2024) như /tlieŋ44/ ('gánh'), /tlɑ̆m44/ ('trăm')."
+        },
+        {
+          "path": "music.genres",
+          "severity": "medium",
+          "problem": "Mô tả điệu 'Đu đu điềng điềng' thiếu chức năng cốt lõi: theo tư liệu âm nhạc dân gian Nghệ An (VUSTA / Văn hóa Nghệ An), đây là điệu hát ru (bà, mẹ, chị hát ru cháu, ru con ngủ trên võng gai, chỉ phụ nữ hát đơn lẻ trong gia đình, không hát tập thể). Ngoài ra, 'Dạ ời' còn gắn với tục 'hát dạ ời - ngủ mái' và thiếu làn điệu giao duyên thanh niên 'Tập tình tập tang'.",
+          "fix": "Cập nhật mô tả chính xác cho 'Đu đu điềng điềng', 'Dạ ời (Dạ ời - ngủ mái)' và bổ sung 'Tập tình tập tang'."
+        },
+        {
+          "path": "music.scales_or_modes",
+          "severity": "low",
+          "problem": "Trường scales_or_modes để trống mặc dù tư liệu nghiên cứu dân ca Thổ có ghi nhận thang âm ngũ cung (đô - rê - fa - sol - la) của điệu 'Đu đu điềng điềng'.",
+          "fix": "Bổ sung thang 5 âm (đô - rê - fa - sol - la) dùng trong làn điệu 'Đu đu điềng điềng' với confidence='medium'."
+        },
+        {
+          "path": "ml_hints.quoc_ngu_approximation[5]",
+          "severity": "low",
+          "problem": "Ví dụ '/ku43ˀ/' của Thanh 4 tiếng Thổ Như Xuân trong Nguyễn Hữu Hoành (2024: 24) có nghĩa là 'cũ' (/ku43ˀ/ 'cũ', /pen43ˀ/ 'bện'), nhưng trường quoc_ngu lại ghi là 'cụ / bện'.",
+          "fix": "Sửa lại chú giải ngữ nghĩa gốc của /ku43ˀ/ ('cũ') trong note và điều chỉnh từ xấp xỉ Quốc ngữ tương ứng."
+        },
+        {
+          "path": "sources[2].title",
+          "severity": "low",
+          "problem": "Tên công trình trên kho lưu trữ eVols (University of Hawaiʻi) là 'A Cuoi Language Description and Glossary', không có chữ 'Extensive' trong nhan đề chính thức.",
+          "fix": "Sửa lại nhan đề chính xác theo xuất bản phẩm JSEALS Special Publication No. 10."
+        }
+      ]
+    },
+    "open_issues": [
+      "Dân tộc Thổ chưa có chữ viết chuẩn hóa; cần thống nhất quy ước chuyển tự Latinh khi xây dựng kho ngữ liệu lời bài hát dân ca Thổ (Đu đu điềng điềng, Dạ ời).",
+      "Theo Nguyễn Hữu Hoành (2024), tiếng Thổ (Như Xuân – Nghĩa Đàn) và tiếng Cuối (Tân Kỳ – Thái Hòa) là hai ngôn ngữ Vietic riêng biệt dù đang dùng chung mã ISO 639-3 [tou]; cần tách riêng bảng mã cho tiếng Cuối (cuoi1242 / cuoi1243) và nhóm Đan Lai – Ly Hà / Tày Poọng (ISO 639-3: hnu) khi mở rộng ngữ liệu.",
+      "Chưa có tài liệu ký âm nhạc lý chi tiết về quãng luyến láy ABC cho các làn điệu Đu đu điềng điềng, Dạ ời và Tập tình tập tang; cần nghệ nhân tại Quỳ Hợp / Nghĩa Đàn / Như Xuân thẩm định."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

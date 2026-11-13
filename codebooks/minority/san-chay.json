@@ -1,0 +1,769 @@
+{
+  "id": "san-chay",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Sán Chay",
+  "name_en": "San Chay (Cao Lan — primary Tai variety; San Chi — Sinitic variety)",
+  "autonym": "Hờn Bán / Sán Chấy (nhóm Cao Lan); Sán Chay (nhóm Sán Chỉ)",
+  "ethnic_group_vi": "Sán Chay",
+  "language": {
+    "iso639_3": "mlc",
+    "glottocode": "caol1238",
+    "family": "Kra-Dai (Tai-Kadai)",
+    "branch": "Kam-Tai — Tai (giao thoa Tai Bắc và Tai Trung tâm)"
+  },
+  "regions": [
+    "Tuyên Quang",
+    "Thái Nguyên",
+    "Bắc Giang",
+    "Quảng Ninh",
+    "Yên Bái",
+    "Cao Bằng",
+    "Lạng Sơn",
+    "Phú Thọ",
+    "Vĩnh Phúc"
+  ],
+  "speakers_estimate": "Tổng dân số dân tộc Sán Chay là 201.398 người (Tổng điều tra dân số 2019); nhóm Cao Lan nói tiếng Cao Lan (mlc) chiếm khoảng 63–75% (~130.000–150.000 người), phần còn lại là nhóm Sán Chỉ nói phương ngữ Hán phương Nam.",
+  "scripts": [
+    {
+      "name": "Chữ Hán và chữ Nôm Cao Lan / Nôm Sán Chỉ",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ truyền thống dùng chữ Hán và chữ Nôm biến âm (tương tự chữ Nôm Tày và chữ Sawndip của người Choang) để ghi chép sách cúng, gia phả, truyện cổ và lời hát Sình ca (Slơi ca). Theo điều tra 2019, khoảng 7,1% người từ 15 tuổi trở lên biết đọc viết chữ dân tộc, chủ yếu là thầy cúng và nghệ nhân cao tuổi."
+    },
+    {
+      "name": "Chữ Latinh phiên âm dựa trên chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Chưa có bộ chữ Latinh chuẩn hóa cấp quốc gia riêng cho tiếng Cao Lan hay tiếng Sán Chỉ. Các bản sưu tầm văn học dân gian, tài liệu giáo dục địa phương (Tuyên Quang) và lớp truyền dạy cộng đồng (Bắc Giang, Thái Nguyên) dùng chữ Quốc ngữ kết hợp một số quy ước chữ Tày–Nùng (như sl, p, ph, kh) để ghi âm."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngôn ngữ học và dân tộc học. Lưu ý quan trọng: Dân tộc Sán Chay tại Việt Nam gồm hai nhóm địa phương nói hai ngôn ngữ thuộc hai ngữ hệ khác nhau: (1) nhóm Cao Lan (chiếm đa số, khoảng 63–75% dân số) nói tiếng Cao Lan (ISO 639-3: mlc, ngữ hệ Kra-Dai) trong sinh hoạt hàng ngày; (2) nhóm Sán Chỉ / Sán Chí nói một phương ngữ Hán phương Nam (gần tiếng Quảng Đông yue / Bình Thoại csp, ngữ hệ Hán-Tạng). Đặc biệt, trong cúng bái và hát dân ca Sình ca truyền thống, cả người Cao Lan lẫn người Sán Chỉ đều sử dụng văn tự Hán-Nôm đọc theo âm Hán phương Nam ('tiếng Cao Lan cổ' / tiếng Sán Chỉ). Bảng mã này mô tả biến thể chính là tiếng Cao Lan (mlc) và liệt kê tiếng Sán Chỉ cùng các thổ ngữ trong ml_hints.sub_varieties.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (ví dụ: pót [pɔt⁴⁵] 'phổi').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi trong phiên âm ngôn ngữ học Tai (ví dụ: phon [pʰon⁴²] 'mưa', phác [pʰak] 'rau'); trong bản chép dân gian Quốc ngữ đôi khi bị lẫn với [f].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh / tiền thanh hầu hóa (/ʔb-/), tương đồng với các ngôn ngữ Tày–Thái lân cận.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh (ví dụ: mốt [mot³⁴] 'kiến').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f (hoặc ph)",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh, xuất hiện ở một số từ vay mượn hoặc biến thể thổ ngữ.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi; phản ánh đặc trưng /*tr-/ > /tʰ-/ của tiếng Cao Lan (ví dụ: tha [tʰa³³] 'mắt', thay [tʰaj³³] 'chết').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ (hoặc d)",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hữu thanh / tiền thanh hầu hóa (/ʔd-/), bắt nguồn từ /*ʔd-/ và /*dr-/ của Proto-Tai.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng hữu thanh (ví dụ: na [na³¹] 'ruộng', nộc [nok³²] 'chim').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận bên chân răng hữu thanh; phản ánh /*l-/ và /*dl-/ từ Proto-Tai.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "ɬ",
+        "note": "Xát bên chân răng vô thanh theo quy ước chữ Tày–Nùng (ví dụ: slam 'ba', slơi ca 'thơ ca'); có xu hướng biến đổi thành [s] hoặc [tʰ] tùy thổ ngữ và thế hệ người nói.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c ~ tɕ",
+        "note": "Tắc / tắc-xát ngạc cứng vô thanh (ví dụ: chếp [cep³⁵] 'lạnh').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng hữu thanh.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d / gi / z",
+        "ipa": "j ~ z",
+        "note": "Bán nguyên âm hoặc xát ngạc cứng hữu thanh (tùy quy ước người ghi âm Quốc ngữ).",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "c / k / q",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh không bật hơi (ví dụ: cốc [kok³²] 'hổ', cúc [kuk³¹] 'làm').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Tắc mạc bật hơi hoặc xát mạc vô thanh (ví dụ: khay [kʰaj] 'gần').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi mạc hữu thanh.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ví dụ: hêu [hɛw³⁵] 'răng').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu mở đầu các âm tiết vắng chữ cái phụ âm đầu trong chữ viết.",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / y",
+        "ipa": "i",
+        "note": "Nguyên âm trước, đóng, không tròn môi.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước, nửa đóng, không tròn môi (ví dụ: chếp [cep³⁵] 'lạnh').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước, nửa mở, không tròn môi (ví dụ: hêu [hɛw³⁵] 'răng').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm sau/giữa, đóng, không tròn môi, phổ biến trong nhóm ngôn ngữ Tai.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ɤ",
+        "note": "Nguyên âm sau/giữa, nửa đóng, không tròn môi.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə ~ ɐ",
+        "note": "Nguyên âm giữa ngắn trước phụ âm cuối hoặc bán nguyên âm cuối (ví dụ: mây 'cây').",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː ~ a",
+        "note": "Nguyên âm mở dài (ví dụ: na [na³¹] 'ruộng', tha [tʰa³³] 'mắt').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn trong âm tiết đóng.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau, đóng, tròn môi (ví dụ: cúc [kuk³¹] 'làm').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau, nửa đóng, tròn môi (ví dụ: phon [pʰon⁴²] 'mưa', nộc [nok³²] 'chim', mốt [mot³⁴] 'kiến').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau, nửa mở, tròn môi (ví dụ: pót [pɔt⁴⁵] 'phổi').",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm cuối mũi hai môi (ví dụ: slam 'ba').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm cuối mũi chân răng (ví dụ: phon [pʰon⁴²] 'mưa').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm cuối mũi mạc (ví dụ: thang [tʰaːŋ³³] 'đuôi').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Âm cuối tắc hai môi vô thanh không bật ra (ví dụ: chếp [cep³⁵] 'lạnh').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Âm cuối tắc chân răng vô thanh không bật ra (ví dụ: pót [pɔt⁴⁵] 'phổi', mốt [mot³⁴] 'kiến').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k̚",
+        "note": "Âm cuối tắc mạc vô thanh không bật ra (ví dụ: nộc [nok³²] 'chim', cốc [kok³²] 'hổ', cúc [kuk³¹] 'làm').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc (ví dụ: thay [tʰaj³³] 'chết', khay [kʰaj] 'gần').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-mạc (ví dụ: hêu [hɛw³⁵] 'răng').",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "t1_level",
+        "name": "thanh bằng (trung bình)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal (giọng thường); chỉ xuất hiện ở âm tiết mở hoặc kết thúc bằng âm vang (không gặp ở âm tiết khép -p/-t/-k theo Phan Lương Hùng 2011)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t2_falling_modal",
+        "name": "thanh trung giáng (giọng thường)",
+        "mark": "̀",
+        "chao_contour": "42",
+        "phonation": "modal (giọng thường); xuất hiện ở âm tiết sống (ví dụ: pʰon⁴² 'mưa' ở Tuyên Quang; không gặp ở âm tiết khép -p/-t/-k)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t3_low_falling",
+        "name": "thanh trầm giáng",
+        "mark": "̀ / ̣",
+        "chao_contour": "31",
+        "phonation": "modal; gặp ở âm tiết sống (na³¹ 'ruộng') và tương ứng với âm tiết khép thấp [32] ~ [31] (nok³² 'chim', kuk³¹ 'làm')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t4_falling_glottal",
+        "name": "thanh trung giáng tắc thanh hầu cuối",
+        "mark": "̣",
+        "chao_contour": "31",
+        "phonation": "final glottalization (tắc thanh hầu cuối âm tiết, ghi nhận rõ tại thổ ngữ Bắc Giang theo Phan Lương Hùng 2011)",
+        "merges_with": "t3_low_falling (ở một số điểm Tuyên Quang)",
+        "confidence": "medium"
+      },
+      {
+        "id": "t5_falling_breathy",
+        "name": "thanh trung giáng giọng hà hơi",
+        "mark": "̤ / ̀",
+        "chao_contour": "31",
+        "phonation": "breathy voice (giọng hà hơi, ghi nhận tại Bắc Giang theo Phan Lương Hùng 2011; không xuất hiện ở âm tiết khép -p/-t/-k)",
+        "merges_with": "t3_low_falling (ở một số điểm Tuyên Quang)",
+        "confidence": "medium"
+      },
+      {
+        "id": "t6_rising",
+        "name": "thanh trung thăng",
+        "mark": "́ / ̉",
+        "chao_contour": "35",
+        "phonation": "creaky voice (giọng kẹt ở Bắc Giang theo Phan Lương Hùng 2011) hoặc giọng thường ở Tuyên Quang (hɛw³⁵ 'răng'); tương ứng thanh khép cao [45] ~ [35] (pɔt⁴⁵ 'phổi', cep³⁵ 'lạnh') và khép trung [34] (mot³⁴ 'kiến')",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Tiếng Cao Lan là một trong số ít ngôn ngữ nhánh Tai có hiện tượng nhập thanh điệu mạnh nhưng bù đắp bằng đối lập chất giọng (phonation type). Thổ ngữ Yên Sơn (Tuyên Quang) có 5 điệu trị (3 thanh ở âm tiết sống: 42, 31, 35; 2 thanh ở âm tiết khép -p/-t/-k: 45, 34 theo Gregerson & Edmondson 1998). Thổ ngữ Bắc Giang có 6 thanh vị khu biệt bằng cả đường nét cao độ lẫn chất giọng: giọng thường (modal), tắc thanh hầu cuối (final glottalization), giọng hà hơi (breathiness) và giọng kẹt (creaky voice), trong đó thanh 1, 2 và 5 không xuất hiện ở âm tiết khép -p/-t/-k theo Phan Lương Hùng (2011)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "mưa",
+      "form": "phon",
+      "ipa": "pʰon⁴²",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruộng nước",
+      "form": "na",
+      "ipa": "na³¹",
+      "gloss_en": "wet rice field",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "răng",
+      "form": "hêu",
+      "ipa": "hɛw³⁵",
+      "gloss_en": "tooth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "phổi",
+      "form": "pót",
+      "ipa": "pɔt⁴⁵",
+      "gloss_en": "lung",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kiến",
+      "form": "mốt",
+      "ipa": "mot³⁴",
+      "gloss_en": "ant",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "tha",
+      "ipa": "tʰa³³",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chết",
+      "form": "thay",
+      "ipa": "tʰaj³³",
+      "gloss_en": "to die",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đuôi",
+      "form": "thang",
+      "ipa": "tʰaːŋ³³",
+      "gloss_en": "tail",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "nộc",
+      "ipa": "nok³²",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ",
+      "form": "cốc",
+      "ipa": "kok³²",
+      "gloss_en": "tiger",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "cúc",
+      "ipa": "kuk³¹",
+      "gloss_en": "to do / to make",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lạnh",
+      "form": "chếp",
+      "ipa": "cep³⁵",
+      "gloss_en": "cold",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rau",
+      "form": "phác",
+      "ipa": "pʰak",
+      "gloss_en": "vegetable",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "gần",
+      "form": "khay",
+      "ipa": "kʰaj",
+      "gloss_en": "near",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người ở bản (tộc danh tự gọi nhóm Cao Lan)",
+      "form": "Hờn Bán",
+      "ipa": null,
+      "gloss_en": "villager (Cao Lan autonym)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trống đất (hố đất phủ vỏ cây chăng dây trong múa Tắc Xình)",
+      "form": "náy cau",
+      "ipa": null,
+      "gloss_en": "earth-pit string drum",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Sình ca (Xình ca / Slơi ca — Cao Lan; Sấng cọ / Hát ví Lưu Tam — Thái Nguyên; Cnắng cọô / Chục cọô — Sán Chỉ)",
+        "note": "Thể loại hát đối đáp giao duyên, hát đám cưới, hát ru, mừng nhà mới tiêu biểu nhất của người Sán Chay; đã được công nhận là Di sản văn hóa phi vật thể quốc gia tại Bắc Giang (2012), Thái Nguyên (2016) và Tuyên Quang. Lưu ý ngôn ngữ học: lời Sình ca cổ được chép bằng chữ Hán-Nôm và hát theo âm Hán phương Nam (gần tiếng Sán Chỉ), khác với tiếng Cao Lan nói hàng ngày."
+      },
+      {
+        "name": "Âm nhạc nghi lễ Cầu mùa và Múa Tắc Xình",
+        "note": "Di sản văn hóa phi vật thể quốc gia (2014 tại Phú Lương, Thái Nguyên; phổ biến ở Tuyên Quang, Quảng Ninh). Gồm 9 điệu mô phỏng lao động nông nghiệp và nghi lễ tâm linh trên nền tiết tấu mộc mạc 'tắc, xình' của bộ gõ tre nứa và trống đất."
+      },
+      {
+        "name": "Dân vũ nghi lễ (Múa chim gâu, Múa khai đèn, Múa xúc tép, Múa đâm cá)",
+        "note": "Diễn xướng trong lễ Khai nhạc đầu xuân (tháng Giêng) và lễ cúng thần Bảo Gia."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân cuối câu Sình ca thất ngôn",
+        "description": "Lời Sình ca thường cấu trúc theo thể 7 chữ (4 câu một khổ); người hát ngân dài và luyến nhẹ ở âm tiết cuối câu để giữ cao độ cho bạn hát đối đáp bắt nhịp.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung dân ca vùng Đông Bắc",
+        "note": "Giai điệu Sình ca mang tính ngâm vịnh trữ tình, bám sát đường nét thanh điệu của lời ca Hán-Nôm truyền thống; chưa có công trình ký âm chuẩn hóa hệ thống hơi/điệu thức bằng ABC.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Trống đất (náy cau)",
+        "note": "Nhạc cụ đặc trưng không thể thiếu trong múa Tắc Xình: đào một hố sâu xuống đất, phủ miếng vỏ cây (như vỏ cây trẹo) lên miệng hố, chăng sợi dây rừng cố định ngang mặt hố có que chống ở tâm và gõ vào dây để tạo âm vang trầm ấm."
+      },
+      {
+        "name": "Trống tang sành",
+        "note": "Nhạc cụ truyền thống của người Sán Chay (Cao Lan), tang trống bằng đất nung/sành hai mặt bịt da dùng trong nghi lễ và múa trống."
+      },
+      {
+        "name": "Nhạc cụ Tắc Xình / trống nứa (náy trooc)",
+        "note": "Nhạc cụ tự thân vang bằng ống tre già/nứa và thanh gõ tạo hai âm chủ đạo 'tắc' và 'xình' dẫn nhịp cho điệu múa Tắc Xình."
+      },
+      {
+        "name": "Khèn ống nứa / ống vầu"
+      },
+      {
+        "name": "Pí lè (kèn dăm kép)"
+      },
+      {
+        "name": "Thanh la, chiêng, chập cheng / chập xeng (não bạt), chuông nhỏ"
+      },
+      {
+        "name": "Nhị, sáo trúc, ống hát (hát ống)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Cao Lan (biến thể chính trong bảng mã này)",
+        "iso639_3": "mlc",
+        "glottocode": "caol1238",
+        "family": "Kra-Dai (Tai-Kadai)",
+        "regions": [
+          "Tuyên Quang",
+          "Thái Nguyên",
+          "Bắc Giang",
+          "Yên Bái",
+          "Phú Thọ",
+          "Vĩnh Phúc"
+        ],
+        "note": "Ngôn ngữ giao tiếp hàng ngày của nhóm Cao Lan (~63–75% dân số Sán Chay). Có khác biệt thổ ngữ nhỏ về số lượng thanh điệu giữa Tuyên Quang (5 thanh theo Gregerson & Edmondson 1998) và Bắc Giang (6 thanh kèm đối lập chất giọng theo Phan Lương Hùng 2011)."
+      },
+      {
+        "name_vi": "Tiếng Sán Chỉ (Sán Chí) / Âm đọc Hán-Nôm Sình ca",
+        "iso639_3": "yue",
+        "glottocode": "yuec1235",
+        "family": "Sino-Tibetan (Hán-Tạng — Sinitic)",
+        "regions": [
+          "Quảng Ninh",
+          "Bắc Giang",
+          "Thái Nguyên",
+          "Cao Bằng",
+          "Lạng Sơn"
+        ],
+        "note": "Ngôn ngữ nói hàng ngày của nhóm Sán Chỉ, đồng thời tương ứng với lớp ngôn ngữ nghi lễ và hát Sình ca ('tiếng Cao Lan cổ') dùng chung cho cả hai nhóm. Chưa có mã ISO 639-3 riêng tại Việt Nam; các tài liệu ngôn ngữ học xếp gần với phương ngữ Hán Quảng Đông (Yue: yue) hoặc có quan hệ tiếp xúc với Bình Thoại phương Nam tại Quảng Tây (Southern Pinghua: csp)."
+      }
+    ],
+    "diglossia_warning_for_singing_models": "Khi tổng hợp giọng hát Sình ca truyền thống (Slơi ca / Sấng cọ / Cnắng cọô), lời ca nguyên bản thường là âm Hán phương Nam (nhánh Sinitic, gần tiếng Sán Chỉ) chứ không phải khẩu ngữ Cao Lan (mlc, nhánh Tai), trừ các bản Sình ca lời mới đã dịch sang tiếng Cao Lan khẩu ngữ hoặc tiếng Việt.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "phon [pʰon⁴²] ('mưa')",
+        "quoc_ngu": "pờ-hồn / phồn",
+        "note": "Tiếng Việt chuẩn không có âm tắc hai môi bật hơi [pʰ] (chữ 'ph' tiếng Việt đọc là xát môi-răng [f]). Nếu giữ 'phồn', TTS tiếng Việt sẽ phát âm [f]; nếu cần giữ tính tắc môi có thể thử 'pồn'."
+      },
+      {
+        "native": "pót [pɔt⁴⁵] ('phổi')",
+        "quoc_ngu": "pót",
+        "note": "Âm đầu [p] ít xuất hiện trong từ thuần Việt nên một số mô hình TTS tiếng Việt dễ đọc lệch sang [ɓ] ('bót'); cần kiểm tra phát âm thực tế của mô hình."
+      },
+      {
+        "native": "slam [ɬam] ('ba') / slơi ca ('thơ ca')",
+        "quoc_ngu": "xam / xơi ca",
+        "note": "Âm xát bên vô thanh [ɬ] (viết là 'sl' trong chữ Tày-Nùng) hoàn toàn không có trong tiếng Việt và cụm 'sl-' làm vỡ sub-token của tokenizer tiếng Việt; xấp xỉ an toàn nhất cho TTS tiếng Việt là thay 'sl-' bằng 'x-' ([s])."
+      },
+      {
+        "native": "hêu [hɛw³⁵] ('răng')",
+        "quoc_ngu": "héo",
+        "note": "Vần [ɛw] trong chữ Quốc ngữ chuẩn được viết là '-eo' (không phải '-êu' vốn biểu thị [ew]); viết 'héo' giúp TTS tiếng Việt đọc đúng nguyên âm [ɛ] + bán nguyên âm cuối [w] với thanh sắc [35]."
+      },
+      {
+        "native": "tha [tʰa³³] ('mắt') / thay [tʰaj³³] ('chết')",
+        "quoc_ngu": "tha / thay",
+        "note": "Âm [tʰ] trùng khớp hoàn toàn với chữ 'th' tiếng Việt; thanh bằng [33] trùng với thanh ngang tiếng Việt."
+      },
+      {
+        "native": "nộc [nok³²] ('chim') / cúc [kuk³¹] ('làm')",
+        "quoc_ngu": "nộc / cục",
+        "note": "Âm tiết khép kết thúc bằng [-k̚] mang thanh thấp [32]/[31] tương ứng tự nhiên với dấu nặng trong chữ Quốc ngữ ('nộc', 'cục'), còn thanh khép cao [45]/[35] tương ứng với dấu sắc ('pót', 'chếp')."
+      },
+      {
+        "native": "khay [kʰaj] ('gần')",
+        "quoc_ngu": "khay",
+        "note": "Âm tắc mạc bật hơi [kʰ] không có trong tiếng Việt chuẩn Hà Nội (nơi 'kh' đọc là xát mạc [x]), nhưng viết 'kh' giữ nguyên 1 token và là âm xấp xỉ gần nhất."
+      },
+      {
+        "native": "Thanh trung giáng giọng hà hơi (breathy [31̤]) ở thổ ngữ Bắc Giang",
+        "quoc_ngu": "dấu huyền",
+        "note": "Tiếng Việt không có đối lập chất giọng hà hơi (breathy voice); chỉ có thể xấp xỉ cao độ bằng thanh huyền tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "phon",
+        "ipa": "pʰon⁴²",
+        "meaning_vi": "mưa",
+        "source": "Gregerson & Edmondson (1998)"
+      },
+      {
+        "native": "na",
+        "ipa": "na³¹",
+        "meaning_vi": "ruộng nước",
+        "source": "Gregerson & Edmondson (1998)"
+      },
+      {
+        "native": "hêu",
+        "ipa": "hɛw³⁵",
+        "meaning_vi": "răng",
+        "source": "Gregerson & Edmondson (1998)"
+      },
+      {
+        "native": "pót",
+        "ipa": "pɔt⁴⁵",
+        "meaning_vi": "phổi",
+        "source": "Gregerson & Edmondson (1998)"
+      },
+      {
+        "native": "mốt",
+        "ipa": "mot³⁴",
+        "meaning_vi": "kiến",
+        "source": "Gregerson & Edmondson (1998)"
+      },
+      {
+        "native": "tha",
+        "ipa": "tʰa³³",
+        "meaning_vi": "mắt",
+        "source": "Phan Lương Hùng (2012)"
+      },
+      {
+        "native": "thay",
+        "ipa": "tʰaj³³",
+        "meaning_vi": "chết",
+        "source": "Phan Lương Hùng (2012)"
+      },
+      {
+        "native": "thang",
+        "ipa": "tʰaːŋ³³",
+        "meaning_vi": "đuôi",
+        "source": "Phan Lương Hùng (2012)"
+      },
+      {
+        "native": "nộc",
+        "ipa": "nok³²",
+        "meaning_vi": "chim",
+        "source": "Phan Lương Hùng (2012)"
+      },
+      {
+        "native": "cốc",
+        "ipa": "kok³²",
+        "meaning_vi": "hổ",
+        "source": "Phan Lương Hùng (2012)"
+      },
+      {
+        "native": "cúc",
+        "ipa": "kuk³¹",
+        "meaning_vi": "làm",
+        "source": "Phan Lương Hùng (2012)"
+      },
+      {
+        "native": "chếp",
+        "ipa": "cep³⁵",
+        "meaning_vi": "lạnh",
+        "source": "Phan Lương Hùng (2012)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Gregerson, Kenneth J. & Jerold A. Edmondson (1998). Some puzzles in Cao Lan. In Somsonge Burusphat (ed.), Proceedings of the International Conference on Tai Studies, pp. 151–164. Mahidol University, Bangkok.",
+      "url": "http://sealang.net/sala/archives/pdf8/gregerson1998puzzles.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Phan Luong Hung (2011). Cao Lan Tones (วรรณยุกต์ในภาษากาวลาน). Journal of Letters (วารสารอักษรศาสตร์), Chulalongkorn University, Vol. 40, No. 1, pp. 54–69.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Phan Lương Hùng (2012). Vị trí của tiếng Cao Lan trong các ngôn ngữ Tai. Tạp chí Ngôn ngữ, Số 8 (279), tr. 63–71. Viện Ngôn ngữ học.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Cao Lan (caol1238)",
+      "url": "https://glottolog.org/resource/languoid/id/caol1238",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Cao Lan language",
+      "url": "https://en.wikipedia.org/wiki/Cao_Lan_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipédia — Cao lan (Phonologie & tons d'après Gregerson & Edmondson 1998)",
+      "url": "https://fr.wikipedia.org/wiki/Cao_lan",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Sình ca",
+      "url": "https://vi.wikipedia.org/wiki/S%C3%ACnh_ca",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Di sản văn hóa (Bộ Văn hóa, Thể thao và Du lịch) — Danh mục Di sản văn hóa phi vật thể quốc gia (Dân ca Cao Lan, Dân ca Sán Chí, Múa Tắc Xình, Hát Sấng cọ)",
+      "url": "https://dsvh.gov.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "music.instruments[0] & lexicon[15]",
+          "severity": "medium",
+          "problem": "Gộp lẫn 'trống đất (náy cau)' và 'trống tang sành' thành một nhạc cụ. Trong thực tế văn hóa Sán Chay (Cao Lan), 'trống đất' (náy cau) dùng trong múa Tắc Xình là nhạc cụ dây-đất (đào hố sâu dưới đất, phủ vỏ cây lên mặt hố và chăng dây rừng gõ nhịp), còn 'trống tang sành' là trống hai mặt bịt da có tang bằng đất nung/sành dùng trong nghi lễ và hát múa khác.",
+          "fix": "Tách riêng 'Trống đất (náy cau)' và 'Trống tang sành' trong music.instruments; sửa lại định nghĩa ở lexicon[15] thành 'trống đất (hố đất phủ vỏ cây chăng dây trong múa Tắc Xình)'."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Một số ánh xạ grapheme->IPA (như 'sl' /ɬ/, 'b' /ɓ/, 'đ' /ɗ/) dùng quy ước chữ Quốc ngữ / Tày-Nùng trong khi tiếng Cao Lan chưa có bộ chữ Latinh chuẩn hóa chính thức; và việc bảo lưu hay biến đổi của /ɬ/ tùy thuộc thổ ngữ.",
+          "fix": "Giữ mức confidence 'medium' hoặc hạ các mục suy diễn lịch đại chưa dẫn xuất trực tiếp từ bảng âm vị chuẩn về 'medium', ghi chú rõ tính chất quy ước."
+        },
+        {
+          "path": "lexicon[12..13]",
+          "severity": "low",
+          "problem": "Hai mục từ 'phác' [pʰak] ('rau') và 'khay' [kʰaj] ('gần') thiếu ký hiệu thanh điệu trong chuỗi IPA so với các mục từ khác trong cùng danh sách.",
+          "fix": "Hạ confidence của hai mục từ này từ 'high' xuống 'medium' do phiên âm IPA chưa ghi đầy đủ điệu trị."
+        },
+        {
+          "path": "sources[1..2]",
+          "severity": "low",
+          "problem": "Hai nguồn học thuật quan trọng của Phan Lương Hùng (2011, 2012) có thể xác thực trực tuyến trên hệ thống ThaiJO (Chulalongkorn University) và Tạp chí Ngôn ngữ (jol.vn) nhưng đang để url=null, đồng thời các nguồn khác chưa điền trạng thái url_check.",
+          "fix": "Bổ sung thông tin url_check xác nhận các nguồn đã được kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Dân tộc Sán Chay gồm hai nhóm nói hai ngôn ngữ thuộc hai ngữ hệ khác nhau: tiếng Cao Lan (mlc, Kra-Dai) và tiếng Sán Chỉ (phương ngữ Hán phương Nam, Hán-Tạng). Cần tách thêm một bảng mã riêng cho tiếng Sán Chỉ nếu xây dựng kho ngữ liệu hát Sình ca cổ bằng âm Hán-Nôm.",
+      "Số lượng thanh điệu và chất giọng tiếng Cao Lan khác nhau giữa các điểm điền dã (5 thanh ở Yên Sơn, Tuyên Quang so với 6 thanh kèm giọng hà hơi/kẹt/tắc thanh hầu ở Bắc Giang); cần người bản xứ từng vùng thẩm định.",
+      "Chưa có bộ chữ Latinh chuẩn hóa chính thức cấp nhà nước nên cách ghi các âm /pʰ/, /f/, /ɬ/ (sl) trong tài liệu sưu tầm dân gian chưa đồng nhất."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

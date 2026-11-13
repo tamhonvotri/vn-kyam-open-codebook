@@ -1,0 +1,109 @@
+{
+  "target": {
+    "id": "tho",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thổ",
+    "ethnic_group_vi": "Thổ",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:08:50.270951",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 8330,
+      "totalTokenCount": 26348,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8330
+        }
+      ],
+      "thoughtsTokenCount": 8641,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10743,
+      "candidatesTokenCount": 11536,
+      "totalTokenCount": 24858,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10743
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11536
+        }
+      ],
+      "thoughtsTokenCount": 2579,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "status_note",
+        "severity": "medium",
+        "problem": "Bảng mã gộp chung hệ thống âm vị của tiếng Thổ (Như Xuân – Nghĩa Đàn) và tiếng Cuối (Tân Hợp – Thái Hòa) vào cùng một mục phonology mặc dù Nguyễn Hữu Hoành (2024: 18, 26) khẳng định đây là hai ngôn ngữ Vietic khác nhau khá xa về diện mạo ngữ âm (tiếng Thổ gần tiếng Mường, không còn âm cuối /-l/ và các tổ hợp /pl-, pʰr-, kʰr-/, trong khi hệ thống 5 thanh điệu T1–T5 trong bảng mã lại lấy hoàn toàn theo tiếng Thổ Như Xuân).",
+        "fix": "Làm rõ trong status_note rằng khung âm vị và thanh điệu cơ sở của bảng mã lấy theo tiếng Thổ Như Xuân (Nguyễn Hữu Hoành 2024), còn các yếu tố bảo lưu riêng của tiếng Cuối Tân Hợp (/pl, pʰr, kʰr/, /-l/) được hạ độ tin cậy xuống 'medium' ở cấp bảng mã chung và ghi chú phân tách phương ngữ."
+      },
+      {
+        "path": "phonology.onsets[23]",
+        "severity": "medium",
+        "problem": "Mục 'pl, khr, phr' gộp 3 tổ hợp phụ âm khác nhau vào một chuỗi IPA ('pl, kʰr, pʰr') và các tổ hợp này chỉ có ở tiếng Cuối Tân Hợp (không có trong tiếng Thổ Như Xuân theo Nguyễn Hữu Hoành 2024).",
+        "fix": "Tách thành các mục riêng biệt (/pl/, /pʰr/, /kʰr/) và hạ confidence xuống 'medium' kèm ghi chú chỉ xuất hiện ở phương ngữ Cuối Tân Hợp."
+      },
+      {
+        "path": "phonology.codas[10]",
+        "severity": "low",
+        "problem": "Âm cuối /-l/ chỉ bảo lưu ở tiếng Cuối Chăm (Tân Hợp), hoàn toàn vắng mặt trong tiếng Thổ Như Xuân (vốn là hệ thống cơ sở của bảng thanh điệu T1–T5), nhưng đang để confidence='high'.",
+        "fix": "Hạ confidence xuống 'medium' để phản ánh tính chất cục bộ phương ngữ trong cụm mã ISO [tou]."
+      },
+      {
+        "path": "lexicon",
+        "severity": "high",
+        "problem": "1) Các mục từ số 1 đến 10 chèn thêm tên phương ngữ trong ngoặc đơn như '(Cuối Tân Hợp)', '(Thổ Như Xuân)' ngay trong trường 'form', làm bẩn dữ liệu chuỗi từ vựng máy đọc. 2) Các mục từ Thổ Như Xuân ('cho', 'tất', 'chết', 'củi') trong Nguyễn Hữu Hoành (2024) chỉ được công bố dưới dạng phiên âm IPA (/cɔ412/, [tɤ̆t43], [cet43], /kui̯43/), không có dạng chữ viết Quốc ngữ trong nguồn nhưng LLM tự chuyển tự và gán confidence='high'. 3) Các mục 't'lời', 't'lăng', 't'lu', 't'lôốc', 't'lôống' lấy từ nguồn dân tộc học (không có IPA) nhưng để confidence='high'.",
+        "fix": "Loại bỏ phần chú thích tên phương ngữ khỏi trường 'form'; hạ confidence của các mục tự chuyển tự từ IPA hoặc thiếu IPA xuống 'medium'; bổ sung các từ có IPA xác thực của tổ hợp /tl-/ từ Nguyễn Hữu Hoành (2024) như /tlieŋ44/ ('gánh'), /tlɑ̆m44/ ('trăm')."
+      },
+      {
+        "path": "music.genres",
+        "severity": "medium",
+        "problem": "Mô tả điệu 'Đu đu điềng điềng' thiếu chức năng cốt lõi: theo tư liệu âm nhạc dân gian Nghệ An (VUSTA / Văn hóa Nghệ An), đây là điệu hát ru (bà, mẹ, chị hát ru cháu, ru con ngủ trên võng gai, chỉ phụ nữ hát đơn lẻ trong gia đình, không hát tập thể). Ngoài ra, 'Dạ ời' còn gắn với tục 'hát dạ ời - ngủ mái' và thiếu làn điệu giao duyên thanh niên 'Tập tình tập tang'.",
+        "fix": "Cập nhật mô tả chính xác cho 'Đu đu điềng điềng', 'Dạ ời (Dạ ời - ngủ mái)' và bổ sung 'Tập tình tập tang'."
+      },
+      {
+        "path": "music.scales_or_modes",
+        "severity": "low",
+        "problem": "Trường scales_or_modes để trống mặc dù tư liệu nghiên cứu dân ca Thổ có ghi nhận thang âm ngũ cung (đô - rê - fa - sol - la) của điệu 'Đu đu điềng điềng'.",
+        "fix": "Bổ sung thang 5 âm (đô - rê - fa - sol - la) dùng trong làn điệu 'Đu đu điềng điềng' với confidence='medium'."
+      },
+      {
+        "path": "ml_hints.quoc_ngu_approximation[5]",
+        "severity": "low",
+        "problem": "Ví dụ '/ku43ˀ/' của Thanh 4 tiếng Thổ Như Xuân trong Nguyễn Hữu Hoành (2024: 24) có nghĩa là 'cũ' (/ku43ˀ/ 'cũ', /pen43ˀ/ 'bện'), nhưng trường quoc_ngu lại ghi là 'cụ / bện'.",
+        "fix": "Sửa lại chú giải ngữ nghĩa gốc của /ku43ˀ/ ('cũ') trong note và điều chỉnh từ xấp xỉ Quốc ngữ tương ứng."
+      },
+      {
+        "path": "sources[2].title",
+        "severity": "low",
+        "problem": "Tên công trình trên kho lưu trữ eVols (University of Hawaiʻi) là 'A Cuoi Language Description and Glossary', không có chữ 'Extensive' trong nhan đề chính thức.",
+        "fix": "Sửa lại nhan đề chính xác theo xuất bản phẩm JSEALS Special Publication No. 10."
+      }
+    ]
+  },
+  "schema_errors": []
+}

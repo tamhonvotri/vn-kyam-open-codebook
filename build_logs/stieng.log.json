@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "stieng",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Xtiêng",
+    "ethnic_group_vi": "Xtiêng",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:10:13.312067",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 9483,
+      "totalTokenCount": 25225,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9483
+        }
+      ],
+      "thoughtsTokenCount": 6361,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12052,
+      "candidatesTokenCount": 11657,
+      "totalTokenCount": 25872,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12052
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11657
+        }
+      ],
+      "thoughtsTokenCount": 2163,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[32]",
+        "severity": "medium",
+        "problem": "Mục cuối trong danh sách âm đầu ghi grapheme là \"'y\" với IPA \"ʔj\" (bán nguyên âm mặt lưỡi tiền thanh hầu hóa). Tuy nhiên, trong bảng âm vị của Haupers (1969: 134), âm vị tiền thanh hầu hóa ở cột ngạc cứng (Palatal) thuộc hàng âm tắc (Stops: 'b, 'd, 'j) được ký hiệu là /'j/ tức [ʔɟ] (tắc mặt lưỡi hữu thanh tiền thanh hầu hóa, tương ứng với /j/ [ɟ]), dù trong một số cách phiên âm khác có thể biến đổi hoặc ghi như [ʔj].",
+        "fix": "Sửa grapheme thành \"'j / 'y\", IPA thành \"ʔɟ ~ ʔj\", và cập nhật chú thích rõ đây là âm tắc/bán nguyên âm mặt lưỡi tiền thanh hầu hóa theo Haupers (1969); đồng thời đồng bộ ký hiệu /ʔɟ/ trong phonology.register_or_phonation và ml_hints.quoc_ngu_approximation."
+      },
+      {
+        "path": "lexicon[8].ipa",
+        "severity": "medium",
+        "problem": "Mục từ \"t'roong\" (con đường / tiếng nói) ghi IPA là \"troːŋ\" (nguyên âm [oː]), mâu thuẫn trực tiếp với quy tắc chính tả của chính bảng mã (oo = [ɔː], ôô = [oː]) và mâu thuẫn với ghi chú ở ml_hints.quoc_ngu_approximation[1] (\"vần oong giữ nguyên âm [ɔː]\").",
+        "fix": "Sửa IPA của \"t'roong\" thành \"trɔːŋ ~ tərɔːŋ\"."
+      },
+      {
+        "path": "phonology.vowels[8]",
+        "severity": "low",
+        "problem": "Nguyên âm \"â / ơ̆\" (ʌ ~ ə) được đặt confidence=\"high\", nhưng trong Haupers (1969) hệ thống 15 nguyên âm đơn chỉ liệt kê /ʌː/ dài ở âm tiết chính (còn [ə] xuất hiện ở tiền âm tiết hoặc phân tích khác nhau giữa hệ 15 và 17 nguyên âm trong các công trình của Haupers 1969, 1991 và Lê Khắc Cường).",
+        "fix": "Hạ confidence của mục \"â / ơ̆\" xuống \"medium\" và bổ sung ghi chú về sự khác biệt phân tích âm vị học giữa Haupers (1969) và các tài liệu từ điển/giáo trình sau này."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Thông tin về bộ chữ cái 33 con chữ ở Bình Phước chưa dẫn số quyết định hành chính chính thức công bố bộ chữ.",
+        "fix": "Bổ sung thông tin Quyết định số 2684/QĐ-UBND ngày 22/11/2018 của UBND tỉnh Bình Phước về việc công bố bộ chữ cái và hệ thống âm, vần tiếng S'tiêng."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trong phonology.register_or_phonation có dẫn nguồn Bon (2010) nhưng danh mục sources chưa liệt kê bài báo Bon (2010) mà chỉ có luận án Bon (2014); một số nguồn trực tuyến có thể bổ sung trạng thái kiểm chứng URL.",
+        "fix": "Bổ sung công trình Bon (2010) \"Phonology of the Stieng Language: a Rime Study\" (JSEALS 3.2: 22–48) vào danh mục sources và cập nhật url_check."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "chu-ru",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Chu Ru",
+    "ethnic_group_vi": "Chu Ru",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:29:31.092367",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 10332,
+      "totalTokenCount": 28421,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10332
+        }
+      ],
+      "thoughtsTokenCount": 8708,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12798,
+      "candidatesTokenCount": 12018,
+      "totalTokenCount": 26785,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12798
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12018
+        }
+      ],
+      "thoughtsTokenCount": 1969,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.vowels[9].grapheme",
+        "severity": "medium",
+        "problem": "Ghi 'ỗ' ứng với IPA /ɔ̃/, trong khi chữ 'o' mới biểu thị /ɔ, ɔː/ (còn 'ô' biểu thị /o, oː/ vốn không có dạng mũi hóa theo Fuller 1977, dù một số mục từ Wiktionary có xuất hiện 'ỗ').",
+        "fix": "Sửa grapheme thành 'ĩ, ẽ, ã, ũ, ỡ, õ (ỗ)' để khớp chính xác với nguyên âm /ɔ̃/ và ghi chú rõ trong phần note."
+      },
+      {
+        "path": "lexicon[8].ipa",
+        "severity": "low",
+        "problem": "Mục từ 'mơta' (mắt) và phần tử tương ứng trong ml_hints.sample_words[6].ipa đang ghi IPA là 'mta' (bỏ nguyên âm tiền âm tiết [ə]), không nhất quán với 'mənih' (mơnih) và 'ləma' (lơma).",
+        "fix": "Sửa IPA của 'mơta' thành 'məta' ở cả lexicon[8] và ml_hints.sample_words[6]."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Thiếu thông tin cập nhật về tình trạng hiệu lực văn bản quy phạm pháp luật năm 2026: Quyết định 15/2007/QĐ-UBND nằm trong danh mục văn bản bị bãi bỏ về mặt hành chính theo Quyết định 3963/QĐ-UBND ngày 04/8/2026 của UBND tỉnh Lâm Đồng khi rà soát văn bản trước sáp nhập, dù bộ chữ 2007 vẫn là phương án chữ viết chuẩn trên thực tế.",
+        "fix": "Bổ sung thông tin về Quyết định 106/2009/QĐ-UBND (chương trình dạy tiếng Chu Ru) và Quyết định 3963/QĐ-UBND (2026) vào scripts[0].note."
+      },
+      {
+        "path": "music.genres",
+        "severity": "low",
+        "problem": "Danh sách làn điệu dân ca Chu Ru đã có Ha ri, Ka tha, Cho hea nhưng còn thiếu điệu 'Ơ đó' (điệu hát tiết tấu nhanh, vui vẻ khi lên rẫy, về đồng được ghi nhận trong cùng nguồn điền dã tại Đơn Dương).",
+        "fix": "Bổ sung làn điệu 'Ơ đó' vào music.genres."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "hoa",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hoa",
+    "ethnic_group_vi": "Hoa",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:46:05.920743",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9375,
+      "candidatesTokenCount": 9188,
+      "totalTokenCount": 23825,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9375
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9188
+        }
+      ],
+      "thoughtsTokenCount": 5262,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11876,
+      "candidatesTokenCount": 10642,
+      "totalTokenCount": 22518,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11876
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10642
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "music.scales_or_modes[0].name",
+        "severity": "medium",
+        "problem": "Chữ '角' trong ngũ cung truyền thống Trung Hoa được dịch âm Hán-Việt là 'Giốc' (hoặc đọc trại là 'Giác'), không phải 'Chước' ('Chước' là âm đọc của 酌/灼).",
+        "fix": "Sửa 'Chước' thành 'Giốc (Giác)' trong tên thang ngũ cung (Cung – Thương – Giốc – Chủy – Vũ)."
+      },
+      {
+        "path": "music.genres[3].note",
+        "severity": "low",
+        "problem": "Thuật ngữ '依字行腔' có âm Hán-Việt chuẩn là 'y tự hành xoang' (hoặc đọc là 'khang' theo từ điển Hán-Việt cho chữ 腔), không phải 'y tự hành khốc' (khốc là 哭/酷).",
+        "fix": "Sửa 'y tự hành khốc' thành 'y tự hành xoang / khang'."
+      },
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "low",
+        "problem": "Mã Glottocode của tiếng Triều Châu và tiếng Phúc Kiến đang dùng chung mã mức nhánh Mân Nam là 'minn1241', trong khi Glottolog có mã chi tiết hơn cho từng phương ngữ ('teoc1236' cho Teochew và 'hokk1242' cho Hokkien) bên dưới nhánh 'minn1241'.",
+        "fix": "Bổ sung chú thích mã Glottocode chi tiết ('teoc1236', 'hokk1242', 'cant1236') vào phần note hoặc glottocode của sub_varieties để tăng độ chính xác khi tra cứu."
+      },
+      {
+        "path": "sources[0].url",
+        "severity": "low",
+        "problem": "URL trực tiếp tới file PDF trên nso.gov.vn đôi khi thay đổi đường dẫn theo đợt bảo trì cổng thông tin của Tổng cục Thống kê (gso.gov.vn / nso.gov.vn).",
+        "fix": "Đánh dấu url_check='unverified-direct-pdf' để lưu ý kiểm tra liên kết tĩnh."
+      }
+    ]
+  },
+  "schema_errors": []
+}

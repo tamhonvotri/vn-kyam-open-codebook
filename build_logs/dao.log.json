@@ -1,0 +1,77 @@
+{
+  "target": {
+    "id": "dao",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Dao",
+    "ethnic_group_vi": "Dao",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:48:50.691448",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9375,
+      "candidatesTokenCount": 8688,
+      "totalTokenCount": 18063,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9375
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8688
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11182,
+      "candidatesTokenCount": 10185,
+      "totalTokenCount": 21367,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10185
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[2].glottocode",
+        "severity": "medium",
+        "problem": "Glottocode của tiếng Biao Mon (ISO 639-3: bmt) bị ghi sai thành 'biao1255'. Theo Glottolog 5.3, mã đúng của Biao Mon là 'biao1256' (còn 'biao1255' là Biao-Jiao Mien).",
+        "fix": "Sửa glottocode của Biao Mon thành 'biao1256'."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "low",
+        "problem": "Danh sách nguyên âm và kết hợp âm đệm (on-glide) mới chỉ liệt kê 'ie' và 'uo', trong khi từ vựng bên dưới (như 'ndiangx', 'biaa', 'biei') sử dụng các tổ hợp có âm lướt /j/ và /w/ đứng trước như 'ia', 'iaa', 'iei', 'iu', 'ua', 'uaa', 'ui'.",
+        "fix": "Ghi chú rõ hơn trong phần note của 'ie' và 'uo' về hệ thống tổ hợp âm đệm i-/u- trong chữ IMUS để người dùng và công cụ parser nắm được quy tắc."
+      },
+      {
+        "path": "sources[6].url",
+        "severity": "low",
+        "problem": "URL dẫn tới trang chủ chung (https://www.dulichvn.org.vn/) thay vì bài viết cụ thể hoặc trang tra cứu ổn định, và các trường url_check đang để null.",
+        "fix": "Cập nhật trạng thái url_check cho các nguồn đã kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

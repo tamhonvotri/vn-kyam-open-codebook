@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "hre",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hrê",
+    "ethnic_group_vi": "Hrê",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:03:05.843213",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 9980,
+      "totalTokenCount": 28206,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9980
+        }
+      ],
+      "thoughtsTokenCount": 8847,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12503,
+      "candidatesTokenCount": 11544,
+      "totalTokenCount": 25314,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12503
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11544
+        }
+      ],
+      "thoughtsTokenCount": 1267,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[16]",
+        "severity": "high",
+        "problem": "Gán sai nghĩa của từ \"'mâng\" là \"ăn\" (to eat). Theo Cơ sở dữ liệu điện tử tiếng Việt–Hrê tỉnh Quảng Ngãi (csdlhreco.nuian.vn), từ có nghĩa \"ăn\" trong tiếng Hrê là \"caq / căq\" /kaʔ/ (ví dụ: caq poa 'ăn cơm', au 'nhòq caq 'tôi chưa ăn'), còn \"'mâng / 'mầng\" có nghĩa là \"như\" (ví dụ: 'mâng lêq 'như thế nào').",
+        "fix": "Sửa mục từ vựng \"ăn\" thành form=\"caq / căq\", ipa=\"kaʔ\", gloss_en=\"to eat\" (confidence=\"high\"), đồng thời cập nhật nghĩa đúng của \"'mâng\" ('như') ở các ghi chú liên quan."
+      },
+      {
+        "path": "phonology.onsets[19].note",
+        "severity": "medium",
+        "problem": "Ví dụ minh họa cho âm đầu 'm /ʔm/ ghi \"'mâng 'ăn'\" là sai nghĩa từ vựng.",
+        "fix": "Sửa thành \"'mâng 'như' (trong 'mâng lêq 'như thế nào'), 'mao / 'mau 'lúa', 'mon 'truyện kể'\"."
+      },
+      {
+        "path": "ml_hints.sample_words[11]",
+        "severity": "high",
+        "problem": "Mục từ mẫu cuối cùng lặp lại lỗi gán \"'mâng\" /ʔməŋ/ = \"ăn\" (to eat).",
+        "fix": "Sửa thành native=\"caq\", ipa=\"kaʔ\", gloss_vi=\"ăn\", gloss_en=\"to eat\"."
+      },
+      {
+        "path": "lexicon[14] & lexicon[15]",
+        "severity": "low",
+        "problem": "Hai mục từ \"capơ / capò\" (con trâu) và \"h'nim / hnim\" (nhà) đã được kiểm chứng trực tiếp trong CSDL điện tử Việt–Hrê tỉnh Quảng Ngãi (csdlhreco.nuian.vn) nhưng đang để biến thể đơn lẻ.",
+        "fix": "Bổ sung biến thể chính tả \"capơ / capò\" và \"h'nim / hnim\" theo đúng ngữ liệu thực tế và nâng confidence lên \"high\"."
+      }
+    ]
+  },
+  "schema_errors": []
+}

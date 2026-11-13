@@ -1,0 +1,832 @@
+{
+  "id": "tay",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày",
+  "name_en": "Tày language",
+  "autonym": "tiểng Tày",
+  "ethnic_group_vi": "Tày",
+  "language": {
+    "iso639_3": "tyz",
+    "glottocode": "tayy1238",
+    "family": "Kra-Dai",
+    "branch": "Tai (Central Tai)"
+  },
+  "regions": [
+    "Cao Bằng",
+    "Lạng Sơn",
+    "Tuyên Quang",
+    "Bắc Kạn",
+    "Thái Nguyên",
+    "Hà Giang",
+    "Bắc Giang",
+    "Quảng Ninh",
+    "Lào Cai",
+    "Yên Bái",
+    "Tây Nguyên (Lâm Đồng, Đắk Lắk, Đắk Nông — cộng đồng di cư)"
+  ],
+  "speakers_estimate": "Khoảng 1.626.392 – 1.630.000 người nói (theo điều tra 2009 / Glottolog); tổng dân số dân tộc Tày tại Việt Nam là 1.845.492 người (Tổng điều tra dân số và nhà ở năm 2019).",
+  "scripts": [
+    {
+      "name": "Chữ Tày - Nùng (hệ chữ Latinh phương án 1961)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional, Combining Diacritical Marks",
+      "official_in_vietnam": true,
+      "note": "Được Chính phủ phê chuẩn theo Nghị định số 206/CP ngày 27/11/1961 trên cơ sở chữ Quốc ngữ, gồm 31 chữ cái chính (thêm f, j so với bảng chữ Quốc ngữ) và 3 ký tự phụ ghi âm địa phương (t', w, z), dùng các tổ hợp đặc thù như sl, pj, phj, bj, mj. Thanh lửng không có dấu riêng trong phương án 1961, trong từ điển học thuật hiện đại thường ghi bằng dấu gạch dưới (U+0331)."
+    },
+    {
+      "name": "Chữ Nôm Tày",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs, CJK Unified Ideographs Extension A–I",
+      "official_in_vietnam": false,
+      "note": "Văn tự truyền thống hình thành từ thời Mạc dựa trên chữ Hán (tương đồng về cơ chế cấu tạo với chữ Nôm Việt và chữ Sawndip của người Choang), dùng ghi chép kinh sách nghi lễ Then, Pụt, Tào, truyện thơ và sách hát lượn cọi. Nhiều chữ tự tạo địa phương chưa được mã hóa đầy đủ trong Unicode."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã được tổng hợp tự động từ tư liệu ngôn ngữ học về tiếng Tày (Hoàng Văn Ma 1997; Pittayaporn & Kirby 2017; Phương án chữ Tày - Nùng 1961 và Từ điển Tày - Việt). Hệ thống âm vị và thanh điệu có sự phân hóa đáng kể giữa các vùng phương ngữ (Cao Bằng, Lạng Sơn, Bắc Kạn, Tuyên Quang); trị số Chao ghi theo phương ngữ Cao Bằng có khảo cứu âm học kèm ghi chú biến thể vùng miền.",
+  "phonology": {
+    "syllable_structure": "(C1)(w/j)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi ở đầu âm tiết (ví dụ: pi 'năm', pây 'đi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pj",
+        "ipa": "pʲ",
+        "note": "Âm tắc hai môi vô thanh ngạc hóa (ví dụ: pja 'cá'); một số vùng đọc thành py hoặc p",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi (ví dụ: phân 'mưa'), khác với ph [f] của tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "phj",
+        "ipa": "pʰʲ",
+        "note": "Âm tắc hai môi bật hơi ngạc hóa (ví dụ: phja 'núi đá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ ~ b ~ b̤",
+        "note": "Âm tắc hai môi hữu thanh/tiền thanh hầu hóa; phương ngữ bảo thủ ở Cao Bằng còn phân biệt /ɓ/ (âm vực cao) với âm hữu thanh thở /b̤/ ở âm vực thấp (Pittayaporn & Kirby 2017)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bj",
+        "ipa": "ɓʲ ~ bʲ",
+        "note": "Âm tắc hai môi hữu thanh ngạc hóa (ví dụ: bjoóc 'hoa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi (ví dụ: ma 'chó', mà 'về')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mj",
+        "ipa": "mʲ",
+        "note": "Âm mũi hai môi ngạc hóa (ví dụ: mjề 'vợ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Âm xát môi-răng vô thanh (ví dụ: fạ 'trời', fiệc 'việc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ w",
+        "note": "Âm xát môi-răng hữu thanh hoặc bán nguyên âm môi (ví dụ: vằn 'ngày', vày 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc lợi vô thanh không bật hơi (ví dụ: ta̱ 'sông', tu 'cửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc lợi vô thanh bật hơi (ví dụ: tha 'mắt', thâng 'đến')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ ~ d ~ d̤",
+        "note": "Âm tắc lợi hữu thanh/tiền thanh hầu hóa; ở Cao Bằng còn có biến thể hữu thanh thở /d̤/ đi với thanh âm vực thấp (ví dụ: đin 'đất', đây 'tốt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi lợi (ví dụ: nặm 'nước', nà 'ruộng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên lợi (ví dụ: lẩu 'rượu', lục 'con')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ ~ ɣ ~ l",
+        "note": "Biến thiên mạnh theo phương ngữ: rung/vỗ đầu lưỡi, xát ngạc mềm hữu thanh hoặc nhập với l (ví dụ: rườn ~ lườn 'nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "ɬ",
+        "note": "Âm xát bên lợi vô thanh đặc trưng của nhóm Tày - Nùng (ví dụ: slao 'cô gái', slam 'ba')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": "Âm xát lợi vô thanh (ví dụ: xao 'nhện')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s ~ ʂ",
+        "note": "Chủ yếu xuất hiện trong từ vay mượn tiếng Việt hoặc biến thể địa phương của sl",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "z ~ j",
+        "note": "Âm xát lợi hữu thanh hoặc bán nguyên âm ngạc cứng tùy vùng (ví dụ: dú 'ở')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c ~ tɕ",
+        "note": "Âm tắc/tắc-xát mặt lưỡi vô thanh (ví dụ: chất 'bảy', chin 'ăn' — biến thể của kin)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi (ví dụ: nhả 'cỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k, q",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh (ví dụ: cần 'người', kin 'ăn', quây 'xa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Âm tắc bật hơi hoặc xát ngạc mềm vô thanh tùy phương ngữ (ví dụ: khẩu 'cơm/lúa gạo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g, gh",
+        "ipa": "ɣ ~ ɡ",
+        "note": "Ít gặp trong từ thuần Tày ở nhiều vùng; xuất hiện ở phương ngữ Cao Bằng và từ vay mượn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng, ngh",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm (ví dụ: ngườm 'hang đá'); phương án 1961 gốc bỏ h sau ng/g nhưng từ điển hiện đại thường viết ngh trước i, ê, e như chữ Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh (ví dụ: hả 'năm - số 5', hẩư 'cho')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i, y",
+        "ipa": "i",
+        "note": "Nguyên âm trước khép không tròn môi (ví dụ: pi 'năm', mi 'gấu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa khép không tròn môi (ví dụ: pết 'vịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở không tròn môi (ví dụ: te 'nó')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ ~ ɨ",
+        "note": "Nguyên âm sau/giữa khép không tròn môi (ví dụ: mừ 'tay', tứn 'dậy/mọc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa vừa dài (ví dụ: nớ 'nhé')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə ~ ɐ",
+        "note": "Nguyên âm giữa ngắn, chỉ đứng trước âm cuối (ví dụ: phân 'mưa', pây 'đi', bâư 'lá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài (ví dụ: ma 'chó', nà 'ruộng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a ~ ɐ",
+        "note": "Nguyên âm mở ngắn, chỉ đứng trước âm cuối (ví dụ: ăn 'cái/chiếc', nặm 'nước', vằn 'ngày')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau khép tròn môi (ví dụ: mu 'lợn', tu 'cửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa khép tròn môi (ví dụ: nộc 'chim', thông 'túi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở tròn môi; trong vần -oong/-oóc ghi nguyên âm dài /ɔː/ (ví dụ: co 'cây', nòn 'ngủ', sloong 'hai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê, ia, ya, yê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước (ví dụ: khiêng 'thớt', tía 'địu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ, ưa",
+        "ipa": "ɯə ~ ɨə",
+        "note": "Nguyên âm đôi hướng tâm không tròn môi (ví dụ: rườn 'nhà', mường 'mường', nựa 'thịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô, ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm tròn môi (ví dụ: luông 'to/lớn', lua 'đóm')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi đóng (ví dụ: slíp 'mười', háp 'gánh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Âm tắc lợi đóng (ví dụ: pét 'tám', chất 'bảy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, ch",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm đóng (ví dụ: pác 'trăm', lếch 'sắt', nộc 'chim')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết (ví dụ: slam 'ba', nặm 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi lợi cuối âm tiết (ví dụ: cần 'người', vằn 'ngày')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng, nh",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết (ví dụ: tàng 'đường', mường 'mường')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i, y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối trước (ví dụ: pây 'đi', đây 'tốt', vày 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u, o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi (ví dụ: khẩu 'cơm/gạo', slao 'cô gái')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (trong vần -âư)",
+        "ipa": "ɯ̯ ~ ɨ̯",
+        "note": "Bán nguyên âm cuối không tròn môi đặc thù nhóm Thái, không có trong tiếng Việt chuẩn (ví dụ: bâư 'lá', mấư 'mới', hẩư 'cho', tầư 'dưới/nào')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "53",
+        "phonation": "modal (trị số /53/ theo phương ngữ Cao Bằng; ở nhiều vùng Nam Tày đọc ngang vừa [33 ~ 44])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "modal (hoặc hơi thở nhẹ sau âm đầu hữu thanh thở /b̤, d̤/ ở Cao Bằng theo Pittayaporn & Kirby 2017)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "43",
+        "phonation": "modal (trị số /43/ theo phương ngữ Cao Bằng)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "lung",
+        "name": "thanh lửng",
+        "mark": "̱",
+        "chao_contour": "33",
+        "phonation": "âm vực trầm/giữa kéo dài (22 ~ 33); không có dấu riêng trong phương án 1961 nên sách báo thường viết gộp bằng dấu hỏi, trong từ điển ghi bằng dấu gạch dưới",
+        "merges_with": "hoi",
+        "confidence": "medium"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "34",
+        "phonation": "modal; xuất hiện cả trên âm tiết khép âm vực cao (slíp, pác — phương án 1961 gốc lược dấu sắc trên p/t/c nhưng từ điển mới thường ghi đủ)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "25",
+        "phonation": "ở Cao Bằng (Hoàng Văn Ma 1997; Pittayaporn & Kirby 2017) là thanh thấp đi lên /25/; ở nhiều phương ngữ Nam Tày (Bắc Kạn, Thái Nguyên, Tuyên Quang) là thanh trầm nặng/nghẽn thanh hầu gần [21ʔ ~ 212]",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 6 thanh điệu phân thành hai âm vực lịch đại (Pittayaporn & Kirby 2017): âm vực cao (thanh 1 ngang /53/, thanh 3 hỏi /43/, thanh 5 sắc /34/) và âm vực thấp (thanh 2 huyền /21/, thanh 4 lửng /33 ~ 22/, thanh 6 nặng /25 ~ 21ʔ/). Ở phương ngữ Bắc Kạn/Tuyên Quang/Thái Nguyên, thanh ngang thường đọc ngang vừa-cao [33 ~ 44] thay vì [53]. Tiếng Tày bản địa không có thanh ngã (dấu ngã chỉ dùng cho từ vay mượn tiếng Việt). Phương ngữ Cao Bằng còn bảo lưu nét thanh hầu thở (breathy voice /b̤, d̤/) trên phụ âm tắc đầu ở âm vực thấp."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người",
+      "form": "cần",
+      "ipa": "kən˨˩",
+      "gloss_en": "person / people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "rườn",
+      "ipa": "rɯən˨˩",
+      "gloss_en": "house / home",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "nặm",
+      "ipa": "nam˨˥",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm / lúa / gạo",
+      "form": "khẩu",
+      "ipa": "kʰaw˦˧",
+      "gloss_en": "rice / cooked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "pja",
+      "ipa": "pʲaː˥˧",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "núi đá",
+      "form": "phja",
+      "ipa": "pʰʲaː˥˧",
+      "gloss_en": "rocky mountain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hoa",
+      "form": "bjoóc",
+      "ipa": "ɓʲɔːk̚˧˦",
+      "gloss_en": "flower",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cô gái",
+      "form": "slao",
+      "ipa": "ɬaːw˥˧",
+      "gloss_en": "young woman / girl",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngày",
+      "form": "vằn",
+      "ipa": "van˨˩",
+      "gloss_en": "day",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "ta̱",
+      "ipa": "taː˧˧",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá",
+      "form": "bâư",
+      "ipa": "ɓəɯ̯˥˧",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "kin",
+      "ipa": "kin˥˧",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "pây",
+      "ipa": "pəj˥˧",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "về / đến",
+      "form": "mà",
+      "ipa": "maː˨˩",
+      "gloss_en": "to return / come",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không (phủ định)",
+      "form": "bấu",
+      "ipa": "ɓəw˧˦",
+      "gloss_en": "not",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rượu",
+      "form": "lẩu",
+      "ipa": "law˦˧",
+      "gloss_en": "rice wine / alcohol",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Thực hành Then (Then nghi lễ và Then văn nghệ)",
+        "note": "Di sản văn hóa phi vật thể đại diện của nhân loại được UNESCO ghi danh ngày 12/12/2019 ('Practices of Then by Tày, Nùng and Thái ethnic groups in Viet Nam'). Vừa hát kể hành trình lên Mường Trời vừa đệm đàn tính và chùm xóc nhạc."
+      },
+      {
+        "name": "Hát Lượn (Lượn cọi, Lượn slương, Lượn nàng ới)",
+        "note": "Dân ca giao duyên đối đáp trữ tình phổ biến ở vùng Việt Bắc, chủ yếu dùng thể thơ thất ngôn (7 chữ) gieo vần lưng."
+      },
+      {
+        "name": "Phong slư",
+        "note": "Lối hát - ngâm những bức thư tình viết bằng thơ thất ngôn (thường chép bằng chữ Nôm Tày hoặc chữ Tày - Nùng)."
+      },
+      {
+        "name": "Hát Quan lang",
+        "note": "Hát nghi lễ đối đáp trong đám cưới truyền thống của người Tày, do ông Quan lang đại diện họ nhà trai thể hiện."
+      },
+      {
+        "name": "Hát Pụt, Tào",
+        "note": "Âm nhạc nghi lễ tín ngưỡng dân gian, nhiều vùng dùng tên Pụt tương ứng với một nhánh thực hành nghi lễ gần với Then."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến ngân hư từ cuối câu Lượn / Then",
+        "description": "Ngân dài và luyến mềm ở các hư từ đệm mở đầu hoặc kết câu (như 'ới', 'nớ', 'hợi', 'nhỉ', 'lố') để chuyển ý và hòa cùng câu dạo của đàn tính.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Nhấn nhịp theo bộ xóc nhạc",
+        "description": "Trong hát Then, giọng hát bám sát chu kỳ tiết tấu đều đặn của tiếng đàn tính tẩu kết hợp chùm xóc nhạc đeo ở chân hoặc cầm tay.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung không bán âm",
+        "note": "Phổ biến trong các làn điệu Then và Lượn truyền thống, giai điệu bám chặt cao độ thanh điệu của lời ca tiếng Tày thất ngôn.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn tính (tính tẩu)",
+        "note": "Nhạc cụ dây gảy bầu quả bầu khô, cần dài (thường 2 hoặc 3 dây tơ/nilon), linh hồn của nghệ thuật hát Then Tày"
+      },
+      {
+        "name": "Chùm xóc nhạc",
+        "note": "Nhạc cụ tự thân vang bằng đồng/sắt tạo nhịp phách liên tục trong diễn xướng Then"
+      },
+      {
+        "name": "Chuông nhạc / mèn",
+        "note": "Dùng trong nghi lễ Pụt, Tào và một số lễ Then"
+      },
+      {
+        "name": "Quạt",
+        "note": "Đạo cụ kết hợp biểu diễn múa chầu và hát Then"
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "sl (ví dụ: slao, slam, slíp)",
+        "quoc_ngu": "x / xl (ví dụ: xao, xam, xíp)",
+        "note": "Âm xát bên vô thanh /ɬ/ không có trong tiếng Việt chuẩn. Khi dùng TTS/giọng hát tiếng Việt chưa fine-tune, viết 'x' giúp giữ tính xát vô thanh tự nhiên hơn 's' cong lưỡi, nhưng mất nét thoát hơi bên lưỡi /ɬ/."
+      },
+      {
+        "native": "p- đầu âm tiết (ví dụ: pi, pây, pác)",
+        "quoc_ngu": "p- (ví dụ: pi, pây, pác)",
+        "note": "Âm /p/ tắc hai môi không bật hơi; mô hình TTS tiếng Việt thường đọc được 'p' đầu từ (do từ mượn/tên riêng), không nên đổi sang 'b' vì tiếng Tày phân biệt đối lập /p/ và /ɓ/."
+      },
+      {
+        "native": "ph- (ví dụ: phân 'mưa', phác)",
+        "quoc_ngu": "ph- (lưu ý sai khác âm học)",
+        "note": "Trong tiếng Tày 'ph' là âm tắc bật hơi /pʰ/, trong khi chữ Quốc ngữ đọc 'ph' là âm xát môi-răng /f/ (trùng với âm 'f' của tiếng Tày). Không có cách viết Quốc ngữ thuần Việt nào biểu diễn chính xác /pʰ/."
+      },
+      {
+        "native": "pj-, phj-, bj-, mj- (ví dụ: pja, phja, bjoóc, mjề)",
+        "quoc_ngu": "pi-a / pia, phi-a, bi-oóc, mi-ề",
+        "note": "Nhóm phụ âm môi ngạc hóa /pʲ, pʰʲ, ɓʲ, mʲ/ không có trong tiếng Việt chuẩn; xấp xỉ bằng nguyên âm lướt 'i' sẽ khiến mô hình đọc kéo dài thành 2 âm tiết hoặc nguyên âm đôi /iə/."
+      },
+      {
+        "native": "-âư (ví dụ: bâư 'lá', mấư 'mới', hẩư 'cho')",
+        "quoc_ngu": "-ây / -ư (ví dụ: bây, mấy, hẩy)",
+        "note": "Vần /-əɯ̯/ kết thúc bằng bán nguyên âm không tròn môi [ɯ̯] không tồn tại trong tiếng Việt chuẩn; xấp xỉ thành '-ây' làm mất nét lướt sau không tròn môi và dễ trùng với vần '-ây' gốc của tiếng Tày (như pây 'đi', đây 'tốt')."
+      },
+      {
+        "native": "f- (ví dụ: fạ 'trời', fiệc 'việc')",
+        "quoc_ngu": "ph- (ví dụ: phạ, phiệc)",
+        "note": "Chữ 'f' trong chính tả Tày - Nùng ghi âm /f/, khớp trực tiếp với cách đọc 'ph' trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "thanh lửng a̱ (ví dụ: ta̱ 'sông', ma̱)",
+        "quoc_ngu": "dấu huyền hoặc dấu hỏi (ví dụ: tà / tả)",
+        "note": "Ký tự gạch dưới U+0331 làm vỡ hoàn toàn các bộ tokenizer tiếng Việt/đa ngữ phổ thông; trong văn bản phổ thông tiếng Tày thường thay bằng dấu hỏi, còn về cao độ [33 ~ 22] ở vùng có thanh lửng thì nằm giữa thanh ngang và thanh huyền."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tày Trùng Khánh (Đông Bắc Cao Bằng)",
+        "iso639_3": "tyz",
+        "note": "Bảo lưu nhiều nét cổ của nhánh Thái Trung tâm, gồm 6 thanh điệu và tương phản thanh hầu/hữu thanh trên phụ âm tắc đầu."
+      },
+      {
+        "name": "Tày Bảo Lạc (Tây Cao Bằng)",
+        "iso639_3": "tyz",
+        "note": "Phương ngữ phía tây Cao Bằng, tiếp xúc gần với các nhóm Thái Bắc và Lô Lô - Miến."
+      },
+      {
+        "name": "Tày Nam / Việt Bắc (Bắc Kạn, Thái Nguyên, Tuyên Quang, Lạng Sơn)",
+        "iso639_3": "tyz",
+        "note": "Cơ sở của nhiều ấn phẩm văn hóa - giáo dục; phụ âm tắc hữu thanh lịch đại thường đã vô thanh hóa hoàn toàn và hệ thanh điệu gần gũi hơn với cảm thức dấu chữ Quốc ngữ."
+      },
+      {
+        "name": "Tiếng Thu Lao (nhóm địa phương Thu Lao thuộc dân tộc Tày ở Lào Cai, Hà Giang)",
+        "iso639_3": "tyl",
+        "note": "Về mặt dân tộc học được xếp vào dân tộc Tày, nhưng về ngôn ngữ học là ngôn ngữ riêng (Thu Lao / Dai Zhuang, ISO 639-3: zhd / tyl, Glottocode daiz1235; mục bookkeeping cho tyl là thul1247)."
+      },
+      {
+        "name": "Tiếng Pa Dí (nhóm địa phương Pa Dí thuộc dân tộc Tày ở Mường Khương, Lào Cai)",
+        "iso639_3": "pdi",
+        "note": "Về mặt dân tộc học được xếp vào dân tộc Tày, nhưng ngôn ngữ thuộc nhánh Thái Tây Nam (Southwestern Tai, Glottocode padi1241)."
+      },
+      {
+        "name": "Tiếng Ngạn và Tiếng Phén (các nhóm địa phương thuộc dân tộc Tày)",
+        "iso639_3": null,
+        "note": "Tiếng Ngạn (Cao Bằng, Tuyên Quang) mang đặc điểm nhánh Thái Bắc, gần với tiếng Giáy (pcc); tiếng Phén phân bố ở Quảng Ninh, Bắc Giang. Lưu ý không nhầm với Tày Sa Pa (tys) hay Tày Tac (tyt) của các nhóm Thái Tây Bắc."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "cần",
+        "ipa": "kən˨˩",
+        "gloss_vi": "người",
+        "gloss_en": "person"
+      },
+      {
+        "native": "nặm",
+        "ipa": "nam˨˥",
+        "gloss_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "khẩu",
+        "ipa": "kʰaw˦˧",
+        "gloss_vi": "cơm, lúa, gạo",
+        "gloss_en": "rice"
+      },
+      {
+        "native": "pja",
+        "ipa": "pʲaː˥˧",
+        "gloss_vi": "cá",
+        "gloss_en": "fish"
+      },
+      {
+        "native": "phja",
+        "ipa": "pʰʲaː˥˧",
+        "gloss_vi": "núi đá",
+        "gloss_en": "mountain"
+      },
+      {
+        "native": "rườn",
+        "ipa": "rɯən˨˩",
+        "gloss_vi": "nhà",
+        "gloss_en": "house"
+      },
+      {
+        "native": "vằn",
+        "ipa": "van˨˩",
+        "gloss_vi": "ngày",
+        "gloss_en": "day"
+      },
+      {
+        "native": "tha",
+        "ipa": "tʰaː˥˧",
+        "gloss_vi": "mắt",
+        "gloss_en": "eye"
+      },
+      {
+        "native": "mừ",
+        "ipa": "mɯ˨˩",
+        "gloss_vi": "tay",
+        "gloss_en": "hand"
+      },
+      {
+        "native": "slao",
+        "ipa": "ɬaːw˥˧",
+        "gloss_vi": "cô gái",
+        "gloss_en": "girl"
+      },
+      {
+        "native": "bjoóc",
+        "ipa": "ɓʲɔːk̚˧˦",
+        "gloss_vi": "hoa",
+        "gloss_en": "flower"
+      },
+      {
+        "native": "bâư",
+        "ipa": "ɓəɯ̯˥˧",
+        "gloss_vi": "lá",
+        "gloss_en": "leaf"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Tày (tayy1238)",
+      "url": "https://glottolog.org/resource/languoid/id/tayy1238",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Pittayaporn, P., & Kirby, J. (2017). Laryngeal contrasts in the Tai dialect of Cao Bằng. Journal of the International Phonetic Association, 47(1), 65–85.",
+      "url": "https://doi.org/10.1017/S0025100316000293",
+      "url_check": "http_429",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hoàng Văn Ma (1997). The sound system of the Tày language of Cao Bằng Province, Vietnam. In J. A. Edmondson & D. B. Solnit (Eds.), Comparative Kadai: The Tai branch (pp. 221–235). Summer Institute of Linguistics & University of Texas at Arlington.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hoàng Văn Ma, Lục Văn Pảo, & Hoàng Chí (1971). Ngữ pháp tiếng Tày - Nùng. NXB Khoa học Xã hội, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lương Bèn (Chủ biên). Từ điển Tày – Việt (dựa trên Phương án chữ Tày - Nùng Nghị định 206/CP năm 1961).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Tày language",
+      "url": "https://en.wikipedia.org/wiki/T%C3%A0y_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Practices of Then by Tày, Nùng and Thái ethnic groups in Viet Nam (2019)",
+      "url": "https://ich.unesco.org/en/RL/practices-of-then-by-tay-nung-and-thai-ethnic-groups-in-viet-nam-01379",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê & Ủy ban Dân tộc (2020). Kết quả Điều tra thu thập thông tin thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[3].note",
+          "severity": "medium",
+          "problem": "Glottocode của tiếng Thu Lao / Dai Zhuang bị ghi sai là 'thul1245'. Theo Glottolog, mã của Thu Lao là 'thul1247' (mục bookkeeping do mã ISO 'tyl' bị gộp với 'zhd') và ngôn ngữ chính Dai Zhuang có Glottocode là 'daiz1235'.",
+          "fix": "Sửa Glottocode trong ghi chú thành 'daiz1235' (mục bookkeeping của mã tyl là 'thul1247')."
+        },
+        {
+          "path": "ml_hints.sub_varieties[4].note",
+          "severity": "medium",
+          "problem": "Glottocode của tiếng Pa Dí (ISO 639-3: pdi) bị ghi sai là 'padi1247' (nhầm hậu tố với mã taid1247 của tiếng Thái Đen). Mã đúng trên Glottolog là 'padi1241'.",
+          "fix": "Sửa Glottocode trong ghi chú từ 'padi1247' thành 'padi1241'."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "low",
+          "problem": "Tên gọi truyền thống bằng tiếng Tày của 6 thanh điệu trong ngoặc đơn (khoang, pàn, thỏi, lương, pắc, lộm/chậm) có sự biến thiên giữa các tài liệu phương ngữ học và sách dạy chữ Tày - Nùng; một số mục đang để confidence='high'.",
+          "fix": "Hạ confidence của các mục thanh điệu có kèm tên gọi phương ngữ chưa đồng nhất hoặc biến thiên cao độ vùng miền xuống 'medium', đồng thời ghi rõ trị số Chao (/53, 21, 43, 33, 34, 25/) là của phương ngữ Cao Bằng theo Hoàng Văn Ma (1997) và Pittayaporn & Kirby (2017)."
+        },
+        {
+          "path": "sources[2].title",
+          "severity": "low",
+          "problem": "Số trang bài viết của Hoàng Văn Ma (1997) 'The sound system of the Tày language of Cao Bằng Province, Vietnam' trong sách Comparative Kadai: The Tai branch là pp. 221–235 (theo trích dẫn chuẩn trong Pittayaporn & Kirby 2017), không phải 221–231.",
+          "fix": "Sửa số trang thành pp. 221–235 và cập nhật trạng thái url_check cho các nguồn có URL."
+        }
+      ]
+    },
+    "open_issues": [
+      "Trị số Chao của 6 thanh điệu khác nhau rõ rệt giữa phương ngữ Trùng Khánh/Cao Bằng (Hoàng Văn Ma 1997; Pittayaporn & Kirby 2017) và các phương ngữ Nam Tày (Bắc Kạn, Thái Nguyên, Tuyên Quang, Lạng Sơn) — cần bổ sung đo đạc âm học cho từng tiểu vùng.",
+      "Quy ước chính tả chữ Tày - Nùng trong thực tế xuất bản chưa đồng nhất hoàn toàn ở việc ghi dấu sắc trên âm tiết khép (-p, -t, -c) và cách biểu thị thanh lửng (dấu gạch dưới U+0331 so với viết gộp vào dấu hỏi).",
+      "Cần nghệ nhân hát Then và hát Lượn thẩm định ký hiệu luyến láy (ABC notation) và quy tắc phối thanh điệu lời ca với thang âm đàn tính."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

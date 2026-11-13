@@ -1,0 +1,934 @@
+{
+  "id": "khang",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Kháng",
+  "name_en": "Kháng language",
+  "autonym": "kuám Kháng / Mơ Kháng / Ma Kháng / Ma Háng",
+  "ethnic_group_vi": "Kháng",
+  "language": {
+    "iso639_3": "kjm",
+    "glottocode": "khan1274",
+    "family": "Austroasiatic",
+    "branch": "Palaungic (Bit–Kháng) / Khmuic (còn tranh luận phân loại)"
+  },
+  "regions": [
+    "Sơn La (Thuận Châu, Quỳnh Nhai, Mường La)",
+    "Điện Biên (Tuần Giáo, Mường Lay, Mường Nhé — xã Quảng Lâm)",
+    "Lai Châu (Phong Thổ, Mường Tè, Than Uyên, Tam Đường)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Kháng là 16.180 người (Điều tra 53 DTTS năm 2019; 13.840 người năm 2009); số người nói thành thạo thực tế thấp hơn do song ngữ và chuyển dịch ngôn ngữ sang tiếng Thái Đen và tiếng Việt ở thế hệ trẻ.",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết truyền thống hay chữ viết được Nhà nước ban hành chính thức",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Trong đời sống hành chính và giáo dục phổ thông, người Kháng sử dụng chữ Quốc ngữ tiếng Việt; trong giao lưu văn hóa vùng Tây Bắc có tiếp xúc với chữ Thái."
+    },
+    {
+      "name": "Phương án chữ viết Kháng tự dạng Latinh (đề xuất học thuật)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Đề xuất bởi Tạ Quang Tùng (2022/2023) dựa trên hệ chữ Quốc ngữ tiếng Việt để ghi âm phương ngữ Tuần Giáo – Thuận Châu, sử dụng trong nghiên cứu ngôn ngữ học và từ điển học."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã tổng hợp từ mô tả ngữ âm – từ vựng tiếng Kháng bản Nậm Mu (xã Phình Sáng, huyện Tuần Giáo, tỉnh Điện Biên) của Tạ Quang Tùng (2021, JSEALS 14.2), phương án chữ viết Latinh của Tạ Quang Tùng (2022/2023), đối chiếu với Edmondson (2010) và khảo sát phương ngữ Tam Đường (Lai Châu). Tiếng Kháng có sự phân hóa phương ngữ đáng kể (đặc biệt biến thể Quảng Lâm có thể là ngôn ngữ riêng). Chưa qua thẩm định của người bản xứ và chuyên gia ngữ âm học.",
+  "phonology": {
+    "syllable_structure": "(C1ə̆/ă).C2(C3)V(C4)T — từ vựng chủ yếu đơn tiết C(w/l)V(C)T (99,45% trong ngữ liệu Nậm Mu), còn bảo lưu một số ít từ bán âm tiết (sesquisyllabic)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (ví dụ: pi /pi⁴⁴/ 'năm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi ở Tuần Giáo – Thuận Châu (ví dụ: phột /pʰot²²/); ở phương ngữ Tam Đường (Lai Châu) hiện thực hóa thành âm xát [f]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh hút vào (ví dụ: bẻ /ɓɛ²¹²/ 'dê', /ɓa²¹²/ 'chua')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ: ma /ma¹¹ˀ/ 'ngựa', /ma⁴⁴/ 'cô - chị/em bố')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật hơi (ví dụ: tăm /tăm⁴⁴/ 'bên phải', ti /ti⁴⁴/ 'tay')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc lợi vô thanh bật hơi (ví dụ: thủa /tʰuɤ²¹²/ 'đậu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "ɗ",
+        "note": "Tắc lợi hữu thanh hút vào (ví dụ: đa /ɗa³²³/ 'đen', /ɗɔ³²³/ 'óc/não')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi (ví dụ: ná /na³⁵ˀ/ 'ruộng', /no³¹ˀ/ 'vú/ngực')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh (ví dụ: sái /saj³⁵ˀ/ 'cát', /sak⁴³/ 'hươu/nai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên lợi (ví dụ: lí /li³⁵ˀ/ 'ngô', /lak⁴³/ 'cò')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc lợi-ngạc/ngạc cứng vô thanh, một số tài liệu phiên âm [tɕ] hoặc [tʃ] (ví dụ: chô /co⁴⁴/ 'cháu', chang /caŋ²²/ 'voi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng (ví dụ: /ɲa⁴⁴/ 'nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k / q",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (ví dụ: keu /kɛw⁴⁴/ 'người Kinh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (ví dụ: khiêng /kʰiəŋ⁴⁴/ 'trăng', khác /kʰak⁴³/ 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ví dụ: ngăn /ŋăn⁴⁴/ 'lửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu mở đầu âm tiết khi viết bắt đầu bằng chữ nguyên âm (ví dụ: om /ʔɔm²⁴ˀ/ 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ví dụ: hom /hɔm⁴⁴/ 'hành', hạn /han³¹ˀ/ 'sàn nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v / u",
+        "ipa": "w ~ v",
+        "note": "Tạ Quang Tùng (2021) xếp âm vị /w/, nhưng trong phương án chữ viết (2023) và phương ngữ Tam Đường phân biệt v [v] (vê /ve⁴⁴/ 'bên trái', vin /vin⁴⁴/ 'gió') và âm đệm -u-/-o- [w]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d / gi / y",
+        "ipa": "j ~ z",
+        "note": "Tiếp cận ngạc cứng /j/ ở Tuần Giáo; xát lợi hữu thanh /z/ ở Tam Đường",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "Tổ hợp phụ âm đầu (ví dụ: /plɛ⁴⁴/ ~ /pɛ⁴⁴/ 'quả')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kl",
+        "ipa": "kl",
+        "note": "Tổ hợp phụ âm đầu (ví dụ: /klak⁴³/ 'đầu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ml",
+        "ipa": "ml",
+        "note": "Tổ hợp phụ âm đầu (ví dụ: /mlɔŋ⁴⁴/ 'mông')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu / kw",
+        "ipa": "kw",
+        "note": "Tổ hợp phụ âm đầu / phụ âm kèm âm đệm môi (ví dụ: /kwa³⁵ˀ/ 'trộn', kuám 'tiếng/lời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khu / khw",
+        "ipa": "kʰw",
+        "note": "Tổ hợp phụ âm đầu, thường gặp trong từ vay mượn Thái/Việt (ví dụ: /kʰwaŋ⁴⁴/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ho / hw",
+        "ipa": "hw",
+        "note": "Tổ hợp phụ âm đầu (ví dụ: /hwaj³⁵ˀ/ 'hổ')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng hàng trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở hàng trước không tròn môi (trong vần -ɛw viết là -eu như keu /kɛw⁴⁴/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm đóng hàng giữa/sau không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ɤ",
+        "note": "Nguyên âm nửa đóng hàng giữa/sau không tròn môi (dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â / ơ̆",
+        "ipa": "ɤ̆",
+        "note": "Nguyên âm nửa đóng ngắn (Tạ Quang Tùng 2021 ký hiệu là /ɤ̌/) đối lập trường độ với /ɤ/ trước phụ âm cuối (ví dụ: ngấn /ŋɤn³⁵ˀ/ 'bạc')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ă",
+        "note": "Nguyên âm mở ngắn (đôi khi ký hiệu /ǎ/) đối lập trường độ với /a/ (ví dụ: ngăn /ŋăn⁴⁴/ 'lửa', tăm /tăm⁴⁴/ 'bên phải')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi (ví dụ: nong /nɔŋ⁴⁴/ 'ao', hom /hɔm⁴⁴/ 'hành')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ia",
+        "ipa": "iɤ ~ iə",
+        "note": "Nguyên âm đôi hướng tâm hàng trước (ví dụ: hiêng /hiəŋ⁵¹/ 'ruột', khiêng /kʰiəŋ⁴⁴/ 'trăng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɯɤ ~ ɯə",
+        "note": "Nguyên âm đôi hướng tâm không tròn môi (ví dụ: /cɯɤŋ³⁵ˀ/ 'giường')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uɤ ~ uə",
+        "note": "Nguyên âm đôi hướng tâm hàng sau tròn môi (ví dụ: thủa /tʰuɤ²¹²/ 'đậu', /cuɤ⁴⁴/ 'chó')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật hơi (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (cũng xuất hiện ở cuối tiền âm tiết trong phương ngữ Tam Đường)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-ngạc mềm (ví dụ: keu /kɛw⁴⁴/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng (ví dụ: sái /saj³⁵ˀ/, ngai /ŋaj⁴⁴/)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "t1",
+        "name": "Thanh 1 (cao ngang — âm tiết sống)",
+        "mark": "",
+        "chao_contour": "44",
+        "phonation": "modal voice (giọng thường; một số tài liệu ghi [55])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t2",
+        "name": "Thanh 2 (thấp ngang — âm tiết sống)",
+        "mark": null,
+        "chao_contour": "11",
+        "phonation": "glottalized (kết thúc bằng tắc thanh hầu [11ʔ], đôi khi ghi [22])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t3",
+        "name": "Thanh 3 (cao lên — âm tiết sống)",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "glottalized (kết thúc bằng tắc thanh hầu [35ʔ] hoặc [24ʔ])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t4",
+        "name": "Thanh 4 (thấp xuống — âm tiết sống)",
+        "mark": "̣",
+        "chao_contour": "31",
+        "phonation": "glottalized (kết thúc bằng tắc thanh hầu [31ʔ]; một số từ/phương ngữ ghi [51])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t5",
+        "name": "Thanh 5 (giữa lõm/gãy — âm tiết sống)",
+        "mark": null,
+        "chao_contour": "323",
+        "phonation": "modal voice (giọng thường)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t6",
+        "name": "Thanh 6 (thấp lõm/gãy — âm tiết sống)",
+        "mark": "̉",
+        "chao_contour": "212",
+        "phonation": "creaky voice (giọng kẹt/nghẽn thanh hầu)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t7",
+        "name": "Thanh 7 (cao xuống nhẹ — âm tiết khép -p/-t/-k)",
+        "mark": "́",
+        "chao_contour": "43",
+        "phonation": "checked (chỉ xuất hiện ở âm tiết kết thúc bằng /p, t, k/, đôi khi ghi [44])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t8",
+        "name": "Thanh 8 (thấp lên nhẹ — âm tiết khép -p/-t/-k)",
+        "mark": "̣",
+        "chao_contour": "12",
+        "phonation": "checked (chỉ xuất hiện ở âm tiết kết thúc bằng /p, t, k/, đôi khi ghi [22])",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ Nam Á đã thanh điệu hóa hoàn toàn (8 thanh điệu: 6 thanh ở âm tiết mở/vang, 2 thanh ở âm tiết tắc vô thanh) nhưng vẫn bảo lưu sự đối lập chất giọng (register/phonation) gắn liền với thanh điệu: giọng thường (modal: 44, 323), giọng đóng thanh hầu cuối âm tiết (glottal stop: 11ʔ, 35ʔ, 31ʔ — bắt nguồn lịch sử từ âm cuối *-ʔ của tiền-Palaungic) và giọng kẹt (creaky: 212). Mikami (2003) phân tích yếu tố [ʔ] cuối là phụ âm cuối (/ʔ, mʔ, nʔ, ŋʔ, wʔ, jʔ/), trong khi Edmondson (2010) và Tạ Quang Tùng (2021) phân tích là nét khu biệt của thanh điệu."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "om",
+      "ipa": "ʔɔm²⁴ˀ",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "ngăn",
+      "ipa": "ŋăn⁴⁴",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "ngai khiêng",
+      "ipa": "ŋaj⁴⁴ kʰiəŋ⁴⁴",
+      "gloss_en": "moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gió",
+      "form": "vin",
+      "ipa": "vin⁴⁴",
+      "gloss_en": "wind",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bầu trời",
+      "form": "sơ̆ un",
+      "ipa": "sə̆ʔun⁴⁴",
+      "gloss_en": "sky",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đá",
+      "form": "hạ",
+      "ipa": "ha²²",
+      "gloss_en": "stone",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cát",
+      "form": "sái",
+      "ipa": "saj³⁵ˀ",
+      "gloss_en": "sand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruộng",
+      "form": "ná",
+      "ipa": "na³⁵ˀ",
+      "gloss_en": "paddy field",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ao",
+      "form": "nong",
+      "ipa": "nɔŋ⁴⁴",
+      "gloss_en": "pond",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm",
+      "form": "pi",
+      "ipa": "pi⁴⁴",
+      "gloss_en": "year",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngô (bắp)",
+      "form": "lí",
+      "ipa": "li³⁵ˀ",
+      "gloss_en": "maize / corn",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đậu",
+      "form": "thủa",
+      "ipa": "tʰuɤ²¹²",
+      "gloss_en": "bean",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hành",
+      "form": "hom",
+      "ipa": "hɔm⁴⁴",
+      "gloss_en": "onion / scallion",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "klak",
+      "ipa": "klak⁴³",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tay",
+      "form": "ti",
+      "ipa": "ti⁴⁴",
+      "gloss_en": "hand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruột",
+      "form": "hiêng",
+      "ipa": "hiəŋ⁵¹",
+      "gloss_en": "intestines",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quả (trái)",
+      "form": "ple / pe",
+      "ipa": "plɛ⁴⁴ ~ pɛ⁴⁴",
+      "gloss_en": "fruit",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "voi",
+      "form": "chang",
+      "ipa": "caŋ²²",
+      "gloss_en": "elephant",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ",
+      "form": "hoái",
+      "ipa": "hwaj³⁵ˀ",
+      "gloss_en": "tiger",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "khác",
+      "ipa": "kʰak⁴³",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dê",
+      "form": "bẻ",
+      "ipa": "ɓɛ²¹²",
+      "gloss_en": "goat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đen",
+      "form": "đa",
+      "ipa": "ɗa³²³",
+      "gloss_en": "black",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bên trái",
+      "form": "vê",
+      "ipa": "ve⁴⁴",
+      "gloss_en": "left side",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bên phải",
+      "form": "tăm",
+      "ipa": "tăm⁴⁴",
+      "gloss_en": "right side",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sàn nhà",
+      "form": "hạn",
+      "ipa": "han³¹ˀ",
+      "gloss_en": "floor",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tường",
+      "form": "háp",
+      "ipa": "hap⁴⁴",
+      "gloss_en": "wall",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạc",
+      "form": "ngấn",
+      "ipa": "ŋɤn³⁵ˀ",
+      "gloss_en": "silver",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cháu",
+      "form": "chô",
+      "ipa": "co⁴⁴",
+      "gloss_en": "grandchild",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cô (hoặc cậu — em trai mẹ)",
+      "form": "chỉ",
+      "ipa": "ci²¹²",
+      "gloss_en": "aunt / maternal uncle (Tạ 2023 records 'cô'; Tạ 2021 records 'mother's younger brother' while /ma⁴⁴/ is 'father's sister')",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người Kinh",
+      "form": "keu",
+      "ipa": "kɛw⁴⁴",
+      "gloss_en": "Kinh (Viet) person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng Kháng",
+      "form": "kuám Kháng",
+      "ipa": null,
+      "gloss_en": "Kháng language",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Múa hát Tăng bu (Xék pang)",
+        "note": "Loại hình dân vũ – dân nhạc tiêu biểu nhất của người Kháng (Sơn La, Điện Biên), gắn với Lễ hội Xe Pang Ả / Kin Pang / Pang Phoóng mừng mùa màng và tạ ơn sau vụ thu hoạch nương rẫy; mô phỏng động tác chọc lỗ tra hạt theo đội hình vòng tròn."
+      },
+      {
+        "name": "Dân ca Kháng (hát đối, hát giao duyên, hát sinh hoạt)",
+        "note": "Phản ánh lao động nương rẫy, đời sống thường ngày và tình yêu đôi lứa; bên cạnh lời ca tiếng Kháng, nhiều nghệ nhân còn hát thông thạo các làn điệu khắp Thái (khắp tọp, khắp báo sao) do giao lưu song ngữ lâu đời."
+      },
+      {
+        "name": "Múa hưn mạy / múa tầm đao (tỏi điểng)",
+        "note": "Điệu múa kết hợp gõ nhạc cụ ống nứa chẻ chạc nhịp nhàng của tốp nữ trong ngày vui bản mường và lễ hội cộng đồng (phổ biến ở Quỳnh Nhai, Sơn La và Tuần Giáo, Điện Biên)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Cây Tăng bu (bẳng bu) và ván gỗ (pẻn bu)",
+        "note": "Ống nứa thẳng dài khoảng 1–1,5 m; người múa cầm tay giã đầu ống xuống tấm ván gỗ tốt (pẻn bu) đặt trên sàn nhà tạo âm thanh trầm vang giữ nhịp."
+      },
+      {
+        "name": "Hưn mạy",
+        "note": "Nhạc cụ thân vang bằng ống nứa già của người Kháng ở Quỳnh Nhai (Sơn La), dài khoảng 60 cm, một đầu để nguyên làm tay cầm, đầu kia vát nhẵn hai bên tạo thành 2 chạc để gõ vào lòng bàn tay theo nhịp trống chiêng."
+      },
+      {
+        "name": "Tầm đao (tăm đao)",
+        "note": "Nhạc cụ ống nứa dành riêng cho phụ nữ, dài khoảng 50–60 cm, đường kính 3–4 cm, một đầu giữ mấu có đục hai lỗ nhỏ đối xứng gần mấu để đặt ngón cái và ngón trỏ điều chỉnh âm, đầu kia bỏ mấu và vát hai bên thành hai cánh trạc chữ U (dài 25–30 cm) để gõ vào lòng bàn tay."
+      },
+      {
+        "name": "Trống (le củng), chiêng và chũm chọe (le xẻng)",
+        "note": "Nhạc cụ gõ hòa tấu cùng dàn ống Tăng bu để giữ nhịp đều trong Lễ hội Xe Pang Ả / Pang Phoóng và múa xòe, múa sạp (xék loỏng)."
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "phột om (/pʰot²² ɔm⁴⁴/ 'nhổ bọt')",
+        "quoc_ngu": "p-hột om (hoặc phột om)",
+        "note": "Âm đầu /pʰ/ (tắc hai môi bật hơi) không có trong tiếng Việt chuẩn. Nếu viết 'ph', TTS tiếng Việt sẽ đọc thành âm xát [f] (trùng với cách đọc của phương ngữ Kháng Tam Đường nhưng khác [pʰ] của Tuần Giáo – Thuận Châu)."
+      },
+      {
+        "native": "klak (/klak⁴³/ 'đầu'), ple (/plɛ⁴⁴/ 'quả'), mlong (/mlɔŋ⁴⁴/ 'mông')",
+        "quoc_ngu": "cơ-lác, pơ-le, mơ-long",
+        "note": "Tiếng Việt hiện đại không có tổ hợp phụ âm đầu /kl-, pl-, ml-/. Khi đưa vào TTS/giọng hát tiếng Việt, cần tách phụ âm đầu thành âm tiết lướt cực ngắn (cơ-, pơ-, mơ-) hoặc chấp nhận giản lược phụ âm lướt."
+      },
+      {
+        "native": "sơ̆ un (/sə̆ʔun⁴⁴/ 'bầu trời'), lă lan (/lălan⁴⁴/ 'chớp')",
+        "quoc_ngu": "xơ-un, lă-lan",
+        "note": "Từ bán âm tiết (sesquisyllabic): âm tiết phụ phía trước rất ngắn và không mang trọng âm. Mô hình TTS tiếng Việt có xu hướng đọc hai âm tiết dài bằng nhau nên cần rút ngắn trường độ âm tiết đầu."
+      },
+      {
+        "native": "ná (/na³⁵ˀ/ 'ruộng'), sái (/saj³⁵ˀ/ 'cát'), om (/ʔɔm²⁴ˀ/ 'nước')",
+        "quoc_ngu": "ná / nã, xái, om",
+        "note": "Thanh 3 [35ʔ] đi lên cao nhưng kết thúc bằng tắc thanh hầu đột ngột. Thanh sắc tiếng Việt [35] cùng đường nét cao độ nhưng không đóng thanh hầu cuối; thanh ngã Hà Nội [35ˀ] có nghẽn thanh hầu ở giữa vần."
+      },
+      {
+        "native": "hạn (/han³¹ˀ/ 'sàn')",
+        "quoc_ngu": "hạn",
+        "note": "Thanh 4 [31ʔ] xuống thấp và đóng thanh hầu cuối âm tiết, tương đương khá sát với thanh nặng [21ˀ] của phương ngữ Bắc Bộ tiếng Việt."
+      },
+      {
+        "native": "chỉ (/ci²¹²/ 'cô'), thủa (/tʰuɤ²¹²/ 'đậu')",
+        "quoc_ngu": "chỉ, thủa",
+        "note": "Thanh 6 [212] có đường nét thấp lõm kèm giọng kẹt (creaky voice), gần với thanh hỏi [313]/[212] của tiếng Việt Bắc Bộ."
+      },
+      {
+        "native": "nong (/nɔŋ⁴⁴/ 'ao'), hom (/hɔm⁴⁴/ 'hành')",
+        "quoc_ngu": "noong, hoom",
+        "note": "Trong chữ Quốc ngữ, vần 'ong' thường bị ngạc mềm – môi hóa và rút ngắn thành [ăwŋ͡m]. Để giữ nguyên âm mở tròn môi [ɔŋ] / [ɔm] của tiếng Kháng, nên viết 'noong' cho /nɔŋ/."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Kháng Tuần Giáo – Thuận Châu (hữu ngạn sông Đà)",
+        "iso639_3": "kjm",
+        "regions": [
+          "Tuần Giáo (Điện Biên)",
+          "Thuận Châu (Sơn La)"
+        ],
+        "note": "Phương ngữ cơ sở được mô tả chi tiết trong Tạ Quang Tùng (2021, 2023)."
+      },
+      {
+        "name": "Kháng Quỳnh Nhai – Mường La (tả ngạn sông Đà)",
+        "iso639_3": "kjm",
+        "regions": [
+          "Quỳnh Nhai (Sơn La)",
+          "Mường La (Sơn La)"
+        ],
+        "note": "Còn có các tên gọi nhóm địa phương như Ma Háng Béng, Ma Háng Cọi, Kháng Dẩng, Kháng Hốc, Kháng Ái."
+      },
+      {
+        "name": "Kháng Lai Châu (Tam Đường, Phong Thổ, Mường Tè, Than Uyên)",
+        "iso639_3": "kjm",
+        "regions": [
+          "Tam Đường",
+          "Phong Thổ",
+          "Mường Tè",
+          "Than Uyên (Lai Châu)"
+        ],
+        "note": "Phương ngữ Tam Đường có /f, z/ tương ứng với /pʰ, j/ của Tuần Giáo và còn giữ một số tiền âm tiết kết thúc bằng /-ŋ/."
+      },
+      {
+        "name": "Khao (Xá Khao)",
+        "iso639_3": "xao",
+        "glottocode": "khao1244",
+        "regions": [
+          "Thuận Châu (Sơn La)"
+        ],
+        "note": "Tên ngoại gọi trong tư liệu thời Pháp cho một nhóm người Kháng ở Thuận Châu; Glottolog đã xếp mã xao vào diện ngừng sử dụng (bookkeeping) vì cùng ngôn ngữ với kjm."
+      },
+      {
+        "name": "Kháng Quảng Lâm (Brển Quảng Lâm)",
+        "iso639_3": null,
+        "regions": [
+          "Xã Quảng Lâm, huyện Mường Nhé, tỉnh Điện Biên"
+        ],
+        "note": "Người nói được xếp vào dân tộc Kháng nhưng ngôn ngữ rất khác biệt, bảo lưu nhiều tổ hợp phụ âm đầu phức tạp (px, ps, pk, pr, thl, kr, kch, mr...) và âm cuối (-r, -ts, -nr); có thể là một ngôn ngữ riêng thuộc nhánh Bit–Kháng."
+      },
+      {
+        "name": "Bumang (Bố Mang — ngoài Việt Nam)",
+        "iso639_3": "bvp",
+        "glottocode": "buma1247",
+        "regions": [
+          "Huyện Kim Bình, châu Hồng Hà, tỉnh Vân Nam, Trung Quốc"
+        ],
+        "note": "Ngôn ngữ có quan hệ họ hàng gần nhất với tiếng Kháng (Edmondson 2010; Dao Jie 2007)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "om",
+        "ipa": "ʔɔm²⁴ˀ",
+        "gloss_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "ngăn",
+        "ipa": "ŋăn⁴⁴",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "ngai khiêng",
+        "ipa": "ŋaj⁴⁴ kʰiəŋ⁴⁴",
+        "gloss_vi": "mặt trăng",
+        "gloss_en": "moon"
+      },
+      {
+        "native": "vin",
+        "ipa": "vin⁴⁴",
+        "gloss_vi": "gió",
+        "gloss_en": "wind"
+      },
+      {
+        "native": "hạ",
+        "ipa": "ha²²",
+        "gloss_vi": "đá",
+        "gloss_en": "stone"
+      },
+      {
+        "native": "sái",
+        "ipa": "saj³⁵ˀ",
+        "gloss_vi": "cát",
+        "gloss_en": "sand"
+      },
+      {
+        "native": "klak",
+        "ipa": "klak⁴³",
+        "gloss_vi": "đầu",
+        "gloss_en": "head"
+      },
+      {
+        "native": "ti",
+        "ipa": "ti⁴⁴",
+        "gloss_vi": "tay",
+        "gloss_en": "hand"
+      },
+      {
+        "native": "hiêng",
+        "ipa": "hiəŋ⁵¹",
+        "gloss_vi": "ruột",
+        "gloss_en": "intestines"
+      },
+      {
+        "native": "chang",
+        "ipa": "caŋ²²",
+        "gloss_vi": "voi",
+        "gloss_en": "elephant"
+      },
+      {
+        "native": "hoái",
+        "ipa": "hwaj³⁵ˀ",
+        "gloss_vi": "hổ",
+        "gloss_en": "tiger"
+      },
+      {
+        "native": "lí",
+        "ipa": "li³⁵ˀ",
+        "gloss_vi": "ngô",
+        "gloss_en": "maize"
+      },
+      {
+        "native": "vê",
+        "ipa": "ve⁴⁴",
+        "gloss_vi": "bên trái",
+        "gloss_en": "left side"
+      },
+      {
+        "native": "tăm",
+        "ipa": "tăm⁴⁴",
+        "gloss_vi": "bên phải",
+        "gloss_en": "right side"
+      }
+    ],
+    "loanword_layer_note": "Tiếng Kháng có lớp từ vay mượn rất lớn từ tiếng Thái Đen (bao gồm cả hệ thống số đếm ở nhiều địa phương và các từ nông nghiệp như ná 'ruộng', nong 'ao', pi 'năm'), đồng thời tầng thanh điệu của từ mượn Thái khớp có hệ thống với các thanh nguyên thủy Proto-Tai (Tạ Quang Tùng 2021)."
+  },
+  "sources": [
+    {
+      "title": "Tạ, Quang Tùng (2021). A Phonology and Lexicon of Khang in Vietnam. Journal of the Southeast Asian Linguistics Society (JSEALS), 14(2), i–xxix.",
+      "url": "http://hdl.handle.net/10524/52487",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tạ, Quang Tùng (2023). Ngữ âm tiếng Kháng và phương án chữ viết cho người Kháng ở Việt Nam. NXB Đại học Thái Nguyên & NXB Thông tin và Truyền thông.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. (2010). The Kháng language of Vietnam in comparison to Ksingmul (Xinh-mun). In K. A. McElhanon & G. Reesink (eds.), A Mosaic of languages and cultures: studies celebrating the career of Karl J. Franklin, 138–154. SIL International.",
+      "url": "https://www.sil.org/resources/archives/9267",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Kháng (khan1274)",
+      "url": "https://glottolog.org/resource/languoid/id/khan1274",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Kháng language",
+      "url": "https://en.wikipedia.org/wiki/Kh%C3%A1ng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Kháng",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Kh%C3%A1ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Các mục từ Tiếng Kháng (dẫn liệu từ Tạ Quang Tùng 2021, 2023)",
+      "url": "https://vi.wiktionary.org/wiki/ku%C3%A1m_Kh%C3%A1ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.vowels",
+          "severity": "low",
+          "problem": "Ký hiệu nguyên âm ngắn trong nguồn Tạ Quang Tùng (2021) dùng dấu caron /ɤ̌, ǎ/ do quy ước chế bản của tác giả, trong khi chuẩn IPA quốc tế dùng dấu breve /ɤ̆, ă/ (U+0306) để chỉ nguyên âm cực ngắn (extra-short).",
+          "fix": "Chuẩn hóa trường `ipa` sang ký hiệu IPA chuẩn `ɤ̆` và `ă` (kèm ghi chú biến thể ký hiệu `ɤ̌`, `ǎ` trong tài liệu gốc)."
+        },
+        {
+          "path": "music.instruments",
+          "severity": "low",
+          "problem": "Mô tả nhạc cụ 'Hưn mạy' và 'Tầm đao' thiếu chi tiết cấu tạo bộ phận phát âm (đầu ống vát hai bên tạo thành 2 chạc/cánh trạc chữ U gõ vào lòng bàn tay).",
+          "fix": "Bổ sung chi tiết cấu tạo 2 chạc/cánh trạc gõ vào lòng bàn tay theo các nguồn dân tộc học về người Kháng ở Sơn La và Điện Biên."
+        },
+        {
+          "path": "lexicon[28]",
+          "severity": "low",
+          "problem": "Mục từ 'chỉ' /ci²¹²/ nghĩa 'cô (em/chị bố)' xuất hiện trong Tạ Quang Tùng (2023), trong khi Tạ Quang Tùng (2021) ghi /ci²¹²/ là 'uncle (mother's younger brother) / young man' và /ma⁴⁴/ là 'father's sister'.",
+          "fix": "Bổ sung ghi chú đối chiếu giữa hai công trình (2021 và 2023) và điều chỉnh độ tin cậy của mục từ này xuống 'medium'."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường `url_check` của các nguồn có URL đang để `null`.",
+          "fix": "Cập nhật `url_check` thành `'ok'` cho các URL đã kiểm chứng hoạt động."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu đầy đủ quy tắc ghi dấu thanh cho Thanh 2 [11ʔ] và Thanh 5 [323] trong sách chuyên khảo Tạ Quang Tùng (2022/2023).",
+      "Chưa có bản ký âm nhạc học (thang âm, điệu thức, luyến láy ABC) đã công bố cho dân ca Kháng và nhạc lễ Xe Pang Ả / Pang Phoóng; cần điền dã âm nhạc học với nghệ nhân tại Thuận Châu/Quỳnh Nhai (Sơn La) và Tuần Giáo (Điện Biên).",
+      "Cần khảo sát riêng biến thể Kháng Quảng Lâm (Mường Nhé, Điện Biên) để quyết định việc tách thành một bảng mã độc lập."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "gie-trieng",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Giẻ Triêng",
+    "ethnic_group_vi": "Giẻ Triêng",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:18:52.272907",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9387,
+      "candidatesTokenCount": 9433,
+      "totalTokenCount": 26348,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9387
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9433
+        }
+      ],
+      "thoughtsTokenCount": 7528,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12081,
+      "candidatesTokenCount": 12875,
+      "totalTokenCount": 29307,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12081
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12875
+        }
+      ],
+      "thoughtsTokenCount": 4351,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "music.instruments[4]",
+        "severity": "high",
+        "problem": "Gộp nhầm nhạc cụ hơi Ka jol (Kayol) vào mục đàn dây kéo Oang eng (Ong eng). Theo khảo sát của Đàm Thị Lượng tại Kon Tum và bài viết trên Tạp chí Dân tộc (2013) tại Quảng Nam, Kayol (Ka jol) là tù và làm bằng sừng sơn dương (dài 12–15 cm, thuộc nhóm nhạc cụ hơi), còn Oang eng (Ong eng) mới là nhạc cụ dây kéo sơ khai dùng cật nứa dẻo cọ vào dây.",
+        "fix": "Tách riêng Đàn Oang eng (Ong eng) (nhạc cụ dây kéo) và Tù và Kayol / Ka jol (nhạc cụ hơi bằng sừng sơn dương) thành hai mục độc lập trong music.instruments."
+      },
+      {
+        "path": "lexicon[1]",
+        "severity": "medium",
+        "problem": "Mục từ 'prook' [proːk] 'con sóc (squirrel)' đang để confidence='high', nhưng *prook là dạng phục nguyên Proto-Mon-Khmer / West Bahnaric (Sidwell), không xuất hiện trực tiếp trong danh mục từ kiểm chứng được của Gradin (1966) và Cohen (1966) cho tiếng Jeh (trong tài liệu năm 1966, từ có vần -ook được ghi nhận trực tiếp là kadook [kadoːk] 'kẻ trộm / a thief').",
+        "fix": "Hạ confidence của 'prook' xuống 'low' kèm ghi chú giải thích, đồng thời bổ sung mục từ có thực chứng trực tiếp 'kadook' [kadoːk] ('kẻ trộm / thief', Cohen 1966) với confidence='high' và cập nhật lại ml_hints."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Thiếu loạt phụ âm tiền mũi hóa (prenasalized stops: mb, nd, ngg) và loạt phụ âm kéo dài/căng (lengthened consonants: bb, dd, jj, gg, nn, ll) được Gradin (1966: 44) và Cohen (1966: 34) mô tả rõ trong hệ thống âm vị tiếng Jeh; ngoài ra ghi chú của âm 'b (?b) chưa nêu rõ rằng trong Cohen (1966: 34) ?b chủ yếu gặp trong từ vay mượn tiếng Việt (như ka?bang < cái bàn).",
+        "fix": "Bổ sung mb, nd, ngg và ghi chú về loạt phụ âm kéo dài vào phonology.onsets; cập nhật ghi chú cho 'b (?b)."
+      },
+      {
+        "path": "sources[2]",
+        "severity": "low",
+        "problem": "Ghi sai họ của đồng tác giả bản ngữ Thông thành 'Gradin, Thông' và thiếu tên người biên tập Patrick D. Cohen. Theo thư mục SIL / CiNii, sách được đứng tên bởi 'Thông and Dwight Gradin; edited by Patrick D. Cohen'. Ngoài ra, một số nguồn (Cohen 1966, Person 2022) đã có URL truy cập mở chính thức có thể điền và xác nhận url_check.",
+        "fix": "Sửa lại thông tin tác giả của từ điển Jeh (1979) thành 'Thông & Gradin, Dwight; Cohen, Patrick D. (ed.) (1979)' và cập nhật URL/url_check cho các nguồn đã kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

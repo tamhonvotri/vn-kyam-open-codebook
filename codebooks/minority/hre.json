@@ -1,0 +1,919 @@
+{
+  "id": "hre",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hrê",
+  "name_en": "Hre",
+  "autonym": "Hrê / bà Hrê",
+  "ethnic_group_vi": "Hrê",
+  "language": {
+    "iso639_3": "hre",
+    "glottocode": "hree1244",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric)"
+  },
+  "regions": [
+    "Quảng Ngãi (Sơn Hà, Ba Tơ, Minh Long, Sơn Tây)",
+    "Bình Định (An Lão)",
+    "Kon Tum (Kon Plông)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Hrê: 149.460 người (Điều tra 53 dân tộc thiểu số năm 2019); ước tính khoảng 94.000–113.000 người nói bản ngữ.",
+  "scripts": [
+    {
+      "name": "Chữ Hrê La-tinh (hệ Quảng Ngãi – Bình Định / Viện Ngôn ngữ học)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Biên soạn trên nền chữ Quốc ngữ (Bộ chữ Hrê Bình Định 2008 do GS.TS. Nguyễn Văn Lợi, TS. Tạ Văn Thông, Đinh Văn Thành hoàn chỉnh; tài liệu giảng dạy và CSDL điện tử tỉnh Quảng Ngãi). Dùng chữ q cuối âm tiết ghi /ʔ/, dấu nháy trước ('b, 'm, 'n) ghi âm tiền thanh hầu hóa/hút vào, tổ hợp phụ âm + h (dh, gh...) hoặc nguyên âm đôi chữ (êê, oo, ôô, ơơ) tùy quy ước địa phương."
+    },
+    {
+      "name": "Chữ Hrê La-tinh (hệ SIL / trước 1975)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A",
+      "official_in_vietnam": false,
+      "note": "Do Oliver & Joyce Trebilco, Đinh Nghĩa và các nhà ngôn ngữ học SIL xây dựng thập niên 1960–1970 (dùng trong từ điển SIL và bản dịch Kinh Thánh). Bảng chữ gồm: a, à, â, b, 'b, c, d, đ, e, è, ê, f, g, h, i, ì, j, k, l, m, 'm, n, 'n, o, ò, ô, ŏ, p, q, r, 'r, s, t, u, ù, v, w, 'w, x, y, 'y, z; dùng dấu huyền (à, è, ì, ò, ù) để ghi âm vực chùng/hà hơi."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản thảo tổng hợp từ các công trình ngữ âm học Bắc Bahnar (Phillips 1973; Edmondson, Gregerson & Sidwell 2011; Trebilco 2018) và Cơ sở dữ liệu điện tử tiếng Việt–Hrê của tỉnh Quảng Ngãi. Giữa hệ chữ SIL (trước 1975/từ điển quốc tế) và hệ chữ đào tạo tại Quảng Ngãi – Bình Định hiện nay có một số khác biệt chính tả (đặc biệt ở cách ghi âm vực chùng, phụ âm đầu d/đ/dh và c/k/ch). Cần chuyên gia ngôn ngữ học Môn-Khmer và nghệ nhân bản ngữ Hrê thẩm định thêm.",
+  "phonology": {
+    "syllable_structure": "(Cə-)C1(C2)V(C3) + Register (cấu trúc bán âm tiết / sesquisyllabic: tiền âm tiết nhẹ không trọng âm tùy chọn + âm tiết chính mang trọng âm bắt buộc)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "tắc lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ ~ tr",
+        "note": "tắc quặt lưỡi hoặc cụm t+r tùy phương ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "tắc ngạc cứng vô thanh (Phillips 1973 ký hiệu /č/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "tắc ngạc mềm vô thanh; viết c hoặc k theo quy tắc gần chữ Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ trước nguyên âm đầu)",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu đầu âm tiết chính (ví dụ ùnh /ʔṳɲ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "tắc hai môi bật hơi (tổ hợp hoặc từ vay mượn)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "tắc lợi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "tắc ngạc mềm bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "tắc hai môi hữu thanh thường (khác 'b hút vào)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / dh",
+        "ipa": "d",
+        "note": "tắc lợi hữu thanh /d/ (lưu ý: trong chữ Hrê SIL, d đọc như đ tiếng Việt; trong CSDL Quảng Ngãi dh thường đi với nguyên âm âm vực chùng như dheac 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "tắc ngạc cứng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɡ",
+        "note": "tắc ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'b",
+        "ipa": "ɓ",
+        "note": "tắc hai môi hút vào / tiền thanh hầu hóa (ví dụ 'boi, 'biaq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / 'd",
+        "ipa": "ɗ",
+        "note": "tắc lợi hút vào / tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "mũi lợi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "mũi ngạc cứng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "mũi ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'m",
+        "ipa": "ʔm",
+        "note": "mũi hai môi tiền thanh hầu hóa (ví dụ 'mâng 'như', 'mao / 'mau 'lúa', 'mon 'truyện kể')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'n",
+        "ipa": "ʔn",
+        "note": "mũi lợi tiền thanh hầu hóa (ví dụ 'nâng 'thật', 'noiq 'nơi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm",
+        "ipa": "m̥ ~ hm",
+        "note": "mũi hai môi vô thanh / tiền xát thanh hầu",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hn / h'n",
+        "ipa": "n̥ ~ hn",
+        "note": "mũi lợi vô thanh / tiền xát thanh hầu (ví dụ hnim / h'nim 'nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s ~ ɕ",
+        "note": "xát lợi / lợi-ngạc vô thanh (CSDL Quảng Ngãi dùng cả x và s)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɾ ~ r",
+        "note": "vỗ/rung đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'r",
+        "ipa": "ʔɾ",
+        "note": "âm r tiền thanh hầu hóa (ghi nhận trong bảng chữ SIL)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hr",
+        "ipa": "ɾ̥ ~ hr",
+        "note": "tổ hợp h+r / âm r vô thanh hóa (tiêu biểu trong tộc danh Hrê)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "tiếp cận cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "l̥ ~ hl",
+        "note": "tiếp cận cạnh lưỡi vô thanh / tổ hợp h+l (ví dụ hlây, hling)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / v",
+        "ipa": "w ~ v",
+        "note": "bán nguyên âm môi-ngạc mềm /w/ (CSDL Quảng Ngãi thường viết v trước nguyên âm như vroac, vên; viết w như wang)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'w",
+        "ipa": "ʔw",
+        "note": "bán nguyên âm môi tiền thanh hầu hóa (hệ chữ SIL)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y / z",
+        "ipa": "j",
+        "note": "tiếp cận ngạc cứng /j/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'y",
+        "ipa": "ʔj",
+        "note": "tiếp cận ngạc cứng tiền thanh hầu hóa (hệ chữ SIL)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "pl, bl, kl/cl, gl, pr, br/vr, dr, kr/cr, gr, kw/cw",
+        "ipa": "pl, bl, kl, ɡl, pr, br, dr, kr, ɡr, kw",
+        "note": "các cụm phụ âm đầu đặc trưng của nhánh Bắc Bahnar (ví dụ plây 'làng', kraq 'già', broq/vroq 'làm')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "nguyên âm cao hàng trước, âm vực căng (trong)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ì",
+        "ipa": "i̤",
+        "note": "nguyên âm cao hàng trước, âm vực chùng (hà hơi) trong chữ SIL (ví dụ tì 'tay')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / êê",
+        "ipa": "e",
+        "note": "nguyên âm hơi cao hàng trước, âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "nguyên âm vừa/thấp hàng trước, âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "è / ề",
+        "ipa": "e̤ ~ ɛ̤",
+        "note": "nguyên âm hàng trước âm vực chùng; thường nhập đối lập độ mở trừ trước /p, t, m, n, w/ (Phillips 1973)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / ă / â",
+        "ipa": "a ~ ə",
+        "note": "nguyên âm thấp hàng giữa, âm vực căng; ă/â thường ghi biến thể ngắn trước phụ âm cuối hoặc tiền âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "à / ầ / ơ",
+        "ipa": "a̤ ~ ə̤",
+        "note": "nguyên âm hàng giữa âm vực chùng, vị trí lưỡi cao hơn /a/ căng (Phillips 1973)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ŏ / oo",
+        "ipa": "ɔ",
+        "note": "nguyên âm vừa/thấp hàng sau tròn môi, âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ò",
+        "ipa": "ɔ̤ ~ ʌ̤",
+        "note": "nguyên âm hàng sau âm vực chùng, cao và trung tâm hơn /ɔ/ căng (không tách riêng /o̤/ ở hàng sau theo Phillips 1973)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ôô",
+        "ipa": "o",
+        "note": "nguyên âm hơi cao hàng sau tròn môi, âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "nguyên âm cao hàng sau tròn môi, âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ù",
+        "ipa": "ṳ",
+        "note": "nguyên âm cao hàng sau tròn môi, âm vực chùng/hà hơi (ví dụ ùnh /ʔṳɲ/ 'lửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / ìa / iê",
+        "ipa": "iə / i̤ə",
+        "note": "nguyên âm đôi hạ từ /i/ về nguyên âm giữa, xuất hiện ở cả hai âm vực (ví dụ wia 'tránh' vs wìa 'có thể')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea / èa",
+        "ipa": "ɛa / ɛ̤a",
+        "note": "nguyên âm đôi mở hàng trước về /a/, có ở cả hai âm vực (ví dụ chea 'mèo rừng', dheac 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / ùa / uô",
+        "ipa": "uə / ṳə",
+        "note": "nguyên âm đôi hạ từ /u/ về nguyên âm giữa, có ở cả hai âm vực (ví dụ chua 'cúi' vs chùa 'lợn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oa / òa",
+        "ipa": "ɔa / ɔ̤a",
+        "note": "nguyên âm đôi từ /ɔ/ về /a/, có ở cả hai âm vực (ví dụ poa 'cơm', loang 'cây', vroac 'đàn vroac')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "tắc hai môi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "tắc lợi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c̚",
+        "note": "tắc ngạc cứng đóng âm tiết (Phillips 1973 ký hiệu /-č/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k̚",
+        "note": "tắc ngạc mềm đóng âm tiết (CSDL Quảng Ngãi ưu tiên viết -c như dheac, vroac, nhooc)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "tắc thanh hầu cuối âm tiết (ví dụ kraq 'già', loq 'biết', broq 'làm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "mũi lợi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "mũi ngạc cứng cuối âm tiết (ví dụ ùnh 'lửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "mũi ngạc mềm cuối âm tiết (ví dụ wang 'núi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "xát thanh hầu cuối âm tiết, phát âm bật hơi rõ (ví dụ toh 'đậu', truh 'đến', rih 'sống')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "bán nguyên âm cuối ngạc cứng (ví dụ mangai 'người', plây 'làng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "bán nguyên âm cuối tròn môi (ví dụ au / ao 'tôi', eo 'áo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih / yh",
+        "ipa": "jh",
+        "note": "tổ hợp bán nguyên âm /j/ + xát thanh hầu /h/ cuối âm tiết (Phillips 1973 /-yh/; ví dụ aih, nơih 'ngực')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iq / yq",
+        "ipa": "jʔ",
+        "note": "tổ hợp bán nguyên âm /j/ + tắc thanh hầu /ʔ/ cuối âm tiết (Phillips 1973 /-yʔ/; ví dụ caiq 'rẫy', aiq 'khỏe', nâyq 'bây giờ')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu như tiếng Việt; đối lập ngữ âm chính nằm ở 2 âm vực (voice register) trên nguyên âm của âm tiết chính (Phillips 1973): (1) Âm vực căng / trong (Tense register, -ATR): trụ hầu căng, gốc lưỡi hơi lùi, giọng sáng và trong (7 nguyên âm đơn /i, e, ɛ, a, ɔ, o, u/ và 4 nguyên âm đôi /iə, ɛa, uə, ɔa/), viết không dấu trong chữ SIL; (2) Âm vực chùng / hà hơi (Lax / Breathy register, +ATR): trụ hầu thả lỏng, gốc lưỡi nhích trước, giọng trầm, đục và thường hà hơi [V̤] (6 nguyên âm đơn và 4 nguyên âm đôi), viết bằng dấu huyền (ì, è, à, ò, ù) trong chữ SIL hoặc thể hiện qua phụ âm ghép + h (như dh-) / dấu phụ trong một số tài liệu địa phương. Âm vực đối lập độc lập với cả phụ âm đầu và phụ âm cuối (kể cả trước /-ʔ/ và /-h/)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "lửa",
+      "form": "ùnh",
+      "ipa": "ʔṳɲ",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dheac",
+      "ipa": "dɛ̤ak",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tay, bàn tay",
+      "form": "tì",
+      "ipa": "ti̤ː",
+      "gloss_en": "hand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mat",
+      "ipa": "mat",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "núi; vàng",
+      "form": "wang",
+      "ipa": "waŋ",
+      "gloss_en": "mountain; gold",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "áo",
+      "form": "eo",
+      "ipa": "ʔɛw",
+      "gloss_en": "shirt, garment",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm",
+      "form": "poa",
+      "ipa": "pɔa",
+      "gloss_en": "cooked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lợn, heo",
+      "form": "chùa",
+      "ipa": "cṳə",
+      "gloss_en": "pig",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mèo rừng",
+      "form": "chea",
+      "ipa": "cɛa",
+      "gloss_en": "wild cat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hạt đậu",
+      "form": "toh",
+      "ipa": "tɔh",
+      "gloss_en": "bean",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vú, ngực",
+      "form": "tòh",
+      "ipa": "tɔ̤h",
+      "gloss_en": "breast",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "mangai",
+      "ipa": "maŋaj",
+      "gloss_en": "person, human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng",
+      "form": "plây / plài",
+      "ipa": "pləj ~ pla̤j",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây, gỗ",
+      "form": "loang",
+      "ipa": "lɔaŋ",
+      "gloss_en": "tree, wood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con trâu",
+      "form": "capơ / capò",
+      "ipa": "kapə̤ː ~ kapɔ̤ː",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "h'nim / hnim",
+      "ipa": "hni̤m",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "caq / căq",
+      "ipa": "kaʔ",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "au",
+      "ipa": "ʔaw",
+      "gloss_en": "I, me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không (phủ định)",
+      "form": "ùh / uh",
+      "ipa": "ʔṳh",
+      "gloss_en": "not, no",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "già, trưởng lão",
+      "form": "kraq",
+      "ipa": "kraʔ",
+      "gloss_en": "old, elder",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Ta lêu (Ca lêu / Klêu)",
+        "note": "Điệu hát kể có bài bản, giai điệu mượt mà, trong sáng; đã được Bộ Văn hóa, Thể thao và Du lịch đưa vào Danh mục Di sản văn hóa phi vật thể quốc gia (Quyết định số 1667/QĐ-BVHTTDL ngày 03/06/2025) tại Ba Tơ, Sơn Hà, Minh Long (Quảng Ngãi)."
+      },
+      {
+        "name": "Ca chôi (Ka chôi / H'chôi)",
+        "note": "Hát giao duyên, đối đáp tâm tình ứng tác tại chỗ (Di sản văn hóa phi vật thể quốc gia, 2025). Gồm hai nhánh: H'chôi i boi (có nhịp điệu ổn định) và H'chôi tăh têu / Tăh h'chôi (hát tự do không nhịp phách cố định, đối đáp thâu đêm, xen giữa hát và nói)."
+      },
+      {
+        "name": "Hmon ('Mon)",
+        "note": "Lối hát kể truyện cổ, sử thi dân gian truyền thống bên bếp lửa nhà sàn."
+      },
+      {
+        "name": "Taoi",
+        "note": "Làn điệu hát cúng thần linh (Giàng) trong các nghi lễ nông nghiệp, cúng bến nước, cầu mưa, lễ ăn trâu."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Lấy đà ngắn – ngân dài âm thứ hai và âm cuối câu (H'chôi tăh têu)",
+        "description": "Trong lối hát đối đáp H'chôi tăh têu, âm đầu câu là âm lấy đà ngắn, âm thứ hai và âm cuối câu nhạc được ngân kéo dài hơi tự do, ở giữa xen các chùm liên âm chậm rãi và lối hát nói ứng tác.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thang âm dân gian vùng Trường Sơn – Bắc Tây Nguyên (hòa âm chiêng ba)",
+        "note": "Dựa trên tương quan cao độ của bộ chiêng ba (3 chiêng không núm) và các nhạc cụ tre nứa; chưa có tài liệu đo tần số chuẩn hóa cho từng tiểu vùng phương ngữ Hrê.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Chiêng ba (Ching ba / Chinh K'la)",
+        "note": "Bộ cồng chiêng 3 chiếc không núm đặc trưng nhất của người Hrê"
+      },
+      {
+        "name": "Đàn Vroac (B'rooc / Vơ roát)",
+        "note": "Đàn dây gẩy có hộp cộng hưởng bằng vỏ bầu khô, thường dùng đệm hát Ta lêu, Ca chôi"
+      },
+      {
+        "name": "Đàn Krâu (K'râu)",
+        "note": "Đàn ống tre nhiều dây gẩy"
+      },
+      {
+        "name": "Sáo Ta lía (Tà lía)",
+        "note": "Sáo dọc bằng trúc/nứa"
+      },
+      {
+        "name": "Sáo Tà vỗ (Tà vố)",
+        "note": "Nhạc cụ hơi cổ truyền bằng ống nứa"
+      },
+      {
+        "name": "Kèn Ra ngói",
+        "note": "Nhạc cụ hơi có lưỡi gà"
+      },
+      {
+        "name": "Ống Vinh-vút",
+        "note": "Nhạc cụ gõ – hơi bằng hai ống lồ ô dài (~1 m và ~1,2 m) do 3–4 phụ nữ phối hợp vỗ và chặn/nhả hơi (các điệu vái-mang, pý-mang, ching-htùm)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Nuclear Hre (Hrê Ba Tơ)",
+        "iso639_3": "hre",
+        "region": "Huyện Ba Tơ, Quảng Ngãi (lưu vực sông Hrê)"
+      },
+      {
+        "name": "Krêq (Creq / Kare)",
+        "iso639_3": "hre",
+        "region": "Huyện Sơn Hà, Quảng Ngãi (lưu vực sông Krêq, tự gọi wì Krêq)"
+      },
+      {
+        "name": "Rabah (Tava / Đá Vách / Davach)",
+        "iso639_3": "hre",
+        "region": "Huyện Sơn Tây, Minh Long, Quảng Ngãi"
+      },
+      {
+        "name": "Hrê sông Đinh (wì Đinh)",
+        "iso639_3": "hre",
+        "region": "Huyện An Lão, Bình Định"
+      }
+    ],
+    "closely_related_languages_note": "Tiếng Hrê lập thành tiểu nhóm Hre–Sedang cùng với tiếng Xơ Đăng (iso639_3: sed) và gần gũi với tiếng Todrah (iso639_3: tdr), Monom (iso639_3: moo), Rơ Ngao (iso639_3: ren); không gộp mã nhưng có tỷ lệ từ vựng đồng nguyên rất cao.",
+    "tts_and_singing_phonetic_gaps": [
+      "Tiếng Việt chuẩn (Hà Nội) không có đối lập âm vực căng vs. chùng/hà hơi [V̤]; dấu huyền trong chữ Hrê SIL ghi âm vực hà hơi trầm chứ không phải thanh điệu xuống thấp đơn thuần.",
+      "Phụ âm tắc hai môi hữu thanh thường b /b/ đối lập với hút vào 'b /ɓ/ (tiếng Việt b mặc định là [ɓ]); chữ d trong hệ SIL là /d/ (tương đương đ tiếng Việt [ɗ]), KHÔNG đọc là [z] hay [j].",
+      "Các phụ âm tiền thanh hầu hóa ('m /ʔm/, 'n /ʔn/), phụ âm vô thanh hóa (hr, hl, hn) và cụm phụ âm đầu (pl, bl, kl, gl, pr, br, dr, kr, gr) không có trong tiếng Việt hiện đại.",
+      "Các âm cuối -q /ʔ/, -h /h/, -yh/-ih /jh/, -yq/-iq /jʔ/ không tồn tại dưới dạng phụ âm cuối độc lập trong tiếng Việt."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Hrê",
+        "quoc_ngu": "hơ-rê",
+        "note": "Tách cụm phụ âm hr- thành tiền âm tiết cực ngắn 'hơ' nối nhanh vào 'rê' (tránh ngân dài 'hơ')."
+      },
+      {
+        "native": "ùnh",
+        "quoc_ngu": "ùng (hoặc uình)",
+        "note": "Âm vực chùng hà hơi /ʔṳɲ/; tiếng Việt sau u viết -nh phát âm hơi khác nên cần giữ khẩu hình tròn môi kết thúc bằng nh."
+      },
+      {
+        "native": "dheac",
+        "quoc_ngu": "đè-ác (đọc liền 1 âm tiết đẹc/đác)",
+        "note": "dh- tương ứng tắc lợi /d/ kèm âm vực trầm hà hơi + nguyên âm đôi /ɛ̤ak/; tiếng Việt không có vần -eac."
+      },
+      {
+        "native": "poa",
+        "quoc_ngu": "poa (như 'loa', âm đầu p)",
+        "note": "Tiếng Việt ít từ thuần Việt có p- đầu âm tiết nhưng mô hình TTS đọc được nếu giữ nguyên p-."
+      },
+      {
+        "native": "mangai",
+        "quoc_ngu": "ma-ngai",
+        "note": "Tiền âm tiết 'ma' đọc lướt nhẹ, không nhấn trọng âm; trọng âm rơi vào 'ngai'."
+      },
+      {
+        "native": "plây",
+        "quoc_ngu": "pơ-lây",
+        "note": "Cụm pl- không có trong tiếng Việt; xấp xỉ bằng 'pơ-lây' với 'pơ' cực ngắn không thanh điệu."
+      },
+      {
+        "native": "'mâng",
+        "quoc_ngu": "mâng (ngắt thanh hầu đầu âm)",
+        "note": "Từ 'mâng ('như', trong 'mâng lêq 'như thế nào') có âm đầu 'm /ʔm/ cần đóng thanh hầu trước khi mở môi phát âm m; chữ Quốc ngữ chỉ xấp xỉ được phần 'mâng'."
+      },
+      {
+        "native": "kraq",
+        "quoc_ngu": "cơ-rắc",
+        "note": "Cụm kr- đọc lướt 'cơ-r-'; âm cuối -q /ʔ/ xấp xỉ bằng vần khép thanh sắc ngắn (ngắt hơi đột ngột ở thanh hầu, không đóng lưỡi -c/-t quá mạnh)."
+      },
+      {
+        "native": "toh / tòh",
+        "quoc_ngu": "to-hờ / tò-hờ (bật hơi cuối)",
+        "note": "Âm cuối -h /h/ không có trong tiếng Việt; cần thoát hơi xát nhẹ ở cuối nguyên âm o thay vì đọc mở hoàn toàn."
+      },
+      {
+        "native": "caiq",
+        "quoc_ngu": "cai (ngắt hơi nhanh như 'cái' ngắn)",
+        "note": "Vần -aiq /ajʔ/ kết thúc bằng bán nguyên âm /j/ rồi đóng thanh hầu /ʔ/ ngay lập tức."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ùnh",
+        "ipa": "ʔṳɲ",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "dheac",
+        "ipa": "dɛ̤ak",
+        "gloss_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "poa",
+        "ipa": "pɔa",
+        "gloss_vi": "cơm",
+        "gloss_en": "cooked rice"
+      },
+      {
+        "native": "tì",
+        "ipa": "ti̤ː",
+        "gloss_vi": "bàn tay",
+        "gloss_en": "hand"
+      },
+      {
+        "native": "mat",
+        "ipa": "mat",
+        "gloss_vi": "mắt",
+        "gloss_en": "eye"
+      },
+      {
+        "native": "wang",
+        "ipa": "waŋ",
+        "gloss_vi": "núi; vàng",
+        "gloss_en": "mountain; gold"
+      },
+      {
+        "native": "eo",
+        "ipa": "ʔɛw",
+        "gloss_vi": "áo",
+        "gloss_en": "shirt"
+      },
+      {
+        "native": "chùa",
+        "ipa": "cṳə",
+        "gloss_vi": "lợn (heo)",
+        "gloss_en": "pig"
+      },
+      {
+        "native": "mangai",
+        "ipa": "maŋaj",
+        "gloss_vi": "người",
+        "gloss_en": "person"
+      },
+      {
+        "native": "plây",
+        "ipa": "pləj",
+        "gloss_vi": "làng",
+        "gloss_en": "village"
+      },
+      {
+        "native": "loang",
+        "ipa": "lɔaŋ",
+        "gloss_vi": "cây, gỗ",
+        "gloss_en": "tree, wood"
+      },
+      {
+        "native": "caq",
+        "ipa": "kaʔ",
+        "gloss_vi": "ăn",
+        "gloss_en": "to eat"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Hre (hree1244)",
+      "url": "https://glottolog.org/resource/languoid/id/hree1244",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Phillips, Richard L. (1973). Vowel distribution in Hrê. Mon-Khmer Studies 4: 63–68.",
+      "url": "http://sealang.net/sala/archives/pdf8/phillips1973vowel.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A., Kenneth Gregerson & Paul Sidwell (2011). The North Bahnaric Clade: A Computational Approach. Mon-Khmer Studies Journal Special Issue No. 3, pp. 33–47.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Trebilco, Oliver (2018). Hrê – English Dictionary. SIL International.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nghĩa, Đinh, Joyce Trebilco & Oliver Trebilco (1974). 'Boi hŏc bà Hrê = Bài học tiếng Hrê = Hrey language lessons. Sài Gòn: Bộ Giáo dục.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UBND tỉnh Quảng Ngãi / Trung tâm Chuyển đổi số và Đổi mới sáng tạo tỉnh Quảng Ngãi — Cơ sở dữ liệu điện tử tiếng đồng bào dân tộc thiểu số Việt–Hrê, Việt–Co",
+      "url": "https://csdlhreco.nuian.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Hrê",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Hr%C3%AA",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hrê language",
+      "url": "https://en.wikipedia.org/wiki/Hr%C3%AA_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Hre",
+      "url": "https://wals.info/languoid/lect/wals_code_hre",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Category:Hrê language (dẫn nguồn Trebilco 2018)",
+      "url": "https://en.wiktionary.org/wiki/Category:Hr%C3%AA_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "lexicon[16]",
+          "severity": "high",
+          "problem": "Gán sai nghĩa của từ \"'mâng\" là \"ăn\" (to eat). Theo Cơ sở dữ liệu điện tử tiếng Việt–Hrê tỉnh Quảng Ngãi (csdlhreco.nuian.vn), từ có nghĩa \"ăn\" trong tiếng Hrê là \"caq / căq\" /kaʔ/ (ví dụ: caq poa 'ăn cơm', au 'nhòq caq 'tôi chưa ăn'), còn \"'mâng / 'mầng\" có nghĩa là \"như\" (ví dụ: 'mâng lêq 'như thế nào').",
+          "fix": "Sửa mục từ vựng \"ăn\" thành form=\"caq / căq\", ipa=\"kaʔ\", gloss_en=\"to eat\" (confidence=\"high\"), đồng thời cập nhật nghĩa đúng của \"'mâng\" ('như') ở các ghi chú liên quan."
+        },
+        {
+          "path": "phonology.onsets[19].note",
+          "severity": "medium",
+          "problem": "Ví dụ minh họa cho âm đầu 'm /ʔm/ ghi \"'mâng 'ăn'\" là sai nghĩa từ vựng.",
+          "fix": "Sửa thành \"'mâng 'như' (trong 'mâng lêq 'như thế nào'), 'mao / 'mau 'lúa', 'mon 'truyện kể'\"."
+        },
+        {
+          "path": "ml_hints.sample_words[11]",
+          "severity": "high",
+          "problem": "Mục từ mẫu cuối cùng lặp lại lỗi gán \"'mâng\" /ʔməŋ/ = \"ăn\" (to eat).",
+          "fix": "Sửa thành native=\"caq\", ipa=\"kaʔ\", gloss_vi=\"ăn\", gloss_en=\"to eat\"."
+        },
+        {
+          "path": "lexicon[14] & lexicon[15]",
+          "severity": "low",
+          "problem": "Hai mục từ \"capơ / capò\" (con trâu) và \"h'nim / hnim\" (nhà) đã được kiểm chứng trực tiếp trong CSDL điện tử Việt–Hrê tỉnh Quảng Ngãi (csdlhreco.nuian.vn) nhưng đang để biến thể đơn lẻ.",
+          "fix": "Bổ sung biến thể chính tả \"capơ / capò\" và \"h'nim / hnim\" theo đúng ngữ liệu thực tế và nâng confidence lên \"high\"."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết quy tắc chính tả giữa Bộ chữ Hrê Bình Định (2008), CSDL điện tử Quảng Ngãi (csdlhreco.nuian.vn) và bộ chữ SIL (Trebilco 1974/2018), đặc biệt ở cách biểu thị âm vực chùng/hà hơi (dấu huyền so với phụ âm ghép dh-, gh- hoặc nguyên âm đôi chữ).",
+      "Cần bổ sung ký âm chuẩn (ABC/MIDI) và đo đạc thang âm thực tế cho hai làn điệu Di sản văn hóa phi vật thể quốc gia Ta lêu và Ca chôi từ bản thu nghệ nhân tại Ba Tơ, Sơn Hà, Minh Long.",
+      "Cần người bản ngữ các tiểu vùng Ba Tơ (Nuclear Hre), Sơn Hà (Krêq), Sơn Tây – Minh Long (Rabah) và An Lão (Bình Định) xác nhận biến thể ngữ âm theo phương ngữ."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

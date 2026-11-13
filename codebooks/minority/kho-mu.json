@@ -1,0 +1,946 @@
+{
+  "id": "kho-mu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Khơ Mú",
+  "name_en": "Khmu (Eastern Khmu / Khơ Mú)",
+  "autonym": "khoăm Kơhmụ / Kmhmu' / Kmụ",
+  "ethnic_group_vi": "Khơ Mú",
+  "language": {
+    "iso639_3": "kjg",
+    "glottocode": "khmu1255",
+    "family": "Austroasiatic",
+    "branch": "Khmuic"
+  },
+  "regions": [
+    "Nghệ An (Kỳ Sơn, Tương Dương, Quế Phong)",
+    "Điện Biên",
+    "Sơn La",
+    "Lai Châu",
+    "Thanh Hóa (Mường Lát)",
+    "Yên Bái"
+  ],
+  "speakers_estimate": "Dân số dân tộc Khơ Mú tại Việt Nam là 90.612 người (Tổng điều tra dân số 2019), trong đó khoảng 84,8% còn nói tiếng mẹ đẻ (~76.800 người). Tổng số người nói tiếng Khơ Mú trên thế giới khoảng 700.000–800.000 người (tập trung đông nhất ở Bắc Lào).",
+  "scripts": [
+    {
+      "name": "Chữ Latinh Kmhmu' / phiên âm học thuật và cộng đồng",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Spacing Modifier Letters",
+      "official_in_vietnam": false,
+      "note": "Tại Việt Nam, tiếng Khơ Mú chưa có bộ chữ viết chính thức do Nhà nước ban hành thống nhất toàn quốc. Trong từ điển (như Premsrirat et al. 1998 cho phương ngữ Nghệ An), nghiên cứu ngôn ngữ học và các lớp truyền dạy cộng đồng, tiếng Khơ Mú được ghi bằng hệ chữ Latinh Kmhmu' hoặc cách phiên âm dựa trên chữ Quốc ngữ."
+    },
+    {
+      "name": "Chữ Lào mở rộng cho tiếng Khơ Mú",
+      "iso15924": "Laoo",
+      "unicode_block": "Lao",
+      "official_in_vietnam": false,
+      "note": "Được sử dụng rộng rãi tại Lào (nơi cư trú của đa số người Khơ Mú); Unicode từ phiên bản 6.1 (2012) đã mã hóa bổ sung các ký tự chữ Lào dành riêng để ghi tiếng Khơ Mú là U+0EDE (LAO LETTER KHMU GO) và U+0EDF (LAO LETTER KHMU NYO)."
+    },
+    {
+      "name": "Chữ Thái Tây Bắc (sử dụng qua song ngữ Thái – Khơ Mú)",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet",
+      "official_in_vietnam": false,
+      "note": "Không phải chữ viết riêng của tiếng Khơ Mú, nhưng nhiều người Khơ Mú ở Tây Bắc và miền Tây Nghệ An thông thạo tiếng Thái và biết đọc viết chữ Thái."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do mô hình ngôn ngữ tổng hợp từ các công trình nghiên cứu ngữ âm – từ vựng tiếng Khơ Mú (Premsrirat 1998, 2001, 2002; Svantesson 1983; Osborne 2018; Tạ Quang Tùng 2021, 2023; Đặng Nghiêm Vạn et al. 1972). Hệ thống âm vị lấy biến thể Khơ Mú Đông (Eastern Khmu / Khơ Mú Cuang – Nghệ An, Tây Bắc Việt Nam) làm chuẩn tham chiếu chính vì đây là nhóm phương ngữ chủ đạo tại Việt Nam. Quy ước grapheme dựa theo hệ chữ Latinh Kmhmu' phổ biến trong từ điển học Đông Nam Á; cần cộng đồng người Khơ Mú tại Nghệ An và Tây Bắc cùng chuyên gia ngữ âm học thẩm định thực địa.",
+  "phonology": {
+    "syllable_structure": "Cận âm tiết tính / song tiết (sesquisyllabic): (C_p(V_p)(C_f)).C1(C2)V(ː)(C3). Từ âm vị học gồm âm tiết đơn hoặc một tiền âm tiết nhẹ không trọng âm (minor syllable, thường có nguyên âm trung hòa [ə] hoặc âm mũi/lỏng âm tiết tính như km-, hr-, pə-, tər-, prn-) đi trước âm tiết chính mang trọng âm.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "âm tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "âm tắc hai môi vô thanh bật hơi (khác chữ Quốc ngữ 'ph' [f])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "âm tắc hai môi hữu thanh (bảo lưu ở Khơ Mú Đông tại Việt Nam; vô thanh hóa ở Khơ Mú Tây)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "âm tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "âm tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "âm tắc đầu lưỡi hữu thanh (bảo lưu ở Khơ Mú Đông)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "c",
+        "note": "âm tắc mặt lưỡi (vòm) vô thanh không bật hơi, gần 'ch' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "cʰ",
+        "note": "âm tắc mặt lưỡi vô thanh bật hơi (một số tài liệu viết cʰ hoặc khj)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "âm tắc mặt lưỡi hữu thanh (chỉ có ở Khơ Mú Đông)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "âm tắc gốc lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "âm tắc gốc lưỡi vô thanh bật hơi (khác [x] của tiếng Việt Hà Nội)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "âm tắc gốc lưỡi hữu thanh (chỉ có ở Khơ Mú Đông)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / ʔ",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu; đứng trước nguyên âm đầu âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "âm mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm",
+        "ipa": "m̥",
+        "note": "âm mũi hai môi vô thanh (đặc trưng của Khơ Mú Đông)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'m",
+        "ipa": "ˀm",
+        "note": "âm mũi hai môi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "âm mũi đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hn",
+        "ipa": "n̥",
+        "note": "âm mũi đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'n",
+        "ipa": "ˀn",
+        "note": "âm mũi đầu lưỡi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ / nh",
+        "ipa": "ɲ",
+        "note": "âm mũi mặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hñ / hnh",
+        "ipa": "ɲ̥",
+        "note": "âm mũi mặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'ñ / 'nh",
+        "ipa": "ˀɲ",
+        "note": "âm mũi mặt lưỡi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ŋ",
+        "ipa": "ŋ",
+        "note": "âm mũi gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hng / hŋ",
+        "ipa": "ŋ̥",
+        "note": "âm mũi gốc lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'ng / 'ŋ",
+        "ipa": "ˀŋ",
+        "note": "âm mũi gốc lưỡi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "âm xát môi-răng vô thanh, chủ yếu xuất hiện trong từ vay mượn tiếng Thái/Lào/Việt",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "âm xát đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "âm xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "âm bên đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "l̥",
+        "note": "âm bên đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "âm rung đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hr",
+        "ipa": "r̥",
+        "note": "âm rung đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "bán nguyên âm môi-mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hw",
+        "ipa": "w̥",
+        "note": "bán nguyên âm môi-mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'w",
+        "ipa": "ˀw",
+        "note": "bán nguyên âm môi-mềm tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "bán nguyên âm mặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hy",
+        "ipa": "j̊",
+        "note": "bán nguyên âm mặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'y",
+        "ipa": "ˀj",
+        "note": "bán nguyên âm mặt lưỡi tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, pr, bl, br, phl, phr",
+        "ipa": "pl, pr, bl, br, pʰl, pʰr",
+        "note": "tổ hợp phụ âm đầu môi + lỏng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr, dr, thr",
+        "ipa": "tr, dr, tʰr",
+        "note": "tổ hợp phụ âm đầu lưỡi + r",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kl, kr, gl, gr, khl, khr, kw, khw",
+        "ipa": "kl, kr, ɡl, ɡr, kʰl, kʰr, kw, kʰw",
+        "note": "tổ hợp phụ âm gốc lưỡi + lỏng/bán nguyên âm",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "nguyên âm hàng trước khép, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ii",
+        "ipa": "iː",
+        "note": "nguyên âm hàng trước khép, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / e",
+        "ipa": "e",
+        "note": "nguyên âm hàng trước hơi khép, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "êê / ee",
+        "ipa": "eː",
+        "note": "nguyên âm hàng trước hơi khép, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / è / ɛ",
+        "ipa": "ɛ",
+        "note": "nguyên âm hàng trước hơi mở, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ee / èè / ɛɛ",
+        "ipa": "ɛː",
+        "note": "nguyên âm hàng trước hơi mở, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ɨ",
+        "ipa": "ɨ",
+        "note": "nguyên âm hàng giữa khép không tròn môi, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưư / ɨɨ",
+        "ipa": "ɨː",
+        "note": "nguyên âm hàng giữa khép không tròn môi, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ə",
+        "ipa": "ə",
+        "note": "nguyên âm hàng giữa trung bình, ngắn (cũng xuất hiện ở tiền âm tiết)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơơ / əə",
+        "ipa": "əː",
+        "note": "nguyên âm hàng giữa trung bình, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʌʌ",
+        "ipa": "ʌː",
+        "note": "nguyên âm hàng sau hơi mở không tròn môi, dài; tần suất rất thấp, chủ yếu được Svantesson (1983) ghi nhận ở phương ngữ Kammu Yuan",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "nguyên âm mở, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aa",
+        "ipa": "aː",
+        "note": "nguyên âm mở, dài (đối lập độ dài a / aː mang giá trị khu biệt âm vị)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "nguyên âm hàng sau khép tròn môi, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uu",
+        "ipa": "uː",
+        "note": "nguyên âm hàng sau khép tròn môi, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / o",
+        "ipa": "o",
+        "note": "nguyên âm hàng sau hơi khép tròn môi, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ôô / oo",
+        "ipa": "oː",
+        "note": "nguyên âm hàng sau hơi khép tròn môi, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ò / ɔ",
+        "ipa": "ɔ",
+        "note": "nguyên âm hàng sau hơi mở tròn môi, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oo / òò / ɔɔ",
+        "ipa": "ɔː",
+        "note": "nguyên âm hàng sau hơi mở tròn môi, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iə",
+        "ipa": "iə",
+        "note": "nguyên âm đôi hướng tâm hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ɨə",
+        "ipa": "ɨə",
+        "note": "nguyên âm đôi hướng tâm hàng giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uə",
+        "ipa": "uə",
+        "note": "nguyên âm đôi hướng tâm hàng sau",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "âm tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "âm tắc đầu lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / ch",
+        "ipa": "c̚",
+        "note": "âm tắc mặt lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "âm tắc gốc lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / ʔ",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu cuối âm tiết (trung hòa đối lập độ dài nguyên âm đứng trước ở nhiều phương ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "âm mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ / nh",
+        "ipa": "ɲ",
+        "note": "âm mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ŋ",
+        "ipa": "ŋ",
+        "note": "âm mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / ih / yh",
+        "ipa": "ç ~ j̊ ~ s",
+        "note": "âm xát/tiếp cận mặt lưỡi vô thanh ở cuối âm tiết (phản ánh *-s tiền Nam Á)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "âm xát thanh hầu cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "âm bên đầu lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "âm rung đầu lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "bán nguyên âm môi-mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "bán nguyên âm mặt lưỡi cuối âm tiết",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Nhóm phương ngữ Khơ Mú Đông (Eastern Khmu — gồm Khơ Mú Cuang, Khơ Mú Uu, phân bố chủ đạo ở Nghệ An, Thanh Hóa, Sơn La, Điện Biên, Lai Châu của Việt Nam) KHÔNG có thanh điệu và không có đối lập âm vực nguyên âm; thay vào đó bảo lưu đối lập 3 loạt âm tắc (vô thanh / bật hơi / hữu thanh) và 3 loạt âm vang (hữu thanh / vô thanh / tiền thanh hầu hóa) ở đầu âm tiết. Ngược lại, nhóm Khơ Mú Tây (Western Khmu — chủ yếu ở Bắc Lào, Thái Lan, Vân Nam) đã vô thanh hóa âm đầu hữu thanh để hình thành đối lập 2 âm vực (căng/modal so với lơi/hà hơi breathy) hoặc 2 thanh điệu (cao ~ [44]/[55] và thấp ~ [21]/[11], tiêu biểu ở Kammu Yuan và Khmu Rook)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người / người Khơ Mú",
+      "form": "kmhmu'",
+      "ipa": "kmm̥uʔ ~ kʰmuʔ",
+      "gloss_en": "person / Khmu people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng nói / ngôn ngữ",
+      "form": "khoăm",
+      "ipa": "kʰwam",
+      "gloss_en": "language / speech (Tai loan)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "om",
+      "ipa": "ʔom",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "phrưa",
+      "ipa": "pʰrɨə",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mưa",
+      "form": "kma'",
+      "ipa": "kmaʔ",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá",
+      "form": "hla'",
+      "ipa": "l̥aʔ",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mat",
+      "ipa": "mat",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "mooy",
+      "ipa": "moːj",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "baar",
+      "ipa": "baːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quét",
+      "form": "po'",
+      "ipa": "pɔʔ",
+      "gloss_en": "to sweep",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái chổi",
+      "form": "prno'",
+      "ipa": "prnɔʔ",
+      "gloss_en": "broom (derived with instrumental infix -rn-)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhìn / thấy",
+      "form": "kle'",
+      "ipa": "kleʔ ~ klɛʔ",
+      "gloss_en": "to see / look",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bắn",
+      "form": "piñ",
+      "ipa": "piɲ",
+      "gloss_en": "to shoot",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "viết",
+      "form": "tem",
+      "ipa": "tɛm",
+      "gloss_en": "to write",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Tơm (Tơm)",
+        "note": "Thể loại dân ca đặc trưng và phổ biến nhất của người Khơ Mú tại Nghệ An, Thanh Hóa, Điện Biên, Sơn La; mang tính trữ tình – tự sự và ứng tác lời tại chỗ, dùng trong hát giao duyên, mừng nhà mới, đám cưới, lễ Tết, thường hòa quyện với tiếng sáo pí tơm."
+      },
+      {
+        "name": "Hát Kưn chơ",
+        "note": "Làn điệu hát gọi nhau khi đi đường rừng, lên nương hoặc xuống chợ; âm lượng vang, khỏe khoắn, tiết tấu tự do."
+      },
+      {
+        "name": "Hát nghi lễ (lễ cầu mưa Om đin om đa, Tết Gơ rơ, lễ mừng cơm mới)",
+        "note": "Các bài khấn và hát nghi lễ nông nghiệp nương rẫy gắn với múa tra hạt (tẹ chư moi), múa đao, múa cá lượn."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến ngân theo hơi sáo pí tơm",
+        "description": "Giọng hát luyến mềm và ngân rung ở cuối câu thơ ứng tác, bám sát cao độ và tiếng láy của ống sáo nứa pí tơm.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Xướng gọi mở đầu câu (lối hát đối Tơm / Kưn chơ)",
+        "description": "Âm mở đầu kéo dài ở quãng cao để gây chú ý hoặc mở lối trước khi vào phần kể chuyện/đối đáp tiết tấu đều.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dân gian Khơ Mú gắn với hàng âm pí tơm",
+        "note": "Thường dựa trên cấu trúc thang âm khuyết (4–5 âm) tương ứng với các lỗ bấm của sáo pí tơm; chưa có công trình chuẩn hóa ký âm cao độ tuyệt đối thống nhất giữa các vùng Tây Bắc và Nghệ An.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Pí tơm (sáo nứa dọc đệm hát Tơm)"
+      },
+      {
+        "name": "Đao (ống nứa chẻ đôi gõ vào đùi/tay tạo tiết tấu vừa hát vừa múa)"
+      },
+      {
+        "name": "Tính tờ rang (nhạc cụ tre nứa đệm hát Tơm ở Nghệ An)"
+      },
+      {
+        "name": "Pí lơm blang (nhạc cụ hơi bằng nứa thổi theo điệu Tơm)"
+      },
+      {
+        "name": "Hưn mạy (đàn môi bằng tre)"
+      },
+      {
+        "name": "Tót (sáo mũi)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "phonological_cautions_for_vietnamese_models": "Tiếng Khơ Mú (phương ngữ Đông tại Việt Nam) không có thanh điệu nhưng có tiền âm tiết (sesquisyllable), tổ hợp phụ âm đầu (pl, pr, kl, kr, phr...), âm vang vô thanh (hm, hn, hl, hr) và nhiều âm cuối không tồn tại trong tiếng Việt (-r, -l, -h, -ʔ, -ç). Mô hình TTS/SVS tiếng Việt nếu đọc thẳng mặt chữ Latinh sẽ tự gán thanh ngang hoặc thanh sắc và làm rơi phụ âm cuối.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "Kmhmu'",
+        "quoc_ngu": "cờ-hờ-mụ",
+        "note": "Tiền âm tiết km- và âm mũi vô thanh [m̥] cùng tắc thanh hầu cuối [-ʔ] không có trong tiếng Việt; dùng thanh nặng 'mụ' để mô phỏng gần đúng độ ngắt thanh hầu cuối."
+      },
+      {
+        "native": "om",
+        "quoc_ngu": "om",
+        "note": "Khá gần vần 'om' tiếng Việt nhưng không khép ngậm môi-mềm [oŋ͡m] như một số phương ngữ Việt."
+      },
+      {
+        "native": "phrưa",
+        "quoc_ngu": "pờ-hờ-rưa",
+        "note": "Trong tiếng Khơ Mú 'ph' là âm tắc bật hơi [pʰ] đi trong tổ hợp [pʰr], KHÔNG phải âm xát [f] như chữ 'ph' Quốc ngữ."
+      },
+      {
+        "native": "kma'",
+        "quoc_ngu": "cờ-mạ",
+        "note": "Tiền âm tiết k- đọc lướt rất ngắn, không nhấn trọng âm; dấu nặng mô phỏng gần đúng âm tắc thanh hầu cuối [-ʔ]."
+      },
+      {
+        "native": "hla'",
+        "quoc_ngu": "hờ-lạ",
+        "note": "Âm bên vô thanh [l̥] không có trong tiếng Việt; tách nhẹ luồng hơi 'hờ' cực ngắn trước 'lạ'."
+      },
+      {
+        "native": "mooy",
+        "quoc_ngu": "môi",
+        "note": "Nguyên âm [oː] dài kết hợp bán nguyên âm [-j]; tiếng Việt 'môi' ngắn hơn một chút."
+      },
+      {
+        "native": "baar",
+        "quoc_ngu": "ba-rờ",
+        "note": "Âm cuối rung [-r] không có trong tiếng Việt chuẩn; nếu ghép vào mô hình hát cần nối nhẹ âm [r] rất ngắn hoặc chấp nhận mở thành 'ba'."
+      },
+      {
+        "native": "kle'",
+        "quoc_ngu": "cờ-lẹ",
+        "note": "Tổ hợp phụ âm đầu [kl-] và tắc thanh hầu cuối [-ʔ] không có trong tiếng Việt hiện đại."
+      },
+      {
+        "native": "prno'",
+        "quoc_ngu": "pơ-rơ-nọ",
+        "note": "Tiền âm tiết phức chứa trung tố công cụ -rn- đọc lướt nhanh trước âm tiết chính [nɔʔ]."
+      },
+      {
+        "native": "mah",
+        "quoc_ngu": "ma-hờ",
+        "note": "Âm xát thanh hầu cuối [-h] không có trong tiếng Việt; kết thúc bằng luồng hơi mở nhẹ thay vì khép thanh môn."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Khơ Mú Đông (Eastern Khmu: Khmu Cuang, Khmu Uu, Khơ Mú Nghệ An – Tây Bắc)",
+        "iso639_3": "kjg",
+        "note": "Biến thể chính tại Việt Nam (Nghệ An, Thanh Hóa, Sơn La, Điện Biên, Lai Châu) và Đông Bắc Lào (Xiêng Khoảng, Hủa Phăn, Luang Prabang, Phôngsali). Không có thanh điệu/âm vực, giữ nguyên phụ âm tắc hữu thanh và âm vang vô thanh."
+      },
+      {
+        "name": "Khơ Mú Tây (Western Khmu: Kammu Yuan, Khmu Rook, Khmu Lue, Khmu Khroong)",
+        "iso639_3": "kjg",
+        "note": "Phân bố chủ yếu ở Tây Bắc Lào (Oudomxay, Luang Namtha, Bokeo), Bắc Thái Lan (Nan, Chiang Rai) và Vân Nam (Trung Quốc). Đã mất âm tắc hữu thanh đầu âm tiết và phát triển hệ thống 2 âm vực (căng/hà hơi) hoặc 2 thanh điệu (cao/thấp)."
+      },
+      {
+        "name": "Khơ Mú Khwen (Khuen / Kmhmu' Khwen)",
+        "iso639_3": "khf",
+        "note": "Ngôn ngữ/biến thể thuộc nhánh Khmuic (Glottocode: khue1238) rất gần gũi với phương ngữ Yuan của tiếng Khơ Mú tại tỉnh Luang Namtha (Lào)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "kmhmu'",
+        "ipa": "kmm̥uʔ",
+        "gloss_vi": "người Khơ Mú / con người",
+        "gloss_en": "Khmu person"
+      },
+      {
+        "native": "om",
+        "ipa": "ʔom",
+        "gloss_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "phrưa",
+        "ipa": "pʰrɨə",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "kma'",
+        "ipa": "kmaʔ",
+        "gloss_vi": "mưa",
+        "gloss_en": "rain"
+      },
+      {
+        "native": "hla'",
+        "ipa": "l̥aʔ",
+        "gloss_vi": "lá",
+        "gloss_en": "leaf"
+      },
+      {
+        "native": "mat",
+        "ipa": "mat",
+        "gloss_vi": "mắt",
+        "gloss_en": "eye"
+      },
+      {
+        "native": "mooy",
+        "ipa": "moːj",
+        "gloss_vi": "một",
+        "gloss_en": "one"
+      },
+      {
+        "native": "baar",
+        "ipa": "baːr",
+        "gloss_vi": "hai",
+        "gloss_en": "two"
+      },
+      {
+        "native": "kle'",
+        "ipa": "kleʔ ~ klɛʔ",
+        "gloss_vi": "nhìn / thấy",
+        "gloss_en": "to see"
+      },
+      {
+        "native": "piñ",
+        "ipa": "piɲ",
+        "gloss_vi": "bắn",
+        "gloss_en": "to shoot"
+      },
+      {
+        "native": "po'",
+        "ipa": "pɔʔ",
+        "gloss_vi": "quét",
+        "gloss_en": "to sweep"
+      },
+      {
+        "native": "prno'",
+        "ipa": "prnɔʔ",
+        "gloss_vi": "cái chổi",
+        "gloss_en": "broom"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Khmu (khmu1255)",
+      "url": "https://glottolog.org/resource/languoid/id/khmu1255",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Premsrirat, Suwilai, Lô Văn Tuấn, Mayuree Thawornpat & Trịnh Diệu Thìn (1998). Nghe An Khmu-Vietnamese-Thai-English Dictionary. Salaya: Institute of Language and Culture for Rural Development, Mahidol University.",
+      "url": "https://repository.li.mahidol.ac.th/handle/123456789/36960",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Premsrirat, Suwilai (2001). Tonogenesis in Khmu dialects of SEA. Mon-Khmer Studies 31: 47–56.",
+      "url": "http://sealang.net/sala/archives/pdf8/suwilai2001tonogenesis.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Khmu language",
+      "url": "https://en.wikipedia.org/wiki/Khmu_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Khơ Mú & Người Khơ Mú",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Kh%C6%A1_M%C3%BA",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Svantesson, Jan-Olof (1983). Kammu Phonology and Morphology. Travaux de l'Institut de Linguistique de Lund XVIII. Lund: CWK Gleerup.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Osborne, R. Anne (2018). A phonology of Eastern Kmhmu' with special reference to palatal continuant codas and neutralisation of vowel length contrast. Journal of the Southeast Asian Linguistics Society 11(2): 67–86.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Quang Tùng (2023). Phương thức phụ tố trong tiếng Khơ Mú ở Việt Nam. Tạp chí Ngôn ngữ, số 11(346).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Đặng Nghiêm Vạn, Nguyễn Trúc Bình, Nguyễn Văn Huy & Thanh Thiên (1972). Những nhóm dân tộc thuộc ngữ hệ Nam Á ở Tây Bắc Việt Nam. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "scripts[1].note",
+          "severity": "medium",
+          "problem": "Ghi sai phiên bản Unicode: hai ký tự chữ Lào dành riêng cho tiếng Khơ Mú là U+0EDE (LAO LETTER KHMU GO) và U+0EDF (LAO LETTER KHMU NYO) được mã hóa từ Unicode 6.1 (năm 2012), không phải Unicode 12.0.",
+          "fix": "Sửa 'Unicode từ phiên bản 12.0' thành 'Unicode từ phiên bản 6.1 (2012)'."
+        },
+        {
+          "path": "ml_hints.sub_varieties[2].note",
+          "severity": "medium",
+          "problem": "Sai mã Glottocode của ngôn ngữ/biến thể Khuen (ISO 639-3: khf): trên Glottolog 5.3 mã đúng là 'khue1238', không phải 'khue1239'.",
+          "fix": "Sửa Glottocode thành 'khue1238'."
+        },
+        {
+          "path": "lexicon[9..10], ml_hints.quoc_ngu_approximation[8], ml_hints.sample_words[10..11]",
+          "severity": "high",
+          "problem": "Mâu thuẫn nội tại giữa chữ viết (form) và phiên âm IPA cho cặp từ 'quét' [pɔʔ] và 'cái chổi' [prnɔʔ] (Svantesson 1983). Nguyên âm chính là nguyên âm hàng sau hơi mở tròn môi /ɔ/ (trong bảng vowels được quy ước viết bằng 'o / ò / ɔ'), nhưng mục từ vựng lại viết bằng con chữ 'ơ' ('pơ'', 'prnơ'') vốn đại diện cho /ə/.",
+          "fix": "Sửa form thành 'po'' (hoặc 'po' / pò'') và 'prno'' (hoặc 'prno' / prnò''), đồng thời chỉnh lại xấp xỉ Quốc ngữ thành 'pơ-rơ-nọ' cho khớp với nguyên âm /ɔ/."
+        },
+        {
+          "path": "phonology.vowels[10]",
+          "severity": "low",
+          "problem": "Nguyên âm /ʌː/ ('ʌʌ') thực chất được Svantesson (1983) ghi nhận với tần suất cực hiếm ở phương ngữ Kammu Yuan (Khơ Mú Tây/Bắc), trong khi mô tả ngữ âm Khơ Mú Đông (Osborne 2018) xác lập 10 phẩm chất nguyên âm cơ bản cộng 3 nguyên âm đôi mà không tách /ʌː/ thành âm vị phổ biến.",
+          "fix": "Hạ confidence của 'ʌʌ' xuống 'low' và ghi chú rõ nguồn Svantesson (1983) để tránh nhầm lẫn với hệ nguyên âm cốt lõi của Khơ Mú Đông."
+        },
+        {
+          "path": "lexicon[11]",
+          "severity": "low",
+          "problem": "Từ 'nhìn / thấy' ('kle'') trong tài liệu so sánh Nam Á (Sidwell 2024; Premsrirat 2002) thường được ghi nhận là [kleʔ] bên cạnh biến thể [klɛʔ].",
+          "fix": "Cập nhật trường ipa của 'kle'' thành 'kleʔ ~ klɛʔ' ở cả lexicon và sample_words."
+        },
+        {
+          "path": "ml_hints",
+          "severity": "low",
+          "problem": "Tên trường 'phonological_ cautions_for_vietnamese_models' bị thừa một khoảng trắng sau dấu gạch dưới.",
+          "fix": "Đổi tên khóa thành 'phonological_cautions_for_vietnamese_models'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Khơ Mú ở Việt Nam chưa có bộ chữ Latinh chuẩn hóa cấp nhà nước; cần đối chiếu quy ước viết con chữ giữa tài liệu điền dã ở Nghệ An (Kỳ Sơn, Tương Dương) và ở Tây Bắc (Điện Biên, Sơn La).",
+      "Cần kiểm chứng mức độ xuất hiện hiện tượng manh nha thanh điệu / âm vực do tiếp xúc song ngữ lâu dài với tiếng Thái và tiếng Việt ở người nói trẻ tuổi tại Việt Nam.",
+      "Cần nhạc sĩ dân tộc nhạc học ký âm chuẩn (ABC/MIDI) cho các làn điệu Hát Tơm và Kưn chơ kèm thang âm thực tế của sáo pí tơm."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

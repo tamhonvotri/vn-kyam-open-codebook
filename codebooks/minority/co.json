@@ -1,0 +1,877 @@
+{
+  "id": "co",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Co",
+  "name_en": "Cua (Co / Cor)",
+  "autonym": "Xroi Kool / Pok Kool (Cor, Col)",
+  "ethnic_group_vi": "Co",
+  "language": {
+    "iso639_3": "cua",
+    "glottocode": "cuaa1241",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (East Bahnaric)"
+  },
+  "regions": [
+    "Quảng Ngãi (Trà Bồng, vùng Tây Trà cũ, Sơn Hà)",
+    "Quảng Nam (Bắc Trà My, Nam Trà My, Tiên Phước, Núi Thành)",
+    "Kon Tum (rải rác)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Co là 40.442 người (Tổng điều tra 53 DTTS năm 2019); số người nói bản ngữ ước tính khoảng 12.000–28.000 người tùy nguồn (song ngữ Việt–Co rất phổ biến; tỷ lệ người từ 15 tuổi trở lên biết đọc, viết chữ dân tộc mình chỉ đạt khoảng 0,8% theo điều tra 2019).",
+  "scripts": [
+    {
+      "name": "Chữ Cua Latinh (SIL / trước 1975)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ Latinh do Viện Chuyên khảo Ngữ học (SIL — Jacqueline G. Maier, Eva Burton, Đinh Đổ, Đinh Mốc) xây dựng trước năm 1975 dựa trên phương ngữ thung lũng Trà Bồng (Quảng Ngãi). Quy ước chính: dùng q cho âm tắc thanh hầu /ʔ/, qb và qd cho âm tắc hút vào /ɓ, ɗ/, nhân đôi con chữ nguyên âm (aa, oo, êê...) để ghi nguyên âm dài trong âm tiết đóng."
+    },
+    {
+      "name": "Bộ chữ dân tộc Cor Latinh (Quảng Nam, 2014–2015)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Bộ chữ Latinh gần gũi chữ Quốc ngữ thuộc đề tài KH&CN cấp tỉnh 'Nghiên cứu hoàn chỉnh bộ chữ dân tộc Cor – Biên soạn sách dạy và học tiếng Cor' (Xroi Kool, do PGS.TS. Tạ Văn Thông chủ nhiệm, UBND tỉnh Quảng Nam công nhận năm 2015), lấy phương ngữ vùng Bắc Trà My làm cơ sở. Hiện mới dùng trong tài liệu bồi dưỡng và bảo tồn, chưa phổ biến rộng rãi trong cộng đồng."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình ngữ âm học và lịch sử ngôn ngữ đã công bố về tiếng Co/Cua (Maier 1969; Đinh Đổ, Đinh Mốc & Maier 1974/1977; Maier & Burton 1981; Sidwell 2009, 2010) kết hợp thông tin về bộ chữ Cor ở Quảng Nam (Tạ Văn Thông & Tạ Quang Tùng 2013–2015) và tư liệu dân tộc học. Hệ thống ánh xạ grapheme -> IPA dưới đây chủ yếu dựa trên bộ chữ Latinh Cua của Maier (1969) do đây là hệ thống có mô tả âm vị học đầy đủ nhất được công bố quốc tế; bảng đối chiếu cụ thể của bộ chữ Cor Quảng Nam (2015) cần bổ sung khi tiếp cận trực tiếp sách Xroi Kool.",
+  "phonology": {
+    "syllable_structure": "(C1ə)C2(C3)V(ː)(C4) — cấu trúc đơn âm tiết hoặc bán âm tiết (sesquisyllabic): tiền âm tiết nhẹ không mang trọng âm C1ə (nguyên âm trung hòa /ə/ viết là a trong chính tả SIL: pa-, ta-, cha-, ka-, va-, da-, ja-, ga-, ma-, ra-, sa-, ha-, (q)a-) + âm tiết chính mang trọng âm C2(C3)V(ː)(C4).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc đôi môi vô thanh không bật hơi (đứng đầu từ được, khác tiếng Việt phổ thông)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch (hoặc c trong phiên âm âm vị học của Sidwell 2010)",
+        "ipa": "c",
+        "note": "Tắc ngạc cứng vô thanh; Maier (1969) viết là ch (vd: chowah 'cát'), còn Sidwell (2010) chuẩn hóa âm vị học thành c",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q (hoặc không ghi trước nguyên âm đầu từ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu; đầu từ trước nguyên âm thường lược bỏ chữ q trong chính tả SIL",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc đôi môi bật hơi (không phải âm xát môi-răng /f/ như tiếng Việt hiện đại)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc lợi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (không phải âm xát /x/ như tiếng Việt Hà Nội); ví dụ khwal 'xoăn'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc đôi môi hữu thanh thường (phân biệt âm vị học với âm hút vào qb /ɓ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc lợi hữu thanh thường (phân biệt âm vị học với âm hút vào qd /ɗ/, không đọc /z/ hay /j/ như chữ d Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc ngạc cứng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh (không phải âm xát /ɣ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qb (hoặc ƀ)",
+        "ipa": "ɓ",
+        "note": "Tắc đôi môi hút vào / tiền thanh hầu hóa (tương đương âm b trong tiếng Việt); ví dụ qblâk /ɓlək/ 'mọc mầm'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qd (hoặc đ)",
+        "ipa": "ɗ",
+        "note": "Tắc lợi hút vào / tiền thanh hầu hóa (tương đương âm đ trong tiếng Việt); ví dụ mâk aqdrâng /mək ʔaɗrəŋ/ 'cửa nhà dài'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh; xuất hiện ở tiền âm tiết va- (vd: valuk 'hồ nước') hoặc đầu âm tiết chính (vd: vluk 'chết đuối', vâlh kanoong 'loài rắn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi đôi môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm, hn, hng",
+        "ipa": "m̥, n̥, ŋ̊",
+        "note": "Âm mũi vô thanh / tiền bật hơi; Maier (1969: 16) phân tích là tổ hợp phụ âm h + phụ âm mũi (ví dụ ahnoom 'bọc, quấn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qn, qnh, qng",
+        "ipa": "ˀn, ˀɲ, ˀŋ",
+        "note": "Âm mũi tiền thanh hầu hóa; Maier (1969: 11) phân tích là tổ hợp phụ âm q + phụ âm mũi thay vì âm vị đơn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận bên lợi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl, hr, hy",
+        "ipa": "ʰl ~ l̥, ʰr ~ r̥, ʰj ~ ç",
+        "note": "Âm tiếp cận/rung tiền bật hơi hoặc vô thanh; Maier (1969: 16) phân tích là cụm phụ âm h + l/r/y (ví dụ kahlah 'bóc vỏ cây', ahra 'vặn vẹo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm đóng trước ngắn (trong âm tiết mở tự động đọc dài [iː])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ii",
+        "ipa": "iː",
+        "note": "Nguyên âm đóng trước dài trong âm tiết đóng; ví dụ hiip 'ngửi', siil 'đào', iil 'gà'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng trước ngắn; ngoài ra Maier (1969: 16–17, Chart II) còn ghi nhận một nguyên âm cao-giữa î rất hiếm, chỉ xuất hiện trong âm tiết đóng trước -q và -h",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "êê (Sidwell 2010 viết là ee)",
+        "ipa": "eː",
+        "note": "Nguyên âm nửa đóng trước dài trong chính tả Maier (1969); ví dụ sêêp /seːp/ 'chim', thêêp /tʰeːp/ 'thêm'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở trước ngắn; ví dụ heq 'béo'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ee",
+        "ipa": "ɛː",
+        "note": "Nguyên âm nửa mở trước dài trong chính tả Maier (1969)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm đóng giữa không tròn môi ngắn; ví dụ sanưm 'năm'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm đóng giữa không tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â / ơ",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa ngắn (trong chính tả Maier 1969 Chart II ghi bằng â cho âm ngắn như gâl /ɡəl/, qblâk /ɓlək/, và ơ trong âm tiết mở)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa dài (Maier 1969 Chart II)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (trong tiền âm tiết CV không trọng âm phát âm trung hòa thành [ə])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aa",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài trong âm tiết đóng; ví dụ daak /daːk/ 'nước', baal /baːl/ 'hai', klaat 'sương mù'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm đóng sau tròn môi ngắn; ví dụ vluk 'chết đuối'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uu",
+        "ipa": "uː",
+        "note": "Nguyên âm đóng sau tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng sau tròn môi ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ôô",
+        "ipa": "oː",
+        "note": "Nguyên âm nửa đóng sau tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở sau tròn môi ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oo",
+        "ipa": "ɔː",
+        "note": "Nguyên âm nửa mở sau tròn môi dài; ví dụ kook /kɔːk/ 'vòng tay', Kool /kɔːl/ 'người Co', gahooch 'huýt sáo'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước đóng (Maier 1969 Chart II)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "êa",
+        "ipa": "eə",
+        "note": "Nguyên âm đôi hướng tâm trước nửa đóng (Maier 1969 Chart II)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau đóng (Maier 1969 Chart II)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ôa",
+        "ipa": "oə",
+        "note": "Nguyên âm đôi hướng tâm sau nửa đóng (Maier 1969 Chart II)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ẽ, ã, õo...",
+        "ipa": "ɛ̃, ã, ɔ̃ː",
+        "note": "Nguyên âm mũi hóa đối lập (tần suất thấp, luôn đi kèm q hoặc h trong từ, ký hiệu bằng dấu ngã ~ trong Maier 1969: 17; ví dụ sanưm hẽ '3 năm trước', hõoch 'tràn')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc đôi môi vô thanh không bật ra; nhiều từ gốc Proto-Bahnaric *-m đổi thành -p trong tiếng Co (vd: *ceːm -> sêêp /seːp/ 'chim')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật ra; nhiều từ gốc *-n đổi thành -t (vd: koot 'con, đứa trẻ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc ngạc cứng cuối từ (có âm lướt [ʲ] đi trước sau nguyên âm giữa/sau); ví dụ gahooch 'huýt sáo'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm cuối từ; nhiều từ gốc *-ŋ đổi thành -k (vd: kook 'vòng tay')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối từ, ngắt luồng hơi đột ngột; ví dụ kooq /kɔːʔ/ 'trắng', heq 'béo'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi đôi môi cuối từ (chỉ khoảng 8% từ vựng có âm cuối mũi do phần lớn đã biến đổi sang âm tắc vô thanh); ví dụ ahnoom 'bọc, quấn'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi cuối từ; ví dụ tanoon 'khố'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối từ; theo Maier (1969: 13), đối lập /-ɲ/ và /-ŋ/ trung hòa ở cuối từ thành [-ŋ] (trừ sau ê có thể biến thể [-ŋ ~ -ɲ]); ví dụ vâlh kanoong 'loài rắn'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên lợi cuối từ (tiếng Việt không có âm cuối này); ví dụ gâl /ɡəl/ 'trống', baal /baːl/ 'hai', iil 'gà'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "lh",
+        "ipa": "l̥",
+        "note": "Bên lợi vô thanh cuối từ — âm vị cuối đặc thù của tiếng Co theo Maier (1969: 13–14); ví dụ gâlh 'sưng', qolh /ʔɔl̥/ 'lửa' (Sidwell 2010)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối từ, thở ra rõ ở cuối âm tiết; ví dụ parah 'dự trữ', chowah (Sidwell: cawah) 'cát'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng cuối từ; ví dụ ôl jaray 'tên một loài cây'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mềm cuối từ; ví dụ ôl paraw 'tên một loài cây'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yh",
+        "ipa": "jh ~ ç",
+        "note": "Xát lợi-ngạc cứng vô thanh / bán nguyên âm ngạc cứng vô thanh hóa cuối từ theo Maier (1969: 13–14); ví dụ parayh 'gảy đàn bằng ngón tay'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yq",
+        "ipa": "jʔ",
+        "note": "Bán nguyên âm ngạc cứng hậu thanh hầu hóa; ví dụ muyq /mujʔ/ 'một', rangwayq 'nhạc cụ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "wq",
+        "ipa": "wʔ",
+        "note": "Bán nguyên âm môi-mềm hậu thanh hầu hóa; ví dụ varawq 'lạ, khác thường'",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (non-tonal) và không có hệ thống đối lập âm vực giọng thở/giọng kẹt (unrestructured Mon-Khmer vowel system theo Sidwell 2010 & Maier 1969) — điểm khác biệt quan trọng so với các ngôn ngữ Bahnar Bắc láng giềng như Xơ Đăng, Hrê, Rơ Ngao. Thay vào đó, tiếng Co bảo lưu đối lập phụ âm tắc vô thanh / hữu thanh thường / hút vào (p–b–ɓ, t–d–ɗ), đối lập độ dài nguyên âm (ngắn/dài), mũi hóa nguyên âm hạn chế, và chuỗi âm cuối thanh hầu hóa/vô thanh hóa phong phú (-q, -h, -lh, -yh, -yq, -wq)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "daak",
+      "ipa": "daːk",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "sêêp (Sidwell: seep)",
+      "ipa": "seːp",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "sa",
+      "ipa": "saː",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "muyq",
+      "ipa": "mujʔ",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "baal",
+      "ipa": "baːl",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trắng",
+      "form": "kooq",
+      "ipa": "kɔːʔ",
+      "gloss_en": "white",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con / đứa trẻ",
+      "form": "koot",
+      "ipa": "kɔːt",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con rùa",
+      "form": "ô koop",
+      "ipa": "ʔoː kɔːp",
+      "gloss_en": "turtle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái trống",
+      "form": "gâl",
+      "ipa": "ɡəl",
+      "gloss_en": "drum",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cát",
+      "form": "chowah (Sidwell: cawah)",
+      "ipa": "cəwah",
+      "gloss_en": "sand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chín (quả)",
+      "form": "doop",
+      "ipa": "dɔːp",
+      "gloss_en": "ripe",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "viết",
+      "form": "chih (Sidwell: cih)",
+      "ipa": "cih",
+      "gloss_en": "to write",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mọc mầm",
+      "form": "qblâk",
+      "ipa": "ɓlək",
+      "gloss_en": "to sprout",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái khố",
+      "form": "tanoon",
+      "ipa": "tanɔːn",
+      "gloss_en": "loincloth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Co / người miền núi",
+      "form": "Kool",
+      "ipa": "kɔːl",
+      "gloss_en": "Cua person / montagnard",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Xru (Klu)",
+        "note": "Làn điệu dân ca trữ tình, hát giao duyên, đối đáp phổ biến nhất của người Co trong lao động và sinh hoạt cộng đồng."
+      },
+      {
+        "name": "Agiới (A giới)",
+        "note": "Điệu dân ca truyền thống của người Co, thường diễn xướng trong lễ hội mùa, lễ ăn trâu và sinh hoạt tập thể."
+      },
+      {
+        "name": "Đấu chiêng (Chiêng đối đáp) & Múa cà đáo (ka đấu)",
+        "note": "Nghệ thuật diễn tấu cồng chiêng đặc sắc của người Co (gồm các bài chiêng chào khách, cúng thần, tiễn khách và đấu chiêng đôi giữa 3 nghệ nhân: 2 chiêng + 1 trống a-gơl, kết hợp đội nữ múa cà đáo). 'Nghệ thuật cồng chiêng của người Cor' ở Trà Bồng (Quảng Ngãi) được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2019."
+      },
+      {
+        "name": "Hát ru, hát lý - nói lý, hát tế lễ",
+        "note": "Gắn với chu kỳ canh tác lúa rẫy, trồng quế, Tết Ngã rạ (Giã rạ), lễ ăn cơm mới và lễ cầu mưa."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dân gian Trường Sơn – Bắc Tây Nguyên & tiết tấu đối đáp chiêng đôi",
+        "note": "Chưa có công trình ký âm chuẩn hóa thang âm tiếng Co bằng ABC/MIDI để trích dẫn chính xác; trong đấu chiêng nổi bật lối đánh ngẫu hứng tiết tấu dồn dập đối đáp giữa chiêng vợ và chiêng chồng trên nền nhịp trống giữ chuẩn.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Chiêng (chếch / chéc tok, chéc tup)",
+        "note": "Thường biên chế bộ chiêng đôi (chiêng vợ, chiêng chồng) hoặc bộ 3 chiếc"
+      },
+      {
+        "name": "Trống (gâl / a-gơl)",
+        "note": "Trống hai mặt da giữ nhịp và làm trọng tài tiết tấu trong đấu chiêng"
+      },
+      {
+        "name": "Đàn brook (brốk)",
+        "note": "Nhạc cụ dây truyền thống âm sắc trong trẻo, dùng độc tấu hoặc đệm hát dân ca"
+      },
+      {
+        "name": "Sáo tà lía",
+        "note": "Sáo dọc 6 lỗ bằng nứa, thổi ban đêm hoặc trên nương rẫy"
+      },
+      {
+        "name": "Trống đất",
+        "note": "Nhạc cụ nghi lễ độc đáo tạo ngay trên mặt đất trong lễ cầu mưa ở Bắc Trà My"
+      },
+      {
+        "name": "Đàn nhị, đàn nước, đàn gió, chinh kla, ra đoang",
+        "note": "Các nhạc cụ dân gian và dụng cụ âm thanh gắn với đời sống nương rẫy"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Kol (Kool Doot / Kool Taal / Cor / Col / Dot)",
+        "iso639_3": "cua",
+        "region": "Vùng núi cao Trà Bồng, Tây Trà cũ (Quảng Ngãi) và Bắc Trà My, Nam Trà My (Quảng Nam)",
+        "note": "Phương ngữ vùng cao ('người đường rừng'); cơ sở của bộ chữ Cor Quảng Nam (2014–2015)."
+      },
+      {
+        "name": "Traw (Kool Dong / Trầu / Đồng)",
+        "iso639_3": "cua",
+        "region": "Thung lũng Trà Bồng (Quảng Ngãi)",
+        "note": "Phương ngữ vùng thung lũng ('người đường nước'); cơ sở mô tả âm vị học của Maier (1969) và sách học tiếng Cua năm 1974."
+      }
+    ],
+    "contact_languages": [
+      {
+        "name": "Tiếng Việt",
+        "iso639_3": "vie",
+        "note": "Ngôn ngữ giao tiếp phổ thông; hầu hết người Co song ngữ Việt–Co."
+      },
+      {
+        "name": "Tiếng Hrê",
+        "iso639_3": "hre",
+        "note": "Người Co ở vùng giáp ranh huyện Sơn Hà (Quảng Ngãi) có thể nói tiếng Hrê."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "daak",
+        "ipa": "daːk",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "sêêp (Sidwell: seep)",
+        "ipa": "seːp",
+        "meaning_vi": "chim"
+      },
+      {
+        "native": "sa",
+        "ipa": "saː",
+        "meaning_vi": "ăn"
+      },
+      {
+        "native": "muyq",
+        "ipa": "mujʔ",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "baal",
+        "ipa": "baːl",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "kooq",
+        "ipa": "kɔːʔ",
+        "meaning_vi": "trắng"
+      },
+      {
+        "native": "koot",
+        "ipa": "kɔːt",
+        "meaning_vi": "con, đứa trẻ"
+      },
+      {
+        "native": "ô koop",
+        "ipa": "ʔoː kɔːp",
+        "meaning_vi": "con rùa"
+      },
+      {
+        "native": "gâl",
+        "ipa": "ɡəl",
+        "meaning_vi": "cái trống"
+      },
+      {
+        "native": "chowah (Sidwell: cawah)",
+        "ipa": "cəwah",
+        "meaning_vi": "cát"
+      },
+      {
+        "native": "doop",
+        "ipa": "dɔːp",
+        "meaning_vi": "chín (quả)"
+      },
+      {
+        "native": "chih (Sidwell: cih)",
+        "ipa": "cih",
+        "meaning_vi": "viết"
+      },
+      {
+        "native": "qblâk",
+        "ipa": "ɓlək",
+        "meaning_vi": "mọc mầm"
+      },
+      {
+        "native": "tanoon",
+        "ipa": "tanɔːn",
+        "meaning_vi": "cái khố"
+      },
+      {
+        "native": "Kool",
+        "ipa": "kɔːl",
+        "meaning_vi": "người Co / người miền núi"
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "daak",
+        "quoc_ngu": "đác (hoặc đạc)",
+        "note": "Âm đầu /d/ của tiếng Co là tắc lợi hữu thanh thường (không hút vào như 'đ' /ɗ/ tiếng Việt, nhưng tuyệt đối không đọc thành /z/ hay /j/ như chữ 'd' Quốc ngữ). Âm cuối /-k/ kết hợp nguyên âm dài xấp xỉ thanh sắc hoặc nặng trong Quốc ngữ."
+      },
+      {
+        "native": "sêêp (seep)",
+        "quoc_ngu": "xếp",
+        "note": "Âm đầu s- /s/ gần 'x' tiếng Việt; nguyên âm dài /eː/ + /-p/ xấp xỉ 'ếp'."
+      },
+      {
+        "native": "baal",
+        "quoc_ngu": "ba-lờ (hoặc ban)",
+        "note": "Tiếng Việt KHÔNG có phụ âm bên cuối /-l/ và không phân biệt /b/ thường với /ɓ/ hút vào: nếu ép vào TTS tiếng Việt chỉ đọc được gần đúng thành 'ban' (mất tính chất bên của /-l/)."
+      },
+      {
+        "native": "Kool",
+        "quoc_ngu": "co-lờ (hoặc con)",
+        "note": "Âm cuối /-l/ không có trong tiếng Việt (nếu người Kinh phiên âm thành 'Cor' hoặc 'Col' / 'Co' đều làm mất âm cuối /-l/ hoặc thay bằng /-r/)."
+      },
+      {
+        "native": "gâl",
+        "quoc_ngu": "gân (gờ-ân)",
+        "note": "Âm đầu /ɡ/ là tắc ngạc mềm hữu thanh (không xát như 'g' tiếng Việt), âm cuối /-l/ không có trong tiếng Việt nên TTS tiếng Việt chỉ xấp xỉ được bằng /-n/."
+      },
+      {
+        "native": "kooq",
+        "quoc_ngu": "cọ (ngắt hơi gấp)",
+        "note": "Âm tắc thanh hầu cuối /-ʔ/ (-q) không tồn tại độc lập sau nguyên âm mở trong chữ Quốc ngữ; có thể mượn thanh nặng giọng Bắc (có thanh hầu hóa cuối vần) để mô phỏng gần đúng sự ngắt thanh môn, nhưng cần cắt ngắn trường độ hạ cao độ."
+      },
+      {
+        "native": "muyq",
+        "quoc_ngu": "mụi",
+        "note": "Vần hậu thanh hầu hóa /-ujʔ/ (-uyq) không có trong tiếng Việt; xấp xỉ tạm bằng 'mụi' (giọng Bắc có kẹt thanh hầu cuối)."
+      },
+      {
+        "native": "chowah (cawah)",
+        "quoc_ngu": "chơ-oách / chơ-oác (thở hơi cuối)",
+        "note": "Tiền âm tiết cho-/ca- đọc nhẹ lướt [cə-]; âm xát thanh hầu cuối /-h/ không có trong tiếng Việt (TTS tiếng Việt không phát được luồng hơi thở ra cuối từ)."
+      },
+      {
+        "native": "qblâk",
+        "quoc_ngu": "b-lấc",
+        "note": "qb /ɓ/ tương ứng chính xác với 'b' tiếng Việt, nhưng tiếng Việt hiện đại không có cụm phụ âm đầu /ɓl-/ nên TTS tiếng Việt dễ chèn nguyên âm đệm thành 'bờ-lấc'."
+      },
+      {
+        "native": "ph / kh / j / hl / -lh",
+        "quoc_ngu": "p-h / k-h / d-gi / h-l / -l-h",
+        "note": "Các âm KHÔNG có tương đương trực tiếp trong tiếng Việt chuẩn: ph /pʰ/ (tắc đôi môi bật hơi, khác ph /f/ tiếng Việt), kh /kʰ/ (tắc ngạc mềm bật hơi, khác kh /x/ tiếng Bắc), j /ɟ/ (tắc ngạc cứng hữu thanh), âm mũi/bên vô thanh hm, hn, hl /m̥, n̥, l̥/ và âm bên vô thanh cuối từ -lh /-l̥/."
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Tiếng Co KHÔNG có thanh điệu: khi dùng mô hình giọng hát (SVS) huấn luyện trên tiếng Việt, cần giữ cao độ theo đúng nốt giai điệu (tương tự hát tiếng Việt thanh ngang), tránh áp đường nét uốn thanh hỏi/ngã của chữ Quốc ngữ (lưu ý dấu ngã ~ trong tài liệu SIL của Maier 1969 là ký hiệu mũi hóa nguyên âm, không phải thanh ngã).",
+      "Từ song tiết kiểu sesquisyllabic (như tanoon, chowah, ahnoom, parayh) có trọng âm rơi mạnh vào âm tiết chính thứ hai; tiền âm tiết đầu rất ngắn (1/16 phách hoặc nốt luyến ngắn trước phách mạnh) với nguyên âm trung hòa [ə]."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Maier, Jacqueline G. (1969). 'Cua phonemes'. Mon-Khmer Studies Journal, 3: 9–19.",
+      "url": "http://sealang.net/sala/archives/pdf8/maier1969cua.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sidwell, Paul (2010). 'Cua (Kor) historical phonology and classification'. Mon-Khmer Studies Journal, 39: 105–122.",
+      "url": "https://doi.org/10.15144/MKSJ-39.105",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Cua (cuaa1241)",
+      "url": "https://glottolog.org/resource/languoid/id/cuaa1241",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Cua language (Austroasiatic)",
+      "url": "https://en.wikipedia.org/wiki/Cua_language_(Austroasiatic)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Co",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Co",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đinh Đổ, Đinh Mốc & Jacqueline G. Maier (1974 / tái bản 1977). Bay hok pok Kool Kua = Bài học tiếng Cua = Cua language lessons. Tủ sách ngôn-ngữ dân-tộc thiểu-số Việt-Nam, cuốn 10. Sài Gòn: Bộ Giáo dục / Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Maier, Jacqueline G. & Eva Burton (1981). Cua-English-Vietnamese Dictionary (pre-publication manuscript based on 1966 manuscript). Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Văn Thông (chủ biên), Tạ Quang Tùng & cộng sự (2013–2014). Xroi Kool (Tiếng Cor); Ngữ pháp tiếng Cor; Ngữ vựng Việt–Cor, Cor–Việt. Sở Khoa học và Công nghệ tỉnh Quảng Nam.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "lexicon / phonology.codas / ml_hints.sample_words",
+          "severity": "medium",
+          "problem": "Sự lẫn lộn giữa chính tả thực hành của Maier (1969) và ký hiệu phiên âm âm vị học của Sidwell (2010) ở các từ 'chim', 'cát', 'viết': Trong Maier (1969: 12, Chart II), nguyên âm dài /eː/ viết là 'êê' ('sêêp' = bird, 'thêêp' = more) còn 'ee' biểu thị /ɛː/; âm tắc ngạc cứng vô thanh /c/ viết là 'ch' ('chowah' = sand, 'chih' = to write). Các dạng 'seep', 'cawah', 'cih' thực chất là ký hiệu âm vị học chuẩn hóa trong bài viết lịch sử ngôn ngữ của Sidwell (2010).",
+          "fix": "Sửa lại trong lexicon, phonology.codas, ml_hints.sample_words và ml_hints.quoc_ngu_approximation để ghi rõ chính tả Maier (1969) kèm đối chiếu dạng phiên âm của Sidwell (2010): 'sêêp (Sidwell: seep)', 'chowah (Sidwell: cawah)', 'chih (Sidwell: cih)'; đồng thời cập nhật ghi chú ở phonology.onsets ('ch') và phonology.vowels ('êê', 'ee')."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Ở mục tổ hợp h + phụ âm mũi/tiếp cận và q + phụ âm mũi, Maier (1969: 11, 16) liệt kê cụ thể các tổ hợp ghi nhận được trong ngữ liệu gồm hm, hn, hng, hl, hr, hy (tiền bật hơi) và qn, qng, qnh (tiền thanh hầu hóa); việc ghi gộp 'hm, hn, hnh, hng' và 'qm, qn, qnh, qng' chưa phản ánh sát phân bố thực tế trong Maier (1969) và thiếu 'hr, hy'.",
+          "fix": "Chỉnh lại trường grapheme và note của các mục này theo đúng danh sách tổ hợp được Maier (1969: 11, 16) chứng thực."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "low",
+          "problem": "Ghi chú về nguyên âm 'î' trong Maier (1969: 16-17, Chart II) chưa nêu rõ phân bố đặc thù: 'î' là nguyên âm trước cao-giữa (high-mid front), chỉ xuất hiện trong âm tiết đóng trước hai âm cuối -q /ʔ/ và -h /h/.",
+          "fix": "Bổ sung chi tiết phân bố của 'î' (chỉ đứng trước -q và -h) theo Maier (1969: 17) và nâng confidence của 'êê' /eː/, 'ee' /ɛː/ sau khi đã tách biệt rõ chính tả Maier (1969) với phiên âm của Sidwell (2010)."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn trực tuyến đang để null; mục tài liệu 'Bay hok pok Kool Kua' (1974) nên ghi chú thêm bản tái bản năm 1977 của SIL.",
+          "fix": "Cập nhật url_check thành 'verified' cho 5 URL đã kiểm chứng qua tìm kiếm và bổ sung thông tin năm xuất bản 1974/1977 cho sách học tiếng Cua."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp quy tắc chính tả trong bộ sách 'Xroi Kool' (Quảng Nam, 2014–2015, PGS.TS. Tạ Văn Thông chủ biên) để bổ sung bảng quy đổi song song giữa chữ Cua SIL (1969/1974) và chữ Cor Quảng Nam.",
+      "Cần khảo sát thực địa sự khác biệt ngữ âm chi tiết giữa hai phương ngữ chính: nhóm 'đường rừng' (Kol / Kool Doot ở vùng núi cao Trà Bồng, Bắc Trà My) và nhóm 'đường nước' (Traw / Kool Dong ở thung lũng Trà Bồng).",
+      "Chưa có bản ký âm học thuật chuẩn hóa (MusicXML/ABC) cho các làn điệu dân ca Xru (Klu) và Agiới; cần nhà dân tộc nhạc học và nghệ nhân người Co thẩm định thang âm, luyến láy."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,846 @@
+{
+  "id": "dao",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Dao (Ưu Miền / Dìu Miền)",
+  "name_en": "Iu Mien (Yao / Dao)",
+  "autonym": "Iu Mienh waac / Mienh waac",
+  "ethnic_group_vi": "Dao",
+  "language": {
+    "iso639_3": "ium",
+    "glottocode": "iumi1238",
+    "family": "Hmong-Mien",
+    "branch": "Mienic"
+  },
+  "regions": [
+    "Hà Giang",
+    "Lào Cai",
+    "Tuyên Quang",
+    "Yên Bái",
+    "Cao Bằng",
+    "Bắc Kạn",
+    "Lai Châu",
+    "Quảng Ninh",
+    "Thái Nguyên",
+    "Bắc Giang",
+    "Phú Thọ",
+    "Hòa Bình",
+    "Sơn La",
+    "Lạng Sơn",
+    "Tây Nguyên và Đông Nam Bộ (di cư mới)"
+  ],
+  "speakers_estimate": "Dân số người Dao tại Việt Nam là 891.151 người (Tổng điều tra dân số 2019), chia thành hai nhánh ngôn ngữ chính là Ưu Miền (Iu Mien, đa số) và Kim Môn (Kim Mun). Trên toàn thế giới, tiếng Iu Mien có khoảng 800.000 người nói.",
+  "scripts": [
+    {
+      "name": "Chữ Nôm Dao",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Hệ thống chữ viết cổ truyền mượn và cải biên tự dạng Hán để ghi âm và ghi ý tiếng Dao (tương tự chữ Nôm Việt/Tày); dùng rộng rãi trong sách cúng, gia phả (Quá Sơn bảng văn), nghi lễ cấp sắc và chép lời hát Páo dung cổ."
+    },
+    {
+      "name": "Chữ Latinh thống nhất Iu Mien (Iu Mien Unified Script - IMUS, 1984)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh chuẩn hóa quốc tế năm 1984 (dùng 26 chữ cái ASCII không dấu phụ, ghi thanh điệu bằng chữ cái cuối âm tiết như RPA của tiếng Hmông). Được dùng trong từ điển học thuật, tài liệu tôn giáo và cộng đồng trực tuyến, nhưng chưa phải bộ chữ do Nhà nước Việt Nam ban hành chính thức trong giáo dục phổ thông."
+    },
+    {
+      "name": "Phiên âm dựa trên chữ Quốc ngữ tiếng Việt",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Người Dao tại Việt Nam thường dùng quy tắc ghép vần chữ Quốc ngữ một cách tự phát để ghi chép lời hát Páo dung, tên riêng hoặc giao tiếp thường ngày."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã nháp do LLM tổng hợp từ nguồn ngữ âm học quốc tế về tiếng Iu Mien (Bruhn 2007, Purnell 2012, Wikipedia, Wiktionary) và tài liệu dân tộc học Việt Nam. Người Dao ở Việt Nam nói hai ngôn ngữ Mienic chính là Iu Mien [ium] (nhóm Đại Bản/Dao Đỏ, Tiểu Bản/Dao Tiền, Quần Chẹt...) và Kim Mun [mji] (nhóm Làn Tẻn, Thanh Y, Quần Trắng/Dao Họ). Bảng âm vị và chữ viết dưới đây lấy tiếng Iu Mien [ium] theo hệ chữ Latinh IMUS (1984) làm chuẩn tham chiếu vì đây là biến thể lớn nhất và có hệ thống ký âm chuẩn hóa đầy đủ nhất.",
+  "phonology": {
+    "syllable_structure": "(C1)(G)V(C2)+T (trong đó G là âm lướt /j, w/; C2 gồm /m, n, ŋ, p, t, k, ʔ/)",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "p",
+        "note": "âm tắc hai môi vô thanh không bật hơi (giống p trong tiếng Việt 'pin')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "pʰ",
+        "note": "âm tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mb",
+        "ipa": "b",
+        "note": "âm tắc hai môi hữu thanh (trong một số phương ngữ có tiền mũi hóa nhẹ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "âm mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm",
+        "ipa": "m̥",
+        "note": "âm mũi hai môi vô thanh (thực chất thường là chuỗi [h̃m])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "âm xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "âm tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t",
+        "note": "âm tắc chân răng vô thanh không bật hơi (giống t tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "tʰ",
+        "note": "âm tắc chân răng vô thanh bật hơi (giống th tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nd",
+        "ipa": "d",
+        "note": "âm tắc chân răng hữu thanh (giống đ tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "âm mũi chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hn",
+        "ipa": "n̥",
+        "note": "âm mũi chân răng vô thanh ([h̃n])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "âm bên chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "l̥ ~ ɬ",
+        "note": "âm bên/xát bên chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "t͡s",
+        "note": "âm tắc xát chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "t͡sʰ",
+        "note": "âm tắc xát chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nz",
+        "ipa": "d͡z",
+        "note": "âm tắc xát chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "âm xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "t͡ɕ",
+        "note": "âm tắc xát lợi-vòm vô thanh không bật hơi (một số phương ngữ là [c])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "t͡ɕʰ",
+        "note": "âm tắc xát lợi-vòm vô thanh bật hơi (khi đứng đầu âm tiết)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nj",
+        "ipa": "d͡ʑ",
+        "note": "âm tắc xát lợi-vòm hữu thanh (một số phương ngữ là [ɟ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ny",
+        "ipa": "ɲ",
+        "note": "âm mũi vòm hữu thanh (giống nh tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hny",
+        "ipa": "ɲ̥",
+        "note": "âm mũi vòm vô thanh ([h̃ɲ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "âm tiếp cận vòm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k",
+        "note": "âm tắc ngạc mềm vô thanh không bật hơi (giống c/k tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "kʰ",
+        "note": "âm tắc ngạc mềm vô thanh bật hơi (gần kh tiếng Việt nhưng tắc bật hơi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nq",
+        "ipa": "ɡ",
+        "note": "âm tắc ngạc mềm hữu thanh (dùng nq thay vì ng để không trùng với âm mũi /ŋ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "âm mũi ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hng",
+        "ipa": "ŋ̊",
+        "note": "âm mũi ngạc mềm vô thanh ([h̃ŋ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "âm xát thanh hầu vô thanh",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "nguyên âm cao trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "nguyên âm cao sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e ~ ɛ",
+        "note": "nguyên âm hơi cao/hơi thấp trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o",
+        "note": "nguyên âm hơi cao sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "er",
+        "ipa": "ɜ",
+        "note": "nguyên âm giữa trung tâm không tròn môi (gần 'ơ' tiếng Việt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ae",
+        "ipa": "æ",
+        "note": "nguyên âm gần mở trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "ɐ",
+        "note": "nguyên âm ngắn gần mở trung tâm, chủ yếu xuất hiện trong âm tiết đóng (gần 'ă' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aa",
+        "ipa": "aː",
+        "note": "nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "or",
+        "ipa": "ɒ ~ ɔ",
+        "note": "nguyên âm mở/hơi mở sau tròn môi (gần 'o' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai",
+        "ipa": "aɪ ~ ɛ",
+        "note": "nguyên âm đôi /aɪ/ (hoặc [ɛ] trong một số ít âm tiết mở)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aai",
+        "ipa": "aːɪ",
+        "note": "nguyên âm đôi /aːɪ/ dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "au",
+        "ipa": "aʊ",
+        "note": "nguyên âm đôi /aʊ/ ngắn (tương tự 'au' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aau",
+        "ipa": "aːʊ",
+        "note": "nguyên âm đôi /aːʊ/ dài (tương tự 'ao' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ei",
+        "ipa": "ɛɪ ~ eɪ",
+        "note": "nguyên âm đôi hướng về /ɪ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oi",
+        "ipa": "oɪ ~ ɔɪ",
+        "note": "nguyên âm đôi (tương tự 'oi' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ou",
+        "ipa": "əu ~ oʊ",
+        "note": "nguyên âm đôi (gần 'âu' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "eu",
+        "ipa": "ɜo ~ eʊ",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ie",
+        "ipa": "iɛ ~ iə",
+        "note": "tổ hợp âm lướt /j/ + nguyên âm; trong IMUS chữ 'i-' cũng đứng trước các nguyên âm khác để ghi âm lướt /j/ (như ia, iaa, io, iu, ior, iai, iaai, iau, iaau, iei, iou)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uo",
+        "ipa": "uɔ ~ uə",
+        "note": "tổ hợp âm lướt /w/ + nguyên âm; trong IMUS chữ 'u-' cũng đứng trước các nguyên âm khác để ghi âm lướt /w/ (như ua, uaa, uae, ue, ui, uai, uaai, uei)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "âm tắc cuối không bật ra, đi kèm chữ chỉ thanh -v hoặc -c",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "âm tắc cuối không bật ra, đi kèm chữ chỉ thanh -v hoặc -c",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "hiếm gặp trong chữ chuẩn IMUS (nhiều âm tắc ngạc mềm cuối cổ đã chuyển thành -q /ʔ/, nhưng còn bảo lưu ở một số phương ngữ Việt Nam/Trung Quốc)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu cuối âm tiết, chỉ đi với thanh -v hoặc -c (ví dụ: baeqc 'trắng')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "mid_level",
+        "name": "thanh ngang vừa (không ghi chữ cái cuối)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "mid_falling",
+        "name": "thanh xuống vừa (ghi bằng -h)",
+        "mark": "h",
+        "chao_contour": "31",
+        "phonation": "modal / hơi thở nhẹ cuối vần",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "high",
+        "name": "thanh cao / cao lên (ghi bằng -v)",
+        "mark": "v",
+        "chao_contour": "44 ~ 45",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "low_falling",
+        "name": "thanh thấp / xuống thấp (ghi bằng -c)",
+        "mark": "c",
+        "chao_contour": "21",
+        "phonation": "thường kèm thanh hầu hóa / giọng kẹt (creaky voice)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "low_rising",
+        "name": "thanh thấp lên (ghi bằng -x)",
+        "mark": "x",
+        "chao_contour": "23 ~ 13",
+        "phonation": "có thể kèm thanh hầu hóa nhẹ ở một số người nói",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "rise_fall",
+        "name": "thanh lên-xuống thấp (ghi bằng -z)",
+        "mark": "z",
+        "chao_contour": "231 ~ 232",
+        "phonation": "kéo dài hơn, có hiện tượng kẹt thanh hầu ở giữa/cuối âm tiết ở một số phương ngữ",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu thực thụ gồm 6 thanh trên âm tiết mở/mũi (tương ứng 8 thanh lịch sử nếu tách riêng âm tiết khép kết thúc bằng -p, -t, -q vốn chỉ mang thanh -v hoặc -c). Có hiện tượng biến thanh (tone sandhi) mạnh ở âm tiết đứng trước trong từ ghép (thường chuyển về thanh thấp/xuống). Các thanh thấp (-c, -z) thường đi kèm chất giọng kẹt/thanh hầu hóa (laryngealization/creaky voice)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người / người Dao",
+      "form": "mienh",
+      "ipa": "mjɛn˧˩",
+      "gloss_en": "person / Iu Mien person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng nói / lời nói",
+      "form": "waac",
+      "ipa": "waː˨˩",
+      "gloss_en": "language / word",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "yie",
+      "ipa": "jiə˧",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / mày",
+      "form": "meih",
+      "ipa": "mɛɪ˧˩",
+      "gloss_en": "you (singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "wuom",
+      "ipa": "wuəm˧",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "douz",
+      "ipa": "təu˨˧˨",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời",
+      "form": "mba'hnoi",
+      "ipa": "baʔn̥oɪ˧",
+      "gloss_en": "sun",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "hlaax",
+      "ipa": "l̥aː˨˧",
+      "gloss_en": "moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "núi",
+      "form": "mbong",
+      "ipa": "boŋ˧",
+      "gloss_en": "mountain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "ndiangx",
+      "ipa": "djaŋ˨˧",
+      "gloss_en": "tree",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "juv",
+      "ipa": "t͡ɕu˦˥",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sách / chữ",
+      "form": "sou",
+      "ipa": "səu˧",
+      "gloss_en": "book / writing",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không (phủ định)",
+      "form": "maiv",
+      "ipa": "maɪ˦˥",
+      "gloss_en": "not",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Páo dung (Pả dung)",
+        "note": "Di sản văn hóa phi vật thể quốc gia tại nhiều tỉnh (Hà Giang, Tuyên Quang, Thái Nguyên...). Hát dân ca trữ tình, ứng tác không có nhạc cụ đệm; chia thành Páo dung sinh hoạt (giao duyên, hát ru, mừng nhà mới), Páo dung lao động và Páo dung nghi lễ (cấp sắc, cúng Bàn Vương, cưới hỏi) thường được ghi lại bằng chữ Nôm Dao."
+      },
+      {
+        "name": "Nhạc lễ Cấp sắc và Múa chuông / Múa rùa",
+        "note": "Âm nhạc nghi lễ có dàn nhạc cụ hơi và gõ hòa tấu theo bài bản nghiêm ngặt (như các bài đón dâu, bái đường Pái Tòong trong đám cưới Dao Đỏ)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân giọng và rung hơi cuối câu trong Páo dung",
+        "description": "Hát không nhạc đệm, người hát dùng làn hơi dài, ngân nga và luyến tự do ở cuối câu thơ (thường theo thể thất ngôn trong văn bản Nôm Dao) để vang xa qua sườn núi.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Kỹ thuật rung hơi, vuốt ngón trên kèn Pí lè",
+        "description": "Lấy hơi tuần hoàn (lấy hơi đằng mũi, đẩy hơi ra miệng) kết hợp bấm vuốt tạo luyến láy liên tục qua hơn 70 giai điệu nghi lễ khác nhau.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung / khuyết cung dân gian miền núi phía Bắc",
+        "note": "Chưa có nghiên cứu ký âm chuẩn hóa thống nhất cho toàn bộ các nhóm Dao; giai điệu Páo dung gắn chặt với thanh điệu ngôn ngữ (Iu Mien / Kim Mun) của từng nhóm địa phương.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Kèn Pí lè (kèn dăm kép thân gỗ, loa đồng, giữ vai trò dẫn đầu dàn nhạc cưới và lễ cấp sắc)"
+      },
+      {
+        "name": "Chuông đồng (nhạc cụ thiêng dùng trong múa chuông và nghi lễ cúng)"
+      },
+      {
+        "name": "Tù và sừng trâu (piếm coong hịu lùng — thổi mở đầu nghi lễ kết nối thần linh)"
+      },
+      {
+        "name": "Trống tang sành / trống da"
+      },
+      {
+        "name": "Thanh la / Chiêng"
+      },
+      {
+        "name": "Chũm chọe (ụp xòe)"
+      },
+      {
+        "name": "Đàn nhị, sáo, đàn môi (dùng trong sinh hoạt giải trí)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Ưu Miền / Dìu Miền (Dao Đỏ / Đại Bản, Dao Tiền / Tiểu Bản, Dao Quần Chẹt, Dao Lô Gang / Thanh Phán)",
+        "name_en": "Iu Mien",
+        "iso639_3": "ium",
+        "glottocode": "iumi1238",
+        "note": "Nhánh lớn nhất tại Việt Nam, dùng làm cơ sở cho bảng mã này."
+      },
+      {
+        "name_vi": "Tiếng Kim Môn / Kìm Mùn (Dao Làn Tẻn / Tuyển / Áo Dài, Dao Thanh Y, Dao Quần Trắng / Dao Họ)",
+        "name_en": "Kim Mun (Lanten)",
+        "iso639_3": "mji",
+        "glottocode": "kimm1245",
+        "note": "Nhánh lớn thứ hai của người Dao tại Việt Nam (tập trung ở Hà Giang, Lào Cai, Tuyên Quang, Yên Bái, Quảng Ninh, Bắc Giang); tương đồng từ vựng khoảng 78% với Iu Mien nhưng có hệ thống thanh điệu và biến đổi phụ âm đầu khác biệt."
+      },
+      {
+        "name_vi": "Tiếng Biao Mon (liên quan một số nhóm nhỏ Mien-Mun ở biên giới Việt-Trung, chủ yếu ở Quảng Tây)",
+        "name_en": "Biao Mon",
+        "iso639_3": "bmt",
+        "glottocode": "biao1256",
+        "note": "Ngôn ngữ chị em trong nhánh Mien-Mun (chủ yếu ở Trung Quốc)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Iu Mienh waac",
+        "quoc_ngu": "Iu Miền oạc",
+        "note": "Tên tự gọi 'tiếng Dao (Ưu Miền)'. Chữ -h ghi thanh xuống vừa (gần thanh huyền); -c ghi thanh thấp kẹt (gần thanh nặng)."
+      },
+      {
+        "native": "b / d / g (ví dụ: buo 'ba', douz 'lửa', go 'xa')",
+        "quoc_ngu": "p / t / c-k (puô, tầu, cô)",
+        "note": "Lưu ý quan trọng: chữ b, d, g trong IMUS giống Pinyin, đọc là âm vô thanh không bật hơi /p, t, k/, KHÔNG đọc như b, d, g của chữ Quốc ngữ."
+      },
+      {
+        "native": "mb / nd / nq (ví dụ: mbuo 'chúng ta', ndau 'đất', nqaang 'sau')",
+        "quoc_ngu": "b / đ / g-gh (buô, đau, gang)",
+        "note": "mb, nd tương ứng b, đ hữu thanh tiếng Việt; tiếng Việt chuẩn không có âm tắc /ɡ/ (chữ g Quốc ngữ là âm xát [ɣ]), nên 'g' chỉ là xấp xỉ."
+      },
+      {
+        "native": "p / t / k (ví dụ: porng 'xẻng', tov 'xin', korqv 'bầu')",
+        "quoc_ngu": "ph (bật hơi) / th / kh (thoóng, thố, khó)",
+        "note": "Tiếng Việt không có âm tắc bật hơi /pʰ/ và /kʰ/ (ph và kh của tiếng Việt là âm xát [f] và [x]); TTS chỉ biết tiếng Việt sẽ đọc chệch thành âm xát."
+      },
+      {
+        "native": "hm / hn / hny / hng / hl (ví dụ: hmien 'mặt', hnoi 'ngày', hlo 'to')",
+        "quoc_ngu": "hờ-m / hờ-n / hờ-nh / hờ-ng / hờ-l (lướt rất nhanh h trước âm mũi/bên)",
+        "note": "Chuỗi âm mũi vô thanh /m̥, n̥, ɲ̥, ŋ̊/ và âm bên vô thanh /l̥ ~ ɬ/ hoàn toàn KHÔNG có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "z / c / nz / j / q / nj",
+        "quoc_ngu": "ch / x-ts / d / ch / x-ch / gi",
+        "note": "Hệ đối lập 3 chiều (không bật hơi - bật hơi - hữu thanh) của âm tắc xát chân răng /t͡s, t͡sʰ, d͡z/ và lợi-vòm /t͡ɕ, t͡ɕʰ, d͡ʑ/ không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "Âm cuối -q /ʔ/ (ví dụ: baeqc 'trắng', yietc 'một')",
+        "quoc_ngu": "dùng thanh nặng hoặc tắc cuối -c/-t ngắn (bẹ, yiệt)",
+        "note": "Âm tắc thanh hầu cuối âm tiết /ʔ/ có thể xấp xỉ bằng thanh nặng có thanh hầu hóa của giọng Bắc (như 'ạ', 'bẹ')."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "yie",
+        "ipa": "jiə˧",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "meih",
+        "ipa": "mɛɪ˧˩",
+        "meaning_vi": "bạn / mày"
+      },
+      {
+        "native": "ninh",
+        "ipa": "nin˧˩",
+        "meaning_vi": "anh ấy / cô ấy / nó"
+      },
+      {
+        "native": "mbuo",
+        "ipa": "buə˧",
+        "meaning_vi": "chúng ta"
+      },
+      {
+        "native": "mienh",
+        "ipa": "mjɛn˧˩",
+        "meaning_vi": "người / người Dao"
+      },
+      {
+        "native": "yietc",
+        "ipa": "jiət̚˨˩",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "i",
+        "ipa": "i˧",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "buo",
+        "ipa": "puə˧",
+        "meaning_vi": "ba"
+      },
+      {
+        "native": "biei",
+        "ipa": "pjɛɪ˧",
+        "meaning_vi": "bốn"
+      },
+      {
+        "native": "biaa",
+        "ipa": "pjaː˧",
+        "meaning_vi": "năm"
+      },
+      {
+        "native": "wuom",
+        "ipa": "wuəm˧",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "douz",
+        "ipa": "təu˨˧˨",
+        "meaning_vi": "lửa"
+      },
+      {
+        "native": "hlaax",
+        "ipa": "l̥aː˨˧",
+        "meaning_vi": "mặt trăng"
+      },
+      {
+        "native": "mbong",
+        "ipa": "boŋ˧",
+        "meaning_vi": "núi"
+      },
+      {
+        "native": "juv",
+        "ipa": "t͡ɕu˦˥",
+        "meaning_vi": "chó"
+      }
+    ],
+    "tts_singing_notes": "Khi xử lý văn bản IMUS cho TTS/giọng hát, tuyệt đối KHÔNG đọc các chữ cái cuối âm tiết (-v, -h, -c, -x, -z) thành phụ âm cuối vì đây là ký hiệu thanh điệu (tương tự chữ viết RPA của tiếng Hmông). Dấu nháy đơn (') trong IMUS (như mba'hnoi, da'nyeic) đánh dấu âm tiết đầu bị rút gọn và biến thanh, cần đọc lướt ngắn."
+  },
+  "sources": [
+    {
+      "title": "Wikipedia — Iu Mien language",
+      "url": "https://en.wikipedia.org/wiki/Iu_Mien_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Kim Mun language",
+      "url": "https://en.wikipedia.org/wiki/Kim_Mun_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Iu Mien (iumi1238) & Kim Mun (kimm1245)",
+      "url": "https://glottolog.org/resource/languoid/id/iumi1238",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Appendix:Iu Mien Swadesh list",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Iu_Mien_Swadesh_list",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Omniglot — Iu Mien language, alphabet and pronunciation",
+      "url": "https://omniglot.com/writing/iumien.htm",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Dao (dữ liệu Tổng điều tra dân số và nhà ở 2019 & phân nhóm)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Dao",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Du lịch Quốc gia Việt Nam — Hát Páo dung của dân tộc Dao - Di sản văn hóa phi vật thể quốc gia",
+      "url": "https://www.dulichvn.org.vn/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Purnell, Herbert C. (2012). An Iu-Mienh—English Dictionary: With Cultural Notes. Chiang Mai: Silkworm Books.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phan Lương Hùng (2022). Tình hình sử dụng ngôn ngữ, chữ viết và thái độ ngôn ngữ của người Dao ở Việt Nam. Tạp chí Ngôn ngữ, số 3/2022.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[2].glottocode",
+          "severity": "medium",
+          "problem": "Glottocode của tiếng Biao Mon (ISO 639-3: bmt) bị ghi sai thành 'biao1255'. Theo Glottolog 5.3, mã đúng của Biao Mon là 'biao1256' (còn 'biao1255' là Biao-Jiao Mien).",
+          "fix": "Sửa glottocode của Biao Mon thành 'biao1256'."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "low",
+          "problem": "Danh sách nguyên âm và kết hợp âm đệm (on-glide) mới chỉ liệt kê 'ie' và 'uo', trong khi từ vựng bên dưới (như 'ndiangx', 'biaa', 'biei') sử dụng các tổ hợp có âm lướt /j/ và /w/ đứng trước như 'ia', 'iaa', 'iei', 'iu', 'ua', 'uaa', 'ui'.",
+          "fix": "Ghi chú rõ hơn trong phần note của 'ie' và 'uo' về hệ thống tổ hợp âm đệm i-/u- trong chữ IMUS để người dùng và công cụ parser nắm được quy tắc."
+        },
+        {
+          "path": "sources[6].url",
+          "severity": "low",
+          "problem": "URL dẫn tới trang chủ chung (https://www.dulichvn.org.vn/) thay vì bài viết cụ thể hoặc trang tra cứu ổn định, và các trường url_check đang để null.",
+          "fix": "Cập nhật trạng thái url_check cho các nguồn đã kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Dân tộc Dao ở Việt Nam nói ít nhất hai ngôn ngữ riêng biệt thuộc nhánh Mienic là Iu Mien [ium] và Kim Mun [mji]; cần tách thêm bảng mã riêng 'dao-kimmun' cho nhóm Dao Tuyển / Làn Tẻn / Thanh Y / Quần Trắng để tránh nhầm lẫn ngữ âm.",
+      "Hệ chữ IMUS (1984) rất chuẩn xác về âm vị nhưng ít phổ biến ở các bản làng Việt Nam hơn lối phiên âm tự phát bằng chữ Quốc ngữ và chữ Nôm Dao cổ truyền; cần khảo sát thực địa để thu thập quy ước phiên âm Quốc ngữ thực tế của các nghệ nhân hát Páo dung.",
+      "Giá trị đường nét thanh điệu (Chao contours) có sự dao động đáng kể giữa các nhóm Dao Đỏ, Dao Tiền và Dao Quần Chẹt tại Việt Nam so với phương ngữ chuẩn Quảng Tây / Lào - Thái."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

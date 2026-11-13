@@ -1,0 +1,857 @@
+{
+  "id": "vie-north-central",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Bắc Trung Bộ (Thanh Hóa, Nghệ An, Hà Tĩnh)",
+  "name_en": "Vietnamese — North-Central dialect (Thanh Hóa, Nghệ An, Hà Tĩnh)",
+  "autonym": "tiếng Nghệ / giọng Nghệ Tĩnh / giọng Thanh Hóa",
+  "ethnic_group_vi": "Kinh",
+  "language": {
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Thanh Hóa",
+    "Nghệ An",
+    "Hà Tĩnh",
+    "Bắc Quảng Bình (vùng chuyển tiếp Quảng Trạch, Tuyên Hóa)"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": null
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu phương ngữ học tiếng Việt (Hoàng Thị Châu, Mark Alves, Andrea Hoa Pham, Hoàng Trọng Canh). Vùng Bắc Trung Bộ có độ phân hóa nội vùng rất lớn: Thanh Hóa mang tính chuyển tiếp Bắc – Trung (thường nhập hỏi–ngã), trong khi Nghệ Tĩnh có hệ thanh điệu trầm đặc trưng (thường nhập ngã–nặng, một số thổ ngữ ở Nghi Lộc, Thanh Chương, Đức Thọ chỉ còn 3–4 thanh) và bảo lưu nhiều nguyên âm/vần cổ. Chưa qua thẩm định thực nghiệm với người bản xứ và mô hình giọng hát.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ",
+        "note": "Phân biệt rõ với ch [c] ở đại đa số thổ ngữ Nghệ Tĩnh và ven biển/nam Thanh Hóa (khác giọng Hà Nội)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Phân biệt với tr [ʈ]; một số từ cổ có tương ứng ch ~ nh (chơi ~ nhởi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ",
+        "note": "Phân biệt rõ với x [s]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": "Phân biệt rõ với s [ʂ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ʐ ~ ɾ",
+        "note": "Phân biệt rõ với d/gi [z]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d, gi",
+        "ipa": "z",
+        "note": "Phổ biến là [z]; một số thổ ngữ bảo lưu ở Hà Tĩnh (Lộc Hà, Cẩm Xuyên) và Thanh Hóa có biến thể tắc/xát ngạc hoặc hữu thanh thở",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Giữ âm [v] rõ, không chuyển sang [j] như Nam Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l / n",
+        "ipa": "l / n",
+        "note": "Phân biệt rạch ròi l và n trên toàn vùng Thanh – Nghệ – Tĩnh",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a (trong anh, ach ở thổ ngữ Nghệ Tĩnh)",
+        "ipa": "ɛː",
+        "note": "Bảo lưu nguyên âm dài [ɛː] trước âm cuối ngạc/mạc ở nhiều thổ ngữ nông thôn Nghệ Tĩnh (xanh → [sɛːŋ])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô, o (trong ông/ôc, ong/oc)",
+        "ipa": "oː, ɔː",
+        "note": "Ít lướt đôi hóa và ít ngậm môi cuối hơn giọng Bắc Bộ ([oːŋ], [ɔːŋ])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "âu (trong một lớp từ cổ Nghệ Tĩnh)",
+        "ipa": "u",
+        "note": "Đơn nguyên âm hóa thành [u] ở một số từ cơ bản: trâu → tru, sâu → su",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ, uô (trong một lớp từ cổ Nghệ Tĩnh)",
+        "ipa": "aː, ɔ",
+        "note": "Hạ thấp/đơn nguyên âm hóa trong lớp từ cổ: nước → nác, ruột → rọt, ruộng → rọng",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "n / ng, t / c",
+        "ipa": "n / ŋ, t / k",
+        "note": "Giữ đối lập âm cuối đầu lưỡi (-n/-t) và gốc lưỡi (-ng/-c) như phương ngữ Bắc, không nhập như Nam Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ch",
+        "ipa": "ɲ ~ ŋ / c ~ k",
+        "note": "Ở một số thổ ngữ Nghệ Tĩnh, sau nguyên âm trước rộng đọc lùi về mạc [ɛːŋ]/[ɛːk]",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal (âm vực trung–trầm)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "trầm, hơi thở nhẹ; một số thổ ngữ Nghi Lộc/Thanh Chương tiệm cận thanh ngang",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "Ở Vinh/Thanh Hóa là thanh lên (35 hoặc 24); ở một số thổ ngữ Hà Tĩnh và Nghi Lộc xuất phát thấp (13) hoặc tiệm cận hỏi/nặng",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "31",
+        "phonation": "Ở Nghệ Tĩnh đi xuống thấp (31 hoặc 212), nhiều thổ ngữ nhập vào nặng hoặc sắc; ở Thanh Hóa nhập với thanh ngã (312/214)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "nga",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "21",
+        "phonation": "Ở Nghệ Tĩnh hòa nhập vào thanh nặng (trầm, căng nhẹ, không gãy thanh hầu kiểu Bắc); ở Thanh Hóa hòa nhập vào thanh hỏi",
+        "merges_with": "nang",
+        "confidence": "medium"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "21",
+        "phonation": "Âm vực rất thấp (21 hoặc 11), ngắn và trầm đục, tạo ấn tượng 'giọng nặng' đặc trưng xứ Nghệ",
+        "merges_with": "nga",
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thanh điệu trầm (5 thanh phổ biến: Nghệ Tĩnh nhập ngã vào nặng; Thanh Hóa nhập ngã vào hỏi; một số thổ ngữ nông thôn Nghệ Tĩnh như Nghi Lộc, Thanh Chương, Đức Thọ rút xuống còn 3–4 thanh)."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "nặng",
+      "ipa_standard": "˧ˀ˥",
+      "ipa_variety": "˨˩",
+      "condition": "Phổ biến ở Nghệ An và Hà Tĩnh (trừ các âm tiết khép vốn không mang thanh ngã)",
+      "example_standard": "cũng / sữa / cũ",
+      "example_variety": "cụng / sựa / cụ",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "hỏi",
+      "ipa_standard": "˧ˀ˥",
+      "ipa_variety": "˨˩˦",
+      "condition": "Phổ biến ở Thanh Hóa và một số điểm chuyển tiếp",
+      "example_standard": "mãi / xã",
+      "example_variety": "mải / xả",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "tone",
+      "standard": "hỏi",
+      "variety": "nặng",
+      "ipa_standard": "˧˩˧",
+      "ipa_variety": "˨˩",
+      "condition": "Một số thổ ngữ Nghệ Tĩnh (như vùng ven Vinh, Nghi Lộc, Nghi Xuân, Hà Tĩnh)",
+      "example_standard": "cổ / hả / hỏi",
+      "example_variety": "cộ / hạ / họi",
+      "prevalence": "variable",
+      "confidence": "medium"
+    },
+    {
+      "slot": "onset",
+      "standard": "tr",
+      "variety": "tr (phân biệt với ch)",
+      "ipa_standard": "c (Hà Nội)",
+      "ipa_variety": "ʈ",
+      "condition": "Giữ âm quặt lưỡi đối lập với ch [c]",
+      "example_standard": "trâu [cəw]",
+      "example_variety": "trâu / tru [ʈəw ~ ʈu]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "s",
+      "variety": "s (phân biệt với x)",
+      "ipa_standard": "s (Hà Nội)",
+      "ipa_variety": "ʂ",
+      "condition": "Giữ âm xát quặt lưỡi đối lập với x [s]",
+      "example_standard": "sông [səwŋ͡m]",
+      "example_variety": "sông [ʂoːŋ]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "r",
+      "variety": "r (phân biệt với d/gi)",
+      "ipa_standard": "z (Hà Nội)",
+      "ipa_variety": "ʐ ~ ɾ",
+      "condition": "Giữ âm quặt lưỡi/rung đối lập với d, gi [z]",
+      "example_standard": "ra [zaː]",
+      "example_variety": "ra [ʐaː ~ ɾaː]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "gi",
+      "variety": "tr",
+      "ipa_standard": "z",
+      "ipa_variety": "ʈ",
+      "condition": "Bảo lưu từ tổ hợp phụ âm tiền Việt-Mường *bl/*tl trong một số từ vựng cơ bản",
+      "example_standard": "giữa / giầu (trầu)",
+      "example_variety": "trữa / trầu",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ước",
+      "variety": "ác",
+      "ipa_standard": "ɨək",
+      "ipa_variety": "aːk",
+      "condition": "Từ vựng cổ ở Nghệ Tĩnh",
+      "example_standard": "nước",
+      "example_variety": "nác",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "uôt / uôc / uông",
+      "variety": "ot / oc / ong",
+      "ipa_standard": "uət / uək / uəŋ",
+      "ipa_variety": "ɔt / ɔk / ɔŋ",
+      "condition": "Một lớp từ thuần Việt phổ biến ở thổ ngữ Nghệ Tĩnh",
+      "example_standard": "ruột / chuột / ruộng",
+      "example_variety": "rọt / chọt / rọng",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "âu",
+      "variety": "u",
+      "ipa_standard": "əw",
+      "ipa_variety": "u",
+      "condition": "Một số từ thuần Việt trong thổ ngữ Nghệ Tĩnh",
+      "example_standard": "trâu / sâu / dâu",
+      "example_variety": "tru / su / du",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ân",
+      "variety": "ưn",
+      "ipa_standard": "ən",
+      "ipa_variety": "ɨn",
+      "condition": "Một số từ thông dụng ở cả Thanh Hóa và Nghệ Tĩnh",
+      "example_standard": "chân / gần",
+      "example_variety": "chưn / gưn",
+      "prevalence": "variable",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "anh / ach",
+      "variety": "eng / ec",
+      "ipa_standard": "ajŋ / ajk",
+      "ipa_variety": "ɛːŋ / ɛːk",
+      "condition": "Thổ ngữ nông thôn Nghệ Tĩnh (bảo lưu nguyên âm dài cổ)",
+      "example_standard": "anh / chạnh / khách",
+      "example_variety": "eng / chẹng / khéc",
+      "prevalence": "local",
+      "confidence": "medium"
+    },
+    {
+      "slot": "word",
+      "standard": "chơi",
+      "variety": "nhởi",
+      "ipa_standard": "cəːj˧˧",
+      "ipa_variety": "ɲəːj˧˩",
+      "condition": "Từ vựng – ngữ âm phổ biến ở Nghệ Tĩnh",
+      "example_standard": "đi chơi",
+      "example_variety": "đi nhởi",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "word",
+      "standard": "quả / trái",
+      "variety": "trấy",
+      "ipa_standard": "kwaː˧˩˧ / cɐːj˧˥",
+      "ipa_variety": "ʈəj˧˥",
+      "condition": "Danh từ chỉ loại quả cây ở Nghệ Tĩnh và Thanh Hóa",
+      "example_standard": "quả xoài",
+      "example_variety": "trấy xoài",
+      "prevalence": "common",
+      "confidence": "high"
+    }
+  ],
+  "respelling_rules": [
+    {
+      "slot": "tone",
+      "from": "nga",
+      "to": "nang",
+      "level": "full",
+      "optional": true,
+      "note": "Áp dụng cho khẩu âm Nghệ Tĩnh (ví dụ cũng → cụng, đã → đạ). Không bật quy tắc này nếu mô phỏng giọng Thanh Hóa (nơi ngã nhập vào hỏi). Kiểm tra độ vỡ sub-token trước khi đưa vào mô hình TTS/SVS."
+    },
+    {
+      "slot": "word",
+      "from": "cũng",
+      "to": "cụng",
+      "level": "light",
+      "optional": true,
+      "note": "Đặc trưng tần suất cao của khẩu ngữ Nghệ Tĩnh"
+    },
+    {
+      "slot": "word",
+      "from": "đã",
+      "to": "đạ",
+      "level": "light",
+      "optional": true,
+      "note": "Đặc trưng tần suất cao của khẩu ngữ Nghệ Tĩnh"
+    },
+    {
+      "slot": "word",
+      "from": "bữa",
+      "to": "bựa",
+      "level": "full",
+      "optional": true,
+      "note": "Khẩu âm Nghệ Tĩnh; dễ tách sub-token trên một số BPE tokenizer"
+    },
+    {
+      "slot": "word",
+      "from": "nước",
+      "to": "nác",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ dùng cho lời ca dân gian hoặc khẩu ngữ đậm chất Nghệ Tĩnh"
+    },
+    {
+      "slot": "word",
+      "from": "trâu",
+      "to": "tru",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể thổ ngữ Nghệ Tĩnh (ví dụ: chăn tru, trốc tru)"
+    },
+    {
+      "slot": "word",
+      "from": "sâu",
+      "to": "su",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể thổ ngữ Nghệ Tĩnh (ví dụ: nác su = nước sâu)"
+    },
+    {
+      "slot": "word",
+      "from": "chân",
+      "to": "chưn",
+      "level": "full",
+      "optional": true,
+      "note": "Có thể làm vỡ token trên các bộ BPE tiếng Việt phổ thông"
+    },
+    {
+      "slot": "word",
+      "from": "gần",
+      "to": "gưn",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể thổ ngữ Bắc Trung Bộ"
+    },
+    {
+      "slot": "word",
+      "from": "ruột",
+      "to": "rọt",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể thổ ngữ Nghệ Tĩnh (ví dụ: đau rọt)"
+    },
+    {
+      "slot": "word",
+      "from": "ruộng",
+      "to": "rọng",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể thổ ngữ Nghệ Tĩnh"
+    },
+    {
+      "slot": "word",
+      "from": "chơi",
+      "to": "nhởi",
+      "level": "full",
+      "optional": true,
+      "note": "Từ địa phương phổ biến trong ca từ Ví, Giặm"
+    },
+    {
+      "slot": "rhyme",
+      "from": "anh",
+      "to": "eng",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng nguyên âm [ɛːŋ] ở thổ ngữ sâu Nghệ Tĩnh; rất dễ làm vỡ token BPE, chỉ dùng cho nghiên cứu ngữ âm"
+    }
+  ],
+  "lexicon": [
+    {
+      "standard_vi": "đâu",
+      "form": "mô",
+      "ipa": "moː˧˧",
+      "gloss_en": "where",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kia",
+      "form": "tê",
+      "ipa": "teː˧˧",
+      "gloss_en": "over there / that yonder",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "này",
+      "form": "ni",
+      "ipa": "ni˧˧",
+      "gloss_en": "this",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ấy / đó",
+      "form": "nớ",
+      "ipa": "nəː˧˥",
+      "gloss_en": "that",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thế này",
+      "form": "ri",
+      "ipa": "ʐi˧˧",
+      "gloss_en": "like this",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thế / vậy",
+      "form": "rứa",
+      "ipa": "ʐɨə˧˥",
+      "gloss_en": "like that / so",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sao / thế nào",
+      "form": "răng",
+      "ipa": "ʐaŋ˧˧",
+      "gloss_en": "why / how",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gì",
+      "form": "chi",
+      "ipa": "ci˧˧",
+      "gloss_en": "what",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tao",
+      "form": "tau",
+      "ipa": "taw˧˧",
+      "gloss_en": "I (informal)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mày",
+      "form": "mi",
+      "ipa": "mi˧˧",
+      "gloss_en": "you (informal)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / hắn",
+      "form": "hấn",
+      "ipa": "hən˧˥",
+      "gloss_en": "he / she / it",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng tao / chúng tôi",
+      "form": "choa",
+      "ipa": "cwaː˧˧",
+      "gloss_en": "we (informal/exclusive, Nghệ Tĩnh)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng mày / các bạn",
+      "form": "bây",
+      "ipa": "ɓəj˧˧",
+      "gloss_en": "you (plural)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không / chẳng",
+      "form": "nỏ",
+      "ipa": "nɔ˧˩",
+      "gloss_en": "not / no",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "mần",
+      "ipa": "mən˨˩",
+      "gloss_en": "to do / to make",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thấy",
+      "form": "chộ",
+      "ipa": "co˨˩",
+      "gloss_en": "to see (Nghệ Tĩnh)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chơi",
+      "form": "nhởi",
+      "ipa": "ɲəːj˧˩",
+      "gloss_en": "to play / visit",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "trốc",
+      "ipa": "ʈok˧˥",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngã (vấp ngã)",
+      "form": "bổ",
+      "ipa": "ɓo˧˩",
+      "gloss_en": "to fall down",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bát (ăn cơm)",
+      "form": "đọi",
+      "ipa": "ɗɔj˨˩",
+      "gloss_en": "bowl",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sân",
+      "form": "cươi",
+      "ipa": "kɨəj˧˧",
+      "gloss_en": "courtyard (Nghệ Tĩnh)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xa",
+      "form": "ngái",
+      "ipa": "ŋaːj˧˥",
+      "gloss_en": "far",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bây giờ",
+      "form": "dừ / chừ",
+      "ipa": "zɨ˨˩ / cɨ˨˩",
+      "gloss_en": "now",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cô (chị/em gái của bố)",
+      "form": "o",
+      "ipa": "ɔ˧˧",
+      "gloss_en": "paternal aunt",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bà (nội / ngoại)",
+      "form": "mệ",
+      "ipa": "me˨˩",
+      "gloss_en": "grandmother (Nghệ Tĩnh)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chị",
+      "form": "ả",
+      "ipa": "aː˧˩",
+      "gloss_en": "elder sister (Nghệ Tĩnh)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thèm",
+      "form": "sèm",
+      "ipa": "ʂɛm˨˩",
+      "gloss_en": "to crave (Nghệ Tĩnh)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quả / trái",
+      "form": "trấy",
+      "ipa": "ʈəj˧˥",
+      "gloss_en": "fruit (classifier/noun)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "cơn",
+      "ipa": "kəːn˧˧",
+      "gloss_en": "tree / plant (archaic/rural Nghệ Tĩnh)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhỉ / nhé (tiểu từ cuối câu)",
+      "form": "hè / hỉ",
+      "ipa": "hɛ˨˩ / hi˧˩",
+      "gloss_en": "sentence-final particle",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca Ví, Giặm Nghệ Tĩnh",
+        "note": "UNESCO ghi danh Di sản văn hóa phi vật thể đại diện của nhân loại năm 2014 (hồ sơ 01008). Gồm hát Ví (nhịp tự do, thể lục bát/song thất lục bát, gắn với lao động như ví phường vải, ví đò đưa, ví phường cấy) và hát Giặm (nhịp phách rõ, thể vè 5 chữ, vần lưng – vần chân)."
+      },
+      {
+        "name": "Hò Sông Mã (Thanh Hóa)",
+        "note": "Hệ thống hò lao động đường sông đặc sắc trên sông Mã (hò rời bến, hò đằm, hò kéo thác, hò cập bến) với lối xướng – xô khỏe khoắn."
+      },
+      {
+        "name": "Trò Xuân Phả (Thanh Hóa)",
+        "note": "Di sản văn hóa phi vật thể quốc gia tại Thọ Xuân, Thanh Hóa; tổ hợp múa hát dân gian – cung đình cổ."
+      },
+      {
+        "name": "Ca trù Cổ Đạm (Nghi Xuân, Hà Tĩnh) & Kịch hát Nghệ Tĩnh",
+        "note": "Ca trù Cổ Đạm có truyền thống lâu đời; kịch hát Nghệ Tĩnh là hình thức sân khấu hóa hiện đại từ chất liệu Ví, Giặm."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Trổ mở đầu ngân tự do (hát Ví)",
+        "description": "Tiếng đưa hơi mở đầu câu hát Ví bằng hư từ ('Ơ...', 'Chơ...', 'Ai ơi...') kéo dài nhịp tự do (rubato) trước khi vào chữ đầu của câu lục bát.",
+        "abc": "(A2d6)",
+        "confidence": "low"
+      },
+      {
+        "name": "Nhấn trầm và rung cổ xứ Nghệ",
+        "description": "Hạ trọng tâm âm vực xuống quãng trầm với độ rung dày ở các chữ mang thanh huyền, nặng, ngã (đọc như nặng), giữ bản sắc giọng nói Nghệ Tĩnh trong giai điệu.",
+        "abc": "(E2D6)",
+        "confidence": "low"
+      },
+      {
+        "name": "Đổ nhịp kể vè 5 chữ (hát Giặm)",
+        "description": "Lối nhả chữ rõ phụ âm đầu, bám sát tiết tấu 5 chữ một câu, nhấn phách ở chữ thứ 5 ăn vần lưng với câu kế tiếp.",
+        "abc": "G1 G1 A1 G1 E2",
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung / tứ cung dân ca Ví, Giặm (hơi Xuân và hơi Ai/Giận thương)",
+        "note": "Thường xoay quanh khung ngũ cung (như D–F–G–A–C hoặc C–D–F–G–A) với bậc 3 và bậc 7 linh hoạt (non/già) bám chặt đường nét trầm của thanh điệu địa phương; tân nhạc mang âm hưởng xứ Nghệ thường viết ở giọng thứ hoặc ngũ cung pha thứ.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Hát mộc không nhạc đệm (nguyên gốc lao động dân gian Ví, Giặm)"
+      },
+      {
+        "name": "Đàn nhị"
+      },
+      {
+        "name": "Đàn bầu"
+      },
+      {
+        "name": "Sáo trúc"
+      },
+      {
+        "name": "Đàn nguyệt"
+      },
+      {
+        "name": "Trống, phách, sinh tiền (giữ nhịp trong hát Giặm, Hò Sông Mã và sân khấu hóa)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "empirical_status": "untested-heuristics",
+    "sub_varieties": [
+      {
+        "id": "thanh-hoa",
+        "name_vi": "Tiếng Thanh Hóa",
+        "note": "Phương ngữ chuyển tiếp Bắc – Trung: âm vực gần Bắc Bộ hơn Nghệ Tĩnh, thanh ngã thường nhập vào thanh hỏi, nhưng chia sẻ nhiều từ vựng cốt lõi (mô, tê, răng, rứa, mi, tau, trốc) và phụ âm đầu với Nghệ Tĩnh."
+      },
+      {
+        "id": "vinh-nghe-tinh-koine",
+        "name_vi": "Tiếng Vinh / Nghệ Tĩnh phổ thông vùng",
+        "note": "Hệ 5 thanh trầm (thanh ngã nhập vào thanh nặng), phân biệt rõ tr/ch, s/x, r/d, l/n; ít biến đổi nguyên âm cực đoan hơn thổ ngữ nông thôn."
+      },
+      {
+        "id": "nghi-loc-thanh-chuong-duc-tho",
+        "name_vi": "Các thổ ngữ bảo lưu nông thôn Nghệ Tĩnh (Nghi Lộc, Thanh Chương, làng Hến - Đức Thọ, Lộc Hà)",
+        "note": "Hệ thanh điệu rút gọn còn 3–4 thanh (nhiều thanh xô dồn về âm vực thấp hoặc trung hòa hỏi/sắc, ngang/huyền) và giữ đậm lớp vần cổ (nác, tru, rọt, eng/ec)."
+      }
+    ],
+    "tokenization_warnings": [
+      "Từ địa phương tần suất cao như 'mô', 'tê', 'răng', 'rứa', 'mi', 'tau', 'ni', 'nớ', 'mần', 'o', 'mệ' đều là âm tiết chuẩn chữ Quốc ngữ nên thường nguyên vẹn 1 token trên các tokenizer đa ngữ/tiếng Việt.",
+      "Các dạng viết lại mô phỏng khẩu âm sâu như 'chưn', 'gưn', 'bựa', 'sựa', 'eng', 'chẹng' có nguy cơ cao bị tách thành nhiều sub-token trên BPE tokenizer (như qwen.tiktoken), dễ gây lỗi phát âm hoặc méo nhịp khi hát: nên giữ chính tả chuẩn và điều khiển khẩu âm qua audio prompt / LoRA adapter thay vì respelling cưỡng bức."
+    ],
+    "singing_synthesis_notes": [
+      "Khi tổng hợp dân ca Ví, Giặm hoặc nhạc mang âm hưởng xứ Nghệ, đặc trưng nhận diện quan trọng nhất là phân biệt phụ âm quặt lưỡi (tr, s, r), giữ nguyên phụ âm đầu v [v], và hạ thấp đường F0 của thanh ngã/nặng mà không bẻ gãy thanh hầu cao kiểu Hà Nội.",
+      "Tránh áp dụng bộ quy tắc miền Nam (như v→d, -n→-ng, -t→-c, ngã→hỏi) cho giọng Nghệ Tĩnh vì sẽ làm lệch hoàn toàn sang phương ngữ Nam/Nam Trung Bộ."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hoàng Thị Châu (2004). Phương ngữ học tiếng Việt. NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Alves, Mark J. (2007). A Look at North-Central Vietnamese. In SEALS XII: Papers from the 12th Annual Meeting of the Southeast Asian Linguistics Society (2002), pp. 1–7. Pacific Linguistics, Australian National University.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Pham, Andrea Hoa (2005). Vietnamese tonal system in Nghi Loc: A preliminary report. Toronto Working Papers in Linguistics, Vol. 24, pp. 183–201.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hoàng Trọng Canh (2014). Từ điển tiếng Nghệ. NXB Văn học.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Vietnamese phonology (North-central and Central varieties)",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Phương ngữ Thanh Hóa",
+      "url": "https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_ng%E1%BB%AF_Thanh_H%C3%B3a",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Ví and Giặm folk songs of Nghệ Tĩnh (Nomination file No. 01008, 2014)",
+      "url": "https://ich.unesco.org/en/RL/vi-and-giam-folk-songs-of-nghe-tinh-01008",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.tones[4].confidence",
+          "severity": "medium",
+          "problem": "Bảng mã gộp chung cả Bắc Trung Bộ (Thanh Hóa + Nghệ Tĩnh), nhưng trường merges_with của thanh ngã và thanh nặng đang gán cứng là 'nang' / 'nga' với confidence='high'. Điều này đúng với Nghệ Tĩnh nhưng mâu thuẫn với phần lớn phương ngữ Thanh Hóa (nơi thanh ngã nhập vào thanh hỏi).",
+          "fix": "Hạ confidence của thanh ngã và thanh nặng xuống 'medium' ở cấp độ toàn vùng Bắc Trung Bộ do sự phân hóa giữa tiểu vùng Thanh Hóa và Nghệ Tĩnh."
+        },
+        {
+          "path": "lexicon[17].ipa",
+          "severity": "low",
+          "problem": "Từ 'trốc' (đầu) là âm tiết khép kết thúc bằng phụ âm tắc vô thanh /-k/, nguyên âm /o/ trong tiếng Việt không kéo dài thành [oː] trước /-k/.",
+          "fix": "Sửa IPA từ 'ʈoːk˧˥' thành 'ʈok˧˥'."
+        },
+        {
+          "path": "music.ornaments",
+          "severity": "low",
+          "problem": "Các ký hiệu ABC '(A2d6)', '(E2D6)' trong phần luyến láy dân ca Ví, Giặm mới là phác thảo minh họa, chưa trích xuất từ bản ký âm dân tộc nhạc học chuẩn.",
+          "fix": "Hạ confidence của toàn bộ các mục trong music.ornaments xuống 'low'."
+        },
+        {
+          "path": "sources[2].title",
+          "severity": "low",
+          "problem": "Thiếu số tập và số trang của bài báo nghiên cứu thanh điệu Nghi Lộc của Andrea Hoa Pham (2005).",
+          "fix": "Bổ sung thông tin xuất bản đầy đủ: 'Toronto Working Papers in Linguistics, Vol. 24, pp. 183–201'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần tách riêng bảng mã con nếu ứng dụng ML đòi hỏi phân biệt rạch ròi giữa giọng Thanh Hóa (ngã nhập hỏi) và giọng Nghệ Tĩnh (ngã nhập nặng).",
+      "Đường nét số Chao của thanh sắc và thanh hỏi dao động mạnh giữa thành phố Vinh, Hà Tĩnh và các huyện Nghi Lộc, Thanh Chương, Đức Thọ; cần đo F0 thực nghiệm trên giọng hát Ví, Giặm chuẩn.",
+      "Các ký hiệu ABC trong phần music.ornaments mới là phác thảo minh họa quãng luyến, cần nghệ nhân dân ca xứ Nghệ hoặc nhạc sĩ dân tộc học hiệu đính."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

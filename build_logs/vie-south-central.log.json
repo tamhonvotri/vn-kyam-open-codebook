@@ -1,0 +1,112 @@
+{
+  "target": {
+    "id": "vie-south-central",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Phương ngữ Nam Trung Bộ (Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên)",
+    "hint": "Giọng Quảng (biến đổi nguyên âm a→o/ơ...), giọng Bình Định; bài chòi (UNESCO 2017)."
+  },
+  "started": "2026-11-13T21:41:13.479221",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9411,
+      "candidatesTokenCount": 10528,
+      "totalTokenCount": 25325,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9411
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10528
+        }
+      ],
+      "thoughtsTokenCount": 5386,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [
+      {
+        "title": "vass.gov.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeY67NHkw8mMZBF9465gs63UMbho9oFq_WCCQkRShlz-_P80HeSFjoIQLFtunHIqvHE8wgUqoxzAix5JojTqonyYc1CE2IKJ08ki5L5LOODPSeSvOBpk7H6MGgHoh3sLnPrgIYB2ZfuYllywogQBT_cHaqgNrtyLdz1dX8b9nwQu_oRYJmITv0ZC1s93rObA=="
+      },
+      {
+        "title": "ucvn.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJHWJwd8rI76dTX2YGECnusKKyY76wi_r98R3vaEvI3epWm3YZ3ic2r3hQfLC7Q3QL7VQ20OYmwr2FP34A3mCOyKSeabDmOowgdGJDRJQpO-JgeDZDuM9TXJkoQ2rOeWIfD00QVWn3ffQqAPu-oGkzRaSO4ddP5qVork3MqbQZPVE49ExA"
+      },
+      {
+        "title": "benjamins.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsWjZvEePyxgvFjJQDcFWkHtSGSLAv0ikBtJkRNuJVR1dRfsO-6GdBsPbMts1IUhpVfxH3agHaerR88LyrgJGdQBAKuLScaQW8x19A0cm2FhOn6X80PXP7_RhXclVMraQOXg=="
+      },
+      {
+        "title": "jol.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2dIJdTq8d92IekPPvqPNxhfYue4HWZkbTWqwrLbqxp2sjwX70cgsoo_SgssRDzhj0M4Vyp9yQeMlFKBNAb_tiCMT8KY0ruBscEw9jnMuZWqJRofRW4jrLZ6OaK_1KvlnaxkhzKpMcYnUTLL0ptSgECX-Vg=="
+      },
+      {
+        "title": "benjamins.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsWjZvEePyxgvFjJQDcFWkHtSGSLAv0ikBtJkRNuJVR1dRfsO-6GdBsPbMts1IUhpVfxH3agHaerR88LyrgJGdQBAKuLScaQW8x19A0cm2FhOn6X80PXP7_RhXclVMraQOXg=="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_MdbepcoQGqPA8OoVkt6L1qJtj1hJd3Y-94tSLrlcI7o4l9ugg55S2wXfBPFWvFwZ06DjufROqHN4AuT14pT3U4GyD8SafnF65y6taQhgo3TqkYIN_zsIioQTdJ1xwVyNzUhSwHlJeSF-x40E73TnNPtCm52pMCGpo81ep7pFg-Hu0iYM"
+      },
+      {
+        "title": "nghiencuulichsu.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQI6HUKFZfy5W-P4Nn2Z5UtzYkfDUzElD9a3urVQQP1vg4nf8uNp4F-xEnH0giq9mEKHtZAibD6MR7xqx_ffPpQWcOhIeeRLvMwYKDTfhACwjVzoOCt_d24sU06IyufvSGlRZcTbbAE61ormHu1MevZiml8UKWrEA_cYFG"
+      }
+    ],
+    "queries": [
+      "\"Contact-induced change and the phonemicization\" \"Pham\" \"10.1075/cilt\"",
+      "\"Âm sắc, trường độ và giải pháp cho hệ thống nguyên âm thổ ngữ Bình Định\"",
+      "\"Sự biến đổi của âm chính trong các vần có âm cuối của thổ ngữ Sơn Tịnh\"",
+      "\"Nguồn gốc và sự hình thành giọng Quảng Nam\" \"Andrea Hòa Phạm\""
+    ],
+    "usage": {
+      "promptTokenCount": 12254,
+      "candidatesTokenCount": 10898,
+      "totalTokenCount": 23985,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12254
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10898
+        }
+      ],
+      "thoughtsTokenCount": 833,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "sources[3].title & status_note",
+        "severity": "medium",
+        "problem": "Tác giả bài báo 'Âm sắc, trường độ và giải pháp cho hệ thống nguyên âm thổ ngữ Bình Định' (Tạp chí Ngôn ngữ, 2016) là Lê Nguyễn Hoàng Mai (đăng ở số 10/2016, tr. 70–80; một số tài liệu trích dẫn nhầm thành số 11), không phải 'Lê Thị Minh Hằng'.",
+        "fix": "Sửa tên tác giả thành Lê Nguyễn Hoàng Mai trong status_note và sources[3].title, đồng thời ghi chú số tạp chí là số 10 (2016)."
+      },
+      {
+        "path": "correspondences_from_standard_vietnamese[7]",
+        "severity": "low",
+        "problem": "Ví dụ 'đau đầu' → 'đa đào' cho quy tắc vần 'âu' → 'ao' trộn lẫn hai hiện tượng: âm tiết đầu 'đau' → 'đa' thuộc quy tắc 'au' → 'a', chỉ có âm tiết sau 'đầu' → 'đào' thuộc quy tắc 'âu' → 'ao'.",
+        "fix": "Đổi ví dụ sang 'đi đâu' → 'đi đao' (hoặc ghi rõ trong example) để minh họa thuần khiết quy tắc 'âu' → 'ao'."
+      },
+      {
+        "path": "lexicon[10].ipa",
+        "severity": "low",
+        "problem": "Mục từ 'hỉ / hầy' chỉ mới ghi IPA cho biến thể 'hỉ' (hi˨˩˦), thiếu phiên âm cho 'hầy'.",
+        "fix": "Bổ sung IPA thành 'hi˨˩˦ / həj˨˩'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

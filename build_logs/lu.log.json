@@ -1,0 +1,105 @@
+{
+  "target": {
+    "id": "lu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Lự",
+    "ethnic_group_vi": "Lự",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:38:37.187784",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 9667,
+      "totalTokenCount": 27036,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9667
+        }
+      ],
+      "thoughtsTokenCount": 7992,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [
+      {
+        "title": "vov.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFZJycejjygAfYCxeMf4H8mcgWYD6LQBww59FJR2KKojBY_yHbD6P64BaEzFNdAUEbxvV0ElnfoFp6msht1PU7QQxmWbBkBEYjAjtm4qPD5iX7LQbrDJ1ifbxxKwgdmWCskTY4bzg="
+      },
+      {
+        "title": "hcm.edu.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIyN8wegQ9suQf0Hgt5RZwQYWWqR26Od9kicVoAr7QnPA8wLrxzffoUxTRIabZH2GdC5q1X-achMWo2LpZlQtSETcTX3apQ5ewKdb0fnq9bnz746f03pvcpeX0FK-wNIjnRA-pImQOHisFUzbEqLIXPxybhZvUNLEfqovO2lrxBXF2moSyxSiU9mgcems="
+      },
+      {
+        "title": "scribd.com",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiiKFywNEZCVDXNGkQCV_ySyMqQ8Cj61OJE3d3m6ixEeqzHFsuY1XwZJhKrfQbyA4Ym9Us7Ccy_zZzCkXGKZr0MOUVpFIZto79ALIe-tkiPDmEd_wy6R2Es3AjlNpIbndHGOHmkg=="
+      },
+      {
+        "title": "eki.ee",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7FdchS-jtkWwiLKp9GSM-NdP_p5cR7exv_aznKeqU7Aja2MKgRaWeyhzADgEqDGcbb3V6D-sKr4-qXG8AAqmE0VTn4u-wSaiVQP0REv-3ZBPx_Sh_t2EeTo2ODeq4yRhAzwwmbYU="
+      }
+    ],
+    "queries": [
+      "\"6.757\" \"dân tộc Lự\" 2019",
+      "\"Tai Lue\" phonology tones 55 51 13 11 35 33"
+    ],
+    "usage": {
+      "promptTokenCount": 11523,
+      "candidatesTokenCount": 10612,
+      "totalTokenCount": 23479,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11523
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10612
+        }
+      ],
+      "thoughtsTokenCount": 1344,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[0]",
+        "severity": "medium",
+        "problem": "Bản nháp ghi tại Lai Châu (Việt Nam) có cả hai nhóm 'Lự Đen (Lự Đăm) và Lự Trắng'. Tuy nhiên, các tài liệu dân tộc học chính thống tại Việt Nam (Ủy ban Dân tộc, VOV4) ghi nhận ở Việt Nam chỉ có nhóm địa phương Lự Đen (Lừ Đăm), phân biệt với nhóm Lự Trắng (Lừ Khao) cư trú ở Tây Song Bản Nạp (Trung Quốc).",
+        "fix": "Sửa lại tên và ghi chú của sub_varieties[0] để phản ánh đúng việc người Lự tại Lai Châu thuộc nhóm Lự Đen (Lừ Đăm)."
+      },
+      {
+        "path": "phonology.vowels & ml_hints.phonemes_absent_in_vietnamese",
+        "severity": "medium",
+        "problem": "Theo Li (1964) và cấu trúc chữ New Tai Lue, chỉ có cặp /a/ – /aː/ đối lập độ dài âm vị học thực sự trong âm tiết đóng. Với 8 nguyên âm còn lại (/i, e, ɛ, ɯ, ɤ, u, o, ɔ/), biến thể ngắn chỉ xuất hiện trước âm tắc thanh hầu cuối âm tiết /-ʔ/ (ký tự ᦰ, vốn đã được liệt kê trong phonology.codas) hoặc trong âm tiết đóng (nơi không có đối lập ngắn–dài). Việc vừa liệt kê /-ʔ/ ở codas vừa khẳng định đối lập độ dài âm vị học ở tất cả 9 nguyên âm là tính trùng (double-counting).",
+        "fix": "Làm rõ trong phonology.vowels và ml_hints.phonemes_absent_in_vietnamese rằng đối lập độ dài âm vị học độc lập chỉ có ở /a – aː/, còn ở các nguyên âm khác độ dài phụ thuộc vào cấu trúc âm tiết (dài ở âm tiết mở, ngắn trước /-ʔ/ ᦰ hoặc phụ âm cuối)."
+      },
+      {
+        "path": "status_note",
+        "severity": "low",
+        "problem": "Có lỗi ký tự lạ tiếng Hàn 'văn헌' trong chuỗi tiếng Việt.",
+        "fix": "Sửa 'văn헌 quốc tế' thành 'tài liệu ngôn ngữ học quốc tế'."
+      },
+      {
+        "path": "lexicon[10].confidence & lexicon[11].confidence",
+        "severity": "low",
+        "problem": "Hai mục từ văn hóa địa phương ('pí me lụ', 'sú khon khoài') chỉ có dạng phiên âm chữ Quốc ngữ từ báo chí địa phương, chưa có dạng chữ Lự chuẩn và IPA kiểm chứng.",
+        "fix": "Hạ confidence từ 'medium' xuống 'low'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

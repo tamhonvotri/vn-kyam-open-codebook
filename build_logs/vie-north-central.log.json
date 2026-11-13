@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "vie-north-central",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Phương ngữ Bắc Trung Bộ (Thanh Hóa, Nghệ An, Hà Tĩnh)",
+    "hint": "Gồm giọng Nghệ Tĩnh và Thanh Hóa; hát ví, giặm Nghệ Tĩnh (UNESCO 2014)."
+  },
+  "started": "2026-11-13T21:41:13.479063",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9401,
+      "candidatesTokenCount": 9176,
+      "totalTokenCount": 23425,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9401
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9176
+        }
+      ],
+      "thoughtsTokenCount": 4848,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11255,
+      "candidatesTokenCount": 9776,
+      "totalTokenCount": 21992,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11255
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9776
+        }
+      ],
+      "thoughtsTokenCount": 961,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.tones[4].confidence",
+        "severity": "medium",
+        "problem": "Bảng mã gộp chung cả Bắc Trung Bộ (Thanh Hóa + Nghệ Tĩnh), nhưng trường merges_with của thanh ngã và thanh nặng đang gán cứng là 'nang' / 'nga' với confidence='high'. Điều này đúng với Nghệ Tĩnh nhưng mâu thuẫn với phần lớn phương ngữ Thanh Hóa (nơi thanh ngã nhập vào thanh hỏi).",
+        "fix": "Hạ confidence của thanh ngã và thanh nặng xuống 'medium' ở cấp độ toàn vùng Bắc Trung Bộ do sự phân hóa giữa tiểu vùng Thanh Hóa và Nghệ Tĩnh."
+      },
+      {
+        "path": "lexicon[17].ipa",
+        "severity": "low",
+        "problem": "Từ 'trốc' (đầu) là âm tiết khép kết thúc bằng phụ âm tắc vô thanh /-k/, nguyên âm /o/ trong tiếng Việt không kéo dài thành [oː] trước /-k/.",
+        "fix": "Sửa IPA từ 'ʈoːk˧˥' thành 'ʈok˧˥'."
+      },
+      {
+        "path": "music.ornaments",
+        "severity": "low",
+        "problem": "Các ký hiệu ABC '(A2d6)', '(E2D6)' trong phần luyến láy dân ca Ví, Giặm mới là phác thảo minh họa, chưa trích xuất từ bản ký âm dân tộc nhạc học chuẩn.",
+        "fix": "Hạ confidence của toàn bộ các mục trong music.ornaments xuống 'low'."
+      },
+      {
+        "path": "sources[2].title",
+        "severity": "low",
+        "problem": "Thiếu số tập và số trang của bài báo nghiên cứu thanh điệu Nghi Lộc của Andrea Hoa Pham (2005).",
+        "fix": "Bổ sung thông tin xuất bản đầy đủ: 'Toronto Working Papers in Linguistics, Vol. 24, pp. 183–201'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

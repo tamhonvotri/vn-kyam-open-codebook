@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "co",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Co",
+    "ethnic_group_vi": "Co",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:19:57.821374",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9375,
+      "candidatesTokenCount": 9393,
+      "totalTokenCount": 25832,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9375
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9393
+        }
+      ],
+      "thoughtsTokenCount": 7064,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12065,
+      "candidatesTokenCount": 11904,
+      "totalTokenCount": 25505,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12065
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11904
+        }
+      ],
+      "thoughtsTokenCount": 1536,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "lexicon / phonology.codas / ml_hints.sample_words",
+        "severity": "medium",
+        "problem": "Sự lẫn lộn giữa chính tả thực hành của Maier (1969) và ký hiệu phiên âm âm vị học của Sidwell (2010) ở các từ 'chim', 'cát', 'viết': Trong Maier (1969: 12, Chart II), nguyên âm dài /eː/ viết là 'êê' ('sêêp' = bird, 'thêêp' = more) còn 'ee' biểu thị /ɛː/; âm tắc ngạc cứng vô thanh /c/ viết là 'ch' ('chowah' = sand, 'chih' = to write). Các dạng 'seep', 'cawah', 'cih' thực chất là ký hiệu âm vị học chuẩn hóa trong bài viết lịch sử ngôn ngữ của Sidwell (2010).",
+        "fix": "Sửa lại trong lexicon, phonology.codas, ml_hints.sample_words và ml_hints.quoc_ngu_approximation để ghi rõ chính tả Maier (1969) kèm đối chiếu dạng phiên âm của Sidwell (2010): 'sêêp (Sidwell: seep)', 'chowah (Sidwell: cawah)', 'chih (Sidwell: cih)'; đồng thời cập nhật ghi chú ở phonology.onsets ('ch') và phonology.vowels ('êê', 'ee')."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Ở mục tổ hợp h + phụ âm mũi/tiếp cận và q + phụ âm mũi, Maier (1969: 11, 16) liệt kê cụ thể các tổ hợp ghi nhận được trong ngữ liệu gồm hm, hn, hng, hl, hr, hy (tiền bật hơi) và qn, qng, qnh (tiền thanh hầu hóa); việc ghi gộp 'hm, hn, hnh, hng' và 'qm, qn, qnh, qng' chưa phản ánh sát phân bố thực tế trong Maier (1969) và thiếu 'hr, hy'.",
+        "fix": "Chỉnh lại trường grapheme và note của các mục này theo đúng danh sách tổ hợp được Maier (1969: 11, 16) chứng thực."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "low",
+        "problem": "Ghi chú về nguyên âm 'î' trong Maier (1969: 16-17, Chart II) chưa nêu rõ phân bố đặc thù: 'î' là nguyên âm trước cao-giữa (high-mid front), chỉ xuất hiện trong âm tiết đóng trước hai âm cuối -q /ʔ/ và -h /h/.",
+        "fix": "Bổ sung chi tiết phân bố của 'î' (chỉ đứng trước -q và -h) theo Maier (1969: 17) và nâng confidence của 'êê' /eː/, 'ee' /ɛː/ sau khi đã tách biệt rõ chính tả Maier (1969) với phiên âm của Sidwell (2010)."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn trực tuyến đang để null; mục tài liệu 'Bay hok pok Kool Kua' (1974) nên ghi chú thêm bản tái bản năm 1977 của SIL.",
+        "fix": "Cập nhật url_check thành 'verified' cho 5 URL đã kiểm chứng qua tìm kiếm và bổ sung thông tin năm xuất bản 1974/1977 cho sách học tiếng Cua."
+      }
+    ]
+  },
+  "schema_errors": []
+}

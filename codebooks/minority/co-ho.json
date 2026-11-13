@@ -1,0 +1,872 @@
+{
+  "id": "co-ho",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cơ Ho",
+  "name_en": "Koho (Kơho / K'Ho / Sre)",
+  "autonym": "Kơho [kəˈhɔ] (tự danh tộc người: kon cau [kɔn caw])",
+  "ethnic_group_vi": "Cơ Ho",
+  "language": {
+    "iso639_3": "kpm",
+    "glottocode": "koho1244",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (South Bahnaric, Sre–Mnong)"
+  },
+  "regions": [
+    "Lâm Đồng (Di Linh, Lạc Dương, Đức Trọng, Bảo Lộc, Bảo Lâm, Lâm Hà, Đơn Dương, Đam Rông)",
+    "Bình Thuận",
+    "Khánh Hòa",
+    "Ninh Thuận",
+    "Đồng Nai",
+    "Đắk Lắk"
+  ],
+  "speakers_estimate": "Khoảng 200.800 người dân tộc Cơ Ho tại Việt Nam (Tổng điều tra dân số và nhà ở 2019); ngoài ra còn một bộ phận người Chu Ru và người Mạ lân cận sử dụng.",
+  "scripts": [
+    {
+      "name": "Chữ Kơho Latinh sửa đổi (phương án 1983 tại Lâm Đồng)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended-A; Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Dựa trên chữ Quốc ngữ, công bố kèm Từ điển Việt – Kơho (1983) và Ngữ pháp tiếng Kơho (1985/1986) do Sở Văn hóa và Thông tin Lâm Đồng phối hợp Viện Ngôn ngữ học biên soạn. Dùng dấu huyền (◌̀) ghi trường độ nguyên âm dài (thanh thấp); dùng dấu sắc (◌́) ghi âm tắc thanh hầu cuối /-ʔ/ sau nguyên âm ngắn (như srá [sraʔ] 'sách') cũng như ghi nguyên âm ngắn (thanh cao) trong âm tiết khép kết thúc bằng /-p, -t, -c, -k/ (như mát [mat] 'mắt', puác [pwaʲc] 'thịt')."
+    },
+    {
+      "name": "Chữ Kơho truyền giáo / CMA–SIL (1935/1936, chỉnh lý thập niên 1960)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended-A; Latin Extended-B; Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Vẫn phổ biến rộng rãi trong cộng đồng tôn giáo (Công giáo, Tin Lành — bản Kinh Thánh 2010/2018) và cộng đồng hải ngoại. Dùng chữ <ƀ> (U+0180) cho âm hút vào /ɓ/, <đ> cho /ɗ/, <ñ> hoặc <nh> cho /ɲ/, dấu trăng (◌̆) cho nguyên âm ngắn/tắc thanh hầu và dấu huyền (◌̀) cho nguyên âm dài."
+    },
+    {
+      "name": "Chữ Kơho Dournes–Martini (Ủy ban Đà Lạt 1949)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ lịch sử dùng trong từ điển Dournes (1950), nhân đôi con chữ nguyên âm (aa, oo...) để ghi nguyên âm dài nhằm gõ được trên máy chữ Pháp."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Biên soạn tự động bởi LLM từ tư liệu học thuật về phương ngữ Sre (phương ngữ đông người nói nhất và làm cơ sở cho chữ viết tại Lâm Đồng): Olsen (2014, 2015) và Lý Toàn Thắng, Tạ Văn Thông et al. (1985/1986), Tạ Văn Thông (2004). Chưa được người bản xứ và nhà ngôn ngữ học thẩm định trực tiếp. Cần đặc biệt lưu ý sự tồn tại song song giữa chính tả nhà nước 1983 và chính tả nhà thờ/SIL trong cộng đồng.",
+  "phonology": {
+    "syllable_structure": "(C1ə(C2)).C3(C4)V(ː)(C5)(C6) — cấu trúc bán âm tiết (sesquisyllabic) gồm tiền âm tiết yếu không mang trọng âm (thường có nguyên âm trung hòa /ə/, viết là ơ, hoặc mũi âm tiết tính m-/n-/ng-) đi trước âm tiết chính; âm tiết chính cho phép tổ hợp phụ âm đầu 2–3 âm (pl-, pr-, sr-, mh-, nh-, mp-, nt-, ngg-, ndr-...).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c (hoặc ch)",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi-ngạc cứng vô thanh; phương án 1983 viết <c> (ví dụ: cau 'người', cing 'chiêng'), truyền thống nhà thờ/đời sống cũng gặp <ch>",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ cái đầu)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết trước nguyên âm mở đầu từ (ví dụ: anh [ʔaʲɲ] 'tôi', ồs [ʔoːs] 'lửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (KHÔNG phải âm xát [f] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch (hoặc kh/c + h)",
+        "ipa": "cʰ",
+        "note": "Tắc ngạc cứng bật hơi; phương án 1983 dùng <ch> (ví dụ: chi [cʰi] 'cây'), phân biệt với <c> /c/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (KHÔNG phải âm xát [x] như tiếng Việt Bắc Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b (hoặc ƀ)",
+        "ipa": "ɓ",
+        "note": "Tắc hút vào hai môi hữu thanh; phương án 1983 viết <b>, chữ SIL/nhà thờ phân biệt <ƀ> (/ɓ/) với <b> (/b/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v (hoặc b)",
+        "ipa": "b ~ β",
+        "note": "Tắc hai môi hữu thanh thường (hoặc bán hữu thanh/xát đôi môi qua các phương ngữ); phương án 1983 ghi <v> ở một số biến thể Sre (vèp/bàp 'cha', vàr/bàr 'hai'), còn Olsen (2014/2015) ghi âm vị /b/ viết <b>",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc hút vào chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh thường (KHÔNG đọc là [z] hay [j] như chữ <d> tiếng Việt; ví dụ: dà [daː] 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc ngạc cứng hữu thanh (ví dụ: jơng 'chân', jing 'khâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh (KHÔNG phải âm xát [ɣ] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi; cũng đứng đầu làm tiền âm tiết mũi trước phụ âm tắc (mp-, mb-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng; cũng làm tiền âm tiết mũi (nt-, nd-, ndr-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh (hoặc ñ)",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng; bản chữ 1936/nhà thờ đôi khi dùng <ñ>",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm; đứng trước /ɡ/ viết <ngg> (ví dụ: nggui 'ngồi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mh / m'h",
+        "ipa": "mʰ",
+        "note": "Mũi hai môi bật hơi / vô thanh hóa (tổ hợp C+h theo phân tích hình âm vị, ví dụ: mhar 'nhanh', mhàm 'máu')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "n'h / nh",
+        "ipa": "nʰ",
+        "note": "Mũi chân răng bật hơi (dùng dấu phẩy trên <n'h> như n'ha 'lá' để tránh nhầm với <nh> /ɲ/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung chân răng [r], giảm thành âm vỗ [ɾ] khi đứng thứ hai trong cụm phụ âm đầu (pr-, tr-, kr-, sr-, br-, dr-, gr-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng; cũng xuất hiện trong cụm phụ âm đầu (pl-, bl-, kl-, gl-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w (hoặc u- làm âm đệm)",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm (ví dụ: wàng 'chuồng', puác /pwac/ 'thịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y (hoặc i- làm âm đệm)",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng (ví dụ: yal 'kể', iar /jar/ 'gà')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / ì",
+        "ipa": "i / iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp; <ì> biểu thị nguyên âm dài /iː/ kèm đường nét cao độ thấp/đi xuống",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / ề (hoặc î)",
+        "ipa": "e / eː",
+        "note": "Nguyên âm hàng trước hơi hẹp; một số ấn phẩm Tin Lành cũ giữ <î> cho /e/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / è",
+        "ipa": "ɛ / ɛː",
+        "note": "Nguyên âm hàng trước hơi rộng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ừ",
+        "ipa": "ɨ ~ ɯ / ɨː ~ ɯː",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ờ",
+        "ipa": "ə / əː",
+        "note": "Nguyên âm hàng giữa độ mở trung bình; cũng là nguyên âm mặc định của tiền âm tiết yếu (kơ-, sơ-, tơ-, bơ-...)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / à (hoặc ă)",
+        "ipa": "a / aː",
+        "note": "Nguyên âm độ mở rộng; phương án 1983 viết <a> (ngắn) / <à> (dài), chữ SIL/nhà thờ thường dùng <ă> cho nguyên âm ngắn hoặc trước /-ʔ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / à (tiểu phương ngữ Sre A, B)",
+        "ipa": "ɑ / ɑː",
+        "note": "Theo Olsen (2014), một số tiểu phương ngữ Sre phân biệt /a/ trước và /ɑ/ sau (nhập làm một ở tiểu phương ngữ C và trong chính tả phổ thông)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "u / ù",
+        "ipa": "u / uː",
+        "note": "Nguyên âm hàng sau tròn môi độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ồ",
+        "ipa": "o / oː",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ò",
+        "ipa": "ɔ / ɔː",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c (hoặc ch)",
+        "ipa": "c",
+        "note": "Tắc ngạc cứng cuối âm tiết; tạo âm lướt ngạc cứng nghe rõ sau nguyên âm [Vʲc] (ví dụ: puác /pwac/ → [pwaʲc] 'thịt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm cuối âm tiết (phân biệt rõ với <-c> /c/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dấu sắc (◌́) hoặc dấu huyền (◌̀) ở âm tiết mở (hoặc ă/ăq trong chữ SIL)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết /-ʔ/; trong phương án 1983 không có con chữ riêng mà thể hiện qua dấu sắc trên nguyên âm ngắn ở âm tiết mở (ví dụ: srá [sraʔ] 'sách', cá [caʔ] 'gừng'); trong hệ SIL dùng dấu trăng (◌̆) như sră [sraʔ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh (hoặc ñ)",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng cuối âm tiết; tạo âm lướt ngạc cứng [Vʲɲ] (ví dụ: anh /ʔaɲ/ → [ʔaʲɲ] 'tôi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng cuối âm tiết (không có trong tiếng Việt chuẩn; ví dụ: ồs 'lửa', đơs 'nói')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (không có trong tiếng Việt chuẩn; ví dụ: muh 'mũi', lơh 'làm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm r cuối âm tiết (không có trong tiếng Việt chuẩn; ví dụ: vàr/bàr 'hai', iar 'gà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết (không có trong tiếng Việt chuẩn; ví dụ: dùl 'một', bòl 'bạn/bà con')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u (hoặc o sau a/e)",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-ngạc mềm; có thể kết hợp thành tổ hợp cuối /-wʔ/ (viết -ớu...)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i (hoặc y)",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng; có thể kết hợp với /-ʔ/ hoặc /-h/ (như -ih/-iuh: acôih 'ôi!')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "short_high",
+        "name": "Nguyên âm ngắn / Thanh cao (bằng)",
+        "mark": "không dấu (hoặc dấu sắc ◌́ trước /-p, -t, -c, -k, -ʔ/ trong chữ 1983; dấu trăng ◌̆ trước /-ʔ/ trong chữ SIL)",
+        "chao_contour": "44",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "long_low",
+        "name": "Nguyên âm dài / Thanh thấp (hạ thấp ở Sre A, C; thấp đi lên ở Sre B)",
+        "mark": "dấu huyền (◌̀)",
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ không có hệ thống thanh điệu đa tuyến kiểu tiếng Việt; đối lập siêu đoạn tính cơ bản ở phương ngữ Sre là trường độ nguyên âm gắn liền với cao độ (pitch-length / cao độ–trường độ): (1) Nguyên âm ngắn mang cao độ bằng/cao (không đánh dấu, hoặc đánh dấu sắc ◌́ ở âm tiết khép tắc vô thanh và /-ʔ/ trong chữ 1983); (2) Nguyên âm dài (ghi bằng dấu huyền ◌̀ trong cả chữ 1983 và SIL) mang đường nét cao độ thấp/đi xuống (ở Sre A, C) hoặc thấp đi lên (ở Sre B). Một số khảo sát ngữ âm thực nghiệm gần đây gợi ý khả năng còn nét thanh tính/âm vực (register) tiềm ẩn ở một vài điểm phương ngữ Kơho–Srê giống tiếng Mnông Rơlâm, cần nghiên cứu thêm."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người",
+      "form": "cau",
+      "ipa": "caw",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "anh (SIL: añ)",
+      "ipa": "ʔaʲɲ",
+      "gloss_en": "I (1st person singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dà",
+      "ipa": "daː",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "ồs",
+      "ipa": "ʔoːs",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng / buôn",
+      "form": "bòn (SIL: ƀòn)",
+      "ipa": "ɓɔːn",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "hìu",
+      "ipa": "hiːw",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "chi",
+      "ipa": "cʰi",
+      "gloss_en": "tree / wood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gạo",
+      "form": "phe",
+      "ipa": "pʰɛ",
+      "gloss_en": "husked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lúa",
+      "form": "kòi",
+      "ipa": "kɔːj",
+      "gloss_en": "paddy / unhusked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "muh",
+      "ipa": "muh",
+      "gloss_en": "nose",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mát (SIL: mat)",
+      "ipa": "mat",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thịt",
+      "form": "puác (SIL: poac)",
+      "ipa": "pwaʲc",
+      "gloss_en": "flesh / meat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "mhàm",
+      "ipa": "mʰaːm",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thuốc",
+      "form": "sơnơm",
+      "ipa": "sə.nəm",
+      "gloss_en": "medicine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "dùl",
+      "ipa": "duːl",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "bàr / vàr",
+      "ipa": "baːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pe",
+      "ipa": "pɛ",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (số đếm)",
+      "form": "pram",
+      "ipa": "pram",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "sềm",
+      "ipa": "seːm",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "iar",
+      "ipa": "jar",
+      "gloss_en": "chicken",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "uống",
+      "form": "hùc",
+      "ipa": "huːc",
+      "gloss_en": "to drink",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "lơh",
+      "ipa": "ləh",
+      "gloss_en": "to do / make",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Yalyau (hát kể chuyện xưa / sử thi)",
+        "note": "Thể thức hát – nói ứng tác tự do, có thể diễn xướng nhiều đêm liền; câu hát thường mở đầu bằng tiếng ngân dài 'Ơ…ơ…'."
+      },
+      {
+        "name": "Tam pơt / Lah long (hát giao duyên, trữ tình)",
+        "note": "Dân ca đối đáp nam nữ trong lễ hội, trên nương rẫy hoặc bên bếp lửa nhà sàn, giàu hình ảnh ví von tự nhiên và chất trữ tình."
+      },
+      {
+        "name": "Đơs crih (Đơschrih) và Nhorkon",
+        "note": "Các lối hát – nói dân gian truyền miệng mang tính tự sự, giáo huấn và sinh hoạt cộng đồng."
+      },
+      {
+        "name": "Nhạc lễ hội Cồng chiêng Tây Nguyên (Mừng lúa mới Nhô Lir Bông / Nhô Rơhe, lễ cúng thần Yàng / Nđu)",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên — Di sản văn hóa phi vật thể đại diện của nhân loại do UNESCO ghi danh (2005/2008)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Tiếng ngân mở đầu câu Yalyau ('Ơ…ơ…')",
+        "description": "Ngân dài tự do ở đầu câu hát kể để lấy hơi và dẫn vào nhịp nói – hát ứng tác.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm cồng chiêng 6 âm (giàn chiêng 6 chiếc K'Ho)",
+        "note": "Biên chế bộ chiêng bằng 6 chiếc không núm phổ biến của người K'Ho (gọi từ lớn đến nhỏ: Me, Rđơm, Dờn, Thoòng, Thơ, Thê), định âm theo truyền thống bản địa tạo hòa âm đa thanh dày đặc.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cing / Kuong (Bộ cồng chiêng 6 chiếc)"
+      },
+      {
+        "name": "Kơmbuat / Kơnvuát (Kèn bầu 6 ống nứa gắn trái bầu khô, cấu tạo gần khèn M'buốt)"
+      },
+      {
+        "name": "Kơrla (Đàn ống tre có dây tước từ cật tre)"
+      },
+      {
+        "name": "Sơgơr / Sgơr (Trống hai mặt bịt da trâu/bò)"
+      },
+      {
+        "name": "Lúr goòng (Đàn đá)"
+      },
+      {
+        "name": "Poh kroc (Đàn gió tre nứa)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Sre (Xrê / Chau Sơre)",
+        "iso639_3": "kpm",
+        "note": "Nhóm đông dân nhất (tập trung ở Di Linh, Đức Trọng — Lâm Đồng), làm cơ sở cho hầu hết từ điển, sách ngữ pháp và chữ viết Kơho."
+      },
+      {
+        "name": "Chil (Cil / Til)",
+        "iso639_3": "kpm",
+        "note": "Cư trú ở Lạc Dương, Đức Trọng, Đam Rông và nam Đắk Lắk; còn giữ nhiều tiền âm tiết cổ (như pơnơm so với Sre vơnơm/bơnơm 'núi')."
+      },
+      {
+        "name": "Lạch (Làc / Lạt)",
+        "iso639_3": "kpm",
+        "note": "Cư trú quanh Đà Lạt và Lạc Dương (Lâm Viên)."
+      },
+      {
+        "name": "Nộp (Nồp / Xrê Nộp)",
+        "iso639_3": "kpm",
+        "note": "Gần gũi với nhóm Sre ở Di Linh."
+      },
+      {
+        "name": "Cơ Dòn (Kơyon / Kơdòn / Kodu)",
+        "iso639_3": "kpm",
+        "note": "Đông nam Di Linh và Bảo Lộc; có xu hướng rụng tiền âm tiết mạnh."
+      },
+      {
+        "name": "T'ring (Tring / Trinh)",
+        "iso639_3": "kpm",
+        "note": "Phân bố ở vùng giáp ranh Lâm Đồng – Khánh Hòa / Ninh Thuận."
+      },
+      {
+        "name": "Kalop (Tulop), Pru, Ryông Tô (Riồng), Sop, Talà (To La)",
+        "iso639_3": "kpm",
+        "note": "Các nhóm phương ngữ địa phương khác trong cụm 12 phương ngữ Kơho theo Olsen (2014/2015)."
+      },
+      {
+        "name": "Tiếng Mạ (Maa / Mà)",
+        "iso639_3": "cma",
+        "note": "Glottocode: maaa1253 (cùng nhánh Koho-Maa koho1243). Về ngôn ngữ học thông hiểu lẫn nhau ở mức phương ngữ với Kơho, nhưng người Mạ là một dân tộc được công nhận riêng tại Việt Nam và có mã ISO 639-3 riêng là cma."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "dà",
+        "quoc_ngu": "đà (phát âm đầu lưỡi nổ [d], không hút vào mạnh như đ- Việt)",
+        "note": "Chữ <d> trong tiếng Cơ Ho là âm tắc chân răng hữu thanh [d], tuyệt đối KHÔNG đọc thành [z] (giọng Bắc) hay [j] (giọng Nam) như chữ <d> Quốc ngữ; nếu TTS chỉ biết Quốc ngữ, thay tạm bằng <đ> sẽ gần âm tắc hơn dù <đ> Việt là âm hút vào [ɗ]."
+      },
+      {
+        "native": "cau",
+        "quoc_ngu": "cau",
+        "note": "Chữ <c> đầu từ đọc là [c] giống <ch> không bật hơi của tiếng Việt (nên 'cau' Kơho đọc gần như 'chau' trong tiếng Việt, tên tự gọi 'kon cau' đọc gần 'con chau')."
+      },
+      {
+        "native": "phe",
+        "quoc_ngu": "p-he (hoặc thê/khe bật hơi môi)",
+        "note": "Âm <ph> /pʰ/ là tắc hai môi bật hơi (như p + luồng hơi mạnh), KHÔNG phải âm xát môi-răng [f] như 'phở' tiếng Việt."
+      },
+      {
+        "native": "chi",
+        "quoc_ngu": "ch-hi",
+        "note": "Trong chính tả 1983, <ch> biểu thị âm tắc mặt lưỡi bật hơi /cʰ/ (tiếng Việt không có âm tương đương bật hơi ở vị trí này, TTS Việt sẽ đọc thành [c] không bật hơi)."
+      },
+      {
+        "native": "khai",
+        "quoc_ngu": "khai (giọng Trung/Nam đọc bật hơi [kʰ])",
+        "note": "Âm <kh> Kơho là tắc ngạc mềm bật hơi /kʰ/, tránh để TTS giọng Bắc đọc thành âm xát [x]."
+      },
+      {
+        "native": "sơnơm",
+        "quoc_ngu": "xơ-nơm",
+        "note": "Tiền âm tiết <sơ-> đọc rất lướt, nhẹ, không mang trọng âm; trọng âm rơi vào âm tiết chính '-nơm'."
+      },
+      {
+        "native": "dùl / vàr / ồs / muh",
+        "quoc_ngu": "đùn-l / bà-r / ồ-x / mu-h",
+        "note": "Tiếng Việt hoàn toàn KHÔNG có các phụ âm cuối /-l, -r, -s, -h/. Mô hình TTS thuần Việt sẽ không phát âm được âm cuối này nếu viết liền; khi xấp xỉ phải nối âm lướt cực ngắn hoặc fine-tune phoneme-level."
+      },
+      {
+        "native": "srá",
+        "quoc_ngu": "x-rạ / x-rắc (ngắt thanh hầu nhanh)",
+        "note": "Cụm phụ âm đầu <sr-> [sr] và dấu sắc ghi âm tắc thanh hầu cuối /-ʔ/ [sraʔ] (không phải thanh sắc đi lên kéo dài của tiếng Việt)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "kon cau",
+        "ipa": "kɔn caw",
+        "gloss_vi": "con người / tên tự gọi người Cơ Ho"
+      },
+      {
+        "native": "anh",
+        "ipa": "ʔaʲɲ",
+        "gloss_vi": "tôi"
+      },
+      {
+        "native": "dà",
+        "ipa": "daː",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "ồs",
+        "ipa": "ʔoːs",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "bòn",
+        "ipa": "ɓɔːn",
+        "gloss_vi": "làng, buôn"
+      },
+      {
+        "native": "hìu",
+        "ipa": "hiːw",
+        "gloss_vi": "nhà"
+      },
+      {
+        "native": "phe",
+        "ipa": "pʰɛ",
+        "gloss_vi": "gạo"
+      },
+      {
+        "native": "muh",
+        "ipa": "muh",
+        "gloss_vi": "mũi"
+      },
+      {
+        "native": "mát",
+        "ipa": "mat",
+        "gloss_vi": "mắt"
+      },
+      {
+        "native": "puác",
+        "ipa": "pwaʲc",
+        "gloss_vi": "thịt"
+      },
+      {
+        "native": "sơnơm",
+        "ipa": "sə.nəm",
+        "gloss_vi": "thuốc"
+      },
+      {
+        "native": "dùl",
+        "ipa": "duːl",
+        "gloss_vi": "một"
+      },
+      {
+        "native": "bàr",
+        "ipa": "baːr",
+        "gloss_vi": "hai"
+      },
+      {
+        "native": "pe",
+        "ipa": "pɛ",
+        "gloss_vi": "ba"
+      },
+      {
+        "native": "sềm",
+        "ipa": "seːm",
+        "gloss_vi": "chim"
+      }
+    ],
+    "tts_normalization_notes": [
+      "Trước khi đưa văn bản tiếng Cơ Ho vào bộ tách âm vị (G2P), cần nhận diện văn bản thuộc hệ chính tả nhà nước 1983 (không dùng <ƀ>, dùng <c>/<ch> phân biệt bật hơi, dùng dấu sắc cho /-ʔ/ và nguyên âm ngắn trước /-p, -t, -c, -k/) hay hệ chính tả nhà thờ/SIL (có <ƀ> U+0180, dùng dấu trăng <ă, ĕ, ĭ, ŏ, ŭ, ơ̆, ư̆> cho nguyên âm ngắn/tắc thanh hầu).",
+      "Chuẩn hóa Unicode NFC/NFD cẩn thận đối với các tổ hợp dấu kép như <ờ, ừ, ề, ồ> và các ký tự kết hợp dấu trăng trên chữ có móc <ơ̆, ư̆> (trong hệ SIL) vì dễ bị vỡ token trong các BPE tokenizer phổ thông."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Olsen, Neil Hayes (2014). A Descriptive Grammar of Kơho-Sre: A Mon-Khmer Language. Ph.D. Dissertation, University of Utah.",
+      "url": "https://collections.lib.utah.edu/dl_files/05/bd/05bd65d92245f7554dd76a8f6895678da3adab44.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Olsen, Neil H. (2015). Orthography issues in Kơho: A Mon-Khmer language. 4th International Conference on Language Documentation and Conservation (ICLDC), University of Hawai'i at Mānoa.",
+      "url": "https://scholarspace.manoa.hawaii.edu/items/3e22bccf-0f22-4af5-a5e4-e39a0a5517e7",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Olsen, Neil H. (2014/2015). Kơho-Sre. Trong Mathias Jenny & Paul Sidwell (chủ biên), The Handbook of Austroasiatic Languages, Vol. 1, tr. 746–788. Leiden: Brill.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lý Toàn Thắng, Tạ Văn Thông, K'Brêu, K'Bròh et al. (1985/1986). Ngữ pháp tiếng Kơho. Sở Văn hóa và Thông tin Lâm Đồng & Viện Ngôn ngữ học.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Văn Thông (2004). Ngữ âm tiếng Kơho. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Language: Koho (koho1244)",
+      "url": "https://glottolog.org/resource/languoid/id/koho1244",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Koho language",
+      "url": "https://en.wikipedia.org/wiki/Koho_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Space of gong culture (Viet Nam, 00120)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "autonym",
+          "severity": "high",
+          "problem": "Ghi 'dà Kơho' làm tên tự gọi ngôn ngữ là sai sót nghiêm trọng do nhầm từ vựng: trong tiếng Cơ Ho, 'dà' [daː] nghĩa là 'nước' (water), không phải 'tiếng/ngôn ngữ' (lời nói/ngôn ngữ là 'jơnau' hoặc 'đơs'). Theo Olsen (2014: 6), tên gọi ngôn ngữ là Kơho [kəˈhɔ] (vốn bắt nguồn từ ngoại danh tiếng Chăm nhưng đã được cộng đồng dùng chung), còn tự danh tộc người là 'kon cau' [kɔn caw].",
+          "fix": "Sửa autonym thành \"Kơho [kəˈhɔ] (tự danh tộc người: kon cau [kɔn caw])\"."
+        },
+        {
+          "path": "scripts[0].note",
+          "severity": "medium",
+          "problem": "Mô tả dấu sắc (◌́) trong phương án chữ Kơho 1983 chưa đầy đủ: theo 'Ngữ pháp tiếng Kơho' (Lý Toàn Thắng, Tạ Văn Thông et al. 1985/1986), ngoài việc ghi âm tắc thanh hầu cuối /-ʔ/ ở âm tiết mở (như srá [sraʔ] 'sách', cá [caʔ] 'gừng'), dấu sắc còn dùng để ghi thanh cao (nguyên âm ngắn) trong các âm tiết khép kết thúc bằng phụ âm tắc vô thanh /-p, -t, -c, -k/ (như mát [mat] 'mắt', puác [pwaʲc] 'thịt', lík [lik] 'mọc'), đối lập với dấu huyền (◌̀) ghi nguyên âm dài/thanh thấp (như hùc [huːc] 'uống').",
+          "fix": "Bổ sung quy tắc dùng dấu sắc (◌́) cho cả nguyên âm ngắn trước /-p, -t, -c, -k/ và trước /-ʔ/ trong phương án 1983."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "medium",
+          "problem": "Để trống mảng `tones: []` khiến công cụ đọc máy không nắm được cách ánh xạ các dấu thanh trên chữ viết (dấu huyền ◌̀, dấu sắc ◌́ trong hệ 1983; dấu huyền ◌̀, dấu trăng ◌̆ trong hệ SIL) vào hệ thống siêu đoạn tính (trường độ kết hợp cao độ / pitch-length).",
+          "fix": "Bổ sung 2 mục vào `phonology.tones` tương ứng với 2 thanh/trường độ ('Thanh cao / nguyên âm ngắn' và 'Thanh thấp / nguyên âm dài') theo mô tả của Ngữ pháp tiếng Kơho (1985) và Olsen (2014)."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Một số mục từ trộn lẫn không nhất quán giữa chính tả 1983 và chính tả SIL/Olsen: ví dụ 'mắt' ghi là 'mat' (chính tả SIL/Olsen; chính tả 1983 phải có dấu sắc là 'mát'), trong khi 'thịt' ngay bên dưới lại ghi là 'puác' (chính tả 1983; chính tả SIL/Olsen là 'poac').",
+          "fix": "Ghi rõ cả hai dạng ở các mục có sự khác biệt chính tả như 'mát (SIL: mat)', 'puác (SIL: poac)', 'anh (SIL: añ)', 'bòn (SIL: ƀòn)' để nhất quán với phần ghi chú chuẩn hóa TTS."
+        },
+        {
+          "path": "sources[2].title",
+          "severity": "low",
+          "problem": "Chương 'Kơho-Sre' của Neil H. Olsen trong 'The Handbook of Austroasiatic Languages' (Jenny & Sidwell chủ biên, Brill) có năm xuất bản chính thức là cuối năm 2014 (bản in đề copyright 2015, thường trích dẫn là 2014 hoặc 2014/2015).",
+          "fix": "Cập nhật năm xuất bản thành 2014/2015 để khớp với các thư mục học thuật chuẩn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần xác minh bảng ánh xạ đầy đủ từng con chữ giữa hai hệ chính tả đang song hành tại Lâm Đồng: phương án nhà nước 1983 (dùng trong sách giáo dục địa phương/từ điển 1983) và hệ chữ nhà thờ/SIL (dùng <ƀ>, dấu trăng <ă, ơ̆...> trong Kinh Thánh 2010/2018), đặc biệt ở cặp âm /b/ – /ɓ/ và /c/ – /cʰ/.",
+      "Cần người bản xứ các nhóm Chil, Lạch, Cơ Dòn, T'ring đối chiếu mức độ sai biệt ngữ âm so với phương ngữ Sre tiêu chuẩn.",
+      "Cần nhạc sĩ dân tộc học (như các nghệ nhân K'Ho tại Lâm Đồng) thẩm định thang âm thực tế của bộ chiêng 6 chiếc và ký âm ABC cho lối hát Yalyau, Tam pơt."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

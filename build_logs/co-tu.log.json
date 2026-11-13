@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "co-tu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cơ Tu",
+    "ethnic_group_vi": "Cơ Tu",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:13:25.979707",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9382,
+      "candidatesTokenCount": 8559,
+      "totalTokenCount": 22089,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9382
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8559
+        }
+      ],
+      "thoughtsTokenCount": 4148,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11545,
+      "candidatesTokenCount": 11028,
+      "totalTokenCount": 22573,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11545
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11028
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "scripts[0].note",
+        "severity": "medium",
+        "problem": "Chi tiết 'bảng chữ cái 36 chữ cái' trong dự thảo Chương trình môn học Tiếng Cơ Tu cấp tiểu học (Bộ GD&ĐT công bố ngày 04/11/2026) không kiểm chứng được từ các văn bản công khai trên mạng (chỉ xác minh được Quyết định số 1052/QĐ-UBND ngày 22/04/2025 của UBND tỉnh Quảng Nam gồm: 27 phụ âm đơn, 16 tổ hợp phụ âm đầu, 27 nguyên âm, 17 phụ âm cuối gồm 14 âm đơn và 3 tổ hợp âm cuối).",
+        "fix": "Bỏ con số '36 chữ cái' chưa kiểm chứng được trong scripts[0].note và validation.open_issues; bổ sung số hiệu Quyết định 1052/QĐ-UBND và ngày công bố dự thảo 04/11/2026."
+      },
+      {
+        "path": "music.instruments[0]",
+        "severity": "medium",
+        "problem": "Gộp chung 'abel' vào mục 'Khèn bè (abel, khèn a guôch)' dễ gây nhầm lẫn về phân loại nhạc cụ học: theo tư liệu điền dã văn hóa Cơ Tu (Cục Di sản Văn hóa, Báo Đà Nẵng, Báo Biên phòng), 'đàn abel' phổ biến nhất là đàn nhị 1 dây (dáng như đàn cò, kéo bằng cung nứa kết hợp ngậm mảnh vảy tê tê/lá 'kheel' ở miệng để điều âm), đôi khi từ 'abel' cũng được một số bài báo dùng chỉ đàn môi hoặc khèn tùy địa phương.",
+        "fix": "Tách riêng mục 'Đàn abel' (nhạc cụ dây kéo kết hợp ngậm mảnh kheel ở miệng) khỏi mục 'Khèn bè (khèn a guôch, khèn bơ rét)' và ghi chú rõ sự đa nghĩa trong cách gọi của một số tư liệu báo chí."
+      },
+      {
+        "path": "music.instruments[1]",
+        "severity": "low",
+        "problem": "Thiếu tên các biến thể phổ biến của đàn bầu truyền thống Cơ Tu có vỏ bầu khô gắn ống tre 2 dây là 'tơbhréch / tâm bét alui / tâm brêê'.",
+        "fix": "Bổ sung các tên gọi đồng danh 'tơbhréch / tâm bét alui / tâm brêê' bên cạnh 'tơm rech' để đầy đủ dữ liệu dân tộc nhạc học."
+      },
+      {
+        "path": "phonology.codas[15]",
+        "severity": "low",
+        "problem": "Theo Quyết định số 1052/QĐ-UBND (22/04/2025) của tỉnh Quảng Nam, bộ chữ Cơ Tu có 17 phụ âm cuối gồm 14 phụ âm đơn và đúng 3 tổ hợp phụ âm cuối. Trong bảng hiện liệt kê nhiều tổ hợp cuối giả định (-ih/-jh, -uh/-wh, -iq/-yq, -uq/-wq) vượt quá con số 3 tổ hợp chính thức.",
+        "fix": "Hạ confidence của các tổ hợp phụ âm cuối ít gặp (-uh/-wh, -iq/-yq, -uq/-wq) xuống 'low' và ghi chú rõ cần đối chiếu 3 tổ hợp phụ âm cuối chính thức trong Quyết định 1052/QĐ-UBND."
+      }
+    ]
+  },
+  "schema_errors": []
+}

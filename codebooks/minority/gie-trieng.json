@@ -1,0 +1,870 @@
+{
+  "id": "gie-trieng",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Giẻ Triêng",
+  "name_en": "Giẻ Triêng (Jeh-Trieng languages; primary reference: Jeh)",
+  "autonym": "tơtayh Jeh (nhóm Gié/Jeh); các nhóm địa phương tự gọi là Gié, Triêng (T'riêng), Ve, Bhnoong (Bnoong), Li Xei",
+  "ethnic_group_vi": "Giẻ Triêng",
+  "language": {
+    "iso639_3": "jeh",
+    "glottocode": "jehh1245",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric)"
+  },
+  "regions": [
+    "Kon Tum (Đăk Glei, Ngọc Hồi)",
+    "Quảng Nam (Phước Sơn, Nam Giang)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Giẻ Triêng tại Việt Nam là 63.322 người (Điều tra 53 dân tộc thiểu số 01/04/2019), gồm các nhóm nói nhiều biến thể Bắc Bahnaric khác nhau; riêng tiếng Jeh [jeh] ước tính khoảng 15.000–25.000 người nói (ở Việt Nam và nam Lào) và tiếng Triêng [stg] khoảng 15.000 người.",
+  "scripts": [
+    {
+      "name": "Chữ Latinh Jeh (SIL / trước 1975)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh dựa trên bộ vần gần chữ Quốc ngữ do Dwight Gradin, Patrick D. Cohen và cộng tác viên bản ngữ Thông xây dựng trước năm 1975, dùng trong sách học tiếng (1973) và từ điển Jeh (1979); chưa được ban hành làm bộ chữ chuẩn cấp quốc gia cho toàn dân tộc Giẻ Triêng."
+    },
+    {
+      "name": "Chữ Latinh Bh'noong (phương án đề xuất tại Quảng Nam)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Phương án chữ viết Latinh dựa trên chữ Quốc ngữ được nghiên cứu, đề xuất tại huyện Phước Sơn (Quảng Nam) trong đề tài cấp Bộ của Nguyễn Đăng Châu (Đại học Đà Nẵng, 2008) để ghi tiếng Bh'noong (dùng dấu sắc trên nguyên âm để biểu thị nguyên âm ngắn và chữ -q ở cuối âm tiết để ghi âm tắc thanh hầu /ʔ/, ví dụ: tíq 'to lớn', laróq 'nhút nhát')."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do mô hình ngôn ngữ tổng hợp từ tài liệu ngôn ngữ học (Gradin 1966; Cohen 1966; Thông, Gradin & Cohen 1979; Gregerson 1976; Sidwell 2002/2015; Person 2022; Nguyễn Đăng Châu 2008). Vì cộng đồng dân tộc Giẻ Triêng ở Việt Nam bao gồm nhiều nhóm ngôn ngữ/phương ngữ Bắc Bahnaric (Gié/Jeh, Triêng, Ve, Bhnoong, Li Xei), bảng ngữ âm và từ vựng dưới đây lấy tiếng Jeh [jeh] — biến thể có mô tả ngữ âm và từ điển đầy đủ nhất — làm hệ tham chiếu chính, đồng thời liệt kê đầy đủ các biến thể còn lại trong ml_hints.sub_varieties.",
+  "phonology": {
+    "syllable_structure": "(C1V1)C2(C3)V2(ː)(C4) — cấu trúc từ một âm tiết rưỡi (sesquisyllabic) điển hình của nhóm Môn-Khmer: một âm tiết chính mang trọng âm, có thể đi trước bởi tiền âm tiết (presyllable) không trọng âm dạng pa-, ta-, ka-, ma-, si-, al-, ?a-... (ví dụ: kahey 'mặt trăng' đối lập với khey 'tháng'; tarah '(gà) cục tác' đối lập với trah 'đẽo/chặt').",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc/tắc-xát mặt lưỡi vô thanh (Gradin 1966 ký âm ch / č)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / ∅",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết; trong bài báo học thuật (Gradin 1966, Cohen 1966) ký hiệu /?/, trong chữ viết thực hành thường không ghi trước nguyên âm hoặc ghi dấu ' trước phụ âm tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (ngoài ra Gradin 1966 và Cohen 1966 còn ghi nhận loạt phụ âm kéo dài/căng không đi kèm tiền âm tiết: bb, dd, jj, gg, nn, ll như trong bbàng 'xà nhà', ddong 'nia sàng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh (tài liệu tiếng Anh của Gradin/Cohen dùng d; chữ viết thực hành phỏng Quốc ngữ thường dùng đ để tránh nhầm với âm [j])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc/tắc-xát mặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'b / ?b",
+        "ipa": "ɓ ~ ʔb",
+        "note": "Tắc hai môi tiền thanh hầu hóa / hút vào; theo Cohen (1966: 34), ?b sau tiền âm tiết ka- chủ yếu gặp trong từ vay mượn tiếng Việt (ví dụ ka?bang 'cái bàn', ka?bèn 'cái xẻng/bèn')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "'d / 'đ / ?d",
+        "ipa": "ɗ ~ ʔd",
+        "note": "Tắc chân răng tiền thanh hầu hóa / hút vào (Gradin 1966: 44 ghi ?d- như trong ?do? 'bí đỏ', ?do? 'đè nén')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mb",
+        "ipa": "ᵐb",
+        "note": "Tắc hai môi tiền mũi hóa (Gradin 1966: 44; Cohen 1966: 33 ghi nhận mb, nd, ngg hoạt động như âm vị đơn ở đầu âm tiết chính và có thể biến thể tự do với tiền âm tiết si- như mbi ~ sibì)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nd",
+        "ipa": "ⁿd",
+        "note": "Tắc chân răng tiền mũi hóa (ví dụ ndok ~ sidok 'nảy lên' theo Cohen 1966: 33)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngg",
+        "ipa": "ᵑɡ",
+        "note": "Tắc ngạc mềm tiền mũi hóa (ví dụ nggàl 'trống lớn' theo Gradin 1966: 45)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (Gradin 1966 phân tích âm vị học là tổ hợp phụ âm /ph/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi (phân tích âm vị học là tổ hợp /th/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (phân tích âm vị học là tổ hợp /kh/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sr",
+        "ipa": "ʂ ~ ʈʂ",
+        "note": "Tổ hợp sr hiện thực hóa ngữ âm như âm xát hoặc tắc-xát quặt lưỡi [ʂ ~ ʈʂ] (ví dụ sriam [ʈʂiam] 'giòn'); biến đổi thành kh ở phương ngữ Play Talaat (Gradin 1966: 45)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (có thể kết hợp tạo tổ hợp hl, hm, hn, hw, hy như hnam 'năm', hwil 'quên')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (có cả dạng tiền thanh hầu hóa 'm / ?m [ʔm] như ta?mot 'nối dây')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng (có cả dạng tiền thanh hầu hóa 'n / ?n [ʔn] như ka?nooy 'ngón tay')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ kanhaam 'đánh thức' theo Cohen 1966: 35)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng (có cả dạng tiền thanh hầu hóa ?l [ʔl] như ?le? 'ngắn' và dạng kéo dài ll)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɾ",
+        "note": "Vỗ/rung chân răng; kết hợp được trong tổ hợp pl, pr, tr, kl, kr, bl, br, dr, gr và dạng tiền thanh hầu hóa ?r",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "ĭ / i (ngắn)",
+        "ipa": "i",
+        "note": "Nguyên âm trước cao ngắn, âm vực trong; không đứng ở âm tiết mở hoặc trước âm cuối -h",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / ii",
+        "ipa": "iː",
+        "note": "Nguyên âm trước cao dài, âm vực trong (Gradin 1966 ghi gấp đôi con chữ ii; chữ viết thực hành ghi i)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ì / ìi",
+        "ipa": "i̤ ~ i̤ː",
+        "note": "Nguyên âm trước cao mang âm vực trầm/sâu (deep vowel, mở hầu +ATR, hạ thanh hầu, giọng trầm hơi thào/khàn theo Gradin 1966: 46 và Gregerson 1976)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ / e (ngắn)",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước vừa ngắn, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / ê / ee",
+        "ipa": "eː ~ ɛː",
+        "note": "Nguyên âm trước vừa dài, âm vực trong; trong chữ viết thực hành phân biệt ê [eː] và e [ɛː]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "è / èe",
+        "ipa": "e̤ ~ e̤ː",
+        "note": "Nguyên âm trước vừa mang âm vực trầm/sâu (duy trì đối lập 4 chiều: ngắn trong, dài trong, ngắn trầm, dài trầm theo Gradin 1966: 45)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă / a (ngắn)",
+        "ipa": "a",
+        "note": "Nguyên âm giữa thấp ngắn, âm vực trong; ở tiền âm tiết (pa-, ka-, tơ-) giảm thành [ə ~ a]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / aa",
+        "ipa": "aː",
+        "note": "Nguyên âm giữa thấp dài, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "à / àa",
+        "ipa": "a̤ ~ a̤ː",
+        "note": "Nguyên âm giữa thấp mang âm vực trầm/sâu (dạng dài àa hiếm, ví dụ mbràam 'lời chê bai/miệt thị' theo Cohen 1966: 34)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / â",
+        "ipa": "əː ~ ə",
+        "note": "Nguyên âm giữa vừa dùng trong bộ chữ thực hành 1973/1979 (như tơtayh 'tiếng nói', pơsèm 'bắt đầu')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ŭ / u (ngắn)",
+        "ipa": "u",
+        "note": "Nguyên âm sau cao ngắn, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / uu",
+        "ipa": "uː",
+        "note": "Nguyên âm sau cao dài, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ù / ùu",
+        "ipa": "ṳ ~ ṳː",
+        "note": "Nguyên âm sau cao mang âm vực trầm/sâu (đối lập ngắn/dài trầm xuất hiện hạn chế, ví dụ ?ùul 'rên rỉ' đối lập ?uul 'rỉ nước' theo Gradin 1966: 46)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ / o (ngắn)",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau vừa ngắn, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ô / oo",
+        "ipa": "oː ~ ɔː",
+        "note": "Nguyên âm sau vừa dài, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ò / òo",
+        "ipa": "o̤ː ~ ɔ̤ː",
+        "note": "Nguyên âm sau vừa mang âm vực trầm/sâu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước (có cả dạng âm vực trầm ìa [i̤ə] như tìah 'ở dưới kia')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau (có cả dạng âm vực trầm ùa [ṳə])",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không buông ở cuối âm tiết (ở phương ngữ Dak Trap, các âm tắc vô thanh cuối âm tiết biến đổi thành âm mũi mang thanh cao theo Gradin 1966: 43)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng vô thanh không buông ở cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi vô thanh cuối âm tiết (xuất hiện hạn chế trong một số biến thể Giẻ Triêng / Bắc Bahnaric)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm vô thanh cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "? / ' / q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (Gradin 1966 và Cohen 1966 ghi /?/, phương án chữ Bh'noong của Nguyễn Đăng Châu 2008 ghi -q như trong tíq 'lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h ~ ˦˥",
+        "note": "Ở các phương ngữ Bắc Jeh phát âm là xát thanh hầu [h] (hoặc biến thể tự do với thanh lên); ở phương ngữ Nam Jeh (Dak Wak) biến thành đường nét cao độ đi lên cuối âm tiết ('consonantal tone' theo Gradin 1966: 42, 45)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi cuối âm tiết (trong tiếng Jeh nhiều từ lịch sử có *-ɲ đã chuyển thành tổ hợp bán nguyên âm; gặp ở một số biến thể Giẻ Triêng)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng cuối âm tiết (không có trong tiếng Việt chuẩn, ví dụ hool 'kéo', nggàl 'trống lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɾ ~ r",
+        "note": "Âm r cuối âm tiết gặp ở một số biến thể Bắc Bahnaric / Giẻ Triêng (như tiếng Ve ở Quảng Nam)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "w / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm cuối âm tiết (có thể kết hợp với ? hoặc h như taliw? 'bong gân')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yh / ih",
+        "ipa": "jh",
+        "note": "Tổ hợp bán nguyên âm + xát thanh hầu cuối âm tiết (ví dụ tơtayh [tətajh] 'tiếng nói', maṇaayh 'giống nhau')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có hệ thống thanh điệu đa tuyến kiểu tiếng Việt (WALS 13A: No tones). Thay vào đó, tiếng Jeh có đối lập âm vực (register) điển hình của nhóm Bắc Bahnaric giữa âm vực trong (clear/modal) và âm vực trầm/sâu ('deep vowel', tạo bởi giãn trụ hầu / tiến gốc lưỡi +ATR, hạ thanh hầu và tăng áp lực cơ hoành theo Gradin 1966: 46 và Gregerson 1976: 328–341, tạo chất giọng trầm, hơi thào/ỗng [V̤] và cao độ thấp hơn, được Gradin 1966 ký hiệu bằng dấu huyền). Ngoài ra, ở phương ngữ Nam Jeh (Dak Wak), phụ âm cuối /-h/ biến đổi thành đường nét cao độ đi lên ('consonantal tone'), trong khi ở phương ngữ Dak Trap các âm tắc vô thanh cuối âm tiết biến thành âm mũi mang thanh cao. Ở biến thể Li Xei (Quảng Nam), quá trình hình thành âm vực (registrogenesis) đang ở giai đoạn sơ khởi thông qua ba loạt phụ âm tắc vô thanh (không bật hơi, bật hơi nhẹ, bật hơi mạnh) nhưng chưa âm vị hóa thành âm vực nguyên âm (Person 2022)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tiếng nói / ngôn ngữ",
+      "form": "tơtayh",
+      "ipa": "tətajh",
+      "gloss_en": "language / speech",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kẻ trộm",
+      "form": "kadook",
+      "ipa": "kadoːk",
+      "gloss_en": "a thief",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con sóc",
+      "form": "prook",
+      "ipa": "proːk",
+      "gloss_en": "squirrel",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "năm (số 5)",
+      "form": "padam",
+      "ipa": "padam",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng ta (bao gồm người nghe)",
+      "form": "hay",
+      "ipa": "haj",
+      "gloss_en": "we (inclusive)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đủ",
+      "form": "hày",
+      "ipa": "ha̤j",
+      "gloss_en": "enough",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tháng",
+      "form": "khey",
+      "ipa": "kʰɛj",
+      "gloss_en": "month",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "kahey",
+      "ipa": "kahɛj",
+      "gloss_en": "moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nghỉ ngơi",
+      "form": "padày",
+      "ipa": "pada̤j",
+      "gloss_en": "to rest",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cho ăn / mớm ăn",
+      "form": "chiam",
+      "ipa": "ciam",
+      "gloss_en": "to feed",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "giòn",
+      "form": "sriam",
+      "ipa": "ʈʂiam",
+      "gloss_en": "brittle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dây nỏ",
+      "form": "kriam",
+      "ipa": "kɾiam",
+      "gloss_en": "crossbow string",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "than hồng",
+      "form": "kheeng",
+      "ipa": "kʰɛːŋ",
+      "gloss_en": "coals",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "phát cỏ / cắt bằng liềm",
+      "form": "teh",
+      "ipa": "tɛh",
+      "gloss_en": "to scythe",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ở dưới kia",
+      "form": "tìah",
+      "ipa": "ti̤əh",
+      "gloss_en": "down there",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kéo (dây)",
+      "form": "hool",
+      "ipa": "hoːl",
+      "gloss_en": "to tow",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Giư chau / Dư chầu (hát ru)",
+        "note": "Làn điệu hát ru truyền thống của người Giẻ Triêng (nhóm Triêng ở Quảng Nam và Kon Tum), thường hát mộc hoặc đệm bằng đàn bầu khô M'bin pui."
+      },
+      {
+        "name": "Hát Nghiê (hát giao duyên)",
+        "note": "Lối hát đối đáp, giao duyên nam nữ trong sinh hoạt cộng đồng và đêm hội tại nhà Rông."
+      },
+      {
+        "name": "Hát Niêng / Nêng rẹt",
+        "note": "Lối hát diễn xướng tự sự và hát trong nghi lễ cưới hỏi truyền thống của người Giẻ Triêng."
+      },
+      {
+        "name": "Tam prai",
+        "note": "Làn điệu dân ca hát trong khi phụ nữ dệt vải."
+      },
+      {
+        "name": "Hòa tấu Cồng chiêng và Đinh tút lễ hội",
+        "note": "Trình diễn trong lễ mừng nhà Rông mới, lễ ăn mừng lúa mới, lễ hội Choóc đăil (ngày hội đinh tút) gắn với điệu múa Xoang vòng tròn."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Hệ chỉnh âm trống đôi H'gơr và bộ ống Đinh tút",
+        "note": "Theo khảo sát âm nhạc học của Đàm Thị Lượng tại Kon Tum, cặp trống lớn H'gơr được hơ lửa căng mặt da để chỉnh cao độ xác định: hai mặt của một trống cách nhau khoảng một quãng 5 đúng (ví dụ C–G), và trống thứ hai cao hơn khoảng một quãng 2 (ví dụ D–A), hòa tấu cùng thang âm tự nhiên của bộ 6 ống trúc Đinh tút và bộ cồng chiêng.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đinh tút",
+        "note": "Nhạc cụ hơi đặc trưng nhất của người Giẻ Triêng: bộ 6 ống trúc rời không lỗ bấm do nhiều người cùng thổi (thường là phụ nữ), xếp thứ tự từ lớn/dài đến nhỏ/ngắn gồm Piđu, Piđy, Chel, Chắk, Rơn 1, Rơn 2."
+      },
+      {
+        "name": "Cồng chiêng Giẻ Triêng (chiêng, lột, rinh)",
+        "note": "Biên chế tùy vùng gồm 3 cồng kết hợp 4, 6, 7 hoặc 9 chiêng, tấu cùng trống và ống nứa."
+      },
+      {
+        "name": "Trống H'gơr (Hagơr) và trống nhỏ Ptain (Pa thân)",
+        "note": "H'gơr là cặp trống lớn thân gỗ trắc khoét rỗng (dài khoảng 1m), một mặt bưng da bò, một mặt bưng da sơn dương, treo trên xà nhà Rông và chỉnh cao độ bằng cách hơ lửa."
+      },
+      {
+        "name": "Đàn M'bin pui (M'bin puil)",
+        "note": "Đàn gảy 2 dây có hộp cộng hưởng làm từ nửa vỏ quả bầu khô (pui), dùng phổ biến để đệm hát Giư chau và hát Nghiê."
+      },
+      {
+        "name": "Đàn Oang eng (Ong eng)",
+        "note": "Nhạc cụ dây kéo sơ khai dùng một cật nứa nhỏ dẻo cọ vào dây phát ra âm thanh rất nhỏ, mảnh."
+      },
+      {
+        "name": "Tù và Kayol (Ka jol)",
+        "note": "Nhạc cụ hơi chế tác từ sừng sơn dương dài khoảng 12–15 cm, đầu nhỏ cắt vát tạo lỗ thổi (~0,5 cm), đầu lớn bịt sáp ong; dùng để phát hiệu lệnh tập hợp buôn làng."
+      },
+      {
+        "name": "Nhạc cụ hơi tre nứa khác (khèn Gor, đơl đô, ta lun, ta lin, brưl, ta lẹh)",
+        "note": "Hệ thống sáo, tiêu, khèn bè (Gor gồm 7 cặp ống trúc gắn bầu sáp ong) dùng trong sinh hoạt nương rẫy, vui chơi và hát giao duyên."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Jeh (Gié / Giẻ / Đgiéh)",
+        "iso639_3": "jeh",
+        "glottocode": "jehh1245",
+        "region": "Huyện Đăk Glei (Kon Tum), Phước Sơn (Quảng Nam) và các tỉnh Sekong, Attapeu (Lào)",
+        "note": "Biến thể chính dùng làm chuẩn tham chiếu trong bảng mã này; chia thành cụm phương ngữ Bắc Jeh (giữ âm cuối -h hoặc biến thể tự do với thanh lên), Nam Jeh / Dak Wak (âm cuối -h thành thanh lên) và Tây Bắc / Dak Bùng."
+      },
+      {
+        "name": "Triêng (T'riêng / Strieng / Gie-Trieng)",
+        "iso639_3": "stg",
+        "glottocode": "trie1243",
+        "region": "Huyện Ngọc Hồi, Đăk Glei (Kon Tum) và huyện Nam Giang (Quảng Nam)",
+        "note": "Ngôn ngữ Bắc Bahnaric riêng biệt nhưng gần gũi với tiếng Jeh và Talieng."
+      },
+      {
+        "name": "Ve (La-Ve / Talieng)",
+        "iso639_3": "tdf",
+        "glottocode": "tali1257",
+        "region": "Huyện Nam Giang (Quảng Nam) và nam Lào",
+        "note": "Nhóm người Ve tại Quảng Nam được xếp vào dân tộc Giẻ Triêng ở Việt Nam; về ngôn ngữ học liên hệ chặt với tiếng Talieng [tdf] bên Lào."
+      },
+      {
+        "name": "Bhnoong (Bnoong / Mnoong)",
+        "iso639_3": null,
+        "glottocode": null,
+        "region": "Huyện Phước Sơn (Quảng Nam)",
+        "note": "Nhóm địa phương đông dân tại Phước Sơn (Quảng Nam), thuộc nhánh Bắc Bahnaric trong khối Giẻ Triêng; chưa có mã ISO 639-3 tách riêng."
+      },
+      {
+        "name": "Li Xei (Lei Sei)",
+        "iso639_3": null,
+        "glottocode": null,
+        "region": "Tỉnh Quảng Nam (khu vực Khâm Đức / Phước Sơn)",
+        "note": "Ngôn ngữ Bắc Bahnaric thuộc cộng đồng Giẻ Triêng mới được mô tả ngữ âm chi tiết (Person 2022), nổi bật với 3 loạt tắc vô thanh và nguyên âm tròn môi trước /œ/."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "tơtayh",
+        "ipa": "tətajh",
+        "gloss_vi": "tiếng nói, ngôn ngữ",
+        "gloss_en": "language, speech"
+      },
+      {
+        "native": "kadook",
+        "ipa": "kadoːk",
+        "gloss_vi": "kẻ trộm",
+        "gloss_en": "a thief"
+      },
+      {
+        "native": "padam",
+        "ipa": "padam",
+        "gloss_vi": "số năm (5)",
+        "gloss_en": "five"
+      },
+      {
+        "native": "hay",
+        "ipa": "haj",
+        "gloss_vi": "chúng ta",
+        "gloss_en": "we (inclusive)"
+      },
+      {
+        "native": "hày",
+        "ipa": "ha̤j",
+        "gloss_vi": "đủ",
+        "gloss_en": "enough"
+      },
+      {
+        "native": "khey",
+        "ipa": "kʰɛj",
+        "gloss_vi": "tháng",
+        "gloss_en": "month"
+      },
+      {
+        "native": "kahey",
+        "ipa": "kahɛj",
+        "gloss_vi": "mặt trăng",
+        "gloss_en": "moon"
+      },
+      {
+        "native": "padày",
+        "ipa": "pada̤j",
+        "gloss_vi": "nghỉ ngơi",
+        "gloss_en": "to rest"
+      },
+      {
+        "native": "chiam",
+        "ipa": "ciam",
+        "gloss_vi": "cho ăn",
+        "gloss_en": "to feed"
+      },
+      {
+        "native": "sriam",
+        "ipa": "ʈʂiam",
+        "gloss_vi": "giòn",
+        "gloss_en": "brittle"
+      },
+      {
+        "native": "kriam",
+        "ipa": "kɾiam",
+        "gloss_vi": "dây nỏ",
+        "gloss_en": "crossbow string"
+      },
+      {
+        "native": "hool",
+        "ipa": "hoːl",
+        "gloss_vi": "kéo",
+        "gloss_en": "to tow"
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "tơtayh",
+        "quoc_ngu": "tơ-táy",
+        "note": "Tiền âm tiết không trọng âm ghi bằng 'tơ-'; âm cuối /-jh/ không có trong tiếng Việt chuẩn, ở phương ngữ Nam Jeh /-h/ tạo nét cao độ đi lên nên xấp xỉ bằng thanh sắc 'táy' (hoặc 'tay-hờ' rất nhẹ nếu đọc kiểu Bắc Jeh)."
+      },
+      {
+        "native": "kahey",
+        "quoc_ngu": "cờ-hây",
+        "note": "Tiền âm tiết 'ka-' đọc lướt nhẹ không trọng âm như 'cờ-' / 'ca-'; vần '-ey' [ɛj] xấp xỉ 'ây' hoặc 'êy'."
+      },
+      {
+        "native": "padam",
+        "quoc_ngu": "pờ-đăm",
+        "note": "Phụ âm đầu /p/ không có ở vị trí đầu từ thuần Việt (trừ từ vay mượn như 'pin'); chữ 'd' trong ký âm học thuật tiếng Jeh là tắc chân răng hữu thanh [d] nên phải viết bằng 'đ' trong Quốc ngữ (không đọc như 'd' [z/j] tiếng Việt)."
+      },
+      {
+        "native": "hày",
+        "quoc_ngu": "hày",
+        "note": "Âm vực trầm/sâu (deep vowel [a̤]) có cao độ thấp và chất giọng hơi thào; dùng thanh huyền tiếng Việt 'hày' để mô phỏng cao độ thấp, dù mô hình TTS tiếng Việt sẽ thiếu độ mở gốc lưỡi (+ATR)."
+      },
+      {
+        "native": "sriam",
+        "quoc_ngu": "triêm",
+        "note": "Tổ hợp 'sr-' phát âm là [ʂ ~ ʈʂ] quặt lưỡi, gần với 'tr' hoặc 's' quặt lưỡi của miền Trung/Nam; vần '-iam' gần 'iêm'."
+      },
+      {
+        "native": "kriam",
+        "quoc_ngu": "cờ-riêm",
+        "note": "Tiếng Việt không có tổ hợp phụ âm đầu /kr-/; phải tách thành tiền âm tiết cực ngắn 'cờ-riêm' khi qua bộ đọc Quốc ngữ."
+      },
+      {
+        "native": "kadook",
+        "quoc_ngu": "cờ-đôốc",
+        "note": "Tiền âm tiết 'ka-' đọc lướt nhẹ; nguyên âm dài /oː/ trước /-k/ trong tiếng Việt hay bị ngậm môi [o͡kp], cần giữ nguyên âm mở tròn môi dài hơn."
+      },
+      {
+        "native": "hool",
+        "quoc_ngu": "hôôn",
+        "note": "Tiếng Việt hoàn toàn không có phụ âm bên cuối âm tiết /-l/; xấp xỉ gần nhất trong Quốc ngữ là '-n' ('hôôn'), nhưng mất đối lập giữa /-l/ và /-n/."
+      },
+      {
+        "native": "teh",
+        "quoc_ngu": "té",
+        "note": "Âm cuối /-h/ không có trong tiếng Việt; dựa trên hiện thực hóa của phương ngữ Nam Jeh ([tɛ́] đi lên), xấp xỉ bằng thanh sắc 'té'."
+      }
+    ],
+    "tts_and_singing_caveats": [
+      "Các âm và cấu trúc KHÔNG có trong tiếng Việt chuẩn: (1) tiền âm tiết không trọng âm (sesquisyllables như pa-, ka-, tơ-, al-), (2) tổ hợp phụ âm đầu pl-, pr-, tr-, kl-, kr-, bl-, br-, dr-, sr-, (3) phụ âm tiền thanh hầu hóa ('b [ʔb], 'd [ʔd], 'm, 'n, 'l, 'r), tiền mũi hóa (mb, nd, ngg) và phụ âm kéo dài (bb, dd, jj, gg, nn), (4) phụ âm cuối -l, -r, -h, -yh, -? (sau nguyên âm dài), và (5) đối lập âm vực nguyên âm trong vs. trầm/thào (deep register).",
+      "Khi đưa qua mô hình giọng hát chỉ huấn luyện trên chữ Quốc ngữ, tuyệt đối không gán thanh nặng tiếng Việt cho âm vực trầm vì thanh nặng miền Bắc có hiện tượng thanh hầu hóa/ngắt thanh môn ngược hẳn với chất giọng thào mở hầu (+ATR) của tiếng Jeh; nên dùng thanh huyền cho âm vực trầm và thanh ngang cho âm vực trong."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Gradin, Dwight (1966). Consonantal tone in Jeh phonemics. Mon-Khmer Studies 2: 41–53.",
+      "url": "http://sealang.net/sala/archives/pdf8/gradin1966consonantal.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cohen, Patrick D. (1966). Presyllables and reduplication in Jeh. Mon-Khmer Studies 2: 31–40.",
+      "url": "http://sealang.net/sala/archives/pdf8/cohen1966presyllables.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Thông & Gradin, Dwight; Cohen, Patrick D. (ed.) (1979). Chù chih dŏ tơtayh Jeh = Ngữ-vựng Jeh = Jeh vocabulary. Manila / Huntington Beach: Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Jeh (jehh1245)",
+      "url": "https://glottolog.org/resource/languoid/id/jehh1245",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Trieng (trie1243)",
+      "url": "https://glottolog.org/resource/languoid/id/trie1243",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Jeh (wals_code_jeh)",
+      "url": "https://wals.info/languoid/lect/wals_code_jeh",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Bahnaric languages (North Bahnaric classification, Sidwell 2002/2015/2022)",
+      "url": "https://en.wikipedia.org/wiki/Bahnaric_languages",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Person, Stephanie Lynn (2022). Li Xei: A Phonology of an Understudied Bahnaric Language in Central Vietnam. Master's Thesis, University of North Dakota.",
+      "url": "https://commons.und.edu/theses/4288",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Đăng Châu (2008). Cơ cấu ngữ âm tiếng Bh'noong (trong ngôn ngữ Giẻ-Triêng). Báo cáo tổng kết đề tài KH&CN cấp Bộ B2007-ĐN03-23, Đại học Đà Nẵng.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bộ Dân tộc và Tôn giáo / Tổng cục Thống kê (2019). Kết quả Điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019 (mục Dân tộc Gié-Triêng).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Đàm Thị Lượng — Nhạc cụ của dân tộc Giẻ Triêng (nhóm Triêng) tại tỉnh Kon Tum; Tạp chí Dân tộc (2013) — Nhạc cụ của người Triêng ở Quảng Nam.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "music.instruments[4]",
+          "severity": "high",
+          "problem": "Gộp nhầm nhạc cụ hơi Ka jol (Kayol) vào mục đàn dây kéo Oang eng (Ong eng). Theo khảo sát của Đàm Thị Lượng tại Kon Tum và bài viết trên Tạp chí Dân tộc (2013) tại Quảng Nam, Kayol (Ka jol) là tù và làm bằng sừng sơn dương (dài 12–15 cm, thuộc nhóm nhạc cụ hơi), còn Oang eng (Ong eng) mới là nhạc cụ dây kéo sơ khai dùng cật nứa dẻo cọ vào dây.",
+          "fix": "Tách riêng Đàn Oang eng (Ong eng) (nhạc cụ dây kéo) và Tù và Kayol / Ka jol (nhạc cụ hơi bằng sừng sơn dương) thành hai mục độc lập trong music.instruments."
+        },
+        {
+          "path": "lexicon[1]",
+          "severity": "medium",
+          "problem": "Mục từ 'prook' [proːk] 'con sóc (squirrel)' đang để confidence='high', nhưng *prook là dạng phục nguyên Proto-Mon-Khmer / West Bahnaric (Sidwell), không xuất hiện trực tiếp trong danh mục từ kiểm chứng được của Gradin (1966) và Cohen (1966) cho tiếng Jeh (trong tài liệu năm 1966, từ có vần -ook được ghi nhận trực tiếp là kadook [kadoːk] 'kẻ trộm / a thief').",
+          "fix": "Hạ confidence của 'prook' xuống 'low' kèm ghi chú giải thích, đồng thời bổ sung mục từ có thực chứng trực tiếp 'kadook' [kadoːk] ('kẻ trộm / thief', Cohen 1966) với confidence='high' và cập nhật lại ml_hints."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "medium",
+          "problem": "Thiếu loạt phụ âm tiền mũi hóa (prenasalized stops: mb, nd, ngg) và loạt phụ âm kéo dài/căng (lengthened consonants: bb, dd, jj, gg, nn, ll) được Gradin (1966: 44) và Cohen (1966: 34) mô tả rõ trong hệ thống âm vị tiếng Jeh; ngoài ra ghi chú của âm 'b (?b) chưa nêu rõ rằng trong Cohen (1966: 34) ?b chủ yếu gặp trong từ vay mượn tiếng Việt (như ka?bang < cái bàn).",
+          "fix": "Bổ sung mb, nd, ngg và ghi chú về loạt phụ âm kéo dài vào phonology.onsets; cập nhật ghi chú cho 'b (?b)."
+        },
+        {
+          "path": "sources[2]",
+          "severity": "low",
+          "problem": "Ghi sai họ của đồng tác giả bản ngữ Thông thành 'Gradin, Thông' và thiếu tên người biên tập Patrick D. Cohen. Theo thư mục SIL / CiNii, sách được đứng tên bởi 'Thông and Dwight Gradin; edited by Patrick D. Cohen'. Ngoài ra, một số nguồn (Cohen 1966, Person 2022) đã có URL truy cập mở chính thức có thể điền và xác nhận url_check.",
+          "fix": "Sửa lại thông tin tác giả của từ điển Jeh (1979) thành 'Thông & Gradin, Dwight; Cohen, Patrick D. (ed.) (1979)' và cập nhật URL/url_check cho các nguồn đã kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Dân tộc Giẻ Triêng tại Việt Nam bao gồm ít nhất 4–5 nhóm ngôn ngữ/phương ngữ Bắc Bahnaric (Gié/Jeh, Triêng, Ve, Bhnoong, Li Xei) có khác biệt đáng kể về âm vị học và từ vựng; cần tách thành các bảng mã phụ (như gie-trieng-stg, gie-trieng-bhnoong) khi có đủ dữ liệu điền dã mở.",
+      "Cần đối chiếu trực tiếp quy ước dấu phụ giữa bài báo học thuật của Gradin (1966) / Cohen (1966) (bao gồm các phụ âm kéo dài bb, dd, jj, gg, nn, ll) và bộ chữ thực hành trong từ điển Chù chih dŏ tơtayh Jeh (1979) cũng như phương án chữ Bh'noong tại Phước Sơn (Quảng Nam).",
+      "Cần nghệ nhân Giẻ Triêng tại Kon Tum và Quảng Nam thẩm định cao độ thang âm bộ 6 ống Đinh tút để ký âm ABC chính xác cho mô hình âm nhạc."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,915 @@
+{
+  "id": "cho-ro",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chơ Ro",
+  "name_en": "Chrau",
+  "autonym": "Chrau Jro",
+  "ethnic_group_vi": "Chơ Ro",
+  "language": {
+    "iso639_3": "crw",
+    "glottocode": "chra1242",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (South Bahnaric, Stieng–Chrau)"
+  },
+  "regions": [
+    "Đồng Nai (Xuân Lộc, Định Quán, Long Khánh, Thống Nhất, Vĩnh Cửu)",
+    "Bà Rịa – Vũng Tàu (Châu Đức, Xuyên Mộc)",
+    "Bình Thuận (Hàm Tân, Tánh Linh, Đức Linh)",
+    "Bình Dương, Bình Phước, Tây Ninh (rải rác; bao gồm nhóm Tà Mun ở Tây Ninh và Đồng Nai)"
+  ],
+  "speakers_estimate": "Khoảng 7.000–20.000 người nói tiếng mẹ đẻ trên tổng dân số 29.520 người Chơ Ro (Tổng điều tra dân số và nhà ở 2019); hầu hết song ngữ Chơ Ro – Việt, tỷ lệ thông thạo giảm nhanh ở thế hệ dưới 20 tuổi.",
+  "scripts": [
+    {
+      "name": "Chữ Chơ Ro Latinh (hệ SIL / David D. Thomas & Thổ Sảng Lực thập niên 1960; kế thừa và mở rộng trong Từ điển Việt – Chơ Ro của Trần Tấn Vĩnh 2007)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Người Chơ Ro không có chữ viết cổ truyền. Thập niên 1960, Viện Ngôn ngữ học Mùa hè (SIL) xây dựng bộ chữ Latinh dựa trên chữ Quốc ngữ để in sách học vần (1964–1967), từ điển (1966) và kinh sách. Sau năm 1975, ông Trần Tấn Vĩnh cùng các trí thức bản địa kế thừa hệ thống này, hoàn thiện bảng chữ 34 đơn vị chữ cái và biên soạn Từ điển Việt – Chơ Ro (>10.000 từ, Sở KH&CN Bà Rịa – Vũng Tàu nghiệm thu năm 2007), dùng trong các lớp truyền dạy cộng đồng nhưng chưa có văn bản phê duyệt chuẩn quốc gia thống nhất."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Biên soạn tự động từ các công trình ngữ âm – ngữ pháp học thuật về tiếng Chrau/Chơ Ro: David D. Thomas (1971), Dorothy M. Thomas (1966), cơ sở dữ liệu PHOIBLE 2.0 / Glottolog 5.3, và nghiên cứu ngữ âm thực nghiệm về thanh tính – âm vực tiếng Chơ Ro tại Ngãi Giao của Tạ Thành Tấn, Marc Brunelle & Nguyễn Trần Quý (2019, 2022). Chưa qua thẩm định trực tiếp của người bản ngữ và chuyên gia ngôn ngữ học.",
+  "phonology": {
+    "syllable_structure": "(CpVp)Cm1(Cm2)(Cm3)Vm(Cf) — cấu trúc đơn tiết hoặc một âm tiết rưỡi (sesquisyllabic). Tiền âm tiết CpVp không mang trọng âm, chỉ chứa một phụ âm đơn và nguyên âm trung hòa [ə ~ a] (thường viết bằng 'a', đôi khi 'i'/'u' như gapu, canang, simvăt). Âm tiết chính mang trọng âm, cho phép tổ hợp tối đa 3 phụ âm đầu (như pl-, pr-, kl-, kr-, mbl-, ndr-, mphl-, ŋkr-) và đối lập nguyên âm dài – ngắn (âm tiết mở chỉ nhận nguyên âm dài).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi; gắn với âm vực cao (modal register)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi; gắn với âm vực cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c ~ tɕ",
+        "note": "Tắc/tắc-xát ngạc cứng vô thanh không bật hơi; gắn với âm vực cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi; phân bố chính tả c/k tương tự chữ Quốc ngữ và dùng k trong cụm kh-, kl-, kr-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ đầu từ) / -",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết trước nguyên âm (ví dụ aq [ʔaʔ], ănh [ʔaɲ]); giữa từ ghép/tiền âm tiết có thể ghi dấu gạch nối như ca-ayh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (ví dụ phe [pʰɛː] 'gạo', pham [pʰaːm] 'tám'); KHÁC với âm xát môi-răng [f] của chữ Quốc ngữ tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chh",
+        "ipa": "cʰ ~ tɕʰ",
+        "note": "Tắc/tắc-xát ngạc cứng vô thanh bật hơi (ví dụ chhơ [cʰəː] 'cây'); khu biệt với s ở Xuân Lộc và Bình Tuy, nhưng nhập làm một với s ở Túc Trưng và Võ Đắt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi; KHÁC với âm xát ngạc mềm [x] của tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hút vào / tiền thanh hầu hóa [ɓ ~ ʔb] (ví dụ bop [ɓɔːp]); tương đương b trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hút vào / tiền thanh hầu hóa [ɗ ~ ʔd]; tương đương đ trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'j",
+        "ipa": "ʄ ~ ʔɟ",
+        "note": "Âm ngạc cứng tiền thanh hầu hóa / hút vào; chỉ xuất hiện trong phương ngữ Túc Trưng (Prâng)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ β",
+        "note": "Xát môi-răng / hai môi hữu thanh (bắt nguồn từ *b tiền Nam Bahnar, ví dụ var [vaːr] 'hai'); trong Thomas (1971) và PHOIBLE (PH 861) được ký hiệu âm vị học là /b/ vì đứng sau âm mũi (như mb-, mbl-) vẫn giữ âm tắc [b], trong khi chữ 'b' chính tả ghi âm hút vào /ɓ ~ ʔb/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d ~ t̤",
+        "note": "Tắc chân răng hữu thanh thường hoặc vô thanh hóa kèm âm vực thấp giọng thở trên nguyên âm sau (ví dụ daq [daʔ ~ t̤aʔ] 'nước'); KHÁC hoàn toàn với chữ d [z]/[j] tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ ~ dʑ ~ c̤",
+        "note": "Tắc/tắc-xát ngạc cứng hữu thanh thường hoặc vô thanh hóa kèm âm vực thấp giọng thở (ví dụ jong 'dài', jât 'chục'); ở Túc Trưng một số từ chuyển thành g",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g, gh",
+        "ipa": "ɡ ~ k̤",
+        "note": "Tắc ngạc mềm hữu thanh thường hoặc vô thanh hóa kèm âm vực thấp giọng thở (ví dụ gŏq 'nồi'); KHÁC âm xát [ɣ] của tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi; có thể đứng đầu cụm phụ âm (ml-, mr-, mb-, mp-, mph-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng; có thể đứng đầu cụm phụ âm (nl-, nr-, nd-, nđ-, nt-, nth-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng (ví dụ nhi [ɲiː] 'nhà', nhai [ɲaːj] 'nói')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng, ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ví dụ ngai [ŋaːj] 'xa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh; kết hợp được trong các cụm hl-, hr-, hj-, hw-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận bên chân răng; phổ biến cả ở vị trí đầu và vị trí thứ hai trong cụm phụ âm (pl-, kl-, bl-, gl-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung/vỗ chân răng; rất phổ biến trong cụm phụ âm (pr-, tr-, chr-, kr-, br-, dr-, gr-). Trong biến thể Tà Mun, *r chuyển đồng loạt thành /ɡ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi - ngạc mềm (ví dụ wet 'quẹo', hwêt, chwŏh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng (ví dụ gyau, diyêih)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm trước đóng dài (ví dụ nhi [ɲiː] 'nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm trước đóng ngắn, chỉ xuất hiện trong âm tiết đóng (ví dụ camvĭnh, sĭq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm trước nửa đóng dài (ví dụ sên [seːn] 'xem')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm trước nửa mở dài (ví dụ pe [pɛː] 'ba', phe [pʰɛː] 'gạo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở ngắn (ví dụ lĕq [lɛʔ] 'hết', gĕh 'có'); trung hòa với ă ở một số môi trường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː ~ ɨ",
+        "note": "Nguyên âm giữa đóng (ví dụ chưt [cɨt] 'chết', sưn 'chín'); trong một số môi trường là kết quả trung hòa giữa ĭ và ŭ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa vừa dài (ví dụ chhơ [cʰəː] 'cây', vơn 'chúng ta')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə ~ ʌ",
+        "note": "Nguyên âm giữa vừa/nửa mở ngắn (ví dụ dân, jât 'mười/chục', pâm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài ở âm tiết chính (ví dụ pham [pʰaːm] 'tám'); ở tiền âm tiết không nhấn, chữ 'a' ghi nguyên âm trung hòa cực ngắn [ə ~ a] (như gapu [ɡəpuː])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a ~ ɐ",
+        "note": "Nguyên âm mở ngắn trong âm tiết đóng (ví dụ ănh [ʔaɲ] 'tôi', măng [maŋ] 'đêm', dăk [dak] 'bẫy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm sau đóng dài (ví dụ du [duː] 'một', ur 'đàn bà/vợ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm sau đóng ngắn (ví dụ gŭk, dŭh, lŭng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm sau nửa đóng dài (ví dụ ôp [ʔoːp] 'làm', trôq [troːʔ] 'trời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm sau nửa mở dài (ví dụ con [kɔːn] 'con', trong [trɔːŋ] 'đường')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở ngắn (ví dụ pŏh [pɔh] 'bảy', gŏq [ɡɔʔ] 'nồi', adŏh [ʔadɔh] 'hát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước (ví dụ piêng [piəŋ] 'cơm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô, ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau (ví dụ puôn [puən] 'bốn', muôi [muəj] 'một')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra (ví dụ bop, ôp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng vô thanh không bật ra (ví dụ chưt, gưt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c̚",
+        "note": "Tắc ngạc cứng vô thanh không bật ra (ví dụ păch 'gì', huch)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm vô thanh không bật ra (ví dụ dăk, gŭk, bac)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ daq [daʔ] 'nước', aq [ʔaʔ] 'nỏ', lĕq [lɛʔ] 'hết'); tần suất xuất hiện rất cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ prăm, pham, ôm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng (ví dụ con, sên, puôn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng (ví dụ ănh, sănh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ví dụ măng, trong, piêng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết (ví dụ pŏh [pɔh] 'bảy', adŏh [ʔadɔh] 'hát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yh",
+        "ipa": "jh ~ ç ~ s",
+        "note": "Âm cuối ngạc cứng - xát (phát triển từ *-s Nam Bahnar, ví dụ ayh, candrayh, diyêih)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng cuối âm tiết (ví dụ chhal, chhưl, candưl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung/vỗ chân răng cuối âm tiết (ví dụ var [vaːr] 'hai', ur [ʔuːr], năr 'ngày'); có xu hướng biến đổi với -l ở một số điểm phương ngữ và rụng/hóa bán nguyên âm trong tiếng Tà Mun",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o, u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi - ngạc mềm (ví dụ prau [praːw] 'sáu', ao, rao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i, y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng (ví dụ nhai [ɲaːj] 'nói', ngai [ŋaːj] 'xa', muôi [muəj] 'một', ay)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu từ vựng (các từ vay mượn tiếng Việt khi nhập hoàn toàn vào tiếng Chơ Ro đều mất thanh điệu, chỉ biến đổi cao độ theo ngữ điệu câu — Dorothy Thomas 1966). Tuy nhiên, nghiên cứu thực nghiệm tại Ngãi Giao (Tạ Thành Tấn, Marc Brunelle & Nguyễn Trần Quý 2019, 2022) chứng minh tiếng Chơ Ro đã phát triển hệ thống đối lập 2 âm vực (register) từ sự chuyển hóa thanh tính phụ âm tắc đầu: (1) Âm vực cao / giọng thường (modal/high register, bắt nguồn từ *p, *t, *c, *k): nguyên âm mang chất giọng chuẩn (modal), F1 cao hơn (mở hơn), cao độ f0 nhỉnh hơn; (2) Âm vực thấp / giọng thở (breathy/low register, bắt nguồn từ loạt tắc hữu thanh lịch sử, khảo sát thực nghiệm trên các âm đầu lưỡi và gốc lưỡi *d, *ɡ do *b đơn ở đầu từ đã xát hóa thành v [v ~ β]): nguyên âm mang chất giọng thở/lơi (breathy/lax), F1 thấp hơn (nguyên âm khép hơn ở phần đầu), cao độ f0 thấp hơn, còn phụ âm tắc đầu hoặc bảo lưu thanh tính hữu thanh một phần hoặc vô thanh hóa thành [t̤, c̤, k̤] với VOT dương hơi dài hơn âm vô thanh thường (ví dụ cặp tối thiểu /tiː/ 'tay' đối lập với /ti̤ː/ 'thứ'). Các phụ âm bật hơi, hút vào (ɓ, ɗ), xát và vang không đối lập âm vực."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "daq",
+      "ipa": "daʔ ~ t̤aʔ",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây, gỗ",
+      "form": "chhơ",
+      "ipa": "cʰəː",
+      "gloss_en": "tree, wood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "nhi",
+      "ipa": "ɲiː",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gạo",
+      "form": "phe",
+      "ipa": "pʰɛː",
+      "gloss_en": "husked uncooked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm",
+      "form": "piêng",
+      "ipa": "piəŋ",
+      "gloss_en": "cooked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con (đứa con, con cái)",
+      "form": "con",
+      "ipa": "kɔːn",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "ănh",
+      "ipa": "ʔaɲ",
+      "gloss_en": "I (1st person singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nói",
+      "form": "nhai",
+      "ipa": "ɲaːj",
+      "gloss_en": "to speak, to say",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nghe",
+      "form": "chăng",
+      "ipa": "caŋ",
+      "gloss_en": "to hear, to listen",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xem, nhìn",
+      "form": "sên",
+      "ipa": "seːn",
+      "gloss_en": "to see, to look",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chết",
+      "form": "chưt",
+      "ipa": "cɨt",
+      "gloss_en": "to die",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đêm",
+      "form": "măng",
+      "ipa": "maŋ",
+      "gloss_en": "night",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đường",
+      "form": "trong",
+      "ipa": "trɔːŋ",
+      "gloss_en": "road, path",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xa",
+      "form": "ngai",
+      "ipa": "ŋaːj",
+      "gloss_en": "far",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hát",
+      "form": "adŏh",
+      "ipa": "ʔadɔh",
+      "gloss_en": "to sing",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "ôp",
+      "ipa": "ʔoːp",
+      "gloss_en": "to do, to make",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nỏ",
+      "form": "aq",
+      "ipa": "ʔaʔ",
+      "gloss_en": "crossbow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một (đếm độc lập / trước loại từ)",
+      "form": "muôi / du",
+      "ipa": "muəj / duː",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "var",
+      "ipa": "vaːr ~ vaːl",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pe",
+      "ipa": "pɛː",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "puôn",
+      "ipa": "puən",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (số 5)",
+      "form": "prăm",
+      "ipa": "pram",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "prau",
+      "ipa": "praːw",
+      "gloss_en": "six",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bảy",
+      "form": "pŏh",
+      "ipa": "pɔh",
+      "gloss_en": "seven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tám",
+      "form": "pham",
+      "ipa": "pʰaːm",
+      "gloss_en": "eight",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát nghi lễ nông nghiệp (Lễ cúng Thần Lúa Sa Yang Va, Lễ cúng Thần Rừng Sa Yang Bri, Lễ cầu mưa)",
+        "note": "Gắn liền với hòa tấu chiêng đồng và múa vòng cộng đồng trong các nghi lễ vòng đời cây lúa và tín ngưỡng vạn vật hữu linh."
+      },
+      {
+        "name": "Dân ca sinh hoạt, hát mời khách (như bài Pantaorămseh) và hát đối đáp giao duyên",
+        "note": "Hát mộc hoặc có nhạc cụ tre nứa đệm trong dịp hội làng, tiếp khách, mừng cơm mới."
+      },
+      {
+        "name": "Hát ru và hát tự sự trên nương rẫy",
+        "note": "Thường đi kèm tiếng đàn ống tre Goong Cla, giai điệu mộc mạc, thiên về kể chuyện và giãi bày tâm tình; lời hát không bị ràng buộc bởi thanh điệu từ vựng mà bám theo trọng âm âm tiết chính và ngữ điệu câu."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang 5 âm không bán âm (ngũ cung)",
+        "note": "Trên đàn ống tre truyền thống Goong Cla (loại 5 dây), hàng âm thường được lên tương ứng quãng Đô – Rê – Pha – Sol – La; cần nhạc sĩ dân tộc học đo đạc thêm độ lệch vi cung thực tế theo từng nghệ nhân.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Chiêng đồng Chơ Ro (Goong)",
+        "note": "Bộ chiêng đồng (thường gồm 5, 6 hoặc 7 chiếc chiêng bằng không núm) diễn tấu trong lễ Sa Yang Va."
+      },
+      {
+        "name": "Đàn ống tre Goong Cla (Goong Cơ La / Goong Chloq)",
+        "note": "Nhạc cụ dây chi gảy đặc trưng nhất của người Chơ Ro, làm từ ống tre già dài khoảng 40–60 cm, có 5–7 dây."
+      },
+      {
+        "name": "Tiêu / sáo dọc bằng trúc",
+        "note": "Nhạc cụ hơi thổi độc tấu hoặc đệm hát."
+      },
+      {
+        "name": "Đàn môi và kèn lúa",
+        "note": "Nhạc cụ tự thân vang / hơi dân gian dùng trên nương rẫy và trong giao duyên."
+      }
+    ]
+  },
+  "ml_hints": {
+    "phonetic_warnings_for_vietnamese_models": [
+      "Tiếng Chơ Ro KHÔNG có thanh điệu từ vựng; tuyệt đối không gán ngẫu nhiên dấu sắc/hỏi/ngã vào từ gốc.",
+      "Chữ 'd' trong chính tả Chơ Ro là âm tắc [d ~ t̤] (âm vực thấp), KHÔNG phải [z]/[j] của chữ Quốc ngữ.",
+      "Chữ 'ph' và 'kh' trong chính tả Chơ Ro là âm tắc bật hơi [pʰ] và [kʰ], KHÔNG phải âm xát [f] và [x] của tiếng Việt.",
+      "Các âm không có trong tiếng Việt chuẩn gồm: tắc-xát ngạc cứng bật hơi chh [cʰ], tắc ngạc cứng hữu thanh j [ɟ ~ dʑ], tổ hợp 2–3 phụ âm đầu (pl-, pr-, kl-, kr-, mbl-, ndr-...), và các âm cuối -q [ʔ], -h [h], -r [r], -l [l], -yh [jh ~ ç]."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "daq",
+        "quoc_ngu": "đặc",
+        "note": "Chữ d ghi âm tắc [d ~ t̤] (phải đổi sang 'đ' để TTS Việt không đọc thành [z]/[j]); âm cuối -q [ʔ] không có chữ riêng trong Quốc ngữ, xấp xỉ gần nhất bằng âm tiết khép mang thanh nặng (ngắt thanh hầu nhanh)."
+      },
+      {
+        "native": "phe",
+        "quoc_ngu": "pe",
+        "note": "Âm đầu ph là âm tắc hai môi bật hơi [pʰ] (không có trong tiếng Việt). Nếu giữ 'phe', mô hình Việt sẽ đọc sai thành [fɛ]; xấp xỉ bằng 'pe' (chấp nhận mất bật hơi)."
+      },
+      {
+        "native": "pham",
+        "quoc_ngu": "pam",
+        "note": "Tương tự 'phe', thay ph [pʰ] bằng 'p' để tránh đọc thành âm xát [faːm]."
+      },
+      {
+        "native": "chhơ",
+        "quoc_ngu": "chơ / sơ",
+        "note": "Âm [cʰ] (ngạc cứng bật hơi) không có trong tiếng Việt; ở phương ngữ Túc Trưng/Võ Đắt người bản ngữ nhập chh vào s nên có thể xấp xỉ bằng 'sơ' (giọng Bắc) hoặc 'chơ'."
+      },
+      {
+        "native": "jong",
+        "quoc_ngu": "dòng",
+        "note": "Âm đầu j [ɟ ~ dʑ] không có trong tiếng Việt chuẩn; với giọng miền Nam có thể mượn 'd/gi' [j] kết hợp thanh huyền để gợi âm vực thấp giọng thở (breathy/low register)."
+      },
+      {
+        "native": "gŏq",
+        "quoc_ngu": "gọ / gọc",
+        "note": "Âm g Chơ Ro là âm tắc [ɡ ~ k̤] (tiếng Việt đọc là xát [ɣ]); nguyên âm ngắn ŏ [ɔ] kèm tắc thanh hầu cuối -q [ʔ] xấp xỉ bằng thanh nặng ngắt gọn."
+      },
+      {
+        "native": "prăm",
+        "quoc_ngu": "pơ-răm",
+        "note": "Tổ hợp phụ âm đầu pr- [pr] không tồn tại trong tiếng Việt; cần tách thành tiền âm tiết lướt cực ngắn 'pơ-' không nhấn trước âm tiết chính 'răm'."
+      },
+      {
+        "native": "trong",
+        "quoc_ngu": "tơ-roong",
+        "note": "Chữ tr- trong tiếng Chơ Ro là cụm hai phụ âm [tr] (không phải âm quặt lưỡi đơn [ʈ] hay [c] của tiếng Việt), và 'ong' đọc nguyên âm mở [ɔːŋ] không ngậm môi [ɔŋ͡m] kiểu Việt; xấp xỉ bằng 'tơ-roong'."
+      },
+      {
+        "native": "klan",
+        "quoc_ngu": "cơ-lan",
+        "note": "Tổ hợp phụ âm đầu kl- [kl] ('con trăn') không có trong tiếng Việt; chèn nguyên âm lướt cực ngắn 'cơ-' không nhấn."
+      },
+      {
+        "native": "adŏh",
+        "quoc_ngu": "a-đó-hờ",
+        "note": "Tiền âm tiết 'a-' lướt nhẹ, d là [d] ('đ'), còn âm cuối -h [h] không có trong tiếng Việt nên mô hình chỉ biết Quốc ngữ không thể phát âm chuẩn nếu không can thiệp ở tầng phoneme IPA."
+      },
+      {
+        "native": "var",
+        "quoc_ngu": "va-rờ / van",
+        "note": "Âm cuối -r [r ~ ɾ] (hoặc biến thể val [-l]) không có trong tiếng Việt chuẩn; mọi cách viết Quốc ngữ ('van') chỉ là xấp xỉ thô làm mất đặc trưng âm cuối lưỡi."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Jro (Chrau Jro — phương ngữ Xuân Lộc, Bình Tuy, Ngãi Giao)",
+        "iso639_3": "crw",
+        "glottocode": "jroo1240",
+        "note": "Phương ngữ chính và có uy tín giao tiếp rộng nhất tại Đồng Nai và Bà Rịa – Vũng Tàu; giữ sự khu biệt giữa chh /cʰ/ và s /s/."
+      },
+      {
+        "name": "Prâng (phương ngữ Túc Trưng — Định Quán, Đồng Nai)",
+        "iso639_3": "crw",
+        "glottocode": "pran1244",
+        "note": "Nhập /cʰ/ và /s/ làm một, có thêm âm vị tiền thanh hầu 'j [ʔɟ], một số từ biến j → g và g → k."
+      },
+      {
+        "name": "Tiếng Tà Mun (Tamun — Tây Ninh và Đồng Nai)",
+        "iso639_3": "crw",
+        "glottocode": "tamu1245",
+        "note": "Khoảng 2.859 người nói (2020), chưa có mã ISO 639-3 riêng và thường được gộp dưới mã crw; đặc trưng bởi sự chuyển đổi đồng loạt *r > /ɡ/ ở đầu âm tiết và rụng /-r/ cuối âm tiết."
+      },
+      {
+        "name": "Dor, Voqtwaq (Võ Đắt), Vajieng (Bà Giêng), Chalah, Chalun, Mro",
+        "iso639_3": "crw",
+        "glottocode": "dorr1248",
+        "note": "Các tiểu phương ngữ địa phương được Glottolog và David D. Thomas (1971) ghi nhận (Glottolog cấp mã riêng: Dor [dorr1248], Voqtwaq [voqt1239], Vajieng [vaji1239], Mro [mroo1239]); thông hiểu lẫn nhau cao với Jro."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "daq",
+        "ipa": "daʔ ~ t̤aʔ",
+        "vi": "nước",
+        "en": "water"
+      },
+      {
+        "native": "chhơ",
+        "ipa": "cʰəː",
+        "vi": "cây, gỗ",
+        "en": "tree, wood"
+      },
+      {
+        "native": "nhi",
+        "ipa": "ɲiː",
+        "vi": "nhà",
+        "en": "house"
+      },
+      {
+        "native": "phe",
+        "ipa": "pʰɛː",
+        "vi": "gạo",
+        "en": "uncooked rice"
+      },
+      {
+        "native": "piêng",
+        "ipa": "piəŋ",
+        "vi": "cơm",
+        "en": "cooked rice"
+      },
+      {
+        "native": "ănh",
+        "ipa": "ʔaɲ",
+        "vi": "tôi",
+        "en": "I"
+      },
+      {
+        "native": "con",
+        "ipa": "kɔːn",
+        "vi": "con",
+        "en": "child"
+      },
+      {
+        "native": "măng",
+        "ipa": "maŋ",
+        "vi": "đêm",
+        "en": "night"
+      },
+      {
+        "native": "trong",
+        "ipa": "trɔːŋ",
+        "vi": "đường",
+        "en": "road, path"
+      },
+      {
+        "native": "sên",
+        "ipa": "seːn",
+        "vi": "xem, nhìn",
+        "en": "to see"
+      },
+      {
+        "native": "chưt",
+        "ipa": "cɨt",
+        "vi": "chết",
+        "en": "to die"
+      },
+      {
+        "native": "nhai",
+        "ipa": "ɲaːj",
+        "vi": "nói",
+        "en": "to speak"
+      },
+      {
+        "native": "muôi",
+        "ipa": "muəj",
+        "vi": "một",
+        "en": "one"
+      },
+      {
+        "native": "var",
+        "ipa": "vaːr",
+        "vi": "hai",
+        "en": "two"
+      },
+      {
+        "native": "pe",
+        "ipa": "pɛː",
+        "vi": "ba",
+        "en": "three"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Thomas, David D. (1971). Chrau Grammar (Oceanic Linguistics Special Publication No. 7). Honolulu: University of Hawai'i Press (bản luận án tiến sĩ 1967 lưu trữ tại SEAlang).",
+      "url": "http://www.sealang.net/archives/thomas/thomas-phd.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Thomas, David D. & Thổ Sảng Lực (1966). Ngữ-vựng Chrau / Chrau Vocabulary: Chrau–Việt–English. Sài Gòn: Bộ Giáo dục.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Thomas, Dorothy M. (1966). Chrau intonation. Mon-Khmer Studies, 2, 1–13.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ, Thành Tấn, Marc Brunelle & Nguyễn Trần Quý (2022). Voicing and register in Ngãi Giao Chrau: Production and perception studies. Journal of Phonetics, 90, 101115.",
+      "url": "https://doi.org/10.1016/j.wocn.2021.101115",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tạ, Thành Tấn, Marc Brunelle & Nguyễn Trần Quý (2019). Chrau register and the transphonologization of voicing. Proceedings of the 19th International Congress of Phonetic Sciences (ICPhS 2019), 2094–2098.",
+      "url": "https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2019/papers/ICPhS_2143.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Collection Pangloss (CNRS) — Chrau Corpus (thu âm tại Ngãi Giao, Châu Đức, Bà Rịa – Vũng Tàu bởi Tạ Thành Tấn, Marc Brunelle & Nguyễn Trần Quý, 2018)",
+      "url": "https://pangloss.cnrs.fr/corpus/Chrau",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Chrau (chra1242)",
+      "url": "https://glottolog.org/resource/languoid/id/chra1242",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Chrau phoneme inventory (PH 861, trích xuất từ Thomas 1971)",
+      "url": "https://phoible.org/inventories/view/861",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL ISO 639-3 — Documentation for [crw] (Chrau)",
+      "url": "https://iso639-3.sil.org/code/crw",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Chrau language",
+      "url": "https://en.wikipedia.org/wiki/Chrau_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Chơ Ro",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ch%C6%A1_Ro",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "VOV2 Đài Tiếng nói Việt Nam (2025) — Độc đáo đàn tre Goong Cla của đồng bào Chơ Ro",
+      "url": "https://vov2.vov.vn/van-hoa-giai-tri/doc-dao-dan-tre-goong-cla-cua-dong-bao-cho-ro-53240.vov2",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[0].glottocode",
+          "severity": "low",
+          "problem": "Trường glottocode cho phương ngữ Jro đang để null, trong khi Glottolog 5.3 có mã phương ngữ riêng cho Jro là 'jroo1240'.",
+          "fix": "Cập nhật glottocode thành 'jroo1240'."
+        },
+        {
+          "path": "ml_hints.sub_varieties[1].glottocode",
+          "severity": "low",
+          "problem": "Trường glottocode cho phương ngữ Prâng (Túc Trưng) đang để null, trong khi Glottolog 5.3 có mã phương ngữ riêng cho Prang là 'pran1244'.",
+          "fix": "Cập nhật glottocode thành 'pran1244' và bổ sung các mã 'voqt1239', 'vaji1239', 'mroo1239' vào ghi chú của nhóm phương ngữ còn lại."
+        },
+        {
+          "path": "phonology.onsets[12].note",
+          "severity": "low",
+          "problem": "Cần làm rõ thêm sự khác biệt ký hiệu âm vị học giữa PHOIBLE 2.0 / Thomas (1971) và chữ viết thực hành: trong Thomas (1971) và PHOIBLE (PH 861), âm vị viết bằng chữ 'v' được ký hiệu âm vị học là /b/ (vì biến thể sau âm mũi trong cụm mb- là [b], còn đầu từ xát hóa thành [v ~ β]), trong khi chữ 'b' ghi âm tiền thanh hầu hóa / hút vào /ʔb ~ ɓ/. Do *b đơn đã xát hóa thành [v ~ β], nghiên cứu thực nghiệm về âm vực của Tạ, Brunelle & Nguyễn (2019, 2022) chỉ khảo sát loạt phụ âm đầu lưỡi và gốc lưỡi.",
+          "fix": "Bổ sung giải thích rõ ràng vào phonology.onsets[12].note và phonology.register_or_phonation để tránh nhầm lẫn khi đối chiếu với PHOIBLE."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn đang để null; đồng thời có thể bổ sung kho ngữ liệu âm thanh mở Pangloss Collection (CNRS) của tiếng Chơ Ro (Ngãi Giao) do Tạ Thành Tấn, Marc Brunelle & Nguyễn Trần Quý thu âm năm 2018.",
+          "fix": "Cập nhật url_check cho các URL đã kiểm chứng và thêm nguồn CNRS Pangloss Chrau Corpus."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết sự khác biệt quy ước chính tả (nếu có) giữa bộ chữ SIL thập niên 1960 (David D. Thomas & Thổ Sảng Lực) và bộ chữ 34 chữ cái trong Từ điển Việt – Chơ Ro của Trần Tấn Vĩnh (2007/2023).",
+      "Cần người bản ngữ tại Xuân Lộc, Định Quán (Đồng Nai) và Châu Đức (Bà Rịa – Vũng Tàu) kiểm chứng lại biến thể phát âm của chữ 'v' ([v ~ β] hay bảo lưu [b ~ p̤] ở một số vị trí) và mức độ phổ biến của đối lập âm vực.",
+      "Cần nhạc sĩ dân tộc học bổ sung ký âm chuẩn (ABC/MIDI) cho thang âm đàn ống tre Goong Cla và các bài dân ca lễ hội Sa Yang Va."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

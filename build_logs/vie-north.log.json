@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "vie-north",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Phương ngữ Bắc Bộ (chuẩn Hà Nội, làm mốc)",
+    "hint": "Mốc so sánh: cách đọc chuẩn Hà Nội; ghi cả các biến thể Bắc Bộ khác (l/n ở một số tỉnh, r/d/gi...)."
+  },
+  "started": "2026-11-13T21:41:13.478847",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9401,
+      "candidatesTokenCount": 10262,
+      "totalTokenCount": 23788,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9401
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10262
+        }
+      ],
+      "thoughtsTokenCount": 4125,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12156,
+      "candidatesTokenCount": 10853,
+      "totalTokenCount": 23477,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12156
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10853
+        }
+      ],
+      "thoughtsTokenCount": 468,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "correspondences_from_standard_vietnamese[8].ipa_standard",
+        "severity": "low",
+        "problem": "Ở mục correspondences_from_standard_vietnamese[0], âm chuẩn chính tả của 'tr' được ghi là [ʈ], nhưng ở mục [8] ('trời') và [9] ('trai') lại chỉ ghi [tɕ].",
+        "fix": "Ghi rõ cả dạng quy phạm chính tả lẫn khẩu ngữ chuẩn Hà Nội: 'ʈəːj˨˩ ~ tɕəːj˨˩' và 'ʈaːj˧˧ ~ tɕaːj˧˧' để nhất quán nội bộ."
+      },
+      {
+        "path": "lexicon[8]",
+        "severity": "low",
+        "problem": "Trường 'form' gộp 3 từ khác nhau bằng dấu gạch chéo ('u / bầm / bu'), gây khó khăn cho công cụ xử lý tự động theo từ đơn.",
+        "fix": "Tách thành các mục từ vựng riêng biệt cho 'u', 'bầm', 'bu'."
+      },
+      {
+        "path": "lexicon[10].ipa",
+        "severity": "low",
+        "problem": "Các âm tiết khép mang thanh sắc ('bát', 'cốc', 'tất') đang ghi ký hiệu thanh điệu '˧˥', chưa khớp với mô tả ở phonology.tones[2] là thanh sắc ở âm tiết khép lên cao ngắn (45 / ˦˥).",
+        "fix": "Cập nhật ký hiệu thanh điệu ở âm tiết khép thanh sắc thành '˦˥' (hoặc '˧˥ ~ ˦˥')."
+      },
+      {
+        "path": "music.ornaments",
+        "severity": "low",
+        "problem": "Ký hiệu ABC cho các kỹ thuật 'Nảy hạt', 'Đổ hột', 'Luyến hư từ' là ước lượng minh họa của mô hình, chưa có bản ký âm chuẩn đối chiếu.",
+        "fix": "Hạ confidence của các mục trong music.ornaments từ 'medium' xuống 'low'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

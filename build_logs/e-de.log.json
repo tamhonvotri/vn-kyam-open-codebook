@@ -1,0 +1,103 @@
+{
+  "target": {
+    "id": "e-de",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ê Đê",
+    "ethnic_group_vi": "Ê Đê",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:51:15.116443",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 10380,
+      "totalTokenCount": 24592,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10380
+        }
+      ],
+      "thoughtsTokenCount": 4829,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12941,
+      "candidatesTokenCount": 12271,
+      "totalTokenCount": 27047,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12941
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12271
+        }
+      ],
+      "thoughtsTokenCount": 1835,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[16].ipa",
+        "severity": "medium",
+        "problem": "Tổ hợp phụ âm đầu 'jh' được ký âm là 'ˀɟʱ' (có tiền thanh hầu hóa như 'dj' /ʄ/), trong khi chữ 'j' trong tiếng Ê Đê biểu thị âm tắc/tắc-xát mặt lưỡi hữu thanh thường /ɟ/ (chỉ khi viết 'dj' mới là âm hút vào / tiền thanh hầu hóa /ʄ/ [ˀɟ]).",
+        "fix": "Sửa IPA của 'jh' trong chuỗi 'bh, dh, jh, gh' từ 'ˀɟʱ' thành 'ɟʱ' (hoặc tổ hợp phụ âm [ɟh])."
+      },
+      {
+        "path": "lexicon[17].ipa",
+        "severity": "medium",
+        "problem": "Từ 'jhat' (xấu/ác) bắt đầu bằng 'jh-' chứ không phải 'djh-', nên ký âm 'ˀɟʱat̚' (có tiền thanh hầu hóa) là không chính xác; ngoài ra bản chất ngữ âm của cụm phụ âm hữu thanh + h trong tiếng Ê Đê có thể thực hiện như phụ âm hà hơi [ɟʱ] hoặc cụm [ɟh].",
+        "fix": "Sửa IPA thành 'ɟʱat̚ ~ ɟhat̚' và hạ confidence xuống 'medium'."
+      },
+      {
+        "path": "lexicon[10]",
+        "severity": "low",
+        "problem": "Từ 'ea' (nước) trong tiếng Ê Đê (một số văn bản viết là 'êa') có giá trị ngữ âm dao động giữa nguyên âm đôi/song tiết [ʔe.aː ~ ʔea ~ ʔeɐ] tùy phương ngữ và tài liệu mô tả, để confidence 'high' với ký âm hẹp [ʔeɐ] là hơi quá chắc chắn.",
+        "fix": "Mở rộng IPA thành 'ʔea ~ ʔeɐ' và hạ confidence xuống 'medium'."
+      },
+      {
+        "path": "lexicon[19]",
+        "severity": "low",
+        "problem": "Từ 'hriăm' (học; tài liệu cũ trước 1975 còn viết là 'hriâm') có phần vần '-iăm' được mô tả khác nhau giữa âm đệm + nguyên âm ngắn [hrjam] và nguyên âm đôi ngắn [hriăm].",
+        "fix": "Cập nhật IPA thành 'hrjam ~ hriăm' và hạ confidence xuống 'medium'."
+      },
+      {
+        "path": "music.scales_or_modes[0]",
+        "severity": "low",
+        "problem": "Thông tin cao độ tuyệt đối 'd1–e1–f1–f#1–g#1' của kèn đing tăk ta chưa có nguồn trích dẫn cụ thể trong danh mục sources và trên thực tế cao độ nhạc cụ tre nứa Ê Đê thay đổi theo từng nghệ nhân chế tác.",
+        "fix": "Diễn đạt lại thận trọng hơn (ghi rõ là ví dụ đo đạc trên cá thể nhạc cụ) và hạ confidence xuống 'low'."
+      },
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "low",
+        "problem": "Địa bàn của phương ngữ Ê Đê Êpan và Ê Đê Blô chỉ ghi chung là 'Đắk Lắk', và Ê Đê Mdhur thiếu huyện Ea Kar và tỉnh Gia Lai theo phân vùng của Đoàn Văn Phúc (1998:24).",
+        "fix": "Bổ sung địa bàn cụ thể 'M'Đrắk (Đắk Lắk)' cho Êpan và Blô; bổ sung 'Ea Kar' và 'Gia Lai' cho Mdhur."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check đang để null ở các nguồn trực tuyến đã kiểm chứng được; nguồn Đoàn Văn Phúc (1998) thiếu tên nhà xuất bản/đơn vị ấn hành.",
+        "fix": "Cập nhật url_check='verified' cho các URL hợp lệ và bổ sung thông tin xuất bản cho Đoàn Văn Phúc (1998)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

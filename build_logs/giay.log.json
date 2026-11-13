@@ -1,0 +1,72 @@
+{
+  "target": {
+    "id": "giay",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Giáy",
+    "ethnic_group_vi": "Giáy",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:14:42.282565",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 10210,
+      "totalTokenCount": 28804,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10210
+        }
+      ],
+      "thoughtsTokenCount": 9215,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12446,
+      "candidatesTokenCount": 11204,
+      "totalTokenCount": 23650,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12446
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11204
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.tones",
+        "severity": "low",
+        "problem": "Gedney (1965: 402 / 1989: 402) chỉ mô tả định tính đường nét 6 thanh điệu (ví dụ: '1 level, slightly lower than mid', '2 low level', '3 rising', '4 high, with a slight rise and fall toward the end', '5 falling', '6 higher than mid, with a slight rise toward the end') chứ không đưa ra chỉ số Chao 5 bậc cụ thể. Tuy nhiên, tone2 đang để confidence='high' trong khi các thanh còn lại để 'medium'.",
+        "fix": "Hạ confidence của tone2 xuống 'medium' cho đồng nhất với các thanh còn lại vì tất cả chỉ số Chao đều là quy đổi ước lượng từ mô tả định tính của Gedney (1965)."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check trong các mục thuộc sources đang để null thay vì ghi trạng thái kiểm chứng URL.",
+        "fix": "Cập nhật url_check='verified' cho các URL đã kiểm tra hoạt động (SEAlang PDF của Gedney 1989, Glottolog, PHOIBLE, WALS, Wikipedia, VOV5)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

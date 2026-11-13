@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "khang",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Kháng",
+    "ethnic_group_vi": "Kháng",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:31:46.768342",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 10146,
+      "totalTokenCount": 28402,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10146
+        }
+      ],
+      "thoughtsTokenCount": 8877,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12510,
+      "candidatesTokenCount": 12359,
+      "totalTokenCount": 24869,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12510
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12359
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.vowels",
+        "severity": "low",
+        "problem": "Ký hiệu nguyên âm ngắn trong nguồn Tạ Quang Tùng (2021) dùng dấu caron /ɤ̌, ǎ/ do quy ước chế bản của tác giả, trong khi chuẩn IPA quốc tế dùng dấu breve /ɤ̆, ă/ (U+0306) để chỉ nguyên âm cực ngắn (extra-short).",
+        "fix": "Chuẩn hóa trường `ipa` sang ký hiệu IPA chuẩn `ɤ̆` và `ă` (kèm ghi chú biến thể ký hiệu `ɤ̌`, `ǎ` trong tài liệu gốc)."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Mô tả nhạc cụ 'Hưn mạy' và 'Tầm đao' thiếu chi tiết cấu tạo bộ phận phát âm (đầu ống vát hai bên tạo thành 2 chạc/cánh trạc chữ U gõ vào lòng bàn tay).",
+        "fix": "Bổ sung chi tiết cấu tạo 2 chạc/cánh trạc gõ vào lòng bàn tay theo các nguồn dân tộc học về người Kháng ở Sơn La và Điện Biên."
+      },
+      {
+        "path": "lexicon[28]",
+        "severity": "low",
+        "problem": "Mục từ 'chỉ' /ci²¹²/ nghĩa 'cô (em/chị bố)' xuất hiện trong Tạ Quang Tùng (2023), trong khi Tạ Quang Tùng (2021) ghi /ci²¹²/ là 'uncle (mother's younger brother) / young man' và /ma⁴⁴/ là 'father's sister'.",
+        "fix": "Bổ sung ghi chú đối chiếu giữa hai công trình (2021 và 2023) và điều chỉnh độ tin cậy của mục từ này xuống 'medium'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường `url_check` của các nguồn có URL đang để `null`.",
+        "fix": "Cập nhật `url_check` thành `'ok'` cho các URL đã kiểm chứng hoạt động."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "cho-ro",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Chơ Ro",
+    "ethnic_group_vi": "Chơ Ro",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:20:26.197510",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 11923,
+      "totalTokenCount": 33805,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11923
+        }
+      ],
+      "thoughtsTokenCount": 12499,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 13179,
+      "candidatesTokenCount": 12612,
+      "totalTokenCount": 28768,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13179
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12612
+        }
+      ],
+      "thoughtsTokenCount": 2977,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[0].glottocode",
+        "severity": "low",
+        "problem": "Trường glottocode cho phương ngữ Jro đang để null, trong khi Glottolog 5.3 có mã phương ngữ riêng cho Jro là 'jroo1240'.",
+        "fix": "Cập nhật glottocode thành 'jroo1240'."
+      },
+      {
+        "path": "ml_hints.sub_varieties[1].glottocode",
+        "severity": "low",
+        "problem": "Trường glottocode cho phương ngữ Prâng (Túc Trưng) đang để null, trong khi Glottolog 5.3 có mã phương ngữ riêng cho Prang là 'pran1244'.",
+        "fix": "Cập nhật glottocode thành 'pran1244' và bổ sung các mã 'voqt1239', 'vaji1239', 'mroo1239' vào ghi chú của nhóm phương ngữ còn lại."
+      },
+      {
+        "path": "phonology.onsets[12].note",
+        "severity": "low",
+        "problem": "Cần làm rõ thêm sự khác biệt ký hiệu âm vị học giữa PHOIBLE 2.0 / Thomas (1971) và chữ viết thực hành: trong Thomas (1971) và PHOIBLE (PH 861), âm vị viết bằng chữ 'v' được ký hiệu âm vị học là /b/ (vì biến thể sau âm mũi trong cụm mb- là [b], còn đầu từ xát hóa thành [v ~ β]), trong khi chữ 'b' ghi âm tiền thanh hầu hóa / hút vào /ʔb ~ ɓ/. Do *b đơn đã xát hóa thành [v ~ β], nghiên cứu thực nghiệm về âm vực của Tạ, Brunelle & Nguyễn (2019, 2022) chỉ khảo sát loạt phụ âm đầu lưỡi và gốc lưỡi.",
+        "fix": "Bổ sung giải thích rõ ràng vào phonology.onsets[12].note và phonology.register_or_phonation để tránh nhầm lẫn khi đối chiếu với PHOIBLE."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn đang để null; đồng thời có thể bổ sung kho ngữ liệu âm thanh mở Pangloss Collection (CNRS) của tiếng Chơ Ro (Ngãi Giao) do Tạ Thành Tấn, Marc Brunelle & Nguyễn Trần Quý thu âm năm 2018.",
+        "fix": "Cập nhật url_check cho các URL đã kiểm chứng và thêm nguồn CNRS Pangloss Chrau Corpus."
+      }
+    ]
+  },
+  "schema_errors": []
+}

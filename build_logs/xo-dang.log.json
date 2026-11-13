@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "xo-dang",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Xơ Đăng",
+    "ethnic_group_vi": "Xơ Đăng",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:59:25.890727",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 10418,
+      "totalTokenCount": 28392,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10418
+        }
+      ],
+      "thoughtsTokenCount": 8591,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12190,
+      "candidatesTokenCount": 11841,
+      "totalTokenCount": 25857,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12190
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11841
+        }
+      ],
+      "thoughtsTokenCount": 1826,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "lexicon[7] & ml_hints.sample_words[7]",
+        "severity": "medium",
+        "problem": "Mục từ 'mặt trời / ngày' chỉ ghi dạng 'hài' (theo quy ước chính tả cũ năm 1967 của Smith dùng dấu huyền để phân biệt nguyên âm dòng giữa/ngắn), trong khi chính tả tiếng Xơ Đăng hiện hành trên VOV4 và tài liệu sau này ghi là 'hâi'. Việc để riêng 'hài' dễ gây hiểu nhầm rằng tiếng Xơ Đăng dùng dấu huyền để ghi thanh điệu.",
+        "fix": "Sửa form thành 'hâi (hoặc hài)' kèm chú thích rõ trong phần ngữ âm/từ vựng."
+      },
+      {
+        "path": "lexicon[12]",
+        "severity": "low",
+        "problem": "Mục từ 'con' (child) ghi 'kúên' (theo Từ điển Việt – Xơ Đăng của Lê Đông & Tạ Văn Thông 2008), nhưng trong danh sách Swadesh của Smith (2000/2012) và phương ngữ trung tâm (cũng như VOV4) phổ biến dạng 'kúan / kon / kuăn'.",
+        "fix": "Mở rộng form thành 'kúan / kon (hoặc kúên)' để bao quát cả hai hệ chuẩn từ điển."
+      },
+      {
+        "path": "lexicon[19]",
+        "severity": "medium",
+        "problem": "Mục từ 'làng' chỉ ghi 'plơi' (dạng dùng ở vùng tiếp giáp Ba Na / Măng Đen) và để trống IPA, trong khi dạng chuẩn phổ biến trong tiếng Xơ Đăng trung tâm và phát thanh VOV Xơ Đăng là 'pơlê' (/pəle/).",
+        "fix": "Cập nhật form thành 'pơlê (hoặc plơi)' và bổ sung IPA 'pəle' cho dạng trung tâm."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn trực tuyến đang để null; mục từ điển Smith (2000) chưa ghi chú bản tái bản mở rộng năm 2012 của SIL.",
+        "fix": "Cập nhật url_check thành 'verified' cho các URL đã kiểm chứng và bổ sung thông tin ấn bản 2000/2012 của Smith."
+      }
+    ]
+  },
+  "schema_errors": []
+}

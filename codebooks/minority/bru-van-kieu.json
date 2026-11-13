@@ -1,0 +1,807 @@
+{
+  "id": "bru-van-kieu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Bru - Vân Kiều",
+  "name_en": "Eastern Bru (Bru - Vân Kiều)",
+  "autonym": "Parnai Brũ / Brũ",
+  "ethnic_group_vi": "Bru - Vân Kiều",
+  "language": {
+    "iso639_3": "bru",
+    "glottocode": "east2332",
+    "family": "Austroasiatic",
+    "branch": "Katuic (West Katuic, Brou-So)"
+  },
+  "regions": [
+    "Quảng Trị (Hướng Hóa, Đakrông, Vĩnh Linh, Gio Linh, Cam Lộ)",
+    "Quảng Bình (Lệ Thủy, Quảng Ninh, Bố Trạch, Minh Hóa, Tuyên Hóa)",
+    "Thừa Thiên Huế",
+    "Đắk Lắk (Krông Pắc, Ea H'leo — cộng đồng di cư từ Quảng Trị)"
+  ],
+  "speakers_estimate": "94.598 người dân tộc Bru - Vân Kiều tại Việt Nam (Tổng điều tra dân số và nhà ở 2019); khoảng 93.000 người nói tiếng Đông Bru (bru) tại Việt Nam và Lào.",
+  "scripts": [
+    {
+      "name": "Chữ Brũ Latinh (dựa trên chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": null,
+      "note": "Bộ chữ Latinh do John & Carolyn Miller (SIL) cùng cộng tác viên bản ngữ xây dựng năm 1967 (dùng trong sách học vần 1968–1974 và Từ điển Bru - Việt - Anh của Vương Hữu Lễ 1997), được điều chỉnh trong Sách học tiếng Brũ - Vân Kiều (UBND tỉnh Bình Trị Thiên, 1986) và các tài liệu dạy học địa phương tại Quảng Trị, Quảng Bình. Theo Nguyễn Văn Hiệp (2024), hiện vẫn tồn tại hai quy ước chính tả Latinh song song chưa thống nhất hoàn toàn."
+    },
+    {
+      "name": "Chữ Lào",
+      "iso15924": "Laoo",
+      "unicode_block": "Lao",
+      "official_in_vietnam": false,
+      "note": "Chỉ dùng hạn chế trong một số cộng đồng Bru ở Lào; không dùng ở Việt Nam."
+    },
+    {
+      "name": "Chữ Thái",
+      "iso15924": "Thai",
+      "unicode_block": "Thai",
+      "official_in_vietnam": false,
+      "note": "Dùng cho các phương ngữ Tây Bru tại vùng Đông Bắc Thái Lan; không dùng ở Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình ngữ âm học và từ điển học về tiếng Bru - Vân Kiều (Phillips, Miller & Miller 1976; Hoàng Văn Ma & Tạ Văn Thông 1998; Vương Hữu Lễ 1997, 1999; Nguyễn Văn Hiệp 2024). Cần người bản ngữ các nhóm Vân Kiều, Khùa, Trì, Ma Coong và nhà ngôn ngữ học chuyên ngành Katuic thẩm định thực nghiệm, đặc biệt về quy ước chính tả giữa hệ 1967/1997 và hệ sách giáo khoa địa phương.",
+  "phonology": {
+    "syllable_structure": "(C₀V₀ / N)C₁(C₂)V(C₃) — cấu trúc bán song tiết (sesquisyllabic): tiền âm tiết không mang trọng âm có nguyên âm nhược hóa (thường ghi a, u, i hoặc phụ âm mũi đồng vị trí m-, n-, ng- trước âm tắc), âm tiết chính mang trọng âm có hệ thống nguyên âm phân biệt độ dài, âm vực và tới 17 âm cuối.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi [pʰ], KHÔNG đọc là âm xát môi-răng [f] như tiếng Việt Hà Nội",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Tắc hai môi hữu thanh (thường tiền thanh hầu hóa nhẹ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d ~ ɗ",
+        "note": "Chính tả 1967/1997 dùng 'd' cho âm tắc đầu lưỡi hữu thanh (ví dụ: dống [doŋ] 'nhà'); một số tài liệu dạy học ở Việt Nam viết là 'đ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "tɕ ~ c",
+        "note": "Tắc-xát hoặc tắc mặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh; trong chính tả dựa trên Quốc ngữ dùng 'k' trước i, ê, e và 'c' ở các vị trí khác (một số tài liệu cải tiến dùng 'k' đồng loạt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi [kʰ], KHÔNG đọc là âm xát [x] như tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "- (gạch nối) / không ghi chữ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết trước nguyên âm hoặc giữa tiền âm tiết và âm tiết chính (ví dụ: sa-âm [saʔam] 'tin', sa-óh 'thăm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng, ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ ʋ",
+        "note": "Âm vị /w/ ở đầu âm tiết thường hiện thực hóa thành [v] hoặc [ʋ] (ví dụ: vil [vil ~ ʋil] 'làng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận mặt lưỡi (ví dụ: yiang [jiaŋ] 'thần linh', yỗn 'cho')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung hoặc vỗ đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, pr, bl, br, tr, cl / kl, cr / kr",
+        "ipa": "pl, pr, bl, br, tr, kl, kr",
+        "note": "Tổ hợp phụ âm đầu tắc + lỏng rất phổ biến ở âm tiết chính (ví dụ: Brũ, clống / klống 'trong', priang 'sáng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mp, mph, nt, nth, nch, ngk, ngkh",
+        "ipa": "mp, mpʰ, nt, ntʰ, ntɕ, ŋk, ŋkʰ",
+        "note": "Tổ hợp tiền mũi hóa do nhược hóa tiền âm tiết (ví dụ: mpoaq 'cha', ntốq 'nơi', ngkíq 'như vậy')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / í / ĩ",
+        "ipa": "iː / i / iː (căng/tight)",
+        "note": "Nguyên âm hàng trước độ mở hẹp; dấu sắc (í) ghi nguyên âm ngắn, dấu ngã (ĩ) ghi đối lập âm vực căng trên nguyên âm dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / ế / ễ",
+        "ipa": "eː / e / eː (căng/tight)",
+        "note": "Nguyên âm hàng trước hơi hẹp; dấu sắc ghi âm ngắn, dấu ngã ghi đối lập âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / é / è",
+        "ipa": "ɛː / ɛ / ᵉɛː (lơi/trượt đầu)",
+        "note": "Nguyên âm hàng trước hơi rộng; đối lập âm vực lơi/trượt đầu được Vương Hữu Lễ (1999) đề xuất ghi bằng dấu huyền (è) thay cho ký hiệu tổ hợp cũ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư / ứ / ữ",
+        "ipa": "ɨː ~ ɯː / ɨ ~ ɯ / ɨː ~ ɯː (căng/tight)",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi hẹp (ví dụ: cứq [kɨʔ] 'tôi', bữn 'có')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ớ / ỡ",
+        "ipa": "əː ~ ɤː / ə ~ ɤ / əː ~ ɤː (căng/tight)",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi hơi hẹp (ví dụ: cớp [kəp] 'với', ỡt 'ở')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â / ấ / ầ",
+        "ipa": "ʌː ~ əː / ʌ ~ ə / ᵃʌː (lơi/trượt đầu)",
+        "note": "Nguyên âm giữa hơi rộng (ví dụ: tâng 'trong/ở', sâng 'nghe')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a / á (ă) / à",
+        "ipa": "aː / a / ᵃaː (lơi/trượt đầu)",
+        "note": "Nguyên âm rộng; dấu sắc (á) hoặc dấu trăng (ă) ghi nguyên âm ngắn (ví dụ: saráq [saraʔ] 'sách', táq [taʔ] 'làm'); đối lập trượt đầu ghi bằng dấu tổ hợp hoặc dấu huyền (à) theo Vương Hữu Lễ (1999)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / ú / ũ",
+        "ipa": "uː / u / uː (căng/tight)",
+        "note": "Nguyên âm hàng sau tròn môi hẹp; trong tộc danh Brũ, chữ ũ ghi nguyên âm dài mang đặc trưng âm vực đối lập với u",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ố / ỗ",
+        "ipa": "oː / o / oː (căng/tight)",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp (ví dụ: dống [doŋ] 'nhà', yỗn 'cho')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ó / ŏ / ò",
+        "ipa": "ɔː / ɔ / ɒː / ᵒɔː",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng và rộng (Vương Hữu Lễ 1999 phân biệt thêm loạt mở /ɒ/ và đề xuất dùng dấu huyền cho âm vực lơi/trượt đầu)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia / ĩa, iê / ĩê",
+        "ipa": "ia / iə (đối lập âm vực)",
+        "note": "Nguyên âm đôi hướng tâm hàng trước; tiếng Bru phân biệt hai bậc nguyên âm đôi (ia vs. iə) kèm đối lập âm vực",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ữa, ươ / ưỡ",
+        "ipa": "ɯa / ɯə (đối lập âm vực)",
+        "note": "Nguyên âm đôi hướng tâm hàng giữa/sau không tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ua / ũa (uã), uô / ũô, oa / oâ",
+        "ipa": "ua / uə / ʷa (đối lập âm vực)",
+        "note": "Nguyên âm đôi hướng tâm hàng sau tròn môi và nguyên âm trượt đầu (onglided)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng (không bật hơi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / c (sau nguyên âm trước)",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi đóng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "c, k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ: cứq [kɨʔ] 'tôi', saráq [saraʔ] 'sách')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết (ví dụ: máh [mah] 'những', ramứh 'tên/điều')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih",
+        "ipa": "jʰ ~ ç",
+        "note": "Bán nguyên âm mặt lưỡi kết hợp xát thanh hầu cuối âm tiết (ví dụ: lôih, raloaih)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung đầu lưỡi cuối âm tiết (ví dụ: bar [baːr] 'hai', mantỗr 'ngôi sao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên đầu lưỡi cuối âm tiết (ví dụ: vil [vil] 'làng/bản')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u, o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i, y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi cuối âm tiết (ví dụ: tangái [taŋaj] 'ngày', casâi 'tháng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uq, oq",
+        "ipa": "wʔ",
+        "note": "Bán nguyên âm môi thanh hầu hóa cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iq, yq",
+        "ipa": "jʔ",
+        "note": "Bán nguyên âm mặt lưỡi thanh hầu hóa cuối âm tiết (ví dụ: santoiq 'lời', khoiq 'đã')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu (non-tonal) mà có hệ thống đối lập âm vực thanh hầu (register: căng/tight vs. thường/regular và lơi/lax), tạo nên hệ thống nguyên âm cực kỳ đồ sộ (42 âm vị nguyên âm theo Vương Hữu Lễ 1999; 41–68 đơn vị tùy giải pháp âm vị học theo Phillips, Miller & Miller 1976 và Thongkum 1979). Theo Vương Hữu Lễ (1999), ở tiếng Bru - Vân Kiều tại Việt Nam, nguyên âm ngắn không có đối lập âm vực; trên các nguyên âm dài và nguyên âm đôi, đặc trưng căng (tightness, ghi bằng dấu ngã ~) xuất hiện ở nguyên âm độ mở hẹp/hơi hẹp, còn đặc trưng lơi (laxness, thể hiện bằng trượt nguyên âm đầu / ongliding, đề xuất ghi bằng dấu huyền `) xuất hiện ở nguyên âm độ mở rộng/hơi rộng. Lưu ý quan trọng: trong chính tả Brũ Latinh, dấu sắc (´) ghi nguyên âm ngắn và dấu ngã (~) / dấu huyền (`) ghi phẩm chất âm vực — tuyệt đối KHÔNG phải dấu thanh điệu của tiếng Việt."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "muoi / mui",
+      "ipa": "muəj ~ muj",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "bar",
+      "ipa": "baːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng, bản",
+      "form": "vil",
+      "ipa": "vil",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "dống",
+      "ipa": "doŋ",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "cũai",
+      "ipa": "kuaj",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng nói, lời nói",
+      "form": "parnai",
+      "ipa": "parnaj",
+      "gloss_en": "language / speech",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sách, chữ viết",
+      "form": "saráq",
+      "ipa": "saraʔ",
+      "gloss_en": "book / writing",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi, tao",
+      "form": "cứq",
+      "ipa": "kɨʔ",
+      "gloss_en": "I / me (1sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn, mày",
+      "form": "mới",
+      "ipa": "məj",
+      "gloss_en": "you (2sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "anh ấy, chị ấy, nó",
+      "form": "án",
+      "ipa": "ʔan",
+      "gloss_en": "he / she / it (3sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngày, mặt trời",
+      "form": "tangái",
+      "ipa": "taŋaj",
+      "gloss_en": "day / sun",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tháng, mặt trăng",
+      "form": "casâi",
+      "ipa": "kasʌj",
+      "gloss_en": "month / moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bên trong, ở trong",
+      "form": "clống / klống",
+      "ipa": "kloŋ",
+      "gloss_en": "inside",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thần linh, trời",
+      "form": "yiang",
+      "ipa": "jiaŋ",
+      "gloss_en": "spirit / deity",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ca hát",
+      "form": "uãt",
+      "ipa": "ʔuat",
+      "gloss_en": "to sing",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Oát (Uãt)",
+        "note": "Làn điệu dân ca đối đáp giao duyên, hò hẹn của nam nữ thanh niên Bru - Vân Kiều (đi sim), thường kết hợp với tiếng sáo, khèn môi hoặc đàn Ta-lư."
+      },
+      {
+        "name": "Xà-nớt (Xa nớt / Oát xà nớt)",
+        "note": "Lối hát kể, tâm tình tự sự sâu lắng giãi bày lý lẽ, tình cảm về gia đình, dòng tộc, đám cưới và bản làng; thường đệm bằng tiếng sáo Khui."
+      },
+      {
+        "name": "Tà-oải (Tà oải)",
+        "note": "Làn điệu dân ca đối đáp giao duyên và sinh hoạt cộng đồng của người Bru - Vân Kiều."
+      },
+      {
+        "name": "Cha chập (Chà chấp)",
+        "note": "Lối vừa hát vừa kể rất phổ biến trong sinh hoạt văn hóa truyền thống của đồng bào Bru - Vân Kiều."
+      },
+      {
+        "name": "Roai trong (Roai tol)",
+        "note": "Lối hát kể lể mang âm hưởng nặng nề, than thở hoặc oán trách; đối lập với Prdoak (hát chúc mừng khi có việc vui) và Xươt (hát vui sinh hoạt đông người)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung và luyến tự sự theo hơi sáo (Xà-nớt / Oát)",
+        "description": "Lối ngân dài, rung nhẹ và luyến mềm bám theo âm điệu tiếng sáo Khui hoặc khèn bè, nhả chữ tôn trọng độ dài nguyên âm của tiếng Bru.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung / khuyết âm vùng Trường Sơn",
+        "note": "Chưa có tư liệu ký âm chuẩn hóa tần số; giai điệu gắn chặt với hàng âm tự nhiên của sáo Khui, sáo Teril, khèn bè và hai dây đàn Ta-lư.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn Ta-lư (Ta lư)",
+        "note": "Nhạc cụ dây gảy 2 dây làm bằng gỗ (thường là gỗ mực), biểu tượng âm nhạc của người Bru - Vân Kiều, do nam giới chơi trong lễ hội vui tươi (mừng lúa mới, Tết Ada Pựt), kiêng dùng trong tang ma."
+      },
+      {
+        "name": "Khèn bè (A-mam)",
+        "note": "Nhạc cụ hơi đa thanh gồm các ống nứa gắn bầu gió bằng gỗ/sáp ong, hòa tấu cùng đàn Ta-lư và dân ca."
+      },
+      {
+        "name": "Sáo Khui",
+        "note": "Sáo nứa thổi đệm khi hát làn điệu Xà-nớt."
+      },
+      {
+        "name": "Sáo Teril",
+        "note": "Sáo dùng cho thanh niên hát giao duyên làn điệu Oát."
+      },
+      {
+        "name": "Sáo Pi",
+        "note": "Nhạc cụ hơi linh thiêng dùng trong cả dịp vui buồn, đám tang và nghi lễ cúng tổ tiên, thần linh."
+      },
+      {
+        "name": "Đàn Pơ-lựa (Plư / Pluaq)",
+        "note": "Nhạc cụ kéo dây làm bằng ống nứa và dây tơ rừng, hình dáng gần giống đàn nhị."
+      },
+      {
+        "name": "Cồng chiêng, thanh la và trống",
+        "note": "Nhạc cụ gõ dùng trong lễ mừng lúa mới, lễ cải táng A Riêu Ping, lễ đập trống của người Ma Coong."
+      }
+    ]
+  },
+  "ml_hints": {
+    "tts_and_singing_caveats": [
+      "Trong chính tả Brũ Latinh, dấu sắc (´) chỉ nguyên âm NGẮN và dấu ngã (~) / dấu huyền (`) chỉ ÂM VỰC (register), chữ -q cuối từ chỉ âm tắc thanh hầu [-ʔ]. Nếu đưa nguyên văn vào mô hình TTS/giọng hát tiếng Việt, mô hình sẽ đọc sai thành thanh sắc, thanh ngã, thanh huyền và âm /k/ hoặc làm vỡ sub-token.",
+      "Cần tiền xử lý tách tiền âm tiết bằng gạch nối hoặc khoảng trắng nhẹ, bỏ dấu ngã thanh điệu giả, và xấp xỉ các âm cuối không có trong tiếng Việt (-r, -l, -h, -q, -iq)."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Parnai Brũ",
+        "quoc_ngu": "Pơ-nai Bờ-ru",
+        "note": "Âm đầu phức br- và âm cuối -r trong tiền âm tiết par- không có trong tiếng Việt chuẩn; bỏ dấu ngã trên 'Brũ' để tránh TTS đọc thành thanh ngã gãy giọng."
+      },
+      {
+        "native": "vil",
+        "quoc_ngu": "vin",
+        "note": "Tiếng Việt không có âm cuối [-l]; xấp xỉ gần nhất bằng '-n' nhưng mất đối lập giữa /-l/ và /-n/."
+      },
+      {
+        "native": "bar",
+        "quoc_ngu": "ba-rờ / ba",
+        "note": "Tiếng Việt không có âm rung cuối [-r]; khi hát ngân dài nên đọc nguyên âm mở 'ba' kèm uốn lưỡi nhẹ cuối phách."
+      },
+      {
+        "native": "cứq",
+        "quoc_ngu": "cức / cứ",
+        "note": "Âm cuối tắc thanh hầu [-ʔ] (ghi bằng -q) không thành âm vị độc lập trong chữ Quốc ngữ; có thể xấp xỉ bằng âm tiết ngắt nhanh 'cứ' (ngắt thanh hầu) hoặc 'cức' nhẹ."
+      },
+      {
+        "native": "saráq",
+        "quoc_ngu": "sa-rắc",
+        "note": "Tiền âm tiết không trọng âm 'sa-' + âm tiết chính nguyên âm ngắn kết thúc bằng [-ʔ]."
+      },
+      {
+        "native": "dống",
+        "quoc_ngu": "đống / dông",
+        "note": "Chữ 'd' trong chính tả Brũ 1967/1997 là âm tắc [d] (tương ứng chữ 'đ' Quốc ngữ), không phải [z]/[j]; dấu sắc ghi nguyên âm /o/ ngắn chứ không phải thanh sắc cao vút."
+      },
+      {
+        "native": "clống",
+        "quoc_ngu": "cờ-lông",
+        "note": "Tổ hợp phụ âm đầu [kl-] không có trong tiếng Việt hiện đại; tách nhẹ 'cờ-lông' để tránh vỡ token."
+      },
+      {
+        "native": "mpoaq",
+        "quoc_ngu": "ờm-poa",
+        "note": "Tổ hợp tiền mũi hóa [mp-] không có trong tiếng Việt."
+      },
+      {
+        "native": "máh",
+        "quoc_ngu": "ma-hờ / má",
+        "note": "Âm xát thanh hầu cuối [-h] không có trong tiếng Việt; xấp xỉ bằng nguyên âm ngắn thoát hơi nhanh ở cuối."
+      },
+      {
+        "native": "santoiq",
+        "quoc_ngu": "xăn-toi",
+        "note": "Âm cuối thanh hầu hóa [-jʔ] (-iq) không có trong tiếng Việt; xấp xỉ bằng '-oi' ngắt nhanh."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name_vi": "Vân Kiều (Đông Bru)",
+        "iso639_3": "bru",
+        "glottocode": "east2332",
+        "note": "Nhóm đông nhất tại Việt Nam (Hướng Hóa, Đakrông, Vĩnh Linh — Quảng Trị; Lệ Thủy — Quảng Bình; Krông Pắc — Đắk Lắk)."
+      },
+      {
+        "name_vi": "Khùa",
+        "iso639_3": "xhv",
+        "glottocode": "khua1243",
+        "note": "Nhóm địa phương thuộc dân tộc Bru - Vân Kiều cư trú chủ yếu ở Tuyên Hóa, Minh Hóa (Quảng Bình) và tỉnh Khammouane (Lào)."
+      },
+      {
+        "name_vi": "Trì (So Tri / Chali)",
+        "iso639_3": "bru",
+        "glottocode": "trii1240",
+        "note": "Nhóm địa phương tại Bố Trạch (Quảng Bình), Hướng Lập (Hướng Hóa, Quảng Trị) và biên giới Việt - Lào."
+      },
+      {
+        "name_vi": "Ma Coong (Măng Coong / Mangkong)",
+        "iso639_3": "bru",
+        "glottocode": "mang1379",
+        "note": "Nhóm địa phương tại xã Thượng Trạch, huyện Bố Trạch (Quảng Bình) và Lào."
+      },
+      {
+        "name_vi": "Tây Bru (Western Bru)",
+        "iso639_3": "brv",
+        "glottocode": "west2397",
+        "note": "Biến thể lớn tại Đông Bắc Thái Lan và Trung Lào, giữ đối lập giọng hơi thở (breathy voice) rất rõ."
+      },
+      {
+        "name_vi": "Sô",
+        "iso639_3": "sss",
+        "glottocode": "sooo1254",
+        "note": "Ngôn ngữ chị em sát gần trong tiểu nhóm Brou-So tại Lào và Thái Lan."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "muoi",
+        "ipa": "muəj",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "bar",
+        "ipa": "baːr",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "vil",
+        "ipa": "vil",
+        "meaning_vi": "làng, bản"
+      },
+      {
+        "native": "dống",
+        "ipa": "doŋ",
+        "meaning_vi": "nhà"
+      },
+      {
+        "native": "cũai",
+        "ipa": "kuaj",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "cứq",
+        "ipa": "kɨʔ",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "mới",
+        "ipa": "məj",
+        "meaning_vi": "bạn, mày"
+      },
+      {
+        "native": "tangái",
+        "ipa": "taŋaj",
+        "meaning_vi": "ngày, mặt trời"
+      },
+      {
+        "native": "casâi",
+        "ipa": "kasʌj",
+        "meaning_vi": "tháng, mặt trăng"
+      },
+      {
+        "native": "parnai",
+        "ipa": "parnaj",
+        "meaning_vi": "lời nói, tiếng nói"
+      },
+      {
+        "native": "saráq",
+        "ipa": "saraʔ",
+        "meaning_vi": "sách, chữ viết"
+      },
+      {
+        "native": "clống",
+        "ipa": "kloŋ",
+        "meaning_vi": "bên trong"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Eastern Bru (east2332)",
+      "url": "https://glottolog.org/resource/languoid/id/east2332",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Vương Hữu Lễ (1999). A new interpretation of the Bru Vân Kiêu vowel system. Mon-Khmer Studies 29: 97–106.",
+      "url": "http://sealang.net/sala/archives/pdf8/vuong1999new.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Vương Hữu Lễ (1997). Từ điển Bru - Việt - Anh (Saráq parnai Brũ - Yuan - Anh). Huế: NXB Thuận Hóa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hoàng Văn Ma & Tạ Văn Thông (1998). Tiếng Bru - Vân Kiều. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phillips, Richard L., John D. Miller & Carolyn P. Miller (1976). The Brũ vowel system: alternate analyses. Mon-Khmer Studies 5: 203–217.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyen Van Hiep (2024). Sociolinguistic analyses of the Bru-Van Kieu language and script: usage and speakers' attitudes. Sociolingvistika 4(20): 9–27.",
+      "url": "https://doi.org/10.37892/2713-2951-4-20-9-27",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Bru language",
+      "url": "https://en.wikipedia.org/wiki/Bru_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Bru",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Bru",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Inventory BRUU (UPSID 262, Thongkum 1979)",
+      "url": "https://phoible.org/inventories/view/262",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties",
+          "severity": "high",
+          "problem": "Bốn mã Glottocode trong sub_varieties bị sai: Khùa [xhv] là khua1243 (không phải khua1239), Trì là trii1240 (không phải trii1242), Ma Coong / Mangkong là mang1379 (không phải mang1382), và tiếng Sô [sss] là sooo1254 (sooo1256 là mã của tiếng Soo [teu] ở Uganda).",
+          "fix": "Sửa các mã Glottocode tương ứng thành khua1243, trii1240, mang1379 và sooo1254 theo đúng Glottolog."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "medium",
+          "problem": "Mô tả dấu ngã (~) áp dụng đồng loạt cho cả nguyên âm độ mở rộng (e, a, o -> ẽ, ã, õ) chưa chính xác với hệ thống Miller (1967/1976) và Vương Hữu Lễ (1999). Theo Vương Hữu Lễ (1999), đặc trưng căng (tightness, ghi bằng dấu ngã ~) xuất hiện ở các nguyên âm hẹp/hơi hẹp (i, ê, ư, ơ, u, ô) và nguyên âm đôi (cũai, uãt), trong khi đối lập lơi/trượt đầu (laxness/ongliding) ở các nguyên âm rộng và hơi rộng được hệ 1967 ghi bằng dấu tổ hợp và Vương Hữu Lễ (1999) đề xuất ghi bằng dấu huyền (`).",
+          "fix": "Điều chỉnh lại ghi chú và ký hiệu ở các mục nguyên âm e, a, o và phần register_or_phonation cho khớp với tài liệu của Vương Hữu Lễ (1999) và Phillips, Miller & Miller (1976)."
+        },
+        {
+          "path": "music.genres[3]",
+          "severity": "medium",
+          "problem": "Mục 'Roai troong' được mô tả là 'Làn điệu dân ca lễ hội truyền thống', nhưng theo tư liệu dân tộc học về dân ca Bru - Vân Kiều, 'Roai tol / Roai trong' là lối hát kể lể nặng nề, oán trách (trong khi hát chúc mừng là Prdoak, hát kể phổ biến là Cha chập / Chà chấp).",
+          "fix": "Sửa lại mô tả của Roai trong (Roai tol) cho đúng tính chất hát kể lể/oán trách và bổ sung làn điệu Cha chập (Chà chấp) có nguồn kiểm chứng."
+        },
+        {
+          "path": "scripts[0].official_in_vietnam",
+          "severity": "low",
+          "problem": "Chữ Brũ Latinh được biên soạn và dạy thử nghiệm/địa phương tại Bình Trị Thiên (1986), Quảng Trị, Quảng Bình nhưng như Nguyễn Văn Hiệp (2024) chỉ ra, hiện vẫn tồn tại hai hệ quy ước song song và chưa có bộ chữ chuẩn hóa thống nhất toàn quốc bằng nghị định quốc gia.",
+          "fix": "Đổi official_in_vietnam từ true sang null và làm rõ tình trạng sử dụng cấp địa phương trong note."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết sự khác biệt ký hiệu giữa hệ chính tả Brũ 1967/1997 (dùng d cho [d], dấu sắc cho nguyên âm ngắn, dấu ngã/dấu tổ hợp/dấu huyền cho âm vực, -q cho [-ʔ]) và hệ chữ dạy học tại Quảng Trị/Quảng Bình từ năm 1986 đến nay.",
+      "Cần bổ sung đo đạc âm học thực nghiệm cho đối lập âm vực (register / ongliding) ở từng nhóm địa phương Vân Kiều, Khùa, Trì, Ma Coong.",
+      "Cần nghệ nhân dân ca Bru - Vân Kiều và nhà âm nhạc dân tộc học ký âm chuẩn xác thang âm và luyến láy của các làn điệu Oát, Xà-nớt, Tà-oải, Cha chập, Roai trong."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

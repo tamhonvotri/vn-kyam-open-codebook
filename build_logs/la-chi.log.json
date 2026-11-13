@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "la-chi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Chí",
+    "ethnic_group_vi": "La Chí",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:30:01.355067",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 9675,
+      "totalTokenCount": 28775,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9675
+        }
+      ],
+      "thoughtsTokenCount": 9719,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11738,
+      "candidatesTokenCount": 11186,
+      "totalTokenCount": 25251,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11738
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11186
+        }
+      ],
+      "thoughtsTokenCount": 2327,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "regions[0] & ml_hints.sub_varieties",
+        "severity": "low",
+        "problem": "Gộp cả 4 xã Bản Phùng, Bản Díu, Bản Pắng, Bản Máy vào huyện Xín Mần. Dù một số tài liệu dân tộc học thứ cấp chép lại địa giới trước năm 1983, trên thực tế hành chính (sau Quyết định 185/1981/QĐ-CP và Quyết định 136-HĐBT năm 1983), xã Bản Díu thuộc huyện Xín Mần, còn Bản Phùng và Bản Máy (sáp nhập Bản Pắng) thuộc huyện Hoàng Su Phì.",
+        "fix": "Phân tách chính xác xã Bản Díu (huyện Xín Mần) và Bản Phùng, Bản Máy, Bản Pắng (huyện Hoàng Su Phì, nguyên trước 1983 thuộc Xín Mần) trong regions[0] và ml_hints.sub_varieties."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Thiếu phụ âm đầu mũi ngạc mềm không môi hóa /ŋ/ (grapheme 'ŋ'). Dù thổ ngữ Tân Lợi (Kosaka 2000) chủ yếu có /ŋʷ/, âm đầu /ŋ/ vẫn xuất hiện trong các mô tả thổ ngữ Bản Díu (Dương Thu Hằng et al. 2020) và Kim Xưởng (Li 2000).",
+        "fix": "Bổ sung mục grapheme 'ŋ' -> IPA 'ŋ' với confidence 'medium' và ghi chú rõ sự phân bố theo thổ ngữ."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Ba mục từ 'người La Chí' (qu31 te341), 'nước' (i31) và 'lửa' (pje51) lấy từ thổ ngữ Bản Phùng (mang thanh 31, 341, 51) đặt lẫn với 19 mục từ của thổ ngữ Tân Lợi (hệ 5 thanh 45, 43, 23, 22, 21 trong phonology.tones) mà không ghi chú thổ ngữ ở trường gloss_en hoặc bổ sung hình thái Tân Lợi tương ứng (ʔi22 'nước', pe43 'lửa' theo Kosaka 2000).",
+        "fix": "Ghi chú rõ '[Bản Phùng]' ở các mục từ Bản Phùng trong lexicon và bổ sung hình thái Tân Lợi Kosaka (2000) cho 'nước' (ʔi22) và 'lửa' (pe43) để đồng nhất với hệ thanh điệu ở phonology.tones."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "ma",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mạ",
+    "ethnic_group_vi": "Mạ",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:18:31.074302",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 9755,
+      "totalTokenCount": 27533,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9755
+        }
+      ],
+      "thoughtsTokenCount": 8401,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11932,
+      "candidatesTokenCount": 10820,
+      "totalTokenCount": 23719,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11932
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10820
+        }
+      ],
+      "thoughtsTokenCount": 967,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.tones[2].phonation",
+        "severity": "low",
+        "problem": "Trường `phonation` của thanh `sac-nam` đang chứa câu giải thích lịch đại ('tương ứng sự biến đổi của âm cuối thanh hầu') thay vì nhãn chất giọng ngữ âm học chuẩn (như 'modal', 'creaky', 'breathy', 'glottalized' hoặc null).",
+        "fix": "Đổi `phonation` thành `\"modal\"` và chuyển ghi chú nguồn gốc lịch đại vào trường `name`."
+      },
+      {
+        "path": "phonology.vowels[8].ipa",
+        "severity": "low",
+        "problem": "Mục `o / ò / ŏ` ghi IPA là `\"ɔ / ɔː / ɔ\"`, chưa thể hiện rõ tính chất ngắn kèm tắc thanh hầu cuối `[ɔʔ]` ở âm tiết mở của chữ `ŏ` (không đồng nhất với cách ghi `a / à / ă` là `\"a / aː / aʔ\"`).",
+        "fix": "Cập nhật `ipa` thành `\"ɔ / ɔː / ɔ ~ ɔʔ\"` và làm rõ trong `note`."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Quyết định 105/2009/QĐ-UBND tỉnh Lâm Đồng đã được rà soát, bãi bỏ về mặt thủ tục hành chính vào năm 2026 (Quyết định 3963/QĐ-UBND theo Thông tư 09/2023/TT-BGDĐT và 02/2026/TT-BGDĐT) để chuyển thẩm quyền phê duyệt chương trình, tài liệu dạy tiếng DTTS về Sở Giáo dục và Đào tạo.",
+        "fix": "Bổ sung thông tin cập nhật pháp lý năm 2026 vào `scripts[0].note` và `sources[5]`."
+      }
+    ]
+  },
+  "schema_errors": []
+}

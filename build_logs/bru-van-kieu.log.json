@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "bru-van-kieu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Bru - Vân Kiều",
+    "ethnic_group_vi": "Bru - Vân Kiều",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:10:47.559476",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9393,
+      "candidatesTokenCount": 9658,
+      "totalTokenCount": 27884,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9393
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9658
+        }
+      ],
+      "thoughtsTokenCount": 8833,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11365,
+      "candidatesTokenCount": 10615,
+      "totalTokenCount": 23085,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11365
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10615
+        }
+      ],
+      "thoughtsTokenCount": 1105,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "high",
+        "problem": "Bốn mã Glottocode trong sub_varieties bị sai: Khùa [xhv] là khua1243 (không phải khua1239), Trì là trii1240 (không phải trii1242), Ma Coong / Mangkong là mang1379 (không phải mang1382), và tiếng Sô [sss] là sooo1254 (sooo1256 là mã của tiếng Soo [teu] ở Uganda).",
+        "fix": "Sửa các mã Glottocode tương ứng thành khua1243, trii1240, mang1379 và sooo1254 theo đúng Glottolog."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "medium",
+        "problem": "Mô tả dấu ngã (~) áp dụng đồng loạt cho cả nguyên âm độ mở rộng (e, a, o -> ẽ, ã, õ) chưa chính xác với hệ thống Miller (1967/1976) và Vương Hữu Lễ (1999). Theo Vương Hữu Lễ (1999), đặc trưng căng (tightness, ghi bằng dấu ngã ~) xuất hiện ở các nguyên âm hẹp/hơi hẹp (i, ê, ư, ơ, u, ô) và nguyên âm đôi (cũai, uãt), trong khi đối lập lơi/trượt đầu (laxness/ongliding) ở các nguyên âm rộng và hơi rộng được hệ 1967 ghi bằng dấu tổ hợp và Vương Hữu Lễ (1999) đề xuất ghi bằng dấu huyền (`).",
+        "fix": "Điều chỉnh lại ghi chú và ký hiệu ở các mục nguyên âm e, a, o và phần register_or_phonation cho khớp với tài liệu của Vương Hữu Lễ (1999) và Phillips, Miller & Miller (1976)."
+      },
+      {
+        "path": "music.genres[3]",
+        "severity": "medium",
+        "problem": "Mục 'Roai troong' được mô tả là 'Làn điệu dân ca lễ hội truyền thống', nhưng theo tư liệu dân tộc học về dân ca Bru - Vân Kiều, 'Roai tol / Roai trong' là lối hát kể lể nặng nề, oán trách (trong khi hát chúc mừng là Prdoak, hát kể phổ biến là Cha chập / Chà chấp).",
+        "fix": "Sửa lại mô tả của Roai trong (Roai tol) cho đúng tính chất hát kể lể/oán trách và bổ sung làn điệu Cha chập (Chà chấp) có nguồn kiểm chứng."
+      },
+      {
+        "path": "scripts[0].official_in_vietnam",
+        "severity": "low",
+        "problem": "Chữ Brũ Latinh được biên soạn và dạy thử nghiệm/địa phương tại Bình Trị Thiên (1986), Quảng Trị, Quảng Bình nhưng như Nguyễn Văn Hiệp (2024) chỉ ra, hiện vẫn tồn tại hai hệ quy ước song song và chưa có bộ chữ chuẩn hóa thống nhất toàn quốc bằng nghị định quốc gia.",
+        "fix": "Đổi official_in_vietnam từ true sang null và làm rõ tình trạng sử dụng cấp địa phương trong note."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/vn-kyam/codebook.schema.json",
+  "title": "VN-KyAm Open Codebook — Bảng Mã Ký Âm Mở (machine-readable)",
+  "type": "object",
+  "required": ["id", "kind", "name_vi", "name_en", "language", "status", "license"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "kind": {"enum": ["vietnamese_variety", "minority_language"]},
+    "name_vi": {"type": "string"},
+    "name_en": {"type": "string"},
+    "autonym": {"type": ["string", "null"]},
+    "ethnic_group_vi": {"type": ["string", "null"]},
+    "language": {
+      "type": "object",
+      "properties": {
+        "iso639_3": {"type": ["string", "null"]},
+        "glottocode": {"type": ["string", "null"]},
+        "family": {"type": ["string", "null"]},
+        "branch": {"type": ["string", "null"]}
+      }
+    },
+    "regions": {"type": "array", "items": {"type": "string"}},
+    "speakers_estimate": {"type": ["string", "null"]},
+    "scripts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "iso15924": {"type": ["string", "null"]},
+          "unicode_block": {"type": ["string", "null"]},
+          "official_in_vietnam": {"type": ["boolean", "null"]},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "status": {"enum": ["empirical-partial", "draft-literature", "draft-llm"]},
+    "status_note": {"type": "string"},
+    "phonology": {
+      "type": "object",
+      "properties": {
+        "onsets": {"type": "array", "items": {"$ref": "#/$defs/grapheme_ipa"}},
+        "vowels": {"type": "array", "items": {"$ref": "#/$defs/grapheme_ipa"}},
+        "codas": {"type": "array", "items": {"$ref": "#/$defs/grapheme_ipa"}},
+        "tones": {"type": "array", "items": {"$ref": "#/$defs/tone"}},
+        "syllable_structure": {"type": ["string", "null"]},
+        "register_or_phonation": {"type": ["string", "null"]}
+      }
+    },
+    "correspondences_from_standard_vietnamese": {
+      "description": "Only for kind=vietnamese_variety. Systematic sound correspondences relative to the Hà Nội-based standard pronunciation of written Vietnamese.",
+      "type": "array",
+      "items": {"$ref": "#/$defs/correspondence"}
+    },
+    "respelling_rules": {
+      "description": "Machine-applicable orthographic respelling rules consumed by tools/apply_respelling.py. Applied in order.",
+      "type": "array",
+      "items": {"$ref": "#/$defs/respelling_rule"}
+    },
+    "lexicon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["form"],
+        "properties": {
+          "standard_vi": {"type": ["string", "null"]},
+          "form": {"type": "string"},
+          "ipa": {"type": ["string", "null"]},
+          "gloss_en": {"type": ["string", "null"]},
+          "confidence": {"$ref": "#/$defs/confidence"}
+        }
+      }
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "genres": {"type": "array", "items": {"type": "object"}},
+        "ornaments": {"type": "array", "items": {"$ref": "#/$defs/ornament"}},
+        "scales_or_modes": {"type": "array", "items": {"type": "object"}},
+        "instruments": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "ml_hints": {"type": "object"},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": {"type": "string"},
+          "url": {"type": ["string", "null"]},
+          "url_check": {"type": ["string", "null"]},
+          "accessed": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "properties": {
+        "native_speaker_reviewed": {"type": "boolean"},
+        "linguist_reviewed": {"type": "boolean"},
+        "llm_review": {"type": ["object", "null"]},
+        "open_issues": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "provenance": {"type": "object"},
+    "license": {"const": "CC0-1.0"}
+  },
+  "$defs": {
+    "confidence": {"enum": ["high", "medium", "low", null]},
+    "grapheme_ipa": {
+      "type": "object",
+      "required": ["ipa"],
+      "properties": {
+        "grapheme": {"type": ["string", "null"]},
+        "ipa": {"type": "string"},
+        "note": {"type": ["string", "null"]},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "tone": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": ["string", "null"]},
+        "mark": {"type": ["string", "null"]},
+        "chao_contour": {"type": ["string", "null"]},
+        "phonation": {"type": ["string", "null"]},
+        "merges_with": {"type": ["string", "null"]},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "correspondence": {
+      "type": "object",
+      "required": ["slot", "standard", "variety"],
+      "properties": {
+        "slot": {"enum": ["onset", "glide", "nucleus", "rhyme", "coda", "tone", "word"]},
+        "standard": {"type": "string"},
+        "variety": {"type": "string"},
+        "ipa_standard": {"type": ["string", "null"]},
+        "ipa_variety": {"type": ["string", "null"]},
+        "condition": {"type": ["string", "null"]},
+        "example_standard": {"type": ["string", "null"]},
+        "example_variety": {"type": ["string", "null"]},
+        "prevalence": {"enum": ["categorical", "common", "variable", "local", null]},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "respelling_rule": {
+      "type": "object",
+      "required": ["slot", "from", "to", "level"],
+      "properties": {
+        "slot": {"enum": ["onset", "rhyme", "tone", "word"]},
+        "from": {"type": "string"},
+        "to": {"type": "string"},
+        "level": {"enum": ["light", "full"], "description": "light = an toàn cho tokenizer / thay đổi nhỏ; full = mô phỏng khẩu âm đầy đủ"},
+        "note": {"type": ["string", "null"]},
+        "optional": {"type": "boolean"}
+      }
+    },
+    "ornament": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string"},
+        "description": {"type": ["string", "null"]},
+        "abc": {"type": ["string", "null"]},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    }
+  }
+}
+

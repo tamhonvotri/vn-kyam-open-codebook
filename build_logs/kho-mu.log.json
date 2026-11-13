@@ -1,0 +1,97 @@
+{
+  "target": {
+    "id": "kho-mu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Khơ Mú",
+    "ethnic_group_vi": "Khơ Mú",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:10:14.651108",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 8836,
+      "totalTokenCount": 23019,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8836
+        }
+      ],
+      "thoughtsTokenCount": 4798,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11889,
+      "candidatesTokenCount": 11152,
+      "totalTokenCount": 24923,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11889
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11152
+        }
+      ],
+      "thoughtsTokenCount": 1882,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "scripts[1].note",
+        "severity": "medium",
+        "problem": "Ghi sai phiên bản Unicode: hai ký tự chữ Lào dành riêng cho tiếng Khơ Mú là U+0EDE (LAO LETTER KHMU GO) và U+0EDF (LAO LETTER KHMU NYO) được mã hóa từ Unicode 6.1 (năm 2012), không phải Unicode 12.0.",
+        "fix": "Sửa 'Unicode từ phiên bản 12.0' thành 'Unicode từ phiên bản 6.1 (2012)'."
+      },
+      {
+        "path": "ml_hints.sub_varieties[2].note",
+        "severity": "medium",
+        "problem": "Sai mã Glottocode của ngôn ngữ/biến thể Khuen (ISO 639-3: khf): trên Glottolog 5.3 mã đúng là 'khue1238', không phải 'khue1239'.",
+        "fix": "Sửa Glottocode thành 'khue1238'."
+      },
+      {
+        "path": "lexicon[9..10], ml_hints.quoc_ngu_approximation[8], ml_hints.sample_words[10..11]",
+        "severity": "high",
+        "problem": "Mâu thuẫn nội tại giữa chữ viết (form) và phiên âm IPA cho cặp từ 'quét' [pɔʔ] và 'cái chổi' [prnɔʔ] (Svantesson 1983). Nguyên âm chính là nguyên âm hàng sau hơi mở tròn môi /ɔ/ (trong bảng vowels được quy ước viết bằng 'o / ò / ɔ'), nhưng mục từ vựng lại viết bằng con chữ 'ơ' ('pơ'', 'prnơ'') vốn đại diện cho /ə/.",
+        "fix": "Sửa form thành 'po'' (hoặc 'po' / pò'') và 'prno'' (hoặc 'prno' / prnò''), đồng thời chỉnh lại xấp xỉ Quốc ngữ thành 'pơ-rơ-nọ' cho khớp với nguyên âm /ɔ/."
+      },
+      {
+        "path": "phonology.vowels[10]",
+        "severity": "low",
+        "problem": "Nguyên âm /ʌː/ ('ʌʌ') thực chất được Svantesson (1983) ghi nhận với tần suất cực hiếm ở phương ngữ Kammu Yuan (Khơ Mú Tây/Bắc), trong khi mô tả ngữ âm Khơ Mú Đông (Osborne 2018) xác lập 10 phẩm chất nguyên âm cơ bản cộng 3 nguyên âm đôi mà không tách /ʌː/ thành âm vị phổ biến.",
+        "fix": "Hạ confidence của 'ʌʌ' xuống 'low' và ghi chú rõ nguồn Svantesson (1983) để tránh nhầm lẫn với hệ nguyên âm cốt lõi của Khơ Mú Đông."
+      },
+      {
+        "path": "lexicon[11]",
+        "severity": "low",
+        "problem": "Từ 'nhìn / thấy' ('kle'') trong tài liệu so sánh Nam Á (Sidwell 2024; Premsrirat 2002) thường được ghi nhận là [kleʔ] bên cạnh biến thể [klɛʔ].",
+        "fix": "Cập nhật trường ipa của 'kle'' thành 'kleʔ ~ klɛʔ' ở cả lexicon và sample_words."
+      },
+      {
+        "path": "ml_hints",
+        "severity": "low",
+        "problem": "Tên trường 'phonological_ cautions_for_vietnamese_models' bị thừa một khoảng trắng sau dấu gạch dưới.",
+        "fix": "Đổi tên khóa thành 'phonological_cautions_for_vietnamese_models'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

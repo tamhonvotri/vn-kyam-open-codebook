@@ -1,0 +1,990 @@
+{
+  "id": "e-de",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ê Đê",
+  "name_en": "Rade (Rhade / Ede)",
+  "autonym": "klei Êđê",
+  "ethnic_group_vi": "Ê Đê",
+  "language": {
+    "iso639_3": "rad",
+    "glottocode": "rade1240",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian > Chamic > Highlands Chamic"
+  },
+  "regions": [
+    "Đắk Lắk",
+    "Phú Yên",
+    "Gia Lai",
+    "Khánh Hòa",
+    "Đắk Nông"
+  ],
+  "speakers_estimate": "398.671 người dân tộc Ê Đê tại Việt Nam (Tổng điều tra dân số và nhà ở 2019); ước tính khoảng 180.000–350.000 người nói bản ngữ.",
+  "scripts": [
+    {
+      "name": "Chữ Ê Đê (Bŏh hră Êđê — hệ chữ Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended-B, Latin Extended Additional, Combining Diacritical Marks",
+      "official_in_vietnam": true,
+      "note": "Do hai trí thức người Ê Đê là Y Jút H'Wing và Y Út Niê Buôn Rít xây dựng giai đoạn 1923–1925 trên cơ sở phương ngữ Kpă (vùng Buôn Ma Thuột), được công nhận năm 1935, sau đó được tu chỉnh và dùng chính thức trong giáo dục phổ thông, phát thanh – truyền hình tại Việt Nam (Thông tư 36/2012/TT-BGDĐT, Thông tư 19/2014/TT-BGDĐT, Thông tư 34/2020/TT-BGDĐT). Bảng chữ cái có thêm các ký tự đặc thù ƀ/Ƀ (U+0180/U+0181), č/Č (U+010D/U+010C), ñ/Ñ (U+00F1/U+00D1) và dấu trăng rời U+0306 trên nguyên âm ngắn (ĕ, ê̆, ĭ, ŏ, ô̆, ơ̆, ŭ, ư̆)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do mô hình ngôn ngữ tổng hợp từ tài liệu ngữ âm học tiếng Ê Đê (Đoàn Văn Phúc 1993, 1996, 1998; Tharp & Y-Bhăm Ƀuôn-yă 1980; Thurgood 1999; Sở GD&ĐT Đắk Lắk & Viện Ngôn ngữ học 2012) và tư liệu âm nhạc dân gian Tây Nguyên. Phương ngữ chuẩn tham chiếu là Ê Đê Kpă. Chưa qua thẩm định của người bản ngữ và chuyên gia ngôn ngữ học.",
+  "phonology": {
+    "syllable_structure": "(C1)(C2)(C3)V(C4) — từ có xu hướng đơn tiết hóa mạnh từ cấu trúc song tiết Chăm cổ sang âm tiết chính mang trọng âm kèm cụm phụ âm đầu đa dạng (kl-, kr-, bl-, br-, pr-, tl-, dl-, mdr-, mni-, hm-, hn-...) hoặc tiền âm tiết nhẹ (a-, ê-, k-, m-).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (khác ph [f] của tiếng Việt chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh thường (nổ ra, khác chữ b [ɓ] hút vào của tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ƀ",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh hút vào / tiền thanh hầu hóa [ˀb], tương đương âm đầu chữ b tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̪",
+        "note": "Tắc răng/lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "t̪ʰ",
+        "note": "Tắc răng/lợi vô thanh bật hơi, tương đương th tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc lợi hữu thanh thường (nổ ra, KHÔNG đọc [z] hay [j] như chữ d tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc lợi hữu thanh hút vào / tiền thanh hầu hóa [ˀd], tương đương chữ đ tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "č",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh không bật hơi, gần với ch tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "čh",
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi vô thanh bật hơi (tiếng Việt không có âm bật hơi ở vị trí này)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ ~ d̠͡ʝ",
+        "note": "Tắc/tắc-xát mặt lưỡi hữu thanh thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dj",
+        "ipa": "ʄ",
+        "note": "Tắc mặt lưỡi hữu thanh hút vào / tiền thanh hầu hóa [ˀɟ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (khác kh [x] xát ngạc mềm của tiếng Việt Hà Nội)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh (nổ, khác g/gh [ɣ] xát ngạc mềm của tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(nguyên âm đầu từ)",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đứng trước từ bắt đầu bằng chữ nguyên âm (ví dụ amĭ [ʔamiʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bh, dh, jh, gh",
+        "ipa": "bʱ, dʱ, ɟʱ, ɡʱ",
+        "note": "Tổ hợp phụ âm tắc hữu thanh + h, phát âm hà hơi (murmured/breathy) hoặc cụm phụ âm tắc + [h]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi; khi đứng trước phụ âm khác (mb-, mč-, md-, mdr-, mn-) tạo tiền mũi hóa hoặc kèm âm lướt [ə] nhẹ trước l, r",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi, tương đương nh tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm, tương đương ng/ngh tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh; một số vị trí trước i có thể ngạc hóa nhẹ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh; xuất hiện cả trong cụm hm-, hn-, hñ-, hng-, hl-, hr-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w ~ β̞",
+        "note": "Tiếp cận môi-ngạc mềm hoặc xát nhẹ hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận cạnh lưỡi; rất phổ biến ở vị trí C2 trong cụm pl-, bl-, ƀl-, tl-, dl-, kl-, gl-, hl-, ml-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi; phổ biến cả ở vị trí đơn và vị trí C2 trong cụm pr-, br-, tr-, dr-, kr-, gr-, hr-, mr-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận mặt lưỡi (bán nguyên âm), đứng đầu âm tiết (ví dụ yah, Y-)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp, ngắn; nếu ở cuối từ mở thì kết thúc bằng tắc thanh hầu [iʔ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm hàng trước hơi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê̆",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp, ngắn (Unicode: ê + U+0306)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm hàng trước hơi rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng, ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm hàng giữa độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư̆",
+        "ipa": "ɨ",
+        "note": "Nguyên âm hàng giữa độ mở hẹp, ngắn (Unicode: ư + U+0306)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm hàng giữa độ mở trung bình, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ̆",
+        "ipa": "ə",
+        "note": "Nguyên âm hàng giữa độ mở trung bình, ngắn (Unicode: ơ + U+0306)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa ngắn dùng trong vần đôi âo [əw] (ví dụ kâo, mâo, thâo) hoặc iâ/uâ trong một số tài liệu cũ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm hàng giữa/trước độ mở rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm độ mở rộng, ngắn; ở cuối âm tiết mở thực hiện là [aʔ] (ví dụ mpă, ngă)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm hàng sau tròn môi độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi độ mở hẹp, ngắn; cuối âm tiết mở thực hiện là [uʔ] (ví dụ blŭ [bluʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô̆",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp, ngắn (Unicode: ô + U+0306)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, ngắn; cuối âm tiết mở thực hiện là [ɔʔ] (ví dụ djŏ [ʄɔʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia, iê, ea",
+        "ipa": "iə, ie, ea ~ eɐ",
+        "note": "Nguyên âm đôi hướng tâm/mở hàng trước (ea còn được viết là êa trong một số văn bản, ví dụ ea/êa 'nước')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ua, uô, uă",
+        "ipa": "uə, uo, uɐ",
+        "note": "Nguyên âm đôi hàng sau tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ei, ai, oi, ơi, ui",
+        "ipa": "ej, aːj, ɔːj, əːj, uːj",
+        "note": "Vần nguyên âm + bán nguyên âm cuối [j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ao, âo, êo",
+        "ipa": "aːw, əw, eːw",
+        "note": "Vần nguyên âm + bán nguyên âm cuối [w]",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không nổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không nổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-č",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi vô thanh không nổ (ví dụ lač 'nói', kdrêč 'đoạn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k",
+        "ipa": "k̚ ~ ʔ",
+        "note": "Tắc ngạc mềm hoặc tắc thanh hầu tùy ngữ cảnh nguyên âm trước",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "(dấu trăng ˘ trên nguyên âm cuối từ)",
+        "ipa": "ʔ",
+        "note": "Nguyên âm ngắn đứng cuối từ không có phụ âm sau luôn đóng bằng âm tắc thanh hầu [ʔ] (ví dụ amĭ [ʔamiʔ], blŭ [bluʔ], ngă [ŋaʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết — âm vị rất phổ biến trong tiếng Ê Đê (ví dụ ôh, yah, trah, mčah), không có trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ñ",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ mmuñ 'hát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi cuối âm tiết (ví dụ ăl, kral, pral) — không có trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi cuối âm tiết (ví dụ čar, bur, hdơr) — không có trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-i / -ĭ (sau nguyên âm)",
+        "ipa": "j / jʔ",
+        "note": "Bán nguyên âm cuối [j] và dạng thanh hầu hóa [jʔ] (ví dụ maĭ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-o / -u (sau nguyên âm)",
+        "ipa": "w / wʔ",
+        "note": "Bán nguyên âm cuối [w] và dạng thanh hầu hóa [wʔ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-ih / -uih / -aih",
+        "ipa": "jh",
+        "note": "Tổ hợp bán nguyên âm mặt lưỡi + xát thanh hầu cuối âm tiết (ví dụ mnuih 'người', suaih 'khỏe')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (non-tonal) và không đối lập âm vực thanh tính (register) như tiếng Chăm Phan Rang hay tiếng Jarai ở một số vùng; thay vào đó tiếng Ê Đê bảo lưu đối lập hữu thanh – vô thanh – bật hơi – hút vào ở phụ âm đầu, đối lập nguyên âm dài – ngắn và đối lập phụ âm cuối /-ʔ/, /-h/, /-l/, /-r/. Các âm tiết kết thúc bằng nguyên âm ngắn + [ʔ] có đường nét cao độ lên nhanh và ngắt gắt nên tai người Việt thường tri nhận gần giống thanh sắc hoặc thanh nặng."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tiếng nói / lời",
+      "form": "klei blŭ",
+      "ipa": "klej bluʔ",
+      "gloss_en": "language / speech",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi / mình",
+      "form": "kâo",
+      "ipa": "kəw",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / anh / chị (ngôi thứ hai)",
+      "form": "ih",
+      "ipa": "ʔih",
+      "gloss_en": "you (singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / anh ấy / cô ấy",
+      "form": "ñu",
+      "ipa": "ɲuː",
+      "gloss_en": "he / she / it",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng ta",
+      "form": "drei",
+      "ipa": "drej",
+      "gloss_en": "we (inclusive)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng tôi",
+      "form": "hmei",
+      "ipa": "hmej",
+      "gloss_en": "we (exclusive)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "amĭ",
+      "ipa": "ʔamiʔ",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "ama",
+      "ipa": "ʔamaː",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con",
+      "form": "anak",
+      "ipa": "ʔanak̚",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "mnuih",
+      "ipa": "mnujh",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ea",
+      "ipa": "ʔea ~ ʔeɐ",
+      "gloss_en": "water",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "sang",
+      "ipa": "saːŋ",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng / buôn",
+      "form": "ƀuôn",
+      "ipa": "ɓuon",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "núi",
+      "form": "čư̆",
+      "ipa": "cɨʔ",
+      "gloss_en": "mountain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "krông",
+      "ipa": "kroːŋ",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "yêu / thương",
+      "form": "khăp",
+      "ipa": "kʰap̚",
+      "gloss_en": "to love",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tốt / đẹp",
+      "form": "jăk",
+      "ipa": "ɟak̚",
+      "gloss_en": "good / fine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xấu / ác",
+      "form": "jhat",
+      "ipa": "ɟʱat̚ ~ ɟhat̚",
+      "gloss_en": "bad / ugly",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "nao",
+      "ipa": "naːw",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "học",
+      "form": "hriăm",
+      "ipa": "hrjam ~ hriăm",
+      "gloss_en": "to learn / study",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đúng",
+      "form": "djŏ",
+      "ipa": "ʄɔʔ",
+      "gloss_en": "true / correct",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đắng",
+      "form": "phĭ",
+      "ipa": "pʰiʔ",
+      "gloss_en": "bitter",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Khan (hát kể sử thi Ê Đê)",
+        "note": "Thể loại diễn xướng sử thi truyền khẩu quy mô lớn (tiêu biểu: Khan Đăm Săn, Khan Đăm Kteh Mlan, Khan Xinh Nhã), kết hợp hát ngâm, kể chuyện bằng lời nói vần (klei duê) và diễn xuất của nghệ nhân (pô khan). Đã được ghi danh Di sản văn hóa phi vật thể quốc gia."
+      },
+      {
+        "name": "Ayray (Airei / Mmuñ Ayray)",
+        "note": "Thể loại dân ca trữ tình, giao duyên đối đáp nam nữ phổ biến nhất của người Ê Đê, nhịp điệu uyển chuyển, thường hát kèm tiếng kèn bầu đing năm hoặc đing tăk ta trong lễ hội và sinh hoạt cộng đồng."
+      },
+      {
+        "name": "Kưưt (Mmuñ Kưưt)",
+        "note": "Thể loại dân ca cổ truyền mang tính tự sự – trữ tình sâu lắng, nhịp tự do, giai điệu ngân dài và nhiều luyến láy tinh tế."
+      },
+      {
+        "name": "Klei duê (lời nói vần Ê Đê)",
+        "note": "Hình thức ngôn từ có vần điệu nối tiếp giữa các vế câu, làm chất liệu cho luật tục, lời khấn thần linh (riêo yang), hát ru và dân ca; Di sản văn hóa phi vật thể quốc gia."
+      },
+      {
+        "name": "Hòa tấu Cồng chiêng Ê Đê (Goong Čing / Čing Knăh)",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO công nhận Kiệt tác truyền khẩu và phi vật thể của nhân loại năm 2005, ghi danh Danh sách đại diện năm 2008); nổi bật với lối đánh phân nhịp đối đáp tốc độ nhanh, mạnh mẽ kết hợp trống cái hgơr."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung và luyến ngâm tự sự (Kưưt / Khan)",
+        "description": "Kéo dài nguyên âm mở cuối vế câu klei duê kèm rung giọng tự nhiên và luyến lướt quãng hẹp trước khi chuyển sang câu kế tiếp theo nhịp thở tự do.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Ngắt giọng thanh hầu theo âm cuối ngắn (-ʔ / -h)",
+        "description": "Trong hát Ayray và Khan, các từ kết thúc bằng nguyên âm ngắn có dấu trăng (như blŭ, djŏ, amĭ) hoặc phụ âm -h được ngắt hơi dứt khoát thay vì ngân dài để giữ đúng nghĩa từ vựng.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm cồng chiêng và kèn bầu Ê Đê",
+        "note": "Hệ thống thang âm 5 âm hoặc 4–6 âm đặc thù gắn với biên chế bộ chiêng Čing Knăh và hàng âm nhạc cụ hơi (như đing năm, đing tăk ta); cao độ và khoảng cách quãng phụ thuộc vào từng bộ chiêng/nhạc cụ do nghệ nhân chế tác và không hoàn toàn trùng bình quân luật phương Tây.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Čing Knăh (bộ chiêng bằng không núm đặc trưng của người Ê Đê)"
+      },
+      {
+        "name": "Hgơr (trống cái hai mặt da trâu đặt trên ghế dài Kpan)"
+      },
+      {
+        "name": "Đing năm (kèn bầu 6 ống trúc xếp 2 bè gắn qua quả bầu khô, thường đệm hát Ayray)"
+      },
+      {
+        "name": "Đing tăk ta / Kypah (nhạc cụ hơi lưỡi gà hoặc tù và sừng/ống nứa)"
+      },
+      {
+        "name": "Đing buốt (kèn/sáo ống nứa thổi dọc)"
+      },
+      {
+        "name": "Đing pâng (nhạc cụ gõ định âm gồm các ống nứa vỗ trên thanh gỗ)"
+      },
+      {
+        "name": "Kni (đàn kéo 1 dây dùng khoang miệng người chơi làm hộp cộng hưởng)"
+      },
+      {
+        "name": "Bro (đàn ống tre có dây và bầu khô cộng hưởng)"
+      },
+      {
+        "name": "Čing kram (bộ chiêng tre)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Ê Đê Kpă",
+        "iso639_3": "rad",
+        "region": "TP. Buôn Ma Thuột và vùng phụ cận (Đắk Lắk)",
+        "note": "Phương ngữ trung tâm, làm cơ sở cho chữ viết Ê Đê chuẩn."
+      },
+      {
+        "name": "Ê Đê Krung",
+        "iso639_3": "rad",
+        "region": "Ea H'leo, Krông Năng, Krông Búk (Đắk Lắk) và một bộ phận nhỏ tại Gia Lai",
+        "note": "Tương đồng từ vựng khoảng 85,5% với Kpă (Đoàn Văn Phúc 1998)."
+      },
+      {
+        "name": "Ê Đê Adham",
+        "iso639_3": "rad",
+        "region": "Krông Búk, Cư M'gar, Buôn Hồ, Krông Năng, Ea H'leo (Đắk Lắk)",
+        "note": "Tương đồng từ vựng khoảng 82% với Kpă."
+      },
+      {
+        "name": "Ê Đê Ktul",
+        "iso639_3": "rad",
+        "region": "Krông Bông, nam Krông Pắc (Đắk Lắk)",
+        "note": "Tương đồng từ vựng khoảng 82% với Kpă."
+      },
+      {
+        "name": "Ê Đê Êpan",
+        "iso639_3": "rad",
+        "region": "M'Đrắk (Đắk Lắk)",
+        "note": "Tương đồng từ vựng khoảng 85% với Kpă."
+      },
+      {
+        "name": "Ê Đê Drao (Kơdrao)",
+        "iso639_3": "rad",
+        "region": "M'Đrắk (Đắk Lắk)",
+        "note": "Tương đồng từ vựng khoảng 81% với Kpă."
+      },
+      {
+        "name": "Ê Đê Blô",
+        "iso639_3": "rad",
+        "region": "M'Đrắk (Đắk Lắk)",
+        "note": "Phương ngữ chuyển tiếp, tương đồng khoảng 82% với Kpă."
+      },
+      {
+        "name": "Ê Đê Mdhur",
+        "iso639_3": "rad",
+        "region": "Ea Kar, M'Đrắk (Đắk Lắk), Sông Hinh (Phú Yên), Gia Lai, tây Khánh Hòa",
+        "note": "Tương đồng khoảng 80% với Kpă; giao thoa văn hóa – ngôn ngữ với người Jarai."
+      },
+      {
+        "name": "Bih (Ê Đê Bih)",
+        "iso639_3": "ibh",
+        "glottocode": "biha1246",
+        "region": "Ven sông Krông Ana (Đắk Lắk) và Krông Nô (Đắk Nông)",
+        "note": "Nhánh khác biệt nhiều nhất (chỉ khoảng 73% từ vựng tương đồng với Kpă; bảo lưu nhiều cấu trúc song tiết cổ như punga so với mnga 'hoa' của Kpă), được ISO 639-3 và Glottolog xếp mã ngôn ngữ riêng (ibh / biha1246) dù về mặt tộc người tại Việt Nam thuộc dân tộc Ê Đê."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "klei Êđê",
+        "quoc_ngu": "cờ-lây Ê-đê",
+        "note": "Cụm phụ âm đầu kl- không có trong tiếng Việt; nối nhanh 'cờ' cực ngắn không nhấn vào 'lây'."
+      },
+      {
+        "native": "ƀuôn sang",
+        "quoc_ngu": "buôn xang",
+        "note": "Chữ ƀ [ɓ] trùng với b tiếng Việt; s [s] viết bằng x để tránh giọng miền Trung/Nam đọc thành [ʂ]."
+      },
+      {
+        "native": "kâo khăp kơ ih",
+        "quoc_ngu": "câu khắp cơ ích-hờ",
+        "note": "kh trong khăp là âm tắc bật hơi [kʰ] (không phải [x]); ih kết thúc bằng xát thanh hầu [-h] không có trong tiếng Việt (chỉ bật hơi nhẹ cuối âm 'i', tránh đọc thành 'ích' [ik])."
+      },
+      {
+        "native": "amĭ ama",
+        "quoc_ngu": "a-mí a-ma",
+        "note": "Nguyên âm ngắn cuối từ -ĭ [iʔ] ngắt thanh hầu đột ngột, xấp xỉ bằng thanh sắc ngắn của tiếng Việt nhưng giữ cao độ phẳng hơn."
+      },
+      {
+        "native": "blŭ",
+        "quoc_ngu": "pờ-lú",
+        "note": "Chữ b thường trong tiếng Ê Đê là âm nổ [b] (không hút vào như b tiếng Việt), và cụm bl- không có trong tiếng Việt chuẩn; -ŭ [uʔ] ngắt thanh hầu nhanh."
+      },
+      {
+        "native": "drei",
+        "quoc_ngu": "đờ-rây",
+        "note": "Chữ d của Ê Đê là âm tắc lợi [d] (KHÔNG đọc 'giây' như chữ d Quốc ngữ); cụm dr- đọc tách nổ [dr] chứ không quặt lưỡi thành 'tr'."
+      },
+      {
+        "native": "čư̆",
+        "quoc_ngu": "chứ",
+        "note": "č [c] gần với ch tiếng Việt; ư̆ [ɨʔ] là nguyên âm ư ngắn đóng bằng tắc thanh hầu."
+      },
+      {
+        "native": "ñu",
+        "quoc_ngu": "nhu",
+        "note": "ñ [ɲ] tương đương nh trong chữ Quốc ngữ."
+      },
+      {
+        "native": "mnuih",
+        "quoc_ngu": "mơ-nui-hờ",
+        "note": "Cụm đầu mn- có tiền âm mũi ngắn; âm cuối -ih [-jh] kết thúc bằng hơi thở [-h] sau bán nguyên âm [j], không có trong tiếng Việt."
+      },
+      {
+        "native": "hriăm",
+        "quoc_ngu": "hơ-riăm",
+        "note": "Cụm hr- đọc lướt h cực ngắn sang r rung lưỡi; vần ngắn -iăm gần với 'ăm' có âm đệm [j]."
+      },
+      {
+        "native": "čar",
+        "quoc_ngu": "cha-rờ",
+        "note": "Âm cuối -r [-r] rung đầu lưỡi không có trong tiếng Việt; TTS tiếng Việt chỉ có thể xấp xỉ bằng nguyên âm mở 'cha' kèm phụ âm r nhẹ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "kâo",
+        "ipa": "kəw",
+        "gloss_vi": "tôi"
+      },
+      {
+        "native": "ih",
+        "ipa": "ʔih",
+        "gloss_vi": "bạn (ngôi thứ hai số ít)"
+      },
+      {
+        "native": "amĭ",
+        "ipa": "ʔamiʔ",
+        "gloss_vi": "mẹ"
+      },
+      {
+        "native": "ama",
+        "ipa": "ʔamaː",
+        "gloss_vi": "cha"
+      },
+      {
+        "native": "mnuih",
+        "ipa": "mnujh",
+        "gloss_vi": "người"
+      },
+      {
+        "native": "ea",
+        "ipa": "ʔea ~ ʔeɐ",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "sang",
+        "ipa": "saːŋ",
+        "gloss_vi": "nhà"
+      },
+      {
+        "native": "ƀuôn",
+        "ipa": "ɓuon",
+        "gloss_vi": "buôn / làng"
+      },
+      {
+        "native": "čư̆",
+        "ipa": "cɨʔ",
+        "gloss_vi": "núi"
+      },
+      {
+        "native": "krông",
+        "ipa": "kroːŋ",
+        "gloss_vi": "sông"
+      },
+      {
+        "native": "blŭ",
+        "ipa": "bluʔ",
+        "gloss_vi": "nói"
+      },
+      {
+        "native": "khăp",
+        "ipa": "kʰap̚",
+        "gloss_vi": "yêu / thương"
+      },
+      {
+        "native": "nao",
+        "ipa": "naːw",
+        "gloss_vi": "đi"
+      },
+      {
+        "native": "jăk",
+        "ipa": "ɟak̚",
+        "gloss_vi": "tốt / đẹp"
+      }
+    ],
+    "unicode_and_tokenization_notes": [
+      "Các chữ cái ê̆, ô̆, ơ̆, ư̆ (và chữ hoa tương ứng) không có ký tự dựng sẵn đơn (precomposed) trong Unicode nên ngay cả khi chuẩn hóa NFC vẫn là chuỗi 2 codepoint (ký tự cơ sở + U+0306 Combining Breve). Cần chuẩn hóa thống nhất thứ tự dấu phụ trước khi huấn luyện BPE/Unigram tokenizer.",
+      "Nhiều văn bản tiếng Ê Đê trên báo điện tử địa phương và tài liệu cũ dùng bảng mã font legacy (thay ƀ bằng '[', č bằng ']' hoặc '}', ñ bằng '~' hoặc '`', dấu trăng rời bằng '\\' hoặc '#' sau nguyên âm, ví dụ '[uôn' = 'ƀuôn', 'klei blu\\' = 'klei blŭ'). Cần bộ chuyển mã (transcoder) về Unicode chuẩn trước khi đưa vào kho ngữ liệu huấn luyện."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia — Rade language",
+      "url": "https://en.wikipedia.org/wiki/Rade_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Rade people",
+      "url": "https://en.wikipedia.org/wiki/Rade_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Rade (rade1240)",
+      "url": "https://glottolog.org/resource/languoid/id/rade1240",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL ISO 639-3 — Documentation for ISO 639 identifier: rad",
+      "url": "https://iso639-3.sil.org/code/rad",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tharp, James A. & Y-Bhăm Ƀuôn-yă (1980). A Rhade–English Dictionary with English–Rhade Finderlist. Pacific Linguistics Series C – No. 58. Canberra: The Australian National University.",
+      "url": "https://doi.org/10.15144/PL-C58",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đoàn Văn Phúc (1996). Ngữ âm tiếng Êđê. Hà Nội: NXB Khoa học Xã hội (phát triển từ Luận án Phó Tiến sĩ 1993).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Đoàn Văn Phúc (1998). Từ vựng các phương ngữ Êđê / Lexique des dialectes Êđê. Hà Nội: Đại học Quốc gia Hà Nội & École française d'Extrême-Orient.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Sở Giáo dục và Đào tạo tỉnh Đắk Lắk – Viện Ngôn ngữ học Việt Nam (2012). Ngữ pháp tiếng Êđê. Hà Nội: NXB Giáo dục Việt Nam.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Thurgood, Graham (1999). From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication No. 28. Honolulu: University of Hawai'i Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyen, Tam Thi Minh (2013). A Grammar of Bih. PhD Dissertation, University of Oregon.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Space of gong culture (00120)",
+      "url": "https://ich.unesco.org/en/RL/00120",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets[16].ipa",
+          "severity": "medium",
+          "problem": "Tổ hợp phụ âm đầu 'jh' được ký âm là 'ˀɟʱ' (có tiền thanh hầu hóa như 'dj' /ʄ/), trong khi chữ 'j' trong tiếng Ê Đê biểu thị âm tắc/tắc-xát mặt lưỡi hữu thanh thường /ɟ/ (chỉ khi viết 'dj' mới là âm hút vào / tiền thanh hầu hóa /ʄ/ [ˀɟ]).",
+          "fix": "Sửa IPA của 'jh' trong chuỗi 'bh, dh, jh, gh' từ 'ˀɟʱ' thành 'ɟʱ' (hoặc tổ hợp phụ âm [ɟh])."
+        },
+        {
+          "path": "lexicon[17].ipa",
+          "severity": "medium",
+          "problem": "Từ 'jhat' (xấu/ác) bắt đầu bằng 'jh-' chứ không phải 'djh-', nên ký âm 'ˀɟʱat̚' (có tiền thanh hầu hóa) là không chính xác; ngoài ra bản chất ngữ âm của cụm phụ âm hữu thanh + h trong tiếng Ê Đê có thể thực hiện như phụ âm hà hơi [ɟʱ] hoặc cụm [ɟh].",
+          "fix": "Sửa IPA thành 'ɟʱat̚ ~ ɟhat̚' và hạ confidence xuống 'medium'."
+        },
+        {
+          "path": "lexicon[10]",
+          "severity": "low",
+          "problem": "Từ 'ea' (nước) trong tiếng Ê Đê (một số văn bản viết là 'êa') có giá trị ngữ âm dao động giữa nguyên âm đôi/song tiết [ʔe.aː ~ ʔea ~ ʔeɐ] tùy phương ngữ và tài liệu mô tả, để confidence 'high' với ký âm hẹp [ʔeɐ] là hơi quá chắc chắn.",
+          "fix": "Mở rộng IPA thành 'ʔea ~ ʔeɐ' và hạ confidence xuống 'medium'."
+        },
+        {
+          "path": "lexicon[19]",
+          "severity": "low",
+          "problem": "Từ 'hriăm' (học; tài liệu cũ trước 1975 còn viết là 'hriâm') có phần vần '-iăm' được mô tả khác nhau giữa âm đệm + nguyên âm ngắn [hrjam] và nguyên âm đôi ngắn [hriăm].",
+          "fix": "Cập nhật IPA thành 'hrjam ~ hriăm' và hạ confidence xuống 'medium'."
+        },
+        {
+          "path": "music.scales_or_modes[0]",
+          "severity": "low",
+          "problem": "Thông tin cao độ tuyệt đối 'd1–e1–f1–f#1–g#1' của kèn đing tăk ta chưa có nguồn trích dẫn cụ thể trong danh mục sources và trên thực tế cao độ nhạc cụ tre nứa Ê Đê thay đổi theo từng nghệ nhân chế tác.",
+          "fix": "Diễn đạt lại thận trọng hơn (ghi rõ là ví dụ đo đạc trên cá thể nhạc cụ) và hạ confidence xuống 'low'."
+        },
+        {
+          "path": "ml_hints.sub_varieties",
+          "severity": "low",
+          "problem": "Địa bàn của phương ngữ Ê Đê Êpan và Ê Đê Blô chỉ ghi chung là 'Đắk Lắk', và Ê Đê Mdhur thiếu huyện Ea Kar và tỉnh Gia Lai theo phân vùng của Đoàn Văn Phúc (1998:24).",
+          "fix": "Bổ sung địa bàn cụ thể 'M'Đrắk (Đắk Lắk)' cho Êpan và Blô; bổ sung 'Ea Kar' và 'Gia Lai' cho Mdhur."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check đang để null ở các nguồn trực tuyến đã kiểm chứng được; nguồn Đoàn Văn Phúc (1998) thiếu tên nhà xuất bản/đơn vị ấn hành.",
+          "fix": "Cập nhật url_check='verified' cho các URL hợp lệ và bổ sung thông tin xuất bản cho Đoàn Văn Phúc (1998)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần chuyên gia ngữ âm học và người bản ngữ Ê Đê Kpă kiểm chứng chi tiết giá trị IPA của một số tổ hợp nguyên âm đôi (ea/êa, iê, ia, iă, uô, ua, uă) và biến thể thanh hầu hóa của phụ âm cuối (-k so với -ʔ).",
+      "Cần nhạc sĩ dân tộc học đo đạc cao độ thực tế (cent) của bộ chiêng Čing Knăh và kèn đing năm theo từng buôn để bổ sung ký âm chuẩn cho mô hình tổng hợp giọng hát Ayray và Kưưt.",
+      "Cần đối chiếu thêm sự khác biệt chính tả giữa tài liệu giáo khoa hiện hành theo Thông tư 34/2020/TT-BGDĐT và từ điển trước 1975 (như cách viết gạch nối tên riêng Y-/H', quy tắc viết ea/êa/ia và iăm/iâm)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

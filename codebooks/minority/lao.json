@@ -1,0 +1,846 @@
+{
+  "id": "lao",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Lào",
+  "name_en": "Lao",
+  "autonym": "ພາສາລາວ (phasa lao); tên tự gọi tộc người tại Việt Nam: Thay, Thay Duồn, Thay Nhuồn, Phu Thay, Phu Lào",
+  "ethnic_group_vi": "Lào",
+  "language": {
+    "iso639_3": "lao",
+    "glottocode": "laoo1244",
+    "family": "Kra-Dai",
+    "branch": "Tai — Southwestern Tai (Lao–Phutai)"
+  },
+  "regions": [
+    "Lai Châu (Tam Đường, Phong Thổ, Sìn Hồ, Than Uyên)",
+    "Điện Biên (huyện Điện Biên, Điện Biên Đông)",
+    "Sơn La (Sông Mã, Sốp Cộp)",
+    "Lào Cai",
+    "Hà Tĩnh",
+    "Đắk Lắk"
+  ],
+  "speakers_estimate": "17.532 người dân tộc Lào tại Việt Nam (Tổng điều tra dân số và nhà ở 2019); khoảng 3,7 triệu người nói bản ngữ trên toàn thế giới (chủ yếu tại CHDCND Lào)",
+  "scripts": [
+    {
+      "name": "Chữ Lào (Akson Lao / ອັກສອນລາວ)",
+      "iso15924": "Laoo",
+      "unicode_block": "Lao (U+0E80–U+0EFF)",
+      "official_in_vietnam": false,
+      "note": "Chữ viết kiểu abugida bắt nguồn từ hệ chữ Brahmi – Khmer – Tai Noi; là quốc tự của CHDCND Lào và được dùng trong giáo trình tiếng Lào tại Việt Nam. Trong cộng đồng dân tộc Lào ở Tây Bắc Việt Nam, theo Điều tra 53 dân tộc thiểu số năm 2019, chỉ khoảng 1,39% người từ 15 tuổi trở lên đọc, viết được chữ dân tộc mình."
+    },
+    {
+      "name": "Chữ Tham / Đăm (Tua Tham / Tai Tham)",
+      "iso15924": "Lana",
+      "unicode_block": "Tai Tham (U+1A20–U+1AAF)",
+      "official_in_vietnam": false,
+      "note": "Chữ viết cổ truyền trong kinh sách Phật giáo Nam tông và văn tự cúng lễ của nhóm Lào Bốc (Thay Duồn / Thay Nhuồn), hiện chỉ còn ít thầy mo/người cao tuổi biết đọc."
+    },
+    {
+      "name": "Chữ Latinh (phiên âm BGN/PCGN và ký âm dựa trên chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Nhà nước Việt Nam chưa ban hành bộ chữ Latinh chính thức riêng cho dân tộc Lào; các tài liệu dân tộc học và sách học tiếng Lào ở Việt Nam thường dùng hệ chuyển tự Latinh kiểu Pháp/BGN-PCGN hoặc ký âm xấp xỉ bằng chữ Quốc ngữ."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Hệ thống âm vị và ánh xạ chữ viết trong bảng này dựa trên tiếng Lào chuẩn (phương ngữ Viêng Chăn, theo Enfield 2007 và Wikipedia IPA/Lao) kết hợp thông tin dân tộc học về người Lào tại Việt Nam. Lưu ý quan trọng: cộng đồng dân tộc Lào tại Tây Bắc Việt Nam gồm hai nhóm địa phương Lào Bốc (Lào Cạn / Thay Duồn) và Lào Nọi (Lào Nhỏ), nói các thổ ngữ gần với phương ngữ Bắc Lào (Luang Prabang / Oudomxay) hoặc Tai Yuan và có giao thoa song ngữ mạnh với tiếng Thái Đen/Thái Trắng láng giềng. Chưa có khảo sát ngữ âm thực nghiệm riêng cho từng bản người Lào tại Điện Biên, Lai Châu, Sơn La.",
+  "phonology": {
+    "syllable_structure": "C1(w)V(ː)(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "ປ (p)",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (nhóm phụ âm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຜ / ພ (ph)",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (ຜ nhóm cao, ພ nhóm thấp); khác chữ ph [f] tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ບ (b)",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຝ / ຟ (f)",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh (ຝ nhóm cao, ຟ nhóm thấp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ມ / ໝ (m / hm)",
+        "ipa": "m",
+        "note": "Mũi hai môi (ມ nhóm thấp, ໝ/ຫມ nhóm cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຕ (t)",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຖ / ທ (th)",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi (ຖ nhóm cao, ທ nhóm thấp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ດ (d)",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ສ / ຊ (s / x)",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (ສ nhóm cao thường phiên là s, ຊ nhóm thấp thường phiên là x; phát âm trùng là [s])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ນ / ໜ (n / hn)",
+        "ipa": "n",
+        "note": "Mũi chân răng (ນ nhóm thấp, ໜ/ຫນ nhóm cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ລ / ຫຼ (l / hl)",
+        "ipa": "l",
+        "note": "Bên chân răng (ລ nhóm thấp, ຫຼ/ຫລ nhóm cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຣ (r)",
+        "ipa": "r ~ l",
+        "note": "Chỉ dùng trong từ vay mượn hoặc văn phong trang trọng; khẩu ngữ phổ thông nhập vào [l]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຈ (ch / c)",
+        "ipa": "tɕ",
+        "note": "Tắc-xát chân răng-ngạc vô thanh không bật hơi (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຍ / ຫຍ (gn / ny)",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng (ຍ nhóm thấp, ຫຍ nhóm cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຢ (y)",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ກ (k)",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຂ / ຄ (kh)",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (ຂ nhóm cao, ຄ nhóm thấp); khác kh [x] tiếng Việt Bắc Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ງ / ຫງ (ng / hng)",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ງ nhóm thấp, ຫງ nhóm cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ອ (o / -)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm đầu âm tiết (nhóm trung)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ຫ / ຮ (h)",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ຫ nhóm cao, ຮ nhóm thấp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ວ / ຫວ (v / w)",
+        "ipa": "ʋ ~ w",
+        "note": "Tiếp cận môi-răng hoặc môi-ngạc mềm (ວ nhóm thấp, ຫວ nhóm cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ກວ / ຂວ / ຄວ (kw / khw)",
+        "ipa": "kw / kʰw",
+        "note": "Tổ hợp phụ âm đầu môi hóa Cw (ngoài ra còn gặp ງວ ŋw, ສວ sw, ຊວ sw, ລວ lw...)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "◌ະ, ◌ັ◌ (a)",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn; ở âm tiết mở có tắc thanh hầu cuối [aʔ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌າ (a / aa)",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ິ (i)",
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ີ (i / ii)",
+        "ipa": "iː",
+        "note": "Nguyên âm đóng hàng trước dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ຶ (u' / eu)",
+        "ipa": "ɯ",
+        "note": "Nguyên âm đóng hàng sau không tròn môi ngắn (tương đương ư ngắn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ື (u' / euu)",
+        "ipa": "ɯː",
+        "note": "Nguyên âm đóng hàng sau không tròn môi dài (tương đương ư dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ຸ (ou / u)",
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ູ (ou / uu)",
+        "ipa": "uː",
+        "note": "Nguyên âm đóng hàng sau tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ະ, ເ◌ັ◌ (é / e)",
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng hàng trước ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ (é / ee)",
+        "ipa": "eː",
+        "note": "Nguyên âm nửa đóng hàng trước dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ແ◌ະ, ແ◌ັ◌ (è / ae)",
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở hàng trước ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ແ◌ (è / aee)",
+        "ipa": "ɛː",
+        "note": "Nguyên âm nửa mở hàng trước dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ໂ◌ະ, ◌ົ◌ (ô / o)",
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ໂ◌ (ô / oo)",
+        "ipa": "oː",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌າະ, ◌ັອ◌ (o / aw)",
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ໍ, ◌ອ◌ (o / aww)",
+        "ipa": "ɔː",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ິ (eu / oe)",
+        "ipa": "ɤ",
+        "note": "Nguyên âm nửa đóng hàng sau không tròn môi ngắn (tương đương ơ ngắn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ີ (eu / oee)",
+        "ipa": "ɤː",
+        "note": "Nguyên âm nửa đóng hàng sau không tròn môi dài (tương đương ơ dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ັຍ, ເ◌ັຽ◌ (ia)",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi mở hướng tâm ngắn (theo Enfield 2007, có ký hiệu riêng trong chữ viết nhưng hiệu suất đối lập âm vị học với /iːə/ rất thấp, chủ yếu gặp ở từ vay mượn hoặc từ tượng thanh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ເ◌ຍ, ◌ຽ◌ (ia / iaa)",
+        "ipa": "iːə",
+        "note": "Nguyên âm đôi hàng trước dài (viết là ເ◌ຍ ở âm tiết mở và ◌ຽ◌ khi có phụ âm cuối, ví dụ ໜຽວ [niːəw])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ຶອ (ua' / eua)",
+        "ipa": "ɯə",
+        "note": "Nguyên âm đôi không tròn môi ngắn (ít gặp, hiệu suất đối lập âm vị học thấp theo Enfield 2007)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ເ◌ືອ (ua' / euaa)",
+        "ipa": "ɯːə",
+        "note": "Nguyên âm đôi không tròn môi dài (tương đương ưa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ົວະ (oua / ua)",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi tròn môi ngắn (ít gặp, hiệu suất đối lập âm vị học thấp theo Enfield 2007)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "◌ົວ, ◌ວ◌ (oua / uaa)",
+        "ipa": "uːə",
+        "note": "Nguyên âm đôi tròn môi dài (tương đương ua; viết là ◌ົວ ở âm tiết mở và ◌ວ◌ khi có phụ âm cuối)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ໄ◌ / ໃ◌ (ai)",
+        "ipa": "aj",
+        "note": "Vần đặc biệt nguyên âm ngắn + bán nguyên âm cuối [aj] (hai ký tự lịch sử nay đọc trùng trong tiếng Lào chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ເ◌ົາ (ao)",
+        "ipa": "aw",
+        "note": "Vần đặc biệt nguyên âm ngắn + bán nguyên âm cuối [aw]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "◌ຳ (am)",
+        "ipa": "am",
+        "note": "Vần đặc biệt nguyên âm ngắn + âm mũi môi [am]",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-ກ (-k)",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm không bật ra (tạo âm tiết chết/khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ດ (-t)",
+        "ipa": "t̚",
+        "note": "Tắc chân răng không bật ra (tạo âm tiết chết/khép; viết bằng chữ d nhưng đọc [-t̚])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ບ (-p)",
+        "ipa": "p̚",
+        "note": "Tắc hai môi không bật ra (tạo âm tiết chết/khép; viết bằng chữ b nhưng đọc [-p̚])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ະ / nguyên âm ngắn mở",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối sau nguyên âm ngắn không có phụ âm cuối khác (tạo âm tiết chết/khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ງ (-ng)",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (âm tiết sống)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ນ (-n)",
+        "ipa": "n",
+        "note": "Mũi chân răng (âm tiết sống)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ມ (-m)",
+        "ipa": "m",
+        "note": "Mũi hai môi (âm tiết sống)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ຍ (-y / -i)",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng cuối vần (âm tiết sống)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ວ (-o / -w)",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm cuối vần (âm tiết sống)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_mid",
+        "name": "Thanh bằng trung (Mid level)",
+        "mark": "◌່ (mai ek trên mọi nhóm phụ âm) hoặc âm tiết khép nguyên âm ngắn nhóm thấp",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T2_high_rising",
+        "name": "Thanh cao lên (High rising)",
+        "mark": "không dấu (phụ âm thấp, âm tiết sống) hoặc âm tiết khép nguyên âm ngắn (phụ âm cao/trung)",
+        "chao_contour": "35",
+        "phonation": "modal (một số mô tả truyền thống tách biến thể bằng cao [44] ở phụ âm trung thành thanh thứ 6, nhưng nghiên cứu âm học của Osatananda 1997 và Enfield 2007 xếp chung hoặc coi là biến thể phương ngữ)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T3_low_rising",
+        "name": "Thanh thấp lên (Low rising)",
+        "mark": "không dấu (phụ âm cao/trung, âm tiết sống) hoặc ◌໋ (mai chattawa)",
+        "chao_contour": "24",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T4_high_falling",
+        "name": "Thanh cao xuống (High falling)",
+        "mark": "◌້ (mai tho trên phụ âm trung/thấp) hoặc âm tiết khép nguyên âm dài (phụ âm thấp)",
+        "chao_contour": "52",
+        "phonation": "có thể kèm thanh hầu hóa nhẹ ở cuối đường nét hạ giọng",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T5_low_falling",
+        "name": "Thanh thấp xuống (Low falling)",
+        "mark": "◌້ (mai tho trên phụ âm cao) hoặc âm tiết khép nguyên âm dài (phụ âm cao/trung)",
+        "chao_contour": "31",
+        "phonation": "modal / hơi kẹt nhẹ ở cuối",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu (5 thanh âm vị học trong phương ngữ chuẩn Viêng Chăn theo Enfield 2007; một số sách giáo khoa phân thành 6 thanh; phương ngữ Bắc Lào / Luang Prabang gần vùng Tây Bắc Việt Nam cũng có 5 thanh nhưng khác đường nét cao độ). Thanh điệu được quy định bởi tổ hợp: (1) nhóm phụ âm đầu lịch sử (cao, trung, thấp), (2) cấu trúc âm tiết sống hay chết kèm độ dài nguyên âm, và (3) 4 dấu thanh (mai ek ◌່, mai tho ◌້, mai ti ◌໊, mai chattawa ◌໋)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "xin chào / khỏe mạnh",
+      "form": "ສະບາຍດີ (sabaidi)",
+      "ipa": "saʔ˧˥.baːj˨˦.diː˨˦",
+      "gloss_en": "hello / to be well",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cảm ơn",
+      "form": "ຂອບໃຈ (khopchai)",
+      "ipa": "kʰɔːp̚˧˩.tɕaj˨˦",
+      "gloss_en": "thank you",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ນ້ຳ (nam)",
+      "ipa": "nam˥˨",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm / gạo / xôi nếp",
+      "form": "ເຂົ້າໜຽວ (khao niao)",
+      "ipa": "kʰaw˧˩.niːəw˨˦",
+      "gloss_en": "glutinous rice / sticky rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà (nhà sàn)",
+      "form": "ເຮືອນ (huean)",
+      "ipa": "hɯːən˧˥",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bản / làng",
+      "form": "ບ້ານ (ban)",
+      "ipa": "baːn˥˨",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắm cá Lào (gia vị truyền thống)",
+      "form": "ປາແດກ (padaek)",
+      "ipa": "paː˨˦.dɛːk̚˧˩",
+      "gloss_en": "fermented fish paste",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "món lạp (gỏi thịt/cá băm)",
+      "form": "ລາບ (lap)",
+      "ipa": "laːp̚˥˨",
+      "gloss_en": "minced meat/fish salad (larb)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "Tết năm mới / Tết té nước",
+      "form": "ບຸນປີໃໝ່ / ບຸນຫົດນ້ຳ (Bun Pi Mai / Bun Hot Nam)",
+      "ipa": "bun˨˦.piː˨˦.maj˧˧ / bun˨˦.hot̚˧˥.nam˥˨",
+      "gloss_en": "Lao New Year / Water-splashing festival",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hát dân ca (lối Bắc Lào / Tây Bắc)",
+      "form": "ຂັບ (khap)",
+      "ipa": "kʰap̚˧˥",
+      "gloss_en": "traditional regional folk singing",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "múa vòng tròn Lăm vông",
+      "form": "ລຳວົງ (lamvong)",
+      "ipa": "lam˧˥.ʋoŋ˧˥",
+      "gloss_en": "circle dance",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khèn bè",
+      "form": "ແຄນ (khaen)",
+      "ipa": "kʰɛːn˧˥",
+      "gloss_en": "bamboo mouth organ",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Khắp Lào (ຂັບ / Khap)",
+        "note": "Thể loại hát dân ca trữ tình, đối đáp giao duyên đặc trưng của vùng Bắc Lào (như Khắp Thùm Luang Prabang, Khắp Sầm Nưa) và cộng đồng người Lào tại Điện Biên, Sơn La, Lai Châu."
+      },
+      {
+        "name": "Lăm / Mo lăm (ລຳ / ໝໍລຳ — Lam / Mor lam)",
+        "note": "Nghệ thuật hát kể chuyện cổ tích, sử thi và đối đáp dân gian do nghệ nhân Mo lăm trình diễn cùng tiếng khèn bè."
+      },
+      {
+        "name": "Múa hát Lăm vông (ຟ້ອນລຳວົງລາວ / Fonelamvonglao)",
+        "note": "Điệu múa hát vòng tròn cộng đồng theo nhịp 4/4 phổ biến trong Tết té nước Bun Huột Nặm (Tết té nước Bun Huột Nặm của người Lào tại bản Na Sang 1, xã Núa Ngam, huyện Điện Biên được công nhận là Di sản văn hóa phi vật thể quốc gia của Việt Nam năm 2017; Fonelamvonglao được UNESCO ghi danh cho CHDCND Lào năm 2024)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Câu rao mở đầu tự do (ໂອຍນໍ / Ôi no)",
+        "description": "Tiếng ngân dài không nhịp cố định ở đầu bài Khắp hoặc Lăm để lấy hơi, dò điệu thức với tiếng khèn và thu hút người nghe trước khi vào nhịp chính.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Luyến láy thuận chiều thanh điệu (tone-melody correspondence)",
+        "description": "Giai điệu dân ca Lào bám chặt vào đường nét thanh điệu của từ (đặc biệt ở thanh thấp lên 24, cao lên 35 và cao xuống 52) thông qua các nốt luyến 2–3 nốt liền bậc để giữ rõ nghĩa lời ca.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống điệu thức ngũ cung khèn Lào (Lao Lai / ລາຍແຄນ)",
+        "note": "Chia thành 2 họ điệu thức ngũ cung không bán âm đi kèm nốt trì tục (drone): họ Thang Sáng/Trưởng như Lai Sutsanaen (G–A–C–D–E), Lai Po Sai (C–D–F–G–A), Lai Soi (D–E–G–A–B) và họ Thang Trầm/Thứ như Lai Yai (A–C–D–E–G), Lai Noi (D–F–G–A–C).",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Khèn bè / Khèn Lào (ແຄນ / Khaen — Âm nhạc Khèn của người Lào được UNESCO ghi danh năm 2017)"
+      },
+      {
+        "name": "Đàn Kachapi / Đàn Xung (ກະຈັບປີ່ / ຊຶງ — đàn gảy đệm hát khắp)"
+      },
+      {
+        "name": "Trống dài / Trống cơm (ກອງຍາວ / Kong nyaw — giữ nhịp múa Lăm vông và lễ hội)"
+      },
+      {
+        "name": "Sáo trúc (ຂຸ່ຍ / Khui)"
+      },
+      {
+        "name": "Đàn nhị Lào (ຊໍ / So)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "ຜ / ພ (ph) [pʰ]",
+        "quoc_ngu": "p'h (hoặc đọc p bật hơi mạnh)",
+        "note": "Âm [pʰ] KHÔNG có trong tiếng Việt chuẩn (chữ 'ph' Quốc ngữ đọc là âm xát môi-răng [f], trùng với ຝ/ຟ của tiếng Lào). Nếu đưa thẳng chữ 'ph' vào TTS tiếng Việt (ví dụ ພາສາ -> 'pha sả'), mô hình sẽ đọc nhầm thành [faː]. Nên chú thích hoặc fine-tune phoneme [pʰ] riêng."
+      },
+      {
+        "native": "ຂ / ຄ (kh) [kʰ]",
+        "quoc_ngu": "kh",
+        "note": "Trong tiếng Lào là âm tắc ngạc mềm bật hơi [kʰ] (giống cách đọc 'kh' ở một số vùng Nam Bộ/Trung Bộ), trong khi giọng Hà Nội chuẩn đọc 'kh' là âm xát [x]."
+      },
+      {
+        "native": "ຈ (ch) [tɕ]",
+        "quoc_ngu": "ch",
+        "note": "Âm tắc-xát chân răng-ngạc [tɕ], vị trí cấu âm dịch ra trước và có độ xát rõ hơn âm tắc mặt lưỡi [c] của chữ 'ch' tiếng Việt."
+      },
+      {
+        "native": "ສ / ຊ (s / x) [s]",
+        "quoc_ngu": "x",
+        "note": "Cả ສ và ຊ đều đọc là [s] không uốn lưỡi; nên viết bằng 'x' Quốc ngữ để tránh TTS tiếng Việt đọc 's' thành âm quặt lưỡi [ʂ]."
+      },
+      {
+        "native": "ສະບາຍດີ (sabaidi) [saʔ˧˥.baːj˨˦.diː˨˦]",
+        "quoc_ngu": "xạ bai đi",
+        "note": "Âm tiết đầu mở mang nguyên âm ngắn kết thúc bằng tắc thanh hầu [saʔ] không có tương đương trực tiếp trong Quốc ngữ; xấp xỉ bằng thanh nặng hoặc thanh sắc ngắn ('xạ' / 'xắc' lược âm cuối)."
+      },
+      {
+        "native": "ຂອບໃຈ (khopchai) [kʰɔːp̚˧˩.tɕaj˨˦]",
+        "quoc_ngu": "khọp chay",
+        "note": "Chú ý sự đối lập nguyên âm dài [ɔː] trong 'khọp' với nguyên âm ngắn [aj] viết bằng 'ay' Quốc ngữ trong 'chay' (khác 'chai' [aːj])."
+      },
+      {
+        "native": "ບຸນຫົດນ້ຳ (Bun Hot Nam) [bun˨˦.hot̚˧˥.nam˥˨]",
+        "quoc_ngu": "bun hốt nặm (hoặc bun huột nặm theo khẩu âm Tây Bắc)",
+        "note": "Tên Tết té nước trong tài liệu Việt Nam thường phiên là 'Bun Huột Nặm' hoặc 'Bun Vốc Nặm' phản ánh khẩu âm địa phương người Lào tại Điện Biên, Lai Châu."
+      },
+      {
+        "native": "ເຂົ້າໜຽວ (khao niao) [kʰaw˧˩.niːəw˨˦]",
+        "quoc_ngu": "khầu niệu (hoặc khảu niểu)",
+        "note": "Vần ເ◌ົາ [aw] ngắn tương ứng gần nhất với 'âu'/'au' tiếng Việt."
+      },
+      {
+        "native": "ແຄນ (khaen) [kʰɛːn˧˥]",
+        "quoc_ngu": "khèn (đọc cao lên: khẻn/khén)",
+        "note": "Nguyên âm ແ◌ [ɛː] dài tương đương 'e' tiếng Việt; lưu ý từ mượn 'khèn' trong tiếng Việt mang thanh huyền, còn âm gốc tiếng Lào mang thanh cao lên [35]."
+      }
+    ],
+    "phonemic_contrasts_missing_in_vietnamese": [
+      "Âm tắc hai môi vô thanh bật hơi /pʰ/ đối lập với cả /p/ và /f/.",
+      "Đối lập độ dài nguyên âm âm vị học trên toàn bộ 9 cặp nguyên âm đơn (i/iː, ɯ/ɯː, u/uː, e/eː, ɤ/ɤː, o/oː, ɛ/ɛː, a/aː, ɔ/ɔː), cùng đối lập mặt chữ/ngoại vi trên 3 cặp nguyên âm đôi (iə/iːə, ɯə/ɯːə, uə/uːə); tiếng Việt chỉ phân biệt độ dài ở a/ă và ơ/â.",
+      "Âm tắc thanh hầu cuối âm tiết /-ʔ/ sau mọi nguyên âm ngắn không có phụ âm cuối khác.",
+      "Tổ hợp phụ âm đầu bật hơi môi hóa /kʰw/ (ຂວ/ຄວ)."
+    ],
+    "sub_varieties": [
+      {
+        "name": "Phương ngữ Viêng Chăn / Trung Lào (Vientiane / Standard Lao)",
+        "iso639_3": "lao",
+        "note": "Biến thể chuẩn trên truyền thông, giáo dục của CHDCND Lào và giáo trình dạy tiếng Lào tại Việt Nam."
+      },
+      {
+        "name": "Nhóm Lào Nọi (Lào Nhỏ / Phu Lào) và phương ngữ Bắc Lào",
+        "iso639_3": "lao",
+        "note": "Một trong hai nhóm địa phương chính của dân tộc Lào tại Điện Biên, Sơn La, Lai Châu; tiếng nói gắn với dải phương ngữ Bắc Lào (Luang Prabang, Oudomxay, Phongsaly). Cần tránh nhầm lẫn tên gọi 'Phu Lào' của dân tộc Lào với nhóm 'Phù Lá / Phu Lao' (ISO 639-3: phh) thuộc ngữ chi Lô Lô – Miến."
+      },
+      {
+        "name": "Nhóm Lào Bốc (Lào Cạn / Thay Duồn, Thay Nhuồn)",
+        "iso639_3": "nod",
+        "note": "Nhóm địa phương lớn còn lại của dân tộc Lào tại Tây Bắc Việt Nam; tên tự gọi Thay Duồn / Thay Nhuồn tương ứng lịch sử với cộng đồng Tai Yuan / Bắc Thái – Lanna (ISO 639-3: nod) hoặc phương ngữ chuyển tiếp Bắc Lào – Lanna, đồng thời có tiếp xúc song ngữ sâu với tiếng Thái Đen (ISO 639-3: blt) và Thái Trắng (ISO 639-3: twh)."
+      },
+      {
+        "name": "Tiếng Isan (Tây Lào / Đông Bắc Thái Lan)",
+        "iso639_3": "tts",
+        "note": "Thông hiểu lẫn nhau trực tiếp với tiếng Lào, hiện dùng chữ Thái tại Thái Lan."
+      },
+      {
+        "name": "Tiếng Phuan (Đông Bắc Lào / Xiêng Khoảng)",
+        "iso639_3": "phu",
+        "note": "Ngôn ngữ gần trong tiểu nhóm Lao–Phutai, phân bố tại Xiêng Khoảng sát vùng biên giới Bắc Trung Bộ Việt Nam."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ໜຶ່ງ",
+        "romanization": "nueng",
+        "ipa": "nɯŋ˧˧",
+        "meaning_vi": "một (1)"
+      },
+      {
+        "native": "ສອງ",
+        "romanization": "song",
+        "ipa": "sɔːŋ˨˦",
+        "meaning_vi": "hai (2)"
+      },
+      {
+        "native": "ສາມ",
+        "romanization": "sam",
+        "ipa": "saːm˨˦",
+        "meaning_vi": "ba (3)"
+      },
+      {
+        "native": "ຂ້ອຍ",
+        "romanization": "khoi",
+        "ipa": "kʰɔːj˧˩",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "ເຈົ້າ",
+        "romanization": "chao",
+        "ipa": "tɕaw˥˨",
+        "meaning_vi": "bạn / anh / chị"
+      },
+      {
+        "native": "ພໍ່",
+        "romanization": "pho",
+        "ipa": "pʰɔː˧˧",
+        "meaning_vi": "bố / cha"
+      },
+      {
+        "native": "ແມ່",
+        "romanization": "mae",
+        "ipa": "mɛː˧˧",
+        "meaning_vi": "mẹ"
+      },
+      {
+        "native": "ກິນ",
+        "romanization": "kin",
+        "ipa": "kin˨˦",
+        "meaning_vi": "ăn / uống"
+      },
+      {
+        "native": "ໄປ",
+        "romanization": "pai",
+        "ipa": "paj˨˦",
+        "meaning_vi": "đi"
+      },
+      {
+        "native": "ຮັກ",
+        "romanization": "hak",
+        "ipa": "hak̚˧˧",
+        "meaning_vi": "yêu / thương"
+      },
+      {
+        "native": "ດອກຈຳປາ",
+        "romanization": "dok champa",
+        "ipa": "dɔːk̚˧˩.tɕam˨˦.paː˨˦",
+        "meaning_vi": "hoa chăm-pa (hoa đại)"
+      },
+      {
+        "native": "ເມືອງ",
+        "romanization": "mueang",
+        "ipa": "mɯːəŋ˧˥",
+        "meaning_vi": "mường / thành phố / đất nước"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Enfield, N. J. (2007). A Grammar of Lao. Mouton Grammar Library 38. Berlin & New York: Mouton de Gruyter.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.4 — Lao [laoo1244]",
+      "url": "https://glottolog.org/resource/languoid/id/laoo1244",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lao language",
+      "url": "https://en.wikipedia.org/wiki/Lao_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lao script",
+      "url": "https://en.wikipedia.org/wiki/Lao_script",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Help:IPA/Lao",
+      "url": "https://en.wikipedia.org/wiki/Help:IPA/Lao",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê Việt Nam (2019) — Kết quả toàn bộ Tổng điều tra dân số và nhà ở thời điểm 0 giờ ngày 01 tháng 4 năm 2019",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả Điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019. NXB Thống kê, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Khaen music of the Lao people (2017)",
+      "url": "https://ich.unesco.org/en/RL/01296",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Fonelamvonglao (lamvonglao) (2024)",
+      "url": "https://ich.unesco.org/en/RL/02099",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.vowels[18..23]",
+          "severity": "medium",
+          "problem": "Ký tự nguyên âm đôi giữa âm tiết ◌ຽ◌ (như trong ໜຽວ [niːəw˨˦], ຮຽນ [hiːən˧˥]) là biến thể chữ viết trước phụ âm cuối của nguyên âm đôi DÀI /iːə/ (tương ứng với ◌ວ◌ của /uːə/ ở vowels[23]), nhưng lại bị xếp vào mục nguyên âm đôi ngắn [iə] ở vowels[18] (gây mâu thuẫn nội bộ với chính phiên âm [niːəw˨˦] của ເຂົ້າໜຽວ trong lexicon[3]). Ngoài ra, theo Enfield (2007: 38), dù chữ Lào phân biệt ký hiệu cho 3 cặp nguyên âm đôi ngắn/dài (ເ◌ັຍ/ເ◌ຍ, ເ◌ຶອ/ເ◌ືອ, ◌ົວະ/◌ົວ), đối lập độ dài ở nguyên âm đôi trong khẩu ngữ có hiệu suất khu biệt rất thấp (chủ yếu xuất hiện ở từ tượng thanh hoặc từ vay mượn).",
+          "fix": "Chuyển ◌ຽ◌ sang vowels[19] (iːə), sửa vowels[18] thành 'ເ◌ັຍ, ເ◌ັຽ◌ (ia)', đồng thời hạ confidence của 3 nguyên âm đôi ngắn (vowels[18], vowels[20], vowels[22]) xuống 'medium' kèm chú thích theo Enfield (2007)."
+        },
+        {
+          "path": "ml_hints.phonemic_contrasts_missing_in_vietnamese[1]",
+          "severity": "low",
+          "problem": "Khẳng định đối lập độ dài nguyên âm âm vị học trên cả 3 cặp nguyên âm đôi ngang bằng với 9 cặp nguyên âm đơn chưa phản ánh sát mô tả âm vị học của Enfield (2007), nơi đối lập ngắn/dài ở nguyên âm đôi chỉ mang tính ngoại vi so với 9 cặp nguyên âm đơn.",
+          "fix": "Điều chỉnh diễn đạt để phân biệt rõ đối lập độ dài âm vị học triệt để trên 9 cặp nguyên âm đơn với đối lập mặt chữ/ngoại vi trên 3 cặp nguyên âm đôi."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check đang để null ở tất cả các nguồn; URL tại sources[5] (nso.gov.vn) không kiểm chứng trực tiếp được.",
+          "fix": "Cập nhật url_check='verified' cho các URL đã xác thực (Glottolog, Wikipedia, UNESCO) và đặt url_check='unverified' cho URL PDF của Tổng cục Thống kê."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần khảo sát điền dã âm học tại chỗ để xác định chính xác hệ thống đường nét thanh điệu (Chao contours) và từ vựng đặc thù của hai nhóm Lào Bốc (Thay Duồn) và Lào Nọi tại Điện Biên, Lai Châu, Sơn La so với phương ngữ chuẩn Viêng Chăn và phương ngữ Luang Prabang.",
+      "Cần bổ sung ký hiệu ABC chuẩn xác cho các làn điệu Khắp Lào tại vùng Tây Bắc Việt Nam có thẩm định của nghệ nhân bản địa."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

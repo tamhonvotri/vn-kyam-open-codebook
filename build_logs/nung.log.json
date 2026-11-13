@@ -1,0 +1,90 @@
+{
+  "target": {
+    "id": "nung",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Nùng",
+    "ethnic_group_vi": "Nùng",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:46:08.661080",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 9582,
+      "totalTokenCount": 24925,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9582
+        }
+      ],
+      "thoughtsTokenCount": 5966,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11694,
+      "candidatesTokenCount": 11797,
+      "totalTokenCount": 23491,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11694
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11797
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[0].ipa",
+        "severity": "medium",
+        "problem": "Mục từ ghi 'cần / cưhn' nhưng IPA lại chỉ ghi 'kɨn˨˩' (thanh huyền 21 theo chữ Tày-Nùng 'cần'), trong khi chính tả SIL 'cưhn' mang thanh ngang (không dấu, [kɨn˧˧]). Sự bất nhất tương tự cũng xuất hiện ở 'pa' ('pá' trong Nùng Phạn Slinh), 'kin' ('kíhn' trong Nùng Phạn Slinh), 'lúhc' (con vs lúc) trong lexicon và ml_hints.",
+        "fix": "Ghi rõ cả hai biến thể IPA tương ứng với hai phương ngữ/chính tả (ví dụ 'kɨn˧˧ (SIL: cưhn) / kən˨˩ (1961: cần)', 'kíhn / kin' -> 'kin˦ / kiːn˧˧') để tránh nhầm lẫn khi huấn luyện mô hình."
+      },
+      {
+        "path": "phonology.onsets[16]",
+        "severity": "low",
+        "problem": "Trong chính tả Nùng Phạn Slinh (SIL), chữ 'd' ghi âm vị /ʒ ~ ʑ/ (ví dụ: 'dụ' = ở), còn âm /j/ viết bằng 'y' hoặc 'gi', nhưng bảng mã gộp chung 'd / gi' -> 'j'.",
+        "fix": "Cập nhật ipa thành 'j ~ ʒ ~ ʑ' và bổ sung chữ 'y' vào grapheme ('d / gi / y') kèm giải thích rõ quy ước của SIL."
+      },
+      {
+        "path": "phonology.codas[8]",
+        "severity": "low",
+        "problem": "Chỉ ghi 'ư (trong vần âư)' của hệ chữ 1961, thiếu quy ước 'h' trong tổ hợp 'ah' ở cuối âm tiết mở của hệ chữ SIL (trong chính tả Nùng Phạn Slinh, 'hah' đọc là 'haư' /haɰ/).",
+        "fix": "Bổ sung ghi chú về cách viết '-ah' cuối âm tiết mở trong hệ chữ SIL tương ứng với vần '-aư / -âư'."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "low",
+        "problem": "Giá trị Chao contour đang ghi cố định theo hệ 5 mức (35, 24, 44, 22), trong khi tài liệu mô tả âm vị học Nùng Phạn Slinh (Saul & Wilson 1980; Wikipedia) thường ký hiệu bằng thanh mức/biến thiên IPA: sắc ˦ (44/35), ngang ˧ (33), hỏi ˨ ~ ˨˦ (low-rising), huyền ˨˩ (21), ngã ˦ʔ (high-glottal), nặng ˨ʔ (low-glottal).",
+        "fix": "Bổ sung đối chiếu ký hiệu IPA chuẩn của Saul & Wilson (1980) vào trường phonation/chao_contour để đảm bảo nhất quán với phần phiên âm từ vựng."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của tất cả các nguồn có URL đang để null; nguồn Nghị định 206-CP và tài liệu SIL chưa gắn URL kiểm chứng dù có bản lưu trực tuyến.",
+        "fix": "Cập nhật url_check='verified' cho các URL đã kiểm tra thực tế và bổ sung URL lưu trữ của SIL / Thư Viện Pháp Luật."
+      }
+    ]
+  },
+  "schema_errors": []
+}

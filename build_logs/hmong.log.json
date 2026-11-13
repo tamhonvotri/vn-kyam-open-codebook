@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "hmong",
+    "kind": "minority_language",
+    "name_vi": "Tiếng H'Mông",
+    "ethnic_group_vi": "H'Mông",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:47:46.219853",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 13054,
+      "totalTokenCount": 36999,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13054
+        }
+      ],
+      "thoughtsTokenCount": 14562,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 14441,
+      "candidatesTokenCount": 15607,
+      "totalTokenCount": 35373,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 14441
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 15607
+        }
+      ],
+      "thoughtsTokenCount": 5325,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "music.genres[2].note",
+        "severity": "high",
+        "problem": "Chuỗi văn bản bị cắt cụt giữa chừng ở cuối câu: \"Lễ hội cầu phúc, cầu mệnh đầu xuân (\".",
+        "fix": "Hoàn thiện câu mô tả về Lễ hội Gầu Tào (Grâuk Taox / Grâuk Taox Cha) dựa trên tư liệu di sản văn hóa phi vật thể quốc gia."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "high",
+        "problem": "Thiếu phụ âm đầu 'đr' trong danh sách 57 phụ âm đầu của Chữ Mông Việt Nam (MVN) và gán chưa chính xác cặp 'đr' / 'nr'. Theo tài liệu bồi dưỡng tiếng Mông chính thức (Quyết định 444/QĐ-UBND tỉnh Tuyên Quang), trong MVN: 'tr' = [ʈ] (RPA: r), 'r' = [ʈʰ] (RPA: rh), 'đr' = [ⁿɖ] (RPA: nr, ví dụ 'đrâuv jôngr' = RPA 'nraum zoov' 'ngoài trời'; hoặc [tˡ] tương ứng RPA 'dl' ở một số bảng đối chiếu), còn 'nr' = [ⁿʈʰ] (tắc quặt lưỡi tiền mũi hóa bật hơi, tức 'r' [ʈʰ] thêm tiền âm mũi, tương ứng RPA: 'nrh', ví dụ 'nriêr' = RPA 'nrhiav' 'tìm'). Bản nháp cũ gán 'nr' = [ⁿɖ] và bỏ sót cả 'đr' lẫn âm vị [ⁿʈʰ] (RPA: nrh).",
+        "fix": "Bổ sung mục 'đr (RPA: nr / dl)' cho âm [ⁿɖ ~ tˡ] và cập nhật mục 'nr (RPA: nrh)' cho âm [ⁿʈʰ] (kèm ghi chú biến thể quy ước giữa sách giáo khoa MVN 57 phụ âm và bảng 59 phụ âm trên Wikipedia)."
+      },
+      {
+        "path": "music.instruments[1].name",
+        "severity": "medium",
+        "problem": "Ghi tên đàn môi là 'MVN: nchăngs / RPA: ncas'. Trong hệ thống MVN không có tổ hợp phụ âm đầu 'nch-' (RPA 'nch' ứng với MVN 'nq' [ɲcʰ]), còn RPA 'nc-' [ɲɟ] (như trong 'ncas' / Mông Lềnh 'ncaag') phải viết bằng MVN là 'nd-' ('ndas' / 'trangz ndangl').",
+        "fix": "Sửa thành 'Đàn môi (MVN: ndas / trangz ndangl; RPA: ncas / raab ncaag)'."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Một số phụ âm đầu có sự khác biệt giữa quy chuẩn sách giáo khoa/tài liệu bồi dưỡng tiếng Mông ở Việt Nam (57 phụ âm: dùng 'mn', 'kr', 'gr', 'y', 'ny') và bảng đối chiếu Chữ Hmông Việt trên Wikipedia (59 phụ âm: dùng 'ml', 'qh', 'ng', 'tsh', 'ntsh', 'đl', 'nđr', 'nđl'). Cần ghi chú rõ để tránh nhầm lẫn khi đối chiếu nguồn.",
+        "fix": "Bổ sung ghi chú về các biến thể ký hiệu trên Wikipedia vào trường note của các phụ âm liên quan."
+      },
+      {
+        "path": "ml_hints.sub_varieties[3]",
+        "severity": "low",
+        "problem": "Mục Mông Đen (Black Hmong, glottocode: blac1273) đang để iso639_3 là 'hmn' trùng với mã đại ngôn ngữ (macrolanguage) ở mục cuối, dễ gây hiểu nhầm rằng 'hmn' là mã cá biệt của riêng phương ngữ Mông Đen.",
+        "fix": "Ghi rõ trong note rằng phương ngữ Mông Đen (blac1273) không có mã ISO 639-3 cá biệt riêng mà nằm trong cụm phương ngữ Chuanqiandian (cqd) thuộc đại ngôn ngữ hmn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

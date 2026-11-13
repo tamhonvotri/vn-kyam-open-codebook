@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "gia-rai",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Gia Rai",
+    "ethnic_group_vi": "Gia Rai",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:49:10.184131",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 9815,
+      "totalTokenCount": 19196,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9815
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11919,
+      "candidatesTokenCount": 10912,
+      "totalTokenCount": 24067,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11919
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10912
+        }
+      ],
+      "thoughtsTokenCount": 1236,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.codas[10].note",
+        "severity": "medium",
+        "problem": "Lỗi ký tự lạ (chữ cái tiếng Do Thái 'בו' trong từ 'rơבוih') do lỗi mã hóa văn bản khi sinh ví dụ từ vựng.",
+        "fix": "Sửa 'rơבוih' thành 'rơbuih' (/ɾəˈbuih/ 'bọt')."
+      },
+      {
+        "path": "phonology.codas",
+        "severity": "low",
+        "problem": "Danh sách phụ âm cuối thiếu âm tắc mặt lưỡi -č (-ch) /c̚/ và âm mũi mặt lưỡi -ñ (-nh) /ɲ/ (tần suất thấp hơn nhưng có xuất hiện trong các từ láy, từ tượng thanh và một số mục từ trong Lafont 1968, Dournes 1976, Jensen 2013 như 'grĭ grañ').",
+        "fix": "Bổ sung codas 'č (hoặc ch)' và 'ñ (hoặc nh)' với độ tin cậy 'medium' và ghi chú rõ phạm vi xuất hiện."
+      },
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "low",
+        "problem": "Mô tả cấu trúc âm tiết chưa nêu rõ các tổ hợp phụ âm đầu bắt đầu bằng h- trước phụ âm vang (hm-, hn-, hñ-, hng-, hl-, hr-, hw-, hy-) rất phổ biến trong chính tả và âm vị học tiếng Gia Rai (như hrơi 'ngày', hmua 'rẫy').",
+        "fix": "Bổ sung giải thích về chuỗi h + phụ âm vang (tiền xát thanh hầu / vô thanh hóa âm vang hoặc rút gọn tiền âm tiết hơ-) vào syllable_structure."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check đang để null cho các URL đã kiểm chứng hoạt động.",
+        "fix": "Cập nhật url_check thành 'ok' cho các URL học thuật và cơ quan nhà nước đã xác thực qua tìm kiếm."
+      }
+    ]
+  },
+  "schema_errors": []
+}

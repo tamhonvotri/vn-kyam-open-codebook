@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "muong",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mường",
+    "ethnic_group_vi": "Mường",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:41:13.479827",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 8694,
+      "totalTokenCount": 24991,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8694
+        }
+      ],
+      "thoughtsTokenCount": 6918,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11442,
+      "candidatesTokenCount": 11055,
+      "totalTokenCount": 23969,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11442
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11055
+        }
+      ],
+      "thoughtsTokenCount": 1472,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "scripts[1].note & sources[3].title",
+        "severity": "low",
+        "problem": "Thiếu số hiệu văn bản pháp lý của Quyết định phê chuẩn Bộ chữ dân tộc Mường tỉnh Thanh Hóa ban hành ngày 24/8/2026.",
+        "fix": "Bổ sung số hiệu chính xác đã kiểm chứng: Quyết định số 2677/QĐ-UBND ngày 24/8/2026 của UBND tỉnh Thanh Hóa."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Chưa nêu rõ số lượng dấu thanh trong Bộ chữ dân tộc Mường tỉnh Hòa Bình theo Quyết định 2295/QĐ-UBND (gồm 28 chữ cái và 4 dấu thanh để ghi 5 thanh điệu của phương ngữ Hòa Bình).",
+        "fix": "Bổ sung thông tin 4 dấu thanh (ghi 5 thanh điệu) trong Quyết định 2295/QĐ-UBND để phân biệt rõ với hệ thống 7 dấu thanh của Bộ chữ Mường Thanh Hóa (Quyết định 2677/QĐ-UBND)."
+      },
+      {
+        "path": "phonology.onsets[16]",
+        "severity": "medium",
+        "problem": "Mục 'c / k / q' ghi phân bố chính tả tương tự chữ Quốc ngữ với confidence='high', nhưng trong Bộ chữ Mường Hòa Bình (28 chữ cái) không dùng con chữ 'q' (thay bằng c/k kết hợp âm đệm w) và loại bỏ chữ 'd' đơn (thay bằng z).",
+        "fix": "Hạ confidence của mục 'c / k / q' xuống 'medium' và chỉnh lại ghi chú để phản ánh đúng sự khác biệt giữa quy ước học thuật (Từ điển Mường - Việt) và Bộ chữ Hòa Bình 2016."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "medium",
+        "problem": "Trường status_note nêu lấy Mường Bi (Hòa Bình cũ) làm trục tham chiếu chính, nhưng các giá trị chao_contour của thanh 2 ('42'), thanh 3 ('324'), thanh 5 ('342') lại lấy theo số liệu âm học của thổ ngữ Kim Thượng (Phú Thọ) trong khi ở Hòa Bình cũ chỉ có 5 thanh (thanh nặng nhập vào thanh sắc, thanh huyền thường là 21).",
+        "fix": "Ghi rõ trong status_note và note của từng thanh điệu rằng giá trị chao_contour đang dẫn theo tư liệu đo đạc âm học tại Kim Thượng (Phú Thọ) và Quyết định 2295/QĐ-UBND (Hòa Bình), đồng thời giữ confidence='medium'."
+      },
+      {
+        "path": "ml_hints.sample_words",
+        "severity": "low",
+        "problem": "Các từ mẫu 'mọl' (mɔl˨˩) và 'roch' (rɔc˨˩) đang gán thanh nặng [˨˩] độc lập, trong khi ở phương ngữ Mường Bi (Hòa Bình cũ) thanh nặng nhập vào thanh sắc [˧˥] (thường viết là mốl/mọl đọc như sắc).",
+        "fix": "Làm rõ biến thể thanh điệu giữa vùng bảo lưu 6 thanh (Thanh Hóa, một phần Phú Thọ: [˨˩]) và vùng Hòa Bình cũ ([˧˥]) trong sample_words."
+      }
+    ]
+  },
+  "schema_errors": []
+}

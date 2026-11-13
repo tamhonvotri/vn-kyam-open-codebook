@@ -1,0 +1,750 @@
+{
+  "id": "lu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Lự",
+  "name_en": "Lü (Tai Lue)",
+  "autonym": "ᦅᧄᦺᦑᦟᦹᧉ / ᨣᩤᩴᨴᩱ᩠ᨿᩃᩨᩢ (kam tai lue)",
+  "ethnic_group_vi": "Lự",
+  "language": {
+    "iso639_3": "khb",
+    "glottocode": "luuu1242",
+    "family": "Kra-Dai",
+    "branch": "Tai (Southwestern Tai)"
+  },
+  "regions": [
+    "Lai Châu (huyện Tam Đường: Bản Hon, Bình Lư, Nà Tằm; huyện Sìn Hồ: Ma Quai, Nậm Tăm; huyện Than Uyên)",
+    "Điện Biên (rải rác tại huyện Điện Biên)"
+  ],
+  "speakers_estimate": "6.757 người dân tộc Lự tại Việt Nam (Điều tra 53 dân tộc thiểu số năm 2019, hơn 98% cư trú tại Lai Châu); khoảng 550.000–700.000 người nói trên toàn vùng Đông Nam Á lục địa và Vân Nam (Trung Quốc)",
+  "scripts": [
+    {
+      "name": "Chữ Tai Tham (Chữ Lự cổ / Chữ Tham / Lanna)",
+      "iso15924": "Lana",
+      "unicode_block": "Tai Tham (U+1A20..U+1AAF)",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ truyền thống kiểu abugida bắt nguồn từ chữ Môn cổ, gắn với kinh sách Phật giáo Nam tông và văn tự cổ của người Lự tại Việt Nam, Lào, Thái Lan, Myanmar. Tại Việt Nam hiện chỉ còn ít người cao tuổi/nghệ nhân đọc được."
+    },
+    {
+      "name": "Chữ Tày Lự Mới (New Tai Lue / Xishuangbanna Dai)",
+      "iso15924": "Talu",
+      "unicode_block": "New Tai Lue (U+1980..U+19DF)",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ cải tiến đơn giản hóa từ chữ Tai Tham tại Tây Song Bản Nạp (Trung Quốc) từ thập niên 1950; được dùng rộng rãi trong từ điển và ngữ liệu số hóa tiếng Lự quốc tế nhưng không phổ biến trong đời sống cộng đồng Lự tại Lai Châu."
+    },
+    {
+      "name": "Chữ Latinh (ghi âm dựa trên chữ Quốc ngữ / phiên âm học thuật)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Nhà nước Việt Nam chưa ban hành bộ chữ Latinh chuẩn hóa chính thức riêng cho tiếng Lự; trong sưu tầm văn nghệ dân gian và truyền thông địa phương tại Lai Châu thường ghi âm tạm bằng chữ Quốc ngữ tiếng Việt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp tự động từ tài liệu ngôn ngữ học về tiếng Lự (Tai Lue, ISO 639-3: khb) và tư liệu dân tộc học tại Lai Châu. Hệ thống âm vị và thanh điệu dưới đây dựa chủ yếu trên phương ngữ Cảnh Hồng (Tây Song Bản Nạp) đã được mô tả kỹ trong tài liệu ngôn ngữ học quốc tế (Li 1964, Hanna 2019); phương ngữ Lự tại Tam Đường và Sìn Hồ (Lai Châu) có thể có biến thể ngữ âm và giao thoa với tiếng Thái Đen/Thái Trắng lân cận, cần điền dã và thẩm định trực tiếp với người bản ngữ.",
+  "phonology": {
+    "syllable_structure": "C(ʷ)V(ː)(C_f)+T",
+    "onsets": [
+      {
+        "grapheme": "p (ᦔ / ᦗ)",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi; ᦔ thuộc tổ cao, ᦗ thuộc tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph (ᦕ / ᦘ)",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (khác chữ 'ph' [f] của tiếng Việt); ᦕ tổ cao, ᦘ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b (ᦢ / ᦥ)",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh; ᦢ tổ cao, ᦥ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m (ᦖ / ᦙ)",
+        "ipa": "m",
+        "note": "Mũi hai môi; ᦖ tổ cao, ᦙ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f (ᦚ / ᦝ)",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh; ᦚ tổ cao, ᦝ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v / w (ᦛ / ᦞ)",
+        "ipa": "v ~ w",
+        "note": "Xát môi-răng hữu thanh hoặc tiếp cận môi-ngạc mềm tùy phương ngữ/người nói; ᦛ tổ cao, ᦞ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t (ᦎ / ᦑ)",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi; ᦎ tổ cao, ᦑ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th (ᦏ / ᦒ)",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi; ᦏ tổ cao, ᦒ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d (ᦡ / ᦤ)",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh; ᦡ tổ cao, ᦤ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n (ᦐ / ᦓ)",
+        "ipa": "n",
+        "note": "Mũi chân răng; ᦐ tổ cao, ᦓ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l (ᦜ / ᦟ)",
+        "ipa": "l",
+        "note": "Bên chân răng; ᦜ tổ cao, ᦟ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ts / c (ᦈ / ᦋ)",
+        "ipa": "t͡s ~ t͡ɕ",
+        "note": "Tắc-xát chân răng vô thanh, ngạc hóa thành [t͡ɕ] trước các nguyên âm hàng trước /i, e, ɛ/; ᦈ tổ cao, ᦋ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s (ᦉ / ᦌ)",
+        "ipa": "s ~ ɕ",
+        "note": "Xát chân răng vô thanh, ngạc hóa thành [ɕ] trước các nguyên âm hàng trước /i, e, ɛ/; ᦉ tổ cao, ᦌ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y (ᦊ / ᦍ)",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng; ᦊ tổ cao, ᦍ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k (ᦂ / ᦅ)",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh; ᦂ tổ cao, ᦅ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh / x (ᦃ / ᦆ)",
+        "ipa": "x ~ kʰ",
+        "note": "Xát ngạc mềm vô thanh [x] (hoặc tắc bật hơi [kʰ] ở một số biến thể phía Nam); ᦃ tổ cao, ᦆ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng (ᦄ / ᦇ)",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm; ᦄ tổ cao, ᦇ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw / kv (ᦦ / ᦨ)",
+        "ipa": "kʷ",
+        "note": "Tắc ngạc mềm môi hóa; ᦦ tổ cao, ᦨ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khw / xv (ᦧ / ᦩ)",
+        "ipa": "xʷ",
+        "note": "Xát ngạc mềm môi hóa; ᦧ tổ cao, ᦩ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sw (ᦪ / ᦫ)",
+        "ipa": "sʷ",
+        "note": "Xát chân răng môi hóa (ít gặp hơn kʷ, xʷ); ᦪ tổ cao, ᦫ tổ thấp",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "' / q (ᦀ / ᦁ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đứng đầu âm tiết không có phụ âm đầu khác; ᦀ tổ cao, ᦁ tổ thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h (ᦠ / ᦣ)",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh; ᦠ tổ cao, ᦣ tổ thấp",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a (◌ / ◌ᦰ)",
+        "ipa": "a",
+        "note": "Nguyên âm ngắn; trong chữ New Tai Lue là nguyên âm mặc định (trong âm tiết đóng) hoặc kèm dấu tắc thanh hầu ᦰ [aʔ] ở âm tiết không có phụ âm cuối khác",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aa (◌ᦱ)",
+        "ipa": "aː",
+        "note": "Nguyên âm dài, đối lập âm vị học trực tiếp với /a/ ngắn cả trong âm tiết mở lẫn âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / ii (◌ᦲᦰ / ◌ᦲ)",
+        "ipa": "i ~ iː",
+        "note": "Nguyên âm trước khép; đọc dài [iː] ở âm tiết mở (◌ᦲ), đọc ngắn [i] khi có ᦰ [iʔ] hoặc đứng trước phụ âm cuối (không đối lập độ dài trong âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / ee (ᦵ◌ᦰ / ᦵ◌)",
+        "ipa": "e ~ eː",
+        "note": "Nguyên âm trước nửa khép; ký tự ᦵ viết bên trái phụ âm đầu; dài ở âm tiết mở, ngắn trước ᦰ [-ʔ] hoặc phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ae (ᦶ◌ᦰ / ᦶ◌)",
+        "ipa": "ɛ ~ ɛː",
+        "note": "Nguyên âm trước nửa mở; ký tự ᦶ viết bên trái phụ âm đầu; dài ở âm tiết mở, ngắn trước ᦰ [-ʔ] hoặc phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ue (◌ᦹᦰ / ◌ᦹ)",
+        "ipa": "ɯ ~ ɯː",
+        "note": "Nguyên âm sau không tròn môi khép (tương đương 'ư' tiếng Việt); dài ở âm tiết mở, ngắn trước ᦰ [-ʔ] hoặc phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oe (ᦵ◌ᦲᦰ / ᦵ◌ᦲ)",
+        "ipa": "ɤ ~ ɤː",
+        "note": "Nguyên âm sau không tròn môi nửa khép (tương đương 'ơ' tiếng Việt); dài ở âm tiết mở, ngắn trước ᦰ [-ʔ] hoặc phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / uu (◌ᦳ / ◌ᦴ)",
+        "ipa": "u ~ uː",
+        "note": "Nguyên âm sau tròn môi khép; ◌ᦴ dùng ở âm tiết mở [uː], ◌ᦳ dùng ở âm tiết mở ngắn [uʔ] hoặc trước phụ âm cuối [u]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / oo (ᦷ◌ᦰ / ᦷ◌)",
+        "ipa": "o ~ oː",
+        "note": "Nguyên âm sau tròn môi nửa khép; ký tự ᦷ viết bên trái phụ âm đầu; dài ở âm tiết mở, ngắn trước ᦰ [-ʔ] hoặc phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oa / aw (◌ᦸᦰ / ◌ᦸ)",
+        "ipa": "ɔ ~ ɔː",
+        "note": "Nguyên âm sau tròn môi nửa mở (tương đương 'o' tiếng Việt); dài ở âm tiết mở, ngắn trước ᦰ [-ʔ] hoặc phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai / aai (ᦺ◌ / ◌ᦻ)",
+        "ipa": "aj / aːj",
+        "note": "Đối lập ngắn - dài của vần kết thúc bằng bán nguyên âm [-j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ui, oi, oai, uei, oei (◌ᦼ, ◌ᦽ, ◌ᦾ, ◌ᦿ, ᦵ◌ᧀ)",
+        "ipa": "uj, oj, ɔj, ɯj, ɤj",
+        "note": "Các vần nguyên âm đôi kết thúc bằng bán nguyên âm [-j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "au, aau, iu, eu, aeu, oeu (◌ᧁ, ◌ᦱᧁ, ◌ᦲᧁ, ᦵ◌ᧁ, ᦶ◌ᧁ, ᦵ◌ᦲᧁ)",
+        "ipa": "aw, aːw, iw, ew, ɛw, ɤw",
+        "note": "Các vần nguyên âm đôi kết thúc bằng bán nguyên âm [-w]",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-m (ᧄ)",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n (ᧃ)",
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng (ᧂ)",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết (không môi hóa [ŋ͡m] sau u, o như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-p / -b (ᧇ)",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi không bật ra (tạo âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t / -d (ᧆ)",
+        "ipa": "t̚",
+        "note": "Âm tắc chân răng không bật ra (tạo âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k (ᧅ)",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm không bật ra (tạo âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y / -i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối tích hợp trong ký hiệu vần nguyên âm đôi (ᦺ◌, ◌ᦻ, ◌ᦼ...)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w / -u (ᧁ)",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ʔ (ᦰ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết sau nguyên âm ngắn không có phụ âm cuối khác",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1 (cao bằng — phụ âm tổ cao, không dấu)",
+        "mark": "",
+        "chao_contour": "55",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2 (cao xuống thấp — phụ âm tổ thấp, không dấu)",
+        "mark": "",
+        "chao_contour": "51",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3 (thấp đi lên — phụ âm tổ cao, dấu thanh 2)",
+        "mark": "ᧉ",
+        "chao_contour": "13",
+        "phonation": "có thể kèm thanh hầu hóa nhẹ ở cuối âm tiết",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4 (thấp bằng — phụ âm tổ thấp, dấu thanh 2)",
+        "mark": "ᧉ",
+        "chao_contour": "11",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5 (trung đi lên cao — phụ âm tổ cao, dấu thanh 1)",
+        "mark": "ᧈ",
+        "chao_contour": "35",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6 (trung bằng — phụ âm tổ thấp, dấu thanh 1)",
+        "mark": "ᧈ",
+        "chao_contour": "33",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu đặc trưng nhánh Thái Tây Nam: thanh điệu được quyết định bởi sự kết hợp giữa tổ phụ âm đầu (tổ cao / tổ thấp, phản ánh đối lập vô thanh / hữu thanh lịch sử của tiếng Thái tiền thân) và dấu thanh. Có 6 thanh ở âm tiết trơn (mở hoặc kết thúc bằng -m, -n, -ŋ, -j, -w). Ở âm tiết khép (-p, -t, -k, -ʔ), hệ thống thu hẹp còn 3 điệu hình: cao [55] (nguyên âm ngắn tổ cao, thanh 7), trung đi lên [35] (nguyên âm dài tổ cao, thanh 9) và trung bằng [33] (tổ thấp, thanh 8)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "ᦓᧄᧉ (nam²)",
+      "ipa": "nam11",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm / gạo / lúa",
+      "form": "ᦃᧁᧉ (ẋaw²)",
+      "ipa": "xaw13",
+      "gloss_en": "rice / food",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bản / nhà",
+      "form": "ᦢᦱᧃᧉ (ḃaan²)",
+      "ipa": "baːn13",
+      "gloss_en": "village / home",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mường / xứ sở",
+      "form": "ᦵᦙᦲᧂ (moeng)",
+      "ipa": "mɤŋ51",
+      "gloss_en": "country / city / muang",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruộng",
+      "form": "ᦓᦱ (naa)",
+      "ipa": "naː51",
+      "gloss_en": "wet ricefield",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ᦔᦱ (ṗaa)",
+      "ipa": "paː55",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "ᦂᦲᧃ (k̇iin)",
+      "ipa": "kin55",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "ᦂᦱᧈ (k̇aa¹)",
+      "ipa": "kaː35",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đến",
+      "form": "ᦙᦱ (maa)",
+      "ipa": "maː51",
+      "gloss_en": "to come",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "ᦕᦴᧉ (ṗhuu²)",
+      "ipa": "pʰuː13",
+      "gloss_en": "person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáo đôi (sáo mẹ con)",
+      "form": "pí me lụ",
+      "ipa": null,
+      "gloss_en": "double bamboo flute (mother-and-child flute)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "lễ cúng hồn trâu",
+      "form": "sú khon khoài",
+      "ipa": null,
+      "gloss_en": "buffalo-soul calling ritual",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Khắp Lự (Pấu pí khắp / Hát khắp)",
+        "note": "Thể loại dân ca trữ tình, tự sự và giao duyên tiêu biểu nhất của người Lự tại Lai Châu (Tam Đường, Sìn Hồ) cũng như vùng Bắc Lào. Lời ca thường được người hát ứng tác tại chỗ về tình yêu đôi lứa, mừng xuân mới, mừng nhà mới, ca ngợi bản mường; thường phải có tiếng sáo trúc đệm theo ('pấu pí khắp' nghĩa là thổi sáo hát khắp)."
+      },
+      {
+        "name": "Dân vũ / Xòe Lự (múa khăn, múa vỗ tay, xòe vòng)",
+        "note": "Các điệu múa tập thể khỏe khoắn gắn với sinh hoạt cộng đồng trong lễ Căm Mường, lễ Căm Lung (cúng rừng), lễ Kin Khẩu Máy (cơm mới) và lễ Sú Khon Khoài (cúng hồn trâu)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân mở đầu và buông trầm cuối câu trong Khắp Lự",
+        "description": "Mở đầu khúc khắp thường có tiếng dạo giọng ngân dài vút cao tha thiết, nhịp điệu tự do nương theo thanh điệu lời ca ứng tác; cuối câu ngân dài rồi hạ trầm xuống hòa quyện với tiếng sáo đôi.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung nhóm Tày - Thái",
+        "note": "Giai điệu khắp Lự vận hành trên thang âm ngũ cung không bán âm, đường nét giai điệu bám sát độ cao và hướng đi của hệ thống thanh điệu tiếng Lự.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Pí me lụ (Sáo đôi)",
+        "note": "Nhạc cụ truyền thống đặc sắc nhất của người Lự ở Lai Châu, gồm hai ống sáo nứa ghép song song do nam giới chế tác và diễn tấu: 'pí me' (sáo mẹ, ống to và dài) và 'pí lụ' (sáo con, ống nhỏ và ngắn), tạo âm sắc hai bè réo rắt dùng để tỏ tình và đệm hát khắp."
+      },
+      {
+        "name": "Trống (Kỏng)",
+        "note": "Giữ nhịp chủ đạo trong vòng xòe và các nghi lễ bản mường."
+      },
+      {
+        "name": "Chiêng",
+        "note": "Hòa tấu cùng trống trong lễ hội cộng đồng và múa dân gian."
+      },
+      {
+        "name": "Nhị hai dây (Xo)",
+        "note": "Nhạc cụ kéo dây đôi khi được dùng đệm cho lối hát khắp."
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "ᦅᧄᦺᦑᦟᦹᧉ (kam tai lue²)",
+        "quoc_ngu": "căm tay lừ",
+        "note": "Thanh [51] của 'kam' và 'tai' (tổ thấp không dấu) cao rồi hạ gấp, không có thanh tương đương hoàn toàn trong tiếng Việt chuẩn (tạm ghi bằng thanh ngang); thanh [11] của 'lue²' gần với thanh huyền trầm."
+      },
+      {
+        "native": "ᦓᧄᧉ (nam²)",
+        "quoc_ngu": "nằm / nặm",
+        "note": "IPA /nam11/: nguyên âm /a/ ngắn + thanh thấp bằng [11]; dân gian Tây Bắc thường phiên là 'nặm' hoặc 'nằm'."
+      },
+      {
+        "native": "ᦃᧁᧉ (ẋaw²)",
+        "quoc_ngu": "khảu / khẩu",
+        "note": "IPA /xaw13/: phụ âm đầu /x/ tương ứng 'kh' tiếng Việt; thanh [13] thấp đi lên gần với phần sau của thanh hỏi tiếng Việt."
+      },
+      {
+        "native": "ᦢᦱᧃᧉ (ḃaan²)",
+        "quoc_ngu": "bản",
+        "note": "IPA /baːn13/: nguyên âm /aː/ dài + thanh [13], khớp tự nhiên với từ vay mượn/cùng gốc 'bản' trong tiếng Việt."
+      },
+      {
+        "native": "ᦵᦙᦲᧂ (moeng)",
+        "quoc_ngu": "mơng / mường",
+        "note": "IPA /mɤŋ51/: nguyên âm đơn /ɤ/ ('ơ') chứ không phải nguyên âm đôi /ɨə/ ('ươ'), dù tương ứng từ nguyên với 'mường'."
+      },
+      {
+        "native": "ᦕᦴᧉ (ṗhuu²)",
+        "quoc_ngu": "p-hủ / phủ",
+        "note": "IPA /pʰuː13/: âm tắc hai môi bật hơi [pʰ] KHÔNG có trong tiếng Việt chuẩn (chữ 'ph' Quốc ngữ đọc là âm xát môi-răng [f]). Mô hình TTS chỉ biết tiếng Việt sẽ đọc sai thành [f] nếu viết 'phủ'; nếu viết 'pủ' thì mất tính bật hơi."
+      },
+      {
+        "native": "ᦔᦱ (ṗaa)",
+        "quoc_ngu": "pa / pá",
+        "note": "IPA /paː55/: phụ âm đầu /p/ đứng đầu âm tiết ít phổ biến trong từ thuần Việt (một số người Việt dễ đọc nhầm thành /b/); thanh [55] cao bằng cao hơn thanh ngang [33] của tiếng Việt."
+      },
+      {
+        "native": "ᦈᧁᧉ (ṫsaw²)",
+        "quoc_ngu": "chảu",
+        "note": "IPA /t͡saw13/: âm tắc-xát chân răng [t͡s] không có trong tiếng Việt chuẩn; xấp xỉ gần nhất trong Quốc ngữ là 'ch' [t͡ɕ ~ c]."
+      },
+      {
+        "native": "ᦩᦱᧄ (xwaam)",
+        "quoc_ngu": "khoam",
+        "note": "IPA /xʷaːm51/: phụ âm môi hóa /xʷ/ xấp xỉ tốt bằng tổ hợp 'kho-' trong chữ Quốc ngữ."
+      }
+    ],
+    "phonemes_absent_in_vietnamese": [
+      "/pʰ/: tắc hai môi vô thanh bật hơi (Quốc ngữ 'ph' là [f])",
+      "/t͡s/: tắc-xát chân răng vô thanh (chỉ khi đứng trước /i, e, ɛ/ mới ngạc hóa thành [t͡ɕ] gần với 'ch' Bắc Bộ)",
+      "/sʷ/: xát chân răng môi hóa",
+      "Đối lập âm tiết mở nguyên âm dài [Vː] với âm tiết nguyên âm ngắn khép bằng tắc thanh hầu [Vʔ] (ký tự ᦰ) ở toàn bộ 9 nguyên âm (trong âm tiết đóng bằng phụ âm mũi/tắc thì chỉ duy trì đối lập độ dài /a – aː/)",
+      "Thanh điệu [51] (cao giáng mạnh không nghẽn thanh hầu) và thanh [55] (cao bằng)"
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tiếng Lự tại Lai Châu — nhóm Lự Đen (Lừ Đăm)",
+        "iso639_3": "khb",
+        "note": "Ở Việt Nam chỉ có nhóm địa phương Lự Đen (Lừ Đăm) cư trú tại Tam Đường, Sìn Hồ và Than Uyên (Lai Châu), phân biệt với nhóm Lự Trắng (Lừ Khao) ở Tây Song Bản Nạp (Trung Quốc); có tiếp xúc song ngữ với tiếng Thái Đen (blt), tiếng Thái Trắng (twh) và tiếng Việt (vie)."
+      },
+      {
+        "name": "Phương ngữ Cảnh Hồng / Tây Song Bản Nạp (Xishuangbanna / Jinghong Lü)",
+        "iso639_3": "khb",
+        "note": "Phương ngữ chuẩn hóa tại Vân Nam (Trung Quốc), cơ sở của chữ New Tai Lue."
+      },
+      {
+        "name": "Phương ngữ Mường Yong (Myanmar) & Bắc Lào / Bắc Thái Lan",
+        "iso639_3": "khb",
+        "note": "Giữ chữ Tai Tham truyền thống; hệ thống tách nhập thanh điệu ở Mường Yong gần với tiếng Khün (kkh) và Bắc Thái / Kham Mueang (nod)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ᦓᧄᧉ",
+        "romanization": "nam²",
+        "ipa": "nam11",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "ᦃᧁᧉ",
+        "romanization": "ẋaw²",
+        "ipa": "xaw13",
+        "gloss_vi": "cơm, gạo, lúa"
+      },
+      {
+        "native": "ᦢᦱᧃᧉ",
+        "romanization": "ḃaan²",
+        "ipa": "baːn13",
+        "gloss_vi": "bản, nhà"
+      },
+      {
+        "native": "ᦵᦙᦲᧂ",
+        "romanization": "moeng",
+        "ipa": "mɤŋ51",
+        "gloss_vi": "mường, xứ sở"
+      },
+      {
+        "native": "ᦓᦱ",
+        "romanization": "naa",
+        "ipa": "naː51",
+        "gloss_vi": "ruộng nước"
+      },
+      {
+        "native": "ᦔᦱ",
+        "romanization": "ṗaa",
+        "ipa": "paː55",
+        "gloss_vi": "cá"
+      },
+      {
+        "native": "ᦅᧄ",
+        "romanization": "kam",
+        "ipa": "kam51",
+        "gloss_vi": "lời nói, tiếng"
+      },
+      {
+        "native": "ᦂᦲᧃ",
+        "romanization": "k̇iin",
+        "ipa": "kin55",
+        "gloss_vi": "ăn"
+      },
+      {
+        "native": "ᦂᦱᧈ",
+        "romanization": "k̇aa¹",
+        "ipa": "kaː35",
+        "gloss_vi": "đi"
+      },
+      {
+        "native": "ᦙᦱ",
+        "romanization": "maa",
+        "ipa": "maː51",
+        "gloss_vi": "đến"
+      },
+      {
+        "native": "ᦣᦴᧉ",
+        "romanization": "huu²",
+        "ipa": "huː11",
+        "gloss_vi": "biết"
+      },
+      {
+        "native": "ᦕᦴᧉ",
+        "romanization": "ṗhuu²",
+        "ipa": "pʰuː13",
+        "gloss_vi": "người"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Lü (luuu1242)",
+      "url": "https://glottolog.org/resource/languoid/id/luuu1242",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tai Lue language",
+      "url": "https://en.wikipedia.org/wiki/Tai_Lue_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — New Tai Lue alphabet",
+      "url": "https://en.wikipedia.org/wiki/New_Tai_Lue_alphabet",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Lự & Tiếng Lự",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_L%E1%BB%B1",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "The Unicode Standard — New Tai Lue (U+1980–U+19DF) & Tai Tham (U+1A20–U+1AAF)",
+      "url": "https://www.unicode.org/charts/PDF/U1980.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Mục từ tiếng Lự (dẫn từ Hanna, William J. 2019, Dai Lue - English Dictionary, SIL International)",
+      "url": "https://en.wiktionary.org/wiki/%E1%A6%93%E1%A7%84%E1%A7%89",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả Điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Li, Fang-Kuei (1964). The phonemic system of the Tai Lü language. Bulletin of the Institute of History and Philology, Academia Sinica, 35, 7–14.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[0]",
+          "severity": "medium",
+          "problem": "Bản nháp ghi tại Lai Châu (Việt Nam) có cả hai nhóm 'Lự Đen (Lự Đăm) và Lự Trắng'. Tuy nhiên, các tài liệu dân tộc học chính thống tại Việt Nam (Ủy ban Dân tộc, VOV4) ghi nhận ở Việt Nam chỉ có nhóm địa phương Lự Đen (Lừ Đăm), phân biệt với nhóm Lự Trắng (Lừ Khao) cư trú ở Tây Song Bản Nạp (Trung Quốc).",
+          "fix": "Sửa lại tên và ghi chú của sub_varieties[0] để phản ánh đúng việc người Lự tại Lai Châu thuộc nhóm Lự Đen (Lừ Đăm)."
+        },
+        {
+          "path": "phonology.vowels & ml_hints.phonemes_absent_in_vietnamese",
+          "severity": "medium",
+          "problem": "Theo Li (1964) và cấu trúc chữ New Tai Lue, chỉ có cặp /a/ – /aː/ đối lập độ dài âm vị học thực sự trong âm tiết đóng. Với 8 nguyên âm còn lại (/i, e, ɛ, ɯ, ɤ, u, o, ɔ/), biến thể ngắn chỉ xuất hiện trước âm tắc thanh hầu cuối âm tiết /-ʔ/ (ký tự ᦰ, vốn đã được liệt kê trong phonology.codas) hoặc trong âm tiết đóng (nơi không có đối lập ngắn–dài). Việc vừa liệt kê /-ʔ/ ở codas vừa khẳng định đối lập độ dài âm vị học ở tất cả 9 nguyên âm là tính trùng (double-counting).",
+          "fix": "Làm rõ trong phonology.vowels và ml_hints.phonemes_absent_in_vietnamese rằng đối lập độ dài âm vị học độc lập chỉ có ở /a – aː/, còn ở các nguyên âm khác độ dài phụ thuộc vào cấu trúc âm tiết (dài ở âm tiết mở, ngắn trước /-ʔ/ ᦰ hoặc phụ âm cuối)."
+        },
+        {
+          "path": "status_note",
+          "severity": "low",
+          "problem": "Có lỗi ký tự lạ tiếng Hàn 'văn헌' trong chuỗi tiếng Việt.",
+          "fix": "Sửa 'văn헌 quốc tế' thành 'tài liệu ngôn ngữ học quốc tế'."
+        },
+        {
+          "path": "lexicon[10].confidence & lexicon[11].confidence",
+          "severity": "low",
+          "problem": "Hai mục từ văn hóa địa phương ('pí me lụ', 'sú khon khoài') chỉ có dạng phiên âm chữ Quốc ngữ từ báo chí địa phương, chưa có dạng chữ Lự chuẩn và IPA kiểm chứng.",
+          "fix": "Hạ confidence từ 'medium' xuống 'low'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần khảo sát thực địa tại xã Bản Hon, Bình Lư (Tam Đường) và Nậm Tăm, Ma Quai (Sìn Hồ), Lai Châu để đo đạc trị số thanh điệu Chao chính xác của phương ngữ Lự tại Việt Nam so với chuẩn Cảnh Hồng (Vân Nam).",
+      "Cần nghệ nhân dân tộc Lự tại Lai Châu kiểm tra chuẩn ghi âm IPA cho các thuật ngữ văn hóa - âm nhạc địa phương như 'pí me lụ', 'pấu pí khắp', 'sú khon khoài', 'kin khẩu máy'.",
+      "Cần xác minh mức độ bảo lưu chữ Tai Tham cổ trong các dòng họ người Lự tại Lai Châu hiện nay."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

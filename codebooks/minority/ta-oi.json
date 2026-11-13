@@ -1,0 +1,868 @@
+{
+  "id": "ta-oi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tà Ôi",
+  "name_en": "Upper Ta'oih (Ta'Oi)",
+  "autonym": "Ta Ôih / Ta'uaih / Ta Uôs",
+  "ethnic_group_vi": "Tà Ôi",
+  "language": {
+    "iso639_3": "tth",
+    "glottocode": "uppe1406",
+    "family": "Austroasiatic",
+    "branch": "Katuic (Ta'oihic / Ong-Ta'oih)"
+  },
+  "regions": [
+    "TP. Huế (khu vực A Lưới, Nam Đông)",
+    "Quảng Trị (khu vực Đakrông, Hướng Hóa)",
+    "Nam Lào (tỉnh Salavan, Sekong, Champasak)"
+  ],
+  "speakers_estimate": "Dân tộc Tà Ôi tại Việt Nam có 52.356 người (Điều tra 53 DTTS năm 2019, bao gồm cả nhóm Pa Cô và Pa Hy); riêng số người nói tiếng Tà Ôi Thượng (tth) ước tính khoảng 10.000–20.000 người tại Việt Nam và khoảng 49.900 người tính chung cả Việt Nam và Lào.",
+  "scripts": [
+    {
+      "name": "Chữ Latinh Pa Cô – Tà Ôi (dựa trên chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Khởi nguồn từ bộ chữ do Hồ Ngọc Mỹ (Ku Nô) biên soạn tại A Lưới thời kháng chiến và bộ chữ Latinh của SIL trước 1975, sau đó được Viện Ngôn ngữ học (GS. Hoàng Tuệ chủ biên, Nguyễn Văn Lợi, Đoàn Văn Phúc, Phan Xuân Thành) chuẩn hóa trong 'Sách học tiếng Pakôh - Taôih' (1986) và dùng trong tài liệu dạy học của tỉnh Thừa Thiên Huế (2004, 2014, 2018). Tỷ lệ người dân đọc thông viết thạo chữ dân tộc còn thấp (~6,3% năm 2019)."
+    },
+    {
+      "name": "Chữ Lào (phương án thử nghiệm tại Lào)",
+      "iso15924": "Laoo",
+      "unicode_block": "Lao",
+      "official_in_vietnam": false,
+      "note": "Được đề xuất và thử nghiệm cho phương ngữ Ta'uaih tại tỉnh Salavan, Lào (van der Haak 1993); không sử dụng tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các nguồn ngôn ngữ học Katuic (Sidwell 2005; van der Haak 1993; Gehrmann & Conver 2015; Georgi 2019; tài liệu Pakôh - Taôih tại Huế). Ở Việt Nam, tên gọi hành chính 'dân tộc Tà Ôi' bao hàm cả nhóm Tà Ôi đích thực (tth), Pa Cô (pac) và Pa Hy; bộ chữ viết phổ biến tại địa phương dùng chung quy ước chính tả Pa Cô – Tà Ôi nên cần người bản ngữ từng nhóm xác nhận thêm ranh giới biến thể.",
+  "phonology": {
+    "syllable_structure": "(CpVp)C1(C2)V(Cf) — cấu trúc âm tiết rưỡi (sesquisyllabic) đặc trưng của nhánh Katuic, gồm tiền âm tiết nhẹ không trọng âm (như a-, ka-, ta-, pa- hoặc âm mũi n-, m-, ng-) và âm tiết chính mang trọng âm.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (đứng đầu âm tiết chính và tiền âm tiết)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh; các tài liệu mới ưu tiên viết 'k' thống nhất ở đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / ' / (không ghi đầu từ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu; thường không ghi trước nguyên âm đầu từ nhưng ghi bằng 'q' hoặc dấu nháy đơn ở vị trí giữa từ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc lợi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (tần suất thấp ở một số thổ ngữ như Ta'uaih)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (chủ yếu trong từ vay mượn hoặc biến thể địa phương)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ʔb",
+        "note": "Tắc hai môi hữu thanh (thường tiền thanh hầu hóa nhẹ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d ~ ʔd",
+        "note": "Tắc lợi hữu thanh; trong một số văn bản viết là 'd' (như dóng, dăm), một số tài liệu cũ dùng 'đ'",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ ~ ʔj",
+        "note": "Tắc ngạc cứng hữu thanh hoặc bán nguyên âm tiền thanh hầu hóa [ʔj]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung đầu lưỡi; cũng xuất hiện ở vị trí C2 trong tổ hợp phụ âm đầu (tr-, pr-, kr-, br-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên lợi; cũng xuất hiện ở vị trí C2 trong tổ hợp phụ âm đầu (pl-, kl-, bl-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v / w",
+        "ipa": "w ~ v",
+        "note": "Tiếp cận môi - ngạc mềm [w] trong hệ thống Katuic gốc; chữ viết tại Việt Nam thường ghi bằng 'v' (như vê)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / ii",
+        "ipa": "i / iː",
+        "note": "Nguyên âm đóng hàng trước ngắn và dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / êê",
+        "ipa": "e / eː",
+        "note": "Nguyên âm nửa đóng hàng trước; âm vực căng thường ghi kèm dấu sắc (ế / êế)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e / ee",
+        "ipa": "ɛ / ɛː",
+        "note": "Nguyên âm nửa mở hàng trước; âm vực căng thường ghi kèm dấu sắc (é / eé, ví dụ tanteéch)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư / ưư",
+        "ipa": "ɨ / ɨː",
+        "note": "Nguyên âm đóng hàng giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa ngắn (ví dụ kât)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ơơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (ví dụ măi, tăk, urăq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / aa",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / uu",
+        "ipa": "u / uː",
+        "note": "Nguyên âm đóng hàng sau tròn môi; âm vực căng ghi kèm dấu sắc (ú, ví dụ karlúh, ntúq)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô / ôô",
+        "ipa": "o / oː",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi (ví dụ tôm, tapôôl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / oo",
+        "ipa": "ɔ / ɔː",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi; âm vực căng ghi 'ó' hoặc 'oó' (ví dụ dóng, koónh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɨə",
+        "note": "Nguyên âm đôi hướng tâm hàng giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm hàng sau (ví dụ atruôi /atruəj/)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc lợi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ch",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi đóng âm tiết (ví dụ tanteéch)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k / -c",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm đóng âm tiết (thường viết '-k' để tránh nhầm với chữ Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ aluq, urăq, ntúq) — rất phổ biến và khu biệt nghĩa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi lợi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi cuối âm tiết (ví dụ akoonh, koónh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết (ví dụ ndong, dóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (ví dụ karlúh, akăh) — không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ih / -s",
+        "ipa": "jh ~ ç",
+        "note": "Tổ hợp bán nguyên âm + xát cuối âm tiết (ví dụ Ta Ôih ~ Ta Uôs)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Bên lợi cuối âm tiết (ví dụ ndil, tapôôl) — không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r",
+        "note": "Rung đầu lưỡi cuối âm tiết (ví dụ bar, Loar) — không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-i / -y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-u / -o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi - ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-mq, -nq, -ngq, -lq, -wq, -yq",
+        "ipa": "mˀ, nˀ, ŋˀ, lˀ, wˀ, jˀ",
+        "note": "Chuỗi âm vang thanh hầu hóa cuối âm tiết được ghi nhận trong cụm phương ngữ Tà Ôi (Sidwell 2005); cách ghi chính tả dao động giữa các tài liệu",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có hệ thống thanh điệu đa tuyến kiểu tiếng Việt. Nhiều biến thể trong cụm Tà Ôi – Pa Cô có sự đối lập âm vực/chất giọng (register/phonation) gồm 2 âm vực: âm vực thường/lơi (modal/lax) và âm vực căng/kẹt thanh hầu (tense/creaky, ví dụ /ba̰ːr/ 'hai'; trong chính tả Pakôh - Taôih ở Việt Nam thường đánh dấu bằng dấu sắc như koónh, tanteéch, karlúh). Một số thổ ngữ như Ta'uaih ở Lào trung hòa đối lập âm vực trên nguyên âm nhưng bảo lưu đối lập độ dài nguyên âm và hệ thống âm cuối thanh hầu hóa (/-ʔ/, /-h/, /-Cˀ/)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi",
+      "form": "ku",
+      "ipa": "ku",
+      "gloss_en": "I (1sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / mày",
+      "form": "măi",
+      "ipa": "maj",
+      "gloss_en": "you (2sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / anh ấy / cô ấy",
+      "form": "o",
+      "ipa": "ɔː ~ o",
+      "gloss_en": "he / she / it (3sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng tôi / chúng ta",
+      "form": "he",
+      "ipa": "hɛː ~ he",
+      "gloss_en": "we (1pl)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai chúng tôi",
+      "form": "nhăng / nhoong",
+      "ipa": "ɲaŋ ~ ɲɔːŋ",
+      "gloss_en": "we two (1du)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "các bạn",
+      "form": "ipe",
+      "ipa": "ipɛː",
+      "gloss_en": "you (2pl)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "họ",
+      "form": "ape",
+      "ipa": "apɛː",
+      "gloss_en": "they (3pl)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "akoonh / akoónh",
+      "ipa": "akɔːɲ",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người đàn ông",
+      "form": "koonh / koónh",
+      "ipa": "kɔːɲ",
+      "gloss_en": "man",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "phụ nữ / cô gái",
+      "form": "ndil",
+      "ipa": "ndil",
+      "gloss_en": "woman / girl",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "atruôi",
+      "ipa": "atruəj",
+      "gloss_en": "chicken",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ",
+      "form": "aluq",
+      "ipa": "aluʔ",
+      "gloss_en": "tiger",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "tôm ndong",
+      "ipa": "toːm ndɔŋ",
+      "gloss_en": "tree",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sách / chữ",
+      "form": "urăq",
+      "ipa": "uraʔ",
+      "gloss_en": "book / writing",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "bar",
+      "ipa": "ba̰ːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "có (tồn tại)",
+      "form": "vê",
+      "ipa": "veː ~ weː",
+      "gloss_en": "to exist / there is",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chạy",
+      "form": "karlúh",
+      "ipa": "karluh",
+      "gloss_en": "to run",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngã / đổ",
+      "form": "dăm",
+      "ipa": "dam",
+      "gloss_en": "to fall",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhìn thấy",
+      "form": "akăh",
+      "ipa": "akah",
+      "gloss_en": "to see",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đưa / cho",
+      "form": "dóng",
+      "ipa": "dɔŋ",
+      "gloss_en": "to give",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Cha chấp (Chachấp)",
+        "note": "Làn điệu hát đối đáp giao duyên trữ tình phổ biến nhất của nam nữ thanh niên Tà Ôi – Pa Cô, giàu tính ứng tác."
+      },
+      {
+        "name": "Ka lơi (Calơi)",
+        "note": "Lối hát đối đáp trong hội hè, lễ cúng (như lễ Aza Koonh mừng lúa mới), khi uống rượu cần hoặc tiếp khách."
+      },
+      {
+        "name": "Ba boih (Babói)",
+        "note": "Điệu hát tự sự một mình khi đi đường rừng hoặc đang lao động trên nương rẫy."
+      },
+      {
+        "name": "Rơih (Roih / Rarọi)",
+        "note": "Điệu hát khuyên răn, gửi gắm, dặn dò con cháu hoặc tâm sự trong các dịp sinh hoạt cộng đồng."
+      },
+      {
+        "name": "Ântói, A dên, Xiêng, Hát ru",
+        "note": "Các điệu hát gắn với nghi lễ vòng đời, chu kỳ cây lúa và sinh hoạt gia đình."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Hát nói trì tục trên trục âm hẹp",
+        "description": "Giai điệu thiên về tính hát nói (recitative), nhắc lại liên tục một cao độ trì tục với tầm cữ hẹp (thường không quá quãng 4), bám sát ngữ điệu tự nhiên của tiếng Tà Ôi vốn không có hệ thống thanh điệu lên xuống phức tạp.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm hẹp 2–4 âm (quãng 2, quãng 3, quãng 4)",
+        "note": "Phần lớn làn điệu vận hành bình ổn, ít quãng nhảy lớn, xoay quanh trục chủ đạo 2–4 âm; có xuất hiện các cao độ trung tính thấp hơn nửa cung bình quân phương Tây (đặc biệt trên sáo Areeng).",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn Ta lư (Ânbrư)",
+        "note": "Nhạc cụ dây gảy truyền thống nổi tiếng của vùng Tà Ôi – Pa Cô – Vân Kiều"
+      },
+      {
+        "name": "Đàn Ân Toong (Atoong)",
+        "note": "Đàn gõ gồm 7 thanh gỗ nhẹ treo song song trên giá đỡ, đặc thù của tộc Tà Ôi"
+      },
+      {
+        "name": "Ămprây (Amprây)",
+        "note": "Nhạc cụ tự thân vang gồm chùm 5 quả rừng khô gắn trên cán dài, dậm nhịp xuống đất tạo âm thanh rộn ràng"
+      },
+      {
+        "name": "Sáo Areeng (Areng)",
+        "note": "Sáo thổi dọc bằng ống nứa (~34 cm) có lưỡi gà rung và 2 lỗ bấm, thường dùng trong tục đi sim tỏ tình"
+      },
+      {
+        "name": "Khèn bè (14 ống nứa), Kèn Tirel, A mam, Đàn Abel",
+        "note": "Các nhạc cụ hơi và dây đệm cho dân ca giao duyên"
+      },
+      {
+        "name": "Cồng chiêng (chiêng núm, chiêng bằng), Trống, Tù và sừng trâu/dê",
+        "note": "Dùng trong lễ hội cộng đồng (Aza Koonh, A Pier), đám ma và múa dân gian"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Upper Ta'oih / Tà Ôi Thượng (Tà Ôi đích thực, Pasoom, Kamuan', Palee'n, Leem, Ha'aang; bao gồm cả Ta'uaih / Ta Uôs)",
+        "iso639_3": "tth",
+        "glottocode": "uppe1406",
+        "note": "Biến thể chính của người Tà Ôi đích thực tại A Lưới (Huế) và tỉnh Salavan, Sekong (Lào)."
+      },
+      {
+        "name": "Lower Ta'oih / Tà Ôi Hạ (Tong, Hantong')",
+        "iso639_3": "tto",
+        "glottocode": "lowe1395",
+        "note": "Phân bố chủ yếu tại Nam Lào."
+      },
+      {
+        "name": "Pacoh / Tiếng Pa Cô",
+        "iso639_3": "pac",
+        "glottocode": "paco1243",
+        "note": "Ngôn ngữ của nhóm Pa Cô (thuộc dân tộc Tà Ôi theo danh mục 54 dân tộc Việt Nam), cư trú đông tại Hướng Hóa, Đakrông (Quảng Trị) và A Lưới (Huế). Khác nhánh con với Upper Ta'oih theo phân loại Katuic của Sidwell (2005) và Alves (2006), nhưng dùng chung truyền thống chữ viết Pakôh - Taôih ở Việt Nam."
+      },
+      {
+        "name": "Pa Hy (Ba Hi)",
+        "iso639_3": "pac",
+        "glottocode": "pahi1245",
+        "note": "Nhóm địa phương thứ ba được xếp chung vào dân tộc Tà Ôi tại Việt Nam (Quảng Trị, Huế), thường được xếp là phương ngữ của tiếng Pacoh (pac) dù vị trí phân loại chi tiết còn thảo luận."
+      },
+      {
+        "name": "Ong / Ir (Ta'oiq)",
+        "iso639_3": "oog",
+        "glottocode": "ongg1239",
+        "note": "Biến thể thuộc cụm phương ngữ Tà Ôi tại Lào (cùng nhóm với Ir [irr])."
+      },
+      {
+        "name": "Ir (Yir)",
+        "iso639_3": "irr",
+        "glottocode": "irrr1240",
+        "note": "Biến thể thuộc cụm phương ngữ Tà Ôi tại tỉnh Salavan, Lào; trong Glottolog 5.3 được xếp vào mục Bookkeeping do trùng khít với Ong [oog] (Ferlus 1974: 113), còn phương ngữ Hantong' (hant1239) thuộc Lower Ta'oih (lowe1395)."
+      },
+      {
+        "name": "Kriang / Ngeq (Ngkriang)",
+        "iso639_3": "ngt",
+        "glottocode": "ngeq1245",
+        "note": "Ngôn ngữ họ hàng gần trong nhánh Ta'oihic tại Sekong và Salavan, Lào."
+      },
+      {
+        "name": "Northern Katang & Southern Katang",
+        "iso639_3": "ncq / sct",
+        "glottocode": "nort3270 / sout3251",
+        "note": "Tách từ mã cũ Kataang [kgd] (kata1264) năm 2017; Southern Katang [sct] (sout3251) thuộc dải phương ngữ Ta'oihic, trong khi Northern Katang [ncq] (nort3270) thuộc nhánh West Katuic / Brou-So (Gehrmann 2016)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "karlúh",
+        "quoc_ngu": "ca-lú-hờ (lướt cực nhanh ca-lúh)",
+        "note": "Tiếng Việt không có âm cuối /-r/ và /-h/ cũng như tiền âm tiết /kar-/. Tách tiền âm tiết thành âm tiết nhẹ lướt nhanh; âm cuối /-h/ bật hơi nhẹ ở cuối nguyên âm thay vì đọc thành một âm tiết rời."
+      },
+      {
+        "native": "atruôi",
+        "quoc_ngu": "ơ-truôi",
+        "note": "Tiền âm tiết 'a-' không mang trọng âm, đọc lướt nhẹ như 'ơ-' ngắn trước âm tiết chính 'truôi'; phụ âm kép /tr-/ đọc bật cụm [tr] chứ không quặt lưỡi thành [ʈ] đơn."
+      },
+      {
+        "native": "aluq",
+        "quoc_ngu": "ơ-lụ (ngắt tắc cổ họng)",
+        "note": "Âm cuối '-q' là âm tắc thanh hầu /-ʔ/ (không có con chữ tương đương trong Quốc ngữ). Có thể mượn thanh nặng tiếng Việt miền Bắc (vốn có tính thanh hầu hóa ngắt gấp ở cuối) trên âm tiết mở để xấp xỉ."
+      },
+      {
+        "native": "ndil",
+        "quoc_ngu": "ờn-đin (uốn lưỡi âm cuối -l)",
+        "note": "Tiếng Việt không có tiền âm tiết mũi /n-/ đứng trước /d/ và không có âm cuối /-l/. Mô hình chỉ biết tiếng Việt sẽ đọc '-l' như '-n', mất đối lập /-l/ và /-n/."
+      },
+      {
+        "native": "bar",
+        "quoc_ngu": "ba-rờ (ngân r cuối, giọng kẹt nhẹ)",
+        "note": "Tiếng Việt không có âm rung cuối âm tiết /-r/ và không phân biệt chất giọng kẹt thanh hầu /ba̰ːr/ độc lập với thanh điệu."
+      },
+      {
+        "native": "akoonh",
+        "quoc_ngu": "ơ-cônh (mở miệng như 'o' dài)",
+        "note": "Trong Quốc ngữ, vần '-onh' không tồn tại (chỉ có '-ông' hoặc '-oanh'), trong khi Tà Ôi kết hợp trực tiếp nguyên âm /ɔː/ với âm mũi mặt lưỡi /-ɲ/."
+      },
+      {
+        "native": "tanteéch",
+        "quoc_ngu": "tăn-tếch (mở rộng miệng nguyên âm e)",
+        "note": "Tiếng Việt chuẩn không có sự kết hợp nguyên âm mở trước /ɛː/ dài với âm cuối mặt lưỡi /-c/ (Quốc ngữ chỉ có 'êch' hoặc 'ách')."
+      },
+      {
+        "native": "Ta Ôih",
+        "quoc_ngu": "ta ôi-hờ (xì hơi nhẹ cuối chữ ôi)",
+        "note": "Âm cuối /-jh/ kết hợp bán nguyên âm /j/ với luồng hơi thanh hầu /h/, không có trong hệ thống vần tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ku",
+        "ipa": "ku",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "măi",
+        "ipa": "maj",
+        "meaning_vi": "bạn, mày"
+      },
+      {
+        "native": "o",
+        "ipa": "ɔː",
+        "meaning_vi": "nó, anh ấy, cô ấy"
+      },
+      {
+        "native": "he",
+        "ipa": "hɛː",
+        "meaning_vi": "chúng tôi, chúng ta"
+      },
+      {
+        "native": "ape",
+        "ipa": "apɛː",
+        "meaning_vi": "họ"
+      },
+      {
+        "native": "bar",
+        "ipa": "ba̰ːr",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "atruôi",
+        "ipa": "atruəj",
+        "meaning_vi": "con gà"
+      },
+      {
+        "native": "aluq",
+        "ipa": "aluʔ",
+        "meaning_vi": "con hổ"
+      },
+      {
+        "native": "ndil",
+        "ipa": "ndil",
+        "meaning_vi": "phụ nữ, cô gái"
+      },
+      {
+        "native": "akoonh",
+        "ipa": "akɔːɲ",
+        "meaning_vi": "cha, bố"
+      },
+      {
+        "native": "urăq",
+        "ipa": "uraʔ",
+        "meaning_vi": "sách, chữ viết"
+      },
+      {
+        "native": "vê",
+        "ipa": "veː",
+        "meaning_vi": "có (tồn tại)"
+      },
+      {
+        "native": "karlúh",
+        "ipa": "karluh",
+        "meaning_vi": "chạy"
+      },
+      {
+        "native": "dăm",
+        "ipa": "dam",
+        "meaning_vi": "ngã, đổ"
+      },
+      {
+        "native": "akăh",
+        "ipa": "akah",
+        "meaning_vi": "nhìn thấy"
+      }
+    ],
+    "phonological_gaps_vs_vietnamese": [
+      "Cấu trúc âm tiết rưỡi (sesquisyllable) có tiền âm tiết không trọng âm và tiền âm tiết mũi (nd-, nt-, ngk-, mp-) trái với cấu trúc đơn âm tiết tách rời của tiếng Việt.",
+      "Tổ hợp phụ âm đầu có âm lỏng C2 (pr-, tr-, kr-, pl-, kl-, bl-) không tồn tại trong tiếng Việt hiện đại.",
+      "Các phụ âm cuối /-r/, /-l/, /-h/, /-ʔ/ (sau nguyên âm mở), /-jh/ và dãy âm vang thanh hầu hóa cuối âm tiết /-mˀ, -nˀ, -ŋˀ, -lˀ, -wˀ, -jˀ/ hoàn toàn vắng mặt trong tiếng Việt chuẩn.",
+      "Đối lập độ dài nguyên âm (ngắn/dài) trên toàn bộ 9 vị trí nguyên âm đơn và đối lập âm vực chất giọng (căng/lơi) thay cho hệ thống 6 thanh điệu."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Upper Ta'oih (uppe1406)",
+      "url": "https://glottolog.org/resource/languoid/id/uppe1406",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Ta'oihic (taoi1247)",
+      "url": "https://glottolog.org/resource/languoid/id/taoi1247",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Ta'Oi language",
+      "url": "https://en.wikipedia.org/wiki/Ta%27Oi_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Tà Ôi",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_T%C3%A0_%C3%94i",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Thể loại: Tiếng Tà Ôi Thượng",
+      "url": "https://vi.wiktionary.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:Ti%E1%BA%BFng_T%C3%A0_%C3%94i_Th%C6%B0%E1%BB%A3ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sidwell, Paul (2005). The Katuic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: Lincom Europa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "van der Haak, Feikje (1993). Ta'uaih phonology and orthography: a preliminary statement. Mon-Khmer Studies Journal, 22, 257–264.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hoàng Tuệ (chủ biên), Nguyễn Văn Lợi, Đoàn Văn Phúc, Phan Xuân Thành (1986). Sách học tiếng Pakôh - Taôih. UBND tỉnh Bình Trị Thiên / NXB Thuận Hóa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Georgi, Doreen (2019). Morphological alignment in Ta'oih. Manuscript, University of Potsdam.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gehrmann, Ryan & Conver, Johanna (2015). Katuic Phonological Features. Mon-Khmer Studies, 44, lv–lxvii.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[5].glottocode",
+          "severity": "high",
+          "problem": "Glottocode của Ir [irr] bị ghi sai thành 'irrr1241'. Trong Glottolog 5.3, mã đúng là 'irrr1240' (mục Bookkeeping/retired do Ferlus 1974 xác nhận Ir trùng khít với Ong [oog]); ngoài ra phương ngữ Hantong' có mã riêng là 'hant1239' thuộc Lower Ta'oih (lowe1395).",
+          "fix": "Sửa glottocode thành 'irrr1240' và ghi chú rõ trạng thái Bookkeeping cùng mã phương ngữ Hantong' (hant1239)."
+        },
+        {
+          "path": "ml_hints.sub_varieties[6].glottocode",
+          "severity": "high",
+          "problem": "Glottocode của Kriang / Ngeq [ngt] bị ghi sai thành 'kria1253' (mã không tồn tại cho Ngeq trên Glottolog).",
+          "fix": "Sửa glottocode thành 'ngeq1245' theo đúng Glottolog 5.3."
+        },
+        {
+          "path": "ml_hints.sub_varieties[7].glottocode",
+          "severity": "high",
+          "problem": "Glottocode của Northern Katang [ncq] và Southern Katang [sct] bị ghi sai thành 'nort3291 / sout3261'. Theo Glottolog 5.3, mã đúng lần lượt là 'nort3270' (Northern Katang) và 'sout3251' (Southern Katang, tách từ mã cũ Kataang [kgd] / kata1264 theo ISO 639-3 CR 2016-021 và Gehrmann 2016).",
+          "fix": "Sửa glottocode thành 'nort3270 / sout3251' và bổ sung thuyết minh phân loại của Gehrmann (2016)."
+        },
+        {
+          "path": "lexicon[4]",
+          "severity": "medium",
+          "problem": "Mục từ 'nhăng' /ɲaŋ/ ('hai chúng tôi', 1du) là hình thái quen thuộc trong tiếng Pa Cô (Pacoh), trong khi tài liệu phương ngữ Ta'uaih (van der Haak 1993: 257) ghi nhận là /ɲɔːŋ/ ('nhoong').",
+          "fix": "Cập nhật form thành 'nhăng / nhoong', ipa thành 'ɲaŋ ~ ɲɔːŋ' và hạ confidence xuống 'low' cho tới khi xác nhận phương ngữ cụ thể."
+        },
+        {
+          "path": "lexicon[17]",
+          "severity": "low",
+          "problem": "Mục từ 'dăm' ('ngã / đổ') trong ngữ liệu Georgi (2019) xuất hiện trong cấu trúc khiên động 'pa-dăm' ('làm đổ, đốn hạ cây'), chưa có nguồn độc lập xác nhận phiên âm IPA chính xác của âm đầu (tắc hữu thanh /d/ hay tiền thanh hầu hóa /ʔd/) ở dạng gốc tự do.",
+          "fix": "Hạ confidence từ 'high' xuống 'medium'."
+        },
+        {
+          "path": "music.ornaments[0]",
+          "severity": "low",
+          "problem": "Mục 'Hát nói trì tục trên trục âm hẹp' mô tả phong cách tiến hành giai điệu (recitative style) hơn là một kỹ thuật tô điểm/hoa mỹ (ornament) cụ thể và chưa có ký âm ABC kiểm chứng.",
+          "fix": "Hạ confidence từ 'medium' xuống 'low'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tại Việt Nam, tên gọi dân tộc Tà Ôi bao gồm cả Tà Ôi đích thực (tth), Pa Cô (pac) và Pa Hy; cần tách bạch rõ hơn quy ước chính tả giữa sách học chung Pakôh - Taôih (1986) và tài liệu dạy thí điểm tiếng Tà Ôi riêng của tỉnh Thừa Thiên Huế (2018).",
+      "Cần thẩm định âm học với người bản xứ tại A Lưới (TP. Huế) để xác nhận chính xác giá trị thanh hầu hóa/âm vực (register) ứng với dấu sắc trong chữ viết địa phương (ví dụ karlúh, dóng, koónh).",
+      "Cần xác nhận biến thể từ vựng ngôi thứ nhất số đôi ('nhăng' trong tiếng Pa Cô vs. 'nhoong' /ɲɔːŋ/ trong phương ngữ Ta'uaih ở Lào) tại A Lưới.",
+      "Cần nhạc sĩ dân tộc học bổ sung ký âm ABC chuẩn cho làn điệu Cha chấp và Ka lơi."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

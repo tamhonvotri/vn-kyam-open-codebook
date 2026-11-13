@@ -1,0 +1,892 @@
+{
+  "id": "vie-central",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Trung Bộ (Quảng Bình, Quảng Trị, Huế)",
+  "name_en": "Vietnamese — Central dialect (Bình Trị Thiên / Huế)",
+  "autonym": "giọng Huế / tiếng Huế / giọng Bình Trị Thiên",
+  "ethnic_group_vi": "Kinh",
+  "language": {
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Thành phố Huế (Thừa Thiên Huế)",
+    "Quảng Trị",
+    "Quảng Bình"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": null
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các tài liệu phương ngữ học tiếng Việt (Hoàng Thị Châu, Võ Xuân Trang, Vương Hữu Lễ, Nguyễn Văn Lợi, vPhon). Lấy tiếng Huế (đô thị) làm đại diện chính cho phần ánh xạ âm vị - chữ viết, kèm ghi chú về sự phân hóa nội vùng mạnh ở nông thôn Quảng Bình và Quảng Trị (nơi thanh hỏi/ngã thường nhập vào thanh nặng tạo hệ thống 4 thanh). Chưa qua thẩm định thực nghiệm với người bản xứ hoặc mô hình giọng hát.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "d, gi",
+        "ipa": "j",
+        "note": "Khác với [z] chuẩn Hà Nội; một số thổ ngữ nông thôn Quảng Bình phát âm khác biệt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ j",
+        "note": "Giữ [v] trong phát âm cẩn thận tại Huế hoặc biến đổi sang [vj] ~ [j] trong khẩu ngữ tự nhiên",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ",
+        "note": "Phụ âm quặt lưỡi, phân biệt rõ với ch /c/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ",
+        "note": "Phụ âm xát quặt lưỡi, phân biệt rõ với x /s/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ʐ ~ ɹ",
+        "note": "Phát âm quặt lưỡi rõ, đặc biệt khi hát dân ca và ca Huế",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu",
+        "ipa": "kw ~ w",
+        "note": "Trong khẩu ngữ có thể giản lược thành [w] tương tự phương ngữ Nam",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Ở một số thổ ngữ nông thôn Quảng Bình chuyển thành [z] / [j] (ví dụ: nhà → dà)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "iê, ươ, uô (trong âm tiết khép)",
+        "ipa": "iə, ɨə, uə",
+        "note": "Thành tố thứ hai ngắn và hẹp hơn giọng Bắc nhưng tiếng Huế vẫn giữ đối lập iêu ≠ iu, ươi ≠ ưi, uôi ≠ ui (khác giọng Nam Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ôi",
+        "ipa": "oj ~ waj",
+        "note": "Một số từ có hiện tượng mở rộng thành [waj] (oai) trong khẩu ngữ Huế cổ/đặc thù",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "n (sau a, ă, â, o, ô, ơ, u, ư, iê, ươ, uô)",
+        "ipa": "ŋ",
+        "note": "Nhập với -ng ở hầu hết các vần trừ sau nguyên âm trước (riêng -in/-inh nhập thành [ɨn], -ên/-ênh nhập thành [ən]); nhiều thổ ngữ Bắc Quảng Bình vẫn giữ /-n/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t (sau a, ă, â, o, ô, ơ, u, ư, iê, ươ, uô)",
+        "ipa": "k",
+        "note": "Nhập với -c ở hầu hết các vần trừ sau nguyên âm trước (riêng -it/-ich nhập thành [ɨt], -êt/-êch nhập thành [ət])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh (trong inh, ênh, anh)",
+        "ipa": "n",
+        "note": "Phát âm đầu lưỡi - lợi kèm nguyên âm ngắn: -inh → [ɨn], -ênh → [ən], -anh → [an]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch (trong ich, êch, ach)",
+        "ipa": "t",
+        "note": "Phát âm đầu lưỡi - lợi kèm nguyên âm ngắn: -ich → [ɨt], -êch → [ət], -ach → [at]",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "35",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "42",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "24",
+        "phonation": "âm tiết mở/vang có xu hướng đi xuống thấp rồi lên không quá cao (có thể hơi nghẹn thanh hầu ở giữa ~ 214/13); âm tiết tắc (-p, -t, -c) cao hơn (~ 45)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "312",
+        "phonation": "hơi thanh hầu hóa nhẹ (vPhon ghi nhận biến thể 32g); ở nhiều vùng nông thôn Quảng Bình - Quảng Trị nhập vào thanh nặng",
+        "merges_with": "nga",
+        "confidence": "medium"
+      },
+      {
+        "id": "nga",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "312",
+        "phonation": "trùng hoàn toàn với thanh hỏi ở tiếng Huế; ở Quảng Bình và nhiều vùng Quảng Trị nhập vào thanh nặng",
+        "merges_with": "hoi",
+        "confidence": "high"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "31",
+        "phonation": "thấp, ngắn, có thanh hầu hóa cuối âm tiết nhưng cữ âm không xuống quá sâu",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Tiếng Huế có 5 thanh điệu (hỏi và ngã nhập làm một), tầm cữ thanh điệu nhìn chung hẹp và trầm (thanh sắc thấp hơn giọng Bắc/Nam, thanh ngang hơi nhỉnh cao, thanh hỏi/nặng nghe gần nhau với người ngoài vùng). Nhiều thổ ngữ tại Quảng Bình và Quảng Trị nhập cả ngã (và một phần hoặc toàn bộ hỏi) vào thanh nặng, tạo hệ thống 4 thanh."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "hỏi",
+      "ipa_standard": "˧ˀ˥",
+      "ipa_variety": "˧˩˨",
+      "condition": "Tiếng Huế đô thị",
+      "example_standard": "mãi",
+      "example_variety": "mải",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "nặng",
+      "ipa_standard": "˧ˀ˥",
+      "ipa_variety": "˧˩ˀ",
+      "condition": "Phổ biến ở Quảng Bình, Quảng Trị và vùng ven",
+      "example_standard": "mỡ",
+      "example_variety": "mợ",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "tone",
+      "standard": "hỏi",
+      "variety": "nặng",
+      "ipa_standard": "˧˩˧",
+      "ipa_variety": "˧˩ˀ",
+      "condition": "Một số thổ ngữ Quảng Bình, Quảng Trị",
+      "example_standard": "cửa",
+      "example_variety": "cựa",
+      "prevalence": "local",
+      "confidence": "medium"
+    },
+    {
+      "slot": "onset",
+      "standard": "d / gi",
+      "variety": "d [j]",
+      "ipa_standard": "z",
+      "ipa_variety": "j",
+      "condition": null,
+      "example_standard": "gió",
+      "example_variety": "dó [jɔ˨˦]",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "tr",
+      "variety": "tr",
+      "ipa_standard": "c",
+      "ipa_variety": "ʈ",
+      "condition": "Giữ đối lập quặt lưỡi so với giọng Hà Nội vốn nhập tr/ch",
+      "example_standard": "trời [cəːj˨˩]",
+      "example_variety": "trời [ʈəːj˦˨]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "s",
+      "variety": "s",
+      "ipa_standard": "s",
+      "ipa_variety": "ʂ",
+      "condition": "Giữ đối lập quặt lưỡi so với giọng Hà Nội vốn nhập s/x",
+      "example_standard": "sông [səwŋ͡m˧˧]",
+      "example_variety": "sông [ʂəwŋ͡m˧˥]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "r",
+      "variety": "r",
+      "ipa_standard": "z",
+      "ipa_variety": "ʐ",
+      "condition": "Giữ âm quặt lưỡi so với giọng Hà Nội [z]",
+      "example_standard": "răng [zaŋ˧˧]",
+      "example_variety": "răng [ʐaŋ˧˥]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "an",
+      "variety": "ang",
+      "ipa_standard": "aːn",
+      "ipa_variety": "aːŋ",
+      "condition": "Tiếng Huế và Nam Quảng Trị",
+      "example_standard": "nhàn",
+      "example_variety": "nhàng",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "at",
+      "variety": "ac",
+      "ipa_standard": "aːt",
+      "ipa_variety": "aːk",
+      "condition": "Tiếng Huế và Nam Quảng Trị",
+      "example_standard": "hát",
+      "example_variety": "hác",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "anh",
+      "variety": "ăn",
+      "ipa_standard": "ajŋ",
+      "ipa_variety": "an",
+      "condition": "Tiếng Huế",
+      "example_standard": "xanh",
+      "example_variety": "xăn",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ach",
+      "variety": "ăt",
+      "ipa_standard": "ajk",
+      "ipa_variety": "at",
+      "condition": "Tiếng Huế",
+      "example_standard": "khách",
+      "example_variety": "khắt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "inh",
+      "variety": "ưn",
+      "ipa_standard": "iŋ",
+      "ipa_variety": "ɨn",
+      "condition": "Tiếng Huế",
+      "example_standard": "tình",
+      "example_variety": "từn",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ich",
+      "variety": "ưt",
+      "ipa_standard": "ik",
+      "ipa_variety": "ɨt",
+      "condition": "Tiếng Huế",
+      "example_standard": "thích",
+      "example_variety": "thứt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ên / ênh",
+      "variety": "ơn / ân",
+      "ipa_standard": "en / ejŋ",
+      "ipa_variety": "ən",
+      "condition": "Tiếng Huế",
+      "example_standard": "bến / bệnh",
+      "example_variety": "bấn / bận",
+      "prevalence": "common",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "iên",
+      "variety": "iêng",
+      "ipa_standard": "iən",
+      "ipa_variety": "iəŋ",
+      "condition": "Tiếng Huế",
+      "example_standard": "tiền",
+      "example_variety": "tiềng",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "iêt",
+      "variety": "iêc",
+      "ipa_standard": "iət",
+      "ipa_variety": "iək",
+      "condition": "Tiếng Huế",
+      "example_standard": "biết",
+      "example_variety": "biếc",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ươn",
+      "variety": "ương",
+      "ipa_standard": "ɨən",
+      "ipa_variety": "ɨəŋ",
+      "condition": "Tiếng Huế",
+      "example_standard": "vườn / mượn",
+      "example_variety": "vường / mượng",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "uôn",
+      "variety": "uông",
+      "ipa_standard": "uən",
+      "ipa_variety": "uəŋ",
+      "condition": "Tiếng Huế",
+      "example_standard": "buồn",
+      "example_variety": "buồng",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ưng",
+      "variety": "ơng",
+      "ipa_standard": "ɨŋ",
+      "ipa_variety": "əːŋ",
+      "condition": "Phổ biến ở Quảng Bình và một số từ ở Bình Trị Thiên",
+      "example_standard": "mừng",
+      "example_variety": "mờng",
+      "prevalence": "local",
+      "confidence": "high"
+    }
+  ],
+  "respelling_rules": [
+    {
+      "slot": "word",
+      "from": "cũ",
+      "to": "củ",
+      "level": "light",
+      "note": "Nhập ngã vào hỏi ở từ thông dụng, an toàn cho tokenizer"
+    },
+    {
+      "slot": "word",
+      "from": "sao",
+      "to": "răng",
+      "level": "light",
+      "optional": true,
+      "note": "Thay thế từ vựng đặc trưng Trung Bộ khi chuyển lời thoại/ca từ thân mật"
+    },
+    {
+      "slot": "word",
+      "from": "đâu",
+      "to": "mô",
+      "level": "light",
+      "optional": true,
+      "note": "Chỉ áp dụng cho đại từ nghi vấn/phiếm chỉ"
+    },
+    {
+      "slot": "word",
+      "from": "thế",
+      "to": "rứa",
+      "level": "light",
+      "optional": true,
+      "note": "Từ chỉ trỏ đặc trưng Bình Trị Thiên"
+    },
+    {
+      "slot": "tone",
+      "from": "nga",
+      "to": "hoi",
+      "level": "full",
+      "note": "Chuẩn tiếng Huế; cần kiểm tra vỡ sub-token trước khi đưa vào mô hình TTS/SVS"
+    },
+    {
+      "slot": "tone",
+      "from": "nga",
+      "to": "nang",
+      "level": "full",
+      "optional": true,
+      "note": "Tùy chọn khi muốn mô phỏng thổ ngữ Quảng Bình / Quảng Trị thay vì giọng Huế đô thị"
+    },
+    {
+      "slot": "rhyme",
+      "from": "an",
+      "to": "ang",
+      "level": "full",
+      "note": "Nhập âm cuối /-n/ → /-ŋ/ trong tiếng Huế"
+    },
+    {
+      "slot": "rhyme",
+      "from": "at",
+      "to": "ac",
+      "level": "full",
+      "note": "Nhập âm cuối /-t/ → /-k/ trong tiếng Huế"
+    },
+    {
+      "slot": "rhyme",
+      "from": "anh",
+      "to": "ăn",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ach",
+      "to": "ăt",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "inh",
+      "to": "ưn",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ich",
+      "to": "ưt",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iên",
+      "to": "iêng",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iêt",
+      "to": "iêc",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "uôn",
+      "to": "uông",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươn",
+      "to": "ương",
+      "level": "full"
+    }
+  ],
+  "lexicon": [
+    {
+      "standard_vi": "đâu / nào",
+      "form": "mô",
+      "ipa": "mo˧˥",
+      "gloss_en": "where / which",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kia",
+      "form": "tê",
+      "ipa": "te˧˥",
+      "gloss_en": "over there / that",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sao / thế nào",
+      "form": "răng",
+      "ipa": "ʐaŋ˧˥",
+      "gloss_en": "why / how",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thế / vậy",
+      "form": "rứa",
+      "ipa": "ʐɨə˨˦",
+      "gloss_en": "like that / so",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gì",
+      "form": "chi",
+      "ipa": "ci˧˥",
+      "gloss_en": "what",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "này",
+      "form": "ni",
+      "ipa": "ni˧˥",
+      "gloss_en": "this",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ấy / đó",
+      "form": "nớ",
+      "ipa": "nəː˨˦",
+      "gloss_en": "that",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "tui",
+      "ipa": "tuj˧˥",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tao",
+      "form": "tau",
+      "ipa": "taw˧˥",
+      "gloss_en": "I (informal)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mày",
+      "form": "mi",
+      "ipa": "mi˧˥",
+      "gloss_en": "you (informal)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / anh ấy / cô ấy",
+      "form": "hắn",
+      "ipa": "haŋ˨˦",
+      "gloss_en": "he / she / it (neutral in Central dialect)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cô (em gái bố / phụ nữ trẻ)",
+      "form": "o",
+      "ipa": "ɔ˧˥",
+      "gloss_en": "paternal aunt / young woman",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bà (bà nội, bà ngoại, bà cụ)",
+      "form": "mệ",
+      "ipa": "me˧˩",
+      "gloss_en": "grandmother / elderly woman",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố / cha",
+      "form": "ba / tía / thầy",
+      "ipa": null,
+      "gloss_en": "father (ba phổ biến ở Huế; mạ - ba)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "mạ",
+      "ipa": "maː˧˩",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bây giờ",
+      "form": "chừ",
+      "ipa": "cɨ˦˨",
+      "gloss_en": "now",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "trốc",
+      "ipa": "ʈəwk͡p˦˥",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu gối",
+      "form": "trốc gối",
+      "ipa": null,
+      "gloss_en": "knee",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không (phủ định)",
+      "form": "nỏ",
+      "ipa": "nɔ˧˩˨",
+      "gloss_en": "not (phổ biến ở Quảng Bình, Quảng Trị)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "mần",
+      "ipa": "məŋ˦˨",
+      "gloss_en": "to do / to make",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhìn / xem",
+      "form": "ngó / coi",
+      "ipa": null,
+      "gloss_en": "to look / to watch",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vào",
+      "form": "vô",
+      "ipa": "vo˧˥",
+      "gloss_en": "to enter / in",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hạt",
+      "form": "hột",
+      "ipa": "hok͡p˧˩",
+      "gloss_en": "seed / grain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhỉ / nhé (tiểu từ cuối câu)",
+      "form": "hỉ / nghe",
+      "ipa": "hi˧˩˨ / ŋɛ˧˥",
+      "gloss_en": "sentence-final particle",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Ca Huế",
+        "note": "Âm nhạc thính phòng xứ Huế (hơn 60 bài bản thanh nhạc và khí nhạc thuộc hai hệ điệu Bắc và điệu Nam); Di sản văn hóa phi vật thể quốc gia Việt Nam (2015)."
+      },
+      {
+        "name": "Nhã nhạc cung đình Huế",
+        "note": "UNESCO Kiệt tác truyền khẩu và Di sản văn hóa phi vật thể của nhân loại (2003 / ghi danh Representative List 2008)."
+      },
+      {
+        "name": "Hò Huế (Hò mái nhì, Hò mái đẩy)",
+        "note": "Hò sông nước trữ tình tự sự với tiết tấu tự do, hơi ngân dài vút cao trên sông Hương, đầm phá; thường kết hợp dẫn vào các bản Nam ai, Nam bình."
+      },
+      {
+        "name": "Lý Huế và Hò khoan Lệ Thủy (Quảng Bình), Hò giã gạo",
+        "note": "Các làn điệu dân ca sinh hoạt và lao động đặc trưng vùng Bình Trị Thiên (Lý con sáo Huế, Lý mười thương, Hò khoan Lệ Thủy 9 mái)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Nhấn, mổ và rung (hơi Nam / hơi Ai)",
+        "description": "Rung sâu và nhấn nửa cung hoặc non/già trên các bậc âm đặc trưng (như bậc Xự, Phan/Oan) tạo màu sắc u hoài, trầm lắng khớp với thanh điệu trầm hẹp của tiếng Huế.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Ngân dài tự do cuối câu hò (Hò mái nhì / mái đẩy)",
+        "description": "Tiếng đưa hơi (ư ơ, ơ hơ...) ngân dài tự do, luyến nhiều bậc liên tiếp trước khi rơi về âm kết.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Luyến chữ mang thanh sắc thấp (sắc Huế)",
+        "description": "Trong ca khúc mang âm hưởng Huế và dân ca Bình Trị Thiên, chữ mang dấu sắc thường được đặt ở nốt thấp hoặc luyến từ dưới lên nhẹ thay vì vọt cao như nhạc miền Bắc/Nam.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Điệu Bắc (điệu Khách) trong Ca Huế",
+        "note": "Thang 5 âm (Hò - Xự - Xang - Xê - Cống) mang tính chất tươi sáng, trang trọng, nhịp điệu vừa phải đến nhanh (Cổ bản, Phú lục, Lưu thủy, Mười bản Ngự).",
+        "confidence": "high"
+      },
+      {
+        "name": "Điệu Nam (hơi Nam, hơi Ai, hơi Dựng) trong Ca Huế",
+        "note": "Thang âm có bậc Xự và Cống/Oan non hoặc rung nhấn đặc biệt, âm hưởng sâu lắng, da diết, buồn man mác (Nam ai, Nam bình, Tương tư khúc, Hành vân).",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn tranh (thập lục)"
+      },
+      {
+        "name": "Đàn nguyệt (đàn kìm)"
+      },
+      {
+        "name": "Đàn tỳ bà"
+      },
+      {
+        "name": "Đàn nhị (đàn cò)"
+      },
+      {
+        "name": "Đàn tam"
+      },
+      {
+        "name": "Đàn bầu"
+      },
+      {
+        "name": "Sáo trúc / tiêu"
+      },
+      {
+        "name": "Sanh tiền (sênh tiền) & sanh loan (song loan)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "id": "vie-hue",
+        "name": "Tiếng Huế (TP. Huế / Thừa Thiên Huế)",
+        "note": "5 thanh điệu (hỏi ≡ ngã); âm cuối -n/-t nhập với -ng/-c (trừ sau nguyên âm trước); giữ phân biệt iêu/iu, ươi/ưi."
+      },
+      {
+        "id": "vie-quangtri",
+        "name": "Tiếng Quảng Trị",
+        "note": "Chuyển tiếp giữa Quảng Bình và Huế; nhiều thổ ngữ nhập thanh ngã (và một phần thanh hỏi) vào thanh nặng."
+      },
+      {
+        "id": "vie-quangbinh",
+        "name": "Tiếng Quảng Bình",
+        "note": "Đa dạng thổ ngữ rất cao theo từng huyện/làng (Lệ Thủy, Bố Trạch, Quảng Trạch...); thanh ngã thường nhập vào thanh nặng; nhiều nơi giữ âm cuối /-n, -t/ rõ hơn Huế và có biến âm vần đặc thù (ưng → ơng, ông → ôông)."
+      }
+    ],
+    "prosody_and_singing_notes": [
+      "Đặc trưng nhận diện mạnh nhất của giọng Huế không nằm ở biến đổi chữ viết vần (vốn khá giống Nam Bộ ở /-n/→/-ŋ/) mà ở đường nét thanh điệu (F0): thanh sắc không vút cao mà trũng xuống rồi mới lên nhẹ (24 / 13), thanh hỏi/ngã (312) và thanh nặng (31) rất gần nhau.",
+      "Không áp dụng quy tắc rút gọn nguyên âm đôi kiểu Nam Bộ (như ươi→ưi, ưu/ươu→iu) cho giọng Huế vì người Huế vẫn giữ đối lập các vần này.",
+      "Giữ rõ các phụ âm quặt lưỡi tr [ʈ], s [ʂ], r [ʐ] khi tổng hợp giọng hát Ca Huế và dân ca Bình Trị Thiên.",
+      "Khi dùng respelling_rules mức 'full' cho mô hình ngôn ngữ/TTS dùng BPE/Tiktoken (như Qwen/YuE), cần chạy kiểm tra độ phân mảnh token vì các từ địa phương hoặc chính tả biến âm dễ tách thành sub-token lạ."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hoàng Thị Châu (1989 / 2004). Tiếng Việt trên các miền đất nước: Phương ngữ học / Phương ngữ học tiếng Việt. NXB Khoa học Xã hội / NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Võ Xuân Trang (1997). Phương ngữ Bình Trị Thiên. NXB Khoa học Xã hội, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Vương Hữu Lễ (1992). Các đặc điểm ngữ âm của tiếng Huế.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Văn Lợi (2012). Hệ thống thanh điệu tiếng Huế (dựa trên kết quả khảo nghiệm bằng computer). Tạp chí Từ điển học & Bách khoa thư, 5(19), 54–65.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Kirby, James — vPhon: A Vietnamese phonetizer (Central/Huế tone & segmental rules)",
+      "url": "https://github.com/kirbyj/vPhon",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Vietnamese phonology",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Phương ngữ tiếng Việt",
+      "url": "https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_ng%E1%BB%AF_ti%E1%BA%BFng_Vi%E1%BB%87t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Ca Huế",
+      "url": "https://en.wikipedia.org/wiki/Ca_Hu%E1%BA%BF",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO — Nha Nhac, Vietnamese court music",
+      "url": "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "correspondences_from_standard_vietnamese[16].example_standard",
+          "severity": "medium",
+          "problem": "Ví dụ cho vần 'ươn' -> 'ương' lại lấy từ 'thương' vốn đã có vần 'ương' trong tiếng Việt chuẩn.",
+          "fix": "Đổi 'thương / vườn' -> 'thương / vường' thành 'vườn / mượn' -> 'vường / mượng'."
+        },
+        {
+          "path": "phonology.codas[0].grapheme",
+          "severity": "low",
+          "problem": "Ghi chú âm cuối -n/-t sau nguyên âm trước (i, ê) trong tiếng Huế: thực tế trong tiếng Huế, vần -in/-inh cùng phát âm là [ɨn], -ên/-ênh cùng phát âm là [ən] (tức âm cuối vẫn là /-n/, /-t/ nhưng nguyên âm chính dịch chuyển vào giữa).",
+          "fix": "Làm rõ hơn trong phần note của codas để tránh hiểu nhầm rằng -in, -ên giữ nguyên nguyên âm [i], [e] như giọng Bắc."
+        },
+        {
+          "path": "music.ornaments[2].confidence",
+          "severity": "low",
+          "problem": "Mục 'Luyến chữ mang thanh sắc thấp (sắc Huế)' mang tính mô tả kinh nghiệm âm nhạc học hơn là quy tắc ký âm chuẩn hóa có ký hiệu ABC cụ thể, nhưng đang để confidence='high'.",
+          "fix": "Hạ confidence xuống 'medium'."
+        },
+        {
+          "path": "regions[0]",
+          "severity": "low",
+          "problem": "Cập nhật tên gọi hành chính mới của Huế (Thành phố Huế trực thuộc trung ương kèm tên lịch sử Thừa Thiên Huế).",
+          "fix": "Đổi thành 'Thành phố Huế (Thừa Thiên Huế)'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Trị số Chao của thanh điệu tiếng Huế có nhiều đề xuất khác nhau giữa các nhà ngữ âm học (Hoàng Thị Châu, Vũ Thanh Phương, Nguyễn Văn Lợi); cần đo F0 đối chiếu trên ngữ liệu ca hát và nói tự nhiên.",
+      "Sự khác biệt lớn giữa tiếng Huế đô thị và các thổ ngữ Quảng Bình, Quảng Trị (4 thanh vs. 5 thanh; giữ /-n, -t/ vs. nhập /-ŋ, -k/) có thể cần tách thành các bảng mã con riêng nếu huấn luyện TTS chuyên biệt từng tỉnh.",
+      "Cần nghệ nhân Ca Huế thẩm định ký hiệu ABC chuẩn cho các kỹ thuật nhấn/rung hơi Ai và hơi Dựng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

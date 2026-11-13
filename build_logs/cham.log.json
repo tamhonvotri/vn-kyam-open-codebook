@@ -1,0 +1,78 @@
+{
+  "target": {
+    "id": "cham",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Chăm",
+    "ethnic_group_vi": "Chăm",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:55:13.990895",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 11938,
+      "totalTokenCount": 28870,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11938
+        }
+      ],
+      "thoughtsTokenCount": 7555,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 13453,
+      "candidatesTokenCount": 13104,
+      "totalTokenCount": 26557,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13453
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13104
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sample_words",
+        "severity": "high",
+        "problem": "Có 5 từ mẫu trong sample_words viết chưa chuẩn quy tắc chữ cái mũi nguyên âm nội tại â (akhar mư: ꨊ ngâ, ꨐ nyâ, ꨗ nâ, ꨟ mâ) và dấu nguyên âm của chữ Akhar Thrah theo chuẩn Từ điển Moussay (1971) / Bùi Khánh Thế (1995): (1) 'apuei / apuy' (lửa) chuẩn Akhar Thrah là ꨀꨚꨶꨬ (a-p-wa-ei = apuei), không phải ꨀꨚꨭꨢ; (2) 'tanâh' (đất) dùng chữ ꨗ (nâ) viết là ꨓꨗꩍ, không dùng ꨘ (na) + dấu ꨲ (ꨓꨘꨲꩍ); (3) 'lingik / langik' (bầu trời) dùng chữ ꨊ (ngâ) viết là ꨤꨪꨊꨪꩀ (lingik) hoặc ꨤꨊꨪꩀ (langik), không dùng ꨋ (nga); (4) 'manyum' (uống) dùng chữ ꨐ (nyâ) viết là ꨟꨐꨭꩌ, không dùng ꨑ (nya); (5) 'bingu' (hoa) dùng chữ ꨊ (ngâ) và dấu trường âm ꨩ ở âm tiết mở viết là ꨝꨪꨊꨭꨩ, không phải ꨝꨪꨋꨭ.",
+        "fix": "Sửa lại chính tả Akhar Thrah Unicode của 5 từ mẫu này theo đúng chuẩn từ điển Moussay (1971) / Bùi Khánh Thế (1995) và cập nhật dạng Latinh chuẩn tương ứng ('apuei (apuy)', 'lingik (langik)')."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Mục từ 'lửa' ghi 'apuy' (dạng phục nguyên/chuyển tự ký tự) trong khi dạng từ điển EFEO/Moussay/Bùi Khánh Thế thông dụng là 'apuei' (ꨀꨚꨶꨬ); mục từ 'bầu trời' ghi 'la-ngik (lingik)' trong khi dạng chuẩn không gạch nối là 'lingik (langik)'.",
+        "fix": "Cập nhật form thành 'apuei (apuy)' và 'lingik (langik)' để đồng bộ với hệ chữ Akhar Thrah và hệ phiên âm EFEO."
+      },
+      {
+        "path": "ml_hints.sub_varieties[1].note",
+        "severity": "low",
+        "problem": "Ghi tiếng Haroi (hro) thuộc nhánh 'Bắc/Cao nguyên Chăm (Highlands Chamic)', trong khi Glottolog và Wikipedia phân loại Haroi vào nhánh Coastal Chamic (hoặc trung gian giữa Coastal và Highlands Chamic theo Goschnick 1977 & Thurgood 1999) dù chịu ảnh hưởng tiếp xúc âm vị học mạnh từ tiếng Ba Na.",
+        "fix": "Chỉnh lại mô tả phân loại của tiếng Haroi cho chính xác với Glottolog và Thurgood (1999)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

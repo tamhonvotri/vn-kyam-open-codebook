@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "lo-lo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Lô Lô",
+    "ethnic_group_vi": "Lô Lô",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:41:42.005311",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 10262,
+      "totalTokenCount": 26538,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10262
+        }
+      ],
+      "thoughtsTokenCount": 6891,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12409,
+      "candidatesTokenCount": 12551,
+      "totalTokenCount": 24960,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12409
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12551
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology",
+        "severity": "high",
+        "problem": "Hệ thống âm vị học (40 phụ âm đầu, 24 nguyên âm, âm cuối duy nhất -ŋ, và 6 thanh điệu: 55, 44, 33, 53, 21, 13) thực chất là hệ thống âm vị của phương ngữ Mondzi (Lama 2012, nói tại Vân Nam, Trung Quốc), trong khi khảo sát thực địa của Edmondson trên tiếng Mantsi của người Lô Lô Đỏ tại Yên Minh (Hà Giang, Việt Nam) ghi nhận hệ thống 5 thanh điệu (/44/, /53/, /35/, /31/, /312/), có các phụ âm lưỡi con (/q/, /qʰ/) và tắc thanh hầu (/ʔ/), đồng thời các vần *-ŋ biến thành nguyên âm mũi hóa (ví dụ 'bụng' là bõ53 thay vì boŋ53). Việc đặt confidence='high' cho toàn bộ hệ thống Mondzi khi đại diện cho tiếng Lô Lô tại Việt Nam là chưa chính xác.",
+        "fix": "Làm rõ sự khác biệt giữa phương ngữ Mondzi (Lama 2012) và phương ngữ Mantsi Yên Minh - Hà Giang (Edmondson) trong status_note, phonology.register_or_phonation và validation.open_issues; bổ sung thông tin thanh điệu của Edmondson vào ghi chú và hạ confidence ở các mục đặc thù của Mondzi xuống 'medium'."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Toàn bộ 16 mục từ vựng cơ bản (trừ tự danh mã53 tsi53) được lấy từ bảng từ phương ngữ Mondzi (Lama 2012) chứ không phải bảng từ Mantsi tại Hà Giang (Edmondson). Ví dụ trong bảng từ Mantsi Hà Giang của Edmondson: 'chân' là khie312 (Mondzi: khe13), 'đường đi' là tʂɔ312 ʔi31 (Mondzi: tʂu44 mɔ44), 'bụng' là bõ53 (Mondzi: boŋ53), 'xương' là ɣua53 (Mondzi: u53 ɣo21), 'lửa' là mi53 (Mondzi: mi21). Ngoài ra, các thanh bằng 44 và 33 trong IPA chỉ được ký 1 chữ cái thanh điệu (˦, ˧) thay vì 2 chữ cái tương ứng với ký hiệu 44, 33.",
+        "fix": "Hạ confidence của các từ vựng trích từ phương ngữ Mondzi (Lama 2012) từ 'high' xuống 'medium', đồng thời bổ sung thêm một số từ vựng thực địa Mantsi tại Yên Minh (Hà Giang) từ tư liệu của Edmondson (ABVD) với confidence 'high'."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Cột grapheme của nhóm phụ âm tắc-xát không nhất quán: nhóm hữu thanh và tiền mũi hóa dùng chữ cái Latinh (ndzh, ndj, dzh, dj) nhưng nhóm vô thanh lại dùng thẳng ký hiệu IPA (tʂ, tʂh, tɕ, tɕh).",
+        "fix": "Ghi chú rõ trong status_note và hạ confidence của các mục chuyển tự không đồng nhất xuống 'medium'."
+      },
+      {
+        "path": "sources[7]",
+        "severity": "low",
+        "problem": "Thông tin xuất bản của Hsiu (2014) ghi 'Taipei: Academia Sinica, pp. 62–81', nhưng tài liệu gốc trong kỷ yếu IsCLL-14 (hoặc bản lưu trữ CRCL Bangkok / Zenodo) thường không khớp hoàn toàn với thông tin nhà xuất bản này.",
+        "fix": "Cập nhật lại thông tin thư mục của Hsiu (2014) cho chính xác."
+      }
+    ]
+  },
+  "schema_errors": []
+}

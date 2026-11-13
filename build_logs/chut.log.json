@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "chut",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Chứt",
+    "ethnic_group_vi": "Chứt",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:39:31.624590",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 8466,
+      "totalTokenCount": 23531,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8466
+        }
+      ],
+      "thoughtsTokenCount": 5686,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10662,
+      "candidatesTokenCount": 10227,
+      "totalTokenCount": 20889,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10662
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10227
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[2].glottocode",
+        "severity": "medium",
+        "problem": "Glottocode của phương ngữ Rục bị ghi nhầm thành 'chut1247' (đây là mã của cả cụm ngôn ngữ Chứt). Trong hệ thống phân loại của Glottolog, phương ngữ Rục có mã riêng là 'rucc1239' (ngang hàng với 'sach1240' và 'mayy1239' bên dưới 'chut1247').",
+        "fix": "Sửa glottocode của Tiếng Rục thành 'rucc1239'."
+      },
+      {
+        "path": "ml_hints.quoc_ngu_approximation",
+        "severity": "low",
+        "problem": "Hai mục từ ví dụ trong quoc_ngu_approximation là 'mṳɽ²' (mũi) và 'ʈɯh¹' (trước) chưa được đưa vào bảng lexicon chính thức, gây thiếu đồng bộ giữa các phần của codebook (ngoài ra dấu phụ hà hơi dưới nguyên âm u trong mṳɽ² dùng U+0324 trực tiếp dễ lỗi hiển thị hơn so với bổ sung vào lexicon chuẩn).",
+        "fix": "Bổ sung 'ʈɯh¹ ~ ʈɯ²' (trước / phía trước - có chứng thực trực tiếp từ Babaev & Samarina 2021) và 'mṳɽ²' (confidence medium) vào lexicon để đồng bộ dữ liệu."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Cách ghi thanh điệu trong lexicon và sample_words đang trộn lẫn hai quy ước: các từ tiếng Mày/Rục theo Babaev & Samarina (2021) / Nguyễn Văn Lợi (1993) ghi chỉ số kiểu điệu tính ¹ ² ³ ⁴, trong khi 3 từ tiếng Rục trích từ Tạ Thành Tấn (2021) ('ta⁵³', 'ta³⁴', 'ta̤³¹') lại ghi trực tiếp trị số cao độ Chao (53, 34, 31) ở vị trí dấu thanh.",
+        "fix": "Chuẩn hóa trường 'form' về ký hiệu thanh âm vị học (ta¹, ta³, ta̤⁴) để thống nhất với hệ thống 4 thanh trong phonology.tones, đồng thời giữ nguyên dạng ngữ âm chi tiết kèm trị số Chao ([ta⁵³], [ta³⁴], [ta̤³¹]) trong trường 'ipa'."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Đôi ống nứa dùng trong lễ cúng cơm mới của người Mày/Chứt (được nhắc tới trong phần genres.note) có tên gọi dân gian được ghi nhận trong tư liệu điền dã Quảng Bình là 'ống pìa' (cặp ống trống mái cọ lên đá suối), nhưng chưa được liệt kê thành mục riêng trong danh sách nhạc cụ/khí cụ âm thanh.",
+        "fix": "Bổ sung 'Ống pìa (cặp ống nứa trống – mái)' vào music.instruments."
+      }
+    ]
+  },
+  "schema_errors": []
+}

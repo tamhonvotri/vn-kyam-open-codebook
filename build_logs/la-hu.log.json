@@ -1,0 +1,72 @@
+{
+  "target": {
+    "id": "la-hu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Hủ",
+    "ethnic_group_vi": "La Hủ",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:33:47.566438",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 7929,
+      "totalTokenCount": 23785,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7929
+        }
+      ],
+      "thoughtsTokenCount": 6473,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10224,
+      "candidatesTokenCount": 8833,
+      "totalTokenCount": 19057,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10224
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8833
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "sources[2].title",
+        "severity": "medium",
+        "problem": "Bài báo 'Đặc điểm từ loại danh từ tiếng La Hủ ở Việt Nam' trên Tạp chí Ngôn ngữ Số 9 (2024), tr. 36–42 chỉ có một tác giả duy nhất là Phan Hoàng Anh (không có đồng tác giả 'Phạm Thị Thảo').",
+        "fix": "Sửa lại tên tác giả trong sources[2].title thành 'Phan Hoàng Anh (2024)' và bổ sung URL bài báo trên hệ thống Vietnam Journals Online (VJOL)."
+      },
+      {
+        "path": "phonology.tones[1].chao_contour",
+        "severity": "low",
+        "problem": "Thanh cao lên (High-rising) của tiếng Lahu chuẩn được Matisoff (1973, 1988) ghi nhận là 45 (hoặc 35 tùy tài liệu phiên âm Trung Quốc), trên bảng IPA chuẩn quốc tế/Wikipedia ghi [˦˥] (45) trong khi một số mục từ vựng trong bảng mã ghi [˧˥].",
+        "fix": "Ghi rõ chao_contour là '35 ~ 45' để nhất quán giữa mô tả của Matisoff (45) và tài liệu Trung Quốc (35)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

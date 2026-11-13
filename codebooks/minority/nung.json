@@ -1,0 +1,845 @@
+{
+  "id": "nung",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Nùng",
+  "name_en": "Nùng language (Central Tai)",
+  "autonym": "Càng Nohng / Vạ Nohng / Tiểng Nùng",
+  "ethnic_group_vi": "Nùng",
+  "language": {
+    "iso639_3": "nut",
+    "glottocode": "nung1283",
+    "family": "Kra-Dai",
+    "branch": "Central Tai"
+  },
+  "regions": [
+    "Lạng Sơn",
+    "Cao Bằng",
+    "Bắc Giang (nay thuộc Bắc Ninh)",
+    "Thái Nguyên",
+    "Tuyên Quang",
+    "Bắc Kạn",
+    "Hà Giang",
+    "Lào Cai",
+    "Đắk Lắk",
+    "Lâm Đồng",
+    "Đồng Nai",
+    "Gia Lai"
+  ],
+  "speakers_estimate": "Khoảng 968.800 người theo Tổng điều tra dân số 2009; dân số dân tộc Nùng tại Việt Nam đạt 1.083.298 người theo Điều tra 53 dân tộc thiểu số năm 2019 (bao gồm nhiều nhóm địa phương nói các phương ngữ Thái Trung tâm và một số ngôn ngữ Kra-Dai lân cận).",
+  "scripts": [
+    {
+      "name": "Chữ Tày - Nùng (Latinh 1961)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Được Hội đồng Chính phủ phê chuẩn theo Nghị định số 206-CP ngày 27/11/1961 trên cơ sở chữ Quốc ngữ bổ sung các tổ hợp phụ âm (sl, kh, ph, th, bj, pj, mj, phj...) để ghi chung cho tiếng Tày và tiếng Nùng; hiện ít phổ biến trong giao tiếp đời sống nhưng vẫn dùng trong tài liệu sưu tầm dân ca, từ điển và lớp bồi dưỡng tiếng dân tộc."
+    },
+    {
+      "name": "Chữ Nùng Phạn Slinh (hệ Latinh SIL)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh dựa trên chữ Quốc ngữ do Viện Chuyên khảo Ngữ học (SIL) xây dựng trước năm 1975 cho phương ngữ Nùng Phạn Slinh (dùng f thay cho ph khi ghi [f], dùng chữ h sau nguyên âm như ah, ih, uh, eh, oh, ưh để đánh dấu nguyên âm ngắn trước phụ âm cuối)."
+    },
+    {
+      "name": "Chữ Nôm Nùng (Nôm Tày - Nùng)",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ truyền thống mượn và cải biên chữ Hán (cùng loại hình với chữ Nôm Tày và chữ Sawndip của người Tráng), chủ yếu lưu giữ trong sách cúng, gia phả, truyện thơ và văn bản hát Then, Sli cổ."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngữ âm - ngữ pháp học thuật (Saul & Wilson 1980; Freiberger & Vy Thị Bé 1976 cho phương ngữ Nùng Phạn Slinh; Li 1977 cho phương ngữ Lungchow / Nùng Cháo) đối chiếu với Phương án chữ Tày - Nùng năm 1961. Do 'tiếng Nùng' ở Việt Nam là một cụm phương ngữ đa dạng (Nùng Phạn Slinh, Nùng Cháo, Nùng Inh, Nùng An, Nùng Giang, Nùng Dín...), giá trị âm vị và thanh điệu dưới đây lấy Nùng Phạn Slinh làm trục tham chiếu chính và ghi chú biến thể phương ngữ. Chưa qua thẩm định của người bản xứ và chuyên gia ngôn ngữ học.",
+  "phonology": {
+    "syllable_structure": "C1(w/j)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "âm tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph (1961 & SIL) / p'",
+        "ipa": "pʰ",
+        "note": "âm tắc hai môi vô thanh bật hơi; cả chữ Tày-Nùng 1961 và chữ SIL đều dùng ph để ghi [pʰ] (ví dụ: phỏhm 'tóc'), khác hẳn âm [f] của tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "âm tắc hai môi hữu thanh tiền thanh hầu hóa / hút vào ([ʔb ~ ɓ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f (SIL & 1961) / ph",
+        "ipa": "f",
+        "note": "chữ Nùng Phạn Slinh dùng f (ví dụ: fay 'lửa', fã 'trời') để phân biệt với ph [pʰ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ w",
+        "note": "một số phương ngữ (như Nùng Cháo) phát âm gần [w ~ β]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "âm tắc đầu lưỡi bật hơi (ví dụ: thả 'mắt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "âm tắc đầu lưỡi hữu thanh tiền thanh hầu hóa / hút vào ([ʔd ~ ɗ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "ɬ",
+        "note": "âm xát cạnh lưỡi vô thanh đặc trưng của nhóm Tày - Nùng (ví dụ: slíhp 'mười', slam 'ba'); không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "chữ Nùng Phạn Slinh viết s (ví dụ: sãu 'sớm'), nhiều tài liệu chữ Tày-Nùng trong nước viết x hoặc s",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ʐ ~ z ~ ɾ",
+        "note": "trong một số phương ngữ hiện thực hóa là âm xát quặt lưỡi/lợi hữu thanh [ʐ ~ ʐ̆]; nhiều phương ngữ Nùng chuyển *r sang [l] hoặc [h]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "tʃ ~ c",
+        "note": "âm tắc-xát sau lợi hoặc tắc mặt lưỡi vô thanh (ví dụ: chéhp 'đau')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / gi / y",
+        "ipa": "ʒ ~ ʑ ~ j",
+        "note": "trong chữ Nùng Phạn Slinh (SIL), 'd' ghi âm xát hữu thanh /ʒ ~ ʑ/ (ví dụ: dụ 'ở'), còn âm tiếp cận /j/ viết bằng 'y' hoặc 'gi'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k / q",
+        "ipa": "k",
+        "note": "trong chữ SIL, viết k trước i, ih, e, eh, ê và viết c trước các nguyên âm khác",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "âm tắc ngạc mềm bật hơi (có tha âm xát hóa [kˣ]); khác với âm xát [x] của tiếng Việt Bắc Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ)",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu đứng trước âm tiết mở đầu bằng chữ nguyên âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pj / bj / mj / phj",
+        "ipa": "pʲ / ɓʲ / mʲ / pʰʲ",
+        "note": "tổ hợp phụ âm môi vòm hóa xuất hiện ở một số phương ngữ Tày - Nùng (như Nùng Cháo, Nùng An)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "qu / khu",
+        "ipa": "kw / kʰw",
+        "note": "phụ âm ngạc mềm môi hóa",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "nguyên âm trước cao dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih (SIL) / i (ngắn trước phụ âm cuối)",
+        "ipa": "i ~ ɪ̆",
+        "note": "nguyên âm trước cao ngắn (ví dụ: kíhn 'ăn', slíhp 'mười', chỉhng 'bèn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "nguyên âm trước hơi cao dài (có tha âm [eᵊ] trong âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "æː ~ ɛː",
+        "note": "nguyên âm trước thấp dài (ví dụ: kéng 'canh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "eh (SIL) / e (ngắn)",
+        "ipa": "æ ~ ɛ",
+        "note": "nguyên âm trước thấp ngắn (ví dụ: hẻht [hɛt] 'làm', pehn [pɛn] 'thành/là', béhn 'bay')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː ~ ɯː",
+        "note": "nguyên âm giữa/sau không tròn môi cao dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưh (SIL) / ư (ngắn)",
+        "ipa": "ɨ ~ ɯ",
+        "note": "nguyên âm giữa/sau không tròn môi cao ngắn (ví dụ: cưhn [kɨn] 'người', hựhn 'đêm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "nguyên âm giữa dài (tha âm ngắn [ə] trong âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə ~ ɐ",
+        "note": "nguyên âm giữa ngắn trong chữ Tày-Nùng 1961, chỉ xuất hiện trong âm tiết khép (trước phụ âm cuối hoặc bán nguyên âm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "nguyên âm thấp dài (ví dụ: pá 'cá', lán 'cháu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă (1961) / ah (SIL, trước phụ âm cuối)",
+        "ipa": "a ~ ɐ",
+        "note": "nguyên âm thấp ngắn; chữ Tày-Nùng 1961 dùng ă, chữ SIL dùng ah trước phụ âm cuối (ví dụ: vằn / vahn [van] 'ngày', áhn 'cái')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "nguyên âm sau tròn môi cao dài (tha âm [uᵊ] trước /n/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uh (SIL) / u (ngắn)",
+        "ipa": "u ~ ʊ",
+        "note": "nguyên âm sau tròn môi cao ngắn (ví dụ: lụhc 'con', lúhc 'lúc', hụhng 'sáng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "nguyên âm sau tròn môi hơi cao dài (tha âm [oᵊ] trước /n/, ví dụ: cộn 'hòn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː ~ ɒː",
+        "note": "nguyên âm sau tròn môi thấp dài (ví dụ: slón 'dạy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oh (SIL) / o (ngắn)",
+        "ipa": "ɔ",
+        "note": "nguyên âm sau tròn môi thấp ngắn (tha âm [ɔʷ] trước /ŋ/, ví dụ: Nohng [nɔŋ] 'Nùng', đóhng 'rừng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê, ưa / ươ, ua / uô",
+        "ipa": "iə, ɨə, uə",
+        "note": "nguyên âm đôi xuất hiện ở một số phương ngữ (như Nùng An, từ vay mượn hoặc biến thể khu vực)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "âm tắc hai môi đóng, không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "âm tắc đầu lưỡi đóng, không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "âm tắc ngạc mềm đóng; khác tiếng Việt ở chỗ KHÔNG ngậm môi [k͡p] sau u, ô, o",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "âm mũi ngạc mềm; KHÔNG ngậm môi [ŋ͡m] sau u, ô, o như tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "bán nguyên âm cuối trước (chữ SIL dùng y sau nguyên âm ngắn như fay, khảy, đày)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "bán nguyên âm cuối tròn môi (chữ SIL dùng o sau nguyên âm dài và u sau nguyên âm ngắn, ví dụ: sãu 'sớm', tảu 'rùa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (1961: âư / aư) / -h (SIL: -ah ở cuối chữ)",
+        "ipa": "ɰ",
+        "note": "bán nguyên âm cuối không tròn môi (/aɰ ~ əɰ/), phổ biến ở nhiều phương ngữ Tày - Nùng; trong chữ SIL, tổ hợp -ah đứng cuối âm tiết mở đọc là -aư (ví dụ: hah đọc là haư 'nào')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "t1_ngang",
+        "name": "thanh ngang (trung bình bằng)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal (IPA: [˧])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t2_huyen",
+        "name": "thanh huyền (trung/thấp xuống)",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "modal (IPA: [˨˩])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t3_hoi",
+        "name": "thanh hỏi (thấp / thấp đi lên)",
+        "mark": "̉",
+        "chao_contour": "24",
+        "phonation": "modal (IPA trong Saul & Wilson 1980 ký hiệu là [˨] hoặc thấp lên [˨˦ ~ ˨˩˧])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t4_sac",
+        "name": "thanh sắc (cao lên / cao)",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "modal (IPA: [˦ ~ ˧˥]; đi với cả âm tiết mở và âm tiết khép -p, -t, -k)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t5_nga_lung",
+        "name": "thanh ngã (SIL) / thanh lửng (1961)",
+        "mark": "̃",
+        "chao_contour": "44",
+        "phonation": "cao lên kết thúc bằng tắc thanh hầu [˦ʔ] trong Nùng Phạn Slinh (chữ Tày-Nùng 1961 thường gộp ký hiệu hoặc dùng dấu hỏi/gạch dưới tùy địa phương)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t6_nang",
+        "name": "thanh nặng (thấp tắc thanh hầu)",
+        "mark": "̣",
+        "chao_contour": "22",
+        "phonation": "tắc thanh hầu rõ ở cuối âm tiết [˨ʔ ~ ˨˩ʔ]; đi với cả âm tiết mở và âm tiết khép -p, -t, -k",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu (6 thanh cơ bản trên âm tiết mở/vang, tương ứng 2 mức cao/thấp trên âm tiết tắc -p, -t, -k tùy độ dài nguyên âm). Trong Nùng Phạn Slinh, hai thanh tương ứng dấu ngã và dấu nặng có đặc trưng thanh hầu hóa / kết thúc bằng âm tắc thanh hầu [-ʔ] rõ nét ([˦ʔ] và [˨ʔ])."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người",
+      "form": "cưhn (SIL) / cần (1961)",
+      "ipa": "kɨn˧˧ / kən˨˩",
+      "gloss_en": "person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "nặm / nạhm",
+      "ipa": "nam˨ʔ",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "fã (SIL) / phạ (1961)",
+      "ipa": "faː˦ʔ / faː˨ʔ",
+      "gloss_en": "sky / heaven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngày",
+      "form": "vahn (SIL) / vằn (1961)",
+      "ipa": "van˧˧ / van˨˩",
+      "gloss_en": "day",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "kíhn (SIL) / kin (1961)",
+      "ipa": "kin˦ / kiːn˧˧",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "páy (SIL) / pây (1961)",
+      "ipa": "paj˦ / pəj˧˧",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "về / đến",
+      "form": "ma (SIL) / mà (1961)",
+      "ipa": "maː˧˧ / maː˨˩",
+      "gloss_en": "to come / return",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "hẻht (SIL) / hết (1961)",
+      "ipa": "hɛt˨ / het˦",
+      "gloss_en": "to do / make",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "có",
+      "form": "mi (SIL) / mì (1961)",
+      "ipa": "miː˧˧ / miː˨˩",
+      "gloss_en": "to have",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không (phủ định)",
+      "form": "bô / bấu",
+      "ipa": "ɓoː˧˧ / ɓəw˦",
+      "gloss_en": "not",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "lườn / rườn",
+      "ipa": "lɨən˨˩",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba (số 3)",
+      "form": "slam",
+      "ipa": "ɬaːm˧˧",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một (số thứ tự/đếm)",
+      "form": "éht / ết / nửng",
+      "ipa": "ʔɛt˦ / ʔet˦ / nɨŋ˨",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi / tao",
+      "form": "cáu / ngỏ / khỏi",
+      "ipa": "kaːw˦ / ŋɔː˨ / kʰɔːj˨",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tốt / đẹp",
+      "form": "đáy (SIL) / đảy (1961)",
+      "ipa": "ɗaj˦ / ɗaj˨",
+      "gloss_en": "good / well",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Sli",
+        "note": "Thể loại dân ca trữ tình đối đáp giao duyên đặc trưng nhất của người Nùng ('sli' nghĩa là thơ, thường theo thể thất ngôn). Mỗi nhánh Nùng có làn điệu riêng như Sli Soong hào (Nùng Phàn Slình), Sli Sình Làng (Nùng Cháo), Sli Giang (Nùng Giang)."
+      },
+      {
+        "name": "Thực hành Then (Hát Then - Đàn Tính)",
+        "note": "UNESCO ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại năm 2019 (Thực hành Then của người Tày, Nùng, Thái ở Việt Nam); gắn với nghi lễ tâm linh do ông Then, bà Then (Pửt, Giàng, Sliên) diễn xướng."
+      },
+      {
+        "name": "Cỏ lẩu / Hèo phươn",
+        "note": "Dân ca nghi lễ đám cưới và đối đáp sinh hoạt (Cỏ lẩu của người Nùng Phàn Slình, Hèo phươn của người Nùng An)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Hát bè đôi đồng ca (Soong hào)",
+        "description": "Đặc trưng của Sli Nùng Phàn Slình: hai người nam đối đáp với hai người nữ, hai giọng cùng bên phối bè quãng 4, quãng 5 hoặc đồng âm, ngân dài ở chữ cuối câu thơ.",
+        "abc": null,
+        "confidence": "high"
+      },
+      {
+        "name": "Ngân rung cuối câu (luyến ngâm thơ Sli)",
+        "description": "Tiết tấu tự do theo nhịp ngắt câu thơ 7 chữ (thường ngắt 4/3 hoặc 2/2/3), cao độ bám sát thanh điệu tiếng Nùng và ngân rung nhỏ ở nguyên âm mở/vang cuối câu.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang 5 âm không bán âm (ngũ cung Tày - Nùng)",
+        "note": "Phổ biến trong giai điệu hát Then và hát Sli; đường nét giai điệu chịu sự chi phối chặt chẽ của hệ thống thanh điệu tiếng Nùng.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn tính (tính tẩu)",
+        "note": "Nhạc cụ dây gảy bầu quả bầu khô (thường 2 hoặc 3 dây tơ/nilon), giữ vai trò chủ đạo trong hát Then"
+      },
+      {
+        "name": "Chùm xóc nhạc",
+        "note": "Vòng và chuỗi chuông đồng lắc giữ nhịp bước chân đoàn binh mã trong nghi lễ Then"
+      },
+      {
+        "name": "Quạt giấy",
+        "note": "Đạo cụ biểu diễn kết hợp nhịp múa của thầy Then"
+      },
+      {
+        "name": "Kèn bầu, trống, thanh la, chũm chọe",
+        "note": "Dùng trong nhạc lễ đám cưới, đám tang và hội Lồng Tồng (xuống đồng)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "orthography_normalization": "Văn bản tiếng Nùng có hai quy ước chính tả khác nhau: (1) chữ Tày-Nùng 1961 (dùng ă/â cho nguyên âm ngắn, ph cho [pʰ]) và (2) chữ Nùng Phạn Slinh của SIL (dùng hậu tố -h sau nguyên âm như ah, ih, uh, eh, oh, ưh trước phụ âm cuối để ghi nguyên âm ngắn, dùng -ah cuối âm tiết mở cho vần -aư, và dùng f cho [f]). Cần chuẩn hóa về một hệ duy nhất trước khi đưa vào tokenizer.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "sl (ví dụ: slam 'ba', sli 'thơ/hát sli')",
+        "quoc_ngu": "xl / x (ví dụ: xlam / xam, xli / xi)",
+        "note": "Âm xát cạnh lưỡi vô thanh /ɬ/ hoàn toàn không có trong tiếng Việt chuẩn. Mô hình TTS chỉ biết tiếng Việt sẽ đọc tách 'xl' hoặc đọc thành [s]; cần fine-tune riêng âm vị /ɬ/ nếu muốn phát âm chuẩn."
+      },
+      {
+        "native": "ph trong chữ Tày-Nùng 1961 và SIL (ví dụ: phỏhm 'tóc', phjắc 'rau')",
+        "quoc_ngu": "p (bật hơi)",
+        "note": "Trong cả chữ Tày-Nùng 1961 và chữ SIL, 'ph' ghi âm tắc hai môi bật hơi /pʰ/ (tuy một số văn bản 1961 viết 'ph' cho cả /f/). Tiếng Việt chuẩn không có /pʰ/ và đọc 'ph' thành [f]; nếu không có phoneme /pʰ/, xấp xỉ tạm bằng 'p' cho từ có /pʰ/ và giữ 'ph' cho từ có /f/."
+      },
+      {
+        "native": "kh (ví dụ: khảu 'gạo/vào', khỏi 'tôi')",
+        "quoc_ngu": "kh (ví dụ: khảu, khỏi)",
+        "note": "Tiếng Nùng phát âm là âm tắc bật hơi [kʰ] (hoặc [kˣ]), trong khi TTS tiếng Việt chuẩn thường đọc 'kh' là âm xát [x]."
+      },
+      {
+        "native": "p đầu âm tiết (ví dụ: páy/pây 'đi', pá/pa 'cá')",
+        "quoc_ngu": "p (ví dụ: pây, pa)",
+        "note": "Âm /p/ đầu âm tiết rất phổ biến trong tiếng Nùng; một số giọng đọc TTS tiếng Việt dễ đọc nhầm 'p-' thành [b-], nên kiểm tra phát âm trên các từ mượn có p- của mô hình."
+      },
+      {
+        "native": "-h chỉ nguyên âm ngắn trong chữ SIL (ví dụ: áhn, vahn, hẻht, cưhn, lụhc, Nohng)",
+        "quoc_ngu": "ăn, vằn, hét/hẻt, cần, lục, Nùng",
+        "note": "Chữ 'h' đứng giữa nguyên âm và phụ âm cuối trong chính tả SIL chỉ đánh dấu nguyên âm ngắn, tuyệt đối không đọc thành âm /h/. Phải lược bỏ 'h' và đổi sang con chữ nguyên âm ngắn Quốc ngữ tương ứng trước khi đưa vào TTS tiếng Việt."
+      },
+      {
+        "native": "-uhc / -ohng (ví dụ: lụhc 'con', Nohng 'Nùng')",
+        "quoc_ngu": "lục, Nùng / Nồng",
+        "note": "Phụ âm cuối /-k, -ŋ/ sau nguyên âm tròn môi trong tiếng Nùng giữ nguyên vị trí ngạc mềm [k, ŋ], không bị môi hóa ngậm hai môi [k͡p, ŋ͡m] như tiếng Việt."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Nùng Phạn Slinh (Nùng Phàn Slình)",
+        "iso639_3": "nut",
+        "glottocode": "nung1286",
+        "note": "Phân bố ở đông Lạng Sơn, Bắc Giang (Bắc Ninh) và cộng đồng di cư tại Lâm Đồng, Đắk Lắk, Đồng Nai; là phương ngữ có nhiều tư liệu ngữ pháp và từ điển nhất (Saul & Wilson 1980; Freiberger & Vy Thị Bé 1976)."
+      },
+      {
+        "name": "Nùng Cháo (Lungchow)",
+        "iso639_3": "nut",
+        "glottocode": "nung1287",
+        "note": "Phân bố quanh TP. Lạng Sơn; tương ứng với phương ngữ Long Châu (Lungchow) trong các công trình của Li Fang-Kuei (1977) và William J. Gedney."
+      },
+      {
+        "name": "Nùng Inh",
+        "iso639_3": "nut",
+        "glottocode": "nung1285",
+        "note": "Phân bố ở phía tây tỉnh Lạng Sơn."
+      },
+      {
+        "name": "Nùng An",
+        "iso639_3": "nut",
+        "glottocode": "nung1284",
+        "note": "Phân bố tại Quảng Uyên (Quảng Hòa, Cao Bằng); mang đặc điểm chuyển tiếp giữa nhánh Thái Trung tâm (Central Tai) và Thái Bắc (Northern Tai)."
+      },
+      {
+        "name": "Nùng Giang",
+        "iso639_3": "nut",
+        "glottocode": "gian1240",
+        "note": "Phân bố tại Hà Quảng (Cao Bằng), gần gũi chặt chẽ với cụm phương ngữ Dejing / Yang Zhuang (ISO 639-3: zyg) bên kia biên giới Tĩnh Tây (Quảng Tây)."
+      },
+      {
+        "name": "Nùng Lòi, Nùng Quý Rịn, Nùng Xuồng",
+        "iso639_3": "nut",
+        "glottocode": "nung1283",
+        "note": "Các nhóm phương ngữ địa phương khác thuộc cụm tiếng Nùng tại Cao Bằng và Lạng Sơn (Glottocodes: nung1289, nung1288, xuon1238)."
+      },
+      {
+        "name": "Nùng Dín (Western Nung / Nong Zhuang)",
+        "iso639_3": "zhn",
+        "glottocode": "nong1247",
+        "note": "Phân bố tại Mường Khương (Lào Cai) và Hoàng Su Phì, Xín Mần (Hà Giang); về mặt phân loại ISO 639-3 thuộc mã zhn (Nong Zhuang)."
+      },
+      {
+        "name": "Nùng Vẻn (Tiếng En)",
+        "iso639_3": "enc",
+        "glottocode": "ennn1243",
+        "note": "Nói tại xã Nội Thôn, huyện Hà Quảng, tỉnh Cao Bằng. Người nói được xếp vào dân tộc Nùng nhưng ngôn ngữ thực chất thuộc nhánh Kra (Kadai) gần với tiếng Bố Ương (Buyang), không thuộc nhánh Thái."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "cưhn / cần",
+        "ipa": "kɨn˧˧ / kən˨˩",
+        "meaning_vi": "người",
+        "gloss_en": "person"
+      },
+      {
+        "native": "nặm / nạhm",
+        "ipa": "nam˨ʔ",
+        "meaning_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "fã / phạ",
+        "ipa": "faː˦ʔ / faː˨ʔ",
+        "meaning_vi": "trời",
+        "gloss_en": "sky"
+      },
+      {
+        "native": "vahn / vằn",
+        "ipa": "van˧˧ / van˨˩",
+        "meaning_vi": "ngày",
+        "gloss_en": "day"
+      },
+      {
+        "native": "hựhn / khửn",
+        "ipa": "hɨn˨ʔ / kʰɨn˨",
+        "meaning_vi": "đêm",
+        "gloss_en": "night"
+      },
+      {
+        "native": "pá / pa",
+        "ipa": "paː˦ / paː˧˧",
+        "meaning_vi": "cá",
+        "gloss_en": "fish"
+      },
+      {
+        "native": "mạ",
+        "ipa": "maː˨ʔ",
+        "meaning_vi": "ngựa",
+        "gloss_en": "horse"
+      },
+      {
+        "native": "kíhn / kin",
+        "ipa": "kin˦ / kiːn˧˧",
+        "meaning_vi": "ăn",
+        "gloss_en": "to eat"
+      },
+      {
+        "native": "páy / pây",
+        "ipa": "paj˦ / pəj˧˧",
+        "meaning_vi": "đi",
+        "gloss_en": "to go"
+      },
+      {
+        "native": "hẻht / hết",
+        "ipa": "hɛt˨ / het˦",
+        "meaning_vi": "làm",
+        "gloss_en": "to do"
+      },
+      {
+        "native": "slam",
+        "ipa": "ɬaːm˧˧",
+        "meaning_vi": "ba (3)",
+        "gloss_en": "three"
+      },
+      {
+        "native": "cáu",
+        "ipa": "kaːw˦",
+        "meaning_vi": "tôi / tao",
+        "gloss_en": "I"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Nung (Viet Nam) [nung1283]",
+      "url": "https://glottolog.org/resource/languoid/id/nung1283",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Saul, Janice E. & Nancy Freiberger Wilson (1980). Nung Grammar. Publications in Linguistics, 62. Dallas: Summer Institute of Linguistics and University of Texas at Arlington.",
+      "url": "https://www.sil.org/resources/archives/8637",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Freiberger, Nancy & Vy Thị Bé (1976). Sẹc mạhn Slứ Nohng Fạn Slihng: Ngữ vựng Nùng Phạn Slinh (Nung Fan Slihng Vocabulary). Summer Institute of Linguistics.",
+      "url": "https://www.sil.org/resources/archives/36262",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hội đồng Chính phủ Việt Nam Dân chủ Cộng hòa (1961). Nghị định số 206-CP ngày 27/11/1961 phê chuẩn phương án chữ Tày - Nùng, chữ Thái và chữ Mèo.",
+      "url": "https://thuvienphapluat.vn/van-ban/Van-hoa-Xa-hoi/Nghi-dinh-206-CP-quy-dinh-viec-dung-chu-Tay-Nung-chu-Thai-va-chu-Meo-o-cac-khu-tu-tri-va-o-cac-dia-phuong-co-dong-bao-Tay-Nung-Thai-va-Meo-19684.aspx",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Nùng language (Tai)",
+      "url": "https://en.wikipedia.org/wiki/N%C3%B9ng_language_(Tai)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Nùng",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_N%C3%B9ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Nung (Viet Nam) / Lungchow (UPSID 502, Li Fang-Kuei 1977)",
+      "url": "https://phoible.org/languages/nung1283",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Practices of Then by Tày, Nùng and Thái ethnic groups in Viet Nam (No. 01379, 2019)",
+      "url": "https://ich.unesco.org/en/RL/01379",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "lexicon[0].ipa",
+          "severity": "medium",
+          "problem": "Mục từ ghi 'cần / cưhn' nhưng IPA lại chỉ ghi 'kɨn˨˩' (thanh huyền 21 theo chữ Tày-Nùng 'cần'), trong khi chính tả SIL 'cưhn' mang thanh ngang (không dấu, [kɨn˧˧]). Sự bất nhất tương tự cũng xuất hiện ở 'pa' ('pá' trong Nùng Phạn Slinh), 'kin' ('kíhn' trong Nùng Phạn Slinh), 'lúhc' (con vs lúc) trong lexicon và ml_hints.",
+          "fix": "Ghi rõ cả hai biến thể IPA tương ứng với hai phương ngữ/chính tả (ví dụ 'kɨn˧˧ (SIL: cưhn) / kən˨˩ (1961: cần)', 'kíhn / kin' -> 'kin˦ / kiːn˧˧') để tránh nhầm lẫn khi huấn luyện mô hình."
+        },
+        {
+          "path": "phonology.onsets[16]",
+          "severity": "low",
+          "problem": "Trong chính tả Nùng Phạn Slinh (SIL), chữ 'd' ghi âm vị /ʒ ~ ʑ/ (ví dụ: 'dụ' = ở), còn âm /j/ viết bằng 'y' hoặc 'gi', nhưng bảng mã gộp chung 'd / gi' -> 'j'.",
+          "fix": "Cập nhật ipa thành 'j ~ ʒ ~ ʑ' và bổ sung chữ 'y' vào grapheme ('d / gi / y') kèm giải thích rõ quy ước của SIL."
+        },
+        {
+          "path": "phonology.codas[8]",
+          "severity": "low",
+          "problem": "Chỉ ghi 'ư (trong vần âư)' của hệ chữ 1961, thiếu quy ước 'h' trong tổ hợp 'ah' ở cuối âm tiết mở của hệ chữ SIL (trong chính tả Nùng Phạn Slinh, 'hah' đọc là 'haư' /haɰ/).",
+          "fix": "Bổ sung ghi chú về cách viết '-ah' cuối âm tiết mở trong hệ chữ SIL tương ứng với vần '-aư / -âư'."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "low",
+          "problem": "Giá trị Chao contour đang ghi cố định theo hệ 5 mức (35, 24, 44, 22), trong khi tài liệu mô tả âm vị học Nùng Phạn Slinh (Saul & Wilson 1980; Wikipedia) thường ký hiệu bằng thanh mức/biến thiên IPA: sắc ˦ (44/35), ngang ˧ (33), hỏi ˨ ~ ˨˦ (low-rising), huyền ˨˩ (21), ngã ˦ʔ (high-glottal), nặng ˨ʔ (low-glottal).",
+          "fix": "Bổ sung đối chiếu ký hiệu IPA chuẩn của Saul & Wilson (1980) vào trường phonation/chao_contour để đảm bảo nhất quán với phần phiên âm từ vựng."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của tất cả các nguồn có URL đang để null; nguồn Nghị định 206-CP và tài liệu SIL chưa gắn URL kiểm chứng dù có bản lưu trực tuyến.",
+          "fix": "Cập nhật url_check='verified' cho các URL đã kiểm tra thực tế và bổ sung URL lưu trữ của SIL / Thư Viện Pháp Luật."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần xác định một phương ngữ chuẩn làm đại diện khi thu âm hoặc huấn luyện TTS/SVS (ví dụ Nùng Phàn Slình hay Nùng Cháo ở Lạng Sơn), vì hệ thống thanh điệu, nguyên âm đôi và phụ âm đầu thay đổi đáng kể giữa các nhánh Nùng.",
+      "Cần thống nhất quy tắc chính tả giữa Phương án chữ Tày - Nùng 1961 và hệ chữ Nùng Phạn Slinh (SIL), đặc biệt ở cách ghi thanh lửng/ngã và cách biểu thị độ ngắn của nguyên âm.",
+      "Cần chuyên gia âm nhạc dân tộc học bổ sung ký âm chuẩn (ABC/MIDI) cho các làn điệu Sli Soong hào và Sli Sình Làng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

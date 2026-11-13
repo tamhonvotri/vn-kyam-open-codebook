@@ -1,0 +1,877 @@
+{
+  "id": "la-chi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Chí",
+  "name_en": "Lachi",
+  "autonym": "qu31 te341 / qu32 te453 (Cù Tê)",
+  "ethnic_group_vi": "La Chí",
+  "language": {
+    "iso639_3": "lbt",
+    "glottocode": "lach1248",
+    "family": "Kra-Dai",
+    "branch": "Kra (Western Kra, Lachic)"
+  },
+  "regions": [
+    "Hà Giang / Tuyên Quang (huyện Xín Mần: Bản Díu; huyện Hoàng Su Phì: Bản Phùng, Bản Máy, Bản Pắng [trước 1983 thuộc Xín Mần]; huyện Bắc Quang: Tân Lợi; huyện Quang Bình)",
+    "Lào Cai (huyện Bắc Hà, huyện Mường Khương)"
+  ],
+  "speakers_estimate": "Khoảng 6.000–9.500 người nói tại Việt Nam (Kosaka 2000; Edmondson 2008) trên tổng dân số 15.126 người dân tộc La Chí tại Việt Nam (Tổng điều tra dân số 2019). Ngôn ngữ đang có nguy cơ mai một rõ rệt ở một số địa bàn như Bản Pắng, Bản Máy (chuyển sang tiếng Nùng và tiếng Việt).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết phổ thông chính thức (ghi âm học thuật bằng IPA / Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Spacing Modifier Letters, IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Tiếng La Chí là ngôn ngữ truyền khẩu, chưa có bộ chữ viết Latinh chuẩn hóa do Nhà nước ban hành tại Việt Nam. Trong nghiên cứu ngôn ngữ học (Nguyễn Văn Lợi & Edmondson 1999; Kosaka 2000; Dương Thu Hằng, Nguyễn Thu Quỳnh & Nguyễn Văn Lợi 2020), tiếng La Chí được ghi âm trực tiếp bằng ký hiệu IPA và chữ số thanh điệu Chao."
+    },
+    {
+      "name": "Chữ Hán (văn bản nghi lễ cổ truyền)",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Trước đây một số thầy cúng người La Chí dùng chữ Hán trong sách cúng gia tiên và nghi lễ, không dùng để ghi âm khẩu ngữ La Chí hàng ngày."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã nháp tổng hợp từ các tư liệu ngôn ngữ học thực địa về tiếng La Chí ở Hà Giang và Vân Nam: Kosaka (2000) về thổ ngữ Tân Lợi (Bắc Quang, gốc Bản Díu), Nguyễn Văn Lợi & Edmondson (1999) và Edmondson & Li (2003) về thổ ngữ Bản Phùng, Li Yunbing (2000) về phương ngữ Kim Xưởng (Mã Quan), và Dương Thu Hằng et al. (2020) về Bản Díu. Do tiếng La Chí chưa có chữ viết Latinh chính thức, cột grapheme trong phonology ghi theo quy ước phiên âm học thuật Latinh/IPA của Kosaka (2000) và Li (2000). Cần thẩm định lại với người bản ngữ từng xã (Bản Phùng, Bản Díu) vì sự phân hóa thổ ngữ lớn.",
+  "phonology": {
+    "syllable_structure": "(C0V0.)C1(j/w)V(C2)+T hoặc âm tiết mũi tự thân C̩+T (bán âm tiết / sesquisyllabic còn bảo lưu ở Tân Lợi - Bản Díu)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (quy ước phiên âm học thuật)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (không phải âm xát [f] như chữ Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (ghi nhận ở thổ ngữ Việt Nam và Li 2000)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pj",
+        "ipa": "pʲ",
+        "note": "Tắc hai môi vô thanh ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "phj",
+        "ipa": "pʲʰ",
+        "note": "Tắc hai môi bật hơi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bj",
+        "ipa": "bʲ",
+        "note": "Tắc hai môi hữu thanh ngạc hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc lợi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Chủ yếu xuất hiện trong từ vay mượn gốc tiếng Việt hoặc Tày-Nùng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tj",
+        "ipa": "tʲ",
+        "note": "Tắc lợi vô thanh ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "thj",
+        "ipa": "tʲʰ",
+        "note": "Tắc lợi bật hơi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / tc",
+        "ipa": "tɕ",
+        "note": "Tắc-xát lợi-ngạc vô thanh (Kosaka 2000 ký hiệu là c ở Tân Lợi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / tch",
+        "ipa": "tɕʰ",
+        "note": "Tắc-xát lợi-ngạc vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw",
+        "ipa": "kʷ",
+        "note": "Tắc ngạc mềm môi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khw",
+        "ipa": "kʷʰ",
+        "note": "Tắc ngạc mềm bật hơi môi hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "q",
+        "note": "Tắc lưỡi con (uvular) vô thanh không bật hơi — âm vị đặc trưng của nhóm Kra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qh",
+        "ipa": "qʰ",
+        "note": "Tắc lưỡi con vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát lợi vô thanh (tần suất thấp hoặc theo phương ngữ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ɕ",
+        "ipa": "ɕ",
+        "note": "Xát lợi-ngạc vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi; cũng có thể làm âm tiết mũi tự thân [m̩] hoặc tiền âm tiết m0",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mj",
+        "ipa": "mʲ",
+        "note": "Mũi hai môi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nj",
+        "ipa": "nʲ",
+        "note": "Mũi lợi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɲ",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŋ",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ghi nhận ở thổ ngữ Bản Díu và Kim Xưởng; ở Tân Lợi thường môi hóa thành ŋw)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ŋw",
+        "ipa": "ŋʷ",
+        "note": "Mũi ngạc mềm môi hóa; có thể đứng độc lập làm âm tiết tự thân [ŋ̍ʷ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔm",
+        "ipa": "ˀm̩",
+        "note": "Âm mũi hai môi tự thân thanh hầu hóa trước (ví dụ ʔm45 ko22 'gãi')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "lj",
+        "ipa": "lʲ",
+        "note": "Bên lợi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc; có thể hiện thực hóa thành [ʑ] trước /i/ hoặc [ɦ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm; có thể hiện thực hóa thành [ʊ̯] trước /i/ hoặc [ɦ]",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước khép; sau phụ âm không ngạc/ngạc mềm/môi hóa có biến thể ngạc mềm hóa [ˠi]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước nửa khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɛ",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước nửa mở; có biến thể [ˠɛ] tương tự /i/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɤ",
+        "ipa": "ɤ",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi nửa khép",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở hàng trước/giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɑ",
+        "ipa": "ɑ",
+        "note": "Nguyên âm mở hàng sau (phân biệt với /a/ trong mô tả của Kosaka 2000 và Li 2000)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau khép tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau nửa khép tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɔ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau nửa mở tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "VN (aN, eN, iN, ɔN, uN)",
+        "ipa": "ã ~ ẽ ~ ĩ ~ ɔ̃ ~ ũ",
+        "note": "Ở thổ ngữ Tân Lợi (Kosaka 2000), ký hiệu -N biểu thị nguyên âm mũi hóa do suy yếu phụ âm mũi cuối",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết (bảo lưu hạn chế, ví dụ cam22 'một', num22 'ăn trộm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Âm mũi lợi cuối âm tiết (rất hạn chế, nhiều từ đã chuyển thành nguyên âm mũi hoặc -ŋ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-ŋ / -N",
+        "ipa": "ŋ ~ ◌̃",
+        "note": "Âm mũi ngạc mềm cuối âm tiết hoặc mũi hóa nguyên âm đứng trước ở Tân Lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-j",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối hàng trước",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-w",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi (ví dụ ko43 lew21 'cùn')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "t1_45",
+        "name": "Thanh cao lên (Tân Lợi 45)",
+        "mark": null,
+        "chao_contour": "45",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t2_43",
+        "name": "Thanh cao xuống nhẹ (Tân Lợi 43)",
+        "mark": null,
+        "chao_contour": "43",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t3_23",
+        "name": "Thanh thấp lên (Tân Lợi 23)",
+        "mark": null,
+        "chao_contour": "23",
+        "phonation": "modal (tương ứng các thanh có giọng thở ɦ ở một số thổ ngữ khác)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t4_22",
+        "name": "Thanh trung thấp bằng (Tân Lợi 22)",
+        "mark": null,
+        "chao_contour": "22",
+        "phonation": "modal (nhập Proto-Kra *B1 và *B2 ở Tân Lợi)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t5_21",
+        "name": "Thanh thấp xuống (Tân Lợi 21)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t0_presyllable",
+        "name": "Thanh trung hòa tiền âm tiết (0)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": "ngắn, không mang trọng âm ở tiền âm tiết bán âm tiết (ví dụ qɑ0, na0, nam0, m0)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu kết hợp chất giọng (phonation). Hệ 5 thanh điệu chính trên đây dẫn theo mô tả thổ ngữ Tân Lợi (Bắc Quang, gốc Bản Díu — Kosaka 2000). Ở thổ ngữ Bản Phùng (Nguyễn Văn Lợi & Edmondson 1999; Edmondson & Li 2003), sự rụng hoàn toàn các âm tắc cuối (*-p, *-t, *-k) tạo ra 6–8 đường nét thanh điệu (như A1: 51, A2: 341ɦ, B1: 241, B2: 41ɦ, C1: 31...), trong đó các thanh phát sinh từ phụ âm đầu hữu thanh cổ kèm chất giọng thở (breathy/murmured [-ɦ]). Ngoài ra có hiện tượng biến thanh (tone sandhi) mạnh trong tổ hợp từ."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người La Chí (Cù Tê)",
+      "form": "qu31 te341",
+      "ipa": "qu˧˩ te˧˦˩",
+      "gloss_en": "Lachi person (autonym) [Bản Phùng]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "cam22",
+      "ipa": "tɕam˨˨",
+      "gloss_en": "one [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một nghìn",
+      "form": "thuN23",
+      "ipa": "tʰũ˨˧",
+      "gloss_en": "one thousand [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ʔi22",
+      "ipa": "ʔi˨˨",
+      "gloss_en": "water [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "i31",
+      "ipa": "i˧˩",
+      "gloss_en": "water [Bản Phùng]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "pe43",
+      "ipa": "pe˦˧",
+      "gloss_en": "fire [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "pje51",
+      "ipa": "pʲe˥˩",
+      "gloss_en": "fire [Bản Phùng]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "nam0 tju43",
+      "ipa": "nam tʲu˦˧",
+      "gloss_en": "eye [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "na0 kha23",
+      "ipa": "na kʰa˨˧",
+      "gloss_en": "head [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "ɲɑ45",
+      "ipa": "ɲɑ˦˥",
+      "gloss_en": "nose [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tóc",
+      "form": "ɕaN43",
+      "ipa": "ɕã˦˧",
+      "gloss_en": "hair [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "pju23",
+      "ipa": "pʲu˨˧",
+      "gloss_en": "blood [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vai",
+      "form": "quN0 phu22",
+      "ipa": "qũ pʰu˨˨",
+      "gloss_en": "shoulder [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngực / vú",
+      "form": "co22",
+      "ipa": "tɕo˨˨",
+      "gloss_en": "breast [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố / cha",
+      "form": "m0 pa22",
+      "ipa": "m̩ pa˨˨",
+      "gloss_en": "father [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "m0 be43",
+      "ipa": "m̩ be˦˧",
+      "gloss_en": "mother [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con / trẻ nhỏ",
+      "form": "nji0 ʔi23",
+      "ipa": "nʲi ʔi˨˧",
+      "gloss_en": "child [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "kho43",
+      "ipa": "kʰo˦˧",
+      "gloss_en": "house [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tên",
+      "form": "qɑ0 nji23",
+      "ipa": "qɑ nʲi˨˧",
+      "gloss_en": "name [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây / củi",
+      "form": "qɑ0 ɕi23",
+      "ipa": "qɑ ɕi˨˧",
+      "gloss_en": "stick / wood [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nói",
+      "form": "thɛ45",
+      "ipa": "tʰɛ˦˥",
+      "gloss_en": "to say [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngủ",
+      "form": "ŋwi22",
+      "ipa": "ŋʷi˨˨",
+      "gloss_en": "to sleep [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sống",
+      "form": "nu0 le45",
+      "ipa": "nu le˦˥",
+      "gloss_en": "to live / be alive [Tân Lợi]",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chết",
+      "form": "peN21",
+      "ipa": "pẽ˨˩",
+      "gloss_en": "to die [Tân Lợi]",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát giao duyên / hát đối đáp (ní ca)",
+        "note": "Hình thức hát đối đáp nam nữ bằng tiếng La Chí trong dịp Tết Khu Cù Tê (tháng 7 âm lịch), lễ mừng cơm mới, đám cưới, chợ phiên và lao động sản xuất; có thể hát mộc không nhạc đệm hoặc đệm đàn tính 3 dây."
+      },
+      {
+        "name": "Hát nghi lễ và sinh hoạt (hát ru, hát mừng nhà mới)",
+        "note": "Các bài hát gắn với phong tục vòng đời, lễ hội Hoàng Vần Thùng và nghi lễ cúng tổ tiên của cộng đồng La Chí ở Xín Mần, Hoàng Su Phì và Bắc Hà."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn tính 3 dây",
+        "note": "Nhạc cụ dây gảy truyền thống đặc trưng của người La Chí, dùng đệm hát giao duyên dịp lễ tết"
+      },
+      {
+        "name": "Đàn môi",
+        "note": "Chế tác bằng tre hoặc lá cây, dùng trong giao duyên nam nữ"
+      },
+      {
+        "name": "Kèn lá",
+        "note": "Nhạc cụ hơi dân dã dùng thổi giai điệu gọi bạn, giao duyên trên nương rẫy"
+      },
+      {
+        "name": "Trống và chiêng",
+        "note": "Nhạc cụ gõ thiêng do trưởng tộc/dòng họ lưu giữ, sử dụng trong Tết Khu Cù Tê và lễ cúng tổ tiên"
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "q- / qh- ([q], [qʰ])",
+        "quoc_ngu": "c-/k- / kh-",
+        "note": "Tiếng Việt không có âm tắc lưỡi con [q, qʰ]. Xấp xỉ tạm bằng c/k và kh (ví dụ qu31 te341 → 'cù tê', qɑ0 nji23 → 'ca nhi'), chấp nhận mất nét cấu âm lưỡi con sâu."
+      },
+      {
+        "native": "ph- ([pʰ])",
+        "quoc_ngu": "p- (hoặc ph-)",
+        "note": "Chữ 'ph' Quốc ngữ phát âm là âm xát môi-răng [f], trong khi tiếng La Chí phân biệt rõ [pʰ] (tắc hai môi bật hơi) và [f]. Mô hình chỉ biết tiếng Việt không tạo được [pʰ] tự nhiên."
+      },
+      {
+        "native": "pj- / phj- / bj- / tj- / mj- / lj- ([pʲ, pʲʰ, bʲ, tʲ, mʲ, lʲ])",
+        "quoc_ngu": "pi- / phi- / bi- / ti- / mi- / li-",
+        "note": "Tiếng Việt không có loạt phụ âm đầu ngạc hóa đối lập âm vị; xấp xỉ bằng nguyên âm đệm/lướt 'i' (ví dụ pju23 → 'piu', pje51 → 'piê', nam0 tju43 → 'nam tiu')."
+      },
+      {
+        "native": "c- / ch- / ɕ- ([tɕ, tɕʰ, ɕ])",
+        "quoc_ngu": "ch- / x-",
+        "note": "Xấp xỉ [tɕ] bằng 'ch' và [ɕ] bằng 'x' (hoặc 's' miền Bắc); tiếng Việt không có âm tắc-xát bật hơi [tɕʰ] (ví dụ cam22 → 'chăm/cham', ɕaN43 → 'xăng/xang')."
+      },
+      {
+        "native": "m0 / ʔm / ŋw ([m̩, ˀm̩, ŋ̍ʷ])",
+        "quoc_ngu": "ừm / ưng / nguy-",
+        "note": "Tiếng Việt không có âm tiết mũi tự thân độc lập; tiền âm tiết m0 có thể xấp xỉ bằng 'ừm/mờ' rất ngắn (ví dụ m0 pa22 → 'ừm pa', m0 be43 → 'ừm bê')."
+      },
+      {
+        "native": "-N ([ã, ẽ, ĩ, ɔ̃, ũ])",
+        "quoc_ngu": "-ng / -n",
+        "note": "Tiếng Việt không có nguyên âm mũi hóa đối lập trong âm tiết mở; xấp xỉ bằng vần đóng mũi '-ng' hoặc '-n' (ví dụ thuN23 → 'thủng/thung', peN21 → 'pềnh')."
+      },
+      {
+        "native": "Thanh điệu 45 / 43 / 23 / 22 / 21 và tiền âm tiết 0",
+        "quoc_ngu": "sắc (45) / ngang (43) / hỏi nhẹ (23) / huyền lơi (22) / huyền-nặng (21)",
+        "note": "Tiền âm tiết mang thanh 0 viết thành âm tiết thanh ngang/huyền đọc lướt ngắn; chất giọng thở [-ɦ] ở thổ ngữ Bản Phùng không có tương đương trực tiếp trong chữ Quốc ngữ chuẩn."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name_vi": "La Chí Đen & La Chí Tóc Dài (Nam La Chí — Bản Phùng, Bản Díu, Tân Lợi)",
+        "name_en": "Southern Lachi (Black Lachi & Long-Haired Lachi)",
+        "iso639_3": "lbt",
+        "glottocode": "lach1248",
+        "autonym": "qu31 te341 / li35 pu44 tɕoŋ44 / li35 pu44 pi55",
+        "regions": [
+          "Hoàng Su Phì (Bản Phùng), Xín Mần (Bản Díu), Bắc Quang (Tân Lợi) — Hà Giang / Tuyên Quang"
+        ],
+        "note": "Biến thể chính đang được sử dụng tại Việt Nam (gồm các nhóm tự nhận là Ý Pí ở Bản Phùng, Ý Tọ ở Bản Díu / Tân Lợi)."
+      },
+      {
+        "name_vi": "La Chí Trắng (Trung La Chí — Bản Pắng, Bản Máy)",
+        "name_en": "White Lachi (Central Lachi)",
+        "iso639_3": "lwh",
+        "glottocode": "whit1266",
+        "autonym": "li35 pu44 pu",
+        "regions": [
+          "Bản Máy (gồm cả xã Bản Pắng cũ, huyện Hoàng Su Phì, trước năm 1983 thuộc huyện Xín Mần — Hà Giang / Tuyên Quang)"
+        ],
+        "note": "Có mã ISO 639-3 riêng là lwh. Theo Edmondson (2008) và khảo sát ngôn ngữ học xã hội, cư dân Bản Pắng và Bản Máy phần lớn đã chuyển sang nói tiếng Nùng; lưu ý cơ sở dữ liệu ABVD gán mã lwh cho bảng từ Tân Lợi của Kosaka (2000) dù cư dân Tân Lợi di cư từ Bản Díu."
+      },
+      {
+        "name_vi": "La Chí Hoa / La Chí Hán (Bắc La Chí — Kim Xưởng, Mã Quan)",
+        "name_en": "Northern Lachi (Flowery Lachi / Chinese Lachi)",
+        "iso639_3": "lbt",
+        "glottocode": "lach1248",
+        "autonym": "li35 pu44 ljo44",
+        "regions": [
+          "Huyện Mã Quan (Maguan), châu Văn Sơn, tỉnh Vân Nam, Trung Quốc"
+        ],
+        "note": "Biến thể tại Trung Quốc được Li Yunbing (2000) và Ostapirat (2000) khảo sát; giữ 6 thanh điệu (55, 44, 35, 31, 13, 53) và cấu trúc đơn tiết hóa mạnh hơn thổ ngữ Tân Lợi."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "qu31 te341",
+        "ipa": "qu˧˩ te˧˦˩",
+        "gloss_vi": "người La Chí (Cù Tê)",
+        "gloss_en": "Lachi person",
+        "variety": "Bản Phùng (Edmondson & Li 2003)"
+      },
+      {
+        "native": "cam22",
+        "ipa": "tɕam˨˨",
+        "gloss_vi": "một",
+        "gloss_en": "one",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "ʔi22",
+        "ipa": "ʔi˨˨",
+        "gloss_vi": "nước",
+        "gloss_en": "water",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "i31",
+        "ipa": "i˧˩",
+        "gloss_vi": "nước",
+        "gloss_en": "water",
+        "variety": "Bản Phùng (Edmondson & Li 2003)"
+      },
+      {
+        "native": "pe43",
+        "ipa": "pe˦˧",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "pje51",
+        "ipa": "pʲe˥˩",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire",
+        "variety": "Bản Phùng (Edmondson & Li 2003)"
+      },
+      {
+        "native": "nam0 tju43",
+        "ipa": "nam tʲu˦˧",
+        "gloss_vi": "mắt",
+        "gloss_en": "eye",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "na0 kha23",
+        "ipa": "na kʰa˨˧",
+        "gloss_vi": "đầu",
+        "gloss_en": "head",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "ɲɑ45",
+        "ipa": "ɲɑ˦˥",
+        "gloss_vi": "mũi",
+        "gloss_en": "nose",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "pju23",
+        "ipa": "pʲu˨˧",
+        "gloss_vi": "máu",
+        "gloss_en": "blood",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "kho43",
+        "ipa": "kʰo˦˧",
+        "gloss_vi": "nhà",
+        "gloss_en": "house",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "m0 pa22",
+        "ipa": "m̩ pa˨˨",
+        "gloss_vi": "bố / cha",
+        "gloss_en": "father",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "m0 be43",
+        "ipa": "m̩ be˦˧",
+        "gloss_vi": "mẹ",
+        "gloss_en": "mother",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      },
+      {
+        "native": "ŋwi22",
+        "ipa": "ŋʷi˨˨",
+        "gloss_vi": "ngủ",
+        "gloss_en": "to sleep",
+        "variety": "Tân Lợi (Kosaka 2000)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Lachi (lach1248)",
+      "url": "https://glottolog.org/resource/languoid/id/lach1248",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lachi language",
+      "url": "https://en.wikipedia.org/wiki/Lachi_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lachi people",
+      "url": "https://en.wikipedia.org/wiki/Lachi_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Kosaka, Ryuichi (2000). A descriptive study of the Lachi language: syntactic description, historical reconstruction and genetic relation. Ph.D. dissertation, Tokyo University of Foreign Studies (kèm bảng từ Tân Lợi trong ABVD).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A. & Li, Shaoni (2003). Review of Lajiyu Yanjiu by Li Yunbing. Linguistics of the Tibeto-Burman Area, 26(1), 163–181.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Lợi & Edmondson, Jerold A. (1999). Tiếng La Chí ở thượng nguồn sông Lô. Tạp chí Ngôn ngữ, số 5, tr. 1–11.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Duong, Thu Hang; Nguyen, Thu Quynh & Nguyen, Van Loi (2020/2021). The Language of the La Chí People in Bản Díu Commune, Xín Mần District, Hà Giang Province, Vietnam. JSEALS / University of Hawai'i Press, pp. 124–138 (CLDF dataset).",
+      "url": "https://doi.org/10.5281/zenodo.13829479",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê (2019). Kết quả toàn bộ Tổng điều tra dân số và nhà ở thời điểm 0 giờ ngày 01 tháng 4 năm 2019.",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "regions[0] & ml_hints.sub_varieties",
+          "severity": "low",
+          "problem": "Gộp cả 4 xã Bản Phùng, Bản Díu, Bản Pắng, Bản Máy vào huyện Xín Mần. Dù một số tài liệu dân tộc học thứ cấp chép lại địa giới trước năm 1983, trên thực tế hành chính (sau Quyết định 185/1981/QĐ-CP và Quyết định 136-HĐBT năm 1983), xã Bản Díu thuộc huyện Xín Mần, còn Bản Phùng và Bản Máy (sáp nhập Bản Pắng) thuộc huyện Hoàng Su Phì.",
+          "fix": "Phân tách chính xác xã Bản Díu (huyện Xín Mần) và Bản Phùng, Bản Máy, Bản Pắng (huyện Hoàng Su Phì, nguyên trước 1983 thuộc Xín Mần) trong regions[0] và ml_hints.sub_varieties."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Thiếu phụ âm đầu mũi ngạc mềm không môi hóa /ŋ/ (grapheme 'ŋ'). Dù thổ ngữ Tân Lợi (Kosaka 2000) chủ yếu có /ŋʷ/, âm đầu /ŋ/ vẫn xuất hiện trong các mô tả thổ ngữ Bản Díu (Dương Thu Hằng et al. 2020) và Kim Xưởng (Li 2000).",
+          "fix": "Bổ sung mục grapheme 'ŋ' -> IPA 'ŋ' với confidence 'medium' và ghi chú rõ sự phân bố theo thổ ngữ."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Ba mục từ 'người La Chí' (qu31 te341), 'nước' (i31) và 'lửa' (pje51) lấy từ thổ ngữ Bản Phùng (mang thanh 31, 341, 51) đặt lẫn với 19 mục từ của thổ ngữ Tân Lợi (hệ 5 thanh 45, 43, 23, 22, 21 trong phonology.tones) mà không ghi chú thổ ngữ ở trường gloss_en hoặc bổ sung hình thái Tân Lợi tương ứng (ʔi22 'nước', pe43 'lửa' theo Kosaka 2000).",
+          "fix": "Ghi chú rõ '[Bản Phùng]' ở các mục từ Bản Phùng trong lexicon và bổ sung hình thái Tân Lợi Kosaka (2000) cho 'nước' (ʔi22) và 'lửa' (pe43) để đồng nhất với hệ thanh điệu ở phonology.tones."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng La Chí chưa có hệ chữ viết Latinh chính thức tại Việt Nam; cần thống nhất quy ước ký âm thực hành nếu xây dựng học liệu cộng đồng hoặc kho ngữ liệu TTS/singing.",
+      "Sự khác biệt đáng kể về hệ thống thanh điệu và cấu trúc bán âm tiết giữa thổ ngữ Bản Phùng (Edmondson & Li 2003) và thổ ngữ Bản Díu / Tân Lợi (Kosaka 2000; Dương Thu Hằng et al. 2020) cần được đối chiếu âm học trực tiếp với nghệ nhân bản ngữ.",
+      "Chưa có bản ký âm nhạc học chi tiết (thang âm, quãng luyến láy) cho các làn điệu hát giao duyên 'ní ca' và nhạc đàn tính 3 dây của người La Chí."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

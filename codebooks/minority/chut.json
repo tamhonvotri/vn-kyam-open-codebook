@@ -1,0 +1,804 @@
+{
+  "id": "chut",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chứt",
+  "name_en": "Chut language (Ruc–Sach–May cluster)",
+  "autonym": "Chứt (Cheut)",
+  "ethnic_group_vi": "Chứt",
+  "language": {
+    "iso639_3": "scb",
+    "glottocode": "chut1247",
+    "family": "Austroasiatic",
+    "branch": "Vietic (Chutic)"
+  },
+  "regions": [
+    "Quảng Bình (các huyện Minh Hóa, Tuyên Hóa, Bố Trạch)",
+    "Hà Tĩnh (bản Rào Tre, xã Hương Liên, huyện Hương Khê — chủ yếu nhóm Mã Liềng/Rục)",
+    "Khăm Muộn (Khammouane), Lào (nhóm Salang)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Chứt tại Việt Nam là 7.513 người (Tổng điều tra dân số 2019, riêng Quảng Bình chiếm 6.572 người); số người còn nói thông thạo cụm phương ngữ Chứt [scb] ước tính khoảng 1.300–2.500 người, trong đó các phương ngữ Rục và Mày đang bị đe dọa nghiêm trọng.",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (ghi âm học thuật bằng IPA)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Tiếng Chứt hiện chưa có bộ chữ viết chuẩn hóa do Nhà nước ban hành. Các công trình ngôn ngữ học (Nguyễn Văn Lợi 1993; Babaev & Samarina 2021; Tạ Thành Tấn 2021, 2023) ký âm trực tiếp bằng IPA; văn nghệ dân gian sưu tầm thường phiên âm tạm bằng chữ Quốc ngữ."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học thực địa đã công bố về cụm ngôn ngữ Chứt [scb] (trọng tâm là phương ngữ Mày theo Babaev & Samarina 2021 và phương ngữ Rục theo Nguyễn Văn Lợi 1993, Tạ Thành Tấn 2021, 2023). Vì tiếng Chứt chưa có chữ viết chính thức, trường grapheme trong hệ thống âm vị được để null và mọi từ vựng đều dẫn theo ký âm IPA nguyên bản của nguồn học thuật.",
+  "phonology": {
+    "syllable_structure": "(C1V1.)C2(C3)V2(C4)+T — ngôn ngữ bán âm tiết (sesquisyllabic): có thể có tiền âm tiết nhẹ không mang thanh điệu (như ca-, ta-, pa-, u-, ʔa-, hoặc âm mũi âm tiết tính ɴ̩-) đứng trước âm tiết chính mang thanh điệu/âm vực.",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi; có thể hữu thanh hóa/yếu hóa thành [β] sau tiền âm tiết mở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh tiền thanh hầu hóa / hút vào (ở vị trí mạnh có thể tiền mũi hóa [ᵐɓ-])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi; có thể yếu hóa thành [z] sau tiền âm tiết mở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hữu thanh tiền thanh hầu hóa / hút vào (ở vị trí mạnh có thể tiền mũi hóa [ⁿɗ-])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʈ",
+        "note": "Tắc quặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʄ",
+        "note": "Tắc ngạc cứng hữu thanh hút vào (ghi nhận rõ trong tiếng Mày/Rục; ở vị trí mạnh thường tiền mũi hóa [ᶮʄ-])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi; có thể yếu hóa thành [ɣ] giữa hai nguyên âm hoặc sau tiền âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu, xuất hiện cả ở đầu tiền âm tiết và đầu âm tiết đơn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "β",
+        "note": "Xát hai môi hữu thanh (tương ứng gần với /v/ phương ngữ Trung tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʂ",
+        "note": "Xát quặt lưỡi vô thanh, thường tắc-xát hóa thành [ʈ͡ʂ] ở tiếng Mày",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɕ",
+        "note": "Xát lợi-ngạc vô thanh, thường tắc-xát hóa thành [t͡ɕ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʑ",
+        "note": "Xát lợi-ngạc hữu thanh, biến thể tự do [j] hoặc [d͡ʑ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɣ",
+        "note": "Xát ngạc mềm hữu thanh (chủ yếu gặp trong từ vay mượn hoặc biến thể ngữ âm)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên chân răng; cũng tham gia tạo tổ hợp phụ âm đầu C+l",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɽ",
+        "note": "Vỗ/rung quặt lưỡi, thường hiện thực hóa thành [ɖ͡ɽ], [ʐ] hoặc [ʒ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pl, ɓl, kl, kʰl",
+        "note": "Tổ hợp phụ âm đầu bảo lưu ở âm tiết chính trong tiếng Rục và tiếng Mày (ở tiếng Sách nhiều tổ hợp đã đơn giản hóa thành /ʈ/ như tiếng Việt phương ngữ)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i / ĭ",
+        "note": "Nguyên âm trước khép không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯ / ɯ̆",
+        "note": "Nguyên âm sau/giữa khép không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u / ŭ",
+        "note": "Nguyên âm sau khép tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e / ĕ",
+        "note": "Nguyên âm trước nửa khép không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ / ɤ̆",
+        "note": "Nguyên âm sau/giữa nửa khép không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o / ŏ",
+        "note": "Nguyên âm sau nửa khép tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ / ɛ̆",
+        "note": "Nguyên âm trước nửa mở không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a / ă",
+        "note": "Nguyên âm giữa mở, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ / ɔ̆",
+        "note": "Nguyên âm sau nửa mở tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "iə (ie), ɯə, uə (uo)",
+        "note": "Nguyên âm đôi hướng tâm",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "-p̚",
+        "note": "Tắc hai môi vô thanh đóng (không bật ra)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-t̚",
+        "note": "Tắc chân răng vô thanh đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-c̚",
+        "note": "Tắc ngạc cứng vô thanh đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-k̚",
+        "note": "Tắc ngạc mềm vô thanh đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (gắn chặt với sự hình thành các thanh trắc 3 và 4)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-h",
+        "note": "Xát thanh hầu cuối âm tiết (bảo lưu cổ của ngữ chi Vietic ở Rục và Mày; ở tiếng Mày đang có xu hướng rụng dần kéo theo biến đổi đường nét thanh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-m",
+        "note": "Mũi hai môi (trong tiếng Mày có biến thể đóng [-m̚] và vô thanh hóa/thanh hầu hóa tùy theo kiểu điệu tính PT-1..4)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-l",
+        "note": "Bên chân răng cuối âm tiết (không có trong tiếng Việt hiện đại)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-ɽ (-r)",
+        "note": "Vỗ/lỏng quặt lưỡi cuối âm tiết, thường đọc vô thanh [ɽ̊] hoặc bên quặt lưỡi [ɭ] trong tiếng Mày (không có trong tiếng Việt hiện đại)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "-i̯ (-j), -u̯ (-w)",
+        "note": "Bán nguyên âm cuối âm tiết",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone_1",
+        "name": "Thanh 1 / Kiểu điệu tính PT-1 (âm vực cao, bằng)",
+        "mark": "¹",
+        "chao_contour": "53",
+        "phonation": "modal (giọng thường, âm vực cao; Nguyễn Văn Lợi 1993 ghi 55, Tạ Thành Tấn 2021 đo thực nghiệm ở tiếng Rục là 53)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone_2",
+        "name": "Thanh 2 / Kiểu điệu tính PT-2 (âm vực thấp, bằng)",
+        "mark": "²",
+        "chao_contour": "32",
+        "phonation": "breathy (giọng hà hơi V̤, âm vực thấp; Nguyễn Văn Lợi 1993 ghi 22, Tạ Thành Tấn 2021 đo thực nghiệm là 32)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone_3",
+        "name": "Thanh 3 / Kiểu điệu tính PT-3 (âm vực cao, trắc/lên)",
+        "mark": "³",
+        "chao_contour": "34",
+        "phonation": "modal / glottalized (giọng thường kèm căng/nghẽn thanh hầu cuối ở vần mở và vần vang; xuất hiện cả ở âm tiết kết thúc bằng -p, -t, -c, -k)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone_4",
+        "name": "Thanh 4 / Kiểu điệu tính PT-4 (âm vực thấp, trắc/xuống-nghẽn)",
+        "mark": "⁴",
+        "chao_contour": "31",
+        "phonation": "breathy-glottalized (giọng hà hơi kèm nghẽn thanh hầu; Nguyễn Văn Lợi 1993 ghi 424, Tạ Thành Tấn 2021 ghi 31)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 'thanh điệu – âm vực' (tonation) gồm 4 thanh điệu ở các phương ngữ Rục, Mày, Sách: 2 thanh âm vực cao (giọng thường - modal) đối lập với 2 thanh âm vực thấp (giọng hà hơi - breathy, nguyên âm có độ mở hẹp hơn / F1 thấp hơn). Các âm tiết bảo lưu âm cuối /-h/ trong tiếng Rục có cao độ cao ngắn (~44) theo phân bố bổ túc âm đoạn (tương ứng lịch sử với thanh hỏi – ngã tiếng Việt). Riêng tiếng Arem [aem] (một nhóm địa phương khác thuộc dân tộc Chứt) là ngôn ngữ âm vực có phụ âm cuối thanh hầu hóa, tách biệt với cụm Rục–Sách–Mày."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "ɗak³",
+      "ipa": "ɗak³",
+      "gloss_en": "water (Mày, Rục, Sách)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ʔaka³",
+      "ipa": "ʔaka³",
+      "gloss_en": "fish (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mă̤t⁴",
+      "ipa": "mă̤t⁴",
+      "gloss_en": "eye (Mày, Rục; Sách: mɤ̤̆t⁴)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tóc / lông vũ",
+      "form": "ʔuɕŭk³",
+      "ipa": "ʔuɕŭk³",
+      "gloss_en": "hair / feather (Mày, Rục; Sách: ɕŏk³)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "mɛ̤⁴",
+      "ipa": "mɛ̤⁴",
+      "gloss_en": "mother (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con",
+      "form": "kɔn¹",
+      "ipa": "kɔn¹",
+      "gloss_en": "child (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ông ngoại",
+      "form": "ta¹",
+      "ipa": "ta⁵³",
+      "gloss_en": "maternal grandfather (Rục)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngay bây giờ",
+      "form": "ta̤²",
+      "ipa": "ta̤³²",
+      "gloss_en": "right now (Rục)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đá",
+      "form": "ta³",
+      "ipa": "ta³⁴",
+      "gloss_en": "stone (Rục)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái thang",
+      "form": "ta̤⁴",
+      "ipa": "ta̤³¹",
+      "gloss_en": "ladder (Rục)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con gấu",
+      "form": "cakuː⁴",
+      "ipa": "cakuː⁴",
+      "gloss_en": "bear (Rục)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mỡ",
+      "form": "klŭŋ²",
+      "ipa": "klŭŋ²",
+      "gloss_en": "fat / grease (Mày, Rục; Sách: ʈuŋ²)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruột / bụng",
+      "form": "ɽɔ̤c⁴",
+      "ipa": "ɽɔ̤c⁴",
+      "gloss_en": "gut / intestine (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chân",
+      "form": "ciŋ²",
+      "ipa": "ciŋ²",
+      "gloss_en": "foot / leg (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng tôi (trừ người nghe)",
+      "form": "tapa¹",
+      "ipa": "tapa¹",
+      "gloss_en": "we, exclusive (Mày; Rục: cupa¹, Sách: capa¹)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái gì",
+      "form": "camɤ³",
+      "ipa": "camɤ³",
+      "gloss_en": "what (Mày, Rục)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cười",
+      "form": "ʔăl³",
+      "ipa": "ʔăl³",
+      "gloss_en": "to laugh (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "phía trước / trước đây",
+      "form": "ʈɯh¹",
+      "ipa": "ʈɯh¹ ~ ʈɯ²",
+      "gloss_en": "front / previously (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rau",
+      "form": "ʄăm¹",
+      "ipa": "ᶮʄăm¹",
+      "gloss_en": "vegetables (Mày)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "mṳɽ²",
+      "ipa": "mṳɽ²",
+      "gloss_en": "nose (Mày, Rục)",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Kà tơm – tà lênh (Kà-tưm, Kà-lềnh)",
+        "note": "Làn điệu dân ca tiêu biểu nhất của người Chứt (nghĩa đen: 'kà tơm' là con trâu, 'tà lênh' là cày đất -> 'con trâu đi cày'), mở đầu bằng điệp khúc lặp lại hai lần, hát đối đáp giao duyên nam nữ trong lao động, hội bản và sau các lễ cúng cộng đồng."
+      },
+      {
+        "name": "Kà răng – tà nên",
+        "note": "Làn điệu dân ca trữ tình đối đáp của người Chứt (gắn với ý 'chiều về trên đỉnh núi', bắt nguồn từ tiếng gọi nhau về bản lúc chiều muộn)."
+      },
+      {
+        "name": "Hát ru và diễn xướng lời khấn nghi lễ",
+        "note": "Hát ru con và đọc bài cúng truyền khẩu bằng tiếng mẹ đẻ (như lễ cúng giang sơn, lễ lấp lỗ gieo hạt, lễ mừng cơm mới; chủ lễ thường dùng cặp ống nứa trống – mái cọ lên đá suối tạo âm thanh trầm bổng đệm cho lời khấn)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn ống lồ ô / Tờ-rơ-bon (Chơ-rơ-bon)",
+        "note": "Nhạc cụ dây làm từ ống tre/lồ ô, phân biệt loại dành cho nam và loại dành cho nữ"
+      },
+      {
+        "name": "Ống pìa (cặp ống nứa trống – mái)",
+        "note": "Khí cụ nghi lễ của người Mày/Chứt gồm hai ống nứa (ống trống dài khoảng 1m, ống mái dài bằng nửa ống trống có đựng gạo nếp) buộc que nứa vót nhọn cọ vào hòn đá suối để phát ra âm thanh khi cúng cơm mới"
+      },
+      {
+        "name": "Khèn bè / Kèn môi"
+      },
+      {
+        "name": "Sáo Pi (sáo 6 lỗ)"
+      },
+      {
+        "name": "Tù và (Cà vá)"
+      },
+      {
+        "name": "Chiêng / Phèng la"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Sách",
+        "glottocode": "sach1240",
+        "iso639_3": "scb",
+        "note": "Phương ngữ có đông người nói nhất trong khối Chứt [scb] tại Minh Hóa, Tuyên Hóa, Bố Trạch (Quảng Bình); chịu ảnh hưởng tiếng Việt mạnh hơn Rục và Mày (nhiều tổ hợp phụ âm đầu đã đơn giản hóa)."
+      },
+      {
+        "name_vi": "Tiếng Mày",
+        "glottocode": "mayy1239",
+        "iso639_3": "scb",
+        "note": "Phương ngữ thuộc cụm Chứt [scb] tại xã Dân Hóa, Trọng Hóa, Thượng Hóa, Hóa Tiến, Hóa Thanh (Minh Hóa, Quảng Bình); bảo lưu tốt tiền âm tiết, tổ hợp phụ âm đầu và hệ thống 4 kiểu điệu tính."
+      },
+      {
+        "name_vi": "Tiếng Rục",
+        "glottocode": "rucc1239",
+        "iso639_3": "scb",
+        "note": "Phương ngữ thuộc cụm Chứt [scb] tại xã Thượng Hóa (Minh Hóa) và Tuyên Hóa (Quảng Bình); nổi tiếng trong ngôn ngữ học lịch sử Đông Nam Á nhờ bảo lưu nhiều tiền tố và âm cuối cổ của ngữ chi Vietic."
+      },
+      {
+        "name_vi": "Tiếng Mã Liềng (Maleng)",
+        "glottocode": "male1282",
+        "iso639_3": "pkt",
+        "note": "Ngôn ngữ của nhóm địa phương Mã Liềng (thuộc dân tộc Chứt ở Tuyên Hóa, Minh Hóa - Quảng Bình và bản Rào Tre - Hà Tĩnh); về phân loại ngôn ngữ học thuộc nhánh Maleng [pkt] (riêng thổ ngữ Mã Liềng đôi khi được gán mã nhánh mali1278)."
+      },
+      {
+        "name_vi": "Tiếng Arem (Cmbrau / Umo)",
+        "glottocode": "arem1240",
+        "iso639_3": "aem",
+        "note": "Ngôn ngữ cực kỳ nguy cấp của nhóm Arem (xã Tân Trạch, huyện Bố Trạch, Quảng Bình); thuộc dân tộc Chứt về mặt hành chính nhưng là ngôn ngữ riêng [aem] có đối lập âm vực (register) và phụ âm cuối thanh hầu hóa."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ɗak³",
+        "quoc_ngu": "đác",
+        "note": "Âm đầu /ɗ/ và âm cuối /-k/ trùng khít với 'đác' trong tiếng Việt."
+      },
+      {
+        "native": "ʔaka³",
+        "quoc_ngu": "a-cá",
+        "note": "Tiền âm tiết /ʔa-/ đọc nhẹ, không nhấn mạnh và rút ngắn thời lượng so với âm tiết chính 'cá'."
+      },
+      {
+        "native": "ʔuɕŭk³",
+        "quoc_ngu": "u-súc",
+        "note": "Tiền âm tiết /ʔu-/ đọc lướt nhẹ; âm /ɕ/ nằm giữa 'x' và 's' tiếng Việt (gần [t͡ɕ] ~ 'ch' nhẹ)."
+      },
+      {
+        "native": "cakuː⁴",
+        "quoc_ngu": "cha-cụ",
+        "note": "Tiền âm tiết /ca-/ đọc nhẹ và nhanh (như 'chơ-'); thanh 4 âm vực thấp có giọng hà hơi (breathy), không nghẽn gắt thanh hầu sớm như thanh nặng Hà Nội."
+      },
+      {
+        "native": "klŭŋ²",
+        "quoc_ngu": "cờ-lùng",
+        "note": "Tổ hợp phụ âm đầu /kl-/ không có trong tiếng Việt hiện đại; khi xấp xỉ bằng TTS tiếng Việt phải chèn nguyên âm lướt cực ngắn 'cờ-lùng'."
+      },
+      {
+        "native": "ʔăl³",
+        "quoc_ngu": "ắn (âm cuối -l)",
+        "note": "Âm cuối bên /-l/ không tồn tại trong tiếng Việt; chữ Quốc ngữ chỉ xấp xỉ gần bằng '-n', làm mất nét khu biệt /-l/ với /-n/."
+      },
+      {
+        "native": "mṳɽ²",
+        "quoc_ngu": "mùi / mù-r (mũi)",
+        "note": "Âm cuối vỗ quặt lưỡi /-ɽ/ và giọng hà hơi (V̤) đều không có trong tiếng Việt chuẩn; xấp xỉ bằng chữ Quốc ngữ bị mất hoàn toàn âm cuối quặt lưỡi."
+      },
+      {
+        "native": "ʈɯh¹",
+        "quoc_ngu": "trư-h (trước)",
+        "note": "Âm cuối xát thanh hầu /-h/ không có trong tiếng Việt hiện đại; TTS tiếng Việt không tự phát âm được luồng hơi xát cuối âm tiết nếu không can thiệp mức phoneme."
+      }
+    ],
+    "tts_and_svs_phonetic_notes": [
+      "Các âm và cấu trúc KHÔNG có trong tiếng Việt chuẩn cần xử lý riêng khi huấn luyện TTS/SVS: (1) tiền âm tiết không trọng âm (sesquisyllables: ca-, ta-, pa-, u-, ɴ̩-); (2) tổ hợp phụ âm đầu pl-, ɓl-, kl-, kʰl-; (3) các phụ âm cuối -l, -ɽ (-r), -h, -c (sau nguyên âm sau), -ʔ; (4) phụ âm đầu hút vào ngạc cứng /ʄ/; (5) đối lập chất giọng hà hơi (breathy voice) ở các thanh chẵn (thanh 2, thanh 4) và đối lập độ dài nguyên âm ở mọi vị trí.",
+      "Không nên dùng bộ tách từ đơn âm tiết kiểu tiếng Việt vì sẽ tách tiền âm tiết thành một âm tiết đầy đủ có trọng âm, phá vỡ nhịp bán âm tiết tự nhiên của tiếng Chứt."
+    ],
+    "sample_words": [
+      {
+        "native": "ɗak³",
+        "ipa": "ɗak³",
+        "vi": "nước (Mày, Rục, Sách)"
+      },
+      {
+        "native": "ʔaka³",
+        "ipa": "ʔaka³",
+        "vi": "cá (Mày)"
+      },
+      {
+        "native": "mă̤t⁴",
+        "ipa": "mă̤t⁴",
+        "vi": "mắt (Mày, Rục)"
+      },
+      {
+        "native": "ʔuɕŭk³",
+        "ipa": "ʔuɕŭk³",
+        "vi": "tóc, lông vũ (Mày, Rục)"
+      },
+      {
+        "native": "mɛ̤⁴",
+        "ipa": "mɛ̤⁴",
+        "vi": "mẹ (Mày)"
+      },
+      {
+        "native": "kɔn¹",
+        "ipa": "kɔn¹",
+        "vi": "con (Mày)"
+      },
+      {
+        "native": "ta¹",
+        "ipa": "ta⁵³",
+        "vi": "ông ngoại (Rục)"
+      },
+      {
+        "native": "ta³",
+        "ipa": "ta³⁴",
+        "vi": "đá (Rục)"
+      },
+      {
+        "native": "ta̤⁴",
+        "ipa": "ta̤³¹",
+        "vi": "cái thang (Rục)"
+      },
+      {
+        "native": "cakuː⁴",
+        "ipa": "cakuː⁴",
+        "vi": "con gấu (Rục)"
+      },
+      {
+        "native": "klŭŋ²",
+        "ipa": "klŭŋ²",
+        "vi": "mỡ (Mày, Rục)"
+      },
+      {
+        "native": "ciŋ²",
+        "ipa": "ciŋ²",
+        "vi": "chân (Mày)"
+      },
+      {
+        "native": "tapa¹",
+        "ipa": "tapa¹",
+        "vi": "chúng tôi - trừ người nghe (Mày)"
+      },
+      {
+        "native": "camɤ³",
+        "ipa": "camɤ³",
+        "vi": "cái gì (Mày, Rục)"
+      },
+      {
+        "native": "ʈɯh¹",
+        "ipa": "ʈɯh¹ ~ ʈɯ²",
+        "vi": "phía trước, trước đây (Mày)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Chut [chut1247]",
+      "url": "https://glottolog.org/resource/languoid/id/chut1247",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Babaev, Kirill & Samarina, Irina (2021). A Grammar of May: An Austroasiatic Language of Vietnam (ed. & trans. Paul Sidwell). Leiden/Boston: Brill.",
+      "url": "https://doi.org/10.1163/9789004461086",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Lợi (1993). Tiếng Rục. Hà Nội: Nhà xuất bản Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Thành Tấn (2021). Hệ thống thanh điệu tiếng Rục và quá trình hình thành thanh điệu trong các ngôn ngữ Vietic. Tạp chí Phát triển Khoa học và Công nghệ – Khoa học Xã hội và Nhân văn, 5(1), 955–976.",
+      "url": "https://doi.org/10.32508/stdjssh.v5i1.568",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tạ, Thành Tấn (2023). Register and Tone Developments in Vietic Languages. PhD Dissertation, University of Ottawa.",
+      "url": "https://doi.org/10.20381/ruor-29099",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Chut languages",
+      "url": "https://en.wikipedia.org/wiki/Chut_languages",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Mày language",
+      "url": "https://en.wikipedia.org/wiki/M%C3%A0y_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Chứt",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Ch%E1%BB%A9t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[2].glottocode",
+          "severity": "medium",
+          "problem": "Glottocode của phương ngữ Rục bị ghi nhầm thành 'chut1247' (đây là mã của cả cụm ngôn ngữ Chứt). Trong hệ thống phân loại của Glottolog, phương ngữ Rục có mã riêng là 'rucc1239' (ngang hàng với 'sach1240' và 'mayy1239' bên dưới 'chut1247').",
+          "fix": "Sửa glottocode của Tiếng Rục thành 'rucc1239'."
+        },
+        {
+          "path": "ml_hints.quoc_ngu_approximation",
+          "severity": "low",
+          "problem": "Hai mục từ ví dụ trong quoc_ngu_approximation là 'mṳɽ²' (mũi) và 'ʈɯh¹' (trước) chưa được đưa vào bảng lexicon chính thức, gây thiếu đồng bộ giữa các phần của codebook (ngoài ra dấu phụ hà hơi dưới nguyên âm u trong mṳɽ² dùng U+0324 trực tiếp dễ lỗi hiển thị hơn so với bổ sung vào lexicon chuẩn).",
+          "fix": "Bổ sung 'ʈɯh¹ ~ ʈɯ²' (trước / phía trước - có chứng thực trực tiếp từ Babaev & Samarina 2021) và 'mṳɽ²' (confidence medium) vào lexicon để đồng bộ dữ liệu."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Cách ghi thanh điệu trong lexicon và sample_words đang trộn lẫn hai quy ước: các từ tiếng Mày/Rục theo Babaev & Samarina (2021) / Nguyễn Văn Lợi (1993) ghi chỉ số kiểu điệu tính ¹ ² ³ ⁴, trong khi 3 từ tiếng Rục trích từ Tạ Thành Tấn (2021) ('ta⁵³', 'ta³⁴', 'ta̤³¹') lại ghi trực tiếp trị số cao độ Chao (53, 34, 31) ở vị trí dấu thanh.",
+          "fix": "Chuẩn hóa trường 'form' về ký hiệu thanh âm vị học (ta¹, ta³, ta̤⁴) để thống nhất với hệ thống 4 thanh trong phonology.tones, đồng thời giữ nguyên dạng ngữ âm chi tiết kèm trị số Chao ([ta⁵³], [ta³⁴], [ta̤³¹]) trong trường 'ipa'."
+        },
+        {
+          "path": "music.instruments",
+          "severity": "low",
+          "problem": "Đôi ống nứa dùng trong lễ cúng cơm mới của người Mày/Chứt (được nhắc tới trong phần genres.note) có tên gọi dân gian được ghi nhận trong tư liệu điền dã Quảng Bình là 'ống pìa' (cặp ống trống mái cọ lên đá suối), nhưng chưa được liệt kê thành mục riêng trong danh sách nhạc cụ/khí cụ âm thanh.",
+          "fix": "Bổ sung 'Ống pìa (cặp ống nứa trống – mái)' vào music.instruments."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Chứt chưa có chữ viết chính thức; cần tham vấn chuyên gia ngữ âm Vietic và cộng đồng người Chứt tại Quảng Bình (Sách, Mày, Rục) nếu xây dựng quy ước chuyển tự Latinh thống nhất cho mục đích giáo dục hoặc TTS.",
+      "Phương ngữ Sách có số người nói đông nhất nhưng ít công trình mô tả âm học chi tiết bằng tiếng Anh/Việt công bố mở hơn so với Rục và Mày; bảng âm vị hiện dựa chủ yếu trên Rục và Mày.",
+      "Cần nhạc sĩ dân tộc nhạc học thẩm định thang âm, điệu thức và ký âm ABC cho hai làn điệu Kà tơm – tà lênh và Kà răng – tà nên."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

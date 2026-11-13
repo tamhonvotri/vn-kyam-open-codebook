@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "ngai",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ngái",
+    "ethnic_group_vi": "Ngái",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:39:01.956725",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 9420,
+      "totalTokenCount": 26192,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9420
+        }
+      ],
+      "thoughtsTokenCount": 7393,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10534,
+      "candidatesTokenCount": 9916,
+      "totalTokenCount": 24463,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10534
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9916
+        }
+      ],
+      "thoughtsTokenCount": 4013,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[3].note",
+        "severity": "medium",
+        "problem": "Ghi chú âm đầu /f/ viết: 'Ứng với nhiều từ Hán trung cổ hiểu/hạp mẫu hợp khẩu (ví dụ: fa/vả 話, fong 風)'. Trong âm운 học Hán trung cổ, chữ 風 thuộc Phi mẫu (非母, âm môi), không thuộc Hiểu/Hạp mẫu (曉/匣母), và trong tiếng Khách Gia/Ngái chữ 風 thường đọc là 'fung' /fuŋ/ chứ không phải 'fong'; còn chữ 話 trong tiếng Ngái phổ biến đọc âm đầu /v/ (va 話).",
+        "fix": "Sửa lại ghi chú chuẩn xác theo âm vận học lịch sử: '/f/ ứng với từ Hán trung cổ thuộc nhóm Phi/Phu/Phụng mẫu (ví dụ: fan 飯, fung 風) và Hiểu/Hạp mẫu hợp khẩu (ví dụ: fa 花, fo 火)'."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Mâu thuẫn nội tại về độ tin cậy (confidence) và biến thể ngữ âm: Mục phonology.tones đặt confidence 'low'/'medium' cho trị số Chao cụ thể (44, 13, 31, 53, 21, 55 — vốn lấy theo chuẩn Mai Huyện) vì chưa đo âm học thực địa tại Thái Nguyên/Bắc Giang, nhưng các mục trong lexicon lại gắn nhãn confidence 'high' cho phiên âm IPA mang các trị số thanh điệu này. Ngoài ra: (1) 'Ngái nhằn / Ngái nhìn (𠊎人)' thiếu biến thể âm gốc lưỡi /ŋin/ ('Ngai Ngin' được Hsu Fu-mei 2021: 167 ghi nhận trực tiếp); (2) 'sường cô (唱歌)' chỉ ghi [t͡sʰɔŋ⁵³ kɔ⁴⁴] mà thiếu biến thể xát hóa [sɔŋ⁵³ kɔ⁴⁴] (theo quy luật [t͡sʰ ~ s] của Hsu Fu-mei 2022) vốn là nguồn gốc trực tiếp của cách gọi 'Sường cô'; (3) 'pủn tì nhằn (本地人)' ghi chữ Quốc ngữ là 'tì' (không bật hơi) nhưng IPA chỉ ghi [tʰi⁵³].",
+        "fix": "Hạ confidence của các mục từ trong lexicon từ 'high' xuống 'medium' (và 'low' cho 'pủn tì nhằn', 'a mả') do trị số thanh điệu Chao chưa đo kiểm thực địa; bổ sung các biến thể ngữ âm tương ứng vào trường ipa của lexicon và ml_hints.sample_words."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trong status_note, phonology.onsets[9], phonology.codas[2] và phonology.codas[5] đều trích dẫn 'Hsu Fu-mei 2017' về tiêu chí so sánh Bắc – Nam của tiếng Ngái tại Việt Nam (âm đầu [ɬ], âm cuối môi-mạc [-k͡p̚, -ŋ͡m], và hiện tượng xuất quy thời [t͡sʰ ~ s]), nhưng danh mục sources lại bỏ sót công trình năm 2017 của Hsu Fu-mei (Từ Phú Mỹ). Đồng thời trường url_check đang để null.",
+        "fix": "Bổ sung công trình Hsu Fu-mei (2017) vào mảng sources và cập nhật trạng thái url_check cho các đường dẫn đã kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

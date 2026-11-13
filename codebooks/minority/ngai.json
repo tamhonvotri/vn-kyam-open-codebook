@@ -1,0 +1,715 @@
+{
+  "id": "ngai",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ngái",
+  "name_en": "Ngái (Vietnamese Ngai Hakka)",
+  "autonym": "Ngái vả (𠊎話 / 艾話) / Sán Ngái vả (山𠊎話)",
+  "ethnic_group_vi": "Ngái",
+  "language": {
+    "iso639_3": "hak",
+    "glottocode": "hakk1236",
+    "family": "Sino-Tibetan",
+    "branch": "Sinitic (Hakka — Ngai-fa / 𠊎話)"
+  },
+  "regions": [
+    "Thái Nguyên (Đồng Hỷ — thị trấn Hóa Thượng)",
+    "Bắc Giang (Lục Ngạn, Lục Nam)",
+    "Quảng Ninh (Móng Cái, Hải Hà, Tiên Yên)",
+    "Bắc Kạn (Ngân Sơn)",
+    "Lạng Sơn",
+    "Cao Bằng",
+    "Tuyên Quang",
+    "Hải Phòng",
+    "Đồng Nai",
+    "Lâm Đồng (khu vực Bình Thuận trước đây)",
+    "TP. Hồ Chí Minh"
+  ],
+  "speakers_estimate": "Theo Điều tra 53 dân tộc thiểu số năm 2019, dân tộc Ngái có 1.649 người (số người còn nói thông thạo tiếng mẹ đẻ thấp hơn do chuyển dịch mạnh sang tiếng Việt); tuy nhiên nếu tính cả các nhóm đồng ngôn ngữ tự nhận hoặc đăng ký thuộc dân tộc Hoa (Ngái Nhằn / Khách Gia) tại Việt Nam, tổng số người nói các thổ ngữ Ngái/Khách Gia ước tính khoảng 150.000–200.000 người.",
+  "scripts": [
+    {
+      "name": "Chữ Hán truyền thống và chữ tục Khách Gia/Ngái (Hán tự)",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs / CJK Unified Ideographs Extension B",
+      "official_in_vietnam": false,
+      "note": "Dùng hạn chế trong gia phả, văn cúng lễ Kỳ yên, tang ma và sổ chép dân ca Sường cô truyền thống. Đại từ ngôi thứ nhất 'ngái' (tôi) viết chính tự là 𠊎 (U+2028E, thuộc Extension B), thường được viết thay bằng chữ đồng âm/cận âm 涯, 崖 hoặc 艾. Hiện rất ít người trẻ trong cộng đồng đọc viết được chữ Hán."
+    },
+    {
+      "name": "Chữ Latinh (ghi âm chữ Quốc ngữ tự phát / phiên âm Khách Gia học thuật)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Nhà nước Việt Nam chưa ban hành bộ chữ viết Latinh chính thức riêng cho tiếng Ngái. Cộng đồng tại Thái Nguyên, Bắc Giang hiện dùng chữ Quốc ngữ tiếng Việt để ký âm truyền miệng lời hát Sường cô; các công trình ngôn ngữ học dùng IPA hoặc hệ thống phiên âm Khách Gia (Guangdong Hakka Romanization / Pha̍k-fa-sṳ)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu dân tộc học và ngôn ngữ học về tiếng Ngái (艾話 / 𠊎話) tại Việt Nam (Nguyễn Văn Chính 2018; Hsu Fu-mei 2017, 2021, 2022) kết hợp ngữ âm hệ thống phương ngữ Khách Gia nhánh Việt Tây – Quế Nam / Phòng Thành. Dân tộc Ngái được định danh riêng từ năm 1979, chủ yếu nói phương ngữ Ngái (một nhánh tiếng Khách Gia cổ từ Phòng Thành, Quảng Tây / miền Tây Quảng Đông), nhưng lịch sử định danh từng bao gồm một số nhóm nhỏ nói phương ngữ Quảng Đông ven biển (Sín, Đản) hoặc ngôn ngữ khác. Chưa có bảng chữ cái chuẩn hóa tại Việt Nam; quy ước grapheme trong mục phonology dưới đây dựa trên hệ phiên âm Latinh Khách Gia phổ biến trong học thuật (Pha̍k-fa-sṳ / phương án Quảng Đông) để ánh xạ sang IPA.",
+  "phonology": {
+    "syllable_structure": "(C1)(G)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (phương án Quảng Đông viết là b)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (phương án Quảng Đông viết là p); khác với 'ph' /f/ của chữ Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Có thể làm âm tiết mũi độc lập [m̩] trong từ phủ định 'm' (毋 - không)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Ứng với từ Hán trung cổ thuộc nhóm Phi/Phu/Phụng mẫu (ví dụ: fan 飯, fung 風) và Hiểu/Hạp mẫu hợp khẩu (ví dụ: fa 花, fo 火)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ ʋ",
+        "note": "Âm đầu đặc trưng của tiếng Ngái/Khách Gia (ví dụ: vả 話, vuk 屋)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi lợi vô thanh không bật hơi (phương án Quảng Đông viết là d)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi lợi vô thanh bật hơi (phương án Quảng Đông viết là t)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Phân biệt với /l/ trong đa số thổ ngữ Ngái, dù một số điểm tiếp xúc tại miền Bắc Việt Nam có hiện tượng lẫn lộn n/l",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "ɬ",
+        "note": "Xát bên lợi vô thanh — đặc trưng tiêu biểu của tiếng Ngái (𠊎話) gốc Phòng Thành / Quế Nam / Việt Tây ứng với tâm mẫu, sinh mẫu và sùng mẫu cổ (theo Hsu Fu-mei 2017); ở một số điểm cư trú hoặc người trẻ biến thể thành [s] hoặc [θ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ts / ch",
+        "ipa": "t͡s",
+        "note": "Tắc xát đầu lưỡi vô thanh không bật hơi (có thể ngạc hóa nhẹ [t͡ɕ] trước /i/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tsh / chh",
+        "ipa": "t͡sʰ ~ s",
+        "note": "Tắc xát đầu lưỡi vô thanh bật hơi. Hsu Fu-mei (2022) ghi nhận trong tiếng Ngái miền Bắc Việt Nam có hiện tượng biến thể lưỡng độc [t͡sʰ ~ s] ('xuất quy thời' 出歸時) và xu hướng biến âm [t͡sʰ > s]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh (có thể đọc gần [ɕ] trước /i/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh không bật hơi (phương án Quảng Đông viết là g)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc mạc vô thanh bật hơi (phương án Quảng Đông viết là k); khác với 'kh' /x/ của chữ Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Rất phổ biến ở đầu âm tiết (như ngái 𠊎 /ŋai/, ngìn 人 /ŋin/) và làm âm tiết mũi độc lập [ŋ̍] (ng 五 - năm, ng 魚 - cá)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngi / ny",
+        "ipa": "ɲ ~ ŋj",
+        "note": "Xuất hiện trước nguyên âm /i/ (như nhìn/ngìn 人, nhịt/ngịt 日); tùy điểm cư trú đọc là [ɲ] hoặc nhập vào [ŋ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi đầu âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Khởi âm tắc thanh hầu không khu biệt âm vị trước nguyên âm mở đầu âm tiết",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở trung tâm/trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ e",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ṳ / ii",
+        "ipa": "ɨ",
+        "note": "Nguyên âm đầu lưỡi [ɿ]/[ɨ] sau nhóm âm xuýt ts, tsh, s; ở nhiều thổ ngữ Ngái nhánh Quế Nam/Việt Tây âm này nhập vào /i/",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ ~ o",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai",
+        "ipa": "ai",
+        "note": "Xuất hiện trong tộc danh 'Ngái' /ŋai/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "au",
+        "ipa": "au",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "eu",
+        "ipa": "ɛu ~ eu",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "oi",
+        "ipa": "ɔi",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ui",
+        "ipa": "ui",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "ia",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ie",
+        "ipa": "iɛ",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iu",
+        "ipa": "iu",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "io",
+        "ipa": "iɔ",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "ua",
+        "note": null,
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Bảo lưu đầy đủ phụ âm cuối mũi hai môi Hán trung cổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ ~ ŋ͡m",
+        "note": "Hsu Fu-mei (2017) ghi nhận biến thể mũi môi-mạc [-ŋ͡m] (-ngm) sau nguyên âm dòng sau tròn môi là một tiêu chí so sánh Bắc – Nam của tiếng Ngái tại Việt Nam",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi không bật ra tiếng, đi kèm thanh Nhập",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi không bật ra tiếng, đi kèm thanh Nhập",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k",
+        "ipa": "k̚ ~ k͡p̚",
+        "note": "Tắc mạc không bật ra tiếng; có biến thể môi-mạc [-k͡p̚] (-kp) sau nguyên âm tròn môi ở một số điểm tiếng Ngái tại Việt Nam (Hsu Fu-mei 2017)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "yam_ping",
+        "name": "Âm bình (陰平)",
+        "mark": "1",
+        "chao_contour": "44",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "yong_ping",
+        "name": "Dương bình (陽平)",
+        "mark": "2",
+        "chao_contour": "13",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "song",
+        "name": "Thượng thanh (上聲)",
+        "mark": "3",
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "hi",
+        "name": "Khứ thanh (去聲)",
+        "mark": "4",
+        "chao_contour": "53",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "yam_nyip",
+        "name": "Âm nhập (陰入)",
+        "mark": "5",
+        "chao_contour": "21",
+        "phonation": "checked (âm tiết khép -p, -t, -k, ngắn)",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "yong_nyip",
+        "name": "Dương nhập (陽入)",
+        "mark": "6",
+        "chao_contour": "55",
+        "phonation": "checked (âm tiết khép -p, -t, -k, ngắn)",
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu điển hình của nhánh Khách Gia / Ngái thoại (6 thanh điệu: Bình và Nhập phân Âm – Dương, Thượng và Khứ không phân Âm – Dương). Trị số Chao (nhất là Dương bình [13]~[11]~[24] và Khứ thanh [53]~[33]) dao động giữa các điểm cư trú gốc Phòng Thành/Quế Nam, Việt Tây hay Gia Ưng nên cần đo đạc thực địa bổ sung tại từng làng ở Thái Nguyên và Bắc Giang."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi / ta",
+      "form": "ngái (𠊎)",
+      "ipa": "ŋai¹³",
+      "gloss_en": "I / me",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người Ngái",
+      "form": "Ngái nhằn / Ngái ngìn (𠊎人)",
+      "ipa": "ŋai¹³ ɲin¹³ ~ ŋai¹³ ŋin¹³",
+      "gloss_en": "Ngái person / people",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người Ngái ở miền núi",
+      "form": "Sán Ngái (山𠊎)",
+      "ipa": "san⁴⁴ ŋai¹³ ~ ɬan⁴⁴ ŋai¹³",
+      "gloss_en": "mountain-dwelling Ngái (autonym)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "tiếng Ngái",
+      "form": "Ngái vả (𠊎話)",
+      "ipa": "ŋai¹³ va⁵³",
+      "gloss_en": "Ngái language",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người Khách Gia",
+      "form": "Hắc Cá nhằn (客家人)",
+      "ipa": "hak̚²¹ ka⁴⁴ ɲin¹³ ~ hak̚²¹ ka⁴⁴ ŋin¹³",
+      "gloss_en": "Hakka people",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người bản địa",
+      "form": "pủn tì nhằn (本地人)",
+      "ipa": "pun³¹ tʰi⁵³ ɲin¹³ ~ pun³¹ ti⁵³ ɲin¹³",
+      "gloss_en": "indigenous / local person",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "hát dân ca giao duyên",
+      "form": "sường cô (唱歌)",
+      "ipa": "sɔŋ⁵³ kɔ⁴⁴ ~ t͡sʰɔŋ⁵³ kɔ⁴⁴",
+      "gloss_en": "traditional antiphonal folk song (lit. sing song)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bà nội / bà",
+      "form": "a mả (阿嬤)",
+      "ipa": "a⁴⁴ ma³¹",
+      "gloss_en": "grandmother",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Sường cô (Sóong cọ / Xướng ca - 唱歌)",
+        "note": "Lối hát giao duyên đối đáp nam nữ truyền thống đặc trưng nhất của người Ngái (đang được bảo tồn qua CLB Sường cô tại Đồng Hỷ, Thái Nguyên và Lục Ngạn, Bắc Giang). Hát mộc hoàn toàn không dùng nhạc cụ đệm, có thể hát đối đáp liên tục nhiều đêm về tình yêu, lao động sản xuất, lễ tết và đạo lý."
+      },
+      {
+        "name": "Hát cúng lễ Kỳ yên và nghi lễ vòng đời",
+        "note": "Diễn xướng nghi lễ đầu xuân cầu mưa thuận gió hòa, mùa màng tươi tốt (Lễ Kỳ yên thờ Tam Thanh Ngọc Đế và tổ tiên)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân cao và kéo dài cuối trổ hát Sường cô",
+        "description": "Do hát chay không nhạc cụ đệm, người hát Sường cô thường vút cao và ngân dài các âm tiết mở cuối câu để vang xa và chờ bạn hát đối đáp.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung dân ca hệ Khách Gia / Sơn ca phương Nam",
+        "note": "Giai điệu gắn chặt với đường nét thanh điệu ca từ (nguyên tắc hài hòa thanh – điệu của dân ca Khách Gia/Ngái); chưa có công trình ký âm âm nhạc học chi tiết riêng cho làn điệu Sường cô tại Thái Nguyên.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Thanh la",
+        "note": "Dùng trong nghi lễ Kỳ yên và sinh hoạt tín ngưỡng cộng đồng (hát Sường cô truyền thống không dùng nhạc cụ đệm)"
+      },
+      {
+        "name": "Tù và",
+        "note": "Dùng trong nghi lễ Kỳ yên của người Ngái tại Thái Nguyên"
+      },
+      {
+        "name": "Trống và chập chỏa",
+        "note": "Dùng trong múa sư tử dịp lễ hội, Tết Nguyên đán"
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "ngai (𠊎 - tôi)",
+        "quoc_ngu": "ngái / ngài",
+        "note": "Tùy ngữ cảnh thanh Dương bình [13] hoặc biến thanh trong câu, cộng đồng Việt Nam quen phiên là 'ngái' hoặc 'ngải'."
+      },
+      {
+        "native": "ngin / nyin (人 - người)",
+        "quoc_ngu": "nhằn / nhìn / ngìn",
+        "note": "Tư liệu dân tộc học Việt Nam thường ghi là 'nhằn' (Ngái nhằn); giọng đọc gần /ɲin/ hoặc /ŋin/."
+      },
+      {
+        "native": "San Ngai va (山𠊎話 - tiếng Sán Ngái)",
+        "quoc_ngu": "sán ngái vả",
+        "note": "Âm đầu /v/ khớp tốt với 'v' của tiếng Việt miền Bắc."
+      },
+      {
+        "native": "tshong ko / song ko (唱歌 - hát dân ca)",
+        "quoc_ngu": "sường cô / xướng cô",
+        "note": "Âm bật hơi tắc xát /t͡sʰ/ không có trong tiếng Việt chuẩn; trong tiếng Ngái miền Bắc Việt Nam vốn có biến thể [t͡sʰ ~ s] nên dùng 's'/'x' rất gần khẩu âm thực tế."
+      },
+      {
+        "native": "ph- /pʰ/ (ví dụ: phan 飯 / phak 白)",
+        "quoc_ngu": "p-h / th (xấp xỉ kém)",
+        "note": "Tiếng Việt KHÔNG có âm tắc hai môi bật hơi /pʰ/ (chữ 'ph' tiếng Việt đọc là /f/). Mô hình TTS chỉ biết tiếng Việt dễ đọc sai thành /f/; cần ghép embedding hoặc huấn luyện thêm âm /pʰ/."
+      },
+      {
+        "native": "kh- /kʰ/ (ví dụ: khi 佢 - anh ấy/cô ấy)",
+        "quoc_ngu": "khì",
+        "note": "Chữ 'kh' tiếng Việt chuẩn đọc là xát mạc /x/, trong khi tiếng Ngái là tắc mạc bật hơi /kʰ/ (gần 'c'/'k' bật hơi mạnh)."
+      },
+      {
+        "native": "sl- /ɬ/ (ví dụ: slam 三 - ba, slin 新 - mới)",
+        "quoc_ngu": "x- / th- (xấp xỉ thành xam, xin)",
+        "note": "Âm xát bên vô thanh /ɬ/ hoàn toàn không có trong tiếng Việt chuẩn. Với TTS tiếng Việt chỉ có thể xấp xỉ tạm bằng 'x' (/s/)."
+      },
+      {
+        "native": "p- /p/ (ví dụ: pun 本地 - bản địa)",
+        "quoc_ngu": "pủn",
+        "note": "Cần giữ chữ 'p' đầu từ (/p/ vô thanh), tránh viết 'b' vì TTS tiếng Việt sẽ đọc thành âm hút vào hữu thanh /ɓ/."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tiếng Ngái / Ngái Vả (𠊎話 / 艾話 — nhánh Khách Gia Phòng Thành / Quế Nam / Việt Tây)",
+        "iso639_3": "hak",
+        "glottocode": "hakk1236",
+        "note": "Biến thể chính của dân tộc Ngái tại Thái Nguyên, Bắc Giang, Quảng Ninh, Bắc Kạn và Đồng Nai."
+      },
+      {
+        "name": "Tiếng Khách Gia Gia Ưng / Mai Huyện (Ngái Hắc Cá / Hẹ)",
+        "iso639_3": "hak",
+        "glottocode": "hakk1236",
+        "note": "Nhóm Khách Gia gốc Đông Quảng Đông có quan hệ thông hiểu cao với nhóm Ngái Phòng Thành."
+      },
+      {
+        "name": "Tiếng Pạc Và (Bạch thoại Quảng Đông ven biển) và tiếng Đản (Đản gia / Tanka)",
+        "iso639_3": "yue",
+        "glottocode": "yuec1235",
+        "note": "Được nói bởi một số tiểu nhóm ven biển Quảng Ninh – Hải Phòng (Sín, Đản, Lầu Mần) từng được gộp chung vào danh mục dân tộc Ngái năm 1979."
+      },
+      {
+        "name": "Tiếng Lâm Cao / Ông Bối (nhóm Xuyến / Sín Lẩu gốc Hải Nam – Lôi Châu)",
+        "iso639_3": "onb",
+        "glottocode": "ling1263",
+        "note": "Một số tài liệu dân tộc học ghi nhận tiểu nhóm gốc Kra-Dai trong khối cư dân được xếp vào Ngái vùng Đông Bắc trước năm 1979 (độ chắc chắn thấp, cần khảo sát lại thực địa)."
+      },
+      {
+        "name": "Tiếng Lê (Hlai — tiểu nhóm Lê gốc Hải Nam)",
+        "iso639_3": "lic",
+        "glottocode": "hlai1239",
+        "note": "Từng được liệt kê trong các tên gọi gộp vào dân tộc Ngái năm 1979; đa số đã di cư khỏi Việt Nam giai đoạn 1978–1979."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "𠊎 (ngai)",
+        "ipa": "ŋai¹³",
+        "meaning_vi": "tôi, ta"
+      },
+      {
+        "native": "汝 / 你 (ng / ni)",
+        "ipa": "ŋ̍¹³ ~ ni¹³",
+        "meaning_vi": "bạn, mày (ngôi thứ hai)"
+      },
+      {
+        "native": "佢 (khi)",
+        "ipa": "kʰi¹³",
+        "meaning_vi": "anh ấy, cô ấy, nó (ngôi thứ ba)"
+      },
+      {
+        "native": "人 (ngin / nyin)",
+        "ipa": "ɲin¹³ ~ ŋin¹³",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "山 (san / slan)",
+        "ipa": "san⁴⁴ ~ ɬan⁴⁴",
+        "meaning_vi": "núi, rừng"
+      },
+      {
+        "native": "水 (sui)",
+        "ipa": "sui³¹",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "屋 (vuk)",
+        "ipa": "vuk̚²¹",
+        "meaning_vi": "nhà"
+      },
+      {
+        "native": "話 (va)",
+        "ipa": "va⁵³",
+        "meaning_vi": "tiếng nói, lời nói"
+      },
+      {
+        "native": "食飯 (sit fan)",
+        "ipa": "sit̚⁵⁵ fan⁵³",
+        "meaning_vi": "ăn cơm"
+      },
+      {
+        "native": "唱歌 (song ko / tshong ko)",
+        "ipa": "sɔŋ⁵³ kɔ⁴⁴ ~ t͡sʰɔŋ⁵³ kɔ⁴⁴",
+        "meaning_vi": "hát dân ca (Sường cô)"
+      },
+      {
+        "native": "一 (yit)",
+        "ipa": "jit̚²¹",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "五 (ng)",
+        "ipa": "ŋ̍³¹",
+        "meaning_vi": "năm (số 5)"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Các phụ âm tiếng Ngái không có trong tiếng Việt chuẩn gồm: /pʰ/, /kʰ/, /t͡s/, /t͡sʰ/ và âm xát bên /ɬ/; âm tiết mũi độc lập [m̩], [ŋ̍] cũng không tồn tại trong hệ thống vần Quốc ngữ.",
+      "Khi tổng hợp giọng hát Sường cô, cần giữ trường độ dài ở nguyên âm mở cuối câu và tôn trọng tương ứng cao độ giữa 6 thanh điệu tiếng Ngái với giai điệu ngũ cung."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Hakka Chinese [hakk1236]",
+      "url": "https://glottolog.org/resource/languoid/id/hakk1236",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Chính (2018). Memories, Migration and the Ambiguity of Ethnic Identity: The Cases of Ngái, Nùng and Khách in Vietnam. Asian and African Area Studies, 17(2), 207–226.",
+      "url": "https://doi.org/10.14956/asafas.17.207",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hsu, Fu-mei [徐富美] (2017). 越南艾話幾個語音特點的南北比較及其層次 [North-South Comparison and Stratification of Several Phonetic Features of Ngai Dialect in Vietnam]. 首屆南方漢語方言研究國際學術研討會, Quanzhou Normal University; & Language Contact and Sound Change of Ngái in the Province of Đồng Nai, Vietnam, in The Linguistics of Vietnam: 30 Years of Renovation and Development (pp. 824–835).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hsu, Fu-mei [徐富美] (2021). 越南「艾族」與「華族中的艾人」 [Ngai People between Ethnic Ngai and Ethnic Hoa in Vietnam]. Global Hakka Studies [全球客家研究], 16, 165–196.",
+      "url": "https://doi.org/10.53106/231084362021050016005",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hsu, Fu-mei [徐富美] (2022). 越南北部艾話〔tsh ~ s〕變異及〔tsh > s〕音變過程的語音兩讀現象. 成大中文學報 [Chengda Journal of Chinese Studies], 76, 175–204.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019. NXB Thống kê, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Báo Thái Nguyên (2023). Thành lập Câu lạc bộ Sường cô dân tộc Ngái.",
+      "url": "https://baothainguyen.vn/van-hoa/202312/thanh-lap-cau-lac-bosuong-co-dan-toc-ngai-2de26e7/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Ngái",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Ng%C3%A1i",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Ngái people",
+      "url": "https://en.wikipedia.org/wiki/Ng%C3%A1i_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hakka Chinese",
+      "url": "https://en.wikipedia.org/wiki/Hakka_Chinese",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Trung — 𠊎話 (Phương ngữ Ngái)",
+      "url": "https://zh.wikipedia.org/wiki/%F0%A0%8A%8E%E8%A9%B1",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets[3].note",
+          "severity": "medium",
+          "problem": "Ghi chú âm đầu /f/ viết: 'Ứng với nhiều từ Hán trung cổ hiểu/hạp mẫu hợp khẩu (ví dụ: fa/vả 話, fong 風)'. Trong âm운 học Hán trung cổ, chữ 風 thuộc Phi mẫu (非母, âm môi), không thuộc Hiểu/Hạp mẫu (曉/匣母), và trong tiếng Khách Gia/Ngái chữ 風 thường đọc là 'fung' /fuŋ/ chứ không phải 'fong'; còn chữ 話 trong tiếng Ngái phổ biến đọc âm đầu /v/ (va 話).",
+          "fix": "Sửa lại ghi chú chuẩn xác theo âm vận học lịch sử: '/f/ ứng với từ Hán trung cổ thuộc nhóm Phi/Phu/Phụng mẫu (ví dụ: fan 飯, fung 風) và Hiểu/Hạp mẫu hợp khẩu (ví dụ: fa 花, fo 火)'."
+        },
+        {
+          "path": "lexicon",
+          "severity": "medium",
+          "problem": "Mâu thuẫn nội tại về độ tin cậy (confidence) và biến thể ngữ âm: Mục phonology.tones đặt confidence 'low'/'medium' cho trị số Chao cụ thể (44, 13, 31, 53, 21, 55 — vốn lấy theo chuẩn Mai Huyện) vì chưa đo âm học thực địa tại Thái Nguyên/Bắc Giang, nhưng các mục trong lexicon lại gắn nhãn confidence 'high' cho phiên âm IPA mang các trị số thanh điệu này. Ngoài ra: (1) 'Ngái nhằn / Ngái nhìn (𠊎人)' thiếu biến thể âm gốc lưỡi /ŋin/ ('Ngai Ngin' được Hsu Fu-mei 2021: 167 ghi nhận trực tiếp); (2) 'sường cô (唱歌)' chỉ ghi [t͡sʰɔŋ⁵³ kɔ⁴⁴] mà thiếu biến thể xát hóa [sɔŋ⁵³ kɔ⁴⁴] (theo quy luật [t͡sʰ ~ s] của Hsu Fu-mei 2022) vốn là nguồn gốc trực tiếp của cách gọi 'Sường cô'; (3) 'pủn tì nhằn (本地人)' ghi chữ Quốc ngữ là 'tì' (không bật hơi) nhưng IPA chỉ ghi [tʰi⁵³].",
+          "fix": "Hạ confidence của các mục từ trong lexicon từ 'high' xuống 'medium' (và 'low' cho 'pủn tì nhằn', 'a mả') do trị số thanh điệu Chao chưa đo kiểm thực địa; bổ sung các biến thể ngữ âm tương ứng vào trường ipa của lexicon và ml_hints.sample_words."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trong status_note, phonology.onsets[9], phonology.codas[2] và phonology.codas[5] đều trích dẫn 'Hsu Fu-mei 2017' về tiêu chí so sánh Bắc – Nam của tiếng Ngái tại Việt Nam (âm đầu [ɬ], âm cuối môi-mạc [-k͡p̚, -ŋ͡m], và hiện tượng xuất quy thời [t͡sʰ ~ s]), nhưng danh mục sources lại bỏ sót công trình năm 2017 của Hsu Fu-mei (Từ Phú Mỹ). Đồng thời trường url_check đang để null.",
+          "fix": "Bổ sung công trình Hsu Fu-mei (2017) vào mảng sources và cập nhật trạng thái url_check cho các đường dẫn đã kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đo âm học thực địa để xác nhận trị số Chao chính xác của 6 thanh điệu tại từng điểm cư trú trọng điểm (Tam Thái – Đồng Hỷ – Thái Nguyên, Lục Ngạn – Bắc Giang, Ngân Sơn – Bắc Kạn).",
+      "Cần khảo sát mức độ bảo lưu âm xát bên [ɬ] và phụ âm cuối môi-mạc [-k͡p, -ŋ͡m] ở thế hệ nghệ nhân hát Sường cô hiện nay.",
+      "Chưa có bộ chữ Latinh thống nhất cho cộng đồng người Ngái tại Việt Nam; cần thống nhất quy ước ký âm lời hát Sường cô với các câu lạc bộ bảo tồn địa phương."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

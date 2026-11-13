@@ -1,0 +1,180 @@
+{
+  "id": "vie-south",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Nam Bộ",
+  "name_en": "Vietnamese — Southern dialect (Nam Bộ)",
+  "autonym": "giọng miền Nam / giọng Nam Bộ",
+  "ethnic_group_vi": "Kinh",
+  "language": {"iso639_3": "vie", "glottocode": "viet1252", "family": "Austroasiatic", "branch": "Vietic"},
+  "regions": ["Đông Nam Bộ", "Tây Nam Bộ (Đồng bằng sông Cửu Long)", "TP. Hồ Chí Minh"],
+  "speakers_estimate": null,
+  "scripts": [{"name": "Chữ Quốc ngữ", "iso15924": "Latn", "unicode_block": "Latin Extended Additional", "official_in_vietnam": true, "note": null}],
+  "status": "empirical-partial",
+  "status_note": "Bảng này là bản tham chiếu: ánh xạ ML (ml_hints) được rút ra từ thực nghiệm mô hình giọng hát YuE2 + LoRA (dự án Thao Vy Ver 9, 11/2026). Các tương ứng ngữ âm là kiến thức phương ngữ học phổ biến, độ phổ biến thay đổi theo vùng/người nói. Chưa có thẩm định bằng nghe mù với người bản xứ. Lưu ý: bộ phân loại giọng vùng miền tự động cho điểm thay đổi mạnh chỉ do mix/EQ, nên không dùng điểm đó làm bằng chứng khẩu âm.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {"grapheme": "v", "ipa": "j", "note": "trùng với d/gi; một số người nói [vj]/[β]", "confidence": "high"},
+      {"grapheme": "d, gi", "ipa": "j", "note": null, "confidence": "high"},
+      {"grapheme": "r", "ipa": "ɹ ~ ɾ ~ ɣ", "note": "biến thể theo người nói", "confidence": "medium"},
+      {"grapheme": "tr", "ipa": "ʈ ~ c", "note": "nhiều người nhập với ch", "confidence": "medium"},
+      {"grapheme": "s", "ipa": "ʂ ~ s", "note": "nhiều người nhập với x", "confidence": "medium"},
+      {"grapheme": "qu", "ipa": "w", "note": "quê → [wej]", "confidence": "high"},
+      {"grapheme": "h + w (hoa, huệ)", "ipa": "w ~ hw", "note": "hoa → [wa] ở nhiều người nói", "confidence": "medium"}
+    ],
+    "vowels": [],
+    "codas": [
+      {"grapheme": "n (sau a, ă, u, e...)", "ipa": "ŋ", "note": "-an/-ang nhập: bàn ~ bàng", "confidence": "high"},
+      {"grapheme": "t (sau a, ă, u, e...)", "ipa": "k", "note": "-at/-ac nhập: mát ~ mác", "confidence": "high"},
+      {"grapheme": "nh / ch (sau i, ê, a)", "ipa": "n / t", "note": "-inh → [ɨn], -anh → [an]", "confidence": "high"}
+    ],
+    "tones": [
+      {"id": "ngang", "name": "thanh ngang", "mark": "", "chao_contour": "33", "phonation": null, "merges_with": null, "confidence": "high"},
+      {"id": "huyen", "name": "thanh huyền", "mark": "\u0300", "chao_contour": "21", "phonation": null, "merges_with": null, "confidence": "high"},
+      {"id": "sac", "name": "thanh sắc", "mark": "\u0301", "chao_contour": "35", "phonation": null, "merges_with": null, "confidence": "high"},
+      {"id": "hoi", "name": "thanh hỏi", "mark": "\u0309", "chao_contour": "214", "phonation": null, "merges_with": "nga", "confidence": "high"},
+      {"id": "nga", "name": "thanh ngã", "mark": "\u0303", "chao_contour": "214", "phonation": null, "merges_with": "hoi", "confidence": "high"},
+      {"id": "nang", "name": "thanh nặng", "mark": "\u0323", "chao_contour": "212", "phonation": "không thanh hầu hóa rõ như giọng Bắc", "merges_with": null, "confidence": "medium"}
+    ],
+    "register_or_phonation": "5 thanh điệu (hỏi và ngã nhập làm một)."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {"slot": "tone", "standard": "ngã", "variety": "hỏi", "ipa_standard": "˧˥ (gãy)", "ipa_variety": "˨˩˦", "condition": null, "example_standard": "cũ", "example_variety": "củ", "prevalence": "categorical", "confidence": "high"},
+    {"slot": "onset", "standard": "v", "variety": "d", "ipa_standard": "v", "ipa_variety": "j", "condition": null, "example_standard": "về", "example_variety": "dề", "prevalence": "common", "confidence": "high"},
+    {"slot": "onset", "standard": "qu", "variety": "w", "ipa_standard": "kw", "ipa_variety": "w", "condition": null, "example_standard": "quê", "example_variety": "wê", "prevalence": "common", "confidence": "high"},
+    {"slot": "onset", "standard": "tr", "variety": "ch", "ipa_standard": "ʈ", "ipa_variety": "c", "condition": null, "example_standard": "trăng", "example_variety": "chăng", "prevalence": "variable", "confidence": "medium"},
+    {"slot": "onset", "standard": "s", "variety": "x", "ipa_standard": "ʂ", "ipa_variety": "s", "condition": null, "example_standard": "sông", "example_variety": "xông", "prevalence": "variable", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "an", "variety": "ang", "ipa_standard": "aːn", "ipa_variety": "aːŋ", "condition": null, "example_standard": "bàn", "example_variety": "bàng", "prevalence": "common", "confidence": "high"},
+    {"slot": "rhyme", "standard": "at", "variety": "ac", "ipa_standard": "aːt", "ipa_variety": "aːk", "condition": null, "example_standard": "mát", "example_variety": "mác", "prevalence": "common", "confidence": "high"},
+    {"slot": "rhyme", "standard": "anh", "variety": "ăn", "ipa_standard": "ajŋ", "ipa_variety": "an", "condition": null, "example_standard": "xanh", "example_variety": "xăn", "prevalence": "common", "confidence": "high"},
+    {"slot": "rhyme", "standard": "ach", "variety": "ăt", "ipa_standard": "ajk", "ipa_variety": "at", "condition": null, "example_standard": "sách", "example_variety": "sắt", "prevalence": "common", "confidence": "high"},
+    {"slot": "rhyme", "standard": "inh", "variety": "ưn", "ipa_standard": "iŋ", "ipa_variety": "ɨn", "condition": null, "example_standard": "tình", "example_variety": "từn", "prevalence": "common", "confidence": "high"},
+    {"slot": "rhyme", "standard": "in", "variety": "ưn", "ipa_standard": "in", "ipa_variety": "ɨn", "condition": null, "example_standard": "tin", "example_variety": "tưn", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ich", "variety": "ưt", "ipa_standard": "ik", "ipa_variety": "ɨt", "condition": null, "example_standard": "thích", "example_variety": "thứt", "prevalence": "common", "confidence": "high"},
+    {"slot": "rhyme", "standard": "ên", "variety": "ơn", "ipa_standard": "en", "ipa_variety": "əːn", "condition": null, "example_standard": "lên", "example_variety": "lơn", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ênh", "variety": "ơn", "ipa_standard": "ejŋ", "ipa_variety": "əːn", "condition": null, "example_standard": "bệnh", "example_variety": "bợn", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "un", "variety": "ung", "ipa_standard": "un", "ipa_variety": "uŋ͡m", "condition": null, "example_standard": "bún", "example_variety": "búng", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ut", "variety": "uc", "ipa_standard": "ut", "ipa_variety": "uk͡p", "condition": null, "example_standard": "bút", "example_variety": "búc", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "iên", "variety": "iêng", "ipa_standard": "iən", "ipa_variety": "iəŋ", "condition": null, "example_standard": "tiền", "example_variety": "tiềng", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "iêt", "variety": "iêc", "ipa_standard": "iət", "ipa_variety": "iək", "condition": null, "example_standard": "biết", "example_variety": "biếc", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "uôn", "variety": "uông", "ipa_standard": "uən", "ipa_variety": "uəŋ", "condition": null, "example_standard": "buồn", "example_variety": "buồng", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ươn", "variety": "ương", "ipa_standard": "ɨən", "ipa_variety": "ɨəŋ", "condition": null, "example_standard": "vườn", "example_variety": "vường", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ươi", "variety": "ưi", "ipa_standard": "ɨəj", "ipa_variety": "ɨj", "condition": null, "example_standard": "người", "example_variety": "ngừi", "prevalence": "variable", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ưu", "variety": "iu", "ipa_standard": "ɨw", "ipa_variety": "iw", "condition": null, "example_standard": "cứu", "example_variety": "cíu", "prevalence": "common", "confidence": "medium"},
+    {"slot": "rhyme", "standard": "ươu", "variety": "iu", "ipa_standard": "ɨəw", "ipa_variety": "iw", "condition": null, "example_standard": "rượu", "example_variety": "rịu", "prevalence": "common", "confidence": "medium"}
+  ],
+  "respelling_rules": [
+    {"slot": "tone", "from": "nga", "to": "hoi", "level": "full", "note": "Nhập thanh ngã vào hỏi. Với qwen.tiktoken, một số dạng (ví dụ mãi→mải) bị vỡ token: kiểm tra bằng tools/tokenizer_check.py trước khi dùng cho mô hình."},
+    {"slot": "word", "from": "cũ", "to": "củ", "level": "light", "note": "Đã kiểm 1-token trong qwen.tiktoken"},
+    {"slot": "word", "from": "may", "to": "mai", "level": "light", "note": "Đã kiểm 1-token trong qwen.tiktoken"},
+    {"slot": "word", "from": "hay", "to": "hai", "level": "light", "note": "Đã kiểm 1-token trong qwen.tiktoken"},
+    {"slot": "word", "from": "tay", "to": "tai", "level": "light", "note": "qwen.tiktoken: 2 token → 1 token"},
+    {"slot": "word", "from": "say", "to": "sai", "level": "light", "note": "Đã kiểm 1-token"},
+    {"slot": "word", "from": "thay", "to": "thai", "level": "light", "note": "qwen.tiktoken: 2 token → 1 token"},
+    {"slot": "onset", "from": "v", "to": "d", "level": "full", "note": "Phát âm [j]. Có thể làm vỡ token với một số tokenizer — kiểm tra trước."},
+    {"slot": "onset", "from": "qu", "to": "w", "level": "full", "note": "Dễ làm vỡ token"},
+    {"slot": "onset", "from": "tr", "to": "ch", "level": "full", "optional": true, "note": "Biến thể theo người nói"},
+    {"slot": "onset", "from": "s", "to": "x", "level": "full", "optional": true, "note": "Biến thể theo người nói"},
+    {"slot": "rhyme", "from": "an", "to": "ang", "level": "full"},
+    {"slot": "rhyme", "from": "at", "to": "ac", "level": "full"},
+    {"slot": "rhyme", "from": "anh", "to": "ăn", "level": "full"},
+    {"slot": "rhyme", "from": "ach", "to": "ăt", "level": "full"},
+    {"slot": "rhyme", "from": "inh", "to": "ưn", "level": "full"},
+    {"slot": "rhyme", "from": "in", "to": "ưn", "level": "full", "optional": true},
+    {"slot": "rhyme", "from": "ich", "to": "ưt", "level": "full"},
+    {"slot": "rhyme", "from": "ên", "to": "ơn", "level": "full", "optional": true},
+    {"slot": "rhyme", "from": "ênh", "to": "ơn", "level": "full", "optional": true},
+    {"slot": "rhyme", "from": "un", "to": "ung", "level": "full"},
+    {"slot": "rhyme", "from": "ut", "to": "uc", "level": "full"},
+    {"slot": "rhyme", "from": "iên", "to": "iêng", "level": "full"},
+    {"slot": "rhyme", "from": "iêt", "to": "iêc", "level": "full"},
+    {"slot": "rhyme", "from": "uôn", "to": "uông", "level": "full"},
+    {"slot": "rhyme", "from": "ươn", "to": "ương", "level": "full"},
+    {"slot": "rhyme", "from": "ươi", "to": "ưi", "level": "full", "optional": true},
+    {"slot": "rhyme", "from": "ưu", "to": "iu", "level": "full"},
+    {"slot": "rhyme", "from": "ươu", "to": "iu", "level": "full"}
+  ],
+  "lexicon": [
+    {"standard_vi": "tôi", "form": "tui", "ipa": null, "gloss_en": "I", "confidence": "high"},
+    {"standard_vi": "không", "form": "hông", "ipa": null, "gloss_en": "not / no", "confidence": "high"},
+    {"standard_vi": "này", "form": "nè", "ipa": null, "gloss_en": "this / hey", "confidence": "high"},
+    {"standard_vi": "ông ấy", "form": "ổng", "ipa": null, "gloss_en": "he (old man)", "confidence": "high"},
+    {"standard_vi": "bà ấy", "form": "bả", "ipa": null, "gloss_en": "she (old woman)", "confidence": "high"},
+    {"standard_vi": "anh ấy", "form": "ảnh", "ipa": null, "gloss_en": "he", "confidence": "high"},
+    {"standard_vi": "chị ấy", "form": "chỉ", "ipa": null, "gloss_en": "she", "confidence": "high"},
+    {"standard_vi": "cô ấy", "form": "cổ", "ipa": null, "gloss_en": "she", "confidence": "high"},
+    {"standard_vi": "em ấy", "form": "ẻm", "ipa": null, "gloss_en": "he/she (younger)", "confidence": "high"},
+    {"standard_vi": "thế", "form": "vậy", "ipa": null, "gloss_en": "so / like that", "confidence": "high"},
+    {"standard_vi": "bao nhiêu", "form": "nhiêu", "ipa": null, "gloss_en": "how much", "confidence": "medium"},
+    {"standard_vi": "quả", "form": "trái", "ipa": null, "gloss_en": "fruit", "confidence": "high"},
+    {"standard_vi": "hoa", "form": "bông", "ipa": null, "gloss_en": "flower", "confidence": "high"},
+    {"standard_vi": "lợn", "form": "heo", "ipa": null, "gloss_en": "pig", "confidence": "high"},
+    {"standard_vi": "ngô", "form": "bắp", "ipa": null, "gloss_en": "corn", "confidence": "high"},
+    {"standard_vi": "bát", "form": "chén", "ipa": null, "gloss_en": "bowl", "confidence": "high"},
+    {"standard_vi": "dứa", "form": "thơm / khóm", "ipa": null, "gloss_en": "pineapple", "confidence": "high"},
+    {"standard_vi": "ốm", "form": "bịnh", "ipa": null, "gloss_en": "sick", "confidence": "high"},
+    {"standard_vi": "ngã", "form": "té", "ipa": null, "gloss_en": "to fall", "confidence": "high"},
+    {"standard_vi": "vứt", "form": "quăng", "ipa": null, "gloss_en": "to throw away", "confidence": "high"},
+    {"standard_vi": "ạ (tiểu từ cuối câu)", "form": "nha / nghen / hen", "ipa": null, "gloss_en": "sentence-final particle", "confidence": "high"}
+  ],
+  "music": {
+    "genres": [
+      {"name": "Đờn ca tài tử Nam Bộ", "note": "UNESCO Di sản văn hóa phi vật thể đại diện của nhân loại (2013)"},
+      {"name": "Cải lương / vọng cổ", "note": null},
+      {"name": "Hò Nam Bộ, lý", "note": null},
+      {"name": "Bolero / nhạc trữ tình", "note": "Nhịp bolero 4/4, khoảng 66–90 BPM"}
+    ],
+    "ornaments": [
+      {"name": "Luyến lên nốt liền kề (luyến Bolero)", "description": "Nốt dẫn ngắn (1/8 phách) luyến vào nốt chính kéo dài. Dùng cho chữ cuối câu và chữ mang thanh huyền/hỏi.", "abc": "(d1e5)", "confidence": "medium"},
+      {"name": "Luyến A→B", "description": "Như trên, ở quãng thấp", "abc": "(A1B5)", "confidence": "medium"},
+      {"name": "Luyến B→d", "description": "Luyến quãng 3 thứ đi lên", "abc": "(B1d5)", "confidence": "medium"},
+      {"name": "Luyến g→a ngân dài", "description": "Luyến lên ở nốt cao, ngân dài cuối câu điệp khúc", "abc": "(g1a7)", "confidence": "medium"}
+    ],
+    "scales_or_modes": [
+      {"name": "Hơi Bắc / hơi Nam / hơi Oán (nhạc tài tử)", "note": "Hệ thống hò–xự–xang–xê–cống–liu; hơi Oán có nốt non/già (rung, nhấn) — cần nhạc sĩ thẩm định khi mã hóa cao độ chính xác.", "confidence": "medium"},
+      {"name": "Thứ (minor) phương Tây cho bolero", "note": "Quy ước ML: chuyển toàn bài về K:G (Mi thứ), hợp âm Em, D, G, Bm, A, Am", "confidence": "medium"}
+    ],
+    "instruments": [
+      {"name": "Đàn kìm (nguyệt)"}, {"name": "Đàn tranh"}, {"name": "Đàn bầu"}, {"name": "Đàn cò"}, {"name": "Ghi-ta phím lõm"}, {"name": "Song lang"}
+    ]
+  },
+  "ml_hints": {
+    "tokenizer_tested": "qwen.tiktoken (YuE2-3B)",
+    "normalization": "chữ thường, thêm 1 dấu cách ở đầu mỗi dòng lời để từ đầu dòng được mã hóa thành 1 token",
+    "verified_1token_map": {"cũ": "củ", "may": "mai", "hay": "hai", "tay": "tai", "say": "sai", "thay": "thai"},
+    "forbidden_respellings_restore": {"mải": "mãi", "đải": "đẩy", "dề": "về", "dẩn": "vẫn", "koan": "con", "ghuên": "quên", "chưn": "chân"},
+    "forbidden_respellings_note": "Các cách viết này làm vỡ token (tách thành nhiều sub-token) nên mô hình hát sai; khôi phục chính tả chuẩn và để khẩu âm do mô hình/embedding đảm nhận.",
+    "unseen_token_rhyme_twins": {
+      "description": "Khi từ trong lời mới chưa có trong tập embedding đã fine-tune, chuyển vector dịch chuyển (embedding fine-tuned − embedding gốc) của các từ cùng vần đã học sang từ mới. Chưa có ablation chứng minh hiệu quả.",
+      "pairs": {"nhiêu": ["nhiều", "chiều", "yêu"], "dầu": ["cầu", "giàu", "đầu"], "ví": ["vì", "chỉ", "đi", "khi"], "bạn": ["tàn", "nàng", "chàng", "vàng"], "dần": ["lần", "cần"], "hồng": ["chồng", "đồng", "dòng", "lòng"], "này": ["ngày", "đầy", "đây", "cây"], "cắt": ["tắt", "mắt", "sắt", "đặt"], "đóng": ["bóng", "dòng", "trong"], "thuyền": ["chuyến", "nguyện", "chiều"], "tầm": ["nằm", "năm"], "thờ": ["chờ", "giờ", "thơ", "mơ"], "quy": ["duy", "khi", "đi"]},
+      "formula": "e_new = 0.72 * (e_base[new] + mean(e_ft[twin] - e_base[twin])) + 0.28 * e_ft[twin_0]"
+    },
+    "consonant_embedding_blends": {
+      "description": "Trộn embedding của sub-token phụ âm đầu theo khẩu âm Nam Bộ (thử nghiệm, chưa ablation)",
+      "blends": [
+        {"token": " tr", "toward": " ch", "weight": 0.60},
+        {"token": " s", "toward": " x", "weight": 0.55},
+        {"token": " v", "toward": " d", "weight": 0.55},
+        {"token": "ỡ", "toward": "ơ", "weight": 0.55}
+      ]
+    },
+    "abc_conventions": {
+      "key": "K:G (E minor) — khớp với 100% dữ liệu huấn luyện của LoRA tham chiếu",
+      "vocal_range": "A3..B4, trung vị E4 cho giọng nữ trung",
+      "tempo": "76–84 BPM cho bolero"
+    },
+    "evaluation_lessons": [
+      "Điểm % giọng vùng miền của bộ phân loại tự động tăng từ ~62% lên ~84% chỉ nhờ mix/EQ hậu kỳ: không dùng làm thước đo khẩu âm.",
+      "Whisper hay ảo giác (\"Hãy subscribe...\") trên bản mix đầy đủ: nên chép lời trên stem vocals đã tách."
+    ]
+  },
+  "sources": [
+    {"title": "Hoàng Thị Châu (2004). Phương ngữ học tiếng Việt. NXB Đại học Quốc gia Hà Nội.", "url": null, "url_check": null, "accessed": null},
+    {"title": "Thompson, L. C. (1965). A Vietnamese Grammar. University of Washington Press.", "url": null, "url_check": null, "accessed": null},
+    {"title": "Wikipedia — Vietnamese phonology (Dialect variation)", "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology", "url_check": null, "accessed": "2026-11-13"},
+    {"title": "UNESCO — Art of Đờn ca tài tử music and song in southern Viet Nam", "url": "https://ich.unesco.org/en/RL/art-of-n-ca-ti-t-music-and-song-in-southern-viet-nam-00733", "url_check": null, "accessed": "2026-11-13"}
+  ],
+  "validation": {"native_speaker_reviewed": false, "linguist_reviewed": false, "llm_review": null, "open_issues": ["Cần người bản xứ Nam Bộ (Đông và Tây Nam Bộ) xác nhận độ phổ biến từng quy tắc vần."]},
+  "provenance": {"authored_by": "hand-authored reference + Thao Vy Ver 9 experiments", "date": "2026-11-13"},
+  "license": "CC0-1.0"
+}

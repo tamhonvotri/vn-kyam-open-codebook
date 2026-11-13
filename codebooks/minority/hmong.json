@@ -1,0 +1,1058 @@
+{
+  "id": "hmong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng H'Mông",
+  "name_en": "Hmong (Mong Leng / Hmong Njua — Vietnam)",
+  "autonym": "Lul Hmôngz / Lug Moob / Lus Hmoob",
+  "ethnic_group_vi": "H'Mông",
+  "language": {
+    "iso639_3": "hnj",
+    "glottocode": "hmon1264",
+    "family": "Hmong-Mien",
+    "branch": "West Hmongic (Chuanqiandian)"
+  },
+  "regions": [
+    "Hà Giang",
+    "Điện Biên",
+    "Sơn La",
+    "Lào Cai",
+    "Lai Châu",
+    "Yên Bái",
+    "Cao Bằng",
+    "Tuyên Quang",
+    "Bắc Kạn",
+    "Thanh Hóa",
+    "Nghệ An",
+    "Đắk Lắk",
+    "Đắk Nông",
+    "Lâm Đồng"
+  ],
+  "speakers_estimate": "1.393.547 người dân tộc Mông tại Việt Nam (Tổng điều tra dân số và nhà ở năm 2019); tuyệt đại đa số vẫn sử dụng tiếng mẹ đẻ làm ngôn ngữ giao tiếp chính trong cộng đồng.",
+  "scripts": [
+    {
+      "name": "Chữ Mông Việt Nam (Chữ Hmông Việt — MVN)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Phê chuẩn theo Nghị định số 206-CP ngày 27/11/1961 của Hội đồng Chính phủ (do Nguyễn Văn Chỉnh và Phan Thanh biên soạn); lấy phương ngữ Mông Hoa / Mông Lềnh (Hmôngz Lênhl) vùng Sa Pa, Lào Cai làm âm chuẩn, có bổ sung một số âm vị của Mông Trắng (Hmôngz Đơưz) và Mông Sua (57–59 phụ âm đầu, 28 vần, 8 thanh điệu). Dùng trong sách giáo khoa, đào tạo cán bộ và phát thanh truyền hình trong nước; ghi thanh điệu bằng 7 chữ cái cuối âm tiết (k, l, r, s, v, x, z) và 1 thanh không dấu."
+    },
+    {
+      "name": "Chữ Hmông Latin hóa quốc tế (Romanized Popular Alphabet — RPA / Ntawv Thoob Teb)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Do G. Linwood Barney, William A. Smalley và Yves Bertrais xây dựng tại Lào (1951–1953) cho cả Mông Trắng (Hmoob Dawb) và Mông Lềnh (Moob Leeg). Không dùng dấu phụ, gấp đôi con chữ để ghi nguyên âm mũi (ee, oo, aa) và dùng 7 chữ cái cuối âm tiết (b, j, v, s, g, m, d) để ghi thanh điệu. Hiện rất phổ biến trên mạng xã hội, Internet, video ca nhạc và tài liệu tôn giáo của người H'Mông ở Việt Nam."
+    },
+    {
+      "name": "Chữ Pahawh Hmong (Phajhauj Hmoob / Faxhâux Hmôngz)",
+      "iso15924": "Hmng",
+      "unicode_block": "Pahawh Hmong (U+16B00–U+16B8F)",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ bán âm tiết bản địa do Shong Lue Yang sáng tạo năm 1959 tại vùng biên giới Lào – Việt Nam; ít được sử dụng trong đời sống hàng ngày tại Việt Nam."
+    },
+    {
+      "name": "Chữ Nyiakeng Puachue Hmong",
+      "iso15924": "Hmnp",
+      "unicode_block": "Nyiakeng Puachue Hmong (U+1E100–U+1E14F)",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ ghi âm sáng tạo tại Hoa Kỳ vào thập niên 1980; hầu như không phổ biến tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp và phản biện từ văn bản chương trình tiếng Mông của Bộ Giáo dục và Đào tạo Việt Nam, tài liệu bồi dưỡng tiếng Mông cấp tỉnh (QĐ 444/QĐ-UBND Tuyên Quang), Từ điển Mông – Việt và tài liệu ngữ âm học quốc tế. Mã ngôn ngữ chính chọn hnj (Hmong Njua / Mong Leng — phương ngữ Mông Hoa/Mông Lềnh vùng Sa Pa làm chuẩn cho Chữ Mông Việt Nam năm 1961), đồng thời đối chiếu với Mông Trắng (mww) và chữ RPA phổ biến trên mạng. Bảng ánh xạ chữ viết ghi song song Chữ Mông Việt Nam (MVN) và chữ quốc tế (RPA) để tránh nhầm lẫn giữa hai hệ thống.",
+  "phonology": {
+    "syllable_structure": "(C)V(ŋ)+T",
+    "onsets": [
+      {
+        "grapheme": "p (RPA: p)",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f (RPA: ph)",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi. Lưu ý: trong Chữ Mông Việt Nam (MVN), con chữ 'f' ghi âm [pʰ], còn 'ph' ghi âm [f] giống chữ Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b (RPA: np)",
+        "ipa": "ᵐb",
+        "note": "Tắc hai môi tiền mũi hóa không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mf (RPA: nph)",
+        "ipa": "ᵐpʰ",
+        "note": "Tắc hai môi tiền mũi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl (RPA: pl)",
+        "ipa": "pˡ",
+        "note": "Tắc hai môi vô thanh bật cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "fl (RPA: plh)",
+        "ipa": "pʰˡ",
+        "note": "Tắc hai môi bật hơi bật cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bl (RPA: npl)",
+        "ipa": "ᵐbˡ",
+        "note": "Tắc hai môi tiền mũi hóa bật cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mfl (RPA: nplh)",
+        "ipa": "ᵐpʰˡ",
+        "note": "Tắc hai môi tiền mũi hóa bật hơi bật cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m (RPA: m)",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm (RPA: hm)",
+        "ipa": "m̥",
+        "note": "Mũi hai môi vô thanh; bảo lưu ở Mông Trắng (Hmoob Dawb), trong khi Mông Lềnh (Moob Leeg) thường nhập vào [m]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mn (RPA: ml)",
+        "ipa": "mˡ",
+        "note": "Mũi hai môi bật cạnh lưỡi (sách giáo khoa MVN viết là 'mn', ví dụ mnôngs = RPA mloog 'nghe'; một số bảng trên Wikipedia ghi là 'ml')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hmn (RPA: hml)",
+        "ipa": "m̥ˡ",
+        "note": "Mũi hai môi vô thanh bật cạnh lưỡi (Mông Trắng; Mông Lềnh nhập vào [mˡ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph (RPA: f)",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v (RPA: v)",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t (RPA: t)",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th (RPA: th)",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ (RPA: d / dl)",
+        "ipa": "d ~ tˡ",
+        "note": "Ở Mông Trắng phát âm tắc đầu lưỡi hữu thanh/tiền thanh hầu [d ~ ʔd] (RPA: d); ở Mông Lềnh thường phát âm tắc bật cạnh lưỡi [tˡ] (RPA: dl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đh (RPA: dh / dlh)",
+        "ipa": "dʱ ~ tʰˡ",
+        "note": "Ở Mông Trắng là tắc thở [dʱ] (RPA: dh); ở Mông Lềnh tương ứng với tắc bật cạnh lưỡi bật hơi [tʰˡ] (RPA: dlh; một số bảng Wikipedia ghi là 'đl')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nt (RPA: nt)",
+        "ipa": "ⁿd",
+        "note": "Tắc đầu lưỡi tiền mũi hóa không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nth (RPA: nth)",
+        "ipa": "ⁿtʰ",
+        "note": "Tắc đầu lưỡi tiền mũi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n (RPA: n)",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hn (RPA: hn)",
+        "ipa": "n̥",
+        "note": "Mũi đầu lưỡi vô thanh (có ở Mông Trắng; Mông Lềnh thường nhập vào [n])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l (RPA: l)",
+        "ipa": "l",
+        "note": "Bên (cạnh lưỡi) đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl (RPA: hl)",
+        "ipa": "l̥",
+        "note": "Bên đầu lưỡi vô thanh / xát cạnh lưỡi vô thanh nhẹ [l̥ ~ ɬ]; bảo lưu ở cả Mông Lềnh và Mông Trắng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tx (RPA: tx)",
+        "ipa": "ts",
+        "note": "Tắc-xát răng/lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "cx (RPA: txh)",
+        "ipa": "tsʰ",
+        "note": "Tắc-xát răng/lợi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nz (RPA: ntx)",
+        "ipa": "ⁿdz",
+        "note": "Tắc-xát răng/lợi tiền mũi hóa không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nx (RPA: ntxh)",
+        "ipa": "ⁿtsʰ",
+        "note": "Tắc-xát răng/lợi tiền mũi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x (RPA: x)",
+        "ipa": "s",
+        "note": "Xát răng/lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr (RPA: r)",
+        "ipa": "ʈ",
+        "note": "Tắc quặt lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r (RPA: rh)",
+        "ipa": "ʈʰ",
+        "note": "Tắc quặt lưỡi vô thanh bật hơi (một số bảng Wikipedia ghi là 'rh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đr (RPA: nr / dl)",
+        "ipa": "ⁿɖ ~ tˡ",
+        "note": "Trong tài liệu dạy tiếng Mông ở Việt Nam (57 phụ âm đầu), 'đr' ghi âm tắc quặt lưỡi tiền mũi hóa không bật hơi [ⁿɖ] tương ứng với RPA 'nr' (ví dụ đrâuv jôngr = RPA nraum zoov 'ngoài trời'); trong một số bảng đối chiếu khác trên Wikipedia, 'đr' và 'nđr' được dùng cho âm tắc bật cạnh lưỡi [tˡ] (RPA: dl) và [ⁿdˡ] (RPA: ndl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nr (RPA: nrh)",
+        "ipa": "ⁿʈʰ",
+        "note": "Tắc quặt lưỡi tiền mũi hóa bật hơi (tức âm 'r' [ʈʰ] của MVN có thêm tiền âm mũi, ví dụ MVN nriêr = RPA nrhiav 'tìm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ts (RPA: ts)",
+        "ipa": "ʈʂ",
+        "note": "Tắc-xát quặt lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y (RPA: tsh)",
+        "ipa": "ʈʂʰ",
+        "note": "Tắc-xát quặt lưỡi vô thanh bật hơi. Lưu ý: trong sách giáo khoa MVN, 'y' ghi âm [ʈʂʰ] (ví dụ yur kênhx = RPA tshuab qeej 'thổi khèn', một số bảng trên Wikipedia ghi là 'tsh'), hoàn toàn khác 'y' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nj (RPA: nts)",
+        "ipa": "ⁿɖʐ",
+        "note": "Tắc-xát quặt lưỡi tiền mũi hóa không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ny (RPA: ntsh)",
+        "ipa": "ⁿʈʂʰ",
+        "note": "Tắc-xát quặt lưỡi tiền mũi hóa bật hơi (ví dụ MVN nyangr = RPA ntshav 'máu', nyei = RPA ntshai 'sợ'; một số bảng Wikipedia ghi là 'ntsh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s (RPA: s)",
+        "ipa": "ʂ",
+        "note": "Xát quặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j (RPA: z)",
+        "ipa": "ʐ",
+        "note": "Xát quặt lưỡi hữu thanh (ví dụ MVN jông = RPA zoo 'tốt/đẹp')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch (RPA: c)",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q (RPA: ch)",
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi vô thanh bật hơi (ví dụ MVN qơư = RPA chaw 'nơi/chỗ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nd (RPA: nc)",
+        "ipa": "ɲɟ",
+        "note": "Tắc mặt lưỡi tiền mũi hóa không bật hơi (ví dụ MVN nda = RPA nco 'nhớ', ndas/ndangl = RPA ncas/ncaag 'đàn môi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nq (RPA: nch)",
+        "ipa": "ɲcʰ",
+        "note": "Tắc mặt lưỡi tiền mũi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh (RPA: ny)",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hnh (RPA: hny)",
+        "ipa": "ɲ̥",
+        "note": "Mũi mặt lưỡi vô thanh (bảo lưu ở Mông Trắng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sh (RPA: xy)",
+        "ipa": "ɕ",
+        "note": "Xát mặt lưỡi vô thanh (ví dụ MVN shông = RPA xyoos 'năm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z (RPA: y)",
+        "ipa": "j ~ ʝ",
+        "note": "Tiếp cận / xát nhẹ mặt lưỡi hữu thanh ở đầu âm tiết (ví dụ MVN ziv = RPA yim 'tám'). Lưu ý: khi đứng cuối âm tiết trong MVN, 'z' là dấu thanh cao chứ không phải phụ âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c (RPA: k)",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi (ngạc mềm) vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh (RPA: kh)",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g (RPA: nk)",
+        "ipa": "ŋɡ",
+        "note": "Tắc gốc lưỡi tiền mũi hóa không bật hơi (ví dụ MVN gâux = RPA nkauj 'cô gái / bài ca')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nkh (RPA: nkh)",
+        "ipa": "ŋkʰ",
+        "note": "Tắc gốc lưỡi tiền mũi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng (RPA: g)",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k (RPA: q)",
+        "ipa": "q",
+        "note": "Tắc lưỡi con (uvular) vô thanh không bật hơi (ví dụ MVN kênhx = RPA qeej 'khèn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kr (RPA: qh)",
+        "ipa": "qʰ",
+        "note": "Tắc lưỡi con vô thanh bật hơi (ví dụ MVN kruô = RPA qhua 'khách', kriê = RPA qhia 'dạy'; một số bảng Wikipedia ghi là 'qh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gr (RPA: nq)",
+        "ipa": "ɴɢ",
+        "note": "Tắc lưỡi con tiền mũi hóa không bật hơi (ví dụ MVN greix = RPA nqaij 'thịt', Grâuk Taox = Gầu Tào)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nkr (RPA: nqh)",
+        "ipa": "ɴqʰ",
+        "note": "Tắc lưỡi con tiền mũi hóa bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h (RPA: h)",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "∅ (trước nguyên âm đầu âm tiết)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm khi không viết phụ âm đầu (ví dụ iz / ib → [ʔi˥])",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i (RPA: i)",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê (RPA: e)",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (RPA: w)",
+        "ipa": "ɨ",
+        "note": "Nguyên âm hàng giữa độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u (RPA: u)",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a (RPA: a)",
+        "ipa": "a",
+        "note": "Nguyên âm độ mở rộng; trong nhiều từ gốc, /a/ của Mông Trắng tương ứng với /ã ~ aŋ/ của Mông Lềnh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ao / o (RPA: o)",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng (ví dụ MVN aoz / RPA ob 'hai', naox / nox = RPA noj 'ăn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ei / êi / ai (RPA: ai)",
+        "ipa": "ai",
+        "note": "Nguyên âm đôi hướng trước (trong sách giáo khoa MVN phân biệt thêm ei/êi/ai theo ngữ cảnh phương ngữ, ví dụ leiv paoz, kraor trêik, greix buô)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "âu (RPA: au)",
+        "ipa": "au",
+        "note": "Nguyên âm đôi hướng sau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơư (RPA: aw)",
+        "ipa": "aɨ",
+        "note": "Nguyên âm đôi hướng giữa [aɨ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê (RPA: ia)",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi mở dần; phổ biến ở Mông Trắng và từ vay mượn, trong khi Mông Lềnh vùng Sa Pa thường đơn hóa thành [a] ở nhiều từ bản địa (ví dụ siêz ~ saz 'gan/lòng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô (RPA: ua)",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi mở dần hàng sau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ênh (RPA: ee)",
+        "ipa": "ẽ ~ eŋ",
+        "note": "Nguyên âm mũi hóa hàng trước, thường kèm âm cuối mũi gốc lưỡi nhẹ [ŋ] (trong sách giáo khoa MVN đôi khi có biến thể viết là inh/eng tùy từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ông (RPA: oo)",
+        "ipa": "ɔ̃ ~ ɔŋ",
+        "note": "Nguyên âm mũi hóa hàng sau tròn môi, thường kèm [ŋ] nhẹ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ang / ăng (RPA: aa)",
+        "ipa": "ã ~ aŋ",
+        "note": "Nguyên âm mũi hóa độ mở rộng, đặc trưng của phương ngữ Mông Lềnh (Mong Leng); tương ứng với /a/ miệng của Mông Trắng ở nhiều từ gốc",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-ng / -nh (RPA: lặp nguyên âm aa, ee, oo)",
+        "ipa": "ŋ",
+        "note": "Tiếng H'Mông không có phụ âm cuối tắc (-p, -t, -k) hay mũi hai môi/đầu lưỡi (-m, -n); chỉ có thành phần mũi gốc lưỡi [ŋ] gắn liền với nguyên âm mũi hóa (ang/ăng, ênh, ông). Cảnh báo quan trọng: các con chữ k, l, r, s, v, x, z (trong MVN) và b, j, v, s, g, m, d (trong RPA) ở cuối âm tiết là KÝ HIỆU THANH ĐIỆU, tuyệt đối không phát âm như phụ âm cuối.",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_z_b",
+        "name": "thanh cao (MVN: -z [zuz] / RPA: -b)",
+        "mark": "z",
+        "chao_contour": "55",
+        "phonation": "giọng thường (modal); âm học có thể hơi đi lên nhẹ [45]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T2_x_j",
+        "name": "thanh cao xuống (MVN: -x [xix] / RPA: -j)",
+        "mark": "x",
+        "chao_contour": "52",
+        "phonation": "giọng thường (modal)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T3_r_v",
+        "name": "thanh trung lên (MVN: -r [rơưr] / RPA: -v)",
+        "mark": "r",
+        "chao_contour": "24",
+        "phonation": "giọng thường (modal)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T4_s_s",
+        "name": "thanh thấp bằng (MVN: -s [sơưs] / RPA: -s)",
+        "mark": "s",
+        "chao_contour": "22",
+        "phonation": "giọng thường (modal)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T5_unmarked",
+        "name": "thanh trung bằng (không dấu)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "giọng thường (modal)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T6_l_g",
+        "name": "thanh xuống giọng thở (MVN: -l [lul] / RPA: -g)",
+        "mark": "l",
+        "chao_contour": "42",
+        "phonation": "giọng thở / hà hơi (breathy voice [◌̤]); ở Mông Lềnh nhập cả thanh lịch sử B2 và C2 vào thanh này",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T7_v_m",
+        "name": "thanh thấp giọng kẹt (MVN: -v [vuv] / RPA: -m)",
+        "mark": "v",
+        "chao_contour": "21",
+        "phonation": "ngắn, giọng kẹt / thanh hầu hóa cuối âm tiết (creaky / glottalized [◌̰ ~ ʔ])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T8_k_d",
+        "name": "thanh thấp xuống-lên kéo dài (MVN: -k [kuôk] / RPA: -d)",
+        "mark": "k",
+        "chao_contour": "213",
+        "phonation": "giọng thường kéo dài; biến thể ngữ pháp – ngữ điệu của thanh -v (RPA: -m) ở vị trí cuối cụm hoặc từ chỉ định",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 7 thanh vị cơ bản + 1 thanh biến thể cú pháp (tổng cộng 8 thanh trong chính tả), kết hợp chặt chẽ giữa đường nét cao độ (pitch contour) và chất giọng (phonation type): thanh -l (RPA -g, 42) mang giọng thở rõ rệt (breathy voice), thanh -v (RPA -m, 21) ngắn và kết thúc bằng giọng kẹt/tắc thanh hầu (creaky/glottalized). Có hiện tượng biến thanh liên từ (tone sandhi) mạnh sau các âm tiết mang thanh cao (-z/-b và -x/-j)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "iz (RPA: ib)",
+      "ipa": "ʔi55",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "aoz (RPA: ob)",
+      "ipa": "ʔɔ55",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba / chúng tôi",
+      "form": "pêz (RPA: peb)",
+      "ipa": "pe55",
+      "gloss_en": "three / we",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "plâuz (RPA: plaub)",
+      "ipa": "pˡau55",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mười",
+      "form": "câuv (RPA: kaum)",
+      "ipa": "kau21",
+      "gloss_en": "ten",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "cur (RPA: kuv)",
+      "ipa": "ku24",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "nênhs / nênhl (RPA: neeg)",
+      "ipa": "nẽ42",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "đêx (RPA: dej / dlej)",
+      "ipa": "de52 ~ tˡe52",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "tsêr (RPA: tsev)",
+      "ipa": "ʈʂe24",
+      "gloss_en": "house / home",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngày / mặt trời",
+      "form": "hnuz (RPA: hnub / nub)",
+      "ipa": "n̥u55 ~ nu55",
+      "gloss_en": "day / sun",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tháng / mặt trăng",
+      "form": "hli (RPA: hli)",
+      "ipa": "l̥i33",
+      "gloss_en": "month / moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "giấy / chữ viết / sách",
+      "form": "ntơưr (RPA: ntawv)",
+      "ipa": "ⁿdaɨ24",
+      "gloss_en": "paper / writing / book",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng nói / lời nói",
+      "form": "lul / lus (RPA: lug / lus)",
+      "ipa": "lu42 ~ lu22",
+      "gloss_en": "word / speech / language",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tốt / đẹp",
+      "form": "jông (RPA: zoo)",
+      "ipa": "ʐɔ̃33",
+      "gloss_en": "good / beautiful",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khèn Mông",
+      "form": "kênhx (RPA: qeej)",
+      "ipa": "qẽ52",
+      "gloss_en": "Hmong mouth organ (qeej)",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca trữ tình – giao duyên (Kwv txhiaj / Cưx cxiax, Lù cọ)",
+        "note": "Thể loại hát thơ ứng tác truyền thống (hát giao duyên, hát tiễn dặn, hát mồ côi, hát cưới); đường nét giai điệu bám rất sát thanh điệu tự nhiên của lời ca tiếng H'Mông."
+      },
+      {
+        "name": "Hát ống (hát đối đáp qua ống tre)",
+        "note": "Nam nữ hát đối đáp trong hội xuân và chợ phiên qua hai ống tre rỗng bưng màng bong bóng lợn khô, nối với nhau bằng sợi dây lanh hoặc dây tơ dài khoảng 40–50 m."
+      },
+      {
+        "name": "Âm nhạc Lễ hội Gầu Tào (Grâuk Taox / Grâuk Taox Cha)",
+        "note": "Lễ hội cầu phúc, cầu mệnh, tạ ơn trời đất đầu xuân (đã được công nhận là Di sản văn hóa phi vật thể quốc gia); gồm các bài hát lý khấn mở hội, hát đối đáp giao duyên, múa khèn, múa gậy sinh tiền và bài hát nghi lễ hạ cây nêu ('khâu dìn sê')."
+      },
+      {
+        "name": "Nhạc khèn nghi lễ và đám tang (Qeej tu siav / Qhuab ke)",
+        "note": "Nghệ thuật diễn xướng khèn Mông được công nhận Di sản văn hóa phi vật thể quốc gia tại nhiều tỉnh miền núi phía Bắc; cao độ và tiết tấu tiếng khèn mã hóa trực tiếp thanh điệu của lời bài ca nghi lễ dẫn đường cho linh hồn (surrogate speech)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến ngắt bám thanh điệu từ ngữ (tone-melody mapping)",
+        "description": "Giai điệu câu hát đi lên, đi xuống hoặc ngân giọng thở tùy theo thanh điệu của từng âm tiết lời thơ; kết câu thường ngân dài trên nguyên âm mở hoặc nguyên âm mũi.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Bè trì tục và luyến láy lưỡi gà đồng (khèn qeej)",
+        "description": "Người thổi khèn vừa hít vừa thở liên tục kết hợp múa xoay, lăn, đá chân; ống trầm giữ âm nền trì tục trong khi các ống cao đánh nốt hoa mỹ mô phỏng thanh điệu lời nói.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung không bán âm (pentatonic)",
+        "note": "Thang âm phổ biến trong dân ca kwv txhiaj và hệ thống định âm 6 ống trúc của cây khèn Mông (qeej / kênhx, trong đó ống lớn nhất gắn 2 lưỡi gà đồng để tạo âm dày/bè nền).",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Khèn Mông (MVN: kênhx / RPA: qeej)"
+      },
+      {
+        "name": "Đàn môi (MVN: ndas / trangz ndangl; RPA: ncas / raab ncaag)"
+      },
+      {
+        "name": "Sáo Mông ngang và dọc (RPA: raj nplaim, raj pum liv)"
+      },
+      {
+        "name": "Kèn lá (MVN: blôngx / RPA: nplooj)"
+      },
+      {
+        "name": "Kèn lễ đám tang (MVN: laux puaz)"
+      },
+      {
+        "name": "Đàn nhị hai dây (xi xổ)"
+      },
+      {
+        "name": "Gậy sinh tiền (sênh tiền)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "orthography_warning": "Cả Chữ Mông Việt Nam (MVN: k, l, r, s, v, x, z) và chữ quốc tế (RPA: b, j, v, s, g, m, d) đều dùng chữ cái phụ âm ở CUỐI ÂM TIẾT để biểu thị thanh điệu. Nếu đưa thẳng văn bản tiếng H'Mông vào bộ G2P/TTS tiếng Việt hoặc đa ngữ chưa huấn luyện tiếng H'Mông, mô hình sẽ đọc nhầm các chữ cái thanh điệu này thành phụ âm cuối (ví dụ đọc 'peb' thành 'pép', 'poz' thành 'pót/poz'). Bắt buộc phải tách ký tự thanh điệu cuối âm tiết trước khi chuyển tự.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "Hmôngz / Môngz (RPA: Hmoob / Moob)",
+        "quoc_ngu": "mông (hoặc hờ-mông lướt cực nhanh âm h)",
+        "note": "Âm đầu [m̥] là mũi hai môi vô thanh (thổi hơi qua mũi trước khi phát âm m), không có trong tiếng Việt; ở Mông Lềnh đọc thẳng là [mɔ̃˥] gần với 'mông' cao giọng."
+      },
+      {
+        "native": "lul Hmôngz (RPA: lug Moob / lus Hmoob)",
+        "quoc_ngu": "lù mông / lụ mông",
+        "note": "Chữ 'l' hoặc 's' cuối từ 'lul'/'lus' là dấu thanh (thanh thở 42 hoặc thanh thấp 22), không đọc âm l/s ở cuối."
+      },
+      {
+        "native": "jông (RPA: zoo)",
+        "quoc_ngu": "rông (cong lưỡi)",
+        "note": "Âm đầu [ʐ] là xát quặt lưỡi hữu thanh gần 'r' quặt lưỡi miền Bắc/Trung, nguyên âm mũi [ɔ̃]."
+      },
+      {
+        "native": "cur (RPA: kuv)",
+        "quoc_ngu": "củ / cú (lên giọng vừa)",
+        "note": "'tôi'. Chữ 'r' (MVN) / 'v' (RPA) cuối từ là dấu thanh trung lên [24], không đọc phụ âm cuối."
+      },
+      {
+        "native": "pêz (RPA: peb)",
+        "quoc_ngu": "pê (cao giọng)",
+        "note": "'ba / chúng tôi'. Âm đầu [p] vô thanh không bật hơi (tiếng Việt chuẩn ít có /p/ đầu từ thuần Việt); 'z'/'b' là dấu thanh cao [55]."
+      },
+      {
+        "native": "plâuz (RPA: plaub)",
+        "quoc_ngu": "pờ-lâu (gộp nhanh pl- thành 1 âm tiết, cao giọng)",
+        "note": "'bốn'. Âm [pˡ] bật cạnh lưỡi không có trong tiếng Việt hiện đại; tránh tách thành hai âm tiết rời 'pờ lâu'."
+      },
+      {
+        "native": "ntơưr (RPA: ntawv)",
+        "quoc_ngu": "ờn-tơư / nờ-đơư (tiền mũi hóa nhanh)",
+        "note": "'giấy / chữ'. Phụ âm tiền mũi hóa [ⁿd] và nguyên âm đôi [aɨ] đều không có y hệt trong tiếng Việt chuẩn; có thể xấp xỉ nguyên âm [aɨ] bằng 'ơ-ư' lướt nhanh."
+      },
+      {
+        "native": "băngz / buô (RPA: npab / npua)",
+        "quoc_ngu": "ờm-ba / ờm-bua (ngậm môi mũi ngắn trước b)",
+        "note": "Âm tắc hai môi tiền mũi hóa [ᵐb] khác với [ɓ] tiền thanh hầu hóa của chữ 'b' tiếng Việt."
+      },
+      {
+        "native": "hli (RPA: hli)",
+        "quoc_ngu": "khờ-li / hờ-li (xát hơi bên lưỡi vô thanh)",
+        "note": "'tháng / mặt trăng'. Âm [l̥] (cạnh lưỡi vô thanh) không có trong tiếng Việt; người Việt thường nghe gần giống 'hli' hoặc 'sli' nhẹ."
+      },
+      {
+        "native": "kênhx (RPA: qeej)",
+        "quoc_ngu": "cềnh / khềnh (phát âm lùi sâu ở lưỡi con)",
+        "note": "'khèn Mông'. Âm tắc lưỡi con [q] lùi sâu hơn [k] tiếng Việt; 'x'/'j' cuối từ là thanh cao xuống [52]."
+      },
+      {
+        "native": "yur kênhx (RPA: tshuab qeej)",
+        "quoc_ngu": "trhua cềnh (tr bật hơi mạnh)",
+        "note": "'thổi khèn'. Âm [ʈʂʰ] (MVN viết là 'y', RPA viết là 'tsh') là tắc-xát quặt lưỡi bật hơi, không có trong tiếng Việt (tiếng Việt 'tr' không bật hơi)."
+      },
+      {
+        "native": "đêx (RPA: dej / dlej)",
+        "quoc_ngu": "đế / đệ (xuống giọng từ cao)",
+        "note": "'nước'. Thanh cao xuống [52]; ở Mông Lềnh âm đầu là [tˡ] (nghe trung gian giữa 'đ' và 'tl')."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name_vi": "Mông Hoa / Mông Lềnh (Hmôngz Lênhl / Moob Leeg / Hmong Njua)",
+        "iso639_3": "hnj",
+        "glottocode": "hmon1264",
+        "note": "Biến thể lớn tại Tây Bắc Việt Nam (Lào Cai, Yên Bái, Lai Châu, Sơn La, Hà Giang); tiếng Mông Hoa vùng Sa Pa được chọn làm âm chuẩn của Chữ Mông Việt Nam (1961)."
+      },
+      {
+        "name_vi": "Mông Trắng (Hmôngz Đơưz / Hmoob Dawb / Hmong Daw)",
+        "iso639_3": "mww",
+        "glottocode": "hmon1333",
+        "note": "Phổ biến ở Hà Giang, Tuyên Quang, Điện Biên, Nghệ An và Tây Nguyên; thông hiểu cao với Mông Lềnh và là phương ngữ chuẩn phổ biến nhất của chữ RPA quốc tế."
+      },
+      {
+        "name_vi": "Mông Xanh / Mông Sua (Hmôngz Suô / Hmong Shua)",
+        "iso639_3": "hmz",
+        "glottocode": "hmon1331",
+        "note": "Cư trú tại một số huyện thuộc Lào Cai, Yên Bái, Hà Giang, Tuyên Quang."
+      },
+      {
+        "name_vi": "Mông Đen (Hmôngz Đuz / Hmoob Dub / Black Hmong)",
+        "iso639_3": "hmn",
+        "glottocode": "blac1273",
+        "note": "Phân bố tại Sa Pa (Lào Cai) và Lai Châu; trên Glottolog là phương ngữ blac1273 thuộc nhánh Chuanqiandian Cluster Miao (cqd) nằm trong đại ngôn ngữ hmn (không có mã ISO 639-3 cá biệt riêng). Lưu ý phân biệt với tiếng Hmu (ISO: hea, Đông Quý Châu) ở Trung Quốc cũng đôi khi được dịch là 'Black Miao'."
+      },
+      {
+        "name_vi": "Mông Đô (Hmong Dô)",
+        "iso639_3": "hmv",
+        "glottocode": "hmon1332",
+        "note": "Nhóm ngôn ngữ H'Mông Tây phân bố cục bộ ở miền núi phía Bắc Việt Nam."
+      },
+      {
+        "name_vi": "Hmong Don",
+        "iso639_3": "hmf",
+        "glottocode": "hmon1263",
+        "note": "Nhóm ngôn ngữ H'Mông Tây phân bố cục bộ ở miền núi phía Bắc Việt Nam."
+      },
+      {
+        "name_vi": "Đại ngôn ngữ H'Mông (Hmong macrolanguage)",
+        "iso639_3": "hmn",
+        "glottocode": "firs1234",
+        "note": "Mã đại ngôn ngữ ISO 639-3 bao trùm các phương ngữ H'Mông thuộc nhánh First Vernacular Hmong (Chuanqiandian)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "iz (RPA: ib)",
+        "ipa": "ʔi55",
+        "gloss_vi": "một"
+      },
+      {
+        "native": "aoz (RPA: ob)",
+        "ipa": "ʔɔ55",
+        "gloss_vi": "hai"
+      },
+      {
+        "native": "pêz (RPA: peb)",
+        "ipa": "pe55",
+        "gloss_vi": "ba / chúng tôi"
+      },
+      {
+        "native": "plâuz (RPA: plaub)",
+        "ipa": "pˡau55",
+        "gloss_vi": "bốn"
+      },
+      {
+        "native": "câuv (RPA: kaum)",
+        "ipa": "kau21",
+        "gloss_vi": "mười"
+      },
+      {
+        "native": "cur (RPA: kuv)",
+        "ipa": "ku24",
+        "gloss_vi": "tôi"
+      },
+      {
+        "native": "nênhs / nênhl (RPA: neeg)",
+        "ipa": "nẽ42",
+        "gloss_vi": "người"
+      },
+      {
+        "native": "đêx (RPA: dej / dlej)",
+        "ipa": "de52 ~ tˡe52",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "tsêr (RPA: tsev)",
+        "ipa": "ʈʂe24",
+        "gloss_vi": "nhà"
+      },
+      {
+        "native": "hnuz (RPA: hnub / nub)",
+        "ipa": "n̥u55 ~ nu55",
+        "gloss_vi": "ngày / mặt trời"
+      },
+      {
+        "native": "hli (RPA: hli)",
+        "ipa": "l̥i33",
+        "gloss_vi": "tháng / mặt trăng"
+      },
+      {
+        "native": "ntơưr (RPA: ntawv)",
+        "ipa": "ⁿdaɨ24",
+        "gloss_vi": "giấy / chữ viết / sách"
+      },
+      {
+        "native": "naox (RPA: noj)",
+        "ipa": "nɔ52",
+        "gloss_vi": "ăn"
+      },
+      {
+        "native": "môngl (RPA: moog) / mus (RPA: mus)",
+        "ipa": "mɔ̃42 / mu22",
+        "gloss_vi": "đi (Mông Lềnh / Mông Trắng)"
+      },
+      {
+        "native": "kênhx (RPA: qeej)",
+        "ipa": "qẽ52",
+        "gloss_vi": "khèn Mông"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hội đồng Chính phủ Việt Nam Dân chủ Cộng hòa (1961). Nghị định số 206-CP ngày 27/11/1961 về việc phê chuẩn phương án chữ Tày - Nùng, chữ Mèo (Mông), chữ Thái.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban nhân dân tỉnh Tuyên Quang (2019). Quyết định số 444/QĐ-UBND ngày 13/12/2019 về phê duyệt Chương trình, tài liệu bồi dưỡng tiếng dân tộc Mông chỉnh sửa, bổ sung năm 2019 dành cho cán bộ, công chức, viên chức.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cư Hòa Vần (Chủ biên) (2001). Từ điển Mông – Việt. NXB Giáo dục, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tổng cục Thống kê & Ủy ban Dân tộc (2020). Kết quả Điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019. NXB Thống kê, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ratliff, Martha (1992). Meaningful Tone: A Study of Tonal Morphology in Compounds, Form Classes, and Expressive Phrases in White Hmong. Northern Illinois University, Center for Southeast Asian Studies.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Hmong Njua (hmon1264) & First Vernacular Hmong (firs1234)",
+      "url": "https://glottolog.org/resource/languoid/id/hmon1264",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Hmong Daw (hmon1333)",
+      "url": "https://glottolog.org/resource/languoid/id/hmon1333",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hmong language (Phonology, Orthography, Vietnamese Hmong correspondences)",
+      "url": "https://en.wikipedia.org/wiki/Hmong_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Romanized Popular Alphabet",
+      "url": "https://en.wikipedia.org/wiki/Romanized_Popular_Alphabet",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Chữ Hmông Việt",
+      "url": "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_Hm%C3%B4ng_Vi%E1%BB%87t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "music.genres[2].note",
+          "severity": "high",
+          "problem": "Chuỗi văn bản bị cắt cụt giữa chừng ở cuối câu: \"Lễ hội cầu phúc, cầu mệnh đầu xuân (\".",
+          "fix": "Hoàn thiện câu mô tả về Lễ hội Gầu Tào (Grâuk Taox / Grâuk Taox Cha) dựa trên tư liệu di sản văn hóa phi vật thể quốc gia."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "high",
+          "problem": "Thiếu phụ âm đầu 'đr' trong danh sách 57 phụ âm đầu của Chữ Mông Việt Nam (MVN) và gán chưa chính xác cặp 'đr' / 'nr'. Theo tài liệu bồi dưỡng tiếng Mông chính thức (Quyết định 444/QĐ-UBND tỉnh Tuyên Quang), trong MVN: 'tr' = [ʈ] (RPA: r), 'r' = [ʈʰ] (RPA: rh), 'đr' = [ⁿɖ] (RPA: nr, ví dụ 'đrâuv jôngr' = RPA 'nraum zoov' 'ngoài trời'; hoặc [tˡ] tương ứng RPA 'dl' ở một số bảng đối chiếu), còn 'nr' = [ⁿʈʰ] (tắc quặt lưỡi tiền mũi hóa bật hơi, tức 'r' [ʈʰ] thêm tiền âm mũi, tương ứng RPA: 'nrh', ví dụ 'nriêr' = RPA 'nrhiav' 'tìm'). Bản nháp cũ gán 'nr' = [ⁿɖ] và bỏ sót cả 'đr' lẫn âm vị [ⁿʈʰ] (RPA: nrh).",
+          "fix": "Bổ sung mục 'đr (RPA: nr / dl)' cho âm [ⁿɖ ~ tˡ] và cập nhật mục 'nr (RPA: nrh)' cho âm [ⁿʈʰ] (kèm ghi chú biến thể quy ước giữa sách giáo khoa MVN 57 phụ âm và bảng 59 phụ âm trên Wikipedia)."
+        },
+        {
+          "path": "music.instruments[1].name",
+          "severity": "medium",
+          "problem": "Ghi tên đàn môi là 'MVN: nchăngs / RPA: ncas'. Trong hệ thống MVN không có tổ hợp phụ âm đầu 'nch-' (RPA 'nch' ứng với MVN 'nq' [ɲcʰ]), còn RPA 'nc-' [ɲɟ] (như trong 'ncas' / Mông Lềnh 'ncaag') phải viết bằng MVN là 'nd-' ('ndas' / 'trangz ndangl').",
+          "fix": "Sửa thành 'Đàn môi (MVN: ndas / trangz ndangl; RPA: ncas / raab ncaag)'."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Một số phụ âm đầu có sự khác biệt giữa quy chuẩn sách giáo khoa/tài liệu bồi dưỡng tiếng Mông ở Việt Nam (57 phụ âm: dùng 'mn', 'kr', 'gr', 'y', 'ny') và bảng đối chiếu Chữ Hmông Việt trên Wikipedia (59 phụ âm: dùng 'ml', 'qh', 'ng', 'tsh', 'ntsh', 'đl', 'nđr', 'nđl'). Cần ghi chú rõ để tránh nhầm lẫn khi đối chiếu nguồn.",
+          "fix": "Bổ sung ghi chú về các biến thể ký hiệu trên Wikipedia vào trường note của các phụ âm liên quan."
+        },
+        {
+          "path": "ml_hints.sub_varieties[3]",
+          "severity": "low",
+          "problem": "Mục Mông Đen (Black Hmong, glottocode: blac1273) đang để iso639_3 là 'hmn' trùng với mã đại ngôn ngữ (macrolanguage) ở mục cuối, dễ gây hiểu nhầm rằng 'hmn' là mã cá biệt của riêng phương ngữ Mông Đen.",
+          "fix": "Ghi rõ trong note rằng phương ngữ Mông Đen (blac1273) không có mã ISO 639-3 cá biệt riêng mà nằm trong cụm phương ngữ Chuanqiandian (cqd) thuộc đại ngôn ngữ hmn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần chuyên gia ngôn ngữ học tiếng Mông và nghệ nhân bản xứ tại Sa Pa (Lào Cai), Đồng Văn (Hà Giang), Mù Cang Chải (Yên Bái) đối chiếu chi tiết đường nét thanh điệu (Chao contour) riêng của từng thổ ngữ Mông Lềnh, Mông Trắng, Mông Đen, Mông Sua tại Việt Nam.",
+      "Cần chuẩn hóa bảng đối chiếu giữa 57 phụ âm đầu trong sách giáo khoa/tài liệu bồi dưỡng tiếng Mông ở Việt Nam (dùng mn, kr, gr, đr, nr, y, ny) và bảng 59 phụ âm đầu trên Wikipedia (dùng ml, qh, ng, đl, nđr, nđl, r, nr, tsh, ntsh), cũng như cách phân bố 12 chữ cái nguyên âm và 17 vần mở rộng (oa, ui, ưng, inh, eng, oang) trong tài liệu tiểu học.",
+      "Cần nhạc sĩ dân tộc nhạc học bổ sung ký âm ABC chuẩn xác cho thang âm 6 ống của khèn Mông (kênhx/qeej) và làn điệu kwv txhiaj."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

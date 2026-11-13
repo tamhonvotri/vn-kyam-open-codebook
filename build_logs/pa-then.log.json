@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "pa-then",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pà Thẻn",
+    "ethnic_group_vi": "Pà Thẻn",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:38:36.595551",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9387,
+      "candidatesTokenCount": 11068,
+      "totalTokenCount": 25893,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9387
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11068
+        }
+      ],
+      "thoughtsTokenCount": 5438,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12337,
+      "candidatesTokenCount": 11754,
+      "totalTokenCount": 25006,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12337
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11754
+        }
+      ],
+      "thoughtsTokenCount": 915,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[16].ipa & phonology.onsets[17].ipa",
+        "severity": "medium",
+        "problem": "Sử dụng ký hiệu ngữ âm học Hán-Tạng 'ȵ' (U+0235) thay vì ký hiệu IPA chuẩn 'ɲ' cho âm mũi ngạc cứng / lợi-ngạc trong trường ipa máy đọc.",
+        "fix": "Đổi trường ipa thành 'ɲdʑ' và 'ɲ', đồng thời ghi chú cách ký hiệu 'ȵdʑ' / 'ȵ' của truyền thống Hán-Tạng học (Niederer 1996/1997, Mao & Li 1997) vào trường note."
+      },
+      {
+        "path": "phonology.onsets[5].ipa, phonology.onsets[11].ipa, phonology.onsets[14].ipa",
+        "severity": "low",
+        "problem": "Trường ipa chứa ký hiệu biến thể tự do 'm̥ ~ mʰ', 'n̥ ~ nʰ', 'l̥ ~ lʰ' gây khó khăn cho bộ phân tích IPA tự động.",
+        "fix": "Chuẩn hóa trường ipa về một ký hiệu chuẩn ('m̥', 'n̥', 'l̥') và chuyển biến thể bật hơi ('mʰ', 'nʰ', 'lʰ') sang trường note."
+      },
+      {
+        "path": "lexicon[1].form & lexicon[3].form",
+        "severity": "medium",
+        "problem": "Trường form chứa cả chú thích giải thích trong ngoặc đơn ('ʔɔ⁵⁵ ʔɔ̃³³ (ghi âm cộng đồng: o ó)' và 'ʔa³³pah³³ (ghi âm cộng đồng: tơ pa)'), làm bẩn dữ liệu từ vựng máy đọc.",
+        "fix": "Giữ nguyên hình thức ngữ âm thuần túy trong trường form ('ʔɔ⁵⁵ ʔɔ̃³³' và 'ʔa³³pah³³'); thông tin phiên âm cộng đồng đã có trong ml_hints.quoc_ngu_approximation."
+      },
+      {
+        "path": "music.genres[2].note & music.instruments[0]",
+        "severity": "medium",
+        "problem": "Đánh đồng 'đàn Pàn dơ (pạn dơ)' với 'đàn tầy nhậy' và giải thích nhầm 'pạ xen to' (biến âm của vòng lắc 'Pà sán tầu') thành que gõ tre. Theo hồ sơ Di sản văn hóa phi vật thể quốc gia và điền dã tại Thượng Minh / Tân Bắc, bộ nhạc cụ cúng lễ nhảy lửa gồm đàn gõ 'Pàn dơ' (thanh gỗ gắn sắt gõ bằng que tre) và vòng lắc sắt 'Pà sán tầu', còn 'đàn tầy nhậy' là đàn kéo nhị trong sinh hoạt dân gian.",
+        "fix": "Tách rõ 'Đàn Pàn dơ (pạn dơ) và vòng lắc Pà sán tầu' (nhạc cụ nghi lễ nhảy lửa) và 'Đàn tầy nhậy' (nhạc cụ dây kéo vĩ dân gian) trong music.instruments, đồng thời chỉnh lại mô tả ở music.genres[2].note."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Thông tin về đề tài ĐH2024-TN04-04 có thể cập nhật chính xác hơn theo thông báo nghiệm thu cấp cơ sở tháng 11/2026 tại Trường ĐHSP - ĐH Thái Nguyên.",
+        "fix": "Bổ sung thông tin đề tài ĐH2024-TN04-04 được nghiệm thu cấp cơ sở tháng 11/2026 nhưng chưa ban hành chính thức ở cấp nhà nước."
+      }
+    ]
+  },
+  "schema_errors": []
+}

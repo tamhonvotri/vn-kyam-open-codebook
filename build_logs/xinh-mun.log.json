@@ -1,0 +1,97 @@
+{
+  "target": {
+    "id": "xinh-mun",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Xinh Mun",
+    "ethnic_group_vi": "Xinh Mun",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:22:21.677150",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 7289,
+      "totalTokenCount": 20798,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7289
+        }
+      ],
+      "thoughtsTokenCount": 4124,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9875,
+      "candidatesTokenCount": 9551,
+      "totalTokenCount": 20966,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9875
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9551
+        }
+      ],
+      "thoughtsTokenCount": 1540,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "autonym",
+        "severity": "medium",
+        "problem": "Cụm 'khoăm Kơxinh mul' thực chất được suy diễn tương tự từ 'khoăm Kơhmụ' (tiếng Khơ Mú, trong đó 'khoăm/quăm' là từ mượn tiếng Thái nghĩa là tiếng nói). Tư liệu ngôn ngữ học và dân tộc học ghi nhận tộc danh tự gọi là Ksingmul / Ksing Mul ('người núi').",
+        "fix": "Đổi autonym thành 'Ksingmul (Ksing Mul)' và hạ mức độ tin cậy hoặc chỉnh lại mục từ tương ứng trong lexicon."
+      },
+      {
+        "path": "phonology.codas[7].note",
+        "severity": "medium",
+        "problem": "Ghi chú lấy ví dụ 'Ksing ~ Kơxinh' cho âm cuối ngạc cứng /-ɲ/ là thiếu chính xác vì hình vị gốc là 'Ksing' /ksiŋ/ (âm cuối ngạc mềm /-ŋ/); cách viết 'Xinh' trong tiếng Việt chỉ là quy tắc chính tả/ngữ âm tiếng Việt chuyển /-iŋ/ thành 'inh'.",
+        "fix": "Bỏ ví dụ 'Ksing ~ Kơxinh' khỏi mục âm cuối /-ɲ/ và giải thích rõ sự tương ứng /-iŋ/ -> Quốc ngữ '-inh'."
+      },
+      {
+        "path": "phonology.codas",
+        "severity": "low",
+        "problem": "Bảng âm cuối thiếu âm xát cuối /-h/ và /-s/ vốn được ghi nhận trong tư liệu tiếng Xinh Mun (ví dụ: mih 'mày/bạn', kəh 'đó', kʰras 'cười' trong Pogibenko & Bùi Khánh Thế 1990 và Badenoch 2022).",
+        "fix": "Bổ sung /-h/ và /-s/ vào danh sách codas với confidence='medium'."
+      },
+      {
+        "path": "lexicon[3]",
+        "severity": "high",
+        "problem": "Mục từ 'na' ('lá') gán confidence='high' nhưng không kiểm chứng được trong các bảng từ Khmuic/Ksingmul công bố (Proto-Khmuic *slaʔ > laː/ʰlaʔ; các ngôn ngữ lân cận ghi nhận la/lạ).",
+        "fix": "Hạ confidence của 'na' xuống 'low', bỏ khỏi ml_hints.sample_words và thay bằng từ có nguồn kiểm chứng rõ ràng (như hɔːt 'nước' hoặc mɨt 'mật')."
+      },
+      {
+        "path": "lexicon[8..12]",
+        "severity": "medium",
+        "problem": "Các từ 'mốt' (1), 'biel' (2), 'pe' (3), 'ếm pá' (giỏ đựng cơm nếp) lấy từ tài liệu dân tộc học/tiếp xúc ngôn ngữ viết bằng chữ Quốc ngữ ước lệ (không có ký âm IPA gốc), và mục 'khoăm Kơxinh mul' dùng ký hiệu 'ă' (không chuẩn IPA) cùng âm cuối /-ɲ/ sai cho 'Ksing'.",
+        "fix": "Hạ confidence của 'mốt', 'biel', 'pe', 'ếm pá' xuống 'low' (do chỉ có dạng ghi Quốc ngữ dân tộc học); sửa mục 'khoăm Kơxinh mul' thành 'Ksing Mul' (/ksiŋ mul ~ kəsiŋ mul/) và bổ sung các từ có kiểm chứng ngữ âm học cao như 'hɔːt' (nước), 'kʰras' (cười)."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các trường url_check đang để null và thiếu URL lưu trữ chính thức của SIL cho bài viết của Edmondson (2010).",
+        "fix": "Cập nhật url_check='verified' cho các URL đã kiểm tra qua Google Search và bổ sung URL lưu trữ SIL cho Edmondson (2010)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

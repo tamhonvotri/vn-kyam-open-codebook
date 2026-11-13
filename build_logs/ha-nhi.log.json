@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "ha-nhi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hà Nhì",
+    "ethnic_group_vi": "Hà Nhì",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:23:56.194626",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 8597,
+      "totalTokenCount": 21180,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8597
+        }
+      ],
+      "thoughtsTokenCount": 3198,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11014,
+      "candidatesTokenCount": 11397,
+      "totalTokenCount": 24525,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11014
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11397
+        }
+      ],
+      "thoughtsTokenCount": 2114,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[8] & ml_hints.sample_words[8]",
+        "severity": "high",
+        "problem": "Mục từ 'nhí' (/ɲi˥˥/) được dịch là 'màu đỏ' (red). Tuy nhiên, theo bảng chữ cái Hà Nhì của Viện Ngôn ngữ học (Quyết định 78/QĐ-UBND Lai Châu), 'nhí' (/ɲi˥˥/) có nghĩa là 'nhỏ, bé' (small), còn 'đỏ, màu đỏ' là 'ní' (/ni˥˥/, tương ứng Haqniqdoq 'nil').",
+        "fix": "Sửa mục từ 'màu đỏ' thành form 'ní' (/ni˥˥/) và bổ sung/làm rõ 'nhí' (/ɲi˥˥/) là 'nhỏ, bé'."
+      },
+      {
+        "path": "phonology.onsets[24..25]",
+        "severity": "medium",
+        "problem": "Gộp chung 'k / qh' vào một mục và ghi 'c' là /k ~ c/ chưa phản ánh sát bảng quy tắc chữ–âm của Viện Ngôn ngữ học cho tỉnh Lai Châu: trong bảng gốc, 'c' ghi /k/ (như c/k tiếng Việt), 'k' ghi âm tắc lưỡi con không bật hơi /q/ (ví dụ: ká ma 'con đường', hà kừ 'cây giang'), còn 'qh' ghi âm bật hơi /kʰ ~ qʰ/ (ví dụ: qhá bie 'bùn', qhò ló 'cổ') — dù một bài hướng dẫn thứ cấp trên cổng phổ biến chữ Hà Nhì có sự dao động ký hiệu giữa k và qh.",
+        "fix": "Tách riêng 'c' (/k/), 'k' (/q ~ kʰ/) và 'qh' (/kʰ ~ qʰ/) thành 3 mục độc lập và ghi chú rõ sự khác biệt giữa bảng gốc của Viện Ngôn ngữ học và tài liệu hướng dẫn phổ thông."
+      },
+      {
+        "path": "phonology.vowels[1] & phonology.vowels[6]",
+        "severity": "medium",
+        "problem": "Nguyên âm 'e' mới chỉ ghi /e ~ ɤ/, thiếu giá trị /ɛ/ được quy định trực tiếp trong bảng chữ cái Hà Nhì Lai Châu ('6. e /ɛ/: đọc giống e trong tiếng Việt, ví dụ: é dzà, ge'). Nguyên âm 'uy' chỉ ghi /ø/ (theo thổ ngữ Thu Lũm trong Chung Kiều 2024), thiếu giá trị /y/ (nguyên âm trước cao tròn môi) được quy định trong bảng chữ cái của Viện Ngôn ngữ học ('40. uy /y/: bhùy qhó, y úy').",
+        "fix": "Cập nhật IPA của 'e' thành 'ɛ ~ e ~ ɤ' và IPA của 'uy' thành 'y ~ ø' kèm giải thích theo từng nguồn."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Danh sách nhạc cụ mới liệt kê tên gọi ở Lào Cai/Lai Châu (Hó tơ, Pí si, Sé pi, Si vu, Có tu), thiếu các tên gọi bản ngữ tương ứng ở Điện Biên / Mường Tè (như đàn 3 dây Si gu / La khư / Lạc hư, trống Khù từ, chiêng Piu ly, đàn môi Lạ tỳ).",
+        "fix": "Bổ sung các tên gọi địa phương có kiểm chứng từ nguồn văn hóa dân tộc Hà Nhì tại Điện Biên và Lai Châu."
+      }
+    ]
+  },
+  "schema_errors": []
+}

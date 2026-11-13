@@ -1,0 +1,993 @@
+{
+  "id": "lo-lo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Lô Lô",
+  "name_en": "Lô Lô (Mantsi)",
+  "autonym": "mã⁵³ tsi⁵³ / ma²¹ ndʑi²¹ / Lô Lô",
+  "ethnic_group_vi": "Lô Lô",
+  "language": {
+    "iso639_3": "nty",
+    "glottocode": "mant1265",
+    "family": "Sino-Tibetan",
+    "branch": "Lolo-Burmese (Mondzish)"
+  },
+  "regions": [
+    "Hà Giang / nay thuộc Tuyên Quang (Đồng Văn, Mèo Vạc, Yên Minh)",
+    "Cao Bằng (Bảo Lạc, Bảo Lâm)",
+    "Lào Cai (Mường Khương)"
+  ],
+  "speakers_estimate": "4.827 người dân tộc Lô Lô tại Việt Nam (Tổng điều tra dân số 2019); số người nói bản ngữ tiếng Mantsi ước khoảng 1.100–3.000+ người tại Việt Nam và Vân Nam (Trung Quốc)",
+  "scripts": [
+    {
+      "name": "Văn tự Lô Lô cổ (chữ tượng hình – âm tiết cổ truyền trong sách cúng)",
+      "iso15924": "Yiii",
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Một số dòng họ Lô Lô ở Việt Nam từng lưu giữ văn bản cúng tế viết bằng chữ Lô Lô cổ trên giấy bản, gỗ mỏng hoặc da thú, nhưng hiện nay hầu như đã thất truyền/mai một trong sử dụng hàng ngày. Dải Unicode U+A000–U+A4CF (Yi Syllables / Yi Radicals) là chữ Di âm tiết chuẩn hóa Lương Sơn tại Tứ Xuyên (Trung Quốc) cho tiếng Nuosu [iii], không dùng cho tiếng Mantsi tại Việt Nam."
+    },
+    {
+      "name": "Chữ Latinh (ký âm nghiên cứu ngôn ngữ học / phiên âm tạm bằng chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin Extended Additional; IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Nhà nước Việt Nam hiện chưa ban hành bộ chữ Latinh chuẩn hóa chính thức cho tiếng Lô Lô. Các tài liệu ngôn ngữ học (Edmondson 2003, Iwasa 2003, Lama 2012, Hsiu 2014) dùng ký âm IPA kết hợp chữ số thanh điệu Chao; sưu tầm văn nghệ dân gian địa phương thường phiên âm gần đúng bằng chữ Quốc ngữ."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã nháp do LLM tổng hợp từ tư liệu ngôn ngữ học về cụm phương ngữ Mantsi / Mondzi [nty] — biến thể ngôn ngữ của người Lô Lô Hoa, Lô Lô Đỏ (Hà Giang/Tuyên Quang), Lô Lô Đen / Ma Ndzi (Cao Bằng) tại Việt Nam và người Mondzi tại Vân Nam (Edmondson 2003; Iwasa 2003; Lama 2012; Hsiu 2014). Lưu ý quan trọng: Bảng hệ thống âm vị 40 phụ âm đầu, 24 nguyên âm và 6 thanh điệu dưới đây phản ánh mô tả đầy đủ của Lama (2012) cho phương ngữ Mondzi; trong khi đó, khảo sát thực địa của Edmondson trên tiếng Mantsi (Lô Lô Đỏ tại Yên Minh, Hà Giang) ghi nhận 5 thanh điệu (/44/, /53/, /35/, /31/, /312/), sự hiện diện của âm lưỡi con (/q/, /qʰ/), tắc thanh hầu (/ʔ/) và sự biến đổi âm cuối *-ŋ thành nguyên âm mũi hóa.",
+  "phonology": {
+    "syllable_structure": "(C1)(C2)(G)V(ŋ/ṽ)+T",
+    "onsets": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "âm mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mb",
+        "ipa": "ᵐb",
+        "note": "tắc hai môi hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nd",
+        "ipa": "ⁿd",
+        "note": "tắc chân răng hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngg",
+        "ipa": "ᵑɡ",
+        "note": "tắc ngạc mềm hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ndz",
+        "ipa": "ⁿdz",
+        "note": "tắc-xát chân răng hữu thanh tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ndzh",
+        "ipa": "ⁿdʐ",
+        "note": "tắc-xát quặt lưỡi hữu thanh tiền mũi hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ndj",
+        "ipa": "ⁿdʑ",
+        "note": "tắc-xát lợi-ngạc hữu thanh tiền mũi hóa (gặp trong tự danh Ma Ndzi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "tắc hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "tắc chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "tắc ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "tắc ngạc mềm vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dz",
+        "ipa": "dz",
+        "note": "tắc-xát chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dzh",
+        "ipa": "dʐ",
+        "note": "tắc-xát quặt lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "dj",
+        "ipa": "dʑ",
+        "note": "tắc-xát lợi-ngạc hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ts",
+        "ipa": "ts",
+        "note": "tắc-xát chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tsh",
+        "ipa": "tsʰ",
+        "note": "tắc-xát chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tʂ",
+        "ipa": "tʂ",
+        "note": "tắc-xát quặt lưỡi vô thanh không bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tʂh",
+        "ipa": "tʂʰ",
+        "note": "tắc-xát quặt lưỡi vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tɕ",
+        "ipa": "tɕ",
+        "note": "tắc-xát lợi-ngạc vô thanh không bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tɕh",
+        "ipa": "tɕʰ",
+        "note": "tắc-xát lợi-ngạc vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "z",
+        "note": "xát chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʂ",
+        "ipa": "ʂ",
+        "note": "xát quặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʐ",
+        "ipa": "ʐ",
+        "note": "xát quặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɕ",
+        "ipa": "ɕ",
+        "note": "xát lợi-ngạc vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʑ",
+        "ipa": "ʑ",
+        "note": "xát lợi-ngạc hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "x",
+        "note": "xát ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɣ",
+        "ipa": "ɣ",
+        "note": "xát ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "cận âm bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "lg",
+        "ipa": "lɡ",
+        "note": "tổ hợp phụ âm đầu ghi nhận trong phương ngữ Mondzi (Lama 2012)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "lk",
+        "ipa": "lk",
+        "note": "tổ hợp phụ âm đầu ghi nhận trong phương ngữ Mondzi (Lama 2012)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "lkh",
+        "ipa": "lkʰ",
+        "note": "tổ hợp phụ âm đầu ghi nhận trong phương ngữ Mondzi (Lama 2012)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "nguyên âm trước khép không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "nguyên âm sau khép tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e",
+        "note": "nguyên âm trước nửa khép lỏng (loose)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e̠",
+        "ipa": "e̠",
+        "note": "nguyên âm trước nửa khép căng / siết thanh hầu (tight/constricted, Lama 2012)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ø",
+        "ipa": "ø",
+        "note": "nguyên âm trước nửa khép tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o",
+        "note": "nguyên âm sau nửa khép tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɛ",
+        "ipa": "ɛ",
+        "note": "nguyên âm trước nửa mở lỏng (loose)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɛ̠",
+        "ipa": "ɛ̠",
+        "note": "nguyên âm trước nửa mở căng / siết thanh hầu (tight/constricted, Lama 2012)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ɔ",
+        "ipa": "ɔ",
+        "note": "nguyên âm sau nửa mở tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "nguyên âm trước/giữa mở; có biến thể mũi hóa [ã] trong Mantsi (như mã⁵³ tsi⁵³)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɑ",
+        "ipa": "ɑ",
+        "note": "nguyên âm sau mở không tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ɿ",
+        "ipa": "z̩",
+        "note": "âm tiết hóa đầu lưỡi lỏng (ký hiệu Hán-Tạng học: ɿ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ɿ̠",
+        "ipa": "z̩ˤ",
+        "note": "âm tiết hóa đầu lưỡi căng / siết thanh hầu (ký hiệu Hán-Tạng học: ɿ̠)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "ia",
+        "note": "nguyên âm đôi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ie",
+        "ipa": "ie",
+        "note": "nguyên âm đôi lỏng; có biến thể căng [ie̠]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iɛ",
+        "ipa": "iɛ",
+        "note": "nguyên âm đôi lỏng; có biến thể căng [iɛ̠]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "io",
+        "ipa": "io",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iɔ",
+        "ipa": "iɔ",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iu",
+        "ipa": "iu",
+        "note": "nguyên âm đôi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yi",
+        "ipa": "yi",
+        "note": "nguyên âm đôi tròn môi trước",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ue",
+        "ipa": "ue",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ui",
+        "ipa": "ui",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "uɑ",
+        "ipa": "uɑ",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ei",
+        "ipa": "ei",
+        "note": "nguyên âm đôi",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "âm cuối phụ âm duy nhất trong phương ngữ Mondzi (Lama 2012); trong phương ngữ Mantsi Yên Minh (Edmondson), âm cuối này thường biến thành nguyên âm mũi hóa (ví dụ boŋ53 ~ bõ53 'bụng')",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "t55",
+        "name": "thanh 55 (cao bằng)",
+        "mark": "55",
+        "chao_contour": "55",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t44",
+        "name": "thanh 44 (hơi cao bằng)",
+        "mark": "44",
+        "chao_contour": "44",
+        "phonation": "modal (ghi nhận ở cả Mondzi của Lama 2012 và Mantsi Hà Giang của Edmondson)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t33",
+        "name": "thanh 33 (trung bằng)",
+        "mark": "33",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t53",
+        "name": "thanh 53 (cao giáng)",
+        "mark": "53",
+        "chao_contour": "53",
+        "phonation": "modal (ghi nhận ở cả Mondzi của Lama 2012 và Mantsi Hà Giang của Edmondson)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "t21",
+        "name": "thanh 21 (thấp giáng)",
+        "mark": "21",
+        "chao_contour": "21",
+        "phonation": "modal / đôi khi kèm chất giọng căng trên nguyên âm chặt (Lama 2012); tương ứng gần với thanh /31/ trong mô tả Mantsi Hà Giang của Edmondson",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "t13",
+        "name": "thanh 13 (thấp thăng)",
+        "mark": "13",
+        "chao_contour": "13",
+        "phonation": "modal (Lama 2012); trong mô tả Mantsi Hà Giang của Edmondson có các thanh thăng/gãy /35/ và /312/",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Phương ngữ Mondzi (Lama 2012) có 6 thanh điệu (55, 44, 33, 53, 21, 13) kết hợp đối lập chất giọng lỏng (loose) và căng/siết thanh hầu (tight/constricted). Phương ngữ Mantsi Lô Lô Đỏ tại Yên Minh, Hà Giang (Edmondson) được ghi nhận có 5 thanh điệu (/44/, /53/, /35/, /31/, /312/)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Lô Lô (tên tự gọi)",
+      "form": "mã53 tsi53",
+      "ipa": "mã˥˧ tsi˥˧",
+      "gloss_en": "Mantsi / Lô Lô people (autonym, Edmondson)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tay",
+      "form": "lɔ44",
+      "ipa": "lɔ˦˦",
+      "gloss_en": "hand (attested in both Mantsi [Edmondson] and Mondzi [Lama 2012])",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "lɔ44 pɔ53",
+      "ipa": "lɔ˦˦ pɔ˥˧",
+      "gloss_en": "moon (Mantsi Yên Minh, Edmondson)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chân",
+      "form": "khe13",
+      "ipa": "kʰe˩˧",
+      "gloss_en": "leg / foot (Mondzi [Lama 2012]; cf. Mantsi Hà Giang: khie312 [Edmondson])",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đường đi",
+      "form": "tʂu44 mɔ44",
+      "ipa": "tʂu˦˦ mɔ˦˦",
+      "gloss_en": "road / path (Mondzi [Lama 2012]; cf. Mantsi Hà Giang: tʂɔ312 ʔi31 [Edmondson])",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đến",
+      "form": "lɔ13",
+      "ipa": "lɔ˩˧",
+      "gloss_en": "to come (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bụng",
+      "form": "boŋ53",
+      "ipa": "boŋ˥˧",
+      "gloss_en": "belly (Mondzi [Lama 2012]; cf. Mantsi Hà Giang: bõ53 [Edmondson])",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "xương",
+      "form": "u53 ɣo21",
+      "ipa": "u˥˧ ɣo˨˩",
+      "gloss_en": "bone (Mondzi [Lama 2012]; cf. Mantsi Hà Giang: ɣua53 [Edmondson])",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ruột",
+      "form": "se53",
+      "ipa": "se˥˧",
+      "gloss_en": "intestines (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "mi21",
+      "ipa": "mi˨˩",
+      "gloss_en": "fire (Mondzi [Lama 2012]; cf. Mantsi Hà Giang: mi53 [Edmondson])",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "khói",
+      "form": "mi21 kho33",
+      "ipa": "mi˨˩ kʰo˧˧",
+      "gloss_en": "smoke (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đen",
+      "form": "nɔ44",
+      "ipa": "nɔ˦˦",
+      "gloss_en": "black (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trắng",
+      "form": "phiu13",
+      "ipa": "pʰiu˩˧",
+      "gloss_en": "white (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đỏ",
+      "form": "ni13",
+      "ipa": "ni˩˧",
+      "gloss_en": "red (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "vàng",
+      "form": "xi13",
+      "ipa": "xi˩˧",
+      "gloss_en": "yellow (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhỏ",
+      "form": "ia53",
+      "ipa": "ia˥˧",
+      "gloss_en": "small (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "to / lớn",
+      "form": "du13",
+      "ipa": "du˩˧",
+      "gloss_en": "big (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngắn",
+      "form": "de53",
+      "ipa": "de˥˧",
+      "gloss_en": "short (Mondzi, Lama 2012)",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca giao duyên / hát đối đáp Lô Lô",
+        "note": "Hát mộc không nhạc cụ đệm khi đi nương rẫy, đi chợ, dựng nhà hoặc trong đám cưới; lời ca truyền thống thường cấu trúc theo thể thơ 5 chữ giàu hình ảnh ẩn dụ thiên nhiên."
+      },
+      {
+        "name": "Hát cúng nghi lễ trong Lễ cúng tổ tiên và tang lễ",
+        "note": "Lễ cúng tổ tiên của người Lô Lô (xã Lũng Cú, Đồng Văn) được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2012 (Quyết định 5079/QĐ-BVHTTDL ngày 27/12/2012). Bài cúng và hát tiễn/dẫn hồn kết hợp tiếng trống đồng đực – cái và điệu múa Ma cỏ (người rừng / Ghà Lu Ngang)."
+      },
+      {
+        "name": "Dân ca lao động và hát trong Lễ cầu mưa",
+        "note": "Gắn với nghi lễ nông nghiệp cầu mùa, cầu mưa vào tháng Ba âm lịch của người Lô Lô ở Mèo Vạc và Bảo Lạc."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dân ca Lô Lô vùng cao nguyên đá",
+        "note": "Giai điệu chủ yếu dựa trên thang ngũ cung không bán âm, tiết tấu trong hát giao duyên tự do ngân dài cuối câu, còn trong nhạc lễ gắn chặt với chu kỳ nhịp trống đồng. Chưa có công trình ký âm ABC chuẩn hóa.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Trống đồng Lô Lô (cặp trống đực – trống cái)",
+        "note": "Báu vật linh thiêng của dòng họ, diễn tấu theo từng cặp âm – dương (trống cái lớn hơn trống đực) để giữ nhịp cho các điệu múa nghi lễ trong đám tang và lễ cúng tổ tiên."
+      },
+      {
+        "name": "Đàn nhị (kéo nhị)",
+        "note": "Sử dụng trong điệu múa kéo nhị và sinh hoạt lễ hội truyền thống."
+      },
+      {
+        "name": "Sáo / tiêu trúc",
+        "note": "Nhạc cụ hơi dùng để nam nữ thổi tâm tình trên nương rẫy; hiện còn rất ít nghệ nhân nắm giữ."
+      },
+      {
+        "name": "Kèn phí lè",
+        "note": "Nhạc cụ hơi dùng trong đám cưới và đám tang truyền thống; có nguy cơ mai một cao."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Mantsi — Lô Lô Hoa và Lô Lô Đỏ (Hà Giang / Tuyên Quang)",
+        "iso639_3": "nty",
+        "glottocode": "mant1265",
+        "regions": [
+          "Xín Cái, Thượng Phùng (Mèo Vạc)",
+          "Lũng Cú, Lũng Táo, Sủng Là (Đồng Văn)",
+          "Yên Minh"
+        ],
+        "note": "Nhóm phương ngữ chính tại cao nguyên đá Đồng Văn; tiếng Lô Lô Đỏ tại Yên Minh được Edmondson khảo sát cuối thập niên 1990 (5 thanh điệu: 44, 53, 35, 31, 312)."
+      },
+      {
+        "name": "Ma Ndzi — Lô Lô Đen (Cao Bằng)",
+        "iso639_3": "nty",
+        "glottocode": "mant1265",
+        "regions": [
+          "Hồng Trị, Cô Ba, Kim Cúc, Đức Hạnh (Bảo Lạc)",
+          "Bảo Lâm",
+          "Lô Lô Chải (Lũng Cú, Đồng Văn)"
+        ],
+        "note": "Phương ngữ Lô Lô Đen ở Bảo Lạc (Cao Bằng) được Iwasa (2003) ghi chép từ vựng dưới tên Ma Ndzi, thuộc cùng cụm Mantsi/Mondzi."
+      },
+      {
+        "name": "Mondzi / Munji (Vân Nam, Trung Quốc)",
+        "iso639_3": "nty",
+        "glottocode": "mant1265",
+        "regions": [
+          "Phú Ninh (Funing), Mã Quan / Ma Lật Pha (Malipo), châu Văn Sơn, Vân Nam, Trung Quốc"
+        ],
+        "note": "Tự gọi [mo²¹ ndʑi²¹] / [mu⁵³ ndʑi²¹]; được Lama (2012) mô tả âm vị học chi tiết. Hsiu (2014) lưu ý Mondzi tại Phú Ninh rất gần Mantsi nhưng độ thông hiểu qua lại có thể hạn chế."
+      },
+      {
+        "name": "Nuosu / Lô Lô Bắc (Sichuan Yi)",
+        "iso639_3": "iii",
+        "glottocode": "sich1238",
+        "regions": [
+          "Tứ Xuyên, Vân Nam (Trung Quốc); đôi khi được nhắc tới ở một số điểm biên giới Lào Cai / Hà Giang"
+        ],
+        "note": "Ngôn ngữ Di chuẩn ở Trung Quốc, thuộc nhánh Lô Lô Bắc (Northern Loloish), KHÔNG thông hiểu được với tiếng Mantsi [nty] nhánh Mondzish. Cần tránh nhầm dữ liệu chữ Di Lương Sơn [iii] sang tiếng Lô Lô Việt Nam."
+      },
+      {
+        "name": "Nisi",
+        "iso639_3": "yso",
+        "glottocode": "nisi1238",
+        "regions": [
+          "Vân Nam (Trung Quốc)"
+        ],
+        "note": "Một số tài liệu cũ từng gộp chung mã hoặc nhầm lẫn giữa Nisi [yso] và Mantsi [nty]."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ᵐb / ⁿd / ᵑɡ (mb, nd, ngg)",
+        "quoc_ngu": "m-b / n-đ / ng-g (hoặc b / đ / g)",
+        "note": "Âm tắc tiền mũi hóa KHÔNG có trong tiếng Việt chuẩn. Khi tổng hợp giọng tiếng Việt, có thể chèn âm mũi cực ngắn ở cuối âm tiết trước hoặc đọc gần đúng thành b, đ, g."
+      },
+      {
+        "native": "ⁿdz / ⁿdʐ / ⁿdʑ (ndz, ndzh, ndj)",
+        "quoc_ngu": "n-d / n-tr / n-gi",
+        "note": "Âm tắc-xát hữu thanh tiền mũi hóa KHÔNG có trong tiếng Việt; tiếng Việt Hà Nội cũng thiếu âm tắc-xát hữu thanh thuần túy, nên chỉ xấp xỉ được bằng âm xát/quặt lưỡi d, tr, gi kèm tiền âm mũi nhẹ."
+      },
+      {
+        "native": "pʰ (ph)",
+        "quoc_ngu": "p-h (tránh đọc thành [f] của chữ 'ph' Quốc ngữ)",
+        "note": "Chữ 'ph' trong Quốc ngữ là âm xát môi-răng [f], trong khi [pʰ] của tiếng Lô Lô là âm tắc hai môi bật hơi (giống tiếng Thái/Mông). TTS chỉ biết tiếng Việt đọc 'ph' sẽ bị sai thành [f]."
+      },
+      {
+        "native": "kʰ (kh)",
+        "quoc_ngu": "kh",
+        "note": "Trong tiếng Việt chuẩn 'kh' là âm xát ngạc mềm [x], còn [kʰ] tiếng Lô Lô là tắc ngạc mềm bật hơi; 'kh' là xấp xỉ gần nhất sẵn có trong Quốc ngữ."
+      },
+      {
+        "native": "ts / tsʰ / tʂʰ / tɕʰ",
+        "quoc_ngu": "x / s / tr / ch",
+        "note": "Tiếng Việt KHÔNG có đối lập bật hơi ở các âm tắc-xát ([tsʰ], [tʂʰ], [tɕʰ]) cũng như không có [ts]; việc viết thành ch/tr/x làm mất nét khu biệt bật hơi."
+      },
+      {
+        "native": "lɡ / lk / lkʰ",
+        "quoc_ngu": "lơ-g / lơ-c / lơ-kh",
+        "note": "Tiếng Việt không có tổ hợp phụ âm đầu lC-; phải tách thành âm tiết phụ siêu ngắn 'lơ-' trước âm tiết chính."
+      },
+      {
+        "native": "ɿ [z̩] / ɿ̠ [z̩ˤ]",
+        "quoc_ngu": "ư (ngắn)",
+        "note": "Nguyên âm đầu lưỡi (apical vowel) sau âm xuýt không có trong tiếng Việt, xấp xỉ gần nhất bằng nguyên âm 'ư' đọc ngắn không mở rộng khoang miệng."
+      },
+      {
+        "native": "mã53 tsi53",
+        "quoc_ngu": "máng chi (hoặc mãn chi)",
+        "note": "Tên tự gọi Mantsi: nguyên âm [ã] mũi hóa không có trực tiếp trong Quốc ngữ (dùng vần -ang/-an để gợi tính mũi), thanh giáng cao 53 không khớp hoàn toàn với thanh sắc (35) hay huyền (21) tiếng Việt."
+      },
+      {
+        "native": "mi21 kho33",
+        "quoc_ngu": "mì kho",
+        "note": "'khói' — thanh 21 khớp tốt với thanh huyền ('mì'), thanh 33 khớp tốt với thanh ngang ('kho')."
+      },
+      {
+        "native": "tʂu44 mɔ44",
+        "quoc_ngu": "tru mo",
+        "note": "'đường đi' — thanh 44 xấp xỉ bằng thanh ngang tiếng Việt ở cao độ hơi nhỉnh hơn mức trung bình."
+      },
+      {
+        "native": "du13 / ni13",
+        "quoc_ngu": "đủ / nỉ",
+        "note": "'to' / 'đỏ' — thanh thăng thấp 13 xấp xỉ bằng nửa sau thanh hỏi (214) của phương ngữ Nam Bộ hoặc thanh hỏi nhẹ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "mã53 tsi53",
+        "ipa": "mã˥˧ tsi˥˧",
+        "gloss_vi": "người Lô Lô (tự gọi)",
+        "gloss_en": "Mantsi / Lô Lô people"
+      },
+      {
+        "native": "lɔ44",
+        "ipa": "lɔ˦˦",
+        "gloss_vi": "tay",
+        "gloss_en": "hand"
+      },
+      {
+        "native": "lɔ44 pɔ53",
+        "ipa": "lɔ˦˦ pɔ˥˧",
+        "gloss_vi": "mặt trăng",
+        "gloss_en": "moon"
+      },
+      {
+        "native": "khe13",
+        "ipa": "kʰe˩˧",
+        "gloss_vi": "chân",
+        "gloss_en": "leg / foot"
+      },
+      {
+        "native": "tʂu44 mɔ44",
+        "ipa": "tʂu˦˦ mɔ˦˦",
+        "gloss_vi": "đường đi",
+        "gloss_en": "road / path"
+      },
+      {
+        "native": "lɔ13",
+        "ipa": "lɔ˩˧",
+        "gloss_vi": "đến",
+        "gloss_en": "to come"
+      },
+      {
+        "native": "boŋ53",
+        "ipa": "boŋ˥˧",
+        "gloss_vi": "bụng",
+        "gloss_en": "belly"
+      },
+      {
+        "native": "u53 ɣo21",
+        "ipa": "u˥˧ ɣo˨˩",
+        "gloss_vi": "xương",
+        "gloss_en": "bone"
+      },
+      {
+        "native": "mi21",
+        "ipa": "mi˨˩",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "mi21 kho33",
+        "ipa": "mi˨˩ kʰo˧˧",
+        "gloss_vi": "khói",
+        "gloss_en": "smoke"
+      },
+      {
+        "native": "nɔ44",
+        "ipa": "nɔ˦˦",
+        "gloss_vi": "đen",
+        "gloss_en": "black"
+      },
+      {
+        "native": "phiu13",
+        "ipa": "pʰiu˩˧",
+        "gloss_vi": "trắng",
+        "gloss_en": "white"
+      },
+      {
+        "native": "ni13",
+        "ipa": "ni˩˧",
+        "gloss_vi": "đỏ",
+        "gloss_en": "red"
+      },
+      {
+        "native": "xi13",
+        "ipa": "xi˩˧",
+        "gloss_vi": "vàng",
+        "gloss_en": "yellow"
+      },
+      {
+        "native": "du13",
+        "ipa": "du˩˧",
+        "gloss_vi": "to / lớn",
+        "gloss_en": "big"
+      },
+      {
+        "native": "ia53",
+        "ipa": "ia˥˧",
+        "gloss_vi": "nhỏ",
+        "gloss_en": "small"
+      }
+    ],
+    "tts_and_asr_notes": [
+      "Không được dùng dữ liệu huấn luyện hoặc bộ chuyển tự của tiếng Nuosu / Di Tứ Xuyên (ISO 639-3: iii) cho tiếng Lô Lô Việt Nam (ISO 639-3: nty) vì thuộc hai nhánh xa nhau của nhóm Lô Lô-Miến.",
+      "Đa số âm tiết tiếng Lô Lô (Mantsi/Mondzi) là âm tiết mở, nguyên âm mũi hóa hoặc kết thúc bằng [-ŋ], nên rất thuận lợi cho việc kéo dài nguyên âm khi tổng hợp giọng hát (singing voice synthesis), nhưng cần kiểm soát độ căng thanh hầu (tight/constricted phonation) và thanh giáng cao [53]."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Mantsi [mant1265]",
+      "url": "https://glottolog.org/resource/languoid/id/mant1265",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Mantsi language",
+      "url": "https://en.wikipedia.org/wiki/Mantsi_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lô Lô people",
+      "url": "https://en.wikipedia.org/wiki/L%C3%B4_L%C3%B4_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Lô Lô (số liệu Tổng điều tra dân số 2019 và phân bố văn hóa)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_L%C3%B4_L%C3%B4",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "ABVD (Austronesian & Tibeto-Burman Basic Vocabulary Database) — Wordlists: Mondzi (Lama 2012) & Mantsi (Jerold A. Edmondson)",
+      "url": "https://abvd.eva.mpg.de",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Lama, Ziwo Qiu-Fuyuan (2012). Subgrouping of Nisoic (Yi) Languages: A Study from the Perspectives of Shared Innovation and Phylogenetic Estimation. PhD dissertation, University of Texas at Arlington.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Iwasa, Kazue (2003). A Wordlist of the Ma Ndzi Language. In Hiroaki Kitano (ed.), Descriptive and Theoretical Studies in Minority Languages of East and Southeast Asia, ELPR Publications A3-016, Osaka: ELPR, pp. 69–76.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hsiu, Andrew (2014). Mondzish: A New Subgroup of Lolo-Burmese. Paper presented at the 14th International Symposium on Chinese Languages and Linguistics (IsCLL-14), Taipei: Academia Sinica.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. (2003). Three Tibeto-Burman Languages of Vietnam. Unpublished manuscript (and comparative vocabulary of Red Lô Lô / Mantsi in Yên Minh, Hà Giang).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyên Loan (1973). Vài nét về tiếng Lô Lô ở Hà Giang. Tạp chí Ngôn ngữ, số 4, tr. 24–33.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Vũ Quốc Khánh (2011). Người Lô Lô ở Việt Nam. Hà Nội: NXB Thông tấn.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology",
+          "severity": "high",
+          "problem": "Hệ thống âm vị học (40 phụ âm đầu, 24 nguyên âm, âm cuối duy nhất -ŋ, và 6 thanh điệu: 55, 44, 33, 53, 21, 13) thực chất là hệ thống âm vị của phương ngữ Mondzi (Lama 2012, nói tại Vân Nam, Trung Quốc), trong khi khảo sát thực địa của Edmondson trên tiếng Mantsi của người Lô Lô Đỏ tại Yên Minh (Hà Giang, Việt Nam) ghi nhận hệ thống 5 thanh điệu (/44/, /53/, /35/, /31/, /312/), có các phụ âm lưỡi con (/q/, /qʰ/) và tắc thanh hầu (/ʔ/), đồng thời các vần *-ŋ biến thành nguyên âm mũi hóa (ví dụ 'bụng' là bõ53 thay vì boŋ53). Việc đặt confidence='high' cho toàn bộ hệ thống Mondzi khi đại diện cho tiếng Lô Lô tại Việt Nam là chưa chính xác.",
+          "fix": "Làm rõ sự khác biệt giữa phương ngữ Mondzi (Lama 2012) và phương ngữ Mantsi Yên Minh - Hà Giang (Edmondson) trong status_note, phonology.register_or_phonation và validation.open_issues; bổ sung thông tin thanh điệu của Edmondson vào ghi chú và hạ confidence ở các mục đặc thù của Mondzi xuống 'medium'."
+        },
+        {
+          "path": "lexicon",
+          "severity": "medium",
+          "problem": "Toàn bộ 16 mục từ vựng cơ bản (trừ tự danh mã53 tsi53) được lấy từ bảng từ phương ngữ Mondzi (Lama 2012) chứ không phải bảng từ Mantsi tại Hà Giang (Edmondson). Ví dụ trong bảng từ Mantsi Hà Giang của Edmondson: 'chân' là khie312 (Mondzi: khe13), 'đường đi' là tʂɔ312 ʔi31 (Mondzi: tʂu44 mɔ44), 'bụng' là bõ53 (Mondzi: boŋ53), 'xương' là ɣua53 (Mondzi: u53 ɣo21), 'lửa' là mi53 (Mondzi: mi21). Ngoài ra, các thanh bằng 44 và 33 trong IPA chỉ được ký 1 chữ cái thanh điệu (˦, ˧) thay vì 2 chữ cái tương ứng với ký hiệu 44, 33.",
+          "fix": "Hạ confidence của các từ vựng trích từ phương ngữ Mondzi (Lama 2012) từ 'high' xuống 'medium', đồng thời bổ sung thêm một số từ vựng thực địa Mantsi tại Yên Minh (Hà Giang) từ tư liệu của Edmondson (ABVD) với confidence 'high'."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Cột grapheme của nhóm phụ âm tắc-xát không nhất quán: nhóm hữu thanh và tiền mũi hóa dùng chữ cái Latinh (ndzh, ndj, dzh, dj) nhưng nhóm vô thanh lại dùng thẳng ký hiệu IPA (tʂ, tʂh, tɕ, tɕh).",
+          "fix": "Ghi chú rõ trong status_note và hạ confidence của các mục chuyển tự không đồng nhất xuống 'medium'."
+        },
+        {
+          "path": "sources[7]",
+          "severity": "low",
+          "problem": "Thông tin xuất bản của Hsiu (2014) ghi 'Taipei: Academia Sinica, pp. 62–81', nhưng tài liệu gốc trong kỷ yếu IsCLL-14 (hoặc bản lưu trữ CRCL Bangkok / Zenodo) thường không khớp hoàn toàn với thông tin nhà xuất bản này.",
+          "fix": "Cập nhật lại thông tin thư mục của Hsiu (2014) cho chính xác."
+        }
+      ]
+    },
+    "open_issues": [
+      "Hệ thống âm vị 40 phụ âm đầu, 24 nguyên âm và 6 thanh điệu trong bảng hiện dựa vào phương ngữ Mondzi (Lama 2012 tại Vân Nam); trong khi đó phương ngữ Mantsi của người Lô Lô Đỏ tại Yên Minh (Hà Giang) do Edmondson khảo sát có 5 thanh điệu (/44/, /53/, /35/, /31/, /312/), có phụ âm lưỡi con (/q/, /qʰ/) và tắc thanh hầu (/ʔ/), và biến vần *-ŋ thành nguyên âm mũi hóa. Cần tách bạch hoặc bổ sung bảng đối chiếu chi tiết giữa Mantsi (Hà Giang), Ma Ndzi (Cao Bằng - Iwasa 2003) và Mondzi (Vân Nam - Lama 2012).",
+      "Cần thống nhất quy ước chuyển tự Latinh (grapheme) cho nhóm âm tắc-xát vô thanh (hiện đang dùng ký hiệu IPA tʂ, tʂh, tɕ, tɕh thay vì chữ cái Latinh).",
+      "Cần xác minh thực địa nhóm người Lô Lô tại huyện Mường Khương (Lào Cai) nói biến thể Mantsi [nty] hay một ngôn ngữ Lô Lô khác (như Nuosu [iii] hoặc Phù Lá).",
+      "Chưa có bản ký âm nhạc học chi tiết (thang âm chuẩn xác, nốt luyến láy ABC) cho các làn điệu dân ca giao duyên và bài cúng trống đồng Lô Lô."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,397 @@
+[
+ {
+  "id": "vie-north",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Bắc Bộ (chuẩn Hà Nội, làm mốc)",
+  "hint": "Mốc so sánh: cách đọc chuẩn Hà Nội; ghi cả các biến thể Bắc Bộ khác (l/n ở một số tỉnh, r/d/gi...)."
+ },
+ {
+  "id": "vie-north-central",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Bắc Trung Bộ (Thanh Hóa, Nghệ An, Hà Tĩnh)",
+  "hint": "Gồm giọng Nghệ Tĩnh và Thanh Hóa; hát ví, giặm Nghệ Tĩnh (UNESCO 2014)."
+ },
+ {
+  "id": "vie-central",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Trung Bộ (Quảng Bình, Quảng Trị, Huế)",
+  "hint": "Giọng Huế; ca Huế, hò mái nhì, hò mái đẩy."
+ },
+ {
+  "id": "vie-south-central",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Nam Trung Bộ (Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên)",
+  "hint": "Giọng Quảng (biến đổi nguyên âm a→o/ơ...), giọng Bình Định; bài chòi (UNESCO 2017)."
+ },
+ {
+  "id": "tay",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày",
+  "ethnic_group_vi": "Tày",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "thai",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thái",
+  "ethnic_group_vi": "Thái",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "muong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mường",
+  "ethnic_group_vi": "Mường",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "khmer",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Khmer",
+  "ethnic_group_vi": "Khmer",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "hoa",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hoa",
+  "ethnic_group_vi": "Hoa",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "nung",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Nùng",
+  "ethnic_group_vi": "Nùng",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "hmong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng H'Mông",
+  "ethnic_group_vi": "H'Mông",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "dao",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Dao",
+  "ethnic_group_vi": "Dao",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "gia-rai",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Gia Rai",
+  "ethnic_group_vi": "Gia Rai",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "e-de",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ê Đê",
+  "ethnic_group_vi": "Ê Đê",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ba-na",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ba Na",
+  "ethnic_group_vi": "Ba Na",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "san-chay",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Sán Chay",
+  "ethnic_group_vi": "Sán Chay",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "cham",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chăm",
+  "ethnic_group_vi": "Chăm",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "co-ho",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cơ Ho",
+  "ethnic_group_vi": "Cơ Ho",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "xo-dang",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xơ Đăng",
+  "ethnic_group_vi": "Xơ Đăng",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "san-diu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Sán Dìu",
+  "ethnic_group_vi": "Sán Dìu",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "hre",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hrê",
+  "ethnic_group_vi": "Hrê",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ra-glai",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ra Glai",
+  "ethnic_group_vi": "Ra Glai",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "mnong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mnông",
+  "ethnic_group_vi": "Mnông",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "tho",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thổ",
+  "ethnic_group_vi": "Thổ",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "stieng",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xtiêng",
+  "ethnic_group_vi": "Xtiêng",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "kho-mu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Khơ Mú",
+  "ethnic_group_vi": "Khơ Mú",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "bru-van-kieu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Bru - Vân Kiều",
+  "ethnic_group_vi": "Bru - Vân Kiều",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "co-tu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cơ Tu",
+  "ethnic_group_vi": "Cơ Tu",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "giay",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Giáy",
+  "ethnic_group_vi": "Giáy",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ta-oi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tà Ôi",
+  "ethnic_group_vi": "Tà Ôi",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ma",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mạ",
+  "ethnic_group_vi": "Mạ",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "gie-trieng",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Giẻ Triêng",
+  "ethnic_group_vi": "Giẻ Triêng",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "co",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Co",
+  "ethnic_group_vi": "Co",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "cho-ro",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chơ Ro",
+  "ethnic_group_vi": "Chơ Ro",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "xinh-mun",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xinh Mun",
+  "ethnic_group_vi": "Xinh Mun",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ha-nhi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hà Nhì",
+  "ethnic_group_vi": "Hà Nhì",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "chu-ru",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chu Ru",
+  "ethnic_group_vi": "Chu Ru",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "lao",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Lào",
+  "ethnic_group_vi": "Lào",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "la-chi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Chí",
+  "ethnic_group_vi": "La Chí",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "khang",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Kháng",
+  "ethnic_group_vi": "Kháng",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "phu-la",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Phù Lá",
+  "ethnic_group_vi": "Phù Lá",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "la-hu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Hủ",
+  "ethnic_group_vi": "La Hủ",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "la-ha",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Ha",
+  "ethnic_group_vi": "La Ha",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "pa-then",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pà Thẻn",
+  "ethnic_group_vi": "Pà Thẻn",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "lu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Lự",
+  "ethnic_group_vi": "Lự",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ngai",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ngái",
+  "ethnic_group_vi": "Ngái",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "chut",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chứt",
+  "ethnic_group_vi": "Chứt",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "lo-lo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Lô Lô",
+  "ethnic_group_vi": "Lô Lô",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "mang",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mảng",
+  "ethnic_group_vi": "Mảng",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "co-lao",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cờ Lao",
+  "ethnic_group_vi": "Cờ Lao",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "bo-y",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Bố Y",
+  "ethnic_group_vi": "Bố Y",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "cong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cống",
+  "ethnic_group_vi": "Cống",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "si-la",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Si La",
+  "ethnic_group_vi": "Si La",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "pu-peo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pu Péo",
+  "ethnic_group_vi": "Pu Péo",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "ro-mam",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Rơ Măm",
+  "ethnic_group_vi": "Rơ Măm",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "brau",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Brâu",
+  "ethnic_group_vi": "Brâu",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "o-du",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ơ Đu",
+  "ethnic_group_vi": "Ơ Đu",
+  "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ }
+]

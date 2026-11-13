@@ -1,0 +1,78 @@
+{
+  "target": {
+    "id": "khmer",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Khmer",
+    "ethnic_group_vi": "Khmer",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T21:45:41.178315",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9378,
+      "candidatesTokenCount": 10820,
+      "totalTokenCount": 20198,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9378
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10820
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12201,
+      "candidatesTokenCount": 10788,
+      "totalTokenCount": 24341,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12201
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10788
+        }
+      ],
+      "thoughtsTokenCount": 1352,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[0].glottocode",
+        "severity": "high",
+        "problem": "Mã Glottocode 'sout3184' là của nhóm ngôn ngữ Southwestern Tai (Thái Tây Nam), không phải của tiếng Khmer Nam Bộ (Southern Khmer / Khmer Krom).",
+        "fix": "Sửa thành mã Glottocode đúng của phương ngữ Southern Khmer trên Glottolog là 'sout2688' (nằm dưới Central Khmer 'cent1989')."
+      },
+      {
+        "path": "phonology.vowels[19]",
+        "severity": "low",
+        "problem": "Mục 'ះ (ăh / eăh)' chưa ghi chú các tổ hợp nguyên âm ghép với dấu visarga (ះ) rất phổ biến trong tiếng Khmer như ោះ (/ɑh/ ~ /uəh/), េះ (/eh/ ~ /ih/) và ុះ (/oh/ ~ /uh/).",
+        "fix": "Bổ sung ghi chú các tổ hợp ោះ, េះ, ុះ vào note của mục 'ះ' để bảng đối chiếu vần đầy đủ hơn."
+      },
+      {
+        "path": "sources[6].url_check",
+        "severity": "low",
+        "problem": "URL ở sources[6] và sources[7] chỉ trỏ tới trang chủ tên miền (vietnamtourism.gov.vn, pangloss.cnrs.fr) thay vì đường dẫn bài viết/kho ngữ liệu cụ thể.",
+        "fix": "Cập nhật thông tin đường dẫn kho ngữ liệu và ghi rõ trạng thái kiểm chứng URL."
+      }
+    ]
+  },
+  "schema_errors": []
+}

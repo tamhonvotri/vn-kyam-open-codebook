@@ -1,0 +1,93 @@
+id,slot,standard,variety,ipa_standard,ipa_variety,condition,example_standard,example_variety,prevalence,confidence
+vie-central,tone,ngã,hỏi,˧ˀ˥,˧˩˨,Tiếng Huế đô thị,mãi,mải,categorical,high
+vie-central,tone,ngã,nặng,˧ˀ˥,˧˩ˀ,"Phổ biến ở Quảng Bình, Quảng Trị và vùng ven",mỡ,mợ,local,high
+vie-central,tone,hỏi,nặng,˧˩˧,˧˩ˀ,"Một số thổ ngữ Quảng Bình, Quảng Trị",cửa,cựa,local,medium
+vie-central,onset,d / gi,d [j],z,j,,gió,dó [jɔ˨˦],categorical,high
+vie-central,onset,tr,tr,c,ʈ,Giữ đối lập quặt lưỡi so với giọng Hà Nội vốn nhập tr/ch,trời [cəːj˨˩],trời [ʈəːj˦˨],common,high
+vie-central,onset,s,s,s,ʂ,Giữ đối lập quặt lưỡi so với giọng Hà Nội vốn nhập s/x,sông [səwŋ͡m˧˧],sông [ʂəwŋ͡m˧˥],common,high
+vie-central,onset,r,r,z,ʐ,Giữ âm quặt lưỡi so với giọng Hà Nội [z],răng [zaŋ˧˧],răng [ʐaŋ˧˥],common,high
+vie-central,rhyme,an,ang,aːn,aːŋ,Tiếng Huế và Nam Quảng Trị,nhàn,nhàng,common,high
+vie-central,rhyme,at,ac,aːt,aːk,Tiếng Huế và Nam Quảng Trị,hát,hác,common,high
+vie-central,rhyme,anh,ăn,ajŋ,an,Tiếng Huế,xanh,xăn,common,high
+vie-central,rhyme,ach,ăt,ajk,at,Tiếng Huế,khách,khắt,common,high
+vie-central,rhyme,inh,ưn,iŋ,ɨn,Tiếng Huế,tình,từn,common,high
+vie-central,rhyme,ich,ưt,ik,ɨt,Tiếng Huế,thích,thứt,common,high
+vie-central,rhyme,ên / ênh,ơn / ân,en / ejŋ,ən,Tiếng Huế,bến / bệnh,bấn / bận,common,medium
+vie-central,rhyme,iên,iêng,iən,iəŋ,Tiếng Huế,tiền,tiềng,common,high
+vie-central,rhyme,iêt,iêc,iət,iək,Tiếng Huế,biết,biếc,common,high
+vie-central,rhyme,ươn,ương,ɨən,ɨəŋ,Tiếng Huế,vườn / mượn,vường / mượng,common,high
+vie-central,rhyme,uôn,uông,uən,uəŋ,Tiếng Huế,buồn,buồng,common,high
+vie-central,rhyme,ưng,ơng,ɨŋ,əːŋ,Phổ biến ở Quảng Bình và một số từ ở Bình Trị Thiên,mừng,mờng,local,high
+vie-north-central,tone,ngã,nặng,˧ˀ˥,˨˩,Phổ biến ở Nghệ An và Hà Tĩnh (trừ các âm tiết khép vốn không mang thanh ngã),cũng / sữa / cũ,cụng / sựa / cụ,common,high
+vie-north-central,tone,ngã,hỏi,˧ˀ˥,˨˩˦,Phổ biến ở Thanh Hóa và một số điểm chuyển tiếp,mãi / xã,mải / xả,common,high
+vie-north-central,tone,hỏi,nặng,˧˩˧,˨˩,"Một số thổ ngữ Nghệ Tĩnh (như vùng ven Vinh, Nghi Lộc, Nghi Xuân, Hà Tĩnh)",cổ / hả / hỏi,cộ / hạ / họi,variable,medium
+vie-north-central,onset,tr,tr (phân biệt với ch),c (Hà Nội),ʈ,Giữ âm quặt lưỡi đối lập với ch [c],trâu [cəw],trâu / tru [ʈəw ~ ʈu],common,high
+vie-north-central,onset,s,s (phân biệt với x),s (Hà Nội),ʂ,Giữ âm xát quặt lưỡi đối lập với x [s],sông [səwŋ͡m],sông [ʂoːŋ],common,high
+vie-north-central,onset,r,r (phân biệt với d/gi),z (Hà Nội),ʐ ~ ɾ,"Giữ âm quặt lưỡi/rung đối lập với d, gi [z]",ra [zaː],ra [ʐaː ~ ɾaː],common,high
+vie-north-central,onset,gi,tr,z,ʈ,Bảo lưu từ tổ hợp phụ âm tiền Việt-Mường *bl/*tl trong một số từ vựng cơ bản,giữa / giầu (trầu),trữa / trầu,local,high
+vie-north-central,rhyme,ước,ác,ɨək,aːk,Từ vựng cổ ở Nghệ Tĩnh,nước,nác,local,high
+vie-north-central,rhyme,uôt / uôc / uông,ot / oc / ong,uət / uək / uəŋ,ɔt / ɔk / ɔŋ,Một lớp từ thuần Việt phổ biến ở thổ ngữ Nghệ Tĩnh,ruột / chuột / ruộng,rọt / chọt / rọng,local,high
+vie-north-central,rhyme,âu,u,əw,u,Một số từ thuần Việt trong thổ ngữ Nghệ Tĩnh,trâu / sâu / dâu,tru / su / du,local,high
+vie-north-central,rhyme,ân,ưn,ən,ɨn,Một số từ thông dụng ở cả Thanh Hóa và Nghệ Tĩnh,chân / gần,chưn / gưn,variable,high
+vie-north-central,rhyme,anh / ach,eng / ec,ajŋ / ajk,ɛːŋ / ɛːk,Thổ ngữ nông thôn Nghệ Tĩnh (bảo lưu nguyên âm dài cổ),anh / chạnh / khách,eng / chẹng / khéc,local,medium
+vie-north-central,word,chơi,nhởi,cəːj˧˧,ɲəːj˧˩,Từ vựng – ngữ âm phổ biến ở Nghệ Tĩnh,đi chơi,đi nhởi,common,high
+vie-north-central,word,quả / trái,trấy,kwaː˧˩˧ / cɐːj˧˥,ʈəj˧˥,Danh từ chỉ loại quả cây ở Nghệ Tĩnh và Thanh Hóa,quả xoài,trấy xoài,common,high
+vie-north,onset,tr,ch,ʈ,tɕ,Khẩu ngữ chuẩn Hà Nội và phần lớn Bắc Bộ (so với chính tả Quốc ngữ phân biệt tr/ch),trời,chời,categorical,high
+vie-north,onset,s,x,ʂ,s,Khẩu ngữ chuẩn Hà Nội và phần lớn Bắc Bộ (so với chính tả Quốc ngữ phân biệt s/x),sông,xông,categorical,high
+vie-north,onset,r,d / gi,ɾ ~ r,z,"Khẩu ngữ chuẩn Hà Nội nhập r vào d/gi [z]; riêng một số tỉnh duyên hải (Nam Định, Thái Bình, Hải Phòng) hoặc ca sĩ hát thính phòng vẫn giữ [ɾ ~ r]",ra,da / gia,common,high
+vie-north,onset,d / gi,d / gi,z,z,Nhập hoàn toàn d và gi thành âm xát chân răng hữu thanh [z],gia đình,da đình,categorical,high
+vie-north,rhyme,ưu,iu,ɨw,iw,"Khẩu ngữ Hà Nội và Bắc Bộ phổ biến (đặc biệt sau phụ âm môi, thanh hầu, xát)",lưu / mưu / hưu,liu / miu / hiu,common,high
+vie-north,rhyme,ươu,iêu,ɨəw,iəw,Khẩu ngữ Hà Nội và Bắc Bộ phổ biến,rượu / hươu,riệu / hiêu,common,high
+vie-north,onset,l,n,l,n,"Biến thể địa phương Bắc Bộ ngoài nội thành Hà Nội (phổ biến ở Hưng Yên, Hải Dương, Hải Phòng, Bắc Ninh, Thái Bình, Nam Định, Quảng Ninh...); không thuộc chuẩn Hà Nội",làm,nàm,local,high
+vie-north,onset,n,l,n,l,Biến thể địa phương Bắc Bộ ngoài nội thành Hà Nội (hoán đổi hoặc sửa sai quá mức song hành với l→n ở đồng bằng sông Hồng); không thuộc chuẩn Hà Nội,nóng nực,lóng lực,local,high
+vie-north,word,trời,giời,ʈəːj˨˩ ~ tɕəːj˨˩,zəːj˨˩,Biến thể từ vựng – ngữ âm lịch sử bảo lưu từ tổ hợp *bl-/tl- tiếng Việt trung đại trong khẩu ngữ Bắc Bộ,ông trời,ông giời,variable,high
+vie-north,word,trai,giai,ʈaːj˧˧ ~ tɕaːj˧˧,zaːj˧˧,Biến thể khẩu ngữ truyền thống Bắc Bộ / Hà Nội,con trai,con giai,variable,high
+vie-north,word,lời,nhời,ləːj˨˩,ɲəːj˨˩,"Biến thể khẩu ngữ truyền thống Bắc Bộ (hiện chủ yếu gặp ở người lớn tuổi hoặc ca dao, chèo, quan họ)",nói lời,nói nhời,local,high
+vie-south-central,tone,ngã,hỏi,35 (nghẽn thanh hầu),214,,cũ kỹ,củ kỉ,categorical,high
+vie-south-central,onset,v,d,v,j,Khẩu ngữ hàng ngày,vui vẻ,dui dẻ,common,high
+vie-south-central,onset,qu,w / gu,kw,w ~ ɣw,Khẩu ngữ tự nhiên,quê quán,wê wán / guê goán,common,medium
+vie-south-central,nucleus,a,oa / o,aː,ɑː,"Âm tiết mở trong cụm xứ Quảng (Quảng Nam, Đà Nẵng, bắc Quảng Ngãi)",ba má,boa móa,local,high
+vie-south-central,rhyme,ao,ô,aːw,oː,"Cụm xứ Quảng (Quảng Nam, Đà Nẵng, Quảng Ngãi)",chiêm bao,chim bô,local,high
+vie-south-central,rhyme,am,ôm,aːm,oːm,"Cụm xứ Quảng (Quảng Nam, Đà Nẵng, Quảng Ngãi)",Tam Kỳ,Tôm Kỳ,local,high
+vie-south-central,rhyme,ap,ôp,aːp,oːp,"Cụm xứ Quảng (Quảng Nam, Đà Nẵng, Quảng Ngãi)",xe đạp,xe độp,local,high
+vie-south-central,rhyme,âu,ao,əw,aːw,Cụm xứ Quảng (dịch chuyển chuỗi kéo vào vị trí của ao sau khi ao → ô),đi đâu,đi đao,local,high
+vie-south-central,rhyme,ây,ai,əj,aːj,Cụm xứ Quảng và một số thổ ngữ Nam Trung Bộ,mấy cây,mái cai,local,high
+vie-south-central,rhyme,ăn / ăng,eng,an / aŋ,ɛŋ ~ æŋ,"Cụm xứ Quảng (Quảng Nam, Quảng Ngãi)",ăn măng,eng meng,local,high
+vie-south-central,rhyme,ăt / ăc,ec,at / ak,ɛk ~ æk,"Cụm xứ Quảng (Quảng Nam, Quảng Ngãi)",thắc mắc,théc méc,local,high
+vie-south-central,rhyme,ai,ưa / ơ,aːj,ɨə ~ əː,"Thổ ngữ Quảng Nam, Quảng Ngãi (ai → ưa) và một số thổ ngữ Bình Định (ai → ơ)",thứ hai,thứ hưa / thứ hơ,local,medium
+vie-south-central,rhyme,ay,a,aj,aː ~ æː,"Thổ ngữ Quảng Nam, Quảng Ngãi, Bình Định (rụng bán nguyên âm cuối -j)",ngày nay,ngà na,local,medium
+vie-south-central,rhyme,au,a,aw,aː,"Thổ ngữ Quảng Ngãi, Quảng Nam (rụng bán nguyên âm cuối -w)",tàu cau,tà ca,local,medium
+vie-south-central,rhyme,oi,ua,ɔj,uə,Thổ ngữ Quảng Ngãi và nam Quảng Nam,coi bói,cua búa,local,medium
+vie-south-central,rhyme,ôi,âu,oj,əw,"Đặc trưng cụm xứ Nẫu (Bình Định, Phú Yên) và nam Quảng Ngãi",biết rồi,biết rầu,local,high
+vie-south-central,rhyme,an,ang / oang,aːn,aːŋ ~ ɑːŋ,Toàn vùng nhập -n vào -ng; riêng xứ Quảng nguyên âm chính lùi sau thành [ɑːŋ],hội an,hội ang / hội oang,common,high
+vie-south-central,rhyme,at,ac / oac,aːt,aːk ~ ɑːk,Toàn vùng nhập -t vào -c; riêng xứ Quảng nguyên âm chính lùi sau thành [ɑːk],ca hát,ca hác / coa hoác,common,high
+vie-south-central,rhyme,anh,ăn,ajŋ,an,,nhanh,nhăn,common,high
+vie-south-central,rhyme,ach,ăt,ajk,at,,khách,khắt,common,high
+vie-south-central,rhyme,inh,ưn,iŋ,ɨn,,Bình Định,Bừn Đựn,common,high
+vie-south-central,rhyme,ich,ưt,ik,ɨt,,lịch,lựt,common,high
+vie-south-central,rhyme,iêu,iu,iəw,iw,,buổi chiều,bủi chìu,common,high
+vie-south-central,rhyme,uôi,ui,uəj,uj,,trái chuối,trái chúi,common,high
+vie-south-central,rhyme,ươi,ưi,ɨəj,ɨj,,tươi cười,tưi cừi,common,medium
+vie-south,tone,ngã,hỏi,˧˥ (gãy),˨˩˦,,cũ,củ,categorical,high
+vie-south,onset,v,d,v,j,,về,dề,common,high
+vie-south,onset,qu,w,kw,w,,quê,wê,common,high
+vie-south,onset,tr,ch,ʈ,c,,trăng,chăng,variable,medium
+vie-south,onset,s,x,ʂ,s,,sông,xông,variable,medium
+vie-south,rhyme,an,ang,aːn,aːŋ,,bàn,bàng,common,high
+vie-south,rhyme,at,ac,aːt,aːk,,mát,mác,common,high
+vie-south,rhyme,anh,ăn,ajŋ,an,,xanh,xăn,common,high
+vie-south,rhyme,ach,ăt,ajk,at,,sách,sắt,common,high
+vie-south,rhyme,inh,ưn,iŋ,ɨn,,tình,từn,common,high
+vie-south,rhyme,in,ưn,in,ɨn,,tin,tưn,common,medium
+vie-south,rhyme,ich,ưt,ik,ɨt,,thích,thứt,common,high
+vie-south,rhyme,ên,ơn,en,əːn,,lên,lơn,common,medium
+vie-south,rhyme,ênh,ơn,ejŋ,əːn,,bệnh,bợn,common,medium
+vie-south,rhyme,un,ung,un,uŋ͡m,,bún,búng,common,medium
+vie-south,rhyme,ut,uc,ut,uk͡p,,bút,búc,common,medium
+vie-south,rhyme,iên,iêng,iən,iəŋ,,tiền,tiềng,common,medium
+vie-south,rhyme,iêt,iêc,iət,iək,,biết,biếc,common,medium
+vie-south,rhyme,uôn,uông,uən,uəŋ,,buồn,buồng,common,medium
+vie-south,rhyme,ươn,ương,ɨən,ɨəŋ,,vườn,vường,common,medium
+vie-south,rhyme,ươi,ưi,ɨəj,ɨj,,người,ngừi,variable,medium
+vie-south,rhyme,ưu,iu,ɨw,iw,,cứu,cíu,common,medium
+vie-south,rhyme,ươu,iu,ɨəw,iw,,rượu,rịu,common,medium

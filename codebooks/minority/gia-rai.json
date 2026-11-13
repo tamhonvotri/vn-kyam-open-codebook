@@ -1,0 +1,879 @@
+{
+  "id": "gia-rai",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Gia Rai",
+  "name_en": "Jarai language",
+  "autonym": "Tơlơi Jrai",
+  "ethnic_group_vi": "Gia Rai",
+  "language": {
+    "iso639_3": "jra",
+    "glottocode": "jara1266",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian (Chamic, Highlands)"
+  },
+  "regions": [
+    "Gia Lai",
+    "Kon Tum (phía nam)",
+    "Đắk Lắk (phía bắc)",
+    "Phú Yên (phía tây)",
+    "Ratanakiri (Campuchia)"
+  ],
+  "speakers_estimate": "Khoảng 513.930 người dân tộc Gia Rai tại Việt Nam (Tổng điều tra dân số 2019); tổng cộng khoảng 530.000 người nói tính cả Campuchia và hải ngoại.",
+  "scripts": [
+    {
+      "name": "Chữ Jrai Latinh (cải biên dựa trên chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended-A; Latin Extended-B; Latin Extended Additional; Combining Diacritical Marks",
+      "official_in_vietnam": true,
+      "note": "Hình thành từ thập niên 1920 thời Pháp thuộc và được chuẩn hóa qua các tài liệu giáo dục, từ điển tại Việt Nam (như Chương trình giáo dục phổ thông môn Tiếng Jrai theo Thông tư 34/2020/TT-BGDĐT). Sử dụng các chữ cái đặc trưng ƀ (U+0180), đ (U+0111), č (U+010D, trong tài liệu giáo dục ở Việt Nam đôi khi viết là ch), ñ (U+00F1, đôi khi viết là nh), dj, và dấu trăng khuyết (breve, U+0306) để ghi nguyên âm ngắn hoặc âm tắc thanh hầu cuối từ (như ê̆, ô̆, ơ̆, ư̆)."
+    },
+    {
+      "name": "Chữ Khmer cải biên (dùng cho tiếng Gia Rai tại Campuchia)",
+      "iso15924": "Khmr",
+      "unicode_block": "Khmer",
+      "official_in_vietnam": false,
+      "note": "Được sử dụng trong giáo dục song ngữ cho cộng đồng người Gia Rai tại tỉnh Ratanakiri, Campuchia; không dùng tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp tự động từ các nguồn ngôn ngữ học học thuật (Jensen 2013/2014; Brunelle et al. 2024; Lafont 1968) và tài liệu chương trình môn Tiếng Jrai của Bộ Giáo dục và Đào tạo Việt Nam. Chưa qua thẩm định của người bản xứ và chuyên gia ngữ âm học thực địa.",
+  "phonology": {
+    "syllable_structure": "(C)(V)-C(C)V(V)(C) — cấu trúc từ song tiết / bán âm tiết (sesquisyllabic) trọng âm rơi vào âm tiết chính cuối cùng; âm tiết phụ đầu thường mang nguyên âm trung hòa /ə/ (viết là ơ) hoặc lược bỏ nguyên âm tạo tổ hợp phụ âm đầu (như các cụm h + phụ âm vang hm-, hn-, hñ-, hng-, hl-, hr-, hw-, hy- biểu thị âm vang tiền thanh hầu/xát hóa hoặc rút gọn tiền âm tiết, ví dụ hrơi 'ngày', hmua 'rẫy'). Phụ âm thứ hai trong cụm C(C) của âm tiết chính thường là /l/, /ɾ/, /w/, /j/.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "č (hoặc ch)",
+        "ipa": "tʃ ~ c",
+        "note": "Tắc xát hoặc tắc mặt lưỡi-ngạc vô thanh; viết là č trong chính tả truyền thống/quốc tế và thường viết là ch trong sách giáo khoa tại Việt Nam",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi ở đầu từ trước nguyên âm)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu từ hoặc giữa hai nguyên âm (ví dụ mơak /məʔak/ 'vui')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (KHÔNG đọc là âm xát môi-răng [f] như chữ ph tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (KHÔNG đọc là âm xát [x] như tiếng Việt Bắc Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ p̤",
+        "note": "Tắc hai môi hữu thanh thường (hoặc vô thanh hóa kèm âm vực thấp/hơi thở theo Brunelle et al. 2024); phân biệt rõ với âm hút vào ƀ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d ~ t̤",
+        "note": "Tắc chân răng hữu thanh thường (KHÔNG đọc là [z] hay [j] như chữ d tiếng Việt); phân biệt với đ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "dʒ ~ ɟ",
+        "note": "Tắc xát hoặc tắc mặt lưỡi-ngạc hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ ~ k̤",
+        "note": "Tắc ngạc mềm hữu thanh (KHÔNG đọc là âm xát [ɣ] như chữ g tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ƀ",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hút vào (implosive), tương đương âm 'b' trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hút vào (implosive), tương đương âm 'đ' trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dj",
+        "ipa": "ʄ ~ ʔdʒ",
+        "note": "Tắc mặt lưỡi-ngạc hút vào hoặc tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (như chữ x tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi; trong một số từ có biến thể tiền thanh hầu hóa /ˀm/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ (hoặc nh)",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng; viết là ñ hoặc nh tùy quy ước tài liệu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɾ ~ r",
+        "note": "Âm vỗ hoặc rung đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng (luôn là bán nguyên âm ở vị trí phụ âm đầu, như d/gi Nam Bộ)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm /i/ ngắn (khi đứng trước phụ âm cuối); nếu đứng cuối từ thì biểu thị /iʔ/ hoặc /iːʔ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm hàng trước hơi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê̆",
+        "ipa": "e",
+        "note": "Nguyên âm /e/ ngắn (hoặc /eʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm hàng trước hơi rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ",
+        "note": "Nguyên âm /ɛ/ ngắn (hoặc /ɛʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯː ~ ɨː",
+        "note": "Nguyên âm hàng sau/giữa không tròn môi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư̆",
+        "ipa": "ɯ ~ ɨ",
+        "note": "Nguyên âm /ɯ/ ngắn (hoặc /ɯʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ɨ ~ ə",
+        "note": "Xuất hiện chủ yếu trong vần nguyên âm đôi âo /əw ~ ɨw/ hoặc nguyên âm khép giữa tùy phương ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm hàng giữa độ mở trung bình, dài; ở âm tiết phụ đầu từ đọc là /ə/ ngắn không nhấn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ̆",
+        "ipa": "ə",
+        "note": "Nguyên âm /ə/ ngắn trong âm tiết chính (hoặc /əʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm hàng giữa độ mở rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm /a/ ngắn khi có phụ âm cuối (ví dụ prăk /pɾak/); khi đứng cuối từ biểu thị âm tắc thanh hầu cuối /aʔ/ hoặc /aːʔ/ (ví dụ mă /maʔ/, pă /paːʔ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm hàng sau tròn môi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm /u/ ngắn (hoặc /uʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô̆",
+        "ipa": "o",
+        "note": "Nguyên âm /o/ ngắn (hoặc /oʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm /ɔ/ ngắn (hoặc /ɔʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "ia",
+        "note": "Nguyên âm đôi mở hướng trung tâm/rộng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "ua",
+        "note": "Nguyên âm đôi; đọc rõ hai thành tố [u-a], không đồng nhất hoàn toàn với vần ua [uə] tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai / ăi / aĭ",
+        "ipa": "aːj / aj / ajʔ",
+        "note": "Vần nguyên âm + bán nguyên âm cuối /j/ (dấu trăng khuyết trên i biểu thị thêm /ʔ/ cuối: glaĭ /glajʔ/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ao / âo",
+        "ipa": "aːw / əw",
+        "note": "Vần kết thúc bằng bán nguyên âm /w/ (ví dụ kâo /kəw ~ kaw/ 'tôi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơi",
+        "ipa": "əj",
+        "note": "Vần /əj/ rất phổ biến (ví dụ tơlơi /təˈləj/, brơi /bɾəj/)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng (không bật hơi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "č (hoặc ch)",
+        "ipa": "c̚ ~ tʃ",
+        "note": "Tắc mặt lưỡi-ngạc đóng cuối âm tiết (tần suất thấp, xuất hiện trong một số từ gốc Môn-Khmer, từ tượng thanh hoặc biến thể phương ngữ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dấu trăng khuyết (˘) trên nguyên âm cuối từ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ mă /maʔ/, tŭ /tuʔ/, djơ̆ /ʄəʔ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết, bật hơi thở rõ ở cuối từ (ví dụ abih /aˈbiːh/, laih /laih/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ (hoặc nh)",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng cuối âm tiết (tần suất thấp, gặp trong từ láy/tượng thanh hoặc từ vay mượn, ví dụ grĭ grañ 'rất bẩn' theo Jensen 2013)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết (sau ô/o không ngậm môi mạnh thành [ŋ͡m] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm cạnh lưỡi cuối âm tiết (không có trong tiếng Việt chuẩn, ví dụ ƀhŭl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɾ ~ r",
+        "note": "Âm vỗ/rung cuối âm tiết (không có trong tiếng Việt chuẩn, ví dụ mơđơr /məˈɗəɾ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y (sau nguyên âm)",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối; kết hợp được với -h thành -ih /-jh/ (ví dụ laih /lajh/, rơbuih /ɾəˈbuih/) hoặc -ʔ thành -ĭ /-jʔ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / u (sau nguyên âm)",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối /w/",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (non-tonal). Có đối lập độ dài nguyên âm (ngắn/dài) và đang trong quá trình chuyển dịch thanh tính thành âm vực (registrogenesis): nghiên cứu thực nghiệm ngữ âm học (Brunelle et al. 2024) trên phương ngữ Ea Súp (Việt Nam) và Saom Kaning (Campuchia) cho thấy loạt phụ âm tắc hữu thanh thường (*b, *d, *j, *g) tạo ra âm vực thấp (low register) trên nguyên âm theo sau — đặc trưng chủ yếu bởi F1 thấp hơn ở đầu nguyên âm (nguyên âm khép hơn hoặc lướt đôi hóa như /a/ -> [ɛa]), kèm theo chất giọng hơi thở nhẹ và cao độ thấp hơn, trong khi độ hữu thanh của phụ âm đầu trở thành đặc trưng thứ yếu/tùy chọn."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi / mình",
+      "form": "kâo",
+      "ipa": "kəw",
+      "gloss_en": "I / me (1sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / anh / chị (ngôi thứ hai)",
+      "form": "ih",
+      "ipa": "ʔiːh",
+      "gloss_en": "you (2sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / anh ấy / cô ấy",
+      "form": "ñu",
+      "ipa": "ɲuː",
+      "gloss_en": "he / she / it (3sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "amĭ",
+      "ipa": "ʔaˈmiʔ",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "ama",
+      "ipa": "ʔaˈmaː",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người / con người",
+      "form": "mơnuih",
+      "ipa": "məˈnuih",
+      "gloss_en": "person / human being",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ia",
+      "ipa": "ʔia",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "pui",
+      "ipa": "pui",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gió",
+      "form": "angin",
+      "ipa": "ʔaˈŋiːn",
+      "gloss_en": "wind",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "sang",
+      "ipa": "saːŋ",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng / buôn",
+      "form": "plơi",
+      "ipa": "pləj",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lời nói / tiếng / điều",
+      "form": "tơlơi",
+      "ipa": "təˈləj",
+      "gloss_en": "word / language / matter",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "nao",
+      "ipa": "naːw",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "ƀơ̆ng",
+      "ipa": "ɓəŋ",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "yêu / thương",
+      "form": "khăp",
+      "ipa": "kʰap",
+      "gloss_en": "to love",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cảm ơn",
+      "form": "bơni",
+      "ipa": "bəˈniː",
+      "gloss_en": "thank you",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Không gian văn hóa Cồng chiêng Tây Nguyên (Ching / Cồng chiêng Jrai)",
+        "note": "UNESCO ghi danh Kiệt tác truyền khẩu và phi vật thể của nhân loại (2005) và Di sản văn hóa phi vật thể đại diện của nhân loại (2008). Tiêu biểu ở người Gia Rai có dàn chiêng Aráp và chiêng Tơr với biên chế bè trầm – bè giai điệu phức điệu."
+      },
+      {
+        "name": "Hơri / Khan (Hát kể sử thi, trường ca)",
+        "note": "Hình thức hát kể truyền thống các sử thi anh hùng (như Đăm Di, Xinh Nhã...) kéo dài nhiều đêm bên bếp lửa nhà rông hoặc nhà sàn, kết hợp lối ngâm vần giàu tính tự sự."
+      },
+      {
+        "name": "Adôh (Dân ca trữ tình, sinh hoạt)",
+        "note": "Gồm hát giao duyên nam nữ, hát ru con, hát lao động trên nương rẫy, lời ca thường ứng tác tự nhiên theo vần điệu song tiết của tiếng Gia Rai."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến vuốt và ngân rung tự do trong Hơri / Adôh",
+        "description": "Giai điệu dân ca Jrai không bị ràng buộc bởi thanh điệu từ vựng (do tiếng Gia Rai không có thanh điệu), cho phép người hát ngân dài âm tiết chính cuối từ và vuốt cao độ theo cảm xúc, trong khi giữ rõ trường độ ngắn/ngắt ở các tiền âm tiết và âm tiết đóng có tắc thanh hầu (-˘).",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm cồng chiêng Tây Nguyên (dựa trên bồi âm tự nhiên)",
+        "note": "Thường cấu tạo từ 3 đến 5 hoặc 6 âm cơ bản không bình quân, kết hợp âm phụ đa âm của hợp kim đồng tạo màu sắc hòa âm đặc trưng; khó quy chuẩn trực tiếp vào thang 12 bán âm phương Tây nếu không đo cao độ từng bộ chiêng.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cồng chiêng (Ching Jrai — bộ chiêng Aráp, chiêng Tơr)"
+      },
+      {
+        "name": "Đàn T'rưng (nhạc cụ gõ bằng ống nứa/tre)"
+      },
+      {
+        "name": "Đàn Ting ning / Tưng nưng (Goong — đàn ống tre có dây gảy)"
+      },
+      {
+        "name": "Đàn K'ni (Kơni — đàn kéo 1 dây truyền âm qua dây ngậm vào miệng người chơi làm hộp cộng hưởng)"
+      },
+      {
+        "name": "Đinh pút (Klông pút — nhạc cụ hơi vỗ tay trước miệng ống nứa, thường do nữ giới diễn tấu)"
+      },
+      {
+        "name": "Trống (Hơgơr — trống thân gỗ đục rỗng bịt da trâu/bò)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "phonological_warnings_for_vietnamese_models": [
+      "Tiếng Gia Rai KHÔNG có thanh điệu nhưng phân biệt độ dài nguyên âm và có trọng âm từ rơi vào âm tiết chính cuối cùng. Khi đưa vào TTS/SVS tiếng Việt, tránh thêm dấu sắc/hỏi/ngã tùy tiện làm méo đường nét giai điệu.",
+      "Cặp chữ b vs ƀ và d vs đ: chữ 'ƀ' và 'đ' mới tương đương 'b' [ɓ] và 'đ' [ɗ] của tiếng Việt; chữ 'b' [b] và 'd' [d] là âm tắc hữu thanh thường (TUYỆT ĐỐI không đọc 'd' thành [z]/[j] như Quốc ngữ).",
+      "Chữ 'ph' là [pʰ] (p bật hơi), KHÔNG đọc thành [f]; chữ 'kh' là [kʰ] (k bật hơi), KHÔNG đọc thành [x]; chữ 'g' là [ɡ] (tắc), KHÔNG xát hóa thành [ɣ].",
+      "Các phụ âm cuối -h, -l, -r và âm tắc thanh hầu cuối từ (ghi bằng dấu ˘ trên nguyên âm cuối) không tồn tại trong hệ thống vần chữ Quốc ngữ tiếng Việt chuẩn."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Tơlơi Jrai",
+        "quoc_ngu": "tơ-lơi chơ-rai (hoặc dơ-rai)",
+        "note": "Tiền âm tiết 'tơ-' đọc lướt nhẹ; 'Jr-' /dʒɾ-/ không có trong tiếng Việt, chỉ xấp xỉ tạm bằng 'giơ-rai' hoặc 'chơ-rai'."
+      },
+      {
+        "native": "kâo",
+        "quoc_ngu": "câu",
+        "note": "Đại từ 'tôi' /kəw/, gần với vần 'âu' tiếng Việt."
+      },
+      {
+        "native": "ih",
+        "quoc_ngu": "i-hờ (ngắt hơi thở ra ở cuối)",
+        "note": "Âm cuối -h /h/ bật hơi thở cuối âm tiết, tiếng Việt không có phụ âm cuối -h."
+      },
+      {
+        "native": "amĭ ama",
+        "quoc_ngu": "a-mị a-ma",
+        "note": "'amĭ' /ʔaˈmiʔ/ có âm tắc thanh hầu cuối /-ʔ/ (do dấu ˘ ở cuối từ), dùng dấu nặng 'mị' tiếng Việt Bắc Bộ để mô phỏng gần đúng độ ngắt thanh môn."
+      },
+      {
+        "native": "mơnuih",
+        "quoc_ngu": "mơ-nui (thêm hơi thở -h cuối)",
+        "note": "'mơ-' đọc lướt nhẹ; vần '-uih' /uih/ có âm xát thanh hầu cuối không có trong Quốc ngữ."
+      },
+      {
+        "native": "khăp",
+        "quoc_ngu": "khắp (đọc kh bật hơi k+h)",
+        "note": "Phụ âm đầu /kʰ/ là âm tắc bật hơi chứ không phải âm xát [x]; nguyên âm ngắn /a/ đi với /-p/ khớp gần đúng với 'ắp' nhưng không mang thanh sắc cao nếu hát ở nốt trầm."
+      },
+      {
+        "native": "ƀơ̆ng",
+        "quoc_ngu": "bâng",
+        "note": "ƀ là /ɓ/ giống hệt 'b' tiếng Việt; ơ̆ng /əŋ/ là nguyên âm /ə/ ngắn + /ŋ/, gần với 'âng'."
+      },
+      {
+        "native": "bơni",
+        "quoc_ngu": "bơ-ni",
+        "note": "Chữ 'b' /b/ là tắc hai môi thường (không hút vào như ƀ), âm vực hơi trầm."
+      },
+      {
+        "native": "plơi",
+        "quoc_ngu": "pờ-lơi (đọc liền cụm pl-)",
+        "note": "Cụm phụ âm đầu /pl-/ không có trong tiếng Việt hiện đại; tránh tách thành hai âm tiết rời rạc nếu mô hình cho phép nối âm."
+      },
+      {
+        "native": "phă / pha",
+        "quoc_ngu": "p-ha (tắc hai môi bật hơi, KHÔNG đọc là 'pha' [fa])",
+        "note": "Chữ Quốc ngữ đọc 'ph' là [f], sẽ làm sai hoàn toàn âm /pʰ/ của tiếng Gia Rai."
+      },
+      {
+        "native": "djơ̆",
+        "quoc_ngu": "dơ / giơ (ngắt thanh hầu cuối)",
+        "note": "Âm đầu 'dj' /ʄ/ (tắc ngạc hút vào) không có trong tiếng Việt."
+      },
+      {
+        "native": "mơđơr",
+        "quoc_ngu": "mơ-đơ (rung/vỗ lưỡi -r ở cuối)",
+        "note": "Âm cuối /-ɾ/ không có trong tiếng Việt chuẩn."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Jrai Pleiku (Pleikly)",
+        "iso639_3": "jra",
+        "region": "Khu vực Pleiku, Gia Lai",
+        "note": "Phương ngữ trung tâm phổ biến trong nhiều từ điển và tài liệu giáo dục tại tỉnh Gia Lai."
+      },
+      {
+        "name": "Jrai Cheo Reo (Chor)",
+        "iso639_3": "jra",
+        "region": "Vùng Ayun Pa, Krông Pa (thung lũng Cheo Reo / Phú Bổn cũ), Gia Lai",
+        "note": "Phương ngữ có uy tín văn hóa truyền thống lớn, dùng trong nhiều bản dịch và văn bản in ấn."
+      },
+      {
+        "name": "Jrai Aráp",
+        "iso639_3": "jra",
+        "region": "Tây bắc Pleiku (Chư Păh, Ia Grai) và tây nam Kon Tum",
+        "note": "Có tiếp xúc văn hóa – ngôn ngữ lâu đời với người Ba Na."
+      },
+      {
+        "name": "Jrai Hđrung (Hơdrung / Hơbâu)",
+        "iso639_3": "jra",
+        "region": "Đông bắc Pleiku và đông nam Kon Tum",
+        "note": "Phương ngữ nội bộ của tiếng Gia Rai (jra)."
+      },
+      {
+        "name": "Jrai Tơbuân (Tbuan)",
+        "iso639_3": "jra",
+        "region": "Phía tây Pleiku (Đức Cơ, Chư Prông), Gia Lai",
+        "note": "Phương ngữ nội bộ của tiếng Gia Rai (jra)."
+      },
+      {
+        "name": "Jrai Mthur (M'dhur)",
+        "iso639_3": "jra",
+        "region": "Đông nam Gia Lai, nam Phú Yên và bắc Đắk Lắk",
+        "note": "Nhóm giao thoa giữa người Gia Rai và người Ê Đê."
+      },
+      {
+        "name": "Tiếng H'rôi (Haroi / Hroi)",
+        "iso639_3": "hro",
+        "glottocode": "haro1237",
+        "region": "Tây Phú Yên và nam Bình Định",
+        "note": "Về mặt hành chính dân tộc học tại Việt Nam đôi khi được xếp liên quan đến nhóm Gia Rai / Chăm H'rôi, nhưng ngôn ngữ học quốc tế (ISO 639-3: hro) phân loại là một ngôn ngữ Chamic riêng biệt có hệ thống nguyên âm chuyển dịch do âm vực rất đặc thù."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "sa",
+        "ipa": "saː",
+        "vi": "một (1)"
+      },
+      {
+        "native": "dua",
+        "ipa": "dua",
+        "vi": "hai (2)"
+      },
+      {
+        "native": "klâo",
+        "ipa": "kləw",
+        "vi": "ba (3)"
+      },
+      {
+        "native": "pă",
+        "ipa": "paːʔ",
+        "vi": "bốn (4)"
+      },
+      {
+        "native": "rơma",
+        "ipa": "ɾəˈmaː",
+        "vi": "năm (5)"
+      },
+      {
+        "native": "ia",
+        "ipa": "ʔia",
+        "vi": "nước"
+      },
+      {
+        "native": "pui",
+        "ipa": "pui",
+        "vi": "lửa"
+      },
+      {
+        "native": "angin",
+        "ipa": "ʔaˈŋiːn",
+        "vi": "gió"
+      },
+      {
+        "native": "sang",
+        "ipa": "saːŋ",
+        "vi": "nhà"
+      },
+      {
+        "native": "plơi",
+        "ipa": "pləj",
+        "vi": "làng / buôn"
+      },
+      {
+        "native": "amĭ",
+        "ipa": "ʔaˈmiʔ",
+        "vi": "mẹ"
+      },
+      {
+        "native": "ama",
+        "ipa": "ʔaˈmaː",
+        "vi": "cha"
+      },
+      {
+        "native": "mơnuih",
+        "ipa": "məˈnuih",
+        "vi": "con người"
+      },
+      {
+        "native": "prăk",
+        "ipa": "pɾak",
+        "vi": "tiền / bạc"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Jensen, Joshua M. (2013). The Structure of Jarai Clauses and Noun Phrases. PhD Dissertation, University of Texas at Arlington (xuất bản thành sách năm 2014 bởi De Gruyter Mouton).",
+      "url": "https://rc.library.uta.edu/uta-ir/handle/10106/24707",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Brunelle, Marc, Ke Leb, Tạ Thành Tấn & Đinh Lư Giang (2024). Voicing or register in Jarai dialects? Implications for the reconstruction of Proto-Chamic and for registrogenesis. Journal of the International Phonetic Association, 54(2), 635–676.",
+      "url": "https://doi.org/10.1017/S0025100324000021",
+      "url_check": "http_429",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Jarai (jara1266)",
+      "url": "https://glottolog.org/resource/languoid/id/jara1266",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Jarai language",
+      "url": "https://en.wikipedia.org/wiki/Jarai_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bộ Giáo dục và Đào tạo Việt Nam (2020). Thông tư số 34/2020/TT-BGDĐT ngày 15/9/2020 ban hành Chương trình giáo dục phổ thông môn học Tiếng Bahnar, Tiếng Chăm, Tiếng Êđê, Tiếng Jrai, Tiếng Khmer, Tiếng Mông, Tiếng Mnông, Tiếng Thái.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tổng cục Thống kê (2019). Kết quả toàn bộ Tổng điều tra dân số và nhà ở thời điểm 0 giờ ngày 01 tháng 4 năm 2019.",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đào Huy Quyền (1998). Nhạc khí dân tộc Jrai và Bahnar. NXB Trẻ, TP. Hồ Chí Minh.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Space of gong culture (00120)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.codas[10].note",
+          "severity": "medium",
+          "problem": "Lỗi ký tự lạ (chữ cái tiếng Do Thái 'בו' trong từ 'rơבוih') do lỗi mã hóa văn bản khi sinh ví dụ từ vựng.",
+          "fix": "Sửa 'rơבוih' thành 'rơbuih' (/ɾəˈbuih/ 'bọt')."
+        },
+        {
+          "path": "phonology.codas",
+          "severity": "low",
+          "problem": "Danh sách phụ âm cuối thiếu âm tắc mặt lưỡi -č (-ch) /c̚/ và âm mũi mặt lưỡi -ñ (-nh) /ɲ/ (tần suất thấp hơn nhưng có xuất hiện trong các từ láy, từ tượng thanh và một số mục từ trong Lafont 1968, Dournes 1976, Jensen 2013 như 'grĭ grañ').",
+          "fix": "Bổ sung codas 'č (hoặc ch)' và 'ñ (hoặc nh)' với độ tin cậy 'medium' và ghi chú rõ phạm vi xuất hiện."
+        },
+        {
+          "path": "phonology.syllable_structure",
+          "severity": "low",
+          "problem": "Mô tả cấu trúc âm tiết chưa nêu rõ các tổ hợp phụ âm đầu bắt đầu bằng h- trước phụ âm vang (hm-, hn-, hñ-, hng-, hl-, hr-, hw-, hy-) rất phổ biến trong chính tả và âm vị học tiếng Gia Rai (như hrơi 'ngày', hmua 'rẫy').",
+          "fix": "Bổ sung giải thích về chuỗi h + phụ âm vang (tiền xát thanh hầu / vô thanh hóa âm vang hoặc rút gọn tiền âm tiết hơ-) vào syllable_structure."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check đang để null cho các URL đã kiểm chứng hoạt động.",
+          "fix": "Cập nhật url_check thành 'ok' cho các URL học thuật và cơ quan nhà nước đã xác thực qua tìm kiếm."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu quy ước viết con chữ č/ch và ñ/nh giữa sách giáo khoa Tiếng Jrai hiện hành tại Gia Lai (theo Thông tư 34/2020/TT-BGDĐT) với chính tả truyền thống EFEO/SIL để tách bộ quy tắc chuẩn hóa văn bản đầu vào cho mô hình.",
+      "Cần người bản xứ các vùng Pleiku, Cheo Reo (Ayun Pa/Krông Pa) và Chư Păh (Aráp) kiểm tra biến thể phát âm của nguyên âm â (trong âo) và mức độ vô thanh hóa/âm vực trên dãy phụ âm b, d, j, g.",
+      "Cần nhà âm nhạc học dân tộc thẩm định cách ký âm thang bồi âm của dàn chiêng Aráp và chiêng Tơr trước khi mã hóa ABC."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

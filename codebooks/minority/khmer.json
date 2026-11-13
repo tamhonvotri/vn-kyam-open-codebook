@@ -1,0 +1,756 @@
+{
+  "id": "khmer",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Khmer",
+  "name_en": "Khmer (Southern Khmer / Khmer Krom)",
+  "autonym": "ភាសាខ្មែរ (Phiasa Khmae) / ខ្មែរក្រោម (Khmae Kraom)",
+  "ethnic_group_vi": "Khmer",
+  "language": {
+    "iso639_3": "khm",
+    "glottocode": "cent1989",
+    "family": "Austroasiatic",
+    "branch": "Khmeric"
+  },
+  "regions": [
+    "Sóc Trăng",
+    "Trà Vinh",
+    "Kiên Giang",
+    "An Giang",
+    "Bạc Liêu",
+    "Cần Thơ",
+    "Hậu Giang",
+    "Vĩnh Long",
+    "Cà Mau",
+    "Tây Ninh",
+    "Bình Phước",
+    "TP. Hồ Chí Minh"
+  ],
+  "speakers_estimate": "Dân số người Khmer tại Việt Nam là 1.319.652 người theo Tổng điều tra dân số và nhà ở năm 2019 (chủ yếu nói phương ngữ Khmer Nam Bộ / Khmer Krom).",
+  "scripts": [
+    {
+      "name": "Chữ Khmer (អក្សរខ្មែរ — Aksar Khmae)",
+      "iso15924": "Khmr",
+      "unicode_block": "Khmer (U+1780..U+17FF), Khmer Symbols (U+19E0..U+19FF)",
+      "official_in_vietnam": true,
+      "note": "Hệ chữ abugida nguồn gốc Pallava – Brahmi (viết trái sang phải, không tách khoảng trắng giữa các từ đơn, có phụ âm gửi chân chồng tầng ◌្ để ghi cụm phụ âm đầu). Được Nhà nước Việt Nam công nhận và giảng dạy chính thức trong trường phổ thông, trường dân tộc nội trú và các chùa Phật giáo Nam tông Khmer theo Nghị định 82/2010/NĐ-CP (sửa đổi, bổ sung bởi Nghị định 96/2025/NĐ-CP ngày 29/4/2025). Có hai kiểu chữ phổ biến: chữ xiên/đứng thường dùng (Aksar Chrieng / Aksar Chhor) và chữ tròn dùng cho kinh điển, tiêu đề (Aksar Mul)."
+    },
+    {
+      "name": "Chữ Khmer khắc trên kinh lá buông (សាស្ត្រាស្លឹករឹត — Sastra Slaek Rith)",
+      "iso15924": "Khmr",
+      "unicode_block": "Khmer (U+1780..U+17FF)",
+      "official_in_vietnam": false,
+      "note": "Chữ Khmer truyền thống (thường là kiểu chữ Aksar Mul) khắc trên lá cây buông để chép kinh Phật Pali và truyện cổ dân gian Khmer tại An Giang và vùng Bảy Núi; được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2017."
+    },
+    {
+      "name": "Chuyển tự Latinh (UNGEGN / BGN-PCGN / phiên âm thực hành Việt ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Khmer tại Việt Nam KHÔNG có bộ chữ Latinh chính thức do Nhà nước ban hành (khác với nhiều ngôn ngữ thiểu số chưa có chữ cổ truyền). Chữ Latinh chỉ dùng làm ký âm hỗ trợ trong từ điển, tài liệu học tập, biển hiệu hoặc nhắn tin không dấu."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngữ âm học tiếng Khmer tiêu chuẩn (Central Khmer) kết hợp các ghi nhận phương ngữ học về tiếng Khmer Nam Bộ (Khmer Krom). Do người Khmer ở Việt Nam sử dụng chính thức chữ Khmer truyền thống (không dùng hệ chữ Latinh chuẩn hóa), cột grapheme liệt kê chữ Khmer kèm chuyển tự Latinh UNGEGN để tra cứu. Các biến thể ngữ âm nội bộ giữa Sóc Trăng, Trà Vinh, An Giang và Kiên Giang cần được thẩm định thực địa với người bản xứ.",
+  "phonology": {
+    "syllable_structure": "Từ đơn tiết CC(C)V(C) hoặc bán song tiết / một âm tiết rưỡi (sesquisyllabic: Cə.CCV(C), âm tiết phụ phía trước không mang trọng âm).",
+    "onsets": [
+      {
+        "grapheme": "ក / គ (k)",
+        "ipa": "k",
+        "note": "ក thuộc giọng 1 (dòng A, nguyên âm mặc định /ɑː/); គ thuộc giọng 2 (dòng O, nguyên âm mặc định /ɔː/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ខ / ឃ (kh)",
+        "ipa": "kʰ",
+        "note": "ខ (dòng A), ឃ (dòng O); khi đứng đầu cụm phụ âm trước phụ âm vang hoặc tắc khác thường giảm bật hơi thành [k]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ង (ng)",
+        "ipa": "ŋ",
+        "note": "Phụ âm dòng O; dùng dấu ៉ (ង៉) khi chuyển sang dòng A",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ច / ជ (ch)",
+        "ipa": "c",
+        "note": "Âm tắc mặt lưỡi vô thanh (không bật hơi), vị trí cấu âm tương đương 'ch' tiếng Việt; ច (dòng A), ជ (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ឆ / ឈ (chh)",
+        "ipa": "cʰ",
+        "note": "Âm tắc mặt lưỡi vô thanh bật hơi (không có âm tương đương trong tiếng Việt chuẩn); ឆ (dòng A), ឈ (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ញ (nh)",
+        "ipa": "ɲ",
+        "note": "Phụ âm mũi mặt lưỡi (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ដ / ឌ (d)",
+        "ipa": "ɗ",
+        "note": "Âm tắc hút vào đầu lưỡi hữu thanh (giống 'đ' tiếng Việt); ដ (dòng A), ឌ (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ត / ទ (t)",
+        "ipa": "t",
+        "note": "ត (dòng A, nhưng chuyển thành [ɗ] ở một số cụm phụ âm hoặc vị trí tiền âm tiết), ទ (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ឋ / ថ / ឍ / ធ (th)",
+        "ipa": "tʰ",
+        "note": "ឋ, ថ (dòng A); ឍ, ធ (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ណ / ន (n)",
+        "ipa": "n",
+        "note": "ណ (dòng A), ន (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ប (b)",
+        "ipa": "ɓ",
+        "note": "Âm tắc hút vào hai môi hữu thanh (dòng A); đọc là [p] khi mang dấu ៉ (ប៉) hoặc trong nhiều cụm phụ âm đầu và từ vay mượn Pali/Sanskrit",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ប៉ / ព (p)",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi; ប៉ (dòng A), ព (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ផ / ភ (ph)",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi (khác với âm xát môi-răng [f] của chữ 'ph' tiếng Việt); ផ (dòng A), ភ (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ម (m)",
+        "ipa": "m",
+        "note": "Dòng O; dùng ម៉ cho dòng A",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "យ (y)",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "រ (r)",
+        "ipa": "r",
+        "note": "Âm rung/vỗ đầu lưỡi (dòng O). Khác với giọng Phnom Penh hiện đại thường đổi /r/ sang âm lưỡi gà đi kèm thanh điệu thấp, phương ngữ Khmer Nam Bộ (Khmer Krom) bảo lưu rất rõ phụ âm /r/ (ví dụ: ត្រី [trəj])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ល / ឡ (l)",
+        "ipa": "l",
+        "note": "ឡ (dòng A, không có dạng gửi chân), ល (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "វ (v)",
+        "ipa": "ʋ ~ w",
+        "note": "Âm tiếp cận môi-răng hoặc môi-môi (dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ស (s)",
+        "ipa": "s",
+        "note": "Dòng A; trước một số phụ âm gửi chân có thể nhược hóa thành [h]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ហ (h)",
+        "ipa": "h",
+        "note": "Dòng A; dùng ហ៊ cho dòng O; tổ hợp ហ្វ dùng ghi âm [f] trong từ vay mượn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "អ (ʼ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu mở đầu âm tiết (dòng A; អ៊ cho dòng O)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "Cụm phụ âm đầu gửi chân (◌្): ប្រ (pr), ត្រ (tr), ក្រ (kr), ស្រ (sr), ភ្ល (phl), ខ្ល (khl), ខ្ញ (khnh), ផ្ទ (pht), ស្ដ (sd), ថ្ម (thm)...",
+        "ipa": "pr, tr, kr, sr, pʰl, kʰl, kʰɲ ~ kɲ, pʰt, sɗ, tʰm",
+        "note": "Tiếng Khmer có khoảng 85 cụm 2 phụ âm đầu và một vài cụm 3 phụ âm (/str/, /skr/); giữa hai phụ âm tắc/mũi thường có nguyên âm đệm cực ngắn [ə̆]",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "(nguyên âm mặc định không dấu phụ — â / ô)",
+        "ipa": "ɑː / ɔː",
+        "note": "Đọc /ɑː/ sau phụ âm dòng 1 (A), đọc /ɔː/ sau phụ âm dòng 2 (O); đọc ngắn [ɑ] / [ɔ] hoặc [ʊ] tùy phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ា (a / éa)",
+        "ipa": "aː / iə",
+        "note": "Dòng A: /aː/ (ngắn /a/ khi có dấu ់); Dòng O: /iə/ (trước phụ âm ngạc mềm biến đổi thành /ĕə/). Ở phương ngữ Khmer An Giang/Nam Bộ, một số nguyên âm đôi có xu hướng đơn giản hóa tùy từ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ិ (ĕ / ĭ)",
+        "ipa": "e ~ ə / i ~ ɨ",
+        "note": "Dòng A: /e/ hoặc /ə/; Dòng O: /i/ hoặc /ɨ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ី (ei / i)",
+        "ipa": "əj / iː",
+        "note": "Dòng A: /əj/; Dòng O: /iː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ឹ (ŏe / œ̆)",
+        "ipa": "ə / ɨ",
+        "note": "Dòng A: /ə/; Dòng O: /ɨ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ឺ (eu / œ)",
+        "ipa": "əː / ɨː",
+        "note": "Dòng A: /əː/; Dòng O: /ɨː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ុ (ŏ / ŭ)",
+        "ipa": "o / u",
+        "note": "Dòng A: /o/; Dòng O: /u/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ូ (o / u)",
+        "ipa": "oː ~ ou / uː",
+        "note": "Dòng A: /oː/ (hoặc /ou/); Dòng O: /uː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ួ (uŏ)",
+        "ipa": "uə",
+        "note": "Phát âm /uə/ như nhau cho cả hai dòng A và O",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ើ (aeu / eu)",
+        "ipa": "aə / əː",
+        "note": "Dòng A: /aə/; Dòng O: /əː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ឿ (eua)",
+        "ipa": "ɨə",
+        "note": "Phát âm /ɨə/ cho cả hai dòng A và O (tương đương 'ưa/ươ' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ៀ (iĕ)",
+        "ipa": "iə",
+        "note": "Phát âm /iə/ cho cả hai dòng A và O (tương đương 'ia/iê' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "េ (é)",
+        "ipa": "ei / eː",
+        "note": "Dòng A: /ei/; Dòng O: /eː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ែ (ê)",
+        "ipa": "ae / ɛː",
+        "note": "Dòng A: /ae/ (nguyên âm đôi hoặc mở rộng trước); Dòng O: /ɛː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ៃ (ai / ey)",
+        "ipa": "aj / ɨj",
+        "note": "Dòng A: /aj/; Dòng O: /ɨj/ ~ /əj/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ោ (aô / o)",
+        "ipa": "ao / oː",
+        "note": "Dòng A: /ao/; Dòng O: /oː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ៅ (au / ŏu)",
+        "ipa": "aw / ɨw",
+        "note": "Dòng A: /aw/; Dòng O: /ɨw/ ~ /əw/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ំ (âm / ŭm)",
+        "ipa": "ɑm / um",
+        "note": "Vần kết thúc bằng âm mũi /-m/: Dòng A /ɑm/, Dòng O /um/ (hoặc /əm/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ាំ (ăm / oăm)",
+        "ipa": "am / ŏəm",
+        "note": "Dòng A: /am/; Dòng O: /ŏəm/ ~ /oəm/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ះ (ăh / eăh)",
+        "ipa": "ah / ĕəh",
+        "note": "Vần kết thúc bằng âm xát thanh hầu /-h/: Dòng A /ah/, Dòng O /ĕəh/. Khi ghép với các dấu nguyên âm khác tạo thành ោះ (/ɑh/ dòng A, /uəh/ dòng O), េះ (/eh/ dòng A, /ih/ dòng O), ុះ (/oh/ dòng A, /uh/ dòng O).",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-ប / -ផ / -ព / -ភ (-p)",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ដ / -ត / -ទ / -ថ / -ធ (-t)",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ច / -ជ (-ch)",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi vô thanh không bật ra (như '-ch' sau nguyên âm trước ở phương ngữ Bắc Bộ nhưng xuất hiện sau nhiều nguyên âm hơn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ក / -ខ / -គ / -ឃ (-k)",
+        "ipa": "k̚ ~ ʔ",
+        "note": "Sau /ɑː, aː, iə, ɨə, uə, ɑ, a, ĕə, ŭə/ thường hiện thực hóa thành âm tắc thanh hầu [ʔ]; sau các nguyên âm khác giữ là [k̚]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ម (-m)",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ណ / -ន (-n)",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ញ (-nh)",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ង (-ng)",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ល / -ឡ (-l)",
+        "ipa": "l",
+        "note": "Âm bên đầu lưỡi cuối âm tiết (tiếng Việt không có phụ âm cuối /-l/, dễ bị đọc chệch sang /-n/ hoặc /-w/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ស / -ះ (-s / -h)",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu cuối âm tiết (chữ ស ở cuối âm tiết đọc là [-h], không đọc là [-s]); tiếng Việt chuẩn không có /-h/ cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-យ (-y)",
+        "ipa": "j",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-វ (-v)",
+        "ipa": "w",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-រ (-r)",
+        "ipa": "∅",
+        "note": "Chữ រ ở vị trí cuối âm tiết là âm câm trong tiếng Khmer Trung tâm và Khmer Nam Bộ (chỉ còn phát âm ở tiếng Bắc Khmer / Surin tại Thái Lan)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ KHÔNG có thanh điệu từ vựng (non-tonal). Trong lịch sử, sự đối lập hữu thanh/vô thanh ở phụ âm đầu tiếng Khmer trung đại đã chuyển hóa qua giai đoạn đối lập hai âm vực chất giọng (thanh sáng/căng so với thanh trầm/hà hơi — registrogenesis theo Henderson 1952) thành hai loạt nguyên âm phong phú (dòng 1 / giọng A và dòng 2 / giọng O) trong tiếng Khmer hiện đại. Phương ngữ Khmer Nam Bộ (Khmer Krom) nhìn chung bảo lưu phụ âm /r/ và tốc độ nhả chữ rõ ràng hơn khẩu âm Phnom Penh đương đại (nơi cụm C+r đang trải qua quá trình nảy sinh thanh điệu sơ khởi), nhưng chịu ảnh hưởng ngữ điệu tiếp xúc song ngữ với phương ngữ Nam Bộ tiếng Việt."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "ngôi chùa Phật giáo Nam tông",
+      "form": "វត្ត (voat)",
+      "ipa": "ʋɔət",
+      "gloss_en": "Theravada Buddhist pagoda / monastery",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thôn, xóm nhỏ (cụm dân cư thân tộc)",
+      "form": "ភូមិ (phum)",
+      "ipa": "pʰuːm",
+      "gloss_en": "hamlet, village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng, xứ sở (đơn vị cư trú truyền thống lớn hơn phum)",
+      "form": "ស្រុក (srok / sóc)",
+      "ipa": "srok",
+      "gloss_en": "district, homeland, traditional village unit",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắm bò hóc (mắm cá truyền thống)",
+      "form": "ប្រហុក (prâhok / bồ hóc)",
+      "ipa": "prɑ.ˈhok",
+      "gloss_en": "fermented salted fish paste",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ghe Ngo (thuyền đua lễ hội Ok Om Bok)",
+      "form": "ទូកង (tuk ngô)",
+      "ipa": "tuːk ŋɔː",
+      "gloss_en": "traditional racing dugout canoe",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cốm dẹp",
+      "form": "អំបុក (âmbok)",
+      "ipa": "ʔɑm.ˈɓok",
+      "gloss_en": "flattened toasted young sticky rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "Tết cổ truyền người Khmer (tháng 4 dương lịch)",
+      "form": "បុណ្យចូលឆ្នាំថ្មី (Chôl Chnăm Thmây)",
+      "ipa": "ɓon coːl cʰnam tʰməj",
+      "gloss_en": "Khmer New Year festival",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Nhạc ngũ âm (ភ្លេងពិណពាទ្យ — Plêng Pinn Peat)",
+        "note": "Dàn nhạc hòa tấu nghi lễ Phật giáo Nam tông và lễ hội cộng đồng Khmer Nam Bộ, gồm 5 bộ chất liệu âm thanh (đồng, sắt, mộc, hơi, da); Di sản văn hóa phi vật thể quốc gia tại Sóc Trăng (2019)."
+      },
+      {
+        "name": "Nghệ thuật sân khấu Dù kê (ល្ខោនបាសាក់ — Lakhon Bassac)",
+        "note": "Kịch hát dân gian hình thành đầu thế kỷ XX tại vùng Đồng bằng sông Cửu Long (Sóc Trăng, Trà Vinh), kết hợp ca, múa, nhạc ngũ âm, nhạc cụ dây và tiếp biến văn hóa vùng sông nước Hậu Giang; Di sản văn hóa phi vật thể quốc gia (2014)."
+      },
+      {
+        "name": "Nghệ thuật sân khấu Rô băm (របាំ — Robam / Lakhon Khol bản địa hóa)",
+        "note": "Kịch múa cổ điển đeo mặt nạ gắn với sử thi Reamker và dàn nhạc ngũ âm tại Sóc Trăng, Trà Vinh; Di sản văn hóa phi vật thể quốc gia (2017)."
+      },
+      {
+        "name": "Hát Aday (ចម្រៀងអាយ៉ៃ — Chamrieng Ayai / Àday)",
+        "note": "Hát đối đáp ứng tác nam nữ hài hước, trữ tình kèm múa tay (chip, khuôn, rồn, chòn-ol) trong phum sóc tại Hậu Giang / Cần Thơ; Di sản văn hóa phi vật thể quốc gia (2021)."
+      },
+      {
+        "name": "Chầm riêng Chà pây (ចម្រៀងចាប៉ីដងវែង — Chamrieng Chapei Dang Veng)",
+        "note": "Nghệ thuật độc tấu đàn Chà pây cổ dài vừa đàn vừa hát kể chuyện dân gian, răn dạy đạo lý; Di sản văn hóa phi vật thể quốc gia tại Trà Vinh (2013) và được UNESCO ghi danh Danh sách cần bảo vệ khẩn cấp tại Campuchia (2016)."
+      },
+      {
+        "name": "Múa Rom Vong (រាំវង់), Lâm Lêu, Saravan và múa trống Chhay-dăm (ឆៃយ៉ាំ)",
+        "note": "Các điệu múa – hát vòng tròn cộng đồng phổ biến trong lễ Chôl Chnăm Thmây, Sene Dolta, Ok Om Bok."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Lối hát kể – ngâm ứng tác (Chầm riêng Chà pây & Aday)",
+        "description": "Người hát luyến láy tự do ở cuối câu thơ, kéo dài nguyên âm mở hoặc bán nguyên âm trước khi vào nhịp đàn lặp lại; do tiếng Khmer không có thanh điệu từ vựng, đường nét giai điệu tự do đi lên/xuống mà không làm sai nghĩa từ như tiếng Việt.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Bè tòng biến tấu (heterophony trong dàn nhạc Pinn Peat)",
+        "description": "Các nhạc cụ gõ giai điệu (Rôneat Ek, Kuông Vông) chơi cùng một trục giai điệu nhưng điểm xuyết nốt hoa mỹ nhanh gấp đôi hoặc lấp phách xen kẽ nhau.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống thang 7 bậc cách đều xấp xỉ dùng theo các điệu thức ngũ cung (pentatonic)",
+        "note": "Dàn nhạc Pinn Peat định âm trên hệ 7 bậc trong một quãng tám (gần với thang đẳng độ 7 âm Đông Nam Á lục địa), khi diễn tấu trích xuất thành các thang 5 âm (ngũ âm không bán âm) tạo màu sắc trang nghiêm hoặc rộn ràng; không trùng khít cao độ 12-TET phương Tây.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Rôneat Ek & Rôneat Thung (រនាតឯក, រនាតធុង — đàn thuyền phím tre/gỗ bộ mộc)"
+      },
+      {
+        "name": "Rôneat Đek (រនាតដែក — đàn phím sắt)"
+      },
+      {
+        "name": "Kuông Vông Tôch & Kuông Vông Thum (គងវង់តូច, គងវង់ធំ — dàn cồng vòng bộ đồng)"
+      },
+      {
+        "name": "Srolai Pinn Peat (ស្រឡៃពិណពាទ្យ — kèn dăm kép bộ hơi)"
+      },
+      {
+        "name": "Trống Samphô, Skô Thum & trống Chhay-dăm (សំភោរ, ស្គរធំ, ស្គរឆៃយ៉ាំ — bộ da)"
+      },
+      {
+        "name": "Chhưng (ឈិង — chũm chọe nhỏ giữ nhịp)"
+      },
+      {
+        "name": "Đàn Chà pây (ចាប៉ីដងវែង — đàn luýt 2 dây cần dài) & đàn Khưm (ឃឹម), đàn Tro (ទ្រ — đàn nhị Khmer)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Khmer Nam Bộ / Khmer Krom (Southern Khmer)",
+        "iso639_3": "khm",
+        "glottocode": "sout2688",
+        "note": "Biến thể chính tại Đồng bằng sông Cửu Long và Đông Nam Bộ Việt Nam (gồm các tiểu vùng Sóc Trăng, Trà Vinh, An Giang – Bảy Núi, Rạch Giá – Kiên Giang). Thuộc mã ngôn ngữ khm (Central Khmer, cent1989)."
+      },
+      {
+        "name": "Tiếng Khmer chuẩn / Trung tâm (Standard / Central Khmer)",
+        "iso639_3": "khm",
+        "glottocode": "cent1989",
+        "note": "Ngôn ngữ quốc gia của Campuchia; thông hiểu lẫn nhau cao với Khmer Nam Bộ và chia sẻ cùng hệ chữ viết chuẩn."
+      },
+      {
+        "name": "Tiếng Bắc Khmer / Khmer Surin (Northern Khmer)",
+        "iso639_3": "kxm",
+        "glottocode": "nort2684",
+        "note": "Phân bố tại vùng Đông Bắc Thái Lan (Surin, Buriram, Sisaket); được cấp mã ISO 639-3 riêng (kxm), giữ âm cuối /-r/ và có hệ nguyên âm khác biệt (không phân bố bản địa ở Việt Nam)."
+      }
+    ],
+    "tts_and_singing_notes": [
+      "Tiếng Khmer KHÔNG có thanh điệu: khi xấp xỉ bằng chữ Quốc ngữ cho mô hình TTS/giọng hát tiếng Việt, ưu tiên dùng thanh ngang (không dấu) cho âm tiết mở/vang và thanh sắc cho âm tiết đóng kết thúc bằng -p, -t, -ch, -c (vì tiếng Việt bắt buộc thanh sắc/nặng với âm tắc cuối, trong đó thanh sắc không gây thanh hầu hóa gắt như thanh nặng giọng Bắc).",
+      "Chữ Khmer không viết khoảng trắng giữa các từ đơn (khoảng trắng ឃ្លា dùng như dấu phẩy ngắt vế câu): bắt buộc chạy bộ tách từ tiếng Khmer (Khmer word segmentation, ví dụ khmer-nltk hoặc ICU dictionary break iterator) trước khi chuyển tự G2P hoặc đưa vào tokenizer.",
+      "Cụm phụ âm đầu (như ភ្ល /pʰl/, ខ្ញ /kɲ/, ផ្ទ /pʰt/, ស្រ /sr/) phải tách thành tiền âm tiết cực ngắn (cờ-nhum, pờ-lơng, pờ-tẹ-h) nếu mô hình chỉ biết âm tiết học tiếng Việt."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ជម្រាបសួរ (chumriep suor)",
+        "quoc_ngu": "chum riếp xua",
+        "note": "Lời chào trang trọng (/cum.ˈriəp suə/); âm /c/ tương đương 'ch', âm cuối /-r/ trong សួរ câm."
+      },
+      {
+        "native": "សួស្ដី (suosdei)",
+        "quoc_ngu": "xua xờ-đây",
+        "note": "Lời chào thân mật (/suə.ˈsɗəj/); cụm /sɗ-/ không có trong tiếng Việt, phải tách bằng âm đệm ngắn 'xờ-đây'."
+      },
+      {
+        "native": "អរគុណ (arkun)",
+        "quoc_ngu": "o cun",
+        "note": "Cảm ơn (/ʔɑː ˈkun/); nguyên âm /ɑː/ nằm giữa 'o' và 'a' tiếng Việt."
+      },
+      {
+        "native": "ខ្ញុំ (khnhom)",
+        "quoc_ngu": "khờ-nhum",
+        "note": "Tôi (/kɲom/ ~ [kʰɲom], khẩu ngữ rút gọn thành [ɲom] 'nhum'); tiếng Việt không có cụm đầu /kɲ-/."
+      },
+      {
+        "native": "ទឹក (tuek)",
+        "quoc_ngu": "tức",
+        "note": "Nước (/tɨk/); nguyên âm /ɨ/ trùng với 'ư' tiếng Việt nhưng dùng vần 'ức' để giữ [k̚] không bị môi hóa thành [k͡p] như 'uc'."
+      },
+      {
+        "native": "ភ្លើង (phleung)",
+        "quoc_ngu": "pờ-lơng",
+        "note": "Lửa (/pʰləːŋ/); tiếng Việt không có âm tắc hai môi bật hơi /pʰ/ (chữ 'ph' Việt đọc là [f]) và không có cụm /pʰl-/."
+      },
+      {
+        "native": "ផ្ទះ (phteah)",
+        "quoc_ngu": "pờ-tẹ-hơ",
+        "note": "Nhà (/pʰtĕəh/); có cả cụm đầu /pʰt-/ lẫn âm xát thanh hầu cuối /-h/ đều không tồn tại trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "ត្រី (trei)",
+        "quoc_ngu": "trây",
+        "note": "Cá (/trəj/); cần phát âm theo giọng miền Trung/Nam có rung đầu lưỡi cho 'tr' để gần cụm /tr-/ tiếng Khmer Nam Bộ (tránh đọc thành [t͡ɕ] giọng Hà Nội)."
+      },
+      {
+        "native": "ស្រុក (srok)",
+        "quoc_ngu": "xờ-rốc",
+        "note": "Xứ, làng, huyện (/srok/ — gốc từ 'sóc' trong 'phum sóc'); tách cụm /sr-/ thành 'xờ-rốc'."
+      },
+      {
+        "native": "ឆ្ងាញ់ (chhnganh)",
+        "quoc_ngu": "chờ-nganh",
+        "note": "Ngon (/cʰŋaɲ/); âm /cʰ/ bật hơi và cụm /cʰŋ-/ không có trong tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "មួយ",
+        "ipa": "muəj",
+        "gloss_vi": "một (1)"
+      },
+      {
+        "native": "ពីរ",
+        "ipa": "piː",
+        "gloss_vi": "hai (2)"
+      },
+      {
+        "native": "បី",
+        "ipa": "ɓəj",
+        "gloss_vi": "ba (3)"
+      },
+      {
+        "native": "ទឹក",
+        "ipa": "tɨk",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "ភ្លើង",
+        "ipa": "pʰləːŋ",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "ផ្ទះ",
+        "ipa": "pʰtĕəh",
+        "gloss_vi": "ngôi nhà"
+      },
+      {
+        "native": "បាយ",
+        "ipa": "ɓaːj",
+        "gloss_vi": "cơm"
+      },
+      {
+        "native": "ត្រី",
+        "ipa": "trəj",
+        "gloss_vi": "con cá"
+      },
+      {
+        "native": "ខ្ញុំ",
+        "ipa": "kɲom",
+        "gloss_vi": "tôi (đại từ ngôi thứ nhất)"
+      },
+      {
+        "native": "ភូមិ",
+        "ipa": "pʰuːm",
+        "gloss_vi": "phum, xóm làng"
+      },
+      {
+        "native": "ស្រុក",
+        "ipa": "srok",
+        "gloss_vi": "sóc, huyện, quê hương"
+      },
+      {
+        "native": "អរគុណ",
+        "ipa": "ʔɑː ˈkun",
+        "gloss_vi": "cảm ơn"
+      },
+      {
+        "native": "ជម្រាបសួរ",
+        "ipa": "cum.ˈriəp suə",
+        "gloss_vi": "xin chào (trang trọng)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Central Khmer (cent1989) & Southern Khmer (sout2688)",
+      "url": "https://glottolog.org/resource/languoid/id/cent1989",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê (2020). Kết quả toàn bộ Tổng điều tra dân số và nhà ở năm 2019 & Điều tra 53 dân tộc thiểu số năm 2019 (mục Dân tộc Khmer: 1.319.652 người).",
+      "url": "https://www.gso.gov.vn/du-lieu-va-so-lieu-thong-ke/2020/11/ket-qua-toan-bo-tong-dieu-tra-dan-so-va-nha-o-nam-2019/",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Chính phủ Việt Nam — Nghị định số 82/2010/NĐ-CP (và Nghị định 96/2025/NĐ-CP ngày 29/4/2025 sửa đổi, bổ sung) quy định việc dạy và học tiếng nói, chữ viết của dân tộc thiểu số trong các cơ sở giáo dục phổ thông và trung tâm giáo dục thường xuyên.",
+      "url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=95890",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "The Unicode Consortium — The Unicode Standard, Chapter 16: Southeast Asia-I (Khmer U+1780–U+17FF, Khmer Symbols U+19E0–U+19FF).",
+      "url": "https://www.unicode.org/charts/PDF/U1780.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Khmer language, Khmer script & Help:IPA/Khmer",
+      "url": "https://en.wikipedia.org/wiki/Khmer_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Chapei Dang Veng (01165, inscribed 2016)",
+      "url": "https://ich.unesco.org/en/USL/chapei-dang-veng-01165",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Du lịch Quốc gia Việt Nam (TITC) — Nhạc ngũ âm - Thanh âm di sản Khmer Nam Bộ",
+      "url": "https://vietnamtourism.gov.vn/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "CNRS Collection Pangloss — Krom Khmer & Cardamom Khmer corpora (Henderson 1952; Ferlus 1992)",
+      "url": "https://pangloss.cnrs.fr/",
+      "url_check": "error_TimeoutError",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[0].glottocode",
+          "severity": "high",
+          "problem": "Mã Glottocode 'sout3184' là của nhóm ngôn ngữ Southwestern Tai (Thái Tây Nam), không phải của tiếng Khmer Nam Bộ (Southern Khmer / Khmer Krom).",
+          "fix": "Sửa thành mã Glottocode đúng của phương ngữ Southern Khmer trên Glottolog là 'sout2688' (nằm dưới Central Khmer 'cent1989')."
+        },
+        {
+          "path": "phonology.vowels[19]",
+          "severity": "low",
+          "problem": "Mục 'ះ (ăh / eăh)' chưa ghi chú các tổ hợp nguyên âm ghép với dấu visarga (ះ) rất phổ biến trong tiếng Khmer như ោះ (/ɑh/ ~ /uəh/), េះ (/eh/ ~ /ih/) và ុះ (/oh/ ~ /uh/).",
+          "fix": "Bổ sung ghi chú các tổ hợp ោះ, េះ, ុះ vào note của mục 'ះ' để bảng đối chiếu vần đầy đủ hơn."
+        },
+        {
+          "path": "sources[6].url_check",
+          "severity": "low",
+          "problem": "URL ở sources[6] và sources[7] chỉ trỏ tới trang chủ tên miền (vietnamtourism.gov.vn, pangloss.cnrs.fr) thay vì đường dẫn bài viết/kho ngữ liệu cụ thể.",
+          "fix": "Cập nhật thông tin đường dẫn kho ngữ liệu và ghi rõ trạng thái kiểm chứng URL."
+        }
+      ]
+    },
+    "open_issues": [
+      "Bảng âm vị hiện dựa chủ yếu trên tiếng Khmer chuẩn (Central Khmer); cần đối chiếu chi tiết sự biến đổi nguyên âm (đơn giản hóa nguyên âm đôi, dịch chuyển nguyên âm) giữa các tiểu phương ngữ Khmer Nam Bộ tại Sóc Trăng, Trà Vinh, An Giang và Kiên Giang.",
+      "Cách xấp xỉ chữ Quốc ngữ trong ml_hints.quoc_ngu_approximation chỉ phục vụ thử nghiệm thô cho mô hình chỉ biết tiếng Việt và làm mất đối lập bật hơi /pʰ, cʰ/, âm cuối /-l, -h/; cần người bản xứ Khmer Nam Bộ kiểm thử độ dễ hiểu khi tổng hợp giọng hát.",
+      "Hệ thang âm 7 bậc / ngũ âm của dàn nhạc Pinn Peat lệch cao độ so với hệ bình quân 12 bán âm (12-TET), cần nghệ nhân nhạc ngũ âm thẩm định trước khi lượng tử hóa sang ký hiệu ABC."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

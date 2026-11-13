@@ -1,0 +1,863 @@
+{
+  "id": "ma",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mạ",
+  "name_en": "Maa (Mạ)",
+  "autonym": "Mà / Chau Mạ",
+  "ethnic_group_vi": "Mạ",
+  "language": {
+    "iso639_3": "cma",
+    "glottocode": "maaa1253",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (South Bahnaric)"
+  },
+  "regions": [
+    "Lâm Đồng (Bảo Lâm, Bảo Lộc, Đạ Huoai, Đạ Tẻh, Cát Tiên, Di Linh, Đức Trọng)",
+    "Đắk Nông (Đắk Glong)",
+    "Đồng Nai (Tân Phú, Định Quán)",
+    "Bình Phước"
+  ],
+  "speakers_estimate": "Khoảng 40.000–50.000 người (dân số dân tộc Mạ tại Việt Nam là 50.322 người theo Tổng điều tra dân số và nhà ở năm 2019)",
+  "scripts": [
+    {
+      "name": "Chữ Mạ Latinh (phương án chữ viết dựa trên chữ Quốc ngữ và bộ chữ Kơho–Mạ tại Lâm Đồng)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional, Combining Diacritical Marks",
+      "official_in_vietnam": true,
+      "note": "Được sử dụng trong Chương trình dạy tiếng Mạ (có chữ viết) cho cán bộ, công chức tỉnh Lâm Đồng (ban hành theo Quyết định 105/2009/QĐ-UBND, kế thừa quy ước chữ Kơho–Mạ năm 1983 và Quyết định 17/2006/QĐ-UBND; từ năm 2026 chuyển thẩm quyền quản lý chương trình về Sở GD&ĐT theo Thông tư 02/2026/TT-BGDĐT). Dùng thêm các con chữ ƀ, ñ và dấu phụ (dấu huyền ghi nguyên âm dài/thanh thấp, dấu trăng ghi nguyên âm ngắn hoặc âm tắc thanh hầu cuối)."
+    },
+    {
+      "name": "Chữ Latinh học thuật / truyền giáo trước 1975 (hệ Pháp–EFEO và hệ SIL/CMA)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement",
+      "official_in_vietnam": false,
+      "note": "Gặp trong các công trình dân tộc học và ngôn ngữ học như Boulbet (1967) (nhân đôi con chữ để ghi nguyên âm dài như aa, oo và dùng dấu phẩy trên ' để ghi tắc thanh hầu cuối, ví dụ: Nggar Maa', Nggar Yaang) hoặc ấn phẩm tôn giáo hệ SIL."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do mô hình ngôn ngữ tổng hợp từ tư liệu ngôn ngữ học Nam Bahnar (Nguyễn Văn Huệ 1990/2009; Le Tan Duong 2003; Olsen 2014, 2015; Sidwell 2015) và văn bản hành chính tỉnh Lâm Đồng. Về mặt ngôn ngữ học, tiếng Mạ (cma) tạo thành một dải phương ngữ thông hiểu cao với tiếng Kơho (kpm), nhưng dân tộc Mạ là một trong 53 dân tộc thiểu số riêng biệt tại Việt Nam và có sự phân hóa thanh điệu nội bộ rõ rệt (từ 2 thanh ở Bắc Bảo Lộc/Bảo Lâm đến 5 thanh ở Đạ Huoai, Đạ Tẻh). Cần người bản ngữ và chuyên gia ngôn ngữ học thẩm định chi tiết chính tả từng thổ ngữ.",
+  "phonology": {
+    "syllable_structure": "(C1ə.)C2(C3)V(ː)(C4)+T — từ đơn tiết hoặc song tiết yếu–mạnh (sesquisyllabic); tiền âm tiết phụ C1ə- không mang trọng âm dễ rút gọn thành cụm phụ âm đầu C2C3 (với C3 là r, l, w, y).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc đôi môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc đôi môi vô thanh bật hơi (không đọc là [f] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc đôi môi hữu thanh thường, đối lập âm vị học với ƀ [ɓ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ƀ",
+        "ipa": "ɓ",
+        "note": "Tắc đôi môi hữu thanh hút vào (tiền thanh hầu hóa); đôi khi viết giản lược thành b khi thiếu phông chữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh thường (như d tiếng Anh), đối lập với đ [ɗ]; không đọc là [z]/[j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hữu thanh hút vào (tiền thanh hầu hóa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "c",
+        "note": "Tắc ngạc cứng vô thanh không bật hơi (tương đương ch tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "cʰ",
+        "note": "Tắc ngạc cứng vô thanh bật hơi theo quy ước chữ Kơho–Mạ sửa đổi; trong một số văn bản cũ ch ghi [c]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc ngạc cứng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (không đọc xát [x])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ / ')",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đứng trước nguyên âm đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi đôi môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ / nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng; quy ước sửa đổi năm 2006 tại Lâm Đồng ưu tiên ñ, nhưng nh vẫn gặp phổ biến",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (có thể kết hợp tiền mũi hóa ngg- [ŋɡ], mp- [mp], nt- [nt], nd- [nd])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mh, nh, rh, lh",
+        "ipa": "mʰ, nʰ, rʰ, lʰ",
+        "note": "Chuỗi phụ âm vang bật hơi/vô thanh hóa ghi nhận trong dải phương ngữ Kơho–Mạ; mức độ bảo lưu tùy thổ ngữ Mạ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung chân răng [r], thường giảm thành âm vỗ [ɾ] khi làm âm thứ hai trong cụm phụ âm (br-, kr-, pr-, sr-, tr-, dr-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng; xuất hiện đơn hoặc trong cụm (bl-, kl-, pl-, gl-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi–ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / ì",
+        "ipa": "i / iː",
+        "note": "Nguyên âm trước khép; dấu huyền (ì) biểu thị nguyên âm dài kèm thanh thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / ề",
+        "ipa": "e / eː",
+        "note": "Nguyên âm trước nửa khép ngắn và dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / è",
+        "ipa": "ɛ / ɛː",
+        "note": "Nguyên âm trước nửa mở ngắn và dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ừ",
+        "ipa": "ɨ ~ ɯ / ɨː ~ ɯː",
+        "note": "Nguyên âm giữa/sau không tròn môi khép",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ / ờ",
+        "ipa": "ə / əː",
+        "note": "Nguyên âm giữa trung bình ngắn và dài; ơ cũng dùng làm nguyên âm lướt trong tiền âm tiết phụ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / à / ă",
+        "ipa": "a / aː / aʔ",
+        "note": "Nguyên âm mở; à là nguyên âm dài/thanh thấp, ă ghi nguyên âm ngắn (ở âm tiết mở thường kèm tắc thanh hầu cuối [aʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / ù",
+        "ipa": "u / uː",
+        "note": "Nguyên âm sau tròn môi khép ngắn và dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ồ",
+        "ipa": "o / oː",
+        "note": "Nguyên âm sau tròn môi nửa khép ngắn và dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ò / ŏ",
+        "ipa": "ɔ / ɔː / ɔ ~ ɔʔ",
+        "note": "Nguyên âm sau tròn môi nửa mở; ò dài/thanh thấp, ŏ ngắn (ở âm tiết mở kèm tắc thanh hầu cuối [ɔʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə ~ ɑ",
+        "note": "Xuất hiện không đồng đều giữa các tài liệu phiên âm để ghi nguyên âm ngắn giữa hoặc sau mở",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p",
+        "note": "Tắc đôi môi đóng không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t",
+        "note": "Tắc chân răng đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-c",
+        "ipa": "c",
+        "note": "Tắc ngạc cứng cuối âm tiết, thường kéo theo âm lướt ngạc trước đó [ʲc]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dấu trăng (-ă, -ŏ, -ơ̆...) / -' / -q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối; bảo lưu ở thổ ngữ Bắc, suy yếu hoặc chuyển thành thanh điệu ở thổ ngữ Nam Mạ (Đạ Huoai, Đạ Tẻh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi đôi môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ñ / -nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng, thường có âm lướt ngạc [ʲɲ] (ví dụ añ [ʔaʲɲ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-s",
+        "ipa": "s ~ ç",
+        "note": "Xát cuối âm tiết (trong một số cách ghi cũ viết là -ih/-yh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối; đang suy yếu ở các thổ ngữ trung gian và chuyển thành thanh hỏi/sắc ở Nam Mạ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r",
+        "note": "Rung chân răng cuối âm tiết (ví dụ mir, nggar)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Bên chân răng cuối âm tiết (ví dụ dùl); một số thổ ngữ rụng -l",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-u / -o / -w",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi–ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-i / -y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "cao-ngan",
+        "name": "Thanh cao (bằng cao / nguyên âm ngắn)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "thap-dai",
+        "name": "Thanh thấp (bằng thấp–đi xuống / nguyên âm dài)",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "sac-nam",
+        "name": "Thanh lên cao (chỉ xuất hiện ở nhóm thổ ngữ 5 thanh Nam Lâm Đồng: Đạ Huoai, Đạ Tẻh; tương ứng sự biến đổi của âm cuối thanh hầu)",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "hoi-nam",
+        "name": "Thanh gãy/uốn (chỉ xuất hiện ở nhóm thổ ngữ 5 thanh Nam Lâm Đồng, thường do rụng -h)",
+        "mark": "̉",
+        "chao_contour": "214",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "nang-nam",
+        "name": "Thanh thấp nghẽn (chỉ xuất hiện ở nhóm thổ ngữ 5 thanh Nam Lâm Đồng, liên quan âm tắc thanh hầu -ʔ)",
+        "mark": "̣",
+        "chao_contour": "21",
+        "phonation": "glottalized",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Khác với nhiều ngôn ngữ Môn-Khmer hình thành âm vực từ sự vô thanh hóa phụ âm đầu, tiếng Mạ vẫn duy trì thế đối lập 4 loạt phụ âm tắc đầu (vô thanh / bật hơi / hữu thanh thường / hút vào) nhưng đã hình thành hệ thống thanh điệu từ 2 đến 5 thanh tùy thổ ngữ thông qua đối lập độ dài nguyên âm và sự suy yếu của phụ âm cuối thanh hầu (-ʔ, -h) (Nguyễn Văn Huệ, 1990/2009)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi (ngôi thứ nhất số ít)",
+      "form": "añ",
+      "ipa": "ʔaʲɲ",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái gùi / mang gùi",
+      "form": "àñ",
+      "ipa": "ʔaːʲɲ˨˩",
+      "gloss_en": "back-basket / to carry in a basket",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "lòt",
+      "ipa": "lɔːt˨˩",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngắn",
+      "form": "lot",
+      "ipa": "lɔt˧˧",
+      "gloss_en": "short",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đập",
+      "form": "tơm",
+      "ipa": "təm˧˧",
+      "gloss_en": "to hit / beat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trong / gốc",
+      "form": "tờm",
+      "ipa": "təːm˨˩",
+      "gloss_en": "inside / trunk, base",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "dùl",
+      "ipa": "duːl˨˩",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "với / và",
+      "form": "mờ",
+      "ipa": "məː˨˩",
+      "gloss_en": "with / and",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước / sông, suối",
+      "form": "dà",
+      "ipa": "daː˨˩",
+      "gloss_en": "water / river / stream",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng / buôn",
+      "form": "ƀòn",
+      "ipa": "ɓɔːn˨˩",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nương rẫy",
+      "form": "mir",
+      "ipa": "mir",
+      "gloss_en": "swidden / upland field",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruộng nước",
+      "form": "srê",
+      "ipa": "sreː",
+      "gloss_en": "wet rice paddy",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rừng",
+      "form": "brê",
+      "ipa": "breː",
+      "gloss_en": "forest",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xứ sở / vùng đất",
+      "form": "nggar",
+      "ipa": "ŋɡar",
+      "gloss_en": "land / territory",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thần linh",
+      "form": "yang",
+      "ipa": "jaːŋ",
+      "gloss_en": "spirit / deity",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con người / đồng bào",
+      "form": "kòn cau",
+      "ipa": "kɔːn˨˩ caw",
+      "gloss_en": "people / human beings",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Tâm pơt (tam pớt / tam bớt)",
+        "note": "Thể loại hát dân ca trữ tình, đối đáp, giao duyên tiêu biểu nhất của người Mạ (thường do một hoặc hai người hát trao đổi tâm tình, khuyên răn, kể phong tục bên ché rượu cần)."
+      },
+      {
+        "name": "Yal yau",
+        "note": "Lối hát kể chuyện cổ, sử thi, trường ca truyền khẩu (như K'Dùng – K'Làng, Sềm N'Drao), gần gũi với truyền thống yal yau của người Kơho."
+      },
+      {
+        "name": "Nhạc lễ hội cồng chiêng (Nhô Rơhe, Nhô năng brê, Nhô rơmul...)",
+        "note": "Hòa tấu cồng chiêng gắn với nghi lễ nông nghiệp lúa rẫy và vòng đời; thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO ghi danh năm 2005)."
+      },
+      {
+        "name": "Hát ru con và dân ca sinh hoạt",
+        "note": "Thường kết hợp với tiếng khèn bầu m'buốt trong gia đình và nhà dài truyền thống."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung tự do cuối trổ hát (tâm pơt / yal yau)",
+        "description": "Người hát kéo dài nguyên âm mở hoặc âm mũi cuối câu với nhịp tự do (rubato) và rung giọng tự nhiên trước khi người đối đáp bắt vào.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Luyến quãng 3 thứ trong giai điệu dân ca Kơho–Mạ",
+        "description": "Bước luyến mềm giữa hai bậc cách nhau quãng 3 thứ đặc trưng trong chất liệu dân ca nam Tây Nguyên.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dàn chiêng 6 chiếc của người Mạ",
+        "note": "Dựa trên biên chế bộ 6 chiêng đồng bằng (không núm), cao độ chỉnh theo truyền thống từng bon làng, không theo hệ bình quân phương Tây.",
+        "confidence": "high"
+      },
+      {
+        "name": "Hệ giai điệu khèn bầu 6 ống (M'buốt)",
+        "note": "Tạo bè trì tục (drone) kết hợp giai điệu trên 6 ống trúc có lưỡi gà đồng.",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Bộ chiêng đồng không núm 6 chiếc",
+        "note": "Nhạc cụ thiêng trung tâm trong lễ hội và sinh hoạt cộng đồng bon làng Mạ"
+      },
+      {
+        "name": "Khèn bầu M'buốt (khèn bầu 6 ống)",
+        "note": "Nhạc cụ hơi có bầu cộng hưởng và 6 ống trúc gắn lưỡi gà đồng, diễn tấu giai điệu và bè phong phú"
+      },
+      {
+        "name": "Đàn đá (B'Đạ)",
+        "note": "Nhạc cụ tự thân vang cổ truyền bằng đá phiến vùng Lâm Đồng – Đồng Nai"
+      },
+      {
+        "name": "Đàn tre / ống tre (t'rông, t'ron)",
+        "note": "Nhạc cụ gõ chế tác từ tre nứa rừng"
+      },
+      {
+        "name": "Tù và sừng trâu",
+        "note": "Thổi báo hiệu mở đầu lễ cúng Yang và hội bon"
+      },
+      {
+        "name": "Sáo trúc và kèn môi",
+        "note": "Nhạc cụ hơi dùng trong sinh hoạt cá nhân và giao duyên"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Mạ Ngăn",
+        "iso639_3": "cma",
+        "note": "Một trong bốn nhóm địa phương chính của dân tộc Mạ (tập trung tại Đạ Huoai, Bảo Lâm – Lâm Đồng)."
+      },
+      {
+        "name": "Mạ Xốp (Mạ Xóp)",
+        "iso639_3": "cma",
+        "note": "Nhóm địa phương chính của dân tộc Mạ."
+      },
+      {
+        "name": "Mạ Tô",
+        "iso639_3": "cma",
+        "note": "Nhóm địa phương chính của dân tộc Mạ."
+      },
+      {
+        "name": "Mạ Krung",
+        "iso639_3": "cma",
+        "note": "Nhóm địa phương chính của dân tộc Mạ."
+      },
+      {
+        "name": "Phân vùng thổ ngữ theo thanh điệu: Bắc Bảo Lộc/Bảo Lâm (2 thanh), Bảo Lộc–Di Linh (trung gian), Đạ Huoai–Đạ Tẻh (5 thanh)",
+        "iso639_3": "cma",
+        "note": "Phân loại ngữ âm học của Nguyễn Văn Huệ (1990/2009); cần gắn nhãn vùng thu âm khi huấn luyện TTS/ASR vì số lượng thanh điệu chênh lệch từ 2 đến 5."
+      },
+      {
+        "name": "Tiếng Kơho (Sre, Chil, Lạch, Nộp, Cà Dòn...)",
+        "iso639_3": "kpm",
+        "note": "Ngôn ngữ chị em trực tiếp trong cụm phương ngữ Kơho–Mạ (Glottocode: koho1243), độ tương đồng từ vựng trên 90% ở vùng tiếp giáp Di Linh – Bảo Lâm, có thể dùng để huấn luyện chuyển giao (transfer learning)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ƀòn",
+        "quoc_ngu": "bòn",
+        "note": "Âm ƀ [ɓ] hút vào của tiếng Mạ trùng khớp với phụ âm b [ɓ] của tiếng Việt chuẩn."
+      },
+      {
+        "native": "bơnhă",
+        "quoc_ngu": "bơ-nhắ",
+        "note": "Âm b [b] hữu thanh thường của tiếng Mạ không tách khỏi [ɓ] trong chữ Quốc ngữ nên bị nhập vào b; nguyên âm ngắn mở có tắc thanh hầu cuối (-ă [aʔ]) xấp xỉ tạm bằng thanh sắc ngắn."
+      },
+      {
+        "native": "dùl",
+        "quoc_ngu": "đùn",
+        "note": "Cảnh báo âm không có trong tiếng Việt: d [d] là âm tắc chân răng hữu thanh thường (không đọc [z]/[j] như d tiếng Việt), và âm cuối -l [l] không có ở vị trí cuối âm tiết tiếng Việt (tạm xấp xỉ bằng đ- và -n, làm mất đối lập d/đ và -l/-n)."
+      },
+      {
+        "native": "dà",
+        "quoc_ngu": "đà / đạ",
+        "note": "Phụ âm đầu d [d] không hút vào thường được Việt hóa trong địa danh thành Đạ (như Đạ Huoai, Đạ Tẻh); ở thổ ngữ Nam Mạ từ 'nước' mang thanh nặng [daʔ˨˩]."
+      },
+      {
+        "native": "añ",
+        "quoc_ngu": "anh",
+        "note": "Chữ ñ [ɲ] tương đương nh của Quốc ngữ; âm lướt ngạc trước -ɲ trong [ʔaʲɲ] khá giống cách phát âm vần -anh ở miền Bắc Việt Nam."
+      },
+      {
+        "native": "kòn cau",
+        "quoc_ngu": "còn chau",
+        "note": "Chữ c đứng đầu âm tiết trong bộ chữ Kơho–Mạ ghi âm [c], tương đương ch trong chữ Quốc ngữ."
+      },
+      {
+        "native": "cha",
+        "quoc_ngu": "ch-ha",
+        "note": "Cảnh báo âm không có trong tiếng Việt: ch trong chữ Kơho–Mạ chuẩn hóa ghi âm tắc ngạc cứng bật hơi [cʰ]; TTS tiếng Việt chỉ đọc được [c] không bật hơi."
+      },
+      {
+        "native": "phan",
+        "quoc_ngu": "p-han",
+        "note": "Cảnh báo âm không có trong tiếng Việt: ph là âm tắc đôi môi bật hơi [pʰ], không phải âm xát môi–răng [f] như ph tiếng Việt."
+      },
+      {
+        "native": "jơnau",
+        "quoc_ngu": "dơ-nau",
+        "note": "Cảnh báo âm không có trong tiếng Việt: j [ɟ] là âm tắc ngạc cứng hữu thanh; Quốc ngữ chỉ có thể xấp xỉ gần bằng d/gi."
+      },
+      {
+        "native": "brê",
+        "quoc_ngu": "bơ-rê",
+        "note": "Tiếng Việt hiện đại không có cụm phụ âm đầu br-; cần chèn nguyên âm trung hòa cực ngắn 'ơ' khi đưa qua bộ đọc Quốc ngữ."
+      },
+      {
+        "native": "mir",
+        "quoc_ngu": "mi-rơ",
+        "note": "Cảnh báo âm không có trong tiếng Việt: phụ âm rung cuối âm tiết -r [r] không tồn tại trong tiếng Việt."
+      },
+      {
+        "native": "nggar",
+        "quoc_ngu": "ngơ-ga",
+        "note": "Tổ hợp tiền mũi hóa ngg- [ŋɡ] và âm cuối -r [r] đều không có trong tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "añ",
+        "ipa": "ʔaʲɲ",
+        "gloss_vi": "tôi",
+        "gloss_en": "I"
+      },
+      {
+        "native": "àñ",
+        "ipa": "ʔaːʲɲ˨˩",
+        "gloss_vi": "cái gùi",
+        "gloss_en": "back-basket"
+      },
+      {
+        "native": "dùl",
+        "ipa": "duːl˨˩",
+        "gloss_vi": "một",
+        "gloss_en": "one"
+      },
+      {
+        "native": "lòt",
+        "ipa": "lɔːt˨˩",
+        "gloss_vi": "đi",
+        "gloss_en": "to go"
+      },
+      {
+        "native": "lot",
+        "ipa": "lɔt˧˧",
+        "gloss_vi": "ngắn",
+        "gloss_en": "short"
+      },
+      {
+        "native": "dà",
+        "ipa": "daː˨˩",
+        "gloss_vi": "nước, sông, suối",
+        "gloss_en": "water, river, stream"
+      },
+      {
+        "native": "ƀòn",
+        "ipa": "ɓɔːn˨˩",
+        "gloss_vi": "làng, buôn",
+        "gloss_en": "village"
+      },
+      {
+        "native": "mir",
+        "ipa": "mir",
+        "gloss_vi": "nương rẫy",
+        "gloss_en": "swidden field"
+      },
+      {
+        "native": "srê",
+        "ipa": "sreː",
+        "gloss_vi": "ruộng nước",
+        "gloss_en": "wet rice field"
+      },
+      {
+        "native": "brê",
+        "ipa": "breː",
+        "gloss_vi": "rừng",
+        "gloss_en": "forest"
+      },
+      {
+        "native": "yang",
+        "ipa": "jaːŋ",
+        "gloss_vi": "thần linh",
+        "gloss_en": "spirit, deity"
+      },
+      {
+        "native": "kòn cau",
+        "ipa": "kɔːn˨˩ caw",
+        "gloss_vi": "con người, đồng bào",
+        "gloss_en": "person, people"
+      }
+    ],
+    "unicode_and_tokenization_notes": "Cần chuẩn hóa NFC trước khi đưa vào tokenizer; lưu ý các tổ hợp ký tự dễ bị tách vụn sub-token như ƀ (U+0180), ñ (U+00F1) và nguyên âm mang dấu phụ kép như ơ̆ (U+01A1 + U+0306), ư̆ (U+01B0 + U+0306)."
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Maa (maaa1253)",
+      "url": "https://glottolog.org/resource/languoid/id/maaa1253",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Mạ people",
+      "url": "https://en.wikipedia.org/wiki/M%E1%BA%A1_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Koho language (Kơho–Maa dialect continuum and phonology)",
+      "url": "https://en.wikipedia.org/wiki/Koho_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Olsen, Neil H. (2014). A descriptive grammar of Kơho-Sre: a Mon-Khmer language. Ph.D. dissertation, University of Utah.",
+      "url": "https://collections.lib.utah.edu/ark:/87278/s63r4228",
+      "url_check": "http_418",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Olsen, Neil H. (2015). Orthography issues in Kơho: A Mon-Khmer language. 4th International Conference on Language Documentation and Conservation (ICLDC), University of Hawai'i at Mānoa.",
+      "url": "https://scholarspace.manoa.hawaii.edu/items/3e22bccf-0f22-4af5-a5e4-e39a0a5517e7",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UBND tỉnh Lâm Đồng (2009). Quyết định số 105/2009/QĐ-UBND ngày 24/12/2009 về việc ban hành Chương trình dạy tiếng Mạ (có chữ viết) cho cán bộ, công chức công tác vùng dân tộc Mạ của tỉnh Lâm Đồng (nay phân cấp về Sở GD&ĐT theo Quyết định 3963/QĐ-UBND năm 2026).",
+      "url": "https://vbpl.vn/lamdong/Pages/vbpq-toanvan.aspx?ItemID=71900",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ban Chỉ đạo Tổng điều tra dân số và nhà ở Trung ương — Tổng cục Thống kê (2019). Kết quả toàn bộ Tổng điều tra dân số và nhà ở thời điểm 0 giờ ngày 01 tháng 4 năm 2019.",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Huệ (1990/2009). Vấn đề thanh điệu trong tiếng Mạ. Khoa Văn học và Ngôn ngữ, Trường Đại học Khoa học Xã hội và Nhân văn — ĐHQG TP.HCM.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Le, Tan Duong (2003). A phonological comparison of Maa and Koho varieties. Master's thesis, Payap University, Chiang Mai.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Boulbet, Jean (1967). Pays des Maa', domaine des génies: Nggar Maa', Nggar Yaang. Publications de l'École Française d'Extrême-Orient, Vol. LXII, Paris.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.tones[2].phonation",
+          "severity": "low",
+          "problem": "Trường `phonation` của thanh `sac-nam` đang chứa câu giải thích lịch đại ('tương ứng sự biến đổi của âm cuối thanh hầu') thay vì nhãn chất giọng ngữ âm học chuẩn (như 'modal', 'creaky', 'breathy', 'glottalized' hoặc null).",
+          "fix": "Đổi `phonation` thành `\"modal\"` và chuyển ghi chú nguồn gốc lịch đại vào trường `name`."
+        },
+        {
+          "path": "phonology.vowels[8].ipa",
+          "severity": "low",
+          "problem": "Mục `o / ò / ŏ` ghi IPA là `\"ɔ / ɔː / ɔ\"`, chưa thể hiện rõ tính chất ngắn kèm tắc thanh hầu cuối `[ɔʔ]` ở âm tiết mở của chữ `ŏ` (không đồng nhất với cách ghi `a / à / ă` là `\"a / aː / aʔ\"`).",
+          "fix": "Cập nhật `ipa` thành `\"ɔ / ɔː / ɔ ~ ɔʔ\"` và làm rõ trong `note`."
+        },
+        {
+          "path": "scripts[0].note",
+          "severity": "low",
+          "problem": "Quyết định 105/2009/QĐ-UBND tỉnh Lâm Đồng đã được rà soát, bãi bỏ về mặt thủ tục hành chính vào năm 2026 (Quyết định 3963/QĐ-UBND theo Thông tư 09/2023/TT-BGDĐT và 02/2026/TT-BGDĐT) để chuyển thẩm quyền phê duyệt chương trình, tài liệu dạy tiếng DTTS về Sở Giáo dục và Đào tạo.",
+          "fix": "Bổ sung thông tin cập nhật pháp lý năm 2026 vào `scripts[0].note` và `sources[5]`."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp bộ tài liệu giảng dạy tiếng Mạ tại Lâm Đồng (theo Quyết định 105/2009/QĐ-UBND và chương trình cập nhật của Sở GD&ĐT) để xác nhận quy tắc ghi 5 thanh điệu ở thổ ngữ Đạ Huoai / Đạ Tẻh so với cách ghi 2 thanh ở Bảo Lâm / Bảo Lộc.",
+      "Cần người bản ngữ các nhóm Mạ Ngăn, Mạ Xốp, Mạ Tô, Mạ Krung kiểm tra mức độ bảo lưu chuỗi phụ âm mũi/lỏng bật hơi (mh, nh, rh, lh) và âm cuối -l, -r, -s.",
+      "Cần nhạc sĩ dân tộc nhạc học bổ sung ký âm chuẩn (ABC/MIDI) cho thang âm bộ chiêng 6 chiếc và làn điệu tâm pơt, yal yau."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

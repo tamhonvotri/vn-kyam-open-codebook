@@ -1,0 +1,916 @@
+{
+  "id": "san-diu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Sán Dìu",
+  "name_en": "Sán Dìu language",
+  "autonym": "Sán Dìu Vả (tộc danh tự gọi: San Déo nhín / Sơn Dao nhân)",
+  "ethnic_group_vi": "Sán Dìu",
+  "language": {
+    "iso639_3": "yue",
+    "glottocode": "yuec1235",
+    "family": "Sino-Tibetan",
+    "branch": "Sinitic (Southern Chinese — classified under Qin-Lian Yue or Hakka-related; 66.03% basic lexical-phonological correspondence with Hakka)"
+  },
+  "regions": [
+    "Thái Nguyên",
+    "Vĩnh Phúc (Phú Thọ)",
+    "Bắc Giang (Bắc Ninh)",
+    "Quảng Ninh",
+    "Tuyên Quang",
+    "Tây Nguyên (cộng đồng di cư)"
+  ],
+  "speakers_estimate": "Khoảng 150.000–180.000 người (tổng dân số dân tộc Sán Dìu tại Việt Nam là 183.004 người theo Tổng điều tra dân số 2019; khảo sát 2015 ghi nhận 83,5% biết tiếng mẹ đẻ nhưng tỷ lệ giao tiếp thường xuyên ở thế hệ trẻ đang giảm nhanh).",
+  "scripts": [
+    {
+      "name": "Chữ Hán cổ (và một số chữ Nôm / chữ Hán biến thể dùng trong sách cúng, ca bản Soọng cô)",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Truyền thống dùng để chép gia phả, sách nghi lễ (lễ Cấp sắc, Hợp hôn thư, Bách thông thư) và lời thơ thất ngôn tứ tuyệt của dân ca Soọng cô, đọc theo âm Sán Dìu; hiện chỉ còn một số thầy cúng và bậc cao niên biết đọc."
+    },
+    {
+      "name": "Chữ Latinh ghi âm tiếng Sán Dìu (phương án đề xuất học thuật — Nguyễn Thị Kim Thoa 2013, 2018)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Dựa trên chữ Quốc ngữ có cải tiến hợp lý hóa âm vị học: ghi âm đệm /-w-/ là u, âm cuối /-w/ là u, âm cuối /-j/ là i, âm đầu /k/ là k, âm cuối /-k/ là c; bổ sung dz (/d͡z/), ts (/t͡s/), p (/p/), sl (/ɬ/) và dùng 6 dấu thanh tiếng Việt. Chưa có văn bản ban hành chuẩn quốc gia thống nhất."
+    },
+    {
+      "name": "Chữ Quốc ngữ phiên âm thực hành cộng đồng",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Các câu lạc bộ hát Soọng cô và tài liệu truyền dạy địa phương (Thái Nguyên, Vĩnh Phúc, Bắc Giang, Quảng Ninh, Tuyên Quang) thường dùng chữ Quốc ngữ ghi âm xấp xỉ chưa chuẩn hóa thống nhất giữa các tỉnh."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ công trình ngữ âm học thực địa của Nguyễn Thị Kim Thoa (Luận án Tiến sĩ 2013 tại ĐHKHXH&NV - ĐHQGHN và sách chuyên khảo NXB ĐHQGHN 2018; khảo sát chính tại Vĩnh Phúc đối chiếu với Quảng Ninh, Thái Nguyên, Tuyên Quang) cùng tư liệu di sản văn hóa của Cục Di sản văn hóa. Lưu ý phân loại: Tiếng Sán Dìu hiện chưa có mã ISO 639-3 hay Glottocode riêng biệt; một số tài liệu quốc tế xếp chung vào nhóm Yue Chinese (yue / yuec1235, nhánh Quảng Đông Khâm Liêm), trong khi khảo sát đồng đại 212 từ cơ bản tại Việt Nam (Nguyễn Thị Kim Thoa 2013, tr. 24) cho thấy tỷ lệ tương ứng ngữ âm cao nhất (66,03%) với phương ngữ Khách Gia (hak). Bảng ánh xạ chữ viết dưới đây dựa theo phương án chữ Latinh đề xuất của Nguyễn Thị Kim Thoa (2013) do Nhà nước chưa ban hành bộ chữ Latinh chuẩn chính thức cho tiếng Sán Dìu.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Phụ âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Phụ âm mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Phụ âm mũi mặt lưỡi – ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Phụ âm mũi gốc lưỡi – ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (ít tiền thanh hầu hóa mạnh như [ɓ] tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh; không nằm trong 20 phụ âm đầu của điểm khảo sát Vĩnh Phúc (tr. 20) nhưng được tác giả Nguyễn Thị Kim Thoa (2013, tr. 24) đưa vào bộ con chữ riêng (dz, ts, p, sl) khi đề xuất chữ viết chung",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi – răng bật hơi (ký hiệu /t'/ trong luận án Nguyễn Thị Kim Thoa 2013)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi – ngạc cứng vô thanh; ở Quảng Ninh, Thái Nguyên, Tuyên Quang còn tương ứng với /t͡s/ của Vĩnh Phúc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh; phương án chữ Latinh đề xuất ghi thống nhất bằng k trước mọi nguyên âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ts",
+        "ipa": "t͡s",
+        "note": "Tắc-xát đầu lưỡi – răng vô thanh; bảo lưu ở Vĩnh Phúc, thường chuyển thành /c/ ở Quảng Ninh, Thái Nguyên, Tuyên Quang",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dz",
+        "ipa": "d͡z",
+        "note": "Tắc-xát đầu lưỡi – răng hữu thanh; phổ biến ở Vĩnh Phúc và Tuyên Quang, nhiều từ tương ứng với /z/ hoặc /ɬ/ ở Quảng Ninh, Thái Nguyên",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / f",
+        "ipa": "f",
+        "note": "Xát môi – răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi – răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z / d",
+        "ipa": "z",
+        "note": "Xát hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "ɬ",
+        "note": "Xát bên đầu lưỡi vô thanh; xuất hiện ở Quảng Ninh và Thái Nguyên (tương ứng với /d͡z/ ở Vĩnh Phúc, đôi khi biến thể thành [s])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "x",
+        "note": "Xát ngạc mềm vô thanh (ký hiệu /χ/ trong luận án Nguyễn Thị Kim Thoa 2013)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɣ",
+        "note": "Xát ngạc mềm hữu thanh (ký hiệu /Γ/ trong bản OCR luận án 2013)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u (âm đệm)",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi – mạc làm âm đệm /-w-/ đứng giữa âm đầu và âm chính (ví dụ /kwak5/, /hwet5/, /hwi1/)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước, đóng, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uy / y",
+        "ipa": "y",
+        "note": "Nguyên âm trước, đóng, tròn môi (ký hiệu /ψ/ trong bản OCR luận án 2013); có ở Vĩnh Phúc, tương ứng với tổ hợp /wi/ ở Quảng Ninh, Thái Nguyên, Tuyên Quang",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước, nửa đóng, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước, nửa mở, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa, đóng, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ɤ",
+        "note": "Nguyên âm giữa/sau, nửa đóng, không tròn môi, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ɤ̆",
+        "note": "Nguyên âm giữa/sau, nửa đóng, không tròn môi, ngắn (đối lập trường độ với /ɤ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm giữa, mở, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ă",
+        "note": "Nguyên âm giữa, mở, ngắn (đối lập trường độ với /a/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau, đóng, tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau, nửa đóng, tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau, nửa mở, tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o (dài)",
+        "ipa": "ɔː",
+        "note": "Nguyên âm sau, nửa mở, tròn môi, dài; chỉ xuất hiện ở phương ngữ Quảng Ninh tạo đối lập trường độ với /ɔ/ (ví dụ /sɔŋ1/ 'ruột' – /sɔːŋ1/ 'dài', /vɔŋ1/ 'vàng' – /vɔːŋ1/ 'võng', Nguyễn Thị Kim Thoa 2013, tr. 19)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iê",
+        "ipa": "ie",
+        "note": "Nguyên âm đôi hàng trước, độ mở hẹp/nửa đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / ie",
+        "ipa": "iɛ",
+        "note": "Nguyên âm đôi hàng trước, độ mở hơi rộng/nửa mở",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "uô / uo",
+        "ipa": "uo",
+        "note": "Nguyên âm đôi tròn môi chỉ xuất hiện ở phương ngữ Quảng Ninh (tương ứng với /ɔ/ trước /-i, -n/ ở Vĩnh Phúc, Nguyễn Thị Kim Thoa 2013, tr. 19)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi – ngạc cứng vô thanh khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh khép; thống nhất ghi bằng c trong phương án chữ Latinh đề xuất",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi – ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi – mạc; phương án đề xuất thống nhất ghi bằng u (không phân biệt u/o như Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối mặt lưỡi; phương án đề xuất thống nhất ghi bằng i (không phân biệt i/y như Quốc ngữ)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1",
+        "mark": null,
+        "chao_contour": "44",
+        "phonation": "bình thường (thanh bằng cao vừa)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "bình thường (thanh bằng thấp đi xuống)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3",
+        "mark": null,
+        "chao_contour": "54",
+        "phonation": "bình thường (cao xuống hơi thấp)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4",
+        "mark": null,
+        "chao_contour": "323",
+        "phonation": "bình thường (gãy/uốn xuống rồi lên)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5",
+        "mark": null,
+        "chao_contour": "24",
+        "phonation": "đi lên (xuất hiện cả ở âm tiết mở/vang như /dzi5/ 'chết' lẫn âm tiết khép tắc -p, -t, -c, -ch như /et5/ 'một', /ok5/ 'nhà', /kwak5/ 'chân')",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "thanh hầu hóa / tắc thanh hầu cuối (21ʔ / ˨˩ˀ)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có 6 thanh điệu khu biệt nghĩa (44, 21, 54, 323, 24, 21ʔ) theo mô tả của Nguyễn Thị Kim Thoa (2013). Thanh 6 có nét thanh hầu hóa cuối âm tiết [21ʔ]. Có hiện tượng biến thanh (tone sandhi) trong một số tổ hợp hai âm tiết: âm tiết đứng đầu mang thanh thuộc âm vực cao bị biến đổi xuống cao độ thấp hơn, còn âm tiết đứng sau giữ nguyên thanh điệu gốc (Nguyễn Thị Kim Thoa 2013, tr. 20). Khi ghi bằng chữ Quốc ngữ, tác giả đề xuất dùng 6 ký hiệu thanh điệu tiếng Việt để chế bản (tr. 24) nhưng quy ước ánh xạ dấu thanh – số thanh chưa hoàn toàn đồng nhất giữa các tài liệu cộng đồng."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "ết",
+      "ipa": "et˨˦",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai (lượng)",
+      "form": "lóang",
+      "ipa": null,
+      "gloss_en": "two",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "sam",
+      "ipa": null,
+      "gloss_en": "three",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "sị",
+      "ipa": null,
+      "gloss_en": "four",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "năm",
+      "form": "ngú",
+      "ipa": null,
+      "gloss_en": "five",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "lộc",
+      "ipa": null,
+      "gloss_en": "six",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bảy",
+      "form": "sết",
+      "ipa": null,
+      "gloss_en": "seven",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "tám",
+      "form": "bát",
+      "ipa": null,
+      "gloss_en": "eight",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chín",
+      "form": "kíu",
+      "ipa": null,
+      "gloss_en": "nine",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mười",
+      "form": "sịp",
+      "ipa": null,
+      "gloss_en": "ten",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "một trăm",
+      "form": "ết bác",
+      "ipa": null,
+      "gloss_en": "one hundred",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "ốc",
+      "ipa": "ok˨˦",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chân",
+      "form": "kuác / quác",
+      "ipa": "kwak˨˦",
+      "gloss_en": "foot / leg",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "huết",
+      "ipa": "hwet˨˦",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chợ",
+      "form": "huy",
+      "ipa": "hwi˦",
+      "gloss_en": "market",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hoa",
+      "form": "hua / hoa",
+      "ipa": "hwa˦",
+      "gloss_en": "flower",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con cua",
+      "form": "ha",
+      "ipa": "ha˦",
+      "gloss_en": "crab",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mùi thơm",
+      "form": "huang / hoang",
+      "ipa": "hwaŋ˦",
+      "gloss_en": "fragrant / aroma",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hang",
+      "form": "hang",
+      "ipa": "haŋ˦",
+      "gloss_en": "cave / hole",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đen",
+      "form": "u",
+      "ipa": "u˦",
+      "gloss_en": "black",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dạ (vâng)",
+      "form": "ì",
+      "ipa": "i˨˩",
+      "gloss_en": "yes (polite response)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruột",
+      "form": "song",
+      "ipa": "sɔŋ˦",
+      "gloss_en": "intestine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dài",
+      "form": "soong (Quảng Ninh) / song (Vĩnh Phúc)",
+      "ipa": "sɔːŋ˦ ~ sɔŋ˦",
+      "gloss_en": "long",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vàng",
+      "form": "vong",
+      "ipa": "vɔŋ˦",
+      "gloss_en": "yellow / gold",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "võng",
+      "form": "voong (Quảng Ninh) / vong (Vĩnh Phúc)",
+      "ipa": "vɔːŋ˦ ~ vɔŋ˦",
+      "gloss_en": "hammock",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "miệng",
+      "form": "chọi",
+      "ipa": "cɔj˨˩ˀ",
+      "gloss_en": "mouth",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "muốn",
+      "form": "ọi",
+      "ipa": "ɔj˨˩ˀ",
+      "gloss_en": "to want",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chết",
+      "form": "dzí / slí / sí",
+      "ipa": "d͡zi˨˦ ~ ɬi˨˦ ~ si˨˦",
+      "gloss_en": "to die",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ca hát / hát đối đáp",
+      "form": "soọng cô",
+      "ipa": null,
+      "gloss_en": "to sing / antiphonal folksong",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Soọng cô (Sọong cô)",
+        "note": "Di sản văn hóa phi vật thể quốc gia (công nhận tại Tuyên Quang và Thái Nguyên năm 2015, Vĩnh Phúc năm 2018, Quảng Ninh). 'Soọng cô' nghĩa là xướng ca / ca hát; lời ca đặt theo thể thơ thất ngôn tứ tuyệt (7 chữ 4 câu), truyền thống chép bằng chữ Hán cổ và hát đối đáp nam nữ mộc không nhạc đệm. Gồm hai dạng thức chính: hát giao duyên sinh hoạt thường ngày (hị soon soọng cô) và hát đối đáp theo bài bản trong đám cưới, lễ hội (sênh ca chíu cô)."
+      },
+      {
+        "name": "Hát ru, đồng dao và hát kể chuyện thơ",
+        "note": "Sinh hoạt ca hát dân gian trong gia đình và lao động nông nhàn."
+      },
+      {
+        "name": "Âm nhạc nghi lễ (lễ Cấp sắc, tang ma, cầu mùa)",
+        "note": "Kết hợp tụng niệm văn cúng chữ Hán đọc theo âm Sán Dìu với múa nghi lễ (múa dâng đèn, chạy đàn, múa gậy) và dàn nhạc cụ gõ – hơi truyền thống."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Tiến hành giai điệu liền bậc, ít luyến láy đột biến",
+        "description": "Theo hồ sơ Cục Di sản văn hóa, giai điệu Soọng cô có âm vực không quá rộng, các quãng âm kế tiếp nhau đều đặn, êm ái, ít lên bổng xuống trầm đột ngột và ít luyến láy phức tạp; chú trọng độ rõ chữ của câu thơ thất ngôn và ngân tự nhiên cuối câu.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Nhịp và thang âm dân ca Soọng cô",
+        "note": "Trường độ ổn định theo nhịp 2/4, 4/4 hoặc nhịp tự do phóng khoáng tùy bối cảnh đối đáp ứng khẩu; hát mộc (a cappella) bên bếp lửa hoặc trong đêm hội.",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Tù và",
+        "note": "Dùng trong nghi lễ Cấp sắc và cúng tế"
+      },
+      {
+        "name": "Kèn",
+        "note": "Phục vụ nghi lễ tôn giáo, đám cưới, tang ma"
+      },
+      {
+        "name": "Trống (trống lễ, trống con)",
+        "note": "Dùng trong lễ hội và nghi lễ tín ngưỡng"
+      },
+      {
+        "name": "Thanh la (phèng la)",
+        "note": "Nhạc cụ gõ đồng trong lễ hội và nghi lễ"
+      },
+      {
+        "name": "Não bạt (chũm chọe)",
+        "note": "Nhạc cụ gõ đồng phục vụ nghi lễ thầy cúng"
+      },
+      {
+        "name": "Sáo",
+        "note": "Nhạc cụ hơi dân gian"
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "ts (/t͡s/)",
+        "quoc_ngu": "ch / x",
+        "note": "Tiếng Việt chuẩn không có âm tắc-xát đầu lưỡi vô thanh [t͡s] (chỉ có ở phương ngữ Vĩnh Phúc của tiếng Sán Dìu); ngay trong nội bộ tiếng Sán Dìu ở Quảng Ninh, Thái Nguyên, Tuyên Quang âm này cũng chuyển thành [c] ('ch'), nên xấp xỉ bằng 'ch' là tự nhiên nhất cho TTS tiếng Việt."
+      },
+      {
+        "native": "dz (/d͡z/)",
+        "quoc_ngu": "d / gi",
+        "note": "Tiếng Việt không có âm tắc-xát hữu thanh [d͡z]; viết 'd' để TTS giọng Bắc đọc [z] (cũng chính là biến thể phát âm thực tế của người Sán Dìu ở Quảng Ninh, Thái Nguyên)."
+      },
+      {
+        "native": "sl (/ɬ/)",
+        "quoc_ngu": "x / s",
+        "note": "Âm xát bên vô thanh [ɬ] (có ở Quảng Ninh, Thái Nguyên, tương tự tiếng Tày-Nùng) không có trong tiếng Việt; xấp xỉ gần nhất bằng 'x' [s] (người bản ngữ đôi khi cũng phát âm biến thể thành [s])."
+      },
+      {
+        "native": "uy / y (/y/)",
+        "quoc_ngu": "uy",
+        "note": "Nguyên âm tròn môi hàng trước [y] ở Vĩnh Phúc không có dạng đơn lập trong tiếng Việt; viết 'uy' [wi] vừa khớp với quy tắc Quốc ngữ vừa trùng với cách phát âm [wi] của người Sán Dìu ở Quảng Ninh, Thái Nguyên, Tuyên Quang."
+      },
+      {
+        "native": "ku- (/kw-/)",
+        "quoc_ngu": "qu-",
+        "note": "Tổ hợp âm đầu /k/ + âm đệm /-w-/ (như /kwak5/ 'chân') viết thành 'qu-' (ví dụ 'quác') để tránh bị tokenizer tiếng Việt tách rời chữ 'kuác'."
+      },
+      {
+        "native": "ết (/et5/), ốc (/ok5/)",
+        "quoc_ngu": "ết, ốc",
+        "note": "Âm tiết khép (-p, -t, -c, -ch) mang thanh 5 (24) tương ứng rất sát với thanh sắc của tiếng Việt Bắc Bộ."
+      },
+      {
+        "native": "sịp (10), lộc (6), ọi (/ɔj6/)",
+        "quoc_ngu": "sịp, lộc, ọi",
+        "note": "Thanh 6 [21ʔ] có nét thanh hầu hóa cuối âm tiết rất gần với thanh nặng [21ʔ] của phương ngữ Bắc Bộ tiếng Việt."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Phương ngữ Vĩnh Phúc (Tam Đảo, Bình Xuyên, Lập Thạch)",
+        "iso639_3": "yue",
+        "note": "Biến thể được chọn làm điểm mô tả chính trong nghiên cứu ngữ âm học (Nguyễn Thị Kim Thoa 2013); bảo lưu các phụ âm tắc-xát /t͡s/, /d͡z/ và nguyên âm tròn môi trước /y/."
+      },
+      {
+        "name": "Phương ngữ Quảng Ninh (Tiên Yên, Bình Liêu, Móng Cái, Vân Đồn, Hạ Long)",
+        "iso639_3": "yue",
+        "note": "Xuất hiện âm xát bên /ɬ/ (tương ứng /d͡z/ Vĩnh Phúc), chuyển /t͡s/ thành /c/, /y/ thành /wi/; có thêm đối lập trường độ /ɔ/ – /ɔː/ và nguyên âm đôi /uo/."
+      },
+      {
+        "name": "Phương ngữ Thái Nguyên & Bắc Giang (Đồng Hỷ, Phú Bình, Phổ Yên, Lục Ngạn, Lục Nam)",
+        "iso639_3": "yue",
+        "note": "Khu vực tập trung đông người Sán Dìu nhất Việt Nam; Thái Nguyên có âm /ɬ/ ~ /s/ và /z/, chuyển /t͡s/ thành /c/, /y/ thành /wi/."
+      },
+      {
+        "name": "Phương ngữ Tuyên Quang (Sơn Dương)",
+        "iso639_3": "yue",
+        "note": "Giữ /d͡z/ giống Vĩnh Phúc nhưng chuyển /t͡s/ thành /c/ và /y/ thành /wi/."
+      },
+      {
+        "name": "Tiếng Khách Gia / Ngái (ngôn ngữ Hán có quan hệ gần về từ vựng - ngữ âm)",
+        "iso639_3": "hak",
+        "note": "Khảo sát đồng đại trên 212 từ cơ bản (Nguyễn Thị Kim Thoa 2013, tr. 24) ghi nhận 66,03% từ tiếng Sán Dìu có tương ứng ngữ âm với phương ngữ Khách Gia (trong đó 41,4% tương ứng hoàn toàn cả âm đầu và vần)."
+      },
+      {
+        "name": "Tiếng Ưu Miền / Dao (mối liên hệ nguồn gốc tộc người lịch sử)",
+        "iso639_3": "ium",
+        "note": "Về mặt dân tộc học lịch sử, tộc danh 'San Déo nhín' (Sơn Dao nhân) gắn với cội nguồn nhóm Dao đã chuyển đổi ngôn ngữ sang phương ngữ Hán phương Nam từ nhiều thế kỷ trước khi di cư vào Việt Nam; người Sán Dìu hiện nay không nói tiếng Ưu Miền như ngôn ngữ mẹ đẻ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ết",
+        "ipa": "et˨˦",
+        "meaning_vi": "một (1)"
+      },
+      {
+        "native": "sam",
+        "ipa": null,
+        "meaning_vi": "ba (3)"
+      },
+      {
+        "native": "ngú",
+        "ipa": null,
+        "meaning_vi": "năm (5)"
+      },
+      {
+        "native": "lộc",
+        "ipa": null,
+        "meaning_vi": "sáu (6)"
+      },
+      {
+        "native": "sịp",
+        "ipa": null,
+        "meaning_vi": "mười (10)"
+      },
+      {
+        "native": "ốc",
+        "ipa": "ok˨˦",
+        "meaning_vi": "nhà"
+      },
+      {
+        "native": "kuác",
+        "ipa": "kwak˨˦",
+        "meaning_vi": "chân"
+      },
+      {
+        "native": "huết",
+        "ipa": "hwet˨˦",
+        "meaning_vi": "máu"
+      },
+      {
+        "native": "huy",
+        "ipa": "hwi˦",
+        "meaning_vi": "chợ"
+      },
+      {
+        "native": "hua",
+        "ipa": "hwa˦",
+        "meaning_vi": "bông hoa"
+      },
+      {
+        "native": "ha",
+        "ipa": "ha˦",
+        "meaning_vi": "con cua"
+      },
+      {
+        "native": "huang",
+        "ipa": "hwaŋ˦",
+        "meaning_vi": "mùi thơm"
+      },
+      {
+        "native": "u",
+        "ipa": "u˦",
+        "meaning_vi": "đen"
+      },
+      {
+        "native": "ọi",
+        "ipa": "ɔj˨˩ˀ",
+        "meaning_vi": "muốn"
+      },
+      {
+        "native": "dzí (Vĩnh Phúc) / slí (Quảng Ninh)",
+        "ipa": "d͡zi˨˦ ~ ɬi˨˦",
+        "meaning_vi": "chết"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Khi tổng hợp giọng hát Soọng cô bằng mô hình huấn luyện trên tiếng Việt: không đưa các chuỗi phụ âm đầu lạ ('dz-', 'ts-', 'sl-', 'ku-') trực tiếp vào tokenizer kiểu BPE/tiktoken vì sẽ bị cắt vụn sub-token; cần chuyển sang xấp xỉ Quốc ngữ ('d-', 'ch-', 'x-', 'qu-') trước khi mã hóa.",
+      "Hát Soọng cô truyền thống là hát mộc đối đáp không nhạc đệm (a cappella), lời thơ thất ngôn tứ tuyệt (7 âm tiết/câu), tiết tấu bình ổn và ít luyến láy gắt; nếu dùng mô hình tạo nhạc có stem đệm cần tắt hoặc giảm tối đa nhạc cụ nền để tránh sai lệch phong cách diễn xướng.",
+      "Lưu ý hiện tượng biến thanh (tone sandhi) ở âm tiết đầu trong từ ghép hai âm tiết có thanh cao: bản ghi lời rời từng chữ có thể khác cao độ thực tế khi nghệ nhân hát hoặc nói liền ngữ lưu."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Nguyễn Thị Kim Thoa (2013). Ngữ âm tiếng Sán Dìu ở Việt Nam. Luận án Tiến sĩ Ngôn ngữ học (mã số 62.22.01.25, ký hiệu LA13.0444.3), Trường Đại học Khoa học Xã hội và Nhân văn – Đại học Quốc gia Hà Nội (lưu chiểu Thư viện Quốc gia Việt Nam).",
+      "url": "http://luanan.nlv.gov.vn/luanan?a=d&d=TTcFlGyTrTon2013",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Thị Kim Thoa (2018). Ngữ âm tiếng Sán Dìu. Nhà xuất bản Đại học Quốc gia Hà Nội.",
+      "url": "https://repository.vnu.edu.vn/handle/VNU_123/86120",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Di sản văn hóa (Bộ Văn hóa, Thể thao và Du lịch) — Hát Soọng cô của người Sán Dìu",
+      "url": "http://dsvh.gov.vn/hat-soong-co-cua-nguoi-san-diu-1224",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Yue Chinese (yuec1235)",
+      "url": "https://glottolog.org/resource/languoid/id/yuec1235",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Sán Dìu",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_S%C3%A1n_D%C3%ACu",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Sán Dìu",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_S%C3%A1n_D%C3%ACu",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — San Diu people",
+      "url": "https://en.wikipedia.org/wiki/San_Diu_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "lexicon[2..10].confidence",
+          "severity": "medium",
+          "problem": "Các từ chỉ số đếm từ 3 đến 100 ('sam', 'sị', 'ngú', 'lộc', 'sết', 'bát', 'kíu', 'sịp', 'ết bác') và 'soọng cô' được lấy từ bản phiên âm Quốc ngữ thực hành cộng đồng (Wikipedia tiếng Việt), chưa có phiên âm IPA và số thanh điệu đối chiếu trực tiếp từ luận án của Nguyễn Thị Kim Thoa (2013), nhưng đang để confidence='high'.",
+          "fix": "Hạ confidence của các mục từ chỉ có dạng viết Quốc ngữ cộng đồng (chưa có IPA chuẩn từ luận án) xuống 'medium'; đồng thời bổ sung các từ có IPA và nghĩa xác thực trực tiếp trong luận án Nguyễn Thị Kim Thoa (2013) như /i2/ ('dạ'), /haŋ1/ ('hang'), /sɔŋ1/ ('ruột'), /sɔːŋ1/ ('dài'), /vɔŋ1/ ('vàng'), /vɔːŋ1/ ('võng') với confidence='high'."
+        },
+        {
+          "path": "phonology.onsets[5]",
+          "severity": "low",
+          "problem": "Âm /p/ được đưa vào danh sách phụ âm đầu theo đề xuất chữ viết ở trang 24 luận án Nguyễn Thị Kim Thoa (2013), nhưng trong danh sách 20 phụ âm đầu tại điểm khảo sát chính Vĩnh Phúc (trang 20) không liệt kê /p/.",
+          "fix": "Giữ confidence='medium' và ghi chú rõ sự khác biệt giữa danh sách 20 phụ âm đầu tại Vĩnh Phúc (trang 20) và danh sách con chữ phụ âm đầu mở rộng trong đề xuất chữ viết chung (trang 24) của cùng tác giả."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "low",
+          "problem": "Nguyên âm đôi phương ngữ Quảng Ninh /uo/ được tách thành mục riêng trong phonology.vowels, nhưng nguyên âm dài /ɔː/ (đối lập trường độ với /ɔ/ tại Quảng Ninh: /sɔŋ1/ 'ruột' – /sɔːŋ1/ 'dài', /vɔŋ1/ 'vàng' – /vɔːŋ1/ 'võng', trang 19 luận án) mới chỉ được nhắc trong phần ghi chú của /ɔ/.",
+          "fix": "Bổ sung mục /ɔː/ (confidence='medium', ghi chú chỉ xuất hiện ở phương ngữ Quảng Ninh) để nhất quán với cách xử lý /uo/."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check ở tất cả các nguồn đang để null; nguồn luận án Tiến sĩ của Nguyễn Thị Kim Thoa (2013) tại Thư viện Quốc gia Việt Nam chưa điền URL tra cứu toàn văn.",
+          "fix": "Bổ sung URL cơ sở dữ liệu luận án Thư viện Quốc gia Việt Nam và cập nhật trạng thái url_check cho các nguồn đã kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Sán Dìu hiện chưa có mã ISO 639-3 hoặc Glottocode riêng biệt; việc gắn mã yue / yuec1235 chỉ là quy chiếu tạm thời theo phân loại Quảng Đông Khâm Liêm, trong khi khảo sát tại Việt Nam (Nguyễn Thị Kim Thoa 2013) chỉ ra mối tương ứng rất gần với tiếng Khách Gia (hak).",
+      "Nhà nước chưa ban hành bộ chữ Latinh chính thức thống nhất cho tiếng Sán Dìu; cần xác nhận quy ước ánh xạ cụ thể giữa 6 dấu thanh chữ Quốc ngữ và 6 thanh điệu (1–6) trong sách chuyên khảo Nguyễn Thị Kim Thoa (2018) cũng như tài liệu truyền dạy của các tỉnh Bắc Giang, Thái Nguyên, Vĩnh Phúc, Quảng Ninh.",
+      "Cần bổ sung phiên âm IPA đầy đủ (kèm số thanh điệu chuẩn) cho các số đếm 2–10 và từ vựng cơ bản từ bản toàn văn luận án/chuyên khảo.",
+      "Cần nghệ nhân hát Soọng cô và nhà âm nhạc học dân tộc ký âm cụ thể thang âm, cao độ mở đầu và quy luật phổ thanh điệu tiếng Sán Dìu vào giai điệu Soọng cô (dạng hị soon soọng cô và sênh ca chíu cô)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

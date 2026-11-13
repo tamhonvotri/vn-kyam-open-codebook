@@ -1,0 +1,937 @@
+{
+  "id": "vie-north",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Bắc Bộ (chuẩn Hà Nội, làm mốc)",
+  "name_en": "Vietnamese — Northern dialect (Hanoi baseline & Red River Delta varieties)",
+  "autonym": "giọng Bắc / giọng Hà Nội",
+  "ethnic_group_vi": "Kinh",
+  "language": {
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Hà Nội (mốc tham chiếu ngữ âm)",
+    "Đồng bằng sông Hồng (Bắc Ninh, Hưng Yên, Hải Dương, Hải Phòng, Thái Bình, Nam Định, Ninh Bình, Hà Nam, Vĩnh Phúc)",
+    "Trung du và miền núi phía Bắc (Phú Thọ, Bắc Giang, Thái Nguyên, Quảng Ninh... — nhóm người Kinh)"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Hệ thống vần và 6 thanh điệu của chữ Quốc ngữ phản ánh gần sát hệ thống âm vị của phương ngữ Bắc Bộ (tiếng Hà Nội); tuy nhiên ở phụ âm đầu, tiếng Hà Nội thông dụng đã nhập tr/ch, s/x và d/gi/r."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã làm mốc tham chiếu (baseline) cho tiếng Việt theo khẩu âm Hà Nội hiện đại (dựa trên Kirby 2011, Hoàng Thị Châu 2004), đồng thời ghi nhận sự khác biệt giữa phát âm tự nhiên ở Hà Nội với chính tả Quốc ngữ quy phạm (tr/ch, s/x, d/gi/r, ưu/iu, ươu/iêu) cũng như các biến thể thổ ngữ Bắc Bộ quan trọng (hiện tượng lẫn lộn l/n ở một số tỉnh đồng bằng sông Hồng, sự bảo lưu âm quặt lưỡi tr/s/r ở vùng duyên hải Nam Định – Thái Bình – Hải Phòng, và biến thể Xứ Đoài). Chưa qua thẩm định thực nghiệm của người bản xứ và nhà ngôn ngữ học.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Âm tắc hai môi hữu thanh tiền thanh hầu hóa (implosive)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Âm tắc chân răng hữu thanh tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc răng/chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc răng/chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch, tr",
+        "ipa": "tɕ",
+        "note": "Tiếng Hà Nội thông dụng nhập tr và ch thành [tɕ] (hoặc [c]); một số tỉnh duyên hải Bắc Bộ (Thái Bình, Nam Định, Ninh Bình) và phát âm truyền thanh trang trọng phân biệt tr [ʈ] với ch [tɕ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k, q",
+        "ipa": "k",
+        "note": "q luôn đi kèm âm đệm môi-ngạc mềm /w/ (viết là qu- [kw])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "f",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Phát âm rõ [v], không nhập với d/gi như phương ngữ Nam Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x, s",
+        "ipa": "s",
+        "note": "Tiếng Hà Nội thông dụng nhập s và x thành [s]; một số thổ ngữ duyên hải Bắc Bộ và phát âm quy phạm truyền hình phân biệt s [ʂ] với x [s]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d, gi, r",
+        "ipa": "z",
+        "note": "Tiếng Hà Nội thông dụng nhập cả ba thành [z]. Ở một số tỉnh duyên hải (Nam Định, Thái Bình, Hải Phòng) hoặc khi hát nhạc thính phòng/nhạc đỏ, r được phát âm là [ɾ ~ r]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "x",
+        "note": "Một số người nói hiện thực hóa gần [χ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g, gh",
+        "ipa": "ɣ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Giữ nguyên [hw] trong các tổ hợp hoa, huệ [hwaː, hwe] (không rụng h như Nam Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Ở Hà Nội chuẩn phân biệt rõ với l; ở nhiều vùng nông thôn/tỉnh đồng bằng Bắc Bộ (Hưng Yên, Hải Dương, Hải Phòng, Bắc Ninh, Thái Bình, Nam Định...) có hiện tượng lẫn lộn hoặc nhập n và l",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng, ngh",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Ở Hà Nội chuẩn phân biệt rõ với n; biến thể lẫn l/n phổ biến tại nhiều địa phương đồng bằng Bắc Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(khuyết chữ đầu nguyên âm)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết khi không có phụ âm đầu khác (ví dụ: ăn [ʔan])",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i, y",
+        "ipa": "i",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Thường ghi [ɨ] hoặc [ɯ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Cũng ký hiệu là [ɤː]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm ngắn tương ứng với ơ (cũng ký hiệu [ɤ̆])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Trước -nh/-ch phát âm ngắn và nhích ra trước (anh [ɛɲ ~ ajŋ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm ngắn tương ứng với a (cũng ký hiệu [ă])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê, yê, ia, ya",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ, ưa",
+        "ipa": "ɨə",
+        "note": "Nguyên âm đôi hướng tâm (cũng ký hiệu [ɯə])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô, ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Bảo lưu đầy đủ sự đối lập giữa -t và -c/-ch (khác với Trung/Nam Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "k̟̚",
+        "note": "Âm tắc ngạc cứng/ngạc mềm dịch trước (thường phiên âm âm vị học là /k/ hoặc [c̚] sau i, ê, e/a ngắn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k̚ ~ k͡p̚",
+        "note": "Môi hóa kép [k͡p̚] sau các nguyên âm tròn môi u, ô, o (ví dụ: học [hɔ̆k͡p̚], đục [ɗʊk͡p̚])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Bảo lưu đầy đủ sự đối lập giữa -n và -ng/-nh ở mọi vị trí nguyên âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ ~ ŋ̟",
+        "note": "Âm mũi ngạc cứng/ngạc mềm dịch trước sau i, ê, a ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ ~ ŋ͡m",
+        "note": "Môi hóa kép [ŋ͡m] sau u, ô, o (ví dụ: ông [ə̆wŋ͡m], phòng [făwŋ͡m])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i, y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối; phân biệt rõ độ dài nguyên âm chính trong ay [aj] và ai [aːj], ây [əj] và ơi [əːj]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u, o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối; phân biệt rõ au [aw] và ao [aːw], âu [əw] và êu [ew]",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal (giọng thường, ngang vừa)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "hơi thở nhẹ (slightly breathy/lax), xuống thấp đều (21 hoặc 31)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "modal/tense (căng nhẹ); ở âm tiết khép (-p, -t, -ch, -c) lên cao và ngắn (45)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "313",
+        "phonation": "hơi kẹt/thô ở đáy (tense/harsh dip); trong khẩu ngữ Hà Nội hiện đại phần đi lên cuối thường rút gọn thành xuống thấp [31] hoặc [32]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "nga",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "35",
+        "phonation": "thanh hầu hóa / nghẽn thanh môn giữa vần (glottalized/creaky ˧ˀ˥), phân biệt rõ với thanh hỏi và thanh sắc",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "21",
+        "phonation": "thanh hầu hóa mạnh và kết thúc bằng tắc thanh hầu ở âm tiết mở/bán khép (˧ˀ˨ʔ hoặc ˨ˀ˩ʔ), ngắn và dứt khoát; ở âm tiết khép (-p, -t, -ch, -c) không tắc thanh hầu nhưng thấp ngắn (21)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 6 thanh điệu đầy đủ (phân biệt rõ hỏi và ngã). Đặc trưng thanh học quan trọng của giọng Bắc Bộ/Hà Nội là sự phối hợp chặt chẽ giữa đường nét cao độ (pitch contour) và chất giọng/thanh hầu hóa (phonation/glottalization) ở thanh ngã và thanh nặng."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {
+      "slot": "onset",
+      "standard": "tr",
+      "variety": "ch",
+      "ipa_standard": "ʈ",
+      "ipa_variety": "tɕ",
+      "condition": "Khẩu ngữ chuẩn Hà Nội và phần lớn Bắc Bộ (so với chính tả Quốc ngữ phân biệt tr/ch)",
+      "example_standard": "trời",
+      "example_variety": "chời",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "s",
+      "variety": "x",
+      "ipa_standard": "ʂ",
+      "ipa_variety": "s",
+      "condition": "Khẩu ngữ chuẩn Hà Nội và phần lớn Bắc Bộ (so với chính tả Quốc ngữ phân biệt s/x)",
+      "example_standard": "sông",
+      "example_variety": "xông",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "r",
+      "variety": "d / gi",
+      "ipa_standard": "ɾ ~ r",
+      "ipa_variety": "z",
+      "condition": "Khẩu ngữ chuẩn Hà Nội nhập r vào d/gi [z]; riêng một số tỉnh duyên hải (Nam Định, Thái Bình, Hải Phòng) hoặc ca sĩ hát thính phòng vẫn giữ [ɾ ~ r]",
+      "example_standard": "ra",
+      "example_variety": "da / gia",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "d / gi",
+      "variety": "d / gi",
+      "ipa_standard": "z",
+      "ipa_variety": "z",
+      "condition": "Nhập hoàn toàn d và gi thành âm xát chân răng hữu thanh [z]",
+      "example_standard": "gia đình",
+      "example_variety": "da đình",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ưu",
+      "variety": "iu",
+      "ipa_standard": "ɨw",
+      "ipa_variety": "iw",
+      "condition": "Khẩu ngữ Hà Nội và Bắc Bộ phổ biến (đặc biệt sau phụ âm môi, thanh hầu, xát)",
+      "example_standard": "lưu / mưu / hưu",
+      "example_variety": "liu / miu / hiu",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ươu",
+      "variety": "iêu",
+      "ipa_standard": "ɨəw",
+      "ipa_variety": "iəw",
+      "condition": "Khẩu ngữ Hà Nội và Bắc Bộ phổ biến",
+      "example_standard": "rượu / hươu",
+      "example_variety": "riệu / hiêu",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "l",
+      "variety": "n",
+      "ipa_standard": "l",
+      "ipa_variety": "n",
+      "condition": "Biến thể địa phương Bắc Bộ ngoài nội thành Hà Nội (phổ biến ở Hưng Yên, Hải Dương, Hải Phòng, Bắc Ninh, Thái Bình, Nam Định, Quảng Ninh...); không thuộc chuẩn Hà Nội",
+      "example_standard": "làm",
+      "example_variety": "nàm",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "n",
+      "variety": "l",
+      "ipa_standard": "n",
+      "ipa_variety": "l",
+      "condition": "Biến thể địa phương Bắc Bộ ngoài nội thành Hà Nội (hoán đổi hoặc sửa sai quá mức song hành với l→n ở đồng bằng sông Hồng); không thuộc chuẩn Hà Nội",
+      "example_standard": "nóng nực",
+      "example_variety": "lóng lực",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "word",
+      "standard": "trời",
+      "variety": "giời",
+      "ipa_standard": "ʈəːj˨˩ ~ tɕəːj˨˩",
+      "ipa_variety": "zəːj˨˩",
+      "condition": "Biến thể từ vựng – ngữ âm lịch sử bảo lưu từ tổ hợp *bl-/tl- tiếng Việt trung đại trong khẩu ngữ Bắc Bộ",
+      "example_standard": "ông trời",
+      "example_variety": "ông giời",
+      "prevalence": "variable",
+      "confidence": "high"
+    },
+    {
+      "slot": "word",
+      "standard": "trai",
+      "variety": "giai",
+      "ipa_standard": "ʈaːj˧˧ ~ tɕaːj˧˧",
+      "ipa_variety": "zaːj˧˧",
+      "condition": "Biến thể khẩu ngữ truyền thống Bắc Bộ / Hà Nội",
+      "example_standard": "con trai",
+      "example_variety": "con giai",
+      "prevalence": "variable",
+      "confidence": "high"
+    },
+    {
+      "slot": "word",
+      "standard": "lời",
+      "variety": "nhời",
+      "ipa_standard": "ləːj˨˩",
+      "ipa_variety": "ɲəːj˨˩",
+      "condition": "Biến thể khẩu ngữ truyền thống Bắc Bộ (hiện chủ yếu gặp ở người lớn tuổi hoặc ca dao, chèo, quan họ)",
+      "example_standard": "nói lời",
+      "example_variety": "nói nhời",
+      "prevalence": "local",
+      "confidence": "high"
+    }
+  ],
+  "respelling_rules": [
+    {
+      "slot": "onset",
+      "from": "tr",
+      "to": "ch",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô hình TTS/hát đọc cứng âm quặt lưỡi [ʈ] theo chính tả, trong khi cần giọng Hà Nội tự nhiên [tɕ]. Với mô hình đã huấn luyện giọng Bắc chuẩn, giữ nguyên chính tả Quốc ngữ để tránh vỡ token."
+    },
+    {
+      "slot": "onset",
+      "from": "s",
+      "to": "x",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô hình đọc nặng [ʂ] nhân tạo; tắt mặc định vì các mô hình giọng Hà Nội đã tự phát âm s thành [s]."
+    },
+    {
+      "slot": "onset",
+      "from": "r",
+      "to": "d",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng phát âm [z] tự nhiên của Hà Nội nếu bộ G2P ép rung lưỡi [r]. Không dùng cho nhạc đỏ/thính phòng nơi ca sĩ chủ đích rung r."
+    },
+    {
+      "slot": "rhyme",
+      "from": "ưu",
+      "to": "iu",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng khẩu ngữ Bắc Bộ (hưu→hiu, mưu→miu); có thể làm lạ mặt chữ với bộ tách token BPE."
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươu",
+      "to": "iêu",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng khẩu ngữ Bắc Bộ (rượu→riệu, hươu→hiêu)."
+    },
+    {
+      "slot": "onset",
+      "from": "l",
+      "to": "n",
+      "level": "full",
+      "optional": true,
+      "note": "KHÔNG thuộc chuẩn Hà Nội. Chỉ dùng có chủ đích khi tổng hợp nhân vật/thổ ngữ địa phương đồng bằng Bắc Bộ có hiện tượng nhập l→n."
+    },
+    {
+      "slot": "onset",
+      "from": "n",
+      "to": "l",
+      "level": "full",
+      "optional": true,
+      "note": "KHÔNG thuộc chuẩn Hà Nội. Chỉ dùng có chủ đích khi mô phỏng thổ ngữ địa phương đồng bằng Bắc Bộ có hiện tượng nhập/đảo n→l."
+    }
+  ],
+  "lexicon": [
+    {
+      "standard_vi": "vâng / dạ",
+      "form": "vâng",
+      "ipa": "vəŋ˧˧",
+      "gloss_en": "yes (polite)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhỉ (tiểu từ cuối câu)",
+      "form": "nhỉ",
+      "ipa": "ɲi˧˩˧",
+      "gloss_en": "tag question particle (right?)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhé (tiểu từ cuối câu)",
+      "form": "nhé",
+      "ipa": "ɲɛ˧˥",
+      "gloss_en": "okay? / alright? (sentence-final particle)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơ (tiểu từ nhấn mạnh)",
+      "form": "cơ",
+      "ipa": "kəː˧˧",
+      "gloss_en": "emphatic/contrary sentence-final particle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ấy / đó",
+      "form": "đấy",
+      "ipa": "ɗəj˧˥",
+      "gloss_en": "that / there",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "như vậy",
+      "form": "thế",
+      "ipa": "tʰe˧˥",
+      "gloss_en": "so / like that",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chẳng / không",
+      "form": "chả",
+      "ipa": "tɕaː˧˩˧",
+      "gloss_en": "not (colloquial emphatic negation)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / ba",
+      "form": "bố",
+      "ipa": "ɓo˧˥",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ (nông thôn/truyền thống Bắc Bộ)",
+      "form": "u",
+      "ipa": "ʔu˧˧",
+      "gloss_en": "mother (traditional/rural Northern)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ (nông thôn/truyền thống Bắc Bộ)",
+      "form": "bầm",
+      "ipa": "ɓəm˨˩",
+      "gloss_en": "mother (traditional/rural Northern)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ (nông thôn/truyền thống Bắc Bộ)",
+      "form": "bu",
+      "ipa": "ɓu˧˧",
+      "gloss_en": "mother (traditional/rural Northern)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố (nông thôn/truyền thống Bắc Bộ)",
+      "form": "thầy",
+      "ipa": "tʰəj˨˩",
+      "gloss_en": "father (traditional/rural Northern)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bát (đồ ăn cơm)",
+      "form": "bát",
+      "ipa": "ɓaːt̚˦˥",
+      "gloss_en": "small eating bowl",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thìa",
+      "form": "thìa",
+      "ipa": "tʰiə˨˩",
+      "gloss_en": "spoon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cốc",
+      "form": "cốc",
+      "ipa": "kə̆wk͡p̚˦˥",
+      "gloss_en": "drinking glass / cup",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ô (che mưa nắng)",
+      "form": "ô",
+      "ipa": "ʔo˧˧",
+      "gloss_en": "umbrella",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tất (mang chân)",
+      "form": "tất",
+      "ipa": "tət̚˦˥",
+      "gloss_en": "socks",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngõ",
+      "form": "ngõ",
+      "ipa": "ŋɔ˧ˀ˥",
+      "gloss_en": "alley / lane",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rẽ",
+      "form": "rẽ",
+      "ipa": "zɛ˧ˀ˥",
+      "gloss_en": "to turn (left/right)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lợn",
+      "form": "lợn",
+      "ipa": "ləːn˧ˀ˨ʔ",
+      "gloss_en": "pig",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngô",
+      "form": "ngô",
+      "ipa": "ŋo˧˧",
+      "gloss_en": "corn / maize",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dứa",
+      "form": "dứa",
+      "ipa": "zɨə˧˥",
+      "gloss_en": "pineapple",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ốm",
+      "form": "ốm",
+      "ipa": "ʔom˧˥",
+      "gloss_en": "sick / ill (not thin)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "béo",
+      "form": "béo",
+      "ipa": "ɓɛw˧˥",
+      "gloss_en": "fat / chubby",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gầy",
+      "form": "gầy",
+      "ipa": "ɣəj˨˩",
+      "gloss_en": "thin / skinny",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca Quan họ Bắc Ninh",
+        "note": "UNESCO Di sản văn hóa phi vật thể đại diện của nhân loại (2009); hát đối đáp liền anh – liền chị vùng Kinh Bắc (Bắc Ninh, Bắc Giang), giàu tiếng đệm hư từ (i, í, a, tình, tính, tang)"
+      },
+      {
+        "name": "Ca trù (Hát ả đào / Hát cô đầu)",
+        "note": "UNESCO Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp (2009); nghệ thuật hát thơ bác học Bắc Bộ với kỹ thuật ém hơi, nhả chữ, đổ hột tinh vi"
+      },
+      {
+        "name": "Chèo đồng bằng Bắc Bộ",
+        "note": "Sân khấu kịch hát dân gian đồng bằng sông Hồng, kết hợp hát nói, vỉa, sắp, đào liễu, sử rầu..."
+      },
+      {
+        "name": "Hát văn / Chầu văn",
+        "note": "Âm nhạc nghi lễ gắn với Thực hành Tín ngưỡng thờ Mẫu Tam phủ của người Việt (UNESCO 2016), tiết tấu dồn dập, đảo phách đặc trưng (dọc, cờn, phú, xá)"
+      },
+      {
+        "name": "Hát xoan Phú Thọ",
+        "note": "UNESCO Di sản văn hóa phi vật thể đại diện của nhân loại (2017); hát cửa đình vùng Đất Tổ trung du Bắc Bộ"
+      },
+      {
+        "name": "Hát xẩm",
+        "note": "Dân ca kể chuyện đường phố và chợ quê Bắc Bộ (xẩm chợ, xẩm tàu điện Hà Nội)"
+      },
+      {
+        "name": "Nhạc trữ tình Hà Nội / Nhạc thính phòng – cách mạng",
+        "note": "Phong cách ca khúc tân nhạc miền Bắc chú trọng tròn vành rõ chữ, giữ chuẩn 6 thanh điệu, đôi khi rung nhẹ phụ âm r [ɾ] ở phong cách thính phòng"
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Nảy hạt (Vang, rền, nền, nảy — Quan họ & Chèo)",
+        "description": "Kỹ thuật bật nốt phụ ngắn bằng cơ hoành và thanh môn tạo chuỗi nốt nảy giòn, rõ trước hoặc sau âm chính mà không làm nhòe thanh điệu của chữ.",
+        "abc": "(d1e1d1e5)",
+        "confidence": "low"
+      },
+      {
+        "name": "Đổ hột / Đổ con kiến (Ca trù)",
+        "description": "Kỹ thuật rung và ngắt thanh môn cực mịn trong cổ họng (ém hơi trong khoang mũi – họng) trên một cao độ ngân dài, đặc trưng của đào nương Ca trù.",
+        "abc": "!trill!e6",
+        "confidence": "low"
+      },
+      {
+        "name": "Luyến hư từ kết câu Quan họ (í a / tình tính tang)",
+        "description": "Chuỗi luyến mềm qua các nguyên âm đệm mở (i, a, ơ, ư) để giải phóng giai điệu khỏi ràng buộc thanh điệu của từ thực.",
+        "abc": "(e2g2a4)",
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Điệu thức ngũ cung Bắc (hệ Bắc / điệu Xuân)",
+        "note": "Thang 5 âm không bán âm (tương đương C–D–F–G–A hoặc D–E–G–A–B), âm hưởng trong sáng, bình ổn, phổ biến trong Quan họ, Chèo và dân ca đồng bằng sông Hồng.",
+        "confidence": "medium"
+      },
+      {
+        "name": "Điệu Sa mạc / Bồng mạc (ngâm thơ & dân ca Bắc Bộ)",
+        "note": "Hệ hơi trầm buồn, nhấn các bậc không ổn định và rung rộng, hay dùng trong ngâm thơ kiểu Bắc, hát xẩm và các làn điệu bi thương của Chèo.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn đáy"
+      },
+      {
+        "name": "Phách (cỗ phách Ca trù)"
+      },
+      {
+        "name": "Trống chầu"
+      },
+      {
+        "name": "Đàn bầu"
+      },
+      {
+        "name": "Đàn nguyệt (đàn kìm)"
+      },
+      {
+        "name": "Đàn nhị"
+      },
+      {
+        "name": "Sáo trúc"
+      },
+      {
+        "name": "Trống đế (trống Chèo)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "is_orthographic_baseline": true,
+    "orthography_handling": "Giữ nguyên chính tả chữ Quốc ngữ chuẩn (level='light' không áp dụng bất kỳ phép viết lại nào). Hầu hết các bộ G2P, ASR (Whisper, PhoWhisper) và mô hình TTS/giọng hát tiếng Việt mặc định ánh xạ chữ Quốc ngữ sang giọng chuẩn Hà Nội.",
+    "phonation_and_tone_fidelity": "Khác với giọng Nam Bộ (5 thanh, ít thanh hầu hóa), tổng hợp giọng Bắc Bộ/Hà Nội đòi hỏi tái tạo chính xác chất giọng nghẽn thanh môn (glottalization/creakiness) ở giữa thanh ngã [3ˀ5] và cuối thanh nặng [3ˀ2ʔ]. Nếu thiếu đặc trưng này, thanh ngã dễ nghe giống thanh sắc và thanh nặng nghe lơ lớ ngoại quốc.",
+    "singing_diction_notes": [
+      "Trong ca khúc tân nhạc đại chúng tại Hà Nội, tr/ch đọc [tɕ], s/x đọc [s], d/gi/r đọc [z]. Tuy nhiên, trong nhạc đỏ/thính phòng học viện, ca sĩ thường rung nhẹ r [ɾ] và đôi khi phân biệt s [ʂ] / tr [ʈ]: cần gắn nhãn phong cách (pop-ballad vs. classical/chamber) khi huấn luyện LoRA giọng hát.",
+      "Vì giọng Bắc phân biệt chặt 6 thanh điệu, khi sáng tác hoặc sinh giai điệu tự động (melody-to-lyric / lyric-to-melody), từ mang thanh ngã thường cần nốt luyến đi lên (grace note thấp nhảy lên cao) và thanh hỏi cần nốt trầm hoặc luyến võng để không bị 'cưỡng chữ' (đổ dấu)."
+    ],
+    "sub_varieties": [
+      {
+        "id": "hanoi-urban",
+        "name_vi": "Tiếng Hà Nội nội thành (chuẩn thông dụng)",
+        "note": "6 thanh rõ; phân biệt l/n hoàn toàn; nhập tr/ch [tɕ], s/x [s], d/gi/r [z]; giữ đầy đủ các vần cuối -n/-ng, -t/-c."
+      },
+      {
+        "id": "red-river-delta-ln",
+        "name_vi": "Thổ ngữ đồng bằng Bắc Bộ có biến thể l/n",
+        "note": "Gặp ở nhiều vùng thuộc Hưng Yên, Hải Dương, Hải Phòng, Bắc Ninh, Thái Bình, Nam Định, Quảng Ninh... Có thể nhập về [n], nhập về [l], hoặc đảo chiều l↔n tùy địa phương và từ vựng."
+      },
+      {
+        "id": "red-river-coastal",
+        "name_vi": "Thổ ngữ duyên hải Bắc Bộ (Nam Định, Thái Bình, Ninh Bình, một phần Hải Phòng)",
+        "note": "Nhiều vùng bảo lưu âm quặt lưỡi/rung r [ɾ ~ r], tr [ʈ], s [ʂ] tốt hơn nội thành Hà Nội; một số xã ven biển có sắc thái nguyên âm và l/n riêng."
+      },
+      {
+        "id": "xu-doai",
+        "name_vi": "Thổ ngữ Xứ Đoài (Sơn Tây, Ba Vì, Phúc Thọ — phía Tây Hà Nội, một phần Vĩnh Phúc, Phú Thọ)",
+        "note": "Nổi tiếng với biến thể đường nét thanh điệu đặc trưng (thanh hỏi, ngã, sắc có cao độ khác nội thành Hà Nội) và một số biến thể nguyên âm đôi trong khẩu ngữ cổ."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Kirby, J. P. (2011). Vietnamese (Hanoi Vietnamese). Journal of the International Phonetic Association, 41(3), 381–392.",
+      "url": "https://doi.org/10.1017/S0025100311000181",
+      "url_check": "http_429",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hoàng Thị Châu (2004). Phương ngữ học tiếng Việt. NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Thompson, L. C. (1965). A Vietnamese Grammar. University of Washington Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Vietnamese phonology",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Âm vị học tiếng Việt",
+      "url": "https://vi.wikipedia.org/wiki/%C3%82m_v%E1%BB%8B_h%E1%BB%8Dc_ti%E1%BA%BFng_Vi%E1%BB%87t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO — Quan Họ Bắc Ninh folk songs",
+      "url": "https://ich.unesco.org/en/RL/quan-ho-bac-ninh-folk-songs-00183",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO — Ca trù singing",
+      "url": "https://ich.unesco.org/en/USL/ca-tru-singing-00309",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "correspondences_from_standard_vietnamese[8].ipa_standard",
+          "severity": "low",
+          "problem": "Ở mục correspondences_from_standard_vietnamese[0], âm chuẩn chính tả của 'tr' được ghi là [ʈ], nhưng ở mục [8] ('trời') và [9] ('trai') lại chỉ ghi [tɕ].",
+          "fix": "Ghi rõ cả dạng quy phạm chính tả lẫn khẩu ngữ chuẩn Hà Nội: 'ʈəːj˨˩ ~ tɕəːj˨˩' và 'ʈaːj˧˧ ~ tɕaːj˧˧' để nhất quán nội bộ."
+        },
+        {
+          "path": "lexicon[8]",
+          "severity": "low",
+          "problem": "Trường 'form' gộp 3 từ khác nhau bằng dấu gạch chéo ('u / bầm / bu'), gây khó khăn cho công cụ xử lý tự động theo từ đơn.",
+          "fix": "Tách thành các mục từ vựng riêng biệt cho 'u', 'bầm', 'bu'."
+        },
+        {
+          "path": "lexicon[10].ipa",
+          "severity": "low",
+          "problem": "Các âm tiết khép mang thanh sắc ('bát', 'cốc', 'tất') đang ghi ký hiệu thanh điệu '˧˥', chưa khớp với mô tả ở phonology.tones[2] là thanh sắc ở âm tiết khép lên cao ngắn (45 / ˦˥).",
+          "fix": "Cập nhật ký hiệu thanh điệu ở âm tiết khép thanh sắc thành '˦˥' (hoặc '˧˥ ~ ˦˥')."
+        },
+        {
+          "path": "music.ornaments",
+          "severity": "low",
+          "problem": "Ký hiệu ABC cho các kỹ thuật 'Nảy hạt', 'Đổ hột', 'Luyến hư từ' là ước lượng minh họa của mô hình, chưa có bản ký âm chuẩn đối chiếu.",
+          "fix": "Hạ confidence của các mục trong music.ornaments từ 'medium' xuống 'low'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần bổ sung dữ liệu đo đạc âm học chi tiết về đường nét thanh điệu và nguyên âm của tiểu vùng Xứ Đoài (Sơn Tây – Ba Vì) nếu tách thành bảng mã riêng.",
+      "Cần nhạc sĩ cổ nhạc Bắc Bộ thẩm định ký hiệu ABC minh họa cho kỹ thuật nảy hạt Quan họ và đổ hột Ca trù.",
+      "Cần khảo sát thực nghiệm trên tokenizer của các mô hình giọng hát tiếng Việt để xác nhận mức độ ảnh hưởng khi viết lại tùy chọn ưu→iu và ươu→iêu."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

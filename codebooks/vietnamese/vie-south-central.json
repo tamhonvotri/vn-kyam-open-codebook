@@ -1,0 +1,972 @@
+{
+  "id": "vie-south-central",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Phương ngữ Nam Trung Bộ (Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên)",
+  "name_en": "Vietnamese — South-Central dialect (Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên)",
+  "autonym": "giọng Quảng / giọng Nẫu / giọng Nam Trung Bộ",
+  "ethnic_group_vi": "Kinh",
+  "language": {
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "TP. Đà Nẵng",
+    "Quảng Nam",
+    "Quảng Ngãi",
+    "Bình Định",
+    "Phú Yên"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": null
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu phương ngữ học và âm vị học thực địa (Hoàng Thị Châu, Andrea Hòa Phạm, Lê Nguyễn Hoàng Mai, Nguyễn Thị Thanh Truyền). Phương ngữ Nam Trung Bộ tại dải Đà Nẵng – Phú Yên không đồng nhất tuyệt đối mà phân hóa thành hai cụm thổ ngữ chính: cụm xứ Quảng (Đà Nẵng, Quảng Nam, Quảng Ngãi — nổi bật với âm vị /ɑ/ và chuỗi dịch chuyển nguyên âm dòng sau/trước) và cụm xứ Nẫu / Bình Phú (Bình Định, Phú Yên — nổi bật với biến đổi vần ôi→âu, giữ khá rõ phụ âm quặt lưỡi tr/s/r và âm vực trầm). Chưa có kiểm chứng thực nghiệm trên tokenizer/mô hình giọng hát và chưa qua thẩm định của người bản xứ.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "v",
+        "ipa": "j ~ vj",
+        "note": "Trong khẩu ngữ tự nhiên thường phát âm [j] trùng với d/gi; khi đọc văn bản hoặc nói trang trọng có thể xuất hiện [vj] hoặc [v]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d, gi",
+        "ipa": "j",
+        "note": "Hợp nhất hoàn toàn d và gi thành bán nguyên âm [j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ",
+        "note": "Phân biệt rõ với ch /c/ ở Bình Định, Phú Yên, Quảng Ngãi và phần lớn vùng nông thôn Quảng Nam; ở đô thị Đà Nẵng có biến thể nhập với ch",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ",
+        "note": "Phân biệt khá rõ với x /s/, đặc biệt tại Bình Định, Phú Yên và Quảng Ngãi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ʐ ~ ɹ ~ ɾ",
+        "note": "Giữ âm xát quặt lưỡi hoặc âm tiếp cận rõ; không biến thành [ɣ] như một số thổ ngữ Tây Nam Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu",
+        "ipa": "w ~ kw",
+        "note": "Thường phát âm [w] trong khẩu ngữ (quê → [we]), hoặc [ɣw] ở một số thổ ngữ nông thôn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h + w (hoa, huệ, hoàng)",
+        "ipa": "w ~ ɣw",
+        "note": "Bán nguyên âm /w/ làm rụng /h/ hoặc xát hóa thành [ɣw] tùy thổ ngữ (hoa → oa / goa)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a (âm tiết mở và trước -ng/-c ở giọng Quảng)",
+        "ipa": "ɑː ~ ɔː",
+        "note": "Đặc trưng nổi bật của giọng Quảng Nam – Đà Nẵng: nguyên âm thấp hàng sau không tròn môi /ɑ/ (người vùng khác thường nghe gần như 'oa' hoặc 'o', ví dụ: ba má → [bɑ mɑ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă (trong ăn, ăng, ăt, ăc ở giọng Quảng)",
+        "ipa": "æ ~ ɛ",
+        "note": "Nguyên âm ngắn /ɐ/ nhích ra trước thành [æ] hoặc [ɛ] trước âm cuối lưỡi/ngạc mềm (ăn măng → [ɛŋ mɛŋ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a (trong vần ao, am, ap ở giọng Quảng)",
+        "ipa": "oː ~ ɔː",
+        "note": "Tròn môi hóa và nâng cao thành [oː] (sao → sô, làm → lồm, đạp → độp)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "n (sau nguyên âm không phải i, ê)",
+        "ipa": "ŋ",
+        "note": "Nhập -n vào -ng giống phương ngữ Nam Bộ (bàn ~ bàng, con ~ coong, bún ~ búng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t (sau nguyên âm không phải i, ê)",
+        "ipa": "k",
+        "note": "Nhập -t vào -c giống phương ngữ Nam Bộ (mát ~ mác, mứt ~ mức, bột ~ bộc)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ch (sau i, ê, a)",
+        "ipa": "n / t",
+        "note": "Phát âm thành âm đầu lưỡi đi kèm biến đổi nguyên âm chính (-inh → [ɨn], -anh → [an] hoặc [ɛn])",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "âm vực trầm",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "24",
+        "phonation": "xuất phát hơi thấp rồi vút lên (24 ~ 35)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "214",
+        "phonation": null,
+        "merges_with": "nga",
+        "confidence": "high"
+      },
+      {
+        "id": "nga",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "214",
+        "phonation": "không nghẽn thanh hầu",
+        "merges_with": "hoi",
+        "confidence": "high"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "212",
+        "phonation": "ít thanh hầu hóa căng như giọng Bắc; ở Bình Định xuống thấp và dứt nặng",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 5 thanh điệu phổ biến toàn vùng (hỏi và ngã nhập làm một, không nghẽn thanh hầu); một số khảo cứu ghi nhận dấu vết phân biệt cao độ hỏi/ngã ở một bộ phận nhỏ người lớn tuổi tại Bình Định nhưng đang mai một."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "hỏi",
+      "ipa_standard": "35 (nghẽn thanh hầu)",
+      "ipa_variety": "214",
+      "condition": null,
+      "example_standard": "cũ kỹ",
+      "example_variety": "củ kỉ",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "v",
+      "variety": "d",
+      "ipa_standard": "v",
+      "ipa_variety": "j",
+      "condition": "Khẩu ngữ hàng ngày",
+      "example_standard": "vui vẻ",
+      "example_variety": "dui dẻ",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "qu",
+      "variety": "w / gu",
+      "ipa_standard": "kw",
+      "ipa_variety": "w ~ ɣw",
+      "condition": "Khẩu ngữ tự nhiên",
+      "example_standard": "quê quán",
+      "example_variety": "wê wán / guê goán",
+      "prevalence": "common",
+      "confidence": "medium"
+    },
+    {
+      "slot": "nucleus",
+      "standard": "a",
+      "variety": "oa / o",
+      "ipa_standard": "aː",
+      "ipa_variety": "ɑː",
+      "condition": "Âm tiết mở trong cụm xứ Quảng (Quảng Nam, Đà Nẵng, bắc Quảng Ngãi)",
+      "example_standard": "ba má",
+      "example_variety": "boa móa",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ao",
+      "variety": "ô",
+      "ipa_standard": "aːw",
+      "ipa_variety": "oː",
+      "condition": "Cụm xứ Quảng (Quảng Nam, Đà Nẵng, Quảng Ngãi)",
+      "example_standard": "chiêm bao",
+      "example_variety": "chim bô",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "am",
+      "variety": "ôm",
+      "ipa_standard": "aːm",
+      "ipa_variety": "oːm",
+      "condition": "Cụm xứ Quảng (Quảng Nam, Đà Nẵng, Quảng Ngãi)",
+      "example_standard": "Tam Kỳ",
+      "example_variety": "Tôm Kỳ",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ap",
+      "variety": "ôp",
+      "ipa_standard": "aːp",
+      "ipa_variety": "oːp",
+      "condition": "Cụm xứ Quảng (Quảng Nam, Đà Nẵng, Quảng Ngãi)",
+      "example_standard": "xe đạp",
+      "example_variety": "xe độp",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "âu",
+      "variety": "ao",
+      "ipa_standard": "əw",
+      "ipa_variety": "aːw",
+      "condition": "Cụm xứ Quảng (dịch chuyển chuỗi kéo vào vị trí của ao sau khi ao → ô)",
+      "example_standard": "đi đâu",
+      "example_variety": "đi đao",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ây",
+      "variety": "ai",
+      "ipa_standard": "əj",
+      "ipa_variety": "aːj",
+      "condition": "Cụm xứ Quảng và một số thổ ngữ Nam Trung Bộ",
+      "example_standard": "mấy cây",
+      "example_variety": "mái cai",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ăn / ăng",
+      "variety": "eng",
+      "ipa_standard": "an / aŋ",
+      "ipa_variety": "ɛŋ ~ æŋ",
+      "condition": "Cụm xứ Quảng (Quảng Nam, Quảng Ngãi)",
+      "example_standard": "ăn măng",
+      "example_variety": "eng meng",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ăt / ăc",
+      "variety": "ec",
+      "ipa_standard": "at / ak",
+      "ipa_variety": "ɛk ~ æk",
+      "condition": "Cụm xứ Quảng (Quảng Nam, Quảng Ngãi)",
+      "example_standard": "thắc mắc",
+      "example_variety": "théc méc",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ai",
+      "variety": "ưa / ơ",
+      "ipa_standard": "aːj",
+      "ipa_variety": "ɨə ~ əː",
+      "condition": "Thổ ngữ Quảng Nam, Quảng Ngãi (ai → ưa) và một số thổ ngữ Bình Định (ai → ơ)",
+      "example_standard": "thứ hai",
+      "example_variety": "thứ hưa / thứ hơ",
+      "prevalence": "local",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ay",
+      "variety": "a",
+      "ipa_standard": "aj",
+      "ipa_variety": "aː ~ æː",
+      "condition": "Thổ ngữ Quảng Nam, Quảng Ngãi, Bình Định (rụng bán nguyên âm cuối -j)",
+      "example_standard": "ngày nay",
+      "example_variety": "ngà na",
+      "prevalence": "local",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "au",
+      "variety": "a",
+      "ipa_standard": "aw",
+      "ipa_variety": "aː",
+      "condition": "Thổ ngữ Quảng Ngãi, Quảng Nam (rụng bán nguyên âm cuối -w)",
+      "example_standard": "tàu cau",
+      "example_variety": "tà ca",
+      "prevalence": "local",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "oi",
+      "variety": "ua",
+      "ipa_standard": "ɔj",
+      "ipa_variety": "uə",
+      "condition": "Thổ ngữ Quảng Ngãi và nam Quảng Nam",
+      "example_standard": "coi bói",
+      "example_variety": "cua búa",
+      "prevalence": "local",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ôi",
+      "variety": "âu",
+      "ipa_standard": "oj",
+      "ipa_variety": "əw",
+      "condition": "Đặc trưng cụm xứ Nẫu (Bình Định, Phú Yên) và nam Quảng Ngãi",
+      "example_standard": "biết rồi",
+      "example_variety": "biết rầu",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "an",
+      "variety": "ang / oang",
+      "ipa_standard": "aːn",
+      "ipa_variety": "aːŋ ~ ɑːŋ",
+      "condition": "Toàn vùng nhập -n vào -ng; riêng xứ Quảng nguyên âm chính lùi sau thành [ɑːŋ]",
+      "example_standard": "hội an",
+      "example_variety": "hội ang / hội oang",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "at",
+      "variety": "ac / oac",
+      "ipa_standard": "aːt",
+      "ipa_variety": "aːk ~ ɑːk",
+      "condition": "Toàn vùng nhập -t vào -c; riêng xứ Quảng nguyên âm chính lùi sau thành [ɑːk]",
+      "example_standard": "ca hát",
+      "example_variety": "ca hác / coa hoác",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "anh",
+      "variety": "ăn",
+      "ipa_standard": "ajŋ",
+      "ipa_variety": "an",
+      "condition": null,
+      "example_standard": "nhanh",
+      "example_variety": "nhăn",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ach",
+      "variety": "ăt",
+      "ipa_standard": "ajk",
+      "ipa_variety": "at",
+      "condition": null,
+      "example_standard": "khách",
+      "example_variety": "khắt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "inh",
+      "variety": "ưn",
+      "ipa_standard": "iŋ",
+      "ipa_variety": "ɨn",
+      "condition": null,
+      "example_standard": "Bình Định",
+      "example_variety": "Bừn Đựn",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ich",
+      "variety": "ưt",
+      "ipa_standard": "ik",
+      "ipa_variety": "ɨt",
+      "condition": null,
+      "example_standard": "lịch",
+      "example_variety": "lựt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "iêu",
+      "variety": "iu",
+      "ipa_standard": "iəw",
+      "ipa_variety": "iw",
+      "condition": null,
+      "example_standard": "buổi chiều",
+      "example_variety": "bủi chìu",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "uôi",
+      "variety": "ui",
+      "ipa_standard": "uəj",
+      "ipa_variety": "uj",
+      "condition": null,
+      "example_standard": "trái chuối",
+      "example_variety": "trái chúi",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ươi",
+      "variety": "ưi",
+      "ipa_standard": "ɨəj",
+      "ipa_variety": "ɨj",
+      "condition": null,
+      "example_standard": "tươi cười",
+      "example_variety": "tưi cừi",
+      "prevalence": "common",
+      "confidence": "medium"
+    }
+  ],
+  "respelling_rules": [
+    {
+      "slot": "tone",
+      "from": "nga",
+      "to": "hoi",
+      "level": "full",
+      "note": "Nhập thanh ngã vào thanh hỏi trên toàn vùng Nam Trung Bộ. Cần kiểm tra độ vỡ sub-token trước khi đưa vào mô hình TTS/SVS."
+    },
+    {
+      "slot": "word",
+      "from": "cũ",
+      "to": "củ",
+      "level": "light",
+      "note": "Từ đơn phổ biến khi nhập thanh ngã → hỏi"
+    },
+    {
+      "slot": "word",
+      "from": "rồi",
+      "to": "rầu",
+      "level": "light",
+      "optional": true,
+      "note": "Từ nhận diện đặc trưng của giọng Bình Định – Phú Yên (xứ Nẫu) và câu hô Bài chòi"
+    },
+    {
+      "slot": "word",
+      "from": "thôi",
+      "to": "thâu",
+      "level": "light",
+      "optional": true,
+      "note": "Đặc trưng Bình Định – Phú Yên"
+    },
+    {
+      "slot": "onset",
+      "from": "v",
+      "to": "d",
+      "level": "full",
+      "note": "Phát âm [j] trong khẩu ngữ. Lưu ý không gộp tr→ch hay s→x vì người Nam Trung Bộ (nhất là Bình Định, Phú Yên, Quảng Ngãi) vẫn phân biệt rõ."
+    },
+    {
+      "slot": "rhyme",
+      "from": "an",
+      "to": "ang",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "at",
+      "to": "ac",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "anh",
+      "to": "ăn",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ach",
+      "to": "ăt",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "inh",
+      "to": "ưn",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ich",
+      "to": "ưt",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iêu",
+      "to": "iu",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "uôi",
+      "to": "ui",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươi",
+      "to": "ưi",
+      "level": "full",
+      "optional": true
+    },
+    {
+      "slot": "rhyme",
+      "from": "ao",
+      "to": "ô",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô phỏng khẩu âm xứ Quảng (Quảng Nam – Đà Nẵng – Quảng Ngãi)"
+    },
+    {
+      "slot": "rhyme",
+      "from": "am",
+      "to": "ôm",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô phỏng khẩu âm xứ Quảng"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ap",
+      "to": "ôp",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô phỏng khẩu âm xứ Quảng"
+    },
+    {
+      "slot": "rhyme",
+      "from": "âu",
+      "to": "ao",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô phỏng khẩu âm xứ Quảng (áp dụng sau quy tắc ao → ô để tránh gộp ngược)"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ây",
+      "to": "ai",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô phỏng khẩu âm xứ Quảng"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ăn",
+      "to": "eng",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật cho giọng Quảng đậm; dễ tạo âm tiết hiếm gây vỡ token"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ăng",
+      "to": "eng",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật cho giọng Quảng đậm"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ôi",
+      "to": "âu",
+      "level": "full",
+      "optional": true,
+      "note": "Chỉ bật khi mô phỏng khẩu âm xứ Nẫu (Bình Định – Phú Yên); không bật chung với bộ quy tắc xứ Quảng"
+    }
+  ],
+  "lexicon": [
+    {
+      "standard_vi": "sao / thế nào",
+      "form": "răng",
+      "ipa": "ʐæŋ˧˧",
+      "gloss_en": "how / why (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vậy / thế",
+      "form": "rứa",
+      "ipa": "ʐɨə˨˦",
+      "gloss_en": "like that / so (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "này",
+      "form": "ni",
+      "ipa": "ni˧˧",
+      "gloss_en": "this (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ấy / đó",
+      "form": "nớ",
+      "ipa": "nəː˨˦",
+      "gloss_en": "that (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kìa",
+      "form": "tê",
+      "ipa": "te˧˧",
+      "gloss_en": "over there (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đâu / nào",
+      "form": "mô",
+      "ipa": "mo˧˧",
+      "gloss_en": "where / any (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gì",
+      "form": "chi",
+      "ipa": "ci˧˧",
+      "gloss_en": "what (Quảng Nam – Đà Nẵng – Quảng Ngãi)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bây giờ",
+      "form": "chừ",
+      "ipa": "cɨ˨˩",
+      "gloss_en": "now (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người ta / họ / mình (tự xưng thân mật)",
+      "form": "nẫu",
+      "ipa": "nəw˨˩˦",
+      "gloss_en": "they / people / I (characteristic Bình Định – Phú Yên pronoun)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rồi",
+      "form": "rầu",
+      "ipa": "ʐəw˨˩",
+      "gloss_en": "already (Bình Định – Phú Yên)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhỉ (tiểu từ cuối câu)",
+      "form": "hỉ / hầy",
+      "ipa": "hi˨˩˦ / həj˨˩",
+      "gloss_en": "sentence-final tag particle (Quảng Nam – Đà Nẵng)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một lát / một lúc",
+      "form": "một chặp",
+      "ipa": null,
+      "gloss_en": "a moment / a while",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mãi / liên tục",
+      "form": "miết",
+      "ipa": "miək˨˦",
+      "gloss_en": "constantly / endlessly",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhìn / xem",
+      "form": "ngó",
+      "ipa": "ŋɔ˨˦",
+      "gloss_en": "to look at",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bảo",
+      "form": "biểu",
+      "ipa": "biw˨˩˦",
+      "gloss_en": "to tell / ask someone to do something",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mấy hôm nay",
+      "form": "hổm rày",
+      "ipa": null,
+      "gloss_en": "these past few days",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hôm nay",
+      "form": "bữa ni / bữa nay",
+      "ipa": null,
+      "gloss_en": "today",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ông ấy / bà ấy / anh ấy / chị ấy",
+      "form": "ổng / bả / ảnh / chỉ",
+      "ipa": null,
+      "gloss_en": "he / she (anaphoric fused pronouns with hỏi tone)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ở trong ấy / ngoài ấy / trên ấy",
+      "form": "trỏng / ngoải / trển",
+      "ipa": null,
+      "gloss_en": "in there / out there / up there",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chăn",
+      "form": "mền",
+      "ipa": "men˨˩",
+      "gloss_en": "blanket",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lạc",
+      "form": "đậu phộng",
+      "ipa": null,
+      "gloss_en": "peanut",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lợn",
+      "form": "heo",
+      "ipa": "hɛw˧˧",
+      "gloss_en": "pig",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Nghệ thuật Bài chòi Trung Bộ",
+        "note": "UNESCO ghi danh Di sản văn hóa phi vật thể đại diện của nhân loại (2017); gồm Hội đánh Bài chòi (anh Hiệu, chị Hiệu hô thai) và Hát Bài chòi trải chiếu / sân khấu dân ca kịch Khu 5 từ Đà Nẵng đến Phú Yên"
+      },
+      {
+        "name": "Hát bội (Tuồng) Khu 5 (Bình Định, Quảng Nam)",
+        "note": "Cái nôi tuồng truyền thống gắn với Đào Tấn (Bình Định) và tuồng xứ Quảng"
+      },
+      {
+        "name": "Hát Bả trạo (Hò bá trạo)",
+        "note": "Diễn xướng nghi lễ chèo thuyền thờ cá Ông (Nam Hải) của cư dân vạn chài ven biển Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên"
+      },
+      {
+        "name": "Hò khoan, hò giã vôi và các điệu Lý Nam Trung Bộ",
+        "note": "Ví dụ: Hò khoan Quế Sơn / Duy Xuyên, Hò đập đất, Lý thương nhau, Lý chiều chiều, Lý thiên thai"
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Hô thai / rao đầu câu Bài chòi",
+        "description": "Câu mở đầu tự do nhịp (rubato), cất cao và ngân rung trên tiếng đệm 'ơi... ờ...' hoặc 'ấy mấy...' trước khi vào nhịp phách sanh sứa/song loan.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Luyến chữ cuối câu lục bát theo thanh điệu địa phương",
+        "description": "Chữ thứ 6 và thứ 8 trong thơ lục bát được luyến mềm qua quãng 2 hoặc quãng 3, giữ nguyên màu nguyên âm đặc trưng xứ Quảng / xứ Nẫu.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống 4 làn điệu gốc Bài chòi: Xuân nữ, Xàng xê, Cổ bản, Hò Quảng",
+        "note": "Xuân nữ (mượt mà, trữ tình; có Xuân nữ cổ và Xuân nữ mới), Xàng xê (có Xàng xê dựng và Xàng xê lụy), Cổ bản (chắc khỏe, trang trọng), Hò Quảng (sâu lắng, tự sự). Dựa trên thang ngũ cung hơi Xuân và hơi Ai/Nam đặc trưng Khu 5.",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn nhị (đàn cò — nhạc cụ chủ đạo dẫn giai điệu Bài chòi)"
+      },
+      {
+        "name": "Đàn nguyệt (đàn kìm)"
+      },
+      {
+        "name": "Ghi-ta phím lõm"
+      },
+      {
+        "name": "Sanh sứa / song loan / mõ tre"
+      },
+      {
+        "name": "Trống chiến, trống chầu"
+      },
+      {
+        "name": "Kèn bóp (kèn bầu — dùng trong Hát bội và Bả trạo)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "id": "quang-nam-da-nang-quang-ngai",
+        "name_vi": "Cụm thổ ngữ xứ Quảng (Đà Nẵng, Quảng Nam, Quảng Ngãi)",
+        "note": "Biến đổi mạnh nguyên âm chính: a → [ɑ] (nghe như oa/o), ao → ô, am/ap → ôm/ôp, âu → ao, ây → ai, ăn/ăng → eng; từ vựng miền Trung (răng, rứa, mô, tê, ni, nớ, chừ)."
+      },
+      {
+        "id": "binh-dinh-phu-yen",
+        "name_vi": "Cụm thổ ngữ xứ Nẫu / Bình Phú (Bình Định, Phú Yên)",
+        "note": "Không có chuỗi a → oa hay ao → ô như Quảng Nam; đặc trưng bởi ôi → âu (rồi → rầu, thôi → thâu), ai → ơ/ê ở một số huyện, giữ rất rõ phụ âm quặt lưỡi tr/s/r, đại từ 'nẫu'."
+      }
+    ],
+    "orthographic_respelling_warnings": [
+      "KHÔNG trộn lẫn quy tắc respelling của cụm xứ Quảng (ao→ô, am→ôm, ăn→eng) với cụm xứ Nẫu (ôi→âu) trong cùng một bài hát hoặc cùng một nhân vật TTS.",
+      "Cách viết giả âm 'boa', 'móa', 'boàn', 'moát', 'théc méc' giúp hình dung khẩu âm Quảng Nam nhưng tạo ra chuỗi ký tự hiếm hoặc ngoài từ vựng chuẩn của BPE/tiktoken, rất dễ gây vỡ token khi huấn luyện SVS/TTS. Nên giữ chính tả Quốc ngữ chuẩn và điều khiển khẩu âm qua speaker/region adapter (LoRA hoặc style embedding).",
+      "Khác với phương ngữ Nam Bộ (vie-south), KHÔNG áp dụng trộn embedding tr→ch hay s→x cho giọng Bình Định, Phú Yên và Quảng Ngãi vì người bản xứ phân biệt rõ âm quặt lưỡi."
+    ],
+    "chain_shift_order_note": "Nếu dùng công cụ respelling mức 'full' cho giọng Quảng Nam, bắt buộc thực hiện theo thứ tự chuỗi kéo (pull-chain): (1) ao → ô trước, (2) âu → ao sau; (1) ai → ưa trước, (2) ây → ai sau, để tránh gộp nhầm hai lớp vần vào một."
+  },
+  "sources": [
+    {
+      "title": "Pham, Andrea Hoa (2020). Contact-induced change and the phonemicization of the vowel /ɑ/ in Quảng Nam Vietnamese. John Benjamins Publishing Company.",
+      "url": "https://doi.org/10.1075/cilt.350.20pha",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Phạm, Andrea Hòa (2014). Ngôn ngữ biến đổi và số phận của nguyên âm /a/ trong giọng Quảng Nam. Tạp chí Ngôn ngữ, số 6, tr. 10–18.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phạm, Andrea Hòa (2022). Nguồn gốc và sự hình thành giọng Quảng Nam (Quang Nam Phonology and Sound Change through Contact). NXB Đà Nẵng.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lê, Nguyễn Hoàng Mai (2016). Âm sắc, trường độ và giải pháp cho hệ thống nguyên âm thổ ngữ Bình Định. Tạp chí Ngôn ngữ, số 10 (trích dẫn trong một số tài liệu là số 11), tr. 70–80.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn, Thị Thanh Truyền (2015). Sự biến đổi của âm chính trong các vần có âm cuối của thổ ngữ Sơn Tịnh - Quảng Ngãi. Tạp chí Phát triển Khoa học và Công nghệ (ĐHQG-HCM), Tập 18, Số X2, tr. 136–144.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hoàng, Thị Châu (2004). Phương ngữ học tiếng Việt. NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Phương ngữ tiếng Việt",
+      "url": "https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_ng%E1%BB%AF_ti%E1%BA%BFng_Vi%E1%BB%87t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Vietnamese phonology",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO — The art of Bài Chòi in Central Viet Nam (RL/01222)",
+      "url": "https://ich.unesco.org/en/RL/the-art-of-bai-choi-in-central-viet-nam-01222",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "sources[3].title & status_note",
+          "severity": "medium",
+          "problem": "Tác giả bài báo 'Âm sắc, trường độ và giải pháp cho hệ thống nguyên âm thổ ngữ Bình Định' (Tạp chí Ngôn ngữ, 2016) là Lê Nguyễn Hoàng Mai (đăng ở số 10/2016, tr. 70–80; một số tài liệu trích dẫn nhầm thành số 11), không phải 'Lê Thị Minh Hằng'.",
+          "fix": "Sửa tên tác giả thành Lê Nguyễn Hoàng Mai trong status_note và sources[3].title, đồng thời ghi chú số tạp chí là số 10 (2016)."
+        },
+        {
+          "path": "correspondences_from_standard_vietnamese[7]",
+          "severity": "low",
+          "problem": "Ví dụ 'đau đầu' → 'đa đào' cho quy tắc vần 'âu' → 'ao' trộn lẫn hai hiện tượng: âm tiết đầu 'đau' → 'đa' thuộc quy tắc 'au' → 'a', chỉ có âm tiết sau 'đầu' → 'đào' thuộc quy tắc 'âu' → 'ao'.",
+          "fix": "Đổi ví dụ sang 'đi đâu' → 'đi đao' (hoặc ghi rõ trong example) để minh họa thuần khiết quy tắc 'âu' → 'ao'."
+        },
+        {
+          "path": "lexicon[10].ipa",
+          "severity": "low",
+          "problem": "Mục từ 'hỉ / hầy' chỉ mới ghi IPA cho biến thể 'hỉ' (hi˨˩˦), thiếu phiên âm cho 'hầy'.",
+          "fix": "Bổ sung IPA thành 'hi˨˩˦ / həj˨˩'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần tách hoặc gắn cờ profile con (xứ Quảng vs. xứ Nẫu) khi áp dụng respelling tự động vì biến đổi nguyên âm của Quảng Nam và Bình Định khác nhau đáng kể.",
+      "Cần người bản xứ tại Quảng Ngãi (vùng chuyển tiếp giữa Quảng Nam và Bình Định) và Phú Yên kiểm chứng ranh giới phân bố của các vần oi→ua, ai→ưa/ơ và ôi→âu.",
+      "Cần nghệ nhân Bài chòi thẩm định ký hiệu ABC mẫu cho 4 làn điệu Xuân nữ, Xàng xê, Cổ bản, Hò Quảng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}
