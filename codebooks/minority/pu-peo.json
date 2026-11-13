@@ -1,0 +1,873 @@
+{
+  "id": "pu-peo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pu Péo",
+  "name_en": "Qabiao (Pu Peo / Laqua)",
+  "autonym": "qa0 biau33 (Ka Beo / Cờ Bèo)",
+  "ethnic_group_vi": "Pu Péo",
+  "language": {
+    "iso639_3": "laq",
+    "glottocode": "qabi1235",
+    "family": "Kra-Dai",
+    "branch": "Kra (Yang-Biao / Eastern Kra)"
+  },
+  "regions": [
+    "Xã Phố Là, thị trấn Phó Bảng, xã Phó Cáo, xã Sủng Tráng, huyện Đồng Văn, tỉnh Hà Giang (nay thuộc tỉnh Tuyên Quang sau sắp xếp hành chính)",
+    "Xã Phú Lũng, huyện Yên Minh, tỉnh Hà Giang",
+    "Xã Yên Cường, huyện Bắc Mê, tỉnh Hà Giang",
+    "Huyện Ma Lật Pha (Malipo), châu tự trị Văn Sơn, tỉnh Vân Nam, Trung Quốc"
+  ],
+  "speakers_estimate": "Dân số người Pu Péo tại Việt Nam là 903 người (Điều tra 53 DTTS năm 2019); tổng số người nói tiếng mẹ đẻ ước tính khoảng 300–700 người ở Việt Nam và Trung Quốc (ngôn ngữ bị đe dọa nghiêm trọng, nhiều người chuyển sang nói tiếng H'Mông, Quan thoại Tây Nam hoặc tiếng Tày).",
+  "scripts": [
+    {
+      "name": "Không có chữ viết truyền thống (ngôn ngữ truyền khẩu)",
+      "iso15924": "Zxxx",
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Tiếng Pu Péo chưa có hệ chữ viết chính thức do Nhà nước ban hành."
+    },
+    {
+      "name": "Chữ Latinh ký âm điền dã / Quốc ngữ hóa tự phát",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Các nhà ngôn ngữ học Việt Nam (Hoàng Văn Ma, Vũ Bá Hùng 1992) dùng hệ phiên âm dựa trên IPA kết hợp con chữ Quốc ngữ (ă, â, ê, ô, ơ, ư, nh, ng, kh, ph, th) và số thanh điệu (1–5); các thầy cúng tại địa phương đôi khi chép tay lời cúng bằng chữ Quốc ngữ hoặc chữ Hán."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các nguồn ngôn ngữ học về nhóm ngôn ngữ Kra (Hoàng Văn Ma & Vũ Bá Hùng 1992 qua cơ sở dữ liệu ABVD và Wiktionary; Ostapirat 2000; Liang, Zhang & Li 2007; Diller et al. 2008) và tư liệu văn hóa dân gian Việt Nam. Hệ thống ký âm của Hoàng Văn Ma & Vũ Bá Hùng (điền dã tại Phố Là, Đồng Văn) và của Liang, Zhang & Li (điền dã tại Phổ Phong, Ma Lật Pha) có sự khác biệt nhất định về ký hiệu tiền âm tiết, âm đoạn và số lượng thanh điệu do biến thể phương ngữ và quy ước phiên âm. Cần thẩm định trực tiếp với người bản xứ và chuyên gia ngữ âm học Kra-Dai.",
+  "phonology": {
+    "syllable_structure": "(Cə)C(j/w)V(ː)(C)+T — ngôn ngữ có cấu trúc âm tiết rưỡi (sesquisyllabic) hiếm gặp trong ngữ hệ Kra-Dai, gồm tiền âm tiết yếu (cấu trúc CV như qa-, qə-, tə-, m-) đứng trước âm tiết chính mang thanh điệu.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Tắc hai môi hữu thanh / tiền thanh hầu hóa (tương ứng dãy thanh 1)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mh / hm",
+        "ipa": "m̥",
+        "note": "Mũi hai môi vô thanh (Hoàng Văn Ma ghi mh-, Liang et al. ghi hm-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v / V",
+        "ipa": "v ~ β",
+        "note": "Xát môi-răng hoặc hai môi hữu thanh (trong dữ liệu số hóa ABVD/Wiktionary thường ký hiệu bằng chữ V hoa như Vân3 'ngày', Vơj3 'bơi')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi lợi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d ~ ɗ",
+        "note": "Tắc đầu lưỡi lợi hữu thanh / tiền thanh hầu hóa (ở Phố Là đôi khi biến đổi sang l- trong một số từ như lak5 ~ daak33 'xương')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi lợi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh- (hni-) / hn",
+        "ipa": "n̥",
+        "note": "Mũi đầu lưỡi lợi vô thanh (trong ký âm IPA của Liang et al. ghi hn-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "lh",
+        "ipa": "ɬ ~ lɦ",
+        "note": "Trong hệ Hoàng Văn Ma, lh- ghi nhận cả âm xát bên vô thanh [ɬ] (như lhăw3 / ɬau33 'lưng', lhăj1 / ɬai53 'nói') và âm bên kèm giọng thở ở thanh dãy 2",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z / r",
+        "ipa": "z ~ ʐ ~ r",
+        "note": "Biến thể xát/rung đầu lưỡi hoặc quặt lưỡi (ví dụ qa zA3 ~ qa rA3 / qə0 ʐɑ33 'tai')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "zh / rh",
+        "ipa": "ʂʰ ~ ʐɦ",
+        "note": "Âm quặt lưỡi bật hơi hoặc kèm giọng thở (ví dụ zhô4 / ʂʰo213 'đầu')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "tɕ",
+        "note": "Tắc-xát mặt lưỡi vô thanh (Liang et al. ghi tɕ-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / N",
+        "ipa": "ɲ ~ ɲ̥",
+        "note": "Mũi mặt lưỡi (trong ABVD/Wiktionary, Hoàng Văn Ma ghi nhing1 cho hniŋ53 'nhà', và ký hiệu N hoa trong Nin3 cho ɲin33 'nhai')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "j",
+        "note": "Tiếp cận mặt lưỡi (bán nguyên âm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi (mạc) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc gốc lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngh",
+        "ipa": "ŋ̊ ~ ŋ",
+        "note": "Mũi gốc lưỡi (ví dụ nghâm3 ~ hâm3 'uống')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "x",
+        "note": "Xát gốc lưỡi vô thanh (ở Phố Là tương ứng với qh- ở Ma Lật Pha trong một số từ như xAn1 ~ qhon53 'đường')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "q",
+        "note": "Tắc lưỡi con (tiểu thiệt) vô thanh; rất phổ biến ở cả âm tiết chính (qa33 'máu', qe53 'cổ') và tiền âm tiết (qa-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qh",
+        "ipa": "qʰ",
+        "note": "Tắc lưỡi con vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ʔ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pj / tj / zj / sj / lj",
+        "ipa": "pʲ / tʲ / zʲ / sʲ / lʲ",
+        "note": "Tổ hợp phụ âm đầu ngạc hóa (kết hợp bán nguyên âm -j-)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kw / khw / sw / phw / ʔw / mhw / hw",
+        "ipa": "kʷ / kʰʷ / sʷ / pʰʷ / ʔʷ / m̥ʷ / hʷ",
+        "note": "Tổ hợp phụ âm đầu môi hóa (kết hợp âm đệm -w-)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i ~ iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / e",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp (Hoàng Văn Ma phân biệt ê [e] và e [ɛ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm hàng sau không tròn môi hẹp (tài liệu Trung Quốc ghi ɯ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm hàng giữa độ mở vừa dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm hàng giữa ngắn (chỉ xuất hiện trong âm tiết khép, tương ứng ə trong Liang et al.)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / A / aa",
+        "ipa": "aː ~ ɑ",
+        "note": "Nguyên âm độ mở rộng dài (trong bản số hóa ABVD/Wiktionary của Hoàng Văn Ma phân biệt a [aː] và A [ɑ])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm rộng ngắn (trong vần khép hoặc trước bán nguyên âm cuối -j/-w)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u ~ uː",
+        "note": "Nguyên âm hàng sau tròn môi hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ia / iơ",
+        "ipa": "iə ~ ia",
+        "note": "Nguyên âm đôi hướng tâm hàng trước",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɯə",
+        "note": "Nguyên âm đôi hướng tâm không tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "uô / ua / uơ",
+        "ipa": "uə ~ ua",
+        "note": "Nguyên âm đôi hướng tâm tròn môi",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc gốc lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ghi nhận ở một số từ như taiʔ33 'thấy')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j / i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối hàng trước (Hoàng Văn Ma viết -j, Liang et al. viết -i)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi (Hoàng Văn Ma viết -w, Liang et al. viết -u)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_53",
+        "name": "Thanh 1 (tương ứng lớp lịch sử A1; số '1' trong Hoàng Văn Ma 1992)",
+        "mark": "1",
+        "chao_contour": "53",
+        "phonation": "modal (đi với âm đầu vô thanh, tiền thanh hầu hóa hoặc tắc thanh hầu; Diller 2008 ghi 52, Liang et al. 2007 ghi 53)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2_33",
+        "name": "Thanh 2 (tương ứng lớp A2/C1 và D1; số '3' ở vần mở/vang hoặc '5' ở vần tắc trong Hoàng Văn Ma 1992)",
+        "mark": "3",
+        "chao_contour": "33",
+        "phonation": "modal; một số từ nguồn gốc A2 có âm vang đi kèm giọng thở nhẹ (lɦ-, rɦ-, nɦ- theo Ostapirat 2000)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3_213",
+        "name": "Thanh 3 (tương ứng lớp B1; số '4' hoặc biến thể '5' trong Hoàng Văn Ma 1992)",
+        "mark": "4",
+        "chao_contour": "213",
+        "phonation": "modal / trầm hoặc thấp lên (Diller 2008 ghi 11, Liang et al. 2007 ghi 213; trong Hoàng Văn Ma 1992 nhiều từ có biến thể 4 ~ 5 như qami4 ~ qami5 'tay', zhô4 ~ zhô5 'đầu', pê4 ~ pê5 'cha')",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4_45",
+        "name": "Thanh 4 (tương ứng lớp C2 và D2; số '2' trong Hoàng Văn Ma 1992)",
+        "mark": "2",
+        "chao_contour": "45",
+        "phonation": "modal, đôi khi kèm nghẽn thanh hầu nhẹ ở nguyên âm dài (Diller 2008 ghi 45/55/454; phát sinh từ âm đầu hữu thanh cổ)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T5_24",
+        "name": "Thanh 5 (tương ứng lớp B2 / biến thể thanh điệu; Diller 2008 ghi 24, Hoàng Văn Ma 1992 ghi số '5' hoặc nhập vào thanh '2')",
+        "mark": "5",
+        "chao_contour": "24",
+        "phonation": "đôi khi kèm giọng thở sau phụ âm vang",
+        "merges_with": "T4_45",
+        "confidence": "low"
+      },
+      {
+        "id": "T0_minor",
+        "name": "Thanh khinh / trung hòa (trên tiền âm tiết yếu)",
+        "mark": "0",
+        "chao_contour": "33",
+        "phonation": "ngắn, không mang trọng âm (ví dụ qa0 / qə0 / tə0)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu chia theo 8 lớp lịch sử Kra-Dai (A1, A2, B1, B2, C1, C2, D1, D2) dựa trên sự đối lập thanh tính của phụ âm đầu cổ (dãy 1 vô thanh/thanh hầu hóa vs. dãy 2 hữu thanh/giọng thở). Hiện tại hợp nhất thành 4–5 đường nét thanh điệu khu biệt trên âm tiết mở/vang và 2 mức cao độ (33, 45; tương ứng số 5 và số 2 trong Hoàng Văn Ma 1992) trên âm tiết khép (-p, -t, -k)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "ʔong3 (oong)",
+      "ipa": "ʔɔŋ˧˧",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tay",
+      "form": "qami4 / qami5",
+      "ipa": "qa⁰ m̥i˨˩˧",
+      "gloss_en": "hand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chân",
+      "form": "qacung4",
+      "ipa": "qa˧˧ tɕuŋ˨˩˧",
+      "gloss_en": "leg / foot",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "tê1",
+      "ipa": "te˥˧",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tai",
+      "form": "qa zA3 / qa rA3",
+      "ipa": "qə⁰ ʐɑ˧˧",
+      "gloss_en": "ear",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "qatAng3",
+      "ipa": "qa˧˧ taŋ˧˧",
+      "gloss_en": "nose",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "răng",
+      "form": "swang1",
+      "ipa": "swaŋ˥˧",
+      "gloss_en": "tooth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lưỡi",
+      "form": "mi3",
+      "ipa": "miə˧˧",
+      "gloss_en": "tongue",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "qa3",
+      "ipa": "qa˧˧",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "zhô4 / zhô5",
+      "ipa": "ʂʰo˨˩˧",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "nhing1",
+      "ipa": "n̥iŋ˥˧",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "tơzaw3",
+      "ipa": "tə⁰ dau˧˧",
+      "gloss_en": "person / human being",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đàn ông",
+      "form": "qapa4 / pa4",
+      "ipa": "qa˧˧ pa˨˩˧",
+      "gloss_en": "man / male",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "phụ nữ",
+      "form": "qamăj2",
+      "ipa": "qa˧˧ məi˦˥",
+      "gloss_en": "woman / female",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "maj2",
+      "ipa": "maːi˦˥",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố / cha",
+      "form": "pê4 / pê5",
+      "ipa": "pe˨˩˧",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "kân1",
+      "ipa": "kən˥˧",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "uống",
+      "form": "nghâm3 / hâm3",
+      "ipa": "ŋəm˧˧",
+      "gloss_en": "to drink",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngủ",
+      "form": "ʔăw4 / ʔăw5",
+      "ipa": "ʔau˨˩˧",
+      "gloss_en": "to sleep",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngôi sao",
+      "form": "qalung3",
+      "ipa": "qə˧˧ luəŋ˧˧",
+      "gloss_en": "star",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát đối đáp giao duyên & hát đố",
+        "note": "Hát đối đáp nam nữ trong dịp Tết, hội xuân, đám cưới hoặc gặp gỡ làm quen; lời ca giàu hình ảnh ví von gắn với nương rẫy, núi rừng."
+      },
+      {
+        "name": "Hát cúng Thần Rừng (Sau ngun / Ngoãng xau)",
+        "note": "Lời khấn và hát nghi lễ của thầy cúng vào ngày 6/6 âm lịch tại rừng cấm; Lễ cúng thần rừng của người Pu Péo được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2012 (Quyết định 5079/QĐ-BVHTTDL)."
+      },
+      {
+        "name": "Hát múa Lễ ra đồng (Pặt Oong)",
+        "note": "Hát khấn thần đất, thần lúa và múa tập thể đầu mùa vụ ('pặt oong' nghĩa là làm sạch nước); được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2018 (Quyết định 266/QĐ-BVHTTDL)."
+      },
+      {
+        "name": "Hát thi đối đáp với gà trống & hát đám chay",
+        "note": "Nghi thức hát đối đáp tâm linh ban đêm và hát múa theo 36 điệu trống đồng trong tang lễ / lễ làm chay."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Trống đồng đôi (lung quam - trống đực, lung mhay - trống cái)",
+        "note": "Hai trống đồng treo quay mặt vào nhau, người đánh đứng giữa dùng dùi gọt từ củ chuối gõ vào mặt trống phối hợp nhịp điệu cho múa lễ chay."
+      },
+      {
+        "name": "Bộ kèn nghi lễ (1 kèn cái 'xăng hầu' và 2 kèn con 'pờ lể')",
+        "note": "Thường do hai người thổi song tấu trong đám cưới (buộc dải vải đỏ) và đám ma (buộc dây trắng)."
+      },
+      {
+        "name": "Đàn nhị",
+        "note": "Nhạc cụ dây kéo dùng trong sinh hoạt văn nghệ và nghi lễ."
+      }
+    ]
+  },
+  "ml_hints": {
+    "quoc_ngu_approximation": [
+      {
+        "native": "qa0 biau33",
+        "quoc_ngu": "ca biao",
+        "note": "Tên tự gọi người Pu Péo. Phụ âm lưỡi con [q] không có trong tiếng Việt, xấp xỉ gần nhất bằng 'c/k' phát âm lùi sâu về phía lưỡi gà; tiền âm tiết 'ca' đọc lướt và nhẹ."
+      },
+      {
+        "native": "pặt oong (pạt ʔong3)",
+        "quoc_ngu": "pặt oong",
+        "note": "Tên lễ hội xuống đồng ('làm sạch nước'). Vần 'oong' trong chữ Quốc ngữ giữ nguyên nguyên âm [ɔ] không ngậm môi đôi [ɔŋ͡m] như 'ong', khớp tốt với [ʔɔŋ˧˧]."
+      },
+      {
+        "native": "qami4 (qa0 hmi213)",
+        "quoc_ngu": "ca hờ-mi / ca mỉ",
+        "note": "Từ 'tay'. Âm mũi vô thanh [m̥] không có trong tiếng Việt; TTS tiếng Việt chỉ có thể xấp xỉ bằng âm 'm' thường kèm luồng hơi nhẹ phía trước, thanh 213 xấp xỉ thanh hỏi Nam Bộ ('mỉ')."
+      },
+      {
+        "native": "nhing1 (hniŋ53)",
+        "quoc_ngu": "nhính / hờ-ninh",
+        "note": "Từ 'nhà'. Âm mũi vô thanh [n̥] không có trong tiếng Việt; thanh 53 (cao giáng) trong tiếng Việt không có thanh tương đương hoàn toàn (thanh sắc Hà Nội là 35 đi lên), khi hát cần đặt nốt luyến đi xuống thay vì dựa vào dấu sắc."
+      },
+      {
+        "native": "tê1 (te53)",
+        "quoc_ngu": "tế / tê",
+        "note": "Từ 'mắt'. Phụ âm 't' và nguyên âm 'ê' trùng khớp hoàn toàn với tiếng Việt; lưu ý đường nét thanh 53 đi xuống từ cao xuống trung."
+      },
+      {
+        "native": "kân1 (kən53)",
+        "quoc_ngu": "cấn / cân",
+        "note": "Từ 'ăn'. Vần '-ân' [ən] trùng khớp với tiếng Việt chuẩn."
+      },
+      {
+        "native": "lhăj1 (ɬai53)",
+        "quoc_ngu": "thlảy / sảy",
+        "note": "Từ 'nói'. Phụ âm xát bên vô thanh [ɬ] hoàn toàn không có trong tiếng Việt hiện đại; xấp xỉ thô bằng 's' hoặc 'l' nhưng sẽ mất đặc trưng âm sắc."
+      },
+      {
+        "native": "tơzaw3 (tə0 dau33)",
+        "quoc_ngu": "tơ dao / tơ đao",
+        "note": "Từ 'người'. Tiền âm tiết 'tơ' đọc rất ngắn, không nhấn; âm đầu chính biến thiên giữa 'd/z' (Phố Là) và 'đ/d' (Ma Lật Pha), thanh 33 bằng phẳng khớp với thanh ngang tiếng Việt."
+      },
+      {
+        "native": "maj2 (maai45)",
+        "quoc_ngu": "mái",
+        "note": "Từ 'mẹ'. Vần 'ai' dài và thanh cao lên 45 rất gần với thanh sắc tiếng Việt ('mái')."
+      },
+      {
+        "native": "pê4 (pe213)",
+        "quoc_ngu": "pể",
+        "note": "Từ 'bố'. Âm 'p' đầu âm tiết ít phổ biến trong từ thuần Việt (trừ từ mượn), một số mô hình TTS tiếng Việt có thể đọc nhầm sang 'bể' nếu không kiểm soát phoneme."
+      }
+    ],
+    "phonemic_gaps_for_vietnamese_tts": [
+      "Âm tắc lưỡi con /q, qʰ/ không tồn tại trong tiếng Việt (dễ bị đồng hóa vào /k, x/).",
+      "Chuỗi âm mũi vô thanh /m̥, n̥/ và âm xát bên vô thanh /ɬ/ không tồn tại trong tiếng Việt.",
+      "Cấu trúc âm tiết rưỡi (sesquisyllable như qa0-, tə0-): TTS tiếng Việt có xu hướng đọc tiền âm tiết dài và rõ như một âm tiết độc lập mang thanh ngang, làm hỏng nhịp điệu tự nhiên của từ tiếng Pu Péo.",
+      "Thanh giáng cao [53] (thanh 1 / lớp A1) đi ngược chiều với thanh sắc [35] của tiếng Việt."
+    ],
+    "sub_varieties": [
+      {
+        "name": "Biến thể Phố Là / Đồng Văn (Việt Nam)",
+        "iso639_3": "laq",
+        "note": "Phương ngữ chính tại Hà Giang (Việt Nam), được Hoàng Văn Ma & Vũ Bá Hùng (1992) khảo sát; bảo lưu nhiều tiền âm tiết qa-/tơ-, ghi nhận 5 ký hiệu số thanh điệu (1–5)."
+      },
+      {
+        "name": "Biến thể Phổ Phong / Ma Lật Pha (Vân Nam, Trung Quốc)",
+        "iso639_3": "laq",
+        "note": "Gọi là Pubiao (普标) tại Trung Quốc, được Zhang (1990) và Liang, Zhang & Li (2007) mô tả tại xã Thiết Xưởng (Tiechang) và Đổng Can (Donggan), huyện Ma Lật Pha."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ʔong3",
+        "ipa": "ʔɔŋ˧˧",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "qami4",
+        "ipa": "qa⁰ m̥i˨˩˧",
+        "meaning_vi": "tay"
+      },
+      {
+        "native": "qacung4",
+        "ipa": "qa˧˧ tɕuŋ˨˩˧",
+        "meaning_vi": "chân"
+      },
+      {
+        "native": "tê1",
+        "ipa": "te˥˧",
+        "meaning_vi": "mắt"
+      },
+      {
+        "native": "qa zA3",
+        "ipa": "qə⁰ ʐɑ˧˧",
+        "meaning_vi": "tai"
+      },
+      {
+        "native": "qatAng3",
+        "ipa": "qa˧˧ taŋ˧˧",
+        "meaning_vi": "mũi"
+      },
+      {
+        "native": "qa3",
+        "ipa": "qa˧˧",
+        "meaning_vi": "máu"
+      },
+      {
+        "native": "nhing1",
+        "ipa": "n̥iŋ˥˧",
+        "meaning_vi": "nhà"
+      },
+      {
+        "native": "tơzaw3",
+        "ipa": "tə⁰ dau˧˧",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "maj2",
+        "ipa": "maːi˦˥",
+        "meaning_vi": "mẹ"
+      },
+      {
+        "native": "pê4",
+        "ipa": "pe˨˩˧",
+        "meaning_vi": "bố"
+      },
+      {
+        "native": "kân1",
+        "ipa": "kən˥˧",
+        "meaning_vi": "ăn"
+      },
+      {
+        "native": "nghâm3",
+        "ipa": "ŋəm˧˧",
+        "meaning_vi": "uống"
+      },
+      {
+        "native": "ʔăw4",
+        "ipa": "ʔau˨˩˧",
+        "meaning_vi": "ngủ"
+      },
+      {
+        "native": "hma53",
+        "ipa": "m̥a˥˧",
+        "meaning_vi": "chó (ghi nhận tại Ma Lật Pha)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hoàng Văn Ma & Vũ Bá Hùng (1992). Tiếng Pu Péo. Hà Nội: Nhà xuất bản Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ostapirat, Weera (2000). Proto-Kra. Linguistics of the Tibeto-Burman Area, 23(1): 1–252.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Liang Min, Zhang Junru & Li Yunbing (2007). Pubiaoyu yanjiu [普标语研究 / A Study of Pubiao]. Beijing: Minzu Chubanshe.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Diller, Anthony, Jerold A. Edmondson & Yongxian Luo (eds.) (2008). The Tai-Kadai Languages. London & New York: Routledge.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Spoken L1 Language: Pubiao-Qabiao (qabi1235)",
+      "url": "https://glottolog.org/resource/languoid/id/qabi1235",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Austronesian Basic Vocabulary Database (ABVD) — Pubiao-Qabiao wordlists: Hoàng Văn Ma (Phó Là) & Liang, Zhang & Li (2007)",
+      "url": "https://abvd.eva.mpg.de",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Appendix:Qabiao word list (số hóa bảng từ Tiếng Pu Péo của Hoàng Văn Ma & Vũ Bá Hùng 1992)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Qabiao_word_list",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Qabiao language",
+      "url": "https://en.wikipedia.org/wiki/Qabiao_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Di sản văn hóa (Bộ Văn hóa, Thể thao và Du lịch) — Danh mục Di sản văn hóa phi vật thể quốc gia: Lễ cúng thần rừng của người Pu Péo (QĐ 5079/QĐ-BVHTTDL) & Lễ ra đồng Pặt Oong (QĐ 266/QĐ-BVHTTDL)",
+      "url": "http://dsvh.gov.vn/danh-muc-di-san-van-hoa-phi-vat-the-quoc-gia-1789",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Thu Quỳnh & Lý Thị Diền (2020). Từ ngữ xưng gọi trong tiếng Pu Péo. Tạp chí Nghiên cứu Dân tộc, 9(1), 66–71.",
+      "url": "https://doi.org/10.25073/0866-773X/386",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "language.branch",
+          "severity": "low",
+          "problem": "Chỉ ghi 'Kra (Eastern Kra)', thiếu tên tiểu nhánh trực tiếp được dùng phổ biến trong phân loại Kra-Dai (Glottolog / Wikipedia / Ostapirat 2000) là 'Yang-Biao' (cùng nhóm với tiếng Bố Y / Buyang và tiếng En / Nùng Vẻn).",
+          "fix": "Cập nhật thành 'Kra (Yang-Biao / Eastern Kra)'."
+        },
+        {
+          "path": "lexicon[0].form",
+          "severity": "medium",
+          "problem": "Mục từ 'nước' ghi form là 'ʔɔŋ C1 (oong)' (trộn lẫn ký hiệu lớp thanh lịch sử C1 và chữ Quốc ngữ), không đồng nhất với hệ phiên âm Hoàng Văn Ma & Vũ Bá Hùng (1992) dùng cho 19 mục từ còn lại. Trong bảng từ của Hoàng Văn Ma & Vũ Bá Hùng (1992), 'nước' được ghi là 'ʔong3' (ví dụ: ʔong3 tê1 'nước mắt', ʔong3 khang1 'cháo').",
+          "fix": "Sửa form thành 'ʔong3 (oong)' tại lexicon[0] và cập nhật ml_hints.sample_words[0].native thành 'ʔong3'."
+        },
+        {
+          "path": "lexicon",
+          "severity": "medium",
+          "problem": "Một số mục từ ghép trường 'form' từ ngữ liệu Phố Là (Hoàng Văn Ma 1992) với trường 'ipa' từ ngữ liệu Ma Lật Pha (Liang, Zhang & Li 2007 trên ABVD) có sự chênh lệch âm đoạn phương ngữ (ví dụ: 'tơzaw3' vs 'tə⁰ dau˧˧', 'mi3' vs 'miə˧˧', 'qamăj2' vs 'qa˧˧ məi˦˥', 'qalung3' vs 'qə˧˧ luəŋ˧˧', 'nghâm3 / hâm3' vs 'ŋəm˧˧', 'qa zA3' với chữ A hoa là ký hiệu quy ước của ABVD cho nguyên âm sau/dài). Việc để tất cả ở confidence='high' chưa phản ánh độ lệch giữa hai điểm điền dã.",
+          "fix": "Hạ confidence xuống 'medium' đối với các mục từ có khác biệt âm đoạn giữa form (Phố Là) và ipa (Ma Lật Pha), đồng thời bổ sung biến thể thanh 4 ~ 5 của Hoàng Văn Ma (như qami4 / qami5, zhô4 / zhô5, pê4 / pê5)."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "medium",
+          "problem": "Trong ngữ liệu Hoàng Văn Ma (1992) trên ABVD/Wiktionary, thanh 4 và thanh 5 đều xuất hiện trên cả âm tiết mở/vang (ví dụ biến thể qami4 ~ qami5 'tay', zhô4 ~ zhô5 'đầu', pê4 ~ pê5 'bố', ʔăw4 ~ ʔăw5 'nằm/ngủ', qasê5 'bạn') chứ thanh 5 không chỉ giới hạn ở vần tắc như mô tả trong T2_33. Ngoài ra, Diller (2008) dẫn mô tả 5 thanh của Qabiao gồm: 33, 11, 52, 45/55/454 và 24.",
+          "fix": "Chỉnh lại mô tả tại phonology.tones để phản ánh chính xác sự phân bố thanh 1–5 trong Hoàng Văn Ma (1992) và các cách ghi trị số Chao giữa Liang et al. (2007) và Diller (2008); hạ confidence của T1_53 xuống 'medium' cho đồng bộ vì chưa đối chiếu trực tiếp sách in năm 1992."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các mục sources có URL chưa được điền trường url_check sau khi kiểm chứng và thiếu nguồn bảng từ số hóa trực tiếp công trình Hoàng Văn Ma & Vũ Bá Hùng (1992) trên Wiktionary.",
+          "fix": "Cập nhật url_check='ok' cho các URL đã xác minh và bổ sung liên kết Appendix:Qabiao word list."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp sách in 'Tiếng Pu Péo' (Hoàng Văn Ma & Vũ Bá Hùng 1992) để xác nhận chính xác giá trị số Chao của 5 thanh điệu (1–5) tại điểm điền dã Phố Là (Hà Giang) và lý do một số từ có biến thể thanh 4 ~ 5 (như qami4 ~ qami5, pê4 ~ pê5).",
+      "Trong dữ liệu số hóa ABVD/Wiktionary của Hoàng Văn Ma (1992), các ký hiệu viết hoa 'A', 'N', 'V' được dùng làm ký hiệu đại diện (A = [ɑ]/[aː], N = [ɲ], V = [v]/[β]); cần đối chiếu bản in gốc năm 1992 để chuẩn hóa lại con chữ phiên âm.",
+      "Cần thu thập thêm tư liệu ký âm nhạc học (thang âm, điệu thức, luyến láy) của dân ca Pu Péo và 36 điệu trống đồng.",
+      "Cần xác minh sự biến đổi ngữ âm giữa thế hệ cao tuổi còn nói thạo tiếng Pu Péo tại Đồng Văn và thế hệ trẻ song ngữ H'Mông/Việt."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

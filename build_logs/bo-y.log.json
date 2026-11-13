@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "bo-y",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Bố Y",
+    "ethnic_group_vi": "Bố Y",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:46:08.329744",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 8875,
+      "totalTokenCount": 24055,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8875
+        }
+      ],
+      "thoughtsTokenCount": 5797,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11488,
+      "candidatesTokenCount": 10808,
+      "totalTokenCount": 23847,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11488
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10808
+        }
+      ],
+      "thoughtsTokenCount": 1551,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sample_words[2]",
+        "severity": "high",
+        "problem": "Từ 'nước' trong tiếng Bố Y chuẩn viết là 'ramx' (thanh 4, phát triển từ Proto-Tai *namC, ký hiệu thanh điệu cuối âm tiết là '-x', IPA /ðɐm³¹/ ~ [ðam⁴²]), không phải 'ramz' (thanh 2, '-z').",
+        "fix": "Sửa chính tả từ mẫu thành 'ramx (Vọng Mô)' và ghi rõ IPA 'ðɐm³¹ ~ ðam⁴²'."
+      },
+      {
+        "path": "ml_hints.sample_words[4]",
+        "severity": "high",
+        "problem": "Nhầm lẫn giữa 'rog' (chim — thanh 8, không có '-t', IPA [ðɔk³³]) và 'rogt' (số sáu — thanh 7, có '-t' cuối, IPA [ðɔk³⁵]). Bản thảo viết 'rogt' nhưng lại phiên âm [ðɔk³³] và dịch là 'chim'.",
+        "fix": "Sửa mục 'chim' thành 'rog (Vọng Mô)' với IPA 'ðɔk³³' (thanh 8), đồng thời có thể chú thích phân biệt với 'rogt' (sáu, thanh 7)."
+      },
+      {
+        "path": "phonology.tones[1].phonation",
+        "severity": "medium",
+        "problem": "Biến thể [42] ở người lớn tuổi vùng Vọng Mô là của Thanh 4 (C2, như trong 'ramx' [ðam⁴²]), không phải Thanh 2 (A2, vốn giữ [11] ở cả Dương Trường lẫn Phục Hưng/Vọng Mô).",
+        "fix": "Chuyển ghi chú biến thể [42] từ tone2 sang tone4 và bổ sung đối chiếu hai điểm phương ngữ Phục Hưng (Vọng Mô) và Dương Trường theo bảng chuẩn."
+      },
+      {
+        "path": "lexicon[8]",
+        "severity": "low",
+        "problem": "Từ 'vằn' (ngày) được trích từ câu hát đám cưới 'Chầu sin phân xhầu dần - vằn vằn tấc quán' trong hồ sơ của Cục Di sản văn hóa nhưng hồ sơ không tách nghĩa từng từ riêng lẻ cho từ 'vằn' (dù tương ứng âm vị học Thái Bắc *wan 'ngày' là hợp lý).",
+        "fix": "Hạ confidence của mục 'vằn' xuống 'low' để phản ánh đây là từ tách từ câu hát mẫu chưa được giải nghĩa từng từ trong nguồn gốc."
+      },
+      {
+        "path": "lexicon[9..10].ipa",
+        "severity": "low",
+        "problem": "Hai mục từ 'Haausqyaix' và 'Buxqyaix' trong lexicon để trống trường 'ipa' (null), trong khi phần 'ml_hints.sample_words' đã có sẵn phiên âm IPA chuẩn.",
+        "fix": "Bổ sung IPA 'xaːu³⁵ ˀjɐi³¹' và 'pu³¹ ˀjɐi³¹' vào lexicon cho đồng bộ."
+      }
+    ]
+  },
+  "schema_errors": []
+}

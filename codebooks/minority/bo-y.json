@@ -1,0 +1,841 @@
+{
+  "id": "bo-y",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Bố Y",
+  "name_en": "Bouyei",
+  "autonym": "Haausqyaix",
+  "ethnic_group_vi": "Bố Y",
+  "language": {
+    "iso639_3": "pcc",
+    "glottocode": "bouy1240",
+    "family": "Kra-Dai",
+    "branch": "Tai (Northern Tai)"
+  },
+  "regions": [
+    "Hà Giang (Quản Bạ — đặc biệt xã Quyết Tiến, Thuận Hòa; Đồng Văn; Yên Minh)",
+    "Lào Cai (Mường Khương — xã Thanh Bình, Nậm Chảy; Xi Ma Cai — chủ yếu nhóm Tu Dí)",
+    "Lai Châu",
+    "Yên Bái",
+    "Tuyên Quang"
+  ],
+  "speakers_estimate": "Dân tộc Bố Y tại Việt Nam có 3.232 người (Điều tra 53 dân tộc thiểu số năm 2019), chia làm hai nhóm ngôn ngữ khác nhau: nhóm Bố Y (Pu Y) ở Hà Giang (~35,5% dân số) nói tiếng Bố Y thuộc nhánh Thái Bắc (hiện chỉ còn một bộ phận ở Quản Bạ giữ tiếng mẹ đẻ), và nhóm Tu Dí ở Lào Cai (~61,5% dân số) đã chuyển sang nói phương ngữ Quan Thoại Tây Nam (tiếng gốc gần như mai một, chỉ còn khoảng 1–15 người nhớ theo Sách đỏ ngôn ngữ Việt Nam). Trên toàn thế giới, tiếng Bố Y (mã pcc, bao gồm cả phương ngữ Giáy/Yay tại Việt Nam và Bouyei tại Quý Châu, Vân Nam, Tứ Xuyên — Trung Quốc) có khoảng 2,65 triệu người nói.",
+  "scripts": [
+    {
+      "name": "Chữ Bố Y Latinh (phương án Quý Châu sửa đổi 1981–1985)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Thiết kế tại Trung Quốc giai đoạn 1981–1985 trên cơ sở khẩu ngữ trấn Phục Hưng, huyện Vọng Mô (Wangmo, Quý Châu), thay thế phương án liên minh chữ Tráng – Bố Y năm 1956. Dùng 26 chữ cái Latinh không dấu và dùng chữ cái cuối âm tiết (l, z, c, x, s, h, t) để ghi thanh điệu. Không được sử dụng chính thức tại Việt Nam."
+    },
+    {
+      "name": "Chữ Nôm Bố Y cổ truyền (Sawndip / Chữ Hán mượn âm nghĩa)",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Thầy cúng và người cao tuổi trước đây dùng chữ Hán và chữ vuông tự tạo theo lối hình thanh/giả tá để chép gia phả, bài cúng và ca từ nghi lễ."
+    },
+    {
+      "name": "Ghi âm truyền miệng bằng chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Bố Y tại Việt Nam chưa có bộ chữ viết chuẩn hóa do Nhà nước ban hành; các bản sưu tầm dân ca ở Hà Giang và Lào Cai ghi âm xấp xỉ theo chính tả chữ Quốc ngữ tiếng Việt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản thảo tổng hợp từ tư liệu ngôn ngữ học về tiếng Bố Y chuẩn Vọng Mô (Wangmo Bouyei — Quý Châu) và tư liệu dân tộc học, di sản văn hóa phi vật thể về người Bố Y tại Hà Giang, Lào Cai. Chưa có khảo sát điền dã ngữ âm học chi tiết riêng cho thổ ngữ Bố Y tại xã Quyết Tiến (Quản Bạ, Hà Giang) và chưa được người bản xứ thẩm định.",
+  "phonology": {
+    "syllable_structure": "(C)V(V)(C)+T",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (tương tự p đầu âm tiết trong tiếng Tày/Thái)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi; chỉ xuất hiện trong từ vay mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mb",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hút vào / tiền thanh hầu hóa [ʔb], tương tự 'b' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Hiện thực hóa thành [w] trước nguyên âm /u/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qv",
+        "ipa": "ˀv",
+        "note": "Tiền thanh hầu hóa [ʔv] hoặc [ʔw]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "by",
+        "ipa": "pʲ",
+        "note": "Tắc hai môi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "my",
+        "ipa": "mʲ",
+        "note": "Mũi hai môi ngạc hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi (tương tự 't' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi (như 'th' tiếng Việt); chủ yếu trong từ mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nd",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hút vào / tiền thanh hầu hóa [ʔd], tương tự 'đ' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "ts",
+        "note": "Tắc xát chân răng không bật hơi; xuất hiện trong từ mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "tsʰ",
+        "note": "Tắc xát chân răng bật hơi; xuất hiện trong từ mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Một số phương ngữ có thêm âm bên xát vô thanh /ɬ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "z ~ ð",
+        "note": "Xát chân răng hoặc liên răng hữu thanh ([ð] ở thế hệ lớn tuổi vùng Vọng Mô)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "tɕ",
+        "note": "Tắc xát lợi-ngạc không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "tɕʰ",
+        "note": "Tắc xát lợi-ngạc bật hơi; xuất hiện trong từ mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ny",
+        "ipa": "ɲ ~ nʲ",
+        "note": "Mũi ngạc cứng, tương tự 'nh' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "ɕ",
+        "note": "Xát lợi-ngạc vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qy",
+        "ipa": "ˀj",
+        "note": "Tiếp cận ngạc tiền thanh hầu hóa [ʔj]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (như 'c/k' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi; chủ yếu trong từ mượn tiếng Hán",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Tương tự 'ng/ngh' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "x ~ h",
+        "note": "Xát ngạc mềm hoặc xát thanh hầu tùy phương ngữ; một số phương ngữ có /ɣ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gv",
+        "ipa": "kʷ",
+        "note": "Tắc ngạc mềm môi hóa (tương tự 'qu' tiếng Việt Bắc Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngv",
+        "ipa": "ŋʷ",
+        "note": "Mũi ngạc mềm môi hóa (như 'ngo-/ngu-' có âm đệm môi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đứng trước nguyên âm đầu âm tiết khi không viết phụ âm đầu",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "aa",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài; khi đứng cuối âm tiết mở có thể chỉ viết đơn 'a' tùy quy tắc vần",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "ɐ ~ a",
+        "note": "Nguyên âm mở ngắn (đối lập độ dài với /aː/ trước âm cuối)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ee",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi cao không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɯ ~ ə",
+        "note": "Nguyên âm hàng sau không tròn môi /ɯ/ (tương tự 'ư' tiếng Việt) hoặc nguyên âm giữa /ə/ trong vần ghép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Có thể hiện thực hóa hơi mở thành [ɪ] trong âm tiết khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oo",
+        "ipa": "oː ~ ɔː",
+        "note": "Nguyên âm hàng sau tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi ngắn (đối lập độ dài với /oː/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Có thể hiện thực hóa thành [ʊ] trong âm tiết khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai",
+        "ipa": "ɐi",
+        "note": "Nguyên âm đôi ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "aai",
+        "ipa": "aːi",
+        "note": "Nguyên âm đôi dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "au",
+        "ipa": "ɐu",
+        "note": "Nguyên âm đôi ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "aau",
+        "ipa": "aːu",
+        "note": "Nguyên âm đôi dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "iə ~ ia",
+        "note": "Vần nguyên âm đôi mở dần",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "uə ~ ua",
+        "note": "Vần nguyên âm đôi mở dần",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ea",
+        "ipa": "ɯə",
+        "note": "Vần nguyên âm đôi tương tự 'ưa/ươ' tiếng Việt",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi cuối âm tiết khép (thanh 7 viết '-bt', thanh 8 viết '-b')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t",
+        "note": "Âm tắc chân răng vô thanh không bật hơi cuối âm tiết khép (thanh 7 viết '-dt', thanh 8 viết '-d')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật hơi cuối âm tiết khép (thanh 7 viết '-gt', thanh 8 viết '-g')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối vần",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối vần",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1 (âm tiết trơn)",
+        "mark": "l (từ mượn Hán: q — tương ứng thanh 4 Quan Thoại)",
+        "chao_contour": "24",
+        "phonation": "Tại Phục Hưng (Vọng Mô) là [24]; tại Dương Trường là [35]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2 (âm tiết trơn)",
+        "mark": "z",
+        "chao_contour": "11",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3 (âm tiết trơn)",
+        "mark": "c (từ mượn Hán: j — tương ứng thanh 3 Quan Thoại)",
+        "chao_contour": "53",
+        "phonation": "Tại Phục Hưng (Vọng Mô) là [53]; tại Dương Trường là [13]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4 (âm tiết trơn)",
+        "mark": "x (từ mượn Hán: f — tương ứng thanh 2 Quan Thoại)",
+        "chao_contour": "31",
+        "phonation": "Dao động giữa [31], [42] (ở người lớn tuổi vùng Vọng Mô) và [11] (ghi nhận tại Phục Hưng)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5 (âm tiết trơn)",
+        "mark": "s",
+        "chao_contour": "35",
+        "phonation": "Tại Phục Hưng (Vọng Mô) là [35]; tại Dương Trường là [33]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6 (âm tiết trơn)",
+        "mark": "h (từ mượn Hán: y — tương ứng thanh 1 Quan Thoại)",
+        "chao_contour": "33",
+        "phonation": "Tại Phục Hưng (Vọng Mô) là [33]; tại Dương Trường là [53]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone7",
+        "name": "Thanh 7 (thanh nhập cao — âm tiết khép -p, -t, -k)",
+        "mark": "t (sau b, d, g → bt, dt, gt)",
+        "chao_contour": "35",
+        "phonation": "Âm tiết đóng bằng phụ âm tắc vô thanh; ở Dương Trường phân hóa thành [33] (nguyên âm dài) và [35] (nguyên âm ngắn)",
+        "merges_with": "tone5",
+        "confidence": "high"
+      },
+      {
+        "id": "tone8",
+        "name": "Thanh 8 (thanh nhập trung/thấp — âm tiết khép -p, -t, -k)",
+        "mark": "(không thêm chữ cái sau b, d, g)",
+        "chao_contour": "33",
+        "phonation": "Âm tiết đóng bằng phụ âm tắc vô thanh; tại Phục Hưng (Vọng Mô) là [33], còn tại Dương Trường phân hóa thành [53] (nguyên âm dài) và [11] (nguyên âm ngắn)",
+        "merges_with": "tone6",
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu điển hình của nhánh Thái Bắc: 6 thanh trên âm tiết mở hoặc kết thúc bằng âm mũi/bán nguyên âm, và 2 thanh nhập trên âm tiết kết thúc bằng âm tắc (-p, -t, -k). Đường nét thanh điệu cụ thể dao động giữa các điểm phương ngữ ở Quý Châu và Hà Giang."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "chúng tôi / chúng em",
+      "form": "tau / cấy tau",
+      "ipa": null,
+      "gloss_en": "we / us (exclusive/humble in folk songs)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "các anh / các cháu",
+      "form": "xhâu / cấy xhâu",
+      "ipa": null,
+      "gloss_en": "you (plural, polite in folk songs)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chúng em / chúng con",
+      "form": "dầu",
+      "ipa": null,
+      "gloss_en": "we (younger generation)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "con",
+      "form": "lậc",
+      "ipa": null,
+      "gloss_en": "child",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mừng",
+      "form": "mùng",
+      "ipa": null,
+      "gloss_en": "happy / to congratulate",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "buồn / lo",
+      "form": "mủng",
+      "ipa": null,
+      "gloss_en": "sad / worried",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "gặp nhau",
+      "form": "pùng / tùng pùng",
+      "ipa": null,
+      "gloss_en": "to meet each other",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lấy nhau (kết hôn)",
+      "form": "tùng san",
+      "ipa": null,
+      "gloss_en": "to marry each other",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngày",
+      "form": "vằn",
+      "ipa": null,
+      "gloss_en": "day",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "tiếng Bố Y",
+      "form": "Haausqyaix",
+      "ipa": "xaːu³⁵ ˀjɐi³¹",
+      "gloss_en": "Bouyei language",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Bố Y",
+      "form": "Buxqyaix",
+      "ipa": "pu³¹ ˀjɐi³¹",
+      "gloss_en": "Bouyei people",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca nghi lễ và lễ cưới người Bố Y",
+        "note": "Được công nhận là Di sản văn hóa phi vật thể quốc gia tại tỉnh Hà Giang (Quyết định số 266/QĐ-BVHTTDL ngày 30/01/2018). Gồm hát đối đáp đám cưới, hát đón giọng chủ nhà ('Chầu sin phân xhầu dần - vằn vằn tấc quán'), hát mừng thọ chúc người cao tuổi."
+      },
+      {
+        "name": "Hát giao duyên và dân ca sinh hoạt",
+        "note": "Gồm hát giao duyên nam nữ (tiêu biểu là bộ 'Hát giao duyên 12 tháng' từ tháng Giêng đến tháng Chạp), hát khi dựng nhà mới, hát núi, hát hoa, hát với cô tiên, hát mở con mương, hát cảm tạ trâu thần (trong Tết Sử Giề Pà ở Mường Khương)."
+      },
+      {
+        "name": "Dân vũ Bố Y",
+        "note": "Các điệu múa truyền thống như 'Trồng hoa hái hoa', 'Sàng sàng sẩy sẩy', 'Mừng mùa mới', múa khèn."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Kéo giọng cuối câu",
+        "description": "Đặc trưng quan trọng nhất khi hát dân ca Bố Y: nhịp hát đều đặn, ít nhảy quãng phức tạp nhưng cuối câu phải ngân kéo dài giọng; nếu lời ngắn chưa đủ hơi kéo giọng thì người hát chèn thêm hư từ đệm mà không làm đổi nghĩa câu hát.",
+        "abc": null,
+        "confidence": "high"
+      },
+      {
+        "name": "Đối xứng vần trắc – bằng giữa câu ngắn và câu dài",
+        "description": "Cấu trúc thơ-nhạc xen kẽ câu ngắn và câu dài, cứ một câu kết bằng vần trắc lại đối tiếp một câu kết bằng vần bằng.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm dân ca Bố Y truyền thống",
+        "note": "Theo mô tả dân tộc nhạc học, giai điệu dân ca Bố Y ở Quản Bạ và Mường Khương có âm vực vừa phải, tiết tấu bình ổn đều đều, ít biến đổi tiết nhịp đột ngột; lối hát hiện nay nhẹ nhàng hơn lối cổ để thuận lợi cho việc kéo giọng.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Trống đồng",
+        "note": "Nhạc cụ thiêng và quan trọng bậc nhất để giữ nhịp, bổ trợ cho hát dân ca và nghi lễ của người Bố Y"
+      },
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ hơi đa thanh làm từ các ống nứa tép cắm qua bầu gỗ, dùng đệm hát và múa ở Hà Giang"
+      },
+      {
+        "name": "Kèn lá",
+        "note": "Nhạc cụ thổi dân dã phổ biến trong hát giao duyên của người Bố Y ở Hà Giang"
+      },
+      {
+        "name": "Đàn nhị / đàn dân tộc đệm dân vũ",
+        "note": "Sử dụng trong các đội văn nghệ truyền thống ở Mường Khương (Lào Cai)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "orthography_warning": "Trong chữ Bố Y Latinh chuẩn Quý Châu (1985), các chữ cái l, z, c, x, s, h ở CUỐI âm tiết (và t sau b/d/g, hoặc y/f/j/q ở từ mượn) là KÝ HIỆU THANH ĐIỆU, tuyệt đối không phát âm như phụ âm cuối. Ngoài ra b=/p/, d=/t/, g=/k/, còn mb=/ɓ/, nd=/ɗ/. Ngược lại, các bản chép lời dân ca Bố Y tại Việt Nam viết theo thói quen chữ Quốc ngữ (như 'lậc', 'tùng pùng', 'xhâu'). Cần phân biệt rõ hai nguồn văn bản này ở bước tiền xử lý G2P.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "b (chữ Bố Y 1985) / /p/",
+        "quoc_ngu": "p",
+        "note": "Tiếng Việt chuẩn hiếm có /p/ đầu âm tiết trừ từ mượn; TTS tiếng Việt dễ đọc nhầm thành /ɓ/ ('b') nếu không ép phoneme /p/."
+      },
+      {
+        "native": "mb / /ɓ/",
+        "quoc_ngu": "b",
+        "note": "Trùng khớp với âm 'b' [ɓ] trong tiếng Việt."
+      },
+      {
+        "native": "d / /t/",
+        "quoc_ngu": "t",
+        "note": "Trong chữ Bố Y 1985, 'd' biểu thị âm /t/ vô thanh (như 't' tiếng Việt), không phải /z/ hay /j/."
+      },
+      {
+        "native": "nd / /ɗ/",
+        "quoc_ngu": "đ",
+        "note": "Trùng khớp với âm 'đ' [ɗ] trong tiếng Việt."
+      },
+      {
+        "native": "g / /k/ và gv / /kʷ/",
+        "quoc_ngu": "c / k và qu",
+        "note": "Chữ 'g' trong chính tả Bố Y là âm tắc vô thanh /k/; 'gv' tương đương 'qu' [kw] giọng Bắc."
+      },
+      {
+        "native": "by / /pʲ/ và my / /mʲ/",
+        "quoc_ngu": "pi- / mi-",
+        "note": "Tiếng Việt không có phụ âm hai môi ngạc hóa đơn lập; xấp xỉ bằng cách chèn bán nguyên âm 'i' ngắn trước nguyên âm chính (ví dụ byaal → 'pia')."
+      },
+      {
+        "native": "qv / /ˀv/ và qy / /ˀj/",
+        "quoc_ngu": "v / d (giọng Nam) hoặc y",
+        "note": "Tiếng Việt không có loạt tiếp cận tiền thanh hầu hóa /ˀv/, /ˀj/; chỉ xấp xỉ được phần âm sắc 'v' và 'd/y', mất nét tắc thanh hầu mở đầu."
+      },
+      {
+        "native": "j / /tɕ/, q / /tɕʰ/, x / /ɕ/",
+        "quoc_ngu": "ch, s/x (bật hơi), x",
+        "note": "Âm lợi-ngạc /tɕ/ gần với 'ch' [tɕ ~ c] tiếng Việt; /tɕʰ/ bật hơi không có trong tiếng Việt; /ɕ/ gần với 'x' nhẹ kèm nâng mặt lưỡi."
+      },
+      {
+        "native": "r / /z ~ ð/",
+        "quoc_ngu": "d (giọng Bắc)",
+        "note": "Âm /z/ trùng với 'd/gi' giọng Hà Nội; biến thể liên răng [ð] ở người già không có trong tiếng Việt."
+      },
+      {
+        "native": "e / /ɯ/",
+        "quoc_ngu": "ư",
+        "note": "Trong chữ Bố Y 1985, 'e' đơn thường ghi âm /ɯ/ ('ư'), trong khi 'ee' mới là /e/ ('ê')."
+      },
+      {
+        "native": "Chữ thanh điệu cuối âm tiết: -l (24), -z (11), -c (53), -x (31), -s (35), -h (33)",
+        "quoc_ngu": "dấu sắc/hỏi nhẹ (-l), dấu huyền thấp (-z), dấu sắc gãy/ngã (-c), dấu huyền (-x), dấu sắc (-s), không dấu (-h)",
+        "note": "Cần tách bỏ chữ cái thanh điệu cuối từ trước khi chuyển tự sang Quốc ngữ và ánh xạ thành dấu thanh tương ứng trên nguyên âm."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tiếng Bố Y Quản Bạ (Pu Y — gồm các ngành Pàu Y, Pàu Nả, Pàu Thìn)",
+        "iso639_3": "pcc",
+        "region": "Quản Bạ, Đồng Văn, Yên Minh (Hà Giang)",
+        "note": "Biến thể Thái Bắc bản địa của dân tộc Bố Y tại Việt Nam."
+      },
+      {
+        "name": "Tiếng Giáy (Yay / Nhắng)",
+        "iso639_3": "pcc",
+        "region": "Lào Cai, Hà Giang, Lai Châu, Yên Bái",
+        "note": "Dân tộc Giáy được công nhận là một dân tộc riêng tại Việt Nam nhưng nói phương ngữ thuộc cùng cụm ngôn ngữ Bouyei–Yay (cùng mã ISO 639-3: pcc)."
+      },
+      {
+        "name": "Tiếng Tu Dí (Bố Y Mường Khương — Quan Thoại Tây Nam & tiếng Tu Dí cổ)",
+        "iso639_3": "cmn",
+        "region": "Mường Khương, Xi Ma Cai (Lào Cai)",
+        "note": "Nhóm Tu Dí thuộc dân tộc Bố Y ở Lào Cai chủ yếu sử dụng một thổ ngữ Quan Thoại Tây Nam (Hán – Tạng, Glottocode: sout2712); ngôn ngữ gốc của họ được Sách đỏ ngôn ngữ Việt Nam xếp vào mức cực kỳ nguy cấp (chỉ còn 1–15 người nhớ)."
+      },
+      {
+        "name": "Tiếng Bố Y Quý Châu (Kiềm Nam, Kiềm Trung, Kiềm Tây)",
+        "iso639_3": "pcc",
+        "region": "Quý Châu, Vân Nam, Tứ Xuyên (Trung Quốc)",
+        "note": "Khối phương ngữ chính chiếm ~98% người nói; phương ngữ Kiềm Nam (Vọng Mô) là cơ sở của chữ viết chuẩn năm 1985."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "Haausqyaix",
+        "ipa": "xaːu³⁵ ˀjɐi³¹",
+        "meaning_vi": "tiếng Bố Y (chuẩn Quý Châu)"
+      },
+      {
+        "native": "Buxqyaix",
+        "ipa": "pu³¹ ˀjɐi³¹",
+        "meaning_vi": "người Bố Y (chuẩn Quý Châu)"
+      },
+      {
+        "native": "ramx (Vọng Mô)",
+        "ipa": "ðɐm³¹ ~ ðam⁴²",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "byaal (Vọng Mô)",
+        "ipa": "pja²⁴",
+        "meaning_vi": "cá"
+      },
+      {
+        "native": "rog (Vọng Mô)",
+        "ipa": "ðɔk³³",
+        "meaning_vi": "chim (thanh 8; phân biệt với 'rogt' [ðɔk³⁵] = số sáu, thanh 7)"
+      },
+      {
+        "native": "mbinl (Vọng Mô)",
+        "ipa": "ʔbin²⁴",
+        "meaning_vi": "bay"
+      },
+      {
+        "native": "jais (Vọng Mô)",
+        "ipa": "tɕɐi³⁵",
+        "meaning_vi": "trứng"
+      },
+      {
+        "native": "maas (Vọng Mô)",
+        "ipa": "ma³⁵",
+        "meaning_vi": "quả"
+      },
+      {
+        "native": "nyaal (Vọng Mô)",
+        "ipa": "ɲa²⁴",
+        "meaning_vi": "cỏ"
+      },
+      {
+        "native": "naamh (Vọng Mô)",
+        "ipa": "naːm³³",
+        "meaning_vi": "đất"
+      },
+      {
+        "native": "rinl (Vọng Mô)",
+        "ipa": "ðin²⁴",
+        "meaning_vi": "đá (trong ʔdɐk³⁵ ðin²⁴)"
+      },
+      {
+        "native": "tau / cấy tau (Quản Bạ)",
+        "ipa": null,
+        "meaning_vi": "chúng tôi / chúng em (từ dân ca Bố Y Hà Giang)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia — Bouyei language",
+      "url": "https://en.wikipedia.org/wiki/Bouyei_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Bố Y",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_B%E1%BB%91_Y",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Bố Y",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_B%E1%BB%91_Y",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog — Bouyei (bouy1240)",
+      "url": "https://glottolog.org/resource/languoid/id/bouy1240",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wu, Wenyi, Wil Snyder, & Liang Yongshu (2007). Survey of the Guizhou Bouyei Language. SIL Language and Culture Documentation and Description 2007-001. Dallas: SIL International.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Di sản văn hóa (Bộ Văn hóa, Thể thao và Du lịch) — Hồ sơ Di sản văn hóa phi vật thể quốc gia: Dân ca của người Bố Y (xã Quyết Tiến, huyện Quản Bạ, tỉnh Hà Giang; Quyết định số 266/QĐ-BVHTTDL ngày 30/01/2018).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Trần Quốc Việt (2020). Âm nhạc dân gian của người Bố Y. Hà Nội: NXB Văn hóa dân tộc.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Trần Trí Dõi (2001). Ngôn ngữ các dân tộc thiểu số ở Việt Nam. Hà Nội: NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sample_words[2]",
+          "severity": "high",
+          "problem": "Từ 'nước' trong tiếng Bố Y chuẩn viết là 'ramx' (thanh 4, phát triển từ Proto-Tai *namC, ký hiệu thanh điệu cuối âm tiết là '-x', IPA /ðɐm³¹/ ~ [ðam⁴²]), không phải 'ramz' (thanh 2, '-z').",
+          "fix": "Sửa chính tả từ mẫu thành 'ramx (Vọng Mô)' và ghi rõ IPA 'ðɐm³¹ ~ ðam⁴²'."
+        },
+        {
+          "path": "ml_hints.sample_words[4]",
+          "severity": "high",
+          "problem": "Nhầm lẫn giữa 'rog' (chim — thanh 8, không có '-t', IPA [ðɔk³³]) và 'rogt' (số sáu — thanh 7, có '-t' cuối, IPA [ðɔk³⁵]). Bản thảo viết 'rogt' nhưng lại phiên âm [ðɔk³³] và dịch là 'chim'.",
+          "fix": "Sửa mục 'chim' thành 'rog (Vọng Mô)' với IPA 'ðɔk³³' (thanh 8), đồng thời có thể chú thích phân biệt với 'rogt' (sáu, thanh 7)."
+        },
+        {
+          "path": "phonology.tones[1].phonation",
+          "severity": "medium",
+          "problem": "Biến thể [42] ở người lớn tuổi vùng Vọng Mô là của Thanh 4 (C2, như trong 'ramx' [ðam⁴²]), không phải Thanh 2 (A2, vốn giữ [11] ở cả Dương Trường lẫn Phục Hưng/Vọng Mô).",
+          "fix": "Chuyển ghi chú biến thể [42] từ tone2 sang tone4 và bổ sung đối chiếu hai điểm phương ngữ Phục Hưng (Vọng Mô) và Dương Trường theo bảng chuẩn."
+        },
+        {
+          "path": "lexicon[8]",
+          "severity": "low",
+          "problem": "Từ 'vằn' (ngày) được trích từ câu hát đám cưới 'Chầu sin phân xhầu dần - vằn vằn tấc quán' trong hồ sơ của Cục Di sản văn hóa nhưng hồ sơ không tách nghĩa từng từ riêng lẻ cho từ 'vằn' (dù tương ứng âm vị học Thái Bắc *wan 'ngày' là hợp lý).",
+          "fix": "Hạ confidence của mục 'vằn' xuống 'low' để phản ánh đây là từ tách từ câu hát mẫu chưa được giải nghĩa từng từ trong nguồn gốc."
+        },
+        {
+          "path": "lexicon[9..10].ipa",
+          "severity": "low",
+          "problem": "Hai mục từ 'Haausqyaix' và 'Buxqyaix' trong lexicon để trống trường 'ipa' (null), trong khi phần 'ml_hints.sample_words' đã có sẵn phiên âm IPA chuẩn.",
+          "fix": "Bổ sung IPA 'xaːu³⁵ ˀjɐi³¹' và 'pu³¹ ˀjɐi³¹' vào lexicon cho đồng bộ."
+        }
+      ]
+    },
+    "open_issues": [
+      "Hệ thống âm vị và chữ Latinh hiện được mô tả theo chuẩn tiếng Bố Y Vọng Mô (Quý Châu, Trung Quốc); cần khảo sát điền dã để xác định mức độ biến đổi thanh điệu và phụ âm đầu trong thổ ngữ Bố Y tại xã Quyết Tiến, huyện Quản Bạ, tỉnh Hà Giang.",
+      "Các từ vựng dân ca thu thập ở Quản Bạ ('xhâu', 'lậc', 'tùng pùng'...) mới chỉ có bản ghi âm chữ Quốc ngữ dân gian của Cục Di sản văn hóa, chưa có ký âm IPA chuẩn từ băng ghi âm gốc.",
+      "Nhóm Tu Dí ở Mường Khương (Lào Cai) tuy cùng thuộc dân tộc Bố Y theo danh mục 54 dân tộc Việt Nam nhưng nói phương ngữ Hán (Quan Thoại Tây Nam); khi xây dựng dữ liệu âm thanh cho dân ca Bố Y Lào Cai cần tách riêng khỏi mô hình ngôn ngữ Thái Bắc (pcc)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

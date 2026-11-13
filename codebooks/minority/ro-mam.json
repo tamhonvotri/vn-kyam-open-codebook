@@ -1,0 +1,773 @@
+{
+  "id": "ro-mam",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Rơ Măm",
+  "name_en": "Romam",
+  "autonym": "Rơ Măm",
+  "ethnic_group_vi": "Rơ Măm",
+  "language": {
+    "iso639_3": "rmx",
+    "glottocode": "roma1331",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric, Lamamic)"
+  },
+  "regions": [
+    "Làng Le, xã Mô Rai, huyện Sa Thầy, tỉnh Kon Tum (từ năm 2025 thuộc xã Mô Rai, tỉnh Quảng Ngãi)",
+    "Vùng biên giới giáp tỉnh Ratanakiri (Campuchia)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Rơ Măm tại Việt Nam là 639 người (Tổng điều tra 2019), khoảng 625 nhân khẩu tại làng Le (2024); số người nói thông thạo tiếng mẹ đẻ thấp hơn dân số tộc người do hiện tượng song ngữ và chuyển dịch sang tiếng Việt/Gia Rai (EGIDS 6b — Threatened). Tổng số người nói cụm phương ngữ Kaco'–Rơ Măm ở cả Campuchia và Việt Nam khoảng 3.600 người.",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức riêng",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Tiếng Rơ Măm hiện chỉ tồn tại chủ yếu ở dạng truyền miệng trong cộng đồng. Trong giáo dục phổ thông, người Rơ Măm sử dụng tiếng Việt và chữ Quốc ngữ."
+    },
+    {
+      "name": "Chữ Latinh ghi âm điền dã (dựa trên chữ Quốc ngữ và chữ Ba Na/Gia Rai)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Được các nhà ngôn ngữ học và dân tộc học Việt Nam (như Võ Đức Tám, Phan Lương Hùng) dùng để phiên âm từ vựng điền dã: dùng dấu trăng cho nguyên âm ngắn (ă), nhân đôi con chữ cho nguyên âm dài (oo, ôô), ghi các tổ hợp phụ âm đầu (bl, hl, sl, kl, kp, pr, hph) và phụ âm cuối (-h, -k, -l, -r)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp bởi LLM từ tư liệu phân loại ngôn ngữ học (Glottolog 5.3, nghiên cứu tiểu nhóm Lamamic) và các mục từ tiếng Rơ Măm đã công bố trên Wiktionary tiếng Việt dẫn theo công trình điền dã của Võ Đức Tám ('Âm tiết trong tiếng Rơ-măm', 'Hệ thống ngữ âm tiếng Rơ - Măm') cùng tư liệu dân tộc học tỉnh Kon Tum. Chưa tiếp cận được toàn văn bảng âm vị đầy đủ trong luận văn gốc và chưa có thẩm định của người bản xứ hoặc chuyên gia ngữ âm học Môn-Khmer.",
+  "phonology": {
+    "syllable_structure": "(Cə/C')C1(C2)V(C3) — Cấu trúc bán âm tiết (sesquisyllabic) điển hình của nhóm Bahnaric, gồm tiền âm tiết yếu không mang trọng âm (như bơ-, hơ-, rơ-, kơ-, xơ-, t'-) và âm tiết chính mang trọng âm C1(C2)V(C3).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi (ví dụ: pan 'bốn', pah 'tát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Âm tắc hai môi hữu thanh hoặc tiền thanh hầu hóa (ví dụ: bih buh, bơ neo); cần kiểm chứng mức độ tiền thanh hầu hóa trong điền dã",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi vô thanh (ví dụ: kơtu, t'gạt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Âm tắc chân răng tiền thanh hầu hóa (ví dụ: đê 'làng')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh (ví dụ: ka 'cá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm bật hơi (ví dụ: khom pi)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Âm tắc ngạc mềm hữu thanh (ví dụ: guông 'cồng chiêng', goong soi)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ ~ dʑ",
+        "note": "Âm tắc/tắc-xát mặt lưỡi hữu thanh theo quy ước chữ viết Tây Nguyên (ví dụ: jặp, jeng ninh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi (ví dụ: mam 'sắt', măm 'bú', măt 'mặt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mm",
+        "ipa": "mː ~ ʔm",
+        "note": "Tổ hợp âm mũi kéo dài hoặc tiền thanh hầu hóa ghi nhận trong tư liệu của Võ Đức Tám (ví dụ: mmuh 'cùn')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng (ví dụ: nam 'nhà ở', nat)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi (ví dụ: nho 'áo cộc tay nữ')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s, x",
+        "ipa": "s",
+        "note": "Âm xát chân răng vô thanh; trong tư liệu điền dã ghi dao động bằng s hoặc x (ví dụ: săk 'lông', sar, yang xơri)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh (ví dụ: hah 'há', hơ huôl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên chân răng (ví dụ: lit 'lũ', luk)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung/vỗ đầu lưỡi (ví dụ: rôông 'nhà rông', rơ ruội)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi (ví dụ: yang 'thần linh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bl",
+        "ipa": "bl",
+        "note": "Tổ hợp phụ âm đầu tắc + bên (ví dụ: bla 'vách', bluh 'nổi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pr",
+        "ipa": "pr",
+        "note": "Tổ hợp phụ âm đầu tắc + rung (ví dụ: prai 'vải')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kl",
+        "ipa": "kl",
+        "note": "Tổ hợp phụ âm đầu ngạc mềm + bên (ví dụ: kleo, klông lơi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kp",
+        "ipa": "kp",
+        "note": "Tổ hợp phụ âm tắc ngạc mềm + hai môi hoặc tiền âm tiết rút gọn (ví dụ: kpen)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "hl ~ l̥",
+        "note": "Tổ hợp h + l hoặc âm bên vô thanh đặc trưng nhóm Bahnaric (ví dụ: hla 'lá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "sl",
+        "note": "Tổ hợp xát + bên (ví dụ: sla)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hph",
+        "ipa": "hpʰ",
+        "note": "Tổ hợp tiền hơi thở/tiền âm tiết vô thanh + âm môi bật hơi (ví dụ: hphat 'váy quấn nữ')",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i ~ iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp (ví dụ: lit 'lũ', ip, bih)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e ~ eː",
+        "note": "Nguyên âm hàng trước hơi hẹp (ví dụ: đê 'làng')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ ɛː",
+        "note": "Nguyên âm hàng trước hơi rộng (ví dụ: kpen, jeng)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm hàng giữa độ mở hẹp (ví dụ: mưr)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə ~ əː",
+        "note": "Nguyên âm trung tâm; ở tiền âm tiết đọc lướt ngắn [ə] (bơ-, hơ-, rơ-, kơ-), ở âm tiết chính đọc dài hơn (lơi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm rộng ngắn (ví dụ: măm 'bú', măt 'mặt', păk 'mở', săk 'lông')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm rộng dài (ví dụ: ka 'cá', mam 'sắt', pan 'bốn', bla 'vách')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u ~ uː",
+        "note": "Nguyên âm hàng sau tròn môi hẹp (ví dụ: bluh 'nổi', mmuh 'cùn', luk)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô, ôô",
+        "ipa": "o ~ oː",
+        "note": "Nguyên âm hàng sau hơi hẹp; nhân đôi con chữ biểu thị trường độ dài (ví dụ: rôông 'nhà rông', pang bôông)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o, oo",
+        "ipa": "ɔ ~ ɔː",
+        "note": "Nguyên âm hàng sau hơi rộng; nhân đôi con chữ biểu thị trường độ dài (ví dụ: nho, goong soi)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ie",
+        "ipa": "iː ~ iə",
+        "note": "Theo trích dẫn công trình của Võ Đức Tám, chữ 'ie' ở giữa từ có thể hiện thực hóa như /iː/",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm (ví dụ: guông 'cồng chiêng', hơ huôl)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi khép ở cuối âm tiết (ví dụ: ip, hlap, jặp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Âm tắc chân răng khép ở cuối âm tiết (ví dụ: măt 'mặt', lit 'lũ', hphat)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm khép ở cuối âm tiết, đứng được sau cả nguyên âm không tròn môi (ví dụ: păk 'mở', săk 'lông', luk)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu cuối âm tiết rất phổ biến trong tiếng Rơ Măm, không có trong tiếng Việt (ví dụ: hah 'há', pah 'tát', bluh 'nổi', mmuh 'cùn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết (ví dụ: mam 'sắt', măm 'bú', nam 'nhà ở')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết (ví dụ: pan 'bốn', kpen)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi cuối âm tiết (ví dụ: jeng ninh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết, không bị môi hóa sau nguyên âm dài viết nhân đôi oo/ôô (ví dụ: yang, rôông, goong)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết, không có trong tiếng Việt (ví dụ: hơ huôl, hơ guôl)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung/vỗ cuối âm tiết, không có trong tiếng Việt (ví dụ: mưr, sar)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "i, y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối vần (ví dụ: prai 'vải', klông lơi, ét xét may)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi cuối vần (ví dụ: ao 'áo', kleo)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu (non-tonal). Thuộc nhánh Bahnar Bắc (tiểu nhóm Lamamic cùng với tiếng Kaco' ở Campuchia) — nhánh ngôn ngữ thường có đối lập trường độ nguyên âm (ngắn/dài) và đối lập âm vực thanh hầu (register: giọng thường modal so với giọng thở breathy hoặc giọng căng). Mức độ bảo lưu đối lập âm vực trong tiếng Rơ Măm hiện đại tại làng Le cần được kiểm chứng âm học trực tiếp."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "cá",
+      "form": "ka",
+      "ipa": "kaː",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá",
+      "form": "hla",
+      "ipa": "hlaː",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt",
+      "form": "măt",
+      "ipa": "mat̚",
+      "gloss_en": "face",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lông",
+      "form": "săk",
+      "ipa": "sak̚",
+      "gloss_en": "hair / body hair / feather",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sắt",
+      "form": "mam",
+      "ipa": "maːm",
+      "gloss_en": "iron",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "pan",
+      "ipa": "paːn",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bú",
+      "form": "măm",
+      "ipa": "mam",
+      "gloss_en": "to suckle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mở",
+      "form": "păk",
+      "ipa": "pak̚",
+      "gloss_en": "to open",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "há",
+      "form": "hah",
+      "ipa": "hah",
+      "gloss_en": "to open wide (mouth)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tát",
+      "form": "pah",
+      "ipa": "pah",
+      "gloss_en": "to slap",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nổi",
+      "form": "bluh",
+      "ipa": "bluh",
+      "gloss_en": "to float / surface",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cùn",
+      "form": "mmuh",
+      "ipa": "mːuh",
+      "gloss_en": "blunt / dull",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lũ",
+      "form": "lit",
+      "ipa": "lit̚",
+      "gloss_en": "flood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vách",
+      "form": "bla",
+      "ipa": "blaː",
+      "gloss_en": "wall / partition",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làng",
+      "form": "đê",
+      "ipa": "ɗeː",
+      "gloss_en": "village",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhà ở",
+      "form": "nam",
+      "ipa": "naːm",
+      "gloss_en": "house",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhà rông",
+      "form": "rôông",
+      "ipa": "roːŋ",
+      "gloss_en": "communal house",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "vải",
+      "form": "prai",
+      "ipa": "praːj",
+      "gloss_en": "cloth / fabric",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "áo",
+      "form": "ao",
+      "ipa": "ʔaːw",
+      "gloss_en": "shirt / top",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "áo cộc tay phụ nữ",
+      "form": "nho",
+      "ipa": "ɲɔː",
+      "gloss_en": "women's short-sleeved blouse",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "váy quấn phụ nữ",
+      "form": "hphat",
+      "ipa": "hpʰat̚",
+      "gloss_en": "women's wrap-around skirt",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "thần lúa",
+      "form": "yang xơri",
+      "ipa": "jaːŋ səriː",
+      "gloss_en": "rice deity",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bộ chiêng quý (tương đương chiêng aráp)",
+      "form": "guông t'gạt",
+      "ipa": "ɡuəŋ təɡat̚",
+      "gloss_en": "precious gong set (arap type)",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát ru truyền thống Rơ Măm",
+        "note": "Các bài hát ru truyền miệng qua nhiều thế hệ, giai điệu da diết mang tính tự sự, mỗi bài có thể kéo dài 15–20 phút."
+      },
+      {
+        "name": "Hát giao duyên và dân ca lễ hội",
+        "note": "Trình diễn gắn với hệ thống nghi lễ nông nghiệp như Lễ cúng cơm mới, Lễ tạ Thần lúa (yang xơri), Lễ mở cửa kho lúa, Lễ đâm trâu."
+      },
+      {
+        "name": "Diễn tấu cồng chiêng và múa xoang",
+        "note": "Biểu diễn tập thể quanh cây nêu và tại nhà rông của làng Le."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Bộ chiêng Guông Hanh",
+        "note": "Bộ cồng chiêng đặc trưng gồm 11 chiếc: 3 cồng có núm (nhóm chiêng mẹ) và 8 chiêng bằng (nhóm chiêng con)."
+      },
+      {
+        "name": "Bộ chiêng guông t'gạt",
+        "note": "Bộ chiêng quý tương ứng loại hình chiêng aráp vùng Bắc Tây Nguyên; ngoài ra tại làng Le còn lưu giữ các bộ cồng chiêng 11, 15 đến 22 chiếc."
+      },
+      {
+        "name": "Klông lơi",
+        "note": "Nhạc cụ truyền thống của người Rơ Măm được ghi nhận trong tư liệu dân tộc học Kon Tum."
+      },
+      {
+        "name": "Jặp",
+        "note": "Nhạc cụ hơi có lưỡi gà rung tự do làm bằng sừng trâu (tương ứng với nhạc cụ tơ đjếp của người Ba Na, Gia Rai)."
+      },
+      {
+        "name": "Trống truyền thống",
+        "note": "Phối hợp giữ nhịp trong dàn cồng chiêng lễ hội."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Kaco' (Kachok)",
+        "iso639_3": "xkk",
+        "glottocode": "kaco1239",
+        "note": "Ngôn ngữ/phương ngữ chị em gần nhất cùng tiểu nhóm Lamamic, nói chủ yếu tại tỉnh Ratanakiri (Đông Bắc Campuchia) với khoảng 3.000 người nói. Ghi chú: tên gọi Lamam/Lmam (mã cũ lmm đã ngừng dùng hoặc gộp) là tên thị tộc trong cộng đồng Kaco' và Tampuon."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ka",
+        "quoc_ngu": "ca",
+        "note": "Âm /k/ trước /a/ viết là 'c' trong chữ Quốc ngữ; đọc kéo dài nguyên âm không dấu thanh (tương đương thanh ngang)."
+      },
+      {
+        "native": "hla",
+        "quoc_ngu": "hờ-la",
+        "note": "Tổ hợp phụ âm đầu /hl/ (hoặc âm bên vô thanh [l̥]) không có trong tiếng Việt; xấp xỉ bằng cách đọc lướt cực nhanh 'hờ' vô thanh nối vào 'la'."
+      },
+      {
+        "native": "bla",
+        "quoc_ngu": "bờ-la",
+        "note": "Tổ hợp phụ âm đầu /bl/ không còn trong tiếng Việt hiện đại; đọc lướt nhanh 'b' sang 'la' trong một âm tiết."
+      },
+      {
+        "native": "bluh",
+        "quoc_ngu": "bờ-lu-(h)",
+        "note": "Có cả tổ hợp đầu /bl/ lẫn phụ âm xát thanh hầu cuối /-h/ không có trong tiếng Việt; TTS tiếng Việt chỉ đọc được 'bờ-lu', bị mất tiếng bật hơi xát [h] cuối âm tiết."
+      },
+      {
+        "native": "hah / pah",
+        "quoc_ngu": "ha-(h) / pa-(h)",
+        "note": "Âm cuối /-h/ không có trong chữ Quốc ngữ; không nên thay bằng thanh sắc hay thanh nặng vì /-h/ là âm xát vô thanh mở thanh môn ở cuối vần."
+      },
+      {
+        "native": "păk / săk",
+        "quoc_ngu": "pắc / sắc",
+        "note": "Nguyên âm ngắn /a/ + /-k/ tương ứng khá sát với vần 'ăc' mang thanh sắc trong tiếng Việt chuẩn, nhưng cao độ thực tế trong tiếng Rơ Măm phẳng hơn thanh sắc Hà Nội."
+      },
+      {
+        "native": "măt",
+        "quoc_ngu": "mắt",
+        "note": "Nguyên âm ngắn /a/ + /-t/ xấp xỉ bằng 'ắt' tiếng Việt (không mang nét nghẹt thanh hầu của thanh nặng Bắc Bộ)."
+      },
+      {
+        "native": "prai",
+        "quoc_ngu": "pờ-rai",
+        "note": "Tổ hợp /pr/ không có trong tiếng Việt chuẩn; đọc lướt cực ngắn 'pờ' nối liền 'rai'."
+      },
+      {
+        "native": "rôông",
+        "quoc_ngu": "rông",
+        "note": "Nguyên âm dài /oː/ trước /-ŋ/ không bị ngậm môi đôi [oŋ͡m] như vần 'ông' của tiếng Việt; cần giữ môi tròn mở vừa và ngân dài nguyên âm."
+      },
+      {
+        "native": "yang xơri",
+        "quoc_ngu": "giang xơ-ri",
+        "note": "Âm /j/ đầu từ tương ứng 'd/gi' giọng Nam Bộ (giọng Bắc đọc [z] sẽ sai lệch sang âm xát); tiền âm tiết 'xơ-' đọc rất nhẹ và ngắn."
+      },
+      {
+        "native": "mưr / hơ huôl",
+        "quoc_ngu": "mư-(r) / hơ huôn",
+        "note": "Phụ âm cuối /-r/ và /-l/ không tồn tại trong tiếng Việt; xấp xỉ Quốc ngữ bằng nguyên âm mở hoặc '-n' sẽ làm mất đặc trưng rung/bên cuối âm tiết."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ka",
+        "ipa": "kaː",
+        "meaning_vi": "cá"
+      },
+      {
+        "native": "hla",
+        "ipa": "hlaː",
+        "meaning_vi": "lá"
+      },
+      {
+        "native": "măt",
+        "ipa": "mat̚",
+        "meaning_vi": "mặt"
+      },
+      {
+        "native": "săk",
+        "ipa": "sak̚",
+        "meaning_vi": "lông"
+      },
+      {
+        "native": "mam",
+        "ipa": "maːm",
+        "meaning_vi": "sắt"
+      },
+      {
+        "native": "pan",
+        "ipa": "paːn",
+        "meaning_vi": "bốn"
+      },
+      {
+        "native": "măm",
+        "ipa": "mam",
+        "meaning_vi": "bú"
+      },
+      {
+        "native": "păk",
+        "ipa": "pak̚",
+        "meaning_vi": "mở"
+      },
+      {
+        "native": "hah",
+        "ipa": "hah",
+        "meaning_vi": "há"
+      },
+      {
+        "native": "pah",
+        "ipa": "pah",
+        "meaning_vi": "tát"
+      },
+      {
+        "native": "bluh",
+        "ipa": "bluh",
+        "meaning_vi": "nổi"
+      },
+      {
+        "native": "lit",
+        "ipa": "lit̚",
+        "meaning_vi": "lũ"
+      },
+      {
+        "native": "bla",
+        "ipa": "blaː",
+        "meaning_vi": "vách"
+      },
+      {
+        "native": "đê",
+        "ipa": "ɗeː",
+        "meaning_vi": "làng"
+      },
+      {
+        "native": "nam",
+        "ipa": "naːm",
+        "meaning_vi": "nhà ở"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Tiếng Rơ Măm là ngôn ngữ rất ít người nói và đang bị đe dọa (EGIDS 6b), hoàn toàn chưa có kho ngữ liệu âm thanh công khai cho huấn luyện TTS/SVS.",
+      "Các âm ngoài hệ thống âm vị tiếng Việt cần đặc biệt lưu ý khi tổng hợp giọng: phụ âm tắc vô thanh đầu từ /p/, các tổ hợp phụ âm đầu (/bl, pr, kl, kp, hl, sl, hpʰ/), tiền âm tiết lướt (/Cə-/), và các phụ âm cuối /-h, -l, -r/."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Romam [roma1331] & Lamamic [lama1291]",
+      "url": "https://glottolog.org/resource/languoid/id/roma1331",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Thể loại:Mục từ tiếng Rơ Măm (50 mục từ dẫn theo Võ Đức Tám, 'Âm tiết trong tiếng Rơ-măm' và Cổng thông tin điện tử tỉnh Kon Tum)",
+      "url": "https://vi.wiktionary.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:M%E1%BB%A5c_t%E1%BB%AB_ti%E1%BA%BFng_R%C6%A1_M%C4%83m",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Võ Đức Tám. Hệ thống ngữ âm tiếng Rơ - Măm (Luận văn Thạc sĩ Ngôn ngữ học, mã ngành 60.22.02.40, người hướng dẫn: Đoàn Văn Phúc, Trường Đại học Khoa học – Đại học Huế) & 'Âm tiết trong tiếng Rơ-măm'.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phan Lương Hùng (2011). Tình hình sử dụng ngôn ngữ của người Rơmăm ở làng Le. Tạp chí Ngôn ngữ, số 3 (262), tr. 26–36. ISSN 0866-7519.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Olsen, Emily L. (2018). The Sound Patterns of Kachok in the Context of Bahnaric and North-Bahnaric Studies. PhD Dissertation, CUNY Graduate Center.",
+      "url": "https://academicworks.cuny.edu/gc_etds/2868",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Rơ Măm",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_R%C6%A1_M%C4%83m",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Rơ Măm",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_R%C6%A1_M%C4%83m",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đặng Nghiêm Vạn, Chu Thái Sơn, Lưu Hùng (2010). Ethnic Minorities in Vietnam. Hà Nội: Thế Giới Publishers.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Tất cả các trường url_check trong danh sách nguồn tham khảo đang để null dù URL thực tế hoạt động và truy cập được.",
+          "fix": "Cập nhật url_check thành 'ok' cho các URL đã kiểm chứng trực tiếp (Glottolog 5.3, Wiktionary, CUNY Academic Works, Wikipedia tiếng Việt)."
+        },
+        {
+          "path": "music.instruments[3].note",
+          "severity": "low",
+          "problem": "Mô tả về nhạc cụ 'Jặp' quá sơ lược ('Nhạc cụ truyền thống của người Rơ Măm'), chưa nêu rõ đặc tính âm nhạc học của nhạc cụ này.",
+          "fix": "Bổ sung thông tin từ tư liệu nhạc cụ dân tộc Tây Nguyên: Jặp (tương ứng với tơ đjếp của người Ba Na/Gia Rai) là nhạc cụ hơi có lưỡi gà rung tự do làm bằng sừng trâu."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp toàn văn luận văn 'Hệ thống ngữ âm tiếng Rơ - Măm' của Võ Đức Tám (Đại học Khoa học Huế) để bổ sung đầy đủ danh sách âm vị nguyên âm, phụ âm tiền thanh hầu hóa (ɓ, ɗ, ʔj, ʔm...) và quy tắc kết hợp vần.",
+      "Cần xác minh thực nghiệm âm học xem phương ngữ Rơ Măm tại làng Le còn bảo lưu đối lập âm vực (modal vs. breathy/tense register) như các ngôn ngữ Bahnar Bắc khác hay đã chuyển hóa thành đối lập phẩm chất nguyên âm.",
+      "Cần người bản xứ Rơ Măm tại làng Le (xã Mô Rai) và nhà dân tộc nhạc học thẩm định thang âm, điệu thức của hát ru truyền thống và hệ thống cao độ bộ chiêng Guông Hanh."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,4 +1,12 @@
 id,tone_id,name,mark,chao_contour,phonation,merges_with,confidence
+bo-y,tone1,Thanh 1 (âm tiết trơn),l (từ mượn Hán: q — tương ứng thanh 4 Quan Thoại),24,Tại Phục Hưng (Vọng Mô) là [24]; tại Dương Trường là [35],,high
+bo-y,tone2,Thanh 2 (âm tiết trơn),z,11,,,high
+bo-y,tone3,Thanh 3 (âm tiết trơn),c (từ mượn Hán: j — tương ứng thanh 3 Quan Thoại),53,Tại Phục Hưng (Vọng Mô) là [53]; tại Dương Trường là [13],,high
+bo-y,tone4,Thanh 4 (âm tiết trơn),x (từ mượn Hán: f — tương ứng thanh 2 Quan Thoại),31,"Dao động giữa [31], [42] (ở người lớn tuổi vùng Vọng Mô) và [11] (ghi nhận tại Phục Hưng)",,medium
+bo-y,tone5,Thanh 5 (âm tiết trơn),s,35,Tại Phục Hưng (Vọng Mô) là [35]; tại Dương Trường là [33],,high
+bo-y,tone6,Thanh 6 (âm tiết trơn),h (từ mượn Hán: y — tương ứng thanh 1 Quan Thoại),33,Tại Phục Hưng (Vọng Mô) là [33]; tại Dương Trường là [53],,high
+bo-y,tone7,"Thanh 7 (thanh nhập cao — âm tiết khép -p, -t, -k)","t (sau b, d, g → bt, dt, gt)",35,Âm tiết đóng bằng phụ âm tắc vô thanh; ở Dương Trường phân hóa thành [33] (nguyên âm dài) và [35] (nguyên âm ngắn),tone5,high
+bo-y,tone8,"Thanh 8 (thanh nhập trung/thấp — âm tiết khép -p, -t, -k)","(không thêm chữ cái sau b, d, g)",33,"Âm tiết đóng bằng phụ âm tắc vô thanh; tại Phục Hưng (Vọng Mô) là [33], còn tại Dương Trường phân hóa thành [53] (nguyên âm dài) và [11] (nguyên âm ngắn)",tone6,medium
 cham,high_non_glottal,"Âm vực cao (âm tiết mở / âm cuối vang, -p, -t, -h)","không đánh dấu (nhận diện qua phụ âm đầu vô thanh/hút vào p, t, c, k, ph, th, ch, kh, mb, nd, s, h)",33,"modal (giọng thường, cao độ trung–cao; hơi cao hơn [44] trước -p, -t, -h)",,high
 cham,low_non_glottal,"Âm vực thấp (âm tiết mở / âm cuối vang, -p, -t, -h)","không đánh dấu dấu thanh (nhận diện qua chữ phụ âm đầu hữu thanh lịch sử b, d, j, g, bh, dh, jh, gh hoặc lan truyền âm vực sang âm vang)",21,"breathy-modal (giọng hơi thở nhẹ ở phần đầu nguyên âm, cao độ thấp)",,high
 cham,high_glottal,"Âm vực cao kết thúc bằng tắc thanh hầu (-k [-ʔ], -c [-jʔ])",âm cuối -k / -c sau phụ âm đầu âm vực cao,35,modal + glottal stop [-ʔ] cuối vần,,medium
@@ -9,6 +17,14 @@ chut,tone_3,"Thanh 3 / Kiểu điệu tính PT-3 (âm vực cao, trắc/lên)",�
 chut,tone_4,"Thanh 4 / Kiểu điệu tính PT-4 (âm vực thấp, trắc/xuống-nghẽn)",⁴,31,"breathy-glottalized (giọng hà hơi kèm nghẽn thanh hầu; Nguyễn Văn Lợi 1993 ghi 424, Tạ Thành Tấn 2021 ghi 31)",,high
 co-ho,short_high,Nguyên âm ngắn / Thanh cao (bằng),"không dấu (hoặc dấu sắc ◌́ trước /-p, -t, -c, -k, -ʔ/ trong chữ 1983; dấu trăng ◌̆ trước /-ʔ/ trong chữ SIL)",44,modal,,high
 co-ho,long_low,"Nguyên âm dài / Thanh thấp (hạ thấp ở Sre A, C; thấp đi lên ở Sre B)",dấu huyền (◌̀),31,modal,,high
+co-lao,T1_mid,Thanh bằng trung (Mid level),,33,modal (giọng thường),,high
+co-lao,T2_mid_rising,Thanh trung cao / lên nhẹ (Mid-high / rising),,34,"modal, đôi khi kèm hà hơi (34¨) hoặc thanh hầu hóa cuối (34ˀ) ở phương ngữ Sính Lủng; biến thể ghi âm hẹp bao gồm cả 44",,medium
+co-lao,T3_high_rising,Thanh cao lên (High / high-rising),,45,modal hoặc thanh hầu hóa cuối (45ˀ) (tương ứng thanh 55 hoặc 35 ở phương ngữ Cờ Lao Trắng Vân Nam/Quý Châu),,medium
+co-lao,T4_low_falling,Thanh thấp xuống (Low falling),,31,thường đi kèm thanh hầu hóa / kẹt thanh hầu (31ˀ) hoặc giọng hà hơi / thều thào (31¨) ở phương ngữ Sính Lủng; có biến thể 32 ở âm tiết trước (tương ứng thanh 21 / 31 ở Trung Quốc),,high
+cong,high_level,thanh cao bằng,◌́ (thường được ký bằng dấu sắc trong bản ghi chữ Quốc ngữ),55,modal,,high
+cong,mid_level,thanh trung bằng,(thường không dấu trong bản ghi chữ Quốc ngữ),33,modal,,high
+cong,mid_falling,thanh trung trầm (đi xuống),◌̀ / ◌̣ (thường được ký bằng dấu huyền hoặc dấu nặng trong bản ghi chữ Quốc ngữ),31,modal,,high
+cong,rising,thanh đi lên,,,,,low
 dao,mid_level,thanh ngang vừa (không ghi chữ cái cuối),,33,modal,,high
 dao,mid_falling,thanh xuống vừa (ghi bằng -h),h,31,modal / hơi thở nhẹ cuối vần,,high
 dao,high,thanh cao / cao lên (ghi bằng -v),v,44 ~ 45,modal,,high
@@ -88,6 +104,12 @@ ma,thap-dai,Thanh thấp (bằng thấp–đi xuống / nguyên âm dài),̀,21,
 ma,sac-nam,"Thanh lên cao (chỉ xuất hiện ở nhóm thổ ngữ 5 thanh Nam Lâm Đồng: Đạ Huoai, Đạ Tẻh; tương ứng sự biến đổi của âm cuối thanh hầu)",́,35,modal,,medium
 ma,hoi-nam,"Thanh gãy/uốn (chỉ xuất hiện ở nhóm thổ ngữ 5 thanh Nam Lâm Đồng, thường do rụng -h)",̉,214,,,medium
 ma,nang-nam,"Thanh thấp nghẽn (chỉ xuất hiện ở nhóm thổ ngữ 5 thanh Nam Lâm Đồng, liên quan âm tắc thanh hầu -ʔ)",̣,21,glottalized,,medium
+mang,jinping_t1,"Thanh 1 (cao bằng, biến thể 553/554 — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",¹ / ⁵⁵,55,modal,,high
+mang,jinping_t2,"Thanh 2 (cao lên — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",² / ³⁵,35,modal,,high
+mang,jinping_t3,"Thanh 3 (cao xuống, trị số thực tế gần 41 — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",³ / ⁵¹,51,modal,,high
+mang,jinping_t4,"Thanh 4 (thấp xuống, ở âm tiết phụ đọc nhẹ ngắn 31/21 — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",⁴ / ³¹,31,modal,,high
+mang,vn_unchecked_1_5,Hệ 5 thanh âm tiết thông (1–5) tại Lai Châu (Nguyễn Văn Lợi và cộng sự 2009),¹..⁵,,Phân bố trên âm tiết mở và âm tiết kết thúc bằng âm vang; có biến đổi thanh điệu trong ngữ lưu (tone sandhi) và khác biệt giữa các điểm điều tra,,medium
+mang,vn_checked_6_7,Hệ 2 thanh âm tiết khép (6–7) tại Lai Châu (Nguyễn Văn Lợi và cộng sự 2009),⁶..⁷,,"Phân bố trên âm tiết kết thúc bằng phụ âm tắc vô thanh (-p, -t, -k)",,medium
 muong,thanh_1,thanh ngang (không dấu),,33,modal (ghi nhận 33 trong Quyết định 2295/QĐ-UBND tỉnh Hòa Bình),,high
 muong,thanh_2,thanh huyền,̀,21 ~ 42,modal (ở Hòa Bình thường là 21/31; ở Kim Thượng Phú Thọ là 42),,medium
 muong,thanh_3,thanh hỏi,̉,324 ~ 214,modal / hơi luyến gãy (324 ở Kim Thượng hoặc 214/313 tùy thổ ngữ; nhiều từ thuần Việt thanh sắc ứng với thanh hỏi trong Mường Bi như cả 'cá'),,medium
@@ -119,6 +141,12 @@ phu-la,T33,thanh trung bằng (mid level),,33,modal,,high
 phu-la,T22,thanh thấp bằng (low level),,22,modal,,medium
 phu-la,T24,thanh thấp lên (low-rising),,24,modal,,high
 phu-la,T21,thanh thấp xuống (low-falling),,21,modal,,high
+pu-peo,T1_53,Thanh 1 (tương ứng lớp lịch sử A1; số '1' trong Hoàng Văn Ma 1992),1,53,"modal (đi với âm đầu vô thanh, tiền thanh hầu hóa hoặc tắc thanh hầu; Diller 2008 ghi 52, Liang et al. 2007 ghi 53)",,medium
+pu-peo,T2_33,Thanh 2 (tương ứng lớp A2/C1 và D1; số '3' ở vần mở/vang hoặc '5' ở vần tắc trong Hoàng Văn Ma 1992),3,33,"modal; một số từ nguồn gốc A2 có âm vang đi kèm giọng thở nhẹ (lɦ-, rɦ-, nɦ- theo Ostapirat 2000)",,medium
+pu-peo,T3_213,Thanh 3 (tương ứng lớp B1; số '4' hoặc biến thể '5' trong Hoàng Văn Ma 1992),4,213,"modal / trầm hoặc thấp lên (Diller 2008 ghi 11, Liang et al. 2007 ghi 213; trong Hoàng Văn Ma 1992 nhiều từ có biến thể 4 ~ 5 như qami4 ~ qami5 'tay', zhô4 ~ zhô5 'đầu', pê4 ~ pê5 'cha')",,medium
+pu-peo,T4_45,Thanh 4 (tương ứng lớp C2 và D2; số '2' trong Hoàng Văn Ma 1992),2,45,"modal, đôi khi kèm nghẽn thanh hầu nhẹ ở nguyên âm dài (Diller 2008 ghi 45/55/454; phát sinh từ âm đầu hữu thanh cổ)",,medium
+pu-peo,T5_24,"Thanh 5 (tương ứng lớp B2 / biến thể thanh điệu; Diller 2008 ghi 24, Hoàng Văn Ma 1992 ghi số '5' hoặc nhập vào thanh '2')",5,24,đôi khi kèm giọng thở sau phụ âm vang,T4_45,low
+pu-peo,T0_minor,Thanh khinh / trung hòa (trên tiền âm tiết yếu),0,33,"ngắn, không mang trọng âm (ví dụ qa0 / qə0 / tə0)",,high
 san-chay,t1_level,thanh bằng (trung bình),,33,modal (giọng thường); chỉ xuất hiện ở âm tiết mở hoặc kết thúc bằng âm vang (không gặp ở âm tiết khép -p/-t/-k theo Phan Lương Hùng 2011),,high
 san-chay,t2_falling_modal,thanh trung giáng (giọng thường),̀,42,modal (giọng thường); xuất hiện ở âm tiết sống (ví dụ: pʰon⁴² 'mưa' ở Tuyên Quang; không gặp ở âm tiết khép -p/-t/-k),,high
 san-chay,t3_low_falling,thanh trầm giáng,̀ / ̣,31,"modal; gặp ở âm tiết sống (na³¹ 'ruộng') và tương ứng với âm tiết khép thấp [32] ~ [31] (nok³² 'chim', kuk³¹ 'làm')",,high
@@ -131,6 +159,11 @@ san-diu,tone3,Thanh 3,,54,bình thường (cao xuống hơi thấp),,high
 san-diu,tone4,Thanh 4,,323,bình thường (gãy/uốn xuống rồi lên),,high
 san-diu,tone5,Thanh 5,,24,"đi lên (xuất hiện cả ở âm tiết mở/vang như /dzi5/ 'chết' lẫn âm tiết khép tắc -p, -t, -c, -ch như /et5/ 'một', /ok5/ 'nhà', /kwak5/ 'chân')",,high
 san-diu,tone6,Thanh 6,,21,thanh hầu hóa / tắc thanh hầu cuối (21ʔ / ˨˩ˀ),,high
+si-la,high,Thanh cao bằng (thanh từ vựng),,55,giọng thường (modal),,high
+si-la,mid,Thanh trung bằng (thanh từ vựng),,33,kết hợp được với cả nguyên âm giọng thường (V) và nguyên âm giọng kẹt (V̰),,high
+si-la,low_falling,Thanh thấp xuống (thanh từ vựng),,31,kết hợp được với cả nguyên âm giọng thường (V) và nguyên âm giọng kẹt (V̰),,high
+si-la,mid_rising,Thanh trung lên (thanh ngữ pháp / biến điệu),,35,xuất hiện do biến điệu ngữ pháp (ví dụ cấu trúc sở hữu/định ngữ làm thanh 31 chuyển thành 35),,medium
+si-la,high_falling,Thanh cao xuống (thanh ngữ pháp / biến điệu),,53,"xuất hiện do biến điệu ngữ pháp trước một số tiểu từ cuối câu (55 → 53, 31 → 53)",,medium
 tay,ngang,thanh ngang,,53,modal (trị số /53/ theo phương ngữ Cao Bằng; ở nhiều vùng Nam Tày đọc ngang vừa [33 ~ 44]),,medium
 tay,huyen,thanh huyền,̀,21,"modal (hoặc hơi thở nhẹ sau âm đầu hữu thanh thở /b̤, d̤/ ở Cao Bằng theo Pittayaporn & Kirby 2017)",,high
 tay,hoi,thanh hỏi,̉,43,modal (trị số /43/ theo phương ngữ Cao Bằng),,medium

@@ -46,3 +46,12 @@ done la-ha review=MODIFY/9 schema_errors=0
 done lu review=MODIFY/9 schema_errors=0
 done ngai review=MODIFY/9 schema_errors=0
 done lo-lo review=MODIFY/8 schema_errors=0
+done mang review=MODIFY/9 schema_errors=0
+done co-lao review=APPROVE/9 schema_errors=0
+done cong review=MODIFY/9 schema_errors=0
+done si-la review=MODIFY/9 schema_errors=0
+done bo-y review=MODIFY/8 schema_errors=0
+done pu-peo review=MODIFY/8 schema_errors=0
+done ro-mam review=APPROVE/9 schema_errors=0
+done brau review=MODIFY/9 schema_errors=0
+done o-du review=MODIFY/9 schema_errors=0

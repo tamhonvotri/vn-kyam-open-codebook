@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "mang",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mảng",
+    "ethnic_group_vi": "Mảng",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:45:56.452329",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 8488,
+      "totalTokenCount": 22638,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8488
+        }
+      ],
+      "thoughtsTokenCount": 4773,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10854,
+      "candidatesTokenCount": 9369,
+      "totalTokenCount": 20223,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10854
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9369
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[4].region",
+        "severity": "low",
+        "problem": "Chuỗi văn bản tiếng Việt bị lẫn chữ Hán 'Tây Tr畴' (thay vì viết đúng tiếng Việt là 'Tây Trù').",
+        "fix": "Sửa 'Tây Tr畴' thành 'Tây Trù'."
+      },
+      {
+        "path": "ml_hints.sub_varieties[3..4]",
+        "severity": "low",
+        "problem": "Tiếng Bố Lưu (Bolyu, ISO 639-3: ply) và tiếng Bố Cam (Bugan, ISO 639-3: bbh) là các ngôn ngữ độc lập trong nhánh Pakanic/Mangic (chỉ nói ở Trung Quốc), không phải là phương ngữ hay thổ ngữ (sub-varieties) của tiếng Mảng (zng).",
+        "fix": "Loại bỏ hai ngôn ngữ độc lập ply và bbh khỏi danh sách sub_varieties của tiếng Mảng (zng) để tránh nhầm lẫn phân loại dữ liệu huấn luyện."
+      },
+      {
+        "path": "music.genres[0].name",
+        "severity": "low",
+        "problem": "Thiếu tên gọi bản địa đặc trưng của làn điệu dân ca phổ biến nhất của người Mảng là hát 'Xoỏng' (Soỏng).",
+        "fix": "Bổ sung tên gọi 'Dân ca Xoỏng (hát giao duyên, hát đối đáp Mảng)' và điệu múa truyền thống 'Tà Nơm' vào phần âm nhạc dựa trên các nguồn văn hóa dân gian tỉnh Lai Châu."
+      },
+      {
+        "path": "phonology.tones[0..3].phonation",
+        "severity": "low",
+        "problem": "Trường 'phonation' đang được dùng để mô tả biến thể đường nét cao độ (contour allophony như 553, 41, 21) thay vì chất giọng/kiểu phát thanh (modal, creaky, breathy).",
+        "fix": "Ghi rõ chất giọng hoặc chuyển mô tả biến thể cao độ vào tên/ghi chú thích hợp."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -73,6 +73,123 @@ ba-na,codas,-l,l,Âm bên cuối âm tiết (ví dụ prĕl 'mưa đá') — kh�
 ba-na,codas,-w / -o / -u,w,Bán nguyên âm cuối môi-ngạc mềm,high
 ba-na,codas,-y / -i,j,Bán nguyên âm cuối ngạc cứng,high
 ba-na,codas,-ĭ / -y',jˀ,Bán nguyên âm cuối thanh hầu hóa (ví dụ kơmaĭ),medium
+bo-y,onsets,b,p,Tắc hai môi vô thanh không bật hơi (tương tự p đầu âm tiết trong tiếng Tày/Thái),high
+bo-y,onsets,p,pʰ,Tắc hai môi bật hơi; chỉ xuất hiện trong từ vay mượn tiếng Hán,high
+bo-y,onsets,mb,ɓ,"Tắc hai môi hút vào / tiền thanh hầu hóa [ʔb], tương tự 'b' tiếng Việt",high
+bo-y,onsets,m,m,,high
+bo-y,onsets,f,f,,high
+bo-y,onsets,v,v,Hiện thực hóa thành [w] trước nguyên âm /u/,high
+bo-y,onsets,qv,ˀv,Tiền thanh hầu hóa [ʔv] hoặc [ʔw],high
+bo-y,onsets,by,pʲ,Tắc hai môi ngạc hóa,high
+bo-y,onsets,my,mʲ,Mũi hai môi ngạc hóa,high
+bo-y,onsets,d,t,Tắc chân răng vô thanh không bật hơi (tương tự 't' tiếng Việt),high
+bo-y,onsets,t,tʰ,Tắc chân răng bật hơi (như 'th' tiếng Việt); chủ yếu trong từ mượn tiếng Hán,high
+bo-y,onsets,nd,ɗ,"Tắc chân răng hút vào / tiền thanh hầu hóa [ʔd], tương tự 'đ' tiếng Việt",high
+bo-y,onsets,n,n,,high
+bo-y,onsets,l,l,,high
+bo-y,onsets,z,ts,Tắc xát chân răng không bật hơi; xuất hiện trong từ mượn tiếng Hán,high
+bo-y,onsets,c,tsʰ,Tắc xát chân răng bật hơi; xuất hiện trong từ mượn tiếng Hán,high
+bo-y,onsets,s,s,Một số phương ngữ có thêm âm bên xát vô thanh /ɬ/,high
+bo-y,onsets,r,z ~ ð,Xát chân răng hoặc liên răng hữu thanh ([ð] ở thế hệ lớn tuổi vùng Vọng Mô),high
+bo-y,onsets,j,tɕ,Tắc xát lợi-ngạc không bật hơi,high
+bo-y,onsets,q,tɕʰ,Tắc xát lợi-ngạc bật hơi; xuất hiện trong từ mượn tiếng Hán,high
+bo-y,onsets,ny,ɲ ~ nʲ,"Mũi ngạc cứng, tương tự 'nh' tiếng Việt",high
+bo-y,onsets,x,ɕ,Xát lợi-ngạc vô thanh,high
+bo-y,onsets,y,j,,high
+bo-y,onsets,qy,ˀj,Tiếp cận ngạc tiền thanh hầu hóa [ʔj],high
+bo-y,onsets,g,k,Tắc ngạc mềm vô thanh không bật hơi (như 'c/k' tiếng Việt),high
+bo-y,onsets,k,kʰ,Tắc ngạc mềm bật hơi; chủ yếu trong từ mượn tiếng Hán,high
+bo-y,onsets,ng,ŋ,Tương tự 'ng/ngh' tiếng Việt,high
+bo-y,onsets,h,x ~ h,Xát ngạc mềm hoặc xát thanh hầu tùy phương ngữ; một số phương ngữ có /ɣ/,high
+bo-y,onsets,gv,kʷ,Tắc ngạc mềm môi hóa (tương tự 'qu' tiếng Việt Bắc Bộ),high
+bo-y,onsets,ngv,ŋʷ,Mũi ngạc mềm môi hóa (như 'ngo-/ngu-' có âm đệm môi),high
+bo-y,onsets,,ʔ,Âm tắc thanh hầu đứng trước nguyên âm đầu âm tiết khi không viết phụ âm đầu,high
+bo-y,vowels,aa,aː,Nguyên âm mở dài; khi đứng cuối âm tiết mở có thể chỉ viết đơn 'a' tùy quy tắc vần,high
+bo-y,vowels,a,ɐ ~ a,Nguyên âm mở ngắn (đối lập độ dài với /aː/ trước âm cuối),high
+bo-y,vowels,ee,e,Nguyên âm hàng trước hơi cao không tròn môi,high
+bo-y,vowels,e,ɯ ~ ə,Nguyên âm hàng sau không tròn môi /ɯ/ (tương tự 'ư' tiếng Việt) hoặc nguyên âm giữa /ə/ trong vần ghép,high
+bo-y,vowels,i,i,Có thể hiện thực hóa hơi mở thành [ɪ] trong âm tiết khép,high
+bo-y,vowels,oo,oː ~ ɔː,Nguyên âm hàng sau tròn môi dài,high
+bo-y,vowels,o,o,Nguyên âm hàng sau tròn môi ngắn (đối lập độ dài với /oː/),high
+bo-y,vowels,u,u,Có thể hiện thực hóa thành [ʊ] trong âm tiết khép,high
+bo-y,vowels,ai,ɐi,Nguyên âm đôi ngắn,medium
+bo-y,vowels,aai,aːi,Nguyên âm đôi dài,medium
+bo-y,vowels,au,ɐu,Nguyên âm đôi ngắn,medium
+bo-y,vowels,aau,aːu,Nguyên âm đôi dài,medium
+bo-y,vowels,ia,iə ~ ia,Vần nguyên âm đôi mở dần,medium
+bo-y,vowels,ua,uə ~ ua,Vần nguyên âm đôi mở dần,medium
+bo-y,vowels,ea,ɯə,Vần nguyên âm đôi tương tự 'ưa/ươ' tiếng Việt,medium
+bo-y,codas,m,m,Âm mũi hai môi cuối âm tiết,high
+bo-y,codas,n,n,Âm mũi chân răng cuối âm tiết,high
+bo-y,codas,ng,ŋ,Âm mũi ngạc mềm cuối âm tiết,high
+bo-y,codas,b,p,"Âm tắc hai môi vô thanh không bật hơi cuối âm tiết khép (thanh 7 viết '-bt', thanh 8 viết '-b')",high
+bo-y,codas,d,t,"Âm tắc chân răng vô thanh không bật hơi cuối âm tiết khép (thanh 7 viết '-dt', thanh 8 viết '-d')",high
+bo-y,codas,g,k,"Âm tắc ngạc mềm vô thanh không bật hơi cuối âm tiết khép (thanh 7 viết '-gt', thanh 8 viết '-g')",high
+bo-y,codas,i,j,Bán nguyên âm cuối vần,high
+bo-y,codas,u,w,Bán nguyên âm cuối vần,high
+brau,onsets,p,p,Tắc hai môi vô thanh không bật hơi,high
+brau,onsets,t,t,Tắc lợi vô thanh không bật hơi,high
+brau,onsets,c (ch),c,Tắc mặt lưỡi vô thanh,high
+brau,onsets,k,k,Tắc mạc vô thanh không bật hơi,high
+brau,onsets,ʔ ('),ʔ,Tắc thanh hầu; luôn hiện diện trước nguyên âm khởi đầu âm tiết,high
+brau,onsets,ph,pʰ,Tắc hai môi vô thanh bật hơi,high
+brau,onsets,th,tʰ,Tắc lợi vô thanh bật hơi,high
+brau,onsets,kh,kʰ,Tắc mạc vô thanh bật hơi,high
+brau,onsets,b,b,Tắc hai môi hữu thanh thường; Keller (1976) ghi nhận thêm loạt hữu thanh thở [bʱ] ở một số thổ ngữ Brao,high
+brau,onsets,d,d,Tắc lợi hữu thanh thường; có biến thể hữu thanh thở [dʱ] ở một số thổ ngữ Brao (Keller 1976),high
+brau,onsets,j (ɟ),ɟ,"Tắc mặt lưỡi hữu thanh (trong điền dã Việt Nam đôi khi ghi là j, ví dụ jơliêng)",high
+brau,onsets,g,ɡ,Tắc mạc hữu thanh thường; có biến thể [ɡʱ] ở một số thổ ngữ Brao (Keller 1976),high
+brau,onsets,ʔb (ɓ),ɓ,Tắc hai môi tiền thanh hầu hóa / đóng thanh hầu (tương đương b trong tiếng Việt),high
+brau,onsets,"ʔd (ɗ, đ)",ɗ,Tắc lợi tiền thanh hầu hóa / đóng thanh hầu (tương đương đ trong tiếng Việt),high
+brau,onsets,ʔj (ʄ),ʄ,Tắc mặt lưỡi tiền thanh hầu hóa ([ʔɟ] / [ʄ]),medium
+brau,onsets,ʔg,ʔɡ,Tắc mạc tiền thanh hầu hóa (ghi nhận trong Brao-Krung theo Keller 2001),medium
+brau,onsets,m,m,Mũi hai môi hữu thanh,high
+brau,onsets,n,n,Mũi lợi hữu thanh,high
+brau,onsets,ɲ (nh),ɲ,Mũi mặt lưỡi hữu thanh,high
+brau,onsets,ŋ (ng),ŋ,Mũi mạc hữu thanh,high
+brau,onsets,hm,ʰm,Mũi hai môi tiền bật hơi (vô thanh ở phần khởi đầu),high
+brau,onsets,hn,ʰn,Mũi lợi tiền bật hơi,high
+brau,onsets,hŋ (hng),ʰŋ,Mũi mạc tiền bật hơi,medium
+brau,onsets,s (š / chh),ç ~ ɕ ~ cʰ ~ s,"Xát mặt lưỡi / lợi-ngạc vô thanh hoặc tắc mặt lưỡi bật hơi (Keller 1976 ghi [ç], Keller 2001 ký hiệu /š/, Sidwell & Jacq 2003 xếp vào ô bật hơi /cʰ/)",high
+brau,onsets,h,h,Xát thanh hầu vô thanh (PHOIBLE/Keller 1976 ghi nhận biến thể [ħ]),high
+brau,onsets,r,r,"Rung đầu lưỡi hữu thanh; xuất hiện cả ở vị trí đơn và âm đệm trong tổ hợp phụ âm đầu (br-, pr-, kr-, tr-, dr-, ʔbr-...)",high
+brau,onsets,l,l,"Bên lợi hữu thanh; xuất hiện cả ở vị trí đơn và trong tổ hợp phụ âm đầu (bl-, pl-, kl-, gl-, ʔbl-...)",high
+brau,onsets,w,w,Tiếp cận môi-mạc (có biến thể [v] ở một số phương ngữ),high
+brau,onsets,y (j),j,Tiếp cận mặt lưỡi (trong tài liệu IPA ký hiệu là j),high
+brau,vowels,i,i,Nguyên âm đóng hàng trước ngắn (chỉ xuất hiện trong âm tiết khép),high
+brau,vowels,ii,iː,Nguyên âm đóng hàng trước dài,high
+brau,vowels,ɛ (e),ɛ,Nguyên âm nửa mở hàng trước ngắn,high
+brau,vowels,ɛɛ (ee),ɛː,Nguyên âm nửa mở hàng trước dài,high
+brau,vowels,ɨ (ư),ɨ,Nguyên âm đóng hàng giữa ngắn,high
+brau,vowels,ɨɨ (ưư),ɨː,Nguyên âm đóng hàng giữa dài,high
+brau,vowels,ə (ơ / â),ə,Nguyên âm giữa trung hòa ngắn (cũng là nguyên âm mặc định ở tiền âm tiết),high
+brau,vowels,əə (ơơ),əː,Nguyên âm giữa dài,high
+brau,vowels,a (ă),a,Nguyên âm mở hàng giữa ngắn,high
+brau,vowels,aa (a),aː,Nguyên âm mở hàng giữa dài,high
+brau,vowels,u,u,Nguyên âm đóng hàng sau tròn môi ngắn,high
+brau,vowels,uu,uː,Nguyên âm đóng hàng sau tròn môi dài,high
+brau,vowels,o (ô),o,Nguyên âm nửa đóng hàng sau tròn môi ngắn,high
+brau,vowels,oo (ôô),oː,Nguyên âm nửa đóng hàng sau tròn môi dài,high
+brau,vowels,ɔ (o),ɔ,Nguyên âm nửa mở hàng sau tròn môi ngắn,high
+brau,vowels,ɔɔ (oo),ɔː,Nguyên âm nửa mở hàng sau tròn môi dài,high
+brau,vowels,iɛ (iê / ia),iɛ,Nguyên âm đôi hướng tâm hàng trước,high
+brau,vowels,ɨə / ɨɔ (ươ / ưa),ɨə,Nguyên âm đôi hướng tâm hàng giữa (Keller 2001 ghi /ɨɔ/),medium
+brau,vowels,uə (uô / ua),uə,Nguyên âm đôi hướng tâm hàng sau,high
+brau,codas,p,p̚,Tắc hai môi vô thanh không bật ra,high
+brau,codas,t,t̚,Tắc lợi vô thanh không bật ra,high
+brau,codas,c (ch),c̚,Tắc mặt lưỡi vô thanh không bật ra,high
+brau,codas,k,k̚,Tắc mạc vô thanh không bật ra,high
+brau,codas,ʔ,ʔ,Tắc thanh hầu cuối âm tiết,high
+brau,codas,m,m,Mũi hai môi cuối âm tiết,high
+brau,codas,n,n,Mũi lợi cuối âm tiết,high
+brau,codas,ɲ (nh),ɲ,Mũi mặt lưỡi cuối âm tiết,high
+brau,codas,ŋ (ng),ŋ,Mũi mạc cuối âm tiết,high
+brau,codas,s / š (ih),ç,"Xát mặt lưỡi cuối âm tiết (đặc trưng Môn-Khmer, thường nghe có âm lướt [jç]/[ih])",high
+brau,codas,h,h,Xát thanh hầu cuối âm tiết,high
+brau,codas,r,r,Rung đầu lưỡi cuối âm tiết,high
+brau,codas,l,l,Bên lợi cuối âm tiết,high
+brau,codas,w (u / o),w,Bán nguyên âm môi-mạc cuối âm tiết,high
+brau,codas,j (y / i),j,Bán nguyên âm mặt lưỡi cuối âm tiết,high
 bru-van-kieu,onsets,p,p,Tắc hai môi vô thanh không bật hơi,high
 bru-van-kieu,onsets,ph,pʰ,"Tắc hai môi bật hơi [pʰ], KHÔNG đọc là âm xát môi-răng [f] như tiếng Việt Hà Nội",high
 bru-van-kieu,onsets,b,b ~ ɓ,Tắc hai môi hữu thanh (thường tiền thanh hầu hóa nhẹ),high
@@ -387,6 +504,58 @@ co-ho,codas,r,r,"Âm r cuối âm tiết (không có trong tiếng Việt chuẩ
 co-ho,codas,l,l,"Âm bên cuối âm tiết (không có trong tiếng Việt chuẩn; ví dụ: dùl 'một', bòl 'bạn/bà con')",high
 co-ho,codas,u (hoặc o sau a/e),w,Bán nguyên âm cuối môi-ngạc mềm; có thể kết hợp thành tổ hợp cuối /-wʔ/ (viết -ớu...),high
 co-ho,codas,i (hoặc y),j,Bán nguyên âm cuối ngạc cứng; có thể kết hợp với /-ʔ/ hoặc /-h/ (như -ih/-iuh: acôih 'ôi!'),high
+co-lao,onsets,,p,âm tắc hai môi vô thanh không bật hơi,high
+co-lao,onsets,,pʰ,âm tắc hai môi vô thanh bật hơi,high
+co-lao,onsets,,ɓ,"âm hút vào (implosive) hai môi hữu thanh, phổ biến ở biến thể Sính Lủng (ví dụ: ɓo³⁴¨ ti³⁴ 'mắt'); đôi khi tiền mũi hóa [ᵐɓ]",high
+co-lao,onsets,,pʲ,âm tắc hai môi ngạc hóa (ví dụ: ɓja³¹ˀ / pʲ-),medium
+co-lao,onsets,,pl,"tổ hợp phụ âm đầu môi - bên (ví dụ: plɔ³¹ˀ 'máu', plɒ̃ŋ³³ 'đỏ')",high
+co-lao,onsets,,t,âm tắc đầu lưỡi răng/lợi vô thanh không bật hơi,high
+co-lao,onsets,,tʰ,âm tắc đầu lưỡi vô thanh bật hơi,high
+co-lao,onsets,,ɗ,"âm hút vào đầu lưỡi hữu thanh (ví dụ: ɗɔ³³ lɤ³⁴ 'cá', ɗi³² pi³⁴ˀ 'răng')",high
+co-lao,onsets,,ⁿɗ,"âm tắc/hút vào đầu lưỡi tiền mũi hóa (ví dụ: qɒ⁴⁵ ⁿɗi⁴⁵ 'chúng ta', ⁿɗu³⁴ l̩ɚ³¹ˀ 'đầu'); có biến thể vô thanh hóa [ⁿɗ̥]",high
+co-lao,onsets,,tʲ,âm tắc đầu lưỡi ngạc hóa,medium
+co-lao,onsets,,k,âm tắc mạc vô thanh không bật hơi; có thể ngạc hóa [kʲ] hoặc môi hóa [kʷ],high
+co-lao,onsets,,kʰ,âm tắc mạc vô thanh bật hơi,high
+co-lao,onsets,,q,"âm tắc lưỡi con (uvular) vô thanh không bật hơi — nét đặc trưng của tiếng Cờ Lao Trắng (ví dụ: qɔ³³ nɔ̃³³ 'ai', qa³¹ˀ qɯ³⁴ 'sừng')",high
+co-lao,onsets,,qʰ,âm tắc lưỡi con vô thanh bật hơi,high
+co-lao,onsets,,ʔ,âm tắc thanh hầu (ví dụ: ʔi³³ 'tôi'),high
+co-lao,onsets,,ts,âm tắc xát đầu lưỡi vô thanh (thường phát âm gần âm giữa răng [tθ]),medium
+co-lao,onsets,,tsʰ,âm tắc xát đầu lưỡi bật hơi (ví dụ: tsʰi³¹¨ 'người'),high
+co-lao,onsets,,dz,âm tắc xát đầu lưỡi hữu thanh,medium
+co-lao,onsets,,ʈʂ,"âm tắc xát quặt lưỡi vô thanh (ghi nhận trong từ vựng Sính Lủng, ví dụ: ʈʂɚ³³ qa³¹¨ 'đuôi')",medium
+co-lao,onsets,,ʈʂʰ,âm tắc xát quặt lưỡi bật hơi (ví dụ: ʈʂʰɤ³⁴ 'đốt'),medium
+co-lao,onsets,,ɖʐ,âm tắc xát quặt lưỡi hữu thanh (ví dụ: ɗu³⁴ ɖʐɤ⁴⁴ 'núi'),medium
+co-lao,onsets,,f,âm xát môi - răng vô thanh,medium
+co-lao,onsets,,v ~ β,âm xát môi hữu thanh,medium
+co-lao,onsets,,s,âm xát đầu lưỡi vô thanh,high
+co-lao,onsets,,z,âm xát đầu lưỡi hữu thanh (ví dụ: pɔ³¹ˀ lɔ³¹ˀ zi⁴⁵ˀ 'tai'),high
+co-lao,onsets,,ɕ,âm xát lợi - ngạc vô thanh (ví dụ: mi³³ ɕɔ̃ŋ³⁴ 'đường'),high
+co-lao,onsets,,ɬ,âm xát bên đầu lưỡi vô thanh,medium
+co-lao,onsets,,h,âm xát thanh hầu vô thanh (ví dụ: lɔ⁴⁵ hu⁴⁴ 'lửa'),high
+co-lao,onsets,,m,âm mũi hai môi hữu thanh,high
+co-lao,onsets,,m̥ ~ ʰm,âm mũi hai môi vô thanh / tiền hà hơi (ví dụ: ɗɔ³³ ʰm̩̃⁴⁵ 'chó'),high
+co-lao,onsets,,ml,"tổ hợp phụ âm mũi môi + bên (ví dụ: ɗa³¹ˀ mlɤ³⁴ 'lưỡi', mlɔ̃³⁴ kɔ⁴⁵ 'mỡ')",high
+co-lao,onsets,,n,âm mũi đầu lưỡi hữu thanh,high
+co-lao,onsets,,ɲ,âm mũi mặt lưỡi / lợi - ngạc,medium
+co-lao,onsets,,ŋ,âm mũi mạc hữu thanh,high
+co-lao,onsets,,l,âm bên đầu lưỡi; có biến thể tiền thanh hầu hóa [ˀl] và ngạc hóa [lʲ],high
+co-lao,onsets,,j ~ ʑ,"âm tiếp cận ngạc cứng, thường xát hóa nhẹ thành [ʑ]; có đối lập tiền thanh hầu hóa [ˀj ~ ʄ] (ví dụ: ɗu³⁴ ɗõŋ⁴⁵ ʄi⁴⁵ 'mặt trăng')",medium
+co-lao,vowels,,i,nguyên âm đóng hàng trước không tròn môi,high
+co-lao,vowels,,y,nguyên âm đóng hàng trước tròn môi,medium
+co-lao,vowels,,e,nguyên âm nửa đóng hàng trước (ví dụ: tu⁴⁴ qe⁴⁴ 'trứng'),high
+co-lao,vowels,,ɯ ~ ɤ ~ ə,"nguyên âm hàng sau không tròn môi / trung tâm; trong tiếng Cờ Lao Trắng [ɯ], [ɤ] và [ə] thường biến thiên tự do hoặc theo ngữ cảnh",high
+co-lao,vowels,,u,nguyên âm đóng hàng sau tròn môi,high
+co-lao,vowels,,o,nguyên âm nửa đóng hàng sau tròn môi,high
+co-lao,vowels,,ɔ,"nguyên âm nửa mở hàng sau tròn môi (rất phổ biến ở biến thể Sính Lủng, ví dụ: plɔ³¹ˀ 'máu')",high
+co-lao,vowels,,a,nguyên âm mở hàng trước/giữa,high
+co-lao,vowels,,ɑ ~ ɒ,nguyên âm mở hàng sau (ví dụ: qɒ⁴⁵ ⁿɗi⁴⁵ 'chúng ta'),high
+co-lao,vowels,,"ɔ̃, õ, ɛ̃","các nguyên âm mũi hóa (phát sinh do rụng phụ âm mũi cuối âm tiết lịch sử, ví dụ: qɔ³³ nɔ̃³³ 'ai', mlɔ̃³⁴ 'mỡ')",high
+co-lao,vowels,,ɹ̩,"âm tiết tính đầu lưỡi, chỉ xuất hiện sau các âm tắc xát và âm xát đầu lưỡi (thế phân bố bổ túc với /i/)",medium
+co-lao,vowels,,"m̩̃, ŋ̍","âm mũi mang tính âm tiết đứng độc lập làm đỉnh âm tiết (ví dụ: m̩̃³³ 'nước', ɗɔ³³ ʰm̩̃⁴⁵ 'chó')",high
+co-lao,vowels,,"β̩ɚ, l̩ɚ","đỉnh âm tiết cong lưỡi / r-hóa đặc thù ghi nhận ở phương ngữ Sính Lủng (ví dụ: ɗu³⁴ β̩ɚ³³ 'mặt trời', ⁿɗu³⁴ l̩ɚ³¹ˀ 'đầu')",medium
+co-lao,codas,,∅,"Đại đa số âm tiết là âm tiết mở; tiếng Cờ Lao đã mất hoàn toàn các âm tắc vô thanh cuối âm tiết (*-p, *-t, *-k) của ngôn ngữ tiền Kra.",high
+co-lao,codas,,ŋ,"âm mũi mạc cuối âm tiết duy nhất còn bảo lưu ở một số từ, thường làm mũi hóa nguyên âm đứng trước (ví dụ: ɕɔ̃ŋ³⁴ 'đường', ɗõŋ⁴⁵ 'trăng', plɒ̃ŋ³³ 'đỏ')",high
+co-lao,codas,,"i̯, u̯",bán nguyên âm cuối trong một số vần đôi (ví dụ: mɛ̃i̯⁴⁴ 'mưa'),medium
 co-tu,onsets,p,p,Tắc hai môi vô thanh không bật hơi,high
 co-tu,onsets,t,t,Tắc đầu lưỡi lợi vô thanh không bật hơi,high
 co-tu,onsets,ch,c,Tắc mặt lưỡi (ngạc cứng) vô thanh [c ~ tɕ]; một số tài liệu nghiên cứu ghi là c,high
@@ -522,6 +691,48 @@ co,codas,w,w,Bán nguyên âm môi-mềm cuối từ; ví dụ ôl paraw 'tên m
 co,codas,yh,jh ~ ç,Xát lợi-ngạc cứng vô thanh / bán nguyên âm ngạc cứng vô thanh hóa cuối từ theo Maier (1969: 13–14); ví dụ parayh 'gảy đàn bằng ngón tay',high
 co,codas,yq,jʔ,"Bán nguyên âm ngạc cứng hậu thanh hầu hóa; ví dụ muyq /mujʔ/ 'một', rangwayq 'nhạc cụ'",high
 co,codas,wq,wʔ,"Bán nguyên âm môi-mềm hậu thanh hầu hóa; ví dụ varawq 'lạ, khác thường'",high
+cong,onsets,p,p,Âm tắc hai môi vô thanh không bật hơi (Edmondson 2002),high
+cong,onsets,ph,pʰ,Âm tắc hai môi vô thanh bật hơi; khác 'ph' [f] của tiếng Việt chuẩn,high
+cong,onsets,b,b,"Âm tắc hai môi hữu thanh; trong nhiều từ gốc Proto-Loloish *C-nasal, tiếng Cống chuyển thành /m/ thay vì /b/ như tiếng Phunoi",high
+cong,onsets,m,m,Âm mũi hai môi hữu thanh,high
+cong,onsets,qu / w,w,Bán nguyên âm môi - ngạc mềm (Edmondson 2002 ghi /w/; Phạm Huy 1998 ghi 'qu-' như trong 'quề'),medium
+cong,onsets,pi / py,pʲ,Âm tắc hai môi vô thanh ngạc hóa /pj/ (Edmondson 2002),high
+cong,onsets,phi / phy,pʰʲ,Âm tắc hai môi bật hơi ngạc hóa /phj/ (Edmondson 2002),high
+cong,onsets,bi / by,bʲ,Âm tắc hai môi hữu thanh ngạc hóa /bj/ (Edmondson 2002),high
+cong,onsets,mi / my,mʲ,Âm mũi hai môi ngạc hóa /mj/ (Edmondson 2002),high
+cong,onsets,t,t,Âm tắc đầu lưỡi vô thanh không bật hơi,high
+cong,onsets,th,tʰ,Âm tắc đầu lưỡi vô thanh bật hơi,high
+cong,onsets,đ / d,d,Âm tắc đầu lưỡi hữu thanh; ít gặp hơn do nhiều từ gốc *C-nasal tương ứng với /l/ hoặc /n/ trong tiếng Cống,high
+cong,onsets,n,n,Âm mũi đầu lưỡi hữu thanh,high
+cong,onsets,l,l,Âm bên đầu lưỡi hữu thanh (không có âm bên vô thanh /hl/ như tiếng Phunoi),high
+cong,onsets,x / s,s,Âm xát đầu lưỡi vô thanh (ví dụ: [sam33] 'Xắm'),high
+cong,onsets,d / gi,z,Âm xát đầu lưỡi hữu thanh; Edmondson (2002) nhận xét âm tiếp cận ngạc cứng có xu hướng biến đổi thành /z/ dưới ảnh hưởng tiếp xúc với tiếng Việt,medium
+cong,onsets,ch / ts,ts,Âm tắc xát đầu lưỡi vô thanh không bật hơi (Edmondson 2002),high
+cong,onsets,trs / tsh / x,tsʰ,"Âm tắc xát đầu lưỡi vô thanh bật hơi (Edmondson 2002 ghi /tsh/, ví dụ [tshaŋ33]; Phạm Huy 1998 ký âm là 'trs-' như trong 'trse' = mười)",high
+cong,onsets,dz,dz,Âm tắc xát đầu lưỡi hữu thanh (Edmondson 2002),high
+cong,onsets,nh,ɲ,Âm mũi mặt lưỡi (ví dụ: 'nhịp' = hai),medium
+cong,onsets,s / x,ɕ,Âm xát mặt lưỡi - lợi ngạc vô thanh (Edmondson 2002),medium
+cong,onsets,y / d,j,Âm tiếp cận ngạc cứng,high
+cong,onsets,c / k,k,Âm tắc ngạc mềm vô thanh không bật hơi,high
+cong,onsets,kh,kʰ,Âm tắc ngạc mềm vô thanh bật hơi (ví dụ: [kʰoŋ33] 'Khống'); khác 'kh' [x] của tiếng Việt Hà Nội,high
+cong,onsets,g / gh,ɡ,Âm tắc ngạc mềm hữu thanh (Edmondson 2002); khác 'g' [ɣ] của tiếng Việt,high
+cong,onsets,ng / ngh,ŋ,Âm mũi ngạc mềm (ví dụ: 'ngà' = năm),high
+cong,onsets,h,h,"Âm xát thanh hầu vô thanh; tương ứng với các âm mũi/bên vô thanh (*hm, *hn, *hl) của nhóm Bisoid ở một số từ cùng gốc",high
+cong,vowels,i / y,i,Nguyên âm hàng trước độ mở hẹp (Edmondson 2002),high
+cong,vowels,ư,ɯ,Nguyên âm hàng sau/giữa không tròn môi độ mở hẹp (Edmondson 2002; đôi khi phiên là /ɨ/),high
+cong,vowels,u,u,Nguyên âm hàng sau tròn môi độ mở hẹp (Edmondson 2002),high
+cong,vowels,ê,e,Nguyên âm hàng trước hơi hẹp (Edmondson 2002),high
+cong,vowels,e,ɛ,"Nguyên âm hàng trước hơi rộng (ghi nhận trong từ vựng Edmondson 2002 và bản ghi Quốc ngữ Phạm Huy 1998 như 'xem', 'dẹ', 'trse')",medium
+cong,vowels,ô,o,Nguyên âm hàng sau tròn môi hơi hẹp (Edmondson 2002),high
+cong,vowels,o,ɔ,Nguyên âm hàng sau tròn môi hơi rộng (Edmondson 2002),high
+cong,vowels,a / ă,a,Nguyên âm độ mở rộng; ngắn hơn trước phụ âm cuối mũi (Edmondson 2002),high
+cong,vowels,uy / ui,ui,Vần nguyên âm đôi xuất hiện trong tên tự gọi [pʰui33 a31] 'Phuy A' (Edmondson 2002),medium
+cong,vowels,ưi,ɯi,Vần nguyên âm đôi xuất hiện trong [kʰa55 pʰɯi33] 'người La Hủ' (Edmondson 2002),medium
+cong,codas,m,m,"Âm mũi hai môi cuối âm tiết; xuất hiện trong các vần /im, ɯm, am/ (Edmondson 2002)",high
+cong,codas,n,n,"Âm mũi đầu lưỡi cuối âm tiết; xuất hiện trong các vần /in, ɯn, an/ (Edmondson 2002)",high
+cong,codas,ng,ŋ,"Âm mũi ngạc mềm cuối âm tiết; xuất hiện trong các vần /iŋ, ɯŋ, aŋ, oŋ/ (Edmondson 2002 — khác với Phunoi ở Lào vốn chủ yếu chỉ giữ /-m, -n/)",high
+cong,codas,p,p,Âm tắc hai môi cuối âm tiết; không thấy liệt kê trong danh sách vần tóm tắt 500 từ của Edmondson (2002) nhưng xuất hiện trong tư liệu ghi âm Cống Vàng của Phạm Huy (1998) như 'nhịp' (hai) và trong tiếng Phunoi cùng nhánh,low
+cong,codas,t,t,"Âm tắc đầu lưỡi cuối âm tiết; xuất hiện trong tư liệu dân tộc học như 'Mền loóng phạt ái' (Tết hoa mào gà) và trong tiếng Phunoi cùng nhánh, cần kiểm chứng âm vị học ở tiếng Cống Việt Nam",low
 dao,onsets,b,p,âm tắc hai môi vô thanh không bật hơi (giống p trong tiếng Việt 'pin'),high
 dao,onsets,p,pʰ,âm tắc hai môi vô thanh bật hơi,high
 dao,onsets,mb,b,âm tắc hai môi hữu thanh (trong một số phương ngữ có tiền mũi hóa nhẹ),high
@@ -1570,6 +1781,54 @@ ma,codas,-r,r,"Rung chân răng cuối âm tiết (ví dụ mir, nggar)",high
 ma,codas,-l,l,Bên chân răng cuối âm tiết (ví dụ dùl); một số thổ ngữ rụng -l,high
 ma,codas,-u / -o / -w,w,Bán nguyên âm cuối môi–ngạc mềm,high
 ma,codas,-i / -y,j,Bán nguyên âm cuối ngạc cứng,high
+mang,onsets,,p,Tắc hai môi vô thanh không bật hơi,high
+mang,onsets,,t,Tắc đầu lưỡi vô thanh không bật hơi,high
+mang,onsets,,c,Tắc mặt lưỡi vô thanh; ở thổ ngữ Kim Bình (Gao 2003) ghi nhận tương ứng là tắc-xát [t͡ɕ],high
+mang,onsets,,k,Tắc gốc lưỡi vô thanh không bật hơi,high
+mang,onsets,,ʔ,Tắc thanh hầu,high
+mang,onsets,,pʰ,"Tắc hai môi bật hơi; ghi nhận rõ ở thổ ngữ Kim Bình (Gao 2003), ít phổ biến hoặc biến thể khu vực tại Việt Nam",medium
+mang,onsets,,tʰ,Tắc đầu lưỡi bật hơi; ghi nhận ở thổ ngữ Kim Bình (Gao 2003),medium
+mang,onsets,,kʰ,Tắc gốc lưỡi bật hơi; ghi nhận ở thổ ngữ Kim Bình (Gao 2003),medium
+mang,onsets,,ɓ,Tắc hút vào hai môi hữu thanh (một số miêu tả ghi [b]),high
+mang,onsets,,ɗ,Tắc hút vào đầu lưỡi hữu thanh (thổ ngữ Kim Bình ghi [ɖ] hoặc [d]),high
+mang,onsets,,θ,Xát răng vô thanh (ví dụ: θiːn² 'chín'),high
+mang,onsets,,s,Xát chân răng vô thanh,high
+mang,onsets,,h,Xát thanh hầu vô thanh,high
+mang,onsets,,v,Xát môi-răng hữu thanh,high
+mang,onsets,,ʑ,Xát lợi-ngạc hữu thanh (hoặc tắc-xát [d͡ʑ] ở một số điểm điều tra),high
+mang,onsets,,ɣ,Xát gốc lưỡi hữu thanh,high
+mang,onsets,,m,Mũi hai môi,high
+mang,onsets,,n,Mũi đầu lưỡi,high
+mang,onsets,,ɲ,Mũi mặt lưỡi,high
+mang,onsets,,ŋ,Mũi gốc lưỡi; có biến thể vô thanh [ŋ̊] hạn chế ở một số từ,high
+mang,onsets,,l,Bên chân răng,high
+mang,onsets,,r,"Rung/vỗ chân răng (có biến thể tương ứng với [ʑ] ở một số từ như ran⁵ ~ ʑan⁵ 'một trăm', vắng mặt ở thổ ngữ Kim Bình)",medium
+mang,onsets,,j,Tiếp cận ngạc cứng,high
+mang,onsets,,kl ~ tl,Tổ hợp phụ âm đầu có âm bên (ví dụ: tlu ~ klu 'trâu'); Nguyễn Văn Lợi và cộng sự (2009) ghi nhận tới 18 tổ hợp phụ âm đầu nhưng mức độ bảo lưu biến động theo vùng,medium
+mang,vowels,,i / ĭ,"Nguyên âm đóng hàng trước không tròn môi, có đối lập dài – ngắn ở âm tiết đóng",high
+mang,vowels,,y,Nguyên âm đóng hàng trước tròn môi,high
+mang,vowels,,ɨ / ɨ̆,Nguyên âm đóng hàng giữa/sau không tròn môi (Gao 2003 ký hiệu là [ɯ]),high
+mang,vowels,,u / ŭ,"Nguyên âm đóng hàng sau tròn môi, đối lập dài – ngắn",high
+mang,vowels,,e / ĕ,"Nguyên âm nửa đóng hàng trước không tròn môi, đối lập dài – ngắn",high
+mang,vowels,,ø,Nguyên âm nửa đóng hàng trước tròn môi,medium
+mang,vowels,,ɤ / ɤ̆,Nguyên âm nửa đóng hàng sau không tròn môi (một số tài liệu ghi [ə]),high
+mang,vowels,,o / ŏ,"Nguyên âm nửa đóng hàng sau tròn môi, đối lập dài – ngắn",high
+mang,vowels,,ɛ / ɛ̆,"Nguyên âm nửa mở hàng trước không tròn môi, đối lập dài – ngắn",high
+mang,vowels,,œ,Nguyên âm nửa mở hàng trước tròn môi,medium
+mang,vowels,,a / ă,"Nguyên âm mở, đối lập dài [aː] – ngắn [ă]/[ɐ]",high
+mang,vowels,,ɔ / ɔ̆,"Nguyên âm nửa mở hàng sau tròn môi, đối lập dài – ngắn",high
+mang,vowels,,iə,"Nguyên âm đôi hướng tâm, chủ yếu xuất hiện trong âm tiết đóng",high
+mang,vowels,,ɨə ~ ɯə,"Nguyên âm đôi hướng tâm, chủ yếu xuất hiện trong âm tiết đóng",high
+mang,vowels,,uə ~ ua,"Nguyên âm đôi, dạng [ua] phổ biến hơn ở âm tiết mở",high
+mang,codas,,p,Tắc hai môi vô thanh không nổ,high
+mang,codas,,t,Tắc đầu lưỡi vô thanh không nổ,high
+mang,codas,,k,Tắc gốc lưỡi vô thanh không nổ,high
+mang,codas,,m,Mũi hai môi,high
+mang,codas,,n,Mũi đầu lưỡi,high
+mang,codas,,ŋ,Mũi gốc lưỡi,high
+mang,codas,,w,Bán nguyên âm môi cuối vần,high
+mang,codas,,j,Bán nguyên âm ngạc cuối vần,high
+mang,codas,,l,Âm bên cuối âm tiết (ghi nhận trong tiếng Mảng tại Việt Nam),medium
 mnong,onsets,p,p,Tắc hai môi vô thanh không bật hơi (kéo theo nguyên âm âm vực cao/trong),high
 mnong,onsets,ph,pʰ,Tắc hai môi vô thanh bật hơi,high
 mnong,onsets,b,b ~ p̤,Tắc hai môi hữu thanh gốc; ở nhiều phương ngữ Mnông Trung phát âm mất thanh tính kèm âm vực trầm/thào trên nguyên âm sau,high
@@ -1775,6 +2034,52 @@ nung,codas,ng,ŋ,"âm mũi ngạc mềm; KHÔNG ngậm môi [ŋ͡m] sau u, ô, o
 nung,codas,i / y,j,"bán nguyên âm cuối trước (chữ SIL dùng y sau nguyên âm ngắn như fay, khảy, đày)",high
 nung,codas,u / o,w,"bán nguyên âm cuối tròn môi (chữ SIL dùng o sau nguyên âm dài và u sau nguyên âm ngắn, ví dụ: sãu 'sớm', tảu 'rùa')",high
 nung,codas,ư (1961: âư / aư) / -h (SIL: -ah ở cuối chữ),ɰ,"bán nguyên âm cuối không tròn môi (/aɰ ~ əɰ/), phổ biến ở nhiều phương ngữ Tày - Nùng; trong chữ SIL, tổ hợp -ah đứng cuối âm tiết mở đọc là -aư (ví dụ: hah đọc là haư 'nào')",high
+o-du,onsets,p,p,"Tắc hai môi vô thanh; xuất hiện ở đầu âm tiết chính và sau tiền âm tiết mũi (ví dụ: pram, mpeyʰ, mpɒn)",high
+o-du,onsets,b,b,"Tắc hai môi hữu thanh (ví dụ: bɨl, hmbaːʔr)",high
+o-du,onsets,t,t,"Tắc đầu lưỡi vô thanh (ví dụ: taːn, htaː, hntul)",high
+o-du,onsets,d,d,Tắc đầu lưỡi hữu thanh (ví dụ: hndɨːy),high
+o-du,onsets,j,ɟ,Tắc mặt lưỡi hữu thanh trong phiên âm Khmuic (ví dụ: jon ʔiɲ 'xương'),medium
+o-du,onsets,k,k,"Tắc gốc lưỡi vô thanh (ví dụ: krgul, kəruuŋʔ)",high
+o-du,onsets,g,ɡ,"Tắc gốc lưỡi hữu thanh (ví dụ: gliŋ, gntey, məgoaʔa)",high
+o-du,onsets,ʔ / ',ʔ,Tắc thanh hầu (ví dụ: ʔiɲ trong jon ʔiɲ),high
+o-du,onsets,m,m,"Mũi hai môi (ví dụ: mim, məgoaʔa)",high
+o-du,onsets,n,n,Mũi đầu lưỡi; xuất hiện cả trong tiền âm tiết mũi hóa,medium
+o-du,onsets,s,s,Xát đầu lưỡi vô thanh (ví dụ: hnsɔɔŋ),high
+o-du,onsets,h,h,"Xát thanh hầu; rất phổ biến ở tiền âm tiết vô thanh hóa trước mũi/tắc (htaː, hnd-, hmb-, hns-, hnt-)",high
+o-du,onsets,r,r,"Rung/vỗ đầu lưỡi ở vị trí âm đầu hoặc âm đệm C2 (ví dụ: roj, pram, krgul)",high
+o-du,onsets,l,l,Bên đầu lưỡi; xuất hiện cả ở vị trí C2 trong tổ hợp phụ âm đầu (ví dụ: gliŋ),high
+o-du,onsets,w,w,"Bán nguyên âm môi-mềm, phục nguyên ở vị trí âm đệm C2 trong tiểu nhánh Pramic (ví dụ: Proto-Pramic *swaːn 'rìu')",low
+o-du,onsets,pr / phr,pr ~ pʰr,"Tổ hợp phụ âm đầu bảo lưu cổ (ví dụ: pram 'người', ghi theo Quốc ngữ là Phrom)",high
+o-du,onsets,gl,ɡl,Tổ hợp phụ âm đầu hữu thanh + bên (ví dụ: gliŋ 'đá'),high
+o-du,onsets,sw,sw,"Tổ hợp xát + bán nguyên âm tròn môi phục nguyên cho Proto-Pramic (*swaːn 'rìu', Sidwell 2013; Alves 2015)",low
+o-du,onsets,ht,ht,Tiền âm tiết xát thanh hầu + tắc (ví dụ: htaː 'lưỡi' < *hntaːk),medium
+o-du,onsets,mp / hmb / hnd / hnt / hns / gnt / krg,mp / hmb / hnd / hnt / hns / ɡnt / krɡ,Các cấu trúc tiền âm tiết mũi hóa / phụ âm ghép đặc trưng trong từ song tiết và số đếm Iduh (Diffloth; Badenoch 2021),high
+o-du,onsets,phtr,pʰtr,Tổ hợp phụ âm ba được ghi nhận qua cách chép Quốc ngữ 'Chăm phtrơng' (Lễ hội tiếng sấm); cần xác minh ngữ âm học hiện trường,low
+o-du,vowels,i,i,"Nguyên âm cao trước không tròn môi; trong tiếng Ơ Đu nhiều từ có /i, iː/ bắt nguồn từ sự nâng nguyên âm Proto-Khmuic *aː₁ > iː/i đặc trưng của nhánh Pramic (ví dụ: mim 'máu', gliŋ 'đá')",high
+o-du,vowels,iː / ii,iː,Nguyên âm cao trước dài; đối lập trường độ nguyên âm là nét chung của nhóm Khmuic,medium
+o-du,vowels,e,e,"Nguyên âm hơi cao / trung trước (ví dụ: mpeyʰ 'ba', gntey 'chín')",high
+o-du,vowels,ɨ,ɨ,Nguyên âm cao giữa không tròn môi (ví dụ: bɨl 'dày'),high
+o-du,vowels,ɨː,ɨː,Nguyên âm cao giữa dài (ví dụ: hndɨːy 'một'),high
+o-du,vowels,ə / ơ,ə,"Nguyên âm trung tâm ngắn ở tiền âm tiết (ví dụ: kəruuŋʔ, məgoaʔa) và nguyên âm chính trong cách ghi Quốc ngữ (Ơ Đu, phtrơng)",medium
+o-du,vowels,a,a,Nguyên âm thấp ngắn (ví dụ: pram 'người'),high
+o-du,vowels,aː / aa,aː,"Nguyên âm thấp dài (ví dụ: taːn 'đan', htaː 'lưỡi', hmbaːʔr 'hai')",high
+o-du,vowels,u,u,"Nguyên âm cao sau tròn môi ngắn (ví dụ: hntul 'sáu', krgul 'bảy')",high
+o-du,vowels,uː / uu,uː,Nguyên âm cao sau tròn môi dài (ví dụ: kəruuŋʔ 'tám'),high
+o-du,vowels,o,o ~ ɔ,"Nguyên âm sau tròn môi (ví dụ: roj 'hổ', jon ʔiɲ 'xương')",medium
+o-du,vowels,ɔː / ɔɔ,ɔː,Nguyên âm hơi thấp sau tròn môi dài (ví dụ: hnsɔɔŋ 'năm'),high
+o-du,vowels,ɒ,ɒ,Nguyên âm thấp sau tròn môi được Diffloth ghi nhận trong mpɒn 'bốn',medium
+o-du,codas,m,m,"Mũi hai môi cuối âm tiết (ví dụ: pram, mim)",high
+o-du,codas,n,n,"Mũi đầu lưỡi cuối âm tiết (ví dụ: taːn, mpɒn)",high
+o-du,codas,ɲ / nh,ɲ,Mũi mặt lưỡi cuối âm tiết (ví dụ: jon ʔiɲ 'xương'),high
+o-du,codas,ŋ / ng,ŋ,"Mũi gốc lưỡi cuối âm tiết (ví dụ: gliŋ, hnsɔɔŋ)",high
+o-du,codas,ŋʔ,ŋˀ,Âm cuối mũi gốc lưỡi thanh hầu hóa / giọng kẹt (ví dụ: kəruuŋʔ 'tám'),high
+o-du,codas,l,l,"Âm bên cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: bɨl, hntul, krgul)",high
+o-du,codas,r,r,Âm rung/vỗ cuối âm tiết — không có trong tiếng Việt chuẩn,medium
+o-du,codas,ʔr,ˀr,Âm cuối r thanh hầu hóa gắn với âm vực giọng kẹt (ví dụ: hmbaːʔr 'hai'),high
+o-du,codas,j / y,j,"Bán nguyên âm mặt lưỡi cuối âm tiết (ví dụ: roj, hndɨːy, gntey)",high
+o-du,codas,yʰ,jʰ,"Bán nguyên âm mặt lưỡi cuối âm tiết kèm bật hơi/xát thanh hầu (ví dụ: mpeyʰ 'ba', Diffloth p.c. trong Badenoch 2021)",high
+o-du,codas,ʔ,ʔ,Tắc thanh hầu cuối âm tiết (phổ biến trong các ngôn ngữ Khmuic),medium
+o-du,codas,p / t / c / k / h,p / t / c / k / h,Các âm tắc vô thanh và xát thanh hầu cuối âm tiết điển hình của nhánh Khmuic/Pramic; chưa đủ danh sách từ vựng công bố để tách từng mục với độ tin cậy cao,low
 pa-then,onsets,,p,Tắc hai môi vô thanh không bật hơi; có đối lập thanh tính thường (modal) và giọng chùng/thở (slack voice [pʱ]) theo Yamaoka (2025),high
 pa-then,onsets,,pʰ,Tắc hai môi vô thanh bật hơi (ví dụ: pʰiʔ³¹ 'phụ nữ'),high
 pa-then,onsets,,mb,"Tắc hai môi hữu thanh tiền mũi hóa (ví dụ: mbi⁵⁵ 'giấc mơ', mbɤ²⁴ 'trèo')",high
@@ -1869,6 +2174,60 @@ phu-la,vowels,,u,Nguyên âm cao hàng sau tròn môi,high
 phu-la,vowels,,o,Nguyên âm nửa cao hàng sau tròn môi,high
 phu-la,vowels,,ɔ,Nguyên âm nửa thấp hàng sau tròn môi,high
 phu-la,codas,,ŋ,"Âm cuối mũi ngạc mềm (báo cáo Viện Ngôn ngữ học 2026 tại Bắc Hà ghi nhận 1 âm cuối; trong tiếng Laghuu [lgh] có thêm /-m, -n/ và bán nguyên âm /-i, -u/, nhưng /-ŋ/ vẫn phổ biến nhất)",medium
+pu-peo,onsets,p,p,Tắc hai môi vô thanh không bật hơi,high
+pu-peo,onsets,ph,pʰ,Tắc hai môi vô thanh bật hơi,high
+pu-peo,onsets,b,b ~ ɓ,Tắc hai môi hữu thanh / tiền thanh hầu hóa (tương ứng dãy thanh 1),medium
+pu-peo,onsets,m,m,Mũi hai môi hữu thanh,high
+pu-peo,onsets,mh / hm,m̥,"Mũi hai môi vô thanh (Hoàng Văn Ma ghi mh-, Liang et al. ghi hm-)",high
+pu-peo,onsets,v / V,v ~ β,"Xát môi-răng hoặc hai môi hữu thanh (trong dữ liệu số hóa ABVD/Wiktionary thường ký hiệu bằng chữ V hoa như Vân3 'ngày', Vơj3 'bơi')",medium
+pu-peo,onsets,t,t,Tắc đầu lưỡi lợi vô thanh,high
+pu-peo,onsets,th,tʰ,Tắc đầu lưỡi lợi bật hơi,high
+pu-peo,onsets,d / đ,d ~ ɗ,Tắc đầu lưỡi lợi hữu thanh / tiền thanh hầu hóa (ở Phố Là đôi khi biến đổi sang l- trong một số từ như lak5 ~ daak33 'xương'),medium
+pu-peo,onsets,n,n,Mũi đầu lưỡi lợi hữu thanh,high
+pu-peo,onsets,nh- (hni-) / hn,n̥,Mũi đầu lưỡi lợi vô thanh (trong ký âm IPA của Liang et al. ghi hn-),high
+pu-peo,onsets,l,l,Bên đầu lưỡi hữu thanh,high
+pu-peo,onsets,lh,ɬ ~ lɦ,"Trong hệ Hoàng Văn Ma, lh- ghi nhận cả âm xát bên vô thanh [ɬ] (như lhăw3 / ɬau33 'lưng', lhăj1 / ɬai53 'nói') và âm bên kèm giọng thở ở thanh dãy 2",medium
+pu-peo,onsets,s,s,Xát đầu lưỡi vô thanh,high
+pu-peo,onsets,z / r,z ~ ʐ ~ r,Biến thể xát/rung đầu lưỡi hoặc quặt lưỡi (ví dụ qa zA3 ~ qa rA3 / qə0 ʐɑ33 'tai'),medium
+pu-peo,onsets,zh / rh,ʂʰ ~ ʐɦ,Âm quặt lưỡi bật hơi hoặc kèm giọng thở (ví dụ zhô4 / ʂʰo213 'đầu'),medium
+pu-peo,onsets,c,tɕ,Tắc-xát mặt lưỡi vô thanh (Liang et al. ghi tɕ-),high
+pu-peo,onsets,nh / N,ɲ ~ ɲ̥,"Mũi mặt lưỡi (trong ABVD/Wiktionary, Hoàng Văn Ma ghi nhing1 cho hniŋ53 'nhà', và ký hiệu N hoa trong Nin3 cho ɲin33 'nhai')",medium
+pu-peo,onsets,j,j,Tiếp cận mặt lưỡi (bán nguyên âm),high
+pu-peo,onsets,k,k,Tắc gốc lưỡi (mạc) vô thanh,high
+pu-peo,onsets,kh,kʰ,Tắc gốc lưỡi bật hơi,high
+pu-peo,onsets,g,ɡ,Tắc gốc lưỡi hữu thanh,medium
+pu-peo,onsets,ng,ŋ,Mũi gốc lưỡi hữu thanh,high
+pu-peo,onsets,ngh,ŋ̊ ~ ŋ,Mũi gốc lưỡi (ví dụ nghâm3 ~ hâm3 'uống'),low
+pu-peo,onsets,x,x,Xát gốc lưỡi vô thanh (ở Phố Là tương ứng với qh- ở Ma Lật Pha trong một số từ như xAn1 ~ qhon53 'đường'),medium
+pu-peo,onsets,q,q,"Tắc lưỡi con (tiểu thiệt) vô thanh; rất phổ biến ở cả âm tiết chính (qa33 'máu', qe53 'cổ') và tiền âm tiết (qa-)",high
+pu-peo,onsets,qh,qʰ,Tắc lưỡi con vô thanh bật hơi,medium
+pu-peo,onsets,ʔ,ʔ,Tắc thanh hầu,high
+pu-peo,onsets,h,h,Xát thanh hầu vô thanh,high
+pu-peo,onsets,pj / tj / zj / sj / lj,pʲ / tʲ / zʲ / sʲ / lʲ,Tổ hợp phụ âm đầu ngạc hóa (kết hợp bán nguyên âm -j-),medium
+pu-peo,onsets,kw / khw / sw / phw / ʔw / mhw / hw,kʷ / kʰʷ / sʷ / pʰʷ / ʔʷ / m̥ʷ / hʷ,Tổ hợp phụ âm đầu môi hóa (kết hợp âm đệm -w-),high
+pu-peo,vowels,i,i ~ iː,Nguyên âm hàng trước độ mở hẹp,high
+pu-peo,vowels,ê / e,e,Nguyên âm hàng trước hơi hẹp (Hoàng Văn Ma phân biệt ê [e] và e [ɛ]),high
+pu-peo,vowels,e,ɛ,Nguyên âm hàng trước hơi rộng,medium
+pu-peo,vowels,ư,ɯ,Nguyên âm hàng sau không tròn môi hẹp (tài liệu Trung Quốc ghi ɯ),high
+pu-peo,vowels,ơ,əː,Nguyên âm hàng giữa độ mở vừa dài,medium
+pu-peo,vowels,â,ə,"Nguyên âm hàng giữa ngắn (chỉ xuất hiện trong âm tiết khép, tương ứng ə trong Liang et al.)",high
+pu-peo,vowels,a / A / aa,aː ~ ɑ,Nguyên âm độ mở rộng dài (trong bản số hóa ABVD/Wiktionary của Hoàng Văn Ma phân biệt a [aː] và A [ɑ]),medium
+pu-peo,vowels,ă,a,Nguyên âm rộng ngắn (trong vần khép hoặc trước bán nguyên âm cuối -j/-w),high
+pu-peo,vowels,u,u ~ uː,Nguyên âm hàng sau tròn môi hẹp,high
+pu-peo,vowels,ô,o,Nguyên âm hàng sau tròn môi hơi hẹp,high
+pu-peo,vowels,o,ɔ,Nguyên âm hàng sau tròn môi hơi rộng,high
+pu-peo,vowels,iê / ia / iơ,iə ~ ia,Nguyên âm đôi hướng tâm hàng trước,medium
+pu-peo,vowels,ươ / ưa,ɯə,Nguyên âm đôi hướng tâm không tròn môi,medium
+pu-peo,vowels,uô / ua / uơ,uə ~ ua,Nguyên âm đôi hướng tâm tròn môi,medium
+pu-peo,codas,p,p̚,Tắc hai môi vô thanh không bật ra,high
+pu-peo,codas,t,t̚,Tắc đầu lưỡi vô thanh không bật ra,high
+pu-peo,codas,k,k̚,Tắc gốc lưỡi vô thanh không bật ra,high
+pu-peo,codas,ʔ,ʔ,Tắc thanh hầu cuối âm tiết (ghi nhận ở một số từ như taiʔ33 'thấy'),low
+pu-peo,codas,m,m,Mũi hai môi,high
+pu-peo,codas,n,n,Mũi đầu lưỡi,high
+pu-peo,codas,ng,ŋ,Mũi gốc lưỡi,high
+pu-peo,codas,j / i,j,"Bán nguyên âm cuối hàng trước (Hoàng Văn Ma viết -j, Liang et al. viết -i)",high
+pu-peo,codas,w / u,w,"Bán nguyên âm cuối tròn môi (Hoàng Văn Ma viết -w, Liang et al. viết -u)",high
 ra-glai,onsets,p,p,Tắc hai môi vô thanh không bật hơi,high
 ra-glai,onsets,t,t,Tắc lợi vô thanh không bật hơi,high
 ra-glai,onsets,c,c,Tắc mặt lưỡi (ngạc cứng) vô thanh; quy ước khác chữ Quốc ngữ (tương đương âm 'ch' không bật hơi),high
@@ -1921,6 +2280,54 @@ ra-glai,codas,r,r,Âm r cuối âm tiết bảo lưu ở phương ngữ Raglai N
 ra-glai,codas,i / z,j,Bán nguyên âm cuối vần,medium
 ra-glai,codas,u / w,w,Bán nguyên âm tròn môi cuối vần,medium
 ra-glai,codas,"mt, qt, qht",mˀ ~ ʔ,"Các tổ hợp 2 hoặc 3 chữ cái phụ âm cuối vần quy định trong Thông tư 14/2026/TT-BGDĐT (ví dụ: chơmt, panoqt, tanaqht) để phân biệt trường độ/đặc trưng thanh hầu cuối âm tiết; giá trị IPA chi tiết từng tổ hợp cần chuyên gia ngữ âm đối chiếu thêm",low
+ro-mam,onsets,p,p,"Âm tắc hai môi vô thanh không bật hơi (ví dụ: pan 'bốn', pah 'tát')",high
+ro-mam,onsets,b,b ~ ɓ,"Âm tắc hai môi hữu thanh hoặc tiền thanh hầu hóa (ví dụ: bih buh, bơ neo); cần kiểm chứng mức độ tiền thanh hầu hóa trong điền dã",medium
+ro-mam,onsets,t,t,"Âm tắc đầu lưỡi vô thanh (ví dụ: kơtu, t'gạt)",high
+ro-mam,onsets,đ,ɗ,Âm tắc chân răng tiền thanh hầu hóa (ví dụ: đê 'làng'),medium
+ro-mam,onsets,k,k,Âm tắc ngạc mềm vô thanh (ví dụ: ka 'cá'),high
+ro-mam,onsets,kh,kʰ,Âm tắc ngạc mềm bật hơi (ví dụ: khom pi),medium
+ro-mam,onsets,g,ɡ,"Âm tắc ngạc mềm hữu thanh (ví dụ: guông 'cồng chiêng', goong soi)",medium
+ro-mam,onsets,j,ɟ ~ dʑ,"Âm tắc/tắc-xát mặt lưỡi hữu thanh theo quy ước chữ viết Tây Nguyên (ví dụ: jặp, jeng ninh)",medium
+ro-mam,onsets,m,m,"Âm mũi hai môi (ví dụ: mam 'sắt', măm 'bú', măt 'mặt')",high
+ro-mam,onsets,mm,mː ~ ʔm,Tổ hợp âm mũi kéo dài hoặc tiền thanh hầu hóa ghi nhận trong tư liệu của Võ Đức Tám (ví dụ: mmuh 'cùn'),low
+ro-mam,onsets,n,n,"Âm mũi chân răng (ví dụ: nam 'nhà ở', nat)",high
+ro-mam,onsets,nh,ɲ,Âm mũi mặt lưỡi (ví dụ: nho 'áo cộc tay nữ'),medium
+ro-mam,onsets,"s, x",s,"Âm xát chân răng vô thanh; trong tư liệu điền dã ghi dao động bằng s hoặc x (ví dụ: săk 'lông', sar, yang xơri)",medium
+ro-mam,onsets,h,h,"Âm xát thanh hầu vô thanh (ví dụ: hah 'há', hơ huôl)",high
+ro-mam,onsets,l,l,"Âm bên chân răng (ví dụ: lit 'lũ', luk)",high
+ro-mam,onsets,r,r,"Âm rung/vỗ đầu lưỡi (ví dụ: rôông 'nhà rông', rơ ruội)",medium
+ro-mam,onsets,y,j,Bán nguyên âm mặt lưỡi (ví dụ: yang 'thần linh'),high
+ro-mam,onsets,bl,bl,"Tổ hợp phụ âm đầu tắc + bên (ví dụ: bla 'vách', bluh 'nổi')",high
+ro-mam,onsets,pr,pr,Tổ hợp phụ âm đầu tắc + rung (ví dụ: prai 'vải'),high
+ro-mam,onsets,kl,kl,"Tổ hợp phụ âm đầu ngạc mềm + bên (ví dụ: kleo, klông lơi)",high
+ro-mam,onsets,kp,kp,Tổ hợp phụ âm tắc ngạc mềm + hai môi hoặc tiền âm tiết rút gọn (ví dụ: kpen),medium
+ro-mam,onsets,hl,hl ~ l̥,Tổ hợp h + l hoặc âm bên vô thanh đặc trưng nhóm Bahnaric (ví dụ: hla 'lá'),high
+ro-mam,onsets,sl,sl,Tổ hợp xát + bên (ví dụ: sla),medium
+ro-mam,onsets,hph,hpʰ,Tổ hợp tiền hơi thở/tiền âm tiết vô thanh + âm môi bật hơi (ví dụ: hphat 'váy quấn nữ'),low
+ro-mam,vowels,i,i ~ iː,"Nguyên âm hàng trước độ mở hẹp (ví dụ: lit 'lũ', ip, bih)",medium
+ro-mam,vowels,ê,e ~ eː,Nguyên âm hàng trước hơi hẹp (ví dụ: đê 'làng'),medium
+ro-mam,vowels,e,ɛ ~ ɛː,"Nguyên âm hàng trước hơi rộng (ví dụ: kpen, jeng)",medium
+ro-mam,vowels,ư,ɨ,Nguyên âm hàng giữa độ mở hẹp (ví dụ: mưr),medium
+ro-mam,vowels,ơ,ə ~ əː,"Nguyên âm trung tâm; ở tiền âm tiết đọc lướt ngắn [ə] (bơ-, hơ-, rơ-, kơ-), ở âm tiết chính đọc dài hơn (lơi)",high
+ro-mam,vowels,ă,a,"Nguyên âm rộng ngắn (ví dụ: măm 'bú', măt 'mặt', păk 'mở', săk 'lông')",high
+ro-mam,vowels,a,aː,"Nguyên âm rộng dài (ví dụ: ka 'cá', mam 'sắt', pan 'bốn', bla 'vách')",high
+ro-mam,vowels,u,u ~ uː,"Nguyên âm hàng sau tròn môi hẹp (ví dụ: bluh 'nổi', mmuh 'cùn', luk)",medium
+ro-mam,vowels,"ô, ôô",o ~ oː,"Nguyên âm hàng sau hơi hẹp; nhân đôi con chữ biểu thị trường độ dài (ví dụ: rôông 'nhà rông', pang bôông)",medium
+ro-mam,vowels,"o, oo",ɔ ~ ɔː,"Nguyên âm hàng sau hơi rộng; nhân đôi con chữ biểu thị trường độ dài (ví dụ: nho, goong soi)",medium
+ro-mam,vowels,ie,iː ~ iə,"Theo trích dẫn công trình của Võ Đức Tám, chữ 'ie' ở giữa từ có thể hiện thực hóa như /iː/",low
+ro-mam,vowels,uô,uə,"Nguyên âm đôi hướng tâm (ví dụ: guông 'cồng chiêng', hơ huôl)",medium
+ro-mam,codas,p,p̚,"Âm tắc hai môi khép ở cuối âm tiết (ví dụ: ip, hlap, jặp)",high
+ro-mam,codas,t,t̚,"Âm tắc chân răng khép ở cuối âm tiết (ví dụ: măt 'mặt', lit 'lũ', hphat)",high
+ro-mam,codas,k,k̚,"Âm tắc ngạc mềm khép ở cuối âm tiết, đứng được sau cả nguyên âm không tròn môi (ví dụ: păk 'mở', săk 'lông', luk)",high
+ro-mam,codas,h,h,"Âm xát thanh hầu cuối âm tiết rất phổ biến trong tiếng Rơ Măm, không có trong tiếng Việt (ví dụ: hah 'há', pah 'tát', bluh 'nổi', mmuh 'cùn')",high
+ro-mam,codas,m,m,"Âm mũi hai môi cuối âm tiết (ví dụ: mam 'sắt', măm 'bú', nam 'nhà ở')",high
+ro-mam,codas,n,n,"Âm mũi chân răng cuối âm tiết (ví dụ: pan 'bốn', kpen)",high
+ro-mam,codas,nh,ɲ,Âm mũi mặt lưỡi cuối âm tiết (ví dụ: jeng ninh),medium
+ro-mam,codas,ng,ŋ,"Âm mũi ngạc mềm cuối âm tiết, không bị môi hóa sau nguyên âm dài viết nhân đôi oo/ôô (ví dụ: yang, rôông, goong)",high
+ro-mam,codas,l,l,"Âm bên cuối âm tiết, không có trong tiếng Việt (ví dụ: hơ huôl, hơ guôl)",medium
+ro-mam,codas,r,r,"Âm rung/vỗ cuối âm tiết, không có trong tiếng Việt (ví dụ: mưr, sar)",medium
+ro-mam,codas,"i, y",j,"Bán nguyên âm cuối vần (ví dụ: prai 'vải', klông lơi, ét xét may)",high
+ro-mam,codas,o,w,"Bán nguyên âm môi cuối vần (ví dụ: ao 'áo', kleo)",high
 san-chay,onsets,p,p,Tắc hai môi vô thanh không bật hơi (ví dụ: pót [pɔt⁴⁵] 'phổi').,high
 san-chay,onsets,ph,pʰ,"Tắc hai môi vô thanh bật hơi trong phiên âm ngôn ngữ học Tai (ví dụ: phon [pʰon⁴²] 'mưa', phác [pʰak] 'rau'); trong bản chép dân gian Quốc ngữ đôi khi bị lẫn với [f].",high
 san-chay,onsets,b,ɓ,"Tắc hai môi hữu thanh / tiền thanh hầu hóa (/ʔb-/), tương đồng với các ngôn ngữ Tày–Thái lân cận.",medium
@@ -2010,6 +2417,38 @@ san-diu,codas,nh,ɲ,Mũi mặt lưỡi – ngạc cứng,high
 san-diu,codas,ng,ŋ,Mũi ngạc mềm,high
 san-diu,codas,u,w,Bán nguyên âm cuối môi – mạc; phương án đề xuất thống nhất ghi bằng u (không phân biệt u/o như Quốc ngữ),high
 san-diu,codas,i,j,Bán nguyên âm cuối mặt lưỡi; phương án đề xuất thống nhất ghi bằng i (không phân biệt i/y như Quốc ngữ),high
+si-la,onsets,,p,Tắc hai môi không bật hơi; về mặt ngữ âm thường được hiện thực hóa hữu thanh [b] (Edmondson 2002 từng ghi nhận đối lập p/b ở Việt Nam nhưng Badenoch & Hayashi 2017 phân tích là biến thể tự do/ngữ âm [p] ~ [b] của /p/).,high
+si-la,onsets,,pʰ,Tắc hai môi bật hơi [pʰ] (khác với chữ 'ph' [f] của tiếng Việt).,high
+si-la,onsets,,t,Tắc đầu lưỡi răng/lợi không bật hơi; thường đọc hữu thanh hóa nhẹ [d] ở một số người nói.,high
+si-la,onsets,,tʰ,Tắc đầu lưỡi bật hơi.,high
+si-la,onsets,,tɕ,"Tắc-xát mặt lưỡi-ngạc cứng không bật hơi, đôi khi hữu thanh hóa [dʑ].",high
+si-la,onsets,,tɕʰ,Tắc-xát mặt lưỡi-ngạc cứng bật hơi mạnh.,high
+si-la,onsets,,k,Tắc gốc lưỡi (mạc) không bật hơi; thường hiện thực hóa như âm hữu thanh [ɡ] (khớp với ghi nhận k/g của Edmondson 2002).,high
+si-la,onsets,,kʰ,"Tắc gốc lưỡi bật hơi [kʰ] (tắc bật hơi thật sự, không phải xát [x]).",high
+si-la,onsets,,m,"Mũi hai môi; cũng có thể đứng độc lập làm âm tiết mang thanh điệu [m̩] (ví dụ /m̩55/ 'làm', /m̩31/ 'nói').",high
+si-la,onsets,,n,Mũi đầu lưỡi.,high
+si-la,onsets,,ɲ,"Mũi mặt lưỡi-ngạc, hiện thực hóa ngữ âm gần với âm lợi-ngạc [ȵ].",high
+si-la,onsets,,ŋ,Mũi gốc lưỡi.,high
+si-la,onsets,,f,Xát môi-răng vô thanh.,high
+si-la,onsets,,s,Xát đầu lưỡi vô thanh; bị ngạc hóa thành [ɕ ~ ʃ] khi đứng trước nguyên âm /i/ (/s/ → [ɕ ~ ʃ] / _i).,high
+si-la,onsets,,x,Xát gốc lưỡi vô thanh (tương tự 'kh' trong tiếng Việt Bắc Bộ).,high
+si-la,onsets,,ɣ,Xát gốc lưỡi hữu thanh (tương tự 'g/gh' trong tiếng Việt).,high
+si-la,onsets,,l̥,"Bên đầu lưỡi vô thanh, hiện thực hóa ngữ âm dạng [l̥͡l] (bắt đầu vô thanh rồi chuyển sang hữu thanh).",high
+si-la,onsets,,l,"Bên đầu lưỡi hữu thanh; cũng làm âm đệm /Cl-/ sau p, pʰ, m.",high
+si-la,onsets,,w,Tiếp cận môi-mạc hữu thanh.,high
+si-la,onsets,,j,"Tiếp cận ngạc cứng hữu thanh; cũng làm âm đệm /Cj-/ sau p, pʰ, m, k, kʰ.",high
+si-la,vowels,,i,"Nguyên âm trước, hẹp, không tròn môi; thường có xát hóa nhẹ khi phát âm để tăng tương phản với /e/. Có biến thể giọng kẹt /ḭ/.",high
+si-la,vowels,,y,"Nguyên âm trước, hẹp, tròn môi; có đối lập giọng thường /y/ và giọng kẹt /y̰/.",high
+si-la,vowels,,ɯ,"Nguyên âm sau, hẹp, không tròn môi (tương tự 'ư' tiếng Việt); có đối lập giọng kẹt /ɯ̰/ và hiếm gặp dạng mũi hóa /ɯ̃/ (/a31mɯ̃33/ 'tóc').",high
+si-la,vowels,,u,"Nguyên âm sau, hẹp, tròn môi; có đối lập giọng kẹt /ṵ/.",high
+si-la,vowels,,e,"Nguyên âm trước, hơi hẹp, không tròn môi; có đối lập giọng kẹt /ḛ/.",high
+si-la,vowels,,ø,"Nguyên âm trước, hơi hẹp, tròn môi; có đối lập giọng kẹt /ø̰/.",high
+si-la,vowels,,ɤ,"Nguyên âm sau, hơi hẹp, không tròn môi, biến thể tự do [ɤ] ~ [ə] (gần với 'ơ' tiếng Việt); có đối lập giọng kẹt /ɤ̰/.",high
+si-la,vowels,,o,"Nguyên âm sau, hơi hẹp, tròn môi; có đối lập giọng kẹt /o̰/.",high
+si-la,vowels,,ɛ,"Nguyên âm trước, hơi rộng, không tròn môi; có đối lập giọng kẹt /ɛ̰/.",high
+si-la,vowels,,ɔ,"Nguyên âm sau, hơi rộng, tròn môi; có đối lập giọng kẹt /ɔ̰/.",high
+si-la,vowels,,a,Nguyên âm mở trước/giữa [a] ~ [æ]; đối lập âm vị học với /ɐ/ (đang có xu hướng nhập dần ở từ thuần nhưng vẫn phân biệt); có dạng giọng kẹt /a̰/.,high
+si-la,vowels,,ɐ,"Nguyên âm mở lùi về sau [ɐ] ~ [ɑ]; có dạng giọng kẹt /ɐ̰/ (ví dụ /mjɐ̰33/ 'mắt', /nɐ̰33/ 'đen'). Ngoài 12 nguyên âm đơn còn có 4 nguyên âm đôi /ɤi, ai, ao, oa/ chỉ xuất hiện trong từ vay mượn Thái/Lào và Hán.",high
 stieng,onsets,p,p,Tắc hai môi vô thanh không bật hơi,high
 stieng,onsets,t,t,Tắc răng/lợi vô thanh không bật hơi,high
 stieng,onsets,ch / c,c,Tắc mặt lưỡi (ngạc cứng) vô thanh; SIL thường ghi c hoặc ch tùy vị trí,high

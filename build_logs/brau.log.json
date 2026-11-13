@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "brau",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Brâu",
+    "ethnic_group_vi": "Brâu",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:53:14.735717",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9379,
+      "candidatesTokenCount": 9047,
+      "totalTokenCount": 25093,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9379
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9047
+        }
+      ],
+      "thoughtsTokenCount": 6667,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11367,
+      "candidatesTokenCount": 11061,
+      "totalTokenCount": 24155,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11367
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11061
+        }
+      ],
+      "thoughtsTokenCount": 1727,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Hệ thống phụ âm đầu của tiếng Brao trong Sidwell (2003) và Wikipedia ghi nhận âm tắc mặt lưỡi vô thanh bật hơi /cʰ/ trong loạt bật hơi (pʰ, tʰ, cʰ, kʰ), tương ứng với âm vị mà Keller (2001) ký hiệu là /š/ ([ç ~ ɕ]). Bảng mã hiện mới ghi /š/ ở mục âm xát mà chưa giải thích rõ sự tương ứng /cʰ/ ~ /š/ giữa các tài liệu Môn-Khmer học.",
+        "fix": "Bổ sung chú thích rõ tại mục `s (š)` trong `phonology.onsets` về sự tương ứng với ký hiệu `/cʰ/` trong Sidwell & Jacq (2003) và bảng âm vị Brao trên Wikipedia."
+      },
+      {
+        "path": "music.scales_or_modes[0].note",
+        "severity": "medium",
+        "problem": "Mô tả bộ chiêng Tha chưa nêu rõ hai đặc trưng âm học - nhạc học quan trọng nhất theo tư liệu điền dã (Báo Nhân Dân 2009, TTXVN 2016–2017): (1) cả hai chiếc Chuar và Jơliêng đều là chiêng bằng (không có núm), treo úp mặt vào nhau cách đất 15–20 cm; (2) nghệ nhân ngồi bệt duỗi chân, dùng bàn chân nâng áp sát thành chiêng để ngắt tiếng và biến đổi âm sắc, tạo ra 3–4 cung bậc âm thanh khác nhau chỉ từ 2 lá chiêng.",
+        "fix": "Bổ sung chi tiết cấu tạo chiêng bằng và kỹ thuật dùng bàn chân áp thành chiêng ngắt tiếng tạo 3–4 cung bậc âm thanh, cũng như thuật ngữ bản địa 'gọh Tha' (mời Tha nói)."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Trong các tài liệu dân tộc học Việt Nam có sự giao thoa tên gọi giữa 'Đinh pú' loại 2 ống dài 1,2 m đan chéo (gồm 5 người diễn tấu: 1 người giữ ống, 4 người vỗ tay/vỗ ống trong lễ Đót pi Mưnr, theo Báo Nhân Dân 2025) và dàn ống vỗ 5–7 ống kiểu Klông pút được một số tài liệu địa phương gọi là 'táp đinh pú' / 'táp đinh bổ'. Tách rời hai mục mà không giải thích dễ gây nhầm lẫn khi đối chiếu nguồn.",
+        "fix": "Làm rõ kỹ thuật 5 người diễn tấu của Đinh pú (2 ống) và ghi chú tên gọi bản địa 'táp đinh pú' / 'táp đinh bổ' ở mục Klông pút (5–7 ống)."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Các mục từ văn hóa – nghi lễ lấy từ báo chí điền dã Việt Nam ('đinh pú', 'tha', 'chuar', 'jơliêng', 'Pa Xây') là dạng phiên âm xấp xỉ theo chữ Quốc ngữ, chưa có đối chiếu IPA âm vị học chính xác từ từ điển/ngữ liệu ngôn ngữ học nhưng đang để confidence='high'.",
+        "fix": "Hạ `confidence` của các mục từ văn hóa chưa có ký âm IPA chuẩn xuống `medium` để phân biệt rõ với lớp từ vựng cơ bản đã kiểm chứng IPA từ Keller (2001) và Sidwell & Jacq (2003)."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Nhiều nguồn tài liệu trong `sources` có URL công khai (SEALang, VJOL, Báo Nhân Dân) nhưng đang để `url: null` và `url_check: null`.",
+        "fix": "Cập nhật URL chính xác và trạng thái `url_check` cho các nguồn đã kiểm chứng qua tìm kiếm."
+      }
+    ]
+  },
+  "schema_errors": []
+}

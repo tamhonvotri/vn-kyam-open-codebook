@@ -1,0 +1,114 @@
+{
+  "target": {
+    "id": "cong",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cống",
+    "ethnic_group_vi": "Cống",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:46:35.798621",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9377,
+      "candidatesTokenCount": 8963,
+      "totalTokenCount": 25482,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9377
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8963
+        }
+      ],
+      "thoughtsTokenCount": 7142,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVfmv3iQxOdyx74tgRokjJY779ozv3xJVEY0UN4iS6DxWxLDnlta9qWbwvr1eHs6fyW1sQaG_fKRVsG59ikQF3J-0EQY3NkYQETKjHEl9QEh1qMb2uaUmQNokmw4c0wsbxKpnLDA=="
+      },
+      {
+        "title": "language-archives.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOafdgAtCq0LavOO1NYqyor84IXZ2tJSCY7A_9RIdmNTIjE_JwxQ-hWNftMOnnNW2zL8cps_-_scYqw9M46YRSul-hqBE-FTZEOprpXAnnyaTvG0crd5OGwvHf8-0hDTwP5Mj1"
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm4SfTAqfwmk-oQSIrayU2upEt6m2gQIIbIaAOusCBMb9A1XhfjIAdvoVNoVxCwdDleT0eDcSu3bpx7sLSPL6IYalaVO65IBcwAVq1lPGilTY5SEex_yxYa1mTZBgCwtpZnKnlQdN3H-gwReYShQ=="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSF1WCY0fW1Q6jL7JGpCNnAyF3k3I6wSZuOTjHkD2i2iK9c7LZfjTA7WWkL9elkyRTIEJeXlxWJbVZuucQwMakpQPedGfCvtvBRGZaqqsbnXH17Any7LaRYFJfpOKg4h0Nb7qZCNiDPWsoZqhPgY="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKCXnL6rT407DAWBKhbmzNZG--6teHXOu7wgh6AK64Uw1rXxjnjfJ8LVZaFf_vKZDKhw0qLQs9KO68fXuhWRJTC9kfacBVroxs-dB4JLawy0dw85n4YiFZ_57Lc_KzW3RGbOVPxc40DNoozwI8Dbuq1RGlfhP6_LoFAa9L"
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKCXnL6rT407DAWBKhbmzNZG--6teHXOu7wgh6AK64Uw1rXxjnjfJ8LVZaFf_vKZDKhw0qLQs9KO68fXuhWRJTC9kfacBVroxs-dB4JLawy0dw85n4YiFZ_57Lc_KzW3RGbOVPxc40DNoozwI8Dbuq1RGlfhP6_LoFAa9L"
+      },
+      {
+        "title": "dulieuphapluat.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXX8w1A22sJHOdhteF_mML0v02m1edAZQR5dimbFNTY9i2sVcr-TMtFdWbSgl8E3upUEGU3Mqb1490lW9cvRHPyay23CBLlI6PIvSvbLgSnByaKt4koi1IahRPqQZH1Clg5LY5kfnqb9RfUFt2wG24lhv43Wsz2ydCvcgXh-fz93XsNAD0xBNGGvMlyfgs4YJmSgthx5WJUECcb0t-pPQ="
+      }
+    ],
+    "queries": [
+      "\"tìm\" \"nhịp\" \"xem\" \"ừn\" \"ngà\" \"tiếng Cống\" OR \"người Cống\"",
+      "\"coon1239\" \"cnc\" Côông",
+      "\"sang1320\" OR \"sang1325\" Sangkong glottolog",
+      "\"Ý sộ tắng\" \"Lắng tắng\" \"Hàng chà\"",
+      "\"Mền loóng phạt ái\" Cống"
+    ],
+    "usage": {
+      "promptTokenCount": 10898,
+      "candidatesTokenCount": 10133,
+      "totalTokenCount": 22426,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10898
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10133
+        }
+      ],
+      "thoughtsTokenCount": 1395,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[3].glottocode",
+        "severity": "medium",
+        "problem": "Mã Glottocode của tiếng Sangkong (ISO 639-3: sgk) bị ghi nhầm là 'sang1325' (không tồn tại trong Glottolog).",
+        "fix": "Sửa thành mã Glottolog chính xác của Sangkong là 'sang1320'."
+      },
+      {
+        "path": "lexicon[13].form & ml_hints.sub_varieties[1].note",
+        "severity": "low",
+        "problem": "Cụm từ 'uống nước' trích từ Phạm Huy (1998: 13) trên bản Wikipedia tiếng Việt bị lược bớt âm tiết ('ý tắng' / 'lắng'), trong khi bản trích dẫn đầy đủ từ Phạm Huy (1998: 13) là 'ý sộ tắng' (Cống Vàng) và 'lắng tắng' (Cống Bạc, trong đó 'tắng' là nước).",
+        "fix": "Ghi nhận đầy đủ 'ý sộ tắng / ý tắng' ở Cống Vàng và 'lắng tắng / lắng' ở Cống Bạc để tránh mất hình vị 'tắng' (nước) và 'sộ'."
+      },
+      {
+        "path": "sources[3].title & music.genres[1].note",
+        "severity": "low",
+        "problem": "Nhan đề sách của Phạm Huy (1998) trong thư mục chuẩn là 'Bước đầu tìm hiểu văn hóa dân tộc Côống'; đồng thời lễ hội Tết Hoa mào gà ('Mền loóng phạt ái') đã được công nhận là Di sản văn hóa phi vật thể quốc gia theo Quyết định số 446/QĐ-BVHTTDL ngày 29/01/2019 nhưng chưa được nêu rõ văn bản pháp lý tương ứng như mục Nghệ thuật múa.",
+        "fix": "Chuẩn hóa nhan đề sách Phạm Huy (1998), cập nhật trạng thái kiểm tra URL (url_check) và bổ sung thông tin Quyết định 446/QĐ-BVHTTDL (2019) cho lễ hội Tết Hoa mào gà."
+      }
+    ]
+  },
+  "schema_errors": []
+}

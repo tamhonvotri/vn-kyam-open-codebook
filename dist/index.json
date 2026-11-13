@@ -14,6 +14,34 @@
     "file": "codebooks/minority/ba-na.json"
   },
   {
+    "id": "bo-y",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Bố Y",
+    "name_en": "Bouyei",
+    "ethnic_group_vi": "Bố Y",
+    "iso639_3": "pcc",
+    "glottocode": "bouy1240",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/bo-y.json"
+  },
+  {
+    "id": "brau",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Brâu",
+    "name_en": "Brao",
+    "ethnic_group_vi": "Brâu",
+    "iso639_3": "brb",
+    "glottocode": "lave1249",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/brau.json"
+  },
+  {
     "id": "bru-van-kieu",
     "kind": "minority_language",
     "name_vi": "Tiếng Bru - Vân Kiều",
@@ -98,6 +126,20 @@
     "file": "codebooks/minority/co-ho.json"
   },
   {
+    "id": "co-lao",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cờ Lao",
+    "name_en": "Gelao (White Gelao / Telue — primary surviving variety in Vietnam)",
+    "ethnic_group_vi": "Cờ Lao",
+    "iso639_3": "giw",
+    "glottocode": "whit1267",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/co-lao.json"
+  },
+  {
     "id": "co-tu",
     "kind": "minority_language",
     "name_vi": "Tiếng Cơ Tu",
@@ -124,6 +166,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/co.json"
+  },
+  {
+    "id": "cong",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cống",
+    "name_en": "Côông",
+    "ethnic_group_vi": "Cống",
+    "iso639_3": "cnc",
+    "glottocode": "coon1239",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/cong.json"
   },
   {
     "id": "dao",
@@ -392,6 +448,20 @@
     "file": "codebooks/minority/ma.json"
   },
   {
+    "id": "mang",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mảng",
+    "name_en": "Mang language",
+    "ethnic_group_vi": "Mảng",
+    "iso639_3": "zng",
+    "glottocode": "mang1378",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/mang.json"
+  },
+  {
     "id": "mnong",
     "kind": "minority_language",
     "name_vi": "Tiếng Mnông",
@@ -448,6 +518,20 @@
     "file": "codebooks/minority/nung.json"
   },
   {
+    "id": "o-du",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ơ Đu",
+    "name_en": "O'du (Iduh)",
+    "ethnic_group_vi": "Ơ Đu",
+    "iso639_3": "tyh",
+    "glottocode": "oduu1239",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/o-du.json"
+  },
+  {
     "id": "pa-then",
     "kind": "minority_language",
     "name_vi": "Tiếng Pà Thẻn",
@@ -476,6 +560,20 @@
     "file": "codebooks/minority/phu-la.json"
   },
   {
+    "id": "pu-peo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pu Péo",
+    "name_en": "Qabiao (Pu Peo / Laqua)",
+    "ethnic_group_vi": "Pu Péo",
+    "iso639_3": "laq",
+    "glottocode": "qabi1235",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/pu-peo.json"
+  },
+  {
     "id": "ra-glai",
     "kind": "minority_language",
     "name_vi": "Tiếng Ra Glai",
@@ -488,6 +586,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/ra-glai.json"
+  },
+  {
+    "id": "ro-mam",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Rơ Măm",
+    "name_en": "Romam",
+    "ethnic_group_vi": "Rơ Măm",
+    "iso639_3": "rmx",
+    "glottocode": "roma1331",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/ro-mam.json"
   },
   {
     "id": "san-chay",
@@ -516,6 +628,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/san-diu.json"
+  },
+  {
+    "id": "si-la",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Si La",
+    "name_en": "Sila",
+    "ethnic_group_vi": "Si La",
+    "iso639_3": "slt",
+    "glottocode": "sila1247",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/si-la.json"
   },
   {
     "id": "stieng",

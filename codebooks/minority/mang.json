@@ -1,0 +1,826 @@
+{
+  "id": "mang",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mảng",
+  "name_en": "Mang language",
+  "autonym": "Mảng / Mảng Ư [maŋ³⁵]",
+  "ethnic_group_vi": "Mảng",
+  "language": {
+    "iso639_3": "zng",
+    "glottocode": "mang1378",
+    "family": "Austroasiatic",
+    "branch": "Mangic"
+  },
+  "regions": [
+    "Tỉnh Lai Châu (các huyện Nậm Nhùn, Mường Tè, Sìn Hồ, Phong Thổ)",
+    "Thị xã Mường Lay (tỉnh Điện Biên)",
+    "Huyện Kim Bình (châu Hồng Hà, tỉnh Vân Nam, Trung Quốc)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Mảng tại Việt Nam là 4.650 người (Tổng điều tra dân số 2019); tổng số người nói tiếng Mảng ước khoảng 3.200–4.900 người tại Việt Nam và vùng biên giới Vân Nam (Trung Quốc).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (truyền miệng; ghi âm nghiên cứu bằng IPA và phiên âm dựa trên chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Người Mảng chưa có hệ chữ viết riêng do Nhà nước ban hành. Các chuyên khảo ngôn ngữ học (Nguyễn Văn Lợi và cộng sự 2009; Gao 2003) ghi âm bằng ký hiệu IPA; các tuyển tập văn học dân gian tại Việt Nam (như Nguyễn Hùng Mạnh và cộng sự 2011) dùng lối phiên âm thực hành dựa trên chữ Quốc ngữ tiếng Việt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp tự động từ các nguồn ngôn ngữ học và dân tộc học đã công bố (Nguyễn Văn Lợi, Nguyễn Hữu Hoành & Tạ Văn Thông 2009; Gao Yongqi 2003; Sidwell 2021). Tiếng Mảng chưa có chữ viết chuẩn hóa nên các mục âm vị dùng grapheme=null và đối chiếu trực tiếp bằng IPA. Cần chuyên gia ngữ âm học Nam Á và người bản ngữ tại Lai Châu thẩm định.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C(C)V(V)(C)+T — có vết tích cấu trúc cận âm tiết (sesquisyllabic: âm tiết phụ nhẹ + âm tiết chính), nhưng xu hướng đơn âm tiết hóa mạnh hơn nhiều ngôn ngữ Môn-Khmer khác.",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi vô thanh; ở thổ ngữ Kim Bình (Gao 2003) ghi nhận tương ứng là tắc-xát [t͡ɕ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi; ghi nhận rõ ở thổ ngữ Kim Bình (Gao 2003), ít phổ biến hoặc biến thể khu vực tại Việt Nam",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi; ghi nhận ở thổ ngữ Kim Bình (Gao 2003)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi bật hơi; ghi nhận ở thổ ngữ Kim Bình (Gao 2003)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɓ",
+        "note": "Tắc hút vào hai môi hữu thanh (một số miêu tả ghi [b])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɗ",
+        "note": "Tắc hút vào đầu lưỡi hữu thanh (thổ ngữ Kim Bình ghi [ɖ] hoặc [d])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "θ",
+        "note": "Xát răng vô thanh (ví dụ: θiːn² 'chín')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʑ",
+        "note": "Xát lợi-ngạc hữu thanh (hoặc tắc-xát [d͡ʑ] ở một số điểm điều tra)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɣ",
+        "note": "Xát gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi; có biến thể vô thanh [ŋ̊] hạn chế ở một số từ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "r",
+        "note": "Rung/vỗ chân răng (có biến thể tương ứng với [ʑ] ở một số từ như ran⁵ ~ ʑan⁵ 'một trăm', vắng mặt ở thổ ngữ Kim Bình)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kl ~ tl",
+        "note": "Tổ hợp phụ âm đầu có âm bên (ví dụ: tlu ~ klu 'trâu'); Nguyễn Văn Lợi và cộng sự (2009) ghi nhận tới 18 tổ hợp phụ âm đầu nhưng mức độ bảo lưu biến động theo vùng",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i / ĭ",
+        "note": "Nguyên âm đóng hàng trước không tròn môi, có đối lập dài – ngắn ở âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "y",
+        "note": "Nguyên âm đóng hàng trước tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɨ / ɨ̆",
+        "note": "Nguyên âm đóng hàng giữa/sau không tròn môi (Gao 2003 ký hiệu là [ɯ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u / ŭ",
+        "note": "Nguyên âm đóng hàng sau tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e / ĕ",
+        "note": "Nguyên âm nửa đóng hàng trước không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ø",
+        "note": "Nguyên âm nửa đóng hàng trước tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ / ɤ̆",
+        "note": "Nguyên âm nửa đóng hàng sau không tròn môi (một số tài liệu ghi [ə])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o / ŏ",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ / ɛ̆",
+        "note": "Nguyên âm nửa mở hàng trước không tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "œ",
+        "note": "Nguyên âm nửa mở hàng trước tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a / ă",
+        "note": "Nguyên âm mở, đối lập dài [aː] – ngắn [ă]/[ɐ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ / ɔ̆",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi, đối lập dài – ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm, chủ yếu xuất hiện trong âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɨə ~ ɯə",
+        "note": "Nguyên âm đôi hướng tâm, chủ yếu xuất hiện trong âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "uə ~ ua",
+        "note": "Nguyên âm đôi, dạng [ua] phổ biến hơn ở âm tiết mở",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không nổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không nổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh không nổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Bán nguyên âm môi cuối vần",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cuối vần",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết (ghi nhận trong tiếng Mảng tại Việt Nam)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "jinping_t1",
+        "name": "Thanh 1 (cao bằng, biến thể 553/554 — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",
+        "mark": "¹ / ⁵⁵",
+        "chao_contour": "55",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "jinping_t2",
+        "name": "Thanh 2 (cao lên — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",
+        "mark": "² / ³⁵",
+        "chao_contour": "35",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "jinping_t3",
+        "name": "Thanh 3 (cao xuống, trị số thực tế gần 41 — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",
+        "mark": "³ / ⁵¹",
+        "chao_contour": "51",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "jinping_t4",
+        "name": "Thanh 4 (thấp xuống, ở âm tiết phụ đọc nhẹ ngắn 31/21 — thổ ngữ Tân Trại, Kim Bình theo Gao 2003)",
+        "mark": "⁴ / ³¹",
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "vn_unchecked_1_5",
+        "name": "Hệ 5 thanh âm tiết thông (1–5) tại Lai Châu (Nguyễn Văn Lợi và cộng sự 2009)",
+        "mark": "¹..⁵",
+        "chao_contour": null,
+        "phonation": "Phân bố trên âm tiết mở và âm tiết kết thúc bằng âm vang; có biến đổi thanh điệu trong ngữ lưu (tone sandhi) và khác biệt giữa các điểm điều tra",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "vn_checked_6_7",
+        "name": "Hệ 2 thanh âm tiết khép (6–7) tại Lai Châu (Nguyễn Văn Lợi và cộng sự 2009)",
+        "mark": "⁶..⁷",
+        "chao_contour": null,
+        "phonation": "Phân bố trên âm tiết kết thúc bằng phụ âm tắc vô thanh (-p, -t, -k)",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Khác với nhiều ngôn ngữ Môn-Khmer bảo lưu âm vực, tiếng Mảng đã phát triển hệ thống thanh điệu thực thụ (tonal language) và có hiện tượng biến điệu trong ngữ lưu. Số lượng thanh điệu được mô tả khác nhau tùy phương ngữ và tác giả: tại Lai Châu (Việt Nam), Nguyễn Văn Lợi và cộng sự (2009) mô tả 5 thanh ở âm tiết thông + 2 thanh ở âm tiết tắc (cùng một số giả thuyết vùng miền khác); tại Kim Bình (Vân Nam), Gao (2003) mô tả 4 thanh chính (55, 35, 51, 31)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "măk⁶ ~ mak⁷",
+      "ipa": "măk⁶",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "ʑɨəj⁴ ~ ʑɯəi²",
+      "ipa": "ʑɨəj⁴",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "peː³",
+      "ipa": "peː³",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "puːn²",
+      "ipa": "puːn²",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm",
+      "form": "han² ~ hăn²",
+      "ipa": "han²",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "ʑɔm² ~ ʑɔ̆m²",
+      "ipa": "ʑɔm²",
+      "gloss_en": "six",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bảy",
+      "form": "pyː¹ ~ tăm¹ py³",
+      "ipa": "pyː¹",
+      "gloss_en": "seven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tám",
+      "form": "haːm² ~ tăm¹ ham²",
+      "ipa": "haːm²",
+      "gloss_en": "eight",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chín",
+      "form": "θiːn² ~ tăm¹ θin²",
+      "ipa": "θiːn²",
+      "gloss_en": "nine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mười",
+      "form": "ʑiː³ mɛː⁴",
+      "ipa": "ʑiː³ mɛː⁴",
+      "gloss_en": "ten",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một trăm",
+      "form": "ran⁵ ~ ʑan⁵",
+      "ipa": "ran⁵",
+      "gloss_en": "one hundred",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một nghìn",
+      "form": "păn⁵",
+      "ipa": "păn⁵",
+      "gloss_en": "one thousand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ʑum¹",
+      "ipa": "ʑum¹",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "ɲɛ²",
+      "ipa": "ɲɛ²",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "haːm¹",
+      "ipa": "haːm¹",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trăng / tháng",
+      "form": "me⁵",
+      "ipa": "me⁵",
+      "gloss_en": "moon / month",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "ʔuː⁴",
+      "ipa": "ʔuː⁴",
+      "gloss_en": "I (1st person singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mày / bạn",
+      "form": "miː²",
+      "ipa": "miː²",
+      "gloss_en": "you (2nd person singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm",
+      "form": "lam",
+      "ipa": "lam",
+      "gloss_en": "cooked rice",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "ciəj",
+      "ipa": "ciəj",
+      "gloss_en": "chicken",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "tlu ~ klu",
+      "ipa": "tlu ~ klu",
+      "gloss_en": "water buffalo",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca Xoỏng (hát giao duyên và hát đối đáp Mảng)",
+        "note": "Làn điệu dân ca đặc trưng nhất của người Mảng, hát đối đáp trong mùa gieo hạt, mùa gặt, lễ mừng nhà mới và lễ cúng hồn lúa (mẹ lúa), có thể kéo dài thâu đêm."
+      },
+      {
+        "name": "Hát kể sử thi Soỏng Muảng",
+        "note": "Thể loại tự sự dân gian truyền miệng do các bậc cao niên diễn xướng trong lễ hội cộng đồng, kể về nguồn gốc và sự tích chia đất của người Mảng."
+      },
+      {
+        "name": "Dân vũ lao động và nghi lễ (Múa Tà Nơm, Múa giã gạo ngày mùa)",
+        "note": "Các điệu múa truyền thống tiêu biểu tái hiện hoạt động lao động sản xuất, gắn với nhịp chày giã gạo trong ngày mùa và lễ vào nhà mới của người Mảng tại Nậm Nhùn, Sìn Hồ (Lai Châu)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Sáo Lờ lầm",
+        "note": "Loại sáo dài truyền thống đặc trưng nhất của dân tộc Mảng tại Lai Châu (làm từ cây trúc hoặc cây sặc già), dùng trong sinh hoạt thường ngày và tỏ tình đôi lứa."
+      },
+      {
+        "name": "Đàn một dây",
+        "note": "Nhạc cụ dây truyền thống dùng trong sinh hoạt văn nghệ dân gian của người Mảng."
+      },
+      {
+        "name": "Chiêng, trống, khèn",
+        "note": "Sử dụng trong các lễ hội cộng đồng và múa dân gian vùng Tây Bắc."
+      }
+    ]
+  },
+  "ml_hints": {
+    "orthography_status": "no_standard_script",
+    "tts_strategy_note": "Vì tiếng Mảng chưa có chữ viết chuẩn, dữ liệu đầu vào cho TTS/giọng hát tiếng Việt cần chuyển từ IPA sang chữ Quốc ngữ xấp xỉ theo từng âm tiết. Lưu ý tiếng Mảng có nhiều âm vị không tồn tại trong tiếng Việt chuẩn ([θ], [ʑ], [y], [ø], [œ], tổ hợp phụ âm đầu [tl-/kl-], âm cuối [-l]).",
+    "quoc_ngu_approximation": [
+      {
+        "native": "θ (như trong θiːn² 'chín')",
+        "quoc_ngu": "th / x",
+        "note": "Âm xát răng vô thanh [θ] không có trong tiếng Việt; 'th' tiếng Việt thực tế là [tʰ] bật hơi, còn 'x' là [s]. Dùng 'x' (xin/xìn) giữ được tính xát tốt hơn cho giọng hát, hoặc 'th' nếu ưu tiên vị trí răng."
+      },
+      {
+        "native": "ʑ (như trong ʑum¹ 'nước', ʑɨəj⁴ 'hai')",
+        "quoc_ngu": "d / gi",
+        "note": "Âm xát lợi-ngạc hữu thanh [ʑ] không có trong tiếng Việt chuẩn; xấp xỉ gần nhất bằng 'd/gi' đọc theo giọng Bắc [z]."
+      },
+      {
+        "native": "p- (đầu âm tiết, như trong peː³ 'ba', puːn² 'bốn')",
+        "quoc_ngu": "p",
+        "note": "Chữ Quốc ngữ ít dùng 'p-' đầu từ thuần Việt nhưng mô hình TTS tiếng Việt hiện đại thường đọc được từ vay mượn (như 'pê', 'pùn'); tránh đổi thành 'b' vì tiếng Mảng phân biệt /p/ với /ɓ/."
+      },
+      {
+        "native": "y, ø, œ (như trong pyː¹ 'bảy')",
+        "quoc_ngu": "uy / uê / oe",
+        "note": "Tiếng Việt không có nguyên âm đơn tròn môi hàng trước [y, ø, œ]; chỉ có thể xấp xỉ bằng vần có âm đệm môi 'uy' (ví dụ pyː¹ -> 'puy')."
+      },
+      {
+        "native": "tl- / kl- (như trong tlu ~ klu 'trâu')",
+        "quoc_ngu": "tờ-lu / cờ-lu",
+        "note": "Tiếng Việt hiện đại không có tổ hợp phụ âm đầu CC-; cần tách bằng nguyên âm lướt cực ngắn ('tờ-lu' / 'cờ-lu') để tránh vỡ bộ mã hóa token."
+      },
+      {
+        "native": "-l (cuối âm tiết)",
+        "quoc_ngu": "-n",
+        "note": "Tiếng Việt không có âm bên [-l] ở cuối âm tiết; xấp xỉ bằng '-n' theo thói quen Việt hóa từ vay mượn."
+      },
+      {
+        "native": "măk⁶ ('một')",
+        "quoc_ngu": "mắc",
+        "note": "Khớp gần như hoàn toàn với vần '-ăc' [ăk] thanh sắc của tiếng Việt."
+      },
+      {
+        "native": "ʑɨəj⁴ ('hai')",
+        "quoc_ngu": "dươi / dười",
+        "note": "Vần [ɨəj] khớp với 'ươi' tiếng Việt; phụ âm đầu [ʑ] xấp xỉ bằng 'd' giọng Bắc."
+      },
+      {
+        "native": "ʑum¹ ('nước')",
+        "quoc_ngu": "dum / dùm",
+        "note": "Phụ âm đầu [ʑ] xấp xỉ bằng 'd' giọng Bắc, vần [um] khớp với '-um' tiếng Việt."
+      },
+      {
+        "native": "ɲɛ² ('lửa')",
+        "quoc_ngu": "nhe / nhè",
+        "note": "Âm [ɲɛ] khớp trực tiếp với 'nhe' trong chữ Quốc ngữ (tùy chọn dấu thanh theo giai điệu/phương ngữ)."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Mảng Gứng",
+        "iso639_3": "zng",
+        "region": "Lai Châu, Việt Nam (nhóm cư trú vùng cao)",
+        "note": "Một trong hai nhóm địa phương truyền thống của dân tộc Mảng tại Việt Nam."
+      },
+      {
+        "name": "Mảng Hệ (Mảng Lệ)",
+        "iso639_3": "zng",
+        "region": "Lai Châu, Việt Nam (nhóm cư trú vùng thấp)",
+        "note": "Nhóm địa phương truyền thống của dân tộc Mảng tại Việt Nam."
+      },
+      {
+        "name": "Mảng Kim Bình (Xinzhai / Jinping Mang; tên khác: Chaman, Abi, Mengga, Bageran, Mo)",
+        "iso639_3": "zng",
+        "region": "Huyện Kim Bình, châu Hồng Hà, tỉnh Vân Nam, Trung Quốc",
+        "note": "Cộng đồng khoảng 600–800 người di cư từ Việt Nam sang vùng biên giới Vân Nam; được Gao Yongqi (2003) mô tả chi tiết với hệ 4 thanh điệu."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "măk⁶",
+        "ipa": "măk⁶",
+        "vi": "một",
+        "gloss_en": "one"
+      },
+      {
+        "native": "ʑɨəj⁴",
+        "ipa": "ʑɨəj⁴",
+        "vi": "hai",
+        "gloss_en": "two"
+      },
+      {
+        "native": "peː³",
+        "ipa": "peː³",
+        "vi": "ba",
+        "gloss_en": "three"
+      },
+      {
+        "native": "puːn²",
+        "ipa": "puːn²",
+        "vi": "bốn",
+        "gloss_en": "four"
+      },
+      {
+        "native": "han²",
+        "ipa": "han²",
+        "vi": "năm",
+        "gloss_en": "five"
+      },
+      {
+        "native": "ʑɔm²",
+        "ipa": "ʑɔm²",
+        "vi": "sáu",
+        "gloss_en": "six"
+      },
+      {
+        "native": "pyː¹",
+        "ipa": "pyː¹",
+        "vi": "bảy",
+        "gloss_en": "seven"
+      },
+      {
+        "native": "haːm²",
+        "ipa": "haːm²",
+        "vi": "tám",
+        "gloss_en": "eight"
+      },
+      {
+        "native": "θiːn²",
+        "ipa": "θiːn²",
+        "vi": "chín",
+        "gloss_en": "nine"
+      },
+      {
+        "native": "ʑiː³ mɛː⁴",
+        "ipa": "ʑiː³ mɛː⁴",
+        "vi": "mười",
+        "gloss_en": "ten"
+      },
+      {
+        "native": "ʑum¹",
+        "ipa": "ʑum¹",
+        "vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "ɲɛ²",
+        "ipa": "ɲɛ²",
+        "vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "haːm¹",
+        "ipa": "haːm¹",
+        "vi": "máu",
+        "gloss_en": "blood"
+      },
+      {
+        "native": "ʔuː⁴",
+        "ipa": "ʔuː⁴",
+        "vi": "tôi",
+        "gloss_en": "I"
+      },
+      {
+        "native": "miː²",
+        "ipa": "miː²",
+        "vi": "mày / bạn",
+        "gloss_en": "you"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Nguyễn Văn Lợi, Nguyễn Hữu Hoành & Tạ Văn Thông (2009). Tiếng Mảng. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gao Yongqi [高永奇] (2003). Mǎngyǔ yánjiū [莽语研究 / A Study of Mang]. Bắc Kinh: NXB Dân tộc (Minzu Chubanshe).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Hùng Mạnh (chủ biên), Trần Hữu Sơn, Nguyễn Thị Minh Tú & Đặng Thị Oanh (2011). Thơ ca dân gian dân tộc Mảng. Hà Nội: NXB Văn hóa Dân tộc.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Mảng language",
+      "url": "https://en.wikipedia.org/wiki/M%E1%BA%A3ng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Mảng",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%E1%BA%A3ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipédia — Mang (langue)",
+      "url": "https://fr.wikipedia.org/wiki/Mang_(langue)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê & Ủy ban Dân tộc (2019). Kết quả điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[4].region",
+          "severity": "low",
+          "problem": "Chuỗi văn bản tiếng Việt bị lẫn chữ Hán 'Tây Tr畴' (thay vì viết đúng tiếng Việt là 'Tây Trù').",
+          "fix": "Sửa 'Tây Tr畴' thành 'Tây Trù'."
+        },
+        {
+          "path": "ml_hints.sub_varieties[3..4]",
+          "severity": "low",
+          "problem": "Tiếng Bố Lưu (Bolyu, ISO 639-3: ply) và tiếng Bố Cam (Bugan, ISO 639-3: bbh) là các ngôn ngữ độc lập trong nhánh Pakanic/Mangic (chỉ nói ở Trung Quốc), không phải là phương ngữ hay thổ ngữ (sub-varieties) của tiếng Mảng (zng).",
+          "fix": "Loại bỏ hai ngôn ngữ độc lập ply và bbh khỏi danh sách sub_varieties của tiếng Mảng (zng) để tránh nhầm lẫn phân loại dữ liệu huấn luyện."
+        },
+        {
+          "path": "music.genres[0].name",
+          "severity": "low",
+          "problem": "Thiếu tên gọi bản địa đặc trưng của làn điệu dân ca phổ biến nhất của người Mảng là hát 'Xoỏng' (Soỏng).",
+          "fix": "Bổ sung tên gọi 'Dân ca Xoỏng (hát giao duyên, hát đối đáp Mảng)' và điệu múa truyền thống 'Tà Nơm' vào phần âm nhạc dựa trên các nguồn văn hóa dân gian tỉnh Lai Châu."
+        },
+        {
+          "path": "phonology.tones[0..3].phonation",
+          "severity": "low",
+          "problem": "Trường 'phonation' đang được dùng để mô tả biến thể đường nét cao độ (contour allophony như 553, 41, 21) thay vì chất giọng/kiểu phát thanh (modal, creaky, breathy).",
+          "fix": "Ghi rõ chất giọng hoặc chuyển mô tả biến thể cao độ vào tên/ghi chú thích hợp."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần bổ sung trị số Chao chính xác cho từng thanh (1–7) của các điểm điều tra tại Nậm Nhùn, Mường Tè, Sìn Hồ (Lai Châu) từ nguyên bản chuyên khảo Nguyễn Văn Lợi và cộng sự (2009) hoặc tư liệu âm thanh Pangloss của Michel Ferlus.",
+      "Tiếng Mảng chưa có hệ chữ viết chuẩn hóa; cần đối chiếu quy ước phiên âm thực hành trong 'Thơ ca dân gian dân tộc Mảng' (2011) nếu triển khai huấn luyện mô hình hát dân ca Mảng.",
+      "Cần nhà âm nhạc học dân tộc thẩm định thang âm, điệu thức và kỹ thuật luyến láy của sáo Lờ lầm cũng như dân ca Xoỏng của người Mảng (dựa trên đợt sưu tầm của Viện Âm nhạc tại Nậm Nhùn, Lai Châu)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

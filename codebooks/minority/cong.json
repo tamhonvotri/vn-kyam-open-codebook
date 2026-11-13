@@ -1,0 +1,752 @@
+{
+  "id": "cong",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cống",
+  "name_en": "Côông",
+  "autonym": "Xắm Khống / Phuy A",
+  "ethnic_group_vi": "Cống",
+  "language": {
+    "iso639_3": "cnc",
+    "glottocode": "coon1239",
+    "family": "Sino-Tibetan",
+    "branch": "Tibeto-Burman, Lolo-Burmese, Southern Loloish, Bisoid"
+  },
+  "regions": [
+    "Lai Châu (huyện Mường Tè: các xã Kan Hồ, Nậm Khao, Mường Mô, Mường Toong; huyện Nậm Nhùn)",
+    "Điện Biên (xã Nậm Kè, huyện Mường Nhé; xã Pa Tần và xã Chà Cang, huyện Nậm Pồ; huyện Mường Chà; xã Pa Thơm và xã Thanh Yên, huyện Điện Biên)"
+  ],
+  "speakers_estimate": "Dân số dân tộc Cống tại Việt Nam là 2.729 người (Tổng điều tra dân số 2019); số người còn nói tiếng Cống ước tính khoảng 450–2.000 người (ngôn ngữ bị đe dọa, nhiều người chuyển sang dùng tiếng Thái và tiếng Việt trong giao tiếp hằng ngày).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (ghi âm tạm bằng chữ Quốc ngữ / Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Cống tại Việt Nam chưa có bộ chữ viết riêng do Nhà nước ban hành chính thức. Trong các tài liệu dân tộc học, văn nghệ dân gian (như Phạm Huy 1998) và truyền thông địa phương, từ ngữ tiếng Cống thường được ký âm tự phát dựa trên quy tắc chữ Quốc ngữ tiếng Việt; các công trình ngôn ngữ học quốc tế (như Edmondson 2002) ghi trực tiếp bằng IPA."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ khảo cứu điền dã ngữ âm học của Jerold A. Edmondson (2002) tại Mường Tè (Lai Châu), nghiên cứu so sánh nhánh Bisoid của David Bradley (1977), và tư liệu điền dã dân tộc học của Phạm Huy (1998). Do tiếng Cống chưa có chữ viết chuẩn hóa, cột grapheme phản ánh cách ghi Latinh/Quốc ngữ phổ biến trong tư liệu Việt Nam kết hợp ký hiệu ngữ âm học. Cần điền dã bổ sung và thẩm định cùng nghệ nhân bản ngữ tại Lai Châu, Điện Biên.",
+  "phonology": {
+    "syllable_structure": "(C)(j)V(C)+T (từ đơn tiết hoặc song tiết theo nhịp iambic; âm tiết đầu có thể hơi rút ngắn nguyên âm nhưng vẫn mang thanh điệu độc lập, khác với âm tiết phụ khuyết thanh điệu của tiếng Phunoi ở Lào)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi; khác 'ph' [f] của tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Âm tắc hai môi hữu thanh; trong nhiều từ gốc Proto-Loloish *C-nasal, tiếng Cống chuyển thành /m/ thay vì /b/ như tiếng Phunoi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu / w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi - ngạc mềm (Edmondson 2002 ghi /w/; Phạm Huy 1998 ghi 'qu-' như trong 'quề')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "pi / py",
+        "ipa": "pʲ",
+        "note": "Âm tắc hai môi vô thanh ngạc hóa /pj/ (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "phi / phy",
+        "ipa": "pʰʲ",
+        "note": "Âm tắc hai môi bật hơi ngạc hóa /phj/ (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bi / by",
+        "ipa": "bʲ",
+        "note": "Âm tắc hai môi hữu thanh ngạc hóa /bj/ (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mi / my",
+        "ipa": "mʲ",
+        "note": "Âm mũi hai môi ngạc hóa /mj/ (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "d",
+        "note": "Âm tắc đầu lưỡi hữu thanh; ít gặp hơn do nhiều từ gốc *C-nasal tương ứng với /l/ hoặc /n/ trong tiếng Cống",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên đầu lưỡi hữu thanh (không có âm bên vô thanh /hl/ như tiếng Phunoi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s",
+        "note": "Âm xát đầu lưỡi vô thanh (ví dụ: [sam33] 'Xắm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / gi",
+        "ipa": "z",
+        "note": "Âm xát đầu lưỡi hữu thanh; Edmondson (2002) nhận xét âm tiếp cận ngạc cứng có xu hướng biến đổi thành /z/ dưới ảnh hưởng tiếp xúc với tiếng Việt",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch / ts",
+        "ipa": "ts",
+        "note": "Âm tắc xát đầu lưỡi vô thanh không bật hơi (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "trs / tsh / x",
+        "ipa": "tsʰ",
+        "note": "Âm tắc xát đầu lưỡi vô thanh bật hơi (Edmondson 2002 ghi /tsh/, ví dụ [tshaŋ33]; Phạm Huy 1998 ký âm là 'trs-' như trong 'trse' = mười)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dz",
+        "ipa": "dz",
+        "note": "Âm tắc xát đầu lưỡi hữu thanh (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi (ví dụ: 'nhịp' = hai)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "ɕ",
+        "note": "Âm xát mặt lưỡi - lợi ngạc vô thanh (Edmondson 2002)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y / d",
+        "ipa": "j",
+        "note": "Âm tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm vô thanh bật hơi (ví dụ: [kʰoŋ33] 'Khống'); khác 'kh' [x] của tiếng Việt Hà Nội",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɡ",
+        "note": "Âm tắc ngạc mềm hữu thanh (Edmondson 2002); khác 'g' [ɣ] của tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm (ví dụ: 'ngà' = năm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh; tương ứng với các âm mũi/bên vô thanh (*hm, *hn, *hl) của nhóm Bisoid ở một số từ cùng gốc",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / y",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm hàng sau/giữa không tròn môi độ mở hẹp (Edmondson 2002; đôi khi phiên là /ɨ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi độ mở hẹp (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng (ghi nhận trong từ vựng Edmondson 2002 và bản ghi Quốc ngữ Phạm Huy 1998 như 'xem', 'dẹ', 'trse')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / ă",
+        "ipa": "a",
+        "note": "Nguyên âm độ mở rộng; ngắn hơn trước phụ âm cuối mũi (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uy / ui",
+        "ipa": "ui",
+        "note": "Vần nguyên âm đôi xuất hiện trong tên tự gọi [pʰui33 a31] 'Phuy A' (Edmondson 2002)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ưi",
+        "ipa": "ɯi",
+        "note": "Vần nguyên âm đôi xuất hiện trong [kʰa55 pʰɯi33] 'người La Hủ' (Edmondson 2002)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết; xuất hiện trong các vần /im, ɯm, am/ (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi đầu lưỡi cuối âm tiết; xuất hiện trong các vần /in, ɯn, an/ (Edmondson 2002)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết; xuất hiện trong các vần /iŋ, ɯŋ, aŋ, oŋ/ (Edmondson 2002 — khác với Phunoi ở Lào vốn chủ yếu chỉ giữ /-m, -n/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi cuối âm tiết; không thấy liệt kê trong danh sách vần tóm tắt 500 từ của Edmondson (2002) nhưng xuất hiện trong tư liệu ghi âm Cống Vàng của Phạm Huy (1998) như 'nhịp' (hai) và trong tiếng Phunoi cùng nhánh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi cuối âm tiết; xuất hiện trong tư liệu dân tộc học như 'Mền loóng phạt ái' (Tết hoa mào gà) và trong tiếng Phunoi cùng nhánh, cần kiểm chứng âm vị học ở tiếng Cống Việt Nam",
+        "confidence": "low"
+      }
+    ],
+    "tones": [
+      {
+        "id": "high_level",
+        "name": "thanh cao bằng",
+        "mark": "◌́ (thường được ký bằng dấu sắc trong bản ghi chữ Quốc ngữ)",
+        "chao_contour": "55",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "mid_level",
+        "name": "thanh trung bằng",
+        "mark": "(thường không dấu trong bản ghi chữ Quốc ngữ)",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "mid_falling",
+        "name": "thanh trung trầm (đi xuống)",
+        "mark": "◌̀ / ◌̣ (thường được ký bằng dấu huyền hoặc dấu nặng trong bản ghi chữ Quốc ngữ)",
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "rising",
+        "name": "thanh đi lên",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu điển hình của nhánh Lô Lô Nam (Southern Loloish): Edmondson (2002) xác nhận hệ thống 3 thanh điệu cơ bản là 55 (cao bằng), 33 (trung bằng) và 31 (trung trầm đi xuống) tương ứng đều đặn với các thanh *1, *2, *3 của ngôn ngữ tiền thân Proto-Loloish, kèm một số ít trường hợp thanh đi lên (rising tone) chưa xác định trị số Chao cố định. Khác với một số ngôn ngữ Lô Lô lân cận như Si La hay La Hủ, tư liệu hiện có không ghi nhận đối lập thanh hầu hóa/giọng kẹt (creaky/constricted phonation) làm nét khu biệt chính trong tiếng Cống."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "tìm",
+      "ipa": null,
+      "gloss_en": "one",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "nhịp",
+      "ipa": null,
+      "gloss_en": "two",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "xem",
+      "ipa": null,
+      "gloss_en": "three",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "ừn",
+      "ipa": null,
+      "gloss_en": "four",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "năm",
+      "form": "ngà",
+      "ipa": null,
+      "gloss_en": "five",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "khô",
+      "ipa": null,
+      "gloss_en": "six",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bảy",
+      "form": "xị",
+      "ipa": null,
+      "gloss_en": "seven",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "tám",
+      "form": "dẹ",
+      "ipa": null,
+      "gloss_en": "eight",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chín",
+      "form": "quề",
+      "ipa": null,
+      "gloss_en": "nine",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mười",
+      "form": "trse",
+      "ipa": null,
+      "gloss_en": "ten",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hai mươi",
+      "form": "nhịp trse",
+      "ipa": null,
+      "gloss_en": "twenty",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "một trăm",
+      "form": "trse trse",
+      "ipa": null,
+      "gloss_en": "one hundred",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ăn cơm",
+      "form": "hàng chà",
+      "ipa": null,
+      "gloss_en": "eat rice / have a meal (Golden Côông)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "uống nước",
+      "form": "ý sộ tắng (hoặc ý tắng)",
+      "ipa": null,
+      "gloss_en": "drink water (Golden Côông; Silver Côông: lắng tắng)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ai đó?",
+      "form": "háng lế",
+      "ipa": null,
+      "gloss_en": "who is there? (Golden Côông; Silver Côông: à sáng lê)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người / tộc người",
+      "form": "tshaŋ33 a31",
+      "ipa": "tsʰaŋ˧˧ a˧˩",
+      "gloss_en": "people / ethnic group",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "Tết hoa mào gà",
+      "form": "Mền loóng phạt ái",
+      "ipa": null,
+      "gloss_en": "Cockscomb Flower New Year festival",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca lao động và sinh hoạt (Dân ca Cống / Cống Khao)",
+        "note": "Các làn điệu gắn với nhịp sống nương rẫy và bản làng ven sông Đà, nổi tiếng nhất là làn điệu 'Gà gáy' (dân ca Cống Khao ở Lai Châu, được nhạc sĩ Huy Trân sưu tầm và đặt lời mới khoảng năm 1960)."
+      },
+      {
+        "name": "Hát lễ hội truyền thống (Tết hoa mào gà 'Mền loóng phạt ái', Tết Ngô, Lễ mừng cơm mới, mừng nhà mới)",
+        "note": "Hát đối đáp, hát chúc tụng gắn với nghi lễ nông nghiệp sau thu hoạch mùa màng và sinh hoạt cộng đồng; riêng Lễ hội Tết Hoa mào gà (Mền loóng phạt ái) của người Cống tỉnh Điện Biên đã được công nhận là Di sản văn hóa phi vật thể quốc gia theo Quyết định số 446/QĐ-BVHTTDL ngày 29/01/2019."
+      },
+      {
+        "name": "Nghệ thuật múa dân gian của người Cống",
+        "note": "Được công nhận là Di sản văn hóa phi vật thể quốc gia theo Quyết định số 430/QĐ-BVHTTDL ngày 05/03/2026 của Bộ Văn hóa, Thể thao và Du lịch; gồm các điệu múa như Py Luym (vòng xòe đoàn kết), múa gieo hạt, tra hạt, tuốt lúa, giã gạo, múa hổ, thường trình diễn kết hợp ca hát và nhạc cụ gõ."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Trống",
+        "note": "Nhạc cụ giữ nhịp trung tâm trong các điệu múa dân gian và lễ hội Tết hoa mào gà, mừng nhà mới."
+      },
+      {
+        "name": "Chiêng",
+        "note": "Đánh phối hợp cùng trống trong nghi lễ cúng bản, Tết hoa mào gà và múa tập thể."
+      },
+      {
+        "name": "Đạo cụ gõ từ nông cụ tre, gỗ (cối và chày gỗ, ống tre)",
+        "note": "Tạo tiết tấu mô phỏng lao động sản xuất trong các điệu múa giã gạo, tra hạt."
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Xám Khổng Xú Lứ (Cống Vàng)",
+        "iso639_3": "cnc",
+        "glottocode": "coon1239",
+        "regions": [
+          "Xã Nậm Khao (Mường Tè, Lai Châu)",
+          "Xã Nậm Kè (Mường Nhé, Điện Biên)"
+        ],
+        "note": "Một trong hai phân nhóm chính tại Việt Nam theo Phạm Huy (1998)."
+      },
+      {
+        "name": "Xí Tù Mạ / Xí Tú Mạ (Cống Bạc / Cống Đen)",
+        "iso639_3": "cnc",
+        "glottocode": "coon1239",
+        "regions": [
+          "Bản Bo Lếch, bản Nậm Luồng, xã Kan Hồ (Mường Tè, Lai Châu)",
+          "Xã Mường Mô (Nậm Nhùn, Lai Châu)"
+        ],
+        "note": "Có khác biệt từ vựng và ngữ âm đáng kể so với Cống Vàng (ví dụ theo Phạm Huy 1998: 'ai đó?' là 'à sáng lê' so với 'háng lế'; 'ăn cơm' là 'hắng tà' so với 'hàng chà'; 'uống nước' là 'lắng tắng' / 'lắng' so với 'ý sộ tắng' / 'ý tắng')."
+      },
+      {
+        "name": "Phunoi (Sinsali)",
+        "iso639_3": "pho",
+        "glottocode": "phun1245",
+        "regions": [
+          "Tỉnh Phôngsali (Bắc Lào)",
+          "Bắc Thái Lan"
+        ],
+        "note": "Ngôn ngữ cùng nhánh Bisoid của cộng đồng người Phu Noi / Cống ở Lào; Edmondson (2002) chỉ ra tiếng Cống ở Việt Nam (cnc) đã tách biệt rõ rệt về cấu trúc âm tiết và phụ âm đầu so với Phunoi (pho)."
+      },
+      {
+        "name": "Sangkong (Bặc Khống / Buxia)",
+        "iso639_3": "sgk",
+        "glottocode": "sang1320",
+        "regions": [
+          "Cảnh Hồng, Tây Song Bản Nạp, Vân Nam (Trung Quốc)"
+        ],
+        "note": "Ngôn ngữ anh em thuộc nhánh Bisoid ở Vân Nam (tự gọi: saŋ55 qʰoŋ55), gần gũi lịch sử với tiếng Cống."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ph [pʰ]",
+        "quoc_ngu": "p-h / ph (đọc bật hơi)",
+        "note": "Âm [pʰ] không có trong tiếng Việt chuẩn Hà Nội (chữ 'ph' tiếng Việt đọc là âm xát môi-răng [f]). Mô hình TTS chỉ biết tiếng Việt sẽ đọc nhầm thành [f] nếu viết 'ph'; cần xử lý ở tầng phoneme/IPA nếu có thể."
+      },
+      {
+        "native": "kh [kʰ]",
+        "quoc_ngu": "kh",
+        "note": "Tiếng Cống phát âm là âm tắc bật hơi [kʰ] (gần với cách đọc 'kh' ở một số phương ngữ Nam Bộ/Trung Bộ), trong khi giọng chuẩn Hà Nội đọc 'kh' là âm xát [x]."
+      },
+      {
+        "native": "g [ɡ]",
+        "quoc_ngu": "g / gh",
+        "note": "Âm tắc ngạc mềm hữu thanh [ɡ] không có trong tiếng Việt chuẩn (chữ 'g/gh' tiếng Việt là âm xát [ɣ])."
+      },
+      {
+        "native": "ts [ts]",
+        "quoc_ngu": "ch / x",
+        "note": "Âm tắc xát đầu lưỡi [ts] không có trong tiếng Việt chuẩn; xấp xỉ gần nhất bằng 'ch' [tɕ]."
+      },
+      {
+        "native": "trs / tsh [tsʰ]",
+        "quoc_ngu": "x / s",
+        "note": "Âm tắc xát đầu lưỡi bật hơi [tsʰ] (Phạm Huy 1998 viết là 'trs' như 'trse' = mười) không có trong tiếng Việt và cụm 'trs' sẽ làm vỡ token hoàn toàn trên các tokenizer tiếng Việt; khi xấp xỉ Quốc ngữ cho TTS/giọng hát thuần Việt nên viết thành 'x' (ví dụ 'trse' -> 'xe'), chấp nhận mất nét tắc bật hơi."
+      },
+      {
+        "native": "dz [dz]",
+        "quoc_ngu": "d / gi",
+        "note": "Âm tắc xát hữu thanh [dz] không có trong tiếng Việt chuẩn; xấp xỉ bằng 'd' [z] của giọng Bắc."
+      },
+      {
+        "native": "pj, phj, bj, mj [pʲ, pʰʲ, bʲ, mʲ]",
+        "quoc_ngu": "pi-, phi-, bi-, mi-",
+        "note": "Tiếng Việt không có loạt phụ âm môi ngạc hóa ở đầu âm tiết đơn; có thể xấp xỉ bằng nguyên âm lướt 'i-' nối liền (ví dụ 'pia', 'bia', 'mia')."
+      },
+      {
+        "native": "Thanh 55, 33, 31",
+        "quoc_ngu": "dấu sắc (55), thanh ngang (33), dấu huyền (31)",
+        "note": "Thanh 55 tiếng Cống là cao bằng (không đi lên từ thấp như sắc 35 Hà Nội nhưng gần cao độ đích); thanh 33 khớp tốt với thanh ngang (33); thanh 31 khớp gần với thanh huyền (21)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "sam33 khoŋ33",
+        "ipa": "sam˧˧ kʰoŋ˧˧",
+        "meaning_vi": "Xắm Khống (tên tự gọi người Cống, nghĩa gốc Thái Trắng Bo Lếch là 'mỏ sắt')",
+        "source": "Edmondson (2002)"
+      },
+      {
+        "native": "phui33 a31",
+        "ipa": "pʰui˧˧ a˧˩",
+        "meaning_vi": "Phuy A (tên tự gọi người Cống tại Nậm Khao, Nậm Pục)",
+        "source": "Edmondson (2002)"
+      },
+      {
+        "native": "tshaŋ33 a31",
+        "ipa": "tsʰaŋ˧˧ a˧˩",
+        "meaning_vi": "người, dân tộc, nhóm người",
+        "source": "Edmondson (2002)"
+      },
+      {
+        "native": "a31 kha33 tshaŋ33 a31",
+        "ipa": "a˧˩ kʰa˧˧ tsʰaŋ˧˧ a˧˩",
+        "meaning_vi": "người Hà Nhì (Akha)",
+        "source": "Edmondson (2002)"
+      },
+      {
+        "native": "kha55 phɯi33",
+        "ipa": "kʰa˥˥ pʰɯi˧˧",
+        "meaning_vi": "người La Hủ",
+        "source": "Edmondson (2002)"
+      },
+      {
+        "native": "tìm",
+        "ipa": null,
+        "meaning_vi": "một (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "nhịp",
+        "ipa": null,
+        "meaning_vi": "hai (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "xem",
+        "ipa": null,
+        "meaning_vi": "ba (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "ừn",
+        "ipa": null,
+        "meaning_vi": "bốn (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "ngà",
+        "ipa": null,
+        "meaning_vi": "năm (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "khô",
+        "ipa": null,
+        "meaning_vi": "sáu (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "xị",
+        "ipa": null,
+        "meaning_vi": "bảy (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "dẹ",
+        "ipa": null,
+        "meaning_vi": "tám (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "quề",
+        "ipa": null,
+        "meaning_vi": "chín (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      },
+      {
+        "native": "trse",
+        "ipa": null,
+        "meaning_vi": "mười (Cống Vàng, ký âm chữ Quốc ngữ)",
+        "source": "Phạm Huy (1998)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Edmondson, Jerold A. (2002). The Central and Southern Loloish Languages of Vietnam. Proceedings of the Twenty-Eighth Annual Meeting of the Berkeley Linguistics Society: Special Session on Tibeto-Burman and Southeast Asian Linguistics (BLS 28S), pp. 1–13.",
+      "url": "https://doi.org/10.3765/bls.v28i2.1042",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Côông [coon1239]",
+      "url": "https://glottolog.org/resource/languoid/id/coon1239",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bradley, David (1977). Phunoi or Côông. In S. A. Wurm (ed.), Papers in Southeast Asian Linguistics No. 5 (Pacific Linguistics A-49), pp. 67–98. Canberra: Australian National University.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phạm Huy (1998). Bước đầu tìm hiểu văn hóa dân tộc Côống. Lai Châu: Sở Văn hóa Thông tin Lai Châu.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Côống language",
+      "url": "https://en.wikipedia.org/wiki/C%C3%B4%E1%BB%91ng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Cống & Người Cống",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_C%E1%BB%91ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bộ Văn hóa, Thể thao và Du lịch (2019). Quyết định số 446/QĐ-BVHTTDL ngày 29/01/2019 về việc đưa Lễ hội Tết Hoa mào gà (Mền Loóng Phạt Ái) của người Cống (tỉnh Điện Biên) vào Danh mục di sản văn hóa phi vật thể quốc gia.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bộ Văn hóa, Thể thao và Du lịch (2026). Quyết định số 430/QĐ-BVHTTDL ngày 05/03/2026 về việc đưa Nghệ thuật múa của người Cống (tỉnh Điện Biên) vào Danh mục di sản văn hóa phi vật thể quốc gia.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[3].glottocode",
+          "severity": "medium",
+          "problem": "Mã Glottocode của tiếng Sangkong (ISO 639-3: sgk) bị ghi nhầm là 'sang1325' (không tồn tại trong Glottolog).",
+          "fix": "Sửa thành mã Glottolog chính xác của Sangkong là 'sang1320'."
+        },
+        {
+          "path": "lexicon[13].form & ml_hints.sub_varieties[1].note",
+          "severity": "low",
+          "problem": "Cụm từ 'uống nước' trích từ Phạm Huy (1998: 13) trên bản Wikipedia tiếng Việt bị lược bớt âm tiết ('ý tắng' / 'lắng'), trong khi bản trích dẫn đầy đủ từ Phạm Huy (1998: 13) là 'ý sộ tắng' (Cống Vàng) và 'lắng tắng' (Cống Bạc, trong đó 'tắng' là nước).",
+          "fix": "Ghi nhận đầy đủ 'ý sộ tắng / ý tắng' ở Cống Vàng và 'lắng tắng / lắng' ở Cống Bạc để tránh mất hình vị 'tắng' (nước) và 'sộ'."
+        },
+        {
+          "path": "sources[3].title & music.genres[1].note",
+          "severity": "low",
+          "problem": "Nhan đề sách của Phạm Huy (1998) trong thư mục chuẩn là 'Bước đầu tìm hiểu văn hóa dân tộc Côống'; đồng thời lễ hội Tết Hoa mào gà ('Mền loóng phạt ái') đã được công nhận là Di sản văn hóa phi vật thể quốc gia theo Quyết định số 446/QĐ-BVHTTDL ngày 29/01/2019 nhưng chưa được nêu rõ văn bản pháp lý tương ứng như mục Nghệ thuật múa.",
+          "fix": "Chuẩn hóa nhan đề sách Phạm Huy (1998), cập nhật trạng thái kiểm tra URL (url_check) và bổ sung thông tin Quyết định 446/QĐ-BVHTTDL (2019) cho lễ hội Tết Hoa mào gà."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Cống chưa có hệ thống chữ viết chính thức; cần thống nhất quy ước chuyển tự Latinh nếu xây dựng kho ngữ liệu văn bản.",
+      "Cần thu âm điền dã đối chiếu hai nhóm Cống Vàng (Xám Khổng Xú Lứ) và Cống Bạc (Xí Tù Mạ) để xác minh sự tồn tại của các phụ âm tắc cuối /-p, -t/ và trị số Chao của thanh đi lên (rising tone) được Edmondson (2002) nhắc tới.",
+      "Chưa có bản ký âm nhạc học chi tiết (thang âm, luyến láy nguyên gốc bằng tiếng Cống) cho các làn điệu dân ca Cống Khao và bài hát nghi lễ Tết hoa mào gà."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

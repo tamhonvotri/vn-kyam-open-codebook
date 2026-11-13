@@ -1,0 +1,72 @@
+{
+  "target": {
+    "id": "co-lao",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cờ Lao",
+    "ethnic_group_vi": "Cờ Lao",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:46:08.329324",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9383,
+      "candidatesTokenCount": 10444,
+      "totalTokenCount": 26408,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9383
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10444
+        }
+      ],
+      "thoughtsTokenCount": 6581,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 13065,
+      "candidatesTokenCount": 11758,
+      "totalTokenCount": 24823,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13065
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11758
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Một số mục trong phonology.onsets và phonology.vowels gộp nhiều biến thể âm vị/tha âm bằng dấu ngã (~) hoặc dấu phẩy (ví dụ: 'v ~ β', 'm̥ ~ ʰm', 'j ~ ʑ', 'ɯ ~ ɤ ~ ə', 'ɑ ~ ɒ', 'ɔ̃, õ, ɛ̃', 'm̩̃, ŋ̍', 'β̩ɚ, l̩ɚ') trong trường 'ipa'. Mặc dù nội dung ngữ âm học hoàn toàn chính xác theo tư liệu thực địa của Samarina et al. (2011), việc gộp chuỗi trong trường 'ipa' có thể gây khó khăn nhẹ cho các bộ phân tích tự động (parser) nếu cần trích xuất ký hiệu IPA đơn lẻ.",
+        "fix": "Giữ nguyên vì vẫn hợp lệ theo JSON Schema, nhưng ghi chú thêm vào validation.open_issues để chuẩn hóa tách từng mục IPA đơn lẻ khi chuyển sang giai đoạn empirical."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "low",
+        "problem": "Trong lexicon có xuất hiện các điệu trị thực địa theo ghi âm hẹp của Samarina (2011) như 44 (tu⁴⁴ qe⁴⁴ 'trứng', lɔ⁴⁵ hu⁴⁴ 'lửa') và 32 (ɗi³² pi³⁴ˀ 'răng'), hiện mới chỉ được nhắc tới trong phần mô tả (phonation/note) của 4 thanh cơ bản chứ chưa có trường ánh xạ tường minh.",
+        "fix": "Bổ sung ghi chú rõ hơn trong phonology.tones[1].note và phonology.tones[3].note để người dùng/máy học đối chiếu dễ dàng với các ký hiệu số mũ trong lexicon."
+      }
+    ]
+  },
+  "schema_errors": []
+}

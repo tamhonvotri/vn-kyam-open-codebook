@@ -1,0 +1,654 @@
+{
+  "id": "si-la",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Si La",
+  "name_en": "Sila",
+  "autonym": "Cù Dề Xừ / Cù Dề Sừ / Cú Ừ (tại Việt Nam); si˧la˧ / wa˧˩ɲɤ˧˩ / ko˥ɯ˨˩ / ko˥˥ɣɯ˥˥ (tại Lào)",
+  "ethnic_group_vi": "Si La",
+  "language": {
+    "iso639_3": "slt",
+    "glottocode": "sila1247",
+    "family": "Sino-Tibetan",
+    "branch": "Tibeto-Burman, Lolo-Burmese, Southern Loloish (Bisoid-Hanic / Siloid)"
+  },
+  "regions": [
+    "Lai Châu (bản Seo Hai và Sì Thâu Chải, xã Kan Hồ, huyện Mường Tè; huyện Nậm Nhùn)",
+    "Điện Biên (bản Nậm Sin, xã Chung Chải, huyện Mường Nhé; thị xã Mường Lay)",
+    "Bắc Lào (tỉnh Phongsaly và tỉnh Luang Namtha)"
+  ],
+  "speakers_estimate": "Dân số người Si La tại Việt Nam là 909 người (Tổng điều tra dân số 2019), tập trung ở Lai Châu (592 người) và Điện Biên (243 người); số người nói thông thạo thấp hơn do song ngữ và chuyển ngữ sang tiếng Việt/tiếng Thái. Tổng số người nói ở cả Lào và Việt Nam ước khoảng 3.900–4.100 người.",
+  "scripts": [
+    {
+      "name": "Chưa có hệ chữ viết chính thức (truyền khẩu)",
+      "iso15924": "Zxxx",
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Tiếng Si La truyền thống không có chữ viết riêng và chưa có bộ chữ chuẩn hóa do Nhà nước ban hành."
+    },
+    {
+      "name": "Ký âm cộng đồng dựa trên chữ Quốc ngữ (Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Nghệ nhân (như bà Hù Cố Xuân, ông Hù Cố Việt ở bản Seo Hai, xã Kan Hồ, Mường Tè) và học sinh địa phương dùng chữ Quốc ngữ tiếng Việt để ghi âm lời dân ca và từ vựng phục vụ bảo tồn, chưa chuẩn hóa thành chính tả thống nhất."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ tư liệu ngôn ngữ học (Badenoch & Hayashi 2017 mô tả phương ngữ Sida/Sila ở Luang Namtha có nguồn gốc di cư từ Phongsaly cùng nguồn với người Si La ở Việt Nam; đối chiếu với khảo sát điền dã của Edmondson 2002 về tiếng Si La tại Việt Nam). Do tiếng Si La chưa có bộ chữ Latinh chuẩn hóa tại Việt Nam, trường grapheme trong bảng âm vị để null và cách ghi xấp xỉ bằng chữ Quốc ngữ được đặt trong ml_hints. Cần điền dã kiểm chứng sự khác biệt ngữ âm chi tiết giữa các bản tại Mường Tè (Lai Châu) và Mường Nhé (Điện Biên).",
+  "phonology": {
+    "syllable_structure": "(C1)(C2)V(C3)T hoặc m̩T — từ thuần bản địa có cấu trúc âm tiết mở (C1)(C2)VT (không có phụ âm cuối); âm đệm C2 hạn chế ở /j/ (sau p, pʰ, m, k, kʰ) và /l/ (sau p, pʰ, m); âm mũi /m/ có thể tự làm thành âm tiết mang thanh điệu [m̩]; phụ âm cuối C3 (/-p, -t, -k, -m, -n, -ŋ/) chỉ xuất hiện trong từ vay mượn gần đây từ tiếng Lào/Thái (và thường trung hòa thành giọng kẹt trên nguyên âm ở người lớn tuổi).",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi không bật hơi; về mặt ngữ âm thường được hiện thực hóa hữu thanh [b] (Edmondson 2002 từng ghi nhận đối lập p/b ở Việt Nam nhưng Badenoch & Hayashi 2017 phân tích là biến thể tự do/ngữ âm [p] ~ [b] của /p/).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi [pʰ] (khác với chữ 'ph' [f] của tiếng Việt).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi răng/lợi không bật hơi; thường đọc hữu thanh hóa nhẹ [d] ở một số người nói.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tɕ",
+        "note": "Tắc-xát mặt lưỡi-ngạc cứng không bật hơi, đôi khi hữu thanh hóa [dʑ].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tɕʰ",
+        "note": "Tắc-xát mặt lưỡi-ngạc cứng bật hơi mạnh.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi (mạc) không bật hơi; thường hiện thực hóa như âm hữu thanh [ɡ] (khớp với ghi nhận k/g của Edmondson 2002).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi bật hơi [kʰ] (tắc bật hơi thật sự, không phải xát [x]).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi; cũng có thể đứng độc lập làm âm tiết mang thanh điệu [m̩] (ví dụ /m̩55/ 'làm', /m̩31/ 'nói').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi-ngạc, hiện thực hóa ngữ âm gần với âm lợi-ngạc [ȵ].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh; bị ngạc hóa thành [ɕ ~ ʃ] khi đứng trước nguyên âm /i/ (/s/ → [ɕ ~ ʃ] / _i).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "x",
+        "note": "Xát gốc lưỡi vô thanh (tương tự 'kh' trong tiếng Việt Bắc Bộ).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɣ",
+        "note": "Xát gốc lưỡi hữu thanh (tương tự 'g/gh' trong tiếng Việt).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l̥",
+        "note": "Bên đầu lưỡi vô thanh, hiện thực hóa ngữ âm dạng [l̥͡l] (bắt đầu vô thanh rồi chuyển sang hữu thanh).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên đầu lưỡi hữu thanh; cũng làm âm đệm /Cl-/ sau p, pʰ, m.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Tiếp cận môi-mạc hữu thanh.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng hữu thanh; cũng làm âm đệm /Cj-/ sau p, pʰ, m, k, kʰ.",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm trước, hẹp, không tròn môi; thường có xát hóa nhẹ khi phát âm để tăng tương phản với /e/. Có biến thể giọng kẹt /ḭ/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "y",
+        "note": "Nguyên âm trước, hẹp, tròn môi; có đối lập giọng thường /y/ và giọng kẹt /y̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯ",
+        "note": "Nguyên âm sau, hẹp, không tròn môi (tương tự 'ư' tiếng Việt); có đối lập giọng kẹt /ɯ̰/ và hiếm gặp dạng mũi hóa /ɯ̃/ (/a31mɯ̃33/ 'tóc').",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm sau, hẹp, tròn môi; có đối lập giọng kẹt /ṵ/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e",
+        "note": "Nguyên âm trước, hơi hẹp, không tròn môi; có đối lập giọng kẹt /ḛ/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ø",
+        "note": "Nguyên âm trước, hơi hẹp, tròn môi; có đối lập giọng kẹt /ø̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ",
+        "note": "Nguyên âm sau, hơi hẹp, không tròn môi, biến thể tự do [ɤ] ~ [ə] (gần với 'ơ' tiếng Việt); có đối lập giọng kẹt /ɤ̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm sau, hơi hẹp, tròn môi; có đối lập giọng kẹt /o̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước, hơi rộng, không tròn môi; có đối lập giọng kẹt /ɛ̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau, hơi rộng, tròn môi; có đối lập giọng kẹt /ɔ̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a",
+        "note": "Nguyên âm mở trước/giữa [a] ~ [æ]; đối lập âm vị học với /ɐ/ (đang có xu hướng nhập dần ở từ thuần nhưng vẫn phân biệt); có dạng giọng kẹt /a̰/.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɐ",
+        "note": "Nguyên âm mở lùi về sau [ɐ] ~ [ɑ]; có dạng giọng kẹt /ɐ̰/ (ví dụ /mjɐ̰33/ 'mắt', /nɐ̰33/ 'đen'). Ngoài 12 nguyên âm đơn còn có 4 nguyên âm đôi /ɤi, ai, ao, oa/ chỉ xuất hiện trong từ vay mượn Thái/Lào và Hán.",
+        "confidence": "high"
+      }
+    ],
+    "codas": [],
+    "tones": [
+      {
+        "id": "high",
+        "name": "Thanh cao bằng (thanh từ vựng)",
+        "mark": null,
+        "chao_contour": "55",
+        "phonation": "giọng thường (modal)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "mid",
+        "name": "Thanh trung bằng (thanh từ vựng)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "kết hợp được với cả nguyên âm giọng thường (V) và nguyên âm giọng kẹt (V̰)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "low_falling",
+        "name": "Thanh thấp xuống (thanh từ vựng)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "kết hợp được với cả nguyên âm giọng thường (V) và nguyên âm giọng kẹt (V̰)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "mid_rising",
+        "name": "Thanh trung lên (thanh ngữ pháp / biến điệu)",
+        "mark": null,
+        "chao_contour": "35",
+        "phonation": "xuất hiện do biến điệu ngữ pháp (ví dụ cấu trúc sở hữu/định ngữ làm thanh 31 chuyển thành 35)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "high_falling",
+        "name": "Thanh cao xuống (thanh ngữ pháp / biến điệu)",
+        "mark": null,
+        "chao_contour": "53",
+        "phonation": "xuất hiện do biến điệu ngữ pháp trước một số tiểu từ cuối câu (55 → 53, 31 → 53)",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống kết hợp thanh điệu (3 thanh từ vựng: 55, 33, 31; 2 thanh ngữ pháp: 35, 53) với đối lập chất giọng hai chiều trên toàn bộ 12 nguyên âm: giọng thường (modal, V) và giọng kẹt thanh hầu (creaky voice, V̰ — bắt nguồn từ các âm tiết có phụ âm tắc cuối trong ngôn ngữ Lô Lô tiền thân). Giọng kẹt chỉ đối lập trên thanh 33 (bắt nguồn từ *H ở âm tiết đóng) và thanh 31 (bắt nguồn từ *L ở âm tiết đóng)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Si La (tên tự gọi)",
+      "form": "Cù Dề Xừ",
+      "ipa": null,
+      "gloss_en": "Si La people (autonym in Vietnam)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây cầu",
+      "form": "khè ò",
+      "ipa": null,
+      "gloss_en": "bridge (folk song title in Lai Châu, unverified Quốc ngữ transcription)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "trang phục",
+      "form": "cơ tuy",
+      "ipa": null,
+      "gloss_en": "clothing / costume (folk song title in Lai Châu, unverified Quốc ngữ transcription)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "pa33la33",
+      "ipa": "pa˧˧la˧˧",
+      "gloss_en": "moon",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "i55tɕʰo31",
+      "ipa": "i˥˥tɕʰo˧˩",
+      "gloss_en": "water",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "núi / mũ",
+      "form": "i31tɕʰo31",
+      "ipa": "i˧˩tɕʰo˧˩",
+      "gloss_en": "mountain; hat",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lá cây",
+      "form": "ɐ31pʰa31",
+      "ipa": "ɐ˧˩pʰa˧˩",
+      "gloss_en": "leaf",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "người",
+      "form": "a31ma̰31",
+      "ipa": "a˧˩ma̰˧˩",
+      "gloss_en": "person",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mjɐ̰33",
+      "ipa": "mjɐ̰˧˧",
+      "gloss_en": "eye",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lợn (heo)",
+      "form": "wa̰31",
+      "ipa": "wa̰˧˩",
+      "gloss_en": "pig",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "tre",
+      "form": "wa31",
+      "ipa": "wa˧˩",
+      "gloss_en": "bamboo",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "ɐ̰33",
+      "ipa": "ɐ̰˧˧",
+      "gloss_en": "chicken",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát dân ca giao duyên, hát đối đáp",
+        "note": "Hát đối đáp giữa nam nữ thanh niên trong lao động trên nương, bên suối, dịp hội hè hoặc đêm vắng, lời ca mộc mạc giàu hình ảnh ví von."
+      },
+      {
+        "name": "Hát ru con",
+        "note": "Làn điệu hát ru truyền thống của phụ nữ Si La (tiêu biểu như bài 'Dê Mí i Thì Ê' do nghệ nhân bản Seo Hai lưu giữ)."
+      },
+      {
+        "name": "Hát nghi lễ và sinh hoạt cộng đồng",
+        "note": "Bao gồm hát đám cưới, đám ma, hát mừng làm nhà mới ('Dạ Trớ Mệi'), hát cầu mùa, hát kể truyền thống dân tộc Si La ('Sơ Chư Cợ Sila')."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Sáo truyền thống",
+        "note": "Nhạc cụ hơi bằng tre/nứa đặc trưng và phổ biến nhất của người Si La, dùng thổi gọi bạn trên nương, trên suối và trong sinh hoạt văn nghệ bản."
+      },
+      {
+        "name": "Đàn dân gian Si La",
+        "note": "Đàn dây mộc mạc chế tác thủ công từ gỗ rừng, tre nứa, truyền dạy theo kinh nghiệm truyền khẩu."
+      },
+      {
+        "name": "Lạc và đạo cụ gõ tre nứa",
+        "note": "Nhạc cụ gõ/lắc giữ nhịp trong các điệu múa cổ (như múa 'Pơ Khị Pơ Lơ' - Tay vòng tay) dịp lễ Tết, cúng bản, mừng cơm mới."
+      }
+    ]
+  },
+  "ml_hints": {
+    "phonological_gaps_in_vietnamese": [
+      "Âm bên vô thanh /l̥/ [l̥͡l]: không có trong tiếng Việt chuẩn; chữ Quốc ngữ không ghi được phần luồng hơi vô thanh đầu âm.",
+      "Các âm tắc và tắc-xát bật hơi /pʰ/, /tɕʰ/, /kʰ/: tiếng Việt chỉ có /tʰ/ ('th'), còn 'ph' là âm xát [f], 'kh' là âm xát [x], 'ch' [tɕ] không bật hơi.",
+      "Nguyên âm tròn môi hàng trước /y/, /ø/: không tồn tại dưới dạng nguyên âm đơn trong tiếng Việt.",
+      "Đối lập hai nguyên âm mở /a/ vs. /ɐ/ ([ɑ]) và đối lập giọng kẹt (creaky voice V̰) trên thanh bằng 33: thanh nặng tiếng Việt có kẹt thanh hầu nhưng đi kèm đường nét thanh thấp 21ʔ, không có thanh trung bằng kẹt thanh hầu 33.",
+      "Âm mũi làm âm tiết độc lập /m̩55/, /m̩31/: không có trong hệ thống vần chữ Quốc ngữ."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "/pa33la33/ ('mặt trăng')",
+        "quoc_ngu": "ba la / pa la",
+        "note": "/p/ không bật hơi trong tiếng Si La thường hữu thanh hóa nhẹ gần [b]; thanh 33 khớp tốt với thanh ngang tiếng Việt."
+      },
+      {
+        "native": "/i55tɕʰo31/ ('nước')",
+        "quoc_ngu": "í chò",
+        "note": "Thanh 55 xấp xỉ bằng thanh sắc ('í'), thanh 31 xấp xỉ bằng thanh huyền ('chò'); tuy nhiên 'ch' tiếng Việt thiếu độ bật hơi của /tɕʰ/."
+      },
+      {
+        "native": "/ɐ31pʰa31/ ('lá cây')",
+        "quoc_ngu": "ờ pà (chú thích bật hơi p-hà)",
+        "note": "Không nên viết là 'phà' vì TTS tiếng Việt sẽ đọc thành [faː21] thay vì [pʰa31]."
+      },
+      {
+        "native": "/a31kʰi55/ ('bàn chân')",
+        "quoc_ngu": "à khí",
+        "note": "'kh' trong tiếng Việt đọc xát [x], chỉ xấp xỉ gần đúng cho âm tắc bật hơi /kʰ/."
+      },
+      {
+        "native": "/xɯ55/ ('vàng') vs. /ɣɯ55/ ('tốt')",
+        "quoc_ngu": "khứ vs. gứ",
+        "note": "Cặp âm xát gốc lưỡi /x/ - /ɣ/ và nguyên âm /ɯ/ khớp sát với 'kh', 'g/gh' và 'ư' của tiếng Việt Bắc Bộ."
+      },
+      {
+        "native": "/wa̰31/ ('lợn') vs. /wa31/ ('tre')",
+        "quoc_ngu": "oạ / quạ vs. oà / quà",
+        "note": "Dùng thanh nặng ('oạ') để gợi chất giọng kẹt thanh hầu (creaky voice) của /wa̰31/, dùng thanh huyền ('oà') cho giọng thường /wa31/."
+      },
+      {
+        "native": "/l̥a33/ ('ngã/rơi')",
+        "quoc_ngu": "hla (đọc nối nhanh hờ-la)",
+        "note": "Mô hình chỉ biết tiếng Việt không có âm [l̥͡l]; ghép 'h' nhẹ trước 'la' chỉ là giải pháp tình thế."
+      },
+      {
+        "native": "Khè Ò ('cây cầu' — tên bài dân ca cộng đồng)",
+        "quoc_ngu": "khè ò",
+        "note": "Cách ghi thực tế bằng chữ phổ thông của nghệ nhân dân tộc Si La tại Mường Tè, Lai Châu."
+      },
+      {
+        "native": "Dê Mí i Thì Ê ('hát ru con' — tên bài dân ca cộng đồng)",
+        "quoc_ngu": "dê mí i thì ê",
+        "note": "Cách ghi thực tế bằng chữ phổ thông phục vụ đội văn nghệ bản Seo Hai, phản ánh đặc trưng toàn âm tiết mở của tiếng Si La."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tiếng Si La tại Việt Nam (Cù Dề Xừ / Cù Dề Sừ / Cú Ừ / Khà Póe)",
+        "iso639_3": "slt",
+        "region": "Lai Châu (Mường Tè, Nậm Nhùn) và Điện Biên (Mường Nhé, Mường Lay)",
+        "note": "Biến thể chính tại Việt Nam; tổ tiên di cư từ vùng Mường U và Mường La (Phongsaly, Lào) sang khoảng 150–175 năm trước, tương đồng rất gần với tiếng Sila ở Bắc Lào (Edmondson 2002)."
+      },
+      {
+        "name": "Tiếng Sila / Sida vùng Phongsaly (Lào)",
+        "iso639_3": "slt",
+        "region": "Huyện Nyot U và huyện Bun Neua, tỉnh Phongsaly, Lào",
+        "note": "Gồm các điểm phương ngữ tự gọi là si˧la˧, ko˥ɯ˨˩, go˥ɯ˥ a˩ma˩; giữ phân biệt /a/ và /ɐ/ rõ hơn."
+      },
+      {
+        "name": "Tiếng Sida vùng Luang Namtha (Lào)",
+        "iso639_3": "slt",
+        "region": "Huyện Luang Namtha, tỉnh Luang Namtha, Lào",
+        "note": "Tự gọi là wa˧˩ɲɤ˧˩ (hoặc vɛ˧ɲɯ˧); di cư từ Phongsaly sang cuối thế kỷ XIX, là phương ngữ được mô tả âm vị học đầy đủ nhất trong Badenoch & Hayashi (2017)."
+      },
+      {
+        "name": "Các ngôn ngữ họ hàng gần trong tiểu nhóm Siloid / Bisoid-Hanic",
+        "iso639_3": "phq",
+        "region": "Bắc Lào (Phana' [phq]) và Lai Châu/Điện Biên (tiếng Cống [cnc])",
+        "note": "Không phải phương ngữ của tiếng Si La nhưng là các ngôn ngữ Lô Lô phương Nam gần gũi nhất về mặt lịch sử và loại hình âm vị."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "pa33la33",
+        "ipa": "pa˧˧la˧˧",
+        "meaning_vi": "mặt trăng"
+      },
+      {
+        "native": "ɐ31pʰa31",
+        "ipa": "ɐ˧˩pʰa˧˩",
+        "meaning_vi": "lá cây"
+      },
+      {
+        "native": "i55tɕʰo31",
+        "ipa": "i˥˥tɕʰo˧˩",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "i31tɕʰo31",
+        "ipa": "i˧˩tɕʰo˧˩",
+        "meaning_vi": "núi; mũ/nón"
+      },
+      {
+        "native": "a31kʰi55",
+        "ipa": "a˧˩kʰi˥˥",
+        "meaning_vi": "bàn chân"
+      },
+      {
+        "native": "o31kʰa31",
+        "ipa": "o˧˩kʰa˧˩",
+        "meaning_vi": "đầu"
+      },
+      {
+        "native": "mjɐ̰33",
+        "ipa": "mjɐ̰˧˧",
+        "meaning_vi": "mắt"
+      },
+      {
+        "native": "a31kʰjo31",
+        "ipa": "a˧˩kʰjo˧˩",
+        "meaning_vi": "miệng"
+      },
+      {
+        "native": "a31ma̰31",
+        "ipa": "a˧˩ma̰˧˩",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "ja31",
+        "ipa": "ja˧˩",
+        "meaning_vi": "trẻ con / con"
+      },
+      {
+        "native": "wa̰31",
+        "ipa": "wa̰˧˩",
+        "meaning_vi": "lợn (heo)"
+      },
+      {
+        "native": "wa31",
+        "ipa": "wa˧˩",
+        "meaning_vi": "tre"
+      },
+      {
+        "native": "ɐ̰33",
+        "ipa": "ɐ̰˧˧",
+        "meaning_vi": "gà"
+      },
+      {
+        "native": "nɐ̰33",
+        "ipa": "nɐ̰˧˧",
+        "meaning_vi": "đen"
+      },
+      {
+        "native": "ŋɔ55",
+        "ipa": "ŋɔ˥˥",
+        "meaning_vi": "tôi (ngôi thứ nhất số ít)"
+      },
+      {
+        "native": "ŋɔ31",
+        "ipa": "ŋɔ˧˩",
+        "meaning_vi": "năm (số 5)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Badenoch, Nathan & Hayashi, Norihiko (2017). Phonological Sketch of the Sida Language of Luang Namtha, Laos. Journal of the Southeast Asian Linguistics Society (JSEALS) 10(1): 1–15.",
+      "url": "http://hdl.handle.net/10524/52394",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A. (2002). The Central and Southern Loloish Languages of Vietnam. Proceedings of the Twenty-Eighth Annual Meeting of the Berkeley Linguistics Society: Special Session on Tibeto-Burman and Southeast Asian Linguistics, pp. 1–13.",
+      "url": "https://doi.org/10.3765/bls.v28i1.1068",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Sila (sila1247)",
+      "url": "https://glottolog.org/resource/languoid/id/sila1247",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Sila language (Sino-Tibetan)",
+      "url": "https://en.wikipedia.org/wiki/Sila_language_(Sino-Tibetan)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Si La (dẫn số liệu Tổng điều tra dân số và nhà ở năm 2019 của Tổng cục Thống kê Việt Nam)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Si_La",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ma Ngọc Dung (2000). Văn hóa Si La. Hà Nội: Nhà xuất bản Văn hóa Dân tộc.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.syllable_structure",
+          "severity": "low",
+          "problem": "Cấu trúc âm tiết ghi '(C1)(C2)V(T) hoặc m̩(T)' chưa phản ánh đầy đủ công thức tổng quát (C1)(C2)V(C3)T trong Badenoch & Hayashi (2017: 3, 5), trong đó vị trí C3 (/-p, -t, -k, -m, -n, -ŋ/) xuất hiện ở lớp từ vay mượn gần đây từ tiếng Lào/Thái (dù ở người lớn tuổi thường trung hòa thành giọng kẹt trên nguyên âm trước đó).",
+          "fix": "Bổ sung ghi chú về C3 trong từ vay mượn Thái/Lào vào trường syllable_structure để khớp hoàn toàn với nguồn tham chiếu."
+        },
+        {
+          "path": "phonology.onsets[13].note",
+          "severity": "low",
+          "problem": "Âm đầu /s/ thiếu ghi chú về biến thể kết hợp quan trọng được nêu trong Badenoch & Hayashi (2017: 5): /s/ bị ngạc hóa thành [ɕ ~ ʃ] khi đứng trước nguyên âm /i/ (/s/ → [ɕ ~ ʃ] / _i).",
+          "fix": "Bổ sung quy tắc biến thể ngữ âm /s/ → [ɕ ~ ʃ] / _i vào ghi chú của âm vị /s/."
+        },
+        {
+          "path": "autonym",
+          "severity": "low",
+          "problem": "Thiếu tên tự gọi 'Cú Ừ' (và tên gọi khác 'Khà Póe / Kha Pẻ') được ghi nhận trong các tài liệu dân tộc học tại Lai Châu, Việt Nam (tương ứng trực tiếp với dạng /ko55ɣɯ55/ ~ /ko˥ɯ˨˩/ tại Bắc Lào).",
+          "fix": "Bổ sung 'Cú Ừ' vào trường autonym."
+        },
+        {
+          "path": "lexicon[1].confidence",
+          "severity": "medium",
+          "problem": "Các mục từ 'khè ò' (cây cầu) và 'cơ tuy' (trang phục) lấy từ tên bài dân ca Si La phiên âm bằng chữ Quốc ngữ phổ thông (chưa có phân tích hình vị và ký âm IPA chuẩn xác), để confidence='medium' là hơi cao.",
+          "fix": "Hạ confidence của 'khè ò' và 'cơ tuy' xuống 'low' và ghi rõ đây là tên bài hát truyền khẩu ghi bằng chữ Quốc ngữ."
+        }
+      ]
+    },
+    "open_issues": [
+      "Bảng âm vị và các từ mẫu có IPA hiện dựa chủ yếu trên phương ngữ Sida/Sila tại Bắc Lào (Badenoch & Hayashi 2017); cần thu âm và thẩm định ngữ âm học trực tiếp với người nói bản xứ tại bản Seo Hai (Mường Tè, Lai Châu) và bản Nậm Sin (Mường Nhé, Điện Biên).",
+      "Tiếng Si La tại Việt Nam chưa có bộ chữ viết chuẩn hóa; các từ ghi bằng chữ Quốc ngữ từ tên bài dân ca cộng đồng ('Khè Ò', 'Cơ Tuy', 'Dê Mí i Thì Ê', 'Dạ Trớ Mệi', 'Pơ Khị Pơ Lơ') cần được đối chiếu điền dã để xác định hình vị, dạng IPA và thanh điệu chính xác.",
+      "Chưa có bản ký âm nhạc học (thang âm, quãng luyến) được công bố học thuật cho các làn điệu dân ca và nhạc sáo Si La."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

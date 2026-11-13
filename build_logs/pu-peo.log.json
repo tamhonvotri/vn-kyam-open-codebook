@@ -1,0 +1,90 @@
+{
+  "target": {
+    "id": "pu-peo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pu Péo",
+    "ethnic_group_vi": "Pu Péo",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:48:40.136830",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 10480,
+      "totalTokenCount": 19865,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10480
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11618,
+      "candidatesTokenCount": 11495,
+      "totalTokenCount": 24479,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11618
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11495
+        }
+      ],
+      "thoughtsTokenCount": 1366,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "language.branch",
+        "severity": "low",
+        "problem": "Chỉ ghi 'Kra (Eastern Kra)', thiếu tên tiểu nhánh trực tiếp được dùng phổ biến trong phân loại Kra-Dai (Glottolog / Wikipedia / Ostapirat 2000) là 'Yang-Biao' (cùng nhóm với tiếng Bố Y / Buyang và tiếng En / Nùng Vẻn).",
+        "fix": "Cập nhật thành 'Kra (Yang-Biao / Eastern Kra)'."
+      },
+      {
+        "path": "lexicon[0].form",
+        "severity": "medium",
+        "problem": "Mục từ 'nước' ghi form là 'ʔɔŋ C1 (oong)' (trộn lẫn ký hiệu lớp thanh lịch sử C1 và chữ Quốc ngữ), không đồng nhất với hệ phiên âm Hoàng Văn Ma & Vũ Bá Hùng (1992) dùng cho 19 mục từ còn lại. Trong bảng từ của Hoàng Văn Ma & Vũ Bá Hùng (1992), 'nước' được ghi là 'ʔong3' (ví dụ: ʔong3 tê1 'nước mắt', ʔong3 khang1 'cháo').",
+        "fix": "Sửa form thành 'ʔong3 (oong)' tại lexicon[0] và cập nhật ml_hints.sample_words[0].native thành 'ʔong3'."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Một số mục từ ghép trường 'form' từ ngữ liệu Phố Là (Hoàng Văn Ma 1992) với trường 'ipa' từ ngữ liệu Ma Lật Pha (Liang, Zhang & Li 2007 trên ABVD) có sự chênh lệch âm đoạn phương ngữ (ví dụ: 'tơzaw3' vs 'tə⁰ dau˧˧', 'mi3' vs 'miə˧˧', 'qamăj2' vs 'qa˧˧ məi˦˥', 'qalung3' vs 'qə˧˧ luəŋ˧˧', 'nghâm3 / hâm3' vs 'ŋəm˧˧', 'qa zA3' với chữ A hoa là ký hiệu quy ước của ABVD cho nguyên âm sau/dài). Việc để tất cả ở confidence='high' chưa phản ánh độ lệch giữa hai điểm điền dã.",
+        "fix": "Hạ confidence xuống 'medium' đối với các mục từ có khác biệt âm đoạn giữa form (Phố Là) và ipa (Ma Lật Pha), đồng thời bổ sung biến thể thanh 4 ~ 5 của Hoàng Văn Ma (như qami4 / qami5, zhô4 / zhô5, pê4 / pê5)."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "medium",
+        "problem": "Trong ngữ liệu Hoàng Văn Ma (1992) trên ABVD/Wiktionary, thanh 4 và thanh 5 đều xuất hiện trên cả âm tiết mở/vang (ví dụ biến thể qami4 ~ qami5 'tay', zhô4 ~ zhô5 'đầu', pê4 ~ pê5 'bố', ʔăw4 ~ ʔăw5 'nằm/ngủ', qasê5 'bạn') chứ thanh 5 không chỉ giới hạn ở vần tắc như mô tả trong T2_33. Ngoài ra, Diller (2008) dẫn mô tả 5 thanh của Qabiao gồm: 33, 11, 52, 45/55/454 và 24.",
+        "fix": "Chỉnh lại mô tả tại phonology.tones để phản ánh chính xác sự phân bố thanh 1–5 trong Hoàng Văn Ma (1992) và các cách ghi trị số Chao giữa Liang et al. (2007) và Diller (2008); hạ confidence của T1_53 xuống 'medium' cho đồng bộ vì chưa đối chiếu trực tiếp sách in năm 1992."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các mục sources có URL chưa được điền trường url_check sau khi kiểm chứng và thiếu nguồn bảng từ số hóa trực tiếp công trình Hoàng Văn Ma & Vũ Bá Hùng (1992) trên Wiktionary.",
+        "fix": "Cập nhật url_check='ok' cho các URL đã xác minh và bổ sung liên kết Appendix:Qabiao word list."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,770 @@
+{
+  "id": "o-du",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ơ Đu",
+  "name_en": "O'du (Iduh)",
+  "autonym": "Ơ Đu / Iduh / Phrom Ơ Đu",
+  "ethnic_group_vi": "Ơ Đu",
+  "language": {
+    "iso639_3": "tyh",
+    "glottocode": "oduu1239",
+    "family": "Austroasiatic",
+    "branch": "Khmuic (nhánh con Pramic / Môn-Khmer Bắc)"
+  },
+  "regions": [
+    "Nghệ An (tập trung tại bản Văng Môn, xã Nga My, huyện Tương Dương; trước năm 2006 ở bản Xốp Pột và Kim Hòa, xã Kim Đa, huyện Tương Dương)",
+    "Xiêng Khoảng, Lào (huyện Nonghet, như bản Khạp, bản Xén Phùn)"
+  ],
+  "speakers_estimate": "Cực kỳ nguy cấp (gần như mai một tại Việt Nam): dân tộc Ơ Đu có tổng dân số 428 người tại Việt Nam (Điều tra 53 DTTS năm 2019), trong đó chỉ còn dưới 10 người cao tuổi tại bản Văng Môn còn nhớ và giao tiếp được một phần tiếng mẹ đẻ; phần lớn cộng đồng chuyển sang dùng tiếng Thái địa phương (Tay Mương), tiếng Khơ Mú và tiếng Việt. Tại tỉnh Xiêng Khoảng (Lào) còn khoảng 200–600 người nói (Proschan 1996; Ethnologue 2015).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (phiên âm Latinh / IPA trong nghiên cứu và ghi âm tạm theo chữ Quốc ngữ trong bảo tồn cộng đồng)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Ơ Đu là ngôn ngữ truyền miệng, không có chữ viết truyền thống và chưa có bộ chữ Latinh chuẩn hóa do Nhà nước ban hành. Tư liệu điền dã học thuật (Ferlus, Diffloth, Premsrirat, Sidwell, Badenoch) dùng ký tự phiên âm ngữ âm học Latinh/IPA; các lớp truyền dạy tiếng Ơ Đu tại bản Văng Môn (Nghệ An) chủ yếu dạy truyền miệng kết hợp ghi chú tạm bằng chữ Quốc ngữ."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã nháp do LLM tổng hợp từ các nguồn ngôn ngữ học lịch sử – so sánh nhóm Khmuic (Sidwell 2014; Badenoch 2021 dẫn tư liệu điền dã của Gérard Diffloth; Diffloth 1996; Cheeseman, Sidwell & Osborne 2017) và các khảo cứu dân tộc học – ngôn ngữ học tại Việt Nam (Đặng Nghiêm Vạn 1983; Trần Trí Dõi 2017; Tạ Văn Thông & Tạ Quang Tùng 2020). Do tiếng Ơ Đu chưa có miêu tả âm vị học đầy đủ được công bố rộng rãi và chưa có chữ viết chuẩn, phần phonology chỉ liệt kê các âm vị/tổ hợp âm được chứng thực trực tiếp trong ngữ liệu đã công bố.",
+  "phonology": {
+    "syllable_structure": "(C_p(V_p/N))C_1(C_2)V(ː)(C_f) — cấu trúc từ đơn tiết và song tiết kiểu Môn-Khmer (sesquisyllabic: có tiền âm tiết giảm yếu hoặc mũi âm tiết tính đứng trước âm tiết chính, bảo lưu nhiều tổ hợp phụ âm đầu kép/ba cổ)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh; xuất hiện ở đầu âm tiết chính và sau tiền âm tiết mũi (ví dụ: pram, mpeyʰ, mpɒn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (ví dụ: bɨl, hmbaːʔr)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh (ví dụ: taːn, htaː, hntul)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh (ví dụ: hndɨːy)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi hữu thanh trong phiên âm Khmuic (ví dụ: jon ʔiɲ 'xương')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh (ví dụ: krgul, kəruuŋʔ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc gốc lưỡi hữu thanh (ví dụ: gliŋ, gntey, məgoaʔa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ / '",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu (ví dụ: ʔiɲ trong jon ʔiɲ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ: mim, məgoaʔa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi; xuất hiện cả trong tiền âm tiết mũi hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh (ví dụ: hnsɔɔŋ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu; rất phổ biến ở tiền âm tiết vô thanh hóa trước mũi/tắc (htaː, hnd-, hmb-, hns-, hnt-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi ở vị trí âm đầu hoặc âm đệm C2 (ví dụ: roj, pram, krgul)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi; xuất hiện cả ở vị trí C2 trong tổ hợp phụ âm đầu (ví dụ: gliŋ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mềm, phục nguyên ở vị trí âm đệm C2 trong tiểu nhánh Pramic (ví dụ: Proto-Pramic *swaːn 'rìu')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "pr / phr",
+        "ipa": "pr ~ pʰr",
+        "note": "Tổ hợp phụ âm đầu bảo lưu cổ (ví dụ: pram 'người', ghi theo Quốc ngữ là Phrom)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gl",
+        "ipa": "ɡl",
+        "note": "Tổ hợp phụ âm đầu hữu thanh + bên (ví dụ: gliŋ 'đá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sw",
+        "ipa": "sw",
+        "note": "Tổ hợp xát + bán nguyên âm tròn môi phục nguyên cho Proto-Pramic (*swaːn 'rìu', Sidwell 2013; Alves 2015)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ht",
+        "ipa": "ht",
+        "note": "Tiền âm tiết xát thanh hầu + tắc (ví dụ: htaː 'lưỡi' < *hntaːk)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "mp / hmb / hnd / hnt / hns / gnt / krg",
+        "ipa": "mp / hmb / hnd / hnt / hns / ɡnt / krɡ",
+        "note": "Các cấu trúc tiền âm tiết mũi hóa / phụ âm ghép đặc trưng trong từ song tiết và số đếm Iduh (Diffloth; Badenoch 2021)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "phtr",
+        "ipa": "pʰtr",
+        "note": "Tổ hợp phụ âm ba được ghi nhận qua cách chép Quốc ngữ 'Chăm phtrơng' (Lễ hội tiếng sấm); cần xác minh ngữ âm học hiện trường",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm cao trước không tròn môi; trong tiếng Ơ Đu nhiều từ có /i, iː/ bắt nguồn từ sự nâng nguyên âm Proto-Khmuic *aː₁ > iː/i đặc trưng của nhánh Pramic (ví dụ: mim 'máu', gliŋ 'đá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iː / ii",
+        "ipa": "iː",
+        "note": "Nguyên âm cao trước dài; đối lập trường độ nguyên âm là nét chung của nhóm Khmuic",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e",
+        "note": "Nguyên âm hơi cao / trung trước (ví dụ: mpeyʰ 'ba', gntey 'chín')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɨ",
+        "ipa": "ɨ",
+        "note": "Nguyên âm cao giữa không tròn môi (ví dụ: bɨl 'dày')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɨː",
+        "ipa": "ɨː",
+        "note": "Nguyên âm cao giữa dài (ví dụ: hndɨːy 'một')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ə / ơ",
+        "ipa": "ə",
+        "note": "Nguyên âm trung tâm ngắn ở tiền âm tiết (ví dụ: kəruuŋʔ, məgoaʔa) và nguyên âm chính trong cách ghi Quốc ngữ (Ơ Đu, phtrơng)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm thấp ngắn (ví dụ: pram 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aː / aa",
+        "ipa": "aː",
+        "note": "Nguyên âm thấp dài (ví dụ: taːn 'đan', htaː 'lưỡi', hmbaːʔr 'hai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm cao sau tròn môi ngắn (ví dụ: hntul 'sáu', krgul 'bảy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uː / uu",
+        "ipa": "uː",
+        "note": "Nguyên âm cao sau tròn môi dài (ví dụ: kəruuŋʔ 'tám')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o ~ ɔ",
+        "note": "Nguyên âm sau tròn môi (ví dụ: roj 'hổ', jon ʔiɲ 'xương')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ɔː / ɔɔ",
+        "ipa": "ɔː",
+        "note": "Nguyên âm hơi thấp sau tròn môi dài (ví dụ: hnsɔɔŋ 'năm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɒ",
+        "ipa": "ɒ",
+        "note": "Nguyên âm thấp sau tròn môi được Diffloth ghi nhận trong mpɒn 'bốn'",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết (ví dụ: pram, mim)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết (ví dụ: taːn, mpɒn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɲ / nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi cuối âm tiết (ví dụ: jon ʔiɲ 'xương')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŋ / ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi cuối âm tiết (ví dụ: gliŋ, hnsɔɔŋ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŋʔ",
+        "ipa": "ŋˀ",
+        "note": "Âm cuối mũi gốc lưỡi thanh hầu hóa / giọng kẹt (ví dụ: kəruuŋʔ 'tám')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: bɨl, hntul, krgul)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung/vỗ cuối âm tiết — không có trong tiếng Việt chuẩn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ʔr",
+        "ipa": "ˀr",
+        "note": "Âm cuối r thanh hầu hóa gắn với âm vực giọng kẹt (ví dụ: hmbaːʔr 'hai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi cuối âm tiết (ví dụ: roj, hndɨːy, gntey)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yʰ",
+        "ipa": "jʰ",
+        "note": "Bán nguyên âm mặt lưỡi cuối âm tiết kèm bật hơi/xát thanh hầu (ví dụ: mpeyʰ 'ba', Diffloth p.c. trong Badenoch 2021)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (phổ biến trong các ngôn ngữ Khmuic)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "p / t / c / k / h",
+        "ipa": "p / t / c / k / h",
+        "note": "Các âm tắc vô thanh và xát thanh hầu cuối âm tiết điển hình của nhánh Khmuic/Pramic; chưa đủ danh sách từ vựng công bố để tách từng mục với độ tin cậy cao",
+        "confidence": "low"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu từ vựng kiểu tiếng Việt; có đối lập âm vực / chất giọng (register), nổi bật là âm vực giọng kẹt / thanh hầu hóa (creaky register) biểu hiện qua sự thanh hầu hóa ở vần và phụ âm cuối vang (ví dụ: hmbaːʔr 'hai', kəruuŋʔ 'tám'), được Gérard Diffloth (1996) khảo sát chuyên biệt trong tiếng Iduh (Ơ Đu). Trong giao tiếp thực tế tại Nghệ An, từ vay mượn từ tiếng Thái và tiếng Việt thường mang theo nét cao độ của ngôn ngữ cho vay."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người",
+      "form": "pram (Phrom)",
+      "ipa": "pram",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Ơ Đu",
+      "form": "Phrom Ơ Đu",
+      "ipa": "pram ʔəː duː",
+      "gloss_en": "O'du person",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "mim",
+      "ipa": "mim",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đá",
+      "form": "gliŋ",
+      "ipa": "ɡliŋ",
+      "gloss_en": "stone / rock",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xương",
+      "form": "jon ʔiɲ",
+      "ipa": "ɟɔn ʔiɲ",
+      "gloss_en": "bone",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đan, dệt",
+      "form": "taːn",
+      "ipa": "taːn",
+      "gloss_en": "to weave / plait",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lưỡi",
+      "form": "htaː",
+      "ipa": "htaː",
+      "gloss_en": "tongue",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ (cọp)",
+      "form": "roj",
+      "ipa": "rɔj",
+      "gloss_en": "tiger",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dày",
+      "form": "bɨl",
+      "ipa": "bɨl",
+      "gloss_en": "thick",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rìu, búa",
+      "form": "*swaːn (Proto-Pramic)",
+      "ipa": "swaːn",
+      "gloss_en": "axe (Proto-Pramic reconstruction, Sidwell 2013)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "một (1)",
+      "form": "hndɨːy",
+      "ipa": "hndɨːj",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai (2)",
+      "form": "hmbaːʔr",
+      "ipa": "hmbaːˀr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba (3)",
+      "form": "mpeyʰ",
+      "ipa": "mpejʰ",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn (4)",
+      "form": "mpɒn",
+      "ipa": "mpɒn",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (5)",
+      "form": "hnsɔɔŋ",
+      "ipa": "hnsɔːŋ",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu (6)",
+      "form": "hntul",
+      "ipa": "hntul",
+      "gloss_en": "six",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bảy (7)",
+      "form": "krgul",
+      "ipa": "krɡul",
+      "gloss_en": "seven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tám (8)",
+      "form": "kəruuŋʔ",
+      "ipa": "kəruːŋˀ",
+      "gloss_en": "eight",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chín (9)",
+      "form": "gntey",
+      "ipa": "ɡntej",
+      "gloss_en": "nine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mười (10)",
+      "form": "məgoaʔa",
+      "ipa": "məɡɔaʔa",
+      "gloss_en": "ten",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lễ hội tiếng sấm đầu năm",
+      "form": "Chăm phtrơng",
+      "ipa": null,
+      "gloss_en": "First-thunder New Year festival",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát nghi lễ và sinh hoạt trong Lễ đón tiếng sấm đầu năm (Chăm phtrơng)",
+        "note": "Nghi lễ lớn nhất trong năm của người Ơ Đu tại bản Văng Môn khi nghe tiếng sấm đầu mùa xuân, kết hợp lời khấn của thầy mo, múa và diễn tấu nhạc cụ tre nứa."
+      },
+      {
+        "name": "Dân ca giao thoa Thái – Khơ Mú và hát kể dã sử",
+        "note": "Theo các khảo cứu dân tộc học, vốn dân ca cổ bằng tiếng Ơ Đu gốc ở Nghệ An đã thất truyền phần lớn do quá trình đồng hóa ngôn ngữ lâu dài; người Ơ Đu hiện sử dụng thành thạo các làn điệu dân ca của người Thái (khắp) và người Khơ Mú (tơm)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Nhạc cụ tre nứa truyền thống (ống gõ, sáo tre nứa)",
+        "note": "Sử dụng rộn ràng trong lễ hội đón tiếng sấm đầu năm (Chăm phtrơng) và nhảy sạp"
+      },
+      {
+        "name": "Khèn bè, sáo, chiêng, trống",
+        "note": "Nhạc cụ giao thoa văn hóa dùng chung phổ biến với cộng đồng người Thái và người Khơ Mú tại Tương Dương (Nghệ An)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "sub_varieties": [
+      {
+        "name": "Tiếng Ơ Đu tại Nghệ An, Việt Nam (bản Văng Môn, xã Nga My, huyện Tương Dương)",
+        "iso639_3": "tyh",
+        "note": "Biến thể tại Việt Nam, hiện ở tình trạng cực kỳ nguy cấp (moribund/nearly extinct), chịu ảnh hưởng tiếp xúc rất mạnh từ tiếng Thái Tây Thanh / Tay Mương và tiếng Khơ Mú."
+      },
+      {
+        "name": "Tiếng Iduh / O'du tại tỉnh Xiêng Khoảng, Lào (huyện Nonghet: bản Khạp, bản Xén Phùn)",
+        "iso639_3": "tyh",
+        "note": "Biến thể cùng ngôn ngữ ở bên kia biên giới Việt – Lào, còn được bảo lưu tốt hơn trong giao tiếp gia đình; cộng đồng bản Văng Môn từng mời người Ơ Đu từ Nonghet sang hỗ trợ truyền dạy từ vựng (2017–2020)."
+      },
+      {
+        "name": "Ngôn ngữ họ hàng gần nhất: Tiếng Phong-Kniang (Tay Phong / Pramic)",
+        "iso639_3": "pnx",
+        "note": "Thuộc cùng tiểu nhánh Pramic của nhóm Khmuic tại tỉnh Hủa Phăn / Xiêng Khoảng (Lào), cùng chia sẻ từ gốc /pram/ 'người' và biến đổi nâng nguyên âm *aː₁ > iː."
+      },
+      {
+        "name": "Ngôn ngữ giao tiếp thay thế thực tế tại cộng đồng Ơ Đu Việt Nam (không phải tiếng Ơ Đu gốc)",
+        "iso639_3": "tyj / kjg / vie",
+        "note": "Hàng ngày người Ơ Đu tại Nghệ An chủ yếu nói tiếng Thái địa phương (Tay Mương, ISO: tyj), tiếng Khơ Mú (ISO: kjg) và tiếng Việt (ISO: vie); khi thu thập dữ liệu âm thanh cần tránh nhầm lẫn ngữ liệu tiếng Thái Tay Mương với tiếng Ơ Đu gốc."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "pram (Phrom)",
+        "quoc_ngu": "pờ-ram / phờ-rom",
+        "note": "Tiếng Việt chuẩn không có tổ hợp phụ âm đầu /pr-/; cần tách thành tiền âm tiết cực ngắn 'pờ-' + 'ram' để mô hình TTS/giọng hát tiếng Việt không bỏ sót phụ âm đầu."
+      },
+      {
+        "native": "gliŋ",
+        "quoc_ngu": "gờ-linh",
+        "note": "Tổ hợp phụ âm đầu /ɡl-/ không có trong tiếng Việt; đọc lướt nhanh âm 'gờ-' không nhấn trọng âm vào 'linh' (lưu ý tiếng Việt phát âm '-inh' thành [-iŋ] hoặc [-ɨn] tùy vùng, giọng Bắc [-iŋ] khá gần với /-iŋ/)."
+      },
+      {
+        "native": "htaː",
+        "quoc_ngu": "hờ-ta",
+        "note": "Tiền âm tiết xát thanh hầu /ht-/ không tồn tại trong tiếng Việt; xấp xỉ bằng âm thở nhẹ 'hờ-' cực ngắn trước 'ta'."
+      },
+      {
+        "native": "bɨl",
+        "quoc_ngu": "bưn (gợi ý âm cuối -l)",
+        "note": "Tiếng Việt không có phụ âm cuối /-l/; chữ Quốc ngữ chỉ có thể xấp xỉ tạm bằng '-n' ('bưn'), làm mất đối lập /-l/ và /-n/ của tiếng Ơ Đu."
+      },
+      {
+        "native": "hmbaːʔr",
+        "quoc_ngu": "hừm-bạ-rờ",
+        "note": "Cả tiền âm tiết mũi vô thanh /hmb-/ lẫn vần giọng kẹt kết thúc bằng /-ˀr/ đều không có trong tiếng Việt chuẩn. Thanh nặng ('bạ') có thể mô phỏng một phần hiệu ứng thanh hầu hóa (creaky voice), nhưng âm /-r/ cuối buộc phải xấp xỉ thô."
+      },
+      {
+        "native": "hndɨːy",
+        "quoc_ngu": "hừn-đưi",
+        "note": "Tiền âm tiết mũi /hnd-/ được tách thành âm lướt mũi 'hừn-' cực ngắn trước âm tiết chính 'đưi'."
+      },
+      {
+        "native": "mpeyʰ",
+        "quoc_ngu": "mờ-pây-hờ",
+        "note": "Tiền âm tiết mũi /mp-/ và bán nguyên âm cuối kèm xát thanh hầu /-jʰ/ không tồn tại trong tiếng Việt."
+      },
+      {
+        "native": "hntul",
+        "quoc_ngu": "hừn-tun",
+        "note": "Xấp xỉ tiền âm tiết /hnt-/ bằng 'hừn-' ngắn; âm cuối /-l/ bị trung hòa thành '-n' trong tiếng Việt."
+      },
+      {
+        "native": "krgul",
+        "quoc_ngu": "cờ-rờ-gun",
+        "note": "Tiền âm tiết /kr-/ trước /ɡ/ và âm cuối /-l/ đều không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "kəruuŋʔ",
+        "quoc_ngu": "cơ-ruụng / cơ-rũng",
+        "note": "Âm cuối mũi thanh hầu hóa /-ŋˀ/ (giọng kẹt) không có tương đương chính xác ở âm tiết mở/vang không thanh điệu; dấu nặng hoặc dấu ngã miền Bắc chỉ tạo hiệu ứng thanh hầu hóa kèm biến thiên cao độ ngoài ý muốn."
+      },
+      {
+        "native": "Chăm phtrơng",
+        "quoc_ngu": "chăm phờ-trơng",
+        "note": "Cụm phụ âm đầu phức 'phtr-' cần tách tiền âm tiết nhẹ 'phờ-' + 'trơng' để tránh lỗi vấp tokenizer của TTS tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "pram",
+        "ipa": "pram",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "mim",
+        "ipa": "mim",
+        "meaning_vi": "máu"
+      },
+      {
+        "native": "gliŋ",
+        "ipa": "ɡliŋ",
+        "meaning_vi": "đá"
+      },
+      {
+        "native": "jon ʔiɲ",
+        "ipa": "ɟɔn ʔiɲ",
+        "meaning_vi": "xương"
+      },
+      {
+        "native": "taːn",
+        "ipa": "taːn",
+        "meaning_vi": "đan, dệt"
+      },
+      {
+        "native": "htaː",
+        "ipa": "htaː",
+        "meaning_vi": "lưỡi"
+      },
+      {
+        "native": "roj",
+        "ipa": "rɔj",
+        "meaning_vi": "hổ"
+      },
+      {
+        "native": "bɨl",
+        "ipa": "bɨl",
+        "meaning_vi": "dày"
+      },
+      {
+        "native": "hndɨːy",
+        "ipa": "hndɨːj",
+        "meaning_vi": "một (1)"
+      },
+      {
+        "native": "hmbaːʔr",
+        "ipa": "hmbaːˀr",
+        "meaning_vi": "hai (2)"
+      },
+      {
+        "native": "mpeyʰ",
+        "ipa": "mpejʰ",
+        "meaning_vi": "ba (3)"
+      },
+      {
+        "native": "mpɒn",
+        "ipa": "mpɒn",
+        "meaning_vi": "bốn (4)"
+      },
+      {
+        "native": "hnsɔɔŋ",
+        "ipa": "hnsɔːŋ",
+        "meaning_vi": "năm (5)"
+      },
+      {
+        "native": "hntul",
+        "ipa": "hntul",
+        "meaning_vi": "sáu (6)"
+      },
+      {
+        "native": "krgul",
+        "ipa": "krɡul",
+        "meaning_vi": "bảy (7)"
+      }
+    ],
+    "phonetic_gaps_vs_vietnamese": [
+      "Tổ hợp phụ âm đầu (pr-, gl-, kr-) và tiền âm tiết mũi âm tiết tính (hnd-, hmb-, hnt-, hns-, mp-, gnt-) không tồn tại trong tiếng Việt hiện đại.",
+      "Phụ âm cuối /-r/, /-ˀr/, /-l/, /-jʰ/ không tồn tại trong tiếng Việt; TTS tiếng Việt sẽ đọc lệch hoặc câm nếu không chuyển thành phoneme IPA trực tiếp.",
+      "Đối lập trường độ nguyên âm toàn hệ thống (ngắn vs. dài: i/iː, u/uː, ɔ/ɔː, a/aː) rộng hơn tiếng Việt (tiếng Việt chỉ đối lập trường độ ở ă/a và â/ơ).",
+      "Đối lập chất giọng (creaky register / thanh hầu hóa ở âm cuối như -ŋˀ, -ˀr) không gắn với đường nét thanh điệu 6 thanh của tiếng Việt."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — O'du (oduu1239)",
+      "url": "https://glottolog.org/resource/languoid/id/oduu1239",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Oʼdu language",
+      "url": "https://en.wikipedia.org/wiki/O%CA%BCdu_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Ơ Đu",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_%C6%A0_%C4%90u",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "RWAAI (Repository and Workspace for Austroasiatic Intangible Heritage, Lund University) — Iduh Digital Archive",
+      "url": "http://hdl.handle.net/10050/00-0000-0000-0003-93EF-1",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cheeseman, Nathaniel, Paul Sidwell & Anne Osborne (2017). Khmuic Linguistic Bibliography with Selected Annotations. Journal of the Southeast Asian Linguistics Society 10.1: i–xlvi.",
+      "url": "http://hdl.handle.net/10524/52405",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sidwell, Paul (2014). Khmuic classification and homeland. Mon-Khmer Studies 43.1: 47–56.",
+      "url": "http://mksjournal.org",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Badenoch, Nathan (2021). Rhyme over reason: Language, counting and play in Northern Laos. Journal of the Southeast Asian Linguistics Society 14.2: 46–60.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Diffloth, Gérard (1996). Creaky Register in Iduh, a Khmuic Language. Pan-Asiatic Linguistics: Proceedings of the Fourth International Symposium on Languages and Linguistics, Mahidol University.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Văn Thông & Tạ Quang Tùng (2020). Trạng thái ngôn ngữ các dân tộc thuộc nhóm Khơ-Mú ở Việt Nam.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Trần Trí Dõi (2017). Thử phân tích nguyên nhân tiêu vong của tiếng Ơ Đu ở Việt Nam. Trong Ngôn ngữ ở Việt Nam hội nhập và phát triển, NXB Dân trí, tr. 1966–1977.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ủy ban Dân tộc & Tổng cục Thống kê (2020). Kết quả Điều tra thu thập thông tin về thực trạng kinh tế - xã hội của 53 dân tộc thiểu số năm 2019.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "lexicon[9] (swaːn) & phonology.onsets (w, sw)",
+          "severity": "medium",
+          "problem": "Từ 'swaːn' (rìu, búa) trong tài liệu tham khảo (Alves 2015: 50, dẫn Sidwell 2013) thực chất được ghi nhận là dạng phục nguyên tiền ngôn ngữ Proto-Pramic *swaːn, chưa tách bạch rõ là dạng chứng thực trực tiếp của riêng tiếng Ơ Đu (Iduh) hay tiếng Phong.",
+          "fix": "Hạ confidence của 'swaːn' trong lexicon và các mục phụ âm đầu 'w', 'sw' trong phonology.onsets xuống 'low', bổ sung ghi chú rõ đây là dạng phục nguyên Proto-Pramic *swaːn (Sidwell 2013; Alves 2015) và loại khỏi ml_hints.sample_words."
+        },
+        {
+          "path": "lexicon & validation.open_issues (số đếm 'ba (3)')",
+          "severity": "low",
+          "problem": "Bảng mã gốc để khuyết số đếm 'ba (3)' của tiếng Iduh trong dãy số 1–10 từ Badenoch (2021, dẫn Diffloth p.c.). Kiểm tra trực tiếp Bảng 2 của Badenoch (2021) xác nhận số 3 trong tiếng Iduh là 'mpeyʰ'.",
+          "fix": "Bổ sung mục từ 'mpeyʰ' ('ba (3)', IPA: 'mpejʰ', confidence: 'high') vào lexicon và ml_hints.sample_words; bổ sung âm cuối '-jʰ' ('yʰ') vào phonology.codas; cập nhật lại validation.open_issues."
+        },
+        {
+          "path": "lexicon[1] (Phrom Ơ Đu)",
+          "severity": "low",
+          "problem": "Cụm tộc danh 'Phrom Ơ Đu' có mặt trong tài liệu dân tộc học tiếng Việt và gốc từ /pram/ 'người' được chứng thực trong Badenoch (2021), nhưng phiên âm IPA đầy đủ cả cụm 'pram ʔəː duː' là suy đoán quy chiếu, chưa có ghi âm IPA trực tiếp cho phần 'Ơ Đu'.",
+          "fix": "Hạ confidence của mục 'Phrom Ơ Đu' từ 'medium' xuống 'low'."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các nguồn URL hợp lệ đều hoạt động tốt nhưng trường url_check đang để null.",
+          "fix": "Cập nhật url_check thành 'ok' cho các nguồn đã kiểm chứng qua tìm kiếm."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Ơ Đu hiện chưa có bảng hệ thống âm vị đầy đủ được công bố chính thức (bản thảo 2.000 từ Iduh năm 2005 của Suwilai Premsrirat và băng ghi âm lưu trữ tại RWAAI cần được đối chiếu trực tiếp để hoàn thiện toàn bộ hệ phụ âm, nguyên âm và âm cuối).",
+      "Cần xác minh thực địa tại bản Văng Môn (xã Nga My, huyện Tương Dương, Nghệ An) về quy ước ghi âm tạm dùng trong các lớp truyền dạy tiếng Ơ Đu giai đoạn 2017–2025 và tách bạch rõ lớp từ vựng Ơ Đu gốc với lớp từ vay mượn tiếng Thái Tay Mương / Khơ Mú.",
+      "Cần xác minh dạng hiện thực hóa cụ thể của từ *swaːn ('rìu', phục nguyên Proto-Pramic trong Sidwell 2013; Alves 2015) trong tiếng Ơ Đu (Iduh) so với tiếng Phong."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

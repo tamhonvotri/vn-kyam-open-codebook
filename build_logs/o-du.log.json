@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "o-du",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ơ Đu",
+    "ethnic_group_vi": "Ơ Đu",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:53:46.575732",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9384,
+      "candidatesTokenCount": 9152,
+      "totalTokenCount": 26669,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9384
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9152
+        }
+      ],
+      "thoughtsTokenCount": 8133,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11139,
+      "candidatesTokenCount": 10663,
+      "totalTokenCount": 23892,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11139
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10663
+        }
+      ],
+      "thoughtsTokenCount": 2090,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "lexicon[9] (swaːn) & phonology.onsets (w, sw)",
+        "severity": "medium",
+        "problem": "Từ 'swaːn' (rìu, búa) trong tài liệu tham khảo (Alves 2015: 50, dẫn Sidwell 2013) thực chất được ghi nhận là dạng phục nguyên tiền ngôn ngữ Proto-Pramic *swaːn, chưa tách bạch rõ là dạng chứng thực trực tiếp của riêng tiếng Ơ Đu (Iduh) hay tiếng Phong.",
+        "fix": "Hạ confidence của 'swaːn' trong lexicon và các mục phụ âm đầu 'w', 'sw' trong phonology.onsets xuống 'low', bổ sung ghi chú rõ đây là dạng phục nguyên Proto-Pramic *swaːn (Sidwell 2013; Alves 2015) và loại khỏi ml_hints.sample_words."
+      },
+      {
+        "path": "lexicon & validation.open_issues (số đếm 'ba (3)')",
+        "severity": "low",
+        "problem": "Bảng mã gốc để khuyết số đếm 'ba (3)' của tiếng Iduh trong dãy số 1–10 từ Badenoch (2021, dẫn Diffloth p.c.). Kiểm tra trực tiếp Bảng 2 của Badenoch (2021) xác nhận số 3 trong tiếng Iduh là 'mpeyʰ'.",
+        "fix": "Bổ sung mục từ 'mpeyʰ' ('ba (3)', IPA: 'mpejʰ', confidence: 'high') vào lexicon và ml_hints.sample_words; bổ sung âm cuối '-jʰ' ('yʰ') vào phonology.codas; cập nhật lại validation.open_issues."
+      },
+      {
+        "path": "lexicon[1] (Phrom Ơ Đu)",
+        "severity": "low",
+        "problem": "Cụm tộc danh 'Phrom Ơ Đu' có mặt trong tài liệu dân tộc học tiếng Việt và gốc từ /pram/ 'người' được chứng thực trong Badenoch (2021), nhưng phiên âm IPA đầy đủ cả cụm 'pram ʔəː duː' là suy đoán quy chiếu, chưa có ghi âm IPA trực tiếp cho phần 'Ơ Đu'.",
+        "fix": "Hạ confidence của mục 'Phrom Ơ Đu' từ 'medium' xuống 'low'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các nguồn URL hợp lệ đều hoạt động tốt nhưng trường url_check đang để null.",
+        "fix": "Cập nhật url_check thành 'ok' cho các nguồn đã kiểm chứng qua tìm kiếm."
+      }
+    ]
+  },
+  "schema_errors": []
+}

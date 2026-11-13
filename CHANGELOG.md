@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.1 — 2026-11-13
+- Đủ 58/58 bảng mã: 5 phương ngữ tiếng Việt + ngôn ngữ của toàn bộ 53 dân tộc thiểu số.
+- Thêm báo cáo kỹ thuật `paper/VN-KyAm_technical_report_v0.1.1.md`.
+- Tạo lại `dist/` và `SHA256SUMS`.
+
 ## v0.1.0 — 2026-11-13 (bản công bố sớm / early public release)
 - Schema bảng mã ký âm v1 (`schema/codebook.schema.json`).
 - 5 phương ngữ tiếng Việt: Bắc Bộ, Bắc Trung Bộ, Trung Bộ (Huế), Nam Trung Bộ, Nam Bộ (bản tham chiếu do con người soạn).

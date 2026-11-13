@@ -7,6 +7,26 @@ ba-na,"'m, 'n, 'nh, 'ng, 'l (tiền thanh hầu hóa) và hm, hn, hl, hr (vô th
 ba-na,"pl-, bl-, kl-, kr-, pr-, br- (tổ hợp phụ âm đầu)","pờ-l, bờ-l, cờ-l, cờ-r, pờ-r, bờ-r (lướt cực nhanh)",Tiếng Việt hiện đại không còn cụm phụ âm đầu CC-; nếu đưa thẳng vào TTS tiếng Việt mô hình dễ đánh vần rời từng chữ cái.
 ba-na,"ĕ, ŏ, ŭ, ĭ, ơ̆ (nguyên âm ngắn) và nguyên âm mở cuối có ◌̆ (như bă)","e, o, u, i, â (cắt ngắn; ở cuối âm tiết thêm thanh sắc/nặng ngắt nhanh, ví dụ bă → bắc/bạ ngắt thanh hầu)","Dấu ◌̆ trên e, o, u, i, ơ không tồn tại trong bảng chữ Quốc ngữ nên sẽ làm vỡ sub-token của các tokenizer chỉ huấn luyện trên tiếng Việt."
 ba-na,"-r, -l, -h, -ih/-yh (phụ âm cuối)",-r/-l → không có âm tương đương (chỉ xấp xỉ rất xa bằng -n); -h → hà hơi ngắn cuối vần; -ih → -i kèm hơi thở nhẹ,"Tiếng Việt hoàn toàn thiếu các âm cuối /-r/, /-l/, /-h/, /-jh/; đây là điểm lệch lớn nhất khi dùng giọng tiếng Việt xấp xỉ tiếng Ba Na."
+bo-y,b (chữ Bố Y 1985) / /p/,p,Tiếng Việt chuẩn hiếm có /p/ đầu âm tiết trừ từ mượn; TTS tiếng Việt dễ đọc nhầm thành /ɓ/ ('b') nếu không ép phoneme /p/.
+bo-y,mb / /ɓ/,b,Trùng khớp với âm 'b' [ɓ] trong tiếng Việt.
+bo-y,d / /t/,t,"Trong chữ Bố Y 1985, 'd' biểu thị âm /t/ vô thanh (như 't' tiếng Việt), không phải /z/ hay /j/."
+bo-y,nd / /ɗ/,đ,Trùng khớp với âm 'đ' [ɗ] trong tiếng Việt.
+bo-y,g / /k/ và gv / /kʷ/,c / k và qu,Chữ 'g' trong chính tả Bố Y là âm tắc vô thanh /k/; 'gv' tương đương 'qu' [kw] giọng Bắc.
+bo-y,by / /pʲ/ và my / /mʲ/,pi- / mi-,Tiếng Việt không có phụ âm hai môi ngạc hóa đơn lập; xấp xỉ bằng cách chèn bán nguyên âm 'i' ngắn trước nguyên âm chính (ví dụ byaal → 'pia').
+bo-y,qv / /ˀv/ và qy / /ˀj/,v / d (giọng Nam) hoặc y,"Tiếng Việt không có loạt tiếp cận tiền thanh hầu hóa /ˀv/, /ˀj/; chỉ xấp xỉ được phần âm sắc 'v' và 'd/y', mất nét tắc thanh hầu mở đầu."
+bo-y,"j / /tɕ/, q / /tɕʰ/, x / /ɕ/","ch, s/x (bật hơi), x",Âm lợi-ngạc /tɕ/ gần với 'ch' [tɕ ~ c] tiếng Việt; /tɕʰ/ bật hơi không có trong tiếng Việt; /ɕ/ gần với 'x' nhẹ kèm nâng mặt lưỡi.
+bo-y,r / /z ~ ð/,d (giọng Bắc),Âm /z/ trùng với 'd/gi' giọng Hà Nội; biến thể liên răng [ð] ở người già không có trong tiếng Việt.
+bo-y,e / /ɯ/,ư,"Trong chữ Bố Y 1985, 'e' đơn thường ghi âm /ɯ/ ('ư'), trong khi 'ee' mới là /e/ ('ê')."
+bo-y,"Chữ thanh điệu cuối âm tiết: -l (24), -z (11), -c (53), -x (31), -s (35), -h (33)","dấu sắc/hỏi nhẹ (-l), dấu huyền thấp (-z), dấu sắc gãy/ngã (-c), dấu huyền (-x), dấu sắc (-s), không dấu (-h)",Cần tách bỏ chữ cái thanh điệu cuối từ trước khi chuyển tự sang Quốc ngữ và ánh xạ thành dấu thanh tương ứng trên nguyên âm.
+brau,Brao,bờ-rao,Tiếng Việt chuẩn không có tổ hợp phụ âm đầu tắc + rung [br-]; viết tách tiền âm tiết cực ngắn 'bờ' (nốt lướt 1/16 phách) nối vào 'rao' để tránh lỗi tokenizer tách ký tự đơn lẻ.
+brau,baar,ba-rờ,"Tiếng Việt không có phụ âm rung cuối âm tiết [-r]. Nếu cần giữ màu sắc âm cuối [-r], luyến nhẹ sang âm 'rờ' cực ngắn vô thanh; nếu ưu tiên liền tiếng trong giọng hát có thể xấp xỉ thô thành 'ba'."
+brau,hnaam,hờ-nam,Âm mũi tiền bật hơi [ʰn] không tồn tại trong tiếng Việt; mô phỏng bằng âm xát thanh hầu 'hờ' cực ngắn nối liền vào 'nam'.
+brau,daak,đác,"Trong tiếng Việt, âm tiết kết thúc bằng -c bắt buộc mang thanh sắc hoặc thanh nặng; chọn 'đác' hoặc 'đạc' tùy cao độ giai điệu tại vị trí nốt nhạc (lối phiên âm địa danh ở Tây Nguyên thường viết là 'đăk' / 'đắc')."
+brau,ʔuɲ,uynh / un,Phụ âm cuối mặt lưỡi [-ɲ] sau nguyên âm tròn môi [u] không có dạng chuẩn tương đương trực tiếp trong Quốc ngữ (chữ 'unh' không thông dụng trong từ vựng Việt và dễ vỡ token; tư liệu dân tộc học Việt Nam thường ghi xấp xỉ là 'un').
+brau,ɲɛɛt,nhét,Nguyên âm [ɛː] đi với âm cuối [-t] khớp gần đúng với vần 'ét'/'ẹt' trong Quốc ngữ; chọn thanh sắc hay nặng theo cao độ nốt hát.
+brau,tamaa,tơ-ma,"Từ bán song tiết (sesquisyllabic): tiền âm tiết không nhấn xấp xỉ bằng 'tơ' ngắn, trọng âm rơi vào âm tiết chính 'ma' ngân dài."
+brau,mir,mi-rờ,"Âm cuối [-r] không có trong tiếng Việt; báo chí điền dã tại Kon Tum từng ghi cảm tính là 'mưnr' nhưng chuỗi 'mưnr' chắc chắn làm vỡ BPE tokenizer của mô hình TTS/SVS tiếng Việt, nên thay bằng 'mi-rờ' hoặc 'mi'."
+brau,ŋeh,nghe-hờ,Phụ âm cuối xát thanh hầu [-h] và xát mặt lưỡi [-ç] đặc trưng Môn-Khmer hoàn toàn vắng mặt ở vị trí cuối âm tiết tiếng Việt; chỉ có thể mô phỏng gần đúng bằng hơi thở ra nhẹ ở cuối nốt.
 bru-van-kieu,Parnai Brũ,Pơ-nai Bờ-ru,Âm đầu phức br- và âm cuối -r trong tiền âm tiết par- không có trong tiếng Việt chuẩn; bỏ dấu ngã trên 'Brũ' để tránh TTS đọc thành thanh ngã gãy giọng.
 bru-van-kieu,vil,vin,Tiếng Việt không có âm cuối [-l]; xấp xỉ gần nhất bằng '-n' nhưng mất đối lập giữa /-l/ và /-n/.
 bru-van-kieu,bar,ba-rờ / ba,Tiếng Việt không có âm rung cuối [-r]; khi hát ngân dài nên đọc nguyên âm mở 'ba' kèm uốn lưỡi nhẹ cuối phách.
@@ -66,6 +86,17 @@ co-ho,khai,khai (giọng Trung/Nam đọc bật hơi [kʰ]),"Âm <kh> Kơho là 
 co-ho,sơnơm,xơ-nơm,"Tiền âm tiết <sơ-> đọc rất lướt, nhẹ, không mang trọng âm; trọng âm rơi vào âm tiết chính '-nơm'."
 co-ho,dùl / vàr / ồs / muh,đùn-l / bà-r / ồ-x / mu-h,"Tiếng Việt hoàn toàn KHÔNG có các phụ âm cuối /-l, -r, -s, -h/. Mô hình TTS thuần Việt sẽ không phát âm được âm cuối này nếu viết liền; khi xấp xỉ phải nối âm lướt cực ngắn hoặc fine-tune phoneme-level."
 co-ho,srá,x-rạ / x-rắc (ngắt thanh hầu nhanh),Cụm phụ âm đầu <sr-> [sr] và dấu sắc ghi âm tắc thanh hầu cuối /-ʔ/ [sraʔ] (không phải thanh sắc đi lên kéo dài của tiếng Việt).
+co-lao,tɯ³⁴ ʔɗɯ³³ (tên tự gọi Cờ Lao Trắng),tứ đư,"Cách phiên âm truyền thống trong dân tộc học Việt Nam ('Tứ Đư' / 'Tú Du'); thanh 34 xấp xỉ thanh sắc nhẹ, thanh 33 tương đương thanh ngang."
+co-lao,va³⁵ ntɯ³¹ (tên tự gọi Cờ Lao Đỏ),voa đề / vàn đừ,"Âm tiền mũi hóa [ntɯ³¹] không có trong tiếng Việt, xấp xỉ bằng 'n-đừ' hoặc 'đề'."
+co-lao,ʔi³³ (tôi),i,Phát âm với âm tắc thanh hầu đầu rõ và thanh ngang (33).
+co-lao,qɒ⁴⁵ ⁿɗi⁴⁵ (chúng ta),có n-đi,Tiếng Việt không có âm lưỡi con [q] (xấp xỉ bằng 'c/k' mở sâu họng) và âm tiền mũi hóa [ⁿɗ] (tách nhẹ 'n' lướt nhanh vào 'đ').
+co-lao,qɔ³³ nɔ̃³³ (ai),co noong,"Nguyên âm mũi [ɔ̃] không có trong tiếng Việt, xấp xỉ tạm bằng vần '-oong' ngậm nhẹ không khép chặt mạc."
+co-lao,m̩̃³³ (nước),ưm / ừm (ngậm môi),Âm tiết chỉ gồm phụ âm mũi hai môi ngân ngang [m̩̃³³] không mở miệng thành nguyên âm; TTS tiếng Việt thuần túy không đọc được trực tiếp nếu không can thiệp phoneme.
+co-lao,ɗɔ³³ ʰm̩̃⁴⁵ (chó),đo h-mứ,Âm [ʰm̩̃⁴⁵] thở hơi qua mũi trước khi ngân âm [m] thanh cao; chữ Quốc ngữ không biểu đạt được âm mũi vô thanh kiêm đỉnh âm tiết.
+co-lao,plɔ³¹ˀ (máu),p-loọ,"Tổ hợp /pl-/ lướt nhanh không chèn nguyên âm 'ơ', kết thúc kẹt thanh hầu giống thanh nặng miền Bắc."
+co-lao,ɗɔ³³ lɤ³⁴ (cá),đo lớ,"Thanh 34 lên vừa phải, thấp hơn thanh sắc Hà Nội một chút."
+co-lao,lɔ⁴⁵ hu⁴⁴ (lửa),lo hú,"Khá gần âm vị tiếng Việt; thanh 45 cao lên rõ, thanh 44 cao bằng."
+co-lao,ɓo³⁴¨ ti³⁴ (mắt),bó tí,Âm đầu [ɓ] và [t] tương đồng tiếng Việt; chất giọng hà hơi (¨) ở âm tiết đầu sẽ bị mất khi đọc bằng TTS tiếng Việt.
 co-tu,pơraq / p'rá,pơ-rắc,"Âm tiết phụ pơ- đọc cực ngắn, không nhấn; âm cuối tắc thanh hầu /-ʔ/ (-q) không có chữ tương đương trong Quốc ngữ, xấp xỉ bằng âm tiết khép ngắn hoặc thanh nặng/sắc ngắt giọng."
 co-tu,Bhalêê,ba-lê,Chữ bh ghi âm hút vào /ɓ/ tương đương chữ 'b' trong tiếng Việt chuẩn; nguyên âm đôi chữ cái êê ghi âm /eː/ kéo dài hơn bình thường.
 co-tu,Đh'Rôồng,đơ-rôồng (đ-rồng kéo dài),Tổ hợp tiền âm tiết hút vào + r; nguyên âm ôô dài /oː/ không có đối lập riêng trong chữ Quốc ngữ.
@@ -86,6 +117,14 @@ co,muyq,mụi,Vần hậu thanh hầu hóa /-ujʔ/ (-uyq) không có trong tiế
 co,chowah (cawah),chơ-oách / chơ-oác (thở hơi cuối),Tiền âm tiết cho-/ca- đọc nhẹ lướt [cə-]; âm xát thanh hầu cuối /-h/ không có trong tiếng Việt (TTS tiếng Việt không phát được luồng hơi thở ra cuối từ).
 co,qblâk,b-lấc,"qb /ɓ/ tương ứng chính xác với 'b' tiếng Việt, nhưng tiếng Việt hiện đại không có cụm phụ âm đầu /ɓl-/ nên TTS tiếng Việt dễ chèn nguyên âm đệm thành 'bờ-lấc'."
 co,ph / kh / j / hl / -lh,p-h / k-h / d-gi / h-l / -l-h,"Các âm KHÔNG có tương đương trực tiếp trong tiếng Việt chuẩn: ph /pʰ/ (tắc đôi môi bật hơi, khác ph /f/ tiếng Việt), kh /kʰ/ (tắc ngạc mềm bật hơi, khác kh /x/ tiếng Bắc), j /ɟ/ (tắc ngạc cứng hữu thanh), âm mũi/bên vô thanh hm, hn, hl /m̥, n̥, l̥/ và âm bên vô thanh cuối từ -lh /-l̥/."
+cong,ph [pʰ],p-h / ph (đọc bật hơi),Âm [pʰ] không có trong tiếng Việt chuẩn Hà Nội (chữ 'ph' tiếng Việt đọc là âm xát môi-răng [f]). Mô hình TTS chỉ biết tiếng Việt sẽ đọc nhầm thành [f] nếu viết 'ph'; cần xử lý ở tầng phoneme/IPA nếu có thể.
+cong,kh [kʰ],kh,"Tiếng Cống phát âm là âm tắc bật hơi [kʰ] (gần với cách đọc 'kh' ở một số phương ngữ Nam Bộ/Trung Bộ), trong khi giọng chuẩn Hà Nội đọc 'kh' là âm xát [x]."
+cong,g [ɡ],g / gh,Âm tắc ngạc mềm hữu thanh [ɡ] không có trong tiếng Việt chuẩn (chữ 'g/gh' tiếng Việt là âm xát [ɣ]).
+cong,ts [ts],ch / x,Âm tắc xát đầu lưỡi [ts] không có trong tiếng Việt chuẩn; xấp xỉ gần nhất bằng 'ch' [tɕ].
+cong,trs / tsh [tsʰ],x / s,"Âm tắc xát đầu lưỡi bật hơi [tsʰ] (Phạm Huy 1998 viết là 'trs' như 'trse' = mười) không có trong tiếng Việt và cụm 'trs' sẽ làm vỡ token hoàn toàn trên các tokenizer tiếng Việt; khi xấp xỉ Quốc ngữ cho TTS/giọng hát thuần Việt nên viết thành 'x' (ví dụ 'trse' -> 'xe'), chấp nhận mất nét tắc bật hơi."
+cong,dz [dz],d / gi,Âm tắc xát hữu thanh [dz] không có trong tiếng Việt chuẩn; xấp xỉ bằng 'd' [z] của giọng Bắc.
+cong,"pj, phj, bj, mj [pʲ, pʰʲ, bʲ, mʲ]","pi-, phi-, bi-, mi-","Tiếng Việt không có loạt phụ âm môi ngạc hóa ở đầu âm tiết đơn; có thể xấp xỉ bằng nguyên âm lướt 'i-' nối liền (ví dụ 'pia', 'bia', 'mia')."
+cong,"Thanh 55, 33, 31","dấu sắc (55), thanh ngang (33), dấu huyền (31)",Thanh 55 tiếng Cống là cao bằng (không đi lên từ thấp như sắc 35 Hà Nội nhưng gần cao độ đích); thanh 33 khớp tốt với thanh ngang (33); thanh 31 khớp gần với thanh huyền (21).
 dao,Iu Mienh waac,Iu Miền oạc,Tên tự gọi 'tiếng Dao (Ưu Miền)'. Chữ -h ghi thanh xuống vừa (gần thanh huyền); -c ghi thanh thấp kẹt (gần thanh nặng).
 dao,"b / d / g (ví dụ: buo 'ba', douz 'lửa', go 'xa')","p / t / c-k (puô, tầu, cô)","Lưu ý quan trọng: chữ b, d, g trong IMUS giống Pinyin, đọc là âm vô thanh không bật hơi /p, t, k/, KHÔNG đọc như b, d, g của chữ Quốc ngữ."
 dao,"mb / nd / nq (ví dụ: mbuo 'chúng ta', ndau 'đất', nqaang 'sau')","b / đ / g-gh (buô, đau, gang)","mb, nd tương ứng b, đ hữu thanh tiếng Việt; tiếng Việt chuẩn không có âm tắc /ɡ/ (chữ g Quốc ngữ là âm xát [ɣ]), nên 'g' chỉ là xấp xỉ."
@@ -264,6 +303,16 @@ ma,jơnau,dơ-nau,Cảnh báo âm không có trong tiếng Việt: j [ɟ] là â
 ma,brê,bơ-rê,Tiếng Việt hiện đại không có cụm phụ âm đầu br-; cần chèn nguyên âm trung hòa cực ngắn 'ơ' khi đưa qua bộ đọc Quốc ngữ.
 ma,mir,mi-rơ,Cảnh báo âm không có trong tiếng Việt: phụ âm rung cuối âm tiết -r [r] không tồn tại trong tiếng Việt.
 ma,nggar,ngơ-ga,Tổ hợp tiền mũi hóa ngg- [ŋɡ] và âm cuối -r [r] đều không có trong tiếng Việt.
+mang,θ (như trong θiːn² 'chín'),th / x,"Âm xát răng vô thanh [θ] không có trong tiếng Việt; 'th' tiếng Việt thực tế là [tʰ] bật hơi, còn 'x' là [s]. Dùng 'x' (xin/xìn) giữ được tính xát tốt hơn cho giọng hát, hoặc 'th' nếu ưu tiên vị trí răng."
+mang,"ʑ (như trong ʑum¹ 'nước', ʑɨəj⁴ 'hai')",d / gi,Âm xát lợi-ngạc hữu thanh [ʑ] không có trong tiếng Việt chuẩn; xấp xỉ gần nhất bằng 'd/gi' đọc theo giọng Bắc [z].
+mang,"p- (đầu âm tiết, như trong peː³ 'ba', puːn² 'bốn')",p,"Chữ Quốc ngữ ít dùng 'p-' đầu từ thuần Việt nhưng mô hình TTS tiếng Việt hiện đại thường đọc được từ vay mượn (như 'pê', 'pùn'); tránh đổi thành 'b' vì tiếng Mảng phân biệt /p/ với /ɓ/."
+mang,"y, ø, œ (như trong pyː¹ 'bảy')",uy / uê / oe,"Tiếng Việt không có nguyên âm đơn tròn môi hàng trước [y, ø, œ]; chỉ có thể xấp xỉ bằng vần có âm đệm môi 'uy' (ví dụ pyː¹ -> 'puy')."
+mang,tl- / kl- (như trong tlu ~ klu 'trâu'),tờ-lu / cờ-lu,Tiếng Việt hiện đại không có tổ hợp phụ âm đầu CC-; cần tách bằng nguyên âm lướt cực ngắn ('tờ-lu' / 'cờ-lu') để tránh vỡ bộ mã hóa token.
+mang,-l (cuối âm tiết),-n,Tiếng Việt không có âm bên [-l] ở cuối âm tiết; xấp xỉ bằng '-n' theo thói quen Việt hóa từ vay mượn.
+mang,măk⁶ ('một'),mắc,Khớp gần như hoàn toàn với vần '-ăc' [ăk] thanh sắc của tiếng Việt.
+mang,ʑɨəj⁴ ('hai'),dươi / dười,Vần [ɨəj] khớp với 'ươi' tiếng Việt; phụ âm đầu [ʑ] xấp xỉ bằng 'd' giọng Bắc.
+mang,ʑum¹ ('nước'),dum / dùm,"Phụ âm đầu [ʑ] xấp xỉ bằng 'd' giọng Bắc, vần [um] khớp với '-um' tiếng Việt."
+mang,ɲɛ² ('lửa'),nhe / nhè,Âm [ɲɛ] khớp trực tiếp với 'nhe' trong chữ Quốc ngữ (tùy chọn dấu thanh theo giai điệu/phương ngữ).
 mnong,ƀon / bon,bon,Âm đầu /ɓ/ (ƀ) trùng với 'b' tiếng Việt; thanh ngang giữ giọng bằng.
 mnong,bri dak,bờ-ri đác,"Tổ hợp phụ âm đầu /br-/ không có trong tiếng Việt chuẩn, cần tách nhẹ tiền âm tiết 'bờ-ri'; 'dak' có âm đầu /ɗ ~ d/ và tắc cuối /-k/ đọc gần 'đác' nhưng cao độ thấp hơn thanh sắc tiếng Việt."
 mnong,bunuyh,bu-nui-hờ (hoặc bu-nuých nhẹ),Âm cuối /-ç/ (<yh>) không có trong tiếng Việt; TTS tiếng Việt chỉ có thể xấp xỉ bằng vần 'nui' kèm luồng hơi xát nhẹ hoặc 'nuých' giảm lực tắc.
@@ -298,6 +347,17 @@ nung,"kh (ví dụ: khảu 'gạo/vào', khỏi 'tôi')","kh (ví dụ: khảu, 
 nung,"p đầu âm tiết (ví dụ: páy/pây 'đi', pá/pa 'cá')","p (ví dụ: pây, pa)","Âm /p/ đầu âm tiết rất phổ biến trong tiếng Nùng; một số giọng đọc TTS tiếng Việt dễ đọc nhầm 'p-' thành [b-], nên kiểm tra phát âm trên các từ mượn có p- của mô hình."
 nung,"-h chỉ nguyên âm ngắn trong chữ SIL (ví dụ: áhn, vahn, hẻht, cưhn, lụhc, Nohng)","ăn, vằn, hét/hẻt, cần, lục, Nùng","Chữ 'h' đứng giữa nguyên âm và phụ âm cuối trong chính tả SIL chỉ đánh dấu nguyên âm ngắn, tuyệt đối không đọc thành âm /h/. Phải lược bỏ 'h' và đổi sang con chữ nguyên âm ngắn Quốc ngữ tương ứng trước khi đưa vào TTS tiếng Việt."
 nung,"-uhc / -ohng (ví dụ: lụhc 'con', Nohng 'Nùng')","lục, Nùng / Nồng","Phụ âm cuối /-k, -ŋ/ sau nguyên âm tròn môi trong tiếng Nùng giữ nguyên vị trí ngạc mềm [k, ŋ], không bị môi hóa ngậm hai môi [k͡p, ŋ͡m] như tiếng Việt."
+o-du,pram (Phrom),pờ-ram / phờ-rom,Tiếng Việt chuẩn không có tổ hợp phụ âm đầu /pr-/; cần tách thành tiền âm tiết cực ngắn 'pờ-' + 'ram' để mô hình TTS/giọng hát tiếng Việt không bỏ sót phụ âm đầu.
+o-du,gliŋ,gờ-linh,"Tổ hợp phụ âm đầu /ɡl-/ không có trong tiếng Việt; đọc lướt nhanh âm 'gờ-' không nhấn trọng âm vào 'linh' (lưu ý tiếng Việt phát âm '-inh' thành [-iŋ] hoặc [-ɨn] tùy vùng, giọng Bắc [-iŋ] khá gần với /-iŋ/)."
+o-du,htaː,hờ-ta,Tiền âm tiết xát thanh hầu /ht-/ không tồn tại trong tiếng Việt; xấp xỉ bằng âm thở nhẹ 'hờ-' cực ngắn trước 'ta'.
+o-du,bɨl,bưn (gợi ý âm cuối -l),"Tiếng Việt không có phụ âm cuối /-l/; chữ Quốc ngữ chỉ có thể xấp xỉ tạm bằng '-n' ('bưn'), làm mất đối lập /-l/ và /-n/ của tiếng Ơ Đu."
+o-du,hmbaːʔr,hừm-bạ-rờ,"Cả tiền âm tiết mũi vô thanh /hmb-/ lẫn vần giọng kẹt kết thúc bằng /-ˀr/ đều không có trong tiếng Việt chuẩn. Thanh nặng ('bạ') có thể mô phỏng một phần hiệu ứng thanh hầu hóa (creaky voice), nhưng âm /-r/ cuối buộc phải xấp xỉ thô."
+o-du,hndɨːy,hừn-đưi,Tiền âm tiết mũi /hnd-/ được tách thành âm lướt mũi 'hừn-' cực ngắn trước âm tiết chính 'đưi'.
+o-du,mpeyʰ,mờ-pây-hờ,Tiền âm tiết mũi /mp-/ và bán nguyên âm cuối kèm xát thanh hầu /-jʰ/ không tồn tại trong tiếng Việt.
+o-du,hntul,hừn-tun,Xấp xỉ tiền âm tiết /hnt-/ bằng 'hừn-' ngắn; âm cuối /-l/ bị trung hòa thành '-n' trong tiếng Việt.
+o-du,krgul,cờ-rờ-gun,Tiền âm tiết /kr-/ trước /ɡ/ và âm cuối /-l/ đều không có trong tiếng Việt chuẩn.
+o-du,kəruuŋʔ,cơ-ruụng / cơ-rũng,Âm cuối mũi thanh hầu hóa /-ŋˀ/ (giọng kẹt) không có tương đương chính xác ở âm tiết mở/vang không thanh điệu; dấu nặng hoặc dấu ngã miền Bắc chỉ tạo hiệu ứng thanh hầu hóa kèm biến thiên cao độ ngoài ý muốn.
+o-du,Chăm phtrơng,chăm phờ-trơng,Cụm phụ âm đầu phức 'phtr-' cần tách tiền âm tiết nhẹ 'phờ-' + 'trơng' để tránh lỗi vấp tokenizer của TTS tiếng Việt.
 pa-then,[ʔɔ⁵⁵ ʔɔ̃³³] 'uống nước',o ó,Cách ghi thực tế của người dạy tiếng Pà Thẻn ở Lâm Bình (Tuyên Quang). Tiếng Việt không có nguyên âm mũi hóa /ɔ̃/ đối lập âm vị học; khi đọc bằng TTS tiếng Việt bị mất nét mũi hóa của âm tiết thứ hai.
 pa-then,[ʔa³³pah³³] / [tɤ³³pah³³] 'cái cây',a pa / tơ pa,Tiếng Việt không có giọng thở/chùng (slack/breathy voice [-h]) ở âm tiết mở thanh bằng; viết 'pa' chỉ giữ được cao độ ngang 33.
 pa-then,[nɔ̃h³³] 'ăn',no / nong,'no' giữ được âm tiết mở nhưng mất mũi hóa /ɔ̃/; 'nong' giữ âm sắc mũi nhưng thêm phụ âm đóng môi-mạc [-ŋ͡m] không có trong tiếng Pà Thẻn.
@@ -313,6 +373,16 @@ phu-la,"χ, ʁ","kh, g/gh","Âm xát lưỡi con (uvular) [χ, ʁ] không có tr
 phu-la,"v̰, z̰, ʒ̰","v, d/gi, r (kết hợp dấu nặng/ngã)",Tiếng Việt không có đối lập thanh hầu hóa trên phụ âm đầu; có thể mượn thanh nặng hoặc thanh ngã tiếng Việt để gợi chất giọng kẹt thanh hầu ở nguyên âm kế tiếp.
 phu-la,"ɨ, ɯ (ví dụ: la21 ɣɯ44)",ư (ví dụ: là gư),"Nguyên âm [ɨ] và [ɯ] xấp xỉ tốt bằng chữ 'ư' của tiếng Việt, nhưng chữ Quốc ngữ không phân biệt hai vị trí giữa [ɨ] và sau [ɯ]."
 phu-la,"Thanh điệu 55, 33, 22, 24, 21","sắc cao/ngang (55), ngang (33), huyền đều (22), hỏi/sắc thấp (24), huyền thấp (21)",Ánh xạ gần đúng từ 5 thanh điệu bằng/lên/xuống của Phukha sang hệ thanh điệu chữ Quốc ngữ Bắc Bộ (tránh dùng dấu ngã và dấu nặng của giọng Bắc nếu âm tiết gốc không có thanh hầu hóa).
+pu-peo,qa0 biau33,ca biao,"Tên tự gọi người Pu Péo. Phụ âm lưỡi con [q] không có trong tiếng Việt, xấp xỉ gần nhất bằng 'c/k' phát âm lùi sâu về phía lưỡi gà; tiền âm tiết 'ca' đọc lướt và nhẹ."
+pu-peo,pặt oong (pạt ʔong3),pặt oong,"Tên lễ hội xuống đồng ('làm sạch nước'). Vần 'oong' trong chữ Quốc ngữ giữ nguyên nguyên âm [ɔ] không ngậm môi đôi [ɔŋ͡m] như 'ong', khớp tốt với [ʔɔŋ˧˧]."
+pu-peo,qami4 (qa0 hmi213),ca hờ-mi / ca mỉ,"Từ 'tay'. Âm mũi vô thanh [m̥] không có trong tiếng Việt; TTS tiếng Việt chỉ có thể xấp xỉ bằng âm 'm' thường kèm luồng hơi nhẹ phía trước, thanh 213 xấp xỉ thanh hỏi Nam Bộ ('mỉ')."
+pu-peo,nhing1 (hniŋ53),nhính / hờ-ninh,"Từ 'nhà'. Âm mũi vô thanh [n̥] không có trong tiếng Việt; thanh 53 (cao giáng) trong tiếng Việt không có thanh tương đương hoàn toàn (thanh sắc Hà Nội là 35 đi lên), khi hát cần đặt nốt luyến đi xuống thay vì dựa vào dấu sắc."
+pu-peo,tê1 (te53),tế / tê,Từ 'mắt'. Phụ âm 't' và nguyên âm 'ê' trùng khớp hoàn toàn với tiếng Việt; lưu ý đường nét thanh 53 đi xuống từ cao xuống trung.
+pu-peo,kân1 (kən53),cấn / cân,Từ 'ăn'. Vần '-ân' [ən] trùng khớp với tiếng Việt chuẩn.
+pu-peo,lhăj1 (ɬai53),thlảy / sảy,Từ 'nói'. Phụ âm xát bên vô thanh [ɬ] hoàn toàn không có trong tiếng Việt hiện đại; xấp xỉ thô bằng 's' hoặc 'l' nhưng sẽ mất đặc trưng âm sắc.
+pu-peo,tơzaw3 (tə0 dau33),tơ dao / tơ đao,"Từ 'người'. Tiền âm tiết 'tơ' đọc rất ngắn, không nhấn; âm đầu chính biến thiên giữa 'd/z' (Phố Là) và 'đ/d' (Ma Lật Pha), thanh 33 bằng phẳng khớp với thanh ngang tiếng Việt."
+pu-peo,maj2 (maai45),mái,Từ 'mẹ'. Vần 'ai' dài và thanh cao lên 45 rất gần với thanh sắc tiếng Việt ('mái').
+pu-peo,pê4 (pe213),pể,"Từ 'bố'. Âm 'p' đầu âm tiết ít phổ biến trong từ thuần Việt (trừ từ mượn), một số mô hình TTS tiếng Việt có thể đọc nhầm sang 'bể' nếu không kiểm soát phoneme."
 ra-glai,c (ví dụ: ca),ch (cha),"Chữ 'c' trong bộ chữ Raglai ghi âm tắc mặt lưỡi /c/ (như 'ch' tiếng Việt), không phải âm /k/."
 ra-glai,d (ví dụ: mada),đ (ma-đa),"Chữ 'd' Raglai là âm tắc nổ đầu lưỡi hữu thanh /d/ (tiếng Việt không có /d/ nổ không hút vào; chữ 'đ' /ɗ/ tiếng Việt là xấp xỉ gần nhất, tuyệt đối không đọc thành /z/ hay /j/ như chữ 'd' Quốc ngữ)."
 ra-glai,j (ví dụ: tijuh),d / gi (ti-du / ti-giu),Âm tắc ngạc cứng hữu thanh /ɟ/ không có trong tiếng Việt chuẩn; chỉ có thể xấp xỉ thô bằng 'd/gi' theo giọng Nam [j] hoặc 'ch' nhẹ.
@@ -324,6 +394,17 @@ ra-glai,mata,ma-ta,"Giữ thanh ngang phẳng (không thêm dấu huyền/nặng
 ra-glai,piq / maiq (-q /ʔ/),pít / mít-c (ngắt thanh hầu),"Âm tắc thanh hầu cuối /-ʔ/ không có con chữ riêng trong Quốc ngữ; có thể xấp xỉ tạm bằng phụ âm tắc cuối -c/-t kèm thanh sắc ngắn, nhưng thực tế tiếng Raglai chỉ đóng dây thanh chứ không lên giọng sắc."
 ra-glai,buh / harơh (-h /h/),bu-hờ / ha-rơ-hờ (xì hơi cuối),Âm xát thanh hầu cuối /-h/ không có trong tiếng Việt; TTS chỉ biết tiếng Việt sẽ bỏ sót hơi thở cuối nếu không nối thêm hơi xát nhẹ.
 ra-glai,Tapuơl (-l /l/),Ta-puôn,Tiếng Việt không có phụ âm cuối /-l/; mô hình chỉ biết tiếng Việt thường chỉ xấp xỉ được bằng /-n/ nhưng làm mất đặc trưng uốn đầu lưỡi chạm lợi.
+ro-mam,ka,ca,Âm /k/ trước /a/ viết là 'c' trong chữ Quốc ngữ; đọc kéo dài nguyên âm không dấu thanh (tương đương thanh ngang).
+ro-mam,hla,hờ-la,Tổ hợp phụ âm đầu /hl/ (hoặc âm bên vô thanh [l̥]) không có trong tiếng Việt; xấp xỉ bằng cách đọc lướt cực nhanh 'hờ' vô thanh nối vào 'la'.
+ro-mam,bla,bờ-la,Tổ hợp phụ âm đầu /bl/ không còn trong tiếng Việt hiện đại; đọc lướt nhanh 'b' sang 'la' trong một âm tiết.
+ro-mam,bluh,bờ-lu-(h),"Có cả tổ hợp đầu /bl/ lẫn phụ âm xát thanh hầu cuối /-h/ không có trong tiếng Việt; TTS tiếng Việt chỉ đọc được 'bờ-lu', bị mất tiếng bật hơi xát [h] cuối âm tiết."
+ro-mam,hah / pah,ha-(h) / pa-(h),Âm cuối /-h/ không có trong chữ Quốc ngữ; không nên thay bằng thanh sắc hay thanh nặng vì /-h/ là âm xát vô thanh mở thanh môn ở cuối vần.
+ro-mam,păk / săk,pắc / sắc,"Nguyên âm ngắn /a/ + /-k/ tương ứng khá sát với vần 'ăc' mang thanh sắc trong tiếng Việt chuẩn, nhưng cao độ thực tế trong tiếng Rơ Măm phẳng hơn thanh sắc Hà Nội."
+ro-mam,măt,mắt,Nguyên âm ngắn /a/ + /-t/ xấp xỉ bằng 'ắt' tiếng Việt (không mang nét nghẹt thanh hầu của thanh nặng Bắc Bộ).
+ro-mam,prai,pờ-rai,Tổ hợp /pr/ không có trong tiếng Việt chuẩn; đọc lướt cực ngắn 'pờ' nối liền 'rai'.
+ro-mam,rôông,rông,Nguyên âm dài /oː/ trước /-ŋ/ không bị ngậm môi đôi [oŋ͡m] như vần 'ông' của tiếng Việt; cần giữ môi tròn mở vừa và ngân dài nguyên âm.
+ro-mam,yang xơri,giang xơ-ri,Âm /j/ đầu từ tương ứng 'd/gi' giọng Nam Bộ (giọng Bắc đọc [z] sẽ sai lệch sang âm xát); tiền âm tiết 'xơ-' đọc rất nhẹ và ngắn.
+ro-mam,mưr / hơ huôl,mư-(r) / hơ huôn,Phụ âm cuối /-r/ và /-l/ không tồn tại trong tiếng Việt; xấp xỉ Quốc ngữ bằng nguyên âm mở hoặc '-n' sẽ làm mất đặc trưng rung/bên cuối âm tiết.
 san-chay,phon [pʰon⁴²] ('mưa'),pờ-hồn / phồn,"Tiếng Việt chuẩn không có âm tắc hai môi bật hơi [pʰ] (chữ 'ph' tiếng Việt đọc là xát môi-răng [f]). Nếu giữ 'phồn', TTS tiếng Việt sẽ phát âm [f]; nếu cần giữ tính tắc môi có thể thử 'pồn'."
 san-chay,pót [pɔt⁴⁵] ('phổi'),pót,Âm đầu [p] ít xuất hiện trong từ thuần Việt nên một số mô hình TTS tiếng Việt dễ đọc lệch sang [ɓ] ('bót'); cần kiểm tra phát âm thực tế của mô hình.
 san-chay,slam [ɬam] ('ba') / slơi ca ('thơ ca'),xam / xơi ca,Âm xát bên vô thanh [ɬ] (viết là 'sl' trong chữ Tày-Nùng) hoàn toàn không có trong tiếng Việt và cụm 'sl-' làm vỡ sub-token của tokenizer tiếng Việt; xấp xỉ an toàn nhất cho TTS tiếng Việt là thay 'sl-' bằng 'x-' ([s]).
@@ -339,6 +420,15 @@ san-diu,uy / y (/y/),uy,"Nguyên âm tròn môi hàng trước [y] ở Vĩnh Ph�
 san-diu,ku- (/kw-/),qu-,Tổ hợp âm đầu /k/ + âm đệm /-w-/ (như /kwak5/ 'chân') viết thành 'qu-' (ví dụ 'quác') để tránh bị tokenizer tiếng Việt tách rời chữ 'kuác'.
 san-diu,"ết (/et5/), ốc (/ok5/)","ết, ốc","Âm tiết khép (-p, -t, -c, -ch) mang thanh 5 (24) tương ứng rất sát với thanh sắc của tiếng Việt Bắc Bộ."
 san-diu,"sịp (10), lộc (6), ọi (/ɔj6/)","sịp, lộc, ọi",Thanh 6 [21ʔ] có nét thanh hầu hóa cuối âm tiết rất gần với thanh nặng [21ʔ] của phương ngữ Bắc Bộ tiếng Việt.
+si-la,/pa33la33/ ('mặt trăng'),ba la / pa la,/p/ không bật hơi trong tiếng Si La thường hữu thanh hóa nhẹ gần [b]; thanh 33 khớp tốt với thanh ngang tiếng Việt.
+si-la,/i55tɕʰo31/ ('nước'),í chò,"Thanh 55 xấp xỉ bằng thanh sắc ('í'), thanh 31 xấp xỉ bằng thanh huyền ('chò'); tuy nhiên 'ch' tiếng Việt thiếu độ bật hơi của /tɕʰ/."
+si-la,/ɐ31pʰa31/ ('lá cây'),ờ pà (chú thích bật hơi p-hà),Không nên viết là 'phà' vì TTS tiếng Việt sẽ đọc thành [faː21] thay vì [pʰa31].
+si-la,/a31kʰi55/ ('bàn chân'),à khí,"'kh' trong tiếng Việt đọc xát [x], chỉ xấp xỉ gần đúng cho âm tắc bật hơi /kʰ/."
+si-la,/xɯ55/ ('vàng') vs. /ɣɯ55/ ('tốt'),khứ vs. gứ,"Cặp âm xát gốc lưỡi /x/ - /ɣ/ và nguyên âm /ɯ/ khớp sát với 'kh', 'g/gh' và 'ư' của tiếng Việt Bắc Bộ."
+si-la,/wa̰31/ ('lợn') vs. /wa31/ ('tre'),oạ / quạ vs. oà / quà,"Dùng thanh nặng ('oạ') để gợi chất giọng kẹt thanh hầu (creaky voice) của /wa̰31/, dùng thanh huyền ('oà') cho giọng thường /wa31/."
+si-la,/l̥a33/ ('ngã/rơi'),hla (đọc nối nhanh hờ-la),Mô hình chỉ biết tiếng Việt không có âm [l̥͡l]; ghép 'h' nhẹ trước 'la' chỉ là giải pháp tình thế.
+si-la,Khè Ò ('cây cầu' — tên bài dân ca cộng đồng),khè ò,"Cách ghi thực tế bằng chữ phổ thông của nghệ nhân dân tộc Si La tại Mường Tè, Lai Châu."
+si-la,Dê Mí i Thì Ê ('hát ru con' — tên bài dân ca cộng đồng),dê mí i thì ê,"Cách ghi thực tế bằng chữ phổ thông phục vụ đội văn nghệ bản Seo Hai, phản ánh đặc trưng toàn âm tiết mở của tiếng Si La."
 stieng,Sdiêng,Xơ-điêng,"Tiếng Việt không có tổ hợp phụ âm đầu /sd-/ và không có âm tắc răng hữu thanh thường /d/ (chữ d tiếng Việt đọc [z]/[j], chữ đ đọc hút vào [ɗ]). Phải tách thành âm tiết phụ cực ngắn 'xơ-' + 'điêng'."
 stieng,t'roong,tơ-roong,Tiếng Việt không có cụm phụ âm /tr-/ đọc tách [tr] (chữ tr tiếng Việt là [ʈ]/[c]); dùng tiền âm tiết lướt nhanh 'tơ-roong' (vần oong giữ nguyên âm [ɔː] không ngậm môi như ông/ong tiếng Việt).
 stieng,bri / prak / klănh,bơ-ri / pơ-rắc / cơ-lănh,"Các tổ hợp phụ âm đầu C + r/l (/br, pr, kl, pl/) không tồn tại trong tiếng Việt chuẩn; chèn nguyên âm trung hòa 'ơ' thật ngắn không nhấn trọng âm."

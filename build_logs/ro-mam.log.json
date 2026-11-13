@@ -1,0 +1,72 @@
+{
+  "target": {
+    "id": "ro-mam",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Rơ Măm",
+    "ethnic_group_vi": "Rơ Măm",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:51:46.256971",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9385,
+      "candidatesTokenCount": 8855,
+      "totalTokenCount": 23376,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9385
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8855
+        }
+      ],
+      "thoughtsTokenCount": 5136,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10812,
+      "candidatesTokenCount": 9259,
+      "totalTokenCount": 20071,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10812
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9259
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Tất cả các trường url_check trong danh sách nguồn tham khảo đang để null dù URL thực tế hoạt động và truy cập được.",
+        "fix": "Cập nhật url_check thành 'ok' cho các URL đã kiểm chứng trực tiếp (Glottolog 5.3, Wiktionary, CUNY Academic Works, Wikipedia tiếng Việt)."
+      },
+      {
+        "path": "music.instruments[3].note",
+        "severity": "low",
+        "problem": "Mô tả về nhạc cụ 'Jặp' quá sơ lược ('Nhạc cụ truyền thống của người Rơ Măm'), chưa nêu rõ đặc tính âm nhạc học của nhạc cụ này.",
+        "fix": "Bổ sung thông tin từ tư liệu nhạc cụ dân tộc Tây Nguyên: Jặp (tương ứng với tơ đjếp của người Ba Na/Gia Rai) là nhạc cụ hơi có lưỡi gà rung tự do làm bằng sừng trâu."
+      }
+    ]
+  },
+  "schema_errors": []
+}

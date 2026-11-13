@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "si-la",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Si La",
+    "ethnic_group_vi": "Si La",
+    "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+  },
+  "started": "2026-11-13T22:48:00.352754",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 8231,
+      "totalTokenCount": 22835,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8231
+        }
+      ],
+      "thoughtsTokenCount": 5223,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10051,
+      "candidatesTokenCount": 9256,
+      "totalTokenCount": 20669,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10051
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9256
+        }
+      ],
+      "thoughtsTokenCount": 1362,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "low",
+        "problem": "Cấu trúc âm tiết ghi '(C1)(C2)V(T) hoặc m̩(T)' chưa phản ánh đầy đủ công thức tổng quát (C1)(C2)V(C3)T trong Badenoch & Hayashi (2017: 3, 5), trong đó vị trí C3 (/-p, -t, -k, -m, -n, -ŋ/) xuất hiện ở lớp từ vay mượn gần đây từ tiếng Lào/Thái (dù ở người lớn tuổi thường trung hòa thành giọng kẹt trên nguyên âm trước đó).",
+        "fix": "Bổ sung ghi chú về C3 trong từ vay mượn Thái/Lào vào trường syllable_structure để khớp hoàn toàn với nguồn tham chiếu."
+      },
+      {
+        "path": "phonology.onsets[13].note",
+        "severity": "low",
+        "problem": "Âm đầu /s/ thiếu ghi chú về biến thể kết hợp quan trọng được nêu trong Badenoch & Hayashi (2017: 5): /s/ bị ngạc hóa thành [ɕ ~ ʃ] khi đứng trước nguyên âm /i/ (/s/ → [ɕ ~ ʃ] / _i).",
+        "fix": "Bổ sung quy tắc biến thể ngữ âm /s/ → [ɕ ~ ʃ] / _i vào ghi chú của âm vị /s/."
+      },
+      {
+        "path": "autonym",
+        "severity": "low",
+        "problem": "Thiếu tên tự gọi 'Cú Ừ' (và tên gọi khác 'Khà Póe / Kha Pẻ') được ghi nhận trong các tài liệu dân tộc học tại Lai Châu, Việt Nam (tương ứng trực tiếp với dạng /ko55ɣɯ55/ ~ /ko˥ɯ˨˩/ tại Bắc Lào).",
+        "fix": "Bổ sung 'Cú Ừ' vào trường autonym."
+      },
+      {
+        "path": "lexicon[1].confidence",
+        "severity": "medium",
+        "problem": "Các mục từ 'khè ò' (cây cầu) và 'cơ tuy' (trang phục) lấy từ tên bài dân ca Si La phiên âm bằng chữ Quốc ngữ phổ thông (chưa có phân tích hình vị và ký âm IPA chuẩn xác), để confidence='medium' là hơi cao.",
+        "fix": "Hạ confidence của 'khè ò' và 'cơ tuy' xuống 'low' và ghi rõ đây là tên bài hát truyền khẩu ghi bằng chữ Quốc ngữ."
+      }
+    ]
+  },
+  "schema_errors": []
+}
