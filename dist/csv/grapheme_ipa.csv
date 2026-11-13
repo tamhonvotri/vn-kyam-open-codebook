@@ -1410,6 +1410,71 @@ lao,codas,-ນ (-n),n,Mũi chân răng (âm tiết sống),high
 lao,codas,-ມ (-m),m,Mũi hai môi (âm tiết sống),high
 lao,codas,-ຍ (-y / -i),j,Bán nguyên âm ngạc cứng cuối vần (âm tiết sống),high
 lao,codas,-ວ (-o / -w),w,Bán nguyên âm môi-ngạc mềm cuối vần (âm tiết sống),high
+lo-lo,onsets,m,m,âm mũi hai môi,high
+lo-lo,onsets,n,n,âm mũi chân răng,high
+lo-lo,onsets,mb,ᵐb,tắc hai môi hữu thanh tiền mũi hóa,high
+lo-lo,onsets,nd,ⁿd,tắc chân răng hữu thanh tiền mũi hóa,high
+lo-lo,onsets,ngg,ᵑɡ,tắc ngạc mềm hữu thanh tiền mũi hóa,high
+lo-lo,onsets,ndz,ⁿdz,tắc-xát chân răng hữu thanh tiền mũi hóa,high
+lo-lo,onsets,ndzh,ⁿdʐ,tắc-xát quặt lưỡi hữu thanh tiền mũi hóa,medium
+lo-lo,onsets,ndj,ⁿdʑ,tắc-xát lợi-ngạc hữu thanh tiền mũi hóa (gặp trong tự danh Ma Ndzi),high
+lo-lo,onsets,b,b,tắc hai môi hữu thanh,high
+lo-lo,onsets,d,d,tắc chân răng hữu thanh,high
+lo-lo,onsets,g,ɡ,tắc ngạc mềm hữu thanh,high
+lo-lo,onsets,p,p,tắc hai môi vô thanh không bật hơi,high
+lo-lo,onsets,t,t,tắc chân răng vô thanh không bật hơi,high
+lo-lo,onsets,k,k,tắc ngạc mềm vô thanh không bật hơi,high
+lo-lo,onsets,ph,pʰ,tắc hai môi vô thanh bật hơi,high
+lo-lo,onsets,th,tʰ,tắc chân răng vô thanh bật hơi,high
+lo-lo,onsets,kh,kʰ,tắc ngạc mềm vô thanh bật hơi,high
+lo-lo,onsets,dz,dz,tắc-xát chân răng hữu thanh,high
+lo-lo,onsets,dzh,dʐ,tắc-xát quặt lưỡi hữu thanh,medium
+lo-lo,onsets,dj,dʑ,tắc-xát lợi-ngạc hữu thanh,medium
+lo-lo,onsets,ts,ts,tắc-xát chân răng vô thanh không bật hơi,high
+lo-lo,onsets,tsh,tsʰ,tắc-xát chân răng vô thanh bật hơi,high
+lo-lo,onsets,tʂ,tʂ,tắc-xát quặt lưỡi vô thanh không bật hơi,medium
+lo-lo,onsets,tʂh,tʂʰ,tắc-xát quặt lưỡi vô thanh bật hơi,medium
+lo-lo,onsets,tɕ,tɕ,tắc-xát lợi-ngạc vô thanh không bật hơi,medium
+lo-lo,onsets,tɕh,tɕʰ,tắc-xát lợi-ngạc vô thanh bật hơi,medium
+lo-lo,onsets,f,f,xát môi-răng vô thanh,high
+lo-lo,onsets,v,v,xát môi-răng hữu thanh,high
+lo-lo,onsets,s,s,xát chân răng vô thanh,high
+lo-lo,onsets,z,z,xát chân răng hữu thanh,high
+lo-lo,onsets,ʂ,ʂ,xát quặt lưỡi vô thanh,high
+lo-lo,onsets,ʐ,ʐ,xát quặt lưỡi hữu thanh,high
+lo-lo,onsets,ɕ,ɕ,xát lợi-ngạc vô thanh,high
+lo-lo,onsets,ʑ,ʑ,xát lợi-ngạc hữu thanh,high
+lo-lo,onsets,x,x,xát ngạc mềm vô thanh,high
+lo-lo,onsets,ɣ,ɣ,xát ngạc mềm hữu thanh,high
+lo-lo,onsets,l,l,cận âm bên chân răng,high
+lo-lo,onsets,lg,lɡ,tổ hợp phụ âm đầu ghi nhận trong phương ngữ Mondzi (Lama 2012),medium
+lo-lo,onsets,lk,lk,tổ hợp phụ âm đầu ghi nhận trong phương ngữ Mondzi (Lama 2012),medium
+lo-lo,onsets,lkh,lkʰ,tổ hợp phụ âm đầu ghi nhận trong phương ngữ Mondzi (Lama 2012),medium
+lo-lo,vowels,i,i,nguyên âm trước khép không tròn môi,high
+lo-lo,vowels,u,u,nguyên âm sau khép tròn môi,high
+lo-lo,vowels,e,e,nguyên âm trước nửa khép lỏng (loose),high
+lo-lo,vowels,e̠,e̠,"nguyên âm trước nửa khép căng / siết thanh hầu (tight/constricted, Lama 2012)",medium
+lo-lo,vowels,ø,ø,nguyên âm trước nửa khép tròn môi,medium
+lo-lo,vowels,o,o,nguyên âm sau nửa khép tròn môi,high
+lo-lo,vowels,ɛ,ɛ,nguyên âm trước nửa mở lỏng (loose),high
+lo-lo,vowels,ɛ̠,ɛ̠,"nguyên âm trước nửa mở căng / siết thanh hầu (tight/constricted, Lama 2012)",medium
+lo-lo,vowels,ɔ,ɔ,nguyên âm sau nửa mở tròn môi,high
+lo-lo,vowels,a,a,nguyên âm trước/giữa mở; có biến thể mũi hóa [ã] trong Mantsi (như mã⁵³ tsi⁵³),high
+lo-lo,vowels,ɑ,ɑ,nguyên âm sau mở không tròn môi,medium
+lo-lo,vowels,ɿ,z̩,âm tiết hóa đầu lưỡi lỏng (ký hiệu Hán-Tạng học: ɿ),medium
+lo-lo,vowels,ɿ̠,z̩ˤ,âm tiết hóa đầu lưỡi căng / siết thanh hầu (ký hiệu Hán-Tạng học: ɿ̠),medium
+lo-lo,vowels,ia,ia,nguyên âm đôi,high
+lo-lo,vowels,ie,ie,nguyên âm đôi lỏng; có biến thể căng [ie̠],high
+lo-lo,vowels,iɛ,iɛ,nguyên âm đôi lỏng; có biến thể căng [iɛ̠],medium
+lo-lo,vowels,io,io,nguyên âm đôi,medium
+lo-lo,vowels,iɔ,iɔ,nguyên âm đôi,medium
+lo-lo,vowels,iu,iu,nguyên âm đôi,high
+lo-lo,vowels,yi,yi,nguyên âm đôi tròn môi trước,medium
+lo-lo,vowels,ue,ue,nguyên âm đôi,medium
+lo-lo,vowels,ui,ui,nguyên âm đôi,medium
+lo-lo,vowels,uɑ,uɑ,nguyên âm đôi,medium
+lo-lo,vowels,ei,ei,nguyên âm đôi,medium
+lo-lo,codas,ng,ŋ,"âm cuối phụ âm duy nhất trong phương ngữ Mondzi (Lama 2012); trong phương ngữ Mantsi Yên Minh (Edmondson), âm cuối này thường biến thành nguyên âm mũi hóa (ví dụ boŋ53 ~ bõ53 'bụng')",medium
 lu,onsets,p (ᦔ / ᦗ),p,"Tắc hai môi vô thanh không bật hơi; ᦔ thuộc tổ cao, ᦗ thuộc tổ thấp",high
 lu,onsets,ph (ᦕ / ᦘ),pʰ,"Tắc hai môi vô thanh bật hơi (khác chữ 'ph' [f] của tiếng Việt); ᦕ tổ cao, ᦘ tổ thấp",high
 lu,onsets,b (ᦢ / ᦥ),b,"Tắc hai môi hữu thanh; ᦢ tổ cao, ᦥ tổ thấp",high

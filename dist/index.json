@@ -350,6 +350,20 @@
     "file": "codebooks/minority/lao.json"
   },
   {
+    "id": "lo-lo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Lô Lô",
+    "name_en": "Lô Lô (Mantsi)",
+    "ethnic_group_vi": "Lô Lô",
+    "iso639_3": "nty",
+    "glottocode": "mant1265",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/lo-lo.json"
+  },
+  {
     "id": "lu",
     "kind": "minority_language",
     "name_vi": "Tiếng Lự",

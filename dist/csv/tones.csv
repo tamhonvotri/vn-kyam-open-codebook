@@ -71,6 +71,12 @@ lao,T2_high_rising,Thanh cao lên (High rising),"không dấu (phụ âm thấp,
 lao,T3_low_rising,Thanh thấp lên (Low rising),"không dấu (phụ âm cao/trung, âm tiết sống) hoặc ◌໋ (mai chattawa)",24,modal,,high
 lao,T4_high_falling,Thanh cao xuống (High falling),◌້ (mai tho trên phụ âm trung/thấp) hoặc âm tiết khép nguyên âm dài (phụ âm thấp),52,có thể kèm thanh hầu hóa nhẹ ở cuối đường nét hạ giọng,,high
 lao,T5_low_falling,Thanh thấp xuống (Low falling),◌້ (mai tho trên phụ âm cao) hoặc âm tiết khép nguyên âm dài (phụ âm cao/trung),31,modal / hơi kẹt nhẹ ở cuối,,high
+lo-lo,t55,thanh 55 (cao bằng),55,55,modal,,medium
+lo-lo,t44,thanh 44 (hơi cao bằng),44,44,modal (ghi nhận ở cả Mondzi của Lama 2012 và Mantsi Hà Giang của Edmondson),,high
+lo-lo,t33,thanh 33 (trung bằng),33,33,modal,,medium
+lo-lo,t53,thanh 53 (cao giáng),53,53,modal (ghi nhận ở cả Mondzi của Lama 2012 và Mantsi Hà Giang của Edmondson),,high
+lo-lo,t21,thanh 21 (thấp giáng),21,21,modal / đôi khi kèm chất giọng căng trên nguyên âm chặt (Lama 2012); tương ứng gần với thanh /31/ trong mô tả Mantsi Hà Giang của Edmondson,,medium
+lo-lo,t13,thanh 13 (thấp thăng),13,13,modal (Lama 2012); trong mô tả Mantsi Hà Giang của Edmondson có các thanh thăng/gãy /35/ và /312/,,medium
 lu,tone1,"Thanh 1 (cao bằng — phụ âm tổ cao, không dấu)",,55,,,high
 lu,tone2,"Thanh 2 (cao xuống thấp — phụ âm tổ thấp, không dấu)",,51,,,high
 lu,tone3,"Thanh 3 (thấp đi lên — phụ âm tổ cao, dấu thanh 2)",ᧉ,13,có thể kèm thanh hầu hóa nhẹ ở cuối âm tiết,,high

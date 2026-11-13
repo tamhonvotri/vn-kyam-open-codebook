@@ -232,6 +232,17 @@ lao,ຂອບໃຈ (khopchai) [kʰɔːp̚˧˩.tɕaj˨˦],khọp chay,Chú ý s�
 lao,ບຸນຫົດນ້ຳ (Bun Hot Nam) [bun˨˦.hot̚˧˥.nam˥˨],bun hốt nặm (hoặc bun huột nặm theo khẩu âm Tây Bắc),"Tên Tết té nước trong tài liệu Việt Nam thường phiên là 'Bun Huột Nặm' hoặc 'Bun Vốc Nặm' phản ánh khẩu âm địa phương người Lào tại Điện Biên, Lai Châu."
 lao,ເຂົ້າໜຽວ (khao niao) [kʰaw˧˩.niːəw˨˦],khầu niệu (hoặc khảu niểu),Vần ເ◌ົາ [aw] ngắn tương ứng gần nhất với 'âu'/'au' tiếng Việt.
 lao,ແຄນ (khaen) [kʰɛːn˧˥],khèn (đọc cao lên: khẻn/khén),"Nguyên âm ແ◌ [ɛː] dài tương đương 'e' tiếng Việt; lưu ý từ mượn 'khèn' trong tiếng Việt mang thanh huyền, còn âm gốc tiếng Lào mang thanh cao lên [35]."
+lo-lo,"ᵐb / ⁿd / ᵑɡ (mb, nd, ngg)",m-b / n-đ / ng-g (hoặc b / đ / g),"Âm tắc tiền mũi hóa KHÔNG có trong tiếng Việt chuẩn. Khi tổng hợp giọng tiếng Việt, có thể chèn âm mũi cực ngắn ở cuối âm tiết trước hoặc đọc gần đúng thành b, đ, g."
+lo-lo,"ⁿdz / ⁿdʐ / ⁿdʑ (ndz, ndzh, ndj)",n-d / n-tr / n-gi,"Âm tắc-xát hữu thanh tiền mũi hóa KHÔNG có trong tiếng Việt; tiếng Việt Hà Nội cũng thiếu âm tắc-xát hữu thanh thuần túy, nên chỉ xấp xỉ được bằng âm xát/quặt lưỡi d, tr, gi kèm tiền âm mũi nhẹ."
+lo-lo,pʰ (ph),p-h (tránh đọc thành [f] của chữ 'ph' Quốc ngữ),"Chữ 'ph' trong Quốc ngữ là âm xát môi-răng [f], trong khi [pʰ] của tiếng Lô Lô là âm tắc hai môi bật hơi (giống tiếng Thái/Mông). TTS chỉ biết tiếng Việt đọc 'ph' sẽ bị sai thành [f]."
+lo-lo,kʰ (kh),kh,"Trong tiếng Việt chuẩn 'kh' là âm xát ngạc mềm [x], còn [kʰ] tiếng Lô Lô là tắc ngạc mềm bật hơi; 'kh' là xấp xỉ gần nhất sẵn có trong Quốc ngữ."
+lo-lo,ts / tsʰ / tʂʰ / tɕʰ,x / s / tr / ch,"Tiếng Việt KHÔNG có đối lập bật hơi ở các âm tắc-xát ([tsʰ], [tʂʰ], [tɕʰ]) cũng như không có [ts]; việc viết thành ch/tr/x làm mất nét khu biệt bật hơi."
+lo-lo,lɡ / lk / lkʰ,lơ-g / lơ-c / lơ-kh,Tiếng Việt không có tổ hợp phụ âm đầu lC-; phải tách thành âm tiết phụ siêu ngắn 'lơ-' trước âm tiết chính.
+lo-lo,ɿ [z̩] / ɿ̠ [z̩ˤ],ư (ngắn),"Nguyên âm đầu lưỡi (apical vowel) sau âm xuýt không có trong tiếng Việt, xấp xỉ gần nhất bằng nguyên âm 'ư' đọc ngắn không mở rộng khoang miệng."
+lo-lo,mã53 tsi53,máng chi (hoặc mãn chi),"Tên tự gọi Mantsi: nguyên âm [ã] mũi hóa không có trực tiếp trong Quốc ngữ (dùng vần -ang/-an để gợi tính mũi), thanh giáng cao 53 không khớp hoàn toàn với thanh sắc (35) hay huyền (21) tiếng Việt."
+lo-lo,mi21 kho33,mì kho,"'khói' — thanh 21 khớp tốt với thanh huyền ('mì'), thanh 33 khớp tốt với thanh ngang ('kho')."
+lo-lo,tʂu44 mɔ44,tru mo,'đường đi' — thanh 44 xấp xỉ bằng thanh ngang tiếng Việt ở cao độ hơi nhỉnh hơn mức trung bình.
+lo-lo,du13 / ni13,đủ / nỉ,'to' / 'đỏ' — thanh thăng thấp 13 xấp xỉ bằng nửa sau thanh hỏi (214) của phương ngữ Nam Bộ hoặc thanh hỏi nhẹ.
 lu,ᦅᧄᦺᦑᦟᦹᧉ (kam tai lue²),căm tay lừ,"Thanh [51] của 'kam' và 'tai' (tổ thấp không dấu) cao rồi hạ gấp, không có thanh tương đương hoàn toàn trong tiếng Việt chuẩn (tạm ghi bằng thanh ngang); thanh [11] của 'lue²' gần với thanh huyền trầm."
 lu,ᦓᧄᧉ (nam²),nằm / nặm,IPA /nam11/: nguyên âm /a/ ngắn + thanh thấp bằng [11]; dân gian Tây Bắc thường phiên là 'nặm' hoặc 'nằm'.
 lu,ᦃᧁᧉ (ẋaw²),khảu / khẩu,IPA /xaw13/: phụ âm đầu /x/ tương ứng 'kh' tiếng Việt; thanh [13] thấp đi lên gần với phần sau của thanh hỏi tiếng Việt.
