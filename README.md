@@ -24,7 +24,7 @@ mà không cần xin phép hay trả phí. Xem [LICENSE](LICENSE).
 | `tools/generate_codebooks.py` | Pipeline tạo/mở rộng bảng mã bằng LLM có tra cứu web + phản biện chéo |
 | `tools/build_release.py` | Kiểm schema và đóng gói `dist/` |
 | `SKILL.md` | Hướng dẫn cho AI agent |
-| `paper/` | Báo cáo kỹ thuật |
+| `paper/` | Báo cáo kỹ thuật (sắp bổ sung) |
 
 Mỗi bảng mã gồm: mã ISO 639-3 / Glottocode, ngữ hệ, chữ viết (kèm Unicode block); âm đầu, nguyên âm, âm cuối (chữ → IPA);
 thanh điệu (số Chao) hoặc âm vực; với phương ngữ tiếng Việt thì có thêm **tương ứng âm so với chuẩn** và **quy tắc chuyển chữ máy chạy
