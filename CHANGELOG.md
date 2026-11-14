@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.1 — 2026-11-14
+- README / báo cáo: ghi nhận PGS.TS Bùi Hiền, người có đề xuất cải tiến chữ quốc ngữ (2017) là nguồn gốc ý tưởng của dự án, và bổ sung trích dẫn.
+- README: thêm link bản lưu Internet Archive và Wayback Machine của v0.2.0.
+- `generate_codebooks.py`: chốt ngân sách API.
+
 ## v0.2.0 — 2026-11-14
 **Ngôn ngữ mới (49 bảng mã, tổng 107)**
 - 4 giọng tiếng Việt mới: Thổ ngữ Thanh Hóa (`vie-thanh-hoa`), giọng xứ Quảng (`vie-xu-quang`), giọng Bình Định – Phú Yên

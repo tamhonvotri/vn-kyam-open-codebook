@@ -127,7 +127,9 @@ Sửa file JSON và chạy `python3 tools/build_release.py`. Người bản xứ
 được phát hành theo CC0.
 
 ## 7. Lời cảm ơn
-Trân trọng cảm ơn nhạc sĩ Đông Hải, ca sĩ Đông Đào và ca sĩ Thảo Vy đã hỗ trợ kinh nghiệm và các bản thu phục vụ nghiên cứu
+Ý tưởng của dự án bắt nguồn từ đề xuất cải tiến chữ quốc ngữ của PGS.TS Bùi Hiền (2017): mã hóa lại chữ viết một cách hệ
+thống, nhất quán âm–chữ. VN-KyAm không đề xuất thay đổi chữ quốc ngữ; dự án áp dụng tinh thần đó vào bộ mã kỹ thuật cho
+máy đọc giọng vùng miền. Trân trọng cảm ơn nhạc sĩ Đông Hải, ca sĩ Đông Đào và ca sĩ Thảo Vy đã hỗ trợ kinh nghiệm và các bản thu phục vụ nghiên cứu
 khẩu âm Nam Bộ. Các bản thu không được phân phối trong repo. Cảm ơn tác giả bộ dữ liệu mở VieNeu-TTS (Phạm Nguyễn Ngọc
 Bảo), được dùng làm nguồn đối chiếu phát âm tiếng Việt nhiều giọng nói trong quá trình nghiên cứu.
 
@@ -143,6 +145,7 @@ languages of Viet Nam's 53 ethnic minorities (v0.2.0). CC0 1.0. https://github.c
 ```
 
 ## Tài liệu tham khảo chính
+- Bùi Hiền (2017). Chữ quốc ngữ và hội nhập quốc tế. In Ngôn ngữ ở Việt Nam — Hội nhập và phát triển (Kỷ yếu Hội thảo Ngữ học toàn quốc, Hội Ngôn ngữ học Việt Nam & Trường ĐH Quy Nhơn), tập 1. Hà Nội: NXB Dân Trí.
 - Pham Nguyen Ngoc Bao (2025). VieNeu-TTS: Vietnamese Multi-Speaker Text-to-Speech Dataset. Hugging Face. https://huggingface.co/datasets/pnnbao-ump/VieNeu-TTS (140.7 giờ, 193 người nói, Apache 2.0).
 - Kirby, J. & Ladd, D. R. (2016). Tone-melody correspondence in Vietnamese popular song. TAL 2016, 48–51. https://doi.org/10.21437/TAL.2016-10
 - Vũ Thanh Phương (1982). Phonetic properties of Vietnamese tones across dialects. Pacific Linguistics A-62, 55–76. https://doi.org/10.15144/PL-A62.55

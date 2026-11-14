@@ -267,6 +267,7 @@ Mọi đóng góp đều được phát hành theo CC0.
 ## Lời cảm ơn
 
 Nhóm thực hiện trân trọng cảm ơn:
+- **PGS.TS Bùi Hiền**: ý tưởng của dự án bắt nguồn từ đề xuất cải tiến chữ quốc ngữ của ông (2017). Đề xuất này cho thấy chữ viết có thể được mã hóa lại một cách hệ thống, nhất quán âm–chữ, để máy và người cùng đọc được. VN-KyAm không đề xuất thay đổi chữ quốc ngữ, mà áp dụng tinh thần đó vào một bộ mã kỹ thuật cho máy đọc giọng vùng miền.
 - **Nhạc sĩ Đông Hải**: chia sẻ kinh nghiệm sáng tác, cách đặt lời theo thanh điệu và luyến láy Bolero / trữ tình miền Nam.
 - **Ca sĩ Đông Đào**: hỗ trợ kinh nghiệm thể hiện và các bản thu phục vụ nghiên cứu khẩu âm Nam Bộ.
 - **Ca sĩ Thảo Vy**: hỗ trợ kinh nghiệm thể hiện và các bản thu phục vụ nghiên cứu khẩu âm Nam Bộ.
@@ -307,6 +308,7 @@ công trình được liệt kê dưới đây, cùng các cơ sở dữ liệu 
 ```
 
 ### Ngữ âm và phương ngữ học tiếng Việt
+- Bùi Hiền (2017). Chữ quốc ngữ và hội nhập quốc tế. In *Ngôn ngữ ở Việt Nam — Hội nhập và phát triển* (Kỷ yếu Hội thảo Ngữ học toàn quốc, Hội Ngôn ngữ học Việt Nam & Trường ĐH Quy Nhơn), tập 1. Hà Nội: NXB Dân Trí.
 - Hoàng Thị Châu (2004). *Phương ngữ học tiếng Việt*. Hà Nội: NXB Đại học Quốc gia Hà Nội.
 - Đoàn Thiện Thuật (2003). *Ngữ âm tiếng Việt* (tái bản). Hà Nội: NXB Đại học Quốc gia Hà Nội.
 - Cao Xuân Hạo (1998). *Tiếng Việt — Mấy vấn đề ngữ âm, ngữ pháp, ngữ nghĩa*. TP. HCM: NXB Giáo dục.
