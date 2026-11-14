@@ -7,6 +7,8 @@ mà không cần xin phép hay trả phí. Xem [LICENSE](LICENSE).
 
 ▶️ **Video demo:** https://youtu.be/jJ50J8sL5po
 
+🗄️ **Bản lưu trữ độc lập (có mốc thời gian):** Internet Archive https://archive.org/details/vn-kyam-open-codebook-v0.2.0 (kèm `RELEASE_SHA256.txt`) · Wayback Machine snapshot 2026-11-14 00:48 UTC
+
 > **Tuyên bố công bố (Publication statement).** Repo này công bố công khai các quy tắc ký âm giọng vùng miền tiếng Việt và
 > các bảng chữ–âm của ngôn ngữ dân tộc thiểu số Việt Nam, để đưa chúng vào phạm vi công cộng và không cá nhân hay tổ chức nào
 > độc quyền hóa được. Tiếng nói, phương ngữ và chữ viết là tài sản chung của các cộng đồng. Bộ mã này chỉ là một cách mô tả
