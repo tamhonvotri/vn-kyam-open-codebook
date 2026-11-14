@@ -14,6 +14,9 @@ Usage:
   python3 tools/generate_codebooks.py                 # all targets, skip existing
   python3 tools/generate_codebooks.py --only vie-central,tyz
   python3 tools/generate_codebooks.py --force --workers 4
+
+Bảo vệ ngân sách API: tối đa VNKYAM_MAX_CALLS lần gọi mỗi lần chạy (mặc định 300); gặp lỗi 429 hết hạn mức /
+spending cap thì dừng toàn bộ ngay, không thử lại. Script chạy độc lập với agent: nếu agent dừng, hãy tự kill tiến trình.
 """
 
 import argparse
@@ -51,6 +54,9 @@ def load_key() -> str:
 
 
 API_KEY = load_key()
+ABORT = {"reason": None}
+CALLS = {"n": 0}
+MAX_CALLS = int(os.environ.get("VNKYAM_MAX_CALLS", "300"))
 
 
 def gemini(model: str, system: str, user: str, temperature: float = 0.2, retries: int = 4) -> dict:
@@ -63,6 +69,12 @@ def gemini(model: str, system: str, user: str, temperature: float = 0.2, retries
     }
     last = None
     for attempt in range(retries):
+        if ABORT["reason"]:
+            raise RuntimeError(f"aborted: {ABORT['reason'][:200]}")
+        if CALLS["n"] >= MAX_CALLS:
+            ABORT["reason"] = f"đạt giới hạn VNKYAM_MAX_CALLS={MAX_CALLS}"
+            raise RuntimeError(ABORT["reason"])
+        CALLS["n"] += 1
         try:
             req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
                                          headers={"Content-Type": "application/json"}, method="POST")
@@ -77,8 +89,12 @@ def gemini(model: str, system: str, user: str, temperature: float = 0.2, retries
             queries = cand.get("groundingMetadata", {}).get("webSearchQueries", [])
             return {"text": text, "grounding": chunks, "queries": queries, "usage": data.get("usageMetadata", {})}
         except urllib.error.HTTPError as e:
-            last = f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:400]}"
+            body = e.read().decode("utf-8", "replace")[:400]
+            last = f"HTTP {e.code}: {body}"
             if e.code in (400, 401, 403, 404):
+                break
+            if e.code == 429 and any(s in body.lower() for s in ("spending cap", "billing", "insufficient", "quota")):
+                ABORT["reason"] = last  # hết hạn mức / ngân sách: dừng toàn bộ, không thử lại
                 break
         except Exception as e:  # noqa: BLE001
             last = repr(e)
@@ -186,6 +202,8 @@ def process(t: dict, force: bool) -> str:
     dst = out_path(t)
     if dst.exists() and not force:
         return f"skip {t['id']}"
+    if ABORT["reason"]:
+        return f"abort {t['id']}: {ABORT['reason'][:120]}"
     LOG_DIR.mkdir(exist_ok=True)
     log = {"target": t, "started": dt.datetime.now().isoformat()}
 

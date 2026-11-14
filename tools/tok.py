@@ -24,3 +24,4 @@ def load_encoder(tiktoken_path=None, hf_name=None):
             ranks[base64.b64decode(b)] = int(r)
     enc = tiktoken.Encoding("qwen", pat_str=QWEN_PAT, mergeable_ranks=ranks, special_tokens={})
     return lambda s: enc.encode(s)
+
