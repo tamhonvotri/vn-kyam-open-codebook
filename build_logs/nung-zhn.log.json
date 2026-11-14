@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "nung-zhn",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Nùng Dín",
+    "ethnic_group_vi": "Nùng",
+    "iso639_3_expected": "zhn",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Nùng tại Việt Nam (mã ISO dự kiến: zhn; bảng mã dân tộc gốc: nung). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"nung\"."
+  },
+  "started": "2026-11-13T23:40:56.163483",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9441,
+      "candidatesTokenCount": 9283,
+      "totalTokenCount": 22539,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9441
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9283
+        }
+      ],
+      "thoughtsTokenCount": 3815,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11735,
+      "candidatesTokenCount": 11603,
+      "totalTokenCount": 23338,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11735
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11603
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.vowels[4].note",
+        "severity": "medium",
+        "problem": "Ví dụ cho nguyên âm ngắn /u/ là `luk31` ('con'), nhưng trong tư liệu của Gedney (Hudak 2008, tr. 34), `luk5` ('child', đọc với nét thanh 5 [31]) được xếp vào nhóm âm tiết khép nguyên âm dài (DL4), tức bản chất âm vị học là /luːk31/ (dù bản in trang 34 của Hudak bị in thiếu một chữ u thành `luk 5`, trong khi ở phần Vowels của Gedney ghi nguyên âm ngắn/dài bằng chữ đơn/đôi).",
+        "fix": "Đổi ví dụ cho nguyên âm ngắn /u/ sang các từ âm tiết khép nguyên âm ngắn chuẩn trong Gedney như `hup21` ('hút thuốc') hoặc `sut44` ('húp, nhấp'), và giải thích rõ trường hợp `luːk31 ~ luk31` ('con')."
+      },
+      {
+        "path": "phonology.onsets[18].note",
+        "severity": "low",
+        "problem": "Ví dụ cho phụ âm đầu /k/ dùng từ `kuːk31` ('cái cuốc') thay vì từ minh họa trực tiếp trong mục Consonants của Gedney (Hudak 2008, tr. 35) là `kɔːn21` ('trước') hoặc `kiːw14` ('gọi').",
+        "fix": "Bổ sung ví dụ chuẩn từ danh mục của Gedney (`kɔːn21` 'trước', `kiːw14` 'gọi')."
+      },
+      {
+        "path": "phonology.onsets[15].note",
+        "severity": "low",
+        "problem": "Ví dụ cho phụ âm đầu /tɕʰ ~ cʰ/ đưa từ `tɕʰɯːŋ31` ('voi') và `tɕʰaː22` ('người vùng cao'), trong khi từ minh họa trực tiếp trong mục Consonants của Gedney (Hudak 2008, tr. 35) là `tɕʰuŋ22` (`chuŋ3` 'cay, nồng').",
+        "fix": "Bổ sung `tɕʰuŋ22` ('cay, nồng') làm ví dụ chính từ Gedney."
+      },
+      {
+        "path": "sources[7].url",
+        "severity": "low",
+        "problem": "Nguồn báo chí VOV4 và tài liệu di sản văn hóa về người Nùng Dín để `url: null` trong khi có URL chính thức có thể truy xuất và kiểm chứng.",
+        "fix": "Bổ sung URL bài viết của VOV4 và bổ sung nguồn Cục Di sản văn hóa (dsvh.gov.vn) cho các thuật ngữ văn hóa Nùng Dín (`rân sả`, `ẳn xả`)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

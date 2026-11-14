@@ -1,0 +1,788 @@
+{
+  "id": "nung-enc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng En (Nùng Vẻn)",
+  "name_en": "En (Nung Ven)",
+  "autonym": "eɲ³³ʔ / aiɲ⁵³ (Ênh / Anh)",
+  "ethnic_group_vi": "Nùng",
+  "language": {
+    "iso639_3": "enc",
+    "glottocode": "ennn1243",
+    "family": "Kra-Dai",
+    "branch": "Kra (Yang-Biao, Buyang)"
+  },
+  "regions": [
+    "Xóm Cả Tiểng (Cja Tjeng), xã Tổng Cọt (trước năm 2025 là xã Nội Thôn, huyện Hà Quảng), tỉnh Cao Bằng"
+  ],
+  "speakers_estimate": "Khoảng 170–200 người nói tại Việt Nam (điều tra thực địa năm 2021–2022 tại xóm Cả Tiểng ghi nhận 43 hộ với 170 nhân khẩu người Nùng Vẻn; thống kê dân số tộc người tại địa phương năm 2017 ghi nhận 236–238 người)",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết riêng (Unwritten)",
+      "iso15924": "Zxxx",
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Tiếng En (Nùng Vẻn) hiện là ngôn ngữ truyền khẩu, chưa có hệ thống chữ viết riêng được chuẩn hóa hay ban hành chính thức. Các công trình ngôn ngữ học ghi âm trực tiếp bằng IPA; người bản ngữ biết chữ Quốc ngữ tiếng Việt và chủ yếu dùng tiếng Việt trong giao tiếp viết."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình điền dã tại xóm Cả Tiểng (Nội Thôn / Tổng Cọt, Hà Quảng, Cao Bằng) của Hoàng Văn Ma & Jerold A. Edmondson (1998–1999), Li Jinfang (2006), Phan Lương Hùng (2022, 2023) và Nguyễn Thu Huyền (2024, 2026). Dù cư dân được xếp vào dân tộc Nùng từ năm 1979, tiếng Nùng Vẻn thuộc nhánh Kra (nhóm Bố Ương / Buyang), không thuộc nhánh Tai như tiếng Nùng phổ thông. Ngôn ngữ đang biến đổi ngữ âm nhanh do tiếp xúc song ngữ/đa ngữ với tiếng Nùng Giang và tiếng Việt.",
+  "phonology": {
+    "syllable_structure": "((C0)V0.)C1(G)V(C2)+T — phổ biến từ đơn tiết C1(w/j)V(C2)+T và một bộ phận từ song tiết/tiền âm tiết bảo lưu cấu trúc Kra (ví dụ [li³² ŋɐ³²³] 'vừng', [pɐ̆n³³ lɐ³²³] 'cá', [li³¹² ʔuk³⁵] 'trắng')",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc môi - môi vô thanh không bật hơi; ví dụ [pi²³²] 'lửa', [pɐ³⁴³] 'bố'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc môi - môi vô thanh bật hơi; ví dụ [pʰa³⁴³] 'chẻ', [pʰə³⁴³] 'cái bừa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "b",
+        "note": "Tắc môi - môi hữu thanh (Edmondson et al. 1999 ghi nhận tiền thanh hầu hóa /ʔb/); ví dụ [bi⁴⁴ʔ] ~ [bi³³ʔ] 'đây', [bɔ³⁴³] 'hồ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi môi - môi; ví dụ [me³⁴³] 'mẹ', [ma³²³] 'năm (5)', [mu³²] 'thối'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Bán nguyên âm / xát môi - môi hữu thanh; ví dụ [wi²³²] 'quạt', [waj³²³] 'người'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi - lợi vô thanh không bật hơi; ví dụ [ti²³²] 'cây', [ta³²] 'nhà', [tɐ³⁴³] 'mắt'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi - lợi vô thanh bật hơi; ví dụ [tʰi²³²] 'dày', [tʰɔ⁴⁴] 'đầu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi - lợi hữu thanh (Edmondson et al. 1999 ghi nhận /ʔd/); ví dụ [di³⁴³] 'con vật', [du²³²] 'làm', [dan²³²] 'tháng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi - lợi; ví dụ [nu³²] 'ngủ', [nok⁴⁴] 'chim', [ni⁴⁴ʔ] 'này'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Xát đầu lưỡi - lợi vô thanh; ví dụ [si³²³] 'khóa', [sɯ³⁴³] 'chữ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʂ",
+        "note": "Xát quặt lưỡi / lợi vô thanh (phản ánh *s, *C-tʃ của Proto-Kra); ví dụ [ʂɯ³²³] 'mùa', [ʂŭŋ³⁴³] 'răng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên đầu lưỡi - lợi hữu thanh; ví dụ [lu³²] 'ruộng', [la²³²] 'tìm'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Bán nguyên âm / xát mặt lưỡi; ví dụ [jɔ³²] 'nhìn', [ju³¹] 'dầu đốt'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi - ngạc cứng; ví dụ [ca²³²] 'ăn', [ce³⁴³] 'chị', [cɛ⁴⁴ʔ] 'vú'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi - ngạc cứng; ví dụ [ɲi²³²] 'hai (2)', [ɲa⁴⁴ʔ] 'cỏ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi - ngạc mềm vô thanh; ví dụ [ka⁴⁴ʔ] 'máu', [ke²³²] 'già', [ki⁴⁴] 'nó'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi - ngạc mềm bật hơi; ví dụ [kʰi⁴⁴ʔ] 'đau', [kʰăw⁴⁴ʔ] 'vào'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi - ngạc mềm; ví dụ [ŋa³²³] 'rắn', [ŋɛ³²] 'thật'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu; ví dụ [ʔi³⁴³] 'nhiều', [ʔuk³⁵] (trong [li³¹² ʔuk³⁵] 'trắng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh; ví dụ [hi²³²] 'lo lắng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "θ",
+        "note": "Xát răng vô thanh được Edmondson et al. (1999) ghi nhận ở thế hệ người nói lớn tuổi; trong khảo sát năm 2022 của Phan Lương Hùng đã biến đổi/nhập vào /s, ʂ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɕ",
+        "note": "Xát lợi-ngạc vô thanh được Edmondson et al. (1999) ghi nhận; trong khảo sát năm 2022 của Phan Lương Hùng đã nhập vào /s, ʂ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʂ",
+        "note": "Tắc-xát quặt lưỡi được Edmondson et al. (1999) ghi nhận; trong khảo sát năm 2022 của Phan Lương Hùng tương ứng với /c/ hoặc /ʂ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "r",
+        "note": "Rung đầu lưỡi hữu thanh được Edmondson et al. (1999) ghi nhận; trong khảo sát năm 2022 của Phan Lương Hùng đã nhập vào /l, j, w/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "hr",
+        "note": "Rung đầu lưỡi vô thanh được Edmondson et al. (1999) ghi nhận (cùng các tổ hợp /pj, pʰj, kw, kʰj, kʰw/); trong khảo sát năm 2022 của Phan Lương Hùng đã đơn giản hóa",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước, độ mở hẹp (cao), không tròn môi; ví dụ [pi²³²] 'lửa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước, hơi cao, không tròn môi; ví dụ [me³⁴³] 'mẹ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước, hơi thấp, không tròn môi; ví dụ [pɛ³²] 'thuyền'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯ",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi, độ mở hẹp; ví dụ [sɯ³⁴³] 'chữ', [ʂɯ³²³] 'mùa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ə",
+        "note": "Nguyên âm hàng giữa, hơi cao, dài (một số bài ghi bằng /ɤ/); ví dụ [bə²³²] 'buồn', [pʰə³⁴³] 'cái bừa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ə̆",
+        "note": "Nguyên âm hàng giữa, hơi cao, ngắn (một số bài ghi /ɤ̆/), xuất hiện trong vần khép; ví dụ [mɤ̆n³⁴³] 'mưa phùn', [jɤ̆n³²] 'gân'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɐ",
+        "note": "Nguyên âm hàng giữa, độ mở rộng (thấp), dài (tương ứng với /a/ và /ɐ/ từng đối lập trong mô tả năm 1999 của Edmondson et al., nay đã trung hòa theo Phan Lương Hùng 2022); ví dụ [pɐ³⁴³] 'bố', [pɐn³³ʔ] 'mái, cái'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɐ̆",
+        "note": "Nguyên âm hàng giữa, độ mở rộng, ngắn (cũng ghi /ă/), xuất hiện trong vần khép; ví dụ [pɐ̆n³³ʔ] 'chia', [năk³⁵] 'khó'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau, độ mở hẹp, tròn môi; ví dụ [mu³²] 'thối', [lu³²] 'ruộng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau, hơi cao, tròn môi; ví dụ [bo²³²] 'kia', [poŋ³²³] 'ném'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau, hơi thấp, tròn môi; ví dụ [bɔ³⁴³] 'hồ', [pɔ³³ʔ] 'đồi'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɐə",
+        "note": "Nguyên âm đôi hướng tâm (lưỡi dịch chuyển từ thấp lên hơi cao); ví dụ [ʂɐə³³ʔ] 'sạch', [sɐə³³ʔ] 'phụ bếp'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ua",
+        "note": "Nguyên âm đôi được ghi nhận trong mô tả của Edmondson, Nguyễn Văn Lợi, Hoàng Văn Ma & Tạ Văn Thông (1999)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Âm mũi môi - môi cuối âm tiết; ví dụ [ŋɤ̆m³²³] 'chậm'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Âm mũi đầu lưỡi - lợi cuối âm tiết; ví dụ [dan²³²] 'tháng', [pɐ̆n³³ʔ] 'chia'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi cuối âm tiết; ví dụ [eɲ³³ʔ] 'Nùng Vẻn', [teɲ³²³] 'nghe'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Âm mũi gốc lưỡi cuối âm tiết; ví dụ [poŋ³²³] 'ném', [tʰoŋ³⁴³] 'thủng', [ʂŭŋ³⁴³] 'răng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Âm tắc môi - môi vô thanh không bật hơi cuối âm tiết; ví dụ [dɛɐp³⁵] 'sống'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi - lợi cuối âm tiết; ví dụ [ŋut³¹] 'tháng', [ʂɤ̆t³²³] 'đuôi'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "c",
+        "note": "Âm tắc mặt lưỡi cuối âm tiết (ghi nhận sau nguyên âm hàng trước); ví dụ [lec³⁵] 'múi'",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Âm tắc gốc lưỡi cuối âm tiết; ví dụ [nok⁴⁴] 'chim', [năk³⁵] 'khó', [tɐk³⁵] 'phơi'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết mở hoặc âm tiết kết thúc bằng âm vang (gắn với chất giọng/thanh điệu); ví dụ [ka⁴⁴ʔ] 'máu', [bi³³ʔ] 'đây', [pɐn³³ʔ] 'mái, cái'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối hàng trước; ví dụ [waj³²³] 'người', [haj³³ pe²³²] 'biển'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi; ví dụ [kʰăw⁴⁴ʔ] 'vào', [tʰew⁴⁴ʔ] 'xách', [jiw³⁴³] 'nhạt'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ",
+        "note": "Bán âm/lướt cuối không tròn môi trong các vần như [kaɤ³²³] 'sưng', [laɤ²³²] 'quên'",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1",
+        "name": "Thanh 1 (cao giáng nhẹ)",
+        "mark": null,
+        "chao_contour": "54",
+        "phonation": "modal; trong khảo sát 2022 một số từ hiện thực hóa cao ngang [44] hoặc kèm tắc thanh hầu [44ʔ]",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2",
+        "name": "Thanh 2 (lên - xuống cao vừa)",
+        "mark": null,
+        "chao_contour": "243",
+        "phonation": "modal (trong khảo sát 2022 thường ghi [343] hoặc [323])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3",
+        "name": "Thanh 3 (bằng giáng nhẹ)",
+        "mark": null,
+        "chao_contour": "332",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4",
+        "name": "Thanh 4 (trung bình ngang)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "modal hoặc kèm tắc thanh hầu cuối âm tiết [33ʔ] (ví dụ [eɲ³³ʔ], [bi³³ʔ])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T5",
+        "name": "Thanh 5 (xuống - lên thấp)",
+        "mark": null,
+        "chao_contour": "212",
+        "phonation": "modal (trong khảo sát 2022 nhiều từ hiện thực hóa là [232] hoặc [312]; xuất hiện cả ở vần tắc như [ɲɔk²¹²])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T6",
+        "name": "Thanh 6 (trung thấp giáng)",
+        "mark": null,
+        "chao_contour": "32",
+        "phonation": "modal hoặc giọng kẹt nhẹ [32̰] (ví dụ [ʂi³²̰] 'xa'); ngoài ra vần tắc khép (-p, -t, -c, -k) có các nét cao độ [35], [44], [31], [323]",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 6 thanh điệu (theo Li Jinfang 2006: 90), đi kèm đặc trưng thanh hầu hóa cuối vần (-ʔ trên cả vần mở lẫn vần mũi/bán âm) và giọng kẹt nhẹ (creaky voice) ở một số từ."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Nùng Vẻn (tên tự gọi)",
+      "form": "eɲ³³ʔ",
+      "ipa": "eɲ³³ʔ",
+      "gloss_en": "En / Nung Ven person (autonym)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "pi²³²",
+      "ipa": "pi²³²",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "ti²³²",
+      "ipa": "ti²³²",
+      "gloss_en": "tree",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "ta³²",
+      "ipa": "ta³²",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "ca²³²",
+      "ipa": "ca²³²",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "ka⁴⁴ʔ",
+      "ipa": "ka⁴⁴ʔ",
+      "gloss_en": "blood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố",
+      "form": "pɐ³⁴³",
+      "ipa": "pɐ³⁴³",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "me³⁴³",
+      "ipa": "me³⁴³",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chị",
+      "form": "ce³⁴³",
+      "ipa": "ce³⁴³",
+      "gloss_en": "older sister",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "waj³²³",
+      "ipa": "waj³²³",
+      "gloss_en": "person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "tɐ³⁴³",
+      "ipa": "tɐ³⁴³",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "răng",
+      "form": "ʂŭŋ³⁴³",
+      "ipa": "ʂŭŋ³⁴³",
+      "gloss_en": "tooth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "tʰɔ⁴⁴",
+      "ipa": "tʰɔ⁴⁴",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "pɐ̆n³³ lɐ³²³",
+      "ipa": "pɐ̆n³³ lɐ³²³",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chim",
+      "form": "nok⁴⁴",
+      "ipa": "nok⁴⁴",
+      "gloss_en": "bird",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rắn",
+      "form": "ŋa³²³",
+      "ipa": "ŋa³²³",
+      "gloss_en": "snake",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trắng",
+      "form": "li³¹² ʔuk³⁵",
+      "ipa": "li³¹² ʔuk³⁵",
+      "gloss_en": "white",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngủ",
+      "form": "nu³²",
+      "ipa": "nu³²",
+      "gloss_en": "to sleep",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai (2)",
+      "form": "ɲi²³²",
+      "ipa": "ɲi²³²",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (5)",
+      "form": "ma³²³",
+      "ipa": "ma³²³",
+      "gloss_en": "five",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Hà lều",
+        "note": "Làn điệu dân ca đối đáp, giao duyên truyền thống mang tính ứng tác cao của người Nùng Vẻn tại xóm Cả Tiểng (xã Tổng Cọt / Nội Thôn, Cao Bằng), được lưu giữ trong sinh hoạt cộng đồng, lễ Tết và cưới hỏi."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": []
+  },
+  "ml_hints": {
+    "parent_codebook": "nung",
+    "genealogical_warning": "Mặc dù cư dân Nùng Vẻn thuộc dân tộc Nùng trong danh mục các dân tộc Việt Nam (parent_codebook=\"nung\"), tiếng En (enc) thuộc nhánh Kra (nhóm Buyang / Bố Ương), KHÔNG thuộc nhánh Tai như tiếng Nùng phổ thông (nut). Không dùng từ điển hay mô hình chuyển đổi âm vị từ tiếng Tày-Nùng chuẩn sang nung-enc, trừ lớp từ vay mượn qua tiếp xúc với tiếng Nùng Giang.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "pʰ (ví dụ [pʰa³⁴³] 'chẻ')",
+        "quoc_ngu": "p-h / ph (đọc tắc bật hơi)",
+        "note": "Âm /pʰ/ là âm tắc hai môi bật hơi, KHÔNG tồn tại trong tiếng Việt chuẩn (chữ 'ph' tiếng Việt đọc là âm xát môi-răng [f]). Mô hình TTS chỉ biết tiếng Việt sẽ đọc thành [f] nếu viết 'ph'."
+      },
+      {
+        "native": "kʰ (ví dụ [kʰi⁴⁴ʔ] 'đau')",
+        "quoc_ngu": "kh",
+        "note": "Âm /kʰ/ trong tiếng Nùng Vẻn là tắc ngạc mềm bật hơi [kʰ], trong khi 'kh' tiếng Việt chuẩn Hà Nội là âm xát [x]."
+      },
+      {
+        "native": "p (đầu âm tiết, ví dụ [pi²³²] 'lửa')",
+        "quoc_ngu": "p",
+        "note": "Tiếng Việt chuẩn hiếm có /p/ đầu âm tiết thuần Việt (thường chỉ có trong từ mượn); cần kiểm tra khả năng phát âm [p] không hữu thanh hóa thành [b] của TTS."
+      },
+      {
+        "native": "ʂ vs s (ví dụ [ʂɯ³²³] 'mùa' vs [sɯ³⁴³] 'chữ')",
+        "quoc_ngu": "s vs x",
+        "note": "Giọng Hà Nội chuẩn không phân biệt s/x (đều đọc [s]); cần dùng giọng miền Trung/Nam hoặc embedding phụ âm quặt lưỡi nếu muốn giữ đối lập /ʂ/ - /s/."
+      },
+      {
+        "native": "c (ví dụ [ca²³²] 'ăn')",
+        "quoc_ngu": "ch",
+        "note": "Xấp xỉ tốt bằng 'ch' [tɕ ~ c] của tiếng Việt."
+      },
+      {
+        "native": "ɲ (ví dụ [ɲi²³²] 'hai', [eɲ³³ʔ] 'Ênh')",
+        "quoc_ngu": "nh (đầu), -nh (cuối)",
+        "note": "Tương ứng gần với 'nh' đầu âm tiết và '-nh' cuối âm tiết trong tiếng Việt."
+      },
+      {
+        "native": "ɐə (ví dụ [ʂɐə³³ʔ] 'sạch')",
+        "quoc_ngu": "aơ / ơ",
+        "note": "Nguyên âm đôi hướng tâm /ɐə/ không có sẵn trong chữ Quốc ngữ; có thể xấp xỉ tạm bằng 'a-ơ' đọc lướt nhanh trong một âm tiết."
+      },
+      {
+        "native": "-ʔ cuối vần mở/vang (ví dụ [ka⁴⁴ʔ] 'máu', [pɐn³³ʔ] 'mái')",
+        "quoc_ngu": "thanh sắc ngắn hoặc thanh nặng (ngắt thanh hầu)",
+        "note": "Tiếng Việt không tách riêng phụ âm cuối /-ʔ/ khỏi thanh điệu; có thể xấp xỉ hiệu ứng ngắt thanh hầu bằng thanh nặng (với độ cao thấp) hoặc cắt ngắn trường độ nguyên âm cuối."
+      },
+      {
+        "native": "từ song tiết Kra (ví dụ [pɐ̆n³³ lɐ³²³] 'cá', [li³¹² ʔuk³⁵] 'trắng')",
+        "quoc_ngu": "păn la, lỉ úc",
+        "note": "Viết tách thành hai âm tiết rời theo quy ước khoảng trắng của chữ Quốc ngữ để không làm vỡ bộ tách từ (tokenizer)."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Phương ngữ tương đồng tại Malipo (Vân Nam, Trung Quốc) và cụm ngôn ngữ Buyang (Bố Ương)",
+        "iso639_3": "byu",
+        "note": "Jerold A. Edmondson (2011) ghi nhận một điểm cư dân nhỏ ở huyện Ma Lật Pha (Malipo), Vân Nam nói phương ngữ gần như trùng khớp với tiếng Nùng Vẻn ở Cao Bằng; các ngôn ngữ họ hàng gần nhất trong nhóm Buyang gồm E'ma Buyang (byu), Langnian Buyang (yln) và Baha Buyang (yzg) tại Quảng Tây và Vân Nam."
+      },
+      {
+        "name": "Tiếng Nùng (các nhóm thuộc ngữ chi Tai tại Việt Nam: Nùng Cháo, Nùng Phản Slình, Nùng Inh, Nùng An, Nùng Giang, Nùng Dín, Nùng Lòi, Nùng Xuồng...)",
+        "iso639_3": "nut",
+        "note": "Cùng thuộc dân tộc Nùng về mặt hành chính tại Việt Nam nhưng thuộc ngữ chi Tai (Central/Northern Tai); tại xóm Cả Tiểng, người Nùng Vẻn kết hôn và giao tiếp hàng ngày rất mật thiết với nhóm Nùng Giang."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "eɲ33ʔ",
+        "ipa": "eɲ³³ʔ",
+        "gloss_vi": "người Nùng Vẻn (tên tự gọi Ênh)"
+      },
+      {
+        "native": "pi232",
+        "ipa": "pi²³²",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "ti232",
+        "ipa": "ti²³²",
+        "gloss_vi": "cây"
+      },
+      {
+        "native": "ta32",
+        "ipa": "ta³²",
+        "gloss_vi": "nhà"
+      },
+      {
+        "native": "ca232",
+        "ipa": "ca²³²",
+        "gloss_vi": "ăn"
+      },
+      {
+        "native": "ka44ʔ",
+        "ipa": "ka⁴⁴ʔ",
+        "gloss_vi": "máu"
+      },
+      {
+        "native": "pɐ343",
+        "ipa": "pɐ³⁴³",
+        "gloss_vi": "bố"
+      },
+      {
+        "native": "me343",
+        "ipa": "me³⁴³",
+        "gloss_vi": "mẹ"
+      },
+      {
+        "native": "waj323",
+        "ipa": "waj³²³",
+        "gloss_vi": "người"
+      },
+      {
+        "native": "tɐ343",
+        "ipa": "tɐ³⁴³",
+        "gloss_vi": "mắt"
+      },
+      {
+        "native": "ʂŭŋ343",
+        "ipa": "ʂŭŋ³⁴³",
+        "gloss_vi": "răng"
+      },
+      {
+        "native": "pɐ̆n33 lɐ323",
+        "ipa": "pɐ̆n³³ lɐ³²³",
+        "gloss_vi": "cá"
+      },
+      {
+        "native": "nok44",
+        "ipa": "nok⁴⁴",
+        "gloss_vi": "chim"
+      },
+      {
+        "native": "li312 ʔuk35",
+        "ipa": "li³¹² ʔuk³⁵",
+        "gloss_vi": "trắng"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Languoid En (ennn1243)",
+      "url": "https://glottolog.org/resource/languoid/id/ennn1243",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — En (enc)",
+      "url": "https://www.ethnologue.com/language/enc/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — En language",
+      "url": "https://en.wikipedia.org/wiki/En_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Nùng Vẻn",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_N%C3%B9ng_V%E1%BA%BBn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Phan Lương Hùng (2022). Đặc điểm hệ thống phụ âm đầu trong tiếng Nùng Vẻn. Tạp chí Ngôn ngữ & Đời sống, Số 9(330)-2022, tr. 116–121.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phan Lương Hùng (2022). Hệ thống nguyên âm tiếng Nùng Vẻn. Tạp chí Ngôn ngữ, Số 9/2022, tr. 31–42.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phan Lương Hùng (2023). Một số xu hướng biến đổi ngữ âm từ Proto Kra đến tiếng Nùng Vẻn. Tạp chí Ngôn ngữ, Số 7/2023, tr. 11–19.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Thu Huyền (2024). Năng lực ngôn ngữ của người Nùng Vẻn ở Việt Nam. Tạp chí Ngôn ngữ, Số 7/2024, tr. 54–60.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Thu Huyền (2026). Tình hình sử dụng ngôn ngữ của người Nùng Vẻn ở Việt Nam. Tạp chí Ngôn ngữ, Số 5/2026.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A., Nguyễn Văn Lợi, Hoàng Văn Ma & Tạ Văn Thông (1999). Nùng Vẻn (Ênh) — Một ngôn ngữ thuộc nhóm Ka Đai mới được phát hiện.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Li Jinfang [李锦芳] (2006). Studies on endangered languages in the Southwest China [西南地区濒危语言调查研究]. Beijing: Minzu University Press, p. 90.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets[20].ipa",
+          "severity": "low",
+          "problem": "Trường `ipa` đang gộp 5 âm vị cổ/biến thể (\"θ, ɕ, tʂ, r, hr\") thành một chuỗi phân cách bằng dấu phẩy thay vì tách thành từng phần tử `grapheme_ipa` đơn lẻ, gây khó khăn cho các công cụ tự động đọc bảng âm vị.",
+          "fix": "Tách thành 5 phần tử riêng biệt (`θ`, `ɕ`, `tʂ`, `r`, `hr`) với `confidence: \"medium\"` và ghi chú rõ nguồn Edmondson et al. (1999) so với khảo sát của Phan Lương Hùng (2022)."
+        },
+        {
+          "path": "sources[7].title",
+          "severity": "low",
+          "problem": "Thiếu số trang của bài báo Nguyễn Thu Huyền (2024) trên Tạp chí Ngôn ngữ Số 7/2024.",
+          "fix": "Bổ sung số trang `tr. 54–60` theo Mục lục Tạp chí Ngôn ngữ năm 2024."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần thống nhất bảng đối chiếu thanh điệu giữa mô tả 6 thanh của Li Jinfang (2006) (/54, 243, 332, 33, 212, 32/) và các giá trị đo thực nghiệm năm 2022 của Phan Lương Hùng (/44, 44ʔ, 343, 323, 33, 33ʔ, 232, 312, 32, 32̰/ cùng các thanh vần tắc /35, 31/).",
+      "Cần kiểm chứng mức độ bảo lưu các âm cổ (/θ, ɕ, tʂ, r, hr/ và các tổ hợp phụ âm môi hóa/ngạc hóa) ở nhóm người nói cao tuổi tại xóm Cả Tiểng so với thế hệ trẻ.",
+      "Chưa có tư liệu ký âm âm nhạc học (thang âm, điệu thức, luyến láy, nhạc cụ đi kèm nếu có) cho làn điệu hát Hà lều của người Nùng Vẻn.",
+      "Cộng đồng có nguyện vọng xây dựng bộ chữ viết dựa trên chữ Latinh nhưng đến nay chưa có phương án chính tả được phê duyệt."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,651 @@
+{
+  "id": "phu-la-lgh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Laghuu (Xá Phó / Phù Lá Lão)",
+  "name_en": "Laghuu (Xá Phó / Phù Lá Lão)",
+  "autonym": "la21 ɣɯ44 (Nậm Sài, Sa Pa) / la21 ɔ44 (Sơn La)",
+  "ethnic_group_vi": "Phù Lá",
+  "language": {
+    "iso639_3": "lgh",
+    "glottocode": "lagh1245",
+    "family": "Sino-Tibetan",
+    "branch": "Lolo-Burmese > Loloish (Ngwi) > Southeastern Loloish > Highland Phula > Muji"
+  },
+  "regions": [
+    "Lào Cai (Văn Bàn, Bảo Thắng, Bát Xát — A Lù, thị xã Sa Pa — Nậm Sài / Liên Minh, Mường Bo, Cam Đường / Hợp Thành)",
+    "Yên Bái (Văn Yên — Châu Quế Thượng / Châu Quế)",
+    "Sơn La (Thuận Châu)",
+    "Điện Biên (Tuần Giáo — Phình Sáng)"
+  ],
+  "speakers_estimate": "Khoảng 300–1.000 người nói tiếng mẹ đẻ (Edmondson 1999, 2002; Ethnologue ghi nhận khoảng 300 người năm 2002, ngôn ngữ đang bị đe dọa do chuyển dịch sang tiếng Việt)",
+  "scripts": [
+    {
+      "name": "Không có chữ viết truyền thống (truyền khẩu)",
+      "iso15924": "Zxxx",
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Cộng đồng người Xá Phó (Phù Lá Lão) tại Việt Nam truyền thống không có chữ viết riêng; Nhà nước chưa ban hành bộ chữ Latinh chính thức cho tiếng Laghuu."
+    },
+    {
+      "name": "Ký âm khoa học (IPA) và phiên âm thực hành theo chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Các công trình ngôn ngữ học (Edmondson & Ziwo 1999; Edmondson 2002; Pelkey 2011) ghi âm bằng IPA kèm chữ số Chao; báo chí và tư liệu dân tộc học Việt Nam phiên âm tên gọi, lễ hội, nhạc cụ theo chữ Quốc ngữ."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngữ âm học của Jerold A. Edmondson & Lama Ziwo (1999), Edmondson (2002), phân loại của Jamin R. Pelkey (2011), và tư liệu văn hóa phi vật thể Việt Nam về người Xá Phó. Tiếng Laghuu chưa có hệ chữ viết chuẩn hóa nên mục grapheme được để null; từ vựng có ký âm IPA chính xác còn rất hạn chế trong nguồn mở.",
+  "phonology": {
+    "syllable_structure": "(C1(l/ɬ))V(G/N)+T — âm tiết gồm âm đầu tùy chọn (phụ âm đơn hoặc tổ hợp tắc mạc + bên /kl, kʰɬ, ɡl, ŋkʰɬ/), vần gồm nguyên âm chính theo sau bởi âm lướt /-i, -u/ hoặc âm mũi cuối /-m, -n, -ŋ/ (/ŋ/ phổ biến nhất), kèm thanh điệu. Từ thường là từ ghép song tiết.",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ᵐb",
+        "note": "Tắc hai môi tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ⁿd",
+        "note": "Tắc chân răng tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "z",
+        "note": "Xát chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Tiếp cận bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʃ",
+        "note": "Tắc-xát sau chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʃʰ",
+        "note": "Tắc-xát sau chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʃ",
+        "note": "Xát sau chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʒ",
+        "note": "Xát sau chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc mạc vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɡ",
+        "note": "Tắc mạc hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ᵑɡ",
+        "note": "Tắc mạc tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi mạc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "x",
+        "note": "Xát mạc vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɣ",
+        "note": "Xát mạc hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kl",
+        "note": "Tổ hợp tắc mạc vô thanh + bên (cũng được phân tích là âm tắc-xát bên mạc [kʟ̝̊])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰɬ",
+        "note": "Tổ hợp tắc mạc bật hơi + xát bên vô thanh (Edmondson & Ziwo 1999 ghi /khɬ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɡl",
+        "note": "Tổ hợp tắc mạc hữu thanh + bên (hoặc âm tắc mạc bật bên [ɡʟ̝])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋkʰɬ",
+        "note": "Tổ hợp tiền mũi hóa tắc mạc bật hơi + xát bên vô thanh (Edmondson & Ziwo 1999)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước độ mở hơi rộng, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɿ",
+        "note": "Nguyên âm đầu lưỡi (apical vowel; ký hiệu ngữ âm học Hán-Tạng trong Edmondson & Ziwo 1999, tương đương IPA chuẩn [z̩] sau âm xuýt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ə",
+        "note": "Nguyên âm hàng giữa độ mở vừa, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a",
+        "note": "Nguyên âm độ mở rộng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯ",
+        "note": "Nguyên âm hàng sau độ mở hẹp, không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau độ mở hẹp, tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau độ mở hơi hẹp, tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau độ mở hơi rộng, tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ai",
+        "note": "Nguyên âm đôi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "au",
+        "note": "Nguyên âm đôi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯi",
+        "note": "Nguyên âm đôi",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Âm mũi mạc cuối âm tiết — phổ biến nhất trong các phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối /-i/ tạo thành các nguyên âm đôi /ai, ɯi/ (Edmondson & Ziwo 1999 phân tích vần gồm nguyên âm chính + âm lướt /-i, -u/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối /-u/ tạo thành nguyên âm đôi /au/ (Edmondson & Ziwo 1999 phân tích vần gồm nguyên âm chính + âm lướt /-i, -u/)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T55",
+        "name": "thanh cao bằng (high)",
+        "mark": null,
+        "chao_contour": "55",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T44",
+        "name": "thanh trung-cao bằng (high-mid)",
+        "mark": null,
+        "chao_contour": "44",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T33",
+        "name": "thanh trung-thấp bằng (low-mid)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T24",
+        "name": "thanh thấp lên (low-rising)",
+        "mark": null,
+        "chao_contour": "24",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T21",
+        "name": "thanh thấp xuống (low-falling)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có 5 thanh điệu âm vị học (55, 44, 33, 24, 21) theo mô tả của Edmondson & Ziwo (1999); Pelkey (2011) ghi nhận thêm biến thể thanh thấp lên /13/ ở một số phản xạ âm đầu hữu thanh."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Xá Phó (tên tự gọi tại Nậm Sài, Sa Pa)",
+      "form": "la21 ɣɯ44",
+      "ipa": "la˨˩ ɣɯ˦˦",
+      "gloss_en": "Laghuu person / autonym (Sa Pa)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Xá Phó (tên tự gọi tại Sơn La)",
+      "form": "la21 ɔ44",
+      "ipa": "la˨˩ ɔ˦˦",
+      "gloss_en": "Laghuu person / autonym (Sơn La)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "Tết cơm mới",
+      "form": "Dạ sợ da",
+      "ipa": null,
+      "gloss_en": "New Rice Festival (phiên âm Quốc ngữ)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sáo thổi bằng mũi",
+      "form": "cúc kẹ",
+      "ipa": null,
+      "gloss_en": "bamboo nose flute (phiên âm Quốc ngữ)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kèn bầu / khèn ống nứa",
+      "form": "ma nhí",
+      "ipa": null,
+      "gloss_en": "gourd-and-bamboo free-reed mouth organ (phiên âm Quốc ngữ)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "phụ nữ Xá Phó",
+      "form": "am nà",
+      "ipa": null,
+      "gloss_en": "Xá Phó woman (phiên âm Quốc ngữ ở Văn Yên)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "thiếu nữ Xá Phó",
+      "form": "àm nài mé",
+      "ipa": null,
+      "gloss_en": "young unmarried woman (phiên âm Quốc ngữ ở Văn Yên)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "điệu múa xòe Xá Phó",
+      "form": "Xình xì bá",
+      "ipa": null,
+      "gloss_en": "traditional circle dance (phiên âm Quốc ngữ)",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca giao duyên và hát đối Xá Phó",
+        "note": "Hát đối đáp nam nữ trong đám cưới, dịp Tết Nguyên đán, lễ hội mùa xuân và Tết cơm mới (Dạ sợ da — được ghi danh Di sản văn hóa phi vật thể quốc gia năm 2025 tại Văn Bàn, Lào Cai)."
+      },
+      {
+        "name": "Êmê kha bá",
+        "note": "Làn điệu dân ca truyền thống được ghi nhận chung trong cộng đồng dân tộc Phù Lá."
+      },
+      {
+        "name": "Nhạc múa xòe (Xình xì bá / xòe kèn ma nhí)",
+        "note": "Múa xòe vòng tròn kết hợp tiếng kèn ma nhí và múa nghi lễ tra lúa nương trong lễ hội nông nghiệp, lễ quét ma làng."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Sáo cúc kẹ (sáo mũi)",
+        "note": "Nhạc cụ truyền thống đặc trưng bậc nhất của người Xá Phó (nổi bật tại Châu Quế, Văn Yên và Lào Cai), làm từ ống nứa tép có một lỗ thổi bằng hơi từ mũi và lỗ bấm tạo giai điệu trầm bổng, da diết."
+      },
+      {
+        "name": "Kèn ma nhí (khèn ma nhí)",
+        "note": "Nhạc cụ hơi làm từ vỏ quả bầu khô gắn các ống nứa nhỏ có lưỡi gà, thổi và hít tạo âm thanh trầm bổng dẫn nhịp cho điệu múa xòe từ mùng 4 đến Rằm tháng Giêng và trong Tết cơm mới."
+      },
+      {
+        "name": "Kèn môi (đàn môi)",
+        "note": "Nam thanh niên Xá Phó dùng thổi làm tín hiệu tỏ tình, gọi bạn gái khi đi tìm hiểu."
+      },
+      {
+        "name": "Pi tót",
+        "note": "Nhạc cụ hơi truyền thống của dân tộc Phù Lá."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "phu-la",
+    "vietnam_scope_note": "Bảng mã này chỉ mô tả tiếng Laghuu (lgh) của nhóm Xá Phó / Phù Lá Lão — một ngôn ngữ đặc hữu chỉ được ghi nhận tại Tây Bắc Việt Nam, nằm trong thành phần dân tộc Phù Lá.",
+    "sub_varieties": [
+      {
+        "name": "Laghuu vùng Sa Pa — Lào Cai / Văn Yên — Yên Bái (Xá Phó)",
+        "iso639_3": "lgh",
+        "note": "Biến thể chính của bảng mã này; tên tự gọi tại Nậm Sài (Sa Pa) là [la21 ɣɯ44]."
+      },
+      {
+        "name": "Laghuu vùng Sơn La / Điện Biên (Phù Lá Lão)",
+        "iso639_3": "lgh",
+        "note": "Biến thể phía tây nam sông Hồng (Thuận Châu, Tuần Giáo); tên tự gọi là [la21 ɔ44]."
+      },
+      {
+        "name": "Phukha (Phù Lá Hán / Phu Kha / Phu Khla)",
+        "iso639_3": "phh",
+        "note": "Ngôn ngữ khác cùng thuộc dân tộc Phù Lá tại Việt Nam (Bắc Hà, Mường Khương - Lào Cai; Xín Mần - Hà Giang) và Vân Nam (Trung Quốc), thuộc nhánh Phowa (Glottocode: phuk1235)."
+      },
+      {
+        "name": "Qila Muji (Mù Di Pạ)",
+        "iso639_3": "ymq",
+        "note": "Một biến thể nhánh Muji có điểm cư trú nhỏ tại Mường Tè / Lai Châu (Việt Nam) và Kim Bình, Vân Nam (Trung Quốc) theo Pelkey (2011)."
+      },
+      {
+        "name": "Bokha (Bồ Khô Pạ / Phù Lá Đen / Phù Lá Hoa)",
+        "iso639_3": "ybk",
+        "note": "Nhóm thuộc nhánh Core Muji từng cư trú tại A Lù (Bát Xát, Lào Cai); theo Edmondson (2003) và Pelkey (2011), phần lớn người nói tiếng Bokha đã di cư trở lại Vân Nam (Trung Quốc), còn một số hộ tại Việt Nam hòa nhập với các nhóm Phù Lá khác hoặc chuyển sang nói tiếng Quan Hỏa / tiếng Việt."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "pʰ / tʰ / kʰ",
+        "quoc_ngu": "p-h / th / kh",
+        "note": "Âm tắc bật hơi: /tʰ/ trùng với 'th' tiếng Việt; /pʰ/ và /kʰ/ không có âm tắc bật hơi tương đương hoàn toàn trong tiếng Việt chuẩn ('ph' là [f], 'kh' là [x]), nên mô hình TTS tiếng Việt chỉ xấp xỉ gần đúng."
+      },
+      {
+        "native": "ᵐb / ⁿd / ᵑɡ",
+        "quoc_ngu": "m-b / n-đ / ng-g",
+        "note": "Âm tắc tiền mũi hóa không tồn tại trong tiếng Việt chuẩn; có thể mượn âm mũi ngắn ở cuối âm tiết trước hoặc viết tách nhẹ để mô phỏng."
+      },
+      {
+        "native": "tʃ / tʃʰ / ʃ / ʒ",
+        "quoc_ngu": "tr (hoặc ch) / s-h / s / gi (miền Bắc đọc xát)",
+        "note": "Âm sau chân răng: tiếng Việt không có /tʃʰ/ bật hơi và /ʒ/ hữu thanh chuẩn."
+      },
+      {
+        "native": "kl / kʰɬ / ɡl / ŋkʰɬ",
+        "quoc_ngu": "c-l / kh-l / g-l / ng-kh-l",
+        "note": "Tổ hợp phụ âm tắc mạc + bên/xát bên vô thanh [ɬ] hoàn toàn không có trong tiếng Việt hiện đại; TTS tiếng Việt sẽ có xu hướng chèn nguyên âm đệm [ə]."
+      },
+      {
+        "native": "ɣ / x",
+        "quoc_ngu": "g (gh) / kh",
+        "note": "Âm xát mạc /ɣ/ và /x/ tương ứng khá sát với 'g/gh' và 'kh' trong tiếng Việt."
+      },
+      {
+        "native": "ɯ / ɿ",
+        "quoc_ngu": "ư / ư (ngắn sau x, d)",
+        "note": "/ɯ/ tương đương nguyên âm 'ư' tiếng Việt; nguyên âm đầu lưỡi /ɿ/ ([z̩]) không có trong tiếng Việt, xấp xỉ bằng 'ư' rất ngắn sau âm xuýt."
+      },
+      {
+        "native": "T55 / T44 / T33 / T24 / T21",
+        "quoc_ngu": "sắc (cao) / ngang (cao) / ngang / hỏi-sắc / huyền",
+        "note": "Tiếng Laghuu phân biệt 3 mức thanh bằng (55, 44, 33) trong khi tiếng Việt chỉ có 1 thanh ngang (33) và huyền (21); không thể phân biệt đồng thời 55 và 44 chỉ bằng dấu thanh Quốc ngữ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "la21 ɣɯ44",
+        "ipa": "la˨˩ ɣɯ˦˦",
+        "meaning_vi": "người Xá Phó (tên tự gọi tại Nậm Sài, Sa Pa)"
+      },
+      {
+        "native": "la21 ɔ44",
+        "ipa": "la˨˩ ɔ˦˦",
+        "meaning_vi": "người Phù Lá Lão / Xá Phó (tên tự gọi tại Sơn La)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia — Laghuu language (tổng hợp ngữ âm từ Edmondson & Ziwo 1999 và Edmondson 2002)",
+      "url": "https://en.wikipedia.org/wiki/Laghuu_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Laghuu (lagh1245)",
+      "url": "https://glottolog.org/resource/languoid/id/lagh1245",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Laghuu (lgh)",
+      "url": "https://www.ethnologue.com/language/lgh/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A. & Lama Ziwo (1999). 'Laghuu or Xá Phó, a new language of the Yi group'. Linguistics of the Tibeto-Burman Area, 22(1): 1–10.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A. (2002). 'The Central and Southern Loloish Languages of Vietnam'. Proceedings of the 28th Annual Meeting of the Berkeley Linguistics Society: Special Session on Tibeto-Burman and Southeast Asian Linguistics, pp. 1–13.",
+      "url": "https://doi.org/10.3765/bls.v28i2.1042",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Pelkey, Jamin R. (2011). Dialectology as Dialectic: Interpreting Phula Variation. Berlin & New York: De Gruyter Mouton.",
+      "url": "https://doi.org/10.1515/9783110245851",
+      "url_check": "ok_202",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Phù Lá people",
+      "url": "https://en.wikipedia.org/wiki/Ph%C3%B9_L%C3%A1_people",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "VOV4 Đài Tiếng nói Việt Nam — Dân tộc Phù Lá & Lễ quét ma làng của người Xá Phó",
+      "url": "https://vov4.vov.vn/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.vowels[2].ipa",
+          "severity": "low",
+          "problem": "Ký hiệu 'ɿ' là ký hiệu ngữ âm học Hán-Tạng (Sinological phonetic notation) được Edmondson & Ziwo (1999) sử dụng thay vì ký hiệu IPA chuẩn [z̩].",
+          "fix": "Ghi rõ trong phần note rằng 'ɿ' là ký hiệu truyền thống Hán-Tạng trong nguồn gốc của Edmondson & Ziwo (1999), tương đương IPA chuẩn [z̩]."
+        },
+        {
+          "path": "phonology.codas[3..4]",
+          "severity": "low",
+          "problem": "Các âm lướt cuối /-i, -u/ (biểu diễn là /j, w/ trong codas) trùng lặp về mặt phân tích âm vị học với các nguyên âm đôi /ai, au, ɯi/ đã liệt kê trong mảng vowels.",
+          "fix": "Bổ sung ghi chú làm rõ hai cách phân tích tương đương (nguyên âm đôi hoặc nguyên âm chính + bán nguyên âm cuối /-i, -u/) theo mô tả cấu trúc âm tiết của Edmondson & Ziwo (1999)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Laghuu không có chữ viết chính thức; cần xác minh xem cộng đồng tại Lào Cai và Yên Bái có quy ước ghi âm Latinh nội bộ nào trong bảo tồn dân ca hay không.",
+      "Cần bổ sung danh sách từ vựng cơ bản có ký âm IPA trực tiếp từ bài báo gốc của Edmondson & Ziwo (1999), luận văn của Fried (2000) hoặc Pelkey (2011).",
+      "Cần kiểm tra sự đối lập giữa dãy tắc-xát chân răng /ts, tsʰ, dz/ và sau chân răng /tʃ, tʃʰ/ qua khảo sát điền dã trực tiếp ở Lào Cai và Văn Yên (Yên Bái).",
+      "Cần ký âm nhạc học (thang âm, quãng, luyến láy) cho sáo mũi cúc kẹ và kèn ma nhí từ bản thu thực địa của các nghệ nhân Xá Phó (như NNƯT Đặng Thị Thanh)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

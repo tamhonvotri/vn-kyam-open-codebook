@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "co-lao-giq",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cờ Lao Xanh",
+    "ethnic_group_vi": "Cờ Lao",
+    "iso639_3_expected": "giq",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Cờ Lao tại Việt Nam (mã ISO dự kiến: giq; bảng mã dân tộc gốc: co-lao). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"co-lao\"."
+  },
+  "started": "2026-11-13T23:16:49.050331",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9451,
+      "candidatesTokenCount": 9097,
+      "totalTokenCount": 18548,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9451
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9097
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11077,
+      "candidatesTokenCount": 9972,
+      "totalTokenCount": 21848,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11077
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9972
+        }
+      ],
+      "thoughtsTokenCount": 799,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[5].note",
+        "severity": "low",
+        "problem": "Ví dụ 'ɓja³¹ˀ ʈʂǃ³¹ˀ' ('miệng') và 'qɔ³¹ˀ tsʰʃ³ˀ' ('người' ở onsets[15]) chứa các ký tự 'ǃ' và 'ʃ³' từ bản trích xuất Wiktionary của Samarina (2011), thực chất là lỗi OCR từ ký hiệu nguyên âm đầu lưỡi/quặt lưỡi [ɿ]/[ʅ] và số chỉ thanh điệu trong bản in tiếng Nga, dễ gây hiểu nhầm thành âm click [ǃ] hoặc phụ âm xát [ʃ] làm đỉnh âm tiết.",
+        "fix": "Ghi chú rõ đây là ký tự lỗi OCR trên Wiktionary (tương ứng với nguyên âm đầu lưỡi/quặt lưỡi [ɿ]/[ʅ] hoặc [ʐ̩] trong nguyên bản Samarina 2011) ngay tại phần note của hai phụ âm đầu này."
+      },
+      {
+        "path": "lexicon[1].ipa",
+        "severity": "low",
+        "problem": "Từ 'mày' có form là 'mũ²⁴¨' (dấu ¨ trong ký âm của Samarina 2011 biểu thị chất giọng thở/hà hơi - breathy voice), nhưng trường ipa chỉ ghi 'mũ²⁴' làm mất nét khu biệt chất giọng.",
+        "fix": "Cập nhật trường ipa thành 'mṳ̃²⁴' (dùng dấu phụ giọng thở chuẩn IPA [◌̤]) ở cả lexicon[1] và ml_hints.sample_words[1]."
+      },
+      {
+        "path": "music.genres[1].note",
+        "severity": "low",
+        "problem": "Lễ cúng rừng của người Cờ Lao xã Sính Lủng được đưa vào Danh mục Di sản văn hóa phi vật thể quốc gia từ đợt công bố tháng 11/2023 và tổ chức lễ đón nhận vào tháng 10/2024 (bản nháp chỉ ghi năm 2024).",
+        "fix": "Điều chỉnh ghi chú thành 'năm 2023–2024 (tổ chức lễ công bố tháng 10/2024)' để chính xác hoàn toàn về mặt tư liệu."
+      }
+    ]
+  },
+  "schema_errors": []
+}

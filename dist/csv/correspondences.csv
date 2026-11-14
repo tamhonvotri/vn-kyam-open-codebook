@@ -1,4 +1,28 @@
 id,slot,standard,variety,ipa_standard,ipa_variety,condition,example_standard,example_variety,prevalence,confidence
+vie-binh-dinh-phu-yen,tone,ngã,hỏi,˧˥ (gãy),˨˩˦,,mãi,mải,categorical,high
+vie-binh-dinh-phu-yen,rhyme,ôi,âu,oj,ɐw,Trừ đại từ 'tôi' thường nói thành 'tui',thôi rồi,thâu rầu,common,high
+vie-binh-dinh-phu-yen,rhyme,ươi,ư,ɨəj,ɯ,,trái bưởi / người ta,trái bử / ngừ ta,common,high
+vie-binh-dinh-phu-yen,rhyme,ưi,ư,ɨj,ɯ,,gửi,gử,variable,high
+vie-binh-dinh-phu-yen,rhyme,au,ao,aw,æw,"Mất đối lập trường độ giữa -ao và -au, cùng phát âm [æw]",trước sau,trước sao,common,high
+vie-binh-dinh-phu-yen,rhyme,ao,o,aːw,ɔ,Thổ ngữ nông thôn và vùng Bắc Bình Định tiếp giáp Quảng Ngãi,làm sao / cao,làm so / co,local,medium
+vie-binh-dinh-phu-yen,rhyme,ươn,ương,ɨən,ɯɤŋ,,con lươn / vườn,con lương / vường,common,high
+vie-binh-dinh-phu-yen,rhyme,ương,ưng,ɨəŋ,ɯːŋ,Đơn nguyên âm hóa trong khẩu ngữ nhanh ở một số vùng nông thôn (trong khi phát âm chuẩn địa phương giữ [ɯɤŋ]),thương / đường,thưng / đừng,variable,medium
+vie-binh-dinh-phu-yen,rhyme,ươm,ưm,ɨəm,ɯm,,lượm,lựm,common,high
+vie-binh-dinh-phu-yen,rhyme,ê,ơ,e,ɤ,Trong âm tiết mở ở một số từ thông dụng,quê hương / xê ra,quơ hương / xơ ra,variable,high
+vie-binh-dinh-phu-yen,rhyme,e,ia,ɛ,iɤ,Trong âm tiết mở ở khẩu ngữ truyền thống,chạy xe / trái me / bị té,chạy xia / trái mia / bị tía,variable,medium
+vie-binh-dinh-phu-yen,word,về,dìa,ve˨˩,jiɤ˨˩,,đi về,đi dìa,common,high
+vie-binh-dinh-phu-yen,rhyme,ơm,ôm,əːm,om,"Khẩu ngữ gia đình, nông thôn",ăn cơm / sáng sớm,ăn côm / sáng sốm,variable,high
+vie-binh-dinh-phu-yen,rhyme,om,ôm,ɔm,om,"Khẩu ngữ gia đình, nông thôn",lom khom / làng xóm,lôm khôm / làng xốm,variable,high
+vie-binh-dinh-phu-yen,rhyme,êp,ip,ep,ip,,bếp lửa / rượu nếp,bíp lửa / rượu níp,variable,high
+vie-binh-dinh-phu-yen,rhyme,em,im,ɛm,im,Khẩu ngữ một số vùng Bình Định,ăn kem / đem về,ăn kim / đim dìa,local,medium
+vie-binh-dinh-phu-yen,rhyme,uân,ưng,wən,ɯŋ,,chuẩn bị / bình luận,chửng bị / bình lựng,variable,medium
+vie-binh-dinh-phu-yen,rhyme,ông,ong,oŋ͡m,æŋ͡m ~ ɔŋ͡m,Đặc trưng nổi bật ở Phú Yên,lấy chồng,lấy chòng,local,high
+vie-binh-dinh-phu-yen,onset,kh (+ o/u),ph (rụng âm đệm o/u),xw,f,"Trước âm đệm /-w-/ (oa, oe, oai, oăn)",khỏe khoắn / củ khoai,phẻ phắn / củ phai,variable,high
+vie-binh-dinh-phu-yen,onset,v,d,v,j,,vui vẻ,dui dẻ,common,high
+vie-binh-dinh-phu-yen,onset,qu,w,kw,w,,quần áo,wừng áo,common,high
+vie-binh-dinh-phu-yen,rhyme,anh / ach,ăn / ăt,ajŋ / ajk,æn / æt,,xanh sạch,xăn xặt,common,high
+vie-binh-dinh-phu-yen,rhyme,inh / ich,ưn / ưt,iŋ / ik,ɨn / ɨt,,Bình Định / thích,Bừn Đựn / thứt,common,high
+vie-binh-dinh-phu-yen,rhyme,an / at,ang / ac,aːn / aːt,æŋ / æk,,bàn bạc / mát,bàng bạc / mác,common,high
 vie-central,tone,ngã,hỏi,˧ˀ˥,˧˩˨,Tiếng Huế đô thị,mãi,mải,categorical,high
 vie-central,tone,ngã,nặng,˧ˀ˥,˧˩ˀ,"Phổ biến ở Quảng Bình, Quảng Trị và vùng ven",mỡ,mợ,local,high
 vie-central,tone,hỏi,nặng,˧˩˧,˧˩ˀ,"Một số thổ ngữ Quảng Bình, Quảng Trị",cửa,cựa,local,medium
@@ -91,3 +115,62 @@ vie-south,rhyme,ươn,ương,ɨən,ɨəŋ,,vườn,vường,common,medium
 vie-south,rhyme,ươi,ưi,ɨəj,ɨj,,người,ngừi,variable,medium
 vie-south,rhyme,ưu,iu,ɨw,iw,,cứu,cíu,common,medium
 vie-south,rhyme,ươu,iu,ɨəw,iw,,rượu,rịu,common,medium
+vie-southwest,onset,r,g / gh,z ~ ʐ,ɣ,Khẩu ngữ đời thường ở phần lớn các tỉnh Đồng bằng sông Cửu Long (khác biệt đặc trưng nhất so với giọng Sài Gòn/Đông Nam Bộ); ít xuất hiện khi hát cải lương chuẩn mực,rồi / cá rô,gồi / cá gô,common,high
+vie-southwest,onset,r,d,z ~ ʐ,j,"Vùng giáp ranh TP.HCM – Long An – Tiền Giang (Bình Chánh, Cần Giuộc, Cần Đước, Gò Công) và một bộ phận cư dân miệt biển",rồi / rau,dồi / dao,local,high
+vie-southwest,onset,v,d,v,j,Khẩu ngữ thông thường (chia sẻ với vie-south),về / vui vẻ,dề / dui dẻ,common,high
+vie-southwest,onset,v,b-d / v-d,v,βj ~ bj ~ vj,"Ngôn ngữ ca diễn cổ nhạc (vọng cổ, cải lương, đờn ca tài tử) và người lớn tuổi vùng nông thôn",về,b-dề [βje˨˩ ~ vje˨˩],variable,high
+vie-southwest,onset,"kh (trước o, u làm âm đệm)",ph,xʷ,f,Trước âm đệm /-w-/; bảo lưu đậm nét ở miền Tây hơn so với Sài Gòn hiện đại,khoai / khuya / khuất,phai / phia / phứt,common,high
+vie-southwest,onset,"qu / h (+ o, u) / ng (+ o, u)",qu / w,kw / hw / ŋw,w,Rụng phụ âm đầu trước âm đệm /-w-/,qua / hoa / ngoan,qua / qua / quang ([waː / waː / waːŋ]),common,high
+vie-southwest,glide,"-o- / -u- (sau l, t, đ, ch, nh, d, x, s)",∅ (rụng âm đệm),w,∅,Sau các phụ âm đầu lưỡi và mặt lưỡi,chuyện / duyên / nhuyễn,chiện / diêng / nhiễn,common,high
+vie-southwest,onset,tr,ch,ʈ,c,"Phổ biến ở vùng có tiếp biến tiếng Hoa Triều Châu (Sóc Trăng, Bạc Liêu, Kiên Giang, Cà Mau) và người trẻ",trăm / trời,chăm / chời,variable,high
+vie-southwest,onset,s,x,ʂ,s,Biến thể theo vùng và người nói,sông / sao,xông / xao,variable,high
+vie-southwest,tone,ngã,hỏi,˧ˀ˥,˨˩˦,Mọi ngữ cảnh (chia sẻ với vie-south),mãi / ngã,mải / ngả,categorical,high
+vie-southwest,rhyme,êu,iu,ew,iw,Rất phổ biến ở miền Tây (đặc biệt trong từ 'kêu'),kêu / nêu,kiu / niu,common,high
+vie-southwest,rhyme,ưu / ươu,iu,ɨw / ɨəw,iw,Chia sẻ với vie-south,cứu / rượu,cíu / rịu (gịu),common,high
+vie-southwest,rhyme,ươi / uôi,ưi / ui,ɨəj / uəj,ɨj / uj,Phổ biến trong khẩu ngữ tự nhiên ở ĐBSCL,mười / cuối,mừi / cúi,common,medium
+vie-southwest,rhyme,ay,ai,aj,aːj,Kéo dài nguyên âm chính trước bán âm /-j/,tay / may,tai / mai,common,high
+vie-southwest,rhyme,au,ao,aw,aːw,Kéo dài nguyên âm chính trước bán âm /-w/,sau / đau,sao / đao,variable,medium
+vie-southwest,rhyme,an / at,ang / ac,aːn / aːt,aːŋ / aːk,Chia sẻ với vie-south,bàn / mát,bàng / mác,common,high
+vie-southwest,rhyme,anh / ach,ăn / ăt,ajŋ / ajk,an / at,Chia sẻ với vie-south,xanh / sách,xăn / sắt,common,high
+vie-southwest,rhyme,inh / ich,ưn / ưt,iŋ / ik,ɪn ~ ɨn / ɪt ~ ɨt,Chia sẻ với vie-south,mình / thích,mừn / thứt,common,high
+vie-southwest,rhyme,iên / iêt / uôn / ươn,iêng / iêc / uông / ương,iən / iət / uən / ɨən,iəŋ / iək / uəŋ / ɨəŋ,Chia sẻ với vie-south,tiền / biết / buồn / vườn,tiềng / biếc / buồng / vường,common,medium
+vie-southwest,rhyme,un / ut,ung / uc,un / ut,uŋ͡m / uk͡p,Chia sẻ với vie-south,bún / út,búng / úc,common,medium
+vie-thanh-hoa,tone,ngã,hỏi,˧ˀ˥,˧˩˧,,nãy / ngã,nảy / ngả,categorical,high
+vie-thanh-hoa,nucleus,iê / ia,i (kéo dài),iə,iː,Triệt tiêu nguyên âm đôi /iə/ thành nguyên âm đơn dài /iː/,mía / điếu,mí (dài) / đíu,common,high
+vie-thanh-hoa,nucleus,uô / ua,u (kéo dài),uə,uː,Triệt tiêu nguyên âm đôi /uə/ thành nguyên âm đơn dài /uː/,luôn / cuốn,lun [luːn] / cún [kuːn],common,high
+vie-thanh-hoa,nucleus,ươ / ưa,ư (kéo dài),ɨə,ɨː,Triệt tiêu nguyên âm đôi /ɨə/ thành nguyên âm đơn dài /ɨː/,mượn / nước,mựn / nức (dài) ~ nác,common,high
+vie-thanh-hoa,rhyme,i,ây / êi,i,əj ~ ej,Ở một số từ thông dụng mang âm tiết mở,chị / chi,chậy / chêi,common,high
+vie-thanh-hoa,rhyme,ân,ưn,ə̆n,ɨn,Sau một số phụ âm đầu mặt lưỡi / đầu lưỡi,chân / gần,chưn / gừn,common,high
+vie-thanh-hoa,rhyme,ưc,âc,ɨk,ə̆k,Biến đổi đối xứng ư → â trong một nhóm từ vần -ưc,bực / nóng nực / đực,bậc / nóng nậc / đậc,common,high
+vie-thanh-hoa,rhyme,oan / oat,"on / ot (kéo dài, môi hóa)",waːn / waːt,ʷɔːn / ʷɔːt,Âm đệm [w] đồng hóa tròn môi âm chính [a] theo sau,toàn / quạt,tòn [tʷɔːn] / cọt [kʷɔːt],variable,medium
+vie-thanh-hoa,rhyme,ơi,ưi,əːj,ɨj,Trong một số từ khẩu ngữ,phơi,phưi,variable,medium
+vie-thanh-hoa,rhyme,âu,au,ə̆w,aw,Một số từ khẩu ngữ thông dụng,đầu,đàu,variable,medium
+vie-thanh-hoa,onset,tr,t,ʈ ~ c,t,"Cục bộ tại một số xã thuộc Nga Sơn (Nga Mỹ, Nga Thủy) và Thọ Xuân (Phú Yên)",trời trong trẻo,tời tong tẻo,local,high
+vie-thanh-hoa,word,gỡ / gõ / gãi / gọt,khở / khỏ / khải / khót,ɣəː˧ˀ˥ / ɣɔ˧ˀ˥ / ɣaːj˧ˀ˥ / ɣɔt˨˩ˀ,xəː˧˩˧ / xɔ˧˩˧ / xaːj˧˩˧ / xɔt˧˥,Bảo lưu phụ âm vô thanh + thanh cao của tiếng Việt cổ trước quá trình hữu thanh hóa và hạ thấp thanh điệu,gỡ / gõ / gãi / gọt,khở / khỏ / khải / khót,variable,high
+vie-xu-quang,tone,ngã,hỏi,325 (nghẽn thanh hầu),214,,"ngã, ~",ngả,categorical,high
+vie-xu-quang,onset,v,d,v,j,,về,dề,common,high
+vie-xu-quang,onset,qu,w,kw,w,,qua,woa,common,high
+vie-xu-quang,rhyme,a,oa,aː,ɑː ~ ɒː,âm tiết mở (không có âm cuối),"cá, ba, Hà","cóa, boa, Hòa",common,high
+vie-xu-quang,rhyme,an / ang,oang,aːn / aːŋ,ɑːŋ,,"bàn, đang","boàng, đoang",common,high
+vie-xu-quang,rhyme,at / ac,oac,aːt / aːk,ɑːk,,"mát, khác","moác, khoác",common,high
+vie-xu-quang,rhyme,am,ôm,aːm,oːm,trước âm cuối môi -m,"Quảng Nam, làm, cảm","Quảng Nôm, lồm, cổm",common,high
+vie-xu-quang,rhyme,ap,ôp,aːp,oːp,trước âm cuối môi -p,"xe đạp, tháp","xe độp, thốp",common,high
+vie-xu-quang,rhyme,ao,ô,aːw,oː,,"cao, bao, chào","cô, bô, chồ",common,high
+vie-xu-quang,rhyme,âu,ao,əw,aːw,,"đâu, trâu, cầu","đao, trao, cào",common,high
+vie-xu-quang,rhyme,au,ao,aw,aːw,"nhập với âu thành [aːw], trong khi ao gốc đã chuyển thành [oː]","đau, sau","đao, sao",common,high
+vie-xu-quang,rhyme,ai,ưa,aːj,ɨə,,"hai, tai, sai","hưa, tưa, sưa",common,high
+vie-xu-quang,rhyme,oai,ua,waːj,uə,,"khoai, nhớ hoài","khua, nhớ hùa",common,high
+vie-xu-quang,rhyme,oi,ua,ɔj,uə,,"nói, hỏi, coi","núa, hủa, cua",common,high
+vie-xu-quang,rhyme,ay,a,aj,aː,"rụng /-j/ thành [aː] trước/giữa, không lùi thành [ɑː] như âm a gốc","tay, hay, ngày","ta, ha, ngà",common,high
+vie-xu-quang,rhyme,ây,ay,əj,aj,,"thấy, mấy, cây","tháy, máy, cay",common,high
+vie-xu-quang,rhyme,ăn / ăng,eng,an / aŋ,ɛŋ,,"ăn, măng, trắng","eng, meng, tréng",common,high
+vie-xu-quang,rhyme,ăt / ăc,ec,at / ak,ɛk,,"mắt, mặc, khắc","méc, mẹc, khéc",common,high
+vie-xu-quang,rhyme,ăm,em,am,ɛm,đậm ở nông thôn Quảng Nam – Quảng Ngãi; nhẹ hơn ở Đà Nẵng,"năm, tắm","nem, tém",variable,high
+vie-xu-quang,rhyme,ăp,ep,ap,ɛp,đậm ở nông thôn Quảng Nam – Quảng Ngãi,"bắp, gặp","bép, ghẹp",variable,medium
+vie-xu-quang,rhyme,anh,ăn,ajŋ,an,không nhập với ăn gốc (vì ăn gốc đã thành eng [ɛŋ]),"xanh, anh","xăn, ăn",common,high
+vie-xu-quang,rhyme,ach,ăt,ajk,at,không nhập với ăt gốc (vì ăt gốc đã thành ec [ɛk]),"sách, khách","sắt, khắt",common,high
+vie-xu-quang,rhyme,inh,ưn,iŋ,ɨn,,"mình, hình","mừn, hừn",common,high
+vie-xu-quang,rhyme,ich,ưt,ik,ɨt,,"thích, lịch","thứt, lựt",common,high
+vie-xu-quang,rhyme,iêt / iêp,it / ip,iət / iəp,it ~ ik / ip,rút gọn nguyên âm đôi hướng tâm trước âm tắc ở một số từ thông dụng (biến thiên song song với phát âm giữ nguyên âm đôi [iək / iəp]),"biết, tiếp","bít, típ",variable,medium
+vie-xu-quang,rhyme,uân,ưng,wən,ɨŋ,,"xuân, tuần","xưng, từng",variable,high
+vie-xu-quang,rhyme,ôi,âu,oj,ɐw ~ əw,phổ biến ở Quảng Ngãi và vùng nam Quảng Nam (giáp Quảng Ngãi),"rồi, bà nội","rầu, bà nậu",local,high

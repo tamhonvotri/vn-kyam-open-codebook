@@ -1,0 +1,98 @@
+{
+  "target": {
+    "id": "cham-cja",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Chăm Tây (Chăm Nam Bộ)",
+    "ethnic_group_vi": "Chăm",
+    "iso639_3_expected": "cja",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chăm tại Việt Nam (mã ISO dự kiến: cja; bảng mã dân tộc gốc: cham). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"cham\"."
+  },
+  "started": "2026-11-13T23:13:46.323484",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9441,
+      "candidatesTokenCount": 8334,
+      "totalTokenCount": 21794,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9441
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8334
+        }
+      ],
+      "thoughtsTokenCount": 4019,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10049,
+      "candidatesTokenCount": 10056,
+      "totalTokenCount": 21767,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10049
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10056
+        }
+      ],
+      "thoughtsTokenCount": 1662,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[1].glottocode",
+        "severity": "high",
+        "problem": "Mã Glottocode của tiếng Chăm Hroi (Haroi, ISO 639-3: hro) bị ghi sai thành 'haro1243'.",
+        "fix": "Sửa thành 'haro1237' theo đúng dữ liệu Glottolog 5.3."
+      },
+      {
+        "path": "sources[1]",
+        "severity": "medium",
+        "problem": "Nguồn PHOIBLE 2.0 (SPA 29 / west2650) trên thực tế là bảng âm vị tiếng Chăm Đông của Doris/David Blood (1967, 'Phonological units in Cham') bị gán nhầm mã ngôn ngữ sang Chăm Tây (west2650/cja) trong cơ sở dữ liệu SPA/PHOIBLE (chứa âm quặt lưỡi ʈ, ɖ và thanh điệu của Chăm Phan Rang).",
+        "fix": "Ghi chú rõ trong tiêu đề nguồn PHOIBLE về sự gán nhầm mã của SPA 29 (Blood 1967) và bổ sung nguồn đo đạc âm học thực nghiệm trực tiếp trên phương ngữ Chăm Châu Đốc của Marc Brunelle (2009) cùng từ điển Kvoeu-Hor & Friberg (1978)."
+      },
+      {
+        "path": "status_note",
+        "severity": "medium",
+        "problem": "Ghi chú trạng thái cho rằng hầu hết mô tả âm học quốc tế chỉ dựa trên phương ngữ ở Campuchia, bỏ sót thực tế là Friberg & Hor (1977) khảo sát phương ngữ Chăm Châu Đốc và Marc Brunelle (2009) đã đo đạc âm học/EGG trực tiếp trên tiếng Chăm Châu Đốc (An Giang) so sánh với Kompong Chhnang và Phan Rang.",
+        "fix": "Cập nhật status_note và phonology.register_or_phonation để phản ánh chính xác kết quả nghiên cứu thực nghiệm tại Châu Đốc của Friberg & Hor (1977) và Brunelle (2009)."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Thiếu âm tắc hút vào mặt lưỡi /ʄ/ (hoặc /ʔɟ/, viết là dj / j trong một số hệ phiên âm) có mặt trong hệ thống âm vị Chăm Tây (Friberg & Hor 1977); đồng thời cần làm rõ đối lập các phụ âm bật hơi âm vực cao (ph, th, ch/chh, kh) và âm vực thấp từ phụ âm hữu thanh bật hơi lịch sử (bh, dh, jh, gh).",
+        "fix": "Bổ sung mục phụ âm hút vào mặt lưỡi [ʄ] và chỉnh lại ghi chú ở nhóm phụ âm bật hơi (ph/bh, th/dh, ch/chh/jh, kh/gh)."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "medium",
+        "problem": "Đặt confidence='high' cho đối lập trường độ nguyên âm ngắn – dài trên toàn bộ 8–9 vị trí nguyên âm (i/iː, ɛ/ɛː, ɨ/ɨː, ə/əː, u/uː, o/oː, ɔ/ɔː) là quá mức đối với tiếng Chăm Tây: khác với tiếng Chăm cổ và Chăm Đông, trong tiếng Chăm Tây đối lập trường độ âm vị học rõ nét nhất ở cặp ă /a/ – a /aː/, còn ở các nguyên âm khác trường độ phần lớn bị quy định bởi cấu trúc âm tiết đóng/mở (Friberg & Hor 1977; Headley 1991; Brunelle 2009).",
+        "fix": "Giữ confidence='high' cho cặp ă/a (/a, aː/) và hạ confidence xuống 'medium' đối với đối lập trường độ ở các nguyên âm còn lại, kèm ghi chú làm rõ."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Một số mục từ vựng chỉ ghi biến thể chính tả kiểu Việt hóa ('ia', 'dua', 'boh') mà thiếu dạng chính tả chuẩn trong từ điển Chăm Tây của Kvoeu-Hor & Friberg 1978 ('ea', 'doa', 'bôh').",
+        "fix": "Bổ sung dạng song hành 'ia / ea', 'dua / doa', 'boh / bôh' để khớp với cả thực hành tại Nam Bộ và văn liệu Chăm Tây chuẩn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,73 @@
+{
+  "target": {
+    "id": "thai-tyj",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tai Yo (Thái Quỳ Châu)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3_expected": "tyj",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tyj; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+  },
+  "started": "2026-11-13T23:54:09.544467",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9443,
+      "candidatesTokenCount": 11158,
+      "totalTokenCount": 28741,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9443
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11158
+        }
+      ],
+      "thoughtsTokenCount": 8140,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12192,
+      "candidatesTokenCount": 10875,
+      "totalTokenCount": 23067,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12192
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10875
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.codas[1].note",
+        "severity": "low",
+        "problem": "Ghi chú nêu chữ Lai Tay dùng cả 𞛋 (U+1E6CB DO) hoặc 𞛌 (U+1E6CC LOW TO) ở cuối âm tiết cho âm /-t/, trong khi chuẩn Unicode (Table 16-17, Chapter 16) quy định 8 phụ âm cuối tiêu chuẩn trong đó âm /-t/ dùng 𞛋 (U+1E6CB TAI YO LETTER DO).",
+        "fix": "Chỉnh lại ghi chú: chuẩn hóa dùng 𞛋 (U+1E6CB DO) cho âm cuối /-t/ (một số bản thảo có thể gặp biến thể dùng 𞛌 LOW TO)."
+      },
+      {
+        "path": "sources[6]",
+        "severity": "low",
+        "problem": "Tài liệu Sầm Công Danh (2023) thiếu URL/DOI (trường url đang để null) và ghi số trang 113–125 thay vì 113–124.",
+        "fix": "Bổ sung URL Zenodo chính thức (https://doi.org/10.5281/zenodo.8374626) và chỉnh số trang thành 113–124; cập nhật url_check cho toàn bộ danh mục nguồn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

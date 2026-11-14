@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "xo-dang-tdr",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tơ Đra",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3_expected": "tdr",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: tdr; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+  },
+  "started": "2026-11-14T00:00:34.443123",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9450,
+      "candidatesTokenCount": 8113,
+      "totalTokenCount": 17563,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9450
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8113
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10124,
+      "candidatesTokenCount": 8851,
+      "totalTokenCount": 19818,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10124
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8851
+        }
+      ],
+      "thoughtsTokenCount": 843,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Mục từ 'vì' [vi̤ː] ('họ, chúng') xuất hiện trong lexicon và ml_hints, nhưng âm đầu 'v' chưa được liệt kê trong phonology.onsets (chỉ mới liệt kê 'w, y').",
+        "fix": "Bổ sung 'v' vào mục bán nguyên âm / âm xát môi-răng hữu thanh cùng với 'w, y' trong phonology.onsets."
+      },
+      {
+        "path": "ml_hints.quoc_ngu_approximation[5].native",
+        "severity": "low",
+        "problem": "Lỗi đánh máy '-gn' thay vì '-gng' khi ghi âm mũi gốc lưỡi tiền tắc hóa (trong khi ví dụ đi kèm là 'tigng' và phần phonology.codas ghi đúng là '-gng').",
+        "fix": "Sửa thành '-gng / -bm / -dn (âm mũi tiền tắc hóa, ví dụ: tigng, pơdabm)'."
+      },
+      {
+        "path": "lexicon[5].confidence",
+        "severity": "low",
+        "problem": "Từ 'koni' (chuột) và 'pa' (bay - thông thường trong Bahnar Bắc là 'par' ở Modra / 'pa' ở Didra) chưa ghi rõ biến thể giữa hai phương ngữ hoặc độ chắc chắn của nguyên âm tiền âm tiết.",
+        "fix": "Giữ confidence ở mức 'medium' cho 'pa' và 'koni', đồng thời bổ sung từ 'chù' (lợn - Didra) đã kiểm chứng trực tiếp từ Gregerson & Smith (1973)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

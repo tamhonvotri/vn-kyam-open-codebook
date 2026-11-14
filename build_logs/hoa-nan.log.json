@@ -1,0 +1,98 @@
+{
+  "target": {
+    "id": "hoa-nan",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Triều Châu (Tiều)",
+    "ethnic_group_vi": "Hoa",
+    "iso639_3_expected": "nan",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Hoa tại Việt Nam (mã ISO dự kiến: nan; bảng mã dân tộc gốc: hoa). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hoa\"."
+  },
+  "started": "2026-11-13T23:32:33.989300",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9436,
+      "candidatesTokenCount": 8355,
+      "totalTokenCount": 24359,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9436
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8355
+        }
+      ],
+      "thoughtsTokenCount": 6568,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10874,
+      "candidatesTokenCount": 10277,
+      "totalTokenCount": 23575,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10874
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10277
+        }
+      ],
+      "thoughtsTokenCount": 2424,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.codas[4].note, lexicon[10], ml_hints.quoc_ngu_approximation[3].note, ml_hints.quoc_ngu_approximation[6].note, ml_hints.sample_words[7]",
+        "severity": "high",
+        "problem": "Từ 食 ('ăn') trong tiếng Triều Châu có phụ âm đầu tắc-xát vô thanh KHÔNG bật hơi /t͡s/, viết theo Peng'im là 'ziah8' /t͡siaʔ˦/ (POJ viết là 'chia̍h'). Bản nháp đã nhầm chữ 'ch-' của POJ sang chữ 'c-' (/t͡sʰ/ bật hơi) của Peng'im nên ghi sai thành 'ciah8' /t͡sʰiaʔ˦/.",
+        "fix": "Sửa 'ciah8' /t͡sʰiaʔ˦/ thành 'ziah8' /t͡siaʔ˦/ ở tất cả các vị trí xuất hiện."
+      },
+      {
+        "path": "lexicon[5]",
+        "severity": "high",
+        "problem": "Từ 叔 ('chú', Việt hóa: 'chệt / chệc') phát âm là /t͡sek̚˨/ với nguyên âm /e/ (Peng'im viết là 'zêg4'). Bản nháp nhầm quy ước chữ 'e' (/ɯ/) và 'ê' (/e/) của Peng'im nên ghi sai thành 'zeg4' và IPA 't͡sɯk̚˨'.",
+        "fix": "Sửa Peng'im thành 'zêg4' (hoặc 'a1 zêg4' 阿叔) và IPA thành 't͡sek̚˨'."
+      },
+      {
+        "path": "lexicon[1], lexicon[10], ml_hints.quoc_ngu_approximation[4].note, ml_hints.sample_words[1], ml_hints.sample_words[6]",
+        "severity": "medium",
+        "problem": "Không khớp giữa chính tả Peng'im và ký âm IPA cho nguyên âm /ɯ/ (Peng'im viết là 'e') và /u/ (Peng'im viết là 'u'): từ 汝 ('lứ') đọc /lɯ˥˧/ (giọng phủ Triều Châu) phải viết Peng'im là 'le2', còn 'lu2' là cách đọc /lu˥˧/ (giọng Sán Đầu); tương tự, từ 飯 ('cơm / bừng') đọc /pɯŋ˩˩/ (giọng Triều Châu) phải viết Peng'im là 'beng7', còn 'bung7' là cách đọc /puŋ˩˩/ (giọng Sán Đầu).",
+        "fix": "Ghi rõ cả hai biến thể Triều Châu / Sán Đầu: 'le2 / lu2' ('lɯ˥˧ ~ lu˥˧') cho 汝 và 'beng7 / bung7' ('pɯŋ˩˩ ~ puŋ˩˩') cho 飯."
+      },
+      {
+        "path": "lexicon[3]",
+        "severity": "medium",
+        "problem": "Từ 阿兄 ('anh trai') có nguyên âm đôi mũi hóa /a˧˧ hĩã˧˧/, theo quy tắc Peng'im (đã nêu ở phonology.vowels[6]) phải có '-n' cuối để ghi tính mũi ('a1 hian1'), nhưng bản nháp viết thiếu '-n' thành 'a1 hia1'.",
+        "fix": "Sửa Peng'im thành 'a1 hian1'."
+      },
+      {
+        "path": "phonology.vowels[8].note",
+        "severity": "medium",
+        "problem": "Chữ 黃 ('họ Huỳnh/Hoàng, màu vàng') trong tiếng Triều Châu mang thanh 5 Dương bình, viết theo Peng'im là 'ng5' (/ŋ̍˥˥/), không phải 'ng6' hay 'hng5' ('hng5' trong tiếng Tiều là 園 'vườn', hoặc là cách viết POJ 'hn̂g' của tiếng Phúc Kiến cho chữ 黃).",
+        "fix": "Sửa ví dụ thành 'ng5 (黃 \"họ Huỳnh/Hoàng, màu vàng\") hoặc hng5 (園 \"vườn\")'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn có URL đang để null.",
+        "fix": "Cập nhật url_check thành 'verified' sau khi kiểm chứng các liên kết Glottolog và Wikipedia."
+      }
+    ]
+  },
+  "schema_errors": []
+}

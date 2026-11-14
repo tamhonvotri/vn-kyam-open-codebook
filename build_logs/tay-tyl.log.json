@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "tay-tyl",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thu Lao",
+    "ethnic_group_vi": "Tày",
+    "iso639_3_expected": "tyl",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Tày tại Việt Nam (mã ISO dự kiến: tyl; bảng mã dân tộc gốc: tay). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"tay\"."
+  },
+  "started": "2026-11-13T23:49:04.165225",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9434,
+      "candidatesTokenCount": 7128,
+      "totalTokenCount": 16562,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9434
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7128
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9254,
+      "candidatesTokenCount": 8641,
+      "totalTokenCount": 20352,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9254
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8641
+        }
+      ],
+      "thoughtsTokenCount": 2457,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8.8,
+    "issues": [
+      {
+        "path": "lexicon[8]",
+        "severity": "medium",
+        "problem": "Mục từ 'bảy (7)' ghi form là 'cet' và ipa là 'cet', bị thiếu ký hiệu thanh điệu. Theo Kosaka (1997, tr. 140), từ 'seven' trong tiếng Bu Dai là /cet¹/ (mang thanh 1, đối lập phụ âm đầu với /cʰet¹/ 'con rết').",
+        "fix": "Sửa form thành 'cet¹' và ipa thành 'cet˩˩'."
+      },
+      {
+        "path": "lexicon[3], lexicon[4], lexicon[6], phonology.syllable_structure, ml_hints.sample_words",
+        "severity": "medium",
+        "problem": "Kosaka (1997, tr. 140, 143, 148) chỉ rõ nguyên âm mở đóng âm tiết *-aa (và *-waaj > *-wa) của Proto-Tai biến đổi thành /-ɔ/ trong tiếng Bu Dai (/mɔ²/ 'dog', /pɔ²/ 'fish', /ɣɔ¹/ 'water buffalo', /vɔ¹/ 'sky'), trong khi /-o/ ở âm tiết mở có phân bố rất hẹp (như /ɣo⁴/ 'to speak', /kʰo³/ 'fast'). Bản nháp ghi 'vɔ¹' (trời) bằng /ɔ/ nhưng lại ghi 'lə-mo²' (chó), 'mi-po²' (cá), 'lə-ɣo¹' (trâu) bằng /o/ do nhầm lẫn ký tự OCR ở chú thích cuối trang 139.",
+        "fix": "Chuẩn hóa nguyên âm chính của 'chó', 'cá', 'trâu' thành /-ɔ/ (/lə-mɔ²/, /mi-pɔ²/, /lə-ɣɔ¹/) thống nhất với /vɔ¹/ và mô tả hệ thống nguyên âm của Kosaka (1997)."
+      },
+      {
+        "path": "music.instruments[0].name",
+        "severity": "low",
+        "problem": "Tư liệu báo chí Lào Cai viết về nghệ nhân Vàng Sín Phìn (xã Nàn Sán, Si Ma Cai) ghi tên đàn 4 dây của người Thu Lao là 'Đàn Ản tắng', không phải 'ẳn tắng'.",
+        "fix": "Sửa thành 'Đàn ản tắng (ẳng tắng)'."
+      },
+      {
+        "path": "sources[5].title, sources[6].title",
+        "severity": "low",
+        "problem": "Thông tin thư mục của hai sách tiếng Việt chưa thật chuẩn xác theo mục lục thư viện: sách của Nguyễn Hùng Mạnh (2014) đứng tên Nguyễn Hùng Mạnh; sách của Trần Hữu Sơn (2011) có nhan đề chính xác là 'Dân ca và truyện kể dân gian của người Thu Lao ở Lào Cai' (Trần Hữu Sơn, Lê Thành Nam đồng chủ biên, Đinh Thị Hồng Thơm, Vàng Sín Phìn).",
+        "fix": "Chuẩn hóa lại tên tác giả và nhan đề hai tài liệu nguồn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,817 @@
+{
+  "id": "e-de-ibh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Bih (Ê Đê Bih)",
+  "name_en": "Bih (Rade Bih)",
+  "autonym": "Bih",
+  "ethnic_group_vi": "Ê Đê",
+  "language": {
+    "iso639_3": "ibh",
+    "glottocode": "biha1246",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian, Chamic, Highlands Chamic"
+  },
+  "regions": [
+    "Huyện Krông Ana, tỉnh Đắk Lắk (thị trấn Buôn Trấp, xã Ea Bông, ven sông Krông Ana)",
+    "Phía nam TP. Buôn Ma Thuột, tỉnh Đắk Lắk"
+  ],
+  "speakers_estimate": "Ngôn ngữ cực kỳ nguy cấp (Critically Endangered): dân số nhóm tộc người Bih khoảng 400–500 người (hoặc đến 1.000 người theo ước tính cũ), nhưng số người nói thông thạo tiếng Bih như tiếng mẹ đẻ chỉ còn khoảng 10 người cao tuổi (theo Nguyen 2013, 2015).",
+  "scripts": [
+    {
+      "name": "Chữ Latinh Bih (dựa trên bộ chữ Ê Đê)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended-B, Latin Extended Additional, Combining Diacritical Marks",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh thực hành dùng trong điền dã và tư liệu hóa ngôn ngữ (Nguyen 2013, Bảng 3.5 & 3.6), kế thừa trực tiếp quy ước chữ Ê Đê chuẩn tại Đắk Lắk (có các chữ cái đặc trưng ƀ, đ, č, ñ và dấu trăng ˘ ghi nguyên âm ngắn hoặc âm tắc thanh hầu cuối âm tiết). Tiếng Bih chưa được dạy chính thức trong trường học."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Biên soạn dựa trên luận án ngữ pháp miêu tả 'A Grammar of Bih' của Nguyễn Thị Minh Tâm (Tam Thi Minh Nguyen, 2013, University of Oregon), phân loại của Đoàn Văn Phúc (1998) và tư liệu văn hóa cồng chiêng Ê Đê Bih tại Đắk Lắk. Trước đây Bih thường được xếp là một phương ngữ của tiếng Ê Đê (rad), nhưng đã được cấp mã ISO 639-3 riêng (ibh) nhờ các đặc trưng bảo lưu ngữ âm Chăm nguyên thủy khác biệt rõ rệt với tiếng Ê Đê Kpă. Chưa qua thẩm định của người bản ngữ và chuyên gia ngôn ngữ học.",
+  "phonology": {
+    "syllable_structure": "(CV)C(C)V(C) — Từ đơn tiết hoặc song tiết theo nhịp điệu yếu–mạnh (iambic). Tiền âm tiết (presyllable) CV không có phụ âm cuối, bảo lưu 6 phụ âm đầu (/p, t, c, k, ʔ, m/, cùng biến thể r- trong một số từ như trlâo/trbâo) và bảo lưu đủ 4 nguyên âm (/a, i, u, ə/) từ tiếng Chăm nguyên thủy (đặc điểm duy nhất còn giữ được trong các ngôn ngữ Chăm lục địa). Âm tiết chính cho phép tổ hợp phụ âm đầu nguyên cấp (primary clusters) kế thừa từ tiếng Chăm nguyên thủy với âm thứ hai là /-l-/ hoặc /-r-/ (pl-, bl-, tl-, kl-, pr-, kr-...).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi; xuất hiện ở cả tiền âm tiết và âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi (khác với chữ Quốc ngữ đọc là [f])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Âm tắc hai môi hữu thanh thường (nổ ra ngoài, phân biệt với âm hút vào ƀ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ƀ",
+        "ipa": "ɓ",
+        "note": "Âm tắc hai môi hữu thanh hút vào / thanh hầu hóa (implosive), tương đương 'b' trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc chân răng vô thanh không bật hơi; xuất hiện ở cả tiền âm tiết và âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Âm tắc chân răng hữu thanh thường (khác chữ Quốc ngữ đọc [z]/[j])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Âm tắc chân răng hữu thanh hút vào / thanh hầu hóa (implosive), tương đương 'đ' trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "č",
+        "ipa": "c",
+        "note": "Âm tắc mặt lưỡi–ngạc cứng vô thanh không bật hơi; xuất hiện ở cả tiền âm tiết và âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "čh",
+        "ipa": "cʰ",
+        "note": "Âm tắc ngạc cứng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Âm tắc ngạc cứng hữu thanh thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dj",
+        "ipa": "ʄ",
+        "note": "Âm tắc ngạc cứng hữu thanh hút vào / thanh hầu hóa (implosive)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật hơi; xuất hiện ở cả tiền âm tiết và âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm vô thanh bật hơi (khác 'kh' [x] của tiếng Việt Hà Nội)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Âm tắc ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đầu âm tiết không được ghi bằng chữ cái trong chính tả (ví dụ: anak /ʔanak/, ih /ʔih/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi; xuất hiện ở cả tiền âm tiết và âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ",
+        "ipa": "ɲ",
+        "note": "Âm mũi ngạc cứng, tương đương 'nh' trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Âm xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi–ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm r chân răng (alveolar rhotic)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên chân răng",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước khép (không đối lập độ dài âm vị học; đọc dài ở âm tiết mở)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm trước khép đọc ngắn trong âm tiết đóng hoặc trước âm tắc thanh hầu cuối /-ʔ/ (ví dụ: pĭt, amĭ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa khép; chỉ xuất hiện trong âm tiết mở (Nguyen 2013, tr. 25)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở (không đối lập độ dài âm vị học)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ",
+        "note": "Ký hiệu chính tả ghi nguyên âm /ɛ/ ngắn khi đóng bằng âm tắc thanh hầu /-ʔ/ (ví dụ: pĕ [pɛʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa khép không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ɘ",
+        "note": "Nguyên âm giữa nửa khép dài (mid-central long vowel, ký hiệu /ɘ/ trong Bảng 3.3 của Nguyen 2013)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ̆",
+        "ipa": "ɘ̆",
+        "note": "Nguyên âm giữa nửa khép ngắn (đối lập độ dài âm vị học với /ɘ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa nửa mở (higher mid-low central vowel /ə/ trong Bảng 3.3 của Nguyen 2013)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm giữa mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ă",
+        "note": "Nguyên âm giữa mở ngắn (đối lập độ dài âm vị học với /a/, hoặc đứng trước /-ʔ/ ở cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau khép tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "ŭ",
+        "note": "Nguyên âm sau khép tròn môi ngắn (đối lập độ dài âm vị học với /u/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa khép tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô̆",
+        "ipa": "ŏ",
+        "note": "Nguyên âm sau nửa khép tròn môi ngắn (đối lập độ dài âm vị học với /o/, ghi là ô̆ trong Bảng 3.6)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở tròn môi; chỉ xuất hiện trong âm tiết đóng và luôn ngắn (Nguyen 2013, tr. 25, Bảng 3.6; đôi khi viết là 'o' trước -h như boh [bɔh])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê, ie, ia, ei",
+        "ipa": "ie ~ iɛ ~ ia ~ ɛi",
+        "note": "Nhóm nguyên âm đôi dòng trước trong chính tả Bih (trong đó /ɛi/ chỉ xuất hiện ở âm tiết mở; Nguyen 2013, tr. 25–26)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơi, âo, ao, ai",
+        "ipa": "ɘi ~ ɘu ~ au ~ ai",
+        "note": "Nhóm nguyên âm đôi dòng giữa trong chính tả Bih (trong đó /-ɘu/ và /-au/ chỉ xuất hiện ở âm tiết mở; Nguyen 2013, tr. 25–27)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ui, uê, uâ, uă, ua, uô",
+        "ipa": "ui ~ ue ~ uə ~ uă ~ ua ~ uo",
+        "note": "Nhóm nguyên âm đôi dòng sau trong chính tả Bih (Nguyen 2013, tr. 26–27)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iêu, uai, uay",
+        "ipa": "ieu ~ uai ~ uaj",
+        "note": "Ba nguyên âm ba (triphthongs) trong tiếng Bih; chỉ xuất hiện trong âm tiết mở (Nguyen 2013, tr. 25, 27)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi cuối âm tiết (ví dụ: yap [jap] 'đếm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc chân răng vô thanh không bật hơi cuối âm tiết (ví dụ: pĭt [pĭt] 'ngủ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "č",
+        "ipa": "c",
+        "note": "Âm tắc ngạc cứng vô thanh cuối âm tiết (ví dụ: lač [lac] 'nói')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh cuối âm tiết (ví dụ: awak [ʔawak] 'muôi/thìa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "˘ (trên nguyên âm cuối từ)",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối âm tiết /-ʔ/; nguyên âm đóng bằng /-ʔ/ luôn bị trung hòa thành nguyên âm ngắn (ví dụ: amĭ [ʔamiʔ], pĕ [pɛʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết (ví dụ: djăm [ʄăm] 'canh/rau')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết (ví dụ: lăn [lăn] 'đất')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ",
+        "ipa": "ɲ",
+        "note": "Âm mũi ngạc cứng cuối âm tiết (ví dụ: phañ [phaɲ] 'hắt hơi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết (ví dụ: sang [saŋ] 'nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh cuối âm tiết (ví dụ: boh [bɔh] 'quả', ƀuh [ɓuh] 'thấy', ih [ʔih] 'bạn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm r cuối âm tiết (ví dụ: čhar 'chiêng lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / o / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối âm tiết (trong các vần nguyên âm đôi/ba kết thúc bằng -o, -u)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng cuối âm tiết (trong các vần nguyên âm đôi/ba kết thúc bằng -i, -y)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có hệ thống thanh điệu từ vựng (non-tonal). Khác với tiếng Ê Đê chuẩn (nơi phụ âm tắc hữu thanh bật hơi tiếng Chăm nguyên thủy giữ tính hữu thanh), trong tiếng Bih tất cả các phụ âm tắc hữu thanh bật hơi nguyên thủy đã vô thanh hóa thành âm tắc vô thanh bật hơi (tương tự nhóm Chăm ven biển, Chu Ru và Raglai Bắc; Nguyen 2013, tr. iii). Tiếng Bih có 14 nguyên âm đơn âm vị học, trong đó đối lập độ dài âm vị học chỉ tồn tại ở 4 cặp nguyên âm (/ŭ–u/, /ɘ̆–ɘ/, /ŏ–o/, /ă–a/); về mặt ngữ âm, nguyên âm ở âm tiết mở luôn dài, còn nguyên âm trước /-ʔ/ luôn ngắn."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "ông",
+      "form": "aê",
+      "ipa": "ʔae",
+      "gloss_en": "grandfather",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "ama",
+      "ipa": "ʔama",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "amĭ",
+      "ipa": "ʔamiʔ",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trẻ con / con",
+      "form": "anak",
+      "ipa": "ʔanak",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "kâo",
+      "ipa": "kɘu",
+      "gloss_en": "I / first person singular",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / anh / chị (ngôi thứ hai số ít)",
+      "form": "ih",
+      "ipa": "ʔih",
+      "gloss_en": "you (second person singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "êa",
+      "ipa": "ʔea",
+      "gloss_en": "water",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "krông",
+      "ipa": "kroŋ",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "sang",
+      "ipa": "saŋ",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "mnŭk",
+      "ipa": "mnŭk",
+      "gloss_en": "chicken",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bàn tay",
+      "form": "tangan",
+      "ipa": "taŋan",
+      "gloss_en": "hand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "nao",
+      "ipa": "nau",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngủ",
+      "form": "pĭt",
+      "ipa": "pĭt",
+      "gloss_en": "to sleep",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thấy",
+      "form": "ƀuh",
+      "ipa": "ɓuh",
+      "gloss_en": "to see",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đếm",
+      "form": "yap",
+      "ipa": "jap",
+      "gloss_en": "to count",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "sa",
+      "ipa": "sa",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "dua",
+      "ipa": "dua",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "tlâo / trlâo",
+      "ipa": "tlɘu ~ trlɘu",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trưởng làng",
+      "form": "putao",
+      "ipa": "putau",
+      "gloss_en": "village chief",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Diễn xướng cồng chiêng nữ (Čing Jhô)",
+        "note": "Nét văn hóa đặc hữu của người Ê Đê Bih tại Krông Ana (Đắk Lắk): phụ nữ trực tiếp đánh dàn chiêng Jhô trong các lễ đón khách, tiễn khách, cúng cầu mưa, mừng lúa mới, kết hợp múa xoang."
+      },
+      {
+        "name": "Hát dân ca (eirrei / ayray) và hát đối đáp",
+        "note": "Hát giao duyên, đối đáp trữ tình trong sinh hoạt cộng đồng và lễ hội của người Ê Đê Bih."
+      },
+      {
+        "name": "Kể khan / sử thi",
+        "note": "Hát kể sử thi truyền thống bên bếp lửa nhà dài mẫu hệ."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Kỹ thuật bịt/ngắt tiếng chiêng (damping)",
+        "description": "Trong dàn Čing Jhô, người diễn tấu kết hợp đánh bằng dùi gỗ và dùng tay giữ/chạm chiêng để điều chỉnh độ ngân giữa các cặp chiêng Ama, Amĭ và Đai/Anăk.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống bồi âm 6 chiêng theo cặp (Ama – Amĭ – Đai)",
+        "note": "Dàn Čing Jhô gồm 6 chiêng núm chia làm 3 cặp tên gọi (chiêng 1 & 4: Ama 'cha'; chiêng 2 & 5: Amĭ 'mẹ'; chiêng 3 & 6: Đai/Anăk 'con'), khi diễn tấu xếp đội hình theo từng cặp cùng tên đứng cạnh nhau (Ama – Amĭ – Đai).",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Čing Jhô (Chiêng Jhô)",
+        "note": "Bộ 6 chiêng núm nhỏ bằng đồng (chiêng lớn nhất đường kính khoảng 36–38 cm, nhỏ nhất khoảng 28–30 cm), do 6 phụ nữ diễn tấu."
+      },
+      {
+        "name": "Hơgơr (Trống cái mặt da)",
+        "note": "Do một phụ nữ lớn tuổi đánh để giữ nhịp chủ đạo cho toàn bộ dàn chiêng Jhô."
+      },
+      {
+        "name": "Čing kram (Chiêng tre)",
+        "note": "Nhạc cụ tre nứa truyền thống dùng trong tập luyện và sinh hoạt văn hóa cộng đồng."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "e-de",
+    "relationship_to_parent": "Nhóm Ê Đê Bih định cư ven sông Krông Ana thuộc đại gia đình dân tộc Ê Đê ở Việt Nam, nhưng tiếng Bih (ISO 639-3: ibh) tách biệt đáng kể so với tiếng Ê Đê chuẩn Kpă (rad) với tỷ lệ từ vựng cùng gốc chỉ đạt khoảng 73% (Đoàn Văn Phúc 1998). Khác biệt lớn nhất là tiếng Bih giữ nguyên tiền âm tiết CV với 4 nguyên âm (/a, i, u, ə/) nên không tạo ra các tổ hợp phụ âm thứ cấp do rụng nguyên âm tiền âm tiết như Ê Đê Kpă (ví dụ: Bih 'tangan' vs. Ê Đê 'kngan' [bàn tay]; Bih 'sa ituh' vs. Ê Đê 'sa êtuh' [một trăm]).",
+    "sub_varieties": [
+      {
+        "name": "Ê Đê chuẩn (Kpă và các phương ngữ Krung, Adham, Ktul, Drao, Blô, Êpan, Mdhur)",
+        "iso639_3": "rad",
+        "note": "Ngôn ngữ chính của dân tộc Ê Đê tại Việt Nam (mã bảng gốc: e-de)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ƀ",
+        "quoc_ngu": "b",
+        "note": "Âm hút vào [ɓ], trùng khớp với 'b' trong tiếng Việt."
+      },
+      {
+        "native": "b",
+        "quoc_ngu": "b (nổ nhẹ, không hút vào)",
+        "note": "Âm [b] thường không có trong tiếng Việt chuẩn (vốn dùng [ɓ]); TTS tiếng Việt sẽ đọc lẫn với 'ƀ'."
+      },
+      {
+        "native": "đ",
+        "quoc_ngu": "đ",
+        "note": "Âm hút vào [ɗ], trùng khớp với 'đ' trong tiếng Việt."
+      },
+      {
+        "native": "d",
+        "quoc_ngu": "đ (nhẹ)",
+        "note": "Âm tắc chân răng hữu thanh [d]; tuyệt đối KHÔNG đọc thành [z] hay [j] như chữ 'd' Quốc ngữ."
+      },
+      {
+        "native": "ph",
+        "quoc_ngu": "p-h",
+        "note": "Âm tắc bật hơi [pʰ]; KHÔNG đọc là [f] như chữ 'ph' Quốc ngữ."
+      },
+      {
+        "native": "č / čh",
+        "quoc_ngu": "ch / ch-h",
+        "note": "'č' tương đương 'ch' [c] tiếng Việt; 'čh' [cʰ] có luồng hơi bật mạnh không có trong tiếng Việt."
+      },
+      {
+        "native": "j / dj",
+        "quoc_ngu": "d (miền Nam) / gi",
+        "note": "Âm tắc ngạc cứng hữu thanh [ɟ] và hút vào [ʄ] không có trong tiếng Việt chuẩn; chỉ xấp xỉ thô bằng 'gi/d'."
+      },
+      {
+        "native": "ñ",
+        "quoc_ngu": "nh",
+        "note": "Âm mũi ngạc cứng [ɲ], trùng khớp với 'nh' tiếng Việt."
+      },
+      {
+        "native": "y",
+        "quoc_ngu": "d (miền Nam)",
+        "note": "Bán nguyên âm [j] đầu âm tiết (ví dụ: yap → 'dáp' theo giọng Nam Bộ)."
+      },
+      {
+        "native": "-h (cuối âm tiết)",
+        "quoc_ngu": "-h (xì hơi nhẹ)",
+        "note": "Tiếng Việt không có âm cuối [-h] (ví dụ: boh, ƀuh, ih); TTS tiếng Việt dễ bỏ sót nên cần chèn luồng hơi thở nhẹ cuối vần."
+      },
+      {
+        "native": "-r, -l (cuối âm tiết)",
+        "quoc_ngu": "-r, -l",
+        "note": "Tiếng Việt không có phụ âm cuối [-r], [-l] (ví dụ: čhar); mô hình chỉ biết tiếng Việt dễ đọc chệch sang '-n'."
+      },
+      {
+        "native": "pl-, bl-, tl-, pr-, kr-",
+        "quoc_ngu": "pơ-l, bơ-l, tơ-l, pơ-r, kơ-r (lướt cực nhanh)",
+        "note": "Tổ hợp phụ âm đầu nguyên cấp C(l/r)- không tồn tại trong tiếng Việt hiện đại; nếu dùng TTS tiếng Việt phải đọc lướt nguyên âm đệm cực ngắn không nhấn trọng âm."
+      },
+      {
+        "native": "ă / ĭ / ĕ / ŭ / ơ̆ (cuối từ)",
+        "quoc_ngu": "ăc / ích / éc / úc (ngắt thanh hầu, dùng thanh sắc)",
+        "note": "Nguyên âm mang dấu trăng ở cuối từ thực chất đóng bằng âm tắc thanh hầu [-ʔ] (ví dụ: amĭ [ʔamiʔ], pĕ [pɛʔ])."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "kâo",
+        "ipa": "kɘu",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "ih",
+        "ipa": "ʔih",
+        "meaning_vi": "bạn / anh / chị (ngôi thứ hai số ít)"
+      },
+      {
+        "native": "ama",
+        "ipa": "ʔama",
+        "meaning_vi": "cha"
+      },
+      {
+        "native": "amĭ",
+        "ipa": "ʔamiʔ",
+        "meaning_vi": "mẹ"
+      },
+      {
+        "native": "anak",
+        "ipa": "ʔanak",
+        "meaning_vi": "con / trẻ con"
+      },
+      {
+        "native": "aê",
+        "ipa": "ʔae",
+        "meaning_vi": "ông"
+      },
+      {
+        "native": "êa",
+        "ipa": "ʔea",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "krông",
+        "ipa": "kroŋ",
+        "meaning_vi": "sông"
+      },
+      {
+        "native": "sang",
+        "ipa": "saŋ",
+        "meaning_vi": "ngôi nhà"
+      },
+      {
+        "native": "tangan",
+        "ipa": "taŋan",
+        "meaning_vi": "bàn tay"
+      },
+      {
+        "native": "mnŭk",
+        "ipa": "mnŭk",
+        "meaning_vi": "con gà"
+      },
+      {
+        "native": "nao",
+        "ipa": "nau",
+        "meaning_vi": "đi"
+      },
+      {
+        "native": "pĭt",
+        "ipa": "pĭt",
+        "meaning_vi": "ngủ"
+      },
+      {
+        "native": "tlâo / trlâo",
+        "ipa": "tlɘu ~ trlɘu",
+        "meaning_vi": "ba (số 3)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Nguyen, Tam Thi Minh (2013). A Grammar of Bih. PhD dissertation, University of Oregon.",
+      "url": "https://hdl.handle.net/1794/12996",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyen, Tam (2013). Expressive forms in Bih: a Highland Chamic language of Vietnam. In Jeffrey P. Williams (ed.), The Aesthetics of Grammar: Sound and Meaning in the Languages of Mainland Southeast Asia. Cambridge University Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Bih (biha1246)",
+      "url": "https://glottolog.org/resource/languoid/id/biha1246",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Rade language (Classification & Dialects, citing Đoàn Văn Phúc 1998 & Tam Nguyen 2013, 2015)",
+      "url": "https://en.wikipedia.org/wiki/Rade_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bảo tàng Đắk Lắk (2023) — Bộ Chiêng Jhô của người Êđê Bih",
+      "url": "https://baotangdaklak.vn/bao-ton-di-san-van-hoa/bo-chieng-jho-cua-nguoi-ede-bih-2065.html",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Linh Nga Niê Kdam (2013). Nghệ thuật diễn xướng dân gian Ê Đê, Bih ở Đăk Lăk. Hà Nội: NXB Thời Đại. ISBN 978-604-930-599-3.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology.vowels",
+          "severity": "high",
+          "problem": "Theo Nguyen (2013, tr. 14, 25–27, Bảng 3.3 & 3.6), tiếng Bih có đúng 14 nguyên âm đơn âm vị học (monophthongs), trong đó dòng giữa có 4 độ mở: khép /ɨ/ (ư), nửa khép có đối lập dài–ngắn /ɘ/ (ơ) – /ɘ̆/ (ơ̆), nửa mở /ə/ (â), và mở có đối lập dài–ngắn /a/ (a) – /ă/ (ă). Bản thảo hiện tại bỏ sót nguyên âm nửa mở dòng giữa /ə/ (chữ viết 'â'), gộp nhầm /ɘ/ (ơ) thành /əː/, đồng thời liệt kê dư nguyên âm dài 'o' /ɔː/ (trong khi Nguyen 2013 tr. 25 khẳng định /-ɔ-/ chỉ xuất hiện trong âm tiết đóng, luôn ngắn và viết là 'ŏ' trong Bảng 3.6) và thiếu nhóm 3 nguyên âm ba (triphthongs: iêu, uai, uay).",
+          "fix": "Chuẩn hóa lại danh sách nguyên âm khớp chính xác với Bảng 3.3 và Bảng 3.6 của Nguyen (2013): phân biệt rõ /ɘ̆–ɘ/ (ơ̆–ơ) với /ə/ (â), bỏ mục 'o' (/ɔː/) độc lập, làm rõ rằng các nguyên âm dòng trước (i, ê, e) không có đối lập độ dài âm vị học (dấu trăng trên ĭ, ĕ chỉ ghi độ ngắn ngữ âm trong âm tiết đóng hoặc âm tắc thanh hầu cuối /-ʔ/), và bổ sung mục nguyên âm ba (iêu, uai, uay)."
+        },
+        {
+          "path": "autonym",
+          "severity": "medium",
+          "problem": "Giá trị 'tlei Bih' được suy diễn từ quy tắc tương ứng ngữ âm (Ê Đê 'klei' ~ Bih 'tlei'), nhưng trong luận án của Nguyen (2013) tên tự gọi của ngôn ngữ và tộc người chỉ được ghi nhận trực tiếp là 'Bih'.",
+          "fix": "Đổi autonym thành 'Bih', hạ độ tin cậy hoặc loại bỏ cụm 'tlei Bih' tự suy diễn khỏi ml_hints.sample_words và ghi chú vào validation.open_issues."
+        },
+        {
+          "path": "lexicon[18].standard_vi",
+          "severity": "low",
+          "problem": "Mục từ 'putao' trong Nguyen (2013) chỉ có nghĩa là 'trưởng làng' (village chief); cách dịch thêm 'vua lửa vua nước' là sự gán ghép từ thiết chế Pơtao Apui / Pơtao Ia của người Gia Rai.",
+          "fix": "Sửa standard_vi của 'putao' thành 'trưởng làng' để bám sát nguồn tư liệu Nguyen (2013)."
+        },
+        {
+          "path": "phonology.syllable_structure",
+          "severity": "low",
+          "problem": "Trong Bảng 3.4 của Nguyen (2013, tr. 22), văn bản nêu có 6 phụ âm đầu tiền âm tiết (/p, t, c, k, ʔ, m/), nhưng bảng biểu có thêm hàng Rhotics (r- / tr- trong các biến thể như trlâo, trbâo). Ngoài ra, tổ hợp phụ âm đầu nguyên cấp (primary clusters) trong tiếng Bih chỉ có âm thứ hai là /-l-/ hoặc /-r-/ (Nguyen 2013, tr. 23); dạng 'mn-' (như mnŭk) thực chất là hiện tượng rút gọn nguyên âm tiền âm tiết dưới ảnh hưởng của tiếng Ê Đê.",
+          "fix": "Bổ sung giải thích chính xác về tổ hợp phụ âm đầu C(l/r)- và hiện tượng giao thoa với tiếng Ê Đê ở các từ như mnŭk, tlâo/trlâo."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần kiểm tra lại ký hiệu chính tả cho nguyên âm đơn nửa mở dòng giữa /ə/ (higher mid-low central vowel) trong Bảng 3.6 của Nguyen (2013) do bản quét OCR bị khuyết ký tự ở ô Open-mid Center.",
+      "Cần xác nhận với người bản ngữ tại Krông Ana về danh xưng tự gọi đầy đủ của tiếng nói ('klei Bih' hay 'tlei Bih').",
+      "Cần thu thập dữ liệu đo cao độ thực tế của dàn chiêng nữ Čing Jhô tại Buôn Trấp (Krông Ana, Đắk Lắk) để bổ sung thang âm chính xác vào mục music.scales_or_modes."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

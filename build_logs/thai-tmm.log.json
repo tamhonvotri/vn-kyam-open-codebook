@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "thai-tmm",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tai Thanh (Thái Thanh)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3_expected": "tmm",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tmm; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+  },
+  "started": "2026-11-13T23:54:10.398253",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9441,
+      "candidatesTokenCount": 7009,
+      "totalTokenCount": 19653,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9441
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7009
+        }
+      ],
+      "thoughtsTokenCount": 3203,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9471,
+      "candidatesTokenCount": 8697,
+      "totalTokenCount": 18168,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9471
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8697
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "high",
+        "problem": "Ba mã Glottocode trong danh sách các phương ngữ/ngôn ngữ Thái liên quan bị gán sai: (1) Tiếng Thái Trắng [twh] có Glottocode là 'taid1250' (không phải 'taid1248'); (2) Tiếng Thái Dọ [tyj] có Glottocode là 'taid1248' (không phải 'taiy1240'); (3) Tiếng Thái Pao [tpo] có Glottocode là 'taip1250' (không phải 'taip1246'). Ngoài ra, tên trường 'sub_varieties' dễ gây hiểu nhầm rằng các ngôn ngữ có mã ISO độc lập hoàn toàn như Thái Đen [blt], Thái Trắng [twh], Thái Đỏ [tyr], Thái Dọ [tyj] là tiểu phương ngữ trực thuộc Tai Thanh [tmm].",
+        "fix": "Sửa lại chính xác các mã Glottocode ('taid1250' cho [twh], 'taid1248' cho [tyj], 'taip1250' cho [tpo]) và đổi tên trường trong ml_hints thành 'related_varieties' (hoặc ghi chú rõ đây là các ngôn ngữ/phương ngữ cùng cụm dân tộc Thái tại Việt Nam) để tránh hiểu sai phân loại hình cây."
+      },
+      {
+        "path": "regions",
+        "severity": "medium",
+        "problem": "Thiếu thông tin phân bố xuyên biên giới tại Lào: các nguồn ngôn ngữ học (Ethnologue, Wikipedia dẫn lại khảo sát năm 1995) đều ghi nhận phương ngữ/nhóm Tayten (khoảng 300 người nói tại 2 bản Ban Phia và Ban Tenngiou, huyện Pak Xeng, tỉnh Luang Prabang, Lào) có khả năng thuộc tiếng Tai Thanh (Tai Then). Đồng thời, thông tin một bộ phận giao cư tại Phù Yên, Mộc Châu (Sơn La) dễ lẫn với người Thái Trắng / Thái Đỏ nếu không ghi chú rõ.",
+        "fix": "Bổ sung địa bàn huyện Pak Xeng (tỉnh Luang Prabang, Lào - nhóm Tayten) vào mảng regions và làm rõ ghi chú về vùng Thanh Hóa – Nghệ An."
+      },
+      {
+        "path": "autonym",
+        "severity": "low",
+        "problem": "Thiếu các tên gọi/tự gọi quan trọng được ghi nhận trong tài liệu quốc tế và dân tộc học Việt Nam như 'Tai Man Thanh' (Tày Mạn Thanh) và 'Tai Then' / 'Tày Theng' / 'Tày Nhài'.",
+        "fix": "Cập nhật trường autonym để bao quát đầy đủ các biến thể tên gọi trong thư mục: 'Khoàm Tày Nhái / Tày Nhài / Tày Nhại / Tày Thanh (Mạn Thanh / Tày Theng)'."
+      },
+      {
+        "path": "phonology",
+        "severity": "low",
+        "problem": "Mặc dù status_note đã giải thích rõ là chưa có công trình đo đạc ngữ âm thực nghiệm riêng cho mã [tmm], hầu hết các mục trong phonology.onsets, phonology.vowels, phonology.codas vẫn đang để confidence là 'medium'. Vì đây là phép ngoại suy từ khung ngữ âm Thái Tây Nam chung và chính tả thực dụng vùng Thanh – Nghệ, mức 'medium' có thể gây quá tự tin cho người dùng dữ liệu.",
+        "fix": "Hạ confidence của các mục suy diễn từ khung Thái Tây Nam chung chưa có tài liệu mô tả trực tiếp riêng cho [tmm] xuống 'low' để phản ánh đúng tình trạng tư liệu."
+      }
+    ]
+  },
+  "schema_errors": []
+}

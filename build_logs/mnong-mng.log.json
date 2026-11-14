@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "mnong-mng",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mnông Đông",
+    "ethnic_group_vi": "Mnông",
+    "iso639_3_expected": "mng",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Mnông tại Việt Nam (mã ISO dự kiến: mng; bảng mã dân tộc gốc: mnong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"mnong\"."
+  },
+  "started": "2026-11-13T23:38:08.273099",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9443,
+      "candidatesTokenCount": 10104,
+      "totalTokenCount": 27082,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9443
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10104
+        }
+      ],
+      "thoughtsTokenCount": 7535,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11750,
+      "candidatesTokenCount": 11198,
+      "totalTokenCount": 24923,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11750
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11198
+        }
+      ],
+      "thoughtsTokenCount": 1975,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "high",
+        "problem": "Sai mã Glottocode của 5/6 biến thể và ngôn ngữ chị em trong ml_hints.sub_varieties: bản nháp ghi Mnông Rlăm là mnon1255 (đúng là mnon1262), Mnông Gar là mnon1253 (đúng là mnon1261), Mnông Kuênh/Kwanh là mnon1254 (đúng là mnon1260), Tiếng Mnông Trung là cent1989 (đúng là cent1992), Tiếng Mnông Nam là sout2690 (đúng là sout2692). Chỉ có chil1278 (Chil) và mã chính east2333 là chính xác.",
+        "fix": "Sửa lại toàn bộ các mã Glottocode theo đúng dữ liệu Glottolog 5.3: mnon1262, mnon1261, chil1278, mnon1260, cent1992, sout2692."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Chưa nhất quán nội bộ về ký âm độ dài nguyên âm và nguyên âm đôi trong mục từ vựng: (1) Từ 'puôn' (bốn) được phiên âm là /puoːn/ trong khi bảng nguyên âm quy định 'uô / uo / ua' là nguyên âm đôi /uə/; (2) 'bar' (hai) và 'pay' (ba) viết bằng con chữ 'a' không có dấu trăng khuyết (nguyên âm dài /aː/ giống 'bap' /baːp/, 'dak' /daːk/, 'sai' /saːj/ đối lập với 'măt' /mat/), nhưng lại ghi IPA là /bar/, /paj/; (3) Một số mục từ lấy từ danh sách từ vựng chữ viết (chưa có đối chiếu băng âm học trực tiếp như 'may bô̆', 'luông', 'trông', 'sam', 'um', 'ik') đang để confidence='high'.",
+        "fix": "Chuẩn hóa IPA của 'puôn' thành /puən/, 'bar' thành /baːr/, 'pay' thành /paːj/ (đồng bộ ở cả lexicon và ml_hints.sample_words); hạ confidence của các từ chỉ mới kiểm chứng qua danh sách chữ viết xuống 'medium'."
+      },
+      {
+        "path": "music.genres",
+        "severity": "low",
+        "problem": "Mục 'Nau M'pring (Dân ca M'nông)' thiếu năm công nhận Di sản văn hóa phi vật thể quốc gia (2020) và chưa nói rõ địa bàn hồ sơ di sản gốc của Ot Ndrong (2014) và Nau M'pring (2020) chủ yếu khảo sát tại Đắk Nông và Đắk Lắk.",
+        "fix": "Bổ sung thông tin năm ghi danh (2020, Quyết định 2743/QĐ-BVHTTDL) và ghi chú rõ phạm vi phân bố giữa các nhóm Mnông."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các trường url_check đang để null cho các URL đã kiểm chứng hoạt động; bài báo của Blood (1976) trên Mon-Khmer Studies tập 5 có số trang chính xác theo mục lục tạp chí là 5–23 (hoặc 4–23 tùy bản in).",
+        "fix": "Cập nhật url_check='ok' cho các liên kết đã xác thực qua tìm kiếm và bổ sung URL lưu trữ SEALANG cho các công trình của Blood (1966, 1976)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

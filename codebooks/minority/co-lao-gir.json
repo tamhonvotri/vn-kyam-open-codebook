@@ -1,0 +1,849 @@
+{
+  "id": "co-lao-gir",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cờ Lao Đỏ",
+  "name_en": "Red Gelao (Vandu Gelao)",
+  "autonym": "va³⁵ ntɯ³¹ ~ va¹³ ⁿtɯ³¹ (Voa Đề / Vandu)",
+  "ethnic_group_vi": "Cờ Lao",
+  "language": {
+    "iso639_3": "gir",
+    "glottocode": "redg1235",
+    "family": "Kra-Dai",
+    "branch": "Kra (Ge-Chi / Gelaoic)"
+  },
+  "regions": [
+    "Xã Na Khê và xã Bạch Đích, huyện Yên Minh, tỉnh Hà Giang (địa bàn còn người cao tuổi nói bản ngữ hoặc bán thông thạo)",
+    "Xã Túng Sán, huyện Hoàng Su Phì, tỉnh Hà Giang (nay thuộc xã Tân Tiến sau sáp nhập; cộng đồng Cờ Lao Đỏ tập trung đông nhưng hầu hết đã chuyển ngữ sang tiếng Quan Hỏa, H'Mông, Tày hoặc tiếng Việt; tiếng mẹ đẻ chỉ còn lưu lại rải rác trong bài cúng và dân ca cổ)",
+    "Xã Cán Tỷ (huyện Quản Bạ) và xã Vĩnh Hảo (huyện Bắc Quang, di cư từ Túng Sán), tỉnh Hà Giang (hầu hết đã chuyển ngữ hoàn toàn)"
+  ],
+  "speakers_estimate": "Dưới 50 người nói tại Việt Nam (Edmondson 1997 ước tính khoảng 50 người nói bán thông thạo ở Na Khê và Bạch Đích; khảo sát điền dã Nga – Việt năm 2008 của Samarina và Nguyễn Văn Lợi ghi nhận chỉ còn rất ít người cao tuổi nhớ từ vựng và biến thiên phát âm lớn giữa các cá nhân), trong tổng số 4.003 người dân tộc Cờ Lao tại Việt Nam (Tổng điều tra dân số 2019).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (ghi âm khoa học bằng IPA)",
+      "iso15924": "Latn",
+      "unicode_block": "IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Tiếng Cờ Lao Đỏ tại Việt Nam là ngôn ngữ truyền miệng đặc biệt nguy cấp, không có chữ viết truyền thống và chưa có bộ chữ Latinh chuẩn hóa do Nhà nước ban hành. Các tư liệu điền dã (Edmondson 2003; Samarina, Mazo, Nguyễn Văn Lợi et al. 2011) đều ký âm trực tiếp bằng IPA."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học điền dã tại Hà Giang (Edmondson 1997/2003/2008; Samarina, Mazo, Nguyễn Văn Lợi et al. 2011) và tư liệu dân tộc học – âm nhạc dân gian người Cờ Lao Đỏ ở Hà Giang. Do ngôn ngữ đang ở tình trạng gần tuyệt chủng (moribund/nearly extinct) và người cung cấp ngữ liệu phần lớn là người nói bán thông thạo (semi-speakers) có biến thiên cá nhân mạnh, hệ thống âm vị và thanh điệu cần được chuyên gia Kra-Dai đối chiếu trực tiếp với bản ghi âm gốc trong Samarina (2011).",
+  "phonology": {
+    "syllable_structure": "(C1)(C2)(G)V(C3)+T — xu hướng đơn tiết hóa và rụng phụ âm cuối rất mạnh (mất toàn bộ âm tắc cuối *-p, *-t, *-k của ngôn ngữ Kra tiền thân; chỉ còn âm tiết mở hoặc kết thúc bằng âm mũi -n, -ŋ); bù lại bảo lưu nhiều phụ âm đầu phức (tiền mũi hóa, tiền thanh hầu hóa, tắc lưỡi gà) và thường đi kèm tiền tố hình thái ma- / mo- / o- ở từ song tiết.",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi (vd: pi³⁴ 'đốt', poŋ⁴⁴ trong ki⁴³ poŋ⁴⁴ 'răng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Âm tắc chân răng vô thanh không bật hơi (vd: tɒ³¹ 'chúng ta', o⁴⁴ to⁴² 'tro')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʲ",
+        "note": "Âm tắc chân răng ngạc hóa (vd: tɒ³¹ tʲa³⁵ 'chúng ta')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh; đôi khi biến thiên cá nhân với âm tắc lưỡi gà [q] (vd: kɤ³³ lɤ (K) ~ qɤ³³ lɤ³³ (P) 'tai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "q",
+        "note": "Âm tắc lưỡi gà vô thanh — nét đặc trưng tiêu biểu của nhóm ngôn ngữ Cờ Lao (vd: qaŋ⁴⁴ hi⁴⁴ 'đường', qa³⁴ ɬu̯a³¹¨ 'mũi', la⁴⁴ qau̯⁴² 'da')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu (vd: ʔi⁴³ 'tôi', ʔaŋ³²⁴ˀ 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɗ ~ ˀɗ",
+        "note": "Âm hút vào / tiền thanh hầu hóa chân răng (vd: ˀɗi⁴⁴ 'lá cây', ma²⁴ ɗei̯³¹ 'đỏ', ma³⁴ ɗu̯a⁴² 'xương')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "nt ~ ⁿɗ ~ ⁿɗ̥",
+        "note": "Âm tắc chân răng tiền mũi hóa vô thanh/hữu thanh/hút vào — nét đặc trưng của nhánh Vandu (vd: va³⁵ ntɯ³¹ 'người Cờ Lao Đỏ', ʔɒ⁴⁴ ⁿɗi⁴⁴ 'này', ma³⁴ ⁿɗ̥u⁴⁴ 'ngôi sao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɗʓ ~ ⁿɗʓ ~ ⁿɖʐ",
+        "note": "Âm tắc-xát ngạc lợi hoặc quặt lưỡi hữu thanh / tiền mũi hóa, biến thiên giữa các người nói (vd: ⁿɗʓei̯⁴⁴ ~ ⁿɖʐei̯⁴⁴ 'một', ɗʓei̯⁴⁴ ma³⁴ 'cây', mo³⁴ ⁿɗʓo⁴⁴ 'núi')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Âm mũi hai môi hữu thanh (vd: mɤn⁴⁴ 'mày', mi⁴⁴¨ 'mưa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m̥ ~ ʰm",
+        "note": "Âm mũi hai môi vô thanh / tiền bật hơi (vd: m̥o³⁴ to⁴⁴ 'chấy', ʰmi⁴⁴¨ 'mưa')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Âm mũi chân răng (vd: o⁴⁴ nɔ³⁴ 'ai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm (thường gặp ở vị trí âm cuối -ŋ; khả năng xuất hiện ở đầu âm tiết hoặc làm âm mũi âm tiết tính cần đối chiếu thêm với Samarina 2011)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "v",
+        "note": "Âm xát môi-răng hữu thanh (vd: va³⁵ ntɯ³¹ 'Cờ Lao Đỏ', o⁴⁴ vɤi̯³⁵ˀ 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Âm xát chân răng vô thanh (vd: sɤi̯⁴⁴ 'hai', o⁴⁴ su̯ɤi̯³⁴ˀ 'miệng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɬ",
+        "note": "Âm xát bên chân răng vô thanh (vd: qa³⁴ ɬu̯a³¹¨ 'mũi')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʑ",
+        "note": "Âm xát ngạc lợi hữu thanh (vd: ma³⁴ ʑu̯a³⁴ˀ 'đàn bà')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh (vd: ho⁴⁴ 'lửa', haŋ⁴⁴ 'chó')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l ~ ˀl ~ l̥",
+        "note": "Âm bên chân răng hữu thanh, tiền thanh hầu hóa và vô thanh (vd: la⁴⁴ tei̯⁴⁴ 'mắt', ˀlɒŋ⁴³ 'to/lớn', l̥a³⁴ pu³⁴ˀ 'đàn ông')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm (vd: wi³¹ (S) 'dài', ma²⁴ wa³¹ 'trắng')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j ~ ˀj",
+        "note": "Bán nguyên âm ngạc cứng và biến thể tiền thanh hầu hóa (vd: ˀjɒ³¹ 'nhỏ/bé')",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp (vd: ʔi⁴³ 'tôi', ˀɗi⁴⁴ 'lá')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước độ mở hơi rộng (vd: mo³⁴ to⁴² sɛ³²¨ 'mặt trăng', ɖʐei̯⁴⁴ lɛ³⁵ ha³¹ 'tất cả')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a",
+        "note": "Nguyên âm độ mở rộng (vd: va³⁵, haŋ⁴⁴ 'chó')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɒ",
+        "note": "Nguyên âm hàng sau độ mở rộng tròn môi (vd: ʔɒ⁴⁴ ⁿɗi⁴⁴ 'này', ˀlɒŋ⁴³ 'lớn')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau độ mở hơi rộng tròn môi (vd: o⁴⁴ nɔ³⁴ 'ai', lɔŋ⁴³ 'đen')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau độ mở hơi hẹp tròn môi (vd: ho⁴⁴ 'lửa', o⁴⁴ to⁴² 'tro')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau độ mở hẹp tròn môi (vd: ma³⁴ ⁿɗ̥u⁴⁴ 'ngôi sao', l̥a³⁴ pu³⁴ˀ 'đàn ông')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɯ",
+        "note": "Nguyên âm hàng sau độ mở hẹp không tròn môi (vd: va³⁵ ntɯ³¹ 'Cờ Lao Đỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ",
+        "note": "Nguyên âm hàng sau độ mở hơi hẹp không tròn môi (vd: mɤn⁴⁴ 'mày', qɤ³³ lɤ³³ 'tai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ə",
+        "note": "Nguyên âm giữa (cần đối chiếu thêm tư liệu gốc để xác định có tách biệt âm vị học với [ɤ] hay không)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ei̯",
+        "note": "Nguyên âm đôi khép hướng trước (vd: la⁴⁴ tei̯⁴⁴ 'mắt', ma²⁴ ɗei̯³¹ 'đỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ai̯",
+        "note": "Nguyên âm đôi (vd: pai̯³¹ ̃ 'máu' theo ngữ liệu Samarina 2011)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤi̯ ~ u̯ɤi̯",
+        "note": "Nguyên âm đôi / ba kết thúc bằng [-i̯] (vd: sɤi̯⁴⁴ 'hai', o⁴⁴ vɤi̯³⁵ˀ 'người', o⁴⁴ su̯ɤi̯³⁴ˀ 'miệng')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u̯a",
+        "note": "Nguyên âm đôi mở với âm đệm môi [-u̯-] (vd: ma³⁴ ˀɗu̯a⁴⁴ 'mặt trời', qa³⁴ ɬu̯a³¹¨ 'mũi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "au̯",
+        "note": "Nguyên âm đôi khép hướng sau (vd: la⁴⁴ qau̯⁴² 'da')",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết — số lượng từ còn giữ -n rất ít do quá trình rụng phụ âm cuối (vd: mɤn⁴⁴ 'mày')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết — phụ âm cuối phổ biến nhất còn bảo lưu (vd: ʔaŋ³²⁴ˀ 'nước', haŋ⁴⁴ 'chó', qaŋ⁴⁴ 'đường', ˀlɒŋ⁴³ 'lớn', poŋ⁴⁴ 'răng')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_level",
+        "name": "Thanh ngang cao / trung (Level)",
+        "mark": null,
+        "chao_contour": "44",
+        "phonation": "Giọng thường hoặc kèm giọng thở [¨] ở một số từ (vd: ho⁴⁴ 'lửa', mɤn⁴⁴ 'mày', mi⁴⁴¨ 'mưa'); ở một số người nói ghi nhận mức [33] (vd: qɤ³³ lɤ³³ 'tai')",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2_rising",
+        "name": "Thanh lên (Rising)",
+        "mark": null,
+        "chao_contour": "35",
+        "phonation": "Giọng thường hoặc kèm thanh hầu hóa / kẹt thanh hầu cuối vần [ˀ] (vd: va³⁵ trong va³⁵ ntɯ³¹, o⁴⁴ vɤi̯³⁵ˀ 'người', ma³⁴ ʑu̯a³⁴ˀ 'đàn bà', pi³⁴ 'đốt'); biến thể [34] ~ [24] ~ [13]",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3_high_falling",
+        "name": "Thanh xuống cao (High-falling)",
+        "mark": null,
+        "chao_contour": "43",
+        "phonation": "Giọng thường (vd: ʔi⁴³ 'tôi', ˀlɒŋ⁴³ 'to/lớn', o⁴⁴ to⁴² 'tro'); biến thể [43] ~ [42]",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4_low_falling",
+        "name": "Thanh xuống thấp (Low-falling)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "Giọng thường hoặc kèm giọng thở [¨] (vd: ntɯ³¹, ˀjɒ³¹ 'nhỏ', ma²⁴ ɗei̯³¹ 'đỏ', qa³⁴ ɬu̯a³¹¨ 'mũi'); biến thể [31] ~ [32]",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T5_dipping_glottal",
+        "name": "Thanh gãy / xuống-lên thanh hầu hóa (Dipping glottalized)",
+        "mark": null,
+        "chao_contour": "324",
+        "phonation": "Kèm thanh hầu hóa / nghẽn thanh hầu cuối âm tiết [ˀ] (vd: ʔaŋ³²⁴ˀ 'nước')",
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu (nhóm Cờ Lao điển hình có 4–6 thanh phát triển từ các loạt thanh *A, *B, *C, *D của ngôn ngữ Kra nguyên thủy). Phân tích âm học bằng Speech Analyzer trong Samarina et al. (2011) trên ngữ liệu Cờ Lao Đỏ Hà Giang cho thấy sự kết hợp chặt chẽ giữa đường nét cao độ (44/33, 35/34, 43/42, 31, 324) với chất giọng thanh hầu hóa/kẹt thanh hầu (glottalized/creaky, ký hiệu [ˀ]) và giọng thở/hơi (murmured/breathy, ký hiệu [¨]), đồng thời có độ dao động đáng kể giữa những người nói cuối cùng."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi",
+      "form": "ʔi⁴³",
+      "ipa": "ʔi⁴³",
+      "gloss_en": "I",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mày / bạn",
+      "form": "mɤn⁴⁴",
+      "ipa": "mɤn⁴⁴",
+      "gloss_en": "you (singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng ta",
+      "form": "tɒ³¹ tʲa³⁵",
+      "ipa": "tɒ³¹ tʲa³⁵",
+      "gloss_en": "we (inclusive)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chúng tôi",
+      "form": "ɒ⁴⁴ to⁴⁴",
+      "ipa": "ɒ⁴⁴ to⁴⁴",
+      "gloss_en": "we (exclusive)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "một",
+      "form": "ⁿɗʓei̯⁴⁴",
+      "ipa": "ⁿɗʓei̯⁴⁴ ~ ⁿɖʐei̯⁴⁴",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "sɤi̯⁴⁴",
+      "ipa": "sɤi̯⁴⁴",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "o⁴⁴ vɤi̯³⁵ˀ",
+      "ipa": "o⁴⁴ vɤi̯³⁵ˀ",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đàn bà / phụ nữ",
+      "form": "ma³⁴ ʑu̯a³⁴ˀ",
+      "ipa": "ma³⁴ ʑu̯a³⁴ˀ",
+      "gloss_en": "woman",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đàn ông",
+      "form": "l̥a³⁴ pu³⁴ˀ",
+      "ipa": "l̥a³⁴ pu³⁴ˀ",
+      "gloss_en": "man (male)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ʔaŋ³²⁴ˀ",
+      "ipa": "ʔaŋ³²⁴ˀ",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "ho⁴⁴",
+      "ipa": "ho⁴⁴",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời",
+      "form": "ma³⁴ ˀɗu̯a⁴⁴",
+      "ipa": "ma³⁴ ˀɗu̯a⁴⁴ ~ ma³⁴ ˀlu̯a⁴⁴",
+      "gloss_en": "sun",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "mo³⁴ to⁴² sɛ³²¨",
+      "ipa": "mo³⁴ to⁴² sɛ³²¨",
+      "gloss_en": "moon",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngôi sao",
+      "form": "ma³⁴ ⁿɗ̥u⁴⁴",
+      "ipa": "ma³⁴ ⁿɗ̥u⁴⁴",
+      "gloss_en": "star",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mưa",
+      "form": "mi⁴⁴¨",
+      "ipa": "mi⁴⁴¨ ~ ʰmi⁴⁴¨",
+      "gloss_en": "rain",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "núi",
+      "form": "mo³⁴ ⁿɗʓo⁴⁴",
+      "ipa": "mo³⁴ ⁿɗʓo⁴⁴",
+      "gloss_en": "mountain",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đường",
+      "form": "qaŋ⁴⁴ hi⁴⁴",
+      "ipa": "qaŋ⁴⁴ hi⁴⁴",
+      "gloss_en": "road / path",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "ɗʓei̯⁴⁴ ma³⁴",
+      "ipa": "ɗʓei̯⁴⁴ ma³⁴",
+      "gloss_en": "tree",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lá cây",
+      "form": "ˀɗi⁴⁴",
+      "ipa": "ˀɗi⁴⁴",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "haŋ⁴⁴",
+      "ipa": "haŋ⁴⁴",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "mo²⁴ lei̯⁴⁴",
+      "ipa": "mo²⁴ lei̯⁴⁴",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "la⁴⁴ tei̯⁴⁴",
+      "ipa": "la⁴⁴ tei̯⁴⁴",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tai",
+      "form": "qɤ³³ lɤ³³",
+      "ipa": "kɤ³³ lɤ (K) ~ qɤ³³ lɤ³³ (P)",
+      "gloss_en": "ear",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "qa³⁴ ɬu̯a³¹¨",
+      "ipa": "qa³⁴ ɬu̯a³¹¨",
+      "gloss_en": "nose",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "miệng",
+      "form": "o⁴⁴ su̯ɤi̯³⁴ˀ",
+      "ipa": "o⁴⁴ su̯ɤi̯³⁴ˀ",
+      "gloss_en": "mouth",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "răng",
+      "form": "ki⁴³ poŋ⁴⁴",
+      "ipa": "ki⁴³ poŋ⁴⁴",
+      "gloss_en": "tooth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "pai̯³¹ ̃",
+      "ipa": "pai̯³¹ ̃ ~ pai³¹",
+      "gloss_en": "blood",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đỏ",
+      "form": "ma²⁴ ɗei̯³¹",
+      "ipa": "ma²⁴ ɗei̯³¹",
+      "gloss_en": "red",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "to / lớn",
+      "form": "ˀlɒŋ⁴³",
+      "ipa": "ˀlɒŋ⁴³",
+      "gloss_en": "big / large",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhỏ / bé",
+      "form": "ˀjɒ³¹",
+      "ipa": "ˀjɒ³¹",
+      "gloss_en": "small / little",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca giao duyên và dân ca sinh hoạt truyền miệng",
+        "note": "Lưu truyền truyền khẩu qua các nghệ nhân dân gian và bậc cao niên trong dịp lễ Tết, đám cưới hỏi, hoặc quây quần bên bếp lửa sau ngày gặt lúa đổi công. Tại xã Túng Sán (Hoàng Su Phì) thống kê có trên 200 bài hát cổ, dù ở nhiều điểm cư trú ngôn ngữ hát đã chịu sự giao thoa với tiếng Quan Hỏa hoặc các dân tộc lân cận."
+      },
+      {
+        "name": "Bài cúng cổ và hát nghi lễ",
+        "note": "Sử dụng trong Lễ cúng miếu Hoàng Vần Thùng (tháng 7 âm lịch trên dãy Tây Côn Lĩnh), Lễ đánh thức hồn trà Shan Tuyết, lễ cưới và lễ tang. Tại những bản người Cờ Lao Đỏ đã mất ngôn ngữ giao tiếp hàng ngày (như ở Túng Sán), tiếng Cờ Lao cổ hiện chủ yếu chỉ còn xuất hiện trong lời cúng và một số đoạn dân ca truyền miệng."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Âm điệu dân ca trữ tình trầm buồn",
+        "note": "Khi hát dân ca kèm đàn nhị (ủa phu), giai điệu thường thiên về âm vực và sắc thái trầm buồn; cây đàn Sèn Dư có 4 dây và 10 phím/thang âm ngoài ('phiêng') cùng 2 thang âm trong, nhưng chưa có công trình ký âm nhạc lý chi tiết về hệ thống điệu thức của nhóm Cờ Lao Đỏ.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn Sèn Dư",
+        "note": "Đàn bán nguyệt 4 dây độc đáo (có 10 thang âm 'phiêng' bên ngoài và 2 thang âm bên trong) hiện còn được cộng đồng Cờ Lao Đỏ tại xã Túng Sán (Hoàng Su Phì) lưu giữ"
+      },
+      {
+        "name": "Đàn nhị (Ủa phu)",
+        "note": "Nhạc cụ kéo vĩ 2 dây dùng đệm khi hát dân ca, chủ yếu khai thác âm sắc trầm buồn"
+      },
+      {
+        "name": "Kèn lá",
+        "note": "Thổi bằng lá rừng, có thể trình diễn độc tấu hoặc hợp xướng hàng chục người trong các nghi lễ truyền thống"
+      },
+      {
+        "name": "Nhạc cụ nghi lễ và tang ma: Kèn (Sáo thùng), Trống (Cu), Thanh la (Lồ lồ), Não bạt (Choa), Chuông (Lìn tắng), Chiêng, Tù và",
+        "note": "Chủ yếu sử dụng trong đám tang và nghi lễ cúng tế cộng đồng"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "co-lao",
+    "language_vitality_warning": "Ngôn ngữ Cờ Lao Đỏ (gir) tại Việt Nam thuộc nhóm cực kỳ nguy cấp / gần tuyệt chủng (UNESCO ID 2230; Glottolog AES: nearly extinct). Phần lớn cư dân dân tộc Cờ Lao Đỏ ở Hoàng Su Phì và Quản Bạ nay giao tiếp bằng tiếng Quan Hỏa (Quan thoại Tây Nam), tiếng H'Mông, tiếng Tày hoặc tiếng Việt; chỉ còn vài chục người cao tuổi tại Na Khê và Bạch Đích (Yên Minh) nhớ tiếng mẹ đẻ.",
+    "sub_varieties": [
+      {
+        "name": "Cờ Lao Đỏ tại Việt Nam — Na Khê & Bạch Đích (Vandu / Voa Đề)",
+        "iso639_3": "gir",
+        "glottocode": "redg1235",
+        "note": "Biến thể chính mô tả trong bảng mã này (huyện Yên Minh, tỉnh Hà Giang). Có quan hệ hôn nhân xuyên biên giới trực tiếp với điểm cư trú Phiên Ba (Fanpo, tự xưng u³³ wei⁵⁵, huyện Ma Lật Pha, Vân Nam, Trung Quốc — chỉ còn 1–2 người nói). Không nhầm lẫn với tiếng A'ou (ISO 639-3: aou) ở Quý Châu, Trung Quốc đôi khi cũng được gọi là 'Red Gelao'."
+      },
+      {
+        "name": "Tiếng Cờ Lao Trắng (White Gelao / Telue / Duoluo)",
+        "iso639_3": "giw",
+        "glottocode": "whit1267",
+        "note": "Ngôn ngữ thuộc nhánh Cờ Lao Tây Nam của nhóm Cờ Lao Trắng tại xã Sính Lủng và Phố Là (huyện Đồng Văn, Hà Giang); không thông hiểu lẫn nhau với tiếng Cờ Lao Đỏ (gir) và là nhóm còn giữ tiếng mẹ đẻ tốt nhất tại Việt Nam."
+      },
+      {
+        "name": "Tiếng Cờ Lao Xanh (Green Gelao / Hagei)",
+        "iso639_3": "giq",
+        "glottocode": "gree1278",
+        "note": "Ngôn ngữ của nhóm Cờ Lao Xanh tại xã Phú Lũng (huyện Yên Minh, Hà Giang); gần tuyệt chủng tại Việt Nam và không thông hiểu lẫn nhau với tiếng Cờ Lao Đỏ (gir)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "va³⁵ ntɯ³¹",
+        "quoc_ngu": "va n-từ",
+        "note": "Tự xưng 'Voa Đề / Vandu'. Tổ hợp tiền mũi hóa [nt] không có trong tiếng Việt: cần phát âm âm mũi [n] lướt rất ngắn liền vào [t] trong cùng một âm tiết."
+      },
+      {
+        "native": "ʔi⁴³",
+        "quoc_ngu": "ỉ / ý",
+        "note": "Nghĩa là 'tôi'. Thanh xuống cao [43] nằm giữa thanh ngang và thanh sắc/hỏi ngắn tiếng Việt."
+      },
+      {
+        "native": "mɤn⁴⁴",
+        "quoc_ngu": "mơn",
+        "note": "Nghĩa là 'mày / bạn'. Nguyên âm [ɤ] gần với 'ơ' tiếng Việt, thanh ngang cao [44]."
+      },
+      {
+        "native": "ʔaŋ³²⁴ˀ",
+        "quoc_ngu": "ẳng",
+        "note": "Nghĩa là 'nước'. Thanh gãy [324ˀ] kèm nghẽn thanh hầu cuối âm tiết gần với thanh hỏi/ngã có kẹt thanh hầu."
+      },
+      {
+        "native": "ho⁴⁴",
+        "quoc_ngu": "hô",
+        "note": "Nghĩa là 'lửa'. Khớp gần với âm 'hô' thanh ngang hơi cao."
+      },
+      {
+        "native": "haŋ⁴⁴",
+        "quoc_ngu": "hang",
+        "note": "Nghĩa là 'chó'. Khớp khá sát với 'hang' trong tiếng Việt."
+      },
+      {
+        "native": "qaŋ⁴⁴ hi⁴⁴",
+        "quoc_ngu": "cang hi",
+        "note": "Nghĩa là 'đường đi'. Âm tắc lưỡi gà [q] không có trong tiếng Việt (lùi sâu hơn 'c/k' về phía lưỡi gà); xấp xỉ tạm bằng 'c'."
+      },
+      {
+        "native": "qa³⁴ ɬu̯a³¹¨",
+        "quoc_ngu": "ca xoa / ca thloa",
+        "note": "Nghĩa là 'mũi'. Cả âm tắc lưỡi gà [q] lẫn âm xát bên vô thanh [ɬ] đều không có trong tiếng Việt chuẩn; [ɬ] nghe trung gian giữa 'x' và 'l' vô thanh."
+      },
+      {
+        "native": "ⁿɗʓei̯⁴⁴",
+        "quoc_ngu": "n-dây / n-giây",
+        "note": "Nghĩa là 'một'. Âm tắc-xát tiền mũi hóa hữu thanh [ⁿɗʓ ~ ⁿɖʐ] không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "sɤi̯⁴⁴",
+        "quoc_ngu": "xơi",
+        "note": "Nghĩa là 'hai'. Phát âm [s] không uốn lưỡi (như 'x' Hà Nội) ghép với vần 'ơi'."
+      },
+      {
+        "native": "la⁴⁴ tei̯⁴⁴",
+        "quoc_ngu": "la tây",
+        "note": "Nghĩa là 'mắt'. Nguyên âm đôi [ei̯] gần với vần 'ây' tiếng Việt."
+      },
+      {
+        "native": "ma²⁴ ɗei̯³¹",
+        "quoc_ngu": "má đầy",
+        "note": "Nghĩa là 'đỏ'. Âm hút vào [ɗ] tương đương chữ 'đ' tiếng Việt."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ʔi⁴³",
+        "ipa": "ʔi⁴³",
+        "meaning_vi": "tôi"
+      },
+      {
+        "native": "mɤn⁴⁴",
+        "ipa": "mɤn⁴⁴",
+        "meaning_vi": "mày / bạn"
+      },
+      {
+        "native": "ⁿɗʓei̯⁴⁴",
+        "ipa": "ⁿɗʓei̯⁴⁴ ~ ⁿɖʐei̯⁴⁴",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "sɤi̯⁴⁴",
+        "ipa": "sɤi̯⁴⁴",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "o⁴⁴ vɤi̯³⁵ˀ",
+        "ipa": "o⁴⁴ vɤi̯³⁵ˀ",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "ʔaŋ³²⁴ˀ",
+        "ipa": "ʔaŋ³²⁴ˀ",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "ho⁴⁴",
+        "ipa": "ho⁴⁴",
+        "meaning_vi": "lửa"
+      },
+      {
+        "native": "ma³⁴ ˀɗu̯a⁴⁴",
+        "ipa": "ma³⁴ ˀɗu̯a⁴⁴",
+        "meaning_vi": "mặt trời"
+      },
+      {
+        "native": "mo³⁴ ⁿɗʓo⁴⁴",
+        "ipa": "mo³⁴ ⁿɗʓo⁴⁴",
+        "meaning_vi": "núi"
+      },
+      {
+        "native": "haŋ⁴⁴",
+        "ipa": "haŋ⁴⁴",
+        "meaning_vi": "chó"
+      },
+      {
+        "native": "mo²⁴ lei̯⁴⁴",
+        "ipa": "mo²⁴ lei̯⁴⁴",
+        "meaning_vi": "cá"
+      },
+      {
+        "native": "ˀɗi⁴⁴",
+        "ipa": "ˀɗi⁴⁴",
+        "meaning_vi": "lá cây"
+      },
+      {
+        "native": "la⁴⁴ tei̯⁴⁴",
+        "ipa": "la⁴⁴ tei̯⁴⁴",
+        "meaning_vi": "mắt"
+      },
+      {
+        "native": "qɤ³³ lɤ³³",
+        "ipa": "kɤ³³ lɤ (K) ~ qɤ³³ lɤ³³ (P)",
+        "meaning_vi": "tai"
+      },
+      {
+        "native": "ma²⁴ ɗei̯³¹",
+        "ipa": "ma²⁴ ɗei̯³¹",
+        "meaning_vi": "đỏ"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Mô hình TTS/SVS chỉ huấn luyện trên tiếng Việt sẽ thiếu các âm đặc thù của Cờ Lao Đỏ: âm tắc lưỡi gà [q], loạt âm tiền mũi hóa [nt, ⁿɗ, ⁿɗʓ, ⁿɖʐ], âm xát bên vô thanh [ɬ], và âm mũi/bên vô thanh [m̥, l̥]. Để tổng hợp chính xác cần dùng đầu vào phoneme IPA trực tiếp kết hợp dữ liệu âm thanh của các ngôn ngữ Kra-Dai vùng biên giới Việt – Trung.",
+      "Chú ý phân biệt chất giọng thanh hầu hóa [ˀ] và giọng thở [¨] đi kèm thanh điệu trong từ điển âm thanh kèm sách của Samarina et al. (2011)."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Samarina, I. V., Mazo, O. M., Nguyễn Văn Lợi, Nguyễn Hữu Hoành, et al. (2011). Языки гэлао: материалы к сопоставительному словарю кадайских языков [The Gelao languages: Materials for a comparative dictionary of Kadai languages]. Moscow: Academia. ISBN 978-5-87444-391-7.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, J. A., & Li, J. (2003). Red Gelao, the most endangered form of the Gelao language. Paper presented at the 36th International Conference on Sino-Tibetan Languages and Linguistics, La Trobe University, Melbourne.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, J. A. (2008). Kra or Kadai languages. In A. V. N. Diller, J. A. Edmondson, & Y. Luo (Eds.), The Tai-Kadai Languages (pp. 653–670). London & New York: Routledge.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Red Gelao (redg1235)",
+      "url": "https://glottolog.org/resource/languoid/id/redg1235",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL ISO 639-3 — Documentation for iso-639 identifier: gir (Red Gelao)",
+      "url": "https://iso639-3.sil.org/code/gir",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Red Gelao (gir)",
+      "url": "https://www.ethnologue.com/language/gir/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Appendix:Gelao Swadesh lists (dữ liệu điền dã Việt Nam trích từ Samarina 2011)",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Gelao_Swadesh_lists",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Vandu language",
+      "url": "https://en.wikipedia.org/wiki/Vandu_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Cờ Lao Đỏ",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_C%E1%BB%9D_Lao_%C4%90%E1%BB%8F",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Cờ Lao (bảng từ vựng so sánh Cờ Lao Trắng, Cờ Lao Xanh và Cờ Lao Đỏ tại Việt Nam)",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_C%E1%BB%9D_Lao",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nam Thái / TTXVN (2022). Chùm bài 'Gìn giữ nét đẹp văn hóa người Cờ Lao đỏ' (xã Túng Sán, huyện Hoàng Su Phì, tỉnh Hà Giang).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "autonym",
+          "severity": "medium",
+          "problem": "Biến thể tự xưng 'va³⁴ ɗ̥ɤ⁴²' không kiểm chứng được trong các nguồn mở trích dẫn Samarina (2011) và Edmondson (2003); trong khi 'va³⁵ ntɯ³¹' (và cách ghi 'va¹³ ⁿtɯ³¹' trên Wikipedia tiếng Việt) được kiểm chứng trực tiếp.",
+          "fix": "Sửa autonym thành 'va³⁵ ntɯ³¹ ~ va¹³ ⁿtɯ³¹ (Voa Đề / Vandu)' và lược bỏ ví dụ 'va³⁴ ɗ̥ɤ⁴²' khỏi phonology.onsets[6]."
+        },
+        {
+          "path": "phonology.onsets[12] & phonology.vowels[14]",
+          "severity": "medium",
+          "problem": "Ví dụ 'ma³⁴ ŋ̍⁴⁴ ʔɗaŋ⁴⁴ (con trăn)' cho âm mũi âm tiết tính [ŋ̍] và ví dụ 'ˀwa³³ də³¹' cho [ˀw] / [ə] không nằm trong bảng Swadesh 100 từ của Samarina (2011) được công bố trên Wiktionary/Wikipedia nên không thể kiểm chứng độc lập.",
+          "fix": "Hạ confidence của các mục [ŋ̍], [ə], [w ~ ˀw] xuống 'low', thay thế ví dụ không kiểm chứng được bằng các từ có thực chứng trong bảng Swadesh của Samarina (2011) như 'wi³¹ (S) (dài)', 'ma²⁴ wa³¹ (trắng)', và đưa việc kiểm chứng âm mũi âm tiết tính vào validation.open_issues."
+        },
+        {
+          "path": "lexicon[26] & phonology.vowels[11]",
+          "severity": "low",
+          "problem": "Từ 'máu' (blood, mục số 30 trong danh sách Swadesh của Samarina 2011) được ghi âm là 'pai̯³¹ ̃' (có dấu bán nguyên âm và mũi hóa), trong khi bảng mã chỉ ghi 'pai³¹' và chú thích theo Edmondson.",
+          "fix": "Cập nhật form/ipa của từ 'máu' thành 'pai̯³¹ ̃' (biến thể giản lược 'pai³¹') theo đúng ký âm của Samarina (2011) trên Wiktionary."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các trường url_check đang để null dù nhiều URL có thể kiểm chứng trực tiếp; thiếu liên kết tới bài 'Tiếng Cờ Lao' trên Wikipedia tiếng Việt (nơi chứa bảng đối chiếu từ vựng 3 phương ngữ Cờ Lao ở Việt Nam).",
+          "fix": "Cập nhật url_check cho các nguồn trực tuyến và bổ sung URL bài 'Tiếng Cờ Lao' trên Wikipedia tiếng Việt."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp chương ngữ âm tiếng Cờ Lao Đỏ và đĩa CD âm thanh gốc trong chuyên khảo Samarina et al. (2011) để chuẩn hóa số lượng thanh vị (phonemic tones) và kiểm chứng sự xuất hiện của các âm mũi âm tiết tính (như [ŋ̍]) tách biệt khỏi biến thể cá nhân của các cộng tác viên bán thông thạo.",
+      "Cần khảo sát thực địa cập nhật tại hai xã Na Khê và Bạch Đích (Yên Minh, Hà Giang) để xác định số người còn nói được tiếng Cờ Lao Đỏ tính đến thập niên 2020.",
+      "Các bài dân ca cổ của người Cờ Lao Đỏ tại Túng Sán (Hoàng Su Phì) cần được giám định ngôn ngữ học để phân biệt phần lời hát còn giữ từ vựng Kra bản địa với phần lời hát bằng tiếng Quan Hỏa cổ."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

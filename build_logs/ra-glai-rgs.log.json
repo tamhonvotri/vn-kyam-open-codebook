@@ -1,0 +1,92 @@
+{
+  "target": {
+    "id": "ra-glai-rgs",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Raglai Nam",
+    "ethnic_group_vi": "Ra Glai",
+    "iso639_3_expected": "rgs",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ra Glai tại Việt Nam (mã ISO dự kiến: rgs; bảng mã dân tộc gốc: ra-glai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ra-glai\"."
+  },
+  "started": "2026-11-13T23:46:13.603614",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9453,
+      "candidatesTokenCount": 9003,
+      "totalTokenCount": 23581,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9453
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9003
+        }
+      ],
+      "thoughtsTokenCount": 5125,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11424,
+      "candidatesTokenCount": 11434,
+      "totalTokenCount": 25088,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11424
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11434
+        }
+      ],
+      "thoughtsTokenCount": 2230,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "lexicon[4] & ml_hints.sample_words[4]",
+        "severity": "high",
+        "problem": "Mục từ 'ukha' (/ukʰaː/ 'rễ / root') thực chất là biến thể tiếng Raglai Bắc (Table 1.1 trong Brunelle et al. 2022, nơi âm cuối *-r bị rụng và nguyên âm tiền âm tiết nâng lên /u-/). Trong danh sách từ tiếng Raglai Nam tại Ma Nới (Table 1.2 của Brunelle et al. 2022 và Pangloss 10.24397/pangloss-0007403#W25, W84), từ này giữ nguyên âm cuối /-r/ và nguyên âm đầu /a-/: 'akhar' (/akʰaːr/).",
+        "fix": "Sửa thành form 'akhar', IPA 'akʰaːr' ở cả lexicon và ml_hints.sample_words."
+      },
+      {
+        "path": "lexicon[5] & ml_hints.sample_words[5]",
+        "severity": "high",
+        "problem": "Mục từ 'iku' (/ikuː/ 'đuôi / tail') là biến thể tiếng Raglai Bắc (Table 1.1 trong Brunelle et al. 2022). Trong danh sách từ tiếng Raglai Nam tại Ma Nới (Table 1.2 của Brunelle et al. 2022 và Pangloss 10.24397/pangloss-0007403#W87), nguyên âm tiền âm tiết trung hòa thành /a-/: 'aku' (/akuː/).",
+        "fix": "Sửa thành form 'aku', IPA 'akuː' ở cả lexicon và ml_hints.sample_words."
+      },
+      {
+        "path": "lexicon[2] & ml_hints.sample_words[2]",
+        "severity": "low",
+        "problem": "Từ 'ngày mai' trong Table 1.1 (Raglai Bắc) ghi là 'pagi:', nhưng trong Table 1.2 và Pangloss (W19, W78) của tiếng Raglai Nam (Ma Nới) được phiên âm là 'pəgi:' (tiền âm tiết giảm hóa thành /ə/).",
+        "fix": "Cập nhật form thành 'pơgi (pagi)' và IPA thành 'pək̥iː ~ pak̥iː (âm vực thấp, < *paɡiː)' để phản ánh chính xác tư liệu điền dã Ma Nới."
+      },
+      {
+        "path": "lexicon[10] & lexicon[12]",
+        "severity": "medium",
+        "problem": "Hai mục từ 'khu' (/kʰuː/ < *ɡʱuː 'cháy/nhóm lửa') và 'du' (/t̥uː/ < *duː 'ru ngủ') được suy diễn từ quy tắc tương ứng âm vị học (hoặc đối chiếu với 'ghu:' ở Table 1.1 Raglai Bắc) chứ không nằm trực tiếp trong bảng từ chuẩn Ma Nới (Table 1.2 / Pangloss 0007403, nơi nhóm /kʰ/ được minh họa bằng 'khɛ:' đỏ, 'khɔ:' kho, 'khi:r' kín, 'akha:r' rễ).",
+        "fix": "Hạ confidence của 'khu' và 'du' xuống 'medium' (và lược 'du' khỏi sample_words hoặc thay bằng từ có thực chứng trực tiếp trong Table 1.2 như 'kađi' /kaɗiː/ 'vụ án, vụ việc')."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check đang để null cho các URL đã kiểm chứng hoạt động.",
+        "fix": "Cập nhật url_check thành 'verified' cho các nguồn trực tuyến đã xác thực."
+      }
+    ]
+  },
+  "schema_errors": []
+}

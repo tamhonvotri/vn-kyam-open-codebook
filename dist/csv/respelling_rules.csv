@@ -1,4 +1,36 @@
 id,slot,from,to,level,optional,note
+vie-binh-dinh-phu-yen,word,rồi,rầu,light,False,Từ nhận diện đặc trưng bậc nhất của giọng Bình Định – Phú Yên; là tiếng có nghĩa chuẩn trong bộ từ vựng nên an toàn cho tokenizer.
+vie-binh-dinh-phu-yen,word,thôi,thâu,light,False,"Đặc trưng vần -ôi → -âu Xứ Nẫu, an toàn cho tokenizer."
+vie-binh-dinh-phu-yen,word,tôi,tui,light,False,"Ngoại lệ của quy tắc -ôi → -âu ('tôi' chuyển thành 'tui', không thành 'tâu')."
+vie-binh-dinh-phu-yen,word,về,dìa,light,True,Từ đặc trưng cao trong ca dao và Bài chòi ('Ai dìa Bình Định...'). Cần kiểm tra độ tách sub-token với từng mô hình.
+vie-binh-dinh-phu-yen,word,người,ngừ,light,True,Đại diện cho biến âm -ươi → -ư; kiểm tra tokenizer trước khi dùng.
+vie-binh-dinh-phu-yen,word,khỏe,phẻ,light,True,Đại diện cho biến âm khw- → ph-.
+vie-binh-dinh-phu-yen,word,ơi,quơi,light,True,"Tiếng gọi cảm thán cuối câu đặc trưng ('Trời quơi!', 'Em quơi!')."
+vie-binh-dinh-phu-yen,tone,nga,hoi,full,False,Nhập thanh ngã vào thanh hỏi trên toàn bộ từ vựng.
+vie-binh-dinh-phu-yen,rhyme,ôi,âu,full,False,"Quy tắc tiêu biểu của giọng Xứ Nẫu (đôi → đâu, ngồi → ngầu, tối → tấu)."
+vie-binh-dinh-phu-yen,rhyme,ươi,ư,full,False,"Rút gọn vần -ươi thành -ư (cười tươi → cừ tư, bưởi → bử)."
+vie-binh-dinh-phu-yen,rhyme,ưi,ư,full,True,Rụng bán nguyên âm cuối (gửi → gử).
+vie-binh-dinh-phu-yen,rhyme,au,ao,full,True,Phản ánh sự trung hòa trường độ giữa -au và -ao thành [æw].
+vie-binh-dinh-phu-yen,rhyme,ao,o,full,True,"Chỉ bật khi mô phỏng thổ ngữ nông thôn Bắc Bình Định (sao → so, cao → co)."
+vie-binh-dinh-phu-yen,rhyme,ươn,ương,full,False,
+vie-binh-dinh-phu-yen,rhyme,ương,ưng,full,True,Chỉ bật khi mô phỏng khẩu âm rút gọn nguyên âm đôi ở nông thôn (thương → thưng).
+vie-binh-dinh-phu-yen,rhyme,ươm,ưm,full,True,
+vie-binh-dinh-phu-yen,rhyme,ê,ơ,full,True,"Chỉ áp dụng có chọn lọc trên danh sách từ khẩu ngữ thông dụng ở âm tiết mở (quê → quơ, xê → xơ), không áp dụng đại trà lên từ Hán-Việt."
+vie-binh-dinh-phu-yen,rhyme,e,ia,full,True,"Mô phỏng nguyên âm đôi hóa e → ia (xe → xia, me → mia, té → tía); chỉ áp dụng trên từ thuần Việt thông dụng, không áp dụng đại trà."
+vie-binh-dinh-phu-yen,rhyme,ơm,ôm,full,True,"Khẩu ngữ thân mật (cơm → côm, sớm → sốm)."
+vie-binh-dinh-phu-yen,rhyme,om,ôm,full,True,"Khẩu ngữ thân mật (xóm → xốm, khom → khôm)."
+vie-binh-dinh-phu-yen,rhyme,êp,ip,full,True,"Ví dụ: bếp → bíp, nếp → níp, xếp → xíp."
+vie-binh-dinh-phu-yen,rhyme,em,im,full,True,Biến thể hẹp địa phương (kem → kim).
+vie-binh-dinh-phu-yen,rhyme,uân,ưng,full,True,"Ví dụ: chuẩn → chửng, thuận → thựng, luận → lựng."
+vie-binh-dinh-phu-yen,rhyme,ông,ong,full,True,Chỉ bật khi mô phỏng giọng Phú Yên (chồng → chòng).
+vie-binh-dinh-phu-yen,onset,v,d,full,False,"Phát âm [j]; lưu ý giữ phân biệt tr/ch và s/x (không gộp tr→ch, s→x như Nam Bộ)."
+vie-binh-dinh-phu-yen,onset,qu,w,full,True,Dễ làm vỡ token trong các mô hình BPE chuẩn.
+vie-binh-dinh-phu-yen,rhyme,anh,ăn,full,False,
+vie-binh-dinh-phu-yen,rhyme,ach,ăt,full,False,
+vie-binh-dinh-phu-yen,rhyme,inh,ưn,full,False,
+vie-binh-dinh-phu-yen,rhyme,ich,ưt,full,False,
+vie-binh-dinh-phu-yen,rhyme,an,ang,full,False,
+vie-binh-dinh-phu-yen,rhyme,at,ac,full,False,
 vie-central,word,cũ,củ,light,False,"Nhập ngã vào hỏi ở từ thông dụng, an toàn cho tokenizer"
 vie-central,word,sao,răng,light,True,Thay thế từ vựng đặc trưng Trung Bộ khi chuyển lời thoại/ca từ thân mật
 vie-central,word,đâu,mô,light,True,Chỉ áp dụng cho đại từ nghi vấn/phiếm chỉ
@@ -86,3 +118,102 @@ vie-south,rhyme,ươn,ương,full,False,
 vie-south,rhyme,ươi,ưi,full,True,
 vie-south,rhyme,ưu,iu,full,False,
 vie-south,rhyme,ươu,iu,full,False,
+vie-southwest,word,kêu,kiu,light,True,Từ đặc trưng tần suất rất cao ở miền Tây; an toàn về ngữ nghĩa trong lời ca dân dã và hội thoại.
+vie-southwest,word,cũ,củ,light,False,Kế thừa từ vie-south (1-token an toàn).
+vie-southwest,word,may,mai,light,False,Kế thừa từ vie-south.
+vie-southwest,word,hay,hai,light,False,Kế thừa từ vie-south.
+vie-southwest,word,tay,tai,light,False,Kế thừa từ vie-south.
+vie-southwest,word,say,sai,light,False,Kế thừa từ vie-south.
+vie-southwest,word,thay,thai,light,False,Kế thừa từ vie-south.
+vie-southwest,word,khuya,phia,full,True,"Đặc trưng miền Tây (khw → f). Dùng cho hò, lý, đối thoại dân dã; tắt khi hát tân nhạc/cải lương trang trọng."
+vie-southwest,word,khoai,phai,full,True,Đặc trưng miền Tây (khw → f).
+vie-southwest,word,chuyện,chiện,full,True,Rụng âm đệm /-w-/ rất phổ biến ở miền Tây.
+vie-southwest,word,rồi,gồi,full,True,Mô phỏng phát âm r → [ɣ] đặc trưng miền Tây. KHÔNG bật quy tắc này cho ca cổ/vọng cổ chính luận vì nghệ nhân cải lương phát âm rõ [ɾ ~ ʐ].
+vie-southwest,onset,r,g,full,True,"Quy tắc mạnh đặc trưng Tây Nam Bộ (r → [ɣ]; chú ý chính tả tiếng Việt phải đổi thành 'gh' trước i, e, ê). Rất dễ gây vỡ token hoặc nhầm nghĩa từ vựng trong LLM — chỉ dùng cho pipeline G2P/phoneme-based TTS khẩu ngữ."
+vie-southwest,tone,nga,hoi,full,False,Nhập thanh ngã vào hỏi (chia sẻ với vie-south). Kiểm tra độ vỡ token trước khi áp dụng cho LLM.
+vie-southwest,onset,v,d,full,True,Dùng cho khẩu ngữ đời thường; tắt nếu muốn mô phỏng lối nhả chữ [βj ~ vj] của cải lương / vọng cổ.
+vie-southwest,onset,qu,w,full,False,Chia sẻ với vie-south; dễ làm vỡ token.
+vie-southwest,onset,tr,ch,full,True,Biến thể theo vùng ở miền Tây.
+vie-southwest,onset,s,x,full,True,Biến thể theo vùng ở miền Tây.
+vie-southwest,rhyme,êu,iu,full,True,Phổ biến ở miền Tây (kêu → kiu).
+vie-southwest,rhyme,an,ang,full,False,
+vie-southwest,rhyme,at,ac,full,False,
+vie-southwest,rhyme,anh,ăn,full,False,
+vie-southwest,rhyme,ach,ăt,full,False,
+vie-southwest,rhyme,inh,ưn,full,False,
+vie-southwest,rhyme,ich,ưt,full,False,
+vie-southwest,rhyme,un,ung,full,False,
+vie-southwest,rhyme,ut,uc,full,False,
+vie-southwest,rhyme,iên,iêng,full,False,
+vie-southwest,rhyme,iêt,iêc,full,False,
+vie-southwest,rhyme,uôn,uông,full,False,
+vie-southwest,rhyme,ươn,ương,full,False,
+vie-southwest,rhyme,ươi,ưi,full,True,
+vie-southwest,rhyme,uôi,ui,full,True,
+vie-southwest,rhyme,ưu,iu,full,False,
+vie-southwest,rhyme,ươu,iu,full,False,
+vie-thanh-hoa,tone,nga,hoi,light,False,Đặc trưng phổ quát nhất của thổ ngữ Thanh Hóa: nhập hoàn toàn thanh ngã vào thanh hỏi.
+vie-thanh-hoa,word,nãy,nảy,light,False,Ví dụ tần suất cao trong khẩu ngữ (hồi nãy → nảy)
+vie-thanh-hoa,word,cũ,củ,light,False,"Nhập thanh ngã vào hỏi, an toàn cho tokenizer"
+vie-thanh-hoa,word,chị,chậy,full,True,Lướt đôi hóa /i/ → [əj] rất đặc trưng của vùng đồng bằng sông Mã
+vie-thanh-hoa,word,chân,chưn,full,True,Biến âm â → ư phổ biến nhưng có thể tách sub-token trên một số tokenizer LLM
+vie-thanh-hoa,word,bực,bậc,full,True,Biến âm ưc → âc đặc trưng (bực → bậc)
+vie-thanh-hoa,word,nực,nậc,full,True,Biến âm ưc → âc (nóng nực → nóng nậc)
+vie-thanh-hoa,rhyme,uôn,un,full,True,"Mô phỏng triệt tiêu nguyên âm đôi uô → uː (luôn → lun, buồn → bùn)"
+vie-thanh-hoa,rhyme,iêu,iu,full,True,"Mô phỏng triệt tiêu nguyên âm đôi iê → iː (điếu → đíu, chiếu → chíu)"
+vie-thanh-hoa,rhyme,iên,in,full,True,Mô phỏng triệt tiêu nguyên âm đôi iê → iː (tiền → tìn [tiːn˨˩]); lưu ý chữ Quốc ngữ không ghi được độ dài nguyên âm [iː]
+vie-thanh-hoa,rhyme,ươn,ưn,full,True,Mô phỏng triệt tiêu nguyên âm đôi ươ → ɨː; dễ vỡ token trên mô hình ngôn ngữ nên cần kiểm tra trước
+vie-xu-quang,word,không,hông,light,False,"Âm tiết Quốc ngữ chuẩn, an toàn cho tokenizer"
+vie-xu-quang,word,tôi,tui,light,False,"Âm tiết Quốc ngữ chuẩn, an toàn cho tokenizer"
+vie-xu-quang,word,cao,cô,light,False,ao → ô; tạo âm tiết tiếng Việt hợp lệ
+vie-xu-quang,word,bao,bô,light,False,ao → ô; tạo âm tiết tiếng Việt hợp lệ
+vie-xu-quang,word,chào,chồ,light,False,ao → ô; cần kiểm tra sub-token với tools/tokenizer_check.py
+vie-xu-quang,word,đâu,đao,light,False,âu → ao; âm tiết Quốc ngữ hợp lệ
+vie-xu-quang,word,sau,sao,light,False,au → ao; âm tiết Quốc ngữ hợp lệ
+vie-xu-quang,word,hai,hưa,light,False,ai → ưa; đặc trưng nhận diện cao của giọng Quảng
+vie-xu-quang,word,nói,núa,light,False,oi → ua; từ tần suất cao đặc trưng ('giọng núa Quảng Nôm')
+vie-xu-quang,word,hỏi,hủa,light,False,oi → ua; kiểm tra tokenizer trước khi dùng
+vie-xu-quang,word,tay,ta,light,False,ay → a; 1 token phổ biến
+vie-xu-quang,word,hay,ha,light,False,ay → a; 1 token phổ biến
+vie-xu-quang,word,nam,nôm,light,False,am → ôm (Quảng Nam → Quảng Nôm); âm tiết hợp lệ
+vie-xu-quang,word,làm,lồm,light,False,am → ôm; âm tiết hợp lệ
+vie-xu-quang,word,đạp,độp,light,False,ap → ôp; âm tiết hợp lệ
+vie-xu-quang,word,năm,nem,light,True,ăm → em; âm tiết hợp lệ
+vie-xu-quang,word,biết,bít,light,True,iêt → it; âm tiết hợp lệ
+vie-xu-quang,word,tiếp,típ,light,True,iêp → ip; âm tiết hợp lệ
+vie-xu-quang,tone,nga,hoi,full,False,Nhập thanh ngã vào thanh hỏi
+vie-xu-quang,onset,v,d,full,False,Phát âm [j]; cẩn trọng hiện tượng tách sub-token
+vie-xu-quang,onset,qu,w,full,True,Phát âm [w]; rất dễ làm vỡ token BPE chuẩn
+vie-xu-quang,rhyme,ao,ô,full,False,Thứ tự dây chuyền (1/3): phải chạy TRƯỚC âu/au → ao để cao→cô nhưng đâu→đao không bị biến tiếp thành đô
+vie-xu-quang,rhyme,âu,ao,full,False,Thứ tự dây chuyền (2/3): chạy SAU ao → ô và TRƯỚC ôi → âu
+vie-xu-quang,rhyme,au,ao,full,False,Thứ tự dây chuyền (2/3): chạy SAU ao → ô
+vie-xu-quang,rhyme,ôi,âu,full,True,Thứ tự dây chuyền (3/3): chỉ bật cho biến thể Quảng Ngãi / nam Quảng Nam; chạy SAU âu → ao
+vie-xu-quang,rhyme,oai,ua,full,False,"hoài → hùa, khoai → khua; đặt trước ai → ưa"
+vie-xu-quang,rhyme,oi,ua,full,False,"nói → núa, coi → cua"
+vie-xu-quang,rhyme,ai,ưa,full,False,Thứ tự dây chuyền nhánh trước (1/4): chạy TRƯỚC ây → ay
+vie-xu-quang,rhyme,a,oa,full,False,Thứ tự dây chuyền nhánh trước (2/4): biểu diễn [ɑː ~ ɒː]; chạy TRƯỚC ay → a để tay→ta không thành toa
+vie-xu-quang,rhyme,ay,a,full,False,Thứ tự dây chuyền nhánh trước (3/4): chạy SAU a → oa và TRƯỚC ây → ay
+vie-xu-quang,rhyme,ây,ay,full,False,Thứ tự dây chuyền nhánh trước (4/4): chạy SAU ay → a để thấy→tháy không thành thá
+vie-xu-quang,rhyme,am,ôm,full,False,
+vie-xu-quang,rhyme,ap,ôp,full,False,
+vie-xu-quang,rhyme,an,oang,full,False,Biểu diễn [ɑːŋ]; dễ tạo chữ hiếm trong tokenizer
+vie-xu-quang,rhyme,ang,oang,full,False,Biểu diễn [ɑːŋ]
+vie-xu-quang,rhyme,at,oac,full,False,Biểu diễn [ɑːk]
+vie-xu-quang,rhyme,ac,oac,full,False,Biểu diễn [ɑːk]
+vie-xu-quang,rhyme,ăn,eng,full,False,Phải chạy TRƯỚC anh → ăn để xanh→xăn không bị biến tiếp thành xeng
+vie-xu-quang,rhyme,ăng,eng,full,False,
+vie-xu-quang,rhyme,ăt,ec,full,False,Phải chạy TRƯỚC ach → ăt để sách→sắt không bị biến tiếp thành séc
+vie-xu-quang,rhyme,ăc,ec,full,False,
+vie-xu-quang,rhyme,ăm,em,full,True,Biến thể nông thôn Quảng Nam – Quảng Ngãi
+vie-xu-quang,rhyme,ăp,ep,full,True,Biến thể nông thôn Quảng Nam – Quảng Ngãi
+vie-xu-quang,rhyme,anh,ăn,full,False,Chạy SAU ăn → eng
+vie-xu-quang,rhyme,ach,ăt,full,False,Chạy SAU ăt → ec
+vie-xu-quang,rhyme,inh,ưn,full,False,
+vie-xu-quang,rhyme,ich,ưt,full,False,
+vie-xu-quang,rhyme,uân,ưng,full,True,
+vie-xu-quang,rhyme,iên,iêng,full,False,
+vie-xu-quang,rhyme,iêt,iêc,full,False,
+vie-xu-quang,rhyme,uôn,uông,full,False,
+vie-xu-quang,rhyme,uôt,uôc,full,False,
+vie-xu-quang,rhyme,ươn,ương,full,False,
+vie-xu-quang,rhyme,ươt,ươc,full,False,

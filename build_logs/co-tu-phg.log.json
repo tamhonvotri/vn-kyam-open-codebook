@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "co-tu-phg",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Phương (Cơ Tu Phương)",
+    "ethnic_group_vi": "Cơ Tu",
+    "iso639_3_expected": "phg",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Cơ Tu tại Việt Nam (mã ISO dự kiến: phg; bảng mã dân tộc gốc: co-tu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"co-tu\"."
+  },
+  "started": "2026-11-13T23:19:34.444441",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9451,
+      "candidatesTokenCount": 8517,
+      "totalTokenCount": 24221,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9451
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8517
+        }
+      ],
+      "thoughtsTokenCount": 6253,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11194,
+      "candidatesTokenCount": 10420,
+      "totalTokenCount": 21614,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11194
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10420
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[14].ipa",
+        "severity": "medium",
+        "problem": "Từ 'dadứl' (tim) được phiên âm là 'ʄa.ɗɨl' (phụ âm đầu âm tiết chính là [ɗ], tức chữ 'đ') và gán confidence 'high'. Tuy nhiên, chính tả trong từ điển của Phan Lương Hùng et al. ghi rõ 'dadứl' với cả hai chữ 'd' (không phải 'dađứl'), và bảng hướng dẫn đọc dùng chính từ 'dadứl' để minh họa cho phụ âm 'd' ('đọc gần như d, gi tiếng Việt với lưỡi dịch chuyển ra...'). Hơn nữa, giá trị ngữ âm của con chữ 'd' trong hệ chữ này đang có độ chắc chắn 'medium' ở bảng onsets.",
+        "fix": "Sửa IPA của 'dadứl' thành 'ʄa.ʄɨl ~ za.zɨl' (hoặc ghi nhận biến thể giữa [ʄ] và [z]/[ɟ]) và hạ confidence xuống 'medium'; đồng bộ tương ứng ở ml_hints.sample_words[12]."
+      },
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "low",
+        "problem": "Nhận định chi tiết về việc nhân đôi phụ âm đầu âm tiết chính làm khép tiền âm tiết (ví dụ [tə.mɛː] > [təm.mɛː] 'mới') và biến thể mở [ɛa], [əa], [ɔa] của nguyên âm đôi ở vùng Nam Đông được trình bày như sự thật hiển nhiên nhưng chưa dẫn nguồn bài báo/luận án cụ thể trong danh mục sources.",
+        "fix": "Giữ thông tin nhưng bổ sung lưu ý cần đối chiếu nguồn khảo sát điền dã ngữ âm địa phương Nam Đông / A Lưới và hạ confidence của các nguyên âm đôi tương ứng hoặc ghi rõ trong validation.open_issues."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Hầu hết các mục từ trong lexicon (pee, xơơng, zết, pleéng, haree, đống, avíq, dadứl...) được trích từ Từ điển Cơ Tu – Việt – Anh (Phan Lương Hùng et al.), vốn tổng hợp cả 3 phương ngữ (cao, trung, thấp/Phương). Việc gán confidence='high' cho toàn bộ danh sách dưới mã ngôn ngữ riêng 'phg' (Cơ Tu Phương) có thể gây hiểu lầm rằng tất cả đều là dạng đặc thù chỉ của thổ ngữ Phương.",
+        "fix": "Hạ confidence xuống 'medium' đối với các từ trích từ bộ từ điển chung mà chưa có đối chiếu tách biệt riêng cho thổ ngữ Phương (phg), chỉ giữ 'high' cho các từ cơ bản pan-Katuic không biến đổi hoặc đã được Sidwell (2005) / Costello (1971) ghi nhận cụ thể cho Katu Phuong."
+      }
+    ]
+  },
+  "schema_errors": []
+}

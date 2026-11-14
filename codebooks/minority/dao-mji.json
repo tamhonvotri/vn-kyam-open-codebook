@@ -1,0 +1,887 @@
+{
+  "id": "dao-mji",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Kim Mun (Dao Làn Tẻn / Thanh Y / Quần Trắng)",
+  "name_en": "Kim Mun (Lanten / Thanh Y / White-Trouser Dao)",
+  "autonym": "Kêmh Mŭnh / Kìm Mùn / Kềm Mùn / Mùn vả",
+  "ethnic_group_vi": "Dao",
+  "language": {
+    "iso639_3": "mji",
+    "glottocode": "kimm1245",
+    "family": "Hmong-Mien",
+    "branch": "Mienic (Mian-Jin)"
+  },
+  "regions": [
+    "Lào Cai (Văn Bàn, Bảo Thắng, Bảo Yên)",
+    "Yên Bái (Yên Bình, Văn Yên, Lục Yên, Trấn Yên)",
+    "Tuyên Quang (Hàm Yên, Yên Sơn, Chiêm Hóa)",
+    "Hà Giang (Bắc Quang, Vị Xuyên)",
+    "Quảng Ninh (Hạ Long/Hoành Bồ, Tiên Yên, Ba Chẽ, Hải Hà, Bình Liêu)",
+    "Bắc Giang (Sơn Động, Lục Ngạn, Lục Nam)"
+  ],
+  "speakers_estimate": "Khoảng 170.000–222.000 người tại Việt Nam (gồm các nhóm Dao Quần Trắng/Dao Họ, Dao Thanh Y, Dao Làn Tẻn/Dao Tuyển/Dao Áo Dài; nằm trong tổng số 891.151 người Dao toàn quốc theo Tổng điều tra 2019)",
+  "scripts": [
+    {
+      "name": "Chữ Nôm Dao",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Văn tự truyền thống mượn chữ Hán (chủ yếu dạng phồn thể và chữ dị thể) đọc theo âm Hán-Dao (phương ngữ Mùn) kết hợp một số chữ tự tạo để chép gia phả, sách cúng lễ cấp sắc, lịch vạn sự và lời ca cổ. Được công nhận là Di sản văn hóa phi vật thể quốc gia (từ năm 2012 tại Bắc Kạn/Thái Nguyên, 2015 tại Lào Cai)."
+    },
+    {
+      "name": "Chữ Kim Môn Latinh hóa (Latin Mùn Việt / Kêmh Mŭnh)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh cộng đồng và từ điển học (như trong Từ điển Kêmh Mŭnh-Việt của Nguyễn Việt Khôi 2023–2024 và đề xuất chữ viết đối chiếu Việt–Lào dựa trên Clark 2008). Dùng dấu trăng (ă, ĕ, ĭ, ŏ, ŭ) ghi nguyên âm ngắn, dấu mũ (ê, ô) và chữ cái cuối âm tiết (d, s, h, x, c, l, z, b, f, v) ghi thanh điệu; chưa được Nhà nước ban hành chính thức trong giáo dục phổ thông."
+    },
+    {
+      "name": "Chữ Quốc ngữ (phiên âm tạm thời)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": null,
+      "note": "Dùng không thống nhất trong các ấn phẩm văn hóa, sưu tầm dân ca địa phương để phiên âm gần đúng tiếng Dao sang tiếng Việt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Biên soạn tự động từ tư liệu ngôn ngữ học về biến thể tiếng Kim Mun tại Việt Nam (Clark 2008; Easterday 2019; Đoàn Thiện Thuật & Mai Ngọc Chừ 1992; Phan Hữu Dật & Hoàng Hoa Toàn 1998; bảng đối chiếu phương ngữ Lào Cai – Quảng Ninh và Từ điển Kêmh Mŭnh-Việt 2023–2024). Hệ thống thanh điệu biến thiên mạnh giữa vùng Tây Bắc/Đông Bắc nội địa (Lào Cai, Tuyên Quang, Yên Bái — Dao Làn Tẻn, Dao Quần Trắng) và vùng Đông Bắc ven biển (Quảng Ninh, Bắc Giang — Dao Thanh Y). Cần chuyên gia ngữ âm học Mienic và nghệ nhân bản ngữ từng nhóm thẩm định.",
+  "phonology": {
+    "syllable_structure": "(C1)(G)V(ː)(C2)+T, trong đó âm đệm G ∈ {j, w, l}, C2 ∈ {p, t, k, ʔ, m, n, ŋ, j, w}",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ ~ p",
+        "note": "Bật hơi [pʰ] ở Dao Thanh Y (Quảng Ninh); nhập vào [p] ở Lào Cai",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ b̬",
+        "note": "Tắc hai môi hữu thanh, thường kèm thanh quản căng (stiff voice) theo Clark (2008)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ ~ t",
+        "note": "Bật hơi [tʰ] ở Quảng Ninh; nhập vào [t] ở Lào Cai",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d ~ d̬",
+        "note": "Tắc đầu lưỡi hữu thanh kèm thanh quản căng (stiff voice); đôi khi biến thể tự do [ɖ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / ky",
+        "ipa": "c ~ kʲ",
+        "note": "Tắc mặt lưỡi hoặc ngạc mềm ngạc hóa vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / khy",
+        "ipa": "cʰ ~ kʰʲ ~ c",
+        "note": "Bật hơi ở Quảng Ninh; không bật hơi ở Lào Cai",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j / gy",
+        "ipa": "ɟ ~ ɡʲ",
+        "note": "Tắc mặt lưỡi hữu thanh (căng giọng nhẹ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x ~ k",
+        "note": "Quảng Ninh phát âm [kʰ] hoặc [x]; Lào Cai nhập về [k]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sl",
+        "ipa": "θ ~ tθ",
+        "note": "Xát răng vô thanh (hoặc tắc-xát [tθ] ở một số thổ ngữ); âm đặc trưng của Kim Mun so với Iu Mien",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x-",
+        "ipa": "s ~ ɕ",
+        "note": "Xát lợi vô thanh, ngạc hóa thành [ɕ] trước nguyên âm dòng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sh",
+        "ipa": "ɕ ~ s",
+        "note": "Xát lợi-ngạc vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (có thể ngạc hóa [ç] trước /i, j/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ny",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (tương ứng nh- trong tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ly",
+        "ipa": "ʎ ~ lʲ",
+        "note": "Bên mặt lưỡi / ngạc hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl / bl / tl / dl / kl / gl / khl",
+        "ipa": "pl / bl / tl / dl / kl / ɡl / kʰl",
+        "note": "Tổ hợp phụ âm tắc + âm bên /l/ (bao gồm cả /tl, dl/ đặc trưng ở biến thể Việt Nam theo Clark 2008 & Easterday 2019)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "py / by / dy / my",
+        "ipa": "pj / bj / dj / mj",
+        "note": "Tổ hợp phụ âm môi/lợi + âm lướt /j/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw / gw / khw / mw",
+        "ipa": "kw / ɡw / kʰw / mw",
+        "note": "Tổ hợp phụ âm + âm đệm tròn môi /w/",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ɐ ~ a",
+        "note": "Nguyên âm mở ngắn, chỉ đứng trong âm tiết đóng hoặc vần đôi (ăi, ău, ăm, ăn, ăng, ăp, ăt, ăk)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ ɛː",
+        "note": "Nguyên âm dòng trước độ mở vừa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "e ~ ɛ",
+        "note": "Nguyên âm dòng trước ngắn trong âm tiết đóng (ĕn, ĕng, ĕt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː ~ i",
+        "note": "Giữ [eː] ở Quảng Ninh; nâng lên [i] ở Lào Cai trong một số vần đóng (như kêmh: Quảng Ninh [keːm²²], Lào Cai [kim¹¹]); ở âm tiết mở cuối từ có thể kèm lướt ngạc cứng nhẹ [eʲ] theo Clark (2008)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "iː ~ i",
+        "note": "Nguyên âm dòng trước khép dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "ɪ ~ i",
+        "note": "Nguyên âm dòng trước khép ngắn trong âm tiết đóng (ĭm, ĭn, ĭng)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː ~ ɔ",
+        "note": "Nguyên âm dòng sau mở vừa tròn môi; trước phụ âm ngạc mềm có thể lướt hóa thành [aʊ] ở một số thổ ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɐ ~ ə ~ ɔ",
+        "note": "Nguyên âm ngắn dòng giữa/sau trong âm tiết đóng (ŏm, ŏn, ŏng, ŏp, ŏt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː ~ o",
+        "note": "Nguyên âm dòng sau khép vừa tròn môi; ở cuối âm tiết mở có thể lướt môi nhẹ [oʷ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː ~ u",
+        "note": "Nguyên âm dòng sau khép tròn môi dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "ʊ ~ u",
+        "note": "Nguyên âm dòng sau khép ngắn trong âm tiết đóng (ŭm, ŭn, ŭng, ŭp, ŭt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uo",
+        "ipa": "uə ~ uɔ",
+        "note": "Nguyên âm đôi hướng tâm (như trong wuoml 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "eo",
+        "ipa": "ɛw ~ eɔ",
+        "note": "Vần nguyên âm đôi (như trong xeoml 'vàng')",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (phản ánh phụ âm tắc cuối gốc lịch sử đã rụng phần cấu âm miệng, như peqc 'trắng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối vần (ai, ăi, ei, êi, oi, ôi, ui)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối vần (au, ău, eu, êu, ou, ôu)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone_d",
+        "name": "Thanh 1 (Âm bình / A1)",
+        "mark": "d",
+        "chao_contour": "44",
+        "phonation": "modal (Lào: 33; Lào Cai: 44; Quảng Ninh: 35); cũng xuất hiện sau một số âm tiết tắc (-p, -t, -k, -q) như sliqd",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone_h",
+        "name": "Thanh 2 (Dương bình / A2)",
+        "mark": "h / v",
+        "chao_contour": "11",
+        "phonation": "modal, trầm bằng (Lào: 31; Lào Cai: 11; Quảng Ninh: 22; Hải Nam/Wiktionary một số mục từ ghi 33; ký hiệu '-v' xuất hiện trong Từ điển Kêmh Mŭnh-Việt 2023 cần kiểm chứng thêm sự phân biệt với '-h')",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone_s",
+        "name": "Thanh 3 (Âm thượng / B1)",
+        "mark": "s",
+        "chao_contour": "35",
+        "phonation": "modal, đi lên (Lào: 13; Lào Cai: 35; Quảng Ninh: 24)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone_l",
+        "name": "Thanh 4 (Dương thượng / B2)",
+        "mark": "l",
+        "chao_contour": "52",
+        "phonation": "modal, đi xuống cao (Lào: 35; Lào Cai: 52; Quảng Ninh: 21); cũng xuất hiện trên một số vần tắc dài như kôkl, kyaql",
+        "merges_with": "tone_z",
+        "confidence": "medium"
+      },
+      {
+        "id": "tone_x",
+        "name": "Thanh 5 (Âm khứ / C1)",
+        "mark": "x",
+        "chao_contour": "31",
+        "phonation": "modal, đi xuống thấp (Lào: 341; Lào Cai: 31; Quảng Ninh: 31); xuất hiện cả trên một số vần tắc như băkx, kyĕtx",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone_z",
+        "name": "Thanh 6 (Dương khứ / C2)",
+        "mark": "z",
+        "chao_contour": "52",
+        "phonation": "modal (Lào: 35; nhập với l [52] ở Lào Cai hoặc nhập với x [31] ở Quảng Ninh tùy thổ ngữ)",
+        "merges_with": "tone_l",
+        "confidence": "medium"
+      },
+      {
+        "id": "tone_c",
+        "name": "Thanh 7 (Dương nhập / D2)",
+        "mark": "c",
+        "chao_contour": "33",
+        "phonation": "chủ yếu trong âm tiết đóng -p/-t/-k/-q (Lào: 21; Lào Cai: 33; Quảng Ninh: 44 kèm thanh hầu hóa)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone_b_f",
+        "name": "Thanh 8 (Âm nhập / D1)",
+        "mark": "b / f",
+        "chao_contour": "55",
+        "phonation": "phân bố trên vần tắc ngắn/dài hoặc âm tiết rụng phụ âm cuối (Lào Cai: f=55, b=33; Quảng Ninh: 44~55 thanh hầu hóa)",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Clark (2008) xác lập 8 thanh điệu khu biệt cho biến thể Kim Mun tại Việt Nam, đây cũng là bình diện biến thiên lớn nhất giữa các vùng (Lào Cai, Tuyên Quang, Quảng Ninh). Nét ngữ âm đặc thù là chế độ phát âm căng thanh quản (stiff voice) đi kèm phụ âm tắc hữu thanh /b, d, ɟ/ và hiện tượng thanh hầu hóa ở các thanh nhập."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người (người Dao nhóm Mùn)",
+      "form": "mŭnh",
+      "ipa": "mun¹¹",
+      "gloss_en": "person / Mun people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rừng",
+      "form": "kêmh",
+      "ipa": "kim¹¹",
+      "gloss_en": "forest",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "wuoml",
+      "ipa": "wuəm⁵²",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời",
+      "form": "noid",
+      "ipa": "nɔːj⁴⁴",
+      "gloss_en": "sun",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng",
+      "form": "laf",
+      "ipa": "laː⁵⁵",
+      "gloss_en": "moon",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "khois",
+      "ipa": "kɔːj³⁵",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hoa",
+      "form": "făngh",
+      "ipa": "faŋ¹¹",
+      "gloss_en": "flower",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "ngongh",
+      "ipa": "ŋɔːŋ¹¹",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khỉ",
+      "form": "bingl",
+      "ipa": "biŋ⁵²",
+      "gloss_en": "monkey",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dưa",
+      "form": "kwal",
+      "ipa": "kwaː⁵²",
+      "gloss_en": "melon / cucumber",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hang",
+      "form": "ngamh",
+      "ipa": "ŋaːm¹¹",
+      "gloss_en": "cave",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vàng (kim loại)",
+      "form": "xeoml",
+      "ipa": "sɛwm⁵²",
+      "gloss_en": "gold",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đất nước / quốc gia",
+      "form": "kôkl",
+      "ipa": "koːk̚⁵²",
+      "gloss_en": "country",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trắng",
+      "form": "peqc",
+      "ipa": "pɛʔ³³",
+      "gloss_en": "white",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đẹp",
+      "form": "kwăiv",
+      "ipa": "kwɐj¹¹",
+      "gloss_en": "beautiful",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "một",
+      "form": "ah",
+      "ipa": "aː¹¹ ~ aː³³",
+      "gloss_en": "one",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "il",
+      "ipa": "iː⁵² ~ iː³⁵",
+      "gloss_en": "two",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chín (số 9)",
+      "form": "duh",
+      "ipa": "duː¹¹ ~ duː³³",
+      "gloss_en": "nine",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Páo dung / Pá dung / Áy chủng (dân ca, hát giao duyên nhóm Mùn)",
+        "note": "Di sản văn hóa phi vật thể quốc gia (Tuyên Quang 2013, Bắc Kạn 2020, Hà Giang 2024). Ở nhóm Dao Quần Trắng và Dao Áo Dài (Làn Tẻn) tại Tuyên Quang, Yên Bái, Lào Cai, giai điệu có đặc trưng ngân dài và trầm ấm (đối lập với lối hát cao, bổng của nhóm Dao Đỏ / Dao Tiền nói tiếng Iu Mien). Thường hát đối đáp nam nữ không nhạc cụ đệm trong dịp xuân, cưới hỏi, nông nhàn."
+      },
+      {
+        "name": "Hát giao duyên thất ngôn trường thiên (Dao Thanh Y)",
+        "note": "Phổ biến tại Quảng Ninh (như hội làng Bằng Cả, Tân Dân); lời ca kết cấu theo thể thơ 7 chữ xen câu 4–5 chữ, hát đối đáp theo lề lối mở đầu – kết giao trong lễ hội đầu xuân, đám cưới và lễ cấp sắc."
+      },
+      {
+        "name": "Âm nhạc nghi lễ Cấp sắc (Quá tăng) và Múa cầu mùa",
+        "note": "Loại hình diễn xướng tổng hợp của thầy cúng đọc/ngâm sách chữ Nôm Dao kết hợp múa chuông, múa rùa và dàn nhạc gõ – hơi truyền thống."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân trầm kéo dài cuối câu (luyến ngân Páo dung nhóm Mùn)",
+        "description": "Kéo dài nguyên âm mở hoặc vần mũi cuối câu thơ 7 chữ ở âm khu trung–trầm, rung giọng nhẹ tự nhiên, tạo sắc thái trữ tình sâu lắng mà không dùng nhạc cụ đệm.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Trống da (trống nghi lễ)"
+      },
+      {
+        "name": "Chiêng"
+      },
+      {
+        "name": "Chũm chọe (xập xòe / sập xoã)"
+      },
+      {
+        "name": "Chuông nhỏ (nhạc cụ múa lễ cấp sắc)"
+      },
+      {
+        "name": "Kèn Pí lè (kèn bầu) và Tù và sừng trâu"
+      },
+      {
+        "name": "Khèn nứa (bảo lưu ở người Dao Quần Trắng tại Lào Cai, Yên Bái)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "dao",
+    "orthography_parsing_warning": "Trong hệ chữ Latin Mùn Việt (Kêmh Mŭnh), chữ cái cuối cùng của từ (d, s, h, x, c, l, z, b, f, v) là KÝ HIỆU THANH ĐIỆU chứ KHÔNG phải phụ âm cuối. Trước khi đưa vào bộ tổng hợp tiếng nói (TTS/SVS), bắt buộc phải tách ký tự thanh điệu cuối từ ra trước, sau đó mới phân tích phụ âm cuối thật sự (-p, -t, -k, -q, -m, -n, -ng).",
+    "missing_in_vietnamese": [
+      "Âm xát răng vô thanh /θ/ (viết là 'sl', như sliqd): không có trong tiếng Việt chuẩn.",
+      "Tổ hợp phụ âm tắc + âm bên /pl, bl, tl, dl, kl, ɡl/ (như blŭtc, klangh): tiếng Việt hiện đại đã mất hoàn toàn loạt tổ hợp âm đầu này.",
+      "Phụ âm tắc hữu thanh căng thanh quản (stiff-voiced /b̬, d̬, ɟ/) đối lập với tắc vô thanh không bật hơi /p, t, c/: tiếng Việt dùng âm tắc hút vào [ɓ, ɗ] cho chữ 'b, đ' và không có [p] đứng đầu âm tiết thuần Việt.",
+      "Âm tắc thanh hầu cuối âm tiết /-ʔ/ (viết là '-q', như peqc) tách biệt khỏi hệ thống thanh điệu tiếng Việt."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "kêmh mŭnh",
+        "quoc_ngu": "kìm mùn (Lào Cai) / kềm mùn (Quảng Ninh)",
+        "note": "Bỏ ký hiệu thanh '-h', chuyển sang thanh huyền tiếng Việt; nguyên âm 'ê' đọc [i] ở Lào Cai và [eː] ở Quảng Ninh."
+      },
+      {
+        "native": "wuoml",
+        "quoc_ngu": "uôm / guôm",
+        "note": "Bỏ ký hiệu thanh '-l'; âm đầu /w-/ không có chữ 'w' trong Quốc ngữ chuẩn nên xấp xỉ bằng 'uô-' hoặc 'guô-'."
+      },
+      {
+        "native": "sliqd",
+        "quoc_ngu": "xích / thích",
+        "note": "Âm /θ/ ('sl-') không có trong tiếng Việt, xấp xỉ gần nhất về mặt âm học bằng 'x-' [s]; âm cuối '-q' [ʔ] mô phỏng bằng vần tắc hoặc thanh sắc/nặng."
+      },
+      {
+        "native": "blŭtc",
+        "quoc_ngu": "bờ-lút",
+        "note": "Tổ hợp 'bl-' phải chèn nguyên âm lướt cực ngắn 'bờ-l...' để mô hình TTS chỉ biết tiếng Việt không bỏ sót phụ âm."
+      },
+      {
+        "native": "kwăiv",
+        "quoc_ngu": "quài",
+        "note": "Tổ hợp 'kw-' ánh xạ trực tiếp sang 'qu-' của chữ Quốc ngữ; '-v' là ký hiệu thanh trầm."
+      },
+      {
+        "native": "ny-",
+        "quoc_ngu": "nh-",
+        "note": "Âm mũi mặt lưỡi /ɲ/ trùng khớp với 'nh-' tiếng Việt."
+      },
+      {
+        "native": "peqc",
+        "quoc_ngu": "pẹc / bẹc",
+        "note": "Âm đầu /p-/ không bật hơi dễ bị TTS tiếng Việt đọc thành /b/ hoặc /f/ nếu không fine-tune; '-qc' kết thúc bằng tắc thanh hầu ngắn."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Phương ngữ Dao Làn Tẻn (Dao Tuyển / Dao Áo Dài)",
+        "iso639_3": "mji",
+        "regions": [
+          "Lào Cai",
+          "Yên Bái",
+          "Hà Giang",
+          "Tuyên Quang"
+        ],
+        "note": "Mất đối lập bật hơi ở loạt phụ âm tắc vô thanh (ph, th, kh nhập vào p, t, k); rất gần với biến thể Kim Mun ở Bắc Lào (Luang Namtha) và Hà Khẩu (Vân Nam)."
+      },
+      {
+        "name": "Phương ngữ Dao Quần Trắng (Dao Họ)",
+        "iso639_3": "mji",
+        "regions": [
+          "Yên Bái",
+          "Lào Cai",
+          "Tuyên Quang"
+        ],
+        "note": "Thuộc nhánh phương ngữ Mùn vả nội địa, chia sẻ hệ thống từ vựng cơ bản với Dao Làn Tẻn nhưng có khác biệt cục bộ về đường nét thanh điệu."
+      },
+      {
+        "name": "Phương ngữ Dao Thanh Y",
+        "iso639_3": "mji",
+        "regions": [
+          "Quảng Ninh",
+          "Bắc Giang",
+          "Tuyên Quang"
+        ],
+        "note": "Bảo lưu rõ đối lập phụ âm tắc bật hơi /pʰ, tʰ, kʰ/ và nguyên âm dài /eː, oː/; gần với phương ngữ Phòng Thành (Quảng Tây) và Hải Nam."
+      },
+      {
+        "name": "Tiếng Ưu Miền / Dìu Miền (nhánh ngôn ngữ Dao còn lại tại Việt Nam)",
+        "iso639_3": "ium",
+        "regions": [
+          "Lào Cai",
+          "Hà Giang",
+          "Cao Bằng",
+          "Bắc Kạn",
+          "Tuyên Quang",
+          "Quảng Ninh",
+          "Sơn La"
+        ],
+        "note": "Ngôn ngữ anh em thuộc nhánh Mienic (Glottocode: iumi1238, tương đồng từ vựng ~78% với Kim Mun), được nói bởi các nhóm Dao Đỏ (Đại Bản), Dao Tiền (Tiểu Bản), Dao Quần Chẹt (Sơn Đầu) và Dao Lô Gang (Thanh Phán). Tham chiếu qua parent_codebook='dao'."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "mŭnh",
+        "ipa": "mun¹¹ (Lào Cai) ~ mun²² (Quảng Ninh)",
+        "meaning_vi": "người (người Dao nhóm Mùn)"
+      },
+      {
+        "native": "kêmh",
+        "ipa": "kim¹¹ (Lào Cai) ~ keːm²² (Quảng Ninh)",
+        "meaning_vi": "rừng"
+      },
+      {
+        "native": "wuoml",
+        "ipa": "wuəm⁵² (Lào Cai) ~ wɔm³⁵ (Quảng Ninh/Tansan)",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "noid",
+        "ipa": "nɔːj⁴⁴ (Lào Cai) ~ nɔːj³⁵ (Quảng Ninh)",
+        "meaning_vi": "mặt trời"
+      },
+      {
+        "native": "laf",
+        "ipa": "laː⁵⁵ (Lào Cai)",
+        "meaning_vi": "mặt trăng"
+      },
+      {
+        "native": "khois",
+        "ipa": "kɔːj³⁵ (Lào Cai) ~ kʰɔːj²⁴ (Quảng Ninh)",
+        "meaning_vi": "sông"
+      },
+      {
+        "native": "făngh",
+        "ipa": "faŋ¹¹ ~ faŋ³³",
+        "meaning_vi": "hoa (bông hoa)"
+      },
+      {
+        "native": "ngongh",
+        "ipa": "ŋɔːŋ¹¹ (Lào Cai) ~ ŋɔːŋ²² (Quảng Ninh)",
+        "meaning_vi": "con trâu"
+      },
+      {
+        "native": "bingl",
+        "ipa": "biŋ⁵² (Lào Cai) ~ biŋ²¹ (Quảng Ninh)",
+        "meaning_vi": "con khỉ"
+      },
+      {
+        "native": "xeoml",
+        "ipa": "sɛwm⁵²",
+        "meaning_vi": "vàng (kim loại)"
+      },
+      {
+        "native": "peqc",
+        "ipa": "pɛʔ³³ (Lào Cai) ~ pɛʔ⁴⁴ (Quảng Ninh)",
+        "meaning_vi": "màu trắng"
+      },
+      {
+        "native": "ah",
+        "ipa": "aː¹¹ ~ aː³³",
+        "meaning_vi": "một (số 1)"
+      },
+      {
+        "native": "il",
+        "ipa": "iː⁵² ~ iː³⁵",
+        "meaning_vi": "hai (số 2)"
+      },
+      {
+        "native": "duh",
+        "ipa": "duː¹¹ ~ duː³³",
+        "meaning_vi": "chín (số 9)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Clark, Eddie (2008). A Phonological Analysis and Comparison of Two Kim Mun Varieties in Laos and Vietnam. Master's thesis, Payap University, Chiang Mai.",
+      "url": "https://zenodo.org/records/13149728",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Easterday, Shelece (2019). Highly complex syllable structure: A typological and diachronic study (Studies in Laboratory Phonology 9). Berlin: Language Science Press.",
+      "url": "https://langsci-press.org/catalog/book/249",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Kim Mun (kimm1245)",
+      "url": "https://glottolog.org/resource/languoid/id/kimm1245",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Kim Mun language",
+      "url": "https://en.wikipedia.org/wiki/Kim_Mun_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Kim Môn",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Kim_M%C3%B4n",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Thể loại:Mục từ tiếng Kim Môn (dẫn liệu từ Nguyễn Việt Khôi 2023–2024, Từ điển Kêmh Mŭnh-Việt)",
+      "url": "https://vi.wiktionary.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:M%E1%BB%A5c_t%E1%BB%AB_ti%E1%BA%BFng_Kim_M%C3%B4n",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đoàn Thiện Thuật & Mai Ngọc Chừ (1992). Tiếng Dao. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phan Hữu Dật & Hoàng Hoa Toàn (1998). Về vấn đề xác minh tên gọi và phân loại các ngành Dao Tuyên Quang. Trong Phan Hữu Dật (chủ biên), Một số vấn đề về dân tộc học Việt Nam (tr. 483–567). Hà Nội: NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cục Di sản văn hóa — Hát Páo dung của người Dao",
+      "url": "http://dsvh.gov.vn/pa-dung-cua-nguoi-dao-3134",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "lexicon[9].ipa",
+          "severity": "high",
+          "problem": "Mục từ 'kwal' (dưa) đang được phiên âm IPA là 'kwaːl⁵²', giữ nguyên âm cuối /-l/. Điều này mâu thuẫn trực tiếp với hệ thống âm cuối của tiếng Kim Mun (không có âm cuối /-l/) và quy tắc chính tả nêu tại ml_hints.orthography_parsing_warning rằng chữ '-l' cuối từ là ký hiệu thanh điệu (tone_l), không phải phụ âm cuối (lỗi do nhầm với mục từ đồng hình tiếng Boghom/Mangas '/kwal/' trên cùng trang Wiktionary).",
+          "fix": "Sửa IPA của 'kwal' thành 'kwaː⁵²'."
+        },
+        {
+          "path": "lexicon[15].ipa, lexicon[16].ipa, lexicon[17].ipa",
+          "severity": "medium",
+          "problem": "Thiếu nhất quán nội bộ về hệ quy chiếu phương ngữ khi ghi trị số thanh điệu trong bảng từ vựng (lexicon): các từ mang thanh '-h' như 'mŭnh', 'kêmh', 'făngh', 'ngongh', 'ngamh' được ghi thanh 11 (theo cột Lào Cai), nhưng 'ah' (một) và 'duh' (chín) lại ghi thanh 33 (theo cột tổng quát trên Wiktionary); tương tự, các từ mang thanh '-l' như 'wuoml', 'bingl', 'xeoml', 'kôkl' ghi thanh 52 (cột Lào Cai), nhưng 'il' (hai) lại ghi thanh 35 (cột Lào). Ngoài ra, 'laf' (mặt trăng) dùng ký hiệu thanh nhập '-f' nhưng nguyên âm mở 'laː⁵⁵' chưa phản ánh âm tắc thanh hầu cuối lịch sử hoặc sự phân bố của '-f' ngoài vần tắc.",
+          "fix": "Chuẩn hóa IPA trong lexicon theo cùng hệ quy chiếu Lào Cai (kèm biến thể '~ 33' / '~ 35' để đối chiếu với Wiktionary) và hạ confidence của 'laf', 'ah', 'il', 'duh' xuống 'medium'."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "medium",
+          "problem": "Bảng thanh điệu trên Wikipedia tiếng Việt chỉ liệt kê 9 ký hiệu (d, s, h, x, c, l, b, z, f), trong khi Từ điển Kêmh Mŭnh-Việt (Nguyễn Việt Khôi 2023) dùng thêm ký hiệu '-v' (như trong 'kwăiv', 'bav', 'klôv') và cho phép các ký hiệu thanh không nhập như '-d', '-l', '-x' đi sau âm tiết đóng kết thúc bằng -p/-t/-k/-q (như 'sliqd', 'kôkl', 'băkx', 'kyĕtd'). Việc gộp thẳng '-v' vào 'tone_h' (11) và giới hạn âm tiết tắc chỉ đi với 'c, b, f' chưa được kiểm chứng đầy đủ từ tài liệu gốc.",
+          "fix": "Hạ confidence của 'tone_h' và 'lexicon[14]' ('kwăiv') xuống 'medium'; cập nhật mô tả ở 'phonology.tones' và 'validation.open_issues' về phân bố của ký hiệu '-v' cũng như các thanh '-d, -l, -x' trên âm tiết đóng tắc."
+        },
+        {
+          "path": "phonology.vowels[4].note",
+          "severity": "low",
+          "problem": "Ghi chú nguyên âm 'ê' nói rằng giữ [eː] ở Quảng Ninh và nâng lên [i] ở Lào Cai trong một số vần đóng, nhưng trong bảng nguyên âm chung chưa nêu rõ biến thể có lướt ngạc cứng cuối từ [eʲ] được ghi nhận trong Clark (2008).",
+          "fix": "Bổ sung ghi chú biến thể [eʲ] ở vị trí cuối từ theo Clark (2008)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Chưa có bộ chữ Latinh chuẩn cấp Nhà nước cho tiếng Kim Mun tại Việt Nam; cần thống nhất quy ước ký hiệu thanh điệu cuối âm tiết (giữa bảng 9 ký hiệu d, s, h, x, c, l, b, z, f trên Wikipedia và hệ 10 ký hiệu có thêm '-v' trong Từ điển Kêmh Mŭnh-Việt của Nguyễn Việt Khôi 2023–2024, cũng như quy tắc dùng '-d, -l, -x' sau các âm tiết đóng tắc -p, -t, -k, -q).",
+      "Trị số Chao của 8 thanh điệu biến đổi đáng kể giữa Dao Làn Tẻn (Lào Cai), Dao Quần Trắng (Yên Bái, Tuyên Quang) và Dao Thanh Y (Quảng Ninh); cần thu âm chuẩn hóa từng vùng khi huấn luyện TTS/SVS.",
+      "Cần bổ sung ký âm nhạc học chi tiết (thang âm, quãng luyến) cho lối hát Páo dung giọng trầm của Dao Quần Trắng / Áo Dài và hát giao duyên Dao Thanh Y."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

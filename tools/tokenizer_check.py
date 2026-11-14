@@ -12,7 +12,6 @@ If neither --tiktoken nor --hf is given, downloads qwen.tiktoken from m-a-p/YuE2
 """
 
 import argparse
-import base64
 import json
 import sys
 from pathlib import Path
@@ -20,26 +19,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from apply_respelling import WORD_RE, Respeller  # noqa: E402
 
-QWEN_PAT = (r"(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?\p{L}+|\p{N}| ?[^\s\p{L}\p{N}]+[\r\n]*|\s*[\r\n]+|\s+(?!\S)|\s+")
+from tok import load_encoder as _load  # noqa: E402
 
 
 def load_encoder(args):
-    if args.hf:
-        from transformers import AutoTokenizer
-        tok = AutoTokenizer.from_pretrained(args.hf)
-        return lambda s: tok.encode(s, add_special_tokens=False)
-    import tiktoken
-    path = args.tiktoken
-    if not path:
-        from huggingface_hub import hf_hub_download
-        path = hf_hub_download("m-a-p/YuE2-3B", "qwen.tiktoken")
-    ranks = {}
-    for line in Path(path).read_text(encoding="utf-8").splitlines():
-        if line.strip():
-            b, r = line.split()
-            ranks[base64.b64decode(b)] = int(r)
-    enc = tiktoken.Encoding("qwen", pat_str=QWEN_PAT, mergeable_ranks=ranks, special_tokens={})
-    return lambda s: enc.encode(s)
+    return _load(args.tiktoken, args.hf)
 
 
 def main():

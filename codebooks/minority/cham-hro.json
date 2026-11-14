@@ -1,0 +1,820 @@
+{
+  "id": "cham-hro",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Haroi (Chăm H'roi)",
+  "name_en": "Haroi (Hroi / Bahnar Cham)",
+  "autonym": "săp Hơroi",
+  "ethnic_group_vi": "Chăm",
+  "language": {
+    "iso639_3": "hro",
+    "glottocode": "haro1237",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian, Chamic"
+  },
+  "regions": [
+    "Đắk Lắk (khu vực Tây Bắc Phú Yên cũ: Sơn Hòa, Đồng Xuân, Sông Hinh và các xã mới Xuân Lãnh, Phú Mỡ, Xuân Phước)",
+    "Gia Lai (khu vực Tây Bình Định cũ: Vân Canh, Hoài Ân; huyện Krông Pa, Phú Bổn cũ)"
+  ],
+  "speakers_estimate": "khoảng 35.000 người (2007, theo Ethnologue / Wikipedia)",
+  "scripts": [
+    {
+      "name": "Chữ Haroi Latinh (hệ SIL / săp Hơroi)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Combining Diacritical Marks",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh xây dựng từ thập niên 1970 (SIL: Chơlơi blah săp Hơroi, 1976) và được phát triển lại trong một số tài liệu địa phương (Ksor Nut 2000; đề tài tiếng Chăm H'roi tại Bình Định 2003–2005). Dùng các chữ cái mở rộng kiểu Tây Nguyên và Quốc ngữ (ê, ô, ơ, ư, đ), dấu trăng trên nguyên âm ngắn (ă, ĕ, ê̆, ĭ, ŏ, ô̆, ơ̆, ŭ, ư̆) và chữ <q> ghi âm tắc thanh hầu cuối âm tiết /-ʔ/."
+    },
+    {
+      "name": "Chữ ghi âm dựa trên chữ Quốc ngữ (Ka Sô Liễng)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ thử nghiệm dựa trên mẫu tự chữ Quốc ngữ và chữ Ê-đê do nhà nghiên cứu văn hóa dân gian Ka Sô Liễng biên soạn tại Sơn Hòa (Phú Yên cũ) khoảng năm 2010 để ghi chép truyện cổ, sử thi song ngữ; chưa được ban hành làm chuẩn giáo dục chính thức cấp quốc gia."
+    },
+    {
+      "name": "Truyền thống truyền khẩu (không dùng chữ Chăm cổ Akhar Thrah)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": null,
+      "note": "Khác với người Chăm ở Ninh Thuận – Bình Thuận (dùng Akhar Thrah) và Chăm Nam Bộ (dùng Jawi/Rumi), cộng đồng Chăm H'roi cư trú lâu đời ở miền núi Nam Trung Bộ – Tây Nguyên chủ yếu lưu truyền dân ca và sử thi bằng truyền khẩu."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu âm vị học và lịch sử ngôn ngữ học chuyên sâu về tiếng Haroi (Mundhenk & Goschnick 1977; Lee 1977; Goschnick 1977; Thurgood 1997, 1999) kết hợp với tư liệu từ vựng chữ Latinh săp Hơroi và điền dã âm nhạc dân gian Phú Yên – Bình Định – Gia Lai. Do tiếng Haroi chưa có một bộ chữ chuẩn hóa thống nhất toàn quốc nên tồn tại song song lối phiên âm học thuật (dùng dấu huyền ghi nguyên âm dài, č, ñ, ʔ) và lối viết thực hành săp Hơroi (dùng dấu trăng ghi nguyên âm ngắn, ch, nh, q). Cần thẩm định thực địa với nghệ nhân và người bản xứ.",
+  "phonology": {
+    "syllable_structure": "(C1ə.)C2(C3)V1(V2)(C4) — từ đơn tiết hoặc song tiết kiểu sesquisyllable (tiền âm tiết C1ə không mang trọng âm, nguyên âm trung hòa thành /ə/; âm tiết chính mang trọng âm ở cuối từ, có thể bắt đầu bằng phụ âm đơn hoặc tổ hợp phụ âm với l, r, w, y hoặc tiền hà hơi hm, hn, hnh, hng, hr, hl, hw, hy; nguyên âm đầu từ luôn có tắc thanh hầu [ʔ] đi trước nhưng không ghi trên chữ viết).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Có tha âm bật hơi nhẹ [pʰ] ở tiền âm tiết khi âm tiết chính bắt đầu bằng r + nguyên âm đóng cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi (chỉ đứng ở đầu âm tiết chính, không đứng cuối từ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Âm tắc hai môi hữu thanh tiền thanh hầu hóa / hút vào (preglottalised/implosive), tương tự <b> trong tiếng Ba-na, Gia-rai và tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc răng/lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc răng/lợi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ (d)",
+        "ipa": "ɗ",
+        "note": "Âm tắc lợi hữu thanh tiền thanh hầu hóa / hút vào; viết là <đ> trong chữ thực hành săp Hơroi và <d> trong phiên âm của Mundhenk & Goschnick (1977)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch (č / c)",
+        "ipa": "tɕ ~ c",
+        "note": "Âm tắc/tắc-xát vòm vô thanh; viết là <ch> hoặc <c> trong chữ thực hành, <č> trong tài liệu học thuật",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "∅ (đầu từ trước nguyên âm)",
+        "ipa": "ʔ",
+        "note": "Mọi nguyên âm đứng đầu từ đều có âm tắc thanh hầu [ʔ] đi trước nhưng không ghi bằng chữ cái",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi răng/lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh (ñ)",
+        "ipa": "ɲ",
+        "note": "Âm mũi vòm; viết <nh> hoặc <ñ>",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm, hn, hnh, hng",
+        "ipa": "hm, hn, hɲ, hŋ",
+        "note": "Chuỗi phụ âm mũi tiền hà hơi (phân tích là tổ hợp /h/ + âm mũi theo Mundhenk & Goschnick 1977, chỉ xuất hiện ở đầu âm tiết chính)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Âm xát lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh; ở một số từ có hiện tượng đảo âm ở tiền âm tiết như [həroi] ~ [əhroi] 'Haroi', [həmɨa] ~ [əhmɨa] 'rẫy/ruộng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɾ ~ r",
+        "note": "Âm vỗ lợi biến thiên tự do với âm rung lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hr, hl",
+        "ipa": "hr, hl",
+        "note": "Tổ hợp âm lỏng tiền hà hơi ở đầu âm tiết chính (ví dụ: hlai, hroi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w (v)",
+        "ipa": "w ~ β",
+        "note": "Bán nguyên âm môi-ngạc mềm tròn môi, ở đầu âm tiết biến thiên tự do với âm xát nhẹ [v]/[β] (đôi khi viết là <v> như trong 'vil')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y (j)",
+        "ipa": "j",
+        "note": "Bán nguyên âm vòm; giữa hai nguyên âm có thể có tha âm xát hữu thanh [ʒ]/[ʝ] (một số bảng chữ ghi phân biệt <j> và <y>)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "'w (?w)",
+        "ipa": "ʔw",
+        "note": "Bán nguyên âm môi-ngạc mềm tiền thanh hầu hóa (âm vị đơn phức hợp theo Mundhenk & Goschnick 1977)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "'y (?y / j)",
+        "ipa": "ʔj",
+        "note": "Bán nguyên âm vòm tiền thanh hầu hóa (có thể kết hợp với /r/ tạo tổ hợp /ʔjr-/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hw, hy",
+        "ipa": "hw, hj",
+        "note": "Tổ hợp bán nguyên âm tiền hà hơi ở đầu âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, pr, tl, tr, kl, kr, phl, phr, thl, thr, khl, khr, bl, br",
+        "ipa": "pl, pr, tl, tr, kl, kr, pʰl, pʰr, tʰl, tʰr, kʰl, kʰr, ɓl, ɓr",
+        "note": "Tổ hợp phụ âm đầu + âm lỏng /l, r/ rất phổ biến ở âm tiết chính (lưu ý tiếng Haroi giữ tổ hợp /tl-/ như trong 'tlau' = ba)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "ĭ / i",
+        "ipa": "i / iː",
+        "note": "Nguyên âm đóng trước không tròn môi (ngắn dùng dấu trăng <ĭ>, dài không dấu <i> trong chữ thực hành; trong phiên âm Mundhenk & Goschnick 1977 ngắn là <i>, dài là <ì>). Nguyên âm ngắn chỉ xuất hiện trong âm tiết đóng.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɪ / ɪ̀ (ê̆ / ê)",
+        "ipa": "ɪ / ɪː",
+        "note": "Nguyên âm gần đóng trước không tròn môi (hình thành từ quá trình tách nguyên âm do âm vực tái cấu trúc); cách ghi trong chữ thực hành đôi khi nhập hoặc phân biệt bằng dấu phụ với dãy <ê>",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê̆ / ê",
+        "ipa": "e / eː",
+        "note": "Nguyên âm nửa đóng trước không tròn môi (ngắn / dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ / e",
+        "ipa": "ɛ / ɛː",
+        "note": "Nguyên âm nửa mở trước không tròn môi (ngắn / dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư̆ / ư",
+        "ipa": "ɨ / ɨː",
+        "note": "Nguyên âm đóng giữa không tròn môi (ngắn / dài); tài liệu học thuật ký hiệu /ɨ, ɨː/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ̆ / ơ",
+        "ipa": "ə / əː",
+        "note": "Nguyên âm giữa trung tâm không tròn môi (ngắn / dài); ở tiền âm tiết không trọng âm luôn là [ə] ngắn (thường viết <ơ> hoặc <a> như 'kơyau', 'pơtao', 'ama')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă / a",
+        "ipa": "a / aː",
+        "note": "Nguyên âm mở giữa (ngắn / dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ / u",
+        "ipa": "u / uː",
+        "note": "Nguyên âm đóng sau tròn môi (ngắn / dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʊ / ʊ̀ (ô̆ / ô)",
+        "ipa": "ʊ / ʊː",
+        "note": "Nguyên âm gần đóng sau tròn môi (ngắn / dài), xuất hiện do tái cấu trúc âm vực; trong chữ thực hành thường biểu diễn qua tổ hợp với <ô>",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô̆ / ô",
+        "ipa": "o / oː",
+        "note": "Nguyên âm nửa đóng sau tròn môi (ngắn / dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ / o",
+        "ipa": "ɔ / ɔː",
+        "note": "Nguyên âm nửa mở sau tròn môi (ngắn / dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "iə ~ iːə",
+        "note": "Nguyên âm đôi trượt về trung tâm xuất phát từ /i/ (có đối lập ngắn /iə/ và dài /iːə/ trong phân tích âm vị học)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea",
+        "ipa": "eə ~ eːə",
+        "note": "Nguyên âm đôi trượt về trung tâm xuất phát từ /e/ (ví dụ: 'ea' = nước, 'mreah', 'pheai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa",
+        "ipa": "ɨə ~ ɨːə",
+        "note": "Nguyên âm đôi trượt về trung tâm xuất phát từ /ɨ/ (ví dụ: 'lơmưa', 'thưa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "uə ~ uːə",
+        "note": "Nguyên âm đôi trượt về trung tâm xuất phát từ /u/ (ví dụ: 'thua' = hai, 'lơmua')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / oa",
+        "ipa": "oə ~ oːə",
+        "note": "Nguyên âm đôi trượt về trung tâm xuất phát từ /o/ (trong chữ săp Hơroi thường viết <uô> ở âm tiết mở/đóng như 'lơhuô', 'pơluô' hoặc <oa> tùy môi trường)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "nguyên âm mũi hóa (hiếm)",
+        "ipa": "Ṽ",
+        "note": "Mundhenk & Goschnick (1977) ghi nhận thêm 10 nguyên âm mũi hóa có tính khu biệt rất hiếm gặp (ngoài hiện tượng mũi hóa tự động trước âm cuối -p, -t, -k), nâng tổng số âm vị nguyên âm từ 32 lên 42.",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi vô thanh không bật ra ở cuối từ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Âm tắc răng/lợi vô thanh không bật ra ở cuối từ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm cuối từ; có tha âm đồng cấu âm môi-ngạc mềm [k͡p] sau /u, o/ (ví dụ [apok͡p] 'cá bống')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối âm tiết (ví dụ: 'anaq' = con, 'patôq' = ngôi sao, 'paq' = bốn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi răng/lợi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết; có tha âm môi hóa [ŋ͡m] / [m] sau /u, o/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên lợi cuối âm tiết (ví dụ: 'vil' = tròn, 'kơtăl')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh cuối âm tiết (rất phổ biến: 'plô̆uh' = mười, 'chơsŭh', 'mreah')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o (cuối vần)",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối vần /-w/ (viết là <u> sau a/ơ/ư/i/ê như 'tlau', 'kơyau', và <o> sau a như 'pơtao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i (cuối vần)",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối vần /-j/ (ví dụ: 'atai', 'Hơroi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uq / oq (-wʔ)",
+        "ipa": "wʔ",
+        "note": "Vần kết thúc bằng bán nguyên âm môi thanh hầu hóa /-wʔ/ (phân tích là âm vị /-ʔw/ ở vị trí cuối từ theo Mundhenk & Goschnick 1977, ví dụ 'athĭuq', 'pơhlô̆uq', [pʰɨawʔ] 'đầy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iq (-yʔ)",
+        "ipa": "jʔ",
+        "note": "Vần kết thúc bằng bán nguyên âm vòm thanh hầu hóa /-jʔ/ (ví dụ: 'chơlô̆iq', 'ahnăiq')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uh (-wh)",
+        "ipa": "wh",
+        "note": "Tổ hợp bán nguyên âm + /h/ ở cuối âm tiết /-wh/ (không đi sau nguyên âm trước và nguyên âm đôi)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ih (-yh / -s)",
+        "ipa": "jh ~ ç",
+        "note": "Âm cuối /-jh/ (tương ứng lịch sử với *-s của tiếng Chăm nguyên thủy, phân tích là /-s/ hoặc /-jh/ trong Mundhenk & Goschnick 1977, ví dụ 'chê̆ih')",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (atonal). Tiếng Haroi có hệ thống 'âm vực tái cấu trúc' (restructured register — Lee 1977; Huffman 1976; Thurgood 1997, 1999): dưới ảnh hưởng tiếp xúc lâu dài với tiếng Ba-na và các ngôn ngữ Môn-Khmer lân cận, sự đối lập hữu thanh/vô thanh của phụ âm tắc đầu âm tiết trong tiếng Chăm nguyên thủy đã chuyển hóa thành chất giọng (căng/thường so với hà hơi/lơi - vị trí gốc lưỡi ATR), sau đó định hình thành hệ thống nguyên âm đồ sộ khác thường đối với ngữ hệ Nam Đảo (11 nguyên âm đơn × ngắn/dài + 5 nguyên âm đôi × ngắn/dài = 32 nguyên âm miệng, cộng 10 nguyên âm mũi hóa hiếm gặp thành 42 âm vị nguyên âm), tương tự quá trình phát triển nguyên âm của tiếng Khmer chuẩn."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "sa",
+      "ipa": "saː",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "thua",
+      "ipa": "tʰuə",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "tlau",
+      "ipa": "tlaw",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "paq",
+      "ipa": "paʔ",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (5)",
+      "form": "lơmưa",
+      "ipa": "ləmɨə",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "năm",
+      "ipa": "nam",
+      "gloss_en": "six",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mười",
+      "form": "plô̆uh",
+      "ipa": "plowh ~ plʊh",
+      "gloss_en": "ten",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ea",
+      "ipa": "ʔeːə",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gió",
+      "form": "angin",
+      "ipa": "ʔaŋin",
+      "gloss_en": "wind",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngôi sao",
+      "form": "patôq",
+      "ipa": "pətoːʔ",
+      "gloss_en": "star",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "akan",
+      "ipa": "ʔəkaːn",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "asau",
+      "ipa": "ʔəsaw",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "ama",
+      "ipa": "ʔəmaː",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con",
+      "form": "anaq",
+      "ipa": "ʔənaːʔ",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gan",
+      "form": "atai",
+      "ipa": "ʔətaj",
+      "gloss_en": "liver",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tròn",
+      "form": "vil",
+      "ipa": "wil ~ βil",
+      "gloss_en": "round",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiền bạc",
+      "form": "sên",
+      "ipa": "seːn",
+      "gloss_en": "money",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiếng Haroi",
+      "form": "săp Hơroi",
+      "ipa": "sap həroj",
+      "gloss_en": "Haroi language",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Làn điệu H'ri (dân ca / hát kể sử thi H'ri)",
+        "note": "Thể loại dân ca đặc trưng nhất của người Chăm H'roi, bắt nguồn từ lao động sản xuất; vừa dùng để hát kể sử thi H'ri đồ sộ, vừa dùng để trai gái hát giao duyên đối đáp trong hội làng và làm lời mẹ hát ru răn dạy con cái."
+      },
+      {
+        "name": "Hát giao duyên, hát ru, hát cầu cúng và hát lễ hội",
+        "note": "Gồm hát ru con, hát mừng lúa mới, hát cầu mưa, hát trong lễ Đổ Đầu / đâm trâu, hát phân xử luật tục và hát khóc người đã khuất; chịu sự giao thoa văn hóa sâu sắc với người Ba-na và Ê-đê láng giềng."
+      },
+      {
+        "name": "Nghệ thuật trình diễn Trống đôi, cồng ba, chiêng năm",
+        "note": "Di sản văn hóa phi vật thể quốc gia (ghi danh theo Quyết định 3465/QĐ-BVHTTDL ngày 13/10/2015 tại Xí Thoại, Xuân Lãnh, Đồng Xuân, Phú Yên cũ — nay thuộc Đắk Lắk), là di sản chung tiêu biểu của cộng đồng Chăm H'roi và Ba-na gắn liền với múa xoang quanh cây nêu."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Múa vỗ, vê, vuốt mặt trống đôi bằng tay trần",
+        "description": "Nghệ nhân không dùng dùi mà dùng bốn đầu ngón tay và lòng bàn tay vê, vuốt, vỗ trực tiếp lên mặt trống đực – trống cái kết hợp động tác múa hình thể ('múa trống đôi') để tạo âm sắc biến ảo.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ bồi âm – thang 5 âm chiêng năm kết hợp bè trầm cồng ba",
+        "note": "Năm chiếc chiêng bằng (không núm) giữ giai điệu khoan nhặt, thanh thoát với 5 bậc cao độ được đồng bào định danh từ trầm đến cao là: pồng, pềnh, pang, poong, pếnh; ba chiếc cồng có núm (mí – mẹ, mai – chị, con – con) giữ bè trầm nền tảng.",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Trống đôi (Chi gưl — cặp trống đực và trống cái, đường kính ~27 cm, cao ~40 cm, vỗ bằng tay trần)"
+      },
+      {
+        "name": "Cồng ba (Chêêng — 3 cồng có núm kích thước nhỏ dần ~53 cm, 43 cm, 31 cm, gọi theo mẫu hệ: mí, mai, con)"
+      },
+      {
+        "name": "Chiêng năm (Chênh / Chinh — 5 chiêng không núm kích thước ~37 cm, 34 cm, 32 cm, 30 cm, 28,5 cm: pồng, pềnh, pang, poong, pếnh)"
+      },
+      {
+        "name": "Các nhạc cụ phối hợp và vùng Trường Sơn – Tây Nguyên (lục lạc, xập xẻng đi cặp với trống đôi - cồng ba - chiêng năm; sáo ngang và nhạc cụ tre nứa giao lưu với Ba-na, Ê-đê)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "cham",
+    "linguistic_relationship_note": "Mặc dù người nói thuộc dân tộc Chăm tại Việt Nam (parent_codebook='cham'), tiếng Haroi (hro) là một ngôn ngữ Chamic độc lập (không thông hiểu trực tiếp với tiếng Chăm Đông cjm hay Chăm Tây cja), có nhiều đặc điểm từ vựng và cấu trúc gần với tiếng Gia-rai (jra), Ê-đê (rad) và tiếp nhận nhiều từ vay mượn cũng như cấu trúc ngữ âm từ tiếng Ba-na (bdq).",
+    "sub_varieties": [
+      {
+        "name": "Phương ngữ Sơn Hòa – Đồng Xuân – Sông Hinh (Phú Yên cũ / nay là Đông Đắk Lắk)",
+        "iso639_3": "hro",
+        "note": "Phương ngữ cơ sở trong mô tả âm vị học của Mundhenk & Goschnick (1977)."
+      },
+      {
+        "name": "Phương ngữ Vân Canh – Hoài Ân – Krông Pa (Bình Định cũ & Gia Lai)",
+        "iso639_3": "hro",
+        "note": "Tiếp xúc mạnh với tiếng Ba-na Kriêm và tiếng Gia-rai."
+      },
+      {
+        "name": "Các ngôn ngữ khác của dân tộc Chăm tại Việt Nam (ngoài phạm vi bảng mã này)",
+        "iso639_3": "cjm, cja",
+        "note": "Tiếng Chăm Đông / Phan Rang (cjm — Ninh Thuận, Bình Thuận cũ) và Tiếng Chăm Tây / Châu Đốc (cja — An Giang, Tây Ninh, TP.HCM) được mô tả ở bảng mã gốc 'cham'."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "săp Hơroi",
+        "quoc_ngu": "sắp hơ-roi",
+        "note": "Tiền âm tiết 'Hơ-' đọc lướt nhẹ không nhấn trọng âm [hə]; nguyên âm ngắn <ă> trước -p tương ứng gần đúng dấu sắc trong chữ Quốc ngữ."
+      },
+      {
+        "native": "pl-, tl-, kl-, bl- (ví dụ: tlau, plô̆uh)",
+        "quoc_ngu": "tờ-lau, pờ-lôu-hờ",
+        "note": "Tiếng Việt hiện đại không còn tổ hợp phụ âm đầu /tl-, pl-, kl-, bl-/. Khi nạp vào TTS chỉ biết tiếng Việt, cần tách bằng tiền âm tiết cực ngắn 'tờ-lau' (rút ngắn tối đa âm 'tờ') để tránh mô hình đọc nhầm <tl> thành 'tr' hoặc đánh vần từng chữ cái."
+      },
+      {
+        "native": "ph (ví dụ: phua, pheai)",
+        "quoc_ngu": "p'hua (bật hơi, KHÔNG đọc là f)",
+        "note": "Cảnh báo quan trọng cho TTS tiếng Việt: chữ <ph> trong tiếng Haroi là âm tắc bật hơi [pʰ] (như p trong tiếng Anh 'pie'), hoàn toàn KHÔNG phải âm xát môi-răng [f] như 'phở' của tiếng Việt."
+      },
+      {
+        "native": "-q cuối âm tiết (ví dụ: anaq, patôq, paq)",
+        "quoc_ngu": "a-nắc / a-nạ, pa-tố, pắc",
+        "note": "Âm tắc thanh hầu cuối /-ʔ/ không được ghi riêng trong chữ Quốc ngữ; có thể xấp xỉ bằng thanh nặng (ngắt thanh hầu nhanh ở giọng Bắc) hoặc âm cuối -c/-t ngắt gọn tùy nguyên âm trước."
+      },
+      {
+        "native": "-h cuối âm tiết (ví dụ: plô̆uh, mreah, chơsŭh)",
+        "quoc_ngu": "pờ-lôu-h, mờ-re-h, chơ-sú-h",
+        "note": "Âm xát thanh hầu cuối /-h/ không có trong tiếng Việt chuẩn; TTS tiếng Việt thường bỏ qua chữ h cuối, cần hậu xử lý chèn luồng hơi vô thanh [h] nhẹ ở cuối vần."
+      },
+      {
+        "native": "-l cuối âm tiết (ví dụ: vil)",
+        "quoc_ngu": "vin (lưỡi cong chạm lợi giữ nguyên [l])",
+        "note": "Tiếng Việt không có âm bên /-l/ cuối âm tiết; xấp xỉ gần nhất bằng vần '-in' nhưng không cho luồng hơi thoát qua mũi."
+      },
+      {
+        "native": "hm-, hn-, hl-, hr- (ví dụ: hlai, hroi)",
+        "quoc_ngu": "hờ-lai, hờ-roi",
+        "note": "Phụ âm tiền hà hơi không có trong tiếng Việt; xấp xỉ bằng âm 'hờ' lướt rất nhanh nối liền vào phụ âm vang."
+      },
+      {
+        "native": "ea (ví dụ: ea 'nước')",
+        "quoc_ngu": "ê-a (đọc liền một hơi thành nguyên âm đôi [eə])",
+        "note": "Không đọc tách rời thành hai âm tiết."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "sa",
+        "ipa": "saː",
+        "meaning_vi": "một (1)"
+      },
+      {
+        "native": "thua",
+        "ipa": "tʰuə",
+        "meaning_vi": "hai (2)"
+      },
+      {
+        "native": "tlau",
+        "ipa": "tlaw",
+        "meaning_vi": "ba (3)"
+      },
+      {
+        "native": "paq",
+        "ipa": "paʔ",
+        "meaning_vi": "bốn (4)"
+      },
+      {
+        "native": "lơmưa",
+        "ipa": "ləmɨə",
+        "meaning_vi": "năm (5)"
+      },
+      {
+        "native": "năm",
+        "ipa": "nam",
+        "meaning_vi": "sáu (6) — lưu ý đồng âm chữ viết với 'năm' (5) của tiếng Việt nhưng nghĩa là 6"
+      },
+      {
+        "native": "plô̆uh",
+        "ipa": "plowh",
+        "meaning_vi": "mười (10)"
+      },
+      {
+        "native": "ea",
+        "ipa": "ʔeːə",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "angin",
+        "ipa": "ʔaŋin",
+        "meaning_vi": "gió"
+      },
+      {
+        "native": "patôq",
+        "ipa": "pətoːʔ",
+        "meaning_vi": "ngôi sao"
+      },
+      {
+        "native": "akan",
+        "ipa": "ʔəkaːn",
+        "meaning_vi": "cá"
+      },
+      {
+        "native": "asau",
+        "ipa": "ʔəsaw",
+        "meaning_vi": "chó"
+      },
+      {
+        "native": "ama",
+        "ipa": "ʔəmaː",
+        "meaning_vi": "cha"
+      },
+      {
+        "native": "anaq",
+        "ipa": "ʔənaːʔ",
+        "meaning_vi": "con"
+      },
+      {
+        "native": "atai",
+        "ipa": "ʔətaj",
+        "meaning_vi": "gan"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mundhenk, Alice Tegenfeldt & Goschnick, Hella (1977). Haroi Phonemes. Papers in Southeast Asian Linguistics No. 4: Chamic Studies, Pacific Linguistics A-48, pp. 1–15 (1–16). Australian National University.",
+      "url": "http://hdl.handle.net/1885/254364",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Lee, Ernest W. (1977). Devoicing, Aspiration, and Vowel Split in Haroi: Evidence for Register (Contrastive Tongue-Root Position). Papers in Southeast Asian Linguistics No. 4: Chamic Studies, Pacific Linguistics A-48, pp. 87–104.",
+      "url": "https://doi.org/10.15144/PL-A48.87",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Goschnick, Hella (1977). Haroi Clauses. Papers in Southeast Asian Linguistics No. 4: Chamic Studies, Pacific Linguistics A-48, pp. 105–124.",
+      "url": "https://doi.org/10.15144/PL-A48.105",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Thurgood, Graham (1997). Restructured Register in Haroi: Reconstructing its Historical Origins. In Arthur S. Abramson (ed.), Southeast Asian Linguistic Studies in Honor of Vichin Panupong, pp. 283–297. Chulalongkorn University Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Thurgood, Graham (1999). From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. University of Hawai'i Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Haroi (haro1237)",
+      "url": "https://glottolog.org/resource/languoid/id/haro1237",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Haroi language",
+      "url": "https://en.wikipedia.org/wiki/Haroi_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Thể loại:Mục từ tiếng H'roi (dữ liệu từ Goschnick & Tegenfeldt 1971, Vietnam word list: Harôi, SIL)",
+      "url": "https://vi.wiktionary.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:M%E1%BB%A5c_t%E1%BB%AB_ti%E1%BA%BFng_H%27roi",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Đình Lâm (2014). Sưu tầm, bảo tồn âm nhạc dân gian các dân tộc Chăm, Ba Na và Kinh (Việt) tỉnh Phú Yên. Viện Âm nhạc (vienamnhac.vn).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bộ Văn hóa, Thể thao và Du lịch (Quyết định 3465/QĐ-BVHTTDL ngày 13/10/2015) — Nghệ thuật trình diễn Trống đôi, Cồng ba, Chiêng năm ở Xí Thoại, xã Xuân Lãnh, huyện Đồng Xuân, tỉnh Phú Yên.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9.5,
+      "issues": [
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Một số mục phụ âm đầu gộp nhiều tổ hợp cách nhau bằng dấu phẩy trong cùng một trường `grapheme` (ví dụ: `hm, hn, hnh, hng` và `pl, pr, tl, tr, kl, kr...`), có thể gây khó khăn cho bộ phân tích G2P tự động nếu không tách chuỗi theo dấu phẩy.",
+          "fix": "Giữ nguyên cấu trúc nhưng lưu ý trong `validation.open_issues` để công cụ đọc bảng mã tách các tổ hợp cách nhau bằng dấu phẩy khi biên dịch sang quy tắc G2P."
+        },
+        {
+          "path": "music.instruments",
+          "severity": "low",
+          "problem": "Chưa ghi kèm tên gọi bản địa của bộ nhạc cụ theo tư liệu điền dã Phú Yên (Trống đôi: Chi gưl; Cồng ba: Chêêng; Chiêng năm: Chênh / Chinh).",
+          "fix": "Bổ sung tên gọi bản địa đã kiểm chứng từ tư liệu của Viện Âm nhạc và Cục Du lịch Quốc gia Việt Nam vào mô tả nhạc cụ."
+        },
+        {
+          "path": "sources[0].title",
+          "severity": "low",
+          "problem": "Số trang bài báo 'Haroi Phonemes' của Mundhenk & Goschnick (1977) trong ấn bản Pacific Linguistics A-48 thực tế có nội dung từ trang 1 đến 15 (trang 16 trống, Glottolog và Wikipedia ghi pp. 1–15).",
+          "fix": "Chuẩn hóa thành `pp. 1–15 (1–16)` để khớp chính xác với cả hai cách trích dẫn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu bảng chữ cái thực hành đang dùng trong cộng đồng (giữa phương án SIL 1976, phương án Ksor Nut 2000, đề tài Bình Định 2003–2005 và phương án Ka Sô Liễng 2010) để xác nhận quy ước thống nhất cho hai cặp nguyên âm gần đóng /ɪ, ɪː/ và /ʊ, ʊː/.",
+      "Cần thu âm và thẩm định với nghệ nhân Chăm H'roi tại Sơn Hòa / Đồng Xuân (Đắk Lắk) và Vân Canh (Gia Lai) về cao độ tuyệt đối và thang âm của bộ chiêng năm (pồng, pềnh, pang, poong, pếnh) cũng như cách luyến láy làn điệu H'ri.",
+      "Khi biên dịch tự động `phonology.onsets` sang bộ quy tắc G2P, cần tách các tổ hợp phụ âm đầu đang được gộp bằng dấu phẩy (như `hm, hn, hnh, hng` và `pl, pr, tl, tr...`)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

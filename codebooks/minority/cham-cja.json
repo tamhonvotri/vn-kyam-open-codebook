@@ -1,0 +1,769 @@
+{
+  "id": "cham-cja",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chăm Tây (Chăm Nam Bộ)",
+  "name_en": "Western Cham (Southern Vietnam Cham)",
+  "autonym": "Săp Chăm / Săp Chăm Châu Đốc",
+  "ethnic_group_vi": "Chăm",
+  "language": {
+    "iso639_3": "cja",
+    "glottocode": "west2650",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian, Chamic (Coastal)"
+  },
+  "regions": [
+    "An Giang (Châu Phú, Tân Châu, An Phú, Phú Tân, Châu Thành)",
+    "Tây Ninh (TP. Tây Ninh, Tân Biên, Châu Thành)",
+    "TP. Hồ Chí Minh",
+    "Đồng Nai (Xuân Lộc)",
+    "Bình Phước"
+  ],
+  "speakers_estimate": "Khoảng 25.000–30.000 người tại Việt Nam (riêng An Giang khoảng 15.300 người Chăm Islam; tổng số người nói cja toàn cầu khoảng 250.000–340.000 người, chủ yếu ở Campuchia)",
+  "scripts": [
+    {
+      "name": "Chữ Chăm Jawi (Akhar Jawi)",
+      "iso15924": "Arab",
+      "unicode_block": "Arabic, Arabic Supplement",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Ả Rập cải biên theo truyền thống Jawi Melayu có bổ sung dấu ghi nguyên âm Chăm; được cộng đồng Chăm Islam Nam Bộ dùng phổ biến trong đời sống tôn giáo, truyền dạy tại các thánh đường (masjid/surau) và được ngành giáo dục địa phương (An Giang, Tây Ninh) ghi nhận đặc thù văn tự vùng."
+    },
+    {
+      "name": "Chữ Latinh (Rumi Chăm / phiên âm học thuật và thực hành)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Dùng trong từ điển (như Kvoeu-Hor & Friberg 1978, các công trình nghiên cứu tại Việt Nam), tài liệu song ngữ và giao tiếp mạng xã hội; chưa có một bộ chữ Latinh chuẩn hóa thống nhất do Nhà nước ban hành riêng cho tiếng Chăm Tây."
+    },
+    {
+      "name": "Chữ Akhar Srak (Akhar Ka Kha)",
+      "iso15924": "Cham",
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Biến thể chữ Brahmic cổ truyền của nhánh Chăm Tây (khác biệt đáng kể với Akhar Thrah ở Ninh Thuận – Bình Thuận và đang chờ mã hóa riêng trong Unicode); hiện hầu như không còn dùng trong cộng đồng Chăm Islam tại Nam Bộ Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các tài liệu ngữ âm học về tiếng Chăm Tây tại Châu Đốc và Campuchia (Friberg & Hor 1977; Kvoeu-Hor & Friberg 1978; Headley 1991, 1998; Edmondson & Gregerson 1993; Brunelle 2009) cùng các khảo sát ngôn ngữ – xã hội học về tiếng Chăm Nam Bộ tại Việt Nam (Phú Văn Hẳn 2003). Phương ngữ Chăm Châu Đốc (An Giang) đã được Friberg & Hor (1977) và Brunelle (2009) mô tả âm học thực nghiệm, cho thấy sự tương đồng cao với Chăm Tây ở Campuchia nhưng có sự giản lược dần đối lập phẩm chất nguyên âm giữa hai âm vực và tiếp xúc mạnh với tiếng Việt Nam Bộ cùng tiếng Melayu.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C1(C2)V(C3)+R (từ song tiết giảm yếu tiền âm tiết sesquisyllabic hoặc đơn tiết; C2 ∈ {l, r, w, j}; R = đối lập 2 âm vực cao/thấp)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (kéo theo âm vực cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b (từ nguyên *b)",
+        "ipa": "p",
+        "note": "Phụ âm hữu thanh lịch sử bị vô thanh hóa thành [p], làm nguyên âm sau mang âm vực thấp (giọng hà hơi/lơi)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / bh",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (ph: âm vực cao; bh: âm vực thấp từ *bh/*b+h)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ƀ / b",
+        "ipa": "ɓ",
+        "note": "Tắc hút vào hai môi hữu thanh (âm vực cao, Friberg & Hor 1977 ký hiệu /ʔb/); đôi khi viết là b giống tiếng Việt trong ghi chép bình dân",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi (âm vực cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d (từ nguyên *d)",
+        "ipa": "t",
+        "note": "Phụ âm hữu thanh lịch sử vô thanh hóa thành [t], kéo theo âm vực thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th / dh",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi (th: âm vực cao; dh: âm vực thấp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "ɗ",
+        "note": "Tắc hút vào chân răng hữu thanh (âm vực cao, /ʔd/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh không bật hơi (âm vực cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j (từ nguyên *ɟ)",
+        "ipa": "c",
+        "note": "Phụ âm hữu thanh lịch sử vô thanh hóa thành [c], kéo theo âm vực thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / chh / jh",
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi bật hơi (trong hệ Kvoeu-Hor & Friberg 1978 viết là ch cho âm vực cao và jh cho âm vực thấp; khi dùng ch ghi [c] thì viết là chh); không có âm tương đương trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dj / ʔj",
+        "ipa": "ʄ",
+        "note": "Tắc hút vào mặt lưỡi / tiền thanh hầu hóa (/ʔɟ/ trong Friberg & Hor 1977; âm vực cao)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (âm vực cao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g (từ nguyên *ɡ)",
+        "ipa": "k",
+        "note": "Phụ âm hữu thanh lịch sử vô thanh hóa thành [k], kéo theo âm vực thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh / gh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi (kh: âm vực cao; gh: âm vực thấp; khác [x] xát ngạc mềm của tiếng Việt Bắc Bộ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / ' / (không ghi trước nguyên âm đầu từ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ñ",
+        "ipa": "ɲ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ɣ ~ ʁ ~ r",
+        "note": "Trong tiếng Chăm Tây thường phát âm lùi sâu thành âm xát ngạc mềm/lưỡi con [ɣ ~ ʁ] (trong chữ Chăm Jawi ghi bằng tự mẫu ghain غ; nghe gần âm 'g' tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi - ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, bl, kl, gl, pr, br, tr, kr, gr",
+        "ipa": "pl, pl̤, kl, kl̤, pɣ, pɣ̤, tɣ, kɣ, kɣ̤",
+        "note": "Tổ hợp phụ âm đầu được bảo lưu hoặc hình thành do rụng nguyên âm tiền âm tiết (Friberg & Hor 1977)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i, ī",
+        "ipa": "i, iː",
+        "note": "Nguyên âm trước khép; trường độ phần lớn phụ thuộc cấu trúc âm tiết mở/đóng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước hơi khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e, ē",
+        "ipa": "ɛ, ɛː",
+        "note": "Nguyên âm trước hơi mở",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư, ư̄ (hoặc â)",
+        "ipa": "ɨ, ɨː",
+        "note": "Nguyên âm giữa khép không tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ, ơ̄ / â",
+        "ipa": "ə, əː",
+        "note": "Nguyên âm giữa vừa; [ə] rất phổ biến ở âm tiết phụ tiền trọng âm",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă, a / ā",
+        "ipa": "a, aː",
+        "note": "Nguyên âm mở ngắn và dài; cặp đối lập trường độ nguyên âm có giá trị khu biệt nghĩa vững chắc nhất trong tiếng Chăm Tây",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u, ū",
+        "ipa": "u, uː",
+        "note": "Nguyên âm sau khép tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô, ô̄",
+        "ipa": "o, oː",
+        "note": "Nguyên âm sau hơi khép tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o, ō",
+        "ipa": "ɔ, ɔː",
+        "note": "Nguyên âm sau hơi mở tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "iə ~ ia",
+        "note": "Nguyên âm đôi mở dần dòng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "uə ~ ua",
+        "note": "Nguyên âm đôi mở dần dòng sau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea / oa",
+        "ipa": "ɛa / ɔa",
+        "note": "Nguyên âm đôi hạ thấp đặc trưng trong tiếng Chăm Tây (Friberg & Hor 1977; Headley 1991, 1998)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai, au / ao, ui",
+        "ipa": "aj, aw, uj",
+        "note": "Vần kết thúc bằng bán nguyên âm",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-c / -ch / -ik",
+        "ipa": "c̚ ~ ʔ",
+        "note": "Tắc mặt lưỡi cuối âm tiết hoặc giảm yếu về tắc thanh hầu kèm nguyên âm lướt trước (như trong panuaik)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-k",
+        "ipa": "k̚ ~ ʔ",
+        "note": "Tắc ngạc mềm hoặc tắc thanh hầu cuối âm tiết tùy nguyên âm trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-q / -'",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (không có ký tự riêng trong chữ Quốc ngữ tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết [-h] rất phổ biến (ví dụ boh/bôh [p̤ɔh]); không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l ~ n",
+        "note": "Âm bên cuối âm tiết; ở khẩu ngữ Chăm Nam Bộ tại Việt Nam có xu hướng nhập dần vào [-n] ở một số người nói do tiếp xúc tiếng Việt",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r ~ ɣ ~ n",
+        "note": "Bảo lưu trong phát âm cẩn thận hoặc biến đổi sang [-n]/rụng đi trong khẩu ngữ trẻ tại Nam Bộ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-y / -i",
+        "ipa": "j",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w / -u",
+        "ipa": "w",
+        "note": null,
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ âm vực (register language) gồm 2 âm vực đối lập có phạm vi lan tỏa trên toàn từ ngữ âm (Friberg & Hor 1977; Edmondson & Gregerson 1993; Brunelle 2009): (1) Âm vực cao (High / 1st register): phát sinh sau phụ âm tắc vô thanh gốc, phụ âm hút vào và phụ âm vang; chất giọng chuẩn hoặc hơi căng (modal/tense), cao độ trung-cao (xấp xỉ 33 hoặc 44 theo thang Chao). (2) Âm vực thấp (Low / 2nd register): phát sinh từ sự vô thanh hóa các phụ âm tắc hữu thanh tiếng Chăm cổ (*b, *d, *ɟ, *ɡ) và lan sang âm tiết chính; chất giọng hà hơi/lơi (breathy/lax [V̤]), cao độ thấp (xấp xỉ 21 hoặc 22). Khảo sát âm học tại Châu Đốc của Brunelle (2009) cho thấy F0 (cao độ) và chất giọng (độ mở thanh môn) là hai tiêu chí khu biệt chính, trong khi sự khác biệt về F1 (độ mở nguyên âm) ở người nói trẻ tại Châu Đốc đã thu hẹp đáng kể so với mô tả thập niên 1970."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tiếng nói / ngôn ngữ",
+      "form": "săp",
+      "ipa": "sap̚",
+      "gloss_en": "language / voice / word",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ia / ea",
+      "ipa": "ʔiə ~ ʔɛa",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "sang",
+      "ipa": "saŋ",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con (đứa con)",
+      "form": "anâk",
+      "ipa": "ʔa.nɨʔ",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "măk",
+      "ipa": "maʔ",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "urang",
+      "ipa": "ʔu.ɣaŋ",
+      "gloss_en": "person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thánh đường Hồi giáo",
+      "form": "magik / masjid",
+      "ipa": "ma.k̤iʔ",
+      "gloss_en": "mosque",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quả / trái (loại từ)",
+      "form": "boh / bôh",
+      "ipa": "p̤ɔh ~ p̤oh",
+      "gloss_en": "fruit / classifier for round or 3D objects",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá",
+      "form": "hla",
+      "ipa": "hlaː",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "sa",
+      "ipa": "saː",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "dua / doa",
+      "ipa": "t̤uə ~ t̤ɔa",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "klau",
+      "ipa": "klaw",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dứa / thơm",
+      "form": "manas",
+      "ipa": "ma.nah",
+      "gloss_en": "pineapple",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Đạo ca và hát xướng Chăm Islam (Dikir / Berzanji)",
+        "note": "Trình diễn tại thánh đường, lễ Mawlid, lễ cưới và Tết Roya tại An Giang, Tây Ninh; ca từ bằng tiếng Ả Rập, tiếng Melayu hoặc tiếng Chăm Jawi."
+      },
+      {
+        "name": "Hát dân ca Chăm Nam Bộ kèm trống Rabana",
+        "note": "Các bài hát giao duyên, sinh hoạt cộng đồng và ca khúc Chăm đương đại phát triển mạnh tại các làng Chăm Châu Phong, Đa Phước, Mỹ Đức, Khánh Hòa (An Giang)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến rung kiểu đạo ca Islam – Melayu",
+        "description": "Luyến nhiều nốt trên một âm tiết kéo dài (melisma) chịu ảnh hưởng phong cách ngâm tụng kinh văn Hồi giáo và âm nhạc Mã Lai, khác với lối hát lễ tháp Bà-la-môn ở Ninh Thuận.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ điệu thức giao thoa Chăm – Melayu – Ả Rập",
+        "note": "Kết hợp chất liệu ngũ cung/thang âm dân gian Chăm với các quãng thứ và quãng luyến đặc trưng của âm nhạc Islam Đông Nam Á.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Trống Rabana (Rappana)",
+        "note": "Nhạc cụ gõ biểu tượng của người Chăm Islam An Giang; trống khung tròn một mặt căng da, vỗ bằng tay theo dàn đồng tấu."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "cham",
+    "sub_varieties": [
+      {
+        "id": "cham-cjm",
+        "name_vi": "Tiếng Chăm Đông (Săp Chăm Phan Rang – Phan Rí)",
+        "iso639_3": "cjm",
+        "glottocode": "east2563",
+        "note": "Nói chủ yếu ở Ninh Thuận và Bình Thuận; dùng chữ Akhar Thrah (U+AA00..U+AA5F), đơn tiết hóa mạnh hơn và lấy F0 làm tiêu chí âm vực hàng đầu."
+      },
+      {
+        "id": "cham-hro",
+        "name_vi": "Tiếng Chăm Hroi (Haroi)",
+        "iso639_3": "hro",
+        "glottocode": "haro1237",
+        "note": "Nhóm Chăm Hroi ở miền núi Phú Yên, Bình Định; có hệ thống nguyên âm tái cấu trúc âm vực (restructured register) do tiếp xúc sâu với nhóm ngôn ngữ Bahnaric."
+      },
+      {
+        "id": "cja-chaudoc",
+        "name_vi": "Thổ ngữ Chăm Châu Đốc (An Giang)",
+        "iso639_3": "cja",
+        "glottocode": "west2650",
+        "note": "Biến thể trung tâm của tiếng Chăm Tây tại Việt Nam; bảo lưu nhiều từ đa tiết và vay mượn nhiều từ vựng tôn giáo Ả Rập – Melayu."
+      },
+      {
+        "id": "cja-tayninh",
+        "name_vi": "Thổ ngữ Chăm Tây Ninh – TP. Hồ Chí Minh",
+        "iso639_3": "cja",
+        "glottocode": "west2650",
+        "note": "Cùng nhánh Chăm Tây Nam Bộ, song ngữ Chăm – Việt cao."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "săp Cam",
+        "quoc_ngu": "sắp Chăm",
+        "note": "Âm c- [c] trong tiếng Chăm tương đương 'ch' tiếng Việt; âm đóng -p giữ nguyên."
+      },
+      {
+        "native": "ia",
+        "quoc_ngu": "i-a / ia",
+        "note": "Nguyên âm đôi [iə ~ ia] âm vực cao, đọc ngang như 'ia' trong 'chia'."
+      },
+      {
+        "native": "sang",
+        "quoc_ngu": "xang",
+        "note": "Âm s- [s] không uốn lưỡi, tương ứng chữ 'x' trong Quốc ngữ chuẩn Hà Nội."
+      },
+      {
+        "native": "urang",
+        "quoc_ngu": "u-găng",
+        "note": "Âm r [ɣ ~ ʁ] của tiếng Chăm Tây phát âm ở ngạc mềm/lưỡi con, mô hình TTS tiếng Việt đọc chữ 'g' sẽ gần khẩu âm bản xứ hơn chữ 'r' rung đầu lưỡi; cần tách âm tiết phụ 'u-' ngắn, nhẹ."
+      },
+      {
+        "native": "boh",
+        "quoc_ngu": "bò(h)",
+        "note": "Âm đầu b- lịch sử đọc thành [p] kèm âm vực thấp hà hơi (mô phỏng bằng thanh huyền tiếng Việt: 'pò'/'bò'); âm cuối -h [h] không có trong tiếng Việt nên TTS chỉ biết tiếng Việt sẽ bị mất hơi xát cuối."
+      },
+      {
+        "native": "dua",
+        "quoc_ngu": "đùa / tua",
+        "note": "Phụ âm *d vô thanh hóa thành [t] không bật hơi kèm âm vực thấp hà hơi [t̤uə]; tiếng Việt không có tổ hợp [t] + thanh trầm hà hơi hoàn chỉnh, dùng 'đùa' hoặc 'tùa' chỉ là xấp xỉ."
+      },
+      {
+        "native": "anâk",
+        "quoc_ngu": "a-nấc",
+        "note": "Âm cuối tắc thanh hầu [-ʔ] không có trong Quốc ngữ; xấp xỉ bằng vần tắc '-c'/'-t' kèm dấu sắc hoặc nặng tùy âm vực, nhưng sẽ dư cử động đóng ngạc mềm/đầu lưỡi."
+      },
+      {
+        "native": "klau",
+        "quoc_ngu": "cờ-lau",
+        "note": "Tiếng Việt hiện đại không có cụm phụ âm đầu 'kl-'; phải chèn nguyên âm lướt cực ngắn 'cờ-lau' nhưng cần rút ngắn tối đa 'cờ' để tránh thành hai âm tiết rời."
+      },
+      {
+        "native": "hla",
+        "quoc_ngu": "hơ-la",
+        "note": "Cụm 'hl-' không có trong tiếng Việt; xấp xỉ bằng 'hơ-la' đọc lướt nhanh âm đầu."
+      }
+    ],
+    "non_vietnamese_phonetic_features": [
+      "Đối lập 2 âm vực (modal/tense so với breathy/lax) gắn với sự vô thanh hóa phụ âm tắc đầu âm tiết và lan tỏa âm vực trong từ thay vì hệ 6 thanh điệu tiếng Việt.",
+      "Phụ âm bật hơi mặt lưỡi [cʰ] (ch/chh/jh), âm hút vào mặt lưỡi [ʄ], và tắc không bật hơi [p] ở vị trí đầu âm tiết tách biệt với âm hút vào [ɓ].",
+      "Âm cuối xát thanh hầu [-h], tắc thanh hầu [-ʔ], và các âm vang cuối [-l], [-r].",
+      "Cấu trúc từ song tiết giảm yếu (sesquisyllabic) và các cụm phụ âm đầu pl-, kl-, pr-, kr-, hl-.",
+      "Đối lập trường độ nguyên âm ngắn – dài rõ nét ở cặp ă /a/ – a /aː/ (và hạn chế hơn ở một số nguyên âm khác trong âm tiết đóng)."
+    ],
+    "sample_words": [
+      {
+        "native": "sa",
+        "ipa": "saː",
+        "gloss_vi": "một"
+      },
+      {
+        "native": "dua",
+        "ipa": "t̤uə",
+        "gloss_vi": "hai"
+      },
+      {
+        "native": "klau",
+        "ipa": "klaw",
+        "gloss_vi": "ba"
+      },
+      {
+        "native": "ia",
+        "ipa": "ʔiə",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "sang",
+        "ipa": "saŋ",
+        "gloss_vi": "nhà"
+      },
+      {
+        "native": "urang",
+        "ipa": "ʔu.ɣaŋ",
+        "gloss_vi": "người"
+      },
+      {
+        "native": "anâk",
+        "ipa": "ʔa.nɨʔ",
+        "gloss_vi": "con"
+      },
+      {
+        "native": "măk",
+        "ipa": "maʔ",
+        "gloss_vi": "mẹ"
+      },
+      {
+        "native": "hla",
+        "ipa": "hlaː",
+        "gloss_vi": "lá"
+      },
+      {
+        "native": "boh",
+        "ipa": "p̤ɔh",
+        "gloss_vi": "quả / trái"
+      },
+      {
+        "native": "săp",
+        "ipa": "sap̚",
+        "gloss_vi": "tiếng nói / lời nói"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Western Cham (west2650)",
+      "url": "https://glottolog.org/resource/languoid/id/west2650",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Friberg, Timothy & Kvoeu Hor (1977). Register in Western Cham phonology. Papers in Southeast Asian Linguistics No. 4: Chamic Studies, Pacific Linguistics A-48, 17–38.",
+      "url": "https://doi.org/10.15144/PL-A48.17",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Kvoeu-Hor & Timothy Friberg (1978). Bôh panuaik Chăm = Ngữ-vựng Chàm = Western Cham vocabulary. Tủ sách Ngôn ngữ Dân tộc Thiểu số Việt Nam, cuốn 21, phần 1. Manila: Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Brunelle, Marc (2009). Contact-induced change? Register in three Cham dialects. Journal of the Southeast Asian Linguistics Society (JSEALS) 2: 1–22.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. & Kenneth J. Gregerson (1993). Western Cham as a register language. In Tonality in Austronesian Languages, 61–74. University of Hawaii Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Headley, Robert K. (1991). The phonology of Kompong Thom Cham. In Austroasiatic Languages: Essays in Honour of H. L. Shorto, 105–121. SOAS, University of London.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phú Văn Hẳn (2003). Cơ cấu ngữ âm và chữ viết tiếng Chăm Việt Nam và tiếng Melayu Malaysia. Luận án Tiến sĩ Ngữ văn.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "PHOIBLE 2.0 — Cham Phoneme Inventory (SPA 29; lưu ý: dữ liệu gốc từ Blood 1967 mô tả Chăm Đông nhưng bị PHOIBLE gán mã west2650/cja)",
+      "url": "https://phoible.org/languages/west2650",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Cham language",
+      "url": "https://en.wikipedia.org/wiki/Cham_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Cham Jawi",
+      "url": "https://en.wikipedia.org/wiki/Cham_Jawi",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[1].glottocode",
+          "severity": "high",
+          "problem": "Mã Glottocode của tiếng Chăm Hroi (Haroi, ISO 639-3: hro) bị ghi sai thành 'haro1243'.",
+          "fix": "Sửa thành 'haro1237' theo đúng dữ liệu Glottolog 5.3."
+        },
+        {
+          "path": "sources[1]",
+          "severity": "medium",
+          "problem": "Nguồn PHOIBLE 2.0 (SPA 29 / west2650) trên thực tế là bảng âm vị tiếng Chăm Đông của Doris/David Blood (1967, 'Phonological units in Cham') bị gán nhầm mã ngôn ngữ sang Chăm Tây (west2650/cja) trong cơ sở dữ liệu SPA/PHOIBLE (chứa âm quặt lưỡi ʈ, ɖ và thanh điệu của Chăm Phan Rang).",
+          "fix": "Ghi chú rõ trong tiêu đề nguồn PHOIBLE về sự gán nhầm mã của SPA 29 (Blood 1967) và bổ sung nguồn đo đạc âm học thực nghiệm trực tiếp trên phương ngữ Chăm Châu Đốc của Marc Brunelle (2009) cùng từ điển Kvoeu-Hor & Friberg (1978)."
+        },
+        {
+          "path": "status_note",
+          "severity": "medium",
+          "problem": "Ghi chú trạng thái cho rằng hầu hết mô tả âm học quốc tế chỉ dựa trên phương ngữ ở Campuchia, bỏ sót thực tế là Friberg & Hor (1977) khảo sát phương ngữ Chăm Châu Đốc và Marc Brunelle (2009) đã đo đạc âm học/EGG trực tiếp trên tiếng Chăm Châu Đốc (An Giang) so sánh với Kompong Chhnang và Phan Rang.",
+          "fix": "Cập nhật status_note và phonology.register_or_phonation để phản ánh chính xác kết quả nghiên cứu thực nghiệm tại Châu Đốc của Friberg & Hor (1977) và Brunelle (2009)."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "medium",
+          "problem": "Thiếu âm tắc hút vào mặt lưỡi /ʄ/ (hoặc /ʔɟ/, viết là dj / j trong một số hệ phiên âm) có mặt trong hệ thống âm vị Chăm Tây (Friberg & Hor 1977); đồng thời cần làm rõ đối lập các phụ âm bật hơi âm vực cao (ph, th, ch/chh, kh) và âm vực thấp từ phụ âm hữu thanh bật hơi lịch sử (bh, dh, jh, gh).",
+          "fix": "Bổ sung mục phụ âm hút vào mặt lưỡi [ʄ] và chỉnh lại ghi chú ở nhóm phụ âm bật hơi (ph/bh, th/dh, ch/chh/jh, kh/gh)."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "medium",
+          "problem": "Đặt confidence='high' cho đối lập trường độ nguyên âm ngắn – dài trên toàn bộ 8–9 vị trí nguyên âm (i/iː, ɛ/ɛː, ɨ/ɨː, ə/əː, u/uː, o/oː, ɔ/ɔː) là quá mức đối với tiếng Chăm Tây: khác với tiếng Chăm cổ và Chăm Đông, trong tiếng Chăm Tây đối lập trường độ âm vị học rõ nét nhất ở cặp ă /a/ – a /aː/, còn ở các nguyên âm khác trường độ phần lớn bị quy định bởi cấu trúc âm tiết đóng/mở (Friberg & Hor 1977; Headley 1991; Brunelle 2009).",
+          "fix": "Giữ confidence='high' cho cặp ă/a (/a, aː/) và hạ confidence xuống 'medium' đối với đối lập trường độ ở các nguyên âm còn lại, kèm ghi chú làm rõ."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Một số mục từ vựng chỉ ghi biến thể chính tả kiểu Việt hóa ('ia', 'dua', 'boh') mà thiếu dạng chính tả chuẩn trong từ điển Chăm Tây của Kvoeu-Hor & Friberg 1978 ('ea', 'doa', 'bôh').",
+          "fix": "Bổ sung dạng song hành 'ia / ea', 'dua / doa', 'boh / bôh' để khớp với cả thực hành tại Nam Bộ và văn liệu Chăm Tây chuẩn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần người bản xứ Chăm Châu Đốc (An Giang) và Chăm Tây Ninh đối chiếu cách chuyển tự Rumi thực tế dùng trong giáo trình cộng đồng đối với các nguyên âm giữa (ư/ơ/â) và các phụ âm đầu mang âm vực thấp.",
+      "Cần khảo sát thêm phạm vi bảo lưu đối lập trường độ nguyên âm ngoài cặp ă/a trong khẩu ngữ Chăm Nam Bộ hiện nay.",
+      "Cần đo đạc âm học bổ sung riêng cho khẩu ngữ Chăm Tây tại Việt Nam để xác định mức độ đồng hóa âm cuối -l, -r sang -n ở thế hệ trẻ song ngữ Chăm – Việt.",
+      "Cần nhạc sĩ/nghệ nhân trống Rabana tại An Giang bổ sung ký âm chuẩn cho các tiết tấu Rabana và thang âm đạo ca Chăm Islam."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

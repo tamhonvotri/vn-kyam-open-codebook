@@ -1,0 +1,92 @@
+{
+  "target": {
+    "id": "hmong-hmz",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mông Xanh (Hmong Shua)",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3_expected": "hmz",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: hmz; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+  },
+  "started": "2026-11-13T23:26:36.330893",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9453,
+      "candidatesTokenCount": 9149,
+      "totalTokenCount": 26211,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9453
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9149
+        }
+      ],
+      "thoughtsTokenCount": 7609,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11869,
+      "candidatesTokenCount": 11420,
+      "totalTokenCount": 25759,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11869
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11420
+        }
+      ],
+      "thoughtsTokenCount": 2470,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.onsets[1] & phonology.onsets[10]",
+        "severity": "high",
+        "problem": "Đảo ngược giá trị âm vị của hai con chữ 'ph' và 'f' trong Chữ Mông Việt Nam (MVN 1961). Do MVN lấy chữ Quốc ngữ làm cơ sở, chữ 'ph' trong MVN dùng để ghi âm xát môi-răng /f/ giống tiếng Việt (tương đương 'f' trong RPA), còn chữ 'f' trong MVN mới dùng để ghi âm tắc hai môi bật hơi /pʰ/ (tương đương 'ph' trong RPA). Chính vì 'f' = /pʰ/ nên các tổ hợp tương ứng trong MVN mới được viết là 'mf' (/ᵐpʰ/), 'fl' (/pˡʰ/) và 'mfl' (/ᵐpˡʰ/).",
+        "fix": "Sửa phonology.onsets[1] ('ph' -> /f/, tương đương 'f' trong RPA) và phonology.onsets[10] ('f' -> /pʰ/, tương đương 'ph' trong RPA) theo đúng quy tắc Chữ Mông Việt Nam (xác minh qua Quyết định 444/QĐ-UBND năm 2019 của UBND tỉnh Tuyên Quang)."
+      },
+      {
+        "path": "phonology.onsets[42]",
+        "severity": "low",
+        "problem": "Âm tắc lưỡi con tiền mũi hóa /ᶰq ~ ᶰɢ/ (RPA: 'nq') trong tài liệu Chữ Mông Việt Nam truyền thống còn được ký hiệu phổ biến bằng 'gr' bên cạnh 'nq' (bảng đối chiếu MVN - RPA ghi GR = NQ).",
+        "fix": "Ghi grapheme là 'gr, nq' và bổ sung ghi chú đối chiếu với RPA."
+      },
+      {
+        "path": "ml_hints.quoc_ngu_approximation[1] & ml_hints.sample_words[2]",
+        "severity": "medium",
+        "problem": "Từ 'tiếng nói / lời nói' trong văn bản Chữ Mông Việt Nam chuẩn (như chương trình phát thanh tiếng Mông VOV4 'suôz luk Hmôngz' và tài liệu dạy tiếng Mông 'lul Hmôngz') thường được viết là 'lul' hoặc 'luk' (phản ánh biến thể phương ngữ Mông Hoa/Lềnh so với dạng 'lus' của Mông Trắng/RPA).",
+        "fix": "Cập nhật thành 'lul / luk / lus' trong sample_words và 'lul Hmôngz / luk Hmôngz (hoặc lus Hmôngz)' trong quoc_ngu_approximation để phản ánh chính xác thực tế văn bản MVN."
+      },
+      {
+        "path": "sources[8]",
+        "severity": "low",
+        "problem": "Tên gọi của Thông tư 01/2025/TT-BGDĐT bị rút gọn chưa chính xác với tên văn bản quy phạm pháp luật thực tế ban hành ngày 10/01/2025.",
+        "fix": "Sửa lại đúng tên đầy đủ: 'Bộ Giáo dục và Đào tạo (2025). Thông tư số 01/2025/TT-BGDĐT ngày 10/01/2025 ban hành Danh mục thiết bị dạy học tối thiểu tiếng dân tộc thiểu số trong các cơ sở giáo dục phổ thông và trung tâm giáo dục thường xuyên, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên (Phụ lục VIII: Danh mục thiết bị dạy học tối thiểu môn Tiếng Mông).'"
+      },
+      {
+        "path": "sources[9]",
+        "severity": "low",
+        "problem": "Số trang của bài báo Castro & Gu (2010) trên tạp chí JSEALS 3(1) bị ghi sai là 1–21 (thực tế là 1–39).",
+        "fix": "Sửa số trang thành 1–39."
+      }
+    ]
+  },
+  "schema_errors": []
+}

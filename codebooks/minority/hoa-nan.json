@@ -1,0 +1,699 @@
+{
+  "id": "hoa-nan",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Triều Châu (Tiều)",
+  "name_en": "Teochew (Chaoshan Southern Min)",
+  "autonym": "潮州話 / 潮汕話 (Diê⁵ziu¹uê⁷ / Dio⁵ziu¹uê⁷; tiếng Tiều)",
+  "ethnic_group_vi": "Hoa",
+  "language": {
+    "iso639_3": "nan",
+    "glottocode": "chao1238",
+    "family": "Sino-Tibetan",
+    "branch": "Sinitic — Min — Southern Min (Chaoshan)"
+  },
+  "regions": [
+    "TP. Hồ Chí Minh (Chợ Lớn: Quận 5, Quận 6, Quận 11)",
+    "Sóc Trăng (thị xã Vĩnh Châu, TP. Sóc Trăng)",
+    "Bạc Liêu",
+    "Kiên Giang (Rạch Giá, Hà Tiên)",
+    "Trà Vinh",
+    "Cần Thơ",
+    "Hậu Giang",
+    "Đồng Nai (Biên Hòa)",
+    "Bình Dương (Thủ Dầu Một, Lái Thiêu)"
+  ],
+  "speakers_estimate": "Chưa có thống kê tách riêng theo nhóm phương ngữ trong Tổng điều tra dân số 2019 (tổng dân số dân tộc Hoa tại Việt Nam là 749.466 người); người Tiều là một trong hai nhóm ngôn ngữ Hoa đông nhất ở Nam Bộ (cùng nhóm Quảng Đông) và chiếm đa số tuyệt đối trong cộng đồng người Hoa tại Đồng bằng sông Cửu Long (đặc biệt ở Sóc Trăng, Bạc Liêu, Kiên Giang, Trà Vinh).",
+  "scripts": [
+    {
+      "name": "Chữ Hán phồn thể (傳統漢字)",
+      "iso15924": "Hant",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Dùng phổ biến trong hội quán, chùa miếu, bia ký, gia phả, nghi lễ tang ma và kịch bản hát Tiều tại Nam Bộ."
+    },
+    {
+      "name": "Chữ Hán giản thể (简体汉字)",
+      "iso15924": "Hans",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Dùng trong giáo trình tiếng Hoa phổ thông hiện đại; ít dùng để ghi trực tiếp khẩu ngữ tiếng Tiều."
+    },
+    {
+      "name": "Hệ phiên âm Latinh Peng'im (潮州話拼音方案) và Pe̍h-ūe-jī (POJ Triều Châu)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin-1 Supplement",
+      "official_in_vietnam": false,
+      "note": "Nhà nước Việt Nam không ban hành bộ chữ Latinh riêng cho tiếng Tiều. Hệ Peng'im (Quảng Đông, 1960) được dùng phổ biến nhất trong từ điển và tài liệu dạy tiếng Tiều hải ngoại nên được chọn làm grapheme tham chiếu trong bảng âm vị dưới đây."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học Mân Nam — Triều Châu và tư liệu điền dã văn hóa người Hoa Tiều tại Nam Bộ Việt Nam. Mã ISO 639-3 giữ là 'nan' (Min Nan Chinese) do đề xuất tách mã riêng 'tws' cho Teochew (CR 2021-045) đã bị tổ chức ISO từ chối; Glottocode nhánh Triều Châu là 'chao1238'. Cần khảo sát thực địa để đo đạc biến thể ngữ âm giữa giọng Tiều Chợ Lớn và giọng Tiều Vĩnh Châu (Sóc Trăng) / Bạc Liêu.",
+  "phonology": {
+    "syllable_structure": "(C1)(G)V(C2)+T hoặc âm tiết mũi tự thân (m̩, ŋ̍)+T",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "p",
+        "note": "Peng'im 'b' (POJ 'p'): tắc hai môi vô thanh không bật hơi, tương đương 'p' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "pʰ",
+        "note": "Peng'im 'p' (POJ 'ph'): tắc hai môi vô thanh bật hơi mạnh; không phải âm xát [f]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bh",
+        "ipa": "b",
+        "note": "Peng'im 'bh' (POJ 'b'): tắc hai môi hữu thanh, tương tự 'b' tiếng Việt nhưng không tiền thanh hầu hóa mạnh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Phân bố bổ sung với 'bh' trước nguyên âm mũi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t",
+        "note": "Peng'im 'd' (POJ 't'): tắc chân răng vô thanh không bật hơi, tương đương 't' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "tʰ",
+        "note": "Peng'im 't' (POJ 'th'): tắc chân răng vô thanh bật hơi, tương đương 'th' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Ở một số người nói còn tương ứng với âm đầu tắc hữu thanh cổ *d",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k",
+        "note": "Peng'im 'g' (POJ 'k'): tắc ngạc mềm vô thanh không bật hơi, tương đương 'c/k' tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "kʰ",
+        "note": "Peng'im 'k' (POJ 'kh'): tắc ngạc mềm vô thanh bật hơi (khác 'kh' [x] tiếng Việt chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gh",
+        "ipa": "ɡ",
+        "note": "Peng'im 'gh' (POJ 'g'): tắc ngạc mềm hữu thanh (tiếng Việt viết 'g/gh' là âm xát [ɣ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "t͡s",
+        "note": "Peng'im 'z' (POJ 'ts/ch'): tắc-xát chân răng vô thanh không bật hơi; có thể ngạc hóa nhẹ trước /i/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "t͡sʰ",
+        "note": "Peng'im 'c' (POJ 'tsh/chh'): tắc-xát chân răng vô thanh bật hơi mạnh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "d͡z ~ z",
+        "note": "Peng'im 'r' (POJ 'j'): tắc-xát/xát chân răng hữu thanh; một số người nói hải ngoại phát âm ngả sang [z] hoặc [l]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Khởi âm zero hoặc tắc thanh hầu nhẹ trước nguyên âm đầu âm tiết",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o ~ ɔ",
+        "note": "Độ mở thay đổi nhẹ giữa giọng phủ Triều Châu và Sán Đầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e ~ ɛ",
+        "note": "Peng'im dùng 'ê' để phân biệt với 'e' /ɯ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɯ",
+        "note": "Peng'im 'e' (POJ 'ṳ'): nguyên âm khép hàng sau không tròn môi, gần với 'ư' [ɨ] tiếng Việt nhưng lùi về sau hơn; một số vần giọng Sán Đầu đọc thành /u/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "Vn (an, en, in, on, iên, uan...)",
+        "ipa": "Ṽ (ã, ɯ̃, ĩ, õ, ĩẽ, uã...)",
+        "note": "Chữ '-n' cuối vần trong Peng'im (POJ viết 'ⁿ') ghi hiện tượng MŨI HÓA nguyên âm chứ không phải phụ âm cuối /-n/ (trừ một vài tiểu phương ngữ như Triều Dương/Phổ Ninh còn /-n/ ở một số vần)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m (âm tiết tự thân)",
+        "ipa": "m̩",
+        "note": "Ví dụ: m6 (唔 'không')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng (âm tiết tự thân)",
+        "ipa": "ŋ̍",
+        "note": "Ví dụ: ng5 (黃 'họ Huỳnh/Hoàng, màu vàng') hoặc hng5 (園 'vườn')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Giữ nguyên âm cuối hai môi cổ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Trong tiếng Triều Châu–Sán Đầu tiêu chuẩn, âm cuối *-n lịch sử đã nhập vào /-ŋ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "p̚",
+        "note": "Peng'im viết '-b' (POJ '-p') cho âm tắc hai môi không bật nổ ở thanh nhập (4, 8)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k̚",
+        "note": "Peng'im viết '-g' (POJ '-k') cho âm tắc ngạc mềm không bật nổ ở thanh nhập; *-t lịch sử đa phần đã nhập vào /-k̚/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết ở thanh nhập (ví dụ: ziah8 /t͡siaʔ˦/ 'ăn')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "1",
+        "name": "Âm bình (陰平)",
+        "mark": "1",
+        "chao_contour": "33",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "2",
+        "name": "Âm thượng (陰上)",
+        "mark": "2",
+        "chao_contour": "53",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "3",
+        "name": "Âm khứ (陰去)",
+        "mark": "3",
+        "chao_contour": "213",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "4",
+        "name": "Âm nhập (陰入)",
+        "mark": "4",
+        "chao_contour": "2",
+        "phonation": "ngắn, đóng bằng /-p̚, -k̚, -ʔ/",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "5",
+        "name": "Dương bình (陽平)",
+        "mark": "5",
+        "chao_contour": "55",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "6",
+        "name": "Dương thượng (陽上)",
+        "mark": "6",
+        "chao_contour": "35",
+        "phonation": null,
+        "merges_with": "Ở tiểu phương ngữ Triều Dương (Teoyeo), thanh 6 thường nhập vào thanh 3 hoặc thanh 1",
+        "confidence": "medium"
+      },
+      {
+        "id": "7",
+        "name": "Dương khứ (陽去)",
+        "mark": "7",
+        "chao_contour": "11",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "8",
+        "name": "Dương nhập (陽入)",
+        "mark": "8",
+        "chao_contour": "4",
+        "phonation": "ngắn (cao ~ 4 hoặc 44), đóng bằng /-p̚, -k̚, -ʔ/",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 8 thanh điệu đơn tự (4 thanh bằng/trắc × Âm/Dương, trong đó thanh 4 và 8 là thanh nhập kết thúc bằng âm tắc /-p̚, -k̚, -ʔ/). Đặc trưng quan trọng nhất khi nói và hát là BIẾN ĐIỆU LIÊN ĐỌC (tone sandhi): mọi âm tiết đứng trước âm tiết chính cuối nhóm ngữ điệu đều đổi đường nét thanh điệu (ví dụ: thanh 2 [53] → [35], thanh 3 [213] → [53]/[55], thanh 5 [55] → [11], thanh 7 [11] → [33], thanh 4 [2] ↔ thanh 8 [4]). Ngoài ra có đối lập nguyên âm miệng — nguyên âm mũi (V vs Ṽ) và đối lập 3 loạt phụ âm tắc đầu âm tiết (vô thanh không bật hơi, vô thanh bật hơi, hữu thanh)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi / ta (đại từ ngôi thứ nhất)",
+      "form": "我 (ua2 — Việt hóa ở miền Tây: 'qua')",
+      "ipa": "ua˥˧",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / mày / anh / chị (đại từ ngôi thứ hai)",
+      "form": "汝 (le2 / lu2 — Việt hóa: 'lứ')",
+      "ipa": "lɯ˥˧ ~ lu˥˧",
+      "gloss_en": "you (singular)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người mình / đồng hương Tiều",
+      "form": "家己人 (ga1 gi7 nang5 — Việt hóa: 'ca kỉ nằng')",
+      "ipa": "ka˧˧ ki˩˩ naŋ˥˥",
+      "gloss_en": "our own people / fellow Teochew",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "anh trai",
+      "form": "阿兄 (a1 hian1 — Việt hóa: 'a hia / hia')",
+      "ipa": "a˧˧ hĩã˧˧",
+      "gloss_en": "elder brother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chị gái",
+      "form": "阿姐 (a1 zê2 — Việt hóa: 'a chế / chế')",
+      "ipa": "a˧˧ t͡se˥˧",
+      "gloss_en": "elder sister",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chú (em trai của cha)",
+      "form": "叔 (zêg4 — Việt hóa: 'chệt / chệc')",
+      "ipa": "t͡sek̚˨",
+      "gloss_en": "paternal younger uncle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tiền (từ thông dụng của người Tiều miền Tây Nam Bộ)",
+      "form": "鐳 (lui1 — đọc 'lui', thay vì 錢 ziên5)",
+      "ipa": "lui˧˧",
+      "gloss_en": "money (Southeast Asian Teochew term)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "củ cải muối",
+      "form": "菜脯 (cai3 bou2 — Việt hóa: 'xái pấu')",
+      "ipa": "t͡sʰai˨˩˧ pou˥˧",
+      "gloss_en": "preserved radish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hủ tiếu (sợi bánh gạo)",
+      "form": "粿條 (guê2 diou5 / guê2 diao5 — Việt hóa: 'hủ tiếu')",
+      "ipa": "kue˥˧ tiou˥˥",
+      "gloss_en": "flat rice noodles",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dàn nhạc đại la cổ",
+      "form": "大鑼鼓 (dua7 lo5 gou2 — Việt hóa ở Bạc Liêu/Cần Thơ: 'tùa lò cấu')",
+      "ipa": "tua˩˩ lo˥˥ kou˥˧",
+      "gloss_en": "Teochew gong-and-drum ensemble",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn cơm chưa? (câu chào cửa miệng)",
+      "form": "食飯未 (ziah8 beng7 bhuê7 / ziah8 bung7 bhuê7 — Việt hóa: 'chẹ bừng quề')",
+      "ipa": "t͡siaʔ˦ pɯŋ˩˩ bue˩˩ ~ t͡siaʔ˦ puŋ˩˩ bue˩˩",
+      "gloss_en": "Have you eaten yet?",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Tiều (Triều kịch / 潮劇)",
+        "note": "Sân khấu ca kịch cổ truyền hát bằng tiếng Tiều tại Chợ Lớn (TP.HCM), Sóc Trăng, Bạc Liêu, Cần Thơ, Đồng Nai từ đầu thế kỷ XX; thường biểu diễn xuyên đêm tại các hội quán, chùa Ông, chùa Bà dịp Tết Nguyên tiêu, lễ vía Thiên Hậu, Quan Đế."
+      },
+      {
+        "name": "Nhạc lễ Triều Châu / Đại la cổ (Tùa lò cấu / 潮州大鑼鼓)",
+        "note": "Hòa tấu bộ gõ lớn kết hợp kèn sô-na và dàn dây (chia Tiền bằng và Hậu bằng), gắn liền với lễ hội dân gian, múa lân-sư-rồng và nghi lễ tang ma cổ truyền của người Hoa Tiều Nam Bộ."
+      },
+      {
+        "name": "Huyền thi nhạc (Chaozhou xianshi / 潮州弦詩)",
+        "note": "Nhạc thính phòng đàn dây của các hội cổ nhạc người Tiều (như Sư Trúc Hiên, Triều Quần ở Chợ Lớn); có giao lưu sâu sắc với cổ nhạc Nam Bộ, góp phần hình thành nhóm 'bản Tiều' (như Xang xừ liếu, Khóc hoàng thiên) trong sân khấu cải lương."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Vuốt luyến và nhấn rung theo thanh điệu (Glissando & vibrato trên Nhị huyền)",
+        "description": "Đàn dẫn (nhị huyền / đầu huyền) và giọng hát luyến trượt cao độ sát theo đường nét 8 thanh điệu và biến điệu tiếng Tiều; đặc biệt nhấn rung sâu ở bậc 5 (âm 'ngũ' trong điệu Hoạt ngũ) để tạo màu sắc bi ai.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống điệu thức Huyền thi Triều Châu (Khinh tam trọng lục, Trọng tam trọng lục, Hoạt ngũ, Phản tuyến)",
+        "note": "Dựa trên thang ngũ cung biến hóa bậc III và bậc VI (khinh = cao/chuẩn, trọng = nhấn non/thấp hơn hoặc ngược lại tùy hệ thống Nhị tứ phổ 二四譜); điệu Hoạt ngũ (活五) có nốt rung đặc trưng rất giàu tính biểu cảm.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Nhị huyền / Đầu huyền (Erxian / Touxian — 二弦 / 頭弦)",
+        "note": "Đàn kéo 2 dây gỗ cứng bọc da trăn, lên dây quãng 4 đúng, âm sắc cao sắc, giữ vai trò lĩnh xướng dàn nhạc Tiều"
+      },
+      {
+        "name": "Gia hồ (Yehu — 椰胡) và Đề hồ (Tihu — 提胡)",
+        "note": "Đàn cò bầu gáo dừa và đàn hồ trầm trung phối bè dị âm (heterophony)"
+      },
+      {
+        "name": "Đàn tranh Triều Châu (Chaozhou zheng — 潮州箏), Tỳ bà (Pipa), Tam huyền (Sanxian), Tần cầm (Qinqin), Dương cầm (Yangqin)",
+        "note": "Nhóm nhạc cụ gảy và gõ dây trong dàn Huyền thi và Hậu bằng hát Tiều"
+      },
+      {
+        "name": "Bộ gõ Đại la cổ / Tùa lò cấu (Đại la, tiểu la, thâm ba, chập chõa, trống lớn, trống nhỏ)",
+        "note": "Biên chế Tiền bằng tạo cao trào vang dội đặc trưng của gánh hát và nhạc lễ Tiều"
+      },
+      {
+        "name": "Đại sô-na và Tiểu sô-na (Suona — 嗩吶 / kèn Tàu)",
+        "note": "Nhạc cụ hơi chủ lực trong nhạc lễ và đám tang người Tiều"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "hoa",
+    "quoc_ngu_approximation": [
+      {
+        "native": "b / d / g (Peng'im) — /p, t, k/",
+        "quoc_ngu": "p / t / c (hoặc k)",
+        "note": "Trong Peng'im, 'b, d, g' là âm vô thanh không bật hơi. Viết bằng 'p, t, c/k' trong chữ Quốc ngữ để TTS tiếng Việt không đọc nhầm thành âm hữu thanh hay âm xát."
+      },
+      {
+        "native": "p / t / k (Peng'im) — /pʰ, tʰ, kʰ/",
+        "quoc_ngu": "ph (đọc bật hơi) / th / kh (đọc bật hơi)",
+        "note": "Tiếng Việt KHÔNG có âm tắc bật hơi /pʰ/ và /kʰ/ ('ph' chuẩn đọc là [f], 'kh' chuẩn đọc là [x]). Khi xấp xỉ Quốc ngữ chỉ có thể mượn 'p-h / th / kh' nhưng mô hình chỉ biết tiếng Việt sẽ phát âm thành âm xát [f, x] thay vì tắc bật hơi."
+      },
+      {
+        "native": "bh / gh (Peng'im) — /b, ɡ/",
+        "quoc_ngu": "b / g (hoặc qu- trước uê)",
+        "note": "'bh' gần với 'b' tiếng Việt; 'gh' tiếng Tiều là tắc hữu thanh [ɡ] trong khi 'g/gh' tiếng Việt là xát [ɣ]. Trong từ vay mượn dân gian miền Nam, 'bhuê' đôi khi nghe gần 'quề' (như 'chẹ bừng quề')."
+      },
+      {
+        "native": "z / c (Peng'im) — /t͡s, t͡sʰ/",
+        "quoc_ngu": "ch / x (hoặc ts / tsh)",
+        "note": "Tiếng Việt chuẩn không có cặp tắc-xát chân răng /t͡s/ và /t͡sʰ/ bật hơi. Dân gian Nam Bộ thường phiên /t͡s/ thành 'ch' (zê2 → chế, ziah8 → chẹ) và /t͡sʰ/ thành 'x' (cai3 → xái)."
+      },
+      {
+        "native": "e (Peng'im) — /ɯ/",
+        "quoc_ngu": "ư",
+        "note": "Nguyên âm /ɯ/ của tiếng Tiều (Peng'im viết là 'e') rất gần nguyên âm 'ư' [ɨ] tiếng Việt (ví dụ: le2 /lɯ˥˧/ → lứ; beng7 /pɯŋ˩˩/ → bừng)."
+      },
+      {
+        "native": "-n (Peng'im: an, in, iên...) — /ã, ĩ, ĩẽ.../",
+        "quoc_ngu": "a(ng) / i / ia (kèm ghi chú giọng mũi)",
+        "note": "Chữ Quốc ngữ không có ký hiệu nguyên âm mũi hóa (Ṽ) không đóng âm cuối. Nếu viết '-n' hoặc '-ng', TTS tiếng Việt sẽ đóng lưỡi tạo phụ âm mũi cuối thay vì mở khoang miệng mũi hóa nguyên âm."
+      },
+      {
+        "native": "-h (Peng'im: ah, êh, iah...) — /aʔ, eʔ, iaʔ/",
+        "quoc_ngu": "a / ê / ia + thanh nặng hoặc sắc ngắn",
+        "note": "Âm tắc thanh hầu cuối /-ʔ/ rất ngắn. Trong tiếng Việt dân gian thường xấp xỉ bằng âm tiết mở mang thanh nặng (ngắn, nghẽn thanh hầu ở giọng Bắc) như ziah8 /t͡siaʔ/ → 'chẹ'."
+      }
+    ],
+    "tone_sandhi_note": "Không thể ánh xạ tĩnh 1-1 từ chữ Hán hay số thanh Peng'im sang thanh điệu tiếng Việt nếu bỏ qua biến điệu liên đọc (tone sandhi): trong câu nói/câu hát tiếng Tiều, chỉ âm tiết cuối nhóm ngữ nghĩa giữ nguyên thanh gốc, còn các âm tiết đứng trước phải đổi sang thanh biến điệu trước khi đưa vào bộ tạo giai điệu hoặc G2P.",
+    "sub_varieties": [
+      {
+        "name": "Các nhóm ngôn ngữ khác thuộc dân tộc Hoa tại Việt Nam (ngoài tiếng Tiều)",
+        "iso639_3": "yue / nan / hak / cmn",
+        "note": "Cùng thuộc bảng mã dân tộc gốc 'hoa' còn có: Tiếng Quảng Đông (yue, glottocode yuec1235), Tiếng Phúc Kiến / Tuyền Chương (nan, glottocode hokk1242), Tiếng Khách Gia / Hẹ (hak, glottocode hakk1236), Tiếng Hải Nam (nan, glottocode hain1237) và Tiếng Quan Thoại / Phổ thông (cmn, glottocode mand1415)."
+      },
+      {
+        "name": "Giọng Triều Châu phủ — Sán Đầu (Chaozhou–Swatow)",
+        "iso639_3": "nan",
+        "note": "Phổ biến tại Chợ Lớn (TP.HCM) và các đô thị Đông Nam Bộ; giọng Sán Đầu có xu hướng chuyển một số vần /-ɯŋ, -ɯk̚/ của phủ Triều Châu sang /-uŋ, -uk̚/."
+      },
+      {
+        "name": "Giọng Tiều miền Tây Nam Bộ (Vĩnh Châu — Sóc Trăng, Bạc Liêu, Rạch Giá)",
+        "iso639_3": "nan",
+        "note": "Hình thành qua hơn 200 năm định cư cộng cư với người Kinh và người Khmer; bảo lưu nhiều từ vựng Tiều Đông Nam Á (như 'lui' 鐳 chỉ tiền) và chịu ảnh hưởng giao thoa từ vựng với phương ngữ Nam Bộ và tiếng Khmer."
+      },
+      {
+        "name": "Giọng Triều Dương — Phổ Ninh — Huệ Lai (Chaoyang–Puning)",
+        "iso639_3": "nan",
+        "note": "Hiện diện ở một bộ phận gia đình gốc Triều Dương/Phổ Ninh tại Nam Bộ; có 7 thanh điệu (nhập dương thượng vào âm khứ hoặc âm bình) và giữ âm cuối /-n, -t/ ở một số vần."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "我 (ua2)",
+        "ipa": "ua˥˧",
+        "meaning_vi": "tôi / qua"
+      },
+      {
+        "native": "汝 (le2 / lu2)",
+        "ipa": "lɯ˥˧ ~ lu˥˧",
+        "meaning_vi": "bạn / lứ"
+      },
+      {
+        "native": "人 (nang5)",
+        "ipa": "naŋ˥˥",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "水 (zui2)",
+        "ipa": "t͡sui˥˧",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "火 (huê2)",
+        "ipa": "hue˥˧",
+        "meaning_vi": "lửa"
+      },
+      {
+        "native": "茶 (dê5)",
+        "ipa": "te˥˥",
+        "meaning_vi": "trà"
+      },
+      {
+        "native": "飯 (beng7 / bung7)",
+        "ipa": "pɯŋ˩˩ ~ puŋ˩˩",
+        "meaning_vi": "cơm"
+      },
+      {
+        "native": "食 (ziah8)",
+        "ipa": "t͡siaʔ˦",
+        "meaning_vi": "ăn"
+      },
+      {
+        "native": "大 (dua7)",
+        "ipa": "tua˩˩",
+        "meaning_vi": "lớn / to"
+      },
+      {
+        "native": "好 (ho2)",
+        "ipa": "ho˥˧",
+        "meaning_vi": "tốt / khỏe"
+      },
+      {
+        "native": "三 (san1)",
+        "ipa": "sã˧˧",
+        "meaning_vi": "số ba"
+      },
+      {
+        "native": "㩼謝 / 多謝 (zoi7 sia7)",
+        "ipa": "t͡soi˩˩ sia˩˩",
+        "meaning_vi": "cảm ơn (khi nói liền biến điệu thành [t͡soi˧˧ sia˩˩])"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Chaozhou (chao1238)",
+      "url": "https://glottolog.org/resource/languoid/id/chao1238",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Min Nan Chinese (minn1241, ISO 639-3: nan)",
+      "url": "https://glottolog.org/resource/languoid/id/minn1241",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Teochew Min",
+      "url": "https://en.wikipedia.org/wiki/Teochew_Min",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Teochew string music (Chaozhou xianshi)",
+      "url": "https://en.wikipedia.org/wiki/Teochew_string_music",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Triều Châu",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Tri%E1%BB%81u_Ch%C3%A2u",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Tiều (Việt Nam)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Ti%E1%BB%81u_(Vi%E1%BB%87t_Nam)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Hát tiều",
+      "url": "https://vi.wikipedia.org/wiki/H%C3%A1t_ti%E1%BB%81u",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Li, Yongming 李永明 (1959). Chaozhou fangyan [潮州方言 — Phương ngữ Triều Châu]. Bắc Kinh: Zhonghua Shuju.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tổng cục Thống kê (2020). Kết quả toàn bộ Tổng điều tra dân số và nhà ở năm 2019. NXB Thống kê, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology.codas[4].note, lexicon[10], ml_hints.quoc_ngu_approximation[3].note, ml_hints.quoc_ngu_approximation[6].note, ml_hints.sample_words[7]",
+          "severity": "high",
+          "problem": "Từ 食 ('ăn') trong tiếng Triều Châu có phụ âm đầu tắc-xát vô thanh KHÔNG bật hơi /t͡s/, viết theo Peng'im là 'ziah8' /t͡siaʔ˦/ (POJ viết là 'chia̍h'). Bản nháp đã nhầm chữ 'ch-' của POJ sang chữ 'c-' (/t͡sʰ/ bật hơi) của Peng'im nên ghi sai thành 'ciah8' /t͡sʰiaʔ˦/.",
+          "fix": "Sửa 'ciah8' /t͡sʰiaʔ˦/ thành 'ziah8' /t͡siaʔ˦/ ở tất cả các vị trí xuất hiện."
+        },
+        {
+          "path": "lexicon[5]",
+          "severity": "high",
+          "problem": "Từ 叔 ('chú', Việt hóa: 'chệt / chệc') phát âm là /t͡sek̚˨/ với nguyên âm /e/ (Peng'im viết là 'zêg4'). Bản nháp nhầm quy ước chữ 'e' (/ɯ/) và 'ê' (/e/) của Peng'im nên ghi sai thành 'zeg4' và IPA 't͡sɯk̚˨'.",
+          "fix": "Sửa Peng'im thành 'zêg4' (hoặc 'a1 zêg4' 阿叔) và IPA thành 't͡sek̚˨'."
+        },
+        {
+          "path": "lexicon[1], lexicon[10], ml_hints.quoc_ngu_approximation[4].note, ml_hints.sample_words[1], ml_hints.sample_words[6]",
+          "severity": "medium",
+          "problem": "Không khớp giữa chính tả Peng'im và ký âm IPA cho nguyên âm /ɯ/ (Peng'im viết là 'e') và /u/ (Peng'im viết là 'u'): từ 汝 ('lứ') đọc /lɯ˥˧/ (giọng phủ Triều Châu) phải viết Peng'im là 'le2', còn 'lu2' là cách đọc /lu˥˧/ (giọng Sán Đầu); tương tự, từ 飯 ('cơm / bừng') đọc /pɯŋ˩˩/ (giọng Triều Châu) phải viết Peng'im là 'beng7', còn 'bung7' là cách đọc /puŋ˩˩/ (giọng Sán Đầu).",
+          "fix": "Ghi rõ cả hai biến thể Triều Châu / Sán Đầu: 'le2 / lu2' ('lɯ˥˧ ~ lu˥˧') cho 汝 và 'beng7 / bung7' ('pɯŋ˩˩ ~ puŋ˩˩') cho 飯."
+        },
+        {
+          "path": "lexicon[3]",
+          "severity": "medium",
+          "problem": "Từ 阿兄 ('anh trai') có nguyên âm đôi mũi hóa /a˧˧ hĩã˧˧/, theo quy tắc Peng'im (đã nêu ở phonology.vowels[6]) phải có '-n' cuối để ghi tính mũi ('a1 hian1'), nhưng bản nháp viết thiếu '-n' thành 'a1 hia1'.",
+          "fix": "Sửa Peng'im thành 'a1 hian1'."
+        },
+        {
+          "path": "phonology.vowels[8].note",
+          "severity": "medium",
+          "problem": "Chữ 黃 ('họ Huỳnh/Hoàng, màu vàng') trong tiếng Triều Châu mang thanh 5 Dương bình, viết theo Peng'im là 'ng5' (/ŋ̍˥˥/), không phải 'ng6' hay 'hng5' ('hng5' trong tiếng Tiều là 園 'vườn', hoặc là cách viết POJ 'hn̂g' của tiếng Phúc Kiến cho chữ 黃).",
+          "fix": "Sửa ví dụ thành 'ng5 (黃 \"họ Huỳnh/Hoàng, màu vàng\") hoặc hng5 (園 \"vườn\")'."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn có URL đang để null.",
+          "fix": "Cập nhật url_check thành 'verified' sau khi kiểm chứng các liên kết Glottolog và Wikipedia."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần người bản xứ Hoa Tiều tại Chợ Lớn (TP.HCM) và Vĩnh Châu (Sóc Trăng) đối chiếu chi tiết quy tắc biến điệu liên đọc (tone sandhi) và tỷ lệ giữ nguyên âm /ɯ/ so với /u/.",
+      "Cần nghệ nhân cổ nhạc Triều Châu tại Nam Bộ thẩm định cách ký âm ABC cho các hơi/điệu Huyền thi nhạc (Khinh tam trọng lục, Hoạt ngũ) và sự tương ứng với các 'bản Tiều' trong cải lương."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

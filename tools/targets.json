@@ -393,5 +393,389 @@
   "name_vi": "Tiếng Ơ Đu",
   "ethnic_group_vi": "Ơ Đu",
   "hint": "Một trong 53 dân tộc thiểu số được công nhận chính thức tại Việt Nam."
+ },
+ {
+  "id": "vie-thanh-hoa",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Thổ ngữ Thanh Hóa",
+  "hint": "Tách riêng khỏi vie-north-central; phương ngữ chuyển tiếp Bắc–Trung."
+ },
+ {
+  "id": "vie-xu-quang",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Giọng xứ Quảng (Đà Nẵng, Quảng Nam, Quảng Ngãi)",
+  "hint": "Tách riêng khỏi vie-south-central; biến đổi nguyên âm a→[ɑ], ao→ô, âu→ao, ăn/ăng→eng... Ghi quy tắc chuyển chữ máy chạy được."
+ },
+ {
+  "id": "vie-binh-dinh-phu-yen",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Giọng Bình Định – Phú Yên",
+  "hint": "Tách riêng khỏi vie-south-central; ví dụ biến đổi vần -ao/-au, -ương; hát bài chòi, hát bội."
+ },
+ {
+  "id": "vie-southwest",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Giọng miền Tây Nam Bộ (Đồng bằng sông Cửu Long)",
+  "hint": "Phân biệt với giọng Sài Gòn/Đông Nam Bộ; vọng cổ, đờn ca tài tử, hò. Dùng vie-south làm gốc, ghi rõ khác biệt."
+ },
+ {
+  "id": "ba-na-ren",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Rơ Ngao",
+  "ethnic_group_vi": "Ba Na",
+  "iso639_3_expected": "ren",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ba Na tại Việt Nam (mã ISO dự kiến: ren; bảng mã dân tộc gốc: ba-na). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ba-na\"."
+ },
+ {
+  "id": "bru-van-kieu-xhv",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Khùa",
+  "ethnic_group_vi": "Bru - Vân Kiều",
+  "iso639_3_expected": "xhv",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Bru - Vân Kiều tại Việt Nam (mã ISO dự kiến: xhv; bảng mã dân tộc gốc: bru-van-kieu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"bru-van-kieu\"."
+ },
+ {
+  "id": "cham-cja",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Chăm Tây (Chăm Nam Bộ)",
+  "ethnic_group_vi": "Chăm",
+  "iso639_3_expected": "cja",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chăm tại Việt Nam (mã ISO dự kiến: cja; bảng mã dân tộc gốc: cham). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"cham\"."
+ },
+ {
+  "id": "cham-hro",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Haroi (Chăm H'roi)",
+  "ethnic_group_vi": "Chăm",
+  "iso639_3_expected": "hro",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chăm tại Việt Nam (mã ISO dự kiến: hro; bảng mã dân tộc gốc: cham). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"cham\"."
+ },
+ {
+  "id": "chut-pkt",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mã Liềng",
+  "ethnic_group_vi": "Chứt",
+  "iso639_3_expected": "pkt",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chứt tại Việt Nam (mã ISO dự kiến: pkt; bảng mã dân tộc gốc: chut). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"chut\"."
+ },
+ {
+  "id": "chut-aem",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Arem",
+  "ethnic_group_vi": "Chứt",
+  "iso639_3_expected": "aem",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chứt tại Việt Nam (mã ISO dự kiến: aem; bảng mã dân tộc gốc: chut). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"chut\"."
+ },
+ {
+  "id": "co-lao-giq",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cờ Lao Xanh",
+  "ethnic_group_vi": "Cờ Lao",
+  "iso639_3_expected": "giq",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Cờ Lao tại Việt Nam (mã ISO dự kiến: giq; bảng mã dân tộc gốc: co-lao). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"co-lao\"."
+ },
+ {
+  "id": "co-lao-gir",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Cờ Lao Đỏ",
+  "ethnic_group_vi": "Cờ Lao",
+  "iso639_3_expected": "gir",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Cờ Lao tại Việt Nam (mã ISO dự kiến: gir; bảng mã dân tộc gốc: co-lao). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"co-lao\"."
+ },
+ {
+  "id": "co-tu-phg",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Phương (Cơ Tu Phương)",
+  "ethnic_group_vi": "Cơ Tu",
+  "iso639_3_expected": "phg",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Cơ Tu tại Việt Nam (mã ISO dự kiến: phg; bảng mã dân tộc gốc: co-tu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"co-tu\"."
+ },
+ {
+  "id": "dao-mji",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Kim Mun (Dao Làn Tẻn / Thanh Y / Quần Trắng)",
+  "ethnic_group_vi": "Dao",
+  "iso639_3_expected": "mji",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Dao tại Việt Nam (mã ISO dự kiến: mji; bảng mã dân tộc gốc: dao). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"dao\"."
+ },
+ {
+  "id": "e-de-ibh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Bih (Ê Đê Bih)",
+  "ethnic_group_vi": "Ê Đê",
+  "iso639_3_expected": "ibh",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ê Đê tại Việt Nam (mã ISO dự kiến: ibh; bảng mã dân tộc gốc: e-de). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"e-de\"."
+ },
+ {
+  "id": "gie-trieng-stg",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Triêng",
+  "ethnic_group_vi": "Giẻ Triêng",
+  "iso639_3_expected": "stg",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Giẻ Triêng tại Việt Nam (mã ISO dự kiến: stg; bảng mã dân tộc gốc: gie-trieng). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"gie-trieng\"."
+ },
+ {
+  "id": "gie-trieng-tdf",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ve (Talieng)",
+  "ethnic_group_vi": "Giẻ Triêng",
+  "iso639_3_expected": "tdf",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Giẻ Triêng tại Việt Nam (mã ISO dự kiến: tdf; bảng mã dân tộc gốc: gie-trieng). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"gie-trieng\"."
+ },
+ {
+  "id": "hmong-mww",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mông Trắng (Hmong Daw)",
+  "ethnic_group_vi": "H'Mông",
+  "iso639_3_expected": "mww",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: mww; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+ },
+ {
+  "id": "hmong-hmz",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mông Xanh (Hmong Shua)",
+  "ethnic_group_vi": "H'Mông",
+  "iso639_3_expected": "hmz",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: hmz; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+ },
+ {
+  "id": "hmong-hmv",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mông Đô",
+  "ethnic_group_vi": "H'Mông",
+  "iso639_3_expected": "hmv",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: hmv; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+ },
+ {
+  "id": "hmong-hmf",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hmong Don",
+  "ethnic_group_vi": "H'Mông",
+  "iso639_3_expected": "hmf",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: hmf; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+ },
+ {
+  "id": "hoa-nan",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Triều Châu (Tiều)",
+  "ethnic_group_vi": "Hoa",
+  "iso639_3_expected": "nan",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Hoa tại Việt Nam (mã ISO dự kiến: nan; bảng mã dân tộc gốc: hoa). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hoa\"."
+ },
+ {
+  "id": "hoa-hnm",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hải Nam",
+  "ethnic_group_vi": "Hoa",
+  "iso639_3_expected": "hnm",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Hoa tại Việt Nam (mã ISO dự kiến: hnm; bảng mã dân tộc gốc: hoa). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hoa\"."
+ },
+ {
+  "id": "la-chi-lwh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Chí Trắng",
+  "ethnic_group_vi": "La Chí",
+  "iso639_3_expected": "lwh",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc La Chí tại Việt Nam (mã ISO dự kiến: lwh; bảng mã dân tộc gốc: la-chi). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"la-chi\"."
+ },
+ {
+  "id": "la-hu-lhi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Hủ Sư (La Hủ Vàng)",
+  "ethnic_group_vi": "La Hủ",
+  "iso639_3_expected": "lhi",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc La Hủ tại Việt Nam (mã ISO dự kiến: lhi; bảng mã dân tộc gốc: la-hu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"la-hu\"."
+ },
+ {
+  "id": "la-hu-lkc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Khù Sung (La Hủ Na)",
+  "ethnic_group_vi": "La Hủ",
+  "iso639_3_expected": "lkc",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc La Hủ tại Việt Nam (mã ISO dự kiến: lkc; bảng mã dân tộc gốc: la-hu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"la-hu\"."
+ },
+ {
+  "id": "mnong-mng",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mnông Đông",
+  "ethnic_group_vi": "Mnông",
+  "iso639_3_expected": "mng",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Mnông tại Việt Nam (mã ISO dự kiến: mng; bảng mã dân tộc gốc: mnong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"mnong\"."
+ },
+ {
+  "id": "mnong-mnn",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mnông Nam",
+  "ethnic_group_vi": "Mnông",
+  "iso639_3_expected": "mnn",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Mnông tại Việt Nam (mã ISO dự kiến: mnn; bảng mã dân tộc gốc: mnong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"mnong\"."
+ },
+ {
+  "id": "muong-nuo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Nguồn",
+  "ethnic_group_vi": "Mường",
+  "iso639_3_expected": "nuo",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Mường tại Việt Nam (mã ISO dự kiến: nuo; bảng mã dân tộc gốc: muong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"muong\"."
+ },
+ {
+  "id": "nung-zhn",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Nùng Dín",
+  "ethnic_group_vi": "Nùng",
+  "iso639_3_expected": "zhn",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Nùng tại Việt Nam (mã ISO dự kiến: zhn; bảng mã dân tộc gốc: nung). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"nung\"."
+ },
+ {
+  "id": "nung-enc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng En (Nùng Vẻn)",
+  "ethnic_group_vi": "Nùng",
+  "iso639_3_expected": "enc",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Nùng tại Việt Nam (mã ISO dự kiến: enc; bảng mã dân tộc gốc: nung). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"nung\"."
+ },
+ {
+  "id": "phu-la-lgh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Laghuu (Xá Phó / Phù Lá Lão)",
+  "ethnic_group_vi": "Phù Lá",
+  "iso639_3_expected": "lgh",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Phù Lá tại Việt Nam (mã ISO dự kiến: lgh; bảng mã dân tộc gốc: phu-la). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"phu-la\"."
+ },
+ {
+  "id": "ra-glai-rgs",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Raglai Nam",
+  "ethnic_group_vi": "Ra Glai",
+  "iso639_3_expected": "rgs",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ra Glai tại Việt Nam (mã ISO dự kiến: rgs; bảng mã dân tộc gốc: ra-glai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ra-glai\"."
+ },
+ {
+  "id": "ra-glai-roc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Raglai Các Gia",
+  "ethnic_group_vi": "Ra Glai",
+  "iso639_3_expected": "roc",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ra Glai tại Việt Nam (mã ISO dự kiến: roc; bảng mã dân tộc gốc: ra-glai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ra-glai\"."
+ },
+ {
+  "id": "stieng-stt",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xtiêng Bù Đêh",
+  "ethnic_group_vi": "Xtiêng",
+  "iso639_3_expected": "stt",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xtiêng tại Việt Nam (mã ISO dự kiến: stt; bảng mã dân tộc gốc: stieng). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"stieng\"."
+ },
+ {
+  "id": "ta-oi-pac",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pa Cô",
+  "ethnic_group_vi": "Tà Ôi",
+  "iso639_3_expected": "pac",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Tà Ôi tại Việt Nam (mã ISO dự kiến: pac; bảng mã dân tộc gốc: ta-oi). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ta-oi\"."
+ },
+ {
+  "id": "tay-tyl",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thu Lao",
+  "ethnic_group_vi": "Tày",
+  "iso639_3_expected": "tyl",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Tày tại Việt Nam (mã ISO dự kiến: tyl; bảng mã dân tộc gốc: tay). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"tay\"."
+ },
+ {
+  "id": "tay-pdi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pa Dí",
+  "ethnic_group_vi": "Tày",
+  "iso639_3_expected": "pdi",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Tày tại Việt Nam (mã ISO dự kiến: pdi; bảng mã dân tộc gốc: tay). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"tay\"."
+ },
+ {
+  "id": "thai-twh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thái Trắng (Tày Đón)",
+  "ethnic_group_vi": "Thái",
+  "iso639_3_expected": "twh",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: twh; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+ },
+ {
+  "id": "thai-tyr",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thái Đỏ",
+  "ethnic_group_vi": "Thái",
+  "iso639_3_expected": "tyr",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tyr; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+ },
+ {
+  "id": "thai-tyj",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tai Yo (Thái Quỳ Châu)",
+  "ethnic_group_vi": "Thái",
+  "iso639_3_expected": "tyj",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tyj; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+ },
+ {
+  "id": "thai-tmm",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tai Thanh (Thái Thanh)",
+  "ethnic_group_vi": "Thái",
+  "iso639_3_expected": "tmm",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tmm; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+ },
+ {
+  "id": "thai-thc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày Hàng Tổng (Tày Mường)",
+  "ethnic_group_vi": "Thái",
+  "iso639_3_expected": "thc",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: thc; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+ },
+ {
+  "id": "thai-tyt",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày Tấc",
+  "ethnic_group_vi": "Thái",
+  "iso639_3_expected": "tyt",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tyt; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+ },
+ {
+  "id": "tho-hnu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày Poọng / Đan Lai – Ly Hà (Hung)",
+  "ethnic_group_vi": "Thổ",
+  "iso639_3_expected": "hnu",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thổ tại Việt Nam (mã ISO dự kiến: hnu; bảng mã dân tộc gốc: tho). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"tho\"."
+ },
+ {
+  "id": "xo-dang-kxy",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ca Dong",
+  "ethnic_group_vi": "Xơ Đăng",
+  "iso639_3_expected": "kxy",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: kxy; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+ },
+ {
+  "id": "xo-dang-hal",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hà Lăng",
+  "ethnic_group_vi": "Xơ Đăng",
+  "iso639_3_expected": "hal",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: hal; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+ },
+ {
+  "id": "xo-dang-tdr",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tơ Đra",
+  "ethnic_group_vi": "Xơ Đăng",
+  "iso639_3_expected": "tdr",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: tdr; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+ },
+ {
+  "id": "xo-dang-moo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mơ Nâm",
+  "ethnic_group_vi": "Xơ Đăng",
+  "iso639_3_expected": "moo",
+  "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: moo; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
  }
 ]

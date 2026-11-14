@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "e-de-ibh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Bih (Ê Đê Bih)",
+    "ethnic_group_vi": "Ê Đê",
+    "iso639_3_expected": "ibh",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ê Đê tại Việt Nam (mã ISO dự kiến: ibh; bảng mã dân tộc gốc: e-de). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"e-de\"."
+  },
+  "started": "2026-11-13T23:21:42.703622",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9452,
+      "candidatesTokenCount": 8487,
+      "totalTokenCount": 17939,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9452
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8487
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10676,
+      "candidatesTokenCount": 10814,
+      "totalTokenCount": 24045,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10676
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10814
+        }
+      ],
+      "thoughtsTokenCount": 2555,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.vowels",
+        "severity": "high",
+        "problem": "Theo Nguyen (2013, tr. 14, 25–27, Bảng 3.3 & 3.6), tiếng Bih có đúng 14 nguyên âm đơn âm vị học (monophthongs), trong đó dòng giữa có 4 độ mở: khép /ɨ/ (ư), nửa khép có đối lập dài–ngắn /ɘ/ (ơ) – /ɘ̆/ (ơ̆), nửa mở /ə/ (â), và mở có đối lập dài–ngắn /a/ (a) – /ă/ (ă). Bản thảo hiện tại bỏ sót nguyên âm nửa mở dòng giữa /ə/ (chữ viết 'â'), gộp nhầm /ɘ/ (ơ) thành /əː/, đồng thời liệt kê dư nguyên âm dài 'o' /ɔː/ (trong khi Nguyen 2013 tr. 25 khẳng định /-ɔ-/ chỉ xuất hiện trong âm tiết đóng, luôn ngắn và viết là 'ŏ' trong Bảng 3.6) và thiếu nhóm 3 nguyên âm ba (triphthongs: iêu, uai, uay).",
+        "fix": "Chuẩn hóa lại danh sách nguyên âm khớp chính xác với Bảng 3.3 và Bảng 3.6 của Nguyen (2013): phân biệt rõ /ɘ̆–ɘ/ (ơ̆–ơ) với /ə/ (â), bỏ mục 'o' (/ɔː/) độc lập, làm rõ rằng các nguyên âm dòng trước (i, ê, e) không có đối lập độ dài âm vị học (dấu trăng trên ĭ, ĕ chỉ ghi độ ngắn ngữ âm trong âm tiết đóng hoặc âm tắc thanh hầu cuối /-ʔ/), và bổ sung mục nguyên âm ba (iêu, uai, uay)."
+      },
+      {
+        "path": "autonym",
+        "severity": "medium",
+        "problem": "Giá trị 'tlei Bih' được suy diễn từ quy tắc tương ứng ngữ âm (Ê Đê 'klei' ~ Bih 'tlei'), nhưng trong luận án của Nguyen (2013) tên tự gọi của ngôn ngữ và tộc người chỉ được ghi nhận trực tiếp là 'Bih'.",
+        "fix": "Đổi autonym thành 'Bih', hạ độ tin cậy hoặc loại bỏ cụm 'tlei Bih' tự suy diễn khỏi ml_hints.sample_words và ghi chú vào validation.open_issues."
+      },
+      {
+        "path": "lexicon[18].standard_vi",
+        "severity": "low",
+        "problem": "Mục từ 'putao' trong Nguyen (2013) chỉ có nghĩa là 'trưởng làng' (village chief); cách dịch thêm 'vua lửa vua nước' là sự gán ghép từ thiết chế Pơtao Apui / Pơtao Ia của người Gia Rai.",
+        "fix": "Sửa standard_vi của 'putao' thành 'trưởng làng' để bám sát nguồn tư liệu Nguyen (2013)."
+      },
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "low",
+        "problem": "Trong Bảng 3.4 của Nguyen (2013, tr. 22), văn bản nêu có 6 phụ âm đầu tiền âm tiết (/p, t, c, k, ʔ, m/), nhưng bảng biểu có thêm hàng Rhotics (r- / tr- trong các biến thể như trlâo, trbâo). Ngoài ra, tổ hợp phụ âm đầu nguyên cấp (primary clusters) trong tiếng Bih chỉ có âm thứ hai là /-l-/ hoặc /-r-/ (Nguyen 2013, tr. 23); dạng 'mn-' (như mnŭk) thực chất là hiện tượng rút gọn nguyên âm tiền âm tiết dưới ảnh hưởng của tiếng Ê Đê.",
+        "fix": "Bổ sung giải thích chính xác về tổ hợp phụ âm đầu C(l/r)- và hiện tượng giao thoa với tiếng Ê Đê ở các từ như mnŭk, tlâo/trlâo."
+      }
+    ]
+  },
+  "schema_errors": []
+}

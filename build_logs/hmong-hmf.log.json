@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "hmong-hmf",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hmong Don",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3_expected": "hmf",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: hmf; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+  },
+  "started": "2026-11-13T23:32:32.603680",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9446,
+      "candidatesTokenCount": 7870,
+      "totalTokenCount": 26290,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9446
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7870
+        }
+      ],
+      "thoughtsTokenCount": 8974,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9661,
+      "candidatesTokenCount": 8483,
+      "totalTokenCount": 18566,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9661
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8483
+        }
+      ],
+      "thoughtsTokenCount": 422,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[5].glottocode",
+        "severity": "high",
+        "problem": "Glottocode 'blac1271' là mã của 'Black South African English' trên Glottolog, không phải của Chuanqiandian Cluster Miao [cqd] hay H'Mông Đu.",
+        "fix": "Sửa glottocode của 'cqd' (Chuanqiandian Cluster Miao) thành 'chua1256' theo Glottolog 5.3."
+      },
+      {
+        "path": "ml_hints.quoc_ngu_approximation[3]",
+        "severity": "medium",
+        "problem": "Ghi 'gầu plềnh (RPA: nkauj nplooj)' và giải thích âm đầu là '/ᵐbˡ/ (bl- / RPA npl-)' là nhầm lẫn từ vựng: 'gầu plềnh' (tiếng hát tình yêu/giao duyên) trong Chữ Hmông Việt là 'gơưx plênhs' (RPA: 'nkauj plees', âm đầu /pˡ/ 'pl-' và vần /ẽ/ 'ênh'/'ee'), còn 'nplooj' là lá cây (vần 'ông'/'oo').",
+        "fix": "Sửa thành 'gơưx plênhs / gầu plềnh (RPA: nkauj plees)' và chỉnh lại giải thích ngữ âm cho phụ âm đầu tiền mũi hóa /ᵑk/ ('g-' / RPA 'nk-') cùng tổ hợp giải phóng bên /pˡ/ ('pl-')."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Bảng phụ âm đầu theo khung Chữ Hmông Việt (1961) liệt kê 'b' (/ᵐb/), 'bl' (/ᵐbˡ/), 'nt' (/ⁿt/) nhưng thiếu phụ âm tắc ngạc mềm tiền mũi hóa 'g' (/ᵑk/, RPA: 'nk') vốn xuất hiện ngay trong ví dụ 'gầu plềnh' (nkauj plees).",
+        "fix": "Bổ sung mục grapheme 'g' -> IPA 'ᵑk' (confidence='low') vào phonology.onsets để đồng bộ với hệ thống tiền mũi hóa và phần ml_hints."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn trực tuyến đang để null.",
+        "fix": "Cập nhật url_check='verified' cho các URL đã kiểm chứng qua tìm kiếm thực tế."
+      }
+    ]
+  },
+  "schema_errors": []
+}

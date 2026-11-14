@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "gie-trieng-tdf",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ve (Talieng)",
+    "ethnic_group_vi": "Giẻ Triêng",
+    "iso639_3_expected": "tdf",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Giẻ Triêng tại Việt Nam (mã ISO dự kiến: tdf; bảng mã dân tộc gốc: gie-trieng). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"gie-trieng\"."
+  },
+  "started": "2026-11-13T23:24:36.658986",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9457,
+      "candidatesTokenCount": 10029,
+      "totalTokenCount": 28215,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9457
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10029
+        }
+      ],
+      "thoughtsTokenCount": 8729,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11905,
+      "candidatesTokenCount": 11698,
+      "totalTokenCount": 23603,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11905
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11698
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[12]",
+        "severity": "medium",
+        "problem": "Tổ hợp chữ 'chh' được mô tả là 'Phụ âm mặt lưỡi bật hơi / sinh âm thở' (ipa: 'cʰ ~ c̤'), nhưng theo Bùi Đăng Bình (2025, tr. 149, ghi chú 3), 'chh' được đặt để viết phụ âm tắc mặt lưỡi hữu thanh /ɟ/ nhằm đối lập thanh tính với phụ âm vô thanh /c/ (viết là 'ch').",
+        "fix": "Sửa ipa của 'chh' thành 'ɟ' (tắc mặt lưỡi - ngạc hữu thanh) và cập nhật ghi chú theo đúng tài liệu gốc Bùi Đăng Bình (2025)."
+      },
+      {
+        "path": "phonology.onsets[15]",
+        "severity": "low",
+        "problem": "Mục 'g / gh' chưa tách rõ hoặc ghi rõ giá trị ngữ âm của tổ hợp 'gg' (dùng để ghi phụ âm mạc sinh âm thở /ɡ̤/ theo ghi chú 6 trang 149 của Bùi Đăng Bình 2025).",
+        "fix": "Cập nhật grapheme thành 'g / gh / gg' và ipa thành 'ɡ ~ ɣ / ɡ̤', nâng độ chính xác của mô tả."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "low",
+        "problem": "Theo Bùi Đăng Bình (2022, tr. 71), hệ thống nguyên âm tiếng Ve gồm 15 nguyên âm hạt nhân (12 nguyên âm đơn và 3 nguyên âm đôi /ie, ɨə, uo/). Danh sách hiện tại mới liệt kê 2 nguyên âm đôi (iê/ie và uô/ua), thiếu nguyên âm đôi hàng giữa/sau không tròn môi /ɨə ~ ɯə/ (viết là ươ/ưa).",
+        "fix": "Bổ sung nguyên âm đôi 'ươ, ưa' (ipa: 'ɨə ~ ɯə') vào danh sách phonology.vowels."
+      },
+      {
+        "path": "phonology.onsets[30]",
+        "severity": "low",
+        "problem": "Danh sách tổ hợp phụ âm đầu ghi 'kl, kr, kql' (theo phiên âm âm vị học năm 2022), trong khi phương án chữ viết năm 2025 (Bùi Đăng Bình 2025, tr. 144) quy định viết bằng con chữ 'c' là 'cl, cr, cql' (cùng với bhl, bhr, gl, gr, tl, hgl, hnr, hv, ll...).",
+        "fix": "Chỉnh lại danh sách grapheme tổ hợp phụ âm đầu cho khớp với 62 tổ hợp chữ cái trong phương án Bùi Đăng Bình (2025)."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Mô tả về sáo Pà bam và sáo Đinh buôn có thể bổ sung thông tin cấu tạo vật lý và sự tích nguồn gốc cụ thể đã được kiểm chứng từ lời kể nghệ nhân Zơ Râm Ngăm (Báo Đà Nẵng 2022, Báo Biên phòng 2022).",
+        "fix": "Bổ sung thông số kích thước, số lỗ bấm/thổi và ý nghĩa truyền thống của 3 loại sáo Tuốt léc, Pà bam, Đinh buôn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

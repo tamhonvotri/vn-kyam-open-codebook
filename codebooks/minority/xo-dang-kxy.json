@@ -1,0 +1,789 @@
+{
+  "id": "xo-dang-kxy",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ca Dong",
+  "name_en": "Kayong (Ca Dong)",
+  "autonym": "Ka Yong",
+  "ethnic_group_vi": "Xơ Đăng",
+  "language": {
+    "iso639_3": "kxy",
+    "glottocode": "kayo1245",
+    "family": "Austroasiatic",
+    "branch": "North Bahnaric (Kayong-Jeh-Halang)"
+  },
+  "regions": [
+    "Quảng Ngãi (huyện Sơn Tây)",
+    "Quảng Nam (huyện Nam Trà My, huyện Bắc Trà My)",
+    "Kon Tum (huyện Kon Plông, huyện Sa Thầy)"
+  ],
+  "speakers_estimate": "khoảng 25.000–27.000 người (theo ước tính Ethnologue / Lê Bá Thảo et al. 2014)",
+  "scripts": [
+    {
+      "name": "Chữ Ca Dong hệ Latinh (phương án Quảng Nam 2006–2009)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Bộ chữ Latinh do Viện Ngôn ngữ học (TS. Tạ Văn Thông chủ nhiệm) thực hiện giai đoạn 11/2006–04/2009 và nghiệm thu năm 2009 (lưu trữ tại Sở KH&CN Quảng Nam, mã VN-SKHCNQNM); được sử dụng để biên soạn sách dạy và học tiếng Ca Dong tại huyện Nam Trà My và Bắc Trà My, tỉnh Quảng Nam."
+    },
+    {
+      "name": "Bộ chữ Ca Dong hệ Latinh cộng đồng (Sơn Tây, Quảng Ngãi)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Phương án chữ viết dựa trên mẫu tự Latinh do ông Đinh Xuân Bình (xã Sơn Mùa, huyện Sơn Tây) nghiên cứu, biên soạn và truyền dạy thử nghiệm trong cộng đồng tại huyện Sơn Tây, tỉnh Quảng Ngãi (khoảng 2022–2023)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu phân loại ngôn ngữ học Môn-Khmer / Bahnar Bắc (Glottolog, Sidwell, Cooper & Cooper) và các nguồn điền dã dân tộc học - từ vựng tại Việt Nam. Công trình mô tả ngữ âm - âm vị học chi tiết của Tạ Văn Thông (2009) hiện lưu trữ nội bộ (VN-SKHCNQNM) và chưa công bố mở trên mạng; do đó bảng ánh xạ âm vị và phiên âm IPA dưới đây chỉ ghi nhận các đối ứng tiêu biểu của tiểu nhóm Kayong-Jeh-Halang và các chữ viết thực tế trong từ vựng đã kiểm chứng, hạ mức confidence xuống \"low\" hoặc \"medium\" ở những vị trí suy diễn so sánh.",
+  "phonology": {
+    "syllable_structure": "(Cə)C(C)V(C) — cấu trúc âm tiết đôi (sesquisyllabic) gồm tiền âm tiết yếu và âm tiết chính mang trọng âm, đặc trưng của nhánh Bahnar Bắc",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "âm tắc hai môi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "âm tắc hai môi hữu thanh (hoặc tiền thanh hầu hóa ở một số biến thể Bahnar Bắc)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "âm tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d",
+        "note": "âm tắc đầu lưỡi hữu thanh; chính tả địa phương đôi khi dùng cả d và đ theo thói quen Quốc ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "dh / đh",
+        "ipa": "dʱ ~ d̤",
+        "note": "ghi phụ âm bật hơi hữu thanh hoặc dẫn xuất âm vực giọng thở (ví dụ: đheak 'nước')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "bộ chữ Ca Dong ưu tiên dùng k thay cho c (ví dụ: Ka Yong thay vì Ca Dong, katu 'váy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "âm tắc mạc bật hơi (ví dụ: akhung 'đàn ống nứa')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "âm tắc mạc hữu thanh (ví dụ: goong 'chiêng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "âm tắc mặt lưỡi vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "âm tắc mặt lưỡi hữu thanh (ví dụ: jang, jeang)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "bán nguyên âm mặt lưỡi [j]; trong chữ Quốc ngữ thường bị phiên trệch thành 'd/gi' (ví dụ: Ka Yong -> Ca Dong / Ca Giong)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "âm mũi mặt lưỡi (ví dụ: nhê 'nhà')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "âm rung/vỗ đầu lưỡi, bảo lưu trong các tổ hợp phụ âm đầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "tổ hợp phụ âm đầu phổ biến (ví dụ: plây 'làng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kr / k'r",
+        "ipa": "kr ~ kər",
+        "note": "tổ hợp phụ âm đầu hoặc tiền âm tiết kə- rút gọn (ví dụ: k'răh 'già, trưởng')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "br / b'r",
+        "ipa": "br ~ bər",
+        "note": "tổ hợp phụ âm đầu hoặc tiền âm tiết bə- (ví dụ: b'rook / brock 'đàn b'rook')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h'l",
+        "ipa": "hl ~ l̥",
+        "note": "tiền âm tiết hə- trước l hoặc âm bên vô thanh hóa (ví dụ: h'leng goong)",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "nguyên âm mở dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "nguyên âm mở ngắn (ví dụ: k'răh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ e",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "nguyên âm ngắn/thường",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "oo",
+        "ipa": "ɔː",
+        "note": "nhân đôi con chữ biểu thị nguyên âm dài theo truyền thống chữ viết Tây Nguyên (ví dụ: goong, b'rook, ramoong)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": null,
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː ~ ə",
+        "note": "dùng cho cả nguyên âm trung tâm ở âm tiết chính và nguyên âm lướt ở tiền âm tiết (pơ-, bơ-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ea",
+        "ipa": "iə ~ ɛa",
+        "note": "nguyên âm đôi (ví dụ: đheak 'nước', jeang, aseang)",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "âm tắc hai môi không bật hơi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "âm tắc đầu lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "âm tắc mạc cuối âm tiết (ví dụ: b'rook, talok, đheak)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "âm xát thanh hầu cuối âm tiết rất đặc trưng của ngữ chi Bahnar, tạo tiếng thở khẽ cuối từ (ví dụ: oh 'em', k'răh 'già')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / q",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu cuối âm tiết (phổ biến trong nhóm Kayong-Jeh-Halang, cách ghi chính tả chưa thống nhất giữa các tài liệu)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "âm bên cuối âm tiết, không có trong tiếng Việt (ví dụ: tol alao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "âm rung cuối âm tiết, không có trong tiếng Việt (ví dụ: pôper)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "bán nguyên âm cuối (ví dụ: plây, pai)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / u",
+        "ipa": "w",
+        "note": "bán nguyên âm môi cuối âm tiết (ví dụ: pơ dâu, alao)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu hình tuyến kiểu tiếng Việt. Thuộc tiểu nhóm Kayong-Jeh-Halang (nhánh Bahnar Bắc) vốn đặc trưng bởi sự đối lập âm vực thanh hầu (register: giọng trong/căng so với giọng thở/lơi sâu, tương tự tiếng Hà Lăng [hal] và tiếng Giẻ [jeh]) kết hợp đối lập độ dài nguyên âm. Trong các ghi chép thực địa người Việt, cao độ hệ quả của âm vực đôi khi được ký âm tạm bằng dấu thanh Quốc ngữ (như sắc, huyền), nhưng chưa có tài liệu công bố mở xác nhận chi tiết quy ước ký hiệu âm vực trong bộ chữ Ca Dong chuẩn."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Ca Dong (tự gọi)",
+      "form": "Ka Yong",
+      "ipa": "ka ˈjɔŋ",
+      "gloss_en": "Kayong people / language",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "em",
+      "form": "oh",
+      "ipa": "ʔɔh",
+      "gloss_en": "younger sibling",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "làng",
+      "form": "plây",
+      "ipa": "pləj",
+      "gloss_en": "village",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "làng xóm",
+      "form": "plây pla",
+      "ipa": null,
+      "gloss_en": "villages / neighborhood",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ranh giới giữa các làng",
+      "form": "bơla",
+      "ipa": "bəˈlaː",
+      "gloss_en": "inter-village boundary",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "chủ làng / già làng",
+      "form": "k'răh plây",
+      "ipa": "kəˈrah pləj",
+      "gloss_en": "village chief / elder",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "phó chủ làng",
+      "form": "jang k'răh plây",
+      "ipa": null,
+      "gloss_en": "deputy village chief",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "tộc trưởng / chủ nóc nhà dài",
+      "form": "k'răh nhê",
+      "ipa": "kəˈrah ɲeː",
+      "gloss_en": "clan head / longhouse head",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "thầy cúng",
+      "form": "pơ dâu",
+      "ipa": "pəˈdəw",
+      "gloss_en": "shaman / ritual specialist",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "truyền thuyết / truyện cổ",
+      "form": "amon",
+      "ipa": "ʔaˈmɔn",
+      "gloss_en": "legend / folk tale",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "uống",
+      "form": "ố",
+      "ipa": null,
+      "gloss_en": "to drink",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nấu rượu",
+      "form": "pai",
+      "ipa": "paːj",
+      "gloss_en": "to brew rice wine",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "Tết mùa (lễ mừng lúa mới)",
+      "form": "pai ố",
+      "ipa": null,
+      "gloss_en": "harvest / new rice festival",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thần lúa",
+      "form": "mó pế",
+      "ipa": null,
+      "gloss_en": "rice deity / spirit of rice",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đàn nước",
+      "form": "akhung đheak",
+      "ipa": null,
+      "gloss_en": "water-powered bamboo xylophone",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhạc cụ môi hơi (rang leh)",
+      "form": "pôper",
+      "ipa": "poˈpɛr",
+      "gloss_en": "jaw harp / mouth instrument",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "ống nứa đựng thuốc lá / thuốc bột (của hồi môn, lễ vật cưới)",
+      "form": "talok",
+      "ipa": "taˈlɔk̚",
+      "gloss_en": "decorated bamboo tobacco tube",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Ka Lêu",
+        "note": "Làn điệu hát dân ca trữ tình, giao duyên và tự sự truyền khẩu đặc trưng của người Ca Dong (Quảng Ngãi, Quảng Nam), có sự giao thoa văn hóa với người Hrê láng giềng."
+      },
+      {
+        "name": "Ka Choi (Ta Choi)",
+        "note": "Làn điệu dân ca đối đáp sinh hoạt truyền thống, thường đi đôi với Ka Lêu bên bếp lửa hoặc trong lễ hội."
+      },
+      {
+        "name": "Xà ru, Ra nghế, A giới",
+        "note": "Các làn điệu dân ca sinh hoạt và giao duyên truyền thống được bảo tồn, truyền dạy trong cộng đồng người Ca Dong tại huyện Sơn Tây, tỉnh Quảng Ngãi."
+      },
+      {
+        "name": "Kể Hmon (Amon)",
+        "note": "Loại hình hát kể chuyện cổ, truyền thuyết dân gian của người Ca Dong."
+      },
+      {
+        "name": "Hát ting ting",
+        "note": "Lối hát dân ca truyền thống được ghi nhận tại vùng Ca Dong Trà My."
+      },
+      {
+        "name": "Hát cúng nghi lễ (cúng thần lúa Mó pế, lễ ăn trâu huê, cúng máng nước)",
+        "note": "Do thầy cúng (pơ dâu) hoặc già làng thực hiện trong các nghi lễ nông nghiệp và vòng đời."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Cồng chiêng Ca Dong (goong / h'leng goong / goong teng leng)",
+        "note": "Thường biên chế thành bộ 7 chiếc hoặc bộ lớn đến 14 chiếc kết hợp với 1 trống cái; 'goong teng leng' là lối đánh chiêng/nhạc cụ gõ ở phía trên."
+      },
+      {
+        "name": "Đàn b'rook (brock / brook jeang)",
+        "note": "Nhạc cụ dây gảy truyền thống làm từ ống tre/nứa có bầu cộng hưởng, rất tiêu biểu trong sinh hoạt tự sự và trữ tình của người Ca Dong."
+      },
+      {
+        "name": "Đàn tol alao",
+        "note": "Nhạc cụ dây gõ bằng ống lồ ô (5 dây tách từ vỏ thân ống, tương tự đàn chapi/tol alao của người Ba Na), dành riêng cho nữ giới diễn tấu nơi yên tĩnh."
+      },
+      {
+        "name": "Đàn nước (akhung đheak)",
+        "note": "Hệ thống ống nứa, lồ ô nhiều kích cỡ dựng bên dòng suối, dùng sức nước gõ tạo âm thanh vừa thư giãn vừa xua đuổi chim thú giữ rẫy lúa và cầu thần Rừng, thần Nước."
+      },
+      {
+        "name": "Sáo ta lía",
+        "note": "Nhạc cụ hơi bằng nứa phổ biến ở vùng Trường Sơn Đông."
+      },
+      {
+        "name": "Đàn tơ rưng",
+        "note": "Nhạc cụ gõ bằng ống nứa."
+      },
+      {
+        "name": "Pôper",
+        "note": "Nhạc cụ môi hơi (tương tự đàn môi / rang leh)."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "xo-dang",
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Xơ Đăng (Xơ Teng / Hđang)",
+        "iso639_3": "sed",
+        "glottocode": "seda1241",
+        "note": "Ngôn ngữ chính của dân tộc Xơ Đăng tại Kon Tum và Quảng Nam."
+      },
+      {
+        "name_vi": "Tiếng Hà Lăng (Xlang)",
+        "iso639_3": "hal",
+        "glottocode": "hala1252",
+        "note": "Ngôn ngữ gần gũi nhất về mặt phân loại học với tiếng Ca Dong (cùng tiểu nhóm Kayong-Jeh-Halang; Cooper & Cooper 1966 từng ghi nhận khả năng thông hiểu lẫn nhau cao)."
+      },
+      {
+        "name_vi": "Tiếng Tơ Đrá (Xơ Đrá)",
+        "iso639_3": "tdr",
+        "glottocode": "todr1239",
+        "note": "Ngôn ngữ của nhóm địa phương Tơ Đrá thuộc dân tộc Xơ Đăng tại Kon Tum."
+      },
+      {
+        "name_vi": "Tiếng Mơ Nâm (Bơ Nâm)",
+        "iso639_3": "moo",
+        "glottocode": "mono1272",
+        "note": "Ngôn ngữ của nhóm địa phương Mơ Nâm thuộc dân tộc Xơ Đăng (Kon Plông, Kon Tum)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Ka Yong",
+        "quoc_ngu": "ca dong (hoặc ca dông)",
+        "note": "Âm [j] đầu từ viết là 'y' được đọc giống phụ âm 'd/gi' của phương ngữ Nam Bộ/Trung Bộ ([j]), tránh đọc thành [z] của giọng Hà Nội."
+      },
+      {
+        "native": "plây",
+        "quoc_ngu": "pờ-lây",
+        "note": "Tiếng Việt chuẩn không có tổ hợp phụ âm đầu /pl-/; cần đọc lướt cực nhanh 'pờ' không nhấn trọng âm vào 'lây'."
+      },
+      {
+        "native": "k'răh plây",
+        "quoc_ngu": "cơ-rắt pờ-lây",
+        "note": "Tiền âm tiết 'k'r-' đọc lướt nhẹ 'cơ-r-'; âm cuối '-h' [h] là tiếng thở ra vô thanh ở cuối vần (tiếng Việt không có âm cuối -h, xấp xỉ thô bằng nguyên âm ngắn ngắt hơi hoặc '-t' rất nhẹ kèm bật hơi)."
+      },
+      {
+        "native": "oh",
+        "quoc_ngu": "ót (ngắt mở miệng thổi hơi nhẹ)",
+        "note": "Âm cuối '-h' [h] tạo luồng hơi gió khẽ cuối từ; không đóng khít đầu lưỡi như '-t' tiếng Việt."
+      },
+      {
+        "native": "b'rook",
+        "quoc_ngu": "bờ-róoc",
+        "note": "'oo' biểu thị nguyên âm [ɔː] kéo dài trước âm tắc mạc [-k̚] (tương tự vần 'ooc' trong tiếng Việt như 'xoọc')."
+      },
+      {
+        "native": "goong",
+        "quoc_ngu": "goong",
+        "note": "Vần 'oong' [ɔːŋ] đọc mở miệng và không ngậm hai môi cuối âm như 'ong' [ăwŋ͡m] của tiếng Việt chuẩn."
+      },
+      {
+        "native": "pôper",
+        "quoc_ngu": "pô-pe-rờ",
+        "note": "Âm cuối '-r' [r] không tồn tại trong tiếng Việt; TTS tiếng Việt chỉ có thể xấp xỉ bằng cách nối nhẹ âm rung lưỡi ở cuối âm tiết 'pe'."
+      },
+      {
+        "native": "tol alao",
+        "quoc_ngu": "to-lờ a-lao",
+        "note": "Âm cuối '-l' [l] không có trong tiếng Việt; tránh đọc nhầm thành '-n', cần uốn đầu lưỡi chạm lợi sau nguyên âm 'o'."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "Ka Yong",
+        "ipa": "ka ˈjɔŋ",
+        "meaning_vi": "người Ca Dong / tiếng Ca Dong"
+      },
+      {
+        "native": "oh",
+        "ipa": "ʔɔh",
+        "meaning_vi": "em"
+      },
+      {
+        "native": "plây",
+        "ipa": "pləj",
+        "meaning_vi": "làng"
+      },
+      {
+        "native": "bơla",
+        "ipa": "bəˈlaː",
+        "meaning_vi": "ranh giới giữa các làng"
+      },
+      {
+        "native": "k'răh plây",
+        "ipa": "kəˈrah pləj",
+        "meaning_vi": "chủ làng, già làng"
+      },
+      {
+        "native": "k'răh nhê",
+        "ipa": "kəˈrah ɲeː",
+        "meaning_vi": "tộc trưởng, chủ nóc nhà"
+      },
+      {
+        "native": "pơ dâu",
+        "ipa": "pəˈdəw",
+        "meaning_vi": "thầy cúng"
+      },
+      {
+        "native": "amon",
+        "ipa": "ʔaˈmɔn",
+        "meaning_vi": "truyền thuyết, truyện cổ"
+      },
+      {
+        "native": "pai",
+        "ipa": "paːj",
+        "meaning_vi": "nấu rượu"
+      },
+      {
+        "native": "ố",
+        "ipa": null,
+        "meaning_vi": "uống"
+      },
+      {
+        "native": "akhung đheak",
+        "ipa": null,
+        "meaning_vi": "đàn nước"
+      },
+      {
+        "native": "pôper",
+        "ipa": "poˈpɛr",
+        "meaning_vi": "nhạc cụ môi hơi (đàn môi)"
+      },
+      {
+        "native": "talok",
+        "ipa": "taˈlɔk̚",
+        "meaning_vi": "ống nứa đựng thuốc lá / thuốc bột"
+      }
+    ],
+    "tts_and_singing_notes": [
+      "Tiếng Ca Dong có các âm cuối /-h, -l, -r, -ʔ/ và các tổ hợp phụ âm đầu /pl-, kr-, br-, kl-/ không có trong hệ thống âm vị tiếng Việt chuẩn; mô hình giọng hát huấn luyện thuần tiếng Việt sẽ dễ làm rơi âm cuối /-h, -r, -l/ hoặc tự động chèn nguyên âm đệm quá rõ vào tiền âm tiết.",
+      "Do ngôn ngữ dùng đối lập âm vực (giọng trong vs. giọng thở) thay vì thanh điệu hình tuyến, khi phổ nhạc hoặc tổng hợp giọng hát không nên áp cứng đường nét thanh điệu gãy/nặng (như ngã, nặng Bắc Bộ) của chữ Quốc ngữ lên từ tiếng Ca Dong."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Kayong [kayo1245]",
+      "url": "https://glottolog.org/resource/languoid/id/kayo1245",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "ISO 639-3 Registration Authority (SIL) — Kayong [kxy]",
+      "url": "https://iso639-3.sil.org/code/kxy",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Kayong [kxy]",
+      "url": "https://www.ethnologue.com/language/kxy/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Anh — Kayong language (Vietnam)",
+      "url": "https://en.wikipedia.org/wiki/Kayong_language_(Vietnam)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Ca Dong",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ca_Dong",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary tiếng Việt — Thể loại:Mục từ tiếng Ca Dong",
+      "url": "https://vi.wiktionary.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:M%E1%BB%A5c_t%E1%BB%AB_ti%E1%BA%BFng_Ca_Dong",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tạ Văn Thông (chủ nhiệm), Trương Thu Hà, Phan Lương Hùng, Hà Thùy Dương, Bùi Thanh Tuấn (2009). Nghiên cứu hoàn chỉnh bộ chữ và biên soạn sách phục vụ dạy và học tiếng Cadong. Viện Ngôn ngữ học (Nơi lưu trữ: VN-SKHCNQNM).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Phan Lương Hùng (2016). Mối quan hệ giữa tiếng Ca dong với tiếng nói của các nhóm địa phương Xơ Đăng khác. Tạp chí Ngôn ngữ (ISSN 0866-7519).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Đăng Vũ (2024). Dấu xưa lưng chừng núi - Một vùng bản sắc Ca Dong. Hà Nội: NXB Khoa học xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lê Bá Thảo, Hoàng Ma, et al. (2014). Các dân tộc ít người ở Việt Nam: các tỉnh phía nam. Hà Nội: NXB Khoa học xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Sidwell, Paul (2009). Classifying the Austroasiatic languages: History and state of the art. Munich: Lincom Europa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cooper, James & Nancy Cooper (1966). Halang Phonemes. Mon-Khmer Studies II: 87–98.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "scripts[0].note",
+          "severity": "low",
+          "problem": "Ghi cơ quan thực hiện là 'Viện Ngôn ngữ học / Viện Từ điển học và Bách khoa thư Việt Nam (PGS.TS. Tạ Văn Thông chủ nhiệm)'. Theo hồ sơ nhiệm vụ KH&CN quốc gia (NASATI) giai đoạn 11/2006–04/2009, tổ chức chủ trì đề tài chữ Ca Dong là Viện Ngôn ngữ học (thuộc Viện Khoa học Xã hội Việt Nam), chủ nhiệm thời điểm đó là TS. Tạ Văn Thông (ông mới chuyển sang Viện Từ điển học và Bách khoa thư Việt Nam ở đề tài tiếng Co giai đoạn 2010–2014).",
+          "fix": "Chỉnh lại thông tin cơ quan chủ trì chính xác theo hồ sơ NASATI."
+        },
+        {
+          "path": "lexicon",
+          "severity": "medium",
+          "problem": "Các mục từ trong lexicon ('Ka Yong', 'oh', 'plây', 'bơla', 'k'răh plây', 'k'răh nhê', 'pơ dâu', 'amon', 'pai', 'pôper', 'talok') được gán phiên âm IPA cụ thể và để confidence='high' hoặc 'medium', mặc dù báo cáo ngữ âm học của Tạ Văn Thông (2009) chưa mở toàn văn và các nguồn mở (Wiktionary tiếng Việt, báo chí điền dã, sách của Nguyễn Đăng Vũ 2024) chỉ ghi mặt chữ chính tả chứ không cung cấp ký âm IPA chuẩn xác (đặc biệt là phẩm chất âm vực thanh hầu và độ dài nguyên âm).",
+          "fix": "Hạ confidence của các mục từ có IPA suy diễn xuống 'low' (hoặc giữ 'medium' cho những từ có mô tả phát âm trực tiếp như 'oh' có âm cuối [-h] trong bài phỏng vấn Đinh Xuân Bình), và đồng bộ với ml_hints.sample_words."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Một số ánh xạ grapheme->IPA (như 'kr / k'r', 'br / b'r') đang để confidence='high' dù chưa có bảng âm vị học chính thức được xuất bản mở để xác nhận bản chất âm vị học của tiền âm tiết trong phương án chữ viết chuẩn.",
+          "fix": "Hạ confidence của 'kr / k'r' và 'br / b'r' từ 'high' xuống 'medium'."
+        },
+        {
+          "path": "music.genres",
+          "severity": "low",
+          "problem": "Thiếu các làn điệu dân ca Ca Dong tiêu biểu đã được kiểm chứng rõ trong các nguồn văn hóa địa phương tại Sơn Tây (Quảng Ngãi) như hát xà ru, ra nghế, a giới, kể hmon (amon); mặt khác Ka Choi còn được gọi là Ta Choi và giao thoa mạnh với dân ca Hrê láng giềng.",
+          "fix": "Bổ sung ghi chú về tên gọi Ta Choi (Ka Choi) và các thể loại xà ru, ra nghế, a giới, kể hmon theo nguồn Bộ VHTTDL / Báo Văn Hóa."
+        },
+        {
+          "path": "music.instruments",
+          "severity": "low",
+          "problem": "Các nhạc cụ Ca Dong đã được dẫn làm ví dụ trong phần phonology ('tol alao', 'h'leng goong', 'goong teng leng') chưa được liệt kê đầy đủ trong danh mục music.instruments.",
+          "fix": "Bổ sung thông tin về đàn tol alao và goong teng leng / h'leng goong vào danh mục nhạc cụ để nhất quán với phần ngữ âm và nguồn Wiktionary/Wikipedia."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các nguồn URL chưa được gán trạng thái kiểm tra vào trường url_check.",
+          "fix": "Cập nhật url_check='verified' cho các URL đã xác minh hoạt động."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp với báo cáo đề tài của TS. Tạ Văn Thông (2009) lưu trữ tại Sở KH&CN Quảng Nam (mã VN-SKHCNQNM) để bổ sung bảng chữ cái chuẩn thức đầy đủ và quy ước ghi âm vực (register) / âm tắc thanh hầu cuối âm tiết.",
+      "Cần xác minh sự khác biệt phương ngữ và quy tắc chính tả giữa bộ chữ Ca Dong giảng dạy ở Nam/Bắc Trà My (Quảng Nam) và bộ chữ của cộng đồng do ông Đinh Xuân Bình biên soạn ở Sơn Tây (Quảng Ngãi).",
+      "Cần người bản xứ Ca Dong kiểm chứng lại phiên âm IPA chính xác (đặc biệt là phẩm chất âm vực giọng thở và độ dài nguyên âm) cho danh mục từ vựng mẫu.",
+      "Cần nhạc sĩ dân tộc nhạc học thẩm định thang âm, điệu thức và ký âm các làn điệu Ka Lêu, Ka Choi (Ta Choi), Xà ru, Ra nghế."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

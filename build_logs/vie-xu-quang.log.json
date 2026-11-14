@@ -1,0 +1,102 @@
+{
+  "target": {
+    "id": "vie-xu-quang",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Giọng xứ Quảng (Đà Nẵng, Quảng Nam, Quảng Ngãi)",
+    "hint": "Tách riêng khỏi vie-south-central; biến đổi nguyên âm a→[ɑ], ao→ô, âu→ao, ăn/ăng→eng... Ghi quy tắc chuyển chữ máy chạy được."
+  },
+  "started": "2026-11-13T23:09:52.041859",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9418,
+      "candidatesTokenCount": 13290,
+      "totalTokenCount": 30012,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9418
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13290
+        }
+      ],
+      "thoughtsTokenCount": 7304,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 15455,
+      "candidatesTokenCount": 14756,
+      "totalTokenCount": 31593,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 15455
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 14756
+        }
+      ],
+      "thoughtsTokenCount": 1382,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "sources[1].title",
+        "severity": "high",
+        "problem": "Sai tên tạp chí xuất bản bài báo có DOI 10.59907/daujs.3.2.2024.328: bản thảo ghi 'Tạp chí Khoa học Đại học Kiến trúc Đà Nẵng, 3(2)', nhưng chữ viết tắt 'daujs' thực chất là 'Dong A University Journal of Science' (Tạp chí Khoa học Trường Đại học Đông Á), Tập 3, Số 2(10), tháng 6/2024, tr. 2–13.",
+        "fix": "Sửa tên tạp chí thành 'Tạp chí Khoa học Trường Đại học Đông Á (Dong A University Journal of Science), 3(2), tr. 2–13'."
+      },
+      {
+        "path": "sources[5].title",
+        "severity": "medium",
+        "problem": "Sai năm xuất bản của 'Từ điển phương ngữ Quảng Nam' do PGS.TS. Phạm Văn Hảo chủ biên: đề tài được nghiệm thu giai đoạn 2015–2016 và sách được xuất bản năm 2017 (không phải 2010).",
+        "fix": "Sửa năm xuất bản từ 2010 thành 2017."
+      },
+      {
+        "path": "sources[0].title",
+        "severity": "low",
+        "problem": "Số trang của chương sách Pham (2020) trong 'Historical Linguistics 2017' (CILT 350, John Benjamins) theo trang chủ nhà xuất bản là pp. 431–452 (bản thảo ghi pp. 432–451).",
+        "fix": "Sửa số trang thành pp. 431–452."
+      },
+      {
+        "path": "sources[2].title",
+        "severity": "low",
+        "problem": "Mã ISBN '978-604-84-6686-2' của sách 'Nguồn gốc và sự hình thành giọng Quảng Nam' (NXB Đà Nẵng, 2022) không kiểm chứng được trên cơ sở dữ liệu thư mục trực tuyến.",
+        "fix": "Lược bỏ mã ISBN không kiểm chứng được khỏi chuỗi tiêu đề, chỉ giữ thông tin xuất bản đã xác thực (Đà Nẵng: NXB Đà Nẵng, 2022)."
+      },
+      {
+        "path": "phonology.codas[1].note",
+        "severity": "medium",
+        "problem": "Mâu thuẫn nội tại: trường grapheme ghi 't (sau nguyên âm không phải i/ê ngắn)' nhưng phần ví dụ trong note lại nêu 'mít ~ míc → [mik]' (chứa nguyên âm /i/).",
+        "fix": "Thay ví dụ 'mít ~ míc → [mik]' bằng ví dụ đúng bối cảnh sau nguyên âm không phải i/ê như 'mắt ~ mắc → [mɛk], đứt ~ đức → [ɗɨk]'."
+      },
+      {
+        "path": "phonology.tones[5]",
+        "severity": "medium",
+        "problem": "Mô tả thanh nặng (B2) ghi 'ít thanh hầu hóa gắt như phương ngữ Bắc Bộ' chưa phản ánh đúng khảo sát ngữ âm của Andrea Hoa Pham (2019, 2020): trong phương ngữ Quảng Nam truyền thống (cũng như Thanh Hóa), thanh nặng đi xuống thấp và có hiện tượng thanh hầu hóa / tắc thanh hầu cuối âm tiết [21ˀ], chỉ ở đô thị hoặc thế hệ trẻ mới có biến thể uốn [212] như Nam Bộ.",
+        "fix": "Cập nhật chao_contour thành '21 ~ 212' và bổ sung ghi chú về tính chất thanh hầu hóa/tắc thanh hầu [21ˀ] trong giọng Quảng Nam truyền thống theo Pham (2019, 2020)."
+      },
+      {
+        "path": "correspondences_from_standard_vietnamese[24]",
+        "severity": "low",
+        "problem": "Mục tương ứng 'iêt / iêp → it / ip' ghi ipa_variety là 'ik / ip' chưa nhất quán với cách phiên âm âm cuối sau /i/ và dễ xung đột với quy tắc 'iêt → iêc' ở mức 'full' trong respelling_rules.",
+        "fix": "Làm rõ ipa_variety là 'it ~ ik / ip' và ghi chú rõ sự biến thiên giữa phát âm rút gọn nguyên âm đôi (bít) và giữ nguyên âm đôi (biếc)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

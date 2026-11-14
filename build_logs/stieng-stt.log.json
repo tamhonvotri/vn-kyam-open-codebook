@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "stieng-stt",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Xtiêng Bù Đêh",
+    "ethnic_group_vi": "Xtiêng",
+    "iso639_3_expected": "stt",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xtiêng tại Việt Nam (mã ISO dự kiến: stt; bảng mã dân tộc gốc: stieng). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"stieng\"."
+  },
+  "started": "2026-11-13T23:47:21.977179",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9447,
+      "candidatesTokenCount": 9284,
+      "totalTokenCount": 18731,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9447
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9284
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11079,
+      "candidatesTokenCount": 10118,
+      "totalTokenCount": 23569,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11079
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10118
+        }
+      ],
+      "thoughtsTokenCount": 2372,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "autonym",
+        "severity": "low",
+        "problem": "Chuỗi ký tự có khoảng trắng thừa ở đầu (\" Điêng / Sơđiêng...\").",
+        "fix": "Xóa khoảng trắng thừa ở đầu thành \"Điêng / Sơđiêng (nhóm Bù Đêh / Bù Đek)\"."
+      },
+      {
+        "path": "phonology.vowels[4].ipa",
+        "severity": "low",
+        "problem": "Con chữ 'e' được ghi chú là ngắn trước -h (ví dụ sơteh [səˈtɛh] trong lexicon), nhưng trường ipa chỉ ghi nguyên âm dài \"ɛː ~ æː\".",
+        "fix": "Bổ sung biến thể ngắn vào trường ipa thành \"ɛː ~ æː ~ ɛ\" để nhất quán với ngữ liệu thực tế và phiên âm trong lexicon."
+      },
+      {
+        "path": "lexicon[6].form",
+        "severity": "medium",
+        "problem": "Từ 'trăng' ở phương ngữ Bù Đêh trong Lê Khắc Cường (2015, tr. 34) được phiên âm là [səmăɲ] (tương ứng [măɲ] ở Bù Lơ) với nguyên âm ngắn /a/ (ă), nhưng trường form lại ghi là \"sơmanh\" (nguyên âm dài) trong khi IPA ghi \"səˈmaɲ\".",
+        "fix": "Sửa form thành \"sơmănh (sơmanh)\" trong cả lexicon và ml_hints.sample_words để khớp với nguyên âm ngắn trong tài liệu gốc và phiên âm IPA."
+      },
+      {
+        "path": "lexicon[4].form",
+        "severity": "low",
+        "problem": "Theo Lê Khắc Cường (2015, tr. 32, chú thích 5), từ 'mây' trong phương ngữ Bù Đêh có hai biến thể từ vựng là mleng / miêk (tương ứng với tuk / rơtuk ở Bù Lơ).",
+        "fix": "Cập nhật form thành \"miêk / mleng\" (IPA: \"miək̚ ~ mlɛːŋ\") để phản ánh đầy đủ khảo sát điền dã của Lê Khắc Cường (2015)."
+      },
+      {
+        "path": "lexicon[14..16].confidence",
+        "severity": "medium",
+        "problem": "Các mục từ 'gâu' (bò), 'rua' (voi), 'xor' (heo) lấy từ Bảng 1 trong Lê Khắc Cường (2015, tr. 32) vốn trích lại bảng ghi âm theo thói quen chính tả tiếng Việt của Nguyễn Thị Thu Trang (1995) (tác giả Lê Khắc Cường đã lưu ý bảng này có một số cách ghi âm chưa chuẩn xác).",
+        "fix": "Hạ mức độ tin cậy (confidence) của 'gâu', 'rua', 'xor' từ \"high\" xuống \"medium\"."
+      }
+    ]
+  },
+  "schema_errors": []
+}

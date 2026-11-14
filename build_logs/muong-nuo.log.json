@@ -1,0 +1,92 @@
+{
+  "target": {
+    "id": "muong-nuo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Nguồn",
+    "ethnic_group_vi": "Mường",
+    "iso639_3_expected": "nuo",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Mường tại Việt Nam (mã ISO dự kiến: nuo; bảng mã dân tộc gốc: muong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"muong\"."
+  },
+  "started": "2026-11-13T23:39:39.626133",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9438,
+      "candidatesTokenCount": 10548,
+      "totalTokenCount": 28552,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9438
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10548
+        }
+      ],
+      "thoughtsTokenCount": 8566,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11448,
+      "candidatesTokenCount": 12567,
+      "totalTokenCount": 26247,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11448
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12567
+        }
+      ],
+      "thoughtsTokenCount": 2232,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ethnic_group_vi",
+        "severity": "medium",
+        "problem": "Ghi 'Mường' một cách tuyệt đối dễ gây nhầm lẫn về mặt hành chính – dân tộc học tại Việt Nam, vì trong danh mục 54 dân tộc hiện hành và các kỳ tổng điều tra dân số từ 1960 đến nay, người Nguồn được xếp vào dân tộc Kinh (Việt), dù về ngôn ngữ học tiếng Nguồn thuộc tiểu nhóm Mường (Muongic) hoặc nhánh thứ ba của Việt–Mường.",
+        "fix": "Sửa thành 'Nguồn (hành chính xếp vào dân tộc Kinh; ngôn ngữ học xếp vào tiểu nhóm Mường / Việt–Mường)' để phản ánh chính xác cả thực tế hành chính lẫn phân loại ngôn ngữ học."
+      },
+      {
+        "path": "phonology.codas[1].note",
+        "severity": "high",
+        "problem": "Gộp từ 'lản /lan⁵/ (lưỡi)' vào nhóm phản ánh âm cuối lỏng tiền Việt–Mường *-l là không chính xác theo nguồn Nguyễn Phú Phong (1996: 186). Nguyễn Phú Phong chỉ rõ âm cuối /-n/ trong tiếng Nguồn có nguồn gốc kép: (1) từ *-l ứng với -i/-y tiếng Việt ở thanh bằng (như cân /kən¹/ 'cây', măn /măn¹/ 'mây'), và (2) từ *-s (ứng với -h/-lh tiếng Rục) ở các từ mang thanh hỏi/ngã (như mun⁵ 'mũi', lan⁵ 'lưỡi').",
+        "fix": "Tách rõ hai nguồn gốc lịch sử của âm cuối /-n/ trong phần ghi chú theo đúng Nguyễn Phú Phong (1996: 186)."
+      },
+      {
+        "path": "phonology.codas[2] & phonology.codas[5]",
+        "severity": "medium",
+        "problem": "Gộp /-ŋ ~ -ɲ/ và /-k ~ -c/ bằng dấu biến thể tự do/vị trí (~) chưa phản ánh đúng phân tích của Nguyễn Văn Tài (1993: 238), theo đó trong tiếng Nguồn cặp âm cuối mặt lưỡi /-ɲ, -c/ là hai âm vị độc lập với /-ŋ, -k/ và thường tương ứng với cặp âm cuối đầu lưỡi /-n, -t/ của tiếng Việt (ví dụ: tếnh 'đến', quynh 'quên').",
+        "fix": "Tách /-ɲ/ và /-c/ thành các mục âm cuối riêng biệt hoặc ghi chú rõ tính độc lập âm vị học và tương ứng với /-n, -t/ tiếng Việt theo Nguyễn Văn Tài (1993)."
+      },
+      {
+        "path": "phonology.tones & lexicon",
+        "severity": "low",
+        "problem": "Các từ 'tât' (/tət⁷/ 'đất') và 'đác' (/dak⁷/ 'nước') đang dùng cách đánh số 7–8 của Nguyễn Phú Phong (1996: 187), trong khi bảng của Nguyễn Văn Tài (1993: 234) ghi là 'tât³' và 'dak³' (gộp nhập thanh vào thanh 3/4).",
+        "fix": "Bổ sung ghi chú đối chiếu ký hiệu thanh 7/8 (Nguyễn Phú Phong 1996) và 3/4 (Nguyễn Văn Tài 1993) trong phonology.tones và lexicon."
+      },
+      {
+        "path": "music.scales_or_modes[0] & sources",
+        "severity": "low",
+        "problem": "Phần thang âm của Hò thuốc cá mới chỉ mô tả định tính, thiếu thông tin nhạc lý cụ thể đã được Cục Di sản văn hóa và Viện Âm nhạc công bố (điệu Sol Cung, tầm cữ trong phạm vi quãng 6, tiếng xố con 'hôi lên là hôi lên').",
+        "fix": "Bổ sung thông tin điệu thức Sol Cung (tầm cữ quãng 6) từ hồ sơ Cục Di sản văn hóa và thêm nguồn Viện Âm nhạc / Cục Di sản văn hóa vào danh mục sources."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,856 @@
+{
+  "id": "muong-nuo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Nguồn",
+  "name_en": "Nguon (Nguồn)",
+  "autonym": "Thiếng Nguồn",
+  "ethnic_group_vi": "Nguồn (hành chính xếp vào dân tộc Kinh; ngôn ngữ học xếp vào tiểu nhóm Mường / Việt–Mường)",
+  "language": {
+    "iso639_3": "nuo",
+    "glottocode": "nguo1239",
+    "family": "Austroasiatic",
+    "branch": "Vietic (Viet-Muong / Muongic)"
+  },
+  "regions": [
+    "Huyện Minh Hóa, tỉnh Quảng Bình (nay thuộc tỉnh Quảng Trị; tập trung tại các xã Trung Hóa, Tân Hóa, Yên Hóa, Hóa Sơn, Thượng Hóa, Quy Đạt)",
+    "Khu vực thị trấn Đồng Lê và vùng phụ cận thuộc huyện Tuyên Hóa, tỉnh Quảng Bình (nay thuộc tỉnh Quảng Trị)"
+  ],
+  "speakers_estimate": "Khoảng 20.000–35.000 người tại Việt Nam (Nguyễn Phú Phong 1996 ghi nhận khoảng 20.000 người; hồ sơ Cục Di sản văn hóa 2021 ghi nhận hơn 35.000 nhân khẩu người Nguồn tại Minh Hóa; một số nguồn quốc tế cũ như Ethnologue 2007 từng ghi số liệu thấp hơn nhiều)",
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ (ký âm tự phát theo tiếng Việt)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Nguồn chưa có bộ chữ viết chuẩn hóa riêng do Nhà nước ban hành. Trong sưu tầm văn học dân gian (Truyện cổ người Nguồn, lời ca Hò thuốc cá, Hát sắc bùa) và giao tiếp đời thường, người dân dùng chữ Quốc ngữ tiếng Việt điều chỉnh theo âm địa phương; các công trình ngôn ngữ học dùng ký hiệu IPA kèm chữ số thanh điệu (1–6 hoặc 1–8)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học thực địa của Nguyễn Văn Tài (1975/1993, 2005) và Nguyễn Phú Phong (1996), kết hợp tư liệu văn hóa dân gian Minh Hóa (Viện Âm nhạc, Cục Di sản văn hóa). Tại Việt Nam, người Nguồn chưa được công nhận là một dân tộc riêng trong danh mục 54 dân tộc (về hành chính thường được xếp vào dân tộc Kinh từ kỳ điều tra dân số 1960, nhưng về ngôn ngữ học thuộc tiểu nhóm Mường / Muongic hoặc nhánh thứ ba của nhóm Việt–Mường; bảng mã này gắn với nhóm Mường theo mã gốc muong). Chỉ mô tả phần tiếng Nguồn nói tại Việt Nam.",
+  "phonology": {
+    "syllable_structure": "(C1)(l/w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh; bảo lưu rõ ở thổ ngữ Cổ Liêm (ví dụ: pông /poŋ¹/ 'hoa/bông'), tương ứng với /b/ ở thổ ngữ Yên Thọ và tiếng Việt (Nguyễn Phú Phong 1996: 181)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Tắc hai môi hữu thanh; có mặt ở cả hai thổ ngữ (ví dụ: bố /bo³/ 'bố', bói /bɔj³/ 'muối' ở Cổ Liêm; bông /boŋ¹/ 'hoa' ở Yên Thọ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Ví dụ: măn /măn¹/ 'mây', mưa /mɨə²/ 'mưa', mỡ /mə⁵/ 'mỡ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "f ~ pʰ",
+        "note": "Xát môi-răng vô thanh hoặc tắc hai môi bật hơi tùy điểm thổ ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Phổ biến hơn ở thổ ngữ Yên Thọ (ví dụ: vói /vɔj³/ 'muối', đối lập với Cổ Liêm /bɔj³/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh; bảo lưu âm vô thanh gốc Việt–Mường ở các từ mà tiếng Việt đọc thành đ- hoặc d- (ví dụ: tât /tət⁷/ 'đất', ta /ta³/ 'đá', tao /taw¹/ 'dao', tang /taŋ¹/ 'đường/đàng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi; phản ánh cả âm xát tiền Việt–Mường *s- ở một số từ tương ứng với t-/s-/r- tiếng Việt (ví dụ: thiếng /tʰiəŋ³/ 'tiếng', thón /tʰɔn³/ 'hói/sói trán', thăn sia /tʰăn¹ siə/ 'răng sữa', thác /tʰăk⁷/ 'tóc' theo Nguyễn Phú Phong 1996: 182, 187)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "d ~ ɗ",
+        "note": "Tắc đầu lưỡi hữu thanh; bảo lưu /d/ cổ chưa mũi hóa thành /n/ như tiếng Việt (ví dụ: đác /dak⁷/ 'nước', đắng /dăŋ³/ 'nắng', đăm /dăm¹/ 'năm [5]')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Ví dụ: năm /năm¹/ 'năm [thời gian]', ni /ni¹/ 'này/đây', nô /no¹/ 'đâu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Ví dụ: lản /lan⁵/ 'lưỡi', lả /la⁵/ 'lửa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tl / kl / l (tổ hợp cổ)",
+        "ipa": "tl ~ ʔl",
+        "note": "Tổ hợp phụ âm đầu cổ hoặc vết tích tắc thanh hầu được ghi nhận ở một số điểm khảo sát: tloi /tlɔj¹/ ~ toi /tɔj¹/ 'trời' (Nguyễn Văn Tài 1993: 234), ?lu /ʔlu¹/ 'trâu', ?lu /ʔlu²/ 'trầu' ở Yên Thọ (Nguyễn Phú Phong 1996: 183, 187)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ʐ",
+        "note": "Ví dụ: rọt /rɔːt⁸/ 'ruột', rả /ra⁵/ 'sữa' (Nguyễn Phú Phong 1996: 187)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s ~ ʂ",
+        "note": "Ở Cổ Liêm /s/ xuất hiện cả trong một số từ tương ứng với ch-/g- tiếng Việt (ví dụ: xí /si³/ 'chí/chấy', xam /sam¹/ 'giam', xia 'chia'); ở Yên Thọ có âm xuýt quặt lưỡi /ʂ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi vô thanh; tương ứng với cả ch- (thanh âm vực cao) và gi-/d- (thanh âm vực thấp) tiếng Việt (ví dụ: chiếng /ciəŋ³/ 'giếng', chấm /cəm³/ 'giấm', chép /cɛp⁷/ 'dép' ở Yên Thọ); ở Yên Thọ một số từ /c-/ của Cổ Liêm chuyển sang tắc /d, t, ʔ/ (Nguyễn Phú Phong 1996: 182–183)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ: nhai /ɲaj²/ 'người')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh (ví dụ: cân /kən¹/ 'cây', có /kɔ³/ 'có', củ /ku⁴/ 'gấu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Tắc mạc bật hơi hoặc xát mạc vô thanh (Nguyễn Văn Tài 1993: 234 ghi biến thể kʰu⁵ 'đá' ở một điểm thổ ngữ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɣ ~ g",
+        "note": "Xát hoặc tắc mạc hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi mạc (ví dụ: Nguồn /ŋuən²/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ví dụ: hón /hɔn³/ 'suối/khe')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu mở đầu âm tiết vắng phụ âm đầu chữ viết hoặc tương ứng với /c-/ Cổ Liêm ở một số từ thổ ngữ Yên Thọ",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / y",
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước không tròn môi (ví dụ: ni /ni¹/ 'này', mi /mi¹/ 'mây [song mây]')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ ~ ɯ",
+        "note": "Nguyên âm đóng hàng giữa/sau không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː ~ ɤ",
+        "note": "Nguyên âm nửa mở/giữa dài không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə̆ ~ ɤ̆",
+        "note": "Nguyên âm giữa ngắn (ví dụ: tât /tət⁷/ 'đất', cân /kən¹/ 'cây')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài; bảo lưu /a/ cổ trong một số từ mà tiếng Việt đã chuyển thành ưa/ia (ví dụ: lả /la⁵/ 'lửa', rả /ra⁵/ 'sữa' theo Nguyễn Phú Phong 1996: 187)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ă",
+        "note": "Nguyên âm mở ngắn; bảo lưu ở cả một số từ mà tiếng Việt đã chuyển sang o/ô trước âm cuối mạc (ví dụ: măn /măn¹/ 'mây', đắng /dăŋ³/ 'nắng', thác /tʰăk⁷/ 'tóc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi (ví dụ: củ /ku⁴/ 'gấu', lu /ʔlu¹/ 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi (ví dụ: pông /poŋ¹/ 'bông/hoa', nô /no¹/ 'đâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi (có thể dài trước âm tắc cuối như rọt /rɔːt⁸/ 'ruột')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm hàng trước (ví dụ: chiếng /ciəŋ³/ 'giếng', đia /diə²/ 'dừa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɨə ~ ɯə",
+        "note": "Nguyên âm đôi hướng tâm hàng giữa/sau không tròn môi (ví dụ: mưa /mɨə²/ 'mưa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm hàng sau tròn môi",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi; ngoài các từ gốc *-n, âm cuối /-n/ trong tiếng Nguồn còn có nguồn gốc lịch sử kép theo Nguyễn Phú Phong (1996: 186): (1) phản ánh âm cuối lỏng tiền Việt–Mường *-l ứng với -i/-y tiếng Việt (ví dụ: cân /kən¹/ 'cây', măn /măn¹/ 'mây', căn /kăn¹/ 'cày', hón /hɔn³/ 'suối'); (2) phản ánh âm cuối *-s (ứng với -h/-lh tiếng Rục) ở các từ mang thanh hỏi/ngã (ví dụ: mủn /mun⁵/ 'mũi', lản /lan⁵/ 'lưỡi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi; theo Nguyễn Văn Tài (1993: 238), /-ɲ/ trong tiếng Nguồn là âm vị độc lập với /-ŋ/ và thường tương ứng với âm cuối /-n/ trong tiếng Việt (ví dụ: tếnh 'đến', quynh 'quên')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi mạc (ví dụ: pông /poŋ¹/ 'hoa', đắng /dăŋ³/ 'nắng', tang /taŋ¹/ 'đường')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật ra (ví dụ: chép /cɛp⁷/ 'dép')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật ra (ví dụ: tât /tət⁷/ 'đất', rọt /rɔːt⁸/ 'ruột')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi vô thanh không bật ra; theo Nguyễn Văn Tài (1993: 238), /-c/ là âm vị độc lập với /-k/ và thường tương ứng với âm cuối /-t/ trong tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh không bật ra (ví dụ: đác /dak⁷/ 'nước', thác /tʰăk⁷/ 'tóc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi (ví dụ: tao /taw¹/ 'dao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối không tròn môi, giữ ở các từ gốc *-j (ví dụ: bói/vói /bɔj³ ~ vɔj³/ 'muối', tloi/toi /tlɔj¹ ~ tɔj¹/ 'trời', nhai /ɲaj²/ 'người')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1 (A1 — tương ứng lịch sử thanh ngang)",
+        "mark": "¹",
+        "chao_contour": null,
+        "phonation": "Bằng, xuất phát thấp hơn thanh 2 (đảo chiều độ cao xuất phát so với tiếng Việt chuẩn Hà Nội theo Nguyễn Phú Phong 1996: 187)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2 (A2 — tương ứng lịch sử thanh huyền)",
+        "mark": "²",
+        "chao_contour": null,
+        "phonation": "Bằng cao, xuất phát cao hơn thanh 1 và cao hơn cả thanh ngang của tiếng Việt chuẩn (Nguyễn Phú Phong 1996: 187)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3 (B1 — tương ứng lịch sử thanh sắc)",
+        "mark": "³",
+        "chao_contour": null,
+        "phonation": "Đi lên nhưng xuất phát thấp hơn thanh 4, có tắc thanh hầu (glottalized) ở cuối; nghe rất gần thanh nặng tiếng Việt chuẩn hoặc thanh sắc thổ ngữ Bắc Trung Bộ (Nguyễn Phú Phong 1996: 188)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4 (B2 — tương ứng lịch sử thanh nặng)",
+        "mark": "⁴",
+        "chao_contour": null,
+        "phonation": "Đi xuống, xuất phát cao hơn thanh 3, có tắc thanh hầu ở cuối (Nguyễn Phú Phong 1996: 188)",
+        "merges_with": "tone6",
+        "confidence": "high"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5 (C1 — tương ứng lịch sử thanh hỏi)",
+        "mark": "⁵",
+        "chao_contour": null,
+        "phonation": "Tương ứng từ nguyên với thanh hỏi; phân bố giống hệ thanh Mường Vang và Mường Thạch Thành (Nguyễn Văn Tài 1993: 239)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6 (C2 — tương ứng lịch sử thanh ngã)",
+        "mark": "⁶",
+        "chao_contour": null,
+        "phonation": "Đường nét gần trùng với thanh 4 nên thường khó phân biệt hoặc nhập làm một với thanh 4 (giống nhiều thổ ngữ Quảng Bình và tiếng Mường 5 thanh; Nguyễn Phú Phong 1996: 188)",
+        "merges_with": "tone4",
+        "confidence": "high"
+      },
+      {
+        "id": "tone7",
+        "name": "Thanh 7 (D1 — âm tiết khép p/t/c/k âm vực 1)",
+        "mark": "⁷",
+        "chao_contour": null,
+        "phonation": "Biến thể thanh điệu trên âm tiết kết thúc bằng phụ âm tắc vô thanh (tương ứng lịch sử sắc nhập thanh; Nguyễn Phú Phong 1996: 187 đánh số 7, còn Nguyễn Văn Tài 1993: 234 gộp vào thanh 3)",
+        "merges_with": "tone3",
+        "confidence": "high"
+      },
+      {
+        "id": "tone8",
+        "name": "Thanh 8 (D2 — âm tiết khép p/t/c/k âm vực 2)",
+        "mark": "⁸",
+        "chao_contour": null,
+        "phonation": "Biến thể thanh điệu trên âm tiết kết thúc bằng phụ âm tắc vô thanh (tương ứng lịch sử nặng nhập thanh; Nguyễn Phú Phong 1996: 187 đánh số 8, còn Nguyễn Văn Tài 1993 gộp vào thanh 4)",
+        "merges_with": "tone4",
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu (5–6 thanh điệu âm vị học trên âm tiết mở/vang, thường đánh số từ nguyên 1–6 kèm 7–8 cho âm tiết tắc cuối; thanh 4 và thanh 6 thường nhập làm một). Theo Nguyễn Phú Phong (1996: 187–188), nét khu biệt đặc sắc nhất so với tiếng Việt chuẩn là sự đảo chiều cao độ xuất phát giữa hai loạt âm vực từ nguyên: loạt thấp lịch sử (thanh 2, thanh 4) lại bắt đầu cao hơn loạt cao lịch sử (thanh 1, thanh 3); cả thanh 3 và thanh 4 đều có hiện tượng tắc thanh hầu ở cuối âm tiết. Chưa có công bố đo đạc âm học F0 quy đổi chuẩn số Chao 5 bậc thống nhất cho từng thổ ngữ."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "hoa / bông",
+      "form": "pông (Cổ Liêm) / bông (Yên Thọ)",
+      "ipa": "poŋ¹ ~ boŋ¹",
+      "gloss_en": "flower",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "tloi / toi",
+      "ipa": "tlɔj¹ ~ tɔj¹",
+      "gloss_en": "sky / heaven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đất",
+      "form": "tât",
+      "ipa": "tət⁷ (Nguyễn Văn Tài 1993 ghi tât³)",
+      "gloss_en": "earth / soil",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "đác",
+      "ipa": "dak⁷ ~ djak⁷ (Nguyễn Văn Tài 1993 ghi dak³)",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nắng",
+      "form": "đắng",
+      "ipa": "dăŋ³",
+      "gloss_en": "sunny / sunlight",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mưa",
+      "form": "mưa",
+      "ipa": "mɨə²",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đá",
+      "form": "ta",
+      "ipa": "ta³",
+      "gloss_en": "stone / rock",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "suối / khe",
+      "form": "hón",
+      "ipa": "hɔn³",
+      "gloss_en": "stream",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đường / đàng",
+      "form": "tang",
+      "ipa": "taŋ¹",
+      "gloss_en": "road / path",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "giếng",
+      "form": "chiếng",
+      "ipa": "ciəŋ³",
+      "gloss_en": "well (water)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "cân",
+      "ipa": "kən¹",
+      "gloss_en": "tree / plant",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mây",
+      "form": "măn",
+      "ipa": "măn¹",
+      "gloss_en": "cloud",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "muối",
+      "form": "bói (Cổ Liêm) / vói (Yên Thọ)",
+      "ipa": "bɔj³ ~ vɔj³",
+      "gloss_en": "salt",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lưỡi",
+      "form": "lản",
+      "ipa": "lan⁵",
+      "gloss_en": "tongue",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "lả",
+      "ipa": "la⁵",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sữa",
+      "form": "rả",
+      "ipa": "ra⁵",
+      "gloss_en": "milk",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dao",
+      "form": "tao",
+      "ipa": "taw¹",
+      "gloss_en": "knife",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "nhai",
+      "ipa": "ɲaj²",
+      "gloss_en": "person / human",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "lu",
+      "ipa": "ʔlu¹",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trầu",
+      "form": "lu",
+      "ipa": "ʔlu²",
+      "gloss_en": "betel",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gấu",
+      "form": "củ",
+      "ipa": "ku⁴",
+      "gloss_en": "bear",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đến",
+      "form": "tếng / tếnh",
+      "ipa": null,
+      "gloss_en": "to arrive / until (attested in Hò thuốc cá: 'Tếng khi xia cá nhớ công tầm tèng')",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chia",
+      "form": "xia / xìa",
+      "ipa": null,
+      "gloss_en": "to divide / share (attested in Hò thuốc cá)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đừng quên",
+      "form": "mạ quynh",
+      "ipa": null,
+      "gloss_en": "do not forget (attested in Minh Hóa Nguon folk songs)",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hò thuốc cá (hò thuốc)",
+        "note": "Làn điệu dân ca lao động đặc trưng nhất của người Nguồn ở Minh Hóa, gắn với tục giã rễ cây tèng tập thể bên đầu khe suối để đánh bắt cá; đã được đưa vào Danh mục Di sản văn hóa phi vật thể quốc gia theo Quyết định số 607/QĐ-BVHTTDL ngày 03/02/2021."
+      },
+      {
+        "name": "Hát sắc bùa",
+        "note": "Hát nghi lễ phong tục dịp Tết Nguyên đán và Hội Rằm tháng Ba Minh Hóa; phường sắc bùa đi đến từng nhà hát dạo ngõ, dạo cổng, chúc năm mới bình an và mùa màng tươi tốt."
+      },
+      {
+        "name": "Hát đúm – ví (đúm – pí)",
+        "note": "Hát đối đáp giao duyên nam nữ trong hội chợ tình Rằm tháng Ba Minh Hóa, đám cưới và sinh hoạt cộng đồng."
+      },
+      {
+        "name": "Hát ru (hát ún) và hát đồng dao",
+        "note": "Lời ru con, ru em bằng tiếng Nguồn mang âm điệu mộc mạc, sâu lắng của phụ nữ vùng núi Minh Hóa."
+      },
+      {
+        "name": "Hát nhà trò và Hò đầm đất",
+        "note": "Hát nhà trò diễn xướng trong lễ hội đình làng (như đình Cổ Liêm, đình Yên Thọ); Hò đầm đất phát triển từ chất liệu Hò thuốc cá trong lao động thủy lợi tập thể."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Xướng – xô theo nhịp giã tèng",
+        "description": "Người cái (xướng) cất câu thơ lục bát biến thể bằng tiếng Nguồn, cả tập thể (xô) hòa giọng điệp khúc dồn dập ăn khớp với nhịp chày giã rễ cây tèng (ví dụ câu xô cổ: 'Tầm tèng thì tầm chò sòng / Tở cho cá chết lâm sông lâm bờ / Tầm tèng thì tầm chò sòng / Tếng khi xia cá nhớ công tầm tèng', kèm tiếng xố con 'hôi lên là hôi lên'). Khi hát hội hè, nhịp chày được thay bằng tiếng vỗ tay đều đặn.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Điệu Sol Cung (tầm cữ quãng 6) trong Hò thuốc cá",
+        "note": "Theo tư liệu âm nhạc học của Cục Di sản văn hóa và Viện Âm nhạc, lòng bản Hò thuốc cá thường hát ở điệu Sol Cung trong phạm vi quãng 6, kết hợp luyến láy gắn chặt với thanh điệu thực tế của tiếng Nguồn (như độ cao thanh 2 vút lên và âm sắc nghẹn thanh hầu ở thanh 3/4).",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Chày gỗ và cối đá xếp bên khe suối",
+        "note": "Đạo cụ kiêm nhạc cụ gõ giữ nhịp gốc của diễn xướng Hò thuốc cá"
+      },
+      {
+        "name": "Đàn bầu"
+      },
+      {
+        "name": "Nhị (đàn cò)"
+      },
+      {
+        "name": "Sáo trúc"
+      },
+      {
+        "name": "Trống và xập xỏa",
+        "note": "Bộ gõ rộn ràng dùng trong đội Hát sắc bùa và lễ hội Rằm tháng Ba"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "muong",
+    "quoc_ngu_approximation": [
+      {
+        "native": "pông /poŋ¹/ (Cổ Liêm)",
+        "quoc_ngu": "pông",
+        "note": "Âm đầu /p-/ vô thanh không bật hơi hiếm gặp ở từ thuần Việt chuẩn Hà Nội (trừ từ vay mượn như 'pin', 'pô'); mô hình TTS/giọng hát tiếng Việt cần đọc rõ /p/ không rung dây thanh, tránh đọc thành /b/ ('bông')."
+      },
+      {
+        "native": "tloi /tlɔj¹/ ('trời')",
+        "quoc_ngu": "tơ-loi (đọc lướt nhanh âm đầu)",
+        "note": "Tổ hợp phụ âm đầu /tl-/ không có trong tiếng Việt hiện đại; chỉ có thể xấp xỉ bằng cách đọc lướt cực ngắn 't-loi' hoặc dùng biến thể đã đơn hóa 'toi'."
+      },
+      {
+        "native": "?lu /ʔlu¹/ ('trâu')",
+        "quoc_ngu": "lu (ngắt thanh hầu đầu âm tiết)",
+        "note": "Tổ hợp /ʔl-/ (tắc thanh hầu + âm bên) không có trong tiếng Việt chuẩn; xấp xỉ bằng cách ngắt hơi trước chữ 'lu'."
+      },
+      {
+        "native": "đác /dak⁷/ ('nước') / giác (trong lời ghi Hò thuốc cá)",
+        "quoc_ngu": "đác",
+        "note": "Phụ âm đầu /d/ đọc như chữ 'đ' tiếng Việt; ở một số điểm thổ ngữ phát âm gần /dj-/ hoặc /j-/ nên bản chép lời dân ca địa phương đôi khi ghi biến thể 'giác'."
+      },
+      {
+        "native": "cân /kən¹/ ('cây'), măn /măn¹/ ('mây')",
+        "quoc_ngu": "cân, măn",
+        "note": "Khớp hoàn toàn với vần '-ân', '-ăn' của chữ Quốc ngữ tiếng Việt."
+      },
+      {
+        "native": "mưa /mɨə²/ (thanh 2), ta /ta³/ (thanh 3)",
+        "quoc_ngu": "mưa (cao hơn ngang), tạ (cho thanh 3 có tắc thanh hầu)",
+        "note": "Lưu ý quan trọng về thanh điệu: nếu đưa chữ Quốc ngữ viết theo từ nguyên vào TTS tiếng Việt miền Bắc sẽ bị ngược cao độ thanh điệu, vì thanh 2 tiếng Nguồn thực tế cao hơn thanh 1, còn thanh 3 (/ta³/ 'đá') lại thấp và tắc thanh hầu giống thanh nặng ('tạ') của tiếng Việt chuẩn Hà Nội."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "id": "co-liem",
+        "name_vi": "Thổ ngữ Cổ Liêm (làng Cổ Liêm / Trèm, xã Trung Hóa, Minh Hóa)",
+        "iso639_3": "nuo",
+        "note": "Thổ ngữ bảo thủ nhất, giữ nhiều đặc điểm ngữ âm gần tiếng Mường như phụ âm đầu vô thanh /p-/ đối lập với /b-/ và phụ âm /s-/ ứng với 'ch-' tiếng Việt."
+      },
+      {
+        "id": "yen-tho",
+        "name_vi": "Thổ ngữ Yên Thọ / An Thọ (Bốc Thọ, xã Tân Hóa, Minh Hóa)",
+        "iso639_3": "nuo",
+        "note": "Thổ ngữ có một số biến đổi xích gần tiếng Việt hơn so với Cổ Liêm (như hữu thanh hóa *p > /b/, phát triển /v-/ trong 'vói' /vɔj³/ 'muối', biến đổi /c-/ sang âm tắc đầu lưỡi/thanh hầu ở một số từ)."
+      },
+      {
+        "id": "tuyen-hoa",
+        "name_vi": "Tiếng Nguồn vùng Đồng Lê (huyện Tuyên Hóa)",
+        "iso639_3": "nuo",
+        "note": "Cư trú xen kẽ với người Việt và gần nhóm Sách (dân tộc Chứt); chịu ảnh hưởng song ngữ Việt–Nguồn mạnh."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "pông",
+        "ipa": "poŋ¹",
+        "gloss_vi": "hoa / bông (Cổ Liêm)"
+      },
+      {
+        "native": "tloi ~ toi",
+        "ipa": "tlɔj¹ ~ tɔj¹",
+        "gloss_vi": "trời"
+      },
+      {
+        "native": "tât",
+        "ipa": "tət⁷",
+        "gloss_vi": "đất"
+      },
+      {
+        "native": "đác",
+        "ipa": "dak⁷",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "đắng",
+        "ipa": "dăŋ³",
+        "gloss_vi": "nắng"
+      },
+      {
+        "native": "mưa",
+        "ipa": "mɨə²",
+        "gloss_vi": "mưa"
+      },
+      {
+        "native": "ta",
+        "ipa": "ta³",
+        "gloss_vi": "đá"
+      },
+      {
+        "native": "hón",
+        "ipa": "hɔn³",
+        "gloss_vi": "suối / khe"
+      },
+      {
+        "native": "cân",
+        "ipa": "kən¹",
+        "gloss_vi": "cây"
+      },
+      {
+        "native": "măn",
+        "ipa": "măn¹",
+        "gloss_vi": "mây"
+      },
+      {
+        "native": "bói ~ vói",
+        "ipa": "bɔj³ ~ vɔj³",
+        "gloss_vi": "muối (Cổ Liêm ~ Yên Thọ)"
+      },
+      {
+        "native": "lản",
+        "ipa": "lan⁵",
+        "gloss_vi": "lưỡi"
+      },
+      {
+        "native": "tao",
+        "ipa": "taw¹",
+        "gloss_vi": "dao"
+      },
+      {
+        "native": "nhai",
+        "ipa": "ɲaj²",
+        "gloss_vi": "người"
+      }
+    ],
+    "code_switching_note": "Theo ghi nhận điền dã của Nguyễn Phú Phong (1996: 188), người Nguồn khi trò chuyện tự nhiên thường đan xen từng cụm từ hoặc phát âm một số từ với thanh điệu tiếng Việt thay vì thanh điệu Nguồn gốc; khi huấn luyện ASR/TTS cần tính đến hiện tượng trộn mã Việt–Nguồn này."
+  },
+  "sources": [
+    {
+      "title": "Nguyễn Phú Phong (1996). The Nguồn language of Quảng Bình, Vietnam. Mon-Khmer Studies, 26, 179–190.",
+      "url": "http://sealang.net/archives/mks/pdf/26:179-190.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Tài (1993 [bản gốc tiếng Việt 1975]). Nguồn: A dialect of Vietnamese or a dialect of Mường? (Based on local data), trans. Miriam A. Barker. Mon-Khmer Studies, 22, 231–244.",
+      "url": "http://sealang.net/archives/mks/pdf/22:231-244.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Tài (2005). Ngữ âm tiếng Mường qua các phương ngôn. Hà Nội: NXB Từ điển Bách khoa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cục Di sản văn hóa — Di sản văn hóa phi vật thể quốc gia: Hò thuốc cá (Quyết định số 607/QĐ-BVHTTDL ngày 03/02/2021)",
+      "url": "http://dsvh.gov.vn/ho-thuoc-ca-3365",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Dương Bích Hà (2016). Điệu Hò thuốc cá của người Nguồn ở Quảng Bình. Viện Âm nhạc ( Học viện Âm nhạc Quốc gia Việt Nam ).",
+      "url": "https://vienamnhac.vn/dieu-ho-thuoc-ca-cua-nguoi-nguon-o-quang-binh",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Nguôn (nguo1239)",
+      "url": "https://glottolog.org/resource/languoid/id/nguo1239",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL ISO 639-3 — Documentation for [nuo] (Nguôn)",
+      "url": "https://iso639-3.sil.org/code/nuo",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Nguồn",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Ngu%E1%BB%93n",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Nguồn language",
+      "url": "https://en.wikipedia.org/wiki/Ngu%E1%BB%93n_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Trần Trí Dõi & Đinh Thanh Dự (1993). Truyện cổ người Nguồn. Hà Nội: NXB Văn hóa Dân tộc.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ethnic_group_vi",
+          "severity": "medium",
+          "problem": "Ghi 'Mường' một cách tuyệt đối dễ gây nhầm lẫn về mặt hành chính – dân tộc học tại Việt Nam, vì trong danh mục 54 dân tộc hiện hành và các kỳ tổng điều tra dân số từ 1960 đến nay, người Nguồn được xếp vào dân tộc Kinh (Việt), dù về ngôn ngữ học tiếng Nguồn thuộc tiểu nhóm Mường (Muongic) hoặc nhánh thứ ba của Việt–Mường.",
+          "fix": "Sửa thành 'Nguồn (hành chính xếp vào dân tộc Kinh; ngôn ngữ học xếp vào tiểu nhóm Mường / Việt–Mường)' để phản ánh chính xác cả thực tế hành chính lẫn phân loại ngôn ngữ học."
+        },
+        {
+          "path": "phonology.codas[1].note",
+          "severity": "high",
+          "problem": "Gộp từ 'lản /lan⁵/ (lưỡi)' vào nhóm phản ánh âm cuối lỏng tiền Việt–Mường *-l là không chính xác theo nguồn Nguyễn Phú Phong (1996: 186). Nguyễn Phú Phong chỉ rõ âm cuối /-n/ trong tiếng Nguồn có nguồn gốc kép: (1) từ *-l ứng với -i/-y tiếng Việt ở thanh bằng (như cân /kən¹/ 'cây', măn /măn¹/ 'mây'), và (2) từ *-s (ứng với -h/-lh tiếng Rục) ở các từ mang thanh hỏi/ngã (như mun⁵ 'mũi', lan⁵ 'lưỡi').",
+          "fix": "Tách rõ hai nguồn gốc lịch sử của âm cuối /-n/ trong phần ghi chú theo đúng Nguyễn Phú Phong (1996: 186)."
+        },
+        {
+          "path": "phonology.codas[2] & phonology.codas[5]",
+          "severity": "medium",
+          "problem": "Gộp /-ŋ ~ -ɲ/ và /-k ~ -c/ bằng dấu biến thể tự do/vị trí (~) chưa phản ánh đúng phân tích của Nguyễn Văn Tài (1993: 238), theo đó trong tiếng Nguồn cặp âm cuối mặt lưỡi /-ɲ, -c/ là hai âm vị độc lập với /-ŋ, -k/ và thường tương ứng với cặp âm cuối đầu lưỡi /-n, -t/ của tiếng Việt (ví dụ: tếnh 'đến', quynh 'quên').",
+          "fix": "Tách /-ɲ/ và /-c/ thành các mục âm cuối riêng biệt hoặc ghi chú rõ tính độc lập âm vị học và tương ứng với /-n, -t/ tiếng Việt theo Nguyễn Văn Tài (1993)."
+        },
+        {
+          "path": "phonology.tones & lexicon",
+          "severity": "low",
+          "problem": "Các từ 'tât' (/tət⁷/ 'đất') và 'đác' (/dak⁷/ 'nước') đang dùng cách đánh số 7–8 của Nguyễn Phú Phong (1996: 187), trong khi bảng của Nguyễn Văn Tài (1993: 234) ghi là 'tât³' và 'dak³' (gộp nhập thanh vào thanh 3/4).",
+          "fix": "Bổ sung ghi chú đối chiếu ký hiệu thanh 7/8 (Nguyễn Phú Phong 1996) và 3/4 (Nguyễn Văn Tài 1993) trong phonology.tones và lexicon."
+        },
+        {
+          "path": "music.scales_or_modes[0] & sources",
+          "severity": "low",
+          "problem": "Phần thang âm của Hò thuốc cá mới chỉ mô tả định tính, thiếu thông tin nhạc lý cụ thể đã được Cục Di sản văn hóa và Viện Âm nhạc công bố (điệu Sol Cung, tầm cữ trong phạm vi quãng 6, tiếng xố con 'hôi lên là hôi lên').",
+          "fix": "Bổ sung thông tin điệu thức Sol Cung (tầm cữ quãng 6) từ hồ sơ Cục Di sản văn hóa và thêm nguồn Viện Âm nhạc / Cục Di sản văn hóa vào danh mục sources."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đo âm học F0 thực nghiệm với người bản xứ tại Cổ Liêm (Trung Hóa) và Yên Thọ (Tân Hóa) để xác lập chính xác giá trị số Chao 5 bậc cho từng thanh điệu.",
+      "Cần khảo sát mức độ bảo lưu tổ hợp phụ âm đầu cổ (/tl-/, /ʔl-/) và âm /p-/ ở thế hệ người nói trẻ tuổi hiện nay tại Minh Hóa.",
+      "Cần nhạc sĩ dân tộc nhạc học chuyển đổi bản ký âm五선譜 (5 dòng kẻ) của Hò thuốc cá và Hát sắc bùa Minh Hóa sang chuẩn mã ABC."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

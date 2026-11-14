@@ -1,0 +1,96 @@
+{
+  "target": {
+    "id": "xo-dang-kxy",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ca Dong",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3_expected": "kxy",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: kxy; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+  },
+  "started": "2026-11-13T23:58:53.074064",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9448,
+      "candidatesTokenCount": 8031,
+      "totalTokenCount": 17479,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9448
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8031
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10183,
+      "candidatesTokenCount": 9739,
+      "totalTokenCount": 19922,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10183
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9739
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Ghi cơ quan thực hiện là 'Viện Ngôn ngữ học / Viện Từ điển học và Bách khoa thư Việt Nam (PGS.TS. Tạ Văn Thông chủ nhiệm)'. Theo hồ sơ nhiệm vụ KH&CN quốc gia (NASATI) giai đoạn 11/2006–04/2009, tổ chức chủ trì đề tài chữ Ca Dong là Viện Ngôn ngữ học (thuộc Viện Khoa học Xã hội Việt Nam), chủ nhiệm thời điểm đó là TS. Tạ Văn Thông (ông mới chuyển sang Viện Từ điển học và Bách khoa thư Việt Nam ở đề tài tiếng Co giai đoạn 2010–2014).",
+        "fix": "Chỉnh lại thông tin cơ quan chủ trì chính xác theo hồ sơ NASATI."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Các mục từ trong lexicon ('Ka Yong', 'oh', 'plây', 'bơla', 'k'răh plây', 'k'răh nhê', 'pơ dâu', 'amon', 'pai', 'pôper', 'talok') được gán phiên âm IPA cụ thể và để confidence='high' hoặc 'medium', mặc dù báo cáo ngữ âm học của Tạ Văn Thông (2009) chưa mở toàn văn và các nguồn mở (Wiktionary tiếng Việt, báo chí điền dã, sách của Nguyễn Đăng Vũ 2024) chỉ ghi mặt chữ chính tả chứ không cung cấp ký âm IPA chuẩn xác (đặc biệt là phẩm chất âm vực thanh hầu và độ dài nguyên âm).",
+        "fix": "Hạ confidence của các mục từ có IPA suy diễn xuống 'low' (hoặc giữ 'medium' cho những từ có mô tả phát âm trực tiếp như 'oh' có âm cuối [-h] trong bài phỏng vấn Đinh Xuân Bình), và đồng bộ với ml_hints.sample_words."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Một số ánh xạ grapheme->IPA (như 'kr / k'r', 'br / b'r') đang để confidence='high' dù chưa có bảng âm vị học chính thức được xuất bản mở để xác nhận bản chất âm vị học của tiền âm tiết trong phương án chữ viết chuẩn.",
+        "fix": "Hạ confidence của 'kr / k'r' và 'br / b'r' từ 'high' xuống 'medium'."
+      },
+      {
+        "path": "music.genres",
+        "severity": "low",
+        "problem": "Thiếu các làn điệu dân ca Ca Dong tiêu biểu đã được kiểm chứng rõ trong các nguồn văn hóa địa phương tại Sơn Tây (Quảng Ngãi) như hát xà ru, ra nghế, a giới, kể hmon (amon); mặt khác Ka Choi còn được gọi là Ta Choi và giao thoa mạnh với dân ca Hrê láng giềng.",
+        "fix": "Bổ sung ghi chú về tên gọi Ta Choi (Ka Choi) và các thể loại xà ru, ra nghế, a giới, kể hmon theo nguồn Bộ VHTTDL / Báo Văn Hóa."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Các nhạc cụ Ca Dong đã được dẫn làm ví dụ trong phần phonology ('tol alao', 'h'leng goong', 'goong teng leng') chưa được liệt kê đầy đủ trong danh mục music.instruments.",
+        "fix": "Bổ sung thông tin về đàn tol alao và goong teng leng / h'leng goong vào danh mục nhạc cụ để nhất quán với phần ngữ âm và nguồn Wiktionary/Wikipedia."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các nguồn URL chưa được gán trạng thái kiểm tra vào trường url_check.",
+        "fix": "Cập nhật url_check='verified' cho các URL đã xác minh hoạt động."
+      }
+    ]
+  },
+  "schema_errors": []
+}

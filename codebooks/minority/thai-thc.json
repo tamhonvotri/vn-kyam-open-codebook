@@ -1,0 +1,787 @@
+{
+  "id": "thai-thc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày Hàng Tổng (Tày Mường)",
+  "name_en": "Tai Hang Tong (Tai Pao / Tay Muong)",
+  "autonym": "Tay Mương / Tay Pao",
+  "ethnic_group_vi": "Thái",
+  "language": {
+    "iso639_3": "tpo",
+    "glottocode": "taip1250",
+    "family": "Kra-Dai",
+    "branch": "Kam-Tai — Tai — Southwestern Tai (nhánh Thái Tây Nam, có lớp cơ tầng Bắc Thái)"
+  },
+  "regions": [
+    "Nghệ An (trọng tâm tại huyện Tương Dương dọc lưu vực sông Cả/Nặm Pao và vùng hợp lưu Nậm Nơn – Nậm Mô; rải rác tại Con Cuông, Kỳ Sơn)"
+  ],
+  "speakers_estimate": "Khoảng 10.000 – 13.000 người (ước tính nhóm Tày Mường / Hàng Tổng nói phương ngữ Tày Pao ở miền Tây Nghệ An; tổng dân số dân tộc Thái tại Nghệ An khoảng 295.000–340.000 người bao gồm cả Tày Dọ và Tày Thanh)",
+  "scripts": [
+    {
+      "name": "Chữ Thái Lai Pao (Lai Paw / Thái Liệp Nặm)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Hệ chữ viết truyền thống dạng abugida gốc Ấn Độ – Khmer cổ của người Tày Mường (Hàng Tổng) vùng Tương Dương, Nghệ An; được Michel Ferlus và Trần Trí Dõi khảo cứu, phục dựng từ 3 văn tự cổ thế kỷ XIX (1872, 1892, 1899). Đã được đưa vào tài liệu bồi dưỡng tiếng và chữ dân tộc thiểu số tại Nghệ An (giáo trình 2019), nhưng chưa được chuẩn hóa cấp quốc gia và hiện chưa được mã hóa vào Unicode (khác với chữ Lai Tay U+1E6C0–U+1E6FF đã vào Unicode 17.0)."
+    },
+    {
+      "name": "Phiên âm chữ Quốc ngữ (Latinh thực hành)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Dùng song song trong các tài liệu giảng dạy chữ Lai Pao của tỉnh Nghệ An, văn bản sưu tầm dân ca và từ điển địa phương để ghi âm đọc tương đương theo quy tắc chữ Quốc ngữ tiếng Việt (chưa có bộ chữ Latinh chuẩn hóa riêng cấp quốc gia)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình điền dã và văn tự học của Michel Ferlus (2006, 2008), Trần Trí Dõi (1997), Jean Pacquement (2022, 2023), Sầm Công Danh (2023) và Phạm Thị Kiều Ly & Sầm Công Danh (2025). Mã ISO 639-3 cũ 'thc' (Tai Hang Tong, Glottocode lưu trữ taih1245) đã được Tổ chức Đăng ký ISO 639-3 hợp nhất vào 'tpo' (Tai Pao, Glottocode taip1250) từ ngày 15/01/2016 theo quyết định 2015-018. Hệ thống âm vị học căn cứ theo mô tả phương ngữ Tày Mường tại Tương Dương (Nghệ An); ánh xạ chữ viết dựa trên quy ước phiên âm Quốc ngữ trong giáo trình chữ Thái Lai Pao (2019). Chưa có thẩm định trực tiếp từ người bản ngữ.",
+  "phonology": {
+    "syllable_structure": "C1V(ː)(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi (khác tiếng Việt chuẩn ít có /p/ đầu âm tiết trong từ thuần Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / p'",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi (trong tài liệu Lai Pao đôi khi ký hiệu p' hoặc ph để phân biệt với âm xát /f/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Âm tắc hai môi hữu thanh / tiền thanh hầu hóa nhẹ [ɓ ~ b]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Âm tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "d",
+        "note": "Âm tắc chân răng hữu thanh / tiền thanh hầu hóa nhẹ [ɗ ~ d]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Âm tắc mặt lưỡi – ngạc cứng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật hơi (viết k trước i, e, ê; viết c trước các nguyên âm khác theo thói quen Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm vô thanh bật hơi (khác [x] xát ngạc mềm của tiếng Việt Hà Nội)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi chữ)",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đứng đầu các âm tiết vắng phụ âm đầu trên chữ Quốc ngữ (trong chữ Lai Pao có ký tự riêng thuộc nhóm phụ âm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi – ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / f",
+        "ipa": "f",
+        "note": "Âm xát môi – răng vô thanh (trong phiên âm địa phương thường dùng chung 'ph' với /pʰ/, hoặc dùng 'f' để tách biệt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Âm xát môi – răng hữu thanh (hoặc tiếp cận môi – ngạc mềm [w ~ v] tùy vị trí)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": "Âm xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh (trong Tày Mường, *x- của Proto-Tai biến đổi thành /h-/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "j",
+        "note": "Âm tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên chân răng",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / y",
+        "ipa": "i ~ iː",
+        "note": "Nguyên âm đóng hàng trước không tròn môi; dài ở âm tiết mở, phân biệt ngắn – dài hạn chế ở âm tiết khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ ~ ɨː",
+        "note": "Nguyên âm đóng hàng giữa/sau không tròn môi (một số tài liệu ký âm là /ɯ ~ ɯː/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u ~ uː",
+        "note": "Nguyên âm đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e ~ eː",
+        "note": "Nguyên âm nửa đóng hàng trước không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / â",
+        "ipa": "ə ~ əː",
+        "note": "Nguyên âm giữa trung hòa không tròn môi (ngắn thường viết 'â', dài viết 'ơ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o ~ oː",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm nửa mở hàng trước không tròn môi (chủ yếu xuất hiện dạng dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi (chủ yếu xuất hiện dạng dài)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài; đối lập trường độ âm vị học rõ rệt với /a/ ngắn trong âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (chỉ xuất hiện trong âm tiết có âm cuối; trước -y/-u viết là 'ay'/'au')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "ia",
+        "note": "Nguyên âm đôi hướng tâm hàng trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɨa",
+        "note": "Nguyên âm đôi hướng tâm hàng giữa/sau không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "ua",
+        "note": "Nguyên âm đôi hướng tâm hàng sau tròn môi",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật ra [p̚]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc chân răng vô thanh không bật ra [t̚]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật ra [k̚] (không bị môi hóa mạnh thành [k͡p] như sau u/ô/o trong tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi – ngạc mềm (viết 'u' sau nguyên âm ngắn/hàng trước, 'o' sau a dài/e)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng (viết 'y' sau nguyên âm ngắn ă/â, 'i' sau nguyên âm dài)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_A123",
+        "name": "Thanh 1 (A123 — loạt âm đầu vô thanh/tiền thanh hầu cổ)",
+        "mark": "dấu sắc hoặc dấu hỏi (trong phiên âm Quốc ngữ địa phương)",
+        "chao_contour": "13",
+        "phonation": "modal (ở một số điểm phương ngữ lân cận có dạng lõm 213 hoặc trầm 21)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2_A4",
+        "name": "Thanh 2 (A4 / A2 lịch đại — loạt âm đầu hữu thanh cổ; 'mái bỏ' trong giáo trình Lai Pao)",
+        "mark": "(không dấu trong phiên âm Quốc ngữ địa phương)",
+        "chao_contour": "55",
+        "phonation": "modal (cao bằng hoặc vút lên cao 35 ~ 55)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3_B1234",
+        "name": "Thanh 3 (B1234 — nhập gộp toàn bộ cột B, không tách loạt cao/thấp)",
+        "mark": "dấu huyền hoặc dấu nặng (tùy tài liệu phiên âm)",
+        "chao_contour": "31",
+        "phonation": "modal (trung xuống thấp; đặc trưng phân biệt Tày Pao/Tày Mường Tương Dương với một số điểm Tày Dọ vốn tách B123 ≠ B4)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4_C123",
+        "name": "Thanh 4 (C123 — loạt cao cột C; thường ứng với 'mái piêng')",
+        "mark": "dấu huyền (trong giáo trình Lai Pao, ví dụ: hà 'năm')",
+        "chao_contour": "33",
+        "phonation": "glottalized / tắc thanh hầu cuối âm tiết [33ˀ]",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T5_C4",
+        "name": "Thanh 5 (C4 / C2 lịch đại — loạt thấp cột C; ứng với 'mái nắc')",
+        "mark": "dấu nặng hoặc dấu ngã (trong phiên âm Quốc ngữ địa phương, ví dụ: nặm 'nước')",
+        "chao_contour": "53",
+        "phonation": "glottalized / nhấn giọng và thắt thanh hầu cuối âm tiết [53ˀ ~ 153ˀ]",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "DS123",
+        "name": "Thanh khép ngắn loạt cao (DS123)",
+        "mark": "dấu sắc (ví dụ: hốc 'sáu')",
+        "chao_contour": "55",
+        "phonation": "checked (kết thúc bằng -p, -t, -k sau nguyên âm ngắn; trùng cao độ với T2)",
+        "merges_with": "T2_A4",
+        "confidence": "medium"
+      },
+      {
+        "id": "DS4",
+        "name": "Thanh khép ngắn loạt thấp (DS4)",
+        "mark": "dấu nặng (ví dụ: lực 'con', phục 'chiếu')",
+        "chao_contour": "31",
+        "phonation": "checked (kết thúc bằng -p, -t, -k sau nguyên âm ngắn; cao độ trung-thấp 33 ~ 31)",
+        "merges_with": "T3_B1234",
+        "confidence": "medium"
+      },
+      {
+        "id": "DL1234",
+        "name": "Thanh khép dài (DL1234 — nhập gộp toàn bộ cột DL)",
+        "mark": "dấu nặng hoặc dấu hỏi (ví dụ: pẹt 'tám', họt 'đến')",
+        "chao_contour": "11",
+        "phonation": "checked (kết thúc bằng -p, -t, -k sau nguyên âm dài hoặc nguyên âm đôi; thấp bằng 11 ~ 21; sự nhập gộp cột DL là đặc trưng chia sẻ giữa Tày Mường và Tày Dọ theo Ferlus 2008: 306)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu điển hình của nhánh Thái Tây Nam: có 5 thanh điệu khu biệt trên âm tiết mở/vang (do sự nhập gộp hoàn toàn B123 = B4 ở cột B) và sự nhập gộp toàn bộ cột DL trên âm tiết khép dài (Ferlus 2008: 306). Hai thanh thuộc cột C (C123 [33ˀ] và C4 [53ˀ]) có hiện tượng thanh hầu hóa (glottalization) rõ rệt ở cuối vần. Trong chữ Lai Pao cải tiến (2019), phụ âm đầu được chia thành hai loạt âm vực kết hợp với hệ thống dấu thanh."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước / sông",
+      "form": "nặm",
+      "ipa": "nam˥˧ˀ",
+      "gloss_en": "water / river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mường / bản mường",
+      "form": "mương",
+      "ipa": "mɨaŋ˥˥",
+      "gloss_en": "principality / district / muang",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "nưng",
+      "ipa": "nɨŋ˧˩",
+      "gloss_en": "one",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "xoong",
+      "ipa": "sɔːŋ˩˧",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "xám",
+      "ipa": "saːm˩˧",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm (số 5)",
+      "form": "hà",
+      "ipa": "haː˧˧ˀ",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "hốc",
+      "ipa": "hok˥˥",
+      "gloss_en": "six",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lấy",
+      "form": "au",
+      "ipa": "ʔaw˩˧",
+      "gloss_en": "to take",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vào",
+      "form": "hàu",
+      "ipa": "haw˧˧ˀ",
+      "gloss_en": "to enter",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khóc",
+      "form": "hày",
+      "ipa": "haj˧˧ˀ",
+      "gloss_en": "to cry",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "mế",
+      "ipa": "meː˧˩",
+      "gloss_en": "mother",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "con",
+      "form": "lực",
+      "ipa": "lɨk˧˩",
+      "gloss_en": "child / offspring",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái chăn",
+      "form": "pha / hổm",
+      "ipa": "pʰaː˧˧ˀ / hom˩˧",
+      "gloss_en": "blanket",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cái chiếu",
+      "form": "phục",
+      "ipa": "fuk˧˩",
+      "gloss_en": "mat",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cái đũa",
+      "form": "thủ",
+      "ipa": "tʰuː˧˩",
+      "gloss_en": "chopstick",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "cửa",
+      "form": "tú",
+      "ipa": "tuː˩˧",
+      "gloss_en": "door",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngon",
+      "form": "xẹp",
+      "ipa": "sɛːp˩˩",
+      "gloss_en": "delicious / tasty",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bát / chén",
+      "form": "thuồi",
+      "ipa": "tʰuaj˧˧ˀ",
+      "gloss_en": "bowl",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát nhuôn",
+        "note": "Làn điệu dân ca giao duyên, đối đáp đặc trưng riêng của nhóm Tày Mường (Thái Hàng Tổng, Tày Dọ) ở miền Tây Nghệ An; thường mở đầu bằng tiếng đệm 'ơ... là ơi nọ', diễn xướng bên chum rượu cần, sàn khuống hoặc tại lễ hội đền Vạn – Cửa Rào (Tương Dương), đền Chín Gian."
+      },
+      {
+        "name": "Hát xuối (xuôi)",
+        "note": "Làn điệu dân ca trữ tình, tự sự của nhóm Tày Mường miền Tây Nghệ An, nhịp điệu chậm rãi, giàu chất ngâm vịnh."
+      },
+      {
+        "name": "Hát lăm",
+        "note": "Làn điệu dân ca phổ biến dọc lưu vực sông Cả (Tương Dương, Con Cuông, Kỳ Sơn), chịu ảnh hưởng giao thoa văn hóa với vùng Thượng – Trung Lào (Bolikhamxai, Xiengkhouang)."
+      },
+      {
+        "name": "Khả kháu hươn / Mo chúc tụng",
+        "note": "Hát nghi lễ – phong tục (như bài hát mừng nhà mới, lễ xên bản, xên mường) do các ông mo hoặc nghệ nhân thực hành."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Tiếng đưa hơi mở đầu (là ơi nọ)",
+        "description": "Câu xướng ngân dài tự do ở đầu câu hát nhuôn để dò cao độ với tiếng pí đệm và gọi bạn hát trước khi vào lời chính.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Rung và luyến bám thanh điệu",
+        "description": "Giai điệu hát nhuôn và xuối bám sát đường nét thanh điệu ngôn ngữ Tày Mường, nhiều nốt luyến liền bậc và ngân rung ở cuối câu.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung khuyết bán âm (hệ Thái miền Tây Nghệ An)",
+        "note": "Thang âm dân gian vận hành theo trục quãng 4 và quãng 5 đúng, gần gũi với hệ thang âm nhuôn – lăm vùng lưu vực sông Cả; chưa có chuẩn hóa ký âm ABC thực nghiệm.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Pí nhuôn",
+        "note": "Nhạc cụ hơi làm bằng ống nứa nhỏ có gắn lưỡi gà đồng và lỗ màng rung cộng hưởng, chuyên dùng đệm giữ nhịp và dẫn dắt giai điệu cho hát nhuôn."
+      },
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ đa thanh dùng bè trầm giữ âm nền khi đệm hát lăm, múa dân gian."
+      },
+      {
+        "name": "Khắc luống",
+        "note": "Nhạc cụ gõ bằng máng gỗ và chày giã tạo tiết tấu rộn ràng trong lễ hội bản mường."
+      },
+      {
+        "name": "Cồng chiêng và trống (cống – chiêng)",
+        "note": "Dùng trong lễ hội đền Vạn – Cửa Rào, lễ xên bản, xên mường."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "thai",
+    "iso639_3_note": "Mã ISO 639-3 dự kiến 'thc' (Tai Hang Tong) đã ngừng hoạt động từ năm 2016 và được gộp chính thức vào mã 'tpo' (Tai Pao) do cùng chỉ một ngôn ngữ ở hai bên biên giới Nghệ An (Việt Nam) và Bolikhamxai (Lào).",
+    "sub_varieties": [
+      {
+        "name": "Tày Pao (Thái Hàng Tổng — lưu vực Nặm Pao / sông Cả, Tương Dương, Con Cuông)",
+        "iso639_3": "tpo",
+        "glottocode": "taip1250",
+        "note": "Biến thể trung tâm của bảng mã này, gắn liền với chữ Thái Lai Pao và hệ 5 thanh điệu (nhập cột B)."
+      },
+      {
+        "name": "Tày Dọ / Tày Mường vùng Phủ Quỳ (Quỳ Châu, Quế Phong, Quỳ Hợp, Thường Xuân)",
+        "iso639_3": "tyj",
+        "glottocode": "taid1247",
+        "note": "Cũng tự nhận là Tày Mường nhưng dùng chữ Lai Tay (Quỳ Châu), có hiện tượng rụng âm cuối ở một số từ cơ bản (như kiːA2 'ăn', paːA2 'đi') và nhiều điểm tách B123 ≠ B4 (hệ 6 thanh)."
+      },
+      {
+        "name": "Tày Mèn (Tai Mène / Tay Maen)",
+        "iso639_3": "tyj",
+        "glottocode": "taim1250",
+        "note": "Mã ISO cũ 'tmp' (đã gộp vào 'tyj'); nói chủ yếu ở Bolikhamxai (Lào) và một số điểm giáp biên giới Nghệ An – Hà Tĩnh, cùng dải phương ngữ Tày Mường."
+      },
+      {
+        "name": "Tày Thanh / Tày Mười (Tai Thanh / Tai Daeng Nghệ An)",
+        "iso639_3": "tmm",
+        "glottocode": "tait1248",
+        "note": "Cùng thuộc dân tộc Thái ở Nghệ An – Thanh Hóa nhưng thuộc cụm Thái Đỏ (Tai Daeng, ISO: tyr/tmm), dùng chữ Lai Thanh và hát khắp, khác phân nhóm với Tày Hàng Tổng."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "/p/ (p-)",
+        "quoc_ngu": "p",
+        "note": "Giữ nguyên chữ 'p' đầu âm tiết (như 'pỉ', 'pao'). Mô hình TTS tiếng Việt chỉ quen đọc 'p' trong từ mượn (pin, pa-tê) nên thường phát âm ổn định, tránh thay bằng 'b' vì sẽ lẫn sang âm /b/."
+      },
+      {
+        "native": "/pʰ/ (ph- / p'-)",
+        "quoc_ngu": "p-h / ph",
+        "note": "Âm tắc hai môi bật hơi [pʰ] KHÔNG có trong tiếng Việt chuẩn (chữ 'ph' tiếng Việt đọc là âm xát môi-răng [f]). Khi dùng TTS tiếng Việt không fine-tune, viết 'ph' sẽ bị đọc thành [f] (lẫn với âm /f/ bản ngữ); cần tách phoneme hoặc fine-tune embedding."
+      },
+      {
+        "native": "/kʰ/ (kh-)",
+        "quoc_ngu": "kh",
+        "note": "Tiếng Tày Hàng Tổng phát âm là tắc bật hơi [kʰ], trong khi giọng Bắc đọc 'kh' là xát [x]; giọng Trung/Nam đôi khi bật hơi nhẹ [kʰ ~ x] nên gần hơn."
+      },
+      {
+        "native": "/a/ ngắn vs. /aː/ dài (ă vs. a)",
+        "quoc_ngu": "ă / a",
+        "note": "Dùng đúng đối lập chính tả Quốc ngữ (ví dụ: nặm /nam/ vs. xám /saːm/). Với các nguyên âm khác (/i, ɨ, u, e, ə, o/), chữ Quốc ngữ không ghi được trường độ trừ cặp â/ơ; cần chú ý kéo dài nguyên âm ở âm tiết mở."
+      },
+      {
+        "native": "Âm cuối /-k/ sau u, ô, o (ví dụ: hốc /hok/, phục /fuk/)",
+        "quoc_ngu": "-c",
+        "note": "Tiếng Việt chuẩn đọc '-uc/-ôc/-oc' bị môi hóa và ngậm hai môi [uk͡p, ok͡p]; tiếng Tày Hàng Tổng giữ nguyên điểm cấu âm ngạc mềm [uk, ok] không khép môi."
+      },
+      {
+        "native": "Thanh điệu T2 [55] (không dấu) và T1 [13] (sắc/hỏi)",
+        "quoc_ngu": "điều chỉnh dấu thanh theo cao độ",
+        "note": "Trong giáo trình Lai Pao địa phương, thanh không dấu ('mái bỏ') có cao độ cao [55] còn dấu sắc ('mái pắc') hoặc hỏi ứng với thanh [13] hoặc [55] tùy loạt âm đầu. Nếu đưa thẳng văn bản phiên âm địa phương vào TTS tiếng Việt Hà Nội mà không ánh xạ lại thanh điệu, đường nét F0 sẽ bị lệch (ví dụ thanh [13] đi lên từ thấp, thanh C1 [33ˀ] bằng nhưng nghẹt thanh hầu)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "nặm",
+        "ipa": "nam˥˧ˀ",
+        "meaning_vi": "nước, sông (như Nặm Pao = sông Cả)"
+      },
+      {
+        "native": "mương",
+        "ipa": "mɨaŋ˥˥",
+        "meaning_vi": "mường, vùng lãnh thổ"
+      },
+      {
+        "native": "nưng",
+        "ipa": "nɨŋ˧˩",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "xoong",
+        "ipa": "sɔːŋ˩˧",
+        "meaning_vi": "hai"
+      },
+      {
+        "native": "xám",
+        "ipa": "saːm˩˧",
+        "meaning_vi": "ba"
+      },
+      {
+        "native": "hà",
+        "ipa": "haː˧˧ˀ",
+        "meaning_vi": "năm (số 5)"
+      },
+      {
+        "native": "hốc",
+        "ipa": "hok˥˥",
+        "meaning_vi": "sáu"
+      },
+      {
+        "native": "au",
+        "ipa": "ʔaw˩˧",
+        "meaning_vi": "lấy"
+      },
+      {
+        "native": "hàu",
+        "ipa": "haw˧˧ˀ",
+        "meaning_vi": "vào"
+      },
+      {
+        "native": "mế",
+        "ipa": "meː˧˩",
+        "meaning_vi": "mẹ"
+      },
+      {
+        "native": "lực",
+        "ipa": "lɨk˧˩",
+        "meaning_vi": "con"
+      },
+      {
+        "native": "xẹp",
+        "ipa": "sɛːp˩˩",
+        "meaning_vi": "ngon"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 639-3 Registration Authority (2016) — Change Request Number 2015-018: Merge [thc] Tai Hang Tong into [tpo] Tai Pao",
+      "url": "https://iso639-3.sil.org/code/thc",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Tai Pao [taip1250] & Bookkeeping Tai Pao (Retired) [taih1245]",
+      "url": "https://glottolog.org/resource/languoid/id/taip1250",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "CNRS-LACITO Collection Pangloss — Tai Paw (Tai Pao, Tay Pao) Corpus (Michel Ferlus & Trần Trí Dõi)",
+      "url": "https://pangloss.cnrs.fr/corpus/Tai_Paw?lang=en",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (2008). The Tai dialects of Nghệ An, Vietnam (Tay Daeng, Tay Yo, Tay Muong). In A. Diller, J. A. Edmondson & Y. Luo (eds.), The Tai-Kadai Languages, pp. 298–316. London & New York: Routledge.",
+      "url": "https://shs.hal.science/halshs-01617791",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Trần Trí Dõi & Michel Ferlus (1997). Giới thiệu về chữ Lai Pao của người Thái Tương Dương (Nghệ An) [Présentation de l'écriture Lai Pao des Thai de Tương Dương]. Tạp chí Văn hóa Nghệ thuật, số 157, tr. 90–92.",
+      "url": "https://shs.hal.science/halshs-00923025",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Phạm Thị Kiều Ly & Sầm Công Danh (2025). Michel Ferlus and the Lai Pao Script. In Paul Sidwell (ed.), Austroasiatic Linguistics: In honour of Michel Ferlus (1935–2024), pp. 149–166. Chiang Mai University.",
+      "url": "https://hal.science/hal-05361232v1",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sầm Công Danh (2023). Tone as a criterion for identifying a lect: the case of Tai Yo language via geographical distribution of tone. Proceedings of the Fifth International Conference on Asian Geolinguistics, pp. 113–124.",
+      "url": "https://doi.org/10.5281/zenodo.8374626",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Pacquement, Jean (2023). An introduction to a Tai Muong variety spoken in Châu Phong Commune (Quỳ Châu District, Nghệ An Province, Vietnam). Zenodo.",
+      "url": "https://zenodo.org/record/7472112",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Vi Tân Hợi và nnk. (2019). Tài liệu giảng dạy tiếng Thái Nghệ An (hệ chữ Lai-Pao). NXB Nghệ An.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Thái Hàng Tổng & Chữ Lai Pao",
+      "url": "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_Lai_Pao",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "scripts[0].official_in_vietnam",
+          "severity": "medium",
+          "problem": "Đặt `official_in_vietnam: true` là hơi quá mức. Dù UBND tỉnh Nghệ An đã cho biên soạn tài liệu bồi dưỡng chữ Thái Lai Pao (2019), hệ chữ này mới ở mức thử nghiệm/bồi dưỡng tại địa phương, chưa có quyết định chuẩn hóa cấp quốc gia hay bộ mã Unicode như một số chữ dân tộc khác.",
+          "fix": "Đổi `official_in_vietnam` thành `false` và giữ nguyên thuyết minh trong `note`."
+        },
+        {
+          "path": "lexicon[14].ipa",
+          "severity": "medium",
+          "problem": "Mục từ 'thủ' (cái đũa) có trường `ipa` ghi là `tʰuːB` — lẫn ký hiệu loại thanh lịch đại (*B) của ngữ âm học lịch sử Thái vào chuỗi ký âm IPA thực đại.",
+          "fix": "Thay `tʰuːB` bằng `tʰuː˧˩` (ứng với thanh B1234 [31] của phương ngữ Tày Mường Tương Dương) và hạ confidence xuống `low` do dấu thanh phiên âm Quốc ngữ ('thủ') chưa khớp hoàn toàn với quy ước thanh B."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "low",
+          "problem": "Các đường nét thanh điệu (Chao contour) của T1_A123, T2_A4, T3_B1234, T4_C123, T5_C4 và tên gọi dấu thanh địa phương ('mái bỏ', 'mái piêng', 'mái nắc') có cơ sở từ tài liệu nghiên cứu chữ Lai Pao và phương ngữ Tày Mường, nhưng do có sự biến thiên giữa các điểm điền dã (Tương Dương, Con Cuông, Quỳ Châu) và chưa được kiểm chứng trực tiếp bằng đo đạc âm học đồng bộ trên toàn bộ mục từ, việc để `confidence: \"high\"` đồng loạt là hơi tự tin.",
+          "fix": "Hạ `confidence` của một số mục thanh điệu và từ vựng có biến thể phiên âm xuống `medium`."
+        },
+        {
+          "path": "sources[5].url",
+          "severity": "low",
+          "problem": "Bài viết của Phạm Thị Kiều Ly & Sầm Công Danh (2025) 'Michel Ferlus and the Lai Pao Script' đã có bản lưu trữ công khai trên hệ thống HAL của Pháp (`https://hal.science/hal-05361232v1`).",
+          "fix": "Bổ sung URL HAL đã xác minh vào `sources[5]`."
+        }
+      ]
+    },
+    "open_issues": [
+      "Quy ước đánh dấu thanh điệu bằng chữ Quốc ngữ cho tiếng Tày Hàng Tổng (Tày Pao) chưa thống nhất hoàn toàn giữa các tài liệu sưu tầm dân gian và giáo trình chữ Lai Pao năm 2019 (do chênh lệch giữa thanh điệu giọng Nghệ An của người phiên âm và giọng Hà Nội).",
+      "Chữ Lai Pao hiện chưa có mã Unicode chính thức (đang sử dụng font ánh xạ ASCII/legacy cục bộ trong tài liệu giảng dạy của tỉnh Nghệ An), cần cập nhật khi có đề xuất mã hóa Unicode giống chữ Lai Tay.",
+      "Cần đối chiếu thực nghiệm âm học F0 trên nhiều điểm bản tại Tương Dương và Con Cuông để xác minh biến thể đường nét thanh A123 ([13] ~ [213] ~ [21]) và thanh DS4/DL."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

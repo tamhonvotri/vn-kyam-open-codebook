@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "ba-na-ren",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Rơ Ngao",
+    "ethnic_group_vi": "Ba Na",
+    "iso639_3_expected": "ren",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ba Na tại Việt Nam (mã ISO dự kiến: ren; bảng mã dân tộc gốc: ba-na). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ba-na\"."
+  },
+  "started": "2026-11-13T23:09:52.042440",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9444,
+      "candidatesTokenCount": 8231,
+      "totalTokenCount": 22143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9444
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8231
+        }
+      ],
+      "thoughtsTokenCount": 4468,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10918,
+      "candidatesTokenCount": 10062,
+      "totalTokenCount": 20980,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10918
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10062
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[2].glottocode",
+        "severity": "low",
+        "problem": "Biến thể Bahnar-Rengao được để glottocode là null, trong khi Glottolog 5.3 có mã chính thức là 'bahn1261'.",
+        "fix": "Cập nhật glottocode của Bahnar-Rengao thành 'bahn1261'."
+      },
+      {
+        "path": "lexicon[7].form",
+        "severity": "low",
+        "problem": "Từ 'pochrâm' trong các thư mục của Glottolog thực chất là bản lược dấu từ tên sách gốc của Paul Neo & Marilyn Gregerson (1974): ''Bai pơchrâm nâr Rơngao' (với chữ ơ có dấu móc ở tiền âm tiết pơ-).",
+        "fix": "Sửa 'pochrâm' thành 'pơchrâm (hoặc pochrâm)' ở lexicon và ml_hints, đồng thời nâng độ tin cậy."
+      },
+      {
+        "path": "lexicon[12]",
+        "severity": "low",
+        "problem": "Mục từ 'kanăp' (lid of a basket) khó đối chiếu trực tiếp hơn so với các biến thể đã được xuất bản rõ trong Phụ lục phương ngữ của Gregerson & Gregerson (2026) là 'ka'nằl / kalằp' (a jar lid).",
+        "fix": "Bổ sung 'ka'nằl / kalằp' bên cạnh 'kanăp' và hạ confidence của 'kanăp' hoặc ghi rõ biến thể phương ngữ từ nguồn Brill (2026)."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các trường url_check trong sources đang để null dù các URL (DOI Brill 2026, Glottolog, Ethnologue, WALS, Wikipedia) đều hoạt động và kiểm chứng được.",
+        "fix": "Cập nhật url_check = 'ok' cho các URL đã xác thực và bổ sung ấn phẩm Neo & Gregerson (1974) / Gregerson & Gregerson (1977)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

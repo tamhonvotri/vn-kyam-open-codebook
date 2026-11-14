@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "xo-dang-hal",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hà Lăng",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3_expected": "hal",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: hal; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+  },
+  "started": "2026-11-13T23:59:36.267146",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9445,
+      "candidatesTokenCount": 8730,
+      "totalTokenCount": 24523,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9445
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8730
+        }
+      ],
+      "thoughtsTokenCount": 6348,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11382,
+      "candidatesTokenCount": 11438,
+      "totalTokenCount": 25664,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11382
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11438
+        }
+      ],
+      "thoughtsTokenCount": 2844,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[14] & ml_hints.quoc_ngu_approximation[2]",
+        "severity": "high",
+        "problem": "Từ 'se'l' ('buổi chiều tối' / 'evening') là lỗi nhận dạng ký tự quang học (OCR) khi quét sách của Sidwell & Jacq (2000), biến chữ 'sĕ̀' (hoặc phiên âm [se̤ʔ]) thành 'se'l' / 'Set'. Theo từ điển Cooper & Cooper (1976, mục #3237), từ có nghĩa 'buổi chiều tối' (evening) trong tiếng Hà Lăng là 'sĕ̀' /se̤ʔ/ (nguyên âm ngắn hà hơi đóng bằng tắc thanh hầu cuối), hoàn toàn không có âm cuối -l hay cụm -'l.",
+        "fix": "Sửa mục từ số 14 trong lexicon thành 'sĕ̀' (/se̤ʔ/, 'buổi chiều tối' / 'evening') và bỏ 'se'l' khỏi ml_hints.quoc_ngu_approximation[2]."
+      },
+      {
+        "path": "phonology.vowels & phonology.codas",
+        "severity": "medium",
+        "problem": "Bản thảo mô tả 'ơ' (/ə/) chỉ xuất hiện ở tiền âm tiết (presyllable) và cho rằng tiếng Hà Lăng chỉ có 5 vị trí nguyên âm cơ bản. Thực tế, theo Cooper & Cooper (1966, 1976), âm tiết chính của tiếng Hà Lăng có đầy đủ hệ nguyên âm giữa 'ơ' (/əː/), 'ờ' (/ə̤ː/), 'ơ̆' (/ə/), 'ơ̆̀' (/ə̤/) (ví dụ: nơ̆r 'lời nói, tiếng nói', sơng /səːŋ/ 'nước uống', lơp /ləːp/ 'lũ lụt', gơgơ̆l /gəgəl/ 'bắt đầu'). Ngoài ra, trong chính tả SIL của Cooper, dấu trăng trên nguyên âm ở cuối âm tiết mở (như jơlĭ /ɟəliʔ/, sĕ̀ /se̤ʔ/, tơngŏ̀ /təŋo̤ʔ/, phiă phằ /phiəʔ pha̤ʔ/) dùng để biểu thị nguyên âm ngắn đi kèm âm tắc thanh hầu cuối /-ʔ/.",
+        "fix": "Cập nhật mô tả nguyên âm 'ơ / ơ̆ / ờ' cho cả âm tiết chính và tiền âm tiết; bổ sung quy tắc chính tả dấu trăng ở âm tiết mở biểu thị /-Vʔ/ vào phonology.vowels và phonology.codas."
+      },
+      {
+        "path": "scripts[0].note, sources[1], autonym, lexicon[0], lexicon[1]",
+        "severity": "low",
+        "problem": "Nhan đề chính xác của sách học tiếng Hà Lăng do James S. Cooper biên soạn năm 1971 là \"'Bai hŏk nơ̆r Halăng = Bài học tiếng Halăng = Halăng language lessons\" (viết là 'hŏk' và 'nơ̆r', không phải 'hôk' và 'nŏr'; cách viết 'nŏr' thường chỉ xuất hiện trong các trích dẫn lược bỏ dấu móc). Đồng thời, âm đầu tiền thanh hầu hóa trong từ điển Cooper & Cooper (1976) được phiên âm âm vị học là /ʔC/ hoặc [ɓ, ɗ] (như 'be /ɓɛː/, 'dang /ɗaŋ/, 'mơm /ʔməːm/).",
+        "fix": "Chuẩn hóa lại nhan đề sách năm 1971 thành \"'Bai hŏk nơ̆r Halăng\" và bổ sung dạng chính tả chuẩn 'nơ̆r' (/nər/) bên cạnh 'nŏr'."
+      },
+      {
+        "path": "lexicon[12]",
+        "severity": "low",
+        "problem": "Từ 'gơduh' (/gəduh/) trong từ điển Cooper & Cooper (1976, mục #856) có nghĩa chính xác là 'bark of tree; shell of egg' (vỏ cây; vỏ trứng), không phải 'da' (skin).",
+        "fix": "Chỉnh lại nghĩa tiếng Việt và tiếng Anh của 'gơduh' thành 'vỏ cây, vỏ trứng' ('bark of tree; shell of egg')."
+      }
+    ]
+  },
+  "schema_errors": []
+}

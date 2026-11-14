@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "hmong-mww",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mông Trắng (Hmong Daw)",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3_expected": "mww",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: mww; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+  },
+  "started": "2026-11-13T23:26:23.999247",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9452,
+      "candidatesTokenCount": 10112,
+      "totalTokenCount": 25070,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9452
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10112
+        }
+      ],
+      "thoughtsTokenCount": 5506,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 13011,
+      "candidatesTokenCount": 13144,
+      "totalTokenCount": 29011,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13011
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13144
+        }
+      ],
+      "thoughtsTokenCount": 2856,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "high",
+        "problem": "Bốn mã Glottocode trong danh sách sub_varieties bị sai hoặc nhầm lẫn chéo: (1) Mông Sua / Sinicized Miao (hmz) có Glottocode đúng là 'hmon1331' chứ không phải 'hmon1263'; (2) Hmong Dô (hmv) có Glottocode đúng là 'hmon1332' chứ không phải 'hmon1330'; (3) Hmong Don (hmf) có Glottocode đúng là 'hmon1263' chứ không phải 'hmon1331'; (4) Tiếng Na Mẻo / Ná-Meo (neo) có Glottocode đúng là 'name1237' chứ không phải 'name1238', phân bố tại Lạng Sơn, Cao Bằng, Bắc Kạn, Tuyên Quang (không phải Thái Nguyên) và thuộc nhánh Đông Hmongic (East Hmongic / Southern Qiandongic). Ngoài ra, vĩ ngôn ngữ hmn trong ISO 639-3 không bao gồm hmf và hmv.",
+        "fix": "Sửa lại chính xác toàn bộ mã Glottocode theo Glottolog 5.3 (hmz -> hmon1331, hmv -> hmon1332, hmf -> hmon1263, neo -> name1237) và cập nhật địa bàn phân bố của tiếng Ná-Meo cũng như ghi chú về phạm vi mã hmn."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Một số chú thích đối chiếu sang Chữ Mông Việt Nam (MVN - Nghị định 206-CP năm 1961) trong trường note của phonology.onsets bị ghi nhầm theo chính tả RPA thay vì chữ Hmông Việt: txh (MVN đúng là 'cx', bản nháp ghi 'txh'), ntx (MVN đúng là 'nz', bản nháp ghi 'ntx'), ntxh (MVN đúng là 'nx', bản nháp ghi 'ntxh'), rh (MVN đúng là 'rh', bản nháp ghi 'trh'), ch (MVN đúng là 'q', bản nháp ghi 'chh'), nch (MVN đúng là 'nq', bản nháp ghi 'nch'), nq (MVN đúng là 'ng', bản nháp ghi 'nq'), nqh (MVN đúng là 'nkr', bản nháp ghi 'nqh'), ml/hml (MVN dùng 'mn/hmn' hoặc 'ml/hml'), nts (MVN dùng 'nts / nj').",
+        "fix": "Sửa lại toàn bộ các chú thích đối chiếu Chữ Mông Việt Nam (MVN) trong phonology.onsets cho khớp với bảng chữ cái Hmông Việt 1961; đồng thời bổ sung biến thể ngữ âm [ᵐbʱ, ⁿdʱ, ᶮɟʱ, ᵑɡʱ, ᶰɢʱ...] bên cạnh [ᵐpʰ, ⁿtʰ...] cho nhóm phụ âm tiền mũi hóa bật hơi."
+      },
+      {
+        "path": "phonology.vowels[9].note",
+        "severity": "low",
+        "problem": "Nguyên âm đôi 'au' /au̯/ trong RPA tương ứng với chữ 'âu' trong Chữ Mông Việt Nam (MVN), nhưng trường note đang ghi là '(MVN: au)'.",
+        "fix": "Sửa note của vần 'au' thành 'nguyên âm đôi khép hướng sau (MVN: âu)'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Đã kiểm tra các nguồn URL và văn bản pháp lý (Quyết định 1852/QĐ-BVHTTDL và 1401/QĐ-BVHTTDL); tuy nhiên url_check đang để null và thiếu nguồn đối chiếu bảng chữ viết Hmong (Wikipedia Hmong writing / Enwall 1995).",
+        "fix": "Cập nhật url_check='ok' cho các URL đã xác thực và bổ sung tài liệu tham khảo của Joakim Enwall (1995) về hệ thống chữ viết Hmông tại Việt Nam."
+      }
+    ]
+  },
+  "schema_errors": []
+}

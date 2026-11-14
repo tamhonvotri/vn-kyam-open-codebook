@@ -1,0 +1,776 @@
+{
+  "id": "chut-aem",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Arem",
+  "name_en": "Arem",
+  "autonym": "Cmbrau [cmrawˀ]",
+  "ethnic_group_vi": "Chứt",
+  "language": {
+    "iso639_3": "aem",
+    "glottocode": "arem1240",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Quảng Bình (bản Arem / Cà Ròong, xã Tân Trạch, huyện Bố Trạch — vùng lõi Vườn quốc gia Phong Nha - Kẻ Bàng)"
+  ],
+  "speakers_estimate": "Cực kỳ nguy cấp (UNESCO Critically Endangered): chỉ còn khoảng 7–25 người lớn tuổi nói thông thạo thường xuyên trong cộng đồng khoảng 100–300 người Arem tại xã Tân Trạch (Trần Trí Dõi 1999 ước tính ~25% trong 102 người; thống kê năm 2021 ghi nhận khoảng 7 người bản ngữ thành thạo; tất cả đều song ngữ với tiếng Việt).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (ghi âm học thuật bằng IPA / Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; IPA Extensions; Spacing Modifier Letters",
+      "official_in_vietnam": false,
+      "note": "Tiếng Arem là ngôn ngữ truyền khẩu, chưa có bộ chữ viết Latinh do Nhà nước ban hành. Trong văn liệu ngôn ngữ học (Đoàn Văn Phúc 1986, Trần Trí Dõi 1999, Michel Ferlus 2014, Tạ Thành Tấn 2025), ngôn ngữ này được ghi bằng ký hiệu IPA kết hợp dấu huyền (à) chỉ âm vực trầm-hà hơi và dấu tắc thanh hầu trên cao (ˀ) chỉ thanh hầu hóa cuối âm tiết. Báo chí địa phương đôi khi phiên âm tự phát theo chữ Quốc ngữ (ví dụ: Chăm rău / Tô b'rău)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu điền dã ngữ âm học tại xã Tân Trạch, huyện Bố Trạch, tỉnh Quảng Bình (Ferlus 2014; Trần Trí Dõi 1999; Tạ Thành Tấn 2023, 2025). Chỉ mô tả tiếng Arem nói tại Việt Nam. Chưa qua thẩm định trực tiếp với nghệ nhân/người bản ngữ Arem.",
+  "phonology": {
+    "syllable_structure": "(C0(V0))C1(C2)V(ː)(C3) — khoảng 55–60% từ vựng có cấu trúc song tiết / âm tiết rưỡi (sesquisyllabic), tỷ lệ bảo lưu tiền âm tiết cao nhất trong nhánh Vietic. Tiền âm tiết không mang trọng âm, hệ nguyên âm thu giản (phổ biến nhất theo tần suất trong Ferlus 2014: a-, N-, ka-, u-, ci-, pa-, ta-, i-, la-, ku-, hiếm hơn: pi-, ba-, ma-/mu-, tam-, cm-, kə-, le-, ra-/rə-).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (trong tài liệu học thuật ghi pʰ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (thường tiền thanh hầu hóa nhẹ kiểu Vietic [ɓ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh ([ɗ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ts / ch",
+        "ipa": "tʃ",
+        "note": "Tắc-xát sau chân răng vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j / dj",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ / -",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ɲ",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ŋ",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sh / ʃ",
+        "ipa": "ʃ",
+        "note": "Xát sau chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "z",
+        "note": "Phụ âm hiếm / từ vay mượn (Ferlus 2014 đặt trong ngoặc đơn)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ʑ / ʒ",
+        "ipa": "ʑ ~ ʒ",
+        "note": "Phụ âm hiếm (Ferlus 2014 đặt trong ngoặc đơn)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "j / y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pr, tr, cr, kr, br",
+        "ipa": "pr, tr, cr, kr, br",
+        "note": "Tổ hợp phụ âm đầu với âm r",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl, tl, kl, thl",
+        "ipa": "pl, tl, kl, tʰl",
+        "note": "Tổ hợp phụ âm đầu với âm bên l",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mp, nt, nth, nts, nc, nk, nʔ, nh",
+        "ipa": "ᵐp, ⁿt, ⁿtʰ, ⁿtʃ, ᶮc, ᵑk, ᵑʔ, ᵑh",
+        "note": "Phụ âm đầu vô thanh tiền mũi hóa (hình thành từ tiền âm tiết mũi N-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mb, nd, nj, nv, nl, nr, ny",
+        "ipa": "ᵐb, ⁿd, ᶮɟ, ⁿv, ⁿl, ⁿr ~ ⁿdʒ, ᶮj",
+        "note": "Phụ âm đầu hữu thanh tiền mũi hóa (hình thành từ tiền âm tiết mũi N-)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "ɪ / ɪː",
+        "ipa": "ɪ, ɪː",
+        "note": "Nguyên âm dòng trước hơi cao, âm vực cao-trong (Series 1). Cặp [i, iː] cao hơn chỉ xuất hiện ở từ mượn tiếng Việt hoặc chịu ảnh hưởng phát âm tiếng Việt.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ì / ìː",
+        "ipa": "i̤, i̤ː",
+        "note": "Nguyên âm dòng trước cao, âm vực thấp-hà hơi (Series 2; Ferlus 2014 ký hiệu ì, ìː)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʉ / ʉː",
+        "ipa": "ʉ, ʉː",
+        "note": "Nguyên âm dòng giữa cao, âm vực cao-trong (Series 1); biến thể [ɨ, ɨː] gặp trong từ vay mượn tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɨ̀ / ɨ̀ː",
+        "ipa": "ɨ̤, ɨ̤ː",
+        "note": "Nguyên âm dòng giữa cao, âm vực thấp-hà hơi (Series 2)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʊ / ʊː",
+        "ipa": "ʊ, ʊː",
+        "note": "Nguyên âm dòng sau hơi cao tròn môi, âm vực cao-trong (Series 1); [u, uː] gặp trong từ vay mượn tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ù / ùː",
+        "ipa": "ṳ, ṳː",
+        "note": "Nguyên âm dòng sau cao tròn môi, âm vực thấp-hà hơi (Series 2; Ferlus 2014 ký hiệu ù, ùː)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / eː",
+        "ipa": "e, eː",
+        "note": "Nguyên âm dòng trước hơi hẹp, âm vực cao-trong (ngắn ít gặp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "è / èː",
+        "ipa": "e̤, e̤ː",
+        "note": "Nguyên âm dòng trước hơi hẹp, âm vực thấp-hà hơi (dài ít gặp)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ə / əː",
+        "ipa": "ə, əː",
+        "note": "Nguyên âm dòng giữa trung bình, âm vực cao-trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ə̀ / ə̀ː",
+        "ipa": "ə̤, ə̤ː",
+        "note": "Nguyên âm dòng giữa trung bình, âm vực thấp-hà hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o / oː",
+        "ipa": "o, oː",
+        "note": "Nguyên âm dòng sau hơi hẹp tròn môi, âm vực cao-trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ò / òː",
+        "ipa": "o̤, o̤ː",
+        "note": "Nguyên âm dòng sau hơi hẹp tròn môi, âm vực thấp-hà hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɛ / ɛː",
+        "ipa": "ɛ, ɛː",
+        "note": "Nguyên âm dòng trước hơi rộng, âm vực cao-trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "æ / æː",
+        "ipa": "æ, æː",
+        "note": "Nguyên âm dòng trước rộng, âm vực cao-trong; /æː/ thường hiện thực hóa thành nguyên âm đôi [ɛa]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʌ / ʌː",
+        "ipa": "ʌ, ʌː",
+        "note": "Nguyên âm dòng sau không tròn môi hơi rộng, âm vực cao-trong (có biến thể [ɐ, ɐː])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɐ̀ / ɐ̀ː",
+        "ipa": "ɐ̤, ɐ̤ː",
+        "note": "Nguyên âm trung tâm hơi rộng, âm vực thấp-hà hơi (Series 2)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɔ / ɔː",
+        "ipa": "ɔ, ɔː",
+        "note": "Nguyên âm dòng sau hơi rộng tròn môi, âm vực cao-trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ɑ / ɑː",
+        "ipa": "ɑ, ɑː",
+        "note": "Nguyên âm dòng sau rộng không tròn môi, âm vực cao-trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / aː",
+        "ipa": "a, aː",
+        "note": "Nguyên âm dòng trước/giữa rộng, âm vực cao-trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ie, ɨə, uo",
+        "ipa": "ie, ɨə, uo",
+        "note": "Nguyên âm đôi mở, âm vực cao-trong (Series 1)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ìe, ɨ̀ə, ùo",
+        "ipa": "i̤e, ɨ̤ə, ṳo",
+        "note": "Nguyên âm đôi mở, âm vực thấp-hà hơi (Series 2)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh đóng (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng vô thanh đóng (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-c",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi vô thanh đóng (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm vô thanh đóng (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết được bảo lưu nguyên vẹn (tương ứng lịch sử với thanh hỏi/ngã tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-m, -n, -ɲ, -ŋ",
+        "ipa": "m, n, ɲ, ŋ",
+        "note": "Âm mũi cuối thông thường (không thanh hầu hóa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w, -j",
+        "ipa": "w, j",
+        "note": "Bán nguyên âm cuối thông thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "ɭ ~ ɚ",
+        "note": "Âm bên cuối cong lưỡi [ɭ], được một số cộng tác viên nguyên âm hóa thành [ɚ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ˀ / -ʔ",
+        "ipa": "ʔ ~ ˀ",
+        "note": "Tắc thanh hầu cuối âm tiết mở (hoặc thắt thanh hầu ở cuối nguyên âm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-mˀ, -nˀ, -ɲˀ, -ŋˀ",
+        "ipa": "mˀ, nˀ, ɲˀ, ŋˀ",
+        "note": "Âm mũi cuối thanh hầu hóa (đặc trưng cổ sơ tương đồng với tiếng Thavưng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-wˀ, -jˀ, -lˀ",
+        "ipa": "wˀ, jˀ, lˀ",
+        "note": "Bán nguyên âm và âm bên cuối thanh hầu hóa",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ âm vực (register language) chưa hình thành thanh điệu F0 ổn định. Hệ thống nguyên âm phân đôi thành 2 loạt âm vực do quá trình vô thanh hóa phụ âm đầu cổ: Loạt 1 (Series 1 — cao/trong, nguyên âm mở hơn) và Loạt 2 (Series 2 — thấp/hà hơi, nguyên âm khép hơn). Trong âm tiết kết thúc bằng âm vang hoặc mở, cả hai loạt đều đối lập giữa kết thúc thường (/V(R)/) và kết thúc thanh hầu hóa (/V(R)ˀ/). Ferlus (2014) từng quy hệ thống này thành 4 thanh kết hợp âm vực (/a, aˀ, à, àˀ/, bên cạnh /-h, -àh/ và /-C, -àC/), nhưng nghiên cứu ngữ âm thực nghiệm của Tạ Thành Tấn (2023, 2025) trên người nói tại Quảng Bình chứng minh đối lập âm vực trong tiếng Arem được khu biệt bằng phẩm chất nguyên âm và chất giọng (phonation), không khu biệt bằng cao độ F0, đồng thời các âm cuối thanh hầu (-ʔ/-ˀ, -h, -Rˀ) vẫn còn bảo lưu nguyên vẹn nên tiếng Arem đồng đại là ngôn ngữ âm vực không có thanh điệu."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người / tộc người Arem",
+      "form": "cmbrau",
+      "ipa": "cmrawˀ",
+      "gloss_en": "person / Arem person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "mùːc",
+      "ipa": "mṳːc",
+      "gloss_en": "one",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pæː",
+      "ipa": "pɛa",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "puənˀ",
+      "ipa": "puənˀ",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bảy",
+      "form": "pʌh",
+      "ipa": "pʌh",
+      "gloss_en": "seven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dæːk",
+      "ipa": "dɛak",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "calˀ",
+      "ipa": "calˀ",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gió",
+      "form": "kajɑːˀ",
+      "ipa": "kajɑːˀ",
+      "gloss_en": "wind",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đất",
+      "form": "atak",
+      "ipa": "atak",
+      "gloss_en": "earth / soil",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "máu / nhựa cây",
+      "form": "mawˀ",
+      "ipa": "mawˀ",
+      "gloss_en": "blood / sap",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "măng",
+      "form": "abaŋ",
+      "ipa": "abaŋ ~ aɓaŋ",
+      "gloss_en": "bamboo shoot",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trăn",
+      "form": "ulan",
+      "ipa": "ulan",
+      "gloss_en": "python",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bay",
+      "form": "pal",
+      "ipa": "paɭ",
+      "gloss_en": "to fly",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con",
+      "form": "kɑːn",
+      "ipa": "kɑːn",
+      "gloss_en": "child / offspring",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cháu",
+      "form": "cawˀ",
+      "ipa": "cawˀ",
+      "gloss_en": "grandchild",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát dân ca truyền thống người Arem (hát trong hang đá, bên bếp lửa)",
+        "note": "Các khúc hát tự sự, trữ tình trầm buồn, ngân nga mênh mang giữa núi rừng đá vôi Phong Nha - Kẻ Bàng (như bài hát cổ về chim én trong hang Én hoặc hát đối đáp quanh bếp lửa ban đêm). Hiện chỉ còn một vài bậc cao niên tại bản Tân Trạch nhớ lời cổ.",
+        "confidence": "low"
+      },
+      {
+        "name": "Dân ca giao lưu cụm Chứt (Kà tơm - tà lênh, Kà răng - tà nên)",
+        "note": "Các làn điệu dân ca chung của cộng đồng dân tộc Chứt ở Quảng Bình thường xuất hiện trong sinh hoạt lễ hội và giao lưu văn hóa liên bản.",
+        "confidence": "low"
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Nhạc cụ tre nứa tự chế vùng Trường Sơn - Phong Nha (sáo/khèn nứa, đàn ống tre)",
+        "note": "Tư liệu dân tộc nhạc học chuyên biệt riêng cho nhóm Arem rất hạn chế; đời sống âm nhạc truyền thống gắn liền với hát mộc truyền khẩu và giao lưu văn hóa với các nhóm Chứt và Bru - Vân Kiều (Khùa, Ma Coong) láng giềng tại huyện Bố Trạch.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "chut",
+    "sub_varieties": [
+      {
+        "name": "Arem Tân Trạch (bản Arem / Cà Ròong)",
+        "iso639_3": "aem",
+        "glottocode": "arem1240",
+        "relation": "primary_in_vietnam",
+        "note": "Cộng đồng nói tiếng Arem duy nhất tại Việt Nam (xã Tân Trạch, huyện Bố Trạch, tỉnh Quảng Bình), không phân chia phương ngữ nội bộ."
+      },
+      {
+        "name": "Tiếng Chứt (cụm phương ngữ Sách, Rục, Mày)",
+        "iso639_3": "scb",
+        "glottocode": "chut1247",
+        "relation": "sibling_in_ethnic_group",
+        "note": "Ngôn ngữ cùng dân tộc Chứt tại Quảng Bình, gần gũi về mặt phả hệ Vietic nhưng là ngôn ngữ riêng biệt (xem bảng mã chut)."
+      },
+      {
+        "name": "Tiếng Mã Liềng / Maleng (Pakatan)",
+        "iso639_3": "pkt",
+        "glottocode": "male1282",
+        "relation": "sibling_in_ethnic_group",
+        "note": "Ngôn ngữ của nhóm địa phương Mã Liềng thuộc dân tộc Chứt tại Quảng Bình và Hà Tĩnh."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "cmbrau",
+        "ipa": "cmrawˀ",
+        "meaning_vi": "người, tộc người Arem"
+      },
+      {
+        "native": "mùːc",
+        "ipa": "mṳːc",
+        "meaning_vi": "một"
+      },
+      {
+        "native": "pæː",
+        "ipa": "pɛa",
+        "meaning_vi": "ba (số 3)"
+      },
+      {
+        "native": "puənˀ",
+        "ipa": "puənˀ",
+        "meaning_vi": "bốn"
+      },
+      {
+        "native": "pʌh",
+        "ipa": "pʌh",
+        "meaning_vi": "bảy"
+      },
+      {
+        "native": "dæːk",
+        "ipa": "dɛak",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "calˀ",
+        "ipa": "calˀ",
+        "meaning_vi": "lửa"
+      },
+      {
+        "native": "mawˀ",
+        "ipa": "mawˀ",
+        "meaning_vi": "máu, nhựa cây"
+      },
+      {
+        "native": "abaŋ",
+        "ipa": "abaŋ",
+        "meaning_vi": "măng tre"
+      },
+      {
+        "native": "ulan",
+        "ipa": "ulan",
+        "meaning_vi": "con trăn"
+      },
+      {
+        "native": "pal",
+        "ipa": "paɭ",
+        "meaning_vi": "bay"
+      },
+      {
+        "native": "cibʊːc",
+        "ipa": "cibʊːc",
+        "meaning_vi": "mút, hút"
+      },
+      {
+        "native": "cirùː",
+        "ipa": "cirṳː",
+        "meaning_vi": "sâu"
+      },
+      {
+        "native": "tlɑːjˀ",
+        "ipa": "tlɑːjˀ",
+        "meaning_vi": "trói, buộc"
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "cmbrau [cmrawˀ]",
+        "quoc_ngu": "chăm-rău",
+        "note": "Tiếng Việt không có cụm tiền âm tiết [cm-] và bán nguyên âm cuối thanh hầu hóa [-wˀ]; tách tiền âm tiết thành 'chăm' nhẹ, âm tiết chính dùng thanh sắc/nặng ngắn hoặc nguyên âm ngắn 'rău' để gợi hiệu ứng ngắt thanh hầu."
+      },
+      {
+        "native": "dæːk [dɛak]",
+        "quoc_ngu": "đe-ác / đéc",
+        "note": "Nguyên âm /æː/ phát âm như nguyên âm đôi mở [ɛa] trước /-k/, không có tương đương khít trong Quốc ngữ chuẩn."
+      },
+      {
+        "native": "calˀ [calˀ]",
+        "quoc_ngu": "chá-lờ / chẳn",
+        "note": "Tiếng Việt không có âm bên cuối cong lưỡi /-l/ lẫn thanh hầu hóa /-lˀ/. Khi dùng TTS tiếng Việt, khó tái tạo [-lˀ] mà không chèn thêm nguyên âm đệm cực ngắn hoặc đổi sang âm mũi."
+      },
+      {
+        "native": "pʌh [pʌh]",
+        "quoc_ngu": "pơ-hờ / pở",
+        "note": "Tiếng Việt không có phụ âm đầu /p/ thuần ở từ thuần Việt (chỉ có trong từ mượn) và không có âm xát thanh hầu cuối /-h/."
+      },
+      {
+        "native": "abaŋ [abaŋ]",
+        "quoc_ngu": "a-băng",
+        "note": "Từ song tiết có tiền âm tiết /a-/ không nhấn; cần giảm trường độ và cường độ của âm tiết đầu 'a-' khi tổng hợp tiếng nói."
+      },
+      {
+        "native": "tlɑːjˀ [tlɑːjˀ]",
+        "quoc_ngu": "tờ-lái",
+        "note": "Tiếng Việt hiện đại đã mất tổ hợp phụ âm đầu /tl-/ (nhập vào 'tr-'); cần tách nhẹ 't-l' để giữ đặc trưng ngữ âm cổ của tiếng Arem."
+      },
+      {
+        "native": "cirùː [cirṳː]",
+        "quoc_ngu": "chi-rù",
+        "note": "Âm vực thấp-hà hơi (Series 2) được xấp xỉ gần nhất bằng thanh huyền tiếng Việt, nhưng tiếng Việt Bắc Bộ không có chất giọng hà hơi (breathy voice) rõ như tiếng Arem."
+      }
+    ],
+    "tts_and_svs_notes": "Tiếng Việt không có: (1) tiền âm tiết không trọng âm (sesquisyllables), (2) các tổ hợp phụ âm đầu pr-, pl-, tl-, kl-, cr-, kr-, tʰl- và loạt phụ âm tiền mũi hóa ᵐp-, ⁿt-, ⁿr-..., (3) phụ âm cuối -l [ɭ ~ ɚ] và -h, (4) loạt âm vang cuối thanh hầu hóa (-mˀ, -nˀ, -ɲˀ, -ŋˀ, -wˀ, -jˀ, -lˀ), (5) đối lập âm vực trong/hà hơi trên hơn 30 đơn vị nguyên âm ngắn-dài mà không dùng thanh điệu F0. Mô hình TTS/giọng hát chỉ huấn luyện trên tiếng Việt chỉ có thể đọc xấp xỉ ở mức rất thô."
+  },
+  "sources": [
+    {
+      "title": "Ferlus, Michel (2014). Arem, a Vietic Language. Mon-Khmer Studies, 43(1): 1–15 (ICAAL5 special issue).",
+      "url": "http://mksjournal.org/mksj43.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ta, Tan [Tạ Thành Tấn] (2025). Arem: A Register Language without Tone. Proceedings of the Third International Conference on Tone and Intonation (TAI 2025), 129–133.",
+      "url": "https://doi.org/10.21437/TAI.2025-27",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "CNRS Pangloss Collection — Arem corpus (Michel Ferlus, Trần Trí Dõi & Tạ Thành Tấn)",
+      "url": "https://pangloss.cnrs.fr/corpus/Arem",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Spoken L1 Language: Arem (arem1240)",
+      "url": "https://glottolog.org/resource/languoid/id/arem1240",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Arem language",
+      "url": "https://en.wikipedia.org/wiki/Arem_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Arem",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Arem",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đoàn Văn Phúc (1986). Hệ thống ngữ âm tiếng Arem. Trong: Những vấn đề ngôn ngữ học về các ngôn ngữ Phương Đông (tr. 47–53). Hà Nội: Viện Ngôn ngữ học.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Trần Trí Dõi (1999). Nghiên cứu ngôn ngữ các dân tộc thiểu số Việt Nam. Hà Nội: NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Vương Hoàng Tuyên (1963). Các dân tộc nguồn gốc Nam-Á ở miền Bắc Việt-Nam. Hà Nội: NXB Giáo dục.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "scripts[0].note",
+          "severity": "medium",
+          "problem": "Ghi sai năm công bố công trình nghiên cứu ngữ âm tiếng Arem của Đoàn Văn Phúc là 1966. Thực tế bài viết 'Hệ thống ngữ âm tiếng Arem' (trong kỷ yếu 'Những vấn đề ngôn ngữ học về các ngôn ngữ Phương Đông', Viện Ngôn ngữ học, tr. 47–53) được xuất bản năm 1986.",
+          "fix": "Sửa 'Đoàn Văn Phúc 1966' thành 'Đoàn Văn Phúc 1986' và bổ sung tài liệu này vào danh mục sources."
+        },
+        {
+          "path": "lexicon[7]",
+          "severity": "medium",
+          "problem": "Mục từ 'gió' đang ghi form/ipa là 'kaja' theo cách trích dẫn giản lược lược bỏ dấu trên báo chí phổ thông. Trong kho ngữ liệu Pangloss (CNRS) của Michel Ferlus (#W51/#W52) và giáo trình Lịch sử tiếng Việt của Trần Trí Dõi, dạng chuẩn có nguyên âm dài và thanh hầu hóa cuối âm tiết: [kajɑːˀ].",
+          "fix": "Cập nhật form thành 'kajɑːˀ' và ipa thành 'kajɑːˀ' (nâng confidence lên 'high')."
+        },
+        {
+          "path": "lexicon[8]",
+          "severity": "medium",
+          "problem": "Mục từ 'đất' ghi form 'atăk' (theo lối ký hiệu nguyên âm ngắn /a/ bằng chữ ă của Trần Trí Dõi) nhưng lại chuyển sang IPA là 'atʌk' (nhầm chữ ă học thuật của hệ Việt Nam sang nguyên âm /ʌ/). Trong kho ngữ liệu Pangloss của Michel Ferlus (#W91), từ 'đất' được phiên âm IPA là [atak].",
+          "fix": "Sửa form thành 'atak' (hoặc ghi chú biến thể ký tự 'atăk') và sửa ipa thành 'atak' (nâng confidence lên 'high')."
+        },
+        {
+          "path": "music.genres[0].confidence",
+          "severity": "low",
+          "problem": "Mục hát dân ca truyền thống người Arem mới chỉ có mô tả dân tộc chí/báo chí tổng quát, chưa có tư liệu ký âm hay phân tích dân tộc nhạc học chuyên sâu.",
+          "fix": "Hạ confidence từ 'medium' xuống 'low' để phản ánh đúng mức độ tư liệu hiện có."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Arem chưa có chữ viết chuẩn hóa; cần xác nhận quy ước chuyển tự thực dụng nếu xây dựng học liệu cộng đồng tại xã Tân Trạch.",
+      "Tư liệu dân tộc nhạc học chuyên sâu (thang âm, lối luyến, nhạc cụ đệm cụ thể) của riêng nhóm Arem còn rất thiếu, cần khảo sát điền dã bổ sung với các nghệ nhân cao tuổi tại bản Arem.",
+      "Cần thống nhất cách xử lý ranh giới giữa từ mượn tiếng Việt và từ bản địa trong hệ thống nguyên âm cao [i, ɨ, u] so với [ɪ, ʉ, ʊ]."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

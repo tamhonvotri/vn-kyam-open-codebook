@@ -1,5 +1,19 @@
 [
   {
+    "id": "ba-na-ren",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Rơ Ngao",
+    "name_en": "Rengao",
+    "ethnic_group_vi": "Ba Na",
+    "iso639_3": "ren",
+    "glottocode": "reng1252",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/ba-na-ren.json"
+  },
+  {
     "id": "ba-na",
     "kind": "minority_language",
     "name_vi": "Tiếng Ba Na",
@@ -42,6 +56,20 @@
     "file": "codebooks/minority/brau.json"
   },
   {
+    "id": "bru-van-kieu-xhv",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Khùa",
+    "name_en": "Khua (Bru — Khua variety)",
+    "ethnic_group_vi": "Bru - Vân Kiều",
+    "iso639_3": "xhv",
+    "glottocode": "khua1243",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/bru-van-kieu-xhv.json"
+  },
+  {
     "id": "bru-van-kieu",
     "kind": "minority_language",
     "name_vi": "Tiếng Bru - Vân Kiều",
@@ -54,6 +82,34 @@
     "llm_review_score": 8,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/bru-van-kieu.json"
+  },
+  {
+    "id": "cham-cja",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Chăm Tây (Chăm Nam Bộ)",
+    "name_en": "Western Cham (Southern Vietnam Cham)",
+    "ethnic_group_vi": "Chăm",
+    "iso639_3": "cja",
+    "glottocode": "west2650",
+    "family": "Austronesian",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/cham-cja.json"
+  },
+  {
+    "id": "cham-hro",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Haroi (Chăm H'roi)",
+    "name_en": "Haroi (Hroi / Bahnar Cham)",
+    "ethnic_group_vi": "Chăm",
+    "iso639_3": "hro",
+    "glottocode": "haro1237",
+    "family": "Austronesian",
+    "status": "draft-llm",
+    "llm_review_score": 9.5,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/cham-hro.json"
   },
   {
     "id": "cham",
@@ -98,6 +154,34 @@
     "file": "codebooks/minority/chu-ru.json"
   },
   {
+    "id": "chut-aem",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Arem",
+    "name_en": "Arem",
+    "ethnic_group_vi": "Chứt",
+    "iso639_3": "aem",
+    "glottocode": "arem1240",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/chut-aem.json"
+  },
+  {
+    "id": "chut-pkt",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mã Liềng",
+    "name_en": "Malieng (Maleng)",
+    "ethnic_group_vi": "Chứt",
+    "iso639_3": "pkt",
+    "glottocode": "male1282",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/chut-pkt.json"
+  },
+  {
     "id": "chut",
     "kind": "minority_language",
     "name_vi": "Tiếng Chứt",
@@ -126,6 +210,34 @@
     "file": "codebooks/minority/co-ho.json"
   },
   {
+    "id": "co-lao-giq",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cờ Lao Xanh",
+    "name_en": "Green Gelao (Hagei)",
+    "ethnic_group_vi": "Cờ Lao",
+    "iso639_3": "giq",
+    "glottocode": "gree1278",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/co-lao-giq.json"
+  },
+  {
+    "id": "co-lao-gir",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Cờ Lao Đỏ",
+    "name_en": "Red Gelao (Vandu Gelao)",
+    "ethnic_group_vi": "Cờ Lao",
+    "iso639_3": "gir",
+    "glottocode": "redg1235",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/co-lao-gir.json"
+  },
+  {
     "id": "co-lao",
     "kind": "minority_language",
     "name_vi": "Tiếng Cờ Lao",
@@ -138,6 +250,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/co-lao.json"
+  },
+  {
+    "id": "co-tu-phg",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Phương (Cơ Tu Phương)",
+    "name_en": "Phuong (Katu Phuong)",
+    "ethnic_group_vi": "Cơ Tu",
+    "iso639_3": "phg",
+    "glottocode": "phuo1238",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/co-tu-phg.json"
   },
   {
     "id": "co-tu",
@@ -182,6 +308,20 @@
     "file": "codebooks/minority/cong.json"
   },
   {
+    "id": "dao-mji",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Kim Mun (Dao Làn Tẻn / Thanh Y / Quần Trắng)",
+    "name_en": "Kim Mun (Lanten / Thanh Y / White-Trouser Dao)",
+    "ethnic_group_vi": "Dao",
+    "iso639_3": "mji",
+    "glottocode": "kimm1245",
+    "family": "Hmong-Mien",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/dao-mji.json"
+  },
+  {
     "id": "dao",
     "kind": "minority_language",
     "name_vi": "Tiếng Dao (Ưu Miền / Dìu Miền)",
@@ -194,6 +334,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/dao.json"
+  },
+  {
+    "id": "e-de-ibh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Bih (Ê Đê Bih)",
+    "name_en": "Bih (Rade Bih)",
+    "ethnic_group_vi": "Ê Đê",
+    "iso639_3": "ibh",
+    "glottocode": "biha1246",
+    "family": "Austronesian",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/e-de-ibh.json"
   },
   {
     "id": "e-de",
@@ -238,6 +392,34 @@
     "file": "codebooks/minority/giay.json"
   },
   {
+    "id": "gie-trieng-stg",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Triêng",
+    "name_en": "Trieng",
+    "ethnic_group_vi": "Giẻ Triêng",
+    "iso639_3": "stg",
+    "glottocode": "trie1243",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/gie-trieng-stg.json"
+  },
+  {
+    "id": "gie-trieng-tdf",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ve (Talieng)",
+    "name_en": "Ve / Talieng (Vietnam variety)",
+    "ethnic_group_vi": "Giẻ Triêng",
+    "iso639_3": "tdf",
+    "glottocode": "tali1257",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/gie-trieng-tdf.json"
+  },
+  {
     "id": "gie-trieng",
     "kind": "minority_language",
     "name_vi": "Tiếng Giẻ Triêng",
@@ -266,6 +448,62 @@
     "file": "codebooks/minority/ha-nhi.json"
   },
   {
+    "id": "hmong-hmf",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hmong Don",
+    "name_en": "Hmong Don",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3": "hmf",
+    "glottocode": "hmon1263",
+    "family": "Hmong-Mien",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/hmong-hmf.json"
+  },
+  {
+    "id": "hmong-hmv",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mông Đô",
+    "name_en": "Hmong Dô",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3": "hmv",
+    "glottocode": "hmon1332",
+    "family": "Hmong-Mien",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/hmong-hmv.json"
+  },
+  {
+    "id": "hmong-hmz",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mông Xanh (Hmong Shua)",
+    "name_en": "Hmong Shua (Sinicized Miao / Vietnam Hmong Sua)",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3": "hmz",
+    "glottocode": "hmon1331",
+    "family": "Hmong-Mien",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/hmong-hmz.json"
+  },
+  {
+    "id": "hmong-mww",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mông Trắng (Hmong Daw)",
+    "name_en": "White Hmong (Hmong Daw)",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3": "mww",
+    "glottocode": "hmon1333",
+    "family": "Hmong-Mien",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/hmong-mww.json"
+  },
+  {
     "id": "hmong",
     "kind": "minority_language",
     "name_vi": "Tiếng H'Mông",
@@ -278,6 +516,34 @@
     "llm_review_score": 8,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/hmong.json"
+  },
+  {
+    "id": "hoa-hnm",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hải Nam",
+    "name_en": "Hainanese (Hainan Min)",
+    "ethnic_group_vi": "Hoa",
+    "iso639_3": "hnm",
+    "glottocode": "hain1238",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/hoa-hnm.json"
+  },
+  {
+    "id": "hoa-nan",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Triều Châu (Tiều)",
+    "name_en": "Teochew (Chaoshan Southern Min)",
+    "ethnic_group_vi": "Hoa",
+    "iso639_3": "nan",
+    "glottocode": "chao1238",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/hoa-nan.json"
   },
   {
     "id": "hoa",
@@ -350,6 +616,20 @@
     "file": "codebooks/minority/kho-mu.json"
   },
   {
+    "id": "la-chi-lwh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Chí Trắng",
+    "name_en": "White Lachi",
+    "ethnic_group_vi": "La Chí",
+    "iso639_3": "lwh",
+    "glottocode": "whit1266",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/la-chi-lwh.json"
+  },
+  {
     "id": "la-chi",
     "kind": "minority_language",
     "name_vi": "Tiếng La Chí",
@@ -376,6 +656,34 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/la-ha.json"
+  },
+  {
+    "id": "la-hu-lhi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Hủ Sư (La Hủ Vàng)",
+    "name_en": "Lahu Shi (Yellow Lahu)",
+    "ethnic_group_vi": "La Hủ",
+    "iso639_3": "lhi",
+    "glottocode": "lahu1252",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/la-hu-lhi.json"
+  },
+  {
+    "id": "la-hu-lkc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Khù Sung (La Hủ Na)",
+    "name_en": "Kucong (Vietnam Black Lahu)",
+    "ethnic_group_vi": "La Hủ",
+    "iso639_3": "lkc",
+    "glottocode": "kuco1235",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/la-hu-lkc.json"
   },
   {
     "id": "la-hu",
@@ -462,6 +770,34 @@
     "file": "codebooks/minority/mang.json"
   },
   {
+    "id": "mnong-mng",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mnông Đông",
+    "name_en": "Eastern Mnong",
+    "ethnic_group_vi": "Mnông",
+    "iso639_3": "mng",
+    "glottocode": "east2333",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/mnong-mng.json"
+  },
+  {
+    "id": "mnong-mnn",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mnông Nam",
+    "name_en": "Southern Mnong",
+    "ethnic_group_vi": "Mnông",
+    "iso639_3": "mnn",
+    "glottocode": "sout2692",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/mnong-mnn.json"
+  },
+  {
     "id": "mnong",
     "kind": "minority_language",
     "name_vi": "Tiếng Mnông",
@@ -474,6 +810,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/mnong.json"
+  },
+  {
+    "id": "muong-nuo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Nguồn",
+    "name_en": "Nguon (Nguồn)",
+    "ethnic_group_vi": "Nguồn (hành chính xếp vào dân tộc Kinh; ngôn ngữ học xếp vào tiểu nhóm Mường / Việt–Mường)",
+    "iso639_3": "nuo",
+    "glottocode": "nguo1239",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/muong-nuo.json"
   },
   {
     "id": "muong",
@@ -502,6 +852,34 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/ngai.json"
+  },
+  {
+    "id": "nung-enc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng En (Nùng Vẻn)",
+    "name_en": "En (Nung Ven)",
+    "ethnic_group_vi": "Nùng",
+    "iso639_3": "enc",
+    "glottocode": "ennn1243",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/nung-enc.json"
+  },
+  {
+    "id": "nung-zhn",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Nùng Dín",
+    "name_en": "Nùng Dín (Western Nung / Nong Zhuang in Vietnam)",
+    "ethnic_group_vi": "Nùng",
+    "iso639_3": "zhn",
+    "glottocode": "nong1247",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/nung-zhn.json"
   },
   {
     "id": "nung",
@@ -546,6 +924,20 @@
     "file": "codebooks/minority/pa-then.json"
   },
   {
+    "id": "phu-la-lgh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Laghuu (Xá Phó / Phù Lá Lão)",
+    "name_en": "Laghuu (Xá Phó / Phù Lá Lão)",
+    "ethnic_group_vi": "Phù Lá",
+    "iso639_3": "lgh",
+    "glottocode": "lagh1245",
+    "family": "Sino-Tibetan",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/phu-la-lgh.json"
+  },
+  {
     "id": "phu-la",
     "kind": "minority_language",
     "name_vi": "Tiếng Phù Lá",
@@ -572,6 +964,34 @@
     "llm_review_score": 8,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/pu-peo.json"
+  },
+  {
+    "id": "ra-glai-rgs",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Raglai Nam",
+    "name_en": "Southern Roglai",
+    "ethnic_group_vi": "Ra Glai",
+    "iso639_3": "rgs",
+    "glottocode": "sout3010",
+    "family": "Austronesian",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/ra-glai-rgs.json"
+  },
+  {
+    "id": "ra-glai-roc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Raglai Các Gia",
+    "name_en": "Cacgia Roglai",
+    "ethnic_group_vi": "Ra Glai",
+    "iso639_3": "roc",
+    "glottocode": "cacg1235",
+    "family": "Austronesian",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/ra-glai-roc.json"
   },
   {
     "id": "ra-glai",
@@ -644,6 +1064,20 @@
     "file": "codebooks/minority/si-la.json"
   },
   {
+    "id": "stieng-stt",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Xtiêng Bù Đêh",
+    "name_en": "Budeh Stieng",
+    "ethnic_group_vi": "Xtiêng",
+    "iso639_3": "stt",
+    "glottocode": "bude1236",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/stieng-stt.json"
+  },
+  {
     "id": "stieng",
     "kind": "minority_language",
     "name_vi": "Tiếng Xtiêng",
@@ -656,6 +1090,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/stieng.json"
+  },
+  {
+    "id": "ta-oi-pac",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pa Cô",
+    "name_en": "Pacoh",
+    "ethnic_group_vi": "Tà Ôi",
+    "iso639_3": "pac",
+    "glottocode": "paco1243",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/ta-oi-pac.json"
   },
   {
     "id": "ta-oi",
@@ -672,6 +1120,34 @@
     "file": "codebooks/minority/ta-oi.json"
   },
   {
+    "id": "tay-pdi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pa Dí",
+    "name_en": "Pa Di",
+    "ethnic_group_vi": "Tày",
+    "iso639_3": "pdi",
+    "glottocode": "padi1241",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/tay-pdi.json"
+  },
+  {
+    "id": "tay-tyl",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thu Lao",
+    "name_en": "Thu Lao (Bu Dai / Dai Zhuang in Vietnam)",
+    "ethnic_group_vi": "Tày",
+    "iso639_3": "tyl",
+    "glottocode": "daiz1235",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8.8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/tay-tyl.json"
+  },
+  {
     "id": "tay",
     "kind": "minority_language",
     "name_vi": "Tiếng Tày",
@@ -686,6 +1162,90 @@
     "file": "codebooks/minority/tay.json"
   },
   {
+    "id": "thai-thc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày Hàng Tổng (Tày Mường)",
+    "name_en": "Tai Hang Tong (Tai Pao / Tay Muong)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3": "tpo",
+    "glottocode": "taip1250",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/thai-thc.json"
+  },
+  {
+    "id": "thai-tmm",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tai Thanh (Thái Thanh / Tày Nhài)",
+    "name_en": "Tai Thanh",
+    "ethnic_group_vi": "Thái",
+    "iso639_3": "tmm",
+    "glottocode": "tait1248",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/thai-tmm.json"
+  },
+  {
+    "id": "thai-twh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thái Trắng (Tày Đón)",
+    "name_en": "Tai Dón (White Tai)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3": "twh",
+    "glottocode": "taid1250",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/thai-twh.json"
+  },
+  {
+    "id": "thai-tyj",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tai Yo (Thái Quỳ Châu)",
+    "name_en": "Tai Yo (Quy Chau Thai)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3": "tyj",
+    "glottocode": "taid1248",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/thai-tyj.json"
+  },
+  {
+    "id": "thai-tyr",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thái Đỏ",
+    "name_en": "Tai Daeng (Red Tai)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3": "tyr",
+    "glottocode": "taid1249",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/thai-tyr.json"
+  },
+  {
+    "id": "thai-tyt",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày Tấc",
+    "name_en": "Tày Tac (Tai Tâk)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3": "tyt",
+    "glottocode": "tayt1241",
+    "family": "Kra-Dai",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/thai-tyt.json"
+  },
+  {
     "id": "thai",
     "kind": "minority_language",
     "name_vi": "Tiếng Thái",
@@ -698,6 +1258,20 @@
     "llm_review_score": 8,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/thai.json"
+  },
+  {
+    "id": "tho-hnu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày Poọng / Đan Lai – Ly Hà (Hung)",
+    "name_en": "Hung — Phong–Liha / Tày Poọng & Đan Lai – Ly Hà (Vietnam)",
+    "ethnic_group_vi": "Thổ",
+    "iso639_3": "hnu",
+    "glottocode": "hung1275",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/tho-hnu.json"
   },
   {
     "id": "tho",
@@ -728,6 +1302,62 @@
     "file": "codebooks/minority/xinh-mun.json"
   },
   {
+    "id": "xo-dang-hal",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hà Lăng",
+    "name_en": "Halang language",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3": "hal",
+    "glottocode": "hala1252",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/xo-dang-hal.json"
+  },
+  {
+    "id": "xo-dang-kxy",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Ca Dong",
+    "name_en": "Kayong (Ca Dong)",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3": "kxy",
+    "glottocode": "kayo1245",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/xo-dang-kxy.json"
+  },
+  {
+    "id": "xo-dang-moo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mơ Nâm",
+    "name_en": "Monom (Mơ Nâm)",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3": "moo",
+    "glottocode": "mono1268",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": null,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/xo-dang-moo.json"
+  },
+  {
+    "id": "xo-dang-tdr",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tơ Đra",
+    "name_en": "Todrah language",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3": "tdr",
+    "glottocode": "todr1244",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/minority/xo-dang-tdr.json"
+  },
+  {
     "id": "xo-dang",
     "kind": "minority_language",
     "name_vi": "Tiếng Xơ Đăng",
@@ -740,6 +1370,20 @@
     "llm_review_score": 9,
     "native_speaker_reviewed": false,
     "file": "codebooks/minority/xo-dang.json"
+  },
+  {
+    "id": "vie-binh-dinh-phu-yen",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Giọng Bình Định – Phú Yên",
+    "name_en": "Vietnamese — Bình Định – Phú Yên dialect (Xứ Nẫu)",
+    "ethnic_group_vi": "Kinh",
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/vietnamese/vie-binh-dinh-phu-yen.json"
   },
   {
     "id": "vie-central",
@@ -810,5 +1454,47 @@
     "llm_review_score": null,
     "native_speaker_reviewed": false,
     "file": "codebooks/vietnamese/vie-south.json"
+  },
+  {
+    "id": "vie-southwest",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Giọng miền Tây Nam Bộ (Đồng bằng sông Cửu Long)",
+    "name_en": "Vietnamese — Southwestern dialect (Mekong Delta / Tây Nam Bộ)",
+    "ethnic_group_vi": "Kinh",
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/vietnamese/vie-southwest.json"
+  },
+  {
+    "id": "vie-thanh-hoa",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Thổ ngữ Thanh Hóa",
+    "name_en": "Vietnamese — Thanh Hóa transitional dialect",
+    "ethnic_group_vi": "Kinh",
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 9,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/vietnamese/vie-thanh-hoa.json"
+  },
+  {
+    "id": "vie-xu-quang",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Giọng xứ Quảng (Đà Nẵng, Quảng Nam, Quảng Ngãi)",
+    "name_en": "Vietnamese — Xứ Quảng dialect (Đà Nẵng, Quảng Nam, Quảng Ngãi)",
+    "ethnic_group_vi": "Kinh",
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "status": "draft-llm",
+    "llm_review_score": 8,
+    "native_speaker_reviewed": false,
+    "file": "codebooks/vietnamese/vie-xu-quang.json"
   }
 ]

@@ -1,0 +1,84 @@
+{
+  "target": {
+    "id": "thai-thc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày Hàng Tổng (Tày Mường)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3_expected": "thc",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: thc; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+  },
+  "started": "2026-11-13T23:55:23.013994",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9444,
+      "candidatesTokenCount": 11895,
+      "totalTokenCount": 21339,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9444
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11895
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11746,
+      "candidatesTokenCount": 10776,
+      "totalTokenCount": 22522,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11746
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10776
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "scripts[0].official_in_vietnam",
+        "severity": "medium",
+        "problem": "Đặt `official_in_vietnam: true` là hơi quá mức. Dù UBND tỉnh Nghệ An đã cho biên soạn tài liệu bồi dưỡng chữ Thái Lai Pao (2019), hệ chữ này mới ở mức thử nghiệm/bồi dưỡng tại địa phương, chưa có quyết định chuẩn hóa cấp quốc gia hay bộ mã Unicode như một số chữ dân tộc khác.",
+        "fix": "Đổi `official_in_vietnam` thành `false` và giữ nguyên thuyết minh trong `note`."
+      },
+      {
+        "path": "lexicon[14].ipa",
+        "severity": "medium",
+        "problem": "Mục từ 'thủ' (cái đũa) có trường `ipa` ghi là `tʰuːB` — lẫn ký hiệu loại thanh lịch đại (*B) của ngữ âm học lịch sử Thái vào chuỗi ký âm IPA thực đại.",
+        "fix": "Thay `tʰuːB` bằng `tʰuː˧˩` (ứng với thanh B1234 [31] của phương ngữ Tày Mường Tương Dương) và hạ confidence xuống `low` do dấu thanh phiên âm Quốc ngữ ('thủ') chưa khớp hoàn toàn với quy ước thanh B."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "low",
+        "problem": "Các đường nét thanh điệu (Chao contour) của T1_A123, T2_A4, T3_B1234, T4_C123, T5_C4 và tên gọi dấu thanh địa phương ('mái bỏ', 'mái piêng', 'mái nắc') có cơ sở từ tài liệu nghiên cứu chữ Lai Pao và phương ngữ Tày Mường, nhưng do có sự biến thiên giữa các điểm điền dã (Tương Dương, Con Cuông, Quỳ Châu) và chưa được kiểm chứng trực tiếp bằng đo đạc âm học đồng bộ trên toàn bộ mục từ, việc để `confidence: \"high\"` đồng loạt là hơi tự tin.",
+        "fix": "Hạ `confidence` của một số mục thanh điệu và từ vựng có biến thể phiên âm xuống `medium`."
+      },
+      {
+        "path": "sources[5].url",
+        "severity": "low",
+        "problem": "Bài viết của Phạm Thị Kiều Ly & Sầm Công Danh (2025) 'Michel Ferlus and the Lai Pao Script' đã có bản lưu trữ công khai trên hệ thống HAL của Pháp (`https://hal.science/hal-05361232v1`).",
+        "fix": "Bổ sung URL HAL đã xác minh vào `sources[5]`."
+      }
+    ]
+  },
+  "schema_errors": []
+}

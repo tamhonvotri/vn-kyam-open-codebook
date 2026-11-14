@@ -1,0 +1,818 @@
+{
+  "id": "thai-tyr",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thái Đỏ",
+  "name_en": "Tai Daeng (Red Tai)",
+  "autonym": "Tay Đèng / Tay lɛɛŋ (ꪼꪕꪵꪒꪉ); Phú Tay (vùng Thanh Hóa)",
+  "ethnic_group_vi": "Thái",
+  "language": {
+    "iso639_3": "tyr",
+    "glottocode": "taid1249",
+    "family": "Kra-Dai",
+    "branch": "Tai (Southwestern Tai)"
+  },
+  "regions": [
+    "Thanh Hóa (vùng thượng và trung lưu sông Mã: Quan Sơn, Quan Hóa, Bá Thước, Thường Xuân, Lang Chánh)",
+    "Hòa Bình (Mai Châu)",
+    "Sơn La (Mộc Châu, Vân Hồ)",
+    "Nghệ An (Quỳ Châu, Quỳ Hợp, Quế Phong, Tương Dương, Con Cuông — thường gọi là Thái Thanh / Man Thanh)"
+  ],
+  "speakers_estimate": "Khoảng 80.000 – 100.000 người nói tại Việt Nam (tổng số người nói khoảng 105.000 – 165.000 gồm cả tỉnh Hủa Phăn, Lào; tại Việt Nam được thống kê chung trong dân tộc Thái)",
+  "scripts": [
+    {
+      "name": "Bộ chữ Thái cổ Thanh Hóa (chữ Thái truyền thống nhóm Tay Đèng / Mường Đeng)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": true,
+      "note": "Hệ chữ abugida nguồn gốc Brahmi–Khmer cổ, viết từ trái sang phải, chia phụ âm đầu thành cặp tổ thấp – tổ cao (18 cặp phụ âm 'tô' / 43 ký tự phụ âm, 14–21 ký tự nguyên âm và vần 'mai'). Được UBND tỉnh Thanh Hóa phê chuẩn chính thức theo Quyết định số 199/QĐ-UBND ngày 20/01/2015 (trên cơ sở đề xuất của nhóm Hà Văn Thương) để giảng dạy và bảo tồn tại địa phương. Khác biệt đáng kể về tự dạng và cách ghi độ dài nguyên âm so với khối Tai Viet chuẩn nên chưa được mã hóa riêng trong Unicode."
+    },
+    {
+      "name": "Chữ Thái Việt Nam thống nhất (Tai Viet)",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet (U+AA80..U+AADF)",
+      "official_in_vietnam": true,
+      "note": "Bộ chữ thống nhất cho cộng đồng dân tộc Thái tại Việt Nam (chuẩn hóa năm 2006–2008, chủ yếu dựa trên nền chữ Thái Đen Sơn La). Có thể dùng để ghi tiếng Thái Đỏ ở mức xấp xỉ nhưng thiếu một số ký hiệu đối lập độ dài nguyên âm đặc thù của phương ngữ Thái Đỏ."
+    },
+    {
+      "name": "Chữ Thái hệ Latinh (Chữ Thái cải tiến 1961 & phiên âm học thuật/dân gian dựa trên Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin + Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Phương án chữ Thái cải tiến hệ Latinh từng được phê chuẩn theo Nghị định 206/CP ngày 27/11/1961 tại Khu tự trị Tây Bắc (dạy đến khoảng năm 1968). Hiện nay người Thái Đỏ tại Thanh Hóa, Hòa Bình, Nghệ An thường dùng chữ Quốc ngữ tiếng Việt điều chỉnh để ghi âm lời hát khặp và giao tiếp trên mạng xã hội."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngôn ngữ học so sánh nhóm ngôn ngữ Thái Tây Nam (Gedney 1964/1989, Li 1977, Ferlus 2008, Chamberlain 1975/1991, PHOIBLE EA 2471) và tư liệu văn hóa - chữ viết Thái tại Thanh Hóa, Hòa Bình, Nghệ An. Ngữ âm tiếng Thái Đỏ có sự dao động giữa các điểm cư trú (Mộc Châu/Mai Châu, thượng lưu sông Mã Thanh Hóa, và nhóm Thái Thanh ở Nghệ An); cần điền dã và thẩm định thêm với nghệ nhân bản ngữ.",
+  "phonology": {
+    "syllable_structure": "C(w)V(ː)(C)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (nhóm ngôn ngữ P theo phân loại Chamberlain: *b > p)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (xuất hiện ở một số thổ ngữ như Mai Châu/Thanh Hóa hoặc biến thể với /f/; khác với Thái Đen vốn nhập hoàn toàn *pʰ > f)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ ~ b",
+        "note": "Tắc hai môi hữu thanh/tiền thanh hầu hóa (phản xạ của *ʔb Thái nguyên thủy)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi (*d > t, ví dụ: Tay [taj])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "ɗ ~ d ~ l",
+        "note": "Tắc chân răng hữu thanh/tiền thanh hầu hóa (*ʔd); nhiều vùng người Thái Đỏ phát âm biến đổi sang [l] (như đèng ~ lèng [ɗɛːŋ ~ lɛːŋ] 'đỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / c",
+        "ipa": "tɕ ~ c",
+        "note": "Tắc-xát hoặc tắc mặt lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Âm *kʰ và *x lịch sử nhập làm một âm vị (thường hiện thực hóa là [kʰ] hoặc [x] tùy vùng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "— (mặc định trước nguyên âm)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ñ",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f / ph",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ w",
+        "note": "Xát môi-răng hữu thanh hoặc tiếp cận môi-ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Tiếp cận bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / y / gi",
+        "ipa": "j ~ z",
+        "note": "Tiếp cận mặt lưỡi; ở Việt Nam thường chịu ảnh hưởng tiếng Việt Bắc/Thanh-Nghệ nên đọc nghiêng sang [z]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "qu / kw",
+        "ipa": "kw",
+        "note": "Tổ hợp phụ âm đầu có âm đệm tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "khu / khw",
+        "ipa": "kʰw ~ xw",
+        "note": "Tổ hợp phụ âm đầu bật hơi/xát có âm đệm tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ngu / ngw",
+        "ipa": "ŋw",
+        "note": "Tổ hợp mũi ngạc mềm tròn môi (gặp hạn chế ở một số từ gốc Thái cổ)",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / ii",
+        "ipa": "i / iː",
+        "note": "Nguyên âm trước khép; tiếng Thái Đỏ bảo lưu đối lập độ dài nguyên âm ở nhiều vị trí hơn Thái Đen",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e / eː",
+        "note": "Nguyên âm trước nửa khép",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ / ɛː",
+        "note": "Nguyên âm trước nửa mở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ưư",
+        "ipa": "ɨ / ɨː",
+        "note": "Nguyên âm giữa khép không tròn môi (chữ Thái Đỏ truyền thống có 2 ký hiệu phân biệt /ɨ/ ngắn và dài)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə / əː",
+        "note": "Nguyên âm giữa vừa không tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (đối lập âm vị học rõ rệt với /aː/ dài trong âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / aa",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / uu",
+        "ipa": "u / uː",
+        "note": "Nguyên âm sau khép tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o / oː",
+        "note": "Nguyên âm sau nửa khép tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o / oo",
+        "ipa": "ɔ / ɔː",
+        "note": "Nguyên âm sau nửa mở tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɨə",
+        "note": "Nguyên âm đôi hướng tâm giữa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi không bật ra (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng không bật ra (âm tiết khép)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm không bật ra (ở một số từ nguyên âm ngắn có thể biến thành tắc thanh hầu [ʔ])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "— (hoặc dấu nặng/sắc ở nguyên âm ngắn)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết khép nguyên âm ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (trong -aư)",
+        "ipa": "ɰ",
+        "note": "Bán nguyên âm cuối ngạc mềm không tròn môi (phản xạ của vần *-aɰ Thái cổ, ở nhiều vùng đã nhập vào -ai [aj])",
+        "confidence": "low"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1",
+        "name": "Thanh 1 (tương ứng ô A1-2-3 theo Gedney)",
+        "mark": null,
+        "chao_contour": "35",
+        "phonation": "có thể kèm thanh hầu hóa nhẹ ở cuối nhưng không bắt buộc",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2",
+        "name": "Thanh 2 (tương ứng ô B1-2-3; trên âm tiết khép gồm DL1-2-3 và DS)",
+        "mark": null,
+        "chao_contour": "44",
+        "phonation": "bình thường (ngang cao / hơi cao hơn trung bình; xuất hiện cả trên âm tiết khép như lap, mat, bɔɔk)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3",
+        "name": "Thanh 3 (tương ứng ô C1-2-3 và B4 theo Gedney; trên âm tiết khép tương ứng DL4)",
+        "mark": null,
+        "chao_contour": "13",
+        "phonation": "thấp đi lên và thanh hầu hóa (glottalized) ở âm tiết mở (như hay, haa, naŋ); trên âm tiết khép (như moot 'một') là thanh thấp đi lên đi kèm nguyên âm dài hoặc nguyên âm đôi",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4",
+        "name": "Thanh 4 (tương ứng ô A4)",
+        "mark": null,
+        "chao_contour": "32",
+        "phonation": "trung bình, hơi hạ nhẹ và đều về cuối (mid with slight gradual fall)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T5",
+        "name": "Thanh 5 (tương ứng ô C4)",
+        "mark": null,
+        "chao_contour": "52",
+        "phonation": "cao đi xuống, thanh hầu hóa mạnh (high falling, glottalized)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T6",
+        "name": "Thanh 6 (ô B4 ở một số thổ ngữ Thái Đỏ không hòa nhập B4=C1-2-3)",
+        "mark": null,
+        "chao_contour": "34",
+        "phonation": "ở phương ngữ 5 thanh điển hình (do Gedney 1964 và Li 1977 mô tả), ô B4 hòa nhập đường chéo vào C1-2-3 (Thanh 3, ví dụ: naŋ 'ngồi'); một số điểm khảo sát thổ ngữ khác giữ hệ 6 thanh mở",
+        "merges_with": "T3",
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ thanh điệu điển hình của nhánh Thái Tây Nam (mô hình tách thanh *ABCD 123-4; B=DL theo Chamberlain). Phương ngữ chuẩn do Gedney (1964) khảo sát có 5 thanh trên âm tiết mở/trơn (free syllables) do sự hòa nhập đường chéo B4 = C1-2-3 (tạo thành Thanh 3), và 2 thanh trên âm tiết khép (checked syllables, trùng đường nét với Thanh 2 và Thanh 3; trong đó âm tiết khép mang Thanh 3 luôn có nguyên âm dài hoặc nguyên âm đôi); Thanh 3 và Thanh 5 trên âm tiết mở có đặc trưng thanh hầu hóa (glottalization) cuối âm tiết."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tai",
+      "form": "huu",
+      "ipa": "huː˧˥",
+      "gloss_en": "ear",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "taa",
+      "ipa": "taː˧˥",
+      "gloss_en": "eye",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trứng",
+      "form": "say",
+      "ipa": "saj˦˦",
+      "gloss_en": "egg",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "chẻ / bổ",
+      "form": "faa",
+      "ipa": "faː˦˦",
+      "gloss_en": "to split",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "khóc / nương rẫy",
+      "form": "hay",
+      "ipa": "haj˩˧ʔ",
+      "gloss_en": "to weep / dry field",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "năm (số 5)",
+      "form": "haa",
+      "ipa": "haː˩˧ʔ",
+      "gloss_en": "five",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngồi",
+      "form": "naŋ",
+      "ipa": "naŋ˩˧ʔ",
+      "gloss_en": "to sit",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ruộng nước",
+      "form": "naa",
+      "ipa": "naː˧˨",
+      "gloss_en": "rice field",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nếm",
+      "form": "cim",
+      "ipa": "tɕim˧˨",
+      "gloss_en": "to taste",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "em (em trai/em gái)",
+      "form": "nɔŋ",
+      "ipa": "nɔːŋ˥˨ʔ",
+      "gloss_en": "younger sibling",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "xấu / dữ",
+      "form": "haay",
+      "ipa": "haːj˥˨ʔ",
+      "gloss_en": "bad",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhắm (mắt) / mài",
+      "form": "lap",
+      "ipa": "lap̚˦˦",
+      "gloss_en": "to close (eyes) / to sharpen",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bọ chét / bó",
+      "form": "mat",
+      "ipa": "mat̚˦˦",
+      "gloss_en": "flea / to tie up in a bundle",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hoa / bông",
+      "form": "bɔɔk",
+      "ipa": "ɓɔːk̚˦˦",
+      "gloss_en": "flower",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "một (số 1)",
+      "form": "moot",
+      "ipa": "moːt̚˩˧",
+      "gloss_en": "one",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đỏ",
+      "form": "đèng / lèng",
+      "ipa": "ɗɛːŋ˧˥ ~ lɛːŋ˧˥",
+      "gloss_en": "red",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Khặp Thái (Khắp Thái xứ Thanh / Mai Châu / Mường Đeng)",
+        "note": "Thể loại hát - ngâm thơ trữ tình và tự sự tiêu biểu nhất của người Thái ở Thanh Hóa, Hòa Bình và Nghệ An. Lời ca dựa trên thơ dân gian, truyện thơ, hát giao duyên, mừng nhà mới, cưới hỏi, lễ hội; thường đệm bằng khèn bè hoặc sáo."
+      },
+      {
+        "name": "Khua luống (Tum loóng / Quánh long)",
+        "note": "Nghệ thuật diễn xướng gõ cối giã gạo truyền thống rất đặc sắc của người Thái ở Thanh Hóa và tây bắc Nghệ An. Thường gồm 6–10 phụ nữ cầm chày gỗ ('co xạc') gõ nhịp 2/4 hoặc 4/2 vào lòng và thành máng gỗ dài ('luống'/'loóng'), hòa tấu cùng bộ 4 chiêng và trống."
+      },
+      {
+        "name": "Múa sạp và Xòe Thái",
+        "note": "Diễn xướng dân vũ cộng đồng trong dịp lễ tết, mừng lúa mới, hội bản mường."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung và luyến cuối câu khặp",
+        "description": "Trong hát khặp Thái Thanh Hóa - Mai Châu, câu hát thường mở đầu bằng tiếng gọi ngân dài (như 'Noọng ơi...') và kết câu bằng nốt ngân rung nhẹ hòa cùng âm bè trì tục của khèn bè; cao độ giai điệu bám sát đường nét thanh điệu tự nhiên của lời thơ.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung khuyết bán âm (hệ thống điệu thức dân ca Thái)",
+        "note": "Giai điệu khặp vận hành trên thang 4–5 âm không bán âm, gắn chặt với thanh điệu ngôn ngữ (tránh hát ngược dấu thanh làm sai nghĩa từ).",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Khèn bè (kèn bè Thái — nhạc cụ đa thanh làm từ ống nứa tép có lưỡi gà đồng/bạc, đệm chính cho hát khặp)"
+      },
+      {
+        "name": "Luống và chày gỗ (loóng & co xạc — nhạc cụ tự thân vang dùng trong khua luống)"
+      },
+      {
+        "name": "Bộ chiêng Thái (thường treo 4 chiêng đánh bằng dùi) và trống da"
+      },
+      {
+        "name": "Pí (các loại sáo trúc/nứa dọc và ngang)"
+      },
+      {
+        "name": "Đàn tính / tính tẩu (gặp ở một số vùng giao thoa Tây Bắc)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "thai",
+    "quoc_ngu_approximation": [
+      {
+        "native": "Tay lɛɛŋ / Tay đèng",
+        "quoc_ngu": "Tay lèng / Tay đèng",
+        "note": "Âm đầu /t/ không bật hơi đọc như 't' tiếng Việt (KHÔNG đọc như 'th'); /ɛː/ dài hơn 'e' tiếng Việt một chút; biến thể đ ~ l tùy vùng."
+      },
+      {
+        "native": "huu (T1: 35)",
+        "quoc_ngu": "hú",
+        "note": "Thanh 1 đi lên từ trung lên cao (35), gần với thanh sắc tiếng Việt Bắc Bộ nhưng bắt đầu ở cao độ trung bình và giữ ngang ở cuối."
+      },
+      {
+        "native": "taa (T1: 35)",
+        "quoc_ngu": "tá",
+        "note": "'mắt'; nguyên âm /aː/ kéo dài hơn khi đứng ở âm tiết mở."
+      },
+      {
+        "native": "say (T2: 44)",
+        "quoc_ngu": "xay",
+        "note": "'trứng'; phụ âm /s/ đọc như 'x' tiếng Việt [s]; thanh 2 ngang cao (44) cao hơn thanh ngang tiếng Việt chuẩn (33)."
+      },
+      {
+        "native": "hay (T3: 13ʔ)",
+        "quoc_ngu": "hảy / hẫy",
+        "note": "'khóc / nương'; thanh 3 thấp đi lên kèm nghẽn thanh hầu cuối âm tiết (13ʔ) — tiếng Việt không có thanh thấp đi lên vừa nghẽn họng đúng y hệt, xấp xỉ giữa thanh hỏi và thanh ngã giọng Bắc."
+      },
+      {
+        "native": "naa (T4: 32)",
+        "quoc_ngu": "na / nà",
+        "note": "'ruộng'; thanh 4 trung hạ nhẹ (32), nằm giữa thanh ngang (33) và thanh huyền (21) của tiếng Việt."
+      },
+      {
+        "native": "nɔŋ (T5: 52ʔ)",
+        "quoc_ngu": "noọng",
+        "note": "'em'; thanh 5 từ cao rơi nhanh xuống thấp kèm thanh hầu hóa mạnh (52ʔ) — tiếng Việt không có thanh cao-xuống-nghẽn tương đương hoàn toàn, dân gian thường ghi bằng dấu nặng ('noọng')."
+      },
+      {
+        "native": "cim (T4: 32)",
+        "quoc_ngu": "chim",
+        "note": "'nếm'; âm /tɕ/ tương đương gần đúng với 'ch' tiếng Việt; lưu ý chữ Quốc ngữ không phân biệt trực quan /k/ và /k̚/ không bật với âm mặt lưỡi [c]/[ɲ] sau 'i/ê/e' (trong tiếng Việt 'chim' có [-m] giữ nguyên, nhưng với vần '-ik/-in' tiếng Việt sẽ ngạc hóa thành '-ich/-inh' trong khi tiếng Thái Đỏ giữ nguyên [-k̚]/[-n] chân răng/ngạc mềm)."
+      },
+      {
+        "native": "ph (pʰ)",
+        "quoc_ngu": "p-h (nối nhanh)",
+        "note": "Âm tắc hai môi bật hơi [pʰ] (ở các thổ ngữ Thái Đỏ còn giữ âm này) KHÔNG có trong tiếng Việt chuẩn (chữ 'ph' Quốc ngữ đọc là âm xát [f]). Mô hình TTS chỉ biết tiếng Việt sẽ đọc nhầm 'ph' thành [f]."
+      },
+      {
+        "native": "aa vs. a (đối lập độ dài nguyên âm)",
+        "quoc_ngu": "a vs. ă",
+        "note": "Tiếng Việt chỉ đối lập độ dài ở 'a/ă' và 'ơ/â' trong âm tiết đóng; tiếng Thái Đỏ có đối lập độ dài trên nhiều nguyên âm khác (như /i/–/iː/, /ɨ/–/ɨː/, /u/–/uː/, /o/–/oː/, /ɔ/–/ɔː/, ví dụ 'moot' [moːt̚] vs nguyên âm ngắn), không thể biểu diễn trọn vẹn bằng chính tả Quốc ngữ."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Thái Đỏ Mộc Châu – Mai Châu (Táy-Môc-Châu)",
+        "iso639_3": "tyr",
+        "regions": [
+          "Sơn La (Mộc Châu, Vân Hồ)",
+          "Hòa Bình (Mai Châu)"
+        ],
+        "note": "Phương ngữ phía bắc, giao tiếp gần gũi với tiếng Thái Đen (blt) và Thái Trắng (twh)."
+      },
+      {
+        "name": "Thái Đỏ Thanh Hóa (Tay Đèng / Phú Tay / Mường Đeng)",
+        "iso639_3": "tyr",
+        "regions": [
+          "Thanh Hóa (Quan Sơn, Quan Hóa, Bá Thước, Thường Xuân, Lang Chánh)"
+        ],
+        "note": "Vùng cư trú cốt lõi dọc thượng và trung lưu sông Mã (như Yên Khương - Mường Đeng cũ); lưu giữ bộ chữ Thái cổ Thanh Hóa."
+      },
+      {
+        "name": "Thái Thanh / Man Thanh (Tay Daeng Nghệ An)",
+        "iso639_3": "tyr",
+        "regions": [
+          "Nghệ An (Quỳ Châu, Quỳ Hợp, Quế Phong, Tương Dương)"
+        ],
+        "note": "Nhóm cư trú ở miền tây Nghệ An (tên 'Thái Thanh' bắt nguồn từ Mường Thanh / Mường Theng theo Ferlus 2008); sống xen kẽ với nhóm Thái Dọ / Tay Yo (ISO 639-3: tyj) và Thái Pao / Tay Pao (ISO 639-3: tpo)."
+      },
+      {
+        "name": "Tày Mưới / Tai Meuay",
+        "iso639_3": "tyr",
+        "regions": [
+          "Nghệ An",
+          "Thanh Hóa",
+          "Lào (Bolikhamxay, Khammouane)"
+        ],
+        "note": "Biến thể rất gần với tiếng Thái Đỏ, được Glottolog xếp chung nhánh Tai Daeng-Meuay (taid1249)."
+      },
+      {
+        "name": "Các ngôn ngữ khác thuộc cùng dân tộc Thái tại Việt Nam (ngoài mã tyr)",
+        "iso639_3": "blt, twh, tyj, tpo, thc",
+        "regions": [
+          "Tây Bắc Bộ",
+          "Bắc Trung Bộ"
+        ],
+        "note": "Trong phân loại hành chính 54 dân tộc Việt Nam, người Thái Đỏ (tyr) được xếp chung dân tộc Thái cùng với Thái Đen (Tai Dam, ISO: blt), Thái Trắng (Tai Dón, ISO: twh), Thái Dọ / Hàng Tổng (Tai Yo, ISO: tyj / thc) và Thái Pao (Tai Pao, ISO: tpo)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "huu",
+        "ipa": "huː˧˥",
+        "meaning_vi": "tai"
+      },
+      {
+        "native": "taa",
+        "ipa": "taː˧˥",
+        "meaning_vi": "mắt"
+      },
+      {
+        "native": "haa",
+        "ipa": "haː˩˧ʔ",
+        "meaning_vi": "năm (số 5)"
+      },
+      {
+        "native": "moot",
+        "ipa": "moːt̚˩˧",
+        "meaning_vi": "một (số 1)"
+      },
+      {
+        "native": "say",
+        "ipa": "saj˦˦",
+        "meaning_vi": "trứng"
+      },
+      {
+        "native": "naa",
+        "ipa": "naː˧˨",
+        "meaning_vi": "ruộng"
+      },
+      {
+        "native": "naŋ",
+        "ipa": "naŋ˩˧ʔ",
+        "meaning_vi": "ngồi"
+      },
+      {
+        "native": "hay",
+        "ipa": "haj˩˧ʔ",
+        "meaning_vi": "khóc / nương rẫy"
+      },
+      {
+        "native": "nɔŋ",
+        "ipa": "nɔːŋ˥˨ʔ",
+        "meaning_vi": "em"
+      },
+      {
+        "native": "bɔɔk",
+        "ipa": "ɓɔːk̚˦˦",
+        "meaning_vi": "hoa (bông)"
+      },
+      {
+        "native": "cim",
+        "ipa": "tɕim˧˨",
+        "meaning_vi": "nếm"
+      },
+      {
+        "native": "lap",
+        "ipa": "lap̚˦˦",
+        "meaning_vi": "nhắm (mắt) / mài"
+      }
+    ],
+    "tts_singing_notes": "Khi tổng hợp giọng hát khặp Thái Đỏ bằng mô hình nền tiếng Việt: (1) tuyệt đối giữ cao độ giai điệu thuận chiều với hệ 5–6 thanh điệu vì tiếng Thái Đỏ là ngôn ngữ thanh điệu chặt chẽ; (2) tránh áp dụng quy tắc ngạc hóa cuối âm tiết của tiếng Việt (-in/-ik -> [-iɲ]/[-ic]) lên các từ Thái Đỏ có nguyên âm trước đi với âm cuối /-n, -t, -k, -ŋ/; (3) chú ý độ ngân khác biệt giữa nguyên âm ngắn và nguyên âm dài."
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Tai Daeng-Meuay (taid1249)",
+      "url": "https://glottolog.org/resource/languoid/id/taid1249",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tai Daeng language",
+      "url": "https://en.wikipedia.org/wiki/Tai_Daeng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Tay Daeng phonological inventory (EA 2471, citing Ferlus 2008)",
+      "url": "https://phoible.org/inventories/view/2471",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Collection Pangloss (CNRS / LACITO) — Tai Deng corpus (Michel Ferlus)",
+      "url": "https://pangloss.cnrs.fr/corpus/Tai_Deng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Gedney, William J. (1964 / reprinted 1989). 'A Comparative Sketch of White, Black, and Red Tai.' In Selected Papers on Comparative Tai Studies, pp. 415–462. University of Michigan.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ferlus, Michel (2008). 'The Tai dialects of Nghệ An (Tay Dæng, Tay Yo, Tay Muong).' In Diller, Edmondson & Luo (eds.), The Tai-Kadai Languages, pp. 298–316. Routledge.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Brase, Jim (2007). Proposal to encode the Tai Viet script in the UCS (ISO/IEC JTC1/SC2/WG2 N3220 / Unicode L2/07-039).",
+      "url": "https://www.unicode.org/L2/L2007/07039r-n3220-taiviet.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UBND tỉnh Thanh Hóa (2015). Quyết định số 199/QĐ-UBND ngày 20/01/2015 về việc phê chuẩn Bộ chữ Thái cổ Thanh Hóa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology.tones[2]",
+          "severity": "high",
+          "problem": "Mô tả sự hòa nhập thanh điệu lịch sử (Gedney tone box) của Thanh 3 và Thanh 5/6 bị sai ở ô B4. Trong tiếng Thái Đỏ (do Gedney 1964 và Li Fang-Kuei 1977 mô tả), ô B4 (tương ứng B2 trong ký hiệu 2 chiều của Li) hòa nhập đường chéo vào C1-2-3 (tức Thanh 3, thấp đi lên có thanh hầu hóa: ví dụ 'naŋ' [naŋ˩˧ʔ] 'ngồi' < *n- thuộc nhóm B4), chứ KHÔNG hòa nhập vào B1-2-3 (Thanh 2). Chính sự hòa nhập B4 = C1-2-3 này tạo nên hệ 5 thanh mở của tiếng Thái Đỏ.",
+          "fix": "Sửa name của T3 thành 'Thanh 3 (tương ứng ô C1-2-3 và B4 theo Gedney; gần với DL4 trên âm tiết khép)', sửa T5 và T6 (merges_with: 'T3') cho khớp với quy luật hòa nhập B4 = C1-2-3."
+        },
+        {
+          "path": "phonology.tones[1].name",
+          "severity": "medium",
+          "problem": "Ghi Thanh 2 tương ứng cả DL1-2-3 và DS1-2-3, trong khi Thanh 3 ghi DL4/DS4, chưa phản ánh chính xác mô tả của Gedney (1964) rằng loại thanh đi lên (Thanh 3) trên âm tiết khép luôn có nguyên âm dài hoặc nguyên âm đôi (tức DL), còn loại ngang cao (Thanh 2) bao gồm các âm tiết khép nguyên âm ngắn (DS1-2-3-4) và một phần âm tiết khép nguyên âm dài (DL1-2-3).",
+          "fix": "Điều chỉnh ghi chú ở T2, T3 và register_or_phonation để làm rõ sự phân bố trên âm tiết khép (checked syllables)."
+        },
+        {
+          "path": "phonology.onsets[2].note",
+          "severity": "low",
+          "problem": "Tại mục phụ âm đầu 'b' (/ɓ ~ b/), ghi chú viết 'có hiện tượng dao động b ~ d ~ l tùy thổ ngữ (ví dụ: đèng ~ lèng đỏ)'. Ví dụ 'đèng ~ lèng' là biến thể của âm chân răng /*ʔd/ (/ɗ ~ d ~ l/), không phải của âm môi /ɓ/.",
+          "fix": "Bỏ ví dụ 'đèng ~ lèng' ở mục âm môi 'b' (chỉ giữ ở mục 'đ / d') và ghi chú đúng về biến thể tiền thanh hầu hóa /ɓ/ ~ /b/ hoặc /ɓ/ ~ /m/."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Các ký âm IPA trong lexicon gắn kèm số Chao ước lượng (˧˥, ˦˦, ˩˧ʔ, ˧˨, ˥˨ʔ) với độ tự tin 'high', trong khi nguồn gốc (Gedney 1964) chỉ mô tả đường nét thanh điệu bằng lời văn chứ không đo số Chao thực nghiệm.",
+          "fix": "Hạ confidence của các mục từ vựng có gắn ký hiệu thanh điệu ước lượng từ 'high' xuống 'medium' để nhất quán với phonology.tones và open_issues."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn có URL đang để null.",
+          "fix": "Cập nhật url_check = 'ok' cho các URL đã kiểm chứng hoạt động (Glottolog, Wikipedia, PHOIBLE, Pangloss, Unicode) và sửa nhẹ nhan đề bài viết của Ferlus (2008) cho khớp nguyên bản ('The Tai dialects of Nghệ An (Tay Dæng, Tay Yo, Tay Muong)')."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần xác minh thực nghiệm bằng máy đo F0 (số Chao chính xác) đối với hệ thanh điệu của từng vùng Thái Đỏ tại Việt Nam (Mộc Châu/Mai Châu so với Bá Thước/Quan Sơn Thanh Hóa và Quỳ Châu Nghệ An), do mô tả của Gedney (1964) ghi bằng lời văn và chủ yếu khảo sát người nói gốc Mộc Châu/Hủa Phăn.",
+      "Cần bổ sung bảng ánh xạ từng ký tự của 'Bộ chữ Thái cổ Thanh Hóa' (Quyết định 199/QĐ-UBND năm 2015) sang IPA vì bộ chữ này chưa có trong chuẩn Unicode.",
+      "Kiểm tra phạm vi bảo lưu âm tắc bật hơi /pʰ/ so với âm xát /f/ và hiện tượng biến đổi /ɗ/ ~ /l/ giữa các huyện miền núi Thanh Hóa và Nghệ An."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

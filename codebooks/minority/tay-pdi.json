@@ -1,0 +1,324 @@
+{
+  "id": "tay-pdi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pa Dí",
+  "name_en": "Pa Di",
+  "autonym": "pa31 zi31",
+  "ethnic_group_vi": "Tày",
+  "language": {
+    "iso639_3": "pdi",
+    "glottocode": "padi1241",
+    "family": "Kra-Dai",
+    "branch": "Tai (Southwestern Tai / Chiang Saeng)"
+  },
+  "regions": [
+    "Tỉnh Lào Cai (khu vực Mường Khương: thị trấn Mường Khương, Tung Chung Phố, Nậm Chảy, Lùng Vai / Bản Lầu)"
+  ],
+  "speakers_estimate": "Khoảng 300 người nói thành thạo theo khảo sát của Jerold A. Edmondson; tổng dân số cộng đồng người Pa Dí tại khu vực Mường Khương, tỉnh Lào Cai khoảng 2.000–3.000 người (Bùi Quốc Khánh 2013; báo cáo địa phương Lào Cai 2020–2025).",
+  "scripts": [
+    {
+      "name": "Không có chữ viết riêng (ghi âm tạm bằng chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Người Pa Dí tại Việt Nam không có chữ viết truyền thống riêng và chưa có bộ chữ Latinh chuẩn hóa do Nhà nước ban hành riêng cho tiếng Pa Dí. Thơ ca và tri thức dân gian được lưu truyền bằng truyền miệng; khi sưu tầm dân tộc học hoặc sáng tác song ngữ, từ ngữ địa phương được phiên âm tạm theo chữ Quốc ngữ tiếng Việt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học (Edmondson, Glottolog) và dân tộc học Việt Nam (Ngô Đức Thịnh, Bùi Quốc Khánh, Đinh Thị Hồng Thơm, tư liệu điền dã văn hóa Lào Cai). Tại Việt Nam, người Pa Dí được xếp là một nhóm địa phương thuộc dân tộc Tày (còn được gọi là Tày Đen ở một số tư liệu địa phương, hoặc đôi khi bị nhầm với Bố Y/Tu Dí), nhưng tiếng Pa Dí thuộc nhánh Thái Tây Nam (Southwestern Tai) chứ không phải nhánh Thái Trung Tâm (Central Tai) như tiếng Tày phổ thông. Hiện chưa có công bố bảng âm vị học và từ điển đầy đủ riêng cho phương ngữ Pa Dí tại Mường Khương nên phần ngữ âm chỉ ghi nhận các yếu tố đã được chứng thực và đánh dấu độ tin cậy thận trọng.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Chứng thực trong tự danh [pa31 zi31] ('Pa Dí') và từ xưng gọi 'pồ' ('cha'); là phụ âm tắc hai môi vô thanh không bật hơi phổ biến của nhánh Thái Tây Nam.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "z",
+        "note": "Chứng thực trong tự danh [pa31 zi31], được phiên âm sang chữ Quốc ngữ Việt Nam (theo chuẩn phát âm miền Bắc) là 'Dí'.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Ghi nhận qua từ xưng gọi 'mề' ('mẹ' trong thơ Pờ Sảo Mìn) và địa danh bản ngữ 'Mưng Khang' / 'Mưng Khảng' (Mường Khương).",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Ghi nhận qua cách phiên âm Quốc ngữ 'Mưng Khang' / 'Mưng Khảng'; giá trị ngữ âm chính xác giữa [kʰ] và [x] tại Mường Khương cần khảo sát thực địa.",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Chứng thực trong tự danh [pa31 zi31].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Chứng thực trong tự danh [pa31 zi31].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Ghi nhận qua phiên âm địa danh 'Mưng Khang' (tương ứng nguyên âm dòng sau không tròn môi của nhóm Thái).",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Ghi nhận qua phiên âm địa danh 'Mưng Khang'; tương đồng hệ thống âm cuối mũi của nhóm ngôn ngữ Thái Tây Nam.",
+        "confidence": "low"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T31",
+        "name": "Thanh thấp đi xuống (ghi nhận trong tự danh)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu thuộc nhánh Thái Tây Nam (phân nhánh Chiang Saeng / Thái Trắng theo Glottolog). Theo Jerold A. Edmondson, quy luật phân tách thanh điệu lịch sử của tiếng Pa Dí tương tự tiếng Thái chuẩn (Standard Thai), thường gồm 5–6 thanh điệu trên âm tiết mở/âm vang và các thanh điệu trên âm tiết khép, nhưng đường nét Chao đầy đủ cho từng thanh ở điểm Mường Khương (Lào Cai) chưa được công bố chi tiết."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Pa Dí (tự danh)",
+      "form": "Pa Dí",
+      "ipa": "pa31 zi31",
+      "gloss_en": "Pa Di (autonym)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cha / bố",
+      "form": "pồ",
+      "ipa": null,
+      "gloss_en": "father",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "Mường Khương (địa danh cổ)",
+      "form": "Mưng Khang",
+      "ipa": null,
+      "gloss_en": "Muong Khuong (traditional local toponym meaning land of cast iron and steel; also transcribed as Mưng Khảng)",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca giao duyên Pa Dí",
+        "note": "Hát đối đáp nam nữ trong lễ hội, chợ phiên hoặc buổi hẹn hò; bắt buộc có từ hai người trở lên, kết hợp tiếng hát với tiếng đệm của cây đàn tròn ở khoảng cách gần."
+      },
+      {
+        "name": "Bài dân ca cổ 'Hát mười hai tháng'",
+        "note": "Trường ca dân gian kể theo chu kỳ hoa nở, thời tiết và lịch canh tác nương rẫy suốt 12 tháng trong năm, được các nghệ nhân cao tuổi như Pờ Chin Dín, Thào Phủng Din tại Mường Khương lưu giữ."
+      },
+      {
+        "name": "Hát ru và hát đồng dao Pa Dí",
+        "note": "Các làn điệu dân ca truyền miệng gắn với từng lứa tuổi trong gia đình người Pa Dí."
+      },
+      {
+        "name": "Dân ca nghi lễ cưới hỏi và mừng nhà mới",
+        "note": "Lời ca cổ truyền miệng dùng trong hôn lễ và sinh hoạt cộng đồng tại các bản Pa Dí ở Mường Khương."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân nga hòa quyện theo tiếng đàn tròn",
+        "description": "Giọng hát trong, luyến láy mềm mại bám sát tiết tấu bập bùng của đàn tròn 4 dây ở cự ly gần.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung dân ca Tày – Thái vùng biên giới Lào Cai",
+        "note": "Chưa có bản ký âm nhạc lý học thuật công bố thang âm và cao độ chuẩn của dân ca Pa Dí; cần thu âm và đo kiểm từ các nghệ nhân tại thị trấn Mường Khương và xã Tung Chung Phố.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn tròn Pa Dí",
+        "note": "Nhạc cụ dây gảy truyền thống đặc trưng nhất của người Pa Dí, làm bằng gỗ, có 4 dây, thùng đàn hình tròn dẹt to hơn đàn tính của người Tày và cần đàn ngắn hơn; đầu đàn chạm khắc hình đầu rồng và trang trí hoa văn màu sắc cầu kỳ."
+      },
+      {
+        "name": "Sáo",
+        "note": "Nhạc cụ hơi xuất hiện bổ trợ trong sinh hoạt văn nghệ dân gian."
+      },
+      {
+        "name": "Khèn",
+        "note": "Sử dụng trong một số sinh hoạt giao lưu văn hóa vùng cao Mường Khương."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "tay",
+    "relationship_to_parent_note": "Về mặt hành chính dân tộc học tại Việt Nam, người Pa Dí là một nhóm địa phương của dân tộc Tày (parent_codebook='tay'). Tuy nhiên về mặt phân loại ngôn ngữ học, tiếng Pa Dí (pdi) thuộc nhánh Thái Tây Nam (gần với tiếng Thái Trắng / Tày Lự / Thái chuẩn), khác nhánh với tiếng Tày phổ thông (tyz, nhánh Thái Trung Tâm). Không nên áp dụng trực tiếp từ vựng hoặc quy tắc thanh điệu tiếng Tày Cao Bằng/Lạng Sơn sang tiếng Pa Dí.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "pa31 zi31",
+        "quoc_ngu": "pa dì",
+        "note": "Tên hành chính tiếng Việt viết là 'Pa Dí' (thanh sắc), nhưng tự danh ngữ âm [pa31 zi31] mang hai thanh thấp đi xuống (31), khi đọc bằng TTS tiếng Việt chuẩn miền Bắc thì 'pa dì' (thanh huyền [21], phụ âm 'd' đọc [z]) cho cao độ và âm sắc gần đúng hơn; lưu ý giữ nguyên phụ âm đầu [p] không biến thành [b]."
+      },
+      {
+        "native": "pồ",
+        "quoc_ngu": "pồ",
+        "note": "Phụ âm đầu [p] hiếm gặp ở từ thuần Việt nên một số mô hình TTS tiếng Việt dễ đọc lệch thành [b]; cần kiểm tra phát âm âm tắc vô thanh [p]."
+      },
+      {
+        "native": "Mưng Khang",
+        "quoc_ngu": "mưng khang",
+        "note": "Khớp trực tiếp với vần chữ Quốc ngữ tiếng Việt ('ư' [ɯ], 'kh' [x ~ kʰ], '-ng' [ŋ]); một số nguồn địa phương còn ghi là 'Mưng Khảng'."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tiếng Tày (chính thể — nhánh Thái Trung Tâm)",
+        "iso639_3": "tyz",
+        "note": "Ngôn ngữ chính của đại đa số người dân tộc Tày vùng Đông Bắc Việt Nam."
+      },
+      {
+        "name": "Tiếng Thu Lao / Dai Zhuang (nhóm địa phương Thu Lao thuộc dân tộc Tày)",
+        "iso639_3": "tyl",
+        "note": "Cũng nói tại Mường Khương và Si Ma Cai (Lào Cai); mã ISO đồng nhất trên Glottolog với zhd (Dai Zhuang), thuộc nhánh Thái Trung Tâm."
+      },
+      {
+        "name": "Tiếng Tày Sa Pa (nhóm địa phương Tày ở Sa Pa)",
+        "iso639_3": "tys",
+        "note": "Nói tại Sa Pa (Lào Cai), gần nhánh Thái Tây Nam giống tiếng Pa Dí hơn là tiếng Tày Đông Bắc."
+      },
+      {
+        "name": "Tiếng Ngạn, tiếng Phén",
+        "iso639_3": null,
+        "note": "Các nhóm địa phương khác được xếp trong dân tộc Tày tại Việt Nam (Cao Bằng, Hà Giang, Tuyên Quang), chưa có mã ISO 639-3 riêng."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "pa31 zi31",
+        "ipa": "pa31 zi31",
+        "gloss_vi": "người Pa Dí (tự danh)"
+      },
+      {
+        "native": "pồ",
+        "ipa": null,
+        "gloss_vi": "cha, bố (ghi theo phiên âm Quốc ngữ và chú giải của nhà thơ người Pa Dí Pờ Sảo Mìn)"
+      },
+      {
+        "native": "Mưng Khang",
+        "ipa": null,
+        "gloss_vi": "Mường Khương — vùng đất có gang, có thép (địa danh truyền thống vùng Mường Khương)"
+      }
+    ],
+    "data_scarcity_note": "Tài liệu công bố mở tại Việt Nam hiện chủ yếu tập trung vào dân tộc học, canh tác lúa nước, lễ cưới, trang phục và lời dịch tiếng Việt của dân ca Pa Dí; thiếu ngữ liệu âm thanh song ngữ và bảng từ vựng IPA cho điểm Mường Khương."
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Pa Di (padi1241)",
+      "url": "https://glottolog.org/resource/languoid/id/padi1241",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL Global — ISO 639-3 Documentation: pdi (Pa Di)",
+      "url": "https://iso639-3.sil.org/code/pdi",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Pa Di language",
+      "url": "https://en.wikipedia.org/wiki/Pa_Di_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Pa Dí",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Pa_D%C3%AD",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "VOV2 Đài Tiếng nói Việt Nam (2025) — Đàn tròn - hồn cốt văn hóa của người Pa Dí",
+      "url": "https://vov2.vov.vn/van-hoa-giai-tri/dan-tron-hon-cot-van-hoa-cua-nguoi-pa-di-53371.vov2",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ngô Đức Thịnh (1975). Mấy ý kiến góp phần xác minh người Pa Dí ở Mường Khương (Lào Cai). Trong: Về vấn đề xác định thành phần các dân tộc thiểu số ở miền Bắc Việt Nam, tr. 287–305. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bùi Quốc Khánh (2013). Tri thức dân gian trong canh tác cây lúa nước của người Pa Dí ở Lào Cai. Hà Nội: NXB Thời Đại. ISBN 978-604-930-596-2.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Đinh Thị Hồng Thơm (2019). Thơ ca dân gian của người Pa Dí ở huyện Mường Khương, tỉnh Lào Cai. Hà Nội: NXB Văn hóa Dân tộc. ISBN 978-604-702-636-4.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. & Gregerson, Kenneth J. (2007). The Languages of Vietnam: Mosaics and Expansions. Language and Linguistics Compass, 1(6), 727–749.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "lexicon[2].confidence",
+          "severity": "low",
+          "problem": "Địa danh 'Mưng Khang' (hoặc 'Mưng Khảng') được ghi nhận trong tư liệu văn học - báo chí địa phương Mường Khương như tên gọi cổ vùng đất này của đồng bào Tày/Nùng/Pa Dí nói chung, chưa có chứng thực ngữ âm học chuyên biệt xác nhận đây là từ thuần tiếng Pa Dí độc lập với các nhóm Tày-Nùng lân cận.",
+          "fix": "Hạ độ tin cậy (confidence) của mục từ 'Mưng Khang' trong lexicon xuống 'low' và ghi chú rõ biến thể 'Mưng Khảng'."
+        },
+        {
+          "path": "phonology.syllable_structure",
+          "severity": "low",
+          "problem": "Cấu trúc âm tiết '(C1)(w)V(C2)+T' là cấu trúc tiêu chuẩn suy diễn theo loại hình học nhánh Thái Tây Nam (Southwestern Tai), chưa có khảo tả âm vị học chuyên sâu riêng cho điểm Mường Khương.",
+          "fix": "Bổ sung ghi chú vào validation.open_issues để làm rõ cấu trúc âm tiết hiện tại là suy diễn loại hình học từ nhánh Thái Tây Nam."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần khảo sát điền dã ngữ âm học tại thị trấn Mường Khương, Tung Chung Phố và Nậm Chảy (Lào Cai) để lập bảng đầy đủ các âm đầu, vần và trị số Chao của toàn bộ hệ thống thanh điệu tiếng Pa Dí ở Việt Nam (cấu trúc âm tiết (C1)(w)V(C2)+T hiện tại là suy diễn loại hình học theo nhánh Thái Tây Nam).",
+      "Cần đối chiếu mức độ tương thông và khác biệt ngữ âm giữa tiếng Pa Dí ở Mường Khương (Việt Nam) với phương ngữ Thái Kim Bình / Hà Khẩu (Vân Nam, Trung Quốc — đã được Dao Jie 2005 mô tả).",
+      "Cần thu thập tên gọi bản ngữ (IPA) của cây đàn tròn, các bộ phận nhạc cụ và tên các làn điệu dân ca cổ từ các nghệ nhân cao tuổi người Pa Dí.",
+      "Cần xác định số lượng người nói trôi chảy còn lại trong thế hệ trẻ Pa Dí tại Lào Cai do nguy cơ chuyển dịch ngôn ngữ cao."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

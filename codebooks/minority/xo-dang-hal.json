@@ -1,0 +1,832 @@
+{
+  "id": "xo-dang-hal",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hà Lăng",
+  "name_en": "Halang language",
+  "autonym": "nơ̆r Halăng / nŏr Halăng / Halăng",
+  "ethnic_group_vi": "Xơ Đăng",
+  "language": {
+    "iso639_3": "hal",
+    "glottocode": "hala1252",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric — Kayong-Jeh-Halang)"
+  },
+  "regions": [
+    "Tỉnh Kon Tum trước sáp nhập: huyện Đăk Tô (xã Đắk Na), huyện Tu Mơ Rông, huyện Đăk Glei, huyện Sa Thầy (xã Rờ Kơi, xã Sa Bình)",
+    "Tỉnh Quảng Ngãi (theo địa giới hành chính mới từ năm 2025 sáp nhập khu vực Kon Tum)"
+  ],
+  "speakers_estimate": "Khoảng 13.500–20.000 người tại Việt Nam (theo Ethnologue và Viện Dân tộc học; không tính khoảng 4.000 người nói phương ngữ Salang tại tỉnh Attapeu, Lào)",
+  "scripts": [
+    {
+      "name": "Chữ Latinh Hà Lăng (hệ thống SIL / Bộ Giáo dục trước 1975)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Do James & Nancy Cooper (Viện Ngôn ngữ học Mùa hè — SIL) xây dựng trên cơ sở chữ Quốc ngữ và truyền thống chữ Latinh Bahnar Bắc, dùng trong sách học tiếng \"'Bai hŏk nơ̆r Halăng\" (1971) và \"La bơ-ar hŏk chu Halăng\" (1971). Dùng dấu trăng (ă, ĕ, ĭ, ŏ, ŭ, ơ̆) ghi nguyên âm ngắn (ở âm tiết mở cuối từ, dấu trăng đồng thời biểu thị nguyên âm ngắn + tắc thanh hầu cuối /-ʔ/), dấu huyền (à, è, ì, ò, ù, ờ) ghi âm vực hà hơi (breathy register), và dấu nháy đơn (') ghi âm tắc thanh hầu."
+    },
+    {
+      "name": "Chữ Latinh ghi âm tự phát dựa trên chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Cộng đồng người Hà Lăng hiện dùng chữ Quốc ngữ biến cải theo thói quen địa phương để chép lời dân ca, sinh hoạt tôn giáo và truyền thông cộng đồng; Nhà nước Việt Nam chưa ban hành bộ chữ chuẩn riêng cho nhóm địa phương Hà Lăng."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản thảo do LLM tổng hợp từ tư liệu ngữ âm học và từ vựng học Môn-Khmer đã công bố (Cooper & Cooper 1966, 1971, 1973, 1976; Sidwell 2015; Glottolog 5.3; WALS). Chỉ mô tả biến thể tiếng Hà Lăng nói tại Việt Nam (thuộc dân tộc Xơ Đăng; mã bảng dân tộc gốc: xo-dang), không bao gồm phương ngữ Salang tại Lào. Chưa được người bản xứ hoặc chuyên gia ngôn ngữ học Bahnaric hiệu đính.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C(C)V(ː)(C) — cấu trúc bán âm tiết (sesquisyllabic) gồm tiền âm tiết nhẹ không mang trọng âm và âm tiết chính mang trọng âm cố định ở cuối từ.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh (một số tài liệu phiên âm là č)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi (ngạc cứng) hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / (không ghi đầu từ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm hoặc trong tổ hợp tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Cooper & Cooper (1966) phân tích âm vị học là tổ hợp phụ âm C+h ở âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi (phân tích là tổ hợp t+h)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi bật hơi (phân tích là tổ hợp k+h)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'b",
+        "ipa": "ˀb ~ ɓ",
+        "note": "Âm tắc hai môi tiền thanh hầu hóa / hút vào (Cooper & Cooper 1966 phân tích là ʔ+b; trong cơ sở dữ liệu Cooper 1976 thường ký hiệu /ɓ/, ví dụ 'be /ɓɛː/ 'chưa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'d",
+        "ipa": "ˀd ~ ɗ",
+        "note": "Âm tắc đầu lưỡi tiền thanh hầu hóa / hút vào (phân tích là ʔ+d; ví dụ 'dang /ɗaŋ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi hữu thanh (trong ngữ âm học đôi khi ký hiệu ñ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm, hn, hnh, hng",
+        "ipa": "m̥, n̥, ɲ̥, ŋ̥",
+        "note": "Các âm mũi vô thanh/hà hơi đầu âm tiết chính; Cooper & Cooper (1966) phân tích là tổ hợp h+N",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'m, 'n, 'nh, 'ng",
+        "ipa": "ˀm, ˀn, ˀɲ, ˀŋ",
+        "note": "Các âm mũi tiền thanh hầu hóa đầu âm tiết chính (phân tích là tổ hợp ʔ+N, ví dụ 'Ni, 'mơm /ʔməːm/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi hữu thanh; xuất hiện cả đơn lẻ và trong tổ hợp phụ âm đầu (pl, bl, kl, 'l...)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi; xuất hiện đơn lẻ và trong tổ hợp phụ âm đầu (pr, br, tr, dr, kr, gr...)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl, hr",
+        "ipa": "l̥, r̥",
+        "note": "Âm lỏng vô thanh đầu âm tiết chính (phân tích là tổ hợp h+L)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi; có biến thể vô thanh hy [j̊] và tiền thanh hầu hóa 'y [ˀj]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mềm; có biến thể vô thanh hw [w̥] và tiền thanh hầu hóa 'w [ˀw]",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm trước cao dài, âm vực trong (modal)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ì",
+        "ipa": "i̤ː",
+        "note": "Nguyên âm trước cao dài, âm vực hà hơi (breathy)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm trước cao ngắn (ở cuối âm tiết mở biểu thị /iʔ/, ví dụ: jơlĭ /ɟəliʔ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / e",
+        "ipa": "eː ~ ɛː",
+        "note": "Nguyên âm trước vừa/thấp dài, âm vực trong (ví dụ: dơle /dəlɛː/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "è / ề",
+        "ipa": "e̤ː",
+        "note": "Nguyên âm trước vừa dài, âm vực hà hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ĕ / ĕ̀",
+        "ipa": "ɛ ~ e / e̤",
+        "note": "Nguyên âm trước ngắn (ví dụ: lĕng /lɛŋ/; ở cuối âm tiết mở biểu thị nguyên âm ngắn + tắc thanh hầu cuối như sĕ̀ /se̤ʔ/ 'buổi chiều tối')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm giữa-thấp dài, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "à",
+        "ipa": "a̤ː",
+        "note": "Nguyên âm giữa-thấp dài, âm vực hà hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă / ằ",
+        "ipa": "a / a̤",
+        "note": "Nguyên âm giữa-thấp ngắn (ví dụ: Halăng, dơglăk; ở âm tiết mở như phằ /pha̤ʔ/ có tắc thanh hầu cuối)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm sau cao dài, âm vực trong",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ù",
+        "ipa": "ṳː",
+        "note": "Nguyên âm sau cao dài, âm vực hà hơi (ví dụ: bùh 'nướng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm sau cao ngắn (ví dụ: dơdrŭng /dədruŋ/, lŭt /lut/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / o",
+        "ipa": "oː ~ ɔː",
+        "note": "Nguyên âm sau vừa/thấp dài, âm vực trong",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ò / ồ",
+        "ipa": "o̤ː",
+        "note": "Nguyên âm sau vừa dài, âm vực hà hơi (ví dụ: dòm /do̤ːm/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ / ŏ̀",
+        "ipa": "ɔ ~ o / o̤",
+        "note": "Nguyên âm sau ngắn (ví dụ: hŏk /hɔk/ 'học', mŏy /mɔj/ 'một'; ở âm tiết mở biểu thị /oʔ, o̤ʔ/ như tơngŏ̀ /təŋo̤ʔ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ờ / ơ̆",
+        "ipa": "əː / ə̤ː / ə",
+        "note": "Nguyên âm trung tâm xuất hiện cả ở âm tiết chính mang trọng âm (ví dụ: sơng /səːŋ/ 'nước uống', lơp /ləːp/ 'lũ', gơgơ̆l /gəgəl/ 'bắt đầu', nơ̆r 'tiếng nói') lẫn làm nguyên âm trung hòa không mang trọng âm ở tiền âm tiết (ví dụ: bơ-ar, gơduh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "i̤ə ~ iə",
+        "note": "Nguyên âm đôi khép, gắn với âm vực hà hơi (bắt nguồn từ *iː của Proto-North-Bahnaric theo Sidwell 2015; ví dụ: 'liat /ʔliət/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "ṳə ~ uə",
+        "note": "Nguyên âm đôi khép, gắn với âm vực hà hơi (bắt nguồn từ *uː theo Sidwell 2015; ví dụ: tơnuan /tənuən/, klùai /klṳəj/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea",
+        "ipa": "ɛa ~ ea",
+        "note": "Nguyên âm đôi mở hơn, gắn với âm vực trong/căng (hạ thấp từ *iə lịch sử theo Cooper & Cooper 1966; Sidwell 2015; ví dụ: kơdeang /kədɛaŋ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oa",
+        "ipa": "ɔa ~ oa",
+        "note": "Nguyên âm đôi mở hơn, gắn với âm vực trong/căng (hạ thấp từ *uə lịch sử, ví dụ: oak 'làm sạch', koan /kɔan/ 'con', 'loang /ʔlɔaŋ/ 'cây')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi đóng âm tiết (bị trung hòa hóa một phần ở một số ngữ cảnh lịch sử Bahnar Bắc)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc gốc lưỡi đóng âm tiết (ví dụ: dak 'nước', oak 'làm sạch')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / (dấu trăng ă, ĕ, ĭ, ŏ, ŭ, ơ̆ ở âm tiết mở)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết; đối lập giữa nguyên âm dài mở, nguyên âm dài + ʔ và nguyên âm ngắn + ʔ (trong chính tả Cooper, nguyên âm ngắn + ʔ ở cuối từ được ghi bằng dấu trăng không có phụ âm theo sau, ví dụ jơlĭ /ɟəliʔ/, sĕ̀ /se̤ʔ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi cuối âm tiết (ví dụ: Halăng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi cuối âm tiết (ví dụ: jil 'con mang')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi cuối âm tiết (ví dụ: nơ̆r / nŏr 'tiếng nói', ger 'anh ấy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (ví dụ: bùh 'nướng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm tròn môi cuối âm tiết (ví dụ: chiw 'đi', kơthao /kəthaːw/ 'chậu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "Bán nguyên âm không tròn môi cuối âm tiết (ví dụ: ngai 'người', mŏy /mɔj/ 'một')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w', y'",
+        "ipa": "wʔ, jʔ",
+        "note": "Bán nguyên âm cuối hậu thanh hầu hóa (post-glottalized glides; Cooper & Cooper 1966: 89 phân tích là tổ hợp âm cuối G+ʔ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yh / ih",
+        "ipa": "jh ~ ç",
+        "note": "Tổ hợp bán nguyên âm + xát thanh hầu cuối từ (tương ứng *-s lịch sử trong các ngôn ngữ Bahnaric)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu cao độ kiểu tiếng Việt; có đối lập 2 âm vực thanh tính (register) điển hình của nhóm Bắc Bahnar (Cooper & Cooper 1966; Sidwell 2015): (1) Âm vực trong/căng (clear/modal voice [V]) và (2) Âm vực hà hơi/lơi (breathy/lax voice [V̤], ghi bằng dấu huyền trong bộ chữ Cooper). Đối lập hà hơi khu biệt rõ rệt nhất trên các nguyên âm đơn dài; trên nguyên âm ngắn, tính hà hơi yếu hơn và đi kèm khác biệt độ mở nguyên âm. Ở nguyên âm đôi, âm vực gắn chặt với phẩm chất nguyên âm (/iə, uə/ mang âm vực hà hơi; /ɛa, ɔa/ mang âm vực trong)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "lời nói, tiếng nói",
+      "form": "nơ̆r / nŏr",
+      "ipa": "nər ~ nɔr",
+      "gloss_en": "word, speech, language",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "học",
+      "form": "hŏk",
+      "ipa": "hɔk",
+      "gloss_en": "to study, to learn",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bài (học)",
+      "form": "'bai",
+      "ipa": "ˀbaːj ~ ɓaːj",
+      "gloss_en": "lesson (loan)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sách, giấy",
+      "form": "bơ-ar",
+      "ipa": "bəʔaːr",
+      "gloss_en": "book, paper",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "ngai",
+      "ipa": "ŋaːj",
+      "gloss_en": "person, human classifier",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dak",
+      "ipa": "daːk",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ka",
+      "ipa": "kaː",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "cha",
+      "ipa": "caː",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nướng",
+      "form": "bùh",
+      "ipa": "bṳːh",
+      "gloss_en": "to roast",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm sạch, mổ (cá)",
+      "form": "oak",
+      "ipa": "ɔak ~ oaːk",
+      "gloss_en": "to clean, to gut",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "anh ấy, nó",
+      "form": "ger",
+      "ipa": "ɡɛr",
+      "gloss_en": "he, third-person singular",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "chiw",
+      "ipa": "ciw",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vỏ cây, vỏ trứng",
+      "form": "gơduh",
+      "ipa": "ɡəduh",
+      "gloss_en": "bark of tree; shell of egg",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con mang (hoẵng)",
+      "form": "jil",
+      "ipa": "ɟil",
+      "gloss_en": "barking deer, small kind of deer",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "buổi chiều tối",
+      "form": "sĕ̀",
+      "ipa": "se̤ʔ",
+      "gloss_en": "evening",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Múa Chiêu và nhạc lễ hội cồng chiêng Hà Lăng",
+        "note": "Loại hình diễn xướng cộng đồng đặc trưng của phụ nữ Hà Lăng tại Rờ Kơi, Sa Bình (Sa Thầy) và Tu Mơ Rông (Kon Tum / Quảng Ngãi), trình diễn trong lễ mừng lúa mới, mừng nhà rông mới, đón khách và tang lễ (bàn chân luôn tiếp xúc mặt đất, động tác tay phân biệt rõ giữa lễ vui và đám tang)."
+      },
+      {
+        "name": "Dân ca giao duyên (hát đối đáp) và hát ru Hà Lăng – Xơ Đăng",
+        "note": "Hát đối đáp nam nữ trên nương rẫy, đêm trăng sáng hoặc dịp lễ hội; lời ca giàu tính ngẫu hứng và dùng hệ thống hiệp vần truyền thống (được James Cooper 1973 khảo tả trong 'An ethnography of Halăng rhymes')."
+      },
+      {
+        "name": "Hát kể sử thi (hơ m'uan) truyền thống Xơ Đăng",
+        "note": "Diễn xướng tự sự dài hơi bên bếp lửa nhà rông trong vùng văn hóa các nhóm Xơ Đăng Bắc Tây Nguyên."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung Tây Nguyên (dàn cồng chiêng và nhạc cụ tre nứa)",
+        "note": "Các bài chiêng đệm múa Chiêu và dân ca Hà Lăng vận hành trên thang âm ngũ cung không bán âm hoặc pha quãng đặc trưng Bắc Tây Nguyên; cần khảo sát âm học thực địa để chuẩn hóa cao độ từng bài chiêng.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Cồng chiêng (thuộc Không gian văn hóa Cồng chiêng Tây Nguyên — UNESCO 2005)"
+      },
+      {
+        "name": "Trống lễ hội (giữ nhịp chủ đạo cùng cồng chiêng trong điệu múa Chiêu)"
+      },
+      {
+        "name": "Đàn Klông pút (nhạc cụ ống nứa vỗ hơi truyền thống của phụ nữ các nhóm Xơ Đăng trên chòi rẫy và tại nhà rông)"
+      },
+      {
+        "name": "Đàn T'rưng (nhạc cụ gõ ống nứa)"
+      },
+      {
+        "name": "Đàn Ting ning (nhạc cụ dây tre nứa)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "xo-dang",
+    "sub_varieties": [
+      {
+        "name": "Tiếng Xơ Đăng chính / Xơ Teng (Sedang)",
+        "iso639_3": "sed",
+        "glottocode": "seda1241",
+        "note": "Nhánh lớn nhất của dân tộc Xơ Đăng tại Việt Nam (Kon Tum, Quảng Nam, Quảng Ngãi); đã mất âm tắc hữu thanh đầu và phát triển âm vực thanh hầu hóa (creaky voice), khác biệt đáng kể với tiếng Hà Lăng."
+      },
+      {
+        "name": "Tiếng Ca Dong (Kayong)",
+        "iso639_3": "kxy",
+        "glottocode": "kayo1245",
+        "note": "Nhóm địa phương thuộc dân tộc Xơ Đăng ở Nam Trà My (Quảng Nam), Sơn Tây (Quảng Ngãi), Kon Plông; cùng tiểu nhóm ngôn ngữ Kayong-Jeh-Halang với tiếng Hà Lăng."
+      },
+      {
+        "name": "Tiếng Tơ Đrá / Sơ Drá (Todrah)",
+        "iso639_3": "tdr",
+        "glottocode": "todr1239",
+        "note": "Nhóm địa phương thuộc dân tộc Xơ Đăng tại Kon Rẫy, Đăk Hà, TP. Kon Tum."
+      },
+      {
+        "name": "Tiếng Mơ Nâm / Bơ Nâm (Monom)",
+        "iso639_3": "moo",
+        "glottocode": "mono1272",
+        "note": "Nhóm địa phương thuộc dân tộc Xơ Đăng tại huyện Kon Plông."
+      },
+      {
+        "name": "Tiếng Halang Doan (Đoàn / Dọan)",
+        "iso639_3": "hld",
+        "glottocode": "hala1253",
+        "note": "Ngôn ngữ/biến thể gần gũi thuộc tiểu nhóm Kayong-Jeh-Halang ở vùng biên giới Đăk Glei (Việt Nam) – Attapeu (Lào)."
+      },
+      {
+        "name": "Phương ngữ Salang (Lào)",
+        "iso639_3": "hal",
+        "glottocode": "hala1252",
+        "note": "Biến thể cùng mã ISO 639-3 nói tại tỉnh Attapeu (Lào), nằm ngoài phạm vi bảng mã tại Việt Nam này."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "bùh (nguyên âm hà hơi à, è, ì, ò, ù, ờ + âm cuối -h)",
+        "quoc_ngu": "bù (ngân hơi thở nhẹ cuối âm)",
+        "note": "Dấu huyền trong chữ Hà Lăng biểu thị chất giọng hà hơi [V̤] chứ không phải thanh điệu; tiếng Việt chuẩn không có đối lập âm vực hà hơi độc lập cũng như không có âm cuối [-h]."
+      },
+      {
+        "native": "nơ̆r / ger / bơ-ar (âm cuối -r)",
+        "quoc_ngu": "nơ-(rờ) / ghe-(rờ) / bơ a-(rờ)",
+        "note": "Tiếng Việt không có phụ âm cuối [-r]. Với TTS/giọng hát chỉ biết tiếng Việt, chỉ có thể đọc nguyên âm mở hoặc nối rất nhẹ một âm lướt cực ngắn."
+      },
+      {
+        "native": "jil / gơgơ̆l (phụ âm đầu j [ɟ] và âm cuối -l)",
+        "quoc_ngu": "di-(lờ) / gờ-gơ-(lờ)",
+        "note": "Tiếng Việt chuẩn không có tắc mặt lưỡi hữu thanh [ɟ] (dùng tạm d/gi) và không có phụ âm bên cuối [-l] (nếu thay bằng -n thành 'din' sẽ làm sai âm sắc)."
+      },
+      {
+        "native": "bơ-ar / gơduh (tiền âm tiết Cơ-)",
+        "quoc_ngu": "bơ a / gờ đút",
+        "note": "Tiếng Việt là ngôn ngữ đơn âm tiết nên TTS thường đọc tiền âm tiết dài bằng âm tiết chính; cần rút ngắn thời lượng âm tiết đầu ('bơ', 'gờ') xuống khoảng 1/4–1/3 phách khi hát."
+      },
+      {
+        "native": "hm, hn, hl, hr (phụ âm mũi/lỏng vô thanh)",
+        "quoc_ngu": "hờ-m, hờ-n, hờ-l, hờ-r (đọc lướt liền)",
+        "note": "Âm mũi và âm lỏng vô thanh [m̥, n̥, l̥, r̥] hoàn toàn không có trong tiếng Việt."
+      },
+      {
+        "native": "'m, 'n, 'nh, 'ng, -w', -y' (tổ hợp thanh hầu hóa)",
+        "quoc_ngu": "m, n, nh, ng (ngắt thanh hầu đầu) / -u, -i (ngắt sắc/nặng nhanh)",
+        "note": "Tiếng Việt không có đối lập tiền thanh hầu hóa ở âm mũi hay hậu thanh hầu hóa trên bán nguyên âm cuối [-wʔ, -jʔ]."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "nơ̆r",
+        "ipa": "nər",
+        "vi": "lời nói, tiếng nói"
+      },
+      {
+        "native": "hŏk",
+        "ipa": "hɔk",
+        "vi": "học"
+      },
+      {
+        "native": "bơ-ar",
+        "ipa": "bəʔaːr",
+        "vi": "sách, giấy"
+      },
+      {
+        "native": "ngai",
+        "ipa": "ŋaːj",
+        "vi": "người"
+      },
+      {
+        "native": "dak",
+        "ipa": "daːk",
+        "vi": "nước"
+      },
+      {
+        "native": "ka",
+        "ipa": "kaː",
+        "vi": "cá"
+      },
+      {
+        "native": "cha",
+        "ipa": "caː",
+        "vi": "ăn"
+      },
+      {
+        "native": "bùh",
+        "ipa": "bṳːh",
+        "vi": "nướng"
+      },
+      {
+        "native": "oak",
+        "ipa": "ɔak",
+        "vi": "làm sạch, mổ (cá)"
+      },
+      {
+        "native": "ger",
+        "ipa": "ɡɛr",
+        "vi": "anh ấy, nó"
+      },
+      {
+        "native": "chiw",
+        "ipa": "ciw",
+        "vi": "đi"
+      },
+      {
+        "native": "jil",
+        "ipa": "ɟil",
+        "vi": "con mang (hoẵng)"
+      }
+    ],
+    "tts_and_svs_notes": "Khi tổng hợp giọng hát tiếng Hà Lăng từ mô hình nền đa ngữ hoặc tiếng Việt: (1) Không áp đặt đường nét thanh điệu 6 thanh tiếng Việt lên lời ca vì cao độ trong tiếng Hà Lăng hoàn toàn đi theo giai điệu âm nhạc, trong khi dấu huyền của chính tả SIL chỉ phản ánh chất giọng hà hơi (breathy phonation); (2) Xử lý tiền âm tiết sesquisyllabic (bơ-, kơ-, gơ-...) như nốt luyến lấy đà cực ngắn trước phách mạnh của âm tiết chính."
+  },
+  "sources": [
+    {
+      "title": "Cooper, James & Nancy Cooper (1966). Halăng phonemes. Mon-Khmer Studies 2, 87–98.",
+      "url": "http://www.mksjournal.org/archives/mks/pdf/2:87-98.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cooper, James S. (1971). 'Bai hŏk nơ̆r Halăng = Bài học tiếng Halăng = Halăng language lessons. Sài Gòn: Bộ Giáo dục & Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cooper, James S. (1973). An ethnography of Halăng rhymes. Mon-Khmer Studies 4, 33–41.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Cooper, James & Nancy Cooper (1976). Halang Rhyming Dictionary: Halang–English. Dallas: Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Sidwell, Paul (2015). Local drift and areal convergence in the restructuring of Mainland Southeast Asian languages. In N. J. Enfield & B. Comrie (eds.), Languages of Mainland Southeast Asia: The State of the Art, 51–81. Berlin: De Gruyter Mouton.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Beserra Silva, Deborah Christina (2023). A Preliminary Phonological Comparison of Three Varieties of Halang. Master's thesis, Payap University.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lê Bá Thảo, Hoàng Ma, et al. — Viện Dân tộc học (2014). Các dân tộc ít người ở Việt Nam (Các tỉnh phía Nam). Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Spoken L1 Language: Halang (hala1252)",
+      "url": "https://glottolog.org/resource/languoid/id/hala1252",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Halang (hln)",
+      "url": "https://wals.info/languoid/lect/wals_code_hln",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Halang language",
+      "url": "https://en.wikipedia.org/wiki/Halang_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Hà Lăng",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_H%C3%A0_L%C4%83ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO — Space of gong culture (Không gian văn hóa Cồng chiêng Tây Nguyên)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "lexicon[14] & ml_hints.quoc_ngu_approximation[2]",
+          "severity": "high",
+          "problem": "Từ 'se'l' ('buổi chiều tối' / 'evening') là lỗi nhận dạng ký tự quang học (OCR) khi quét sách của Sidwell & Jacq (2000), biến chữ 'sĕ̀' (hoặc phiên âm [se̤ʔ]) thành 'se'l' / 'Set'. Theo từ điển Cooper & Cooper (1976, mục #3237), từ có nghĩa 'buổi chiều tối' (evening) trong tiếng Hà Lăng là 'sĕ̀' /se̤ʔ/ (nguyên âm ngắn hà hơi đóng bằng tắc thanh hầu cuối), hoàn toàn không có âm cuối -l hay cụm -'l.",
+          "fix": "Sửa mục từ số 14 trong lexicon thành 'sĕ̀' (/se̤ʔ/, 'buổi chiều tối' / 'evening') và bỏ 'se'l' khỏi ml_hints.quoc_ngu_approximation[2]."
+        },
+        {
+          "path": "phonology.vowels & phonology.codas",
+          "severity": "medium",
+          "problem": "Bản thảo mô tả 'ơ' (/ə/) chỉ xuất hiện ở tiền âm tiết (presyllable) và cho rằng tiếng Hà Lăng chỉ có 5 vị trí nguyên âm cơ bản. Thực tế, theo Cooper & Cooper (1966, 1976), âm tiết chính của tiếng Hà Lăng có đầy đủ hệ nguyên âm giữa 'ơ' (/əː/), 'ờ' (/ə̤ː/), 'ơ̆' (/ə/), 'ơ̆̀' (/ə̤/) (ví dụ: nơ̆r 'lời nói, tiếng nói', sơng /səːŋ/ 'nước uống', lơp /ləːp/ 'lũ lụt', gơgơ̆l /gəgəl/ 'bắt đầu'). Ngoài ra, trong chính tả SIL của Cooper, dấu trăng trên nguyên âm ở cuối âm tiết mở (như jơlĭ /ɟəliʔ/, sĕ̀ /se̤ʔ/, tơngŏ̀ /təŋo̤ʔ/, phiă phằ /phiəʔ pha̤ʔ/) dùng để biểu thị nguyên âm ngắn đi kèm âm tắc thanh hầu cuối /-ʔ/.",
+          "fix": "Cập nhật mô tả nguyên âm 'ơ / ơ̆ / ờ' cho cả âm tiết chính và tiền âm tiết; bổ sung quy tắc chính tả dấu trăng ở âm tiết mở biểu thị /-Vʔ/ vào phonology.vowels và phonology.codas."
+        },
+        {
+          "path": "scripts[0].note, sources[1], autonym, lexicon[0], lexicon[1]",
+          "severity": "low",
+          "problem": "Nhan đề chính xác của sách học tiếng Hà Lăng do James S. Cooper biên soạn năm 1971 là \"'Bai hŏk nơ̆r Halăng = Bài học tiếng Halăng = Halăng language lessons\" (viết là 'hŏk' và 'nơ̆r', không phải 'hôk' và 'nŏr'; cách viết 'nŏr' thường chỉ xuất hiện trong các trích dẫn lược bỏ dấu móc). Đồng thời, âm đầu tiền thanh hầu hóa trong từ điển Cooper & Cooper (1976) được phiên âm âm vị học là /ʔC/ hoặc [ɓ, ɗ] (như 'be /ɓɛː/, 'dang /ɗaŋ/, 'mơm /ʔməːm/).",
+          "fix": "Chuẩn hóa lại nhan đề sách năm 1971 thành \"'Bai hŏk nơ̆r Halăng\" và bổ sung dạng chính tả chuẩn 'nơ̆r' (/nər/) bên cạnh 'nŏr'."
+        },
+        {
+          "path": "lexicon[12]",
+          "severity": "low",
+          "problem": "Từ 'gơduh' (/gəduh/) trong từ điển Cooper & Cooper (1976, mục #856) có nghĩa chính xác là 'bark of tree; shell of egg' (vỏ cây; vỏ trứng), không phải 'da' (skin).",
+          "fix": "Chỉnh lại nghĩa tiếng Việt và tiếng Anh của 'gơduh' thành 'vỏ cây, vỏ trứng' ('bark of tree; shell of egg')."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần khảo sát thực địa tại Rờ Kơi / Sa Bình (Sa Thầy) và Đắk Na (Đăk Tô / Tu Mơ Rông) để đối chiếu thói quen viết chữ Latinh hiện nay của cộng đồng so với bộ chữ SIL năm 1971 của James & Nancy Cooper.",
+      "Cần bổ sung đo đạc âm học hiện đại về mức độ duy trì âm vực hà hơi (breathy register) ở thế hệ người nói trẻ tại Việt Nam.",
+      "Cần nhạc sĩ dân tộc học ký âm chuẩn xác thang âm và tiết tấu bài chiêng đi kèm điệu múa Chiêu của người Hà Lăng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

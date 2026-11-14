@@ -1,0 +1,90 @@
+{
+  "target": {
+    "id": "thai-tyr",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thái Đỏ",
+    "ethnic_group_vi": "Thái",
+    "iso639_3_expected": "tyr",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tyr; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+  },
+  "started": "2026-11-13T23:53:42.737480",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9437,
+      "candidatesTokenCount": 9317,
+      "totalTokenCount": 18754,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9437
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9317
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11583,
+      "candidatesTokenCount": 10835,
+      "totalTokenCount": 22418,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11583
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10835
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.tones[2]",
+        "severity": "high",
+        "problem": "Mô tả sự hòa nhập thanh điệu lịch sử (Gedney tone box) của Thanh 3 và Thanh 5/6 bị sai ở ô B4. Trong tiếng Thái Đỏ (do Gedney 1964 và Li Fang-Kuei 1977 mô tả), ô B4 (tương ứng B2 trong ký hiệu 2 chiều của Li) hòa nhập đường chéo vào C1-2-3 (tức Thanh 3, thấp đi lên có thanh hầu hóa: ví dụ 'naŋ' [naŋ˩˧ʔ] 'ngồi' < *n- thuộc nhóm B4), chứ KHÔNG hòa nhập vào B1-2-3 (Thanh 2). Chính sự hòa nhập B4 = C1-2-3 này tạo nên hệ 5 thanh mở của tiếng Thái Đỏ.",
+        "fix": "Sửa name của T3 thành 'Thanh 3 (tương ứng ô C1-2-3 và B4 theo Gedney; gần với DL4 trên âm tiết khép)', sửa T5 và T6 (merges_with: 'T3') cho khớp với quy luật hòa nhập B4 = C1-2-3."
+      },
+      {
+        "path": "phonology.tones[1].name",
+        "severity": "medium",
+        "problem": "Ghi Thanh 2 tương ứng cả DL1-2-3 và DS1-2-3, trong khi Thanh 3 ghi DL4/DS4, chưa phản ánh chính xác mô tả của Gedney (1964) rằng loại thanh đi lên (Thanh 3) trên âm tiết khép luôn có nguyên âm dài hoặc nguyên âm đôi (tức DL), còn loại ngang cao (Thanh 2) bao gồm các âm tiết khép nguyên âm ngắn (DS1-2-3-4) và một phần âm tiết khép nguyên âm dài (DL1-2-3).",
+        "fix": "Điều chỉnh ghi chú ở T2, T3 và register_or_phonation để làm rõ sự phân bố trên âm tiết khép (checked syllables)."
+      },
+      {
+        "path": "phonology.onsets[2].note",
+        "severity": "low",
+        "problem": "Tại mục phụ âm đầu 'b' (/ɓ ~ b/), ghi chú viết 'có hiện tượng dao động b ~ d ~ l tùy thổ ngữ (ví dụ: đèng ~ lèng đỏ)'. Ví dụ 'đèng ~ lèng' là biến thể của âm chân răng /*ʔd/ (/ɗ ~ d ~ l/), không phải của âm môi /ɓ/.",
+        "fix": "Bỏ ví dụ 'đèng ~ lèng' ở mục âm môi 'b' (chỉ giữ ở mục 'đ / d') và ghi chú đúng về biến thể tiền thanh hầu hóa /ɓ/ ~ /b/ hoặc /ɓ/ ~ /m/."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Các ký âm IPA trong lexicon gắn kèm số Chao ước lượng (˧˥, ˦˦, ˩˧ʔ, ˧˨, ˥˨ʔ) với độ tự tin 'high', trong khi nguồn gốc (Gedney 1964) chỉ mô tả đường nét thanh điệu bằng lời văn chứ không đo số Chao thực nghiệm.",
+        "fix": "Hạ confidence của các mục từ vựng có gắn ký hiệu thanh điệu ước lượng từ 'high' xuống 'medium' để nhất quán với phonology.tones và open_issues."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn có URL đang để null.",
+        "fix": "Cập nhật url_check = 'ok' cho các URL đã kiểm chứng hoạt động (Glottolog, Wikipedia, PHOIBLE, Pangloss, Unicode) và sửa nhẹ nhan đề bài viết của Ferlus (2008) cho khớp nguyên bản ('The Tai dialects of Nghệ An (Tay Dæng, Tay Yo, Tay Muong)')."
+      }
+    ]
+  },
+  "schema_errors": []
+}

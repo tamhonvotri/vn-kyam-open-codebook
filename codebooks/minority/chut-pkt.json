@@ -1,0 +1,837 @@
+{
+  "id": "chut-pkt",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mã Liềng",
+  "name_en": "Malieng (Maleng)",
+  "autonym": "Maleng (/malɛ̤ŋ²/)",
+  "ethnic_group_vi": "Chứt",
+  "language": {
+    "iso639_3": "pkt",
+    "glottocode": "male1282",
+    "family": "Austroasiatic",
+    "branch": "Vietic (Thavung–Malieng)"
+  },
+  "regions": [
+    "Quảng Bình: huyện Tuyên Hóa (các xã Lâm Hóa, Thanh Hóa — bản Kè, bản Cáo, bản Chuối, bản Cà Xen, bản Ka Tang)",
+    "Quảng Bình: huyện Minh Hóa (khu vực Dân Hóa / Trọng Hóa — bản Lòm, bản Bạch Tài)",
+    "Hà Tĩnh: huyện Hương Khê (các xã Hương Liên, Hương Lâm — bản Rào Tre)"
+  ],
+  "speakers_estimate": "Khoảng 200–1.500 người tại Việt Nam tùy tiêu chí đánh giá năng lực ngôn ngữ: Ferlus (1996) ước tính khoảng 200 người nói thông thạo; Badosa Roldós (ELAR, 2023) ghi nhận cộng đồng khoảng 1.200–1.500 người tại các bản thuộc Quảng Bình và Hà Tĩnh (trong đó người trẻ có xu hướng chuyển dịch sang song ngữ hoặc ưu tiên tiếng Việt); ngoài ra nhóm Kri Phoọng (cùng cụm mã pkt) tại Hà Tĩnh có quy mô rất nhỏ (khoảng hơn 100 người).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (ghi âm học thuật bằng IPA / chữ cái Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin Extended Additional; IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Tiếng Mã Liềng là ngôn ngữ truyền khẩu, chưa có bộ chữ viết chính thức do Nhà nước ban hành. Các công trình ngôn ngữ học (Ferlus, Trần Trí Dõi, Badosa Roldós, Tạ Quang Tùng) dùng ký hiệu IPA; trong bảo tồn văn nghệ dân gian địa phương đôi khi ghi âm xấp xỉ theo chữ Quốc ngữ tiếng Việt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học về nhánh Vietic (Ferlus 1996, 1997, 1998; Sidwell & Alves 2021; Badosa Roldós 2023, 2025; Tạ Quang Tùng 2025). Tại Việt Nam, người Mã Liềng được xếp vào dân tộc Chứt (cùng Sách, Mày, Rục, Arem), nhưng về phân loại lịch sử ngôn ngữ, tiếng Mã Liềng thuộc tiểu nhóm Thavung–Malieng (Tây Vietic / Maleng-Pakatan, mã ISO 639-3: pkt, Glottocode cấp ngôn ngữ: male1282, Glottocode phương ngữ Mã Liềng: mali1278). Chưa được người bản xứ và chuyên gia ngữ âm học thực nghiệm rà soát trực tiếp trên từng bản làng.",
+  "phonology": {
+    "syllable_structure": "(C1ə)C2(C3)V(C4)+T/R — cấu trúc bán song tiết (sesquisyllabic): gồm tiền âm tiết nhược hóa C1ə- (nguyên âm trung hòa [ə] không có giá trị khu biệt âm vị học, đang giản lược dần ở thế hệ trẻ) và âm tiết chính C2(C3)V(C4) mang thanh điệu/âm vực (C3 là âm đệm hoặc âm lỏng /w, l, r/).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (xuất hiện ở cả tiền âm tiết và âm tiết chính)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh/hút vào",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "ɗ",
+        "note": "Tắc đầu lưỡi hữu thanh/hút vào; có biến thể tiền mũi hóa [nd] ở một số từ (ví dụ nde¹ 'hôm qua')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ",
+        "note": "Tắc quặt lưỡi vô thanh (ghi nhận rõ trong biến thể Kri Phoọng tại Hà Tĩnh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch / c",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "' / ∅",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh (một số biến thể như Kri Phoọng có thêm /ʂ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ β",
+        "note": "Xát môi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɣ",
+        "note": "Xát gốc lưỡi hữu thanh (ví dụ ɣɤk⁷ 'ngày mai')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "z / gi",
+        "ipa": "z ~ ʑ",
+        "note": "Xát đầu lưỡi/mặt lưỡi hữu thanh (ghi nhận trong Kri Phoọng và từ tiếp xúc)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mạc; cũng làm âm đệm C3 trong cụm kw-, tw-, ŋw-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / j",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i ~ iː",
+        "note": "Nguyên âm trước khép; phân biệt trường độ trước phụ âm cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e ~ eː",
+        "note": "Nguyên âm trước hơi khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ ɛː",
+        "note": "Nguyên âm trước hơi mở; ở âm vực thấp có thể kèm giọng thở [ɛ̤]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ ~ ɯː",
+        "note": "Nguyên âm sau/giữa khép không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / â",
+        "ipa": "ɤ ~ ɤː",
+        "note": "Nguyên âm sau/giữa hơi khép không tròn môi (ngắn tương đương â)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / ă",
+        "ipa": "aː / a",
+        "note": "Nguyên âm mở dài /aː/ và ngắn /a/ (ă)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u ~ uː",
+        "note": "Nguyên âm sau khép tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o ~ oː",
+        "note": "Nguyên âm sau hơi khép tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ ~ ɔː",
+        "note": "Nguyên âm sau hơi mở tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ia",
+        "ipa": "iə ~ iɤ",
+        "note": "Nguyên âm đôi hướng tâm trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɯə ~ ɯɤ",
+        "note": "Nguyên âm đôi hướng tâm giữa/sau không tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uə ~ uɤ",
+        "note": "Nguyên âm đôi hướng tâm sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ (tiền âm tiết)",
+        "ipa": "ə",
+        "note": "Nguyên âm trung hòa ở tiền âm tiết C1ə-, không đối lập âm vị học",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ch / -c",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi vô thanh (giữ nguyên phẩm chất mặt lưỡi, ít biến đổi nguyên âm trước hơn tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k / -c",
+        "ipa": "k̚",
+        "note": "Tắc gốc lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-q / -'",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (phản ánh *-ʔ cổ; trong nhiều mô tả âm vị học được coi là nét thanh tính glottalization của thanh-vực T3_B hơn là một phụ âm cuối đoạn tính độc lập)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-nh / -ɲ",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ maːɲ³ 'mượn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi cuối âm tiết — nét cổ bảo lưu của nhánh Thavung–Malieng; người nói trẻ có xu hướng nhập vào /-n/ (Badosa Roldós 2023)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r",
+        "note": "Rung/tiếp cận đầu lưỡi cuối âm tiết — bảo lưu sự đối lập *-r và *-l của tiếng Tiền Vietic (Sidwell & Alves 2021)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (ví dụ muh 'mũi'); cũng gặp tổ hợp /-jh/ từ *-s cổ ở một số biến thể như Kri Phoọng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w / -u / -o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-mạc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y / -i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối mặt lưỡi",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_A1",
+        "name": "Thanh-vực 1 (âm vực cao, âm tiết mở/vang — lịch sử *A1)",
+        "mark": "¹",
+        "chao_contour": "44",
+        "phonation": "modal / clear (giọng thường/trong, phẩm chất nguyên âm căng)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2_A2",
+        "name": "Thanh-vực 2 (âm vực thấp, âm tiết mở/vang — lịch sử *A2)",
+        "mark": "²",
+        "chao_contour": "21",
+        "phonation": "breathy / lax (giọng thở nhẹ [V̤] hoặc phẩm chất nguyên âm chùng/hạ thấp)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3_B",
+        "name": "Thanh-vực 3 (âm tiết kết thúc bằng *-ʔ lịch sử — *B1/*B2 nhập một)",
+        "mark": "³",
+        "chao_contour": "25",
+        "phonation": "glottalized / tense (căng thanh hầu hoặc tắc thanh hầu cuối [ʔ]; không tách cao độ giữa âm vực cao và thấp theo Badosa Roldós 2025)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4_C",
+        "name": "Thanh-vực 4 (âm tiết xát thanh hầu *-h hoặc thanh vay mượn)",
+        "mark": "⁴",
+        "chao_contour": "52",
+        "phonation": "laryngealized / aspirate (kết thúc bằng /-h/ hoặc đi xuống kèm thanh hầu hóa ở một số biến thể như Kri Phoọng [52ʔ])",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "TD1_checked_high",
+        "name": "Âm tiết khép tắc âm vực cao (*D1, kết thúc bằng -p/-t/-c/-k)",
+        "mark": "⁷",
+        "chao_contour": "35",
+        "phonation": "modal checked (phân biệt với *D2 chủ yếu nhờ phẩm chất nguyên âm/âm vực và cao độ đi lên [34]~[35])",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "TD2_checked_low",
+        "name": "Âm tiết khép tắc âm vực thấp (*D2, kết thúc bằng -p/-t/-c/-k)",
+        "mark": "⁸",
+        "chao_contour": "13",
+        "phonation": "lax / breathy checked (nguyên âm chùng; ở Mã Liềng trung tâm sự đối lập cao độ ở vần tắc yếu hơn đối lập âm vực nguyên âm)",
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Hệ thống chuyển tiếp giữa âm vực (register) và thanh điệu (tone), gọi là 'tonation' (Ferlus 1998; Badosa Roldós, Tạ Thành Tấn & Trần Quang Minh 2024–2025): quá trình hình thành âm vực (cao/căng so với thấp/thở) diễn ra trước quá trình hình thành thanh điệu. Sự đối lập cao độ rõ nhất xuất hiện ở âm tiết mở và âm cuối vang (*A1 so với *A2), trong khi loạt *B (*B1 và *B2) nhập làm một về cao độ, còn các âm tiết khép tắc (*D1/*D2) dựa nhiều vào sự đối lập phẩm chất nguyên âm và thanh tính hơn là đường nét thanh điệu độc lập. Riêng biến thể Kri Phoọng ở Hà Tĩnh được Tạ Quang Tùng (2025) ghi nhận 5 thanh: [44], [25ʔ], [52ʔ] (vần vang) và [13], [35] (vần tắc)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người Mã Liềng (tự gọi)",
+      "form": "Maleng",
+      "ipa": "malɛ̤ŋ²",
+      "gloss_en": "Malieng / Maleng person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dak",
+      "ipa": "ɗak˧˦",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đất",
+      "form": "ətak",
+      "ipa": "ətak",
+      "gloss_en": "earth / land",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "mat",
+      "ipa": "mat",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "muh",
+      "ipa": "muh",
+      "gloss_en": "nose",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngôi sao",
+      "form": "kumen",
+      "ipa": "kumɛɲ ~ kumen",
+      "gloss_en": "star",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "vú / ngực",
+      "form": "pənú",
+      "ipa": "pənu³",
+      "gloss_en": "breast",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mượn",
+      "form": "maːɲ³",
+      "ipa": "maːɲ³",
+      "gloss_en": "to borrow",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngày",
+      "form": "kwo¹",
+      "ipa": "kwo¹",
+      "gloss_en": "day",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "buổi (trong ngày)",
+      "form": "two¹",
+      "ipa": "two¹",
+      "gloss_en": "part of the day",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ngày mai / kế tiếp",
+      "form": "ɣɤk⁷",
+      "ipa": "ɣɤk⁷",
+      "gloss_en": "next / tomorrow",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hôm qua / trước",
+      "form": "nde¹",
+      "ipa": "nde¹",
+      "gloss_en": "previous / yesterday",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trời tối",
+      "form": "ŋwop⁷",
+      "ipa": "ŋwop⁷",
+      "gloss_en": "dark",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "buổi chiều tối",
+      "form": "pəkiëŋ²",
+      "ipa": "pəkiəŋ²",
+      "gloss_en": "afternoon-evening",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "này",
+      "form": "nɤj³",
+      "ipa": "nɤj³",
+      "gloss_en": "this",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "quả / vật tròn (loại từ)",
+      "form": "ɔk",
+      "ipa": "ɔk",
+      "gloss_en": "classifier for fruits and round things",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cái (loại từ chung)",
+      "form": "kɛ",
+      "ipa": "kɛ²",
+      "gloss_en": "universal inanimate classifier",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát tâm tình, giao duyên bên đàn ống của phụ nữ Mã Liềng",
+        "note": "Thể loại đặc trưng nhất tại các bản Cáo, bản Kè, bản Ka Tang, bản Cà Xen (Tuyên Hóa, Quảng Bình); lối hát thủ thỉ, rủ rỉ, da diết hòa quyện với tiếng đàn ống để giãi bày tâm sự, hát ru hoặc hát trong lễ cưới, ma chay, cúng thần rừng."
+      },
+      {
+        "name": "Dân ca sinh hoạt và lễ hội dân tộc Chứt (Cà tơm tà lênh / Kà-tưm, Kà-lềnh, Cà răng tà nêu)",
+        "note": "Các làn điệu hát đối đáp nam nữ và hát mừng cơm mới / cúng lúa mới lưu truyền trong không gian văn hóa chung của các nhóm thuộc dân tộc Chứt ở Quảng Bình."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn ống (đờn ống / đờn ón nê té)",
+        "note": "Nhạc cụ biểu tượng ('báu vật') truyền từ mẹ sang con gái của phụ nữ Mã Liềng; làm từ một đốt ống tre/nứa già dài khoảng 70 cm hong khô trên gác bếp, chẻ rãnh cộng hưởng và căng 2 dây dọc thân ống (một dây căng, một dây chùng)."
+      },
+      {
+        "name": "Đàn Chơ-ra-bon",
+        "note": "Nhạc cụ truyền thống dùng đệm hát trong lễ cúng lúa mới của đồng bào Chứt."
+      },
+      {
+        "name": "Sáo, đàn môi, tù và",
+        "note": "Các nhạc cụ hơi và tự thân vang dùng trong tụ họp vui chơi, làm rẫy và đi rừng của cộng đồng Chứt – Mã Liềng."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "chut",
+    "sub_varieties": [
+      {
+        "name": "Mã Liềng Quảng Bình (Tuyên Hóa & Minh Hóa)",
+        "iso639_3": "pkt",
+        "glottocode": "mali1278",
+        "note": "Biến thể chính tại Việt Nam (Lâm Hóa, Thanh Hóa, Dân Hóa/Trọng Hóa). Riêng thổ ngữ bản Lòm (Minh Hóa, giáp biên giới Lào) giữ nhiều nét ngữ âm cổ hơn các bản ven sông Gianh (Badosa Roldós 2023)."
+      },
+      {
+        "name": "Mã Liềng Hà Tĩnh (Hương Khê)",
+        "iso639_3": "pkt",
+        "glottocode": "mali1278",
+        "note": "Nói tại bản Rào Tre (xã Hương Liên) và xã Hương Lâm, huyện Hương Khê; rất gần với Mã Liềng Tuyên Hóa."
+      },
+      {
+        "name": "Kri Phoọng (Khả Phong / Maleng Kari)",
+        "iso639_3": "pkt",
+        "glottocode": "male1282",
+        "note": "Một biến thể thuộc cụm Maleng (pkt) cư trú tại 1 bản ở Hà Tĩnh (Việt Nam) và tỉnh Khăm Muộn (Lào), chịu ảnh hưởng tiếp xúc tiếng Lào rõ hơn (Tạ Quang Tùng 2025)."
+      },
+      {
+        "name": "Tiếng Chứt — Sách, Mày, Rục (cùng dân tộc Chứt tại Việt Nam)",
+        "iso639_3": "scb",
+        "glottocode": "chut1247",
+        "note": "Thuộc nhánh Đông Vietic (Chứt-Arem), khác ngôn ngữ với tiếng Mã Liềng dù cùng được xếp vào dân tộc Chứt."
+      },
+      {
+        "name": "Tiếng Arem (cùng dân tộc Chứt tại Việt Nam)",
+        "iso639_3": "aem",
+        "glottocode": "arem1240",
+        "note": "Nói tại xã Tân Trạch, huyện Bố Trạch, Quảng Bình; ngôn ngữ Vietic rất cổ còn lưu giữ hệ thống thanh tính/âm vực không thanh điệu điển hình."
+      }
+    ],
+    "phonetic_divergences_from_vietnamese": [
+      "Từ bán song tiết (sesquisyllabic) có tiền âm tiết nhẹ Cə- (ví dụ pənu³, ətak, pəkiəŋ²): tiếng Việt đơn tiết không có âm tiết phụ không trọng âm nên TTS tiếng Việt dễ đọc thành hai âm tiết ngang bằng nhau.",
+      "Phụ âm đầu /p/ vô thanh không bật hơi phổ biến ở đầu âm tiết chính và tiền âm tiết (tiếng Việt chuẩn hầu như chỉ có /p/ ở vị trí cuối hoặc từ vay mượn).",
+      "Phụ âm cuối /-r/, /-l/ và /-h/ không tồn tại trong tiếng Việt hiện đại.",
+      "Phụ âm đầu cụm âm đệm như /ŋw-/, /tw-/ hoặc tiền mũi hóa [nd-] không có cách viết tương đương tự nhiên trong chữ Quốc ngữ.",
+      "Đối lập âm vực giọng trong/căng (modal/tense) và giọng thở/chùng (breathy/lax [V̤]) gắn với phẩm chất nguyên âm."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "malɛ̤ŋ²",
+        "quoc_ngu": "mờ-lèng",
+        "note": "Dùng 'mờ-' cực ngắn cho tiền âm tiết và thanh huyền để xấp xỉ âm vực thấp giọng thở [ɛ̤]; không thể hiện được trọn vẹn chất giọng thở."
+      },
+      {
+        "native": "pənu³",
+        "quoc_ngu": "pơ-nú",
+        "note": "Đọc lướt cực nhẹ 'pơ-' không nhấn trọng âm; âm /p/ vô thanh không bật hơi."
+      },
+      {
+        "native": "ətak",
+        "quoc_ngu": "ơ-tắc",
+        "note": "Tiền âm tiết nguyên âm trung hòa [ə] đọc lướt nhẹ trước 'tắc'."
+      },
+      {
+        "native": "pəkiəŋ²",
+        "quoc_ngu": "pơ-kiềng",
+        "note": "Xấp xỉ tiền âm tiết pə- bằng 'pơ-' ngắn, âm vực thấp bằng thanh huyền."
+      },
+      {
+        "native": "ɗak˧˦",
+        "quoc_ngu": "đắc",
+        "note": "Âm tiết khép tắc âm vực cao có cao độ đi lên gần giống thanh sắc vần tắc tiếng Việt."
+      },
+      {
+        "native": "muh",
+        "quoc_ngu": "mu-hờ (muh)",
+        "note": "Âm cuối xát thanh hầu /-h/ không có trong tiếng Việt; nếu ghép cho TTS chỉ biết tiếng Việt, chỉ có thể viết 'mu' kèm tiếng thở nhẹ ở cuối, tránh đọc thành hai âm tiết rõ 'mu hờ'."
+      },
+      {
+        "native": "ɣɤk⁷",
+        "quoc_ngu": "gấc",
+        "note": "Xấp xỉ /ɣ/ bằng 'g' và /ɤk/ cao bằng 'ấc'."
+      },
+      {
+        "native": "ŋwop⁷",
+        "quoc_ngu": "ngoốp",
+        "note": "Cụm /ŋw-/ + /o/ + /-p/ không có vần chuẩn Quốc ngữ (Quốc ngữ chỉ có 'ngóp' /ŋɔp/); cần đọc tròn môi khép /o/ sau /ŋw/."
+      },
+      {
+        "native": "nde¹",
+        "quoc_ngu": "n-đê",
+        "note": "Phụ âm tiền mũi hóa [nd] không có trong tiếng Việt chuẩn; lướt mũi 'n' cực ngắn vào 'đê'."
+      },
+      {
+        "native": "-l / -r (âm cuối)",
+        "quoc_ngu": "-n / -ơ",
+        "note": "Âm cuối /-l/ và /-r/ không thể ghi bằng chữ Quốc ngữ chuẩn; người bản xứ trẻ tuổi đôi khi cũng chuyển /-l/ thành /-n/, nhưng /-r/ bị mất hoàn toàn nếu thay bằng Quốc ngữ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "Maleng",
+        "ipa": "malɛ̤ŋ²",
+        "meaning_vi": "người Mã Liềng",
+        "quoc_ngu_approx": "mờ-lèng"
+      },
+      {
+        "native": "dak",
+        "ipa": "ɗak˧˦",
+        "meaning_vi": "nước",
+        "quoc_ngu_approx": "đắc"
+      },
+      {
+        "native": "ətak",
+        "ipa": "ətak",
+        "meaning_vi": "đất",
+        "quoc_ngu_approx": "ơ-tắc"
+      },
+      {
+        "native": "mat",
+        "ipa": "mat",
+        "meaning_vi": "mắt",
+        "quoc_ngu_approx": "mắt"
+      },
+      {
+        "native": "muh",
+        "ipa": "muh",
+        "meaning_vi": "mũi",
+        "quoc_ngu_approx": "mu (thở -h cuối)"
+      },
+      {
+        "native": "kumen",
+        "ipa": "kumɛɲ",
+        "meaning_vi": "ngôi sao",
+        "quoc_ngu_approx": "cu-mênh"
+      },
+      {
+        "native": "pənú",
+        "ipa": "pənu³",
+        "meaning_vi": "vú / ngực",
+        "quoc_ngu_approx": "pơ-nú"
+      },
+      {
+        "native": "maːɲ³",
+        "ipa": "maːɲ³",
+        "meaning_vi": "mượn",
+        "quoc_ngu_approx": "manh (kéo dài a, thanh sắc)"
+      },
+      {
+        "native": "kwo¹",
+        "ipa": "kwo¹",
+        "meaning_vi": "ngày",
+        "quoc_ngu_approx": "quô"
+      },
+      {
+        "native": "ɣɤk⁷",
+        "ipa": "ɣɤk⁷",
+        "meaning_vi": "ngày mai",
+        "quoc_ngu_approx": "gấc"
+      },
+      {
+        "native": "nde¹",
+        "ipa": "nde¹",
+        "meaning_vi": "hôm qua / trước",
+        "quoc_ngu_approx": "n-đê"
+      },
+      {
+        "native": "pəkiëŋ²",
+        "ipa": "pəkiəŋ²",
+        "meaning_vi": "buổi chiều tối",
+        "quoc_ngu_approx": "pơ-kiềng"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Badosa i Roldós, Albert (2023). Documentation of the Malieng language, a Vietic language spoken in the Quảng Bình and Hà Tĩnh provinces of Vietnam. Endangered Languages Archive (ELAR).",
+      "url": "http://hdl.handle.net/2196/c2e75c21-4831-4b84-9322-a6892ddffc3e",
+      "url_check": "error_URLError",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Badosa Roldós, Albert (2025). Documentation and description of Malieng, a Vietic language of Vietnam, with focus on phonology. Luận án Tiến sĩ, Université Sorbonne Nouvelle – Paris 3 (HAL Id: tel-05633302).",
+      "url": "https://theses.hal.science/tel-05633302",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Badosa Roldós, Albert (2025). Avaluació de la vitalitat de la llengua malieng, llengua indígena del Vietnam. Llengua, societat i comunicació, 23, 43–51.",
+      "url": "https://doi.org/10.1344/lsc-2025.23.5",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Badosa Roldós, Albert (2023). Progressive lenition of Malieng presyllabic material. Trong M. J. Alves et al. (chủ biên), Researching and Applying Linguistics and Vietnamese Language Studies (tr. 23–38). Geolinguistic Society of Japan.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ferlus, Michel (1996). Langues et peuples viet-muong. Mon-Khmer Studies, 26, 7–28.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Ferlus, Michel (1997). Le maleng brô et le vietnamien. Mon-Khmer Studies, 27, 55–66.",
+      "url": "https://hal.science/halshs-01133665",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (1998). Les systèmes de tons dans les langues viet-muong. Diachronica, 15(1), 1–27.",
+      "url": "https://halshs.archives-ouvertes.fr/halshs-00922841",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sidwell, Paul & Alves, Mark (2021). The Vietic languages: a phylogenetic analysis. Journal of Language Relationship, 19(3), 166–194.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạ Thành Tấn (2023). Register and tone developments in Vietic languages. Doctoral dissertation, University of Ottawa.",
+      "url": "https://ruor.uottawa.ca/handle/10393/44893",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tạ Quang Tùng (2025). Ngữ âm tiếng Kri Phoọng ở Việt Nam. Tạp chí Ngôn ngữ, Số 11 (2025), 46–56.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "SIL Global — ISO 639-3: pkt (Maleng) & Ethnologue: Maleng.",
+      "url": "https://iso639-3.sil.org/code/pkt",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Maleng language & Vietic languages.",
+      "url": "https://en.wikipedia.org/wiki/Maleng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.codas[4]",
+          "severity": "medium",
+          "problem": "Âm tắc thanh hầu cuối âm tiết /-ʔ/ trong các ngôn ngữ Vietic thuộc hệ thống chuyển tiếp thanh tính (tonation) như Mã Liềng và Kri Phoọng thường được xử lý là đặc trưng thanh tính (glottalization/creakiness) gắn với thanh-vực (như T3_B từ *-ʔ lịch sử hoặc [25ʔ], [52ʔ] ở Kri Phoọng) hơn là một âm vị phụ âm cuối (segmental coda) độc lập đối lập trực tiếp với /-p, -t, -c, -k/. Danh sách âm cuối của Tạ Quang Tùng (2025) cho Kri Phoọng chỉ gồm /p, t, c, k, m, n, ɲ, ŋ, w, l, j, h, r/ và tổ hợp /jh/.",
+          "fix": "Hạ confidence của mục coda '-q / -'' (ipa: 'ʔ') từ 'medium' xuống 'low' và làm rõ trong note rằng đây thường là thành tố siêu đoạn tính của thanh-vực hơn là phụ âm cuối độc lập."
+        },
+        {
+          "path": "lexicon",
+          "severity": "medium",
+          "problem": "Một số mục từ vựng cụ thể kèm ký hiệu số thanh điệu (như 'kwo¹', 'two¹', 'ɣɤk⁷', 'nde¹', 'ŋwop⁷', 'pəkiëŋ²', 'nɤj³', 'ɔk', 'kɛ') được trích dẫn từ các nghiên cứu chuyên sâu về Mã Liềng nhưng chưa thể đối chiếu trực tiếp từng ký tự thanh điệu trên bản văn mở; ngoài ra ký hiệu thanh điệu trong lexicon chưa đồng nhất (vừa dùng số mũ ¹ ² ³ ⁷ vừa dùng thanh chữ Chao ˧˦ ở 'ɗak˧˦' hoặc không ghi thanh ở 'ətak', 'mat', 'muh').",
+          "fix": "Hạ confidence của các từ vựng chưa kiểm chứng trực tiếp được mặt chữ/thanh điệu từ 'high' xuống 'medium', đồng thời bổ sung ghi chú vào validation.open_issues về việc chuẩn hóa hệ thống ký hiệu thanh-vực trong lexicon."
+        },
+        {
+          "path": "sources[1].url",
+          "severity": "low",
+          "problem": "Luận án tiến sĩ của Albert Badosa Roldós (2025) đã có định danh lưu trữ chính thức trên HAL Thèses (tel-05633302) nhưng trường url đang để null.",
+          "fix": "Cập nhật URL 'https://theses.hal.science/tel-05633302' cho nguồn Badosa Roldós (2025)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu số đo âm học cụ thể (Chao contour chuẩn hóa cho từng thanh-vực) từ toàn văn luận án của Badosa Roldós (2025) cho điểm điền dã Lâm Hóa (Quảng Bình) và Hương Liên (Hà Tĩnh), tách biệt với số liệu Kri Phoọng.",
+      "Cần chuẩn hóa ký hiệu thanh-vực trong bảng từ vựng (lexicon) để đồng nhất giữa hệ thống đánh số mũ (¹, ², ³, ⁷, ⁸) và ký hiệu thanh điệu IPA.",
+      "Cần khảo sát thêm thổ ngữ bản Lòm (Minh Hóa, Quảng Bình) vốn giữ nhiều yếu tố tiền âm tiết và âm cuối /-l, -r/ bảo lưu hơn các bản ven sông Gianh.",
+      "Cần nhà âm nhạc học dân tộc ký âm thang âm và luyến láy của lối hát bên đàn ống (đờn ón nê té) của nghệ nhân nữ người Mã Liềng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

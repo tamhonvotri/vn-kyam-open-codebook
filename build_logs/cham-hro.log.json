@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "cham-hro",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Haroi (Chăm H'roi)",
+    "ethnic_group_vi": "Chăm",
+    "iso639_3_expected": "hro",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chăm tại Việt Nam (mã ISO dự kiến: hro; bảng mã dân tộc gốc: cham). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"cham\"."
+  },
+  "started": "2026-11-13T23:14:58.400977",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9444,
+      "candidatesTokenCount": 10575,
+      "totalTokenCount": 20019,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9444
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10575
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12620,
+      "candidatesTokenCount": 11416,
+      "totalTokenCount": 24771,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12620
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11416
+        }
+      ],
+      "thoughtsTokenCount": 735,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9.5,
+    "issues": [
+      {
+        "path": "phonology.onsets",
+        "severity": "low",
+        "problem": "Một số mục phụ âm đầu gộp nhiều tổ hợp cách nhau bằng dấu phẩy trong cùng một trường `grapheme` (ví dụ: `hm, hn, hnh, hng` và `pl, pr, tl, tr, kl, kr...`), có thể gây khó khăn cho bộ phân tích G2P tự động nếu không tách chuỗi theo dấu phẩy.",
+        "fix": "Giữ nguyên cấu trúc nhưng lưu ý trong `validation.open_issues` để công cụ đọc bảng mã tách các tổ hợp cách nhau bằng dấu phẩy khi biên dịch sang quy tắc G2P."
+      },
+      {
+        "path": "music.instruments",
+        "severity": "low",
+        "problem": "Chưa ghi kèm tên gọi bản địa của bộ nhạc cụ theo tư liệu điền dã Phú Yên (Trống đôi: Chi gưl; Cồng ba: Chêêng; Chiêng năm: Chênh / Chinh).",
+        "fix": "Bổ sung tên gọi bản địa đã kiểm chứng từ tư liệu của Viện Âm nhạc và Cục Du lịch Quốc gia Việt Nam vào mô tả nhạc cụ."
+      },
+      {
+        "path": "sources[0].title",
+        "severity": "low",
+        "problem": "Số trang bài báo 'Haroi Phonemes' của Mundhenk & Goschnick (1977) trong ấn bản Pacific Linguistics A-48 thực tế có nội dung từ trang 1 đến 15 (trang 16 trống, Glottolog và Wikipedia ghi pp. 1–15).",
+        "fix": "Chuẩn hóa thành `pp. 1–15 (1–16)` để khớp chính xác với cả hai cách trích dẫn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

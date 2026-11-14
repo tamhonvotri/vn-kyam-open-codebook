@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "la-hu-lhi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Hủ Sư (La Hủ Vàng)",
+    "ethnic_group_vi": "La Hủ",
+    "iso639_3_expected": "lhi",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc La Hủ tại Việt Nam (mã ISO dự kiến: lhi; bảng mã dân tộc gốc: la-hu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"la-hu\"."
+  },
+  "started": "2026-11-13T23:34:25.338219",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9457,
+      "candidatesTokenCount": 9389,
+      "totalTokenCount": 23528,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9457
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9389
+        }
+      ],
+      "thoughtsTokenCount": 4682,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11663,
+      "candidatesTokenCount": 11749,
+      "totalTokenCount": 24904,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11663
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11749
+        }
+      ],
+      "thoughtsTokenCount": 1492,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "regions",
+        "severity": "medium",
+        "problem": "Theo đúng nguồn điền dã của Phan Hoàng Anh & Phạm Thị Thảo (2024, tr. 36), người La Hủ Sủ (La Hủ Vàng) cư trú tại tất cả các bản thuộc các xã Pa Vệ Sử, Pa Ủ, Thu Lũm, xã Mường Tè và các bản Là Pé, Nhu Tè, Nhóm Bô (xã Ka Lăng). Bản nháp hiện gộp cả xã Bum Tở và Nậm Khao (vốn là địa bàn của nhóm La Hủ Na), bỏ sót xã Mường Tè và ghi nhầm bản 'Nhóm Bô' thành 'Hóm Bô'.",
+        "fix": "Sửa lại danh sách xã/bản trong regions khớp chính xác với tư liệu điền dã (thêm xã Mường Tè, sửa 'Hóm Bô' thành 'Nhóm Bô', ghi chú rõ xã Bum Nưa/Bum Tở/Nậm Khao theo phân bố từng nhóm)."
+      },
+      {
+        "path": "scripts[1]",
+        "severity": "medium",
+        "problem": "Nhầm lẫn giữa ký hiệu thanh điệu của chữ La Hủ Đen truyền thống (Baptist/Tin Lành của Young/Poole dùng các dấu rời ˉ ˅ ˯ _ ˄ ˰) và bộ chữ Latinh Lahu Shi (dùng trong bản dịch 'Lad hur Si Liq Phu Awg Suhx', sử dụng các chữ cái phụ âm cuối âm tiết như -d, -r, -l, -q, -g, -x để ghi thanh điệu).",
+        "fix": "Phân biệt rõ trong scripts[1].note và phonology.tones[].mark giữa hệ dấu rời (ˉ ˅ ˯ _ ˄ ˰) của chữ La Hủ Tin Lành truyền thống và hệ chữ cái ghi thanh (-d, -r, -q, -g, -x) của chữ Lahu Shi (Lad hur Si)."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Tư liệu tiếng La Hủ tại Việt Nam của Phan Hoàng Anh & Phạm Thị Thảo (2024) có ghi nhận rõ cặp âm xát quặt lưỡi vô thanh /ʂ/ và hữu thanh /ʐ/ (ví dụ: ʂa³²³ 'thịt', ʂɛ³³ 'số 3', ʐa³¹ ɲi³³ 'hôm nay'), nhưng bảng onsets hiện tại chưa liệt kê hoặc mới chỉ gộp vào hàng mặt lưỡi / đầu lưỡi.",
+        "fix": "Bổ sung /ʂ/ và /ʐ/ vào phonology.onsets và bổ sung các từ vựng thực chứng ('thịt', 'trâu', 'ngựa đực') từ bài báo năm 2024 vào lexicon."
+      },
+      {
+        "path": "ml_hints.sub_varieties[1].glottocode",
+        "severity": "low",
+        "problem": "Glottolog có mã phương ngữ riêng cho Lahu Phung là 'lahu1254' (trực thuộc ngôn ngữ Lahu 'lahu1253'), nhưng trường glottocode đang để chung là 'lahu1253'.",
+        "fix": "Cập nhật glottocode của La Hủ Phung thành 'lahu1254' (kèm ghi chú thuộc ngôn ngữ mẹ lahu1253)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

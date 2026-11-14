@@ -1,0 +1,723 @@
+{
+  "id": "xo-dang-tdr",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tơ Đra",
+  "name_en": "Todrah language",
+  "autonym": "Tơ Đrá / Tơdrah (phương ngữ: Didrá / Didrah, Mơdra / Modra, Kơdra, Pơdrá)",
+  "ethnic_group_vi": "Xơ Đăng",
+  "language": {
+    "iso639_3": "tdr",
+    "glottocode": "todr1244",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric, Sedang–Todrah)"
+  },
+  "regions": [
+    "Tỉnh Kon Tum (các huyện Kon Rẫy, Kon Plông, Đăk Hà, Đắk Glei và vùng phụ cận đông bắc TP. Kon Tum, từ Kon Hring đến Kon Braih)"
+  ],
+  "speakers_estimate": "Khoảng 6.000 người nói (ước tính năm 2007 theo Ethnologue; dân số nhóm địa phương Tơ Đrá / Sơ Drá tại Kon Tum khoảng 17.400 người)",
+  "scripts": [
+    {
+      "name": "Chữ Latinh nghiên cứu ngôn ngữ học (dựa trên quy ước Bahnar Bắc / Quốc ngữ của SIL)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Chưa có bộ chữ phổ thông do Nhà nước ban hành riêng cho tiếng Tơ Đra và chưa được dạy chính thức trong trường học. Tư liệu ngữ học (Gregerson & Smith 1973) dùng hệ ghi âm Latinh kiểu Bahnar Bắc: dùng dấu trăng (ă, ĕ, ĭ, ŏ, ŭ) ghi nguyên âm ngắn, dấu sắc (V́) ghi thanh hầu hóa/cót két (laryngealized), dấu huyền (V̀) ghi giọng thở/nhiều hơi (breathy), và chữ 'q' ghi âm tắc thanh hầu [ʔ]."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ khảo cứu kinh điển của Gregerson & Smith (1973) về hệ thống âm vực tiếng Tơ Đra (hai phương ngữ Didra và Modra), kết hợp thông tin phân loại từ Glottolog, Ethnologue và tư liệu dân tộc học Việt Nam. Chưa qua thẩm định của người bản ngữ Tơ Đra và chuyên gia ngôn ngữ học Môn-Khmer.",
+  "phonology": {
+    "syllable_structure": "(C_p(ə))C_1(C_2)V(C_f) — cấu trúc âm tiết rưỡi (sesquisyllabic) điển hình của nhóm Bahnar Bắc: tiền âm tiết nhẹ không trọng âm (phương ngữ Didra giữ phụ âm đầu hữu thanh ở tiền âm tiết giống tiếng Ba Na/Rơ Ngao; Modra giản lược hơn giống tiếng Xơ Đăng) theo sau bởi âm tiết chính mang trọng âm.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "âm tắc hai môi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "âm tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "âm tắc mặt lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "âm tắc gốc lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / -",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu đầu âm tiết hoặc tiền thanh hầu hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "âm tắc hai môi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "âm tắc đầu lưỡi bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "âm tắc gốc lưỡi bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ᵐb",
+        "note": "âm tắc hữu thanh, đôi khi tiền mũi hóa nhẹ như tiếng Xơ Đăng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d ~ ⁿd",
+        "note": "âm tắc đầu lưỡi hữu thanh (không phải [z]/[j] như Quốc ngữ), đôi khi tiền mũi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ ~ ᶮɟ",
+        "note": "âm tắc mặt lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ ~ ᵑɡ",
+        "note": "âm tắc gốc lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qb, qd",
+        "ipa": "ʔb, ʔd",
+        "note": "âm tắc tiền thanh hầu hóa / đóng thanh hầu (như ɓ, ɗ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m, n, nh, ng",
+        "ipa": "m, n, ɲ, ŋ",
+        "note": "nhóm phụ âm mũi (trong tư liệu 1973, nh đầu âm tiết ở Modra ít gặp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qm, qn, ql...",
+        "ipa": "ʔm, ʔn, ʔl",
+        "note": "tổ hợp phụ âm mũi/lỏng tiền thanh hầu hóa (ví dụ: qlù)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm, hn, hr, hl, hw",
+        "ipa": "m̥, n̥, r̥, l̥, ʍ",
+        "note": "phụ âm vang vô thanh / tiền bật hơi (ghi nhận rõ ở phương ngữ Didra)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "âm xát vô thanh, có mặt ở cả hai phương ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ts",
+        "ipa": "ts",
+        "note": "âm tắc-xát vô thanh, đặc trưng của phương ngữ Modra (Didra chỉ có s)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "âm xát thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "âm rung đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "âm bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w, v, y",
+        "ipa": "w, v ~ ʋ, j",
+        "note": "bán nguyên âm và âm xát môi-răng hữu thanh (y chủ yếu ghi nhận ở đầu âm tiết trong phương ngữ Didra; v xuất hiện trong các từ như vì)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "pl, bl, kl, pr, br, dr, kr, mr...",
+        "ipa": "pl, bl, kl, pr, br, dr, kr, mr",
+        "note": "tổ hợp phụ âm đầu với âm lỏng -l-, -r- phổ biến của nhánh Bahnar Bắc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw, pw, dw",
+        "ipa": "kʷ, pʷ, dʷ",
+        "note": "phụ âm đầu môi hóa (Didra có kw; Modra có pw, dw...)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / ĭ",
+        "ipa": "iː / i",
+        "note": "nguyên âm trước cao dài và ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "nguyên âm trước hơi cao (cao hơn e)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e / ĕ",
+        "ipa": "ɛː / ɛ",
+        "note": "nguyên âm trước trung-thấp dài và ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː ~ əː",
+        "note": "nguyên âm giữa cao/trung (xuất hiện hạn chế tùy âm vực)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː ~ ɤː",
+        "note": "nguyên âm giữa trung; ở tiền âm tiết đọc lướt ngắn [ə]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / ă",
+        "ipa": "aː / a",
+        "note": "nguyên âm thấp dài và ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / ŭ",
+        "ipa": "uː / u",
+        "note": "nguyên âm sau cao dài và ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ô̆",
+        "ipa": "oː / o",
+        "note": "nguyên âm sau hơi cao (cao hơn o) dài và ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ŏ",
+        "ipa": "ɔː / ɔ",
+        "note": "nguyên âm sau trung-thấp dài và ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia, ie, ua, uô, ea, oa",
+        "ipa": "iə, iɛ, uə, uo, ɛa, ɔa",
+        "note": "nguyên âm đôi / nguyên âm trượt (phương ngữ Didra thường trượt hóa các nguyên âm dài gốc Bahnar Bắc)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "V́ (ví dụ: á, é, ó)",
+        "ipa": "V̰",
+        "note": "nguyên âm thanh hầu hóa / giọng cót két (laryngealized/creaky), bắt nguồn từ sự rụng *-h hoặc biến đổi âm cuối ở âm vực căng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "V̀ (ví dụ: à, ì, ò, ồ, ù)",
+        "ipa": "V̤",
+        "note": "nguyên âm giọng thở / nhiều hơi (breathy), thuộc âm vực chùng (lax register)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p, t, k",
+        "ipa": "p̚, t̚, k̚",
+        "note": "âm tắc vô thanh không bật hơi cuối âm tiết (không có âm cuối -ch trong tư liệu ghi nhận)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "âm tắc thanh hầu cuối âm tiết (phương ngữ Modra làm rụng *-ʔ gốc ở nhiều vị trí, trong khi Didra bảo lưu hoặc đổi *-p/*-t/*-k âm vực căng thành -q)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m, n, ng",
+        "ipa": "m ~ ᵇm, n ~ ᵈn, ŋ ~ ᵍŋ",
+        "note": "âm mũi cuối âm tiết; thường có biến thể tiền tắc hóa (prestopped nasals như -bm, -dn, -gng, ví dụ: tigng, pơdabm) giống tiếng Giẻ và Hà Lăng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "âm mũi mặt lưỡi cuối âm tiết, chỉ bảo lưu ở phương ngữ Didra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "âm rung cuối âm tiết, chỉ bảo lưu ở phương ngữ Modra (cả hai phương ngữ đều đã mất âm cuối *-l gốc Bahnar Bắc)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "âm xát thanh hầu cuối âm tiết (bảo lưu ở âm vực chùng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w, y",
+        "ipa": "w, j",
+        "note": "bán nguyên âm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yh, yq",
+        "ipa": "jh, jʔ",
+        "note": "tổ hợp bán nguyên âm + thanh hầu cuối âm tiết (ví dụ: nồyh, nuâyh, mùeyq)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu mà có hệ thống âm vực (register/phonation) đối lập 3 chất giọng nguyên âm độc đáo trong nhóm ngôn ngữ có âm vực ở Việt Nam (Gregerson & Smith 1973): (1) nguyên âm trong/thường (clear/modal, V), (2) nguyên âm nhiều hơi/giọng thở (breathy, V̀ [V̤]), và (3) nguyên âm thanh hầu hóa/cót két (laryngealized/creaky, V́ [V̰]). Hệ thống 3 đối lập bề mặt này phát sinh lịch sử từ hệ 2 âm vực (căng/tense và chùng/lax) của tiếng Bahnar Bắc nguyên thủy thông qua sự rụng hoặc biến đổi phụ âm cuối (*-h ở âm vực căng rụng đi để lại nguyên âm thanh hầu hóa V́ ở âm tiết mở; *-p, *-t, *-k âm vực căng biến thành -q ở Didra)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "một",
+      "form": "mùeyq",
+      "ipa": "mṳɛjʔ",
+      "gloss_en": "one (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "bia",
+      "ipa": "biə",
+      "gloss_en": "two (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pi",
+      "ipa": "piː",
+      "gloss_en": "three",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ / cọp",
+      "form": "kla",
+      "ipa": "klaː",
+      "gloss_en": "tiger (Didra; Modra: bòq kla)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "chô",
+      "ipa": "coː",
+      "gloss_en": "dog (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lợn / heo",
+      "form": "chù",
+      "ipa": "cṳː",
+      "gloss_en": "pig (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chuột",
+      "form": "koni",
+      "ipa": "kɔniː",
+      "gloss_en": "rat / mouse (Didra)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cây / gỗ",
+      "form": "luông",
+      "ipa": "luoŋ",
+      "gloss_en": "tree / wood (Didra; Modra: long)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hoa / bông",
+      "form": "rang",
+      "ipa": "raːŋ",
+      "gloss_en": "flower (Modra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây mây",
+      "form": "ri",
+      "ipa": "riː",
+      "gloss_en": "rattan (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "gò",
+      "ipa": "ɡɔ̤ː",
+      "gloss_en": "head (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đuôi",
+      "form": "tigng",
+      "ipa": "tiːᵍŋ",
+      "gloss_en": "tail (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bụi",
+      "form": "gơdăk",
+      "ipa": "ɡədak̚",
+      "gloss_en": "dust (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "em",
+      "form": "ó",
+      "ipa": "ɔ̰ː",
+      "gloss_en": "younger sibling",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "họ / chúng",
+      "form": "vì",
+      "ipa": "vi̤ː",
+      "gloss_en": "they",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đó (xa)",
+      "form": "mé",
+      "ipa": "mɛ̰ː",
+      "gloss_en": "that (distal demonstrative)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "lăm",
+      "ipa": "lam",
+      "gloss_en": "to go (Didra)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bay",
+      "form": "pa",
+      "ipa": "paː",
+      "gloss_en": "to fly (Didra; Modra: par)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "buộc / thắt",
+      "form": "kăt",
+      "ipa": "kat̚",
+      "gloss_en": "to tie",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Acheo (hát giao duyên / đối đáp)",
+        "note": "Lối hát ứng tác, giãi bày tâm sự phổ biến của người Xơ Đăng nhóm Tơ Đrá trên nền chiêng guông trong các lễ hội như Đing ca mo (lễ ăn lúa mới)."
+      },
+      {
+        "name": "Hát dân ca Xơ Đăng (hát ru, hát ting ting, hát kể chuyện)",
+        "note": "Sinh hoạt ca hát truyền thống gắn với nhà rông, lao động nương rẫy và lễ hội mùa vụ."
+      },
+      {
+        "name": "Hòa tấu cồng chiêng và múa xoang",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO công nhận năm 2005/2008), trình diễn trong lễ mừng lúa mới (Đing ca mo), lễ mừng nhà rông mới, lễ bắc máng nước."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Chiêng Guông, Goong và Bùar",
+        "note": "Ba loại cồng chiêng đặc trưng của nhóm Tơ Đrá: guông là bộ 4 chiêng bằng (không núm) truyền thống đi kèm trống nhỏ; bùar là chiêng thiêng dùng trong đại lễ."
+      },
+      {
+        "name": "Trống Sơ Grâr / Toa sgơr",
+        "note": "Bộ trống thiêng gồm 6–12 chiếc bịt da trâu/bò tại nhà rông làng Tơ Đrá, đánh trong các nghi lễ trọng đại của cộng đồng."
+      },
+      {
+        "name": "Đàn T'rưng và Khing khung (đàn nước)",
+        "note": "Nhạc cụ gõ bằng ống tre nứa phổ biến của các nhóm Xơ Đăng."
+      },
+      {
+        "name": "Đàn Klông pút",
+        "note": "Nhạc cụ hơi vỗ tay vào miệng ống nứa, thường do phụ nữ diễn tấu trong mùa thu hoạch và lễ mừng lúa mới."
+      },
+      {
+        "name": "Đàn Ting ning",
+        "note": "Nhạc cụ dây gảy truyền thống bằng ống tre và bầu cộng hưởng."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "xo-dang",
+    "sub_varieties": [
+      {
+        "name": "Didra (Didrah / Didrá / Sơ Drá)",
+        "iso639_3": "tdr",
+        "note": "Phương ngữ phía đông (vùng Kon Braih / Kon Rẫy – Kon Plông); bảo lưu nhiều phụ âm tiền âm tiết hữu thanh, có phụ âm cuối -nh, biến *-p/*-t/*-k âm vực căng thành -q [ʔ]."
+      },
+      {
+        "name": "Modra (Modrah / Mơdra)",
+        "iso639_3": "tdr",
+        "note": "Phương ngữ phía tây (vùng Kon Hring / quốc lộ 14 phía bắc TP. Kon Tum – Đăk Hà); có âm đầu ts-, bảo lưu âm cuối -r, làm rụng nhiều âm cuối *-q."
+      }
+    ],
+    "related_xo_dang_ethnic_languages": [
+      {
+        "name": "Tiếng Xơ Đăng (Sedang / Xơ Teng)",
+        "iso639_3": "sed",
+        "note": "Ngôn ngữ chính của dân tộc Xơ Đăng (bảng mã gốc: xo-dang)"
+      },
+      {
+        "name": "Tiếng Hà Lăng (Halang)",
+        "iso639_3": "hal",
+        "note": "Nhóm địa phương Hà Lăng thuộc dân tộc Xơ Đăng"
+      },
+      {
+        "name": "Tiếng Mơ Nâm (Monom)",
+        "iso639_3": "ymo",
+        "note": "Nhóm địa phương Mơ Nâm thuộc dân tộc Xơ Đăng"
+      },
+      {
+        "name": "Tiếng Ca Dong (Kayong)",
+        "iso639_3": "kxy",
+        "note": "Nhóm địa phương Ca Dong thuộc dân tộc Xơ Đăng"
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "d (ví dụ: di măng)",
+        "quoc_ngu": "đ",
+        "note": "Chữ 'd' trong hệ phiên âm Môn-Khmer là âm tắc đầu lưỡi [d], phải thay bằng 'đ' trong Quốc ngữ để TTS tiếng Việt không đọc thành [z] hoặc [j]."
+      },
+      {
+        "native": "kla, plì, bl...",
+        "quoc_ngu": "cờ-la, pờ-lì, bờ-l...",
+        "note": "Tiếng Việt hiện đại không có tổ hợp phụ âm đầu kl-, pl-, bl-, pr-, br-; cần tách bằng âm tiết đệm cực ngắn (cờ-la) và rút ngắn thời lượng tiền âm tiết khi tổng hợp."
+      },
+      {
+        "native": "V́ (nguyên âm thanh hầu hóa, ví dụ: ó, mé)",
+        "quoc_ngu": "o / ọ, me / mẹ",
+        "note": "Dấu sắc trong tài liệu Tơ Đra ký hiệu chất giọng thanh hầu hóa/cót két [V̰], KHÔNG phải thanh sắc đi lên [35] của tiếng Việt. Với TTS tiếng Việt chuẩn Bắc Bộ, thanh nặng hoặc thanh ngã tạo hiệu ứng thanh hầu hóa gần hơn thanh sắc, nhưng cao độ sẽ bị lệch."
+      },
+      {
+        "native": "V̀ (nguyên âm giọng thở, ví dụ: gò, vì)",
+        "quoc_ngu": "gò, vì",
+        "note": "Dấu huyền trong Tơ Đra ký hiệu giọng thở/nhiều hơi [V̤] (âm vực chùng); thanh huyền tiếng Việt [21] có độ hạ thấp và hơi thở nhẹ nên có thể dùng xấp xỉ tương đối tự nhiên."
+      },
+      {
+        "native": "-q (âm tắc thanh hầu cuối, ví dụ: bòq, mùeyq)",
+        "quoc_ngu": "bọ, muồi / muội",
+        "note": "Tiếng Việt không ghi riêng âm cuối [-ʔ] bằng chữ cái; thanh nặng giọng Bắc có kết thúc tắc thanh hầu [-ʔ] nên có thể mượn để xấp xỉ âm đóng thanh hầu cuối từ."
+      },
+      {
+        "native": "-gng / -bm / -dn (âm mũi tiền tắc hóa, ví dụ: tigng, pơdabm)",
+        "quoc_ngu": "tinh / tic-ng, pơ-đăm",
+        "note": "Âm mũi tiền tắc hóa [ᵍŋ, ᵇm, ᵈn] hoàn toàn không có trong tiếng Việt; xấp xỉ gần nhất bằng âm mũi cuối tương ứng (-ng, -m, -n)."
+      },
+      {
+        "native": "-r, -h, -yh (ví dụ: par, nồyh)",
+        "quoc_ngu": "pa-(r), nôi-(h)",
+        "note": "Tiếng Việt không có âm cuối [-r], [-h], [-jh]; mô hình chỉ biết tiếng Việt sẽ làm mất hoàn toàn các âm cuối này nếu không can thiệp ở mức phoneme/IPA."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "mùeyq",
+        "ipa": "mṳɛjʔ",
+        "meaning_vi": "một (Didra)"
+      },
+      {
+        "native": "bia",
+        "ipa": "biə",
+        "meaning_vi": "hai (Didra)"
+      },
+      {
+        "native": "pi",
+        "ipa": "piː",
+        "meaning_vi": "ba"
+      },
+      {
+        "native": "kla",
+        "ipa": "klaː",
+        "meaning_vi": "con hổ (Didra)"
+      },
+      {
+        "native": "bòq kla",
+        "ipa": "bɔ̤ʔ klaː",
+        "meaning_vi": "con hổ (Modra)"
+      },
+      {
+        "native": "chô",
+        "ipa": "coː",
+        "meaning_vi": "con chó (Didra)"
+      },
+      {
+        "native": "chù",
+        "ipa": "cṳː",
+        "meaning_vi": "con lợn (Didra)"
+      },
+      {
+        "native": "koni",
+        "ipa": "kɔniː",
+        "meaning_vi": "con chuột (Didra)"
+      },
+      {
+        "native": "luông",
+        "ipa": "luoŋ",
+        "meaning_vi": "cây, gỗ (Didra)"
+      },
+      {
+        "native": "rang",
+        "ipa": "raːŋ",
+        "meaning_vi": "hoa, bông (Modra)"
+      },
+      {
+        "native": "gò",
+        "ipa": "ɡɔ̤ː",
+        "meaning_vi": "cái đầu (Didra)"
+      },
+      {
+        "native": "tigng",
+        "ipa": "tiːᵍŋ",
+        "meaning_vi": "cái đuôi (Didra)"
+      },
+      {
+        "native": "ó",
+        "ipa": "ɔ̰ː",
+        "meaning_vi": "em"
+      },
+      {
+        "native": "lăm",
+        "ipa": "lam",
+        "meaning_vi": "đi (Didra)"
+      },
+      {
+        "native": "kăt",
+        "ipa": "kat̚",
+        "meaning_vi": "buộc, thắt"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Gregerson, Kenneth J. & Kenneth D. Smith (1973). The development of Todrah register. Mon-Khmer Studies Journal, 4: 143–184.",
+      "url": "http://sealang.net/sala/archives/pdf8/gregerson1973development.pdf",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Todrah (todr1244)",
+      "url": "https://glottolog.org/resource/languoid/id/todr1244",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Todrah (tdr)",
+      "url": "https://www.ethnologue.com/language/tdr/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL Global — ISO 639-3 Registration Authority: Todrah [tdr]",
+      "url": "https://iso639-3.sil.org/code/tdr",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Todrah language",
+      "url": "https://en.wikipedia.org/wiki/Todrah_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Sơ Drá",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_S%C6%A1_Dr%C3%A1",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Lê Bá Thảo, Hoàng Ma và cộng sự; Viện Dân tộc học (2014). Các dân tộc ít người ở Việt Nam: các tỉnh phía Nam. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UNESCO — Space of gong culture (Intangible Cultural Heritage of Humanity)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets",
+          "severity": "medium",
+          "problem": "Mục từ 'vì' [vi̤ː] ('họ, chúng') xuất hiện trong lexicon và ml_hints, nhưng âm đầu 'v' chưa được liệt kê trong phonology.onsets (chỉ mới liệt kê 'w, y').",
+          "fix": "Bổ sung 'v' vào mục bán nguyên âm / âm xát môi-răng hữu thanh cùng với 'w, y' trong phonology.onsets."
+        },
+        {
+          "path": "ml_hints.quoc_ngu_approximation[5].native",
+          "severity": "low",
+          "problem": "Lỗi đánh máy '-gn' thay vì '-gng' khi ghi âm mũi gốc lưỡi tiền tắc hóa (trong khi ví dụ đi kèm là 'tigng' và phần phonology.codas ghi đúng là '-gng').",
+          "fix": "Sửa thành '-gng / -bm / -dn (âm mũi tiền tắc hóa, ví dụ: tigng, pơdabm)'."
+        },
+        {
+          "path": "lexicon[5].confidence",
+          "severity": "low",
+          "problem": "Từ 'koni' (chuột) và 'pa' (bay - thông thường trong Bahnar Bắc là 'par' ở Modra / 'pa' ở Didra) chưa ghi rõ biến thể giữa hai phương ngữ hoặc độ chắc chắn của nguyên âm tiền âm tiết.",
+          "fix": "Giữ confidence ở mức 'medium' cho 'pa' và 'koni', đồng thời bổ sung từ 'chù' (lợn - Didra) đã kiểm chứng trực tiếp từ Gregerson & Smith (1973)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tài liệu ngữ âm học chính yếu hiện có (Gregerson & Smith 1973) được thu thập từ trước năm 1973 trên bảng từ ngắn; cần điền dã cập nhật hệ thống nguyên âm/phụ âm và từ vựng đương đại tại các làng Tơ Đra ở Kon Rẫy, Đăk Hà, Kon Plông.",
+      "Hai phương ngữ Didra và Modra khác biệt đáng kể về sự bảo lưu phụ âm cuối (-nh ở Didra, -r ở Modra, -q) và quy tắc biến đổi âm vực; cần xác định phương ngữ nào đang chiếm ưu thế giao tiếp hiện nay.",
+      "Chưa có bảng chữ viết phổ thông chuẩn hóa riêng cho tiếng Tơ Đra tại địa phương; cần đối chiếu cách ghi lời bài hát dân ca Acheo của các nghệ nhân hiện nay.",
+      "Cần bổ sung ký âm nhạc học (thang âm của bộ chiêng guông 4 chiếc và lối luyến láy trong hát Acheo) qua thẩm định của nhà dân tộc nhạc học."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

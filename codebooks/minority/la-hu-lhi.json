@@ -1,0 +1,877 @@
+{
+  "id": "la-hu-lhi",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Hủ Sư (La Hủ Vàng)",
+  "name_en": "Lahu Shi (Yellow Lahu)",
+  "autonym": "La Hủ Sư / La Hủ Sủ (la⁵³ xu³¹ sɯ³³; Lad hur Si)",
+  "ethnic_group_vi": "La Hủ",
+  "language": {
+    "iso639_3": "lhi",
+    "glottocode": "lahu1252",
+    "family": "Sino-Tibetan",
+    "branch": "Tibeto-Burman, Lolo-Burmese, Loloish (Lahoid)"
+  },
+  "regions": [
+    "Tỉnh Lai Châu — huyện Mường Tè: tất cả các bản thuộc các xã Pa Vệ Sử (Pa Vệ Sủ), xã Pa Ủ, xã Thu Lũm, xã Mường Tè; xã Ka Lăng (các bản Là Pé, Nhu Tè, Nhóm Bô); ngoài ra có cộng đồng người La Hủ tại xã Bum Nưa và xã Tá Bạ"
+  ],
+  "speakers_estimate": "Chưa có thống kê tách riêng theo nhóm địa phương; toàn dân tộc La Hủ tại Việt Nam có 12.113 người (Tổng điều tra dân số 2019, riêng tỉnh Lai Châu chiếm hơn 99%), trong đó nhóm La Hủ Sư / La Hủ Sủ (La Hủ Vàng) là nhóm đông dân nhất.",
+  "scripts": [
+    {
+      "name": "Không có chữ viết truyền thống tại Việt Nam (ghi âm nghiên cứu bằng IPA / chữ Quốc ngữ)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Người La Hủ Sư tại Lai Châu xưa không có chữ viết riêng; Nhà nước Việt Nam chưa ban hành bộ chữ phổ thông riêng cho tiếng La Hủ. Trẻ em học tiếng Việt và chữ Quốc ngữ ở trường; các công trình điền dã của Viện Ngôn ngữ học ghi trực tiếp bằng ký hiệu IPA kèm chữ số thanh điệu."
+    },
+    {
+      "name": "Chữ Latinh Lahu Shi (Lad hur Si / cải biên từ chữ La Hủ Tin Lành)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Spacing Modifier Letters",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ Latinh dành riêng cho tiếng Lahu Shi (như trong bản dịch 'Lad hur Si Liq Phu Awg Suhx' 2015) dùng các chữ cái cuối âm tiết (-d, -r, -l, -q, -g, -x) để ghi thanh điệu; trong khi một số cộng đồng Lahu Shi tại Myanmar vẫn dùng bộ chữ La Hủ Tin Lành truyền thống với các dấu rời viết sau âm tiết (ˉ ˅ ˯ _ ˄ ˰). Cả hai hệ chữ này hầu như không phổ biến trong giáo dục chính quy tại Mường Tè, Lai Châu."
+    },
+    {
+      "name": "Chữ Latinh La Hủ Pinyin (Trung Quốc cải tiến 1957/1989)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ chính thức của dân tộc La Hủ tại Vân Nam (Trung Quốc), dùng các chữ cái cuối âm tiết (l, d, q, r, t, f) để ghi thanh điệu; có ảnh hưởng hạn chế qua giao lưu biên giới Kim Bình / Lục Xuân – Mường Tè nhưng không có địa vị chính thức tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học và dân tộc học công bố về tiếng La Hủ tại huyện Mường Tè, tỉnh Lai Châu (Phan Hoàng Anh & Phạm Thị Thảo 2024; Viện Âm nhạc 2026; Bảo tàng Dân tộc học Việt Nam) kết hợp với mô tả âm vị học tiếng Lahu Shi khu vực (Nishida 1969; Bradley 1979; Cooper & Cooper 1996). Lưu ý quan trọng: các bài báo tiếng Việt tại Việt Nam thường khảo sát chung 'tiếng La Hủ ở Mường Tè' (nơi nhóm La Hủ Sư / La Hủ Vàng chiếm đa số tại Pa Ủ, Pa Vệ Sử, Thu Lũm, Mường Tè) mà chưa tách biệt hệ thống âm vị chi tiết giữa ba nhóm La Hủ Sư, La Hủ Na (Kucong) và La Hủ Phung. Cần điền dã xác minh trực tiếp tại Pa Ủ và Pa Vệ Sử.",
+  "phonology": {
+    "syllable_structure": "(C)V+T (âm tiết mở là chủ đạo; tại Việt Nam xuất hiện thêm vần đôi CVV và một số âm cuối -t/-n/-ŋ trong từ vay mượn hoặc biến thể khu vực)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi (ví dụ mo³³ pa³²³ 'ngựa đực')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / hp",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi (ph trong Pinyin, hp trong chữ Lahu Shi); trước /u/ có thể tha hóa thành [pfʰɯ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Âm tắc hai môi hữu thanh (không tiền thanh hầu hóa như tiếng Việt [ɓ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Âm xát môi-răng vô thanh (ví dụ ɲu³³ fɯ³³ 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Âm xát môi-răng hữu thanh (ví dụ ve³³ 'kia')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mạc",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi-răng/lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th / ht / t'",
+        "ipa": "tʰ",
+        "note": "Âm tắc đầu lưỡi vô thanh bật hơi (ghi là t' trong tư liệu của Viện Ngôn ngữ học: mɔ³³ t'a³¹ 'trời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Âm tắc đầu lưỡi hữu thanh (không tiền thanh hầu hóa như tiếng Việt [ɗ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ts / z",
+        "ipa": "ts",
+        "note": "Âm tắc-xát đầu lưỡi vô thanh không bật hơi (ts trong chữ Lahu Shi, z trong Pinyin)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tsh / tc / zh",
+        "ipa": "tsʰ",
+        "note": "Âm tắc-xát đầu lưỡi vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "dz / tz",
+        "ipa": "dz",
+        "note": "Âm tắc-xát đầu lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Âm xát đầu lưỡi vô thanh (ví dụ sɛ³³ mi²¹ 'cát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "z",
+        "note": "Âm xát đầu lưỡi hữu thanh (ghi nhận trong tư liệu Việt Nam: ze²¹ 'nhà', za³¹ to³³ 'xấu hổ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sh / s'",
+        "ipa": "ʂ",
+        "note": "Âm xát quặt lưỡi vô thanh; ghi nhận rõ trong tư liệu điền dã Việt Nam (Phan Hoàng Anh & Phạm Thị Thảo 2024: ʂa³²³ 'thịt', ʂɛ³³ 'số 3')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ʐ",
+        "note": "Âm xát quặt lưỡi hữu thanh; ghi nhận rõ trong tư liệu điền dã Việt Nam (Phan Hoàng Anh & Phạm Thị Thảo 2024: ʐa³¹ ɲi³³ 'hôm nay')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "tɕ ~ tʃ",
+        "note": "Âm tắc-xát mặt lưỡi / sau lợi vô thanh không bật hơi (ghi nhận trong tư liệu Việt Nam: ce³²³ 'này', cit³⁵ 'nướng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "tɕʰ ~ tʃʰ",
+        "note": "Âm tắc-xát mặt lưỡi / sau lợi vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "dʑ ~ dʒ",
+        "note": "Âm tắc-xát mặt lưỡi / sau lợi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ny",
+        "ipa": "ɲ",
+        "note": "Âm mũi mặt lưỡi (ghi nhận rõ trong tư liệu Việt Nam: mɔ³³ ɲi³³ 'mặt trời', ɲu³³ fɯ³³ 'trâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "sh",
+        "ipa": "ɕ ~ ʃ",
+        "note": "Âm xát mặt lưỡi / sau lợi vô thanh (ghi nhận [ɕ] trong tư liệu Việt Nam: a²¹ ɕo³⁵ po³³ 'niềm vui')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j ~ ʑ",
+        "note": "Âm tiếp cận hoặc xát mặt lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Âm tắc mạc vô thanh không bật hơi (ví dụ mi²¹ ka³¹ 'đất'); khác với Lahu Na, nhiều phương ngữ Lahu Shi nhập hàng âm tắc lưỡi con /q, qʰ/ vào hàng mạc /k, kʰ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh / hk",
+        "ipa": "kʰ",
+        "note": "Âm tắc mạc vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Âm tắc mạc hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi mạc (ví dụ ŋa³²³ 'tôi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h / x",
+        "ipa": "h ~ x ~ χ",
+        "note": "Âm xát thanh hầu / mạc / lưỡi con vô thanh; tư liệu Việt Nam ghi nhận cả [h] (he³⁵ pe³³ 'rừng', ho³³ 'khóc') và [χ] (χo³³ mɯ³³ 'núi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g'",
+        "ipa": "ɣ",
+        "note": "Âm xát mạc hữu thanh (trong Pinyin đôi khi viết là w trước nguyên âm không tròn môi)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đầu âm tiết trước nguyên âm (thường không ghi bằng chữ cái riêng trong các hệ chữ Latinh)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "eh / ie",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng (ví dụ sɛ³³ mi²¹ 'cát')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm hàng giữa/trước độ mở rộng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "aw",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng (ví dụ mɔ³³ ɲi³³ 'mặt trời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi hẹp; sau phụ âm môi thường có biến thể không tròn môi hoặc xát môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ui / eu",
+        "ipa": "ɯ ~ ɨ",
+        "note": "Nguyên âm không tròn môi hẹp; tư liệu điền dã Việt Nam ghi [ɯ] (như χo³³ mɯ³³ 'núi', lɔ²¹ ɯ³²³ 'sông', ɲu³³ fɯ³³ 'trâu'), sau âm xuýt có tha âm [ɹ̩]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uh / eo",
+        "ipa": "ə ~ ɤ",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi độ mở trung bình (ví dụ sət³⁵ 'cây')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ai",
+        "ipa": "ai",
+        "note": "Vần nguyên âm đôi xuất hiện hạn chế trong tư liệu tại Việt Nam",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "∅",
+        "note": "Đại đa số âm tiết bản ngữ trong nhóm Lô Lô – La Hủ là âm tiết mở (không có phụ âm cuối)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t",
+        "note": "Ghi nhận hạn chế trong tư liệu tiếng La Hủ tại Việt Nam (Phan Hoàng Anh & Phạm Thị Thảo 2024: sət³⁵ 'cây', cit³⁵ 'nướng', tat³⁵ 'mồng'), có thể phản ánh âm tắc thanh hầu biến đổi hoặc lớp từ tiếp xúc khu vực",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối âm tiết hoặc thanh hầu hóa nguyên âm đi kèm thanh ngắn/nhập trong một số phương ngữ La Hủ",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "mid",
+        "name": "Thanh bằng trung (Mid level)",
+        "mark": "không dấu (Lahu Shi & Pinyin) / ˉ (Baptist)",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "high_rising",
+        "name": "Thanh cao lên (High-rising)",
+        "mark": "q (Pinyin) / ˅ (Baptist)",
+        "chao_contour": "35",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "mid_falling",
+        "name": "Thanh trung xuống thấp (Mid-low falling)",
+        "mark": "d (Pinyin) / r (Lahu Shi) / ˯ (Baptist)",
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "low_falling",
+        "name": "Thanh thấp xuống (Low-falling)",
+        "mark": "l (Pinyin) / _ (Baptist)",
+        "chao_contour": "21",
+        "phonation": "hơi thở (slightly breathy ở một số phương ngữ)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "dipping_or_checked",
+        "name": "Thanh gãy/xuống-lên ghi nhận tại Việt Nam",
+        "mark": null,
+        "chao_contour": "323",
+        "phonation": "modal / cần xác minh thanh hầu hóa",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "high_falling",
+        "name": "Thanh cao xuống (High-falling trong Lahu chung)",
+        "mark": "r (Pinyin) / d (Lahu Shi) / ˄ (Baptist)",
+        "chao_contour": "53",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "checked_high",
+        "name": "Thanh nhập cao / nguyên âm căng (High-checked / laryngealized)",
+        "mark": "t (Pinyin) / q (Lahu Shi) / ˄ (Baptist)",
+        "chao_contour": "54",
+        "phonation": "căng / thanh hầu hóa (laryngealized / glottalized)",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "checked_low",
+        "name": "Thanh nhập thấp / nguyên âm căng (Low-checked / laryngealized)",
+        "mark": "f (Pinyin) / ˰ (Baptist)",
+        "chao_contour": "21",
+        "phonation": "căng / thanh hầu hóa (laryngealized / glottalized)",
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu kết hợp phẩm chất thanh (căng/thanh hầu hóa đối lập với bình thường ở một số thanh). Trong tư liệu điền dã tiếng La Hủ tại Việt Nam (Phan Hoàng Anh & Phạm Thị Thảo 2024), các đường nét thanh điệu được ký âm thực tế gồm 33, 35, 31, 21 và 323. Trong mô tả Lahu Shi tại Thái Lan của Nishida (1969) và Cooper & Cooper (1996), hệ thống gồm 5 thanh mở kết hợp đối lập thanh nhập / thanh hầu hóa (laryngealized), kèm hiện tượng biến điệu (tone sandhi) mạnh trong từ đa âm tiết."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "con hổ",
+      "form": "la",
+      "ipa": "la",
+      "gloss_en": "tiger",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "mɔ33 t'a31",
+      "ipa": "mɔ³³ tʰa³¹",
+      "gloss_en": "sky / heaven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời",
+      "form": "mɔ33 ɲi33",
+      "ipa": "mɔ³³ ɲi³³",
+      "gloss_en": "sun",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đất",
+      "form": "mi21 ka31",
+      "ipa": "mi²¹ ka³¹",
+      "gloss_en": "earth / land",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "núi",
+      "form": "χo33 mɯ33",
+      "ipa": "χo³³ mɯ³³",
+      "gloss_en": "mountain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sông",
+      "form": "lɔ21 ɯ323",
+      "ipa": "lɔ²¹ ɯ³²³",
+      "gloss_en": "river",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rừng",
+      "form": "he35 pe33",
+      "ipa": "he³⁵ pe³³",
+      "gloss_en": "forest",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cát",
+      "form": "sɛ33 mi21",
+      "ipa": "sɛ³³ mi²¹",
+      "gloss_en": "sand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây",
+      "form": "sət35",
+      "ipa": "sət³⁵",
+      "gloss_en": "tree",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "ze21",
+      "ipa": "ze²¹",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "ŋa323",
+      "ipa": "ŋa³²³",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con trâu",
+      "form": "ɲu33 fɯ33",
+      "ipa": "ɲu³³ fɯ³³",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngựa đực",
+      "form": "mo33 pa323",
+      "ipa": "mo³³ pa³²³",
+      "gloss_en": "stallion / male horse",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thịt",
+      "form": "ʂa323",
+      "ipa": "ʂa³²³",
+      "gloss_en": "meat / flesh",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hôm nay",
+      "form": "ʐa31 ɲi33",
+      "ipa": "ʐa³¹ ɲi³³",
+      "gloss_en": "today",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quỷ thần / ma",
+      "form": "ne33",
+      "ipa": "ne³³",
+      "gloss_en": "spirit / ghost",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tâm hồn / hồn vía",
+      "form": "a31 ha33",
+      "ipa": "a³¹ ha³³",
+      "gloss_en": "soul",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "số mệnh",
+      "form": "a31 i31",
+      "ipa": "a³¹ i³¹",
+      "gloss_en": "fate / destiny",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "niềm vui",
+      "form": "a21 ɕo35 po33",
+      "ipa": "a²¹ ɕo³⁵ po³³",
+      "gloss_en": "joy",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáo 4 lỗ",
+      "form": "í la la",
+      "ipa": null,
+      "gloss_en": "four-hole bamboo flute",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sáo 6 lỗ",
+      "form": "li la lồ",
+      "ipa": null,
+      "gloss_en": "six-hole bamboo flute",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sáo dọc",
+      "form": "tu pê",
+      "ipa": null,
+      "gloss_en": "vertical flute",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát ru bên nôi",
+        "note": "Làn điệu sinh hoạt gia đình gắn với tập quán chăm sóc trẻ nhỏ, được Viện Âm nhạc khảo sát tại xã Bum Nưa, tỉnh Lai Châu (10/2026)"
+      },
+      {
+        "name": "Hát giao duyên khi đi nương và bên bếp lửa",
+        "note": "Trai gái hát đối đáp hoặc kết hợp tiếng sáo gọi bạn tình khi lên nương, vào rừng, sau buổi lao động và quây quần buổi tối"
+      },
+      {
+        "name": "Hát nghi lễ vòng đời và lễ Tết",
+        "note": "Gồm hát trong lễ đặt tên, hát đón dâu đám cưới, hát Tết cơm mới và tết mùa mưa"
+      },
+      {
+        "name": "Múa xòe La Hủ",
+        "note": "Hình thức sinh hoạt múa hát tập thể có đệm khèn bầu nhỏ, sáo hoặc đàn dây trong dịp lễ tết, hội bản"
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Sáo 4 lỗ (í la la)",
+        "note": "Làm bằng ống nứa hoặc cây lau, thổi độc tấu hoặc hòa tấu (được ghi nhận cả trong đợt khảo sát của Viện Âm nhạc 2026)"
+      },
+      {
+        "name": "Sáo 6 lỗ (li la lồ)",
+        "note": "Nhạc cụ hơi phổ biến trong giao duyên và sinh hoạt cộng đồng"
+      },
+      {
+        "name": "Sáo 3 lỗ (chsu chsu đà)",
+        "note": "Nhạc cụ hơi truyền thống bằng nứa/lau"
+      },
+      {
+        "name": "Sáo dọc (tu pê)",
+        "note": "Gọi tên theo tư thế thổi dọc"
+      },
+      {
+        "name": "Khèn bầu nhỏ",
+        "note": "Nhạc cụ hơi đa thanh đặc trưng vùng Tạng-Miến, đệm cho múa xòe và sinh hoạt lễ hội"
+      },
+      {
+        "name": "Kèn lá",
+        "note": "Dùng lá rừng thổi giai điệu khi đi nương, gọi bạn"
+      },
+      {
+        "name": "Đàn dây (đàn hai dây, ba dây, đàn tre, đàn đơ đờ đơ, đàn ta tò ta)",
+        "note": "Hệ thống nhạc cụ dây gảy/kéo dân gian của người La Hủ tại Mường Tè"
+      },
+      {
+        "name": "Bộ gõ (trống thân gỗ bịt da thú, cồng, não bạt)",
+        "note": "Dùng trong nghi lễ cúng bản, tết và sinh hoạt tập thể"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "la-hu",
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng La Hủ Na tại Việt Nam (La Hủ Đen / Cò Xung / Khù Sung / Kucong)",
+        "iso639_3": "lkc",
+        "glottocode": "kuco1235",
+        "regions_vi": "Xã Bum Tở (các bản Nậm Cấu, Phìn Hồ, Nậm Xả), xã Nậm Khao (bản Nậm Phìn) — huyện Mường Tè, tỉnh Lai Châu",
+        "note": "Tên tự gọi tại Việt Nam là [kʰu³³ tsʰɔ³³]; thuộc nhánh Kucong Đen, phân biệt với phương ngữ chuẩn Lahu Na [lhu] ở Lan Thương (Vân Nam) và Thái Lan, dù tại Mường Tè ba nhóm vẫn giao tiếp và hiểu nhau khá rõ."
+      },
+      {
+        "name_vi": "Tiếng La Hủ Phung tại Việt Nam (La Hủ Trắng)",
+        "iso639_3": "lhu",
+        "glottocode": "lahu1254",
+        "regions_vi": "Cư trú xen ghép với người La Hủ Sư (La Hủ Vàng) tại các bản Xà Hồ, Pha Bu, Pa Ủ, Khồ Ma (xã Pa Ủ) và bản Hà Xe (xã Ka Lăng), huyện Mường Tè, tỉnh Lai Châu",
+        "note": "Nhóm có dân số ít nhất tại Việt Nam; Glottolog xếp mã phương ngữ riêng là lahu1254 thuộc ngôn ngữ Lahu [lhu / lahu1253], hoặc đôi khi được quy chiếu vào Kucong Trắng [lkc] vùng Lục Xuân/Kim Bình."
+      },
+      {
+        "name_vi": "Tiếng La Hủ chuẩn / La Hủ Đen Bắc (Standard Black Lahu / Lahu Na)",
+        "iso639_3": "lhu",
+        "glottocode": "lahu1253",
+        "regions_vi": "Vân Nam (Trung Quốc), Myanmar, Thái Lan, Lào (bảng mã dân tộc gốc: la-hu)",
+        "note": "Phương ngữ có số người nói đông nhất trên thế giới; thông hiểu hạn chế với Lahu Shi ngoài khu vực tiếp xúc song ngữ."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "pʰ (ph / hp)",
+        "quoc_ngu": "p-h (hoặc ph đọc bật hơi)",
+        "note": "Âm tắc hai môi bật hơi [pʰ] KHÔNG có trong tiếng Việt chuẩn (chữ 'ph' tiếng Việt đọc là âm xát [f]). Mô hình TTS chỉ biết tiếng Việt dễ đọc nhầm thành [f]."
+      },
+      {
+        "native": "kʰ (kh / hk)",
+        "quoc_ngu": "kh",
+        "note": "Tiếng La Hủ Sư phát âm tắc mạc bật hơi [kʰ], trong khi 'kh' tiếng Việt chuẩn là âm xát [x]. Chỉ là xấp xỉ gần đúng."
+      },
+      {
+        "native": "tʰ (th / ht / t')",
+        "quoc_ngu": "th",
+        "note": "Tương đương tốt với âm [tʰ] chữ 'th' tiếng Việt."
+      },
+      {
+        "native": "b, d, ɡ",
+        "quoc_ngu": "b, đ, g",
+        "note": "Trong tiếng La Hủ Sư, [b, d] là âm tắc hữu thanh thuần, không có yếu tố tiền thanh hầu hóa/hút vào [ɓ, ɗ] như chữ 'b, đ' tiếng Việt; [ɡ] là âm tắc mạc hữu thanh, khác âm xát [ɣ] của chữ 'g/gh' tiếng Việt."
+      },
+      {
+        "native": "ts, tsʰ, dz",
+        "quoc_ngu": "ch / x, s, d/gi",
+        "note": "Hàng âm tắc-xát đầu lưỡi [ts, tsʰ, dz] KHÔNG có trong tiếng Việt chuẩn; mọi cách viết bằng chữ Quốc ngữ đều làm mất đặc trưng tắc-xát đầu lưỡi."
+      },
+      {
+        "native": "ʂ, ʐ",
+        "quoc_ngu": "s, r (phát âm quặt lưỡi)",
+        "note": "Tương ứng khá gần với cách phát âm quặt lưỡi 's' [ʂ] và 'r' [ʐ] trong một số phương ngữ tiếng Việt."
+      },
+      {
+        "native": "tɕʰ / tʃʰ (ch)",
+        "quoc_ngu": "ch (bật hơi)",
+        "note": "Âm tắc-xát mặt lưỡi bật hơi [tɕʰ] KHÔNG có trong tiếng Việt chuẩn ('ch' tiếng Việt không bật hơi)."
+      },
+      {
+        "native": "χ / x (h / x)",
+        "quoc_ngu": "kh",
+        "note": "Âm xát lưỡi con/mạc [χ ~ x] (như trong χo³³ mɯ³³ 'núi') xấp xỉ khá gần với chữ 'kh' [x] của tiếng Việt Bắc Bộ."
+      },
+      {
+        "native": "ɯ / ɨ (ui / eu)",
+        "quoc_ngu": "ư",
+        "note": "Nguyên âm [ɯ ~ ɨ] tương đương gần với chữ 'ư' [ɨ ~ ɯ] tiếng Việt, trừ vị trí sau âm xuýt khi tha hóa thành âm đầu lưỡi [ɹ̩] không có trong tiếng Việt."
+      },
+      {
+        "native": "Thanh 33, 35, 31, 21, 323",
+        "quoc_ngu": "ngang (33), sắc (35), huyền (31/21), hỏi (323)",
+        "note": "Xấp xỉ đường nét cao độ cho mô hình giọng hát/TTS tiếng Việt; lưu ý tránh thanh ngã và thanh nặng giọng Bắc nếu âm tiết gốc không có thanh hầu hóa."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "mɔ33 t'a31",
+        "ipa": "mɔ³³ tʰa³¹",
+        "gloss_vi": "trời",
+        "quoc_ngu_approx": "mo thà"
+      },
+      {
+        "native": "mɔ33 ɲi33",
+        "ipa": "mɔ³³ ɲi³³",
+        "gloss_vi": "mặt trời",
+        "quoc_ngu_approx": "mo nhi"
+      },
+      {
+        "native": "mi21 ka31",
+        "ipa": "mi²¹ ka³¹",
+        "gloss_vi": "đất",
+        "quoc_ngu_approx": "mì cà"
+      },
+      {
+        "native": "χo33 mɯ33",
+        "ipa": "χo³³ mɯ³³",
+        "gloss_vi": "núi",
+        "quoc_ngu_approx": "kho mư"
+      },
+      {
+        "native": "lɔ21 ɯ323",
+        "ipa": "lɔ²¹ ɯ³²³",
+        "gloss_vi": "sông",
+        "quoc_ngu_approx": "lò ử"
+      },
+      {
+        "native": "he35 pe33",
+        "ipa": "he³⁵ pe³³",
+        "gloss_vi": "rừng",
+        "quoc_ngu_approx": "hế pê"
+      },
+      {
+        "native": "sɛ33 mi21",
+        "ipa": "sɛ³³ mi²¹",
+        "gloss_vi": "cát",
+        "quoc_ngu_approx": "xe mì"
+      },
+      {
+        "native": "sət35",
+        "ipa": "sət³⁵",
+        "gloss_vi": "cây",
+        "quoc_ngu_approx": "xớt"
+      },
+      {
+        "native": "ze21",
+        "ipa": "ze²¹",
+        "gloss_vi": "nhà",
+        "quoc_ngu_approx": "dề"
+      },
+      {
+        "native": "ŋa323",
+        "ipa": "ŋa³²³",
+        "gloss_vi": "tôi",
+        "quoc_ngu_approx": "ngả"
+      },
+      {
+        "native": "ɲu33 fɯ33",
+        "ipa": "ɲu³³ fɯ³³",
+        "gloss_vi": "con trâu",
+        "quoc_ngu_approx": "nhu phư"
+      },
+      {
+        "native": "ʂa323",
+        "ipa": "ʂa³²³",
+        "gloss_vi": "thịt",
+        "quoc_ngu_approx": "sả"
+      },
+      {
+        "native": "ne33",
+        "ipa": "ne³³",
+        "gloss_vi": "quỷ thần / ma",
+        "quoc_ngu_approx": "nê"
+      },
+      {
+        "native": "a31 ha33",
+        "ipa": "a³¹ ha³³",
+        "gloss_vi": "tâm hồn",
+        "quoc_ngu_approx": "à ha"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Phan Hoàng Anh & Phạm Thị Thảo (2024). Đặc điểm từ loại danh từ tiếng La Hủ ở Việt Nam. Tạp chí Ngôn ngữ, Số 9 (2024), tr. 36–42.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Lahu Shi (lahu1252)",
+      "url": "https://glottolog.org/resource/languoid/id/lahu1252",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL ISO 639-3 — Documentation for [lhi] (Lahu Shi)",
+      "url": "https://iso639-3.sil.org/code/lhi",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nishida, Tatsuo (1969). A Study of the Lahu Shi Language (ラフ・シ語の研究). Tonan Ajia Kenkyu (Southeast Asian Studies), 7(1), 2–39.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cooper, Arthur D. & Pamela J. Cooper (1996). Preliminary phonology of the Lahu Shi Balan. PYU Working Papers in Linguistics 1: 17–52.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Viện Âm nhạc – Học viện Âm nhạc Quốc gia Việt Nam (15/10/2026). Sưu tầm dân ca, dân nhạc trong đời sống sinh hoạt và nghi lễ của người La Hủ ở xã Bum Nưa, tỉnh Lai Châu.",
+      "url": "https://vienamnhac.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lahu language (Dialects, Phonology, Writing system)",
+      "url": "https://en.wikipedia.org/wiki/Lahu_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Kucong language (Distribution in Mường Tè, Lai Châu, Vietnam)",
+      "url": "https://en.wikipedia.org/wiki/Kucong_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người La Hủ",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_La_H%E1%BB%A7",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "regions",
+          "severity": "medium",
+          "problem": "Theo đúng nguồn điền dã của Phan Hoàng Anh & Phạm Thị Thảo (2024, tr. 36), người La Hủ Sủ (La Hủ Vàng) cư trú tại tất cả các bản thuộc các xã Pa Vệ Sử, Pa Ủ, Thu Lũm, xã Mường Tè và các bản Là Pé, Nhu Tè, Nhóm Bô (xã Ka Lăng). Bản nháp hiện gộp cả xã Bum Tở và Nậm Khao (vốn là địa bàn của nhóm La Hủ Na), bỏ sót xã Mường Tè và ghi nhầm bản 'Nhóm Bô' thành 'Hóm Bô'.",
+          "fix": "Sửa lại danh sách xã/bản trong regions khớp chính xác với tư liệu điền dã (thêm xã Mường Tè, sửa 'Hóm Bô' thành 'Nhóm Bô', ghi chú rõ xã Bum Nưa/Bum Tở/Nậm Khao theo phân bố từng nhóm)."
+        },
+        {
+          "path": "scripts[1]",
+          "severity": "medium",
+          "problem": "Nhầm lẫn giữa ký hiệu thanh điệu của chữ La Hủ Đen truyền thống (Baptist/Tin Lành của Young/Poole dùng các dấu rời ˉ ˅ ˯ _ ˄ ˰) và bộ chữ Latinh Lahu Shi (dùng trong bản dịch 'Lad hur Si Liq Phu Awg Suhx', sử dụng các chữ cái phụ âm cuối âm tiết như -d, -r, -l, -q, -g, -x để ghi thanh điệu).",
+          "fix": "Phân biệt rõ trong scripts[1].note và phonology.tones[].mark giữa hệ dấu rời (ˉ ˅ ˯ _ ˄ ˰) của chữ La Hủ Tin Lành truyền thống và hệ chữ cái ghi thanh (-d, -r, -q, -g, -x) của chữ Lahu Shi (Lad hur Si)."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "medium",
+          "problem": "Tư liệu tiếng La Hủ tại Việt Nam của Phan Hoàng Anh & Phạm Thị Thảo (2024) có ghi nhận rõ cặp âm xát quặt lưỡi vô thanh /ʂ/ và hữu thanh /ʐ/ (ví dụ: ʂa³²³ 'thịt', ʂɛ³³ 'số 3', ʐa³¹ ɲi³³ 'hôm nay'), nhưng bảng onsets hiện tại chưa liệt kê hoặc mới chỉ gộp vào hàng mặt lưỡi / đầu lưỡi.",
+          "fix": "Bổ sung /ʂ/ và /ʐ/ vào phonology.onsets và bổ sung các từ vựng thực chứng ('thịt', 'trâu', 'ngựa đực') từ bài báo năm 2024 vào lexicon."
+        },
+        {
+          "path": "ml_hints.sub_varieties[1].glottocode",
+          "severity": "low",
+          "problem": "Glottolog có mã phương ngữ riêng cho Lahu Phung là 'lahu1254' (trực thuộc ngôn ngữ Lahu 'lahu1253'), nhưng trường glottocode đang để chung là 'lahu1253'.",
+          "fix": "Cập nhật glottocode của La Hủ Phung thành 'lahu1254' (kèm ghi chú thuộc ngôn ngữ mẹ lahu1253)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu điền dã riêng biệt giữa tiếng nói của người La Hủ Sư (La Hủ Vàng) tại Pa Ủ / Pa Vệ Sử với người La Hủ Na (Kucong, mã lkc) tại Bum Tở / Nậm Khao để tách bạch chính xác bảng âm vị và từ vựng từng nhóm.",
+      "Cần xác minh thực chất âm học của thanh ghi nhận là 323 và các âm tiết khép (-t như trong sət³⁵, cit³⁵, tat³⁵) trong tư liệu của Viện Ngôn ngữ học có tương ứng với nguyên âm thanh hầu hóa / thanh nhập của tiếng Lahu Shi vùng Thượng Mekong hay là biến đổi do tiếp xúc với tiếng Hà Nhì và tiếng Thái tại Mường Tè.",
+      "Chưa có bản ký âm chuẩn hóa (thang âm, điệu thức, luyến láy) được công bố mở cho dân ca người La Hủ Sư tại Lai Châu (dữ liệu khảo sát tháng 10/2026 của Viện Âm nhạc tại Bum Nưa hiện mới ở dạng bản tin điền dã)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

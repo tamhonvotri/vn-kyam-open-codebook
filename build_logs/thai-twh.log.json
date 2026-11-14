@@ -1,0 +1,91 @@
+{
+  "target": {
+    "id": "thai-twh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Thái Trắng (Tày Đón)",
+    "ethnic_group_vi": "Thái",
+    "iso639_3_expected": "twh",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: twh; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+  },
+  "started": "2026-11-13T23:52:56.660420",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9443,
+      "candidatesTokenCount": 12458,
+      "totalTokenCount": 21901,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9443
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12458
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 13131,
+      "candidatesTokenCount": 12038,
+      "totalTokenCount": 25915,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13131
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12038
+        }
+      ],
+      "thoughtsTokenCount": 746,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[1].glottocode",
+        "severity": "high",
+        "problem": "Mã Glottocode của tiếng Thái Đỏ (Tai Daeng, ISO 639-3: tyr) bị ghi nhầm thành 'taid1248' (bị tráo với tiếng Thái Dọ).",
+        "fix": "Sửa thành 'taid1249' theo dữ liệu chuẩn của Glottolog."
+      },
+      {
+        "path": "ml_hints.sub_varieties[2].glottocode",
+        "severity": "high",
+        "problem": "Mã Glottocode của tiếng Thái Dọ (Tai Do, ISO 639-3: tyj) bị ghi nhầm thành 'taid1249' (bị tráo với tiếng Thái Đỏ). Ngoài ra tên gọi 'Hàng Tổng' có mã ISO riêng là thc (taih1245).",
+        "fix": "Sửa glottocode của tyj thành 'taid1248' và làm rõ chú thích về thc (taih1245)."
+      },
+      {
+        "path": "ml_hints.sub_varieties[3].glottocode",
+        "severity": "high",
+        "problem": "Mã Glottocode của tiếng Tày Thanh (Tai Thanh, ISO 639-3: tmm) bị ghi sai thành 'tait1249'.",
+        "fix": "Sửa thành 'tait1248' theo Glottolog."
+      },
+      {
+        "path": "ml_hints.sample_words[10].native",
+        "severity": "medium",
+        "problem": "Từ 'con muỗi' có IPA /ɲuŋ˦˦/ (nguyên âm /u/), nhưng chữ Tai Viet lại viết là 'ꪶꪑꪉ' (dùng ký tự nguyên âm ꪶ◌ /o/, đọc thành /ɲoŋ˦˦/).",
+        "fix": "Sửa thành 'ꪑꪴꪉ' (dùng dấu nguyên âm ◌ꪴ U+AAB4 cho âm /u/)."
+      },
+      {
+        "path": "autonym",
+        "severity": "low",
+        "problem": "Cách viết 'ꪒꪮꪙꫀ' dùng dấu thanh rời ꫀ ở cuối âm tiết, trong khi chuẩn chính tả Tai Viet phổ biến (và trên Wikipedia tiếng Thái Trắng) cũng thường viết bằng dấu thanh kết hợp ◌꪿ đặt trên phụ âm đầu: 'ꪼꪕ ꪒ꪿ꪮꪙ'.",
+        "fix": "Ghi nhận cả hai biến thể chính tả Unicode Tai Viet ('ꪼꪕ ꪒ꪿ꪮꪙ / ꪼꪕ ꪒꪮꪙꫀ') trong autonym và lexicon[0]."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,729 @@
+{
+  "id": "hoa-hnm",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hải Nam",
+  "name_en": "Hainanese (Hainan Min)",
+  "autonym": "海南話 / Hái-nâm-oe / Hhai3 nam2 ue5",
+  "ethnic_group_vi": "Hoa",
+  "language": {
+    "iso639_3": "hnm",
+    "glottocode": "hain1238",
+    "family": "Sino-Tibetan",
+    "branch": "Sinitic — Min (Coastal Min / Qiong-Lei)"
+  },
+  "regions": [
+    "TP. Hồ Chí Minh (khu vực Chợ Lớn: Quận 5, Quận 6, Quận 11, đặc biệt quanh Hội quán Quỳnh Phủ — số 276 Trần Hưng Đạo, Quận 5)",
+    "Kiên Giang (TP. Phú Quốc, TP. Hà Tiên — cộng đồng trồng hồ tiêu và buôn bán lâu đời)",
+    "Một số đô thị Nam Bộ và Nam Trung Bộ khác có di sản Hội quán Quỳnh Phủ / Hải Nam (Hội An — Quảng Nam, Ninh Hòa — Khánh Hòa, Đồng Nai, Sóc Trăng, Bạc Liêu, Cà Mau)"
+  ],
+  "speakers_estimate": "Chưa có thống kê riêng cho nhóm nói tiếng Hải Nam tại Việt Nam (nằm trong tổng dân số 749.466 người dân tộc Hoa theo Tổng điều tra dân số 2019; là bang nhỏ nhất trong Ngũ bang người Hoa tại Nam Bộ, hiện chủ yếu còn người lớn tuổi sử dụng trong gia đình và hội quán).",
+  "scripts": [
+    {
+      "name": "Chữ Hán (phồn thể truyền thống và giản thể)",
+      "iso15924": "Hant",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Chữ Hán phồn thể dùng phổ biến trên hoành phi, câu đối, bia ký và kịch bản Quỳnh kịch tại Hội quán Quỳnh Phủ (TP.HCM, Hội An, Ninh Hòa) và các miếu Bà Thủy Vĩ ở Phú Quốc, Hà Tiên."
+    },
+    {
+      "name": "Phương án Phiên âm tiếng Hải Nam (海南話拼音方案 / Hainanese Transliteration Scheme)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Hệ Latinh hóa do Sở Giáo dục Quảng Đông công bố tháng 9/1960 dựa trên phương ngữ chuẩn Văn Xương (Wenchang); dùng chữ số (1–8) ghi thanh điệu, là hệ ký âm chuẩn phổ biến nhất trong từ điển và tài liệu học tiếng Hải Nam hiện đại."
+    },
+    {
+      "name": "Hải Nam Bạch Thoại Tự (Bǽh-oe-tu / Hainan Romanized)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended-A",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh truyền giáo thế kỷ XIX do Carl C. Jeremiassen sáng tạo năm 1881 (dựa trên phương ngữ Hải Khẩu, cùng họ với Pe̍h-ōe-jī); ít dùng trong cộng đồng người Hoa Hải Nam tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu ngữ âm học tiếng Hải Nam (lấy phương ngữ Văn Xương — Wenchang làm chuẩn đối chiếu kết hợp ghi chú phương ngữ Hải Khẩu — Haikou) và tư liệu điền dã văn hóa người Hoa gốc Hải Nam tại Chợ Lớn, Phú Quốc. Chưa qua thẩm định trực tiếp với nghệ nhân Quỳnh kịch hay người bản ngữ gốc Hải Nam tại Việt Nam.",
+  "phonology": {
+    "syllable_structure": "(C)(G)V(C)+T (trong đó G = /i, u/; C cuối = /m, n, ŋ, p̚, t̚, k̚, ʔ/; có âm tiết mũi tự thân /m̩, ŋ̍/)",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Âm tắc hút vào hai môi hữu thanh (voiced bilabial implosive), trùng khớp tự nhiên với âm 'b' [ɓ] tiếng Việt (ví dụ: 波 bo1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dd",
+        "ipa": "ɗ",
+        "note": "Âm tắc hút vào chân răng hữu thanh (voiced alveolar implosive), trùng khớp tự nhiên với âm 'đ' [ɗ] tiếng Việt (ví dụ: 刀 ddao1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "ɸ ~ f",
+        "note": "Biến đổi lịch sử từ *pʰ sang âm xát hai môi [ɸ] (Văn Xương) hoặc môi-răng [f] (Hải Khẩu); tiếng Hải Nam hầu như mất loạt tắc bật hơi vô thanh (ví dụ: 坡 po1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "b ~ v",
+        "note": "Ở Văn Xương đọc [b] (tắc thường không hút vào) hoặc [β]; ở Hải Khẩu đọc [v] (ví dụ: 無 vo2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi (ví dụ: 摩 mo1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t",
+        "note": "Âm tắc đầu lưỡi vô thanh không bật hơi (tương ứng 't' tiếng Việt; ví dụ: 水 dui3).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng (ví dụ: 南 nam2, 挪 no2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên chân răng (ví dụ: 羅 lo2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật hơi (tương ứng 'c/k' tiếng Việt; ví dụ: 哥 go1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gh",
+        "ipa": "ɡ",
+        "note": "Âm tắc ngạc mềm hữu thanh, chỉ xuất hiện trong một số ít từ (ví dụ: 吳 ghou2).",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm (ví dụ: 俄 ngo2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h ~ x",
+        "note": "Âm xát thanh hầu hoặc ngạc mềm vô thanh (tương ứng *kʰ lịch sử; ví dụ: 可 ho3).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hh",
+        "ipa": "ɦ",
+        "note": "Âm xát thanh hầu hữu thanh; ở Văn Xương có biến thể điều kiện [w], [j] trước bán nguyên âm (ví dụ: 號 hhao5, 海 hhai3).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "tɕ ~ ts",
+        "note": "Âm tắc xát vô thanh không bật hơi (Văn Xương [tɕ ~ ts], Hải Khẩu [ts]; ví dụ: 支 zi1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ɕ ~ s",
+        "note": "Âm xát vô thanh (tương ứng cả *s và *tsʰ lịch sử; Văn Xương [ɕ ~ s], Hải Khẩu [s]; ví dụ: 妻 si1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "dʑ ~ dz ~ z",
+        "note": "Âm tắc xát hoặc xát hữu thanh (Văn Xương [dʑ ~ dz ~ z], Hải Khẩu [z]; ví dụ: 余 yi2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi / zero)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết mở đầu bằng nguyên âm (ví dụ: 亞 a3).",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở (ví dụ: 亞 a3).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ e",
+        "note": "Ở Văn Xương đọc [ɛ] khi đứng một mình (下 e5) và [ei] trong vần đóng eng/eg; ở Hải Khẩu phân biệt [ɛ] và [e].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm đóng trước; cũng làm âm đệm [j] trong ia, io, iu (ví dụ: 醫 i1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ ~ o",
+        "note": "Nguyên âm nửa mở hoặc nửa đóng sau tròn môi (ví dụ: 歌 go1, 哦 o2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm đóng sau tròn môi; cũng làm âm đệm [w] trong ua, ue, ui (ví dụ: 嗚 u1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ai",
+        "ipa": "ai",
+        "note": "Nguyên âm đôi (ví dụ: 海 hhai3, 哀 ai1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ao",
+        "ipa": "au",
+        "note": "Nguyên âm đôi (ví dụ: 喉 hhao2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ou",
+        "ipa": "ou ~ ɔu",
+        "note": "Nguyên âm đôi (ví dụ: 烏 ou1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oi",
+        "ipa": "ɔi",
+        "note": "Nguyên âm đôi (ví dụ: 鞋 oi2).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ui",
+        "ipa": "ui",
+        "note": "Nguyên âm đôi (ví dụ: 水 dui3, 貴 gui4).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iu",
+        "ipa": "iu",
+        "note": "Nguyên âm đôi (ví dụ: 柚 iu5).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia",
+        "ipa": "ia",
+        "note": "Vần có âm đệm /i/ (ví dụ: 也 ia3, 寫 sia3).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "io",
+        "ipa": "iɔ ~ io",
+        "note": "Vần có âm đệm /i/ (ví dụ: 笑 sio4, 喲 io1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua",
+        "ipa": "ua",
+        "note": "Vần có âm đệm /u/ (ví dụ: 換 ua5).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ue",
+        "ipa": "ue",
+        "note": "Vần có âm đệm /u/ (ví dụ: 話 ue5).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iao",
+        "ipa": "iau",
+        "note": "Vần ba âm tố (ví dụ: 妖 iao1).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uai",
+        "ipa": "uai",
+        "note": "Vần ba âm tố (ví dụ: 快 huai4).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m̩",
+        "note": "Âm mũi hai môi tự thành âm tiết (ví dụ: 毋 m5).",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ̍",
+        "note": "Âm mũi ngạc mềm tự thành âm tiết (ví dụ: 嗯 ng3).",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết (am, iam, im, om).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Âm mũi chân răng cuối âm tiết (an, in, un, uan).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết (ang, eng, ong, iang, iong, uang).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-b",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi vô thanh không bật ra ở thanh Nhập (ab, iab, ib).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-d",
+        "ipa": "t̚",
+        "note": "Âm tắc chân răng vô thanh không bật ra ở thanh Nhập (ad, id, ud, uad).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-g",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm vô thanh không bật ra ở thanh Nhập (ag, eg, og, iag, iog, uag).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối âm tiết ở thanh Nhập (ghi trong Bǽh-oe-tu và một số tài liệu ghi âm từ khẩu ngữ mất tắc miệng).",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1",
+        "name": "Âm bình (陰平 / yin ping — ví dụ: 詩 di1)",
+        "mark": "1",
+        "chao_contour": "24 (Hải Khẩu / Văn Xương theo Hoàng & Phùng 1993) ~ 44 (Văn Xương theo Woon 1979)",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T2",
+        "name": "Dương bình (陽平 / yang ping — ví dụ: 時 di2)",
+        "mark": "2",
+        "chao_contour": "21 (Hải Khẩu) ~ 33 (Văn Xương theo Woon 1979)",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T3",
+        "name": "Âm thượng / Thượng thanh (陰上 / 上聲 / yin shang — ví dụ: 死 di3)",
+        "mark": "3",
+        "chao_contour": "211 ~ 213",
+        "phonation": "glottalized / creaky (Văn Xương [ʔ˨˩], Hải Khẩu [˨˩˧ ~ ˨˩˩])",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T4",
+        "name": "Âm khứ (陰去 / yin qu — ví dụ: 四 di4)",
+        "mark": "4",
+        "chao_contour": "35 (Hải Khẩu) ~ 11 (Văn Xương theo Woon 1979)",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T5",
+        "name": "Dương khứ (陽去 / yang qu — ví dụ: 是 di5)",
+        "mark": "5",
+        "chao_contour": "33 (Hải Khẩu / Văn Xương) ~ 23",
+        "phonation": "modal (hợp nhất Dương thượng lịch sử; ở Văn Xương theo Woon 1979 trùng cao độ [˧] với Dương bình)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "T6",
+        "name": "Âm nhập / Trường nhập (quy ước 1: 陰入 失; quy ước Phương án 1960: 長入/陰入 mở 視 di6)",
+        "mark": "6",
+        "chao_contour": "5 ~ 55",
+        "phonation": "checked hoặc modal (Lưu ý: bài Wikipedia 'Hainanese' gán số 6 cho Âm nhập tắc [˥] 失 và số 8 cho Trường nhập [˥˥] 視; ngược lại, Phương án 1960 gán số 6 cho Trường nhập mở 視 di6 và số 7 cho Âm nhập tắc 失 did7)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T7",
+        "name": "Dương nhập / Âm nhập tắc (quy ước 1: 陽入 實; quy ước Phương án 1960: 陰入 tắc 失 did7)",
+        "mark": "7",
+        "chao_contour": "3 ~ 5",
+        "phonation": "checked (-p̚, -t̚, -k̚, -ʔ)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T8",
+        "name": "Trường nhập / Dương nhập tắc (quy ước 1: 長入 視; quy ước Phương án 1960: 陽入 tắc 實 did8)",
+        "mark": "8",
+        "chao_contour": "55 ~ 3",
+        "phonation": "modal hoặc checked (tùy quy ước đánh số thanh 6–7–8 của tài liệu)",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống thanh điệu 6–8 thanh tùy phương ngữ địa phương (Hải Khẩu 7–8 thanh tính cả Trường nhập; Văn Xương 6–7 thanh, có hiện tượng thanh hầu hóa ở thanh Thượng [ʔ˨˩]); có biến điệu thanh điệu (tone sandhi) trong ngữ lưu nhưng nhẹ hơn tiếng Phúc Kiến/Đài Loan."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "cà phê",
+      "form": "ga1-bi1 (咖啡 / kopi)",
+      "ipa": "ka˨˦ ɓi˨˦",
+      "gloss_en": "coffee (traditional Hainanese coffee shop term; IPA with Haikou T1 contour)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "tiệm nước / quán trà",
+      "form": "dde2-diam4 (茶店)",
+      "ipa": "ɗɛ˨˩ tiam˧˥",
+      "gloss_en": "tea shop / coffee house (IPA with Haikou T2/T4 contours; Wenchang: [ɗɛ˧ tiam˩])",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cơm gà (Hải Nam)",
+      "form": "goi1-bui5 (雞糒)",
+      "ipa": "kɔi˨˦ ɓui˧˧",
+      "gloss_en": "Hainanese chicken rice (Wenchang: [kɔi˦ ɓui˧])",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm nắm (cơm gà vắt tròn)",
+      "form": "bui5-zin1 (糒珍 / 飯丸)",
+      "ipa": "ɓui˧˧ tɕin˨˦",
+      "gloss_en": "chicken rice ball",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "cô / dì (cách xưng hô phụ nữ)",
+      "form": "a1-mai4 (阿邁)",
+      "ipa": "ʔa˨˦ mai˧˥",
+      "gloss_en": "aunty / woman",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Quỳnh kịch (瓊劇 / Qiongju — Ca kịch Hải Nam)",
+        "note": "Loại hình hí kịch truyền thống hát bằng tiếng Hải Nam (chuẩn phát âm dựa trên phương ngữ Văn Xương/Quỳnh Sơn), thường được biểu diễn tại Hội quán Quỳnh Phủ (Chùa Bà Hải Nam, Quận 5, TP.HCM) vào dịp Tết Nguyên Tiêu (14–15 tháng Giêng) và vía Bà Thiên Hậu (23/3 âm lịch), vía Bà Thủy Vĩ (15/10 âm lịch)."
+      },
+      {
+        "name": "Bát âm Hải Nam (海南八音 / Hainan Bayin)",
+        "note": "Nhạc lễ hòa tấu tám loại nhạc cụ truyền thống dùng trong đám rước, tế lễ tại hội quán và miếu Bà."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Giọng giả thanh cao vút và luyến ngân cuối câu (Quỳnh kịch)",
+        "description": "Lối hát tuồng cổ dùng giả thanh (falsetto) kết hợp ngân rung ở cuối câu hát theo khuôn thanh điệu tiếng Hải Nam.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung Trung Hoa (Cung – Thương – Giốc – Chủy – Vũ)",
+        "note": "Dùng trong làn điệu Quỳnh kịch và nhạc lễ Bát âm; chưa có khảo sát ký âm chi tiết riêng cho đoàn Quỳnh kịch tại Chợ Lớn.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Kèn bầu / Tỏa nột (嗩吶 / Suona)"
+      },
+      {
+        "name": "Đàn nhị / Hồ cầm Hải Nam (椰胡 / Yehu — đàn gáo dừa)"
+      },
+      {
+        "name": "Đàn nguyệt / Tần cầm (月琴 / Qinqin)"
+      },
+      {
+        "name": "Trống bản, não bạt, chiêng đồng (Bộ gõ hí kịch)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "hoa",
+    "vietnam_context_note": "Tại Việt Nam, người Hoa gốc Hải Nam có sự chuyển dịch ngôn ngữ mạnh sang tiếng Quảng Đông (tại Chợ Lớn) và tiếng Việt (tại Phú Quốc, Hà Tiên, Hội An, Ninh Hòa và thế hệ trẻ TP.HCM). Một điểm đặc biệt rất thuận lợi cho TTS/SVS tiếng Việt: tiếng Hải Nam có hai âm tắc hút vào /ɓ/ (b) và /ɗ/ (dd) trùng khớp hoàn toàn với 'b' và 'đ' của tiếng Việt, đồng thời không có loạt tắc bật hơi /pʰ, kʰ, tsʰ/ như tiếng Quảng Đông hay Quan Thoại.",
+    "sub_varieties": [
+      {
+        "name": "Phương ngữ Văn Xương (Wenchang / 文昌話)",
+        "iso639_3": "hnm",
+        "glottocode": "wenc1234",
+        "note": "Phương ngữ uy tín (prestige dialect), dùng làm chuẩn trong phát thanh và nghệ thuật Quỳnh kịch, phổ biến trong cộng đồng Hải Nam hải ngoại ở Đông Nam Á."
+      },
+      {
+        "name": "Phương ngữ Hải Khẩu (Haikou / 海口話)",
+        "iso639_3": "hnm",
+        "glottocode": "hain1237",
+        "note": "Phương ngữ thủ phủ đảo Hải Nam, là cơ sở của chữ Bǽh-oe-tu."
+      },
+      {
+        "name": "Phương ngữ Quỳnh Hải – Vạn Ninh (Qionghai – Wanning)",
+        "iso639_3": "hnm",
+        "glottocode": null,
+        "note": "Nhóm phương ngữ đông nam đảo Hải Nam, một bộ phận cư dân di cư bằng thuyền buôn xuống vịnh Thái Lan (Phú Quốc, Hà Tiên, Campuchia)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "b (/ɓ/)",
+        "quoc_ngu": "b",
+        "note": "Trùng khớp chính xác với âm tắc hút vào [ɓ] của chữ 'b' tiếng Việt."
+      },
+      {
+        "native": "dd (/ɗ/)",
+        "quoc_ngu": "đ",
+        "note": "Trùng khớp chính xác với âm tắc hút vào [ɗ] của chữ 'đ' tiếng Việt."
+      },
+      {
+        "native": "d (/t/)",
+        "quoc_ngu": "t",
+        "note": "Chữ 'd' trong Hainanese Pinyin là âm [t] vô thanh không bật hơi, viết bằng 't' trong Quốc ngữ (tránh đọc thành [z]/[j])."
+      },
+      {
+        "native": "g (/k/)",
+        "quoc_ngu": "c / k",
+        "note": "Chữ 'g' trong Hainanese Pinyin là âm [k] vô thanh, viết bằng 'c' hoặc 'k' trong Quốc ngữ."
+      },
+      {
+        "native": "p (/ɸ ~ f/)",
+        "quoc_ngu": "ph",
+        "note": "Âm xát môi [ɸ] (Văn Xương) không có trong tiếng Việt chuẩn; xấp xỉ gần nhất bằng 'ph' [f] (trùng với cách đọc Hải Khẩu)."
+      },
+      {
+        "native": "v (/b ~ v/)",
+        "quoc_ngu": "v (hoặc b)",
+        "note": "Ở Hải Khẩu đọc [v] (viết 'v' giọng Bắc); ở Văn Xương là âm tắc hai môi thường [b] không hút vào (tiếng Việt không phân biệt [b] thường và [ɓ] hút vào)."
+      },
+      {
+        "native": "z (/tɕ ~ ts/)",
+        "quoc_ngu": "ch",
+        "note": "Biến thể [tɕ] của Văn Xương rất gần với 'ch' [c ~ tɕ] tiếng Việt; biến thể [ts] của Hải Khẩu không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "s (/ɕ ~ s/)",
+        "quoc_ngu": "x",
+        "note": "Dùng 'x' [s] của tiếng Việt để tránh đọc thành âm quặt lưỡi [ʂ] của 's' miền Bắc."
+      },
+      {
+        "native": "y (/dʑ ~ z/)",
+        "quoc_ngu": "d (giọng Bắc)",
+        "note": "Âm [dʑ] (Văn Xương) không có trong tiếng Việt; xấp xỉ bằng 'd/gi' [z] của phương ngữ Bắc Bộ."
+      },
+      {
+        "native": "hh (/ɦ/)",
+        "quoc_ngu": "h (kèm thanh trầm)",
+        "note": "Âm xát thanh hầu hữu thanh [ɦ] không có âm vị riêng trong tiếng Việt; xấp xỉ bằng 'h' đi với thanh huyền/nặng."
+      },
+      {
+        "native": "Hhai3 nam2 ue5 (海南話)",
+        "quoc_ngu": "Hải nam uê",
+        "note": "Tên gọi 'Tiếng Hải Nam' xấp xỉ bằng Quốc ngữ."
+      },
+      {
+        "native": "goi1 bui5 (雞糒)",
+        "quoc_ngu": "cỏi bùi / coi bùi",
+        "note": "Từ 'cơm gà' trong tiếng Hải Nam."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "海南話 (Hhai3 nam2 ue5)",
+        "ipa": "ɦai˨˩˧ nam˨˩ ue˨˧",
+        "meaning_vi": "tiếng Hải Nam (IPA theo Hải Khẩu)"
+      },
+      {
+        "native": "水 (dui3)",
+        "ipa": "tuiʔ˨˩",
+        "meaning_vi": "nước (IPA theo Văn Xương — Woon 1979)"
+      },
+      {
+        "native": "茶 (dde2)",
+        "ipa": "ɗɛ˧ ~ ɗɛ˨˩",
+        "meaning_vi": "trà (Văn Xương [ɗɛ˧], Hải Khẩu [ɗɛ˨˩])"
+      },
+      {
+        "native": "糒 / 飯 (bui5)",
+        "ipa": "ɓui˧˧",
+        "meaning_vi": "cơm"
+      },
+      {
+        "native": "雞 (goi1)",
+        "ipa": "kɔi˦ ~ kɔi˨˦",
+        "meaning_vi": "gà (Văn Xương [kɔi˦], Hải Khẩu [kɔi˨˦])"
+      },
+      {
+        "native": "人 (nang2)",
+        "ipa": "naŋ˧ ~ naŋ˨˩",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "我 (gua3 / va3 / nong2)",
+        "ipa": "kuaʔ˨˩ / baʔ˨˩ / nɔŋ˧",
+        "meaning_vi": "tôi (gua3/va3 đại từ ngôi thứ nhất, nong2 khẩu ngữ thân mật)"
+      },
+      {
+        "native": "汝 (du3 / lu3)",
+        "ipa": "tuʔ˨˩ / luʔ˨˩",
+        "meaning_vi": "bạn / mày (ngôi thứ hai số ít)"
+      },
+      {
+        "native": "是 (di5)",
+        "ipa": "ti˧˧",
+        "meaning_vi": "là"
+      },
+      {
+        "native": "無 (vo2)",
+        "ipa": "bo˧ ~ vo˨˩",
+        "meaning_vi": "không có"
+      },
+      {
+        "native": "刀 (ddao1)",
+        "ipa": "ɗau˦ ~ ɗau˨˦",
+        "meaning_vi": "con dao"
+      },
+      {
+        "native": "紅 (ang2)",
+        "ipa": "ʔaŋ˧ ~ ʔaŋ˨˩",
+        "meaning_vi": "màu đỏ"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Hainanese (hain1238)",
+      "url": "https://glottolog.org/resource/languoid/id/hain1238",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hainanese",
+      "url": "https://en.wikipedia.org/wiki/Hainanese",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Wenchang dialect (citing Woon Wee-Lee 1979, A synchronic phonology of Hainan dialect)",
+      "url": "https://en.wikipedia.org/wiki/Wenchang_dialect",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Haikou dialect",
+      "url": "https://en.wikipedia.org/wiki/Haikou_dialect",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Hainanese Transliteration Scheme (海南話拼音方案)",
+      "url": "https://en.wikipedia.org/wiki/Hainanese_Transliteration_Scheme",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Bǽh-oe-tu (Hainan Romanized)",
+      "url": "https://en.wikipedia.org/wiki/B%C7%BDh-oe-tu",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia Tiếng Việt — Người Hoa (Việt Nam) (số liệu Tổng điều tra dân số và nhà ở 2019)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Hoa_(Vi%E1%BB%87t_Nam)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia Tiếng Việt — Hội quán Quỳnh Phủ (Thành phố Hồ Chí Minh)",
+      "url": "https://vi.wikipedia.org/wiki/H%E1%BB%99i_qu%C3%A1n_Qu%E1%BB%B3nh_Ph%E1%BB%A7_(Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Báo Tuổi Trẻ (Chuyên trang Tạp chí Du lịch TP.HCM) — Thú vị nghệ thuật hát tuồng cổ Tết Nguyên Tiêu tại TP.HCM (06/02/2023, ghi nhận biểu diễn Quỳnh kịch tại Hội quán Quỳnh Phủ)",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "autonym",
+          "severity": "medium",
+          "problem": "Trường autonym ghi 'Hhai3 nam2 ue1' (sao chép lỗi đánh máy từ infobox Wikipedia tiếng Anh), trong khi chữ 話 (ue) mang thanh Dương khứ (T5, 'ue5') như chính bảng mã đã ghi đúng ở ml_hints.quoc_ngu_approximation và ml_hints.sample_words ('Hhai3 nam2 ue5').",
+          "fix": "Sửa thành '海南話 / Hái-nâm-oe / Hhai3 nam2 ue5' để thống nhất nội bộ và đúng thanh điệu lịch sử của chữ 話."
+        },
+        {
+          "path": "phonology.tones",
+          "severity": "high",
+          "problem": "Có sự vênh nhau giữa hai nguồn Wikipedia về cách đánh số thanh 6, 7, 8 và giá trị Chao contour: (1) Bảng ở bài 'Hainanese' đánh số T6 = Âm nhập (5, 失), T7 = Dương nhập (3, 实), T8 = Trường nhập (55, 视) với đường nét thanh điệu nghiêng về phương ngữ Hải Khẩu; trong khi (2) Phương án Phiên âm tiếng Hải Nam 1960 (Hainanese Transliteration Scheme) và Từ điển Lương Du Cương đánh số T6 = Trường nhập / Âm nhập mở (視 di6), T7 = Âm nhập tắc (失 did7), T8 = Dương nhập tắc (實 did8). Ngoài ra, đường nét thanh điệu Văn Xương theo Woon (1979) có T1=44, T2=33, T3=ʔ21, T4=11, T5=33, khác với hệ Hải Khẩu (T1=24, T2=21, T3=211/213, T4=35, T5=33). Bản nháp dùng hệ contour Hải Khẩu trong phonology.tones và lexicon nhưng lại dùng hệ contour Văn Xương của Woon (1979) trong ml_hints.sample_words mà không giải thích rõ.",
+          "fix": "Ghi chú rõ cả hai quy ước đánh số thanh Nhập (T6/T7/T8) và ghi rõ biến thể Chao contour giữa Hải Khẩu và Văn Xương (Woon 1979) trong phonology.tones cũng như đồng bộ ghi chú IPA ở lexicon và ml_hints.sample_words; hạ confidence của T6, T7, T8 xuống 'medium'."
+        },
+        {
+          "path": "phonology.vowels[11].note",
+          "severity": "low",
+          "problem": "Ví dụ '食 giah7 / zia7' dùng chữ 食 (ăn) vốn là từ thanh Dương nhập (ở Văn Xương đọc âm mở hoặc tắc tùy từ tầng văn/bạch: zia6/ziah8), dễ gây nhầm lẫn với quy ước số thanh.",
+          "fix": "Đổi sang ví dụ rõ ràng hơn từ bảng chuẩn Phương án 1960: '也 ia3, 寫 sia3'."
+        },
+        {
+          "path": "lexicon",
+          "severity": "medium",
+          "problem": "Các mục từ ghép khẩu ngữ như 'ga1-bi1' (cà phê) và 'bui5-zin1' (cơm nắm) chưa có nguồn từ điển tiếng Hải Nam tại Việt Nam kiểm chứng trực tiếp về mặt hình thức âm vị và thanh điệu.",
+          "fix": "Hạ confidence của 'ga1-bi1' và 'bui5-zin1' xuống 'low' và ghi rõ hệ thanh điệu áp dụng trong cột IPA."
+        },
+        {
+          "path": "regions",
+          "severity": "low",
+          "problem": "Thiếu đề cập đến các cộng đồng người Hoa Hải Nam lịch sử tại miền Trung (Hội An – Quảng Nam và Ninh Hòa – Khánh Hòa), nơi vẫn còn các di tích Hội quán Quỳnh Phủ (Hội quán Hải Nam) nổi tiếng dù ngôn ngữ hiện đã chuyển dịch mạnh sang tiếng Việt.",
+          "fix": "Bổ sung thêm vùng di sản lịch sử tại miền Trung (Hội An, Ninh Hòa) vào trường regions."
+        },
+        {
+          "path": "sources[7]",
+          "severity": "low",
+          "problem": "Bài viết 'Thú vị nghệ thuật hát tuồng cổ Tết Nguyên Tiêu tại TP.HCM' đăng trên chuyên trang Tạp chí Du lịch TP.HCM thuộc báo Tuổi Trẻ nhưng URL gốc viết trực tiếp dưới tên miền tuoitre.vn có thể chuyển hướng hoặc khó truy xuất trực tiếp; đồng thời nên bổ sung mục từ Wikipedia tiếng Việt về Hội quán Quỳnh Phủ (TP.HCM).",
+          "fix": "Ghi chú rõ nguồn chuyên trang báo Tuổi Trẻ và bổ sung nguồn Wikipedia tiếng Việt cho Hội quán Quỳnh Phủ."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần khảo sát điền dã để xác định tỷ lệ phương ngữ Văn Xương so với Quỳnh Hải/Vạn Ninh/Hải Khẩu giữa hai cụm cư dân Hải Nam tại Chợ Lớn (TP.HCM) và Phú Quốc – Hà Tiên (Kiên Giang).",
+      "Đường nét thanh điệu (Chao contour) của thanh Âm khứ (T4), Âm bình (T1) và Dương bình (T2) cũng như quy ước đánh số thanh 6–7–8 có sự khác biệt giữa Phương án Phiên âm 1960, mô tả của Woon (1979) cho Văn Xương và bảng phương ngữ Hải Khẩu; cần thu âm đối chiếu người Hoa Hải Nam tại Việt Nam.",
+      "Cần bổ sung ký âm ABC và phân tích thang âm thực tế từ đoàn Quỳnh kịch biểu diễn tại Hội quán Quỳnh Phủ."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,1042 @@
+{
+  "id": "vie-southwest",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Giọng miền Tây Nam Bộ (Đồng bằng sông Cửu Long)",
+  "name_en": "Vietnamese — Southwestern dialect (Mekong Delta / Tây Nam Bộ)",
+  "autonym": "giọng miền Tây / tiếng miền Tây",
+  "ethnic_group_vi": "Kinh",
+  "language": {
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Tây Nam Bộ (Đồng bằng sông Cửu Long)",
+    "TP. Cần Thơ",
+    "Long An",
+    "Tiền Giang",
+    "Bến Tre",
+    "Vĩnh Long",
+    "Trà Vinh",
+    "Đồng Tháp",
+    "An Giang",
+    "Kiên Giang",
+    "Hậu Giang",
+    "Sóc Trăng",
+    "Bạc Liêu",
+    "Cà Mau"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": null
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã nháp do LLM tổng hợp từ tài liệu phương ngữ học, dựa trên vie-south làm nền và tách riêng các nét khu biệt của vùng Đồng bằng sông Cửu Long (Tây Nam Bộ) so với giọng đô thị Sài Gòn / Đông Nam Bộ (như biến thể r → [ɣ], giản lược tổ hợp Cw mạnh hơn, lớp từ vựng tiếp xúc Khmer – Triều Châu, và sự phân hóa khẩu âm giữa lời nói đời thường với ca cổ / vọng cổ / hò miền Tây). Chưa có kiểm chứng thực nghiệm trên mô hình âm thanh và chưa được người bản xứ hay nhà ngôn ngữ học thẩm định.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "r",
+        "ipa": "ɣ ~ ɾ ~ ʐ ~ j",
+        "note": "Nét khu biệt nổi bật nhất so với Sài Gòn/Đông Nam Bộ: ở nhiều vùng nông thôn ĐBSCL (Cần Thơ, An Giang, Kiên Giang, Đồng Tháp, Cà Mau, Bạc Liêu...), 'r' phát âm thành âm xát vòm mềm hữu thanh [ɣ] trùng với 'g/gh' (rồi → [ɣoj˨˩] 'gồi', cá rô → 'cá gô'). Vùng giáp ranh Long An – Tiền Giang (Cần Giuộc, Cần Đước, Gò Công) hay phát âm là [j] (rồi → 'dồi'). Tuy nhiên, khi ca vọng cổ, đờn ca tài tử, nghệ nhân giữ [ɾ ~ r ~ ʐ] để tròn vành rõ chữ.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "j ~ βj ~ bj ~ vj",
+        "note": "Trong giao tiếp đời thường phát âm [j] trùng với 'd/gi' (về → 'dề'). Trong ca diễn truyền thống (cải lương, vọng cổ, đờn ca tài tử) và ở một số người lớn tuổi, thường phát âm là tổ hợp môi-vòm [βj], [bj] hoặc [vj] để phân biệt với 'd/gi'.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d, gi",
+        "ipa": "j",
+        "note": "Nhập làm một âm tiếp cận vòm [j]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ ~ c",
+        "note": "Một bộ phận người nói giữ âm quặt lưỡi [ʈ], nhưng xu hướng nhập vào 'ch' [c] rất phổ biến ở các vùng có tiếp xúc tiếng Hoa (Sóc Trăng, Bạc Liêu, Kiên Giang, Cà Mau) và giới trẻ.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ ~ s",
+        "note": "Tương tự 'tr/ch', vừa có người giữ [ʂ] vừa có nhiều vùng nhập hoàn toàn vào 'x' [s] (sương sáo ~ xương xáo).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh + o/u (âm đệm -w-)",
+        "ipa": "f",
+        "note": "Biến đổi Cw rất phổ biến ở miền Tây (trong khi người trẻ đô thị Sài Gòn đang khôi phục [kʰw]): khoai → [faːj˧˧] ('phai'), khuya → [fiə˧˧] ('phia'), khuất → 'phứt'.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu, h + o/u, ng + o/u",
+        "ipa": "w",
+        "note": "Rụng phụ âm đầu trước âm đệm /-w-/: qua/hoa → [waː], ngoan → [waːŋ], Nguyễn → [wiəŋ˨˩˦]. Ở miền Tây hiện tượng này bảo lưu đậm hơn giọng Sài Gòn đô thị.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g + o- (âm đệm -w- trong từ 'góa')",
+        "ipa": "j",
+        "note": "Hiện tượng từ vựng hóa ở từ thông dụng: góa → [jaː˧˥] ('ở giá').",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "l/t/đ/ch/nh/x + u/o (âm đệm -w-)",
+        "ipa": "l / t / ɗ / c / ɲ / s",
+        "note": "Rụng âm đệm /-w-/ sau phụ âm đầu lưỡi và mặt lưỡi: luyện → 'liệng', toàn → 'tàng/toòng', duyên → 'diêng', chuyên → 'chiêng', nhuyễn → 'nhiễn'.",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "ươ / ươi",
+        "ipa": "ɨə ~ ɨ / ɨj",
+        "note": "Đơn nguyên âm hóa hoặc rút gọn nguyên âm đôi trước bán âm cuối: người → 'ngừi' [ŋɨj˨˩], bưởi → 'bửi' [ɓɨj˨˩˦].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / uôi",
+        "ipa": "uə ~ u / uj",
+        "note": "Rút gọn trong khẩu ngữ nhanh ở nông thôn: cuối → 'cúi' [kuj˧˥], chuối → 'chúi'.",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "êu / ưu / ươu",
+        "ipa": "iw",
+        "note": "Nhập về [iw]: kêu → 'kiu' [kiw˧˧], cứu → 'cíu', rượu → 'rịu/gịu'. Phát âm 'kêu' thành 'kiu' cực kỳ phổ biến ở miền Tây.",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ (trước -m/-p)",
+        "ipa": "əː ~ o",
+        "note": "Biến thể địa phương ở một số vùng nông thôn Tây Nam Bộ: cơm → 'côm' [kom˧˧], khớp → 'khốp'.",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "n (sau nguyên âm không phải i, ê)",
+        "ipa": "ŋ",
+        "note": "Chia sẻ với vie-south: -an/-ang, -ăn/-ăng, -ơn/-ơng, -un/-ung, -iên/-iêng, -uôn/-uông, -ươn/-ương nhập về [-ŋ] (hoặc [-ŋ͡m] sau u, ô, o).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t (sau nguyên âm không phải i, ê)",
+        "ipa": "k",
+        "note": "Chia sẻ với vie-south: -at/-ac, -ăt/-ăc, -ơt/-ơc, -ut/-uc, -iêt/-iêc, -uôt/-uôc, -ươt/-ươc nhập về [-k] (hoặc [-k͡p] sau u, ô, o).",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ch (sau i, ê, a)",
+        "ipa": "n / t",
+        "note": "Chia sẻ với vie-south: -inh → [ɪn ~ ɨn], -ich → [ɪt ~ ɨt], -ênh → [əːn], -anh → [an], -ach → [at].",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y / -i (trong ay/ai, ây/ai) và -u / -o (trong au/ao, âu/ao)",
+        "ipa": "j / w",
+        "note": "Nguyên âm ngắn trước bán âm cuối bị kéo dài ở nhiều vùng miền Tây, làm 'tay' ~ 'tai' [taːj], 'sau' ~ 'sao' [saːw] dễ đồng âm hơn so với giọng Sài Gòn chuẩn hóa.",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "giọng thường (modal)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "hơi thở nhẹ ở cuối âm tiết, thường ngân mềm",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "lên cao, trong trẻo",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "214",
+        "phonation": "xuống thấp rồi vút lên rõ ở cuối âm tiết, không nghẽn thanh hầu",
+        "merges_with": "nga",
+        "confidence": "high"
+      },
+      {
+        "id": "nga",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "214",
+        "phonation": "nhập hoàn toàn với thanh hỏi, không có hiện tượng thanh hầu hóa gãy đôi như phương ngữ Bắc",
+        "merges_with": "hoi",
+        "confidence": "high"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "212",
+        "phonation": "xuống thấp rồi nhích nhẹ lên cuối vần mở/vang, không chặn thanh hầu gấp như giọng Bắc",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 5 thanh điệu (hỏi và ngã nhập làm một). So với giọng đô thị Sài Gòn/Đông Nam Bộ có tốc độ nói nhanh và dứt khoát hơn, ngữ điệu miền Tây Nam Bộ thường có độ ngân kéo dài hơn ở âm tiết cuối câu và các tiểu từ tình thái (nghen, hen, coi, hôn), tạo cảm giác mềm và 'ngọt'."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {
+      "slot": "onset",
+      "standard": "r",
+      "variety": "g / gh",
+      "ipa_standard": "z ~ ʐ",
+      "ipa_variety": "ɣ",
+      "condition": "Khẩu ngữ đời thường ở phần lớn các tỉnh Đồng bằng sông Cửu Long (khác biệt đặc trưng nhất so với giọng Sài Gòn/Đông Nam Bộ); ít xuất hiện khi hát cải lương chuẩn mực",
+      "example_standard": "rồi / cá rô",
+      "example_variety": "gồi / cá gô",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "r",
+      "variety": "d",
+      "ipa_standard": "z ~ ʐ",
+      "ipa_variety": "j",
+      "condition": "Vùng giáp ranh TP.HCM – Long An – Tiền Giang (Bình Chánh, Cần Giuộc, Cần Đước, Gò Công) và một bộ phận cư dân miệt biển",
+      "example_standard": "rồi / rau",
+      "example_variety": "dồi / dao",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "v",
+      "variety": "d",
+      "ipa_standard": "v",
+      "ipa_variety": "j",
+      "condition": "Khẩu ngữ thông thường (chia sẻ với vie-south)",
+      "example_standard": "về / vui vẻ",
+      "example_variety": "dề / dui dẻ",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "v",
+      "variety": "b-d / v-d",
+      "ipa_standard": "v",
+      "ipa_variety": "βj ~ bj ~ vj",
+      "condition": "Ngôn ngữ ca diễn cổ nhạc (vọng cổ, cải lương, đờn ca tài tử) và người lớn tuổi vùng nông thôn",
+      "example_standard": "về",
+      "example_variety": "b-dề [βje˨˩ ~ vje˨˩]",
+      "prevalence": "variable",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "kh (trước o, u làm âm đệm)",
+      "variety": "ph",
+      "ipa_standard": "xʷ",
+      "ipa_variety": "f",
+      "condition": "Trước âm đệm /-w-/; bảo lưu đậm nét ở miền Tây hơn so với Sài Gòn hiện đại",
+      "example_standard": "khoai / khuya / khuất",
+      "example_variety": "phai / phia / phứt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "qu / h (+ o, u) / ng (+ o, u)",
+      "variety": "qu / w",
+      "ipa_standard": "kw / hw / ŋw",
+      "ipa_variety": "w",
+      "condition": "Rụng phụ âm đầu trước âm đệm /-w-/",
+      "example_standard": "qua / hoa / ngoan",
+      "example_variety": "qua / qua / quang ([waː / waː / waːŋ])",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "glide",
+      "standard": "-o- / -u- (sau l, t, đ, ch, nh, d, x, s)",
+      "variety": "∅ (rụng âm đệm)",
+      "ipa_standard": "w",
+      "ipa_variety": "∅",
+      "condition": "Sau các phụ âm đầu lưỡi và mặt lưỡi",
+      "example_standard": "chuyện / duyên / nhuyễn",
+      "example_variety": "chiện / diêng / nhiễn",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "tr",
+      "variety": "ch",
+      "ipa_standard": "ʈ",
+      "ipa_variety": "c",
+      "condition": "Phổ biến ở vùng có tiếp biến tiếng Hoa Triều Châu (Sóc Trăng, Bạc Liêu, Kiên Giang, Cà Mau) và người trẻ",
+      "example_standard": "trăm / trời",
+      "example_variety": "chăm / chời",
+      "prevalence": "variable",
+      "confidence": "high"
+    },
+    {
+      "slot": "onset",
+      "standard": "s",
+      "variety": "x",
+      "ipa_standard": "ʂ",
+      "ipa_variety": "s",
+      "condition": "Biến thể theo vùng và người nói",
+      "example_standard": "sông / sao",
+      "example_variety": "xông / xao",
+      "prevalence": "variable",
+      "confidence": "high"
+    },
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "hỏi",
+      "ipa_standard": "˧ˀ˥",
+      "ipa_variety": "˨˩˦",
+      "condition": "Mọi ngữ cảnh (chia sẻ với vie-south)",
+      "example_standard": "mãi / ngã",
+      "example_variety": "mải / ngả",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "êu",
+      "variety": "iu",
+      "ipa_standard": "ew",
+      "ipa_variety": "iw",
+      "condition": "Rất phổ biến ở miền Tây (đặc biệt trong từ 'kêu')",
+      "example_standard": "kêu / nêu",
+      "example_variety": "kiu / niu",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ưu / ươu",
+      "variety": "iu",
+      "ipa_standard": "ɨw / ɨəw",
+      "ipa_variety": "iw",
+      "condition": "Chia sẻ với vie-south",
+      "example_standard": "cứu / rượu",
+      "example_variety": "cíu / rịu (gịu)",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ươi / uôi",
+      "variety": "ưi / ui",
+      "ipa_standard": "ɨəj / uəj",
+      "ipa_variety": "ɨj / uj",
+      "condition": "Phổ biến trong khẩu ngữ tự nhiên ở ĐBSCL",
+      "example_standard": "mười / cuối",
+      "example_variety": "mừi / cúi",
+      "prevalence": "common",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ay",
+      "variety": "ai",
+      "ipa_standard": "aj",
+      "ipa_variety": "aːj",
+      "condition": "Kéo dài nguyên âm chính trước bán âm /-j/",
+      "example_standard": "tay / may",
+      "example_variety": "tai / mai",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "au",
+      "variety": "ao",
+      "ipa_standard": "aw",
+      "ipa_variety": "aːw",
+      "condition": "Kéo dài nguyên âm chính trước bán âm /-w/",
+      "example_standard": "sau / đau",
+      "example_variety": "sao / đao",
+      "prevalence": "variable",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "an / at",
+      "variety": "ang / ac",
+      "ipa_standard": "aːn / aːt",
+      "ipa_variety": "aːŋ / aːk",
+      "condition": "Chia sẻ với vie-south",
+      "example_standard": "bàn / mát",
+      "example_variety": "bàng / mác",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "anh / ach",
+      "variety": "ăn / ăt",
+      "ipa_standard": "ajŋ / ajk",
+      "ipa_variety": "an / at",
+      "condition": "Chia sẻ với vie-south",
+      "example_standard": "xanh / sách",
+      "example_variety": "xăn / sắt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "inh / ich",
+      "variety": "ưn / ưt",
+      "ipa_standard": "iŋ / ik",
+      "ipa_variety": "ɪn ~ ɨn / ɪt ~ ɨt",
+      "condition": "Chia sẻ với vie-south",
+      "example_standard": "mình / thích",
+      "example_variety": "mừn / thứt",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "iên / iêt / uôn / ươn",
+      "variety": "iêng / iêc / uông / ương",
+      "ipa_standard": "iən / iət / uən / ɨən",
+      "ipa_variety": "iəŋ / iək / uəŋ / ɨəŋ",
+      "condition": "Chia sẻ với vie-south",
+      "example_standard": "tiền / biết / buồn / vườn",
+      "example_variety": "tiềng / biếc / buồng / vường",
+      "prevalence": "common",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "un / ut",
+      "variety": "ung / uc",
+      "ipa_standard": "un / ut",
+      "ipa_variety": "uŋ͡m / uk͡p",
+      "condition": "Chia sẻ với vie-south",
+      "example_standard": "bún / út",
+      "example_variety": "búng / úc",
+      "prevalence": "common",
+      "confidence": "medium"
+    }
+  ],
+  "respelling_rules": [
+    {
+      "slot": "word",
+      "from": "kêu",
+      "to": "kiu",
+      "level": "light",
+      "optional": true,
+      "note": "Từ đặc trưng tần suất rất cao ở miền Tây; an toàn về ngữ nghĩa trong lời ca dân dã và hội thoại."
+    },
+    {
+      "slot": "word",
+      "from": "cũ",
+      "to": "củ",
+      "level": "light",
+      "note": "Kế thừa từ vie-south (1-token an toàn)."
+    },
+    {
+      "slot": "word",
+      "from": "may",
+      "to": "mai",
+      "level": "light",
+      "note": "Kế thừa từ vie-south."
+    },
+    {
+      "slot": "word",
+      "from": "hay",
+      "to": "hai",
+      "level": "light",
+      "note": "Kế thừa từ vie-south."
+    },
+    {
+      "slot": "word",
+      "from": "tay",
+      "to": "tai",
+      "level": "light",
+      "note": "Kế thừa từ vie-south."
+    },
+    {
+      "slot": "word",
+      "from": "say",
+      "to": "sai",
+      "level": "light",
+      "note": "Kế thừa từ vie-south."
+    },
+    {
+      "slot": "word",
+      "from": "thay",
+      "to": "thai",
+      "level": "light",
+      "note": "Kế thừa từ vie-south."
+    },
+    {
+      "slot": "word",
+      "from": "khuya",
+      "to": "phia",
+      "level": "full",
+      "optional": true,
+      "note": "Đặc trưng miền Tây (khw → f). Dùng cho hò, lý, đối thoại dân dã; tắt khi hát tân nhạc/cải lương trang trọng."
+    },
+    {
+      "slot": "word",
+      "from": "khoai",
+      "to": "phai",
+      "level": "full",
+      "optional": true,
+      "note": "Đặc trưng miền Tây (khw → f)."
+    },
+    {
+      "slot": "word",
+      "from": "chuyện",
+      "to": "chiện",
+      "level": "full",
+      "optional": true,
+      "note": "Rụng âm đệm /-w-/ rất phổ biến ở miền Tây."
+    },
+    {
+      "slot": "word",
+      "from": "rồi",
+      "to": "gồi",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng phát âm r → [ɣ] đặc trưng miền Tây. KHÔNG bật quy tắc này cho ca cổ/vọng cổ chính luận vì nghệ nhân cải lương phát âm rõ [ɾ ~ ʐ]."
+    },
+    {
+      "slot": "onset",
+      "from": "r",
+      "to": "g",
+      "level": "full",
+      "optional": true,
+      "note": "Quy tắc mạnh đặc trưng Tây Nam Bộ (r → [ɣ]; chú ý chính tả tiếng Việt phải đổi thành 'gh' trước i, e, ê). Rất dễ gây vỡ token hoặc nhầm nghĩa từ vựng trong LLM — chỉ dùng cho pipeline G2P/phoneme-based TTS khẩu ngữ."
+    },
+    {
+      "slot": "tone",
+      "from": "nga",
+      "to": "hoi",
+      "level": "full",
+      "note": "Nhập thanh ngã vào hỏi (chia sẻ với vie-south). Kiểm tra độ vỡ token trước khi áp dụng cho LLM."
+    },
+    {
+      "slot": "onset",
+      "from": "v",
+      "to": "d",
+      "level": "full",
+      "optional": true,
+      "note": "Dùng cho khẩu ngữ đời thường; tắt nếu muốn mô phỏng lối nhả chữ [βj ~ vj] của cải lương / vọng cổ."
+    },
+    {
+      "slot": "onset",
+      "from": "qu",
+      "to": "w",
+      "level": "full",
+      "note": "Chia sẻ với vie-south; dễ làm vỡ token."
+    },
+    {
+      "slot": "onset",
+      "from": "tr",
+      "to": "ch",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể theo vùng ở miền Tây."
+    },
+    {
+      "slot": "onset",
+      "from": "s",
+      "to": "x",
+      "level": "full",
+      "optional": true,
+      "note": "Biến thể theo vùng ở miền Tây."
+    },
+    {
+      "slot": "rhyme",
+      "from": "êu",
+      "to": "iu",
+      "level": "full",
+      "optional": true,
+      "note": "Phổ biến ở miền Tây (kêu → kiu)."
+    },
+    {
+      "slot": "rhyme",
+      "from": "an",
+      "to": "ang",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "at",
+      "to": "ac",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "anh",
+      "to": "ăn",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ach",
+      "to": "ăt",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "inh",
+      "to": "ưn",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ich",
+      "to": "ưt",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "un",
+      "to": "ung",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ut",
+      "to": "uc",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iên",
+      "to": "iêng",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iêt",
+      "to": "iêc",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "uôn",
+      "to": "uông",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươn",
+      "to": "ương",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươi",
+      "to": "ưi",
+      "level": "full",
+      "optional": true
+    },
+    {
+      "slot": "rhyme",
+      "from": "uôi",
+      "to": "ui",
+      "level": "full",
+      "optional": true
+    },
+    {
+      "slot": "rhyme",
+      "from": "ưu",
+      "to": "iu",
+      "level": "full"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươu",
+      "to": "iu",
+      "level": "full"
+    }
+  ],
+  "lexicon": [
+    {
+      "standard_vi": "chị",
+      "form": "chế",
+      "ipa": "ce˧˥",
+      "gloss_en": "older sister (Teochew loanword, characteristic of Sóc Trăng, Bạc Liêu, Cà Mau, Kiên Giang)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "anh",
+      "form": "hia",
+      "ipa": "hiə˧˧",
+      "gloss_en": "older brother (Teochew loanword, paired with chế)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / cậu / em (tiếng gọi thân mật)",
+      "form": "ní",
+      "ipa": "ni˧˥",
+      "gloss_en": "buddy / dear friend (from Teochew, widespread in Mekong Delta)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "em / bé (tiếng gọi âu yếm)",
+      "form": "cưng",
+      "ipa": "kɨŋ˧˧",
+      "gloss_en": "darling / younger person",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "mần",
+      "ipa": "məŋ˨˩",
+      "gloss_en": "to do / to work / to prepare food",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hết sạch",
+      "form": "ráo / ráo trọi",
+      "ipa": "ɣaːw˧˥ / ɾaːw˧˥",
+      "gloss_en": "completely gone / all of it",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gọi",
+      "form": "kiu (kêu)",
+      "ipa": "kiw˧˧",
+      "gloss_en": "to call",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ở trên ấy / ở dưới ấy / ở bên ấy / ở trong ấy / ở ngoài ấy",
+      "form": "ở trển / ở dưới (dứ) / ở bển / ở trỏng / ở ngoải",
+      "ipa": null,
+      "gloss_en": "up there / down there / over there / in there / out there",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mấy hôm nay",
+      "form": "hổm rày",
+      "ipa": "hom˨˩˦ ɣaːj˨˩",
+      "gloss_en": "these past few days",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hôm trước",
+      "form": "bữa hổm",
+      "ipa": "ɓɨə˨˩˦ hom˨˩˦",
+      "gloss_en": "the other day",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vùng / miền (sông nước, vườn cây)",
+      "form": "miệt (miệt vườn, miệt thứ)",
+      "ipa": "miək˨˩˨",
+      "gloss_en": "region / countryside area",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thuyền nhỏ",
+      "form": "xuồng / ghe",
+      "ipa": "suəŋ˨˩ / ɣɛ˧˧",
+      "gloss_en": "sampan / river boat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bếp đất nung",
+      "form": "cà ràng",
+      "ipa": "kaː˨˩ ɣaːŋ˨˩",
+      "gloss_en": "clay stove (Khmer loanword krɑɑn)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rất / quá lắm",
+      "form": "dữ thần / dữ lắm",
+      "ipa": null,
+      "gloss_en": "extremely / very much",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một lát / một chốc",
+      "form": "một chặp / một hồi",
+      "ipa": null,
+      "gloss_en": "a short while",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi (tự xưng thân mật của nam giới với người yêu/vợ trong ca dao, vọng cổ)",
+      "form": "qua",
+      "ipa": "waː˧˧",
+      "gloss_en": "I (male speaker to beloved)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "em / mình (ngôi thứ hai thân mật trong ca dao, vọng cổ)",
+      "form": "bậu",
+      "ipa": "ɓəw˨˩˨",
+      "gloss_en": "you (beloved)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhé / nha (tiểu từ cuối câu)",
+      "form": "nghen / nhen / heng / hen",
+      "ipa": "ŋɛŋ˧˧ / ɲɛŋ˧˧ / hɛŋ˧˧",
+      "gloss_en": "sentence-final solidarity particle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xem / thử xem (tiểu từ cầu khiến cuối câu)",
+      "form": "coi",
+      "ipa": "kɔj˧˧",
+      "gloss_en": "let's see / go ahead (final particle)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không? (tiểu từ nghi vấn cuối câu)",
+      "form": "hôn / hông",
+      "ipa": "hoŋ͡m˧˧",
+      "gloss_en": "question-final particle (yes or no?)",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Vọng cổ và Cải lương Nam Bộ",
+        "note": "Khởi nguồn từ bản 'Dạ cổ hoài lang' (nhịp 2) của nhạc sĩ Cao Văn Lầu tại Bạc Liêu năm 1919, phát triển thành vọng cổ nhịp 16, nhịp 32; trung tâm hình thành tại Mỹ Tho (Tiền Giang), Sa Đéc (Đồng Tháp), Bạc Liêu, Cần Thơ."
+      },
+      {
+        "name": "Đờn ca tài tử Nam Bộ",
+        "note": "UNESCO ghi danh Di sản văn hóa phi vật thể đại diện của nhân loại (2013); hệ thống 20 bài bản tổ (3 Nam, 6 Bắc, 4 Oán, 7 Hạ) sinh hoạt rộng khắp các CLB miệt vườn ĐBSCL."
+      },
+      {
+        "name": "Hò miền Tây (Hò Đồng Tháp, Hò Hậu Giang, Hò cấy, Hò chèo ghe, Hò Bến Tre)",
+        "note": "Hò Đồng Tháp được công nhận là Di sản văn hóa phi vật thể quốc gia năm 2018 (Quyết định 4069/QĐ-BVHTTDL); đặc trưng bởi làn hơi dài, khỏe, vang trên sông nước và đồng ruộng mênh mông."
+      },
+      {
+        "name": "Lý Nam Bộ (Lý con sáo, Lý chiều chiều, Lý cây bông, Lý mỹ hưng, Lý ngựa ô)",
+        "note": "Khúc thức ngắn gọn, giàu tính trữ tình dân dã, dùng nhiều từ đệm 'tang tình', 'ối a', 'ầu ơ'."
+      },
+      {
+        "name": "Nói thơ miền Tây (Nói thơ Lục Vân Tiên, Nói thơ Bạc Liêu / Sáu Trọng, Nói thơ rơi)",
+        "note": "Lối ngâm kể chuyện thơ lục bát theo tiết tấu tự do hoặc có đàn kìm/đàn bầu phụ họa."
+      },
+      {
+        "name": "Tân cổ giao duyên và Bolero quê hương (âm hưởng dân ca miền Tây)",
+        "note": "Kết hợp ca khúc tân nhạc (thường ở điệu Bolero hoặc Slow Rock ngũ cung) xen kẽ các câu vọng cổ nhịp 32."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Chữ rao lấy hơi vô vọng cổ / mái hò ('Hò... ơ...' / 'Ơi...')",
+        "description": "Ngân dài tự do (rubato) ở quãng cao, rung nhẹ rồi luyến đổ bậc thang xuống nốt trụ trước khi vào nhịp chính (chữ 'hò' hoặc đầu câu vọng cổ).",
+        "abc": "(a4g2e2d6)",
+        "confidence": "medium"
+      },
+      {
+        "name": "Rung nhấn chữ Xang / chữ Oán (non – già)",
+        "description": "Độ rung sâu và nhấn luyến vi cung (microtonal) ở bậc Xang (tương đương bậc IV hơi cao) và bậc Xự/Cống trong hơi Oán và vọng cổ, tạo chất mùi mẫn đặc trưng miền Tây.",
+        "abc": "~g4",
+        "confidence": "medium"
+      },
+      {
+        "name": "Chữ rớt cuối câu vọng cổ (xuống Hò)",
+        "description": "Luyến mềm từ bậc trên rơi êm xuống nốt trụ Hò ở phách cuối nhịp 32 kèm tiếng song lang dứt câu.",
+        "abc": "(e1d1A6)",
+        "confidence": "medium"
+      },
+      {
+        "name": "Nhả chữ phụ âm 'v' [βj] và 'r' [ɾ] trong ca cổ",
+        "description": "Kỹ thuật phát âm cổ nhạc: không đọc 'r' thành 'g' như khi nói chuyện mà rung nhẹ đầu lưỡi [ɾ], đồng thời đọc 'v' có lướt môi [βj ~ vj] trước khi mở nguyên âm để giữ độ sang và rõ lời.",
+        "abc": null,
+        "confidence": "high"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống ngũ cung Hò – Xự – Xang – Xê – Cống (Hơi Bắc, Hơi Nam, Hơi Xuân, Hơi Ai, Hơi Đảo, Hơi Oán)",
+        "note": "Hơi Nam và Hơi Oán dùng cực kỳ phổ biến trong vọng cổ và hò miền Tây; cao độ chữ Xự và chữ Cống có độ mềm (non/già) khác với bình quân luật 12 bán cung phương Tây.",
+        "confidence": "high"
+      },
+      {
+        "name": "Thang ngũ cung dân ca Nam Bộ trên nền Bolero / Quê hương",
+        "note": "Trong tân nhạc mang âm hưởng miền Tây, thường dùng thang ngũ cung thứ hoặc trưởng khuyết bậc (ví dụ E – G – A – B – D trên nền hợp âm Em) kết hợp luyến Bolero.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn kìm (đàn nguyệt)"
+      },
+      {
+        "name": "Đàn tranh (16–17 dây)"
+      },
+      {
+        "name": "Đàn cò (đàn nhị)"
+      },
+      {
+        "name": "Đàn bầu (độc huyền cầm)"
+      },
+      {
+        "name": "Ghi-ta phím lõm (lục huyền cầm — nhạc cụ chủ lực cho vọng cổ)"
+      },
+      {
+        "name": "Đàn sến"
+      },
+      {
+        "name": "Song lang (giữ nhịp trổ câu trong đờn ca tài tử và vọng cổ)"
+      }
+    ]
+  },
+  "ml_hints": {
+    "base_codebook": "vie-south",
+    "differences_from_vie_south": [
+      "Phụ âm 'r': Giọng Sài Gòn / Đông Nam Bộ thường phát âm [ɹ ~ ɾ ~ j] hoặc khôi phục [ɾ] ở giới trẻ đô thị; giọng miền Tây Nam Bộ nông thôn rất đặc trưng với biến thể xát vòm mềm [ɣ] (nghe như 'g/gh': rồi → gồi, cá rô → cá gô), riêng dải Cần Giuộc – Cần Đước – Gò Công phát âm [j] (rồi → dồi).",
+      "Tổ hợp phụ âm + âm đệm /-w-/ (Cw): Ở Sài Gòn giới trẻ giữ Cw nhiều hơn, trong khi ở miền Tây hiện tượng khw → f (khoai → phai, khuya → phia) và rụng -w- (chuyện → chiện, duyên → diêng) vẫn rất phổ biến.",
+      "Vần '-êu': Tần suất chuyển thành '-iu' (đặc biệt 'kêu' → 'kiu') cao hơn hẳn và đi vào văn nói thường nhật.",
+      "Ngữ điệu và tiểu từ cuối câu: Giọng miền Tây kéo dài trường độ nguyên âm cuối câu hơn giọng Sài Gòn, dùng dày đặc các tiểu từ 'nghen/nhen/heng', 'coi', 'hôn' và lớp từ xưng hô 'chế', 'hia', 'ní', 'cưng', 'qua – bậu'.",
+      "Sự phân đôi phong cách Nói vs. Hát cổ nhạc: Đây là bẫy lớn nhất cho mô hình TTS/Singing. Khi nói chuyện đời thường hoặc hò đối đáp dân dã, người miền Tây có thể đọc r → [ɣ] và v → [j]; nhưng khi ca Vọng cổ, Cải lương, Đờn ca tài tử hoặc Bolero quê hương chuyên nghiệp, ca sĩ miền Tây tuyệt đối tránh đọc r → [ɣ] (phải đọc [ɾ ~ ʐ]) và thường đọc 'v' thành [βj ~ vj]."
+    ],
+    "style_conditioning_modes": {
+      "colloquial_speech_tts": "Bật đầy đủ quy tắc vie-south + tuỳ chọn r→g ([ɣ]), khw→f, -êu→-iu, kéo dài tiểu từ cuối câu (nghen, coi, hôn).",
+      "folk_ho_ly_singing": "Giữ ngữ điệu ngân dài rubato ở câu rao ('Hò... ơ...'), bật khw→f hoặc -êu→-iu ở mức vừa phải (light/optional), hạn chế r→g trừ các bài vè/lý hài hước.",
+      "vong_co_cai_luong_bolero": "KHÔNG áp dụng r→g; giữ chính tả chuẩn cho LLM tokenizer (kế thừa danh sách forbidden_respellings_restore của vie-south), hướng dẫn acoustic/embedding phát âm 'v' nghiêng về [βj ~ vj] và 'r' là [ɾ], tăng độ rung vi cung (vibrato sâu) ở các chữ cuối câu."
+    },
+    "tokenizer_cautions": [
+      "Kế thừa toàn bộ cảnh báo qwen.tiktoken từ vie-south: tránh viết lại các từ làm vỡ sub-token (như dề, koan, ghuên).",
+      "Viết lại 'r' thành 'g' trên văn bản (ví dụ 'rồi' → 'gồi', 'ra' → 'ga') gây trùng âm trực tiếp với từ có nghĩa khác ('ga tàu', 'gồi') làm lệch ngữ nghĩa biểu diễn của LLM; chỉ nên điều khiển biến thể [ɣ] ở tầng phoneme/G2P hoặc LoRA audio adapter."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hoàng Thị Châu (2004). Phương ngữ học tiếng Việt. NXB Đại học Quốc gia Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Huỳnh Công Tín (2007). Từ điển từ ngữ Nam Bộ. NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Thompson, L. C. (1965). A Vietnamese Grammar. University of Washington Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Vietnamese phonology (Dialect variation & Southern/Mekong Delta initials)",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_phonology",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Phương ngữ tiếng Việt",
+      "url": "https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_ng%E1%BB%AF_ti%E1%BA%BFng_Vi%E1%BB%87t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Vọng cổ",
+      "url": "https://vi.wikipedia.org/wiki/V%E1%BB%8Dng_c%E1%BB%95",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO — Art of Đờn ca tài tử music and song in southern Viet Nam",
+      "url": "https://ich.unesco.org/en/RL/art-of-n-ca-ti-t-music-and-song-in-southern-viet-nam-00733",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bộ Văn hóa, Thể thao và Du lịch (2018). Quyết định số 4069/QĐ-BVHTTDL ngày 30/10/2018 về việc công bố Danh mục Di sản văn hóa phi vật thể quốc gia (Nghệ thuật trình diễn dân gian Hò Đồng Tháp).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets[7]",
+          "severity": "low",
+          "problem": "Mục 'grapheme': 'g + oa' gộp cả nguyên âm chính 'a' vào slot onset khi biểu diễn 'ipa': 'j' (từ 'góa' → 'giá'). Hiện tượng này thực chất là sự biến đổi tổ hợp phụ âm đầu + âm đệm (gw- → j-) mang tính từ vựng hóa ở một vài từ đơn lẻ.",
+          "fix": "Sửa grapheme thành 'g + o- (âm đệm -w- trong từ góa)' và hạ confidence xuống 'low' (vì chỉ giới hạn ở từ vựng cụ thể 'ở giá', không phải quy tắc âm vị học sản sinh)."
+        },
+        {
+          "path": "correspondences_from_standard_vietnamese[5].example_variety",
+          "severity": "low",
+          "problem": "Ví dụ 'qua / hoa / ngoan' ghi example_variety là 'wa / wa / wan', vừa lẫn ký hiệu IPA với chữ viết, vừa bỏ sót biến đổi âm cuối -n → -ng [-ŋ] trong từ 'ngoan' → 'quang' [waːŋ˧˧].",
+          "fix": "Sửa example_variety thành 'qua / qua / quang ([waː / waː / waːŋ])'."
+        },
+        {
+          "path": "phonology.codas[2]",
+          "severity": "low",
+          "problem": "Ghi chú '-inh → [ɨn], -ich → [ɨt]' hơi hẹp; trong ngữ âm học thực nghiệm phương ngữ Nam Bộ (Thompson 1965, Kirby 2011), nguyên âm trước /-n, -t/ (từ -nh/-ch) là nguyên âm hàng trước hơi trung tâm hóa hoặc nguyên âm trung tâm cao/vừa [ɪn ~ ɨn ~ əːn].",
+          "fix": "Bổ sung biến thể [ɪn ~ ɨn] và [ɪt ~ ɨt] vào phần mô tả để chính xác hơn về mặt ngữ âm học."
+        },
+        {
+          "path": "respelling_rules[0]",
+          "severity": "low",
+          "problem": "Quy tắc viết lại 'kêu' → 'kiu' ở mức 'light' không có cờ 'optional: true', có thể làm thay đổi sắc thái văn phong trong các bài ca cổ trang trọng.",
+          "fix": "Thêm 'optional': true cho quy tắc 'kêu' → 'kiu'."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn có URL đang để null.",
+          "fix": "Cập nhật url_check sau khi kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tây Nam Bộ có sự phân vùng nội bộ đáng kể (tiểu vùng Tiền Giang – Bến Tre – Long An so với tiểu vùng Cần Thơ – Đồng Tháp – An Giang và bán đảo Cà Mau – Bạc Liêu – Sóc Trăng – Kiên Giang): cần khảo sát điền dã để tách ranh giới phân bố chính xác của biến thể r → [ɣ] so với r → [j] và r → [ɾ].",
+      "Cần nghệ nhân đờn ca tài tử và hò Đồng Tháp thẩm định ký hiệu ABC và độ lệch cao độ vi cung (non/già) của chữ Xự, Xang, Cống trong hơi Oán và mái hò.",
+      "Cần kiểm tra thực nghiệm trên tokenizer mục tiêu đối với các quy tắc viết lại đặc thù miền Tây (kiu, phia, chiện)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

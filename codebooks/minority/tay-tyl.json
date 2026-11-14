@@ -1,0 +1,666 @@
+{
+  "id": "tay-tyl",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thu Lao",
+  "name_en": "Thu Lao (Bu Dai / Dai Zhuang in Vietnam)",
+  "autonym": "Bu Dai (/bu⁴ daj¹/) / La Hừ",
+  "ethnic_group_vi": "Tày",
+  "language": {
+    "iso639_3": "tyl",
+    "glottocode": "daiz1235",
+    "family": "Kra-Dai",
+    "branch": "Tai (Central Tai)"
+  },
+  "regions": [
+    "Lào Cai (huyện Mường Khương: các xã Tả Gia Khâu, Pha Long, Thanh Bình, thị trấn Mường Khương)",
+    "Lào Cai (huyện Si Ma Cai: các xã Nàn Sán, Sín Chéng, Thảo Chư Phìn, Bản Mế)"
+  ],
+  "speakers_estimate": "Khoảng 1.000–1.200 người dân tộc Thu Lao tại tỉnh Lào Cai, Việt Nam (Nguyễn Hùng Mạnh 2014 ghi nhận 1.124 người tại 7 thôn bản chính; số người nói thành thạo tiếng mẹ đẻ ước tính khoảng vài trăm người).",
+  "scripts": [
+    {
+      "name": "Không có chữ viết chính thức tại Việt Nam (truyền khẩu; ghi âm dân ca bằng chữ Quốc ngữ hoặc ký âm ngữ âm học trong nghiên cứu)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin / Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tại Việt Nam, người Thu Lao không có bộ chữ viết riêng do Nhà nước ban hành. Các nghệ nhân (như Vàng Sín Phìn ở Si Ma Cai) và cán bộ văn hóa thường dùng chữ Quốc ngữ tiếng Việt để phiên âm ước lệ lời dân ca (kháo)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã được tổng hợp từ mô tả âm vị học điền dã tiếng Bu Dai (Thu Lao) tại Si Ma Cai (Lào Cai, Việt Nam) của Kosaka Ryuichi (1997) và các tư liệu dân tộc học, văn hóa dân gian Việt Nam (Nguyễn Hùng Mạnh 2014, Trần Hữu Sơn 2011). Lưu ý về mã định danh: mã ISO 639-3 'tyl' (và Glottocode bookkeeping 'thul1247') từng được cấp riêng cho tiếng Thu Lao ở Việt Nam, sau đó được Glottolog/SIL xác định là cùng ngôn ngữ với Dai Zhuang ('zhd', Glottocode 'daiz1235'). Tiếng Thu Lao tại Việt Nam chưa có chính tả chuẩn nên cột grapheme trong phần phonology để null hoặc ghi ký hiệu phiên âm học thuật.",
+  "phonology": {
+    "syllable_structure": "(C0ə-)C1V(C2)+T (âm tiết đơn lập mang thanh điệu là chủ đạo; đôi khi có tiền âm tiết yếu C0ə-/C0i- mang thanh trung hoặc cao trong tên động vật hoặc từ ghép cổ như /lə-mɔ²/ 'chó', /mi-pɔ²/ 'cá')",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh (bảo lưu âm tắc hữu thanh Proto-Tai *b và *ʔb)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi-lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi-lợi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi-lợi hữu thanh (bảo lưu âm tắc hữu thanh Proto-Tai *d và *ʔd)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (lợi-ngạc/ngạc cứng) vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi hữu thanh (Kosaka ký hiệu /j-/, phân biệt với bán nguyên âm /j/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi (ngạc mềm) vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɡ",
+        "note": "Tắc gốc lưỡi hữu thanh (bảo lưu âm hữu thanh từ Proto-Tai *g)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "θ",
+        "note": "Xát răng vô thanh (bắt nguồn lịch sử từ *s của Proto-Tai)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ð",
+        "note": "Xát răng hữu thanh (bắt nguồn lịch sử từ *z, *r của Proto-Tai)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɣ",
+        "note": "Xát ngạc mềm hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɕ",
+        "note": "Xát lợi-ngạc vô thanh; chủ yếu xuất hiện trong từ vay mượn tiếng Hán Tây Nam",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tɕʰ ~ s",
+        "note": "Tắc xát/xát biến thể tự do trong các từ vay mượn tiếng Hán Tây Nam",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi-lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ngạc cứng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi (ngạc mềm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên đầu lưỡi-lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng (có xu hướng xát hóa nhẹ [z-] trước nguyên âm hàng trước và /-a(-)/)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước; Kosaka (1997) ghi nhận mất đối lập độ dài nguyên âm âm vị học",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng hàng trước; có xu hướng nguyên âm đôi hóa nhẹ [iə] ở một số vị trí",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a",
+        "note": "Nguyên âm mở [a ~ ɐ]; khi đi trước âm cuối thường đọc dài hơn các nguyên âm khác",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɤ ~ ɯ",
+        "note": "Nguyên âm hàng sau không tròn môi (Kosaka ký hiệu /ɤ/, biến thể [ɯː]/[ɤ] tùy vị trí; là nguyên âm duy nhất kết hợp được với âm cuối /-w/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi; phạm vi phân bố hẹp ở âm tiết mở (như /ɣo⁴/ 'nói', /kʰo³/ 'nhanh')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi (bắt nguồn từ *-aa ở âm tiết mở hoặc biến đổi từ *-wa-); có xu hướng nguyên âm đôi hóa nhẹ [uə] tương tự các phương ngữ Thu Lao ở Vân Nam",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh (âm cuối *-p lịch sử đã nhập vào /-t/ trong phương ngữ Si Ma Cai, ví dụ *sip > /θɤt¹/ 'mười')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi (âm cuối *-m lịch sử đã nhập vào /-n/, ví dụ *nam > /nan⁴/ 'nước')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối môi-ngạc mềm (trong phương ngữ Si Ma Cai chỉ xuất hiện sau nguyên âm /ɤ/)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1",
+        "name": "Thanh 1 (trầm bằng / low level)",
+        "mark": "¹",
+        "chao_contour": "11",
+        "phonation": "đôi khi hơi đi lên nhẹ ở cuối âm tiết",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2",
+        "name": "Thanh 2 (trung-cao giáng / mid-high falling)",
+        "mark": "²",
+        "chao_contour": "42",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3",
+        "name": "Thanh 3 (cao bằng hoặc cao thăng / high level ~ high-rising)",
+        "mark": "³",
+        "chao_contour": "55",
+        "phonation": "biến thể [45] ~ [55]",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4",
+        "name": "Thanh 4 (trung bằng / mid level)",
+        "mark": "⁴",
+        "chao_contour": "33",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T5",
+        "name": "Thanh 5 (trung-thấp thăng / mid-low rising)",
+        "mark": "⁵",
+        "chao_contour": "24",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có 5 thanh điệu (theo khảo sát tại Si Ma Cai, Lào Cai của Kosaka 1997). Đặc điểm loại hình nổi bật nhất của tiếng Thu Lao (Bu Dai) tại Việt Nam cũng như nhóm 'Dai Tho' là bảo lưu toàn bộ loạt phụ âm tắc và xát hữu thanh cổ của Proto-Tai (/b, d, ɟ, ɡ, v, ð, ɣ/) ở các thanh thấp, tương tự thổ ngữ Tày Trùng Khánh (Cao Bằng). Ở âm tiết khép kết thúc bằng phụ âm tắc /-t, -k/, thanh điệu chịu sự chi phối của độ dài nguyên âm lịch sử (*DS so với *DL)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "nan⁴",
+      "ipa": "nan˧˧",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tay",
+      "form": "mɤ¹",
+      "ipa": "mɤ˩˩",
+      "gloss_en": "hand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi, tao",
+      "form": "kɤw²",
+      "ipa": "kɤw˦˨",
+      "gloss_en": "I / me",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "lə-mɔ²",
+      "ipa": "lə.mɔ˦˨",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "mi-pɔ²",
+      "ipa": "mi.pɔ˦˨",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "kaj³",
+      "ipa": "kaj˥˥",
+      "gloss_en": "chicken",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trâu",
+      "form": "lə-ɣɔ¹",
+      "ipa": "lə.ɣɔ˩˩",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bò",
+      "form": "lə-mu¹",
+      "ipa": "lə.mu˩˩",
+      "gloss_en": "cow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bảy (7)",
+      "form": "cet¹",
+      "ipa": "cet˩˩",
+      "gloss_en": "seven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "muối",
+      "form": "kɤ²",
+      "ipa": "kɤ˦˨",
+      "gloss_en": "salt",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạc, tiền",
+      "form": "ŋan¹",
+      "ipa": "ŋan˩˩",
+      "gloss_en": "silver / money",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "vɔ¹",
+      "ipa": "vɔ˩˩",
+      "gloss_en": "sky",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quần áo",
+      "form": "θɤ⁵",
+      "ipa": "θɤ˨˦",
+      "gloss_en": "clothes",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm, gạo, lúa",
+      "form": "kʰɤw⁵",
+      "ipa": "kʰɤw˨˦",
+      "gloss_en": "rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người Thu Lao (tự gọi)",
+      "form": "bu⁴ daj¹",
+      "ipa": "bu˧˧ daj˩˩",
+      "gloss_en": "Thu Lao / Bu Dai person",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Kháo (dân ca Thu Lao)",
+        "note": "Thể loại dân ca truyền thống trung tâm của người Thu Lao ở Si Ma Cai và Mường Khương, gồm trên 50–130 làn điệu/bài hát phục vụ lễ Tết, cưới xin, mừng khách và hát đối đáp giao duyên. Một số bài tiêu biểu: 'Kháo khíu tẻo soỏng' (hát mừng khi có khách đến nhà), 'Cổ táy đẳng mai hỏa' (hát làm quen khi sang bản khác), 'Kháo khíu' (hát khi con gái bản khác tới chơi), 'Kháo khà rèng', 'Kháo tẩu dừn'."
+      },
+      {
+        "name": "Hát ru và ca nghi lễ (cúng rừng 'Mủ đẳng mai')",
+        "note": "Lễ cúng rừng 'Mủ đẳng mai' của người Thu Lao tại Lào Cai đã được công nhận là Di sản văn hóa phi vật thể quốc gia (2016)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn ản tắng (ẳng tắng)",
+        "note": "Đàn 4 dây truyền thống dùng đệm hát Kháo"
+      },
+      {
+        "name": "Đàn tắng gàn",
+        "note": "Đàn 3 dây truyền thống dùng hòa âm đệm hát Kháo"
+      },
+      {
+        "name": "Đàn ẳng dìn",
+        "note": "Đàn kéo 1 dây (nhị) có âm sắc nỉ non"
+      },
+      {
+        "name": "Tiêu và sáo trúc",
+        "note": "Thường dùng thổi giao duyên trên nương núi hoặc hòa tấu cùng đàn dây"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "tay",
+    "quoc_ngu_approximation": [
+      {
+        "native": "p / pʰ / b",
+        "quoc_ngu": "p / ph (hoặc p'h) / b",
+        "note": "Chữ 'ph' trong Quốc ngữ đọc là âm xát [f], trong khi /pʰ/ của tiếng Thu Lao là âm tắc bật hơi [pʰ] (không có trong tiếng Việt chuẩn). Cần chú ý nếu dùng mô hình TTS tiếng Việt."
+      },
+      {
+        "native": "t / tʰ / d",
+        "quoc_ngu": "t / th / đ",
+        "note": "Tương đương khá sát với tiếng Việt; /d/ viết bằng 'đ'."
+      },
+      {
+        "native": "c / cʰ / ɟ",
+        "quoc_ngu": "ch / s (hoặc ch'h) / gi (miền Bắc) ~ d",
+        "note": "Âm tắc ngạc bật hơi /cʰ/ và tắc ngạc hữu thanh /ɟ/ không có trong tiếng Việt chuẩn; chỉ xấp xỉ gần đúng bằng 'ch' và 'd/gi'."
+      },
+      {
+        "native": "k / kʰ / ɡ",
+        "quoc_ngu": "c (k) / kh / g (gh)",
+        "note": "Âm /kʰ/ là tắc ngạc mềm bật hơi (mạnh hơn âm xát [x] 'kh' tiếng Việt); âm /ɡ/ là tắc ngạc mềm hữu thanh [ɡ] (khác với âm xát [ɣ] 'g/gh' của tiếng Việt)."
+      },
+      {
+        "native": "θ / ð",
+        "quoc_ngu": "x (th) / d",
+        "note": "Hai âm xát răng vô thanh [θ] và hữu thanh [ð] hoàn toàn không có trong tiếng Việt chuẩn; khi phiên âm dân gian sang Quốc ngữ thường bị thay bằng 'x/s' hoặc 'th' (cho /θ/) và 'd' (cho /ð/)."
+      },
+      {
+        "native": "ɤw",
+        "quoc_ngu": "âu / êu / ưu",
+        "note": "Vần /-ɤw/ (như /kʰɤw⁵/ 'cơm/lúa', /kɤw²/ 'tôi') được xấp xỉ gần nhất bằng vần 'âu' hoặc 'ưu' trong tiếng Việt."
+      },
+      {
+        "native": "Thanh điệu T1..T5 (11, 42, 55, 33, 24)",
+        "quoc_ngu": "huyền (T1), hỏi/nặng (T2), sắc (T3), ngang (T4), hỏi/sắc (T5)",
+        "note": "Chỉ là ánh xạ cao độ xấp xỉ cho mô hình TTS/giọng hát tiếng Việt; tránh dùng thanh ngã và thanh nặng giọng Bắc vì có hiện tượng thanh hầu hóa mạnh không khớp với thanh điệu Thu Lao."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Thu Lao tại Việt Nam (Bu Dai / La Hừ — Si Ma Cai & Mường Khương, Lào Cai)",
+        "iso639_3": "tyl",
+        "note": "Biến thể mô tả trong bảng mã này; bảo lưu phụ âm đầu tắc hữu thanh cổ, có 5 thanh điệu và nhập âm cuối *-m, *-p vào /-n, -t/."
+      },
+      {
+        "name": "Dai Zhuang / Tráng Văn-Ma (Wen-Ma Southern Zhuang, Vân Nam, Trung Quốc)",
+        "iso639_3": "zhd",
+        "note": "Cùng ngôn ngữ về mặt phân loại học quốc tế (Glottocode: daiz1235); tại Trung Quốc chia thành 4 phương ngữ (Bắc, Trung, Nam, Đông Bắc), một số phương ngữ có 6 thanh điệu do rụng phụ âm tắc cuối."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "nan⁴",
+        "ipa": "nan˧˧",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "mɤ¹",
+        "ipa": "mɤ˩˩",
+        "meaning_vi": "tay"
+      },
+      {
+        "native": "kɤw²",
+        "ipa": "kɤw˦˨",
+        "meaning_vi": "tôi / tao"
+      },
+      {
+        "native": "lə-mɔ²",
+        "ipa": "lə.mɔ˦˨",
+        "meaning_vi": "chó"
+      },
+      {
+        "native": "mi-pɔ²",
+        "ipa": "mi.pɔ˦˨",
+        "meaning_vi": "cá"
+      },
+      {
+        "native": "kaj³",
+        "ipa": "kaj˥˥",
+        "meaning_vi": "gà"
+      },
+      {
+        "native": "lə-ɣɔ¹",
+        "ipa": "lə.ɣɔ˩˩",
+        "meaning_vi": "trâu"
+      },
+      {
+        "native": "kʰɤw⁵",
+        "ipa": "kʰɤw˨˦",
+        "meaning_vi": "cơm / gạo / lúa"
+      },
+      {
+        "native": "vɔ¹",
+        "ipa": "vɔ˩˩",
+        "meaning_vi": "trời"
+      },
+      {
+        "native": "ŋan¹",
+        "ipa": "ŋan˩˩",
+        "meaning_vi": "bạc / tiền"
+      },
+      {
+        "native": "kɤ²",
+        "ipa": "kɤ˦˨",
+        "meaning_vi": "muối"
+      },
+      {
+        "native": "θɤ⁵",
+        "ipa": "θɤ˨˦",
+        "meaning_vi": "quần áo"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Kosaka, Ryuichi (1997). A Phonology of the Bu Dai (Thu Lao) Language. Journal of Asian and African Studies, No. 53, pp. 137–153. ILCAA, Tokyo University of Foreign Studies.",
+      "url": "https://doi.org/10.15026/29859",
+      "url_check": "http_503",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Dai Zhuang (daiz1235) & Thu Lao (thul1247)",
+      "url": "https://glottolog.org/resource/languoid/id/daiz1235",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL International — ISO 639-3 Documentation for code 'tyl' (Thu Lao)",
+      "url": "https://iso639-3.sil.org/code/tyl",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Dai Zhuang language (Thu Lao)",
+      "url": "https://en.wikipedia.org/wiki/Dai_Zhuang_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Thu Lao",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Thu_Lao",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Hùng Mạnh (2014). Tri thức dân gian trong việc bảo vệ rừng thiêng, rừng đầu nguồn của người Thu Lao (Xã Tả Gia Khâu, Huyện Mường Khương, Tỉnh Lào Cai). NXB Văn hóa Thông tin. ISBN 978-604-50-1511-7.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Trần Hữu Sơn, Lê Thành Nam (Đồng chủ biên), Đinh Thị Hồng Thơm, Vàng Sín Phìn (2011). Dân ca và truyện kể dân gian của người Thu Lao ở Lào Cai. Hà Nội: NXB Văn hóa Dân tộc.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8.8,
+      "issues": [
+        {
+          "path": "lexicon[8]",
+          "severity": "medium",
+          "problem": "Mục từ 'bảy (7)' ghi form là 'cet' và ipa là 'cet', bị thiếu ký hiệu thanh điệu. Theo Kosaka (1997, tr. 140), từ 'seven' trong tiếng Bu Dai là /cet¹/ (mang thanh 1, đối lập phụ âm đầu với /cʰet¹/ 'con rết').",
+          "fix": "Sửa form thành 'cet¹' và ipa thành 'cet˩˩'."
+        },
+        {
+          "path": "lexicon[3], lexicon[4], lexicon[6], phonology.syllable_structure, ml_hints.sample_words",
+          "severity": "medium",
+          "problem": "Kosaka (1997, tr. 140, 143, 148) chỉ rõ nguyên âm mở đóng âm tiết *-aa (và *-waaj > *-wa) của Proto-Tai biến đổi thành /-ɔ/ trong tiếng Bu Dai (/mɔ²/ 'dog', /pɔ²/ 'fish', /ɣɔ¹/ 'water buffalo', /vɔ¹/ 'sky'), trong khi /-o/ ở âm tiết mở có phân bố rất hẹp (như /ɣo⁴/ 'to speak', /kʰo³/ 'fast'). Bản nháp ghi 'vɔ¹' (trời) bằng /ɔ/ nhưng lại ghi 'lə-mo²' (chó), 'mi-po²' (cá), 'lə-ɣo¹' (trâu) bằng /o/ do nhầm lẫn ký tự OCR ở chú thích cuối trang 139.",
+          "fix": "Chuẩn hóa nguyên âm chính của 'chó', 'cá', 'trâu' thành /-ɔ/ (/lə-mɔ²/, /mi-pɔ²/, /lə-ɣɔ¹/) thống nhất với /vɔ¹/ và mô tả hệ thống nguyên âm của Kosaka (1997)."
+        },
+        {
+          "path": "music.instruments[0].name",
+          "severity": "low",
+          "problem": "Tư liệu báo chí Lào Cai viết về nghệ nhân Vàng Sín Phìn (xã Nàn Sán, Si Ma Cai) ghi tên đàn 4 dây của người Thu Lao là 'Đàn Ản tắng', không phải 'ẳn tắng'.",
+          "fix": "Sửa thành 'Đàn ản tắng (ẳng tắng)'."
+        },
+        {
+          "path": "sources[5].title, sources[6].title",
+          "severity": "low",
+          "problem": "Thông tin thư mục của hai sách tiếng Việt chưa thật chuẩn xác theo mục lục thư viện: sách của Nguyễn Hùng Mạnh (2014) đứng tên Nguyễn Hùng Mạnh; sách của Trần Hữu Sơn (2011) có nhan đề chính xác là 'Dân ca và truyện kể dân gian của người Thu Lao ở Lào Cai' (Trần Hữu Sơn, Lê Thành Nam đồng chủ biên, Đinh Thị Hồng Thơm, Vàng Sín Phìn).",
+          "fix": "Chuẩn hóa lại tên tác giả và nhan đề hai tài liệu nguồn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Giá trị số Chao (11, 42, 55, 33, 24) được quy đổi từ mô tả đường nét ngữ âm của Kosaka (1997: low level, mid-high falling, high level/rising, mid level, mid-low rising); cần đo F0 thực nghiệm với người bản xứ tại Si Ma Cai và Mường Khương để xác nhận chính xác.",
+      "Cần đối chiếu sự khác biệt ngữ âm nội bộ giữa nhóm Thu Lao ở Si Ma Cai và nhóm Thu Lao ở Mường Khương (Tả Gia Khâu, Pha Long).",
+      "Chưa có bản ký âm nhạc học chuẩn (thang âm, quãng luyến) cho các làn điệu Kháo và hệ dây của đàn ản tắng (4 dây), tắng gàn (3 dây)."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

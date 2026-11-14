@@ -105,7 +105,11 @@ def match_case(src: str, dst: str) -> str:
 
 
 class Respeller:
-    def __init__(self, codebook: dict, level: str, include_optional: bool):
+    def __init__(self, codebook: dict, level: str, include_optional: bool, encoder=None):
+        """encoder: optional str->tokens function. When given (safe mode), any respelling that makes the
+        tokenizer split the word into MORE tokens is reverted to the standard spelling ("chống gãy từ")."""
+        self.encoder = encoder
+        self.reverted = []
         rules = codebook.get("respelling_rules", [])
         for r in rules:
             if "level" not in r:
@@ -119,6 +123,15 @@ class Respeller:
         self.tone_rules = {r["from"]: r["to"] for r in self.rules if r["slot"] == "tone"}
 
     def word(self, w: str) -> str:
+        out = self._word(w)
+        if self.encoder and out != w:
+            n0, n1 = len(self.encoder(" " + w.lower())), len(self.encoder(" " + out.lower()))
+            if n1 > n0:
+                self.reverted.append((w, out, n0, n1))
+                return w
+        return out
+
+    def _word(self, w: str) -> str:
         lw = w.lower()
         if lw in self.word_rules:
             return match_case(w, self.word_rules[lw])
@@ -151,12 +164,27 @@ def main():
     ap.add_argument("--codebook", required=True, type=Path)
     ap.add_argument("--level", choices=["light", "full"], default="light")
     ap.add_argument("--include-optional", action="store_true")
+    ap.add_argument("--safe", action="store_true",
+                    help="chống gãy từ: giữ chính tả chuẩn cho từ nào bị tokenizer cắt vụn hơn sau khi chuyển chữ")
+    ap.add_argument("--tiktoken", help="đường dẫn qwen.tiktoken (mặc định tải từ m-a-p/YuE2-3B)")
+    ap.add_argument("--hf", help="tên tokenizer Hugging Face thay cho qwen.tiktoken")
     ap.add_argument("text", nargs="*")
     a = ap.parse_args()
     cb = json.loads(a.codebook.read_text(encoding="utf-8"))
-    rs = Respeller(cb, a.level, a.include_optional)
+    enc = None
+    if a.safe:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from tok import load_encoder
+        enc = load_encoder(a.tiktoken, a.hf)
+    rs = Respeller(cb, a.level, a.include_optional, encoder=enc)
     src = " ".join(a.text) if a.text else sys.stdin.read()
     sys.stdout.write(rs.text(src) + ("" if src.endswith("\n") else "\n"))
+    if rs.reverted:
+        seen = {}
+        for w, r, n0, n1 in rs.reverted:
+            seen[w.lower()] = (r, n0, n1)
+        sys.stderr.write(f"[chống gãy từ] giữ nguyên {len(seen)} từ: " +
+                         ", ".join(f"{w}(→{r} sẽ thành {n1} token thay vì {n0})" for w, (r, n0, n1) in seen.items()) + "\n")
 
 
 if __name__ == "__main__":

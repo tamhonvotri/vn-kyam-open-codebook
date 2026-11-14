@@ -1,0 +1,106 @@
+skip khmer
+skip vie-north-central
+skip hoa
+skip vie-north
+skip nung
+skip thai
+skip vie-central
+skip muong
+skip vie-south-central
+skip tay
+skip dao
+skip cham
+skip gia-rai
+skip hmong
+skip co-ho
+skip xo-dang
+skip ba-na
+skip san-chay
+skip san-diu
+skip hre
+skip e-de
+skip ra-glai
+skip mnong
+skip tho
+skip stieng
+skip kho-mu
+skip gie-trieng
+skip co-tu
+skip giay
+skip ta-oi
+skip ma
+skip bru-van-kieu
+skip co
+skip cho-ro
+skip xinh-mun
+skip ha-nhi
+skip chu-ru
+skip lao
+skip pa-then
+skip khang
+skip phu-la
+skip la-hu
+skip la-ha
+skip la-chi
+skip lu
+skip ngai
+skip chut
+skip lo-lo
+skip mang
+skip co-lao
+skip brau
+skip cong
+skip si-la
+skip pu-peo
+skip ro-mam
+skip bo-y
+skip o-du
+done vie-thanh-hoa review=MODIFY/9 schema_errors=0
+done ba-na-ren review=MODIFY/9 schema_errors=0
+done bru-van-kieu-xhv review=MODIFY/8 schema_errors=0
+done vie-southwest review=MODIFY/9 schema_errors=0
+done vie-xu-quang review=MODIFY/8 schema_errors=0
+done vie-binh-dinh-phu-yen review=MODIFY/9 schema_errors=0
+done cham-cja review=MODIFY/8 schema_errors=0
+done chut-aem review=MODIFY/9 schema_errors=0
+done cham-hro review=APPROVE/9.5 schema_errors=0
+done co-lao-giq review=APPROVE/9 schema_errors=0
+done chut-pkt review=MODIFY/9 schema_errors=0
+done co-tu-phg review=MODIFY/8 schema_errors=0
+done co-lao-gir review=MODIFY/9 schema_errors=0
+done gie-trieng-tdf review=MODIFY/9 schema_errors=0
+done gie-trieng-stg review=MODIFY/8 schema_errors=0
+done hmong-hmz review=MODIFY/8 schema_errors=0
+done e-de-ibh review=MODIFY/8 schema_errors=0
+done dao-mji review=MODIFY/8 schema_errors=0
+done hmong-mww review=MODIFY/8 schema_errors=0
+done hoa-hnm review=MODIFY/8 schema_errors=0
+done hmong-hmf review=MODIFY/8 schema_errors=0
+done hoa-nan review=MODIFY/8 schema_errors=0
+done la-chi-lwh review=MODIFY/8 schema_errors=0
+done la-hu-lhi review=MODIFY/8 schema_errors=0
+done la-hu-lkc review=MODIFY/8 schema_errors=0
+done hmong-hmv review=MODIFY/8 schema_errors=0
+done mnong-mng review=MODIFY/8 schema_errors=0
+done mnong-mnn review=MODIFY/9 schema_errors=0
+done phu-la-lgh review=APPROVE/9 schema_errors=0
+done muong-nuo review=MODIFY/8 schema_errors=0
+done nung-zhn review=MODIFY/9 schema_errors=0
+done nung-enc review=APPROVE/9 schema_errors=0
+done ra-glai-roc review=MODIFY/8 schema_errors=0
+done stieng-stt review=MODIFY/8 schema_errors=0
+done ra-glai-rgs review=MODIFY/9 schema_errors=0
+done tay-pdi review=APPROVE/9 schema_errors=0
+done tay-tyl review=MODIFY/8.8 schema_errors=0
+done ta-oi-pac review=MODIFY/9 schema_errors=0
+done thai-tmm review=MODIFY/8 schema_errors=0
+done thai-tyr review=MODIFY/8 schema_errors=0
+done thai-twh review=MODIFY/8 schema_errors=0
+done thai-tyj review=APPROVE/9 schema_errors=0
+done thai-thc review=MODIFY/8 schema_errors=0
+done xo-dang-kxy review=MODIFY/8 schema_errors=0
+done xo-dang-tdr review=MODIFY/9 schema_errors=0
+done tho-hnu review=MODIFY/9 schema_errors=0
+done thai-tyt review=MODIFY/8 schema_errors=0
+done xo-dang-hal review=MODIFY/8 schema_errors=0
+done xo-dang-moo review=None/None schema_errors=0

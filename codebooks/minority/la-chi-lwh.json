@@ -1,0 +1,656 @@
+{
+  "id": "la-chi-lwh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng La Chí Trắng",
+  "name_en": "White Lachi",
+  "autonym": "li˧˥pu˦pu˥ (Lipupõ); tên tự gọi chung của người La Chí ở Việt Nam: Cù Tê (qu˧˩ te˧˦˩)",
+  "ethnic_group_vi": "La Chí",
+  "language": {
+    "iso639_3": "lwh",
+    "glottocode": "whit1266",
+    "family": "Kra-Dai",
+    "branch": "Kra (Western Kra, Lachic)"
+  },
+  "regions": [
+    "Xã Bản Máy và thôn/xã Bản Pắng (khu vực giáp ranh huyện Hoàng Su Phì và huyện Xín Mần, tỉnh Hà Giang)"
+  ],
+  "speakers_estimate": "Cực kỳ mai một / có khả năng đã ngừng sử dụng giao tiếp hàng ngày (Edmondson 2008 và Glottolog 5.3 xếp vào trạng thái ngủ/dormant do cộng đồng tại Bản Pắng và Bản Máy đã chuyển sang nói tiếng Nùng; khảo sát điền dã cấp Nhà nước của Dương Thu Hằng và cộng sự năm 2016–2021 xếp Tiếng La Chí Trắng vào nhóm 6 ngôn ngữ 'cực kỳ mai một' tại Việt Nam; con số 1.600–2.400 trong một số cơ sở dữ liệu cũ là ước tính dân số nhóm tộc người, không phải số người nói thông thạo).",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết chính thức (chỉ có ký âm học thuật IPA và bảng từ ghi âm chữ Latinh thời Pháp thuộc)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Tiếng La Chí Trắng không có chữ viết truyền thống và chưa có bộ chữ Latinh chuẩn hóa do Nhà nước ban hành. Tư liệu lịch sử (Bonifacy 1906, Lunet de Lajonquière 1906, Robert 1916) ghi âm theo thói quen chính tả tiếng Pháp/Quốc ngữ sơ kỳ; các nghiên cứu hiện đại dùng ký hiệu IPA."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu ngôn ngữ học lịch sử – so sánh (Ostapirat 2000, Edmondson 2008, Kosaka 2000, Dương Thu Hằng & Nguyễn Thu Quỳnh 2019–2022). Lưu ý học thuật quan trọng: theo phân loại của Ostapirat (2000), La Chí Trắng (Central Lachi, mã ISO lwh, Glottocode whit1266) là phân nhánh ít được nghiên cứu nhất, chủ yếu được ghi nhận qua các bảng từ đầu thế kỷ XX (Bonifacy 1906, Robert 1916) không ghi thanh điệu chuẩn xác, và các khảo sát gần đây khó tìm được người còn nói lưu loát ở Bản Pắng / Bản Máy. Trong khi đó, cơ sở dữ liệu từ vựng ABVD gán bảng từ La Chí thôn Tân Lợi (Bắc Quang, Hà Giang — do Ryuichi Kosaka thu thập năm 1994–1998, vốn có nguồn gốc di cư từ Bản Phùng thuộc nhánh Nam/La Chí Tóc Dài) vào mã lwh (whit1266). Do thiếu mô tả âm vị học hiện đại riêng biệt cho điểm Bản Pắng / Bản Máy, phần ngữ âm và từ vựng dưới đây chỉ ghi nhận các đặc trưng chung của nhóm ngôn ngữ La Chí tại Việt Nam kèm dữ liệu Tân Lợi (Kosaka 2000) với mức độ tin cậy thấp (confidence=\"low\") cho riêng biến thể lwh nghĩa hẹp.",
+  "phonology": {
+    "syllable_structure": "(C0V0.)(C1)(j/w)V(Ṽ/N)+T — cấu trúc đơn tiết hoặc bán phụ âm tiết (sesquisyllabic); toàn bộ phụ âm tắc cuối âm tiết nguyên thủy (*-p, *-t, *-k của Proto-Kra) đã rụng, các âm mũi cuối phần lớn biến đổi thành nguyên âm mũi hóa (ký hiệu /-N/ trong Kosaka 2000) hoặc chỉ còn bảo lưu hạn chế âm mũi cuối (-m) và âm mũi tự thân mang âm tiết.",
+    "onsets": [
+      {
+        "grapheme": null,
+        "ipa": "p",
+        "note": "Không có chữ viết chuẩn; ghi nhận trong nhóm tiếng La Chí ở Việt Nam (ví dụ pu˥ trong li˧˥pu˦pu˥, po²² trong nji⁰ po²² 'đàn ông')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi (ví dụ quN⁰ pʰu²² [qũ pʰu˨˨] 'vai', pʰu²³ 'bơi' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "pj",
+        "note": "Tắc môi ngạc hóa (ví dụ pju²³ 'máu' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Mũi hai môi; có thể đứng làm tiền âm tiết mang âm tiết m̩⁰ (ví dụ m⁰ lju²³ 'sợ', m⁰ ljɔ²² 'lưỡi' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "mj",
+        "note": "Mũi môi ngạc hóa (ví dụ mji²² 'ngửi', mja²³ ɕaN²³ 'thở' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi không bật hơi (ví dụ te˧˦˩ trong qu˧˩ te˧˦˩ 'người La Chí', ta⁴⁵ 'gan' ở Tân Lợi)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi bật hơi (ví dụ tʰe²³ 'nhổ', tʰuN²³ 'một nghìn' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "tj",
+        "note": "Tắc đầu lưỡi ngạc hóa (ví dụ tji⁰ ɲɔ²² 'khóc' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi (ví dụ nu⁰ le⁴⁵ 'sống', num²² 'ăn cắp' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "l",
+        "note": "Bên đầu lưỡi (ví dụ li˧˥ trong tên tự gọi li˧˥pu˦pu˥)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "lj",
+        "note": "Bên ngạc hóa (ví dụ m⁰ lju²³ 'sợ', m⁰ ljɔ²² 'lưỡi' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi / tắc xát ngạc cứng [c ~ tɕ] (ví dụ co²² 'vú/ngực', cɛ²¹ 'ruột' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ tji⁰ ɲɔ²² 'khóc', ɲɑ⁴⁵ 'mũi' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɕ",
+        "note": "Xát ngạc – lợi vô thanh (ví dụ ɕu⁴³ 'biết', ɕɔN⁴³ [ɕɔ̃˦˧] 'săn bắn' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "k",
+        "note": "Tắc mạc không bật hơi (phổ biến trong nhóm Lachic, Ostapirat 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "kʰ",
+        "note": "Tắc mạc bật hơi (ví dụ na⁰ kʰa²³ 'đầu' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "q",
+        "note": "Tắc lưỡi con vô thanh — đặc trưng bảo lưu của nhánh Kra tại Việt Nam (ví dụ qu˧˩ / qu²¹ 'người', qu²³ 'đến', quN⁰ pʰu²² 'vai' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu (ví dụ ʔi²² / ʔi³¹ 'nước', Ostapirat 2000; Kosaka 2000)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "f",
+        "note": "Xát môi – răng vô thanh (ví dụ fi⁴³ 'răng' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "v",
+        "note": "Xát môi – răng hữu thanh / tiếp cận môi [v ~ w] (ví dụ la⁰ wu²³ ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh (ghi nhận trong Lachic, Ostapirat 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "h",
+        "note": "Xát thanh hầu (ghi nhận trong Lachic, Ostapirat 2000)",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước (ví dụ li˧˥, ʔi²² 'nước', fi⁴³ 'răng')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "e",
+        "note": "Nguyên âm nửa đóng hàng trước (ví dụ te˧˦˩, nu⁰ le⁴⁵ 'sống', tʰe²³ 'nhổ')",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɛ",
+        "note": "Nguyên âm nửa mở hàng trước (ví dụ cɛ²¹ 'ruột', tʰɛ⁴⁵ 'nói' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "a",
+        "note": "Nguyên âm mở hàng trước/giữa (ví dụ ta⁴⁵ 'gan', na⁰ kʰa²³ 'đầu' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɑ",
+        "note": "Nguyên âm mở hàng sau không tròn môi (ví dụ ɲɑ⁴⁵ 'mũi', ɲɑ⁴³ 'cát', qɑ⁰ tu⁴³ 'da' ở Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi (ví dụ pu˥, qu˧˩ / qu²¹, pju²³)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": null,
+        "ipa": "o",
+        "note": "Nguyên âm nửa đóng hàng sau tròn môi (ví dụ co²² 'ngực/vú', to²¹ 'nôn', Lipupõ [õ])",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm nửa mở hàng sau tròn môi (ví dụ tji⁰ ɲɔ²² 'khóc', ɕɔN⁴³ [ɕɔ̃˦˧] 'săn bắn' ở Tân Lợi); nhiều nguyên âm có đối lập mũi hóa [Ṽ] (Kosaka 2000 ký hiệu bằng -N sau nguyên âm)",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": null,
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết (bảo lưu hạn chế ở một số từ như num²² 'ăn cắp' tại Tân Lợi, Kosaka 2000)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "̃",
+        "note": "Nguyên âm mũi hóa (ký hiệu bằng chữ '-N' trong bảng từ Kosaka 2000 trên ABVD, với chú thích rõ: '/-N/ = nasalizes preceding vowel. It is not a consonant'). Đây là vết tích của các phụ âm mũi cuối nguyên thủy *-m, *-n, *-ŋ trong Proto-Kra (ví dụ ɕɔN⁴³ [ɕɔ̃˦˧] 'săn bắn', ɕaN⁴³ [ɕã˦˧] 'tóc', quN⁰ pʰu²² [qũ pʰu˨˨] 'vai', Lipupõ [-õ])",
+        "confidence": "low"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T_mid_low_22",
+        "name": "Thanh bằng thấp-vừa (ghi nhận ở Tân Lợi, Kosaka 2000)",
+        "mark": null,
+        "chao_contour": "22",
+        "phonation": null,
+        "merges_with": "Hợp nhất thanh B1 và B2 của Proto-Kra tại điểm Tân Lợi (ví dụ co²² < *B1, pʰu²² < *B2)",
+        "confidence": "low"
+      },
+      {
+        "id": "T_low_rising_23",
+        "name": "Thanh lên thấp (ghi nhận ở Tân Lợi, Kosaka 2000)",
+        "mark": null,
+        "chao_contour": "23",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "T_high_rising_45",
+        "name": "Thanh lên cao (ghi nhận ở Tân Lợi, Kosaka 2000; đối chiếu 35 trong tự danh Edmondson 2008)",
+        "mark": null,
+        "chao_contour": "45",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "T_high_falling_43",
+        "name": "Thanh xuống cao-vừa (ghi nhận ở Tân Lợi, Kosaka 2000)",
+        "mark": null,
+        "chao_contour": "43",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "T_low_falling_21_31",
+        "name": "Thanh xuống thấp (Kosaka 2000 ghi 21 tại Tân Lợi, ví dụ qu²¹ 'người', cɛ²¹ 'ruột', to²¹ 'nôn'; Edmondson 2008 / Ostapirat 2000 ghi 31)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "Một số từ thuộc thanh C1 nguyên thủy có hiện tượng thắt thanh hầu trong nhánh Kra (Edmondson 2008)",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "T_high_level_55",
+        "name": "Thanh bằng cao / trung-cao (ghi nhận trong tự danh li˧˥pu˦pu˥ tại Việt Nam, Edmondson 2008)",
+        "mark": null,
+        "chao_contour": "55",
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu (thuộc hệ thanh điệu A, B, C, D của ngữ chi Kra). Tư liệu lịch sử riêng về La Chí Trắng (Bonifacy 1906, Robert 1916) không ký âm chuẩn đường nét thanh điệu; phương ngữ La Chí Tân Lợi ở Hà Giang (Kosaka 2000) có 5 thanh điệu chính trên âm tiết chính (22, 23, 45, 43, 21) kèm tiền âm tiết trung hòa thanh (ghi 0)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "người La Chí Trắng",
+      "form": "li35 pu44 pu55 (Lipupõ)",
+      "ipa": "li˧˥pu˦pu˥",
+      "gloss_en": "White Lachi person / people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người La Chí (tên tự gọi chung Cù Tê)",
+      "form": "qu31 te341",
+      "ipa": "qu˧˩ te˧˦˩",
+      "gloss_en": "Lachi people",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "qu31 / qu21",
+      "ipa": "qu˧˩",
+      "gloss_en": "person / human being (Ostapirat 2000: qu³¹; Tân Lợi, Kosaka 2000 / ABVD: qu²¹)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "ʔi22",
+      "ipa": "ʔi˨˨",
+      "gloss_en": "water (Tân Lợi, Kosaka 2000 / ABVD; Ostapirat 2000: ʔi³¹)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "máu",
+      "form": "pju23",
+      "ipa": "pju˨˧",
+      "gloss_en": "blood (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "vú / ngực",
+      "form": "co22",
+      "ipa": "co˨˨",
+      "gloss_en": "breast (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "vai",
+      "form": "quN0 phu22",
+      "ipa": "qũ pʰu˨˨",
+      "gloss_en": "shoulder (Tân Lợi, Kosaka 2000 / ABVD lwh; -N = nguyên âm mũi hóa)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sống (còn sống)",
+      "form": "nu0 le45",
+      "ipa": "nu le˦˥",
+      "gloss_en": "to live, be alive (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "săn bắn",
+      "form": "ɕɔN43",
+      "ipa": "ɕɔ̃˦˧",
+      "gloss_en": "to hunt (Tân Lợi, Kosaka 2000 / ABVD lwh; -N = nguyên âm mũi hóa)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sợ",
+      "form": "m0 lju23",
+      "ipa": "m̩ lju˨˧",
+      "gloss_en": "to fear (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "khóc",
+      "form": "tji0 ɲɔ22",
+      "ipa": "tji ɲɔ˨˨",
+      "gloss_en": "to cry (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "ngửi",
+      "form": "mji22",
+      "ipa": "mji˨˨",
+      "gloss_en": "to sniff, smell (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "nhổ (nước bọt)",
+      "form": "the23",
+      "ipa": "tʰe˨˧",
+      "gloss_en": "to spit (Tân Lợi, Kosaka 2000 / ABVD lwh)",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Ni Ca (hát giao duyên thanh niên nam nữ La Chí)",
+        "note": "Thể loại hát đối đáp trữ tình truyền thống của dân tộc La Chí ở Hà Giang và Lào Cai, thường diễn ra trong dịp lễ Tết Khu Cù Tê (Tết tháng Bảy âm lịch — Di sản văn hóa phi vật thể quốc gia). Tại Bản Pắng và Bản Máy (nhóm La Chí Trắng), sinh hoạt ca hát truyền thống bằng tiếng mẹ đẻ bị mai một mạnh do chuyển ngữ sang tiếng Nùng."
+      },
+      {
+        "name": "Hát cúng nghi lễ Tết Khu Cù Tê và lễ mừng cơm mới",
+        "note": "Lời cúng truyền khẩu của thầy cúng tưởng nhớ tổ tiên và tộc trưởng Hoàng Dìn Thùng (Hoàng Vần Thùng); thường bảo lưu nhiều từ cổ của tiếng La Chí."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Đàn tính 3 dây",
+        "note": "Nhạc cụ gảy đệm cho hát giao duyên của người La Chí"
+      },
+      {
+        "name": "Đàn môi bằng lá cây / kèn lá",
+        "note": "Dùng trong giao duyên của thanh niên"
+      },
+      {
+        "name": "Trống da và chiêng",
+        "note": "Dùng trong nghi lễ Tết Khu Cù Tê và sinh hoạt cộng đồng"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "la-chi",
+    "language_vitality_warning": "Tiếng La Chí Trắng (lwh) tại Bản Pắng và Bản Máy (Hà Giang) đang ở mức Cực kỳ mai một / gần như ngừng dùng trong giao tiếp thường nhật (chuyển sang tiếng Nùng). Không nên tự động sinh văn bản dài giả định là tiếng La Chí Trắng nếu chưa có tư liệu điền dã xác thực.",
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng La Chí Tóc Dài (nhánh Nam — Bản Phùng, Tân Lợi, Nà Khương)",
+        "name_en": "Long-Haired Lachi / Liputiõ (Southern Lachi)",
+        "autonym": "li˧˥pu˦tjoŋ˦ (Liputiõ)",
+        "iso639_3": "lbt",
+        "glottocode": "lipu1241",
+        "note": "Biến thể chính còn được bảo lưu tốt nhất của dân tộc La Chí tại Việt Nam, tập trung tại xã Bản Phùng (Hoàng Su Phì) và các điểm di cư ở Bắc Quang (Tân Lợi, Nà Khương, Yên Bình, Vĩ Thượng — tỉnh Hà Giang). Các cộng đồng hậu duệ Bản Phùng tại Bắc Hà và Mường Khương (Lào Cai) phần lớn không còn nói tiếng La Chí."
+      },
+      {
+        "name_vi": "Tiếng La Chí Đen (nhánh Nam — Bản Díu)",
+        "name_en": "Black Lachi / Lipupi",
+        "autonym": "li˧˥pu˦pi˥ (Lipupi)",
+        "iso639_3": "lbt",
+        "glottocode": "lipu1242",
+        "note": "Phân bố tại xã Bản Díu, huyện Xín Mần, tỉnh Hà Giang; nhiều người nói đã chuyển sang tiếng Nùng, được xếp ở mức 'mai một nghiêm trọng' (Dương Thu Hằng & Nguyễn Thu Quỳnh, 2019–2021)."
+      },
+      {
+        "name_vi": "Tiếng La Chí Hoa / La Chí phương Bắc (ngoài lãnh thổ Việt Nam)",
+        "name_en": "Flowery Lachi / Northern Lachi",
+        "autonym": "li˧˥pu˦ljo˦ (Lipulio)",
+        "iso639_3": "lbt",
+        "glottocode": "lach1248",
+        "note": "Nói tại huyện Mã Quan (Jinchang / Kim Xưởng), châu Văn Sơn, tỉnh Vân Nam (Trung Quốc); thuộc mã chung lbt (lach1248), không thuộc phạm vi mô tả của bảng mã tại Việt Nam."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "li˧˥pu˦pu˥",
+        "quoc_ngu": "lí pu pu",
+        "note": "Tên tự gọi La Chí Trắng; tiếng Việt không phân biệt hai mức thanh bằng cao [44] và [55] nên cả hai đều xấp xỉ vào thanh ngang cao."
+      },
+      {
+        "native": "qu˧˩ te˧˦˩",
+        "quoc_ngu": "cù tê",
+        "note": "Âm tắc lưỡi con [q] không có trong tiếng Việt (lùi sâu hơn [k]); dùng 'c' là cách phiên âm truyền thống ('Cù Tê' / 'Khu Cù Tê'), thanh [341] lên-xuống phức không khớp hẳn với thanh ngang/hỏi tiếng Việt."
+      },
+      {
+        "native": "ʔi˨˨",
+        "quoc_ngu": "ì / y",
+        "note": "Thanh bằng thấp [22] nằm giữa thanh ngang [33] và thanh huyền [21] của tiếng Việt."
+      },
+      {
+        "native": "pju˨˧",
+        "quoc_ngu": "piu / píu",
+        "note": "Tổ hợp phụ âm đầu môi ngạc hóa [pj-] không có trong tiếng Việt chuẩn (tiếng Việt không có âm đầu 'p' bản địa trước vần 'iu'); mô hình chỉ biết tiếng Việt dễ đọc nhầm thành [biw]."
+      },
+      {
+        "native": "m̩⁰ lju˨˧",
+        "quoc_ngu": "ừm liu",
+        "note": "Tiền âm tiết mũi mang âm tiết [m̩] và phụ âm bên ngạc hóa [lj-] đều không có trong tiếng Việt."
+      },
+      {
+        "native": "ɕɔ̃˦˧",
+        "quoc_ngu": "xoõ / soong (mũi hóa)",
+        "note": "Âm xát ngạc – lợi [ɕ] kèm nguyên âm mở mũi hóa [ɔ̃] (ký hiệu ɕɔN43 trong Kosaka 2000), không có phụ âm tắc-mũi [-ŋ] đóng âm tiết như 'xoong' tiếng Việt."
+      },
+      {
+        "native": "tji⁰ ɲɔ˨˨",
+        "quoc_ngu": "chi nho / ti nho",
+        "note": "Âm đầu ngạc hóa [tj-] không có trong tiếng Việt (dễ bị đồng hóa thành 'ch' [c])."
+      },
+      {
+        "native": "mji˨˨",
+        "quoc_ngu": "mì / mi",
+        "note": "Âm mũi môi ngạc hóa [mj-] không đối lập âm vị học với [m] trước [i] trong tiếng Việt."
+      },
+      {
+        "native": "qũ⁰ pʰu˨˨",
+        "quoc_ngu": "cu-ng phu (ph bật hơi)",
+        "note": "Âm [q] lưỡi con và nguyên âm mũi hóa [ũ] không có trong tiếng Việt; chữ 'ph' trong Quốc ngữ đọc là âm xát [f] chứ không phải tắc hai môi bật hơi [pʰ] của tiếng La Chí."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "li35 pu44 pu55",
+        "ipa": "li˧˥pu˦pu˥",
+        "meaning_vi": "người La Chí Trắng"
+      },
+      {
+        "native": "qu31 te341",
+        "ipa": "qu˧˩ te˧˦˩",
+        "meaning_vi": "người La Chí (Cù Tê)"
+      },
+      {
+        "native": "qu31 / qu21",
+        "ipa": "qu˧˩",
+        "meaning_vi": "người"
+      },
+      {
+        "native": "ʔi22",
+        "ipa": "ʔi˨˨",
+        "meaning_vi": "nước (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "pju23",
+        "ipa": "pju˨˧",
+        "meaning_vi": "máu (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "co22",
+        "ipa": "co˨˨",
+        "meaning_vi": "vú / ngực (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "quN0 phu22",
+        "ipa": "qũ pʰu˨˨",
+        "meaning_vi": "vai (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "nu0 le45",
+        "ipa": "nu le˦˥",
+        "meaning_vi": "sống (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "ɕɔN43",
+        "ipa": "ɕɔ̃˦˧",
+        "meaning_vi": "săn bắn (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "m0 lju23",
+        "ipa": "m̩ lju˨˧",
+        "meaning_vi": "sợ (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "tji0 ɲɔ22",
+        "ipa": "tji ɲɔ˨˨",
+        "meaning_vi": "khóc (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "mji22",
+        "ipa": "mji˨˨",
+        "meaning_vi": "ngửi (Tân Lợi, Kosaka 2000)"
+      },
+      {
+        "native": "the23",
+        "ipa": "tʰe˨˧",
+        "meaning_vi": "nhổ nước bọt (Tân Lợi, Kosaka 2000)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — White Lachi (whit1266)",
+      "url": "https://glottolog.org/resource/languoid/id/whit1266",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Lachi, White (lwh)",
+      "url": "https://www.ethnologue.com/language/lwh/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "ABVD — Wordlist Lachi (Tân Lợi) (Ryuichi Kosaka 2000, assigned to White Lachi whit1266 / lwh)",
+      "url": "https://abvd.eva.mpg.de/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Lachi language",
+      "url": "https://en.wikipedia.org/wiki/Lachi_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người La Chí / Tiếng La Chí",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_La_Ch%C3%AD",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ostapirat, Weera (2000). Proto-Kra. Linguistics of the Tibeto-Burman Area 23(1): 1–251.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Edmondson, Jerold A. (2008). Kra or Kadai languages. In A. V. N. Diller, J. A. Edmondson & Y. Luo (eds.), The Tai-Kadai Languages, 653–670. London & New York: Routledge.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Kosaka, Ryuichi (2000). A descriptive study of the Lachi language: syntactic description, historical reconstruction and genetic relation. Ph.D. dissertation, Tokyo University of Foreign Studies (dữ liệu thôn Tân Lợi, Bắc Quang, Hà Giang được gán mã lwh trong ABVD).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bonifacy, Auguste (1906). Étude sur les coutumes et la langue des La-ti. Bulletin de l'École Française d'Extrême-Orient 6: 271–278.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Dương Thu Hằng & Nguyễn Thu Quỳnh (chủ biên, 2022). Các ngôn ngữ có nguy cơ mai một ở Việt Nam - Những vấn đề lí luận và thực tiễn. Hà Nội: NXB Khoa học xã hội (kết quả Đề tài KH&CN cấp Nhà nước, Trường Đại học Sư phạm – Đại học Thái Nguyên).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology.codas[2] / lexicon[6] / lexicon[8]",
+          "severity": "high",
+          "problem": "Hiểu sai quy ước ký âm '-N' trong bảng từ Lachi (Tân Lợi) của Ryuichi Kosaka (2000) trên ABVD. Theo chú giải gốc của ABVD cho Lachi (Tân Lợi): '/-N/ = nasalizes preceding vowel. It is not a consonant.' (tức là nguyên âm mũi hóa, không phải phụ âm mũi cuối /-ŋ/). Bản thảo đã chuyển nhầm 'quN0 phu22' ('vai') và 'ɕɔN43' ('săn bắn') thành 'quŋ0 pʰu22' [quŋ pʰu˨˨] và 'ɕɔŋ43' [ɕɔŋ˦˧], đồng thời suy diễn rằng /-ŋ/ là âm cuối phổ biến nhất trong tiếng La Chí ở Việt Nam.",
+          "fix": "Sửa lại 'quN0 phu22' -> IPA 'qũ pʰu˨˨' và 'ɕɔN43' -> IPA 'ɕɔ̃˦˧' trong lexicon, ml_hints và phonology. Giải thích rõ trong phonology.codas và phonology.vowels rằng '-N' của Kosaka (2000) biểu thị nguyên âm mũi hóa (vowel nasalization [Ṽ]), vốn là kết quả sự suy giảm của các phụ âm mũi cuối nguyên thủy (*-m, *-n, *-ŋ), chỉ còn giữ lại phụ âm mũi cuối /-m/ ở một số ít từ (như num22 'ăn cắp') hoặc âm mũi mang âm tiết."
+        },
+        {
+          "path": "ml_hints.sub_varieties",
+          "severity": "medium",
+          "problem": "Gán sai mã Glottocode trong ml_hints.sub_varieties: bản thảo ghi 'lipu1240' cho La Chí Tóc Dài, 'lipu1239' cho La Chí Đen, và 'lach1247' cho La Chí Hoa. Trên thực tế trong Glottolog 5.3, 'lach1247' là tên nhóm ngôn ngữ Lachic (gồm Lachi [lach1248] và White Lachi [whit1266]), còn dưới Lachi [lach1248 / lbt] có các nhánh phương ngữ là Liputiõ [lipu1241] (Long-Haired Lachi) và Lipupi [lipu1242] (Black Lachi).",
+          "fix": "Sửa lại Glottocode chính xác theo Glottolog 5.3: Liputiõ / Long-Haired Lachi là 'lipu1241', Lipupi / Black Lachi là 'lipu1242', và mã ngôn ngữ chung Lachi (lbt) là 'lach1248'."
+        },
+        {
+          "path": "phonology.tones / lexicon[2]",
+          "severity": "low",
+          "problem": "Trong bảng từ Lachi (Tân Lợi) của Kosaka (2000) trên ABVD, từ 'người' (person/human being) được ghi là 'qu21' (thanh 21, cùng thanh với to21 'nôn', cɛ21 'ruột'), trong khi Ostapirat (2000) / Edmondson (2008) ghi 'qu31'. Phần phonology.tones thiếu thông tin về thanh [21] của điểm Tân Lợi.",
+          "fix": "Bổ sung đối chiếu 'qu21' (Tân Lợi, Kosaka 2000) bên cạnh 'qu31' (Ostapirat 2000 / Edmondson 2008) trong lexicon và phonology.tones[4]."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần xác minh thực địa tại Bản Pắng và Bản Máy (Hoàng Su Phì / Xín Mần, Hà Giang) xem còn người cao tuổi nào nhớ tiếng La Chí Trắng (li˧˥pu˦pu˥) tách biệt với tiếng Nùng hay không.",
+      "Cần tách bạch rõ tư liệu từ vựng lịch sử của La Chí Trắng / Central Lachi (Bonifacy 1906, Robert 1916 trong Ostapirat 2000) khỏi dữ liệu điểm Tân Lợi của Kosaka (2000) vốn đang được ABVD gộp chung vào mã ISO lwh.",
+      "Chưa có tư liệu ký âm nhạc học (thang âm, điệu thức, luyến láy) riêng cho các bài hát Ni Ca và bài cúng Khu Cù Tê của nhóm La Chí Trắng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,98 @@
+{
+  "target": {
+    "id": "gie-trieng-stg",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Triêng",
+    "ethnic_group_vi": "Giẻ Triêng",
+    "iso639_3_expected": "stg",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Giẻ Triêng tại Việt Nam (mã ISO dự kiến: stg; bảng mã dân tộc gốc: gie-trieng). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"gie-trieng\"."
+  },
+  "started": "2026-11-13T23:23:35.878794",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9451,
+      "candidatesTokenCount": 11677,
+      "totalTokenCount": 29191,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9451
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11677
+        }
+      ],
+      "thoughtsTokenCount": 8063,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12459,
+      "candidatesTokenCount": 12736,
+      "totalTokenCount": 26628,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12459
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12736
+        }
+      ],
+      "thoughtsTokenCount": 1433,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "medium",
+        "problem": "Theo Bùi Đăng Bình (2024, tr. 66–67), âm tiết tiếng Triêng được phân thành 8 kiểu loại: (1) V, (2) C(C)V, (3) C(C)V1V2, (4) V1V2, (5) C(C)VC, (6) C(C)V1V2C, (7) C(C)VCC, (8) VC. Bản nháp hiện chỉ liệt kê 7 kiểu (bỏ sót kiểu loại 1 là V).",
+        "fix": "Bổ sung kiểu âm tiết V vào danh sách các kiểu âm tiết chính theo đúng mô tả của Bùi Đăng Bình (2024)."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "medium",
+        "problem": "Thứ tự đánh số âm vị nguyên âm trích dẫn từ Bùi Đăng Bình (2024, tr. 68–69) bị đảo lộn ở các âm vị số 3, 4, 5, 6: trong bài báo gốc, số 3 là /ie/, số 4 là /e/, số 5 là /iə/, số 6 là /ɛ/ (bản nháp ghi nhầm số 3 là /e/, số 4 là /ie/, số 5 là /ɛ/, số 6 là /iə/). Ngoài ra, ví dụ 'bhie (mưa)' ở mục /ie/ và 'luok (bùn)' ở mục /uo/ chưa chính xác so với bản gốc (trong bài báo gốc, từ 'mưa' có phụ âm đầu mũi m- kết hợp trong kiểu C(C)V1V2, còn từ 'bùn' thuộc tổ hợp phụ âm đầu lC- bị lỗi hiển thị font IPA trong PDF, không phải phụ âm đơn /l/).",
+        "fix": "Sửa lại số thứ tự âm vị 3 (/ie/), 4 (/e/), 5 (/iə/), 6 (/ɛ/) khớp với Bùi Đăng Bình (2024); thay ví dụ bị lỗi font PDF ('bhie', 'luok') bằng các ví dụ rõ ràng từ bài báo (/pie/ 'trên', /peh/ 'nháy mắt', /pah/ 'chẻ, bửa', /pih/ 'cái mẹt', /kial/ 'gió')."
+      },
+      {
+        "path": "phonology.onsets[14].note",
+        "severity": "low",
+        "problem": "Ví dụ 'luok /luok/ (bùn)' ở phụ âm /l/ và phụ âm cuối /-k/ thực chất trong bản gốc Bùi Đăng Bình (2024, Bảng 1 & mục 6) là từ có tổ hợp phụ âm đầu bắt đầu bằng l- (hiển thị thành 'l uok' do lỗi mất ký tự IPA đặc biệt trong lớp văn bản PDF), không chắc chắn là phụ âm đơn /l/.",
+        "fix": "Bỏ ví dụ 'luok' ở mục /l/ và /-k/ để tránh truyền tải dữ liệu lỗi trích xuất PDF, thay bằng các từ xác thực trong bài báo (như /kial/ 'gió', /acik/ 'gì')."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Tiếng Triêng chưa có bộ chữ viết chính thức; các ánh xạ con chữ (grapheme) sang IPA dựa trên quy ước chữ viết tiếng Ve (Bùi Đăng Bình 2025) và truyền thống ghi âm Bahnaric, trong khi hai bài báo về tiếng Triêng của Bùi Đăng Bình (2022, 2024) chỉ ghi bằng ký hiệu IPA. Việc để confidence='high' cho nhiều ánh xạ grapheme->IPA dễ gây hiểu lầm là chính tả đã chuẩn hóa.",
+        "fix": "Hạ confidence của các mục phụ thuộc vào quy ước chuyển tự chữ viết (chưa có chuẩn chính thức riêng cho tiếng Triêng) hoặc tổ hợp gộp nhiều âm vị xuống 'medium'."
+      },
+      {
+        "path": "music.instruments[1].note",
+        "severity": "low",
+        "problem": "Mô tả bộ Chiêng Nỉ ghi 'Ko - Tray - Ko - Xao' chưa phản ánh đầy đủ tư liệu điền dã tại Kon Tum (làng Đăk Răng, xã Đăk Nông/Dục Nông): nguyên bộ Chiêng Nỉ cổ gồm 4 chiếc là Ko (ông), Kon (cha), Tray (con trai), Sao (con rể); khi diễn tấu bộ '3 chiếc rưỡi' hoặc khi thất lạc chiêng Sao thì thay bằng ống nứa gọi là Dục tít.",
+        "fix": "Bổ sung thông tin chính xác về cấu trúc bộ Chiêng Nỉ (Ko - Kon - Tray - Sao / bộ 3 chiêng + 1 ống nứa Dục tít) theo tư liệu điền dã tại Kon Tum và Quảng Nam."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Chưa ghi trạng thái kiểm tra URL (url_check) cho các nguồn trực tuyến.",
+        "fix": "Cập nhật url_check='ok' cho các URL đã kiểm chứng hoạt động."
+      }
+    ]
+  },
+  "schema_errors": []
+}

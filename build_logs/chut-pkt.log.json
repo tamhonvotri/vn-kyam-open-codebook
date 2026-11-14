@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "chut-pkt",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mã Liềng",
+    "ethnic_group_vi": "Chứt",
+    "iso639_3_expected": "pkt",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chứt tại Việt Nam (mã ISO dự kiến: pkt; bảng mã dân tộc gốc: chut). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"chut\"."
+  },
+  "started": "2026-11-13T23:15:21.238285",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9439,
+      "candidatesTokenCount": 9759,
+      "totalTokenCount": 28921,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9439
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9759
+        }
+      ],
+      "thoughtsTokenCount": 9723,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11864,
+      "candidatesTokenCount": 10751,
+      "totalTokenCount": 22615,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11864
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10751
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.codas[4]",
+        "severity": "medium",
+        "problem": "Âm tắc thanh hầu cuối âm tiết /-ʔ/ trong các ngôn ngữ Vietic thuộc hệ thống chuyển tiếp thanh tính (tonation) như Mã Liềng và Kri Phoọng thường được xử lý là đặc trưng thanh tính (glottalization/creakiness) gắn với thanh-vực (như T3_B từ *-ʔ lịch sử hoặc [25ʔ], [52ʔ] ở Kri Phoọng) hơn là một âm vị phụ âm cuối (segmental coda) độc lập đối lập trực tiếp với /-p, -t, -c, -k/. Danh sách âm cuối của Tạ Quang Tùng (2025) cho Kri Phoọng chỉ gồm /p, t, c, k, m, n, ɲ, ŋ, w, l, j, h, r/ và tổ hợp /jh/.",
+        "fix": "Hạ confidence của mục coda '-q / -'' (ipa: 'ʔ') từ 'medium' xuống 'low' và làm rõ trong note rằng đây thường là thành tố siêu đoạn tính của thanh-vực hơn là phụ âm cuối độc lập."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Một số mục từ vựng cụ thể kèm ký hiệu số thanh điệu (như 'kwo¹', 'two¹', 'ɣɤk⁷', 'nde¹', 'ŋwop⁷', 'pəkiëŋ²', 'nɤj³', 'ɔk', 'kɛ') được trích dẫn từ các nghiên cứu chuyên sâu về Mã Liềng nhưng chưa thể đối chiếu trực tiếp từng ký tự thanh điệu trên bản văn mở; ngoài ra ký hiệu thanh điệu trong lexicon chưa đồng nhất (vừa dùng số mũ ¹ ² ³ ⁷ vừa dùng thanh chữ Chao ˧˦ ở 'ɗak˧˦' hoặc không ghi thanh ở 'ətak', 'mat', 'muh').",
+        "fix": "Hạ confidence của các từ vựng chưa kiểm chứng trực tiếp được mặt chữ/thanh điệu từ 'high' xuống 'medium', đồng thời bổ sung ghi chú vào validation.open_issues về việc chuẩn hóa hệ thống ký hiệu thanh-vực trong lexicon."
+      },
+      {
+        "path": "sources[1].url",
+        "severity": "low",
+        "problem": "Luận án tiến sĩ của Albert Badosa Roldós (2025) đã có định danh lưu trữ chính thức trên HAL Thèses (tel-05633302) nhưng trường url đang để null.",
+        "fix": "Cập nhật URL 'https://theses.hal.science/tel-05633302' cho nguồn Badosa Roldós (2025)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

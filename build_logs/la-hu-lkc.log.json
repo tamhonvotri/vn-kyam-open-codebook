@@ -1,0 +1,78 @@
+{
+  "target": {
+    "id": "la-hu-lkc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Khù Sung (La Hủ Na)",
+    "ethnic_group_vi": "La Hủ",
+    "iso639_3_expected": "lkc",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc La Hủ tại Việt Nam (mã ISO dự kiến: lkc; bảng mã dân tộc gốc: la-hu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"la-hu\"."
+  },
+  "started": "2026-11-13T23:37:56.408676",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9454,
+      "candidatesTokenCount": 7685,
+      "totalTokenCount": 17139,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9454
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7685
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9775,
+      "candidatesTokenCount": 8549,
+      "totalTokenCount": 18324,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9775
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8549
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[11]",
+        "severity": "high",
+        "problem": "Từ 'cái gối' (pillow) được ghi là 'u35 ɡɔ53', nhưng theo bảng đối chiếu trong Edmondson (2002: 8), dạng 'u35 ɡɔ53' là của tiếng Lahu trong từ điển Matisoff (1988) và phương ngữ Tư Mao - Lan Thương (Semao Lanchang), còn dạng thực tế ghi nhận ở tiếng La Hủ Đen tại Việt Nam (Viet Lahu) là 'u35 ko53' (với phụ âm đầu vô thanh /k/ và nguyên âm /o/).",
+        "fix": "Sửa form và ipa thành 'u35 ko53', nâng confidence lên 'high' và bổ sung từ mục đối chiếu từ Edmondson (2002)."
+      },
+      {
+        "path": "lexicon[1]",
+        "severity": "medium",
+        "problem": "Từ 'người' được ghi là 'tsʰo33', mâu thuẫn với thành tố thứ hai của tên tự gọi 'kʰu33 tsʰɔ33' (/tsʰɔ33/ 'người') trong Edmondson (2002).",
+        "fix": "Sửa form và ipa của từ 'người' thành 'tsʰɔ33' (và cập nhật tương ứng trong ml_hints.sample_words)."
+      },
+      {
+        "path": "sources[7].title",
+        "severity": "medium",
+        "problem": "Bài báo 'Đặc điểm từ loại danh từ tiếng La Hủ ở Việt Nam' trên Tạp chí Ngôn ngữ Số 9 (2024), tr. 36–42 chỉ có một tác giả là Phan Hoàng Anh (theo Tổng mục lục Tạp chí Ngôn ngữ 2024 của Viện Ngôn ngữ học và VJOL), việc ghi thêm đồng tác giả 'Phạm Thị Thảo' là không chính xác.",
+        "fix": "Bỏ tên đồng tác giả không có thật, sửa thành 'Phan Hoàng Anh (2024)...' và bổ sung URL VJOL."
+      }
+    ]
+  },
+  "schema_errors": []
+}

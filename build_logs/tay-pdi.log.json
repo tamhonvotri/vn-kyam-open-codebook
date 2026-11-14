@@ -1,0 +1,74 @@
+{
+  "target": {
+    "id": "tay-pdi",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pa Dí",
+    "ethnic_group_vi": "Tày",
+    "iso639_3_expected": "pdi",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Tày tại Việt Nam (mã ISO dự kiến: pdi; bảng mã dân tộc gốc: tay). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"tay\"."
+  },
+  "started": "2026-11-13T23:50:01.099909",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9438,
+      "candidatesTokenCount": 4872,
+      "totalTokenCount": 18175,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9438
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 4872
+        }
+      ],
+      "thoughtsTokenCount": 3865,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 6520,
+      "candidatesTokenCount": 5070,
+      "totalTokenCount": 12216,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6520
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 5070
+        }
+      ],
+      "thoughtsTokenCount": 626,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "lexicon[2].confidence",
+        "severity": "low",
+        "problem": "Địa danh 'Mưng Khang' (hoặc 'Mưng Khảng') được ghi nhận trong tư liệu văn học - báo chí địa phương Mường Khương như tên gọi cổ vùng đất này của đồng bào Tày/Nùng/Pa Dí nói chung, chưa có chứng thực ngữ âm học chuyên biệt xác nhận đây là từ thuần tiếng Pa Dí độc lập với các nhóm Tày-Nùng lân cận.",
+        "fix": "Hạ độ tin cậy (confidence) của mục từ 'Mưng Khang' trong lexicon xuống 'low' và ghi chú rõ biến thể 'Mưng Khảng'."
+      },
+      {
+        "path": "phonology.syllable_structure",
+        "severity": "low",
+        "problem": "Cấu trúc âm tiết '(C1)(w)V(C2)+T' là cấu trúc tiêu chuẩn suy diễn theo loại hình học nhánh Thái Tây Nam (Southwestern Tai), chưa có khảo tả âm vị học chuyên sâu riêng cho điểm Mường Khương.",
+        "fix": "Bổ sung ghi chú vào validation.open_issues để làm rõ cấu trúc âm tiết hiện tại là suy diễn loại hình học từ nhánh Thái Tây Nam."
+      }
+    ]
+  },
+  "schema_errors": []
+}

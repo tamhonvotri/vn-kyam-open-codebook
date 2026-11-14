@@ -1,0 +1,809 @@
+{
+  "id": "ba-na-ren",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Rơ Ngao",
+  "name_en": "Rengao",
+  "autonym": "nâr Rơngao",
+  "ethnic_group_vi": "Ba Na",
+  "language": {
+    "iso639_3": "ren",
+    "glottocode": "reng1252",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric)"
+  },
+  "regions": [
+    "Khu vực thành phố Kon Tum, huyện Đăk Hà, huyện Sa Thầy, huyện Đăk Tô thuộc tỉnh Kon Tum cũ (nay thuộc tỉnh Quảng Ngãi sau sắp xếp hành chính năm 2025), vùng tiếp giáp giữa người Ba Na và người Xơ Đăng"
+  ],
+  "speakers_estimate": "Khoảng 18.000 – 21.000 người (ước tính 2007–2025)",
+  "scripts": [
+    {
+      "name": "Chữ Rơ Ngao Latinh (dựa trên chữ Quốc ngữ và truyền thống chữ Ba Na Latinh)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ Latinh được Kenneth & Marilyn Gregerson cùng các cộng tác viên bản ngữ (Paul Neo, Paul Hyum, André Ir) chuẩn hóa giai đoạn 1968–1977 từ nền tảng chữ Ba Na/Quốc ngữ: dùng dấu trăng (ă, ĭ, ŭ, ŏ) ghi nguyên âm ngắn, dấu huyền (à, è, ì, ò, ù, ằ, ĭ̀, ŭ̀) ghi âm vực chùng/thở (lax register), chữ -q ghi âm tắc thanh hầu cuối âm tiết /ʔ/, và dấu nháy đơn trước phụ âm vang ('m, 'n, 'nh, 'ng...) ghi âm tiền thanh hầu hóa. Trong hành chính và giáo dục phổ thông cấp tỉnh, người Rơ Ngao được xếp vào dân tộc Ba Na nên chữ Ba Na giữ vai trò chữ dân tộc chính thức."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình ngôn ngữ học thực địa về tiếng Rơ Ngao của Kenneth J. Gregerson & Marilyn Gregerson (1974, 1976, 1977, 1979, 1980, 1984, 2026) và cơ sở dữ liệu Glottolog/Ethnologue. Lưu ý phân loại: về mặt tộc người tại Việt Nam, người Rơ Ngao là một nhóm địa phương của dân tộc Ba Na, nhưng về mặt ngôn ngữ học lịch sử, tiếng Rơ Ngao (ISO: ren) thuộc nhánh Bắc Bahnaric (gần với tiếng Xơ Đăng, Hrê, Halăng, Giẻ), khác với tiếng Ba Na chính (ISO: bdq, nhánh Trung Bahnaric). Cần người bản xứ Rơ Ngao và nhà ngôn ngữ học Môn-Khmer thẩm định.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C(C)V(ː)(C) + Register (cấu trúc âm tiết một rưỡi / sesquisyllabic điển hình Môn-Khmer)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Tắc hai môi hữu thanh / tiền thanh hầu hóa tùy vị trí và phương ngữ (trong một số tài liệu cũng ghi 'b cho âm tiền thanh hầu hóa như ''Bai pơchrâm')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'m",
+        "ipa": "ʔm",
+        "note": "Mũi hai môi tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mạc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'w",
+        "ipa": "ʔw",
+        "note": "Bán nguyên âm môi-mạc tiền thanh hầu hóa",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̪",
+        "note": "Tắc răng/lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / 'd",
+        "ipa": "d̪ ~ ɗ",
+        "note": "Tắc đầu lưỡi hữu thanh / tiền thanh hầu hóa (viết d không gạch ngang hoặc 'd như trong 'dòng tùy vị trí/tài liệu của Gregerson)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'n",
+        "ipa": "ʔn",
+        "note": "Mũi đầu lưỡi tiền thanh hầu hóa (ví dụ: ka'nằl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x (hoặc s)",
+        "ipa": "s",
+        "note": "Xát lợi/mặt lưỡi vô thanh; chính tả Gregerson thường dùng x (như chữ Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi; xuất hiện độc lập hoặc trong tổ hợp phụ âm Cr-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi; xuất hiện độc lập hoặc trong tổ hợp phụ âm Cl-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'l",
+        "ipa": "ʔl",
+        "note": "Bên đầu lưỡi tiền thanh hầu hóa (ví dụ: 'lòng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "t͡ʃ ~ c",
+        "note": "Tắc/tắc-xát mặt lưỡi - ngạc vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "d͡ʒ ~ ɟ",
+        "note": "Tắc/tắc-xát mặt lưỡi - ngạc hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi - ngạc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'nh",
+        "ipa": "ʔɲ",
+        "note": "Mũi ngạc tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc; cũng làm âm đệm trong tổ hợp Cy- (ví dụ: pyan)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'y",
+        "ipa": "ʔj",
+        "note": "Bán nguyên âm ngạc tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc mạc vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc mạc hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi mạc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'ng",
+        "ipa": "ʔŋ",
+        "note": "Mũi mạc tiền thanh hầu hóa (ví dụ: 'ngèh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "∅ / '",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết trước nguyên âm",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "pl, bl, pr, br, tr, dr, chr, xr, kr, gr, kl, gl, kw, py, hm",
+        "ipa": "pl, bl, pr, br, ʈ ~ tr, ɖ ~ dr, cʰr ~ t͡ʃr, sr, kr, ɡr, kl, ɡl, kw, pj, m̥",
+        "note": "Hệ thống tổ hợp phụ âm đầu phong phú của nhánh Bắc Bahnaric (ví dụ: pơchrâm, pyan, xrằnh, kwành, hmằn)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i (âm vực chùng: ì)",
+        "ipa": "iː",
+        "note": "Nguyên âm trước khép dài, gốc lưỡi tiến [+ATR] ở âm vực chùng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ / ĭ̀",
+        "ipa": "i",
+        "note": "Nguyên âm trước khép ngắn (dấu trăng ghi độ ngắn, dấu huyền ghi âm vực chùng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / ê (âm vực căng)",
+        "ipa": "eɪ ~ ɪ",
+        "note": "Ở âm vực căng [-ATR]/[+RTR], nguyên âm khép có xu hướng mở hơn hoặc lướt nhẹ [ei]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / è",
+        "ipa": "eː",
+        "note": "Nguyên âm trước nửa khép dài [+ATR] (âm vực chùng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm trước nửa mở dài [-ATR] (âm vực căng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ ~ e",
+        "note": "Nguyên âm trước độ mở trung bình ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ (âm vực chùng: ờ)",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa trung bình dài [+ATR]; trong tiền âm tiết (ka-, pơ-/po-) đọc lướt nhẹ [ə]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa trung bình ngắn (ví dụ: nâr, pơchrâm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / à",
+        "ipa": "aː ~ ɑː",
+        "note": "Nguyên âm mở dài; biến đổi âm sắc theo âm vực căng [-ATR] so với chùng [+ATR]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă / ằ",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (ví dụ: măt, kalằp, ka'nằl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u (âm vực chùng: ù)",
+        "ipa": "uː",
+        "note": "Nguyên âm sau khép tròn môi dài [+ATR]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ / ŭ̀",
+        "ipa": "u",
+        "note": "Nguyên âm sau khép tròn môi ngắn (ví dụ: hŭ̀l, ralŭ̀ng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / ô (âm vực căng)",
+        "ipa": "oʊ ~ ʊ",
+        "note": "Ở âm vực căng [-ATR], nguyên âm sau khép có xu hướng hạ thấp hoặc lướt [ou]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ò",
+        "ipa": "oː",
+        "note": "Nguyên âm sau nửa khép tròn môi dài [+ATR] (âm vực chùng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm sau nửa mở tròn môi dài [-ATR] (âm vực căng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ ~ o",
+        "note": "Nguyên âm sau tròn môi ngắn (ví dụ: rŏl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia, ua",
+        "ipa": "iə, uə",
+        "note": "Nguyên âm đôi; nhiều nguyên âm đôi lịch sử Bắc Bahnaric đã đơn âm hóa trong tiếng Rơ Ngao trung tâm, đồng thời nảy sinh nguyên âm lướt đầu ở âm vực căng",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng không bật ra (ví dụ: kalằp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi đóng không bật ra (ví dụ: măt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi đóng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc mạc đóng (ví dụ: dak)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ: biq, loq, khoq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cuối âm tiết (ví dụ: kwành, xrằnh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi mạc cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: rŏl, hŭ̀l, ka'nằl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: nâr)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: oh, dĭ̀h, 'ngèh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối âm tiết (ví dụ: Mơnăy)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm tròn môi cuối âm tiết (ví dụ: aw, pajaw)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "yh, wh",
+        "ipa": "jh, wh",
+        "note": "Bán nguyên âm kèm xát thanh hầu cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: ngàyh, boyh)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu đường nét kiểu tiếng Việt; đối lập 2 âm vực (register) kinh điển của ngữ tộc Môn-Khmer dựa trên vị trí gốc lưỡi và kích thước khoang hầu (Gregerson 1976, 1984): (1) Âm vực 1 — Căng/Trong (First/Tense register, gốc lưỡi lùi [-ATR]/[+RTR], khoang hầu hẹp, thanh quản bình thường đến cao, giọng trong/căng, nguyên âm mở hơn [ei, ɛ, a, ɔ, ou], chính tả không đánh dấu thanh); (2) Âm vực 2 — Chùng/Thở (Second/Lax register, gốc lưỡi tiến [+ATR], khoang hầu mở rộng, thanh quản hạ thấp, giọng trầm vang sâu/hơi thở, nguyên âm khép hơn [i, e, ə, o, u], chính tả đánh dấu huyền). Tồn tại hiện tượng hài hòa âm vực giữa tiền âm tiết và âm tiết chính, cũng như biểu trưng ngữ âm kích thước (khoang hầu mở/âm vực chùng biểu thị vật lớn, khoang hầu hẹp/âm vực căng biểu thị vật nhỏ) trong từ tượng thanh - tượng hình."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tiếng nói / lời nói",
+      "form": "nâr",
+      "ipa": "nər",
+      "gloss_en": "language / word / speech",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dak",
+      "ipa": "daːk̚",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tôi",
+      "form": "aw",
+      "ipa": "aːw",
+      "gloss_en": "I / me (1sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "biết",
+      "form": "loq",
+      "ipa": "lɔʔ",
+      "gloss_en": "to know",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "không (phủ định)",
+      "form": "biq ... oh",
+      "ipa": "biʔ ... ɔh",
+      "gloss_en": "not (bipartite negation)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái gì",
+      "form": "ba",
+      "ipa": "baː",
+      "gloss_en": "what",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trở về",
+      "form": "pyan",
+      "ipa": "pjaːn",
+      "gloss_en": "to return",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "học / dạy học",
+      "form": "pơchrâm",
+      "ipa": "pə.t͡ʃrəm",
+      "gloss_en": "to study / lesson",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con bướm",
+      "form": "măt meng",
+      "ipa": "mat̚ mɛŋ",
+      "gloss_en": "butterfly",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bản thân / tự mình",
+      "form": "dĭ̀h (kadĭ̀h)",
+      "ipa": "di̤h",
+      "gloss_en": "self (reflexive)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tức giận",
+      "form": "rŏl (hŭ̀l)",
+      "ipa": "rɔl",
+      "gloss_en": "to be angry",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "suy nghĩ / nghĩ về",
+      "form": "'ngèh",
+      "ipa": "ʔŋe̤ːh",
+      "gloss_en": "to think about",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cái nắp (ché/gùi)",
+      "form": "ka'nằl (kalằp)",
+      "ipa": "kə.ʔna̤l (kə.la̤p̚)",
+      "gloss_en": "a jar lid",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát kể sử thi Hơmon (Ba Na - Rơ Ngao)",
+        "note": "Di sản văn hóa phi vật thể quốc gia (Quyết định số 4205/QĐ-BVHTTDL ngày 19/12/2014), diễn xướng kết hợp kể văn xuôi và hát vần tự nhiên trong sinh hoạt cộng đồng tại Đăk Hà, Sa Thầy (tiêu biểu là xã Hơ Moong) và khu vực TP. Kon Tum."
+      },
+      {
+        "name": "Dân ca nghi lễ và sinh hoạt Rơ Ngao",
+        "note": "Các thể loại hát gắn với không gian buôn làng, rẫy nương, hát giao duyên, hát ru và lễ hội truyền thống (lễ Nước giọt cúng thần nước Yàng Ia, lễ mừng lúa mới, mừng nhà Rông), được Marilyn Gregerson (1980) ghi nhận có cấu trúc giai điệu gắn chặt với bối cảnh diễn xướng."
+      },
+      {
+        "name": "Nhạc cồng chiêng và múa xoang Ba Na - Rơ Ngao",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO công nhận năm 2005)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Cồng chiêng (bộ chiêng cổ Rơ Ngao)"
+      },
+      {
+        "name": "Đàn tơ-rưng"
+      },
+      {
+        "name": "Đàn ting ning"
+      },
+      {
+        "name": "Đàn klông pút"
+      },
+      {
+        "name": "Sáo trúc và kèn dân gian"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "ba-na",
+    "classification_note": "Mặc dù người Rơ Ngao thuộc dân tộc Ba Na theo danh mục 54 dân tộc Việt Nam (parent_codebook='ba-na'), tiếng Rơ Ngao (ISO: ren) thuộc nhánh Bắc Bahnaric, khác phân nhánh với tiếng Ba Na chính (ISO: bdq, Trung Bahnaric). Khi huấn luyện hoặc chuyển giao mô hình TTS/ASR, nên tận dụng thêm ngữ liệu Bắc Bahnaric (Xơ Đăng, Halăng, Giẻ, Hrê) bên cạnh tiếng Ba Na.",
+    "sub_varieties": [
+      {
+        "name": "Western Rengao / Central Rengao (Rơ Ngao Tây / Trung tâm)",
+        "iso639_3": "ren",
+        "glottocode": "west2400",
+        "note": "Biến thể trung tâm đặc trưng nhất của tiếng Rơ Ngao (vùng Plei Jơdrâp, Đăk Wơk), ít bị đồng hóa bởi ngôn ngữ lân cận."
+      },
+      {
+        "name": "Sedang-Rengao (Rơ Ngao - Xơ Đăng)",
+        "iso639_3": "ren",
+        "glottocode": "seda1260",
+        "note": "Biến thể vùng Đăk Kơđem, chịu ảnh hưởng tiếp xúc mạnh từ tiếng Xơ Đăng (ISO: sed)."
+      },
+      {
+        "name": "Bahnar-Rengao (Rơ Ngao - Ba Na)",
+        "iso639_3": "ren",
+        "glottocode": "bahn1261",
+        "note": "Biến thể ở các làng ven TP. Kon Tum, chịu ảnh hưởng từ vựng và ngữ âm mạnh từ tiếng Ba Na (ISO: bdq)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "nâr",
+        "quoc_ngu": "nơ-r",
+        "note": "Tiếng Việt không có phụ âm cuối /-r/; mô hình chỉ biết tiếng Việt chỉ đọc được 'nơ', mất âm rung/vỗ cuối âm tiết."
+      },
+      {
+        "native": "dak",
+        "quoc_ngu": "đác",
+        "note": "Chữ d trong chính tả Rơ Ngao đọc là [d/ɗ] (tương ứng chữ đ Quốc ngữ), không đọc là [z/j] như chữ d tiếng Việt; nguyên âm a dài kèm âm cuối -k tương tự thanh sắc nhưng không lên cao gắt."
+      },
+      {
+        "native": "aw",
+        "quoc_ngu": "ao",
+        "note": "Nguyên âm a dài kết thúc bằng bán nguyên âm /-w/, gần với 'ao' tiếng Việt ở thanh ngang."
+      },
+      {
+        "native": "biq loq oh",
+        "quoc_ngu": "bị lọ o-h",
+        "note": "Âm cuối -q /-ʔ/ ngắt thanh hầu đột ngột (xấp xỉ thanh nặng ngắn miền Bắc nhưng không hạ giọng sâu); âm cuối -h /-h/ xát thanh hầu không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "rŏl / hŭ̀l",
+        "quoc_ngu": "rŏn-l / hùn-l",
+        "note": "Tiếng Việt không có âm bên cuối âm tiết /-l/; âm vực chùng (dấu huyền trong hŭ̀l) cần phát âm giọng trầm, hơi thở (breathy/deep voice) chứ không chỉ hạ cao độ."
+      },
+      {
+        "native": "'ngèh / ngàyh",
+        "quoc_ngu": "ngè-h / ngài-h",
+        "note": "Tiếng Việt không có phụ âm mũi tiền thanh hầu hóa /ʔŋ-/ ('ng-) và tổ hợp âm cuối /-jh/ (-yh)."
+      },
+      {
+        "native": "pơchrâm",
+        "quoc_ngu": "pơ-trâm",
+        "note": "Tiền âm tiết pơ- đọc lướt nhẹ [pə] (sesquisyllable); tổ hợp phụ âm đầu chr- không có trong tiếng Việt, chỉ xấp xỉ gần nhất bằng tr-/ch-."
+      },
+      {
+        "native": "pyan",
+        "quoc_ngu": "pi-an / pian",
+        "note": "Tổ hợp phụ âm đầu /pj-/ đọc liền một âm tiết, không tách thành hai âm tiết rời."
+      }
+    ],
+    "phonemes_absent_in_vietnamese": [
+      "Đối lập 2 âm vực thanh hầu/gốc lưỡi (tense RTR vs. lax/breathy ATR) không tương đương trực tiếp với hệ 6 thanh điệu tiếng Việt",
+      "Đối lập độ dài nguyên âm toàn hệ thống (dài - ngắn ở hầu hết các vị trí nguyên âm)",
+      "Phụ âm cuối /-r/, /-l/, /-h/, /-ʔ/ (-q) và tổ hợp cuối /-jh/ (-yh), /-wh/ (-wh)",
+      "Chuỗi phụ âm vang tiền thanh hầu hóa /ʔm, ʔn, ʔɲ, ʔŋ, ʔl, ʔw, ʔj/",
+      "Tổ hợp phụ âm đầu đa dạng /pl, bl, pr, br, chr, xr, kr, gr, kl, gl, py.../"
+    ],
+    "sample_words": [
+      {
+        "native": "nâr",
+        "ipa": "nər",
+        "gloss_vi": "tiếng nói, ngôn ngữ, lời",
+        "gloss_en": "language, word"
+      },
+      {
+        "native": "dak",
+        "ipa": "daːk̚",
+        "gloss_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "aw",
+        "ipa": "aːw",
+        "gloss_vi": "tôi",
+        "gloss_en": "I, me"
+      },
+      {
+        "native": "loq",
+        "ipa": "lɔʔ",
+        "gloss_vi": "biết",
+        "gloss_en": "to know"
+      },
+      {
+        "native": "biq ... oh",
+        "ipa": "biʔ ... ɔh",
+        "gloss_vi": "không (phủ định)",
+        "gloss_en": "not"
+      },
+      {
+        "native": "ba",
+        "ipa": "baː",
+        "gloss_vi": "cái gì",
+        "gloss_en": "what"
+      },
+      {
+        "native": "pyan",
+        "ipa": "pjaːn",
+        "gloss_vi": "trở về",
+        "gloss_en": "to return"
+      },
+      {
+        "native": "pơchrâm",
+        "ipa": "pə.t͡ʃrəm",
+        "gloss_vi": "học, bài học",
+        "gloss_en": "to study, lesson"
+      },
+      {
+        "native": "măt meng",
+        "ipa": "mat̚ mɛŋ",
+        "gloss_vi": "con bướm",
+        "gloss_en": "butterfly"
+      },
+      {
+        "native": "dĭ̀h (kadĭ̀h)",
+        "ipa": "di̤h",
+        "gloss_vi": "tự mình, bản thân",
+        "gloss_en": "self"
+      },
+      {
+        "native": "rŏl (hŭ̀l)",
+        "ipa": "rɔl",
+        "gloss_vi": "tức giận",
+        "gloss_en": "to be angry"
+      },
+      {
+        "native": "'ngèh",
+        "ipa": "ʔŋe̤ːh",
+        "gloss_vi": "suy nghĩ, nghĩ về",
+        "gloss_en": "to think about"
+      },
+      {
+        "native": "ka'nằl (kalằp)",
+        "ipa": "kə.ʔna̤l (kə.la̤p̚)",
+        "gloss_vi": "cái nắp (ché)",
+        "gloss_en": "a jar lid"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Gregerson, Kenneth J. & Gregerson, Marilyn (2026). A Grammar and Dictionary of Rengao: An Austroasiatic Language of the Vietnam Central Highlands (edited by Paul Sidwell). Leiden: Brill.",
+      "url": "https://doi.org/10.1163/9789004755178",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Gregerson, Kenneth J. (1976). Tongue-root and register in Mon-Khmer. In Philip N. Jenner, Laurence C. Thompson & Stanley Starosta (eds.), Austroasiatic Studies, Part I (Oceanic Linguistics Special Publication No. 13), pp. 323–369. Honolulu: University Press of Hawaii.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gregerson, Kenneth J. (1979). Predicate and Argument in Rengao Grammar. Dallas: Summer Institute of Linguistics & University of Texas at Arlington.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gregerson, Kenneth J. (1984). Pharynx symbolism and Rengao phonology. Lingua, 62(3), 209–238.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Neo, Paul & Gregerson, Marilyn B. (1974). 'Bai pơchrâm nâr Rơngao = Bài học tiếng Rơngao = Rongao language lessons. Tủ sách Ngôn-ngữ Dân-tộc Thiểu-số Việt-Nam, cuốn 19. Sài Gòn: Bộ Giáo-dục & Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gregerson, Kenneth J. & Gregerson, Marilyn B. (1977). Ngữ-vựng Rơngao = Rengao vocabulary. Tủ sách Ngôn-ngữ Dân-tộc Thiểu-số Việt-Nam, cuốn 19, phần 1. Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gregerson, Marilyn (1980). Rengao vocal music. In Marilyn Gregerson & Dorothy Thomas (eds.), Notes from Indochina on Ethnic Minority Cultures, pp. 135–142. Dallas: SIL Museum of Anthropology.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Rengao (reng1252)",
+      "url": "https://glottolog.org/resource/languoid/id/reng1252",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Rengao (ren)",
+      "url": "https://www.ethnologue.com/language/ren/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Rengao (wals_code_rng)",
+      "url": "https://wals.info/languoid/lect/wals_code_rng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Rengao language & Tiếng Rơ Ngao",
+      "url": "https://en.wikipedia.org/wiki/Rengao_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[2].glottocode",
+          "severity": "low",
+          "problem": "Biến thể Bahnar-Rengao được để glottocode là null, trong khi Glottolog 5.3 có mã chính thức là 'bahn1261'.",
+          "fix": "Cập nhật glottocode của Bahnar-Rengao thành 'bahn1261'."
+        },
+        {
+          "path": "lexicon[7].form",
+          "severity": "low",
+          "problem": "Từ 'pochrâm' trong các thư mục của Glottolog thực chất là bản lược dấu từ tên sách gốc của Paul Neo & Marilyn Gregerson (1974): ''Bai pơchrâm nâr Rơngao' (với chữ ơ có dấu móc ở tiền âm tiết pơ-).",
+          "fix": "Sửa 'pochrâm' thành 'pơchrâm (hoặc pochrâm)' ở lexicon và ml_hints, đồng thời nâng độ tin cậy."
+        },
+        {
+          "path": "lexicon[12]",
+          "severity": "low",
+          "problem": "Mục từ 'kanăp' (lid of a basket) khó đối chiếu trực tiếp hơn so với các biến thể đã được xuất bản rõ trong Phụ lục phương ngữ của Gregerson & Gregerson (2026) là 'ka'nằl / kalằp' (a jar lid).",
+          "fix": "Bổ sung 'ka'nằl / kalằp' bên cạnh 'kanăp' và hạ confidence của 'kanăp' hoặc ghi rõ biến thể phương ngữ từ nguồn Brill (2026)."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các trường url_check trong sources đang để null dù các URL (DOI Brill 2026, Glottolog, Ethnologue, WALS, Wikipedia) đều hoạt động và kiểm chứng được.",
+          "fix": "Cập nhật url_check = 'ok' cho các URL đã xác thực và bổ sung ấn phẩm Neo & Gregerson (1974) / Gregerson & Gregerson (1977)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết quy ước chính tả giữa bộ từ điển Rengao của Gregerson & Gregerson (1977, 2026) và cách viết thực tế hiện nay của cộng đồng Ba Na - Rơ Ngao tại Kon Tum / Quảng Ngãi (ví dụ mức độ dùng chữ d/'d so với đ, b/'b, x so với s, và việc lược bỏ dấu huyền ghi âm vực trong văn bản thông thường).",
+      "Cần kiểm chứng mức độ phân biệt giữa phụ âm tắc hữu thanh thường [b, d] và tiền thanh hầu hóa [ɓ, ɗ] qua từng phương ngữ (Western Rengao, Sedang-Rengao, Bahnar-Rengao).",
+      "Chưa có mô tả âm nhạc học định lượng (thang âm, quãng luyến, ABC notation) cho hát kể sử thi Hơmon và dân ca Rơ Ngao."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

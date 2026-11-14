@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "dao-mji",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Kim Mun (Dao Làn Tẻn / Thanh Y / Quần Trắng)",
+    "ethnic_group_vi": "Dao",
+    "iso639_3_expected": "mji",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Dao tại Việt Nam (mã ISO dự kiến: mji; bảng mã dân tộc gốc: dao). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"dao\"."
+  },
+  "started": "2026-11-13T23:21:12.025354",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9451,
+      "candidatesTokenCount": 10749,
+      "totalTokenCount": 28286,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9451
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10749
+        }
+      ],
+      "thoughtsTokenCount": 8086,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12165,
+      "candidatesTokenCount": 11689,
+      "totalTokenCount": 25333,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12165
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11689
+        }
+      ],
+      "thoughtsTokenCount": 1479,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "lexicon[9].ipa",
+        "severity": "high",
+        "problem": "Mục từ 'kwal' (dưa) đang được phiên âm IPA là 'kwaːl⁵²', giữ nguyên âm cuối /-l/. Điều này mâu thuẫn trực tiếp với hệ thống âm cuối của tiếng Kim Mun (không có âm cuối /-l/) và quy tắc chính tả nêu tại ml_hints.orthography_parsing_warning rằng chữ '-l' cuối từ là ký hiệu thanh điệu (tone_l), không phải phụ âm cuối (lỗi do nhầm với mục từ đồng hình tiếng Boghom/Mangas '/kwal/' trên cùng trang Wiktionary).",
+        "fix": "Sửa IPA của 'kwal' thành 'kwaː⁵²'."
+      },
+      {
+        "path": "lexicon[15].ipa, lexicon[16].ipa, lexicon[17].ipa",
+        "severity": "medium",
+        "problem": "Thiếu nhất quán nội bộ về hệ quy chiếu phương ngữ khi ghi trị số thanh điệu trong bảng từ vựng (lexicon): các từ mang thanh '-h' như 'mŭnh', 'kêmh', 'făngh', 'ngongh', 'ngamh' được ghi thanh 11 (theo cột Lào Cai), nhưng 'ah' (một) và 'duh' (chín) lại ghi thanh 33 (theo cột tổng quát trên Wiktionary); tương tự, các từ mang thanh '-l' như 'wuoml', 'bingl', 'xeoml', 'kôkl' ghi thanh 52 (cột Lào Cai), nhưng 'il' (hai) lại ghi thanh 35 (cột Lào). Ngoài ra, 'laf' (mặt trăng) dùng ký hiệu thanh nhập '-f' nhưng nguyên âm mở 'laː⁵⁵' chưa phản ánh âm tắc thanh hầu cuối lịch sử hoặc sự phân bố của '-f' ngoài vần tắc.",
+        "fix": "Chuẩn hóa IPA trong lexicon theo cùng hệ quy chiếu Lào Cai (kèm biến thể '~ 33' / '~ 35' để đối chiếu với Wiktionary) và hạ confidence của 'laf', 'ah', 'il', 'duh' xuống 'medium'."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "medium",
+        "problem": "Bảng thanh điệu trên Wikipedia tiếng Việt chỉ liệt kê 9 ký hiệu (d, s, h, x, c, l, b, z, f), trong khi Từ điển Kêmh Mŭnh-Việt (Nguyễn Việt Khôi 2023) dùng thêm ký hiệu '-v' (như trong 'kwăiv', 'bav', 'klôv') và cho phép các ký hiệu thanh không nhập như '-d', '-l', '-x' đi sau âm tiết đóng kết thúc bằng -p/-t/-k/-q (như 'sliqd', 'kôkl', 'băkx', 'kyĕtd'). Việc gộp thẳng '-v' vào 'tone_h' (11) và giới hạn âm tiết tắc chỉ đi với 'c, b, f' chưa được kiểm chứng đầy đủ từ tài liệu gốc.",
+        "fix": "Hạ confidence của 'tone_h' và 'lexicon[14]' ('kwăiv') xuống 'medium'; cập nhật mô tả ở 'phonology.tones' và 'validation.open_issues' về phân bố của ký hiệu '-v' cũng như các thanh '-d, -l, -x' trên âm tiết đóng tắc."
+      },
+      {
+        "path": "phonology.vowels[4].note",
+        "severity": "low",
+        "problem": "Ghi chú nguyên âm 'ê' nói rằng giữ [eː] ở Quảng Ninh và nâng lên [i] ở Lào Cai trong một số vần đóng, nhưng trong bảng nguyên âm chung chưa nêu rõ biến thể có lướt ngạc cứng cuối từ [eʲ] được ghi nhận trong Clark (2008).",
+        "fix": "Bổ sung ghi chú biến thể [eʲ] ở vị trí cuối từ theo Clark (2008)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

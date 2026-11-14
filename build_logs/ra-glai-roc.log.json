@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "ra-glai-roc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Raglai Các Gia",
+    "ethnic_group_vi": "Ra Glai",
+    "iso639_3_expected": "roc",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Ra Glai tại Việt Nam (mã ISO dự kiến: roc; bảng mã dân tộc gốc: ra-glai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ra-glai\"."
+  },
+  "started": "2026-11-13T23:46:42.029708",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9450,
+      "candidatesTokenCount": 7132,
+      "totalTokenCount": 16582,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9450
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7132
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 8991,
+      "candidatesTokenCount": 8943,
+      "totalTokenCount": 19719,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8991
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8943
+        }
+      ],
+      "thoughtsTokenCount": 1785,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Thiếu phụ âm tắc mặt lưỡi hữu thanh thở 'jh' (/ɟʱ/). Trong hệ thống âm vị tiếng Raglai (Lee 1966; Brunelle et al. 2022; Tài liệu Hội thảo tiếng Raglai Bộ GD&ĐT), loạt âm tắc hữu thanh thở (breathy voiced stops) gồm đầy đủ 4 vị trí cấu âm: bh (/bʱ/), dh (/dʱ/), jh (/ɟʱ/), gh (/ɡʱ/). Bản nháp đã liệt kê bh, dh, gh nhưng bỏ sót jh.",
+        "fix": "Bổ sung mục grapheme 'jh' -> IPA 'ɟʱ ~ cʰ' với confidence 'low' (do cần kiểm chứng thực nghiệm riêng ở phương ngữ Các Gia)."
+      },
+      {
+        "path": "phonology.codas",
+        "severity": "high",
+        "problem": "Mục 'qh, qt, qd, ngt, mt, nt' gán IPA nguyên văn là các cụm phụ âm 'ʔh, ʔt, ʔd, ŋt, mt, nt' và bỏ sót 'qht' trên trường grapheme (dù trong note có nêu ví dụ 'tanaqht' từ Phụ lục 4 Thông tư 14/2026/TT-BGDĐT). Theo các nghiên cứu ngôn ngữ học về bộ chữ Raglai năm 2019 của Mấu Thị Bích Phanh (Đoàn Văn Phúc 2022; Phụ lục Thông tư 14/2026/TT-BGDĐT), bộ chữ này không dùng dấu thanh mà dùng các chữ cái và tổ hợp chữ cái cuối âm tiết (-d, -q, -qh, -qt, -qd, -qht, -mt, -nt, -ngt) làm ký hiệu chính tả để phân biệt trường độ (ngắn/dài), tính mũi hóa và sắc thái nguyên âm hoặc biến thể phương ngữ (ví dụ: sad / sa 'nhà', krod / kro 'sông'), chứ không phải là cụm phụ âm tắc phát âm nối tiếp theo nghĩa ngữ âm học thuần túy.",
+        "fix": "Thêm 'qht' vào grapheme, sửa trường ipa và note của '-d' và '-qh, -qt, -qd, -qht, -mt, -nt, -ngt' để phản ánh đúng bản chất quy ước chính tả biểu thị trường độ/phẩm chất nguyên âm và âm tắc/xát thanh hầu cuối từ; hạ confidence các âm cuối chưa kiểm chứng riêng ở phương ngữ Các Gia xuống 'low'."
+      },
+      {
+        "path": "phonology.vowels",
+        "severity": "medium",
+        "problem": "Hệ nguyên âm tiếng Raglai (Lee 1966; Cobbey 1977; Wikipedia) có đối lập âm vị học giữa 7 nguyên âm miệng /i, ɨ, u, e, ə, o, a/ và 7 nguyên âm mũi hóa /ĩ, ɨ̃, ũ, ẽ, ə̃, õ, ã/ (hệ quả lịch sử của sự rụng phụ âm mũi cuối trong nhánh Bắc Chăm, ngay cả trong Phụ lục 4 Thông tư 14/2026/TT-BGDĐT vẫn xuất hiện từ 'Mĩ' hoặc tên thể loại 'Manhĩ'). Bản nháp mới chỉ nhắc thoáng qua trong note của 'i' và 'a' mà chưa tách mục cho hệ nguyên âm mũi hóa.",
+        "fix": "Bổ sung mục grapheme 'ĩ, ữ, ũ, ẽ, ỡ, õ, ã' -> IPA 'ĩ, ɨ̃, ũ, ẽ, ə̃, õ, ã' với confidence 'low' cho riêng phương ngữ Các Gia."
+      },
+      {
+        "path": "scripts[0].note",
+        "severity": "low",
+        "problem": "Thiếu ngày ban hành cụ thể của Quyết định 383/QĐ-UBND tỉnh Ninh Thuận (08/10/2019, tác giả bộ chữ là bà Mấu Thị Bích Phanh) và ngày có hiệu lực của Thông tư 14/2026/TT-BGDĐT (03/05/2026).",
+        "fix": "Cập nhật chính xác ngày tháng và thông tin xuất xứ bộ chữ trong scripts[0].note và sources."
+      }
+    ]
+  },
+  "schema_errors": []
+}

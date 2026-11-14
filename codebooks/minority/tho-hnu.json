@@ -1,0 +1,747 @@
+{
+  "id": "tho-hnu",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày Poọng / Đan Lai – Ly Hà (Hung)",
+  "name_en": "Hung — Phong–Liha / Tày Poọng & Đan Lai – Ly Hà (Vietnam)",
+  "autonym": "Poọng / Đan Lai / Ly Hà",
+  "ethnic_group_vi": "Thổ",
+  "language": {
+    "iso639_3": "hnu",
+    "glottocode": "hung1275",
+    "family": "Austroasiatic",
+    "branch": "Vietic (Phong–Liha / Pong–Toum)"
+  },
+  "regions": [
+    "Huyện Tương Dương, tỉnh Nghệ An (xã Tam Hợp, xã Tam Thái [bản Phồng], xã Tam Quang — nhóm Tày Poọng và một bộ phận Đan Lai)",
+    "Huyện Con Cuông, tỉnh Nghệ An (xã Môn Sơn [bản Cò Phạt, bản Búng], xã Lục Dạ [bản Thỉn], xã Châu Khê [bản Khe Bu], xã Thạch Ngàn — nhóm Đan Lai – Ly Hà)"
+  ],
+  "speakers_estimate": "Khoảng 1.000–3.500 người tại Việt Nam (tổng dân số người Đan Lai – Ly Hà khoảng hơn 3.000 người và người Tày Poọng vài trăm người tại miền Tây Nghệ An; số người còn nói thông thạo tiếng mẹ đẻ thấp hơn dân số tộc người do chuyển dịch sang tiếng Việt và tiếng Thái)",
+  "scripts": [
+    {
+      "name": "Chưa có chữ viết riêng chính thức (truyền khẩu)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Nhà nước chưa ban hành bộ chữ riêng cho tiếng Tày Poọng hay tiếng Đan Lai – Ly Hà. Trong giao tiếp văn bản và giáo dục, cộng đồng dùng chữ Quốc ngữ tiếng Việt."
+    },
+    {
+      "name": "Chữ Latinh (phiên âm Quốc ngữ tự phát / ký hiệu ngữ âm học)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin Extended Additional, IPA Extensions",
+      "official_in_vietnam": false,
+      "note": "Các tài liệu dân tộc học và sưu tầm văn nghệ dân gian ghi âm xấp xỉ dựa trên chữ Quốc ngữ; các công trình ngôn ngữ học (Michel Ferlus, Nguyễn Tương Lai, Nguyễn Văn Lợi, Nguyễn Hữu Hoành) ghi trực tiếp bằng IPA."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các nguồn ngôn ngữ học so sánh lịch sử Vietic và miêu tả bước đầu (Ferlus 1997, 1998, 2009; Nguyễn Tương Lai 1992; Nguyễn Hữu Hoành 2009 [2008], 2022, 2024; Sidwell & Alves 2021). Chỉ mô tả các biến thể thuộc dân tộc Thổ tại Việt Nam (Tày Poọng, Đan Lai, Ly Hà), không mô tả phần tiếng Hung và Toum ở Lào. Mã Glottolog hung1275 bao trùm toàn cụm ngôn ngữ hnu, trong đó nhánh Phong/Tày Poọng có mã phương ngữ phon1243. Chưa có bộ chữ Latinh chuẩn hóa nên cột grapheme trong phonology ghi cách phiên tự Quốc ngữ/ngữ âm học quy ước (hoặc để null ở các âm vị thiếu quy ước viết). Cần điền dã đo âm học để bổ sung giá trị thanh điệu Chao chính xác.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C1(C2)(w)V(C3)+T — Tiếng Tày Poọng bảo lưu khoảng 10% từ bán âm tiết / song tiết yếu (sesquisyllabic, tiền âm tiết không trọng âm Cə- như kə-, tə-, a-); tiếng Đan Lai – Ly Hà hầu như đã đơn tiết hóa hoàn toàn nhưng còn giữ khoảng 6 tổ hợp phụ âm đầu.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (bảo lưu từ Tiền Vietic, khác chữ ph [f] tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hữu thanh/tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc đầu lưỡi hữu thanh/tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm mở đầu âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh (hoặc bán nguyên âm môi [w])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d / gi",
+        "ipa": "z ~ j",
+        "note": "Xát/tiếp cận mặt lưỡi hữu thanh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Cạnh lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pr",
+        "ipa": "pr",
+        "note": "Tổ hợp phụ âm đầu bảo lưu (ví dụ: pruːc 'tuốt lúa / rút')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "phr",
+        "ipa": "pʰr",
+        "note": "Tổ hợp phụ âm đầu bật hơi + r (ví dụ: pʰriː 'say')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khr",
+        "ipa": "kʰr",
+        "note": "Tổ hợp phụ âm đầu bật hơi + r (ví dụ: kʰroːŋ 'sống lưng', kʰruː 'sâu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khl",
+        "ipa": "kʰl",
+        "note": "Tổ hợp phụ âm đầu bật hơi + l (ví dụ: kʰlu 'thuồng luồng / cù')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "Một trong các tổ hợp phụ âm đầu bảo lưu ở nhóm Đan Lai / Poọng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tl / kl",
+        "ipa": "tl ~ kl",
+        "note": "Tổ hợp tắc + cạnh lưỡi trong nhóm ngôn ngữ Đan Lai / Poọng (tiếng Đan Lai còn giữ 6 tổ hợp phụ âm đầu theo Nguyễn Hữu Hoành 2009 [2008], 2024)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm trước khép dài; tiếng Poọng bảo lưu hệ nguyên âm đơn Tiền Vietic (Ferlus 1997)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "i",
+        "note": "Nguyên âm ngắn; tiếng Đan Lai và Poọng có 6 cặp nguyên âm đối lập trường độ ngắn – dài (Nguyễn Hữu Hoành 2009 [2008], 2024)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm trước hơi khép",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm trước hơi mở dài (tương ứng e và ia/iê trong tiếng Việt theo Ferlus 2014)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm giữa/sau không tròn môi khép dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɨ",
+        "note": "Nguyên âm khép ngắn đối lập trường độ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa ngắn (xuất hiện cả trong âm tiết chính lẫn tiền âm tiết Cə-)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài (tương ứng a và ưa/ươ trong tiếng Việt theo Ferlus 2014)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm sau tròn môi khép dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "u",
+        "note": "Nguyên âm sau tròn môi khép ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm sau tròn môi hơi khép dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm sau tròn môi hơi mở dài (tương ứng o và ua/uô trong tiếng Việt theo Ferlus 2014)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau tròn môi hơi mở ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia / iê, ưa / ươ, ua / uô",
+        "ipa": "iə, ɨə, uə",
+        "note": "Nguyên âm đôi hầu như vắng mặt trong lớp từ bản địa tiếng Poọng (chủ yếu gặp ở từ vay mượn tiếng Việt hoặc biến thể muộn; Ferlus 1997, Alves 2026)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi độc lập về âm vị học (phân biệt với /-k/, tương tự tiếng Mường và tiếng Cuối; Nguyễn Hữu Hoành 2009 [2008], 2024)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi độc lập về âm vị học (phân biệt với /-ŋ/; Nguyễn Hữu Hoành 2009 [2008], 2024)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm cuối cạnh lưỡi (phản xạ hợp nhất của *-r và *-l Tiền Vietic ở nhánh Đông Vietic theo Sidwell & Alves 2021)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối không tròn môi",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "T1_A1",
+        "name": "Thanh 1 (loạt cao bằng — lịch đại *A1)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": "giọng thường (modal), âm vực cao",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T2_A2",
+        "name": "Thanh 2 (loạt thấp bằng — lịch đại *A2)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": "âm vực thấp (có thể kèm chất giọng hơi thở nhẹ từ phụ âm đầu hữu thanh cổ)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T3_BC1",
+        "name": "Thanh 3 (loạt cao trắc — lịch đại *B1 = *C1)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": "âm vực cao, thanh hầu hóa/căng (hợp nhất loạt *B1 gốc *-ʔ và *C1 gốc *-h/-s trong tiếng Poọng theo Ferlus 1998)",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "T4_BC2",
+        "name": "Thanh 4 (loạt thấp trắc — lịch đại *B2 = *C2)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": "âm vực thấp, thanh hầu hóa/nặng (hợp nhất loạt *B2 và *C2 trong tiếng Poọng theo Ferlus 1998; âm tiết tắc *-p/-t/-c/-k phân bố theo âm vực cao D1 / thấp D2)",
+        "merges_with": null,
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Chuyển tiếp giữa âm vực – chất giọng (register/phonation) và thanh điệu đường nét: tiếng Tày Poọng (Poọng) có hệ thống 4 đối lập siêu đoạn tính dựa trên âm vực cao/thấp và chất giọng, trong đó âm cuối *-h rụng mà không tạo thanh riêng nên nhập loạt B với C (B1=C1, B2=C2; Nguyễn Tương Lai 1992: 99; Ferlus 1998). Trong khi đó, tiếng Đan Lai được Nguyễn Hữu Hoành (2024: 26) ghi nhận có hệ thống 5 thanh điệu (tương đồng về số lượng thanh với tiếng Mường, tiếng Cuối và tiếng Thổ Như Xuân), còn tư liệu tiếng Ly Hà (Nguyễn Văn Lợi, dẫn trong Peiros 2004 và Sidwell & Alves 2021: 178) ghi nhận 6 thanh điệu."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "mưa",
+      "form": "kəma (Poọng) / ma (Ly Hà)",
+      "ipa": "kəma (A2) ~ ma (A2)",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "say (rượu)",
+      "form": "phrì / phri",
+      "ipa": "pʰriː¹",
+      "gloss_en": "drunk",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sống (lưng)",
+      "form": "khrống",
+      "ipa": "kʰroːŋ³",
+      "gloss_en": "ridge, spine, back",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sáp (ong)",
+      "form": "khráp",
+      "ipa": "kʰraːp⁷",
+      "gloss_en": "wax",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "sâu",
+      "form": "khrù",
+      "ipa": "kʰruː²",
+      "gloss_en": "deep",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "giã (gạo)",
+      "form": "tập",
+      "ipa": "təp⁸",
+      "gloss_en": "to pound (rice)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "chày",
+      "form": "rê",
+      "ipa": "reː¹",
+      "gloss_en": "pestle",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "tuốt (lúa) / rút",
+      "form": "prút",
+      "ipa": "pruːc⁷",
+      "gloss_en": "to strip rice grains / withdraw",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "thuồng luồng / đèn cù",
+      "form": "khlụ",
+      "ipa": "kʰlu",
+      "gloss_en": "water serpent / dragon (mythical)",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát ru và đồng dao Đan Lai – Tày Poọng",
+        "note": "Các khúc hát ru con, đồng dao truyền khẩu ngắn gọn gắn với đời sống ven sông Giăng và rừng Pù Mát; hiện nay phần lớn dân ca bản ngữ riêng của người Đan Lai và Tày Poọng đã mai một nặng nề."
+      },
+      {
+        "name": "Khắp, lăm, nhuôn, xuối (giao lưu văn hóa Thái miền Tây Nghệ An)",
+        "note": "Do cư trú xen kẽ với người Thái tại Con Cuông và Tương Dương, đồng bào Tày Poọng và Đan Lai thường sử dụng các làn điệu dân ca Thái trong lễ hội và sinh hoạt cộng đồng."
+      },
+      {
+        "name": "Dân ca Thổ Nghệ An (Đu đu điềng điềng, Ên ên – Ạc ạc, hát Thuôm, ví giặm)",
+        "note": "Phổ biến chủ yếu ở các nhóm Thổ phía Đông Bắc (Mọn, Kẹo, Cuối), nhưng được giới thiệu trong các hoạt động giao lưu văn hóa chung của cộng đồng dân tộc Thổ tỉnh Nghệ An."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ hơi đa thanh tiếp biến từ không gian văn hóa Thái miền Tây Nghệ An"
+      },
+      {
+        "name": "Pí (pí lăng / sáo trúc)",
+        "note": "Nhạc cụ hơi dùng trong sinh hoạt giao duyên và lễ hội bản"
+      },
+      {
+        "name": "Xi xo / xí xa lo (nhị)",
+        "note": "Nhạc cụ dây kéo vĩ vùng biên giới Con Cuông – Tương Dương"
+      },
+      {
+        "name": "Chiêng, trống",
+        "note": "Nhạc cụ gõ dùng trong nghi lễ và sinh hoạt cộng đồng"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "tho",
+    "sub_varieties": [
+      {
+        "id": "tay-poong",
+        "name_vi": "Tiếng Tày Poọng (Poọng / Phong / Con Kha / Xá Lá Vàng)",
+        "iso639_3": "hnu",
+        "glottocode": "phon1243",
+        "regions_vi": "Xã Tam Hợp, xã Tam Thái (bản Phồng), xã Tam Quang — huyện Tương Dương, tỉnh Nghệ An",
+        "note": "Bảo lưu khoảng 10% cấu trúc bán âm tiết (sesquisyllabic) và hệ thống 4 thanh điệu/âm vực."
+      },
+      {
+        "id": "dan-lai",
+        "name_vi": "Tiếng Đan Lai",
+        "iso639_3": "hnu",
+        "glottocode": "phon1243",
+        "regions_vi": "Xã Môn Sơn (bản Cò Phạt, bản Búng), xã Lục Dạ (bản Thỉn), xã Châu Khê (bản Khe Bu), xã Thạch Ngàn — huyện Con Cuông (và một số hộ tại xã Tam Quang, huyện Tương Dương), tỉnh Nghệ An",
+        "note": "Chia sẻ khoảng 85% từ vựng cơ bản với tiếng Tày Poọng (Nguyễn Hữu Hoành 2009 [2008]); hầu như đơn tiết hóa nhưng còn giữ 6 tổ hợp phụ âm đầu, 6 cặp nguyên âm đối lập ngắn – dài và hệ thống 5 thanh điệu (Nguyễn Hữu Hoành 2024: 26)."
+      },
+      {
+        "id": "ly-ha",
+        "name_vi": "Tiếng Ly Hà (Liha)",
+        "iso639_3": "hnu",
+        "glottocode": "phon1243",
+        "regions_vi": "Huyện Con Cuông, tỉnh Nghệ An (cư trú xen kẽ với nhóm Đan Lai)",
+        "note": "Thường gộp chung thành cụm phương ngữ Đan Lai – Ly Hà; tư liệu của Nguyễn Văn Lợi ghi nhận hệ thống 6 thanh điệu."
+      }
+    ],
+    "related_non_hnu_tho_varieties_note": "Không nhầm với các nhóm khác cùng thuộc dân tộc Thổ tại Việt Nam nhưng nói ngôn ngữ khác: tiếng Cuối (Cuối Chăm ở Tân Kỳ, Cuối Đếp/Làng Lỡ ở Thái Hòa — mã ISO tou, Glottocode cuoi1242), tiếng Thổ Mọn / Họ (gần tiếng Mường — mã ISO mtq), tiếng Thổ Lâm La (Nghĩa Đàn) và Thổ Như Xuân (Thanh Hóa). Bên Lào, mã hnu còn bao gồm tiếng Hung và tiếng Toum (toum1239) tại tỉnh Bolikhamsai và Khammouane.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "kəma",
+        "quoc_ngu": "cơ-ma",
+        "note": "Tiền âm tiết /kə-/ đọc rất ngắn, nhẹ và không mang trọng âm; tiếng Việt chuẩn đơn tiết không có tiền âm tiết yếu nên TTS dễ đọc thành hai âm tiết ngang nhau."
+      },
+      {
+        "native": "pʰriː",
+        "quoc_ngu": "p-hờ-ri",
+        "note": "Tiếng Việt không có phụ âm tắc hai môi bật hơi /pʰ/ (chữ 'ph' tiếng Việt phát âm là âm xát môi-răng [f]) và không có tổ hợp phụ âm đầu /pʰr-/."
+      },
+      {
+        "native": "kʰroːŋ",
+        "quoc_ngu": "khờ-rông",
+        "note": "Tiếng Việt không có tổ hợp phụ âm đầu /kʰr-/, đồng thời chữ 'kh' tiếng Việt là âm xát [x] chứ không phải âm tắc bật hơi [kʰ] như trong tiếng Poọng / Đan Lai."
+      },
+      {
+        "native": "kʰlu",
+        "quoc_ngu": "khờ-lụ",
+        "note": "Tổ hợp phụ âm đầu /kʰl-/ không tồn tại trong tiếng Việt hiện đại; cần đọc lướt nhanh từ /kʰ/ sang /l/."
+      },
+      {
+        "native": "pruːc",
+        "quoc_ngu": "pơ-rút",
+        "note": "Tiếng Việt không có tổ hợp /pr-/ và không có âm cuối tắc mặt lưỡi /-c/ độc lập sau nguyên âm tròn môi /uː/ (Quốc ngữ 'út' đọc [ut], 'úc' đọc [uk͡p])."
+      },
+      {
+        "native": "-Vl (âm cuối /-l/)",
+        "quoc_ngu": "-Vn (hoặc -Vl lướt lưỡi)",
+        "note": "Tiếng Việt hoàn toàn không có âm cuối cạnh lưỡi /-l/; chữ Quốc ngữ chỉ có thể xấp xỉ gần nhất bằng âm cuối đầu lưỡi '-n'."
+      },
+      {
+        "native": "i / iː, u / uː, ɔ / ɔː",
+        "quoc_ngu": "i, u, o",
+        "note": "Tiếng Đan Lai và Tày Poọng có 6 cặp nguyên âm đối lập ngắn – dài, trong khi chữ Quốc ngữ chỉ ký hiệu được đối lập ngắn – dài ở hai cặp 'ă/a' và 'â/ơ'."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "kəma",
+        "ipa": "kəma (A2)",
+        "gloss_vi": "mưa (biến thể Tày Poọng; Ly Hà: ma)"
+      },
+      {
+        "native": "pʰriː",
+        "ipa": "pʰriː¹",
+        "gloss_vi": "say (rượu)"
+      },
+      {
+        "native": "kʰroːŋ",
+        "ipa": "kʰroːŋ³",
+        "gloss_vi": "sống (lưng)"
+      },
+      {
+        "native": "kʰraːp",
+        "ipa": "kʰraːp⁷",
+        "gloss_vi": "sáp (ong)"
+      },
+      {
+        "native": "kʰruː",
+        "ipa": "kʰruː²",
+        "gloss_vi": "sâu"
+      },
+      {
+        "native": "təp",
+        "ipa": "təp⁸",
+        "gloss_vi": "giã (gạo)"
+      },
+      {
+        "native": "reː",
+        "ipa": "reː¹",
+        "gloss_vi": "chày (giã gạo)"
+      },
+      {
+        "native": "pruːc",
+        "ipa": "pruːc⁷",
+        "gloss_vi": "tuốt (lúa), rút"
+      },
+      {
+        "native": "kʰlu",
+        "ipa": "kʰlu",
+        "gloss_vi": "thuồng luồng, cù (thủy quái)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Hung (hung1275)",
+      "url": "https://glottolog.org/resource/languoid/id/hung1275",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Phong (phon1243)",
+      "url": "https://glottolog.org/resource/languoid/id/phon1243",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sidwell, Paul & Mark Alves (2021). The Vietic languages: a phylogenetic analysis. Journal of Language Relationship, 19(3–4): 166–194.",
+      "url": "https://www.jolr.ru/files/(306)jlr2021-19-3-4(166-194).pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (1998). Les systèmes de tons dans les langues viet-muong. Diachronica, 15(1): 1–27.",
+      "url": "https://doi.org/10.1075/dia.15.1.02fer",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Michaud, Alexis, Michel Ferlus & Nguyễn Minh Châu (2015). Strata of standardization: The Phong Nha dialect of Vietnamese (Quảng Bình Province) in historical perspective. Linguistics of the Tibeto-Burman Area, 38(1): 124–162.",
+      "url": "https://halshs.archives-ouvertes.fr/halshs-01141389",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Phong language",
+      "url": "https://en.wikipedia.org/wiki/Phong_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Vietic languages",
+      "url": "https://en.wikipedia.org/wiki/Vietic_languages",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Người Thổ (Việt Nam)",
+      "url": "https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Th%E1%BB%95_(Vi%E1%BB%87t_Nam)",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (1997). Problèmes de la formation du système vocalique du vietnamien. Cahiers de Linguistique – Asie Orientale, 26(1): 37–51.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (2009). A Layer of Dongsonian Vocabulary in Vietnamese. Journal of the Southeast Asian Linguistics Society (JSEALS), 1: 95–109.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Hữu Hoành (2009 [2008]). Hệ thống ngữ âm tiếng Đan Lai (Những nhận xét ban đầu). Kỷ yếu Ngữ học trẻ 2008, tr. 263–268. Hội Ngôn ngữ học Việt Nam & Trường Đại học Vinh.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Hữu Hoành (2024). Hệ thống ngữ âm tiếng Thổ. Tạp chí Ngôn ngữ, số 6 năm 2024, tr. 18–26 (so sánh đối chiếu ngữ âm Thổ Như Xuân với Đan Lai, Cuối, Rục).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đặng Nghiêm Vạn & Nguyễn Anh Ngọc (1975). Vài nét về ba nhóm Đan Lai, Ly Hà và 'Tày Poọng'. Trong Về vấn đề xác định thành phần các dân tộc thiểu số ở miền Bắc Việt Nam, tr. 456–471. Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.register_or_phonation",
+          "severity": "medium",
+          "problem": "Bản nháp mới chỉ nhắc tới hệ 4 thanh điệu/âm vực của tiếng Tày Poọng (Ferlus 1998; Nguyễn Tương Lai 1992) và hệ 6 thanh của tiếng Ly Hà (Nguyễn Văn Lợi, dẫn trong Peiros 2004; Sidwell & Alves 2021), nhưng chưa cập nhật thông tin từ bài báo của Nguyễn Hữu Hoành (2024, Tạp chí Ngôn ngữ số 6/2024, tr. 26) rằng tiếng Đan Lai có hệ thống gồm 5 thanh điệu (tương tự số lượng thanh ở tiếng Mường, tiếng Cuối và tiếng Thổ Như Xuân).",
+          "fix": "Bổ sung thông tin hệ 5 thanh điệu của tiếng Đan Lai theo Nguyễn Hữu Hoành (2024) vào trường register_or_phonation, ml_hints.sub_varieties[1].note và validation.open_issues."
+        },
+        {
+          "path": "sources[10].title",
+          "severity": "low",
+          "problem": "Kỷ yếu Hội thảo Ngữ học trẻ 2008 có bài 'Hệ thống ngữ âm tiếng Đan Lai (Những nhận xét ban đầu)' của Nguyễn Hữu Hoành được xuất bản chính thức vào năm 2009 (Hội Ngôn ngữ học Việt Nam – Trường Đại học Vinh, 2009), dẫn đến sự thiếu nhất quán khi một số chỗ trong bảng mã ghi 2008 và chỗ khác ghi 2009.",
+          "fix": "Chuẩn hóa năm xuất bản thành '2009 [2008]' trong danh mục tài liệu tham khảo và các ghi chú liên quan."
+        },
+        {
+          "path": "sources[11].title",
+          "severity": "low",
+          "problem": "Bài báo 'Hệ thống ngữ âm tiếng Thổ' của Nguyễn Hữu Hoành trên Tạp chí Ngôn ngữ thiếu năm và số xuất bản cụ thể (trong status_note và phonology lại ghi nhầm thành 2022, trùng với năm xuất bản sách chuyên khảo về tên gọi ngôn ngữ).",
+          "fix": "Cập nhật thông tin xuất bản chính xác: 'Nguyễn Hữu Hoành (2024). Hệ thống ngữ âm tiếng Thổ. Tạp chí Ngôn ngữ, số 6 năm 2024, tr. 18–26' và đồng bộ hóa năm trích dẫn trong bảng mã."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Các mục từ vựng số thứ tự 1–8 trong lexicon (phrì, khrống, khráp, khrù, tập, rê, prút, khlụ) có cột form là cách phiên tự Quốc ngữ quy ước giả định của người biên soạn chứ không phải chữ viết chính thức của cộng đồng, và các ký hiệu thanh 1, 2, 3, 7, 8 trong cột IPA trích từ bảng đối chiếu lịch đại của Ferlus (2009) chứ chưa có ngữ liệu đo âm học đồng đại trực tiếp.",
+          "fix": "Hạ độ tin cậy (confidence) của các mục từ vựng số 1–8 từ 'medium' xuống 'low' để đảm bảo tính thận trọng khoa học đối với dạng thức phiên tự Quốc ngữ giả định."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đo thực nghiệm âm học (F0 và thông số chất giọng H1-H2) tại bản Phồng (Tương Dương) và bản Cò Phạt / bản Búng (Con Cuông) để xác định giá trị thanh điệu Chao chính xác cho từng thanh của tiếng Tày Poọng (hệ 4 thanh), tiếng Đan Lai (hệ 5 thanh theo Nguyễn Hữu Hoành 2024) và tiếng Ly Hà (hệ 6 thanh theo Nguyễn Văn Lợi).",
+      "Cần đối chiếu toàn văn bài báo Nguyễn Hữu Hoành (2009 [2008]) để lập danh sách đầy đủ 6 tổ hợp phụ âm đầu và 6 cặp nguyên âm đối lập trường độ của tiếng Đan Lai.",
+      "Các dạng thức từ vựng ký hiệu số thanh 1, 2, 3, 7, 8 trong Ferlus (2009) phản ánh dạng phục nguyên sát phương ngữ Proto-Pong/Poọng; cần kiểm tra lại biến thể phát âm đồng đại hiện nay ở người trẻ Đan Lai và Tày Poọng.",
+      "Cần điền dã âm nhạc học để ghi âm các bài hát ru và đồng dao bằng tiếng mẹ đẻ còn sót lại của người Đan Lai và Tày Poọng trước khi thất truyền hoàn toàn."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

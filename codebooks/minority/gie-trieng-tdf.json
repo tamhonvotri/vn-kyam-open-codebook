@@ -1,0 +1,867 @@
+{
+  "id": "gie-trieng-tdf",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Ve (Talieng)",
+  "name_en": "Ve / Talieng (Vietnam variety)",
+  "autonym": "Ve",
+  "ethnic_group_vi": "Giẻ Triêng",
+  "language": {
+    "iso639_3": "tdf",
+    "glottocode": "tali1257",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (Kasseng-Taliang theo Glottolog cho mã tdf; West Bahnaric theo điền dã tiếng Ve tại Việt Nam)"
+  },
+  "regions": [
+    "Xã Đắc Pring, TP. Đà Nẵng (trước 01/07/2025 là hai xã Đắc Pre và Đắc Pring, huyện Nam Giang, tỉnh Quảng Nam)",
+    "Vùng biên giới Nam Trường Sơn giáp Lào"
+  ],
+  "speakers_estimate": "Khoảng 2.000–2.500 người nói bản ngữ tại Việt Nam (theo Tổng điều tra dân số 2019 và khảo sát điền dã 2020–2025 của Viện Ngôn ngữ học)",
+  "scripts": [
+    {
+      "name": "Chữ Ve hệ Latinh (phương án nghiên cứu dựa trên chữ Quốc ngữ tiếng Việt)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Ve tại Việt Nam truyền thống chưa có chữ viết và chưa có bộ chữ do Nhà nước ban hành chính thức. Năm 2025, TS. Bùi Đăng Bình (Viện Ngôn ngữ học) đề xuất bộ chữ tiếng Ve gồm 32 chữ cái (dựa trên chữ Quốc ngữ bổ sung j, w và biến thể o) cùng 62 tổ hợp chữ cái (43 tổ hợp đôi, 16 tổ hợp ba, 3 tổ hợp bốn) để ghi hệ thống phụ âm ba chế độ sinh âm và các tổ hợp phụ âm."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã tổng hợp từ hai công trình miêu tả ngữ âm và đề xuất chữ viết tiếng Ve tại Đắc Pre – Đắc Pring (Nam Giang, Quảng Nam cũ; nay là xã Đắc Pring, TP. Đà Nẵng) của Bùi Đăng Bình (Tạp chí Ngôn ngữ, 2022 và 2025), kết hợp tư liệu dân tộc học – âm nhạc dân gian người Ve tại Quảng Nam. Lưu ý phân loại học: tại Việt Nam, bốn nhóm địa phương Giẻ, Triêng, Ve, Bhnoong được xếp chung vào dân tộc Giẻ Triêng (mã 27 theo Quyết định 121-TCTK/PPCĐ năm 1979). Mã ISO 639-3 dự kiến tdf (Talieng/Tariang, Glottocode tali1257) trên Ethnologue và Glottolog vốn mô tả nhánh Kasseng-Taliang chủ yếu ở Nam Lào và gắn với tên gọi Ta Liêng / Tariang của khối Giẻ Triêng; trong khi khảo sát điền dã tiếng Ve tại Quảng Nam (Bùi Đăng Bình 2022, 2025) nhận định tiếng Ve mang đặc trưng tiểu nhánh Bahnar Tây (West Bahnaric, gần gũi với Laveh [brb] ở cao nguyên Boloven). Bảng mã này chỉ mô tả tiếng nói và văn hóa của cộng đồng người Ve sinh sống tại Việt Nam.",
+  "phonology": {
+    "syllable_structure": "Từ đơn tiết C1(C2)(C3)(w)V(Cf1)(Cf2) và từ song tiết kiểu phụ – chính (sesquisyllabic): tiền âm tiết (C)V(C) + âm tiết chính; không có thanh điệu (tổng cộng 63 phụ âm và tổ hợp phụ âm đầu: 42 phụ âm đơn, 19 tổ hợp đôi, 2 tổ hợp ba; 15 nguyên âm hạt nhân; 14 phụ âm đơn và 3 tổ hợp phụ âm cuối)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh, sinh âm bình thường (SÂBT)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pp",
+        "ipa": "p̤",
+        "note": "Tắc hai môi sinh âm thở (SÂT), viết đúp chữ theo phương án Bùi Đăng Bình (2025, tr. 149)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh SÂBT; ví dụ: bar 'số 2'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bh",
+        "ipa": "b̤",
+        "note": "Tắc hai môi sinh âm thở (SÂT); ví dụ: bheh 'con rắn'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / pph",
+        "ipa": "f ~ pʰ",
+        "note": "Âm vị có hai biến thể: [f] viết là ph (ví dụ: phe 'gạo'), [pʰ] bật hơi viết là pph",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi - lợi vô thanh SÂBT; ví dụ: ti 'tay', teh 'kêu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tt",
+        "ipa": "t̤",
+        "note": "Tắc đầu lưỡi sinh âm thở (SÂT), viết đúp chữ tt (Bùi Đăng Bình 2025, tr. 149)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh SÂBT; ví dụ: đac / đak 'nước'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đh",
+        "ipa": "d̤",
+        "note": "Tắc đầu lưỡi sinh âm thở (SÂT)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ",
+        "note": "Tắc quặt lưỡi vô thanh; ví dụ: trom 'lỗ', tram 'hố'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi - ngạc vô thanh; ví dụ: chiw 'đi'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chh",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi - ngạc hữu thanh; viết bằng tổ hợp ba chữ chh để phân biệt thanh tính với phụ âm vô thanh /c/ viết là ch (Bùi Đăng Bình 2025, tr. 149)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c, k, q",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh; dùng c, k, q (trước âm đệm u) theo quy tắc phân bố chữ Quốc ngữ tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh / kkh",
+        "ipa": "x ~ kʰ",
+        "note": "Một âm vị với hai biến thể: biến thể xát mạc [x] viết là kh, biến thể tắc mạc bật hơi [kʰ] viết là kkh (Bùi Đăng Bình 2025, tr. 149)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g / gh / gg",
+        "ipa": "ɡ ~ ɣ / ɡ̤",
+        "note": "Phụ âm mạc hữu thanh SÂBT (g/gh) và phụ âm mạc sinh âm thở viết đúp chữ gg (Bùi Đăng Bình 2025, tr. 149)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m, n, nh, ng/ngh",
+        "ipa": "m, n, ɲ, ŋ",
+        "note": "Dãy phụ âm mũi hữu thanh SÂBT",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qm, qn, qnh, qng/qngh",
+        "ipa": "ʔm, ʔn, ʔɲ, ʔŋ",
+        "note": "Dãy phụ âm mũi sinh âm tắc mũi / tiền thanh hầu hoặc vô thanh hóa (SÂTM)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "mm, nn, nnh",
+        "ipa": "m̤, n̤, ɲ̤",
+        "note": "Dãy phụ âm mũi sinh âm thở (SÂT)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hm, hn, hnh, hng/hngh",
+        "ipa": "ʰm, ʰn, ʰɲ, ʰŋ",
+        "note": "Dãy phụ âm mũi có tiền xát thanh hầu",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v / qv / hv",
+        "ipa": "v / ʔv / ʰv",
+        "note": "Xát môi - răng hữu thanh SÂBT (v), SÂTM (qv) và tiền xát thanh hầu (hv)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh; ví dụ: sit 'hút (thuốc)'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "z",
+        "note": "Xát đầu lưỡi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "gi",
+        "ipa": "ʑ",
+        "note": "Xát mặt lưỡi hữu thanh; ví dụ: giah 'lấy (vợ)'",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh; ví dụ: hôc / hoc 'húp (cháo)'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r / qr",
+        "ipa": "r / ʔr",
+        "note": "Rung đầu lưỡi SÂBT (r) và SÂTM (qr)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l / ql / ll / hl",
+        "ipa": "l / ʔl / l̤ / ʰl",
+        "note": "Các đối lập âm vị bên đầu lưỡi: SÂBT (l), SÂTM (ql), SÂT (ll) và tiền xát thanh hầu (hl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / qw (âm đệm viết o, u)",
+        "ipa": "w / ʔw",
+        "note": "Tiếp cận môi - mạc SÂBT (w) và SÂTM (qw, ví dụ qwak ti 'kẽ tay'); âm đệm /-w-/ sau phụ âm đầu viết bằng o hoặc u (ví dụ: poan 'số 4', coah 'cát' ở thổ ngữ có âm đệm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j / qj",
+        "ipa": "j / ʔj",
+        "note": "Tiếp cận mặt lưỡi - ngạc SÂBT (j) và SÂTM (qj)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bl, bhl, br, bhr, cl, cr, cql, gl, gr, pl, pr, tl, hđh, hgl, hqnh, hnr, nnr...",
+        "ipa": "bl, b̤l, br, b̤r, kl, kr, kʔl, ɡl, ɡr, pl, pr, tl, hd̤, hɡl, hʔɲ, hnr, n̤r",
+        "note": "Tiếng Ve có 21 tổ hợp phụ âm đầu (19 tổ hợp đôi và 2 tổ hợp ba phụ âm theo Bùi Đăng Bình 2022, 2025)",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i, y",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ nâng cao; ví dụ: ti 'tay', sit 'hút thuốc'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi cao; ví dụ: ê 'vợ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước độ mở rộng; ví dụ: phe 'gạo', bheh 'rắn'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ ~ ɯ",
+        "note": "Nguyên âm hàng giữa/sau không tròn môi độ nâng cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm hàng giữa dài; ví dụ: pơt 'nắm'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm hàng giữa ngắn; ví dụ: pât 'tai'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài; ví dụ: ca 'cá', bar 'số 2', đac 'nước'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn; ví dụ: ăj wan 'hôm kia'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi cao; ví dụ: luc 'bọn, chúng', ujh 'lửa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o (và biến thể o ngắn)",
+        "ipa": "ɔː ~ ɔ",
+        "note": "Nguyên âm hàng sau tròn môi mở; ví dụ: rot 'rét, lạnh' (có đối lập trường độ/độ mở trong hệ 12 nguyên âm đơn nên bảng 32 chữ cái của Bùi Đăng Bình 2025 có hai con chữ o)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê, ie",
+        "ipa": "ie ~ iə",
+        "note": "Nguyên âm đôi hàng trước (không xuất hiện ở âm tiết mở hoàn toàn nên không dùng ia); ví dụ: liêm 'đẹp'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ, ưa",
+        "ipa": "ɨə ~ ɯə",
+        "note": "Nguyên âm đôi hàng giữa/sau không tròn môi (thuộc nhóm 3 nguyên âm đôi trong hệ thống 15 nguyên âm hạt nhân của tiếng Ve theo Bùi Đăng Bình 2022, tr. 71)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "uô, ua",
+        "ipa": "uo ~ uə",
+        "note": "Nguyên âm đôi hàng sau tròn môi; viết ua ở âm tiết mở và uô khi có âm cuối, ví dụ: puôn 'số 4', uôh 'cát'",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh cuối âm tiết; ví dụ: lip 'mù'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh cuối âm tiết; ví dụ: pơt 'nắm', pât 'tai', rot 'lạnh'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi vô thanh cuối âm tiết; ví dụ: vach 'xa'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "Tắc mạc vô thanh cuối âm tiết (trong văn bản dân tộc học đôi khi ghi k như đak); ví dụ: luc 'bọn, chúng'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu vô thanh cuối âm tiết, dùng chữ q tương tự chữ Cơ Tu và Bhnoong (Bùi Đăng Bình 2025, tr. 149)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết; ví dụ: liêm 'đẹp', trom 'lỗ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết; ví dụ: puôn 'số 4', chin 'số 9'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi mạc cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết; ví dụ: uôh 'cát', bheh 'rắn', giah 'lấy vợ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung đầu lưỡi cuối âm tiết; ví dụ: bar 'số 2'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi cuối âm tiết; ví dụ: bil 'mất'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o, u (hoặc w)",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi; ví dụ: chiu / chiw 'đi', capiu / kapiw 'con trâu'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i, y (hoặc j)",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối không tròn môi; ví dụ: uj 'khói', tuj 'con vẹt'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih (hoặc jh)",
+        "ipa": "jh",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm mặt lưỡi + xát thanh hầu (viết là ih trong bộ 62 tổ hợp chữ năm 2025, hoặc jh trong bài năm 2022); ví dụ: ujh 'lửa', carajh 'chuột'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iq (hoặc jq)",
+        "ipa": "jʔ",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm mặt lưỡi + tắc thanh hầu (viết là iq trong bộ 62 tổ hợp chữ năm 2025, hoặc jq); ví dụ: ajq 'dứt', abajq 'nhổ'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uq (hoặc wq/oq)",
+        "ipa": "wʔ",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm tròn môi + tắc thanh hầu (viết là uq trong bộ 62 tổ hợp chữ năm 2025)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu (non-tonal). Đặc trưng nổi bật của tiếng Ve là sự đối lập âm vị học giữa ba chế độ sinh âm (phonation types) gắn với hệ thống phụ âm đầu: (1) sinh âm bình thường (modal voice - SÂBT), (2) sinh âm thở (breathy/murmured voice - SÂT, tạo các dãy phụ âm tắc thở bh, đh, pp, tt, gg và mũi/bên thở mm, nn, nnh, ll...), và (3) sinh âm tắc mũi / tiền thanh hầu hóa hoặc vô thanh hóa (preglottalized - SÂTM, viết với tiền tố q- như qm, qn, qnh, qng, qr, qv, qw, qj, ql), bên cạnh dãy phụ âm vang tiền xát thanh hầu (hm, hn, hnh, hng, hl, hv)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tay",
+      "form": "ti",
+      "ipa": "ti",
+      "gloss_en": "hand / arm",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vợ",
+      "form": "ê",
+      "ipa": "e",
+      "gloss_en": "wife",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gạo",
+      "form": "phe",
+      "ipa": "fɛ",
+      "gloss_en": "husked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ca",
+      "ipa": "kaː",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "đac (đak)",
+      "ipa": "daːk",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "ujh",
+      "ipa": "ujh",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cát",
+      "form": "uôh (coah)",
+      "ipa": "uoh",
+      "gloss_en": "sand",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khói",
+      "form": "uj",
+      "ipa": "uj",
+      "gloss_en": "smoke",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rắn",
+      "form": "bheh",
+      "ipa": "b̤ɛh",
+      "gloss_en": "snake",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chuột",
+      "form": "carajh",
+      "ipa": "karajh",
+      "gloss_en": "rat / mouse",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tai",
+      "form": "pât",
+      "ipa": "pət",
+      "gloss_en": "ear",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nắm",
+      "form": "pơt",
+      "ipa": "pəːt",
+      "gloss_en": "to grasp / hold",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rét, lạnh",
+      "form": "rot",
+      "ipa": "rɔt",
+      "gloss_en": "cold",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đẹp",
+      "form": "liêm",
+      "ipa": "liem",
+      "gloss_en": "beautiful",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xa",
+      "form": "vach",
+      "ipa": "vac",
+      "gloss_en": "far",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "chiw",
+      "ipa": "ciw",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai (số 2)",
+      "form": "bar",
+      "ipa": "baːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bốn (số 4)",
+      "form": "puôn (poan)",
+      "ipa": "puon",
+      "gloss_en": "four",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chín (số 9)",
+      "form": "chin (cin)",
+      "ipa": "cin",
+      "gloss_en": "nine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà làng truyền thống",
+      "form": "ơớng",
+      "ipa": null,
+      "gloss_en": "communal village house",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca giao duyên, tỏ tình người Ve",
+        "note": "Thanh niên nam nữ Ve hát đối đáp khi đi làm nương rẫy hoặc trong những đêm trăng tròn ở làng; thường kết hợp tiếng sáo Tuốt léc hoặc Pà bam của chàng trai với lời hát tự sự, trữ tình của cô gái."
+      },
+      {
+        "name": "Dân ca tâm tình và dân ca lao động người Ve",
+        "note": "Các khúc hát than thân, tưởng nhớ cha mẹ giữa núi rừng Nam Trường Sơn, hoặc ngợi ca lao động và nghề dệt thổ cẩm truyền thống."
+      },
+      {
+        "name": "Nhạc lễ hội cộng đồng và cồng chiêng",
+        "note": "Diễn tấu tại nhà làng (Ơớng), trong lễ cúng cơm mới (nấu trong ống tre lồ ô từ lúa rẫy thiêng) và nghi thức lễ cưới truyền thống (tục gùi củi cưới)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Sáo Tuốt léc (Tuốc léc)",
+        "note": "Sáo nứa truyền thống của người Ve (ống nứa to cỡ ngón chân cái đường kính khoảng 2cm, dài 5 gang tay khoảng 1m, hong khô trên gác bếp 1–2 tháng, chỉ có 1 lỗ thổi chính giữa ống), âm sắc cao, réo rắt, da diết; dùng độc tấu hoặc đệm cho hát giao duyên."
+      },
+      {
+        "name": "Sáo Pà bam",
+        "note": "Sáo nứa nhỏ bằng ngón tay cái (đường kính khoảng 1cm), dài 3 gang tay (khoảng 60cm), trên thân có 1 lỗ thổi; gắn với sự tích hai anh em mồ côi Choong Unh và Choong Brol thổi sáo tưởng nhớ cha, ngày nay cũng được chàng trai Ve thổi gửi gắm tâm tình."
+      },
+      {
+        "name": "Sáo Đinh buôn",
+        "note": "Sáo nứa nhỏ (đường kính khoảng 1cm, dài 6 gang tay), một đầu để trống có đục 3 lỗ bấm nhỏ để đóng/mở tạo âm thanh đa dạng, một đầu đục lỗ xuyên qua mấu để thổi; gắn với sự tích tiếng khóc thương nhớ mẹ của hai anh em người Ve."
+      },
+      {
+        "name": "Đinh tút",
+        "note": "Nhạc cụ ống nứa thổi theo lối diễn tấu tập thể kết hợp múa của các nhóm cư dân Giẻ Triêng ở miền Tây Quảng Nam, gắn với nghi thức gọi hồn lúa trong lễ mừng mùa."
+      },
+      {
+        "name": "Cồng chiêng",
+        "note": "Dàn chiêng truyền thống diễn tấu theo đội (khoảng 10 nghệ nhân mỗi thôn) trong các dịp lễ hội lớn của làng tại nhà làng (Ơớng)."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "gie-trieng",
+    "phonation_and_prosody_note": "Tiếng Ve không có thanh điệu mà đối lập trường độ nguyên âm, âm cuối tắc/xát thanh hầu (-q, -h) và 3 chế độ sinh âm phụ âm đầu. Khi dùng mô hình TTS/giọng hát tiếng Việt chưa được huấn luyện tiếng Bahnaric, cần dùng dấu thanh tiếng Việt như chỉ báo trường độ và độ đóng thanh môn (thanh sắc cho vần khép tắc vô thanh -p/-t/-ch/-c/-q; thanh ngang cho âm tiết mở/vang; thanh huyền hoặc hỏi nhẹ cho phụ âm đầu sinh âm thở bh-, đh-, mm-, nn- và âm cuối xát họng -h).",
+    "quoc_ngu_approximation": [
+      {
+        "native": "đac (đak)",
+        "quoc_ngu": "đác",
+        "note": "Âm tiết khép kết thúc bằng /-k/ vô thanh trong ngôn ngữ không thanh điệu nghe gần với thanh sắc tiếng Việt; chữ đ tương ứng đúng /d/."
+      },
+      {
+        "native": "bar",
+        "quoc_ngu": "ba-rơ",
+        "note": "Tiếng Việt không có phụ âm rung cuối âm tiết /-r/; TTS tiếng Việt đọc 'bar' dễ bị câm -r hoặc đọc theo tiếng Anh, cần tách nhẹ hoặc nối âm lướt cực ngắn."
+      },
+      {
+        "native": "bil",
+        "quoc_ngu": "bi-lơ (hoặc bin)",
+        "note": "Tiếng Việt không có âm bên cuối /-l/; xấp xỉ 'bin' làm mất đối lập /-l/ và /-n/, nên chỉ dùng khi mô hình không xử lý được phụ âm cuối -l."
+      },
+      {
+        "native": "bheh",
+        "quoc_ngu": "bè-hơ (hoặc bề)",
+        "note": "Phụ âm tắc thở /b̤/ (bh-) và âm cuối xát họng /-h/ đều không có trong tiếng Việt chuẩn; dùng thanh huyền để gợi chất giọng thở trầm (breathy voice), nhưng không tái tạo được đầy đủ luồng hơi xát cuối /-h/."
+      },
+      {
+        "native": "ujh",
+        "quoc_ngu": "ui-hơ",
+        "note": "Tổ hợp phụ âm cuối /-jh/ không tồn tại trong tiếng Việt; đọc liền 'ui' kèm tiếng thở xát thanh hầu ngắn ở cuối."
+      },
+      {
+        "native": "carajh",
+        "quoc_ngu": "ca-rai-hơ",
+        "note": "Từ song tiết kiểu phụ – chính (sesquisyllabic): tiền âm tiết 'ca-' đọc lướt, nhẹ và ngắn, trọng tâm rơi vào âm tiết chính '-rajh'."
+      },
+      {
+        "native": "ajq",
+        "quoc_ngu": "ảy (ngắt thanh hầu)",
+        "note": "Tổ hợp cuối /-jʔ/ không có trong tiếng Việt; ngắt tắc thanh hầu đột ngột ngay sau bán nguyên âm /-j/ (tương tự phần nghẽn thanh hầu của thanh nặng/ngã miền Bắc)."
+      },
+      {
+        "native": "qwak",
+        "quoc_ngu": "quắc",
+        "note": "Phụ âm đầu tiền thanh hầu hóa /ʔw-/ (qw-) không có đối lập riêng trong tiếng Việt, nhưng âm tiết bắt đầu bằng qu- [kw ~ ʔw] ở khẩu ngữ là xấp xỉ gần."
+      },
+      {
+        "native": "phe",
+        "quoc_ngu": "phe",
+        "note": "Trùng khít với cách đọc chữ Quốc ngữ [fɛ] ở thanh ngang."
+      },
+      {
+        "native": "liêm",
+        "quoc_ngu": "liêm",
+        "note": "Trùng khít với vần -iêm [iem ~ iəm] ở thanh ngang tiếng Việt."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Tiếng Giẻ (Jeh)",
+        "iso639_3": "jeh",
+        "glottocode": "jehh1245",
+        "note": "Nhóm đông nhất của dân tộc Giẻ Triêng tại Việt Nam (tập trung ở huyện Đăk Glei, Kon Tum); thuộc tiểu nhánh Bahnar Bắc (North Bahnaric)."
+      },
+      {
+        "name": "Tiếng Triêng (Trieng)",
+        "iso639_3": "stg",
+        "glottocode": "trie1243",
+        "note": "Nhóm cư trú tại huyện Ngọc Hồi, Đăk Glei (Kon Tum) và huyện Nam Giang (Quảng Nam cũ); khác biệt đáng kể về hệ thống 19 nguyên âm có đối lập căng/chùng so với 15 nguyên âm của tiếng Ve."
+      },
+      {
+        "name": "Tiếng Bhnoong (Bnoong / Pơ Noong)",
+        "iso639_3": "jeh",
+        "glottocode": null,
+        "note": "Nhóm địa phương thuộc dân tộc Giẻ Triêng cư trú chủ yếu tại huyện Phước Sơn (Quảng Nam cũ); thường được các nhà ngôn ngữ học Việt Nam xếp gần với tiếng Giẻ (Bahnar Bắc)."
+      },
+      {
+        "name": "Talieng / Tariang tại Lào và mối liên hệ với Laveh (Brao)",
+        "iso639_3": "tdf",
+        "glottocode": "tali1257",
+        "note": "Mã tdf trên Ethnologue/Glottolog chỉ phương ngữ/ngôn ngữ Talieng (Kasseng-Taliang) chủ yếu tại Sekong và Attapeu (Lào); riêng tiếng Ve ở Đắc Pring (Việt Nam) còn được Bùi Đăng Bình (2025) liên hệ với cụm Bahnar Tây (gần Laveh [brb] ở cao nguyên Boloven)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ti",
+        "ipa": "ti",
+        "gloss_vi": "tay",
+        "gloss_en": "hand"
+      },
+      {
+        "native": "ê",
+        "ipa": "e",
+        "gloss_vi": "vợ",
+        "gloss_en": "wife"
+      },
+      {
+        "native": "phe",
+        "ipa": "fɛ",
+        "gloss_vi": "gạo",
+        "gloss_en": "rice"
+      },
+      {
+        "native": "ca",
+        "ipa": "kaː",
+        "gloss_vi": "cá",
+        "gloss_en": "fish"
+      },
+      {
+        "native": "đac",
+        "ipa": "daːk",
+        "gloss_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "ujh",
+        "ipa": "ujh",
+        "gloss_vi": "lửa",
+        "gloss_en": "fire"
+      },
+      {
+        "native": "uôh",
+        "ipa": "uoh",
+        "gloss_vi": "cát",
+        "gloss_en": "sand"
+      },
+      {
+        "native": "bheh",
+        "ipa": "b̤ɛh",
+        "gloss_vi": "con rắn",
+        "gloss_en": "snake"
+      },
+      {
+        "native": "carajh",
+        "ipa": "karajh",
+        "gloss_vi": "con chuột",
+        "gloss_en": "rat"
+      },
+      {
+        "native": "bar",
+        "ipa": "baːr",
+        "gloss_vi": "số hai (2)",
+        "gloss_en": "two"
+      },
+      {
+        "native": "puôn",
+        "ipa": "puon",
+        "gloss_vi": "số bốn (4)",
+        "gloss_en": "four"
+      },
+      {
+        "native": "chin",
+        "ipa": "cin",
+        "gloss_vi": "số chín (9)",
+        "gloss_en": "nine"
+      },
+      {
+        "native": "liêm",
+        "ipa": "liem",
+        "gloss_vi": "đẹp",
+        "gloss_en": "beautiful"
+      },
+      {
+        "native": "rot",
+        "ipa": "rɔt",
+        "gloss_vi": "rét, lạnh",
+        "gloss_en": "cold"
+      },
+      {
+        "native": "chiw",
+        "ipa": "ciw",
+        "gloss_vi": "đi",
+        "gloss_en": "to go"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Bùi Đăng Bình (2022). Bước đầu miêu tả ngữ âm tiếng Ve ở tỉnh Quảng Nam. Tạp chí Ngôn ngữ, số 10 (2022), tr. 71–80. Viện Ngôn ngữ học, Hà Nội.",
+      "url": "https://jol.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bùi Đăng Bình (2025). Chữ viết tiếng Ve. Tạp chí Ngôn ngữ, số 10 (2025), tr. 142–152. Viện Ngôn ngữ học, Hà Nội.",
+      "url": "https://jol.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Hữu Hoành (2004). Về mối quan hệ ngôn ngữ giữa các nhóm địa phương thuộc dân tộc Gié - Triêng. Tạp chí Ngôn ngữ, số 7 (2004), tr. 60–68.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Languoid: Talieng [tali1257]",
+      "url": "https://glottolog.org/resource/languoid/id/tali1257",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Talieng [tdf]",
+      "url": "https://www.ethnologue.com/language/tdf/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tariang language",
+      "url": "https://en.wikipedia.org/wiki/Tariang_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Văn Sơn (2022). Chuyện về 3 loại sáo của người Ve (Báo Đà Nẵng, 14/08/2022) & Người lưu giữ tiếng sáo Ve (Báo Biên phòng, 02/08/2022).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.onsets[12]",
+          "severity": "medium",
+          "problem": "Tổ hợp chữ 'chh' được mô tả là 'Phụ âm mặt lưỡi bật hơi / sinh âm thở' (ipa: 'cʰ ~ c̤'), nhưng theo Bùi Đăng Bình (2025, tr. 149, ghi chú 3), 'chh' được đặt để viết phụ âm tắc mặt lưỡi hữu thanh /ɟ/ nhằm đối lập thanh tính với phụ âm vô thanh /c/ (viết là 'ch').",
+          "fix": "Sửa ipa của 'chh' thành 'ɟ' (tắc mặt lưỡi - ngạc hữu thanh) và cập nhật ghi chú theo đúng tài liệu gốc Bùi Đăng Bình (2025)."
+        },
+        {
+          "path": "phonology.onsets[15]",
+          "severity": "low",
+          "problem": "Mục 'g / gh' chưa tách rõ hoặc ghi rõ giá trị ngữ âm của tổ hợp 'gg' (dùng để ghi phụ âm mạc sinh âm thở /ɡ̤/ theo ghi chú 6 trang 149 của Bùi Đăng Bình 2025).",
+          "fix": "Cập nhật grapheme thành 'g / gh / gg' và ipa thành 'ɡ ~ ɣ / ɡ̤', nâng độ chính xác của mô tả."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "low",
+          "problem": "Theo Bùi Đăng Bình (2022, tr. 71), hệ thống nguyên âm tiếng Ve gồm 15 nguyên âm hạt nhân (12 nguyên âm đơn và 3 nguyên âm đôi /ie, ɨə, uo/). Danh sách hiện tại mới liệt kê 2 nguyên âm đôi (iê/ie và uô/ua), thiếu nguyên âm đôi hàng giữa/sau không tròn môi /ɨə ~ ɯə/ (viết là ươ/ưa).",
+          "fix": "Bổ sung nguyên âm đôi 'ươ, ưa' (ipa: 'ɨə ~ ɯə') vào danh sách phonology.vowels."
+        },
+        {
+          "path": "phonology.onsets[30]",
+          "severity": "low",
+          "problem": "Danh sách tổ hợp phụ âm đầu ghi 'kl, kr, kql' (theo phiên âm âm vị học năm 2022), trong khi phương án chữ viết năm 2025 (Bùi Đăng Bình 2025, tr. 144) quy định viết bằng con chữ 'c' là 'cl, cr, cql' (cùng với bhl, bhr, gl, gr, tl, hgl, hnr, hv, ll...).",
+          "fix": "Chỉnh lại danh sách grapheme tổ hợp phụ âm đầu cho khớp với 62 tổ hợp chữ cái trong phương án Bùi Đăng Bình (2025)."
+        },
+        {
+          "path": "music.instruments",
+          "severity": "low",
+          "problem": "Mô tả về sáo Pà bam và sáo Đinh buôn có thể bổ sung thông tin cấu tạo vật lý và sự tích nguồn gốc cụ thể đã được kiểm chứng từ lời kể nghệ nhân Zơ Râm Ngăm (Báo Đà Nẵng 2022, Báo Biên phòng 2022).",
+          "fix": "Bổ sung thông số kích thước, số lỗ bấm/thổi và ý nghĩa truyền thống của 3 loại sáo Tuốt léc, Pà bam, Đinh buôn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần xác định dứt khoát quan hệ phân loại học và ánh xạ mã ISO 639-3 của tiếng Ve tại xã Đắc Pring (Đà Nẵng / Quảng Nam cũ): hiện tại khung danh mục gắn với tdf (Talieng / Kasseng-Taliang), nhưng tư liệu điền dã của Bùi Đăng Bình (2022, 2025) chỉ ra tiếng Ve thuộc nhóm Bahnar Tây (gần Laveh [brb]), khác biệt rõ với cả tiếng Giẻ [jeh] và tiếng Triêng [stg].",
+      "Bộ chữ viết tiếng Ve (Bùi Đăng Bình 2025) mới là phương án đề xuất khoa học, cần kiểm chứng mức độ tiếp nhận thực tế trong cộng đồng người Ve tại Đắc Pring.",
+      "Chưa có tư liệu ký âm nhạc lý (thang âm, quãng, tiết tấu chuẩn hóa ABC) của ba loại sáo Tuốt léc, Pà bam, Đinh buôn và các làn điệu dân ca Ve; cần điền dã âm nhạc học bổ sung."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

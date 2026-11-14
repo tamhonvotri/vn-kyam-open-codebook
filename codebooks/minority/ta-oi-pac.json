@@ -1,0 +1,895 @@
+{
+  "id": "ta-oi-pac",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Pa Cô",
+  "name_en": "Pacoh",
+  "autonym": "Pacŏ́h / Pakoóh",
+  "ethnic_group_vi": "Tà Ôi",
+  "language": {
+    "iso639_3": "pac",
+    "glottocode": "paco1243",
+    "family": "Austroasiatic",
+    "branch": "Katuic"
+  },
+  "regions": [
+    "Thừa Thiên Huế / TP. Huế (huyện A Lưới, Phong Điền, Hương Trà)",
+    "Quảng Trị (huyện Hướng Hóa, Đakrông)"
+  ],
+  "speakers_estimate": "Khoảng 10.000–16.000 người tại Việt Nam (Alves 2006 ước tính khoảng 10.000 người tại miền Trung Việt Nam; tổng số người nói tiếng Pa Cô ở cả Việt Nam và Lào khoảng 32.000–38.600 người theo Ethnologue; thuộc tổng dân số dân tộc Tà Ôi tại Việt Nam)",
+  "scripts": [
+    {
+      "name": "Chữ Latinh hệ Pakôh - Taôih (Việt Nam)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ cái Latinh dựa trên chữ Quốc ngữ được xây dựng cho công tác dạy học và bảo tồn tại địa phương (UBND tỉnh Bình Trị Thiên 1986; Sở GD&ĐT Thừa Thiên Huế 2004; Từ điển Việt - Pa cô - Ta ôi, Pa cô - Ta ôi - Việt cấp tỉnh năm 2016). Cấp quốc gia chưa có văn bản chuẩn hóa thống nhất duy nhất giữa các địa phương và giới nghiên cứu."
+    },
+    {
+      "name": "Chữ Latinh hệ SIL / Watson (Nốh Pacŏ́h)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ Latinh dựa trên chữ Quốc ngữ do Richard L. Watson, Saundra K. Watson và Cubuat Canxóiq biên soạn (1979, 2013), dùng dấu sắc/dấu trăng để phân biệt nguyên âm ngắn, dùng ei/â/ou cho nguyên âm giữa âm vực căng [+RTR], dùng -q cho âm tắc thanh hầu cuối [-ʔ]; phổ biến trên từ điển trực tuyến Webonary và các bản dịch."
+    },
+    {
+      "name": "Hệ phiên âm học thuật dựa trên IPA (Alves 2006)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, IPA Extensions, Combining Diacritical Marks",
+      "official_in_vietnam": false,
+      "note": "Dùng trong các chuyên khảo ngữ pháp và ngữ âm học quốc tế (Alves 2000, 2006; Sidwell 2003)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ các nguồn học thuật (Alves 2006; Watson 1964, 1979, 1996, 2013; Sidwell 2003; Hoàng Tuệ và nnk. 1986) và tư liệu văn hóa - âm nhạc địa phương tại Thừa Thiên Huế, Quảng Trị. Chỉ mô tả tiếng Pa Cô nói tại Việt Nam (nhóm địa phương Pa Cô thuộc dân tộc Tà Ôi; bảng mã gốc: ta-oi). Ánh xạ chữ viết dựa chủ yếu trên hệ Latinh phổ biến trong từ điển Pacoh - Việt - Anh (Watson 1979/2013) kèm đối chiếu với hệ Pakôh - Taôih (1986/2016). Chưa có thẩm định trực tiếp của người bản xứ và nhà ngôn ngữ học chuyên sâu.",
+  "phonology": {
+    "syllable_structure": "(C1(V1/N))C2(C3)V2(C4) — Cấu trúc âm tiết rưỡi (sesquisyllabic): gồm tiền âm tiết yếu không mang trọng âm (CV-, Cər-/Car- hoặc âm mũi đồng vị cấu âm N-) đi trước âm tiết chính mang trọng âm C(l/r)V(C).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Hệ Watson dùng c trước nguyên âm sau/giữa và k trước i, e, ê; hệ Pakôh - Taôih thường ưu tiên k",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không ghi trước nguyên âm đầu từ)",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đầu âm tiết chính hoặc tiền âm tiết, ví dụ acho [ʔacɔː], alic [ʔaliːk]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi [pʰ] (không phải âm xát [f] như tiếng Việt chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ɓ",
+        "note": "Tắc hai môi hữu thanh / tiền thanh hầu hóa (hút vào nhẹ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d ~ ɗ",
+        "note": "Tắc chân răng hữu thanh / tiền thanh hầu hóa; hệ Watson viết d (như dúng, daq), một số tài liệu tiếng Việt viết đ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "dy / j",
+        "ipa": "ɟ ~ ʄ",
+        "note": "Tắc ngạc cứng hữu thanh / tiền thanh hầu hóa (ví dụ dyôn, adyưng trong hệ Watson)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Cũng xuất hiện làm tiền âm tiết mũi đồng vị cấu âm (ví dụ mmay)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Cũng xuất hiện làm tiền âm tiết mũi đồng vị cấu âm (ví dụ ndo)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Xuất hiện ở đầu âm tiết chính và tiền âm tiết trước c, ʃ, ɲ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Cũng xuất hiện làm tiền âm tiết mũi (ví dụ ngcư)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "ʃ ~ s",
+        "note": "Âm xát ngạc-lợi/chân răng vô thanh; hệ Watson thường ghi bằng x, hệ giáo dục địa phương dùng cả s/x",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "w ~ v",
+        "note": "Âm tiếp cận môi-ngạc mềm /w/ ở đầu âm tiết thường xát hóa nhẹ thành [v] hoặc [ʋ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Âm tiếp cận ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl / pr / tr / cl (kl) / cr (kr) / bl / br",
+        "ipa": "pl / pr / tr / kl / kr / bl / br",
+        "note": "Tổ hợp phụ âm đầu chỉ xuất hiện ở âm tiết chính",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i / í",
+        "ipa": "iː / i",
+        "note": "Nguyên âm cao trước, âm vực thường (modal); hệ Watson dùng dấu sắc để chỉ nguyên âm ngắn ở âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ứ",
+        "ipa": "ɨː ~ ɯː / ɨ ~ ɯ",
+        "note": "Nguyên âm cao giữa/sau không tròn môi, âm vực thường (ví dụ cư [kɯː])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / ú",
+        "ipa": "uː / u",
+        "note": "Nguyên âm cao sau tròn môi, âm vực thường (ví dụ dúng [duŋ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / ế",
+        "ipa": "eː / e",
+        "note": "Nguyên âm hơi cao/giữa trước, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / ớ",
+        "ipa": "əː / ə",
+        "note": "Nguyên âm giữa trung tâm, âm vực thường [-RTR] (ví dụ carbơ [karbəː])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô / ố",
+        "ipa": "oː / o",
+        "note": "Nguyên âm hơi cao/giữa sau tròn môi, âm vực thường (ví dụ plô [ploː], pôc [poːk])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ei / éi",
+        "ipa": "ḛː / ḛ",
+        "note": "Nguyên âm giữa trước âm vực căng/kẹt (gốc lưỡi lùi [+RTR] / thanh hầu hóa nhẹ) trong chính tả Watson (ví dụ caheip, xéich, cuxéinh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â / ấ",
+        "ipa": "ə̰ː ~ ɤː / ə̰ ~ ɤ",
+        "note": "Nguyên âm giữa trung tâm/sau âm vực căng/kẹt ([+RTR]) trong chính tả Watson (ví dụ ncâp [ʔəŋkɤp], pânh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ou / óu",
+        "ipa": "o̰ː ~ ṵː / o̰",
+        "note": "Nguyên âm sau tròn môi âm vực căng/kẹt ([+RTR]) trong chính tả Watson (ví dụ houm [hṵːm], doui [ɗṵːj], cutour, móuh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e / ĕ (é)",
+        "ipa": "ɛː ~ ɛ̰ː / ɛ ~ ɛ̰",
+        "note": "Nguyên âm độ mở lớn trước, phân loại vào nhóm gốc lưỡi lùi [+RTR] (ví dụ pireng [pirɛːŋ], he [hɛː])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a / ă (á)",
+        "ipa": "aː ~ a̰ː / a ~ a̰",
+        "note": "Nguyên âm mở trung tâm/trước; nguyên âm ngắn trong tiền âm tiết a-, ca-, ta-, pa- đọc lướt [a ~ ə]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ŏ (ó / oo)",
+        "ipa": "ɔː ~ ɔ̰ː / ɔ ~ ɔ̰",
+        "note": "Nguyên âm mở sau tròn môi; hệ Watson dùng ŏ́ cho âm ngắn (Pacŏ́h [pakɔh]), hệ Pakôh - Taôih dùng nhân đôi nguyên âm oo cho âm dài (Pakoóh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi trước, âm vực thường (ví dụ achiêng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɨə",
+        "note": "Nguyên âm đôi giữa, âm vực thường",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi sau, âm vực thường (ví dụ ticuoi, ntúa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea",
+        "ipa": "ḛa",
+        "note": "Nguyên âm đôi trước, âm vực căng/kẹt [+RTR] (ví dụ canean, cuteac, karpeal)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơa / âa (ưa [+RTR])",
+        "ipa": "ə̰a",
+        "note": "Nguyên âm đôi giữa, âm vực căng/kẹt [+RTR]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "oa",
+        "ipa": "o̰a",
+        "note": "Nguyên âm đôi sau, âm vực căng/kẹt [+RTR] (ví dụ proaq, boaiq)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi cuối âm tiết (ví dụ xéich)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm cuối âm tiết; môi hóa thành [kʷ] sau nguyên âm tròn môi /u, o/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối âm tiết (ví dụ daq [daʔ], tốq, proaq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ cuxéinh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm; môi hóa thành [ŋʷ] sau nguyên âm tròn môi /u, o/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh cuối âm tiết (ví dụ Pacŏ́h [pakɔh], tangứh)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung cuối âm tiết (ví dụ bar [baːr], cutour)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết (ví dụ ticol, karpeal)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối (ví dụ may [maj], doui [ɗṵːj])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / u",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối (ví dụ atao)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iq / yq",
+        "ipa": "jʔ",
+        "note": "Bán nguyên âm ngạc cứng hậu thanh hầu hóa (ví dụ lớiq, boaiq, Canxóiq)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uq / oq",
+        "ipa": "wʔ",
+        "note": "Bán nguyên âm môi-ngạc mềm hậu thanh hầu hóa (ví dụ daoq [ɗaːwʔ])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih / yh",
+        "ipa": "jʰ ~ ç",
+        "note": "Bán nguyên âm đi kèm xát thanh hầu vô thanh cuối âm tiết (ví dụ tikeaih)",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (non-tonal). Tiếng Pa Cô đối lập hai âm vực (register) dựa trên vị trí gốc lưỡi và phẩm chất thanh hầu kết hợp với độ dài nguyên âm (ngắn/dài), tạo thành hệ thống 30 âm vị nguyên âm (12 nguyên âm đơn ngắn, 12 nguyên âm đơn dài, 6 nguyên âm đôi; theo Watson 1996, Sidwell 2003, Alves 2006): (1) Âm vực thường/lỏng (modal/lax) và (2) Âm vực căng/kẹt (creaky/tense, gốc lưỡi lùi [+RTR] hoặc yết hầu hóa/thanh hầu hóa làm nguyên âm hạ thấp độ mở). Khác với nhiều ngôn ngữ Môn-Khmer khác, âm vực tiếng Pa Cô gắn chặt với độ mở nguyên âm lịch sử hơn là sự vô thanh hóa phụ âm đầu. Dấu sắc trong chữ viết hệ Watson chỉ độ ngắn của nguyên âm, không phải thanh điệu cao độ."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tôi / tao",
+      "form": "cư",
+      "ipa": "kɯː",
+      "gloss_en": "I, me (1sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạn / mày",
+      "form": "may",
+      "ipa": "maj",
+      "gloss_en": "you (2sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / anh ấy / chị ấy",
+      "form": "do",
+      "ipa": "dɔː",
+      "gloss_en": "he, she, it (3sg)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng ta / chúng tôi",
+      "form": "he",
+      "ipa": "hɛː",
+      "gloss_en": "we (1pl)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "họ / chúng nó",
+      "form": "ape / ngai",
+      "ipa": null,
+      "gloss_en": "they (3pl)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "nhà",
+      "form": "dúng",
+      "ipa": "duŋ",
+      "gloss_en": "house",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "daq",
+      "ipa": "daʔ",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm",
+      "form": "doui",
+      "ipa": "ɗṵːj",
+      "gloss_en": "cooked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chó",
+      "form": "acho",
+      "ipa": "ʔacɔː",
+      "gloss_en": "dog",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lợn (heo)",
+      "form": "alic",
+      "ipa": "ʔaliːk",
+      "gloss_en": "pig",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá sấu",
+      "form": "carbơ",
+      "ipa": "karbəː",
+      "gloss_en": "crocodile",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "plô",
+      "ipa": "ploː",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng / tháng",
+      "form": "kixay",
+      "ipa": "kiʃaj",
+      "gloss_en": "moon, month",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cầu vồng",
+      "form": "pireng",
+      "ipa": "pirɛːŋ",
+      "gloss_en": "rainbow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tắm",
+      "form": "houm",
+      "ipa": "hṵːm",
+      "gloss_en": "to bathe",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai (số 2)",
+      "form": "bar",
+      "ipa": "baːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "pôc",
+      "ipa": "poːk",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "người",
+      "form": "ticuoi",
+      "ipa": "tikuəj",
+      "gloss_en": "person, human",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Ca lơi (Calơi / Câr lơi)",
+        "note": "Thể loại hát đối đáp, giao tiếp, khuyên răn con cháu và chúc tụng phổ biến nhất của người Pa Cô - Tà Ôi trong lễ hội, uống rượu, cưới hỏi; mở đầu bằng tiếng đệm gợi mở không gian (ơh... vơch chơvơ... van van van...)."
+      },
+      {
+        "name": "Cha chấp (Chachấp)",
+        "note": "Điệu hát giao duyên nam nữ của lứa tuổi thanh niên, cấu trúc gần với hò đối đáp (bắt đầu bằng vế xô/rao)."
+      },
+      {
+        "name": "Ba bôi (Ba bói / Boi bói / Babói) và A miêng (Amiêng)",
+        "note": "Lối hát tự sự, giãi bày nỗi niềm khi hát một mình, lên nương rẫy hoặc hát ru con ngâm ngợi tự do (Amiêng ơ... ơ... hơ hời)."
+      },
+      {
+        "name": "Ân tói (Ântói)",
+        "note": "Làn điệu nghi lễ hát trong đám cưới truyền thống (thường ở giai đoạn lễ thức cuối)."
+      },
+      {
+        "name": "A dên, Oát, Xiêng (Siêng), Târ a, Rarọi (Sisí), Nha nhim",
+        "note": "Các làn điệu dân ca gắn với lễ hội cầu mùa / mừng lúa mới (A Za / A Za Koonh), mừng làng mới, nhà mới và tục đi sim."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Câu rao tiếng đệm mở đầu (Ca lơi / A miêng)",
+        "description": "Ngân tự do không nhịp cố định ở đầu bài bằng các hư từ đặc trưng (ơh... vơch chơvơ..., amiêng ơ... hơ hời) để dẫn dắt cao độ trước khi vào phần lời hát nói.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Hát nói ứng tác trên âm trì tục",
+        "description": "Lời ca ứng tác bám sát độ dài ngắn của nguyên âm và cấu trúc âm tiết rưỡi (tiền âm tiết lướt nhẹ vào phách yếu, âm tiết chính rơi vào phách mạnh hoặc âm ngân trì tục).",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm hẹp tầm cữ quãng 4 trên trục 2 âm chủ đạo",
+        "note": "Khảo sát dân ca Tà Ôi - Pa Cô ở Thừa Thiên Huế ghi nhận đa số làn điệu có tầm cữ hẹp (thường không vượt quá quãng 4), giai điệu tiến hành bình ổn, ít quãng nhảy, xoay quanh trục 2 âm cách nhau quãng 2, quãng 3 hoặc quãng 4 kèm âm trì tục; một số nhạc cụ hơi như sáo Areeng có cao độ trung gian phi bình quân.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ hơi đa thanh có lưỡi gà, giữ vai trò trung tâm trong đệm hát và hội lễ"
+      },
+      {
+        "name": "Đàn Ta lư (Talư)",
+        "note": "Nhạc cụ dây gảy làm từ ống tre già, âm sắc trong trẻo, thường dùng vừa đàn vừa hát"
+      },
+      {
+        "name": "Sáo Areeng (Areng)",
+        "note": "Sáo thổi dọc bằng nứa có lưỡi gà ngậm trong miệng (2 lỗ bấm, có biến thể 2 đầu cho nam nữ thổi giao duyên)"
+      },
+      {
+        "name": "Cồng chiêng, thanh la (đồng la, phèng la) và trống",
+        "note": "Bộ nhạc cụ gõ nghi lễ trong lễ hội A Za, mừng nhà mới"
+      },
+      {
+        "name": "A mam (khèn), A man / Tirel / Teril (sáo), Ăng cưi (đàn môi), A bel (A benl), Câr dóc adoll, Tăng coi, Tù và sừng trâu",
+        "note": "Các nhạc cụ hơi và tự thân vang truyền thống khác của nhóm Pa Cô ở Quảng Trị và Thừa Thiên Huế"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "ta-oi",
+    "sub_varieties": [
+      {
+        "name_vi": "Pa Cô (Pacoh vùng cao)",
+        "iso639_3": "pac",
+        "glottocode": "paco1243",
+        "regions": [
+          "A Lưới (Thừa Thiên Huế / TP. Huế)",
+          "Hướng Hóa, Đakrông (Quảng Trị)"
+        ],
+        "note": "Biến thể chính được mô tả trong bảng mã này; còn được dùng làm phương tiện giao tiếp chung giữa một số nhóm lân cận tại A Lưới."
+      },
+      {
+        "name_vi": "Pa Hy (Ba Hi / Pahi)",
+        "iso639_3": "pac",
+        "glottocode": "pahi1243",
+        "regions": [
+          "Phong Điền, Hương Trà, A Lưới (Thừa Thiên Huế / TP. Huế)",
+          "Hướng Hóa (Quảng Trị)"
+        ],
+        "note": "Nhóm địa phương thuộc dân tộc Tà Ôi; Glottolog và Ethnologue xếp là phương ngữ của tiếng Pa Cô (pac), dù có khác biệt đáng kể về từ vựng và ngữ điệu."
+      },
+      {
+        "name_vi": "Tà Ôi thượng (Upper Ta'oih — tham chiếu cùng dân tộc Tà Ôi)",
+        "iso639_3": "tth",
+        "glottocode": "uppe1417",
+        "regions": [
+          "A Lưới (Thừa Thiên Huế / TP. Huế)",
+          "Hướng Hóa (Quảng Trị)"
+        ],
+        "note": "Ngôn ngữ Katuic gần gũi cùng thuộc dân tộc Tà Ôi nhưng không thông hiểu hoàn toàn với tiếng Pa Cô; xem bảng mã gốc ta-oi."
+      },
+      {
+        "name_vi": "Tà Ôi hạ (Lower Ta'oih — tham chiếu cùng dân tộc Tà Ôi)",
+        "iso639_3": "tto",
+        "glottocode": "lowe1411",
+        "regions": [
+          "Biên giới Việt – Lào (chủ yếu ở Lào, giao tiếp hạn chế vùng biên)"
+        ],
+        "note": "Thuộc cụm ngôn ngữ Tà Ôi (taoi1247); xem bảng mã gốc ta-oi."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Pacŏ́h / Pakoóh [pakɔh]",
+        "quoc_ngu": "pa co / pa cô",
+        "note": "Tiếng Việt không có âm xát thanh hầu cuối [-h]; dấu sắc trong chữ viết Watson chỉ nguyên âm ngắn [ɔ], không đọc thành thanh sắc cao vút 'pa có'."
+      },
+      {
+        "native": "daq [daʔ]",
+        "quoc_ngu": "đạc / đạ",
+        "note": "Âm tắc thanh hầu cuối [-ʔ] (-q) không có dạng độc lập phi thanh điệu trong tiếng Việt; xấp xỉ gần nhất bằng thanh nặng ngắn (đạ/đạc) để giữ hiệu ứng đóng thanh hầu."
+      },
+      {
+        "native": "dúng [duŋ]",
+        "quoc_ngu": "đung / dung",
+        "note": "Bỏ dấu sắc của chính tả Watson khi đưa vào TTS tiếng Việt để tránh đọc vút cao [35]; nguyên âm [u] ngắn đi trước [-ŋʷ]."
+      },
+      {
+        "native": "acho [ʔacɔː]",
+        "quoc_ngu": "a cho",
+        "note": "Tiền âm tiết a- [ʔa-] đọc cực ngắn và nhẹ không trọng âm, trọng âm rơi vào âm tiết chính 'cho'."
+      },
+      {
+        "native": "alic [ʔaliːk]",
+        "quoc_ngu": "a lích / a líc",
+        "note": "Trong tiếng Việt vần -ic luôn bắt buộc đi kèm thanh sắc hoặc nặng; dùng thanh sắc ở nốt cao hoặc thanh nặng ở nốt thấp để giữ âm cuối [-k]."
+      },
+      {
+        "native": "plô [ploː]",
+        "quoc_ngu": "pờ lô",
+        "note": "Tiếng Việt hiện đại không có tổ hợp phụ âm đầu pl-; chèn nguyên âm đệm siêu ngắn (pờ-lô) dưới dạng nốt lướt 1/16 phách trước âm tiết chính."
+      },
+      {
+        "native": "bar [baːr]",
+        "quoc_ngu": "ba-rờ / ban",
+        "note": "Tiếng Việt không có âm rung cuối [-r] (và [-l]); TTS chỉ biết tiếng Việt sẽ làm mất âm [-r], có thể nối nhẹ một âm lướt cực nhỏ hoặc chấp nhận xấp xỉ."
+      },
+      {
+        "native": "carbơ [karbəː]",
+        "quoc_ngu": "ca bơ",
+        "note": "Tiền âm tiết car- có [-r] cuối không tồn tại trong tiếng Việt; đọc lướt nhanh 'ca' vào 'bơ'."
+      },
+      {
+        "native": "doui [ɗṵːj]",
+        "quoc_ngu": "đụi / đui",
+        "note": "Âm vực kẹt/căng gốc lưỡi [+RTR] của nguyên âm [ṵː] không có tương đương chuẩn trong tiếng Việt; thanh nặng trong tiếng Việt có hiện tượng thanh hầu hóa nhưng làm tụt cao độ, nên khi hát cần ưu tiên cao độ giai điệu."
+      },
+      {
+        "native": "ph- [pʰ]",
+        "quoc_ngu": "p-h / ph",
+        "note": "Chữ ph trong tiếng Pa Cô là âm tắc bật hơi [pʰ], còn TTS tiếng Việt sẽ đọc thành âm xát [f]; đây là giới hạn âm vị học cần lưu ý khi tổng hợp."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "cư",
+        "ipa": "kɯː",
+        "meaning_vi": "tôi, tao",
+        "gloss_en": "I, me"
+      },
+      {
+        "native": "may",
+        "ipa": "maj",
+        "meaning_vi": "bạn, mày",
+        "gloss_en": "you (sg)"
+      },
+      {
+        "native": "do",
+        "ipa": "dɔː",
+        "meaning_vi": "nó, anh ấy, chị ấy",
+        "gloss_en": "he, she, it"
+      },
+      {
+        "native": "he",
+        "ipa": "hɛː",
+        "meaning_vi": "chúng ta, chúng tôi",
+        "gloss_en": "we"
+      },
+      {
+        "native": "dúng",
+        "ipa": "duŋ",
+        "meaning_vi": "nhà",
+        "gloss_en": "house"
+      },
+      {
+        "native": "daq",
+        "ipa": "daʔ",
+        "meaning_vi": "nước",
+        "gloss_en": "water"
+      },
+      {
+        "native": "doui",
+        "ipa": "ɗṵːj",
+        "meaning_vi": "cơm",
+        "gloss_en": "cooked rice"
+      },
+      {
+        "native": "acho",
+        "ipa": "ʔacɔː",
+        "meaning_vi": "chó",
+        "gloss_en": "dog"
+      },
+      {
+        "native": "alic",
+        "ipa": "ʔaliːk",
+        "meaning_vi": "lợn (heo)",
+        "gloss_en": "pig"
+      },
+      {
+        "native": "plô",
+        "ipa": "ploː",
+        "meaning_vi": "đầu",
+        "gloss_en": "head"
+      },
+      {
+        "native": "houm",
+        "ipa": "hṵːm",
+        "meaning_vi": "tắm",
+        "gloss_en": "to bathe"
+      },
+      {
+        "native": "pireng",
+        "ipa": "pirɛːŋ",
+        "meaning_vi": "cầu vồng",
+        "gloss_en": "rainbow"
+      },
+      {
+        "native": "bar",
+        "ipa": "baːr",
+        "meaning_vi": "hai (số 2)",
+        "gloss_en": "two"
+      },
+      {
+        "native": "carbơ",
+        "ipa": "karbəː",
+        "meaning_vi": "cá sấu",
+        "gloss_en": "crocodile"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Không áp dụng quy tắc thanh điệu chữ Quốc ngữ lên văn bản tiếng Pa Cô viết theo hệ Watson (dấu sắc <á, í, ú> biểu thị nguyên âm ngắn chứ không phải thanh sắc [35]).",
+      "Với từ có cấu trúc âm tiết rưỡi (ví dụ acho, alic, carbơ, ticuoi, ngcư), gán thời lượng rất ngắn (grace note / 1/16 phách) cho tiền âm tiết và đặt trọng âm nhạc lý vào âm tiết chính.",
+      "Các âm cuối không có trong tiếng Việt gồm [-ʔ] (-q), [-h], [-r], [-l], [-jʔ] (-iq/-yq), [-wʔ] (-uq/-oq) và đối lập âm vực [+RTR] cần huấn luyện acoustic adapter riêng nếu muốn phát âm chuẩn xác thay vì xấp xỉ Quốc ngữ."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Alves, Mark J. (2006). A grammar of Pacoh: A Mon-Khmer language of the central highlands of Vietnam. Pacific Linguistics 580. Canberra: Australian National University.",
+      "url": "https://doi.org/10.15144/PL-580",
+      "url_check": "http_404",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Watson, Richard L., Saundra K. Watson & Cubuat Canxóiq (2013 [1979]). Nốh Pacŏ́h-Yoan-Anh / Pacoh-Vietnamese-English Dictionary. SIL International (Webonary).",
+      "url": "https://www.webonary.org/pacoh/",
+      "url_check": "http_403",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.4 — Pacoh (paco1243)",
+      "url": "https://glottolog.org/resource/languoid/id/paco1243",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Pacoh language",
+      "url": "https://en.wikipedia.org/wiki/Pacoh_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "WALS Online — Language Pacoh (wals_code_pac)",
+      "url": "https://wals.info/languoid/lect/wals_code_pac",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "PHOIBLE 2.0 — Pacoh phonological inventory (paco1243)",
+      "url": "https://phoible.org/languages/paco1243",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wiktionary — Category:Pacoh terms derived from Proto-Katuic",
+      "url": "https://en.wiktionary.org/wiki/Category:Pacoh_terms_derived_from_Proto-Katuic",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Watson, Richard L. (1996). Why three phonologies for Pacoh? Mon-Khmer Studies, 26, 197–205.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Watson, Saundra K. (1964). Personal pronouns in Pacŏh. Mon-Khmer Studies, 1, 81–97.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Hoàng Tuệ (chủ biên), Nguyễn Văn Lợi, Đoàn Văn Phúc & Phan Xuân Thành (1986). Sách học tiếng Pakôh – Taôih. UBND tỉnh Bình Trị Thiên.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tỉnh Thừa Thiên Huế & Viện Từ điển học và Bách khoa thư Việt Nam (2016). Từ điển Việt - Pa cô - Ta ôi, Pa cô - Ta ôi - Việt.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "scripts[0].official_in_vietnam",
+          "severity": "medium",
+          "problem": "Đặt official_in_vietnam = true nhưng trong phần note lại nêu rõ 'Cấp quốc gia chưa có văn bản chuẩn hóa thống nhất duy nhất'. Bộ chữ Pakôh - Taôih mới dừng ở mức tài liệu giáo dục/từ điển cấp tỉnh (Bình Trị Thiên 1986, Thừa Thiên Huế 2004, 2016), chưa có nghị định chuẩn hóa quốc gia.",
+          "fix": "Đổi official_in_vietnam từ true thành false (hoặc null) và giữ giải thích rõ ở note."
+        },
+        {
+          "path": "phonology.vowels[4..8]",
+          "severity": "medium",
+          "problem": "Ánh xạ chữ viết hệ Watson cho nhóm nguyên âm giữa đối lập âm vực [-RTR] (modal) và [+RTR] (creaky/tense) chưa chuẩn xác: trong chính tả từ điển Watson (1979/2013), cặp nguyên âm giữa [+RTR] được ghi bằng <ei / éi> cho /ḛː, ḛ/ (ví dụ caheip, xéich, cuxéinh), <â / ấ> cho /ə̰ː, ə̰/ ~ [ɤː, ɤ] (ví dụ ncâp, pânh), và <ou / óu> cho /o̰ː, o̰/ (ví dụ houm, doui, cutour, móuh); trong khi <ơ / ớ> dành riêng cho âm vực thường [-RTR] /əː, ə/.",
+          "fix": "Tách rõ <ơ / ớ> (/əː, ə/) với <â / ấ> (/ə̰ː, ə̰/ ~ [ɤː, ɤ]), bổ sung <ei / éi> cho /ḛː, ḛ/ và <ou / óu> cho /o̰ː, o̰/."
+        },
+        {
+          "path": "lexicon[4] & lexicon[17]",
+          "severity": "low",
+          "problem": "Hai mục từ 'ape / ngai' và 'ticuoi' để ipa = null nhưng lại gán confidence = 'high'. Ngoài ra 'ticuoi' có thể bổ sung IPA [tikuəj].",
+          "fix": "Hạ confidence của 'ape / ngai' xuống 'medium' và bổ sung IPA 'tikuəj' cho 'ticuoi'."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Các nguồn URL đã được kiểm chứng thực tế trên mạng (DOI Pacific Linguistics, Webonary, Glottolog, Wikipedia, WALS, PHOIBLE, Wiktionary) nhưng trường url_check đang để null.",
+          "fix": "Cập nhật url_check = 'verified' cho các URL đã kiểm tra."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết bảng chữ cái giữa Từ điển Việt - Pa cô - Ta ôi (2016) của Thừa Thiên Huế và hệ chữ Watson (1979/2013) đối với từng cặp nguyên âm đối lập âm vực [+RTR]/[-RTR].",
+      "Cần người bản xứ Pa Cô tại A Lưới (Huế) và Hướng Hóa / Đakrông (Quảng Trị) kiểm tra mức độ chấp nhận các quy tắc xấp xỉ Quốc ngữ khi tổng hợp giọng hát.",
+      "Cần nhạc sĩ dân tộc học bổ sung ký âm ABC chuẩn xác cho các làn điệu Ca lơi, Cha chấp, Ba bôi và thang âm thực tế của sáo Areeng, khèn bè."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,833 @@
+{
+  "id": "mnong-mnn",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mnông Nam",
+  "name_en": "Southern Mnong",
+  "autonym": "Mnông (Bu Nong / Nong, Prâng)",
+  "ethnic_group_vi": "Mnông",
+  "language": {
+    "iso639_3": "mnn",
+    "glottocode": "sout2692",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (South Bahnaric, Sre–Mnong)"
+  },
+  "regions": [
+    "Đắk Nông cũ — nay thuộc Lâm Đồng (Gia Nghĩa, Đắk Mil, Đắk Song, Đắk R'Lấp, Tuy Đức, Krông Nô)",
+    "Bình Phước cũ — nay thuộc Đồng Nai (Bù Đăng, Bù Gia Mập)",
+    "Đắk Lắk (nam hồ Lắk, Bản Đôn / Ea Súp)",
+    "Lâm Đồng (vùng giáp ranh tây nam)"
+  ],
+  "speakers_estimate": "Khoảng 30.000–48.000 người nói tiếng Mnông Nam tại Việt Nam (ước tính khoảng 30.000–38.000 theo hồ sơ Ethnologue/Glottolog; tổng dân số dân tộc Mnông tại Việt Nam là 127.334 người theo Tổng điều tra dân số 2019, phân bố qua ba cụm ngôn ngữ Mnông Trung, Mnông Đông và Mnông Nam).",
+  "scripts": [
+    {
+      "name": "Chữ Mnông hệ Latinh (cải biên dựa trên chữ Quốc ngữ và bộ chữ SIL thập niên 1960)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended-A; Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Người Mnông tại Việt Nam không có chữ viết cổ truyền thống (chữ Khmer chỉ dùng cho tiếng Bunong/Mnông Trung ở Campuchia). Tại Đắk Nông và Đắk Lắk, bộ chữ Latinh dạy học và biên soạn từ điển chủ yếu lấy phương ngữ Mnông Preh (cmo) và Mnông Rlăm (mng) làm cơ sở; tiếng Mnông Nam (mnn — nhóm Nong, Prâng) dùng chung quy ước chữ Latinh Mnông khi sưu tầm văn học dân gian nhưng chưa có chuẩn chính tả hành chính tách biệt."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp do LLM tổng hợp từ tư liệu phân loại và phương ngữ học Bahnar Nam (Blood 1966; Nguyễn Kiên Trường & Trương Anh 2009; Glottolog 5.3; Brunelle, Đinh & Tạ 2025). Lưu ý học thuật quan trọng: theo Brunelle, Đinh & Tạ (2025), khác với Mnông Trung (cmo) và Mnông Đông (mng), hệ thống âm vị học và thanh tính thực nghiệm của riêng cụm Mnông Nam (mnn: Nong, Prâng) hiện chưa có chuyên khảo mô tả đầy đủ; bảng đối chiếu âm vị dưới đây phản ánh khung âm vị và chính tả chung của cụm Mnông tại Việt Nam (đánh dấu confidence='low' hoặc 'medium' ở các vị trí cần điền dã xác minh cho mnn).",
+  "phonology": {
+    "syllable_structure": "(C1(ə/N))C2(C3)V(ː)(C4) — từ đơn tiết hoặc bán âm tiết (sesquisyllabic), trọng âm luôn rơi vào âm tiết chính cuối từ",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (khác ph [f] của tiếng Việt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh thường",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ƀ",
+        "ipa": "ɓ",
+        "note": "Tắc hút vào hai môi (tương ứng âm b trong chữ Quốc ngữ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh thường (khác d [z/j] tiếng Việt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc hút vào chân răng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "č / ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi–ngạc cứng vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi–ngạc cứng hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "dj / ǰ",
+        "ipa": "ʄ",
+        "note": "Tắc hút vào ngạc cứng; sự hiện diện và hiện thực hóa biến đổi theo phương ngữ Mnông",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (khác kh [x] tiếng Việt Hà Nội)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh (khác g [ɣ] tiếng Việt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ñ / nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s ~ ç",
+        "note": "Xát chân răng hoặc lợi-ngạc/ngạc cứng vô thanh (tài liệu âm vị học cụm Mnông thường ký hiệu /ç/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung hoặc vỗ đầu lưỡi; rất phổ biến trong tổ hợp phụ âm đầu Cr- (pr, br, tr, dr, kr, gr)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng; phổ biến trong tổ hợp Cl- (pl, bl, kl)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Tiếp cận môi–ngạc mềm; có biến thể tiền thanh hầu hóa /ʔw/ ở một số phương ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng; có biến thể tiền thanh hầu hóa /ʔj/ ở một số phương ngữ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "mp / m'p / mb / m'b",
+        "ipa": "ᵐp ~ ᵐb ~ məp",
+        "note": "Tổ hợp tiền mũi hóa hoặc tiền âm tiết mũi hai môi (ví dụ: m'pring, m'buốt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "nt / n't / nd / n'd / ndr / n'r",
+        "ipa": "ⁿt ~ ⁿd ~ ⁿdr ~ nər",
+        "note": "Tổ hợp tiền mũi hóa hoặc tiền âm tiết mũi đầu lưỡi (ví dụ: N'Trang Lơng, Ot Ndrong / Ót N'rông)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm trước đóng dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm trước đóng ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm trước nửa đóng dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê̆",
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa đóng ngắn",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː",
+        "note": "Nguyên âm trước nửa mở dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ĕ",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước nửa mở ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm giữa đóng dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư̆",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa đóng ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa vừa dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ̆ / â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa vừa ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm sau đóng dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm sau đóng ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm sau nửa đóng dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô̆",
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa đóng ngắn",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm sau nửa mở dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm trước",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm sau",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-č / -ch",
+        "ipa": "c̚",
+        "note": "Tắc ngạc cứng đóng âm tiết, thường kéo theo âm lướt ngạc [ʲc]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-k / -c",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm đóng âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-q / -' / nguyên âm mang dấu trăng cuối âm tiết mở",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ñ / -nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (không có trong tiếng Việt, ví dụ: poh 'bảy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-s / -ih / -yh",
+        "ipa": "ç ~ jh",
+        "note": "Xát ngạc/hậu nguyên âm cuối âm tiết đặc trưng nhóm Bahnar Nam",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "-r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi cuối âm tiết (không có trong tiếng Việt, ví dụ: bar 'hai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-l",
+        "ipa": "l",
+        "note": "Bên chân răng cuối âm tiết (không có trong tiếng Việt, ví dụ: dul 'một' ở một số thổ ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-w / -u / -o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y / -i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối ngạc cứng",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu. Thuộc loại hình ngôn ngữ Môn-Khmer đa dạng về đối lập thanh hầu/âm vực (register): trong khi tiếng Mnông Trung (cmo) đã chuyển hóa thành hệ thống đối lập âm vực (giọng trong / giọng thở-hạ thanh hầu) và tiếng Mnông Đông Rlăm (mng) bảo lưu đối lập hữu thanh đi kèm âm vực dư thừa trên nguyên âm (Brunelle, Đinh & Tạ 2025), cơ chế đối lập thanh tính hoặc âm vực cụ thể của tiếng Mnông Nam (mnn — nhóm Nong, Prâng) hiện chưa được đo đạc ngữ âm học thực nghiệm."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước / hồ / suối",
+      "form": "dak",
+      "ipa": "daːk",
+      "gloss_en": "water / lake",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một",
+      "form": "ngoay (Bu Noong) / muay, waay (Prâng)",
+      "ipa": "ŋwaːj / mwaːj, waːj",
+      "gloss_en": "one",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hai",
+      "form": "bar (Bu Noong) / baar (Prâng)",
+      "ipa": "bar / baːr",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ba",
+      "form": "pê (Bu Noong) / păi (Prâng)",
+      "ipa": "peː / paj",
+      "gloss_en": "three",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bốn",
+      "form": "puăn (Bu Noong) / puô (Prâng)",
+      "ipa": "pwan / puə",
+      "gloss_en": "four",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "năm (số đếm)",
+      "form": "prăm",
+      "ipa": "pram",
+      "gloss_en": "five",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sáu",
+      "form": "prau / pro",
+      "ipa": "praːw / prɔː",
+      "gloss_en": "six",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "bảy",
+      "form": "poh (Bu Noong) / pŏh (Prâng)",
+      "ipa": "pɔːh / pɔh",
+      "gloss_en": "seven",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tám",
+      "form": "pham",
+      "ipa": "pʰaːm",
+      "gloss_en": "eight",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chín",
+      "form": "sĭn (Bu Noong) / chĭnh ~ sin (Prâng)",
+      "ipa": "sin / ciɲ ~ siːn",
+      "gloss_en": "nine",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "mày / bạn (ngôi thứ hai số ít)",
+      "form": "mơ̆q (Nong)",
+      "ipa": "məʔ",
+      "gloss_en": "you (singular)",
+      "confidence": "low"
+    },
+    {
+      "standard_vi": "hát kể sử thi",
+      "form": "ot ndrong / ót n'rông",
+      "ipa": "ʔɔːt ndrɔːŋ",
+      "gloss_en": "epic chanting",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dân ca / lời hát",
+      "form": "nau m'pring",
+      "ipa": "naːw məpriŋ",
+      "gloss_en": "folk song",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hát kể chuyện / hát đối đáp",
+      "form": "tâm pớt",
+      "ipa": "təmpəːt",
+      "gloss_en": "narrative / antiphonal singing",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Ot Ndrong (Ót N'rông) — Hát kể sử thi Mnông",
+        "note": "Di sản văn hóa phi vật thể quốc gia (Quyết định 4205/QĐ-BVHTTDL ngày 19/12/2014 tại các huyện Tuy Đức, Đắk Song, Đắk Mil, tỉnh Đắk Nông cũ). Hát kể không nhạc đệm kéo dài nhiều đêm mùa rẫy, kết hợp lời nói vần, đối xứng ngữ nghĩa và giai điệu ngâm kể trầm bổng."
+      },
+      {
+        "name": "Nau M'pring — Dân ca Mnông",
+        "note": "Di sản văn hóa phi vật thể quốc gia (Quyết định 2743/QĐ-BVHTTDL ngày 30/09/2020 tại các huyện thị vùng Đắk Nông). Hình thức diễn xướng không nhạc đệm gồm hát ru, đồng dao, hát khóc, hát khấn thần, hát giao duyên; biểu diễn độc xướng hoặc đối đáp."
+      },
+      {
+        "name": "Tâm pớt — Hát kể chuyện, ngụ ngôn và đối đáp",
+        "note": "Lối hát kể truyền thuyết, truyện cổ, ngụ ngôn và giao duyên phổ biến ở các nhóm Mnông phía nam và cộng đồng S'tiêng lân cận tại vùng Bình Phước – Đắk Nông."
+      },
+      {
+        "name": "Hòa tấu cồng chiêng Mnông",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO công nhận năm 2005); thường dùng bộ 6 chiêng bằng (không núm) kết hợp trống cái trong lễ hội cộng đồng, lễ mừng thọ, lễ mừng lúa mới."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngâm rung và ngân cuối câu sử thi (Ot Ndrong)",
+        "description": "Kéo dài nguyên âm cuối dòng vần hoặc thêm hư từ đệm ở cao độ ổn định rồi hạ giọng dần để lấy hơi sang câu kế tiếp; chưa có ký âm ABC chuẩn hóa.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm cồng chiêng và dân ca Tây Nguyên (4–5 âm không bán âm hoặc bán âm đặc thù)",
+        "note": "Cao độ trong bộ chiêng bằng 6 chiếc của người Mnông và lối hát Nau M'pring / Ot Ndrong không theo hệ bình quân 12 bán âm phương Tây; cần nhà dân tộc nhạc học đo cao độ thực tế cho từng nhóm địa phương.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Chiêng bằng (Goong pe — bộ 6 chiêng không núm)"
+      },
+      {
+        "name": "Goong lú (Đàn đá Mnông)"
+      },
+      {
+        "name": "Goong rêng (Đàn ống tre)"
+      },
+      {
+        "name": "M'buốt / M'boat (Khèn bầu nhiều ống trúc gắn quả bầu khô)"
+      },
+      {
+        "name": "R'lét (Nhạc cụ hơi bằng ống nứa/tre)"
+      },
+      {
+        "name": "Đinh pút / Kèn sừng trâu"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "mnong",
+    "sub_varieties": [
+      {
+        "name": "Mnông Nong (Bu Noong / Nông)",
+        "iso639_3": "mnn",
+        "region_vn": "Gia Nghĩa, Đắk Mil, Đắk Song, Đắk R'Lấp (vùng Đắk Nông cũ) và vùng giáp ranh Bình Phước cũ",
+        "note": "Phân nhóm chính của tiếng Mnông Nam (mnn) tại Việt Nam."
+      },
+      {
+        "name": "Mnông Prâng",
+        "iso639_3": "mnn",
+        "region_vn": "Rải rác tại Đắk Mil, Gia Nghĩa (vùng Đắk Nông cũ), nam hồ Lắk và Bản Đôn / Ea Súp (Đắk Lắk)",
+        "note": "Phân nhóm chính thứ hai thuộc mã mnn theo phân loại của Thomas & Headley (1970), Glottolog và Ethnologue."
+      },
+      {
+        "name": "Mnông Đíp",
+        "iso639_3": "mnn",
+        "region_vn": "Đắk Mil và vùng bắc Sông Bé / Bình Phước cũ (nay thuộc Đồng Nai)",
+        "note": "Nhóm địa phương nhỏ cư trú ở cực nam vùng phân bố Mnông tại Việt Nam; đôi khi được gộp vào cụm Nam hoặc Trung tùy tài liệu."
+      },
+      {
+        "name": "Tiếng Mnông Trung — Central Mnong (Preh, Bu Nâr / Bu Nor, Bu Đâng, Dih Bri, Biat)",
+        "iso639_3": "cmo",
+        "region_vn": "Đắk Nông cũ, Đắk Lắk (Ea Súp, Bản Đôn), vùng biên giới Bình Phước cũ",
+        "note": "Ngôn ngữ anh em cùng dân tộc Mnông tại Việt Nam (có bảng mã riêng); phương ngữ Preh được dùng nhiều trong biên soạn từ điển tại Đắk Nông."
+      },
+      {
+        "name": "Tiếng Mnông Đông — Eastern Mnong (Rlăm / Rơlơm, Gar, Kuênh, Chỉl)",
+        "iso639_3": "mng",
+        "region_vn": "Huyện Lắk, Krông Pắc (Đắk Lắk) và tây bắc Lâm Đồng (Đam Rông, Lạc Dương)",
+        "note": "Ngôn ngữ anh em cùng dân tộc Mnông tại Việt Nam (có bảng mã riêng); chịu ảnh hưởng tiếp xúc đáng kể từ tiếng Ê-đê ở nhóm Rlăm."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "dak",
+        "quoc_ngu": "đác",
+        "note": "Âm đầu /d/ thường hoặc /ɗ/ viết gần đúng bằng 'đ'; âm cuối /-k/ đọc khép như '-c' tiếng Việt."
+      },
+      {
+        "native": "bar / baar",
+        "quoc_ngu": "ba-rơ (lướt cực ngắn âm r cuối)",
+        "note": "Tiếng Việt không có âm cuối /-r/. Nếu viết 'ba' sẽ mất âm cuối; với TTS tiếng Việt chỉ có thể xấp xỉ thô, không thể phát âm đúng /-r/ đóng âm tiết nếu không fine-tune âm vị."
+      },
+      {
+        "native": "poh / pŏh",
+        "quoc_ngu": "po-hờ (bật hơi thở nhẹ cuối âm tiết)",
+        "note": "Tiếng Việt không có âm xát thanh hầu cuối âm tiết /-h/ cũng như phụ âm đầu /p-/ thuần trước mọi nguyên âm (một số giọng Bắc đọc 'p' thành 'b')."
+      },
+      {
+        "native": "pham",
+        "quoc_ngu": "p-ham / tham (bật hơi hai môi)",
+        "note": "Chữ 'ph' trong tiếng Mnông là âm tắc bật hơi /pʰ/, KHÔNG phải âm xát môi-răng /f/ như chữ 'ph' trong tiếng Việt."
+      },
+      {
+        "native": "prăm",
+        "quoc_ngu": "pơ-răm",
+        "note": "Tiếng Việt hiện đại không có tổ hợp phụ âm đầu /pr-/; khi đọc qua TTS tiếng Việt phải tách bằng nguyên âm lướt cực ngắn 'pơ-răm'."
+      },
+      {
+        "native": "ot ndrong",
+        "quoc_ngu": "ót nơ-đrông",
+        "note": "Tổ hợp tiền mũi hóa ba âm vị /ndr-/ không tồn tại trong tiếng Việt; viết 'nơ-đrông' hoặc 'n-rông' chỉ là xấp xỉ thô."
+      },
+      {
+        "native": "nau m'pring",
+        "quoc_ngu": "nao mơ-pơ-rinh",
+        "note": "Tiền âm tiết mũi 'm'' + cụm 'pr-' không có trong tiếng Việt; lưu ý '-ing' trong tiếng Mnông giữ nguyên âm /i/ + /ŋ/ chứ không ngạc hóa thành [-iɲ] mạnh như giọng Hà Nội."
+      },
+      {
+        "native": "ƀ",
+        "quoc_ngu": "b",
+        "note": "Âm hút vào hai môi /ɓ/ của tiếng Mnông ('ƀ') trùng khớp tự nhiên với chữ 'b' đầu âm tiết trong tiếng Việt."
+      },
+      {
+        "native": "ă / ĕ / ĭ / ŏ / ŭ + phụ âm tắc vô thanh hoặc tắc thanh hầu (-q)",
+        "quoc_ngu": "dùng dấu sắc/nặng giả lập độ ngắn và ngắt thanh hầu (ví dụ mơ̆q -> mợ)",
+        "note": "Tiếng Mnông không có thanh điệu; dấu sắc/nặng trong Quốc ngữ ở đây chỉ là mẹo ép TTS tiếng Việt rút ngắn trường độ nguyên âm và tạo tắc thanh hầu cuối âm tiết."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "dak",
+        "ipa": "daːk",
+        "meaning_vi": "nước, hồ, suối"
+      },
+      {
+        "native": "ngoay",
+        "ipa": "ŋwaːj",
+        "meaning_vi": "một (thổ ngữ Bu Noong)"
+      },
+      {
+        "native": "muay",
+        "ipa": "mwaːj",
+        "meaning_vi": "một (thổ ngữ Prâng; biến thể: waay)"
+      },
+      {
+        "native": "bar",
+        "ipa": "bar",
+        "meaning_vi": "hai (Bu Noong; Prâng: baar [baːr])"
+      },
+      {
+        "native": "pê",
+        "ipa": "peː",
+        "meaning_vi": "ba (Bu Noong; Prâng: păi [paj])"
+      },
+      {
+        "native": "puăn",
+        "ipa": "pwan",
+        "meaning_vi": "bốn (Bu Noong; Prâng: puô [puə])"
+      },
+      {
+        "native": "prăm",
+        "ipa": "pram",
+        "meaning_vi": "năm"
+      },
+      {
+        "native": "prau",
+        "ipa": "praːw",
+        "meaning_vi": "sáu (biến thể: pro [prɔː])"
+      },
+      {
+        "native": "poh",
+        "ipa": "pɔːh",
+        "meaning_vi": "bảy (Prâng: pŏh [pɔh])"
+      },
+      {
+        "native": "pham",
+        "ipa": "pʰaːm",
+        "meaning_vi": "tám"
+      },
+      {
+        "native": "sĭn",
+        "ipa": "sin",
+        "meaning_vi": "chín (Bu Noong; Prâng: chĭnh [ciɲ] / sin)"
+      },
+      {
+        "native": "mơ̆q",
+        "ipa": "məʔ",
+        "meaning_vi": "mày, bạn — ngôi thứ hai số ít (Nong)"
+      },
+      {
+        "native": "ot ndrong",
+        "ipa": "ʔɔːt ndrɔːŋ",
+        "meaning_vi": "hát kể sử thi"
+      },
+      {
+        "native": "nau m'pring",
+        "ipa": "naːw məpriŋ",
+        "meaning_vi": "dân ca, lời hát truyền thống"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Không gán đường nét thanh điệu tiếng Việt (hỏi, ngã, huyền...) lên lời hát tiếng Mnông Nam vì đây là ngôn ngữ không thanh điệu; cao độ hoàn toàn đi theo giai điệu bài hát (Nau M'pring, Ot Ndrong).",
+      "Tokenizer dựa trên tiếng Việt sẽ tách các ký tự có dấu trăng (ĕ, ĭ, ŏ, ŭ, ơ̆, ư̆), chữ ƀ, č, ñ và dấu nháy tiền âm tiết (m', n') thành nhiều byte/sub-token rời rạc; khi huấn luyện mô hình đa ngữ nên chuẩn hóa Unicode NFC và bổ sung token cho các phụ âm cuối /-r, -l, -h, -ʔ/."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Southern Mnong (sout2692)",
+      "url": "https://glottolog.org/resource/languoid/id/sout2692",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Mnong, Southern (mnn)",
+      "url": "https://www.ethnologue.com/language/mnn/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Brunelle, Marc, Đinh Lư Giang & Tạ Thành Tấn (2025). Redundant voicing and register in Mnong Râlâm. Phonetica, 82(1), 45–85.",
+      "url": "https://doi.org/10.1515/phon-2024-0023",
+      "url_check": "ok_202",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Mnong language",
+      "url": "https://en.wikipedia.org/wiki/Mnong_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng M'Nông",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%27N%C3%B4ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tổng cục Thống kê (2019). Kết quả toàn bộ Tổng điều tra dân số và nhà ở thời điểm 0 giờ ngày 01 tháng 4 năm 2019.",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/12/Ket-qua-toan-bo-Tong-dieu-tra-dan-so-va-nha-o-2019.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Blood, Henry F. (1966). A Reconstruction of Proto-Mnong (Including Tentative Reconstruction of Proto-South-Bahnaric). MA Thesis, Department of Linguistics, Indiana University (published 1968 by Summer Institute of Linguistics, University of North Dakota).",
+      "url": "https://www.sil.org/resources/archives/22553",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyễn Kiên Trường & Trương Anh (2009). Từ điển Việt - M'Nông. Hà Nội: NXB Từ điển Bách khoa.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bộ Văn hóa, Thể thao và Du lịch — Quyết định số 4205/QĐ-BVHTTDL (19/12/2014) công nhận Ot Ndrong (Sử thi) của người Mnông và Quyết định số 2743/QĐ-BVHTTDL (30/09/2020) công nhận Nau M'Pring (Dân ca) của người M'Nông vào Danh mục Di sản văn hóa phi vật thể quốc gia.",
+      "url": "http://dsvh.gov.vn/danh-muc-di-san-van-hoa-phi-vat-the-quoc-gia-1789",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "sources[6].title",
+          "severity": "low",
+          "problem": "Luận văn Thạc sĩ năm 1966 của Henry F. Blood ('A Reconstruction of Proto-Mnong') được bảo vệ tại Indiana University (Department of Linguistics), sau đó mới được Summer Institute of Linguistics tại University of North Dakota ấn hành năm 1968.",
+          "fix": "Sửa thông tin trường cấp bằng thành Indiana University (1966) và nơi xuất bản thành Summer Institute of Linguistics, University of North Dakota (1968)."
+        },
+        {
+          "path": "phonology.onsets[18]",
+          "severity": "low",
+          "problem": "Âm vị viết bằng chữ 's' trong cụm phương ngữ Mnông / Bahnar Nam thường được mô tả trong tài liệu ngữ âm học là âm xát ngạc cứng hoặc lợi-ngạc /ç ~ ɕ ~ s/ (bảng âm vị tổng hợp tiếng Mnông ghi /ç/), không chỉ thuần túy là [s] chân răng với độ tin cậy 'high'.",
+          "fix": "Cập nhật ipa thành 's ~ ç' và hạ confidence xuống 'medium'."
+        },
+        {
+          "path": "lexicon[9]",
+          "severity": "medium",
+          "problem": "Ở mục từ số 'chín' (trích từ bảng đối chiếu phương ngữ của Nguyễn Kiên Trường & Trương Anh 2009 trên Wikipedia), dòng số 9 có 8 biến thể trải trên 7 cột phương ngữ ('dŭm, sĭn, sĭn, chĭnh, sin, sư̆n, sĭn, sin'), dẫn đến khả năng dịch cột giữa Bu Nâr (cmo) và Prâng (mnn) đối với hai dạng 'chĭnh' và 'sin'.",
+          "fix": "Ghi nhận cả hai khả năng 'chĭnh / sin' cho thổ ngữ Prâng và hạ confidence xuống 'low' để chờ đối chiếu sách gốc."
+        },
+        {
+          "path": "lexicon[10]",
+          "severity": "medium",
+          "problem": "Mục từ 'mơ̆q' [məʔ] ('mày / bạn' ở thổ ngữ Nong) và mục từ 'tâm pớt' [təmpəːt] (lexicon[13]) chưa kiểm chứng được trực tiếp từ văn bản từ điển mở trực tuyến.",
+          "fix": "Hạ confidence của lexicon[10] và lexicon[13] từ 'medium' xuống 'low' theo nguyên tắc thận trọng."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check trong danh sách nguồn đang để null toàn bộ dù nhiều URL có thể kiểm chứng hoạt động.",
+          "fix": "Cập nhật trạng thái url_check cho các nguồn trực tuyến đã xác minh."
+        }
+      ]
+    },
+    "open_issues": [
+      "Theo Brunelle, Đinh & Tạ (2025), âm vị học thực nghiệm của riêng tiếng Mnông Nam (mnn: Nong, Prâng) chưa được khảo sát và công bố độc lập; cần đo đạc âm học để xác định mnn bảo lưu đối lập hữu thanh ở phụ âm tắc đầu hay đã phát triển đối lập âm vực (register) như Mnông Trung (cmo).",
+      "Cần đối chiếu thực địa giữa nhóm Mnông Nong và Mnông Prâng tại vùng Đắk Nông cũ và Bình Phước cũ về sự hiện diện của các âm hút vào ngạc/ngạc mềm (/ʄ, ɠ/) và âm xát cuối /-s ~ -ç/.",
+      "Cần kiểm tra trực tiếp sách 'Từ điển Việt - M'Nông' (Nguyễn Kiên Trường & Trương Anh 2009) để xác nhận chính xác biến thể từ chỉ số 9 ('chín': chĭnh hay sin) ở cột thổ ngữ Prâng do bảng trích dẫn thứ cấp trên Wikipedia bị lệch cột.",
+      "Cần bổ sung ký âm ABC từ bản thu âm gốc của nghệ nhân hát Nau M'pring và Ot Ndrong thuộc đúng nhóm Nong / Prâng."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

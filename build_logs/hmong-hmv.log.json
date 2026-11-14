@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "hmong-hmv",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mông Đô",
+    "ethnic_group_vi": "H'Mông",
+    "iso639_3_expected": "hmv",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc H'Mông tại Việt Nam (mã ISO dự kiến: hmv; bảng mã dân tộc gốc: hmong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hmong\"."
+  },
+  "started": "2026-11-13T23:32:16.341852",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9448,
+      "candidatesTokenCount": 10352,
+      "totalTokenCount": 32559,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9448
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10352
+        }
+      ],
+      "thoughtsTokenCount": 12759,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12663,
+      "candidatesTokenCount": 12731,
+      "totalTokenCount": 27933,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12663
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12731
+        }
+      ],
+      "thoughtsTokenCount": 2539,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.onsets",
+        "severity": "high",
+        "problem": "Nhầm lẫn ánh xạ chữ cái âm đầu tắc-xát đầu lưỡi tiền mũi hóa trong Chữ Hmông Việt: bản thảo gán 'nx' cho /ⁿdz/ (RPA: ntx) và bỏ sót 'nz'. Thực tế trong Chữ Hmông Việt, 'nz' mới ghi /ⁿdz/ (RPA: ntx), còn 'nx' ghi âm bật hơi /ⁿtsʰ ~ ⁿdzʱ/ (RPA: ntxh, ví dụ 'nxư' = RPA 'ntxhw' nghĩa là con voi).",
+        "fix": "Tách và sửa lại thành hai mục: 'nz' -> /ⁿdz/ (RPA: ntx) và 'nx' -> /ⁿtsʰ ~ ⁿdzʱ/ (RPA: ntxh)."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Gộp sai 'nj' thành /ⁿdʐ ~ ᶮɟ/ (RPA: nts / nch) và thiếu một số phụ âm bật hơi/tiền mũi hóa trong bảng 59 phụ âm Chữ Hmông Việt (1961): 'nq' (/ᶮcʰ ~ ᶮɟʱ/, RPA: nch), 'rh' (/ʈʰ/, RPA: rh), 'tsh' (/ʈʂʰ/, RPA: tsh), 'ntsh' (/ᶯʈʂʰ/, RPA: ntsh), 'đl' (/tˡʰ ~ tɬ/, RPA: dlh), 'nđl' (/ⁿdˡʰ ~ ⁿdɮ/, RPA: ndlh).",
+        "fix": "Sửa 'nj' (hoặc 'nts') thành /ᶯɖʐ/ (RPA: nts); bổ sung 'nq' (RPA: nch), 'rh' (RPA: rh), 'tsh' (RPA: tsh), 'ntsh' (RPA: ntsh), 'đl' (RPA: dlh) và 'nđl' (RPA: ndlh)."
+      },
+      {
+        "path": "phonology.onsets",
+        "severity": "medium",
+        "problem": "Ở nhóm âm lưỡi con (uvular), bảng Chữ Hmông Việt (1961) ghi /qʰ/ (RPA: qh) là 'qh' (bên cạnh biến thể 'kr' trong một số tài liệu địa phương) và ghi /ᶰɢ/ (RPA: nq) là 'ng' (bên cạnh biến thể 'gr'). Bản thảo chỉ liệt kê 'kr' và 'gr'.",
+        "fix": "Cập nhật grapheme thành 'qh, kr' cho /qʰ/ và 'ng, gr' cho /ᶰɢ/, đồng thời chú thích rõ cho âm mũi gốc lưỡi 'ng' /ŋ/."
+      },
+      {
+        "path": "music.genres",
+        "severity": "low",
+        "problem": "Cách viết Chữ Hmông Việt của một số thể loại dân ca chưa khớp với tư liệu sưu tầm dân ca H'Mông tại Lào Cai – Hà Giang (Doãn Thanh; Luận án Dân ca Hmông): 'Gầu plềnh' viết là 'Gâux plênhx' (không phải 'Gâux plênhl'), 'Gầu ua nhéng' là 'Gâux uô nhangs / Gâux uôs nhangz' (không phải 'Gâux uô nhênhx'), bổ sung dạng chữ H'Mông cho 'Gầu tú giua' (Gâux tuz njuôs) và 'Gầu tùa' (Gâux tuôs).",
+        "fix": "Chuẩn hóa lại tên viết bằng Chữ Hmông Việt trong music.genres và thay ví dụ 'plênhl' trong ml_hints.quoc_ngu_approximation bằng 'Lênhl (RPA: Leeg)'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

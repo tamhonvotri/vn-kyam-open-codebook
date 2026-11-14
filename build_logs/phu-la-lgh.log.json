@@ -1,0 +1,73 @@
+{
+  "target": {
+    "id": "phu-la-lgh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Laghuu (Xá Phó / Phù Lá Lão)",
+    "ethnic_group_vi": "Phù Lá",
+    "iso639_3_expected": "lgh",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Phù Lá tại Việt Nam (mã ISO dự kiến: lgh; bảng mã dân tộc gốc: phu-la). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"phu-la\"."
+  },
+  "started": "2026-11-13T23:43:21.582847",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9459,
+      "candidatesTokenCount": 7109,
+      "totalTokenCount": 16568,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9459
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7109
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9412,
+      "candidatesTokenCount": 7958,
+      "totalTokenCount": 18070,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9412
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7958
+        }
+      ],
+      "thoughtsTokenCount": 700,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.vowels[2].ipa",
+        "severity": "low",
+        "problem": "Ký hiệu 'ɿ' là ký hiệu ngữ âm học Hán-Tạng (Sinological phonetic notation) được Edmondson & Ziwo (1999) sử dụng thay vì ký hiệu IPA chuẩn [z̩].",
+        "fix": "Ghi rõ trong phần note rằng 'ɿ' là ký hiệu truyền thống Hán-Tạng trong nguồn gốc của Edmondson & Ziwo (1999), tương đương IPA chuẩn [z̩]."
+      },
+      {
+        "path": "phonology.codas[3..4]",
+        "severity": "low",
+        "problem": "Các âm lướt cuối /-i, -u/ (biểu diễn là /j, w/ trong codas) trùng lặp về mặt phân tích âm vị học với các nguyên âm đôi /ai, au, ɯi/ đã liệt kê trong mảng vowels.",
+        "fix": "Bổ sung ghi chú làm rõ hai cách phân tích tương đương (nguyên âm đôi hoặc nguyên âm chính + bán nguyên âm cuối /-i, -u/) theo mô tả cấu trúc âm tiết của Edmondson & Ziwo (1999)."
+      }
+    ]
+  },
+  "schema_errors": []
+}

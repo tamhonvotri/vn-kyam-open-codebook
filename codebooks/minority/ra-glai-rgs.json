@@ -1,0 +1,757 @@
+{
+  "id": "ra-glai-rgs",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Raglai Nam",
+  "name_en": "Southern Roglai",
+  "autonym": "Sanaut Radlai / Sanãp Radlai (Radlai)",
+  "ethnic_group_vi": "Ra Glai",
+  "language": {
+    "iso639_3": "rgs",
+    "glottocode": "sout3010",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian, Chamic (Highlands / Chru-Northern)"
+  },
+  "regions": [
+    "Phía nam tỉnh Ninh Thuận (nam sông Cái và Quốc lộ 27: huyện Ninh Sơn như xã Ma Nới, huyện Thuận Nam)",
+    "Tỉnh Bình Thuận (các huyện Tuy Phong, Bắc Bình, Hàm Thuận Bắc, Hàm Thuận Nam, Tánh Linh, Hàm Tân)",
+    "Vùng giáp ranh tỉnh Lâm Đồng (gần huyện Đơn Dương, tiếp xúc mật thiết với cộng đồng Chu Ru)"
+  ],
+  "speakers_estimate": "Khoảng 18.000–41.000 người nói riêng nhánh Nam (theo các ước tính Ethnologue / Glottolog); nằm trong tổng dân số 146.613 người Ra Glai tại Việt Nam (Tổng điều tra dân số và nhà ở 2019, trong đó Ninh Thuận có 70.366 người và Bình Thuận có 17.382 người)",
+  "scripts": [
+    {
+      "name": "Bộ chữ viết tiếng dân tộc Raglai tỉnh Ninh Thuận (Sanaut Radlai)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended-A; Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Phê chuẩn theo Quyết định số 383/QĐ-UBND ngày 08/10/2019 của UBND tỉnh Ninh Thuận và đưa vào sách giáo khoa thực nghiệm Sanaut Radlai 1, 2 (Quyết định số 1839/QĐ-UBND ngày 21/09/2021). Gồm 26 chữ cái (20 phụ âm: B, C, D, Đ, G, H, K, L, M, N, P, Q, R, S, T, V, J, W, Y, Z; 6 nguyên âm: A, E, I, O, Ơ, U), trong đó 6 chữ C, D, J, W, Y, Z đọc khác tiếng Việt; dùng chung cho cộng đồng Raglai tại Ninh Thuận."
+    },
+    {
+      "name": "Chữ Latinh Raglai trước 1975 của SIL (Sanãp Radlai)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Do Viện Ngữ học Mùa hè (SIL — Cobbey & Cobbey 1969, 1977) xây dựng trên cơ sở phương ngữ Raglai Bắc (dùng dấu ngã ghi nguyên âm mũi hóa, dấu huyền ghi nguyên âm ngắn, -q ghi tắc thanh hầu cuối), ít phổ biến trong đời sống cộng đồng Raglai Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các nghiên cứu ngữ âm thực nghiệm hiện đại về tiếng Raglai Nam (phương ngữ xã Ma Nới, huyện Ninh Sơn, tỉnh Ninh Thuận của Tạ Văn Thông 2009; Brunelle, Brown & Phạm Thị Thu Hà 2022; Đinh Lư Giang, Brunelle & Tạ Thành Tấn 2025) kết hợp thông tin về bộ chữ viết Latinh tỉnh Ninh Thuận (2019). Tiếng Raglai Nam khác biệt cốt lõi với Raglai Bắc ở chỗ đã mất thanh tính ở phụ âm tắc đơn đầu âm tiết và chuyển thành hệ thống đối lập 2 âm vực (register). Cần người bản ngữ vùng Ninh Sơn / Bình Thuận và chuyên gia biên soạn SGK Sanaut Radlai rà soát thêm quy ước chính tả chi tiết cho từng tổ hợp vần.",
+  "phonology": {
+    "syllable_structure": "(Cə.)C(C)V(ː)(C) — từ song âm tiết yếu (sesquisyllabic, gồm tiền âm tiết không trọng âm thường chứa nguyên âm trung hòa /a ~ ə/ và âm tiết chính mang trọng âm ở cuối) hoặc đơn âm tiết; có xu hướng đơn âm tiết hóa (rút gọn tiền âm tiết thành cụm phụ âm đầu như /mataː/ ~ [mtaː]).",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh; kéo theo âm vực cao trên nguyên âm sau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh; âm vực cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (vòm) vô thanh (quy ước chữ C đọc khác chữ Quốc ngữ); âm vực cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh; âm vực cao",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / (không ghi đầu từ)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu; đầu âm tiết mở đầu bằng nguyên âm thực chất có [ʔ]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b (tắc đơn gốc hữu thanh)",
+        "ipa": "p̥ (âm vực thấp)",
+        "note": "Phụ âm */b/ lịch sử (còn hữu thanh ở Raglai Bắc) đã vô thanh hóa ở Raglai Nam và chuyển sang khu biệt bằng âm vực thấp trên nguyên âm kế tiếp; trong bảng chữ đơn 2019 chữ B đơn ghi âm hút vào /ɓ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "t̥ (âm vực thấp) ~ d",
+        "note": "Quy ước chữ D ghi tắc chân răng gốc hữu thanh (khác D tiếng Việt); ở Raglai Nam thường vô thanh hóa thành [t̥] với VOT hơi dài hơn và kéo theo âm vực thấp trên nguyên âm sau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "c̥ (âm vực thấp) ~ ɟ",
+        "note": "Quy ước chữ J ghi tắc vòm gốc hữu thanh; ở Raglai Nam vô thanh hóa và kéo theo âm vực thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "k̥ (âm vực thấp) ~ ɡ",
+        "note": "Tắc ngạc mềm gốc hữu thanh; ở Raglai Nam vô thanh hóa và kéo theo âm vực thấp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi vô thanh (nhập cả */bʱ/ lịch sử vào /pʰ/ mà không sinh âm vực thấp)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi vô thanh (nhập cả */dʱ/ lịch sử vào /tʰ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "cʰ",
+        "note": "Tắc vòm bật hơi vô thanh (nhập cả */ɟʱ/ lịch sử)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi vô thanh (nhập cả */ɡʱ/ lịch sử vào /kʰ/, ví dụ akhar /akʰaːr/ 'rễ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Tắc hai môi hút vào (implosive) hữu thanh; giữ nguyên thanh tính ở Raglai Nam",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hút vào hữu thanh; giữ nguyên thanh tính ở Raglai Nam",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / dj",
+        "ipa": "ʄ",
+        "note": "Tắc vòm hút vào hữu thanh; trong bảng 26 chữ cái Ninh Thuận 2019 ký tự Y được quy ước ghi /ʄ/ (cũ dùng dj); giữ nguyên thanh tính ở Raglai Nam",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi vòm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xuất hiện hạn chế, chủ yếu trong từ vay mượn (có mặt trong bảng 26 chữ cái Ninh Thuận 2019)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng; cũng xuất hiện làm âm đệm cụm phụ âm Cl-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung/vỗ chân răng; cũng xuất hiện làm âm đệm cụm phụ âm Cr-",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Tiếp cận môi - ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "j",
+        "note": "Bán nguyên âm vòm /j/ (theo bảng chữ cái Ninh Thuận 2019 quy ước chữ Z ghi /j/)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i ~ iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp; ở âm vực cao có xu hướng nhị trùng âm hóa nhẹ đi lên ở đầu nguyên âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e ~ ɛ ~ ɛː",
+        "note": "Nguyên âm hàng trước độ mở trung/hơi rộng; không tách riêng chữ ê trên bảng chữ cái cơ bản 6 nguyên âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a ~ aː",
+        "note": "Nguyên âm hàng giữa/sau độ mở rộng; ở âm vực thấp đầu nguyên âm có F1 hạ thấp rõ, nghe gần như nhị trùng âm đi xuống [əa]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə ~ əː ~ ɨ",
+        "note": "Nguyên âm trung tâm (gồm cả nguyên âm lướt /ə/ ở tiền âm tiết và nguyên âm chính /ə, ɨ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o ~ ɔ ~ ɔː",
+        "note": "Nguyên âm hàng sau tròn môi độ mở trung/hơi rộng; không tách riêng chữ ô trên bảng 6 nguyên âm cơ bản",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u ~ uː",
+        "note": "Nguyên âm hàng sau độ mở hẹp tròn môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nguyên âm mũi hóa (chính tả SIL ghi dấu ngã: ã, ĩ, ũ...)",
+        "ipa": "ĩ, ẽ, ã, ə̃, õ, ũ",
+        "note": "Nét đặc trưng của nhóm Chăm Bắc/Raglai; bộ chữ Ninh Thuận 2019 lược bỏ các dấu thanh tiếng Việt nên không dùng dấu ngã theo lối cũ",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi đóng (không bật hơi); xuất hiện hạn chế hoặc từ phản ánh âm mũi tiền tắc hóa cổ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t / qt / d / qd",
+        "ipa": "t̚ ~ ʔt̚",
+        "note": "Tắc đầu lưỡi cuối âm tiết và các biến thể tiền thanh hầu hóa/khử mũi trong quy ước chữ viết Ninh Thuận (d, t, qt, qd)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (ví dụ langiq /laŋiʔ/ 'bầu trời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h / qh",
+        "ipa": "h ~ ʔh",
+        "note": "Xát thanh hầu cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết (ví dụ hadum /haduːm/ 'bao nhiêu'); một số từ Chamic cổ đã biến đổi âm mũi cuối",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng cuối âm tiết (ví dụ patel /patɛːl/ 'ly lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung/vỗ chân răng cuối âm tiết (ví dụ katir /katiːr/ 'dung nham', dor /dɔːr/ 'chôn', akhar /akʰaːr/ 'rễ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tạo vần đôi (ví dụ raw /raːw/ 'rửa', atơw /atɔ̆w/ 'người chết/mả')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / z",
+        "ipa": "j",
+        "note": "Bán nguyên âm vòm cuối tạo vần đôi (ví dụ Radlai /radlaj/, rơgei /rəɡɛːj/)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ 2 âm vực (two-register language), KHÔNG có thanh điệu. Khác với Raglai Bắc còn bảo lưu thanh tính của phụ âm tắc hữu thanh (/b, d, ɟ, ɡ/), tiếng Raglai Nam (khảo sát thực nghiệm tại Ma Nới, Ninh Sơn, Ninh Thuận — Brunelle et al. 2022; Đinh Lư Giang et al. 2025) đã vô thanh hóa gần như hoàn toàn các phụ âm tắc đơn hữu thanh đầu âm tiết và chuyển đối lập này thành đối lập âm vực trên nguyên âm chính: (1) Âm vực cao (High register, bắt nguồn từ tắc vô thanh *p, *t, *c, *k): giọng thường (modal), F1 cao hơn ở đầu nguyên âm; (2) Âm vực thấp (Low register, bắt nguồn từ tắc hữu thanh *b, *d, *ɟ, *ɡ): đầu nguyên âm có F1 hạ thấp rõ rệt (nguyên âm mở nghe như lướt từ nguyên âm khép hơn xuống, ví dụ /aː/ nghe gần [əa]), F2 hơi cao hơn, VOT dài hơn đôi chút và chất giọng hơi lơi/thào nhẹ (lax/breathy) ở đầu nguyên âm (đặc biệt rõ ở người nói nữ). Đáng chú ý, cao độ F0 hầu như không chênh lệch giữa hai âm vực và người bản ngữ Raglai Nam tri nhận âm vực chủ yếu dựa vào F1."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "mắt",
+      "form": "mata",
+      "ipa": "mataː ~ mtaː",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "giàu",
+      "form": "mada",
+      "ipa": "mt̥aː (âm vực thấp, < *madaː)",
+      "gloss_en": "rich",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngày mai",
+      "form": "pơgi (pagi)",
+      "ipa": "pək̥iː ~ pak̥iː (âm vực thấp, < *paɡiː)",
+      "gloss_en": "tomorrow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hàng rào / cổng",
+      "form": "paga",
+      "ipa": "pak̥aː (âm vực thấp, < *paɡaː)",
+      "gloss_en": "fence / gate",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rễ",
+      "form": "akhar",
+      "ipa": "akʰaːr",
+      "gloss_en": "root",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đuôi",
+      "form": "aku",
+      "ipa": "akuː",
+      "gloss_en": "tail",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bầu trời",
+      "form": "langiq",
+      "ipa": "laŋiʔ",
+      "gloss_en": "sky",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bao nhiêu / mấy",
+      "form": "hadum",
+      "ipa": "hat̥uːm (âm vực thấp, < *haduːm)",
+      "gloss_en": "how many / how much",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "dạy",
+      "form": "pato",
+      "ipa": "patɔː",
+      "gloss_en": "to teach",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chôn",
+      "form": "dor",
+      "ipa": "t̥ɔːr (âm vực thấp, < *dɔːr)",
+      "gloss_en": "to bury",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cháy / nhóm lửa",
+      "form": "khu",
+      "ipa": "kʰuː (< *ɡʱuː)",
+      "gloss_en": "to burn / light kindle",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đồ đạc / tài sản",
+      "form": "đu",
+      "ipa": "ɗuː",
+      "gloss_en": "belongings / things",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vụ án / vụ việc",
+      "form": "kađi",
+      "ipa": "kaɗiː",
+      "gloss_en": "case / affair",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tủ",
+      "form": "tu",
+      "ipa": "tuː",
+      "gloss_en": "wardrobe / closet",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ấm nước",
+      "form": "kadi",
+      "ipa": "kat̥iː (âm vực thấp, < *kadiː)",
+      "gloss_en": "teapot",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khéo léo",
+      "form": "rơgei",
+      "ipa": "rək̥ɛːj (âm vực thấp, < *rəɡɛːj)",
+      "gloss_en": "handy / skillful",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát kể sử thi (Akhat Jucar / Akhat Jucar thun)",
+        "note": "Di sản truyền khẩu đồ sộ của người Ra Glai (như các bộ Udai - Ujac, Ama Chisa, Awơi Nãi Tilơr), diễn xướng theo lối hát ngâm dài bên bếp lửa nhà sàn, kết hợp biến hóa giọng điệu nhập vai nhân vật."
+      },
+      {
+        "name": "Điệu Siri (Si-ri)",
+        "note": "Làn điệu dân ca trữ tình dìu dặt, ngân dài như lời ru con trên đường lên rẫy; cũng là làn điệu chủ đạo dùng trong hát kể sử thi Akhat Jucar."
+      },
+      {
+        "name": "Điệu Majêng (Ma-diêng / Majiêng)",
+        "note": "Làn điệu thủ thỉ, ngân nga giàu tính tự sự và kịch tính, không có khúc thức cố định mà ứng tác theo lời kể, thường dùng khi tâm sự, ru con hoặc khắc họa tính cách nhân vật trong trường ca."
+      },
+      {
+        "name": "Điệu Adoh và Alơu (A-đoh, A-lơu)",
+        "note": "Các làn điệu tiết tấu nhanh, sôi nổi, rộn ràng dùng trong lễ hội cộng đồng như lễ ăn đầu lúa mới, lễ mừng nhà mới (Alơu mur tu), lễ bỏ mả."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngâm ngân cuối trổ sử thi",
+        "description": "Kéo dài nguyên âm mở hoặc vần vang ở cuối câu hát kể Akhat Jucar/Siri với độ rung tự nhiên để giữ mạch tự sự liên tục.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Lướt đầu nguyên âm theo âm vực thấp",
+        "description": "Trong tiếng Raglai Nam, âm tiết mang âm vực thấp có F1 thấp ở đầu nguyên âm tạo hiệu ứng lướt từ nguyên âm hơi khép xuống nguyên âm mở, nhưng không bị ràng buộc bởi đường nét cao độ F0 cứng nhắc như thanh điệu tiếng Việt.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ thống âm thanh dàn Mã la và đàn Chapi",
+        "note": "Biên chế truyền thống từ 3 đến 9 chiếc mã la (phổ biến bộ 4 chiếc hoặc dàn có mã la mẹ giữ nhịp và các mã la con hòa âm), đàn Chapi mô phỏng âm hưởng của dàn mã la với khoảng 6 làn điệu cơ bản trên hệ thống ngũ âm không bán cung; chưa có chuẩn hóa ký âm cao độ Tây phương thống nhất cho riêng nhánh Raglai Nam.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Mã la (cồng/chiêng đồng không núm, điều khiển âm bồi và âm tắc bằng bàn tay đặt mặt trong)"
+      },
+      {
+        "name": "Đàn Chapi (đàn ống tre nhiều dây trích từ vỏ cật tre, mô phỏng dàn mã la)"
+      },
+      {
+        "name": "Kèn bầu Sarakel (Sa-ra-ken / Salakhen)"
+      },
+      {
+        "name": "Đàn đá (tiêu biểu vùng núi Nam Trung Bộ)"
+      },
+      {
+        "name": "Sáo Talẽq và Trống đất"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "ra-glai",
+    "sub_varieties": [
+      {
+        "name": "Tiếng Raglai Bắc (Northern Roglai)",
+        "iso639_3": "rog",
+        "glottocode": "nort2994",
+        "note": "Nói ở phía bắc sông Cái và Quốc lộ 27 (Bác Ái, Thuận Bắc thuộc Ninh Thuận và Khánh Sơn, Khánh Vĩnh thuộc Khánh Hòa; bao gồm cả thổ ngữ Du Long theo Cobbey 1977). Bảo lưu thanh tính phụ âm tắc hữu thanh (/b, d, ɟ, ɡ/), chưa chuyển hóa hoàn toàn thành hệ thống âm vực như Raglai Nam."
+      },
+      {
+        "name": "Tiếng Raglai Các Gia / Cát Gia (Cacgia Roglai)",
+        "iso639_3": "roc",
+        "glottocode": "cacg1235",
+        "note": "Nói tại vùng ven biển Thuận Bắc, tỉnh Ninh Thuận (Xóm Bằng / Cát Gia); là biến thể phân kỳ mạnh hơn về từ vựng và lịch sử âm vị nhưng cũng phát triển âm vực tương tự Raglai Nam."
+      },
+      {
+        "name": "Thổ ngữ Rai / Ma Nới (thuộc Raglai Nam)",
+        "iso639_3": "rgs",
+        "glottocode": "sout3010",
+        "note": "Các thổ ngữ nội bộ của Raglai Nam từ Ninh Sơn (Ninh Thuận) xuống Bình Thuận (còn được gọi là Rai ở một số tư liệu); tại Ma Nới có mức độ thông hiểu lẫn nhau rất cao với tiếng Chu Ru (ISO: cje) ở thôn Proh, Đơn Dương, Lâm Đồng."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "c-",
+        "quoc_ngu": "ch-",
+        "note": "Chữ C trong bộ chữ Raglai ghi âm tắc vòm /c/, tương đương 'ch' tiếng Việt (ví dụ: ca → cha)."
+      },
+      {
+        "native": "d- (+ nguyên âm)",
+        "quoc_ngu": "t- (+ lướt nguyên âm khép nhẹ, thanh ngang/huyền nhẹ)",
+        "note": "Chữ D trong Raglai KHÔNG đọc /z ~ j/ như tiếng Việt. Ở Raglai Nam, D vốn là */d/ đã vô thanh hóa thành [t̥] kèm âm vực thấp (F1 thấp đầu nguyên âm): mada /mt̥aː/ đọc gần 'mờ-tưa-a' lướt nhanh thành 1 âm tiết chính, không phải 'ma-da' hay 'ma-gia'."
+      },
+      {
+        "native": "j- (+ nguyên âm)",
+        "quoc_ngu": "ch- (giọng trầm/lơi đầu nguyên âm)",
+        "note": "Chữ J ghi */ɟ/ đã vô thanh hóa thành [c̥] âm vực thấp ở Raglai Nam; tiếng Việt không có đối lập âm vực này, xấp xỉ bằng 'ch-' kèm chất giọng hơi lơi."
+      },
+      {
+        "native": "g- (+ nguyên âm)",
+        "quoc_ngu": "c-/k- (giọng trầm/lơi đầu nguyên âm)",
+        "note": "Ở Raglai Nam, */ɡ/ vô thanh hóa thành [k̥] kèm âm vực thấp (ví dụ paga 'hàng rào' nghe gần [pak̥aː] với đầu nguyên âm hơi khép hơn 'pa-ca')."
+      },
+      {
+        "native": "b- / đ-",
+        "quoc_ngu": "b- / đ-",
+        "note": "Tương ứng tốt vì 'b' và 'đ' tiếng Việt vốn cũng là âm tắc hút vào [ɓ], [ɗ]."
+      },
+      {
+        "native": "y- (hoặc dj-)",
+        "quoc_ngu": "gi-/d- (miền Nam [j]) hoặc nh-",
+        "note": "Âm tắc vòm hút vào /ʄ/ không tồn tại trong tiếng Việt chuẩn; chỉ xấp xỉ thô."
+      },
+      {
+        "native": "z-",
+        "quoc_ngu": "d-/gi- (theo giọng Nam [j])",
+        "note": "Trong bộ chữ Ninh Thuận 2019, chữ Z ghi bán nguyên âm /j/ (không phải xát [z] miền Bắc)."
+      },
+      {
+        "native": "-q",
+        "quoc_ngu": "-c/-t (ngắt thanh hầu cực ngắn, thanh sắc/nặng)",
+        "note": "Âm tắc thanh hầu cuối /-ʔ/ không có chữ ghi riêng trong Quốc ngữ; có thể mượn âm tắc cuối ngắn hoặc ngắt thanh hầu như tiếng nói cảm thán (ví dụ langiq → la-ngi(t)/la-ngị)."
+      },
+      {
+        "native": "-h",
+        "quoc_ngu": "-h (xát hơi cuối âm tiết)",
+        "note": "Tiếng Việt không có phụ âm cuối /-h/; TTS chỉ biết tiếng Việt sẽ bỏ qua hoặc đọc sai nếu không tách luồng hơi nhẹ sau nguyên âm."
+      },
+      {
+        "native": "-r, -l",
+        "quoc_ngu": "-n (hoặc nối phụ âm nhẹ -r/-l)",
+        "note": "Tiếng Việt không có phụ âm lỏng cuối /-r/, /-l/ (ví dụ katir, patel, dor, akhar); Quốc ngữ chỉ xấp xỉ rất thô bằng '-n' nên mô hình đa ngữ/IPA vẫn cần thiết để phát âm chuẩn."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "mata",
+        "ipa": "mataː",
+        "gloss_vi": "mắt"
+      },
+      {
+        "native": "mada",
+        "ipa": "mt̥aː",
+        "gloss_vi": "giàu (âm vực thấp)"
+      },
+      {
+        "native": "pơgi",
+        "ipa": "pək̥iː",
+        "gloss_vi": "ngày mai (âm vực thấp)"
+      },
+      {
+        "native": "paga",
+        "ipa": "pak̥aː",
+        "gloss_vi": "hàng rào, cổng (âm vực thấp)"
+      },
+      {
+        "native": "akhar",
+        "ipa": "akʰaːr",
+        "gloss_vi": "rễ cây"
+      },
+      {
+        "native": "aku",
+        "ipa": "akuː",
+        "gloss_vi": "đuôi"
+      },
+      {
+        "native": "langiq",
+        "ipa": "laŋiʔ",
+        "gloss_vi": "bầu trời"
+      },
+      {
+        "native": "hadum",
+        "ipa": "hat̥uːm",
+        "gloss_vi": "bao nhiêu, mấy (âm vực thấp)"
+      },
+      {
+        "native": "pato",
+        "ipa": "patɔː",
+        "gloss_vi": "dạy"
+      },
+      {
+        "native": "dor",
+        "ipa": "t̥ɔːr",
+        "gloss_vi": "chôn (âm vực thấp)"
+      },
+      {
+        "native": "katir",
+        "ipa": "katiːr",
+        "gloss_vi": "dung nham"
+      },
+      {
+        "native": "patel",
+        "ipa": "patɛːl",
+        "gloss_vi": "ly lớn"
+      },
+      {
+        "native": "đu",
+        "ipa": "ɗuː",
+        "gloss_vi": "đồ đạc, tài sản"
+      },
+      {
+        "native": "tu",
+        "ipa": "tuː",
+        "gloss_vi": "tủ (âm vực cao)"
+      },
+      {
+        "native": "kadi",
+        "ipa": "kat̥iː",
+        "gloss_vi": "ấm nước (âm vực thấp)"
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Khi huấn luyện mô hình TTS/SVS cho tiếng Raglai Nam từ văn bản viết bằng bộ chữ chung Sanaut Radlai, cần lưu ý chữ viết bảo lưu các ký tự hữu thanh (d, j, g...) theo từ nguyên/phương ngữ Bắc, nhưng đầu ra âm học của người nói Raglai Nam phải vô thanh hóa phụ âm tắc và hạ F1 ở đầu nguyên âm sau (low register).",
+      "Trong hát dân ca (Siri, Akhat Jucar), đường nét giai điệu chi phối hoàn toàn F0 mà không làm mất khả năng nhận diện từ vựng âm vực thấp của người nghe Raglai Nam, vì tiêu chí tri nhận chính là F1 và chất giọng đầu nguyên âm chứ không phải F0."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Southern Roglai (sout3010)",
+      "url": "https://glottolog.org/resource/languoid/id/sout3010",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Brunelle, Marc; Brown, Jeanne; Phạm Thị Thu Hà (2022). Northern Raglai voicing and its relation to Southern Raglai register: evidence for early stages of registrogenesis. Phonetica, 79(2), 151–188.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9251836/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đinh Lư Giang; Brunelle, Marc; Tạ Thành Tấn (2025). Relating production and perception in two Raglai dialects at different stages of registrogenesis. Phonetica, 82(1), 87–110.",
+      "url": "https://doi.org/10.1515/phon-2024-0032",
+      "url_check": "ok_202",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Collection Pangloss (CNRS) — Raglai / Liste de mots en raglai méridional (Ma Nới, Ninh Sơn, Ninh Thuận, 2019)",
+      "url": "https://doi.org/10.24397/pangloss-0007403",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Tạ Văn Thông (2009). Tiếng Ra glai ở các địa phương. Trong Tạ Văn Thông (chủ biên), Tìm hiểu ngôn ngữ các dân tộc ở Việt Nam (tr. 222–245). Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UBND tỉnh Ninh Thuận (2019, 2021). Quyết định số 383/QĐ-UBND ngày 08/10/2019 phê chuẩn Bộ chữ viết tiếng dân tộc Raglai tỉnh Ninh Thuận; Quyết định số 1839/QĐ-UBND ngày 21/09/2021 phê duyệt sách giáo khoa tiếng Raglai 1, 2 (Sanaut Radlai 1, 2).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Thurgood, Graham (1999). From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Honolulu: University of Hawai'i Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Roglai language & Tiếng Raglai",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Raglai",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "lexicon[4] & ml_hints.sample_words[4]",
+          "severity": "high",
+          "problem": "Mục từ 'ukha' (/ukʰaː/ 'rễ / root') thực chất là biến thể tiếng Raglai Bắc (Table 1.1 trong Brunelle et al. 2022, nơi âm cuối *-r bị rụng và nguyên âm tiền âm tiết nâng lên /u-/). Trong danh sách từ tiếng Raglai Nam tại Ma Nới (Table 1.2 của Brunelle et al. 2022 và Pangloss 10.24397/pangloss-0007403#W25, W84), từ này giữ nguyên âm cuối /-r/ và nguyên âm đầu /a-/: 'akhar' (/akʰaːr/).",
+          "fix": "Sửa thành form 'akhar', IPA 'akʰaːr' ở cả lexicon và ml_hints.sample_words."
+        },
+        {
+          "path": "lexicon[5] & ml_hints.sample_words[5]",
+          "severity": "high",
+          "problem": "Mục từ 'iku' (/ikuː/ 'đuôi / tail') là biến thể tiếng Raglai Bắc (Table 1.1 trong Brunelle et al. 2022). Trong danh sách từ tiếng Raglai Nam tại Ma Nới (Table 1.2 của Brunelle et al. 2022 và Pangloss 10.24397/pangloss-0007403#W87), nguyên âm tiền âm tiết trung hòa thành /a-/: 'aku' (/akuː/).",
+          "fix": "Sửa thành form 'aku', IPA 'akuː' ở cả lexicon và ml_hints.sample_words."
+        },
+        {
+          "path": "lexicon[2] & ml_hints.sample_words[2]",
+          "severity": "low",
+          "problem": "Từ 'ngày mai' trong Table 1.1 (Raglai Bắc) ghi là 'pagi:', nhưng trong Table 1.2 và Pangloss (W19, W78) của tiếng Raglai Nam (Ma Nới) được phiên âm là 'pəgi:' (tiền âm tiết giảm hóa thành /ə/).",
+          "fix": "Cập nhật form thành 'pơgi (pagi)' và IPA thành 'pək̥iː ~ pak̥iː (âm vực thấp, < *paɡiː)' để phản ánh chính xác tư liệu điền dã Ma Nới."
+        },
+        {
+          "path": "lexicon[10] & lexicon[12]",
+          "severity": "medium",
+          "problem": "Hai mục từ 'khu' (/kʰuː/ < *ɡʱuː 'cháy/nhóm lửa') và 'du' (/t̥uː/ < *duː 'ru ngủ') được suy diễn từ quy tắc tương ứng âm vị học (hoặc đối chiếu với 'ghu:' ở Table 1.1 Raglai Bắc) chứ không nằm trực tiếp trong bảng từ chuẩn Ma Nới (Table 1.2 / Pangloss 0007403, nơi nhóm /kʰ/ được minh họa bằng 'khɛ:' đỏ, 'khɔ:' kho, 'khi:r' kín, 'akha:r' rễ).",
+          "fix": "Hạ confidence của 'khu' và 'du' xuống 'medium' (và lược 'du' khỏi sample_words hoặc thay bằng từ có thực chứng trực tiếp trong Table 1.2 như 'kađi' /kaɗiː/ 'vụ án, vụ việc')."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check đang để null cho các URL đã kiểm chứng hoạt động.",
+          "fix": "Cập nhật url_check thành 'verified' cho các nguồn trực tuyến đã xác thực."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết toàn bộ quy tắc ghép vần và phụ âm cuối (d, h, k, q, l, n, r, t, qh, qt, qd) cũng như cách phân biệt /ɓ/ và */b/ (âm vực thấp) trong sách giáo khoa Sanaut Radlai 1, 2 của Sở GD&ĐT Ninh Thuận.",
+      "Các khảo sát âm học hiện có tập trung chủ yếu ở xã Ma Nới (huyện Ninh Sơn, Ninh Thuận); cần bổ sung thêm dữ liệu điền dã về các thổ ngữ Raglai Nam tại tỉnh Bình Thuận (Tuy Phong, Bắc Bình, Tánh Linh, Hàm Tân) để xác định mức độ đồng nhất của hệ thống âm vực.",
+      "Cần nhà âm nhạc học dân tộc thẩm định thang âm và cao độ chuẩn của dàn Mã la và đàn Chapi riêng ở vùng Raglai Nam."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,690 @@
+{
+  "id": "thai-tyt",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tày Tấc",
+  "name_en": "Tày Tac (Tai Tâk)",
+  "autonym": "Tày Tấc (Tai Tâk) / Táy Khao",
+  "ethnic_group_vi": "Thái",
+  "language": {
+    "iso639_3": "tyt",
+    "glottocode": "tayt1241",
+    "family": "Kra-Dai",
+    "branch": "Tai — Southwestern Tai (Chiang Saeng)"
+  },
+  "regions": [
+    "Cánh đồng Mường Tấc (huyện Phù Yên, phía đông tỉnh Sơn La)",
+    "Vùng giáp ranh Phù Yên – Bắc Yên (tỉnh Sơn La)"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Thái Trắng Phù Yên (chữ Thái cổ Mường Tấc)",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet (U+AA80–U+AADF)",
+      "official_in_vietnam": false,
+      "note": "Một trong các loại hình ký tự chữ Thái cổ truyền thống tại Việt Nam (bắt nguồn từ hệ chữ Brahmic), dùng ghi chép gia phả, mo lễ và dân ca tại Mường Tấc; khác biệt một số tự dạng so với chữ Thái Đen Sơn La."
+    },
+    {
+      "name": "Chữ Thái Việt Nam thống nhất",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet (U+AA80–U+AADF)",
+      "official_in_vietnam": true,
+      "note": "Bộ chữ cải tiến/thống nhất dựa trên chữ Thái vùng Tây Bắc, được mã hóa trong chuẩn Unicode (khối Tai Viet) và dùng trong bảo tồn văn hóa, truyền dạy cộng đồng tại tỉnh Sơn La."
+    },
+    {
+      "name": "Chữ Thái hệ Latinh (dựa trên chữ Quốc ngữ mở rộng)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Phương án phiên âm chữ Thái bằng mẫu tự Latinh triển khai từ sau Quyết định 153-CP (1969) và phổ biến trong các từ điển, ấn phẩm văn nghệ dân gian Tây Bắc; chưa có bộ quy tắc chính tả Latinh chuẩn hóa tách riêng cho riêng thổ ngữ Tày Tấc."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tài liệu thứ cấp. Tiếng Tày Tấc (ISO 639-3: tyt, Glottocode: tayt1241) là ngôn ngữ thuộc nhánh Tai Tây Nam của nhóm người Thái (tự nhận là Thái Trắng) tại vùng Mường Tấc, huyện Phù Yên, tỉnh Sơn La. Tài liệu mô tả ngữ âm gốc là Donaldson & Edmondson (1997, 'A Preliminary Examination of Tay Tac', tr. 235–266) ghi nhận hệ thống gồm 22 phụ âm đầu, 13 nguyên âm, 6 thanh điệu ở âm tiết mở và 3 thanh điệu ở âm tiết khép. Do chưa truy xuất được toàn văn bảng đo F0 và danh sách âm vị chi tiết từ ấn bản in năm 1997, toàn bộ ánh xạ âm vị dưới đây chỉ ghi nhận khung âm vị chung của nhóm Thái Tây Bắc (Chiang Saeng) với độ tin cậy low và để null các đường nét số Chao chưa xác minh trực tiếp.",
+  "phonology": {
+    "syllable_structure": "C(w)V(C)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (suy diễn từ khung âm vị chung của các ngôn ngữ Tai Tây Nam; cần đối chiếu Donaldson & Edmondson 1997)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (trong phương án chữ Thái Latinh; lưu ý tránh nhầm với /f/)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ ~ b",
+        "note": "Tắc hai môi hữu thanh/tiền thanh hầu hóa",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Xát môi răng vô thanh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ w",
+        "note": "Xát môi hoặc tiếp cận môi-ngạc mềm tùy vị trí và quy ước phiên âm",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "đ / d",
+        "ipa": "ɗ ~ d",
+        "note": "Tắc đầu lưỡi hữu thanh/tiền thanh hầu hóa",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "x / s",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "tɕ ~ c",
+        "note": "Tắc-xát hoặc tắc mặt lưỡi vô thanh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ ~ x",
+        "note": "Tắc bật hơi hoặc xát ngạc mềm vô thanh (cần đối chiếu Donaldson & Edmondson 1997 để phân tách rõ /kʰ/ và /x/ trong 22 phụ âm Tày Tấc)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm mở đầu âm tiết",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "qu / kw",
+        "ipa": "kw",
+        "note": "Tổ hợp phụ âm môi hóa (ví dụ: kwam / quam 'lời nói, tiếng nói')",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Suy diễn từ khung nguyên âm Tai Tây Nam; cần đối chiếu danh sách 13 nguyên âm của Donaldson & Edmondson (1997)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ ~ ɨ",
+        "note": "Nguyên âm cao hàng sau không tròn môi đặc trưng ngữ chi Tai",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə ~ ɤ",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə̆",
+        "note": "Nguyên âm ngắn trong âm tiết khép (ví dụ: Tấc / Tâk)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (đối lập trường độ với /aː/ trong âm tiết khép)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi mở trung tâm (cần xác nhận cách tính trong tổng số 13 nguyên âm của Donaldson & Edmondson 1997)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɯə",
+        "note": "Nguyên âm đôi hàng sau không tròn môi",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hàng sau tròn môi",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi không bật ra cuối âm tiết khép",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Âm tắc đầu lưỡi không bật ra cuối âm tiết khép",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm không bật ra cuối âm tiết khép",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": null,
+        "confidence": "low"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối âm tiết",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi cuối âm tiết",
+        "confidence": "low"
+      }
+    ],
+    "tones": [
+      {
+        "id": "live_1",
+        "name": "Thanh 1 (âm tiết mở)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "live_2",
+        "name": "Thanh 2 (âm tiết mở)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "live_3",
+        "name": "Thanh 3 (âm tiết mở)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "live_4",
+        "name": "Thanh 4 (âm tiết mở)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "live_5",
+        "name": "Thanh 5 (âm tiết mở)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "live_6",
+        "name": "Thanh 6 (âm tiết mở)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "checked_1",
+        "name": "Thanh âm tiết khép 1 (-p/-t/-k)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "checked_2",
+        "name": "Thanh âm tiết khép 2 (-p/-t/-k)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "checked_3",
+        "name": "Thanh âm tiết khép 3 (-p/-t/-k)",
+        "mark": null,
+        "chao_contour": null,
+        "phonation": null,
+        "merges_with": null,
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có thanh điệu: 6 thanh điệu trên âm tiết mở/sống (kết thúc bằng nguyên âm, bán nguyên âm hoặc phụ âm mũi) và 3 thanh điệu trên âm tiết khép/đóng (kết thúc bằng -p, -t, -k) theo Donaldson & Edmondson (1997). Giá trị số Chao cụ thể cần đối chiếu trực tiếp từ bản in gốc."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "mường (đơn vị cư trú thung lũng)",
+      "form": "mường / muang",
+      "ipa": null,
+      "gloss_en": "principality / valley polity",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "mười bốn (tên Tết Xíp Xí ngày 14/7 âm lịch)",
+      "form": "xíp xí",
+      "ipa": null,
+      "gloss_en": "fourteen (14th day festival)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "vía lúa / hồn lúa",
+      "form": "khoăn khạu",
+      "ipa": null,
+      "gloss_en": "rice soul / spirit of rice",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "hát (dân ca trữ tình)",
+      "form": "khắp",
+      "ipa": null,
+      "gloss_en": "to sing / traditional folksong",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "ống sáo / tiêu lưỡi gà",
+      "form": "pí",
+      "ipa": null,
+      "gloss_en": "reed pipe / flute",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "lời nói / tiếng nói / chuyện kể",
+      "form": "quam / kwam",
+      "ipa": null,
+      "gloss_en": "speech / language / tale",
+      "confidence": "low"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Khắp Thái Trắng Phù Yên",
+        "note": "Làn điệu dân ca đặc trưng vùng Mường Tấc (Phù Yên, Sơn La); có kỹ thuật ngắt âm, nhả chữ rõ, tiết tấu dồn dập và cao độ vút lên, thường đi kèm tiếng sáo Pí."
+      },
+      {
+        "name": "Nhạc múa Xòe Thái",
+        "note": "Nghệ thuật Xòe Thái được UNESCO ghi danh Di sản văn hóa phi vật thể đại diện của nhân loại (2021, hồ sơ số 01575); phổ biến trong lễ hội cộng đồng và Tết Xíp Xí tại Phù Yên."
+      },
+      {
+        "name": "Mo / lời cúng nghi lễ nông nghiệp (Mo Xíp Xí, cúng Khoăn khạu)",
+        "note": "Lối diễn xướng nghi lễ cúng tổ tiên, cúng vía trâu và vía lúa của người Thái Trắng Mường Tấc; Nghi lễ Tết Xíp Xí của người Thái Trắng huyện Quỳnh Nhai và huyện Phù Yên là Di sản văn hóa phi vật thể quốc gia (Quyết định số 2313/QĐ-BVHTTDL ngày 09/08/2024)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngắt âm, nhả chữ vút cao (Khắp Phù Yên)",
+        "description": "Kỹ thuật thanh nhạc ngắt âm dứt khoát, tiết tấu dồn dập và đẩy hơi vút cao mạnh mẽ phối hợp cùng tiếng sáo Pí.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Pí (sáo / tiêu lưỡi gà Thái)",
+        "note": "Nhạc cụ hơi dạo mở đầu và dẫn dắt người hát trong diễn xướng Khắp tại Phù Yên"
+      },
+      {
+        "name": "Cồng chiêng (bộ 2–3 chiếc)",
+        "note": "Dùng giữ nhịp trong múa Xòe và lễ rước Tết Xíp Xí tại Phù Yên"
+      },
+      {
+        "name": "Trống cái",
+        "note": "Treo trên giá đánh phối hợp cùng cồng trong múa Xòe và lễ hội bản mường"
+      },
+      {
+        "name": "Tính tẩu (đàn bầu hồ lô)",
+        "note": "Nhạc cụ gảy truyền thống trong không gian dân ca và múa Xòe Thái Tây Bắc"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "thai",
+    "quoc_ngu_approximation": [
+      {
+        "native": "p- (/p/)",
+        "quoc_ngu": "p-",
+        "note": "Âm tắc hai môi vô thanh không bật hơi đứng đầu âm tiết rất phổ biến (ví dụ: pí). Mô hình TTS tiếng Việt chuẩn có thể đọc ổn định ở từ vay mượn nhưng dễ nhầm sang /b/ nếu thiếu ngữ cảnh."
+      },
+      {
+        "native": "ph- (/pʰ/)",
+        "quoc_ngu": "p-h / ph (lưu ý)",
+        "note": "Trong chữ Quốc ngữ tiếng Việt, 'ph' đọc là xát môi răng [f], trong khi nhóm ngôn ngữ Tai phân biệt tắc bật hơi [pʰ] với xát [f]. TTS chỉ biết tiếng Việt sẽ đọc 'ph' thành [f] (không có âm [pʰ] trong tiếng Việt)."
+      },
+      {
+        "native": "kw- (/kw/, ví dụ kwam)",
+        "quoc_ngu": "qu- (quam / quăm)",
+        "note": "Tổ hợp phụ âm môi hóa /kw/ tương ứng gần với 'qu-' của giọng Bắc Hà Nội [kw], nhưng nếu dùng giọng Nam Bộ sẽ bị đọc thành [w]."
+      },
+      {
+        "native": "khw- (/kʰw/ ~ /xw/)",
+        "quoc_ngu": "kho- (khoăn)",
+        "note": "Tổ hợp phụ âm bật hơi/xát ngạc mềm môi hóa viết xấp xỉ bằng 'kho-' trong chữ Quốc ngữ."
+      },
+      {
+        "native": "-k (/k̚/ sau nguyên âm dài/ngắn)",
+        "quoc_ngu": "-c",
+        "note": "Trong chữ Quốc ngữ, sau u/ô/o chữ '-c' bị môi hóa thành [k͡p], trong khi tiếng Tày Tấc giữ âm tắc ngạc mềm thuần [k̚] và phân biệt trường độ nguyên âm ngắn/dài trong âm tiết khép."
+      },
+      {
+        "native": "Hệ 6 thanh âm tiết mở + 3 thanh âm tiết khép",
+        "quoc_ngu": "Dấu thanh Quốc ngữ xấp xỉ theo ngữ cảnh",
+        "note": "Đường nét cao độ thanh điệu Tày Tấc không đẳng cấu 1-1 với 6 thanh tiếng Việt Hà Nội (đặc biệt tiếng Việt chỉ có 2 thanh sắc/nặng ở âm tiết khép, còn Tày Tấc phân biệt 3 thanh ở âm tiết khép)."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Thái Đen (Táy Đăm / Tai Dam)",
+        "iso639_3": "blt",
+        "glottocode": "taid1247",
+        "note": "Biến thể lớn tại Sơn La, Điện Biên, Yên Bái (Mường Lò), Lai Châu"
+      },
+      {
+        "name_vi": "Tiếng Thái Trắng (Táy Đón / Táy Khao / Tai Dón)",
+        "iso639_3": "twh",
+        "glottocode": "taid1250",
+        "note": "Biến thể Thái Trắng chủ lưu tại Lai Châu, Điện Biên, Quỳnh Nhai"
+      },
+      {
+        "name_vi": "Tiếng Thái Đỏ (Táy Đèng / Tai Daeng)",
+        "iso639_3": "tyr",
+        "glottocode": "taid1249",
+        "note": "Nói tại Mộc Châu (Sơn La), Mai Châu (Hòa Bình), miền Tây Thanh Hóa"
+      },
+      {
+        "name_vi": "Tiếng Thái Thanh (Tày Thanh / Man Thanh)",
+        "iso639_3": "tmm",
+        "glottocode": "tait1248",
+        "note": "Nói tại Thanh Hóa và Nghệ An"
+      },
+      {
+        "name_vi": "Tiếng Thái Hàng Tổng (Tày Mường)",
+        "iso639_3": "thc",
+        "glottocode": "taih1245",
+        "note": "Nói tại miền Tây Nghệ An (mã Glottolog taih1245 gắn với mục Tai Hang Tong / Tai Pao retired)"
+      },
+      {
+        "name_vi": "Tiếng Tày Dọ (Thái Quỳ Châu / Tai Do)",
+        "iso639_3": "tyj",
+        "glottocode": "taid1248",
+        "note": "Nói tại Quỳ Châu, Quế Phong, Quỳ Hợp (Nghệ An)"
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "mường (muang)",
+        "ipa": null,
+        "gloss_vi": "mường, vùng thung lũng cư trú"
+      },
+      {
+        "native": "Tày Tấc (Tai Tâk)",
+        "ipa": null,
+        "gloss_vi": "người/tiếng Thái vùng Mường Tấc (Phù Yên)"
+      },
+      {
+        "native": "xíp xí",
+        "ipa": null,
+        "gloss_vi": "mười bốn (ngày 14/7 âm lịch — Tết Xíp Xí)"
+      },
+      {
+        "native": "khoăn khạu",
+        "ipa": null,
+        "gloss_vi": "vía lúa, hồn lúa"
+      },
+      {
+        "native": "khắp",
+        "ipa": null,
+        "gloss_vi": "hát, làn điệu dân ca trữ tình"
+      },
+      {
+        "native": "pí",
+        "ipa": null,
+        "gloss_vi": "ống sáo, tiêu lưỡi gà"
+      },
+      {
+        "native": "quam (kwam)",
+        "ipa": null,
+        "gloss_vi": "tiếng nói, lời nói, chuyện kể"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Donaldson, Jean & Jerold A. Edmondson (1997). 'A Preliminary Examination of Tay Tac'. In Jerold A. Edmondson & David B. Solnit (eds.), Comparative Kadai: The Tai Branch, pp. 235–266. Dallas: Summer Institute of Linguistics and the University of Texas at Arlington.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Tày Tac (tayt1241)",
+      "url": "https://glottolog.org/resource/languoid/id/tayt1241",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tày Tac language",
+      "url": "https://en.wikipedia.org/wiki/T%C3%A0y_Tac_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Tày Tấc",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_T%C3%A0y_T%E1%BA%A5c",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Chữ Thái Việt Nam",
+      "url": "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_Th%C3%A1i_Vi%E1%BB%87t_Nam",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Art of Xòe dance of the Tai people in Viet Nam (No. 01575)",
+      "url": "https://ich.unesco.org/en/RL/01575",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hoàng Lương (2005). 'Tục thờ vía lúa Khoăn khạu của người Thái Phù Yên - Sơn La'. Tạp chí Nghiên cứu Tôn giáo, số 2/2005, tr. 32–35.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Đài Tiếng nói Việt Nam (VOV4) — Giữ hồn điệu Khắp và tiếng Pí của người Thái Trắng nơi bản mường Phù Yên (06/07/2026)",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[1].glottocode",
+          "severity": "high",
+          "problem": "Mã Glottocode của tiếng Thái Trắng (Tai Dón, ISO 639-3: twh) bị ghi sai thành 'taid1246'.",
+          "fix": "Sửa thành 'taid1250' theo chuẩn Glottolog."
+        },
+        {
+          "path": "validation.open_issues[0]",
+          "severity": "medium",
+          "problem": "Đề cập bài viết 'The Tay Tac writing system' của Hoàng Lương nhưng không kiểm chứng được sự tồn tại của nhan đề tiếng Anh này trên các cơ sở dữ liệu học thuật.",
+          "fix": "Xóa tên bài viết không kiểm chứng được khỏi open_issues, chỉ giữ tài liệu xác thực là Donaldson & Edmondson (1997)."
+        },
+        {
+          "path": "phonology",
+          "severity": "medium",
+          "problem": "status_note nêu Donaldson & Edmondson (1997) ghi nhận 13 nguyên âm, nhưng mảng phonology.vowels lại liệt kê 14 mục suy diễn từ khung âm vị Thái Tây Bắc chung và để nhiều mục ở mức confidence 'medium' dù chưa đối chiếu được bản in gốc.",
+          "fix": "Hạ toàn bộ confidence của onsets, vowels, codas suy diễn xuống 'low' để phản ánh đúng việc chưa truy cập được bảng âm vị gốc trong Donaldson & Edmondson (1997)."
+        },
+        {
+          "path": "lexicon",
+          "severity": "low",
+          "problem": "Các mục từ vựng văn hóa (mường, xíp xí, khoăn khạu, khắp, pí) được ghi nhận qua báo chí và tài liệu dân tộc học bằng cách phiên âm chữ Quốc ngữ, chưa có ký âm IPA âm vị học từ từ điển chuyên khảo Tày Tấc nhưng lại để confidence 'high'.",
+          "fix": "Hạ confidence của các mục từ này từ 'high' xuống 'medium'."
+        },
+        {
+          "path": "autonym",
+          "severity": "low",
+          "problem": "Chuỗi 'Kwam Tày Tấc / Táy Khao' ghép từ chỉ tiếng nói ('kwam') với tên gọi ngôn ngữ/tộc người, trong khi tài liệu thứ cấp dẫn Donaldson & Edmondson (1997: 235) chỉ ghi nhận tên ngôn ngữ là Tày Tấc (Tai Tâk) và tên tự nhận là Thái Trắng (White Tay / Táy Khao).",
+          "fix": "Chuẩn hóa lại thành 'Tày Tấc (Tai Tâk) / Táy Khao'."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu trực tiếp toàn văn Donaldson & Edmondson (1997, tr. 235–266) để điền chính xác danh mục 22 phụ âm, 13 nguyên âm và giá trị số Chao của 6 thanh âm tiết mở + 3 thanh âm tiết khép.",
+      "Cần xác minh thống kê số người nói tiếng Tày Tấc riêng biệt tại huyện Phù Yên (Sơn La) so với tổng dân số người Thái tại địa phương.",
+      "Cần nghệ nhân hát Khắp tại Phù Yên và nhà âm nhạc học dân tộc ký âm chuẩn xác thang âm và quãng luyến của Khắp Thái Trắng Mường Tấc."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

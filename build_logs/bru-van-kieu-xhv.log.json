@@ -1,0 +1,80 @@
+{
+  "target": {
+    "id": "bru-van-kieu-xhv",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Khùa",
+    "ethnic_group_vi": "Bru - Vân Kiều",
+    "iso639_3_expected": "xhv",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Bru - Vân Kiều tại Việt Nam (mã ISO dự kiến: xhv; bảng mã dân tộc gốc: bru-van-kieu). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"bru-van-kieu\"."
+  },
+  "started": "2026-11-13T23:09:52.042289",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9464,
+      "candidatesTokenCount": 8247,
+      "totalTokenCount": 22123,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9464
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8247
+        }
+      ],
+      "thoughtsTokenCount": 4412,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10802,
+      "candidatesTokenCount": 10230,
+      "totalTokenCount": 22106,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10802
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10230
+        }
+      ],
+      "thoughtsTokenCount": 1074,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.onsets[2] & lexicon[1].ipa",
+        "severity": "medium",
+        "problem": "Mục âm đầu 'b' trong phonology.onsets chỉ ghi IPA là 'ɓ', nhưng trong lexicon và ml_hints.sample_words từ 'bar' (hai) lại phiên âm là 'baːr' (dùng [b]). Ngoài ra, mục tổ hợp phụ âm đầu 'tr / pl / kl / br / pr / kr' gộp chung nhiều tổ hợp âm vị khác nhau bằng dấu '~' (vốn dùng để chỉ biến thể tự do).",
+        "fix": "Sửa IPA của âm đầu 'b' thành 'b ~ ɓ' để nhất quán với phiên âm trong lexicon, và tách các tổ hợp phụ âm đầu có chứng cứ trực tiếp trong từ vựng tiếng Khùa ('tr' trong tro, trick) khỏi các tổ hợp suy chiếu từ hệ thống Bru chung ('pl / kl / pr / br / kr'), đồng thời hạ độ tin cậy phù hợp."
+      },
+      {
+        "path": "lexicon[*].confidence",
+        "severity": "medium",
+        "problem": "Các từ trong lexicon (như bar, pei, pon, sok, mat, sia, cham, trick, a chói, cà nhăng, cu tôốc, típ, cù pá) được lấy từ nguồn ghi chép bằng chữ Quốc ngữ (Phan Hữu Dật 1998 và báo chí điền dã tại Minh Hóa), không có ký âm IPA gốc của tiếng Khùa. Việc gán confidence='high' cho cả mục từ kèm phiên âm IPA tái lập (chẳng hạn tự thêm [-ʔ] vào 'sia' -> [siəʔ] theo tiếng Bru Đông ở Hướng Hóa) là quá tự tin khi chưa có khảo sát ngữ âm thực nghiệm riêng cho phương ngữ Khùa.",
+        "fix": "Hạ confidence của các mục từ trong lexicon từ 'high' xuống 'medium' (và 'low' đối với các từ chưa có phiên âm IPA hoặc phiên âm suy đoán từ từ vay mượn) để phản ánh đúng tính chất tái lập từ tư liệu chữ Quốc ngữ."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Một số tư liệu thực tế đã được sử dụng để lấy từ vựng và thông tin văn hóa – nhạc cụ trong bảng mã (như tư liệu về từ 'k'jial', nghề đan lát cu tôốc/a chói/cà nhăng, sách lá Phôộc năng xừ và đàn Karong trên Báo Quảng Trị / Báo Nhân Dân) chưa được liệt kê trong mảng sources.",
+        "fix": "Bổ sung các nguồn tài liệu tham khảo và cập nhật trạng thái kiểm chứng URL (url_check='verified') cho các nguồn trực tuyến đã kiểm tra."
+      }
+    ]
+  },
+  "schema_errors": []
+}

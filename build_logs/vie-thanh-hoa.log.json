@@ -1,0 +1,77 @@
+{
+  "target": {
+    "id": "vie-thanh-hoa",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Thổ ngữ Thanh Hóa",
+    "hint": "Tách riêng khỏi vie-north-central; phương ngữ chuyển tiếp Bắc–Trung."
+  },
+  "started": "2026-11-13T23:09:52.042122",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9381,
+      "candidatesTokenCount": 8929,
+      "totalTokenCount": 20837,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9381
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8929
+        }
+      ],
+      "thoughtsTokenCount": 2527,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10678,
+      "candidatesTokenCount": 9445,
+      "totalTokenCount": 20123,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10678
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9445
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "correspondences_from_standard_vietnamese[2]",
+        "severity": "medium",
+        "problem": "Ví dụ cho vần 'buộc' chuyển thành 'bụt ~ bục': trong đó biến thể 'bụt' liên quan đến biến đổi phụ âm cuối (k -> t) giống phương ngữ Nam Bộ hơn là thuần túy triệt tiêu nguyên âm đôi /uə/ -> /uː/ ở Thanh Hóa (nơi bảo lưu tốt -k/-t). Ngoài ra chữ 'u' trước '-c' trong tiếng Việt vốn bị môi hóa đôi [uək͡p] nên 'bục' chưa thể hiện rõ tính đối lập trường độ.",
+        "fix": "Đổi ví dụ sang 'luôn / cuốn' -> 'lun / cún (nguyên âm dài [luːn / kuːn])' đồng nhất với mục phonology.vowels[2]."
+      },
+      {
+        "path": "correspondences_from_standard_vietnamese[7]",
+        "severity": "low",
+        "problem": "Tư liệu ngữ âm tiếng Thanh Hóa ghi nhận âm đệm [w] đồng hóa âm chính [a] theo sau nhưng vẫn giữ tính chất môi hóa ở phụ âm đầu: toàn -> [tʷɔːn˨˩], quạt -> [kʷɔːt˨˩ˀ]. Bản nháp ghi ipa_variety là 'ɔːn / ɔːt' làm mất ký hiệu môi hóa [ʷ].",
+        "fix": "Cập nhật ipa_variety thành 'ʷɔːn / ʷɔːt' và chỉnh lại mô tả trong phonology.vowels[5]."
+      },
+      {
+        "path": "sources[2]",
+        "severity": "low",
+        "problem": "Thiếu thông tin nhà xuất bản, năm xuất bản và ISBN của sách chuyên khảo 'Bản đồ biến thể ngữ âm tiếng Thanh Hóa' dù có thể kiểm chứng trực tuyến; đồng thời trường url_check ở các nguồn có URL đang để null.",
+        "fix": "Bổ sung thông tin xuất bản (Nhà xuất bản và Tạp chí Khoa học xã hội, 2024, ISBN 978-632-641-061-7) và cập nhật url_check = 'ok' cho các URL Wikipedia đã kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,647 @@
+{
+  "id": "xo-dang-moo",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Mơ Nâm",
+  "name_en": "Monom (Mơ Nâm)",
+  "autonym": "Mơ Nâm",
+  "ethnic_group_vi": "Xơ Đăng",
+  "language": {
+    "iso639_3": "moo",
+    "glottocode": "mono1268",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (North Bahnaric)"
+  },
+  "regions": [
+    "Khu vực Kon Plông / Măng Đen (các xã Măng Cành, Đăk Long, Hiếu... thuộc huyện Kon Plông, tỉnh Kon Tum cũ; từ 07/2025 thuộc phía tây tỉnh Quảng Ngãi)",
+    "Vùng giáp ranh miền núi Quảng Ngãi và phía đông tỉnh Gia Lai"
+  ],
+  "speakers_estimate": "Khoảng 6.000–6.900 người (Ethnologue 2007 ước tính 6.000; Joshua Project ước tính 6.900)",
+  "scripts": [
+    {
+      "name": "Chữ Latinh (quy ước phiên âm kiểu Quốc ngữ / Bahnar Bắc Tây Nguyên)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Mơ Nâm chưa có bộ chữ viết chuẩn hóa riêng do Nhà nước ban hành độc lập. Trong điền dã ngôn ngữ học, dân tộc học và ghi chép địa danh/văn hóa tại địa phương, tiếng Mơ Nâm được ghi bằng chữ Latinh dựa trên chữ Quốc ngữ kết hợp quy ước chữ viết các ngôn ngữ Bahnar Bắc - Xơ Đăng (dùng dấu trăng cho nguyên âm ngắn như ă, ŭ; dấu nháy đơn ' cho tiền âm tiết yếu hoặc âm tắc thanh hầu như T'măng, K'vo; tổ hợp phụ âm đầu hm-, hn-, hr-, hl-)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu học thuật và dân tộc học hiện có. Tiếng Mơ Nâm (Monom/Monam, mã ISO 639-3: moo, Glottocode: mono1268) là ngôn ngữ thuộc nhánh Bahnar Bắc của nhóm địa phương Mơ Nâm (được xếp vào dân tộc Xơ Đăng tại Việt Nam), rất ít tư liệu công bố chi tiết (chủ yếu gồm bảng từ khảo sát chưa xuất bản của Phillips 1959, các nghiên cứu so sánh Bahnar Bắc của Smith 1972 và Edmondson, Gregerson & Sidwell 2011, cùng khảo sát bước đầu trên tạp chí Ngôn ngữ & Đời sống số 1/2019). Bảng âm vị dưới đây phản ánh khung ngữ âm Bahnar Bắc tiểu nhóm Xơ Đăng - Tơ Đrá - Mơ Nâm và các dạng thức đã có chứng cứ văn bản, giữ mức độ tin cậy thận trọng (low/medium) cho những chi tiết chưa tiếp cận được bảng âm vị đầy đủ.",
+  "phonology": {
+    "syllable_structure": "(C1(ə)).C2(C3)V(C4)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (ví dụ: pu ô 'cây lồ ô')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch / c",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh theo quy ước Bahnar Bắc",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph / kh / th",
+        "ipa": "pʰ / kʰ / tʰ",
+        "note": "Dãy tắc bật hơi phổ biến trong nhóm Bahnar Bắc; cần xác minh phân bố cụ thể trong Mơ Nâm",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Theo Edmondson, Gregerson & Sidwell (2011), tất cả các ngôn ngữ Bahnar Bắc trừ tiếng Xơ Đăng trung tâm (sed) đều bảo lưu dãy tắc hữu thanh từ tiếng Bahnar nguyên thủy",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh; trong chữ ghi địa phương thường viết bằng 'đ' theo thói quen Quốc ngữ (ví dụ: T'măng Đeeng)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc ngạc cứng hữu thanh theo quy ước chữ viết các ngôn ngữ Tây Nguyên",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "' / ∅ (trước nguyên âm)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu đầu âm tiết chính (ví dụ: ŭn [ʔun] 'lửa')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh (ví dụ: T'măng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "hm / hn / hng",
+        "ipa": "m̥ / n̥ / ŋ̊",
+        "note": "Dãy mũi vô thanh (tiền xát thanh hầu) đặc trưng của nhánh Bahnar Bắc; có chứng cứ trong từ Mơ Nâm hnớ [n̥əː] 'cây xăm lũ'",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (ví dụ: saloŋ 'ngôi sao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v / w",
+        "ipa": "w ~ v",
+        "note": "Trong tư liệu báo chí/địa phương ghi bằng 'v' (ví dụ: k'vo ~ tà vẩu); giá trị âm vị gốc trong Bahnar Bắc thường là bán nguyên âm [w]",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi (ví dụ: ri 'dây mây')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hr",
+        "ipa": "r̥",
+        "note": "Âm rung vô thanh đặc trưng của Bahnar Bắc (ví dụ: hrieng [r̥iəŋ] 'một trăm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng hữu thanh (ví dụ: saloŋ 'ngôi sao')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "l̥",
+        "note": "Âm bên vô thanh phổ biến trong nhánh Bahnar Bắc",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t'm- / k'v- / sa-",
+        "ipa": "tə.m- / kə.w- / sə.-",
+        "note": "Tiền âm tiết yếu (presyllable) trong cấu trúc từ song tiết lệch (sesquisyllabic), ví dụ: T'măng, k'vo, saloŋ",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước khép (ví dụ: ri)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước nửa khép",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e / ee",
+        "ipa": "ɛ / ɛː",
+        "note": "Nguyên âm trước nửa mở; viết gấp đôi biểu thị nguyên âm dài trong một số cách ghi (ví dụ: Đeeng [dɛːŋ])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa khép (quy ước chữ Latinh Tây Nguyên)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː",
+        "note": "Nguyên âm giữa nửa mở/trung tâm (ví dụ: Mơ Nâm, hnớ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa ngắn trong cách ghi theo Quốc ngữ (ví dụ: Mơ Nâm)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn (ví dụ: T'măng [təmaŋ])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm sau khép dài (ví dụ: pu ô)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm sau khép ngắn, ghi bằng dấu trăng theo quy ước Bahnaric (ví dụ: ŭn [ʔun] 'lửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau nửa khép",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau nửa mở (ví dụ: saloŋ, k'vo)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ie / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm (ví dụ: hrieng [r̥iəŋ] 'một trăm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm phổ biến trong nhánh Bahnar Bắc",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi âm cuối không bật ra",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-t",
+        "ipa": "t̚",
+        "note": "Tắc chân răng âm cuối không bật ra",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-k / -c",
+        "ipa": "k̚ / c̚",
+        "note": "Tắc ngạc mềm/ngạc cứng âm cuối (khác với Katua và Takua kế cận, tiếng Mơ Nâm không biến đổi hàng loạt âm mũi cuối thành âm tắc vô thanh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-' / -q",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết phổ biến trong nhóm Bahnar Bắc (Tơ Đrá - Mơ Nâm)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "-m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết (ví dụ: Mơ Nâm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết (ví dụ: ŭn 'lửa')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết (ví dụ: hrieng 'một trăm', saloŋ 'ngôi sao', T'măng Đeeng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết phổ biến trong nhóm Bahnar Bắc",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "-r / -l",
+        "ipa": "r / l",
+        "note": "Âm lỏng cuối âm tiết thường gặp trong các ngôn ngữ Bahnar Bắc; cần xác minh mức độ bảo lưu trong tiếng Mơ Nâm hiện đại",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "-w / -u, -y / -i",
+        "ipa": "w, j",
+        "note": "Bán nguyên âm cuối âm tiết",
+        "confidence": "low"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu kiểu tiếng Việt. Tiếng Mơ Nâm thuộc nhóm Bahnar Bắc — nhóm ngôn ngữ đặc trưng bởi sự đối lập âm vực/chất giọng (register/phonation contrast) giữa âm vực căng/giọng thường (modal/tense) và âm vực lơi/giọng hà hơi (breathy/lax), khác với tiếng Xơ Đăng trung tâm (sed) nơi âm vực căng đã chuyển thành giọng kẹt thanh hầu (creaky). Chi tiết biến thể ngữ âm của hai âm vực trong từng vần của tiếng Mơ Nâm cần khảo sát thực địa bổ sung."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "lửa",
+      "form": "ŭn",
+      "ipa": "ʔun",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "một trăm",
+      "form": "hrieng",
+      "ipa": "r̥iəŋ",
+      "gloss_en": "hundred",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngôi sao",
+      "form": "saloŋ",
+      "ipa": "səlɔŋ",
+      "gloss_en": "star",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vùng đất bằng phẳng, rộng lớn (gốc địa danh Măng Đen)",
+      "form": "T'măng Đeeng",
+      "ipa": "təmaŋ dɛːŋ",
+      "gloss_en": "flat and wide land (origin of Măng Đen)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "sáo tà vẩu (ống thổi nứa có lưỡi gà gắn sáp ong)",
+      "form": "k'vo",
+      "ipa": "kəwɔ",
+      "gloss_en": "traditional bamboo free-reed flute (ta vau)",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cây lồ ô",
+      "form": "pu ô",
+      "ipa": null,
+      "gloss_en": "Schizostachyum bamboo",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cây xăm lũ (tre/nứa dùng đan lát)",
+      "form": "hnớ",
+      "ipa": "n̥əː",
+      "gloss_en": "bamboo species used for basketry",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "dây mây",
+      "form": "ri",
+      "ipa": "riː",
+      "gloss_en": "rattan",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hòa tấu cồng chiêng phối tà vẩu và đàn khung",
+        "note": "Thuộc Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO công nhận năm 2005/2008). Nét độc đáo riêng của người Mơ Nâm ở Kon Plông là phối âm trầm của bộ cồng với âm cao, trong trẻo, réo rắt của sáo tà vẩu (k'vo) và bộ gõ đàn khung, trình diễn kèm múa xoang quanh lửa trong lễ đâm trâu, lễ mừng lúa mới, lễ mở chuồng trâu, lễ gieo mạ, lễ làm máng nước."
+      },
+      {
+        "name": "Hát giao duyên Mơ Nâm",
+        "note": "Hát đối đáp tỏ tình nam nữ trong buôn làng, thường có tiếng cồng chiêng, tà vẩu hoặc đàn khung đệm."
+      },
+      {
+        "name": "Hát ru con và hát kể chuyện cổ / dân ca sinh hoạt",
+        "note": "Các làn điệu truyền khẩu gắn với sinh hoạt gia đình, nhà sàn và mùa vụ lúa nước giẫm đất / nương rẫy; hiện có nguy cơ mai một cao ở thế hệ trẻ."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Thổi - hút hơi liên tục và bịt lỗ biến âm trên tà vẩu",
+        "description": "Người thổi tà vẩu (k'vo) vừa thổi vừa hút khí qua lưỡi gà nan nứa gắn sáp ong, kết hợp ngón tay đóng/mở đầu ống rỗng hoặc khe hông để tạo nét luyến láy ngân vang, réo rắt đối đáp với nhịp cồng trầm.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Hệ bồi âm tự nhiên - ngũ cung khuyết âm Tây Nguyên (cồng chiêng - tà vẩu - khung)",
+        "note": "Dàn nhạc truyền thống Mơ Nâm thường biên chế 4 cồng âm trầm làm nền tiết tấu - hòa âm, kết hợp tà vẩu ở âm khu cao và bộ đàn khung 2–5 chiếc chỉnh âm thủ công theo tai nghe của nghệ nhân.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Tà vẩu (K'vo)",
+        "note": "Nhạc cụ hơi đặc trưng nhất của người Mơ Nâm ở Kon Plông: làm từ một đốt nứa già dài khoảng 15 cm, hai đầu rỗng (một đầu bịt kín bằng sáp ong), giữa thân khoét khe chữ nhật gắn lưỡi gà bằng nan nứa mỏng cố định bằng sáp ong; có hai lối thổi (thổi ngang qua khe hông hoặc thổi dọc từ đầu ống)."
+      },
+      {
+        "name": "Bộ cồng chiêng Mơ Nâm",
+        "note": "Trong biên chế cổ truyền thường gồm 4 chiếc cồng âm trầm đánh phối hợp với trống, đàn khung và tà vẩu."
+      },
+      {
+        "name": "Đàn khung",
+        "note": "Nhạc cụ gõ bằng ống nứa thủ công (dạng đàn T'rưng của người Mơ Nâm), một bộ thường gồm 3 chiếc (hoặc 2–5 chiếc), tay trái cầm khung, tay phải dùng dùi gõ mạnh nhẹ hòa tấu cùng cồng chiêng hoặc đệm hát dân ca."
+      },
+      {
+        "name": "Trống da hai mặt",
+        "note": "Giữ nhịp chính trong dàn hòa tấu cồng chiêng - tà vẩu - đàn khung."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "xo-dang",
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Xơ Đăng trung tâm (Xơ Teng / Hđang)",
+        "iso639_3": "sed",
+        "glottocode": "seda1262",
+        "note": "Ngôn ngữ đông người nói nhất của dân tộc Xơ Đăng; tương ứng với bảng mã gốc xo-dang."
+      },
+      {
+        "name_vi": "Tiếng Tơ Đrá (Sơ Drá: Modrah, Didrah)",
+        "iso639_3": "tdr",
+        "glottocode": "todr1244",
+        "note": "Ngôn ngữ của nhóm địa phương Tơ Đrá thuộc dân tộc Xơ Đăng; được Ethnologue xếp chung tiểu nhóm Todrah-Monom gần gũi nhất với tiếng Mơ Nâm."
+      },
+      {
+        "name_vi": "Tiếng Hà Lăng (Salang)",
+        "iso639_3": "hal",
+        "glottocode": "hala1252",
+        "note": "Ngôn ngữ nhánh Bahnar Bắc của nhóm Hà Lăng (được xếp vào dân tộc Xơ Đăng tại Việt Nam)."
+      },
+      {
+        "name_vi": "Tiếng Ca Dong (Kayong)",
+        "iso639_3": "kxy",
+        "glottocode": "kayo1245",
+        "note": "Ngôn ngữ nhánh Bahnar Bắc của nhóm Ca Dong thuộc dân tộc Xơ Đăng (cư trú nhiều ở Nam Trà My, Sơn Tây, Kon Plông)."
+      },
+      {
+        "name_vi": "Tiếng Katua (Ca Tua)",
+        "iso639_3": "kta",
+        "glottocode": "katu1270",
+        "note": "Ngôn ngữ nhánh Bahnar Bắc của một nhóm nhỏ thuộc dân tộc Xơ Đăng."
+      },
+      {
+        "name_vi": "Biến thể tên gọi Bonam / Bonom của tiếng Mơ Nâm",
+        "iso639_3": "moo",
+        "glottocode": "mono1268",
+        "note": "Trong tài liệu so sánh Bahnar Bắc (Edmondson, Gregerson & Sidwell 2011), Bonam và Monom lập thành cặp phương ngữ sát nhau của cùng ngôn ngữ moo; cần tránh nhầm với nhóm địa phương Bơ Nâm nói phương ngữ thuộc tiếng Ba Na (bdq)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "T'măng Đeeng",
+        "quoc_ngu": "tờ-măng đeng",
+        "note": "Tiền âm tiết yếu t'- [tə] không tồn tại trong âm tiết tiếng Việt chuẩn; khi đưa vào TTS tiếng Việt nên tách thành âm tiết lướt nhẹ không nhấn ('tờ' đọc thật ngắn), còn 'Đeeng' [dɛːŋ] kéo dài nguyên âm 'e' (nhớ rằng chữ 'đ' Quốc ngữ đọc là [ɗ]/[d], còn 'd' Quốc ngữ sẽ bị đọc thành [z]/[j])."
+      },
+      {
+        "native": "k'vo",
+        "quoc_ngu": "cờ-vo (hoặc tà vẩu theo tên Việt hóa)",
+        "note": "Tiền âm tiết k'- [kə] đọc lướt cực ngắn trước âm tiết chính 'vo'."
+      },
+      {
+        "native": "hrieng",
+        "quoc_ngu": "hờ-riêng",
+        "note": "Âm rung vô thanh hr- [r̥] không có trong tiếng Việt chuẩn; xấp xỉ bằng luồng hơi xát nhẹ 'hờ-' nối liền nhanh vào 'riêng' (dùng giọng miền Trung/Bắc có [r] đầu lưỡi nếu mô hình hỗ trợ)."
+      },
+      {
+        "native": "hnớ",
+        "quoc_ngu": "hờ-nớ",
+        "note": "Âm mũi vô thanh hn- [n̥] không có trong tiếng Việt; xấp xỉ bằng âm bật hơi nhẹ 'hờ-' ghép sát vào 'nớ'."
+      },
+      {
+        "native": "ŭn",
+        "quoc_ngu": "un",
+        "note": "Nguyên âm [u] ngắn mở đầu bằng tắc thanh hầu [ʔun]; trong Quốc ngữ viết 'un' nhưng cần đọc gọn, dứt nhanh hơn vần 'un' tiếng Việt."
+      },
+      {
+        "native": "saloŋ",
+        "quoc_ngu": "xa-loong",
+        "note": "Chữ 's' trong phiên âm ngôn ngữ học tương ứng âm xát không uốn lưỡi [s] (viết 'x' trong Quốc ngữ); vần '-oŋ' [ɔŋ] đọc mở môi không ngậm hai môi như '-ong' [ăwŋ͡m] của tiếng Việt (xấp xỉ bằng '-oong' như trong 'boong tàu')."
+      }
+    ],
+    "tts_and_svs_notes": [
+      "Tiếng Việt không có tiền âm tiết yếu (sesquisyllable), dãy mũi/lỏng vô thanh (hm, hn, hr, hl), phụ âm cuối lỏng/xát (-r, -l, -h) và tắc thanh hầu cuối (-q [ʔ]), đồng thời không có đối lập âm vực giọng thường vs. giọng hà hơi độc lập với thanh điệu.",
+      "Khi xấp xỉ bằng Quốc ngữ cho mô hình chỉ biết tiếng Việt, tránh dùng dấu hỏi/ngã/nặng có thanh hầu hóa mạnh lên các từ thuộc âm vực giọng hà hơi (lax/breathy); ưu tiên thanh ngang hoặc thanh huyền nhẹ để giữ chất giọng mềm."
+    ],
+    "sample_words": [
+      {
+        "native": "ŭn",
+        "ipa": "ʔun",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "hrieng",
+        "ipa": "r̥iəŋ",
+        "gloss_vi": "một trăm"
+      },
+      {
+        "native": "saloŋ",
+        "ipa": "səlɔŋ",
+        "gloss_vi": "ngôi sao"
+      },
+      {
+        "native": "T'măng Đeeng",
+        "ipa": "təmaŋ dɛːŋ",
+        "gloss_vi": "vùng đất bằng phẳng, rộng lớn (Măng Đen)"
+      },
+      {
+        "native": "k'vo",
+        "ipa": "kəwɔ",
+        "gloss_vi": "sáo tà vẩu"
+      },
+      {
+        "native": "pu ô",
+        "ipa": null,
+        "gloss_vi": "cây lồ ô"
+      },
+      {
+        "native": "hnớ",
+        "ipa": "n̥əː",
+        "gloss_vi": "cây xăm lũ (dùng đan lát)"
+      },
+      {
+        "native": "ri",
+        "ipa": "riː",
+        "gloss_vi": "dây mây"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Monom (mono1268)",
+      "url": "https://glottolog.org/resource/languoid/id/mono1268",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL International — ISO 639-3 Documentation for [moo] (Monom)",
+      "url": "https://iso639-3.sil.org/code/moo",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Monom language",
+      "url": "https://en.wikipedia.org/wiki/Monom_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Mơ Nâm",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_M%C6%A1_N%C3%A2m",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Bahnaric languages",
+      "url": "https://en.wikipedia.org/wiki/Bahnaric_languages",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Edmondson, Jerold A., Kenneth Gregerson & Paul Sidwell (2011). 'The North Bahnaric Clade: A Computational Approach.' In S. Srichampa, P. Sidwell & K. Gregerson (eds.), Austroasiatic Studies: Papers from ICAAL 4 (Mon-Khmer Studies Journal Special Issue No. 3), pp. 33–48. Canberra: Pacific Linguistics / Dallas: SIL International.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Smith, Kenneth D. (1972). A Phonological Reconstruction of Proto-North-Bahnaric. Language Data, Asian-Pacific Series No. 2. Santa Ana, CA: Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lê Bá Thảo, Hoàng Ma và cộng sự; Viện Dân tộc học - Viện Hàn lâm Khoa học Xã hội Việt Nam (2014). Các dân tộc ít người ở Việt Nam: các tỉnh phía Nam (tr. 175). Hà Nội: NXB Khoa học Xã hội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Tạp chí Ngôn ngữ & Đời sống, Số 1(281)-2019 — 'Bước đầu nhận diện hệ thống ngữ âm tiếng Mơ-nâm ở tỉnh Kon Tum'.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Space of gong culture (00120)",
+      "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Du lịch Quốc gia Việt Nam (07/2017) — 'Về Kon Plông nghe đồng bào Mơ Nâm thổi Tà Vẩu' (tư liệu điền dã làng Kon Chênh, xã Măng Cành, huyện Kon Plông).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": null,
+      "score": null,
+      "issues": []
+    },
+    "open_issues": [
+      "Bước phản biện bằng Gemini 4 Argon chưa chạy được (API hết hạn mức tháng) — đây là bản nháp chưa qua phản biện chéo.",
+      "Cần đối chiếu trực tiếp toàn văn bài báo 'Bước đầu nhận diện hệ thống ngữ âm tiếng Mơ-nâm ở tỉnh Kon Tum' (Ngôn ngữ & Đời sống, số 1/2019) và bảng từ khảo sát Phillips (1959) tại kho lưu trữ SIL để bổ sung danh sách đầy đủ nguyên âm đơn/đôi, phụ âm cuối (-r, -l, -h, -ʔ) và từ vựng cơ bản 100–200 từ.",
+      "Cần nhà ngôn ngữ học và nghệ nhân bản xứ người Mơ Nâm tại Măng Cành / Măng Đen (ví dụ làng Kon Chênh, Kon Du, Kon Bring) xác nhận biểu hiện ngữ âm cụ thể của hệ thống hai âm vực (modal vs. breathy) và chuẩn hóa cách ghi chữ Latinh thống nhất.",
+      "Cần thu âm và đo cao độ thực tế bộ 4 cồng, bộ đàn khung 3 chiếc và sáo tà vẩu (k'vo) của nghệ nhân Mơ Nâm để mã hóa thang âm và luyến láy sang ký hiệu ABC chính xác."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

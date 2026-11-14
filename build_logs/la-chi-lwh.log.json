@@ -1,0 +1,79 @@
+{
+  "target": {
+    "id": "la-chi-lwh",
+    "kind": "minority_language",
+    "name_vi": "Tiếng La Chí Trắng",
+    "ethnic_group_vi": "La Chí",
+    "iso639_3_expected": "lwh",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc La Chí tại Việt Nam (mã ISO dự kiến: lwh; bảng mã dân tộc gốc: la-chi). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"la-chi\"."
+  },
+  "started": "2026-11-13T23:33:33.281041",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9448,
+      "candidatesTokenCount": 8426,
+      "totalTokenCount": 23832,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9448
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8426
+        }
+      ],
+      "thoughtsTokenCount": 5958,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10620,
+      "candidatesTokenCount": 10738,
+      "totalTokenCount": 21358,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10620
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10738
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "phonology.codas[2] / lexicon[6] / lexicon[8]",
+        "severity": "high",
+        "problem": "Hiểu sai quy ước ký âm '-N' trong bảng từ Lachi (Tân Lợi) của Ryuichi Kosaka (2000) trên ABVD. Theo chú giải gốc của ABVD cho Lachi (Tân Lợi): '/-N/ = nasalizes preceding vowel. It is not a consonant.' (tức là nguyên âm mũi hóa, không phải phụ âm mũi cuối /-ŋ/). Bản thảo đã chuyển nhầm 'quN0 phu22' ('vai') và 'ɕɔN43' ('săn bắn') thành 'quŋ0 pʰu22' [quŋ pʰu˨˨] và 'ɕɔŋ43' [ɕɔŋ˦˧], đồng thời suy diễn rằng /-ŋ/ là âm cuối phổ biến nhất trong tiếng La Chí ở Việt Nam.",
+        "fix": "Sửa lại 'quN0 phu22' -> IPA 'qũ pʰu˨˨' và 'ɕɔN43' -> IPA 'ɕɔ̃˦˧' trong lexicon, ml_hints và phonology. Giải thích rõ trong phonology.codas và phonology.vowels rằng '-N' của Kosaka (2000) biểu thị nguyên âm mũi hóa (vowel nasalization [Ṽ]), vốn là kết quả sự suy giảm của các phụ âm mũi cuối nguyên thủy (*-m, *-n, *-ŋ), chỉ còn giữ lại phụ âm mũi cuối /-m/ ở một số ít từ (như num22 'ăn cắp') hoặc âm mũi mang âm tiết."
+      },
+      {
+        "path": "ml_hints.sub_varieties",
+        "severity": "medium",
+        "problem": "Gán sai mã Glottocode trong ml_hints.sub_varieties: bản thảo ghi 'lipu1240' cho La Chí Tóc Dài, 'lipu1239' cho La Chí Đen, và 'lach1247' cho La Chí Hoa. Trên thực tế trong Glottolog 5.3, 'lach1247' là tên nhóm ngôn ngữ Lachic (gồm Lachi [lach1248] và White Lachi [whit1266]), còn dưới Lachi [lach1248 / lbt] có các nhánh phương ngữ là Liputiõ [lipu1241] (Long-Haired Lachi) và Lipupi [lipu1242] (Black Lachi).",
+        "fix": "Sửa lại Glottocode chính xác theo Glottolog 5.3: Liputiõ / Long-Haired Lachi là 'lipu1241', Lipupi / Black Lachi là 'lipu1242', và mã ngôn ngữ chung Lachi (lbt) là 'lach1248'."
+      },
+      {
+        "path": "phonology.tones / lexicon[2]",
+        "severity": "low",
+        "problem": "Trong bảng từ Lachi (Tân Lợi) của Kosaka (2000) trên ABVD, từ 'người' (person/human being) được ghi là 'qu21' (thanh 21, cùng thanh với to21 'nôn', cɛ21 'ruột'), trong khi Ostapirat (2000) / Edmondson (2008) ghi 'qu31'. Phần phonology.tones thiếu thông tin về thanh [21] của điểm Tân Lợi.",
+        "fix": "Bổ sung đối chiếu 'qu21' (Tân Lợi, Kosaka 2000) bên cạnh 'qu31' (Ostapirat 2000 / Edmondson 2008) trong lexicon và phonology.tones[4]."
+      }
+    ]
+  },
+  "schema_errors": []
+}

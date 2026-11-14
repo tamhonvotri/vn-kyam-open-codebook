@@ -1,0 +1,595 @@
+{
+  "id": "ra-glai-roc",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Raglai Các Gia",
+  "name_en": "Cacgia Roglai",
+  "autonym": "Sanaut Radlai / Sanãp Radlai",
+  "ethnic_group_vi": "Ra Glai",
+  "language": {
+    "iso639_3": "roc",
+    "glottocode": "cacg1235",
+    "family": "Austronesian",
+    "branch": "Malayo-Polynesian, Malayo-Chamic, Chamic, Chruic (Northern Chamic)"
+  },
+  "regions": [
+    "Vùng ven biển phía đông bắc Phan Rang – Tháp Chàm (khu vực Ninh Thuận cũ / Khánh Hòa hiện nay)",
+    "Duyên hải Nam Trung Bộ"
+  ],
+  "speakers_estimate": "Khoảng 3.000–3.800 người (ước tính của Ethnologue / Glottolog cho nhóm nói phương ngữ Các Gia; tổng dân số dân tộc Ra Glai tại Việt Nam là 146.613 người theo Tổng điều tra 2019)",
+  "scripts": [
+    {
+      "name": "Bộ chữ viết tiếng Raglai (Sanaut Radlai — hệ chữ Latinh chuẩn hóa tại Việt Nam)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A",
+      "official_in_vietnam": true,
+      "note": "Do bà Mấu Thị Bích Phanh biên soạn, được UBND tỉnh Ninh Thuận phê chuẩn tại Quyết định số 383/QĐ-UBND ngày 08/10/2019 và Bộ Giáo dục & Đào tạo ban hành Chương trình GDPT cấp Tiểu học theo Thông tư số 14/2026/TT-BGDĐT ngày 18/03/2026 (có hiệu lực từ 03/05/2026). Gồm 26 chữ cái cơ bản, không dùng dấu thanh điệu tiếng Việt mà dùng chữ cái phụ âm cuối âm tiết để phân biệt trường độ và sắc thái nguyên âm. Bộ chữ này chủ yếu xây dựng dựa trên phương ngữ Raglai ở Bác Ái (Ninh Thuận cũ); chưa có văn tự chuẩn hóa riêng biệt chỉ dành cho nhóm Các Gia."
+    },
+    {
+      "name": "Chữ Latinh Rơglai (SIL trước 1975 — Sanãp Radlai)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ do Viện Ngữ học Mùa hè (SIL) xây dựng trước năm 1975 (chủ yếu cho Raglai Bắc), dùng dấu ngã (~) để ghi nguyên âm mũi hóa và chữ -q cuối âm tiết ghi âm tắc thanh hầu /ʔ/."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp tự động từ nguồn học thuật và văn bản pháp quy. Lưu ý quan trọng: Tiếng Raglai Các Gia (roc / cacg1235) rất ít tài liệu ngữ âm học miêu tả độc lập được công bố; hệ thống chữ viết và đối chiếu âm vị dưới đây chủ yếu dựa trên bộ chữ Raglai chuẩn hóa (Thông tư 14/2026/TT-BGDĐT) và ngữ âm Raglai chung (Lee 1966, Cobbey 1977, Thurgood 1999, Brunelle et al. 2022), do đó gắn độ tin cậy medium/low khi áp vào riêng biến thể Các Gia.",
+  "phonology": {
+    "syllable_structure": "(C1(C2))V(C1)ˈC(L)V(ː)(C_f) — cấu trúc từ song tiết yếu (sesquisyllabic) đặc trưng nhóm Chăm, gồm âm tiết phụ không mang trọng âm đi trước âm tiết chính mang trọng âm ở cuối từ.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh (áp dụng theo bộ chữ Raglai chung)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ɓ ~ b",
+        "note": "Trong bảng chữ cái Ninh Thuận 2019 tương ứng /ɓ/ (hút vào giống b tiếng Việt); trong hệ âm vị học Raglai cổ/Bắc còn đối lập /b/ và /ɓ/",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "bh",
+        "ipa": "bʱ ~ pʰ",
+        "note": "Tắc môi hữu thanh thở (breathy) hoặc biến thể âm vực trong nhóm Chăm",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Quy ước đọc khác tiếng Việt: đọc là âm tắc chân răng hữu thanh [d] (không đọc [z]/[j])",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Tắc chân răng hút vào",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "dh",
+        "ipa": "dʱ ~ tʰ",
+        "note": "Tắc chân răng hữu thanh thở",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "c",
+        "note": "Quy ước đọc khác tiếng Việt: phụ âm tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi bật hơi trong hệ phụ âm ghép Thông tư 14/2026/TT-BGDĐT",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Quy ước đọc khác tiếng Việt: tắc mặt lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "jh",
+        "ipa": "ɟʱ ~ cʰ",
+        "note": "Tắc mặt lưỡi hữu thanh thở (bảo lưu ở Raglai Bắc, vô thanh hóa ở Raglai Nam; cần kiểm chứng điền dã tại phương ngữ Các Gia)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "ʄ",
+        "note": "Quy ước đọc khác tiếng Việt trong bộ chữ Ninh Thuận: tắc mặt lưỡi hút vào /ʄ/",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc ngạc mềm hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "gh",
+        "ipa": "ɡʱ ~ kʰ",
+        "note": "Tắc ngạc mềm hữu thanh thở",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Rung/vỗ đầu lưỡi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi - ngạc mềm",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "j",
+        "note": "Quy ước đọc khác tiếng Việt trong bộ chữ Ninh Thuận: tiếp cận ngạc cứng /j/",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "bl, dl, hl, pl, tl, vl",
+        "ipa": "bl, dl, hl, pl, tl, vl",
+        "note": "Tổ hợp phụ âm đầu kết hợp với âm bên /-l-/ (Thông tư 14/2026/TT-BGDĐT)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "br, cr, dr, gr, jr, kr, pr, sr, tr, vr, zr",
+        "ipa": "br, cr, dr, ɡr, ɟr, kr, pr, sr, tr, vr, jr",
+        "note": "Tổ hợp phụ âm đầu kết hợp với /-r-/ (Thông tư 14/2026/TT-BGDĐT)",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm đóng hàng trước",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "e ~ ɛ",
+        "note": "Nguyên âm hàng trước hơi đóng đến hơi mở",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə ~ ɨ",
+        "note": "Nguyên âm hàng giữa; trong tài liệu âm vị học Raglai phân biệt /ɨ/ (chính tả SIL viết ư) và /ə/ (ơ), bộ chữ 26 chữ cái cơ bản (Thông tư 14/2026/TT-BGDĐT) liệt kê 6 nguyên âm cơ bản a, e, i, o, ơ, u",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở hàng giữa/trước; phân biệt trường độ ngắn/dài",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm đóng hàng sau tròn môi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "o ~ ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi đóng đến hơi mở",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ĩ, ữ, ũ, ẽ, ỡ, õ, ã",
+        "ipa": "ĩ, ɨ̃, ũ, ẽ, ə̃, õ, ã",
+        "note": "Hệ nguyên âm mũi hóa đối lập âm vị học trong tiếng Raglai (Lee 1966, Cobbey 1977), được ghi bằng dấu ngã (~) trong hệ chữ SIL (Sanãp Radlai) và đôi khi còn xuất hiện trong văn bản Thông tư 14/2026/TT-BGDĐT (ví dụ: Mĩ, Manhĩ)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ia, ua, uơ, ai, au, ui",
+        "ipa": "iə, uə, uə, aj, aw, uj",
+        "note": "Các nguyên âm đôi và vần có bán nguyên âm cuối thường gặp trong tiếng Raglai",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "q",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối âm tiết (ví dụ: maiq, suraq); chữ q không đứng đầu từ",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu cuối âm tiết (ví dụ: harơh)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k ~ ʔ",
+        "note": "Chữ cái phụ âm cuối trong bảng vần Thông tư 14/2026/TT-BGDĐT (ví dụ: puk/kaduk); trong nhiều phương ngữ Raglai âm tắc cuối lịch sử đã chuyển thành /-ʔ/",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t ~ ʔ",
+        "note": "Chữ cái phụ âm cuối (ví dụ: riat, kađat); cần kiểm chứng mức độ bảo lưu /-t/ so với /-ʔ/ ở phương ngữ Các Gia",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "ː ~ ʔ",
+        "note": "Phụ âm cuối ghi bằng chữ d trong chính tả Thông tư 14/2026/TT-BGDĐT (ví dụ: kalid, ralad, sad, krod); theo Đoàn Văn Phúc (2022) và chú thích phương ngữ trong Thông tư 14/2026/TT-BGDĐT (sad [Bắc] / sa [Nam] 'nhà'), chữ -d cuối vần chủ yếu là ký hiệu chính tả phân biệt trường độ/sắc thái nguyên âm hoặc biến thể phương ngữ chứ không phải âm tắc hữu thanh [-d]",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết (ví dụ: vhum)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng cuối âm tiết",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết (ví dụ: prong, khơng)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết — không có trong tiếng Việt chuẩn (ví dụ: tapuơl, nhul)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung/vỗ cuối âm tiết — không có trong tiếng Việt chuẩn",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "qh, qt, qd, qht, mt, nt, ngt",
+        "ipa": "ʔ ~ h ~ ː",
+        "note": "Các tổ hợp 2–3 chữ cái phụ âm cuối vần đặc thù trong chính tả Quyết định 383/QĐ-UBND và Phụ lục 4 Thông tư 14/2026/TT-BGDĐT (ví dụ: chơmt, panoqt, tanaqht). Theo các phân tích ngôn ngữ học (Đoàn Văn Phúc 2022), đây là quy ước chữ viết dùng tổ hợp chữ cái cuối để ghi nhận sự khác biệt về trường độ, tính mũi hóa và sắc thái nguyên âm kèm âm thanh hầu (thay vì dùng dấu thanh), không phải các cụm phụ âm phát âm rời rạc [-ʔh], [-ʔt], [-ʔht]; cần khảo sát điền dã để xác định giá trị ngữ âm tương ứng trong tiếng Raglai Các Gia",
+        "confidence": "low"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ phi thanh điệu (hoàn toàn không dùng dấu thanh tiếng Việt trên chữ viết); trọng âm từ cố định ở âm tiết chính (âm tiết cuối). Trong nhánh Chăm tại Nam Trung Bộ có xu hướng hình thành âm vực (registrogenesis, tương tác giữa tính hữu thanh/thở của phụ âm đầu với chất giọng và cao độ như ở Raglai Nam theo Brunelle et al. 2022), nhưng hiện chưa có khảo sát ngữ âm thực nghiệm công bố riêng cho tiếng Raglai Các Gia."
+  },
+  "lexicon": [],
+  "music": {
+    "genres": [
+      {
+        "name": "Akhat Jucar (Hát kể sử thi / trường ca Raglai)",
+        "note": "Di sản văn hóa phi vật thể quốc gia của dân tộc Ra Glai nói chung; lối hát kể truyền miệng dài hơi về lịch sử, thần thoại và anh hùng tộc người."
+      },
+      {
+        "name": "Manhĩ siri / Alơu (Dân ca trữ tình, hát đối đáp, hát nghi lễ)",
+        "note": "Các làn điệu dân ca Raglai hát trong lao động, mừng nhà mới, lễ ăn đầu lúa mới và lễ bỏ mả."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [],
+    "instruments": [
+      {
+        "name": "Mã la (Char)",
+        "note": "Bộ cồng chiêng đồng không núm truyền thống của người Ra Glai, vỗ bằng tay không và dùng bàn tay bên trong lòng chiêng để ngắt/điều chỉnh âm bồi."
+      },
+      {
+        "name": "Đàn Chapi (Capi)",
+        "note": "Đàn ống tre nhiều dây trích từ vỏ cật tre, mô phỏng âm hưởng của dàn Mã la trong sinh hoạt thường ngày."
+      },
+      {
+        "name": "Kèn bầu Sarakel",
+        "note": "Nhạc cụ hơi truyền thống dùng trong nghi lễ và hội làng của người Ra Glai."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "ra-glai",
+    "sub_varieties": [
+      {
+        "name_vi": "Tiếng Raglai Bắc (Northern Roglai)",
+        "iso639_3": "rog",
+        "glottocode": "nort2994",
+        "note": "Phương ngữ có số người nói đông nhất của dân tộc Ra Glai, phân bố ở Khánh Hòa, Ninh Thuận cũ và Lâm Đồng; biến thể Du Long thường được xếp gần nhóm này."
+      },
+      {
+        "name_vi": "Tiếng Raglai Nam (Southern Roglai)",
+        "iso639_3": "rgs",
+        "glottocode": "sout3010",
+        "note": "Phân bố ở phía nam Ninh Thuận cũ và Bình Thuận cũ (gồm cả nhóm Rai)."
+      },
+      {
+        "name_vi": "Phương ngữ Du Long",
+        "iso639_3": null,
+        "glottocode": null,
+        "note": "Một trong 4 phương ngữ Raglai theo phân loại của Cobbey (1977) bên cạnh Bắc, Nam và Các Gia."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "d (đầu âm tiết, ví dụ: di)",
+        "quoc_ngu": "đ (nhẹ)",
+        "note": "Chữ d trong tiếng Raglai là âm tắc chân răng hữu thanh [d], không đọc thành [z] hay [j] như chữ d tiếng Việt; tiếng Việt chỉ có âm hút vào [ɗ] (chữ đ) là gần nhất."
+      },
+      {
+        "native": "c (đầu âm tiết, ví dụ: ca)",
+        "quoc_ngu": "ch",
+        "note": "Chữ c trong chính tả Raglai ghi âm tắc mặt lưỡi [c] (tương đương ch tiếng Việt), không đọc là [k]."
+      },
+      {
+        "native": "j (đầu âm tiết)",
+        "quoc_ngu": "gi / d (pha ch)",
+        "note": "Âm tắc mặt lưỡi hữu thanh [ɟ] không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "y (đầu âm tiết theo bộ chữ 2019)",
+        "quoc_ngu": "d / gi",
+        "note": "Âm tắc mặt lưỡi hút vào [ʄ] không có trong tiếng Việt chuẩn."
+      },
+      {
+        "native": "z (đầu âm tiết theo bộ chữ 2019)",
+        "quoc_ngu": "d / gi (miền Nam)",
+        "note": "Ghi bán nguyên âm [j], gần với cách phát âm d/gi [j] của phương ngữ Nam Bộ."
+      },
+      {
+        "native": "-q (cuối âm tiết, ví dụ: maiq, suraq)",
+        "quoc_ngu": "-c / -t (ngắt nhanh kèm thanh sắc hoặc nặng)",
+        "note": "Âm tắc thanh hầu cuối [-ʔ] không viết thành chữ riêng trong tiếng Việt; có thể mô phỏng gần đúng bằng cách ngắt thanh hầu nhanh như thanh nặng miền Bắc."
+      },
+      {
+        "native": "-h (cuối âm tiết, ví dụ: harơh)",
+        "quoc_ngu": "(nguyên âm mở + thở hơi nhẹ cuối âm)",
+        "note": "Âm xát thanh hầu cuối [-h] không có trong tiếng Việt."
+      },
+      {
+        "native": "-l, -r (cuối âm tiết, ví dụ: tapuơl)",
+        "quoc_ngu": "-n (xấp xỉ thô)",
+        "note": "Tiếng Việt không có phụ âm cuối [-l] và [-r]; mọi cách viết lại bằng Quốc ngữ chỉ là xấp xỉ rất xa, cần giữ token gốc hoặc dùng IPA khi huấn luyện TTS."
+      },
+      {
+        "native": "bl-, dl-, pl-, tl-, br-, dr-, kr-, pr-... (tổ hợp phụ âm đầu)",
+        "quoc_ngu": "tách thành tiết phụ dùng nguyên âm ơ cực ngắn (ví dụ: bơ-l..., pơ-r...)",
+        "note": "Tiếng Việt hiện đại không còn cụm phụ âm đầu C+l/r; đọc lướt thật nhanh nguyên âm đệm để tránh biến thành hai âm tiết tách rời."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "radlai",
+        "ipa": "radlaj",
+        "meaning_vi": "người Raglai (nghĩa gốc: người rừng) — từ vựng Raglai chung, chưa xác minh dạng âm riêng của phương ngữ Các Gia"
+      },
+      {
+        "native": "sa",
+        "ipa": "sa",
+        "meaning_vi": "một (số 1) — từ vựng Raglai chung (Wikipedia / Thurgood 1999)"
+      },
+      {
+        "native": "tijuh",
+        "ipa": "tijuh",
+        "meaning_vi": "bảy (số 7) — từ vựng Raglai chung"
+      },
+      {
+        "native": "apui",
+        "ipa": "apuj",
+        "meaning_vi": "lửa — từ vựng Raglai chung"
+      },
+      {
+        "native": "langĩq",
+        "ipa": "laŋĩːʔ",
+        "meaning_vi": "bầu trời — từ vựng Raglai chung"
+      },
+      {
+        "native": "bra",
+        "ipa": "bra",
+        "meaning_vi": "gạo — từ vựng Raglai chung"
+      },
+      {
+        "native": "pisơi",
+        "ipa": "pisəj",
+        "meaning_vi": "sắt — từ vựng Raglai chung"
+      },
+      {
+        "native": "tubơu",
+        "ipa": "tubəw",
+        "meaning_vi": "mía — từ vựng Raglai chung"
+      }
+    ],
+    "tts_notes": "Khi tổng hợp tiếng nói/giọng hát, tuyệt đối không gán thanh điệu tiếng Việt lên âm tiết Raglai; giữ trường độ ngắn cho âm tiết phụ đầu từ (presyllable) và đặt trọng âm vào âm tiết cuối. Do thiếu ngữ liệu ghi âm công bố của riêng nhóm Các Gia (roc), không nên tự suy diễn quy tắc biến âm từ Raglai Bắc (rog) hay Raglai Nam (rgs) nếu chưa có dữ liệu điền dã."
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Cacgia Roglai (cacg1235)",
+      "url": "https://glottolog.org/resource/languoid/id/cacg1235",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Roglai, Cacgia (roc)",
+      "url": "https://www.ethnologue.com/language/roc/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Roglai language",
+      "url": "https://en.wikipedia.org/wiki/Roglai_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Raglai",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Raglai",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Bộ Giáo dục và Đào tạo (2026). Thông tư số 14/2026/TT-BGDĐT ngày 18/03/2026 ban hành Chương trình giáo dục phổ thông môn Tiếng Raglai cấp Tiểu học (có hiệu lực từ ngày 03/05/2026).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UBND tỉnh Ninh Thuận (2019). Quyết định số 383/QĐ-UBND ngày 08/10/2019 phê chuẩn Bộ chữ viết tiếng dân tộc Raglai tỉnh Ninh Thuận (do bà Mấu Thị Bích Phanh biên soạn).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Thurgood, Graham (1999). From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. University of Hawai'i Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cobbey, Maxwell & Cobbey, Vurnell (1977). Suraq vungã sanãp Radlai / Ngữ-vựng Rơglai / Northern Roglai vocabulary. Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Brunelle, Marc, Brown, Jeanne & Phạm Thị Thu Hà (2022). Northern Raglai voicing and its relation to Southern Raglai register: evidence for early stages of registrogenesis. Phonetica, 79(2), 151–188.",
+      "url": "https://doi.org/10.1515/phon-2022-2019",
+      "url_check": "ok_202",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology.onsets",
+          "severity": "medium",
+          "problem": "Thiếu phụ âm tắc mặt lưỡi hữu thanh thở 'jh' (/ɟʱ/). Trong hệ thống âm vị tiếng Raglai (Lee 1966; Brunelle et al. 2022; Tài liệu Hội thảo tiếng Raglai Bộ GD&ĐT), loạt âm tắc hữu thanh thở (breathy voiced stops) gồm đầy đủ 4 vị trí cấu âm: bh (/bʱ/), dh (/dʱ/), jh (/ɟʱ/), gh (/ɡʱ/). Bản nháp đã liệt kê bh, dh, gh nhưng bỏ sót jh.",
+          "fix": "Bổ sung mục grapheme 'jh' -> IPA 'ɟʱ ~ cʰ' với confidence 'low' (do cần kiểm chứng thực nghiệm riêng ở phương ngữ Các Gia)."
+        },
+        {
+          "path": "phonology.codas",
+          "severity": "high",
+          "problem": "Mục 'qh, qt, qd, ngt, mt, nt' gán IPA nguyên văn là các cụm phụ âm 'ʔh, ʔt, ʔd, ŋt, mt, nt' và bỏ sót 'qht' trên trường grapheme (dù trong note có nêu ví dụ 'tanaqht' từ Phụ lục 4 Thông tư 14/2026/TT-BGDĐT). Theo các nghiên cứu ngôn ngữ học về bộ chữ Raglai năm 2019 của Mấu Thị Bích Phanh (Đoàn Văn Phúc 2022; Phụ lục Thông tư 14/2026/TT-BGDĐT), bộ chữ này không dùng dấu thanh mà dùng các chữ cái và tổ hợp chữ cái cuối âm tiết (-d, -q, -qh, -qt, -qd, -qht, -mt, -nt, -ngt) làm ký hiệu chính tả để phân biệt trường độ (ngắn/dài), tính mũi hóa và sắc thái nguyên âm hoặc biến thể phương ngữ (ví dụ: sad / sa 'nhà', krod / kro 'sông'), chứ không phải là cụm phụ âm tắc phát âm nối tiếp theo nghĩa ngữ âm học thuần túy.",
+          "fix": "Thêm 'qht' vào grapheme, sửa trường ipa và note của '-d' và '-qh, -qt, -qd, -qht, -mt, -nt, -ngt' để phản ánh đúng bản chất quy ước chính tả biểu thị trường độ/phẩm chất nguyên âm và âm tắc/xát thanh hầu cuối từ; hạ confidence các âm cuối chưa kiểm chứng riêng ở phương ngữ Các Gia xuống 'low'."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "medium",
+          "problem": "Hệ nguyên âm tiếng Raglai (Lee 1966; Cobbey 1977; Wikipedia) có đối lập âm vị học giữa 7 nguyên âm miệng /i, ɨ, u, e, ə, o, a/ và 7 nguyên âm mũi hóa /ĩ, ɨ̃, ũ, ẽ, ə̃, õ, ã/ (hệ quả lịch sử của sự rụng phụ âm mũi cuối trong nhánh Bắc Chăm, ngay cả trong Phụ lục 4 Thông tư 14/2026/TT-BGDĐT vẫn xuất hiện từ 'Mĩ' hoặc tên thể loại 'Manhĩ'). Bản nháp mới chỉ nhắc thoáng qua trong note của 'i' và 'a' mà chưa tách mục cho hệ nguyên âm mũi hóa.",
+          "fix": "Bổ sung mục grapheme 'ĩ, ữ, ũ, ẽ, ỡ, õ, ã' -> IPA 'ĩ, ɨ̃, ũ, ẽ, ə̃, õ, ã' với confidence 'low' cho riêng phương ngữ Các Gia."
+        },
+        {
+          "path": "scripts[0].note",
+          "severity": "low",
+          "problem": "Thiếu ngày ban hành cụ thể của Quyết định 383/QĐ-UBND tỉnh Ninh Thuận (08/10/2019, tác giả bộ chữ là bà Mấu Thị Bích Phanh) và ngày có hiệu lực của Thông tư 14/2026/TT-BGDĐT (03/05/2026).",
+          "fix": "Cập nhật chính xác ngày tháng và thông tin xuất xứ bộ chữ trong scripts[0].note và sources."
+        }
+      ]
+    },
+    "open_issues": [
+      "Thiếu tài liệu ngữ âm học và bảng từ vựng điền dã công bố riêng cho phương ngữ/ngôn ngữ Raglai Các Gia (roc); phần âm vị học và từ mẫu hiện đang tham chiếu từ tiếng Raglai chung và bộ chữ chuẩn hóa tại Ninh Thuận.",
+      "Cần xác minh địa bàn cư trú hiện tại ở cấp xã/thôn của cộng đồng nói tiếng Raglai Các Gia (ven biển đông bắc Phan Rang) sau đợt sáp nhập đơn vị hành chính tỉnh Khánh Hòa – Ninh Thuận năm 2025.",
+      "Cần người bản ngữ và nhà ngôn ngữ học xác nhận mức độ tương thích của Bộ chữ viết tiếng Raglai (Quyết định 383/QĐ-UBND ngày 08/10/2019 và Thông tư 14/2026/TT-BGDĐT) đối với khẩu âm thực tế của nhóm Các Gia, đặc biệt là hệ thống âm vực/phát âm phụ âm tắc và các tổ hợp chữ cái phụ âm cuối (-d, -qh, -qt, -qd, -qht, -mt, -nt, -ngt).",
+      "Cần bổ sung danh sách từ vựng cơ bản (lexicon) được thu âm trực tiếp từ người nói tiếng Raglai Các Gia."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

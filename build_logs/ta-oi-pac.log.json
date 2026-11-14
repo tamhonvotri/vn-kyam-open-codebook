@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "ta-oi-pac",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Pa Cô",
+    "ethnic_group_vi": "Tà Ôi",
+    "iso639_3_expected": "pac",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Tà Ôi tại Việt Nam (mã ISO dự kiến: pac; bảng mã dân tộc gốc: ta-oi). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"ta-oi\"."
+  },
+  "started": "2026-11-13T23:48:12.345009",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9446,
+      "candidatesTokenCount": 9869,
+      "totalTokenCount": 28801,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9446
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9869
+        }
+      ],
+      "thoughtsTokenCount": 9486,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 12534,
+      "candidatesTokenCount": 11473,
+      "totalTokenCount": 24997,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12534
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11473
+        }
+      ],
+      "thoughtsTokenCount": 990,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "scripts[0].official_in_vietnam",
+        "severity": "medium",
+        "problem": "Đặt official_in_vietnam = true nhưng trong phần note lại nêu rõ 'Cấp quốc gia chưa có văn bản chuẩn hóa thống nhất duy nhất'. Bộ chữ Pakôh - Taôih mới dừng ở mức tài liệu giáo dục/từ điển cấp tỉnh (Bình Trị Thiên 1986, Thừa Thiên Huế 2004, 2016), chưa có nghị định chuẩn hóa quốc gia.",
+        "fix": "Đổi official_in_vietnam từ true thành false (hoặc null) và giữ giải thích rõ ở note."
+      },
+      {
+        "path": "phonology.vowels[4..8]",
+        "severity": "medium",
+        "problem": "Ánh xạ chữ viết hệ Watson cho nhóm nguyên âm giữa đối lập âm vực [-RTR] (modal) và [+RTR] (creaky/tense) chưa chuẩn xác: trong chính tả từ điển Watson (1979/2013), cặp nguyên âm giữa [+RTR] được ghi bằng <ei / éi> cho /ḛː, ḛ/ (ví dụ caheip, xéich, cuxéinh), <â / ấ> cho /ə̰ː, ə̰/ ~ [ɤː, ɤ] (ví dụ ncâp, pânh), và <ou / óu> cho /o̰ː, o̰/ (ví dụ houm, doui, cutour, móuh); trong khi <ơ / ớ> dành riêng cho âm vực thường [-RTR] /əː, ə/.",
+        "fix": "Tách rõ <ơ / ớ> (/əː, ə/) với <â / ấ> (/ə̰ː, ə̰/ ~ [ɤː, ɤ]), bổ sung <ei / éi> cho /ḛː, ḛ/ và <ou / óu> cho /o̰ː, o̰/."
+      },
+      {
+        "path": "lexicon[4] & lexicon[17]",
+        "severity": "low",
+        "problem": "Hai mục từ 'ape / ngai' và 'ticuoi' để ipa = null nhưng lại gán confidence = 'high'. Ngoài ra 'ticuoi' có thể bổ sung IPA [tikuəj].",
+        "fix": "Hạ confidence của 'ape / ngai' xuống 'medium' và bổ sung IPA 'tikuəj' cho 'ticuoi'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các nguồn URL đã được kiểm chứng thực tế trên mạng (DOI Pacific Linguistics, Webonary, Glottolog, Wikipedia, WALS, PHOIBLE, Wiktionary) nhưng trường url_check đang để null.",
+        "fix": "Cập nhật url_check = 'verified' cho các URL đã kiểm tra."
+      }
+    ]
+  },
+  "schema_errors": []
+}

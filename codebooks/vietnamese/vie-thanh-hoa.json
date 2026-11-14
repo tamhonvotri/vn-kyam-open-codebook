@@ -1,0 +1,750 @@
+{
+  "id": "vie-thanh-hoa",
+  "kind": "vietnamese_variety",
+  "name_vi": "Tiếng Việt — Thổ ngữ Thanh Hóa",
+  "name_en": "Vietnamese — Thanh Hóa transitional dialect",
+  "autonym": "tiếng Thanh Hóa / giọng xứ Thanh",
+  "ethnic_group_vi": "Kinh",
+  "language": {
+    "iso639_3": "vie",
+    "glottocode": "viet1252",
+    "family": "Austroasiatic",
+    "branch": "Vietic"
+  },
+  "regions": [
+    "Đồng bằng sông Mã (TP. Thanh Hóa, Đông Sơn, Hoằng Hóa, Quảng Xương, Thiệu Hóa, Yên Định, Vĩnh Lộc, Thọ Xuân, Nông Cống, Triệu Sơn)",
+    "Vùng duyên hải Thanh Hóa (Hậu Lộc, Sầm Sơn, Nghi Sơn / Tĩnh Gia)",
+    "Ngoại trừ một số xã phía đông huyện Nga Sơn nghiêng hẳn về phương ngữ Bắc Bộ và vùng giáp ranh Nghệ An nghiêng về phương ngữ Nghệ Tĩnh"
+  ],
+  "speakers_estimate": "khoảng 3–3,5 triệu người (cư dân người Kinh tại tỉnh Thanh Hóa và cộng đồng di cư)",
+  "scripts": [
+    {
+      "name": "Chữ Quốc ngữ",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Dùng chính tả tiếng Việt chuẩn; khi ghi lời thoại địa phương hoặc dân ca thường viết biến âm hỏi/ngã và nguyên âm đơn hóa (lun, đíu, chưn, chậy...)"
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ tư liệu phương ngữ học tiếng Việt (Hoàng Thị Châu, Nguyễn Tài Cẩn, chuyên khảo Bản đồ biến thể ngữ âm tiếng Thanh Hóa của Nguyễn Tài Thái). Thổ ngữ Thanh Hóa được tách riêng khỏi vie-north-central vì tính chất chuyển tiếp Bắc–Trung điển hình: hệ phụ âm cuối và đường nét các thanh bằng/trắc cơ bản gần phương ngữ Bắc Bộ, nhưng hệ thống thanh điệu rút xuống 5 thanh (nhập hỏi–ngã), triệt tiêu nguyên âm đôi /iə, ɨə, uə/ thành nguyên âm đơn dài, đồng thời chia sẻ lớp từ vựng cổ và đại từ chỉ định/nhân xưng với Bắc Trung Bộ.",
+  "phonology": {
+    "syllable_structure": "(C1)(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "tr",
+        "ipa": "c ~ tɕ ~ ʈ ~ t",
+        "note": "Đa số vùng đồng bằng trung tâm (Đông Sơn, Nông Cống...) không phân biệt tr/ch [c ~ tɕ]; các huyện ven biển (Quảng Xương, Nghi Sơn/Tĩnh Gia) còn giữ âm quặt lưỡi [ʈ]; một số điểm cục bộ (Nga Mỹ, Nga Thủy thuộc Nga Sơn; Phú Yên thuộc Thọ Xuân) phát âm tr → [t] (trời trong trẻo → tời tong tẻo)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "s ~ ʂ",
+        "note": "Vùng đồng bằng trung tâm nhập s với x thành [s]; một số thổ ngữ ven biển vẫn phân biệt [ʂ] và [s]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "z ~ ʐ ~ ɾ",
+        "note": "Ở vùng đồng bằng thường nhập với d/gi [z]; vùng ven biển giữ [ʐ] hoặc [ɾ]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d, gi",
+        "ipa": "z",
+        "note": "Phát âm xát lợi hữu thanh [z] giống phương ngữ Bắc Bộ; một vài thổ ngữ bảo lưu dấu vết gần âm tắc cổ ở từ riêng lẻ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Giữ âm xát môi-răng hữu thanh [v] như phương ngữ Bắc Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l (trong một số từ khẩu ngữ)",
+        "ipa": "l ~ ɗ",
+        "note": "Không lẫn l/n phổ biến như đồng bằng Bắc Bộ, nhưng có biến thể từ vựng–ngữ âm l → đ ở vài từ thông dụng (đi làm → đi đàm / đi đàn)",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "iê / ia / yê / ya",
+        "ipa": "iː",
+        "note": "Triệt tiêu nguyên âm đôi hướng tâm /iə/ thành nguyên âm đơn dài /iː/, tạo đối lập trường độ với /i/ ngắn: mía [miː˧˥] ≠ mí [mi˧˥], điếu [ɗiːw˧˥]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ươ / ưa",
+        "ipa": "ɨː",
+        "note": "Triệt tiêu nguyên âm đôi /ɨə/ thành nguyên âm đơn dài /ɨː/ ở nhiều vị trí vần",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uː",
+        "note": "Triệt tiêu nguyên âm đôi /uə/ thành nguyên âm đơn dài /uː/: luôn → [luːn˧˧], cuốn → [kuːn˧˥]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i (âm tiết mở ở một số từ)",
+        "ipa": "i ~ ej ~ əj",
+        "note": "Lướt đôi hóa nguyên âm /i/ cuối âm tiết ở một số từ thông dụng: chị → chậy [cəj˨˩ˀ] / chệi [cej˨˩ˀ], chi → chêi [cej˧˧]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â ↔ ư",
+        "ipa": "ə̆ ~ ɨ",
+        "note": "Biến đổi hai chiều tùy ngữ cảnh phụ âm và thanh điệu: chân → chưn [cɨn˧˧], ngược lại bực → bậc [ɓə̆k˨˩ˀ], nực → nậc, đực → đậc",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "oa (âm đệm w + a)",
+        "ipa": "wɐː ~ ʷɔː",
+        "note": "Âm đệm [w] đồng hóa nguyên âm chính [a] sau nó thành nguyên âm tròn môi [ɔː] (kèm môi hóa phụ âm đầu) trong một số vần khép: toàn → [tʷɔːn˨˩], quạt → [kʷɔːt˨˩ˀ]",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p, t, ch, c, m, n, nh, ng",
+        "ipa": "p, t, c, k, m, n, ɲ, ŋ",
+        "note": "Hệ thống phụ âm cuối được bảo lưu đầy đủ giống phương ngữ Bắc Bộ và Nghệ Tĩnh, không có hiện tượng nhập đại trà -n/-ng hay -t/-c như Nam Bộ",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "ngang",
+        "name": "thanh ngang",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "huyen",
+        "name": "thanh huyền",
+        "mark": "̀",
+        "chao_contour": "21",
+        "phonation": "modal / hơi thở nhẹ",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "sac",
+        "name": "thanh sắc",
+        "mark": "́",
+        "chao_contour": "35",
+        "phonation": "modal, cao bổng (khác giọng Nghệ Tĩnh trầm)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "hoi",
+        "name": "thanh hỏi",
+        "mark": "̉",
+        "chao_contour": "313",
+        "phonation": "không nghẹt thanh hầu gãy đôi",
+        "merges_with": "nga",
+        "confidence": "high"
+      },
+      {
+        "id": "nga",
+        "name": "thanh ngã",
+        "mark": "̃",
+        "chao_contour": "313",
+        "phonation": "nhập với thanh hỏi (xu hướng phát âm ngã thành hỏi là chủ yếu), mất hiện tượng thanh hầu hóa giữa vần của Hà Nội",
+        "merges_with": "hoi",
+        "confidence": "high"
+      },
+      {
+        "id": "nang",
+        "name": "thanh nặng",
+        "mark": "̣",
+        "chao_contour": "21",
+        "phonation": "ngắn, kết thúc tắc thanh hầu nhẹ [ˀ]; riêng một vài điểm thổ ngữ như Vĩnh Thịnh (Vĩnh Lộc) có đối ứng từ vựng nặng ↔ sắc (ngại → ngái, tạt → tát)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 5 thanh điệu (thanh hỏi và thanh ngã nhập làm một, chủ yếu ngã nhập vào hỏi). Khác với Nghệ Tĩnh và Bình Trị Thiên có âm vực trầm nặng, các thanh còn lại của tiếng Thanh Hóa có âm vực cao, bổng gần với phương ngữ Bắc Bộ và Nam Bộ."
+  },
+  "correspondences_from_standard_vietnamese": [
+    {
+      "slot": "tone",
+      "standard": "ngã",
+      "variety": "hỏi",
+      "ipa_standard": "˧ˀ˥",
+      "ipa_variety": "˧˩˧",
+      "condition": null,
+      "example_standard": "nãy / ngã",
+      "example_variety": "nảy / ngả",
+      "prevalence": "categorical",
+      "confidence": "high"
+    },
+    {
+      "slot": "nucleus",
+      "standard": "iê / ia",
+      "variety": "i (kéo dài)",
+      "ipa_standard": "iə",
+      "ipa_variety": "iː",
+      "condition": "Triệt tiêu nguyên âm đôi /iə/ thành nguyên âm đơn dài /iː/",
+      "example_standard": "mía / điếu",
+      "example_variety": "mí (dài) / đíu",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "nucleus",
+      "standard": "uô / ua",
+      "variety": "u (kéo dài)",
+      "ipa_standard": "uə",
+      "ipa_variety": "uː",
+      "condition": "Triệt tiêu nguyên âm đôi /uə/ thành nguyên âm đơn dài /uː/",
+      "example_standard": "luôn / cuốn",
+      "example_variety": "lun [luːn] / cún [kuːn]",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "nucleus",
+      "standard": "ươ / ưa",
+      "variety": "ư (kéo dài)",
+      "ipa_standard": "ɨə",
+      "ipa_variety": "ɨː",
+      "condition": "Triệt tiêu nguyên âm đôi /ɨə/ thành nguyên âm đơn dài /ɨː/",
+      "example_standard": "mượn / nước",
+      "example_variety": "mựn / nức (dài) ~ nác",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "i",
+      "variety": "ây / êi",
+      "ipa_standard": "i",
+      "ipa_variety": "əj ~ ej",
+      "condition": "Ở một số từ thông dụng mang âm tiết mở",
+      "example_standard": "chị / chi",
+      "example_variety": "chậy / chêi",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ân",
+      "variety": "ưn",
+      "ipa_standard": "ə̆n",
+      "ipa_variety": "ɨn",
+      "condition": "Sau một số phụ âm đầu mặt lưỡi / đầu lưỡi",
+      "example_standard": "chân / gần",
+      "example_variety": "chưn / gừn",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ưc",
+      "variety": "âc",
+      "ipa_standard": "ɨk",
+      "ipa_variety": "ə̆k",
+      "condition": "Biến đổi đối xứng ư → â trong một nhóm từ vần -ưc",
+      "example_standard": "bực / nóng nực / đực",
+      "example_variety": "bậc / nóng nậc / đậc",
+      "prevalence": "common",
+      "confidence": "high"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "oan / oat",
+      "variety": "on / ot (kéo dài, môi hóa)",
+      "ipa_standard": "waːn / waːt",
+      "ipa_variety": "ʷɔːn / ʷɔːt",
+      "condition": "Âm đệm [w] đồng hóa tròn môi âm chính [a] theo sau",
+      "example_standard": "toàn / quạt",
+      "example_variety": "tòn [tʷɔːn] / cọt [kʷɔːt]",
+      "prevalence": "variable",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "ơi",
+      "variety": "ưi",
+      "ipa_standard": "əːj",
+      "ipa_variety": "ɨj",
+      "condition": "Trong một số từ khẩu ngữ",
+      "example_standard": "phơi",
+      "example_variety": "phưi",
+      "prevalence": "variable",
+      "confidence": "medium"
+    },
+    {
+      "slot": "rhyme",
+      "standard": "âu",
+      "variety": "au",
+      "ipa_standard": "ə̆w",
+      "ipa_variety": "aw",
+      "condition": "Một số từ khẩu ngữ thông dụng",
+      "example_standard": "đầu",
+      "example_variety": "đàu",
+      "prevalence": "variable",
+      "confidence": "medium"
+    },
+    {
+      "slot": "onset",
+      "standard": "tr",
+      "variety": "t",
+      "ipa_standard": "ʈ ~ c",
+      "ipa_variety": "t",
+      "condition": "Cục bộ tại một số xã thuộc Nga Sơn (Nga Mỹ, Nga Thủy) và Thọ Xuân (Phú Yên)",
+      "example_standard": "trời trong trẻo",
+      "example_variety": "tời tong tẻo",
+      "prevalence": "local",
+      "confidence": "high"
+    },
+    {
+      "slot": "word",
+      "standard": "gỡ / gõ / gãi / gọt",
+      "variety": "khở / khỏ / khải / khót",
+      "ipa_standard": "ɣəː˧ˀ˥ / ɣɔ˧ˀ˥ / ɣaːj˧ˀ˥ / ɣɔt˨˩ˀ",
+      "ipa_variety": "xəː˧˩˧ / xɔ˧˩˧ / xaːj˧˩˧ / xɔt˧˥",
+      "condition": "Bảo lưu phụ âm vô thanh + thanh cao của tiếng Việt cổ trước quá trình hữu thanh hóa và hạ thấp thanh điệu",
+      "example_standard": "gỡ / gõ / gãi / gọt",
+      "example_variety": "khở / khỏ / khải / khót",
+      "prevalence": "variable",
+      "confidence": "high"
+    }
+  ],
+  "respelling_rules": [
+    {
+      "slot": "tone",
+      "from": "nga",
+      "to": "hoi",
+      "level": "light",
+      "note": "Đặc trưng phổ quát nhất của thổ ngữ Thanh Hóa: nhập hoàn toàn thanh ngã vào thanh hỏi."
+    },
+    {
+      "slot": "word",
+      "from": "nãy",
+      "to": "nảy",
+      "level": "light",
+      "note": "Ví dụ tần suất cao trong khẩu ngữ (hồi nãy → nảy)"
+    },
+    {
+      "slot": "word",
+      "from": "cũ",
+      "to": "củ",
+      "level": "light",
+      "note": "Nhập thanh ngã vào hỏi, an toàn cho tokenizer"
+    },
+    {
+      "slot": "word",
+      "from": "chị",
+      "to": "chậy",
+      "level": "full",
+      "optional": true,
+      "note": "Lướt đôi hóa /i/ → [əj] rất đặc trưng của vùng đồng bằng sông Mã"
+    },
+    {
+      "slot": "word",
+      "from": "chân",
+      "to": "chưn",
+      "level": "full",
+      "optional": true,
+      "note": "Biến âm â → ư phổ biến nhưng có thể tách sub-token trên một số tokenizer LLM"
+    },
+    {
+      "slot": "word",
+      "from": "bực",
+      "to": "bậc",
+      "level": "full",
+      "optional": true,
+      "note": "Biến âm ưc → âc đặc trưng (bực → bậc)"
+    },
+    {
+      "slot": "word",
+      "from": "nực",
+      "to": "nậc",
+      "level": "full",
+      "optional": true,
+      "note": "Biến âm ưc → âc (nóng nực → nóng nậc)"
+    },
+    {
+      "slot": "rhyme",
+      "from": "uôn",
+      "to": "un",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng triệt tiêu nguyên âm đôi uô → uː (luôn → lun, buồn → bùn)"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iêu",
+      "to": "iu",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng triệt tiêu nguyên âm đôi iê → iː (điếu → đíu, chiếu → chíu)"
+    },
+    {
+      "slot": "rhyme",
+      "from": "iên",
+      "to": "in",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng triệt tiêu nguyên âm đôi iê → iː (tiền → tìn [tiːn˨˩]); lưu ý chữ Quốc ngữ không ghi được độ dài nguyên âm [iː]"
+    },
+    {
+      "slot": "rhyme",
+      "from": "ươn",
+      "to": "ưn",
+      "level": "full",
+      "optional": true,
+      "note": "Mô phỏng triệt tiêu nguyên âm đôi ươ → ɨː; dễ vỡ token trên mô hình ngôn ngữ nên cần kiểm tra trước"
+    }
+  ],
+  "lexicon": [
+    {
+      "standard_vi": "tao / tôi",
+      "form": "tau",
+      "ipa": "taw˧˧",
+      "gloss_en": "I / me (familiar)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mày",
+      "form": "mi",
+      "ipa": "mi˧˧",
+      "gloss_en": "you (familiar)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chúng tao / bọn tôi",
+      "form": "choa",
+      "ipa": "cwaː˧˧",
+      "gloss_en": "we / us (exclusive, familiar)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó / ông ấy / người ấy",
+      "form": "va / nhà va",
+      "ipa": "vaː˧˧",
+      "gloss_en": "he / she / that person (characteristic Thanh Hóa pronoun)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đâu / nào",
+      "form": "mô",
+      "ipa": "mo˧˧",
+      "gloss_en": "where / which",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "kia",
+      "form": "tê",
+      "ipa": "te˧˧",
+      "gloss_en": "over there / that yonder",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "này / nay",
+      "form": "ni / nầy",
+      "ipa": "ni˧˧ / nə̆j˨˩",
+      "gloss_en": "this / now",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ấy / đó",
+      "form": "nớ",
+      "ipa": "nəː˧˥",
+      "gloss_en": "that",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sao / thế nào",
+      "form": "răng",
+      "ipa": "zaŋ˧˧ ~ ʐaŋ˧˧",
+      "gloss_en": "how / why",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thế / vậy",
+      "form": "rứa",
+      "ipa": "zɨː˧˥ ~ ʐɨə˧˥",
+      "gloss_en": "so / like that",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gì",
+      "form": "chi",
+      "ipa": "ci˧˧ ~ cej˧˧",
+      "gloss_en": "what",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "như thế này",
+      "form": "ở ri / a ri",
+      "ipa": "əː˧˩˧ zi˧˧",
+      "gloss_en": "like this",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "làm",
+      "form": "mần",
+      "ipa": "mə̆n˨˩",
+      "gloss_en": "to do / to make",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "thấy",
+      "form": "chộ",
+      "ipa": "co˨˩ˀ",
+      "gloss_en": "to see",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "không",
+      "form": "nỏ",
+      "ipa": "nɔ˧˩˧",
+      "gloss_en": "not / no",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "đầu",
+      "form": "trốc",
+      "ipa": "cok͡p˧˥ ~ ʈok͡p˧˥",
+      "gloss_en": "head",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "trượng",
+      "ipa": "cɨːŋ˨˩ˀ",
+      "gloss_en": "eye (archaic/local rural Thanh Hóa)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con bê",
+      "form": "con me",
+      "ipa": "kɔn˧˧ mɛ˧˧",
+      "gloss_en": "calf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con lợn",
+      "form": "con ỉn / con ỉ",
+      "ipa": "kɔn˧˧ in˧˩˧ / i˧˩˧",
+      "gloss_en": "pig",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con moi (tép biển)",
+      "form": "ruốc",
+      "ipa": "zuːk˧˥",
+      "gloss_en": "krill / tiny sea shrimp",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "sủa (chó sủa)",
+      "form": "cắm",
+      "ipa": "kam˧˥",
+      "gloss_en": "to bark",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nem rán / chả giò",
+      "form": "chả",
+      "ipa": "caː˧˩˧",
+      "gloss_en": "fried spring roll",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "táo tợn / gan dạ",
+      "form": "bợm",
+      "ipa": "ɓəːm˨˩ˀ",
+      "gloss_en": "bold / daring",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "gỡ",
+      "form": "khở",
+      "ipa": "xəː˧˩˧",
+      "gloss_en": "to untangle / remove",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gọt",
+      "form": "khót",
+      "ipa": "xɔt˧˥",
+      "gloss_en": "to peel / whittle",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hò sông Mã",
+        "note": "Tổ khúc hò lao động sông nước tiêu biểu bậc nhất xứ Thanh, biên chế truyền thống gồm 1 người bắt cái và 4 trai đò hốp đò (\"Dô tá dô tà\"), chia làm 5 chặng: hò rời bến, hò đò ngược, hò đò xuôi, hò mắc cạn và hò cập bến."
+      },
+      {
+        "name": "Dân ca, dân vũ Đông Anh (Ngũ trò Viên Khê)",
+        "note": "Hệ thống hơn 10 trò diễn xướng dân gian kèm dân ca tại Viên Khê (Đông Khê, Đông Sơn, TP. Thanh Hóa) như trò Múa đèn (\"Lên chùa bẻ một cành sen...\"), Tiên Cuội, Tô Vũ, Trống Mõ, Thiếp...; Di sản văn hóa phi vật thể quốc gia (2017)."
+      },
+      {
+        "name": "Trò Xuân Phả",
+        "note": "Nghệ thuật trình diễn dân gian tại Thọ Xuân (Di sản văn hóa phi vật thể quốc gia, 2016), kết hợp hát xướng và múa trò ngũ quốc."
+      },
+      {
+        "name": "Chèo chải, Hát khúc Tĩnh Gia, Hò biển duyên hải",
+        "note": "Dân ca nghi lễ và lao động vùng đồng bằng – ven biển xứ Thanh (Hậu Lộc, Hoằng Hóa, Quảng Xương, Nghi Sơn)."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Tiếng xô / hốp nhịp Hò sông Mã (\"Dô tá dô tà\")",
+        "description": "Câu xướng của người bắt cái luyến tự do, khỏe khoắn trên âm vực cao; dàn trai đò đáp lại theo nhịp chèo dứt khoát, nhấn mạnh phách mạnh.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Luyến nảy thanh hỏi–ngã xứ Thanh",
+        "description": "Do thanh ngã nhập với thanh hỏi [313] và hệ thanh điệu có âm vực bổng, chữ mang dấu ngã trong lời ca dân gian thường được luyến võng xuống rồi vút lên nhẹ giống thanh hỏi thay vì ngắt thanh hầu.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang 5 âm đồng bằng – sông nước Bắc–Trung giao thoa",
+        "note": "Mang màu sắc khỏe, hào sảng trong Hò sông Mã và mềm mại, trữ tình gần dân ca đồng bằng Bắc Bộ trong tổ khúc Múa đèn Đông Anh.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Trống khẩu / trống mảnh, sênh, mõ (trong Ngũ trò Viên Khê và Hò sông Mã)"
+      },
+      {
+        "name": "Nhị (đàn cò)"
+      },
+      {
+        "name": "Sáo trúc"
+      },
+      {
+        "name": "Đàn bầu"
+      }
+    ]
+  },
+  "ml_hints": {
+    "dialect_positioning": "Phương ngữ chuyển tiếp Bắc–Trung: khi tổng hợp tiếng nói (TTS) hoặc giọng hát (SVS), nền cao độ (F0 contour) của các thanh ngang, huyền, sắc, nặng nên lấy gần giọng Bắc Bộ (cao, sáng, không hạ trầm như Nghệ Tĩnh), nhưng bắt buộc nhập thanh ngã vào thanh hỏi [313] và rút gọn lướt nguyên âm đôi /iə, ɨə, uə/ thành nguyên âm đơn dài [iː, ɨː, uː].",
+    "sub_varieties": [
+      {
+        "name": "Thổ ngữ đồng bằng sông Mã (trung tâm)",
+        "note": "Đông Sơn, TP. Thanh Hóa, Thiệu Hóa, Yên Định, Nông Cống: nhập hỏi–ngã, đơn nguyên âm hóa mạnh iê/ươ/uô → iː/ưː/uː, không phân biệt tr/ch và s/x."
+      },
+      {
+        "name": "Thổ ngữ ven biển Thanh Hóa",
+        "note": "Quảng Xương, Sầm Sơn, Nghi Sơn (Tĩnh Gia): còn giữ các phụ âm quặt lưỡi /ʈ, ʂ, ʐ/ rõ hơn vùng đồng bằng nội địa."
+      },
+      {
+        "name": "Các điểm thổ ngữ cục bộ đặc biệt",
+        "note": "Đông Nga Sơn (gần Bắc Bộ); Vĩnh Thịnh – Vĩnh Lộc (có đối ứng thanh nặng ↔ sắc ở một lớp từ); Nga Mỹ / Nga Thủy (Nga Sơn) và Phú Yên (Thọ Xuân) có hiện tượng tr → t; làng cổ Bôn / Rủn (Đông Sơn) có ngữ điệu trầm bổng riêng."
+      }
+    ],
+    "orthographic_caveat_for_tts": "Chữ Quốc ngữ không có ký hiệu phân biệt nguyên âm đơn dài [iː, uː, ɨː] với nguyên âm đơn ngắn [i, u, ɨ]. Nếu dùng quy tắc respelling 'luôn' → 'lun' hoặc 'tiền' → 'tìn' trực tiếp trên mô hình TTS huấn luyện bằng giọng Hà Nội, mô hình sẽ đọc ngắn [lun] / [tin] thay vì kéo dài [luːn] / [tiːn]. Nên ưu tiên điều khiển trường độ ở tầng phoneme/IPA thay vì chỉ sửa chính tả.",
+    "safe_light_respellings": {
+      "nãy": "nảy",
+      "cũ": "củ",
+      "ngã": "ngả",
+      "mãi": "mải"
+    }
+  },
+  "sources": [
+    {
+      "title": "Wikipedia tiếng Việt — Phương ngữ Thanh Hóa",
+      "url": "https://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_ng%E1%BB%AF_Thanh_H%C3%B3a",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hoàng Thị Châu (2004). Phương ngữ học tiếng Việt. NXB Đại học Quốc gia Hà Nội (bản in đầu: Tiếng Việt trên các miền đất nước: Phương ngữ học, NXB Khoa học Xã hội, 1989).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Tài Thái (Chủ biên, 2024). Bản đồ biến thể ngữ âm tiếng Thanh Hóa (Sách chuyên khảo). Viện Ngôn ngữ học — Nhà xuất bản và Tạp chí Khoa học xã hội (ISBN 978-632-641-061-7).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Tài Cẩn (1995). Giáo trình lịch sử ngữ âm tiếng Việt (sơ thảo). NXB Giáo dục, Hà Nội.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Vietnamese language (Dialect continuum & North-Central / Thanh Hóa classification)",
+      "url": "https://en.wikipedia.org/wiki/Vietnamese_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Hò sông Mã",
+      "url": "https://vi.wikipedia.org/wiki/H%C3%B2_s%C3%B4ng_M%C3%A3",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Dân ca, dân vũ Đông Anh (Ngũ trò Viên Khê)",
+      "url": "https://vi.wikipedia.org/wiki/D%C3%A2n_ca,_d%C3%A2n_v%C5%A9_%C4%90%C3%B4ng_Anh",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "correspondences_from_standard_vietnamese[2]",
+          "severity": "medium",
+          "problem": "Ví dụ cho vần 'buộc' chuyển thành 'bụt ~ bục': trong đó biến thể 'bụt' liên quan đến biến đổi phụ âm cuối (k -> t) giống phương ngữ Nam Bộ hơn là thuần túy triệt tiêu nguyên âm đôi /uə/ -> /uː/ ở Thanh Hóa (nơi bảo lưu tốt -k/-t). Ngoài ra chữ 'u' trước '-c' trong tiếng Việt vốn bị môi hóa đôi [uək͡p] nên 'bục' chưa thể hiện rõ tính đối lập trường độ.",
+          "fix": "Đổi ví dụ sang 'luôn / cuốn' -> 'lun / cún (nguyên âm dài [luːn / kuːn])' đồng nhất với mục phonology.vowels[2]."
+        },
+        {
+          "path": "correspondences_from_standard_vietnamese[7]",
+          "severity": "low",
+          "problem": "Tư liệu ngữ âm tiếng Thanh Hóa ghi nhận âm đệm [w] đồng hóa âm chính [a] theo sau nhưng vẫn giữ tính chất môi hóa ở phụ âm đầu: toàn -> [tʷɔːn˨˩], quạt -> [kʷɔːt˨˩ˀ]. Bản nháp ghi ipa_variety là 'ɔːn / ɔːt' làm mất ký hiệu môi hóa [ʷ].",
+          "fix": "Cập nhật ipa_variety thành 'ʷɔːn / ʷɔːt' và chỉnh lại mô tả trong phonology.vowels[5]."
+        },
+        {
+          "path": "sources[2]",
+          "severity": "low",
+          "problem": "Thiếu thông tin nhà xuất bản, năm xuất bản và ISBN của sách chuyên khảo 'Bản đồ biến thể ngữ âm tiếng Thanh Hóa' dù có thể kiểm chứng trực tuyến; đồng thời trường url_check ở các nguồn có URL đang để null.",
+          "fix": "Bổ sung thông tin xuất bản (Nhà xuất bản và Tạp chí Khoa học xã hội, 2024, ISBN 978-632-641-061-7) và cập nhật url_check = 'ok' cho các URL Wikipedia đã kiểm chứng."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đo đạc âm học thực nghiệm (F0 và trường độ nguyên âm ms) trên người bản xứ đồng bằng sông Mã để chuẩn hóa số Chao chính xác cho thanh hỏi–ngã hợp nhất và tỷ lệ trường độ [iː]/[i], [uː]/[u], [ɨː]/[ɨ].",
+      "Cần phân tách rõ hơn ranh giới tiểu vùng giữa đồng bằng sông Mã, ven biển Nghi Sơn – Quảng Xương và các điểm đảo ngữ âm cục bộ (Vĩnh Thịnh, Nga Mỹ, Cổ Bôn).",
+      "Chưa có kiểm nghiệm thực tế với bộ tokenizer của các mô hình TTS/SVS trên các biến thể viết lại nguyên âm đơn hóa."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

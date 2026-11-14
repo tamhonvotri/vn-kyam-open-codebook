@@ -1,0 +1,85 @@
+{
+  "target": {
+    "id": "tho-hnu",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày Poọng / Đan Lai – Ly Hà (Hung)",
+    "ethnic_group_vi": "Thổ",
+    "iso639_3_expected": "hnu",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thổ tại Việt Nam (mã ISO dự kiến: hnu; bảng mã dân tộc gốc: tho). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"tho\"."
+  },
+  "started": "2026-11-13T23:58:31.977899",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9449,
+      "candidatesTokenCount": 8983,
+      "totalTokenCount": 25447,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9449
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8983
+        }
+      ],
+      "thoughtsTokenCount": 7015,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11012,
+      "candidatesTokenCount": 10298,
+      "totalTokenCount": 21310,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11012
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10298
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.register_or_phonation",
+        "severity": "medium",
+        "problem": "Bản nháp mới chỉ nhắc tới hệ 4 thanh điệu/âm vực của tiếng Tày Poọng (Ferlus 1998; Nguyễn Tương Lai 1992) và hệ 6 thanh của tiếng Ly Hà (Nguyễn Văn Lợi, dẫn trong Peiros 2004; Sidwell & Alves 2021), nhưng chưa cập nhật thông tin từ bài báo của Nguyễn Hữu Hoành (2024, Tạp chí Ngôn ngữ số 6/2024, tr. 26) rằng tiếng Đan Lai có hệ thống gồm 5 thanh điệu (tương tự số lượng thanh ở tiếng Mường, tiếng Cuối và tiếng Thổ Như Xuân).",
+        "fix": "Bổ sung thông tin hệ 5 thanh điệu của tiếng Đan Lai theo Nguyễn Hữu Hoành (2024) vào trường register_or_phonation, ml_hints.sub_varieties[1].note và validation.open_issues."
+      },
+      {
+        "path": "sources[10].title",
+        "severity": "low",
+        "problem": "Kỷ yếu Hội thảo Ngữ học trẻ 2008 có bài 'Hệ thống ngữ âm tiếng Đan Lai (Những nhận xét ban đầu)' của Nguyễn Hữu Hoành được xuất bản chính thức vào năm 2009 (Hội Ngôn ngữ học Việt Nam – Trường Đại học Vinh, 2009), dẫn đến sự thiếu nhất quán khi một số chỗ trong bảng mã ghi 2008 và chỗ khác ghi 2009.",
+        "fix": "Chuẩn hóa năm xuất bản thành '2009 [2008]' trong danh mục tài liệu tham khảo và các ghi chú liên quan."
+      },
+      {
+        "path": "sources[11].title",
+        "severity": "low",
+        "problem": "Bài báo 'Hệ thống ngữ âm tiếng Thổ' của Nguyễn Hữu Hoành trên Tạp chí Ngôn ngữ thiếu năm và số xuất bản cụ thể (trong status_note và phonology lại ghi nhầm thành 2022, trùng với năm xuất bản sách chuyên khảo về tên gọi ngôn ngữ).",
+        "fix": "Cập nhật thông tin xuất bản chính xác: 'Nguyễn Hữu Hoành (2024). Hệ thống ngữ âm tiếng Thổ. Tạp chí Ngôn ngữ, số 6 năm 2024, tr. 18–26' và đồng bộ hóa năm trích dẫn trong bảng mã."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Các mục từ vựng số thứ tự 1–8 trong lexicon (phrì, khrống, khráp, khrù, tập, rê, prút, khlụ) có cột form là cách phiên tự Quốc ngữ quy ước giả định của người biên soạn chứ không phải chữ viết chính thức của cộng đồng, và các ký hiệu thanh 1, 2, 3, 7, 8 trong cột IPA trích từ bảng đối chiếu lịch đại của Ferlus (2009) chứ chưa có ngữ liệu đo âm học đồng đại trực tiếp.",
+        "fix": "Hạ độ tin cậy (confidence) của các mục từ vựng số 1–8 từ 'medium' xuống 'low' để đảm bảo tính thận trọng khoa học đối với dạng thức phiên tự Quốc ngữ giả định."
+      }
+    ]
+  },
+  "schema_errors": []
+}

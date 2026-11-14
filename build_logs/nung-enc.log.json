@@ -1,0 +1,74 @@
+{
+  "target": {
+    "id": "nung-enc",
+    "kind": "minority_language",
+    "name_vi": "Tiếng En (Nùng Vẻn)",
+    "ethnic_group_vi": "Nùng",
+    "iso639_3_expected": "enc",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Nùng tại Việt Nam (mã ISO dự kiến: enc; bảng mã dân tộc gốc: nung). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"nung\"."
+  },
+  "started": "2026-11-13T23:42:48.566241",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9440,
+      "candidatesTokenCount": 10177,
+      "totalTokenCount": 26289,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9440
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10177
+        }
+      ],
+      "thoughtsTokenCount": 6672,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 11711,
+      "candidatesTokenCount": 10488,
+      "totalTokenCount": 22943,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11711
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10488
+        }
+      ],
+      "thoughtsTokenCount": 744,
+      "serviceTier": "standard"
+    },
+    "decision": "APPROVE",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[20].ipa",
+        "severity": "low",
+        "problem": "Trường `ipa` đang gộp 5 âm vị cổ/biến thể (\"θ, ɕ, tʂ, r, hr\") thành một chuỗi phân cách bằng dấu phẩy thay vì tách thành từng phần tử `grapheme_ipa` đơn lẻ, gây khó khăn cho các công cụ tự động đọc bảng âm vị.",
+        "fix": "Tách thành 5 phần tử riêng biệt (`θ`, `ɕ`, `tʂ`, `r`, `hr`) với `confidence: \"medium\"` và ghi chú rõ nguồn Edmondson et al. (1999) so với khảo sát của Phan Lương Hùng (2022)."
+      },
+      {
+        "path": "sources[7].title",
+        "severity": "low",
+        "problem": "Thiếu số trang của bài báo Nguyễn Thu Huyền (2024) trên Tạp chí Ngôn ngữ Số 7/2024.",
+        "fix": "Bổ sung số trang `tr. 54–60` theo Mục lục Tạp chí Ngôn ngữ năm 2024."
+      }
+    ]
+  },
+  "schema_errors": []
+}

@@ -1,0 +1,86 @@
+{
+  "target": {
+    "id": "chut-aem",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Arem",
+    "ethnic_group_vi": "Chứt",
+    "iso639_3_expected": "aem",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Chứt tại Việt Nam (mã ISO dự kiến: aem; bảng mã dân tộc gốc: chut). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"chut\"."
+  },
+  "started": "2026-11-13T23:15:25.604952",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9441,
+      "candidatesTokenCount": 8146,
+      "totalTokenCount": 20259,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9441
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8146
+        }
+      ],
+      "thoughtsTokenCount": 2672,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10614,
+      "candidatesTokenCount": 10055,
+      "totalTokenCount": 22422,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10614
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10055
+        }
+      ],
+      "thoughtsTokenCount": 1753,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "scripts[0].note",
+        "severity": "medium",
+        "problem": "Ghi sai năm công bố công trình nghiên cứu ngữ âm tiếng Arem của Đoàn Văn Phúc là 1966. Thực tế bài viết 'Hệ thống ngữ âm tiếng Arem' (trong kỷ yếu 'Những vấn đề ngôn ngữ học về các ngôn ngữ Phương Đông', Viện Ngôn ngữ học, tr. 47–53) được xuất bản năm 1986.",
+        "fix": "Sửa 'Đoàn Văn Phúc 1966' thành 'Đoàn Văn Phúc 1986' và bổ sung tài liệu này vào danh mục sources."
+      },
+      {
+        "path": "lexicon[7]",
+        "severity": "medium",
+        "problem": "Mục từ 'gió' đang ghi form/ipa là 'kaja' theo cách trích dẫn giản lược lược bỏ dấu trên báo chí phổ thông. Trong kho ngữ liệu Pangloss (CNRS) của Michel Ferlus (#W51/#W52) và giáo trình Lịch sử tiếng Việt của Trần Trí Dõi, dạng chuẩn có nguyên âm dài và thanh hầu hóa cuối âm tiết: [kajɑːˀ].",
+        "fix": "Cập nhật form thành 'kajɑːˀ' và ipa thành 'kajɑːˀ' (nâng confidence lên 'high')."
+      },
+      {
+        "path": "lexicon[8]",
+        "severity": "medium",
+        "problem": "Mục từ 'đất' ghi form 'atăk' (theo lối ký hiệu nguyên âm ngắn /a/ bằng chữ ă của Trần Trí Dõi) nhưng lại chuyển sang IPA là 'atʌk' (nhầm chữ ă học thuật của hệ Việt Nam sang nguyên âm /ʌ/). Trong kho ngữ liệu Pangloss của Michel Ferlus (#W91), từ 'đất' được phiên âm IPA là [atak].",
+        "fix": "Sửa form thành 'atak' (hoặc ghi chú biến thể ký tự 'atăk') và sửa ipa thành 'atak' (nâng confidence lên 'high')."
+      },
+      {
+        "path": "music.genres[0].confidence",
+        "severity": "low",
+        "problem": "Mục hát dân ca truyền thống người Arem mới chỉ có mô tả dân tộc chí/báo chí tổng quát, chưa có tư liệu ký âm hay phân tích dân tộc nhạc học chuyên sâu.",
+        "fix": "Hạ confidence từ 'medium' xuống 'low' để phản ánh đúng mức độ tư liệu hiện có."
+      }
+    ]
+  },
+  "schema_errors": []
+}

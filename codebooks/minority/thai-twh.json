@@ -1,0 +1,859 @@
+{
+  "id": "thai-twh",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Thái Trắng (Tày Đón)",
+  "name_en": "Tai Dón (White Tai)",
+  "autonym": "ꪼꪕ ꪒ꪿ꪮꪙ / ꪼꪕ ꪒꪮꪙꫀ (Tãy Đón) / ꪼꪕ ꪄꪱꪫ (Tãy Khao)",
+  "ethnic_group_vi": "Thái",
+  "language": {
+    "iso639_3": "twh",
+    "glottocode": "taid1250",
+    "family": "Kra-Dai",
+    "branch": "Kam-Tai > Tai > Southwestern Tai"
+  },
+  "regions": [
+    "Lai Châu (Phong Thổ, Mường So, Sìn Hồ, Tam Đường)",
+    "Điện Biên (thị xã Mường Lay, Mường Chà, Tủa Chùa, Điện Biên)",
+    "Sơn La (Quỳnh Nhai, Phù Yên, Bắc Yên, Ngọc Chiến - Mường La)",
+    "Lào Cai",
+    "Phú Thọ / Hòa Bình cũ (Đà Bắc)",
+    "Lâm Đồng (cộng đồng di cư)"
+  ],
+  "speakers_estimate": "Khoảng 280.000–350.000 người nói tại Việt Nam (tổng dân số các nhóm dân tộc Thái tại Việt Nam hơn 1,8 triệu người; tổng số người nói tiếng Thái Trắng ở Việt Nam, Lào và Trung Quốc khoảng 490.000–500.000).",
+  "scripts": [
+    {
+      "name": "Chữ Thái Việt Nam thống nhất (Tai Viet)",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet (U+AA80..U+AADF)",
+      "official_in_vietnam": true,
+      "note": "Hệ chữ abugida nguồn gốc Brahmi/Sukhothai-Fakkham, được chuẩn hóa tại hội thảo có UNESCO hỗ trợ năm 2006 và mã hóa vào Unicode 5.2 (2009); được giảng dạy chính thức tại Sơn La, Điện Biên, Lai Châu. Bộ mã Tai Viet bổ sung thêm 3 cặp phụ âm bật hơi (ꪂ/ꪃ, ꪌ/ꪍ, ꪞ/ꪟ) riêng cho tiếng Thái Trắng so với chữ Thái Đen."
+    },
+    {
+      "name": "Chữ Thái cổ Lai Châu / Mường Lay (Classical Tai Dón)",
+      "iso15924": "Tavt",
+      "unicode_block": "Tai Viet (U+AA80..U+AADF) — một phần",
+      "official_in_vietnam": false,
+      "note": "Tự dạng truyền thống tại Mường So (Phong Thổ, Lai Châu) và Mường Lay (Điện Biên). Có một số quy ước ánh xạ con chữ khác với chuẩn Sơn La (ví dụ ꪝ biểu thị /m/ lớp thanh cao thay vì /p/) và cần thêm ký tự mở rộng cho văn bản cổ (xem Unicode L2/08-217)."
+    },
+    {
+      "name": "Chữ Thái Latinh (cải tiến dựa trên chữ Quốc ngữ / từ điển Điêu Chính Nhìm & Donaldson)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Từng có phương án chữ Thái cải tiến hệ Latinh phê chuẩn theo Nghị định 206/CP (27/11/1961) ở miền Bắc và hệ phiên âm Latinh dựa trên Quốc ngữ của Điêu Chính Nhìm & Jean Donaldson (1970) ở miền Nam (dùng khh cho /x/, chh cho /tɕʰ/...), ngoài ra còn cách phiên âm Quốc ngữ tự phát trong ghi chép dân ca; hiện nay chính quyền địa phương ưu tiên bảo tồn chữ Thái hệ Phạn (Tai Viet) hơn chữ Latinh."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bảng mã nháp do LLM tổng hợp từ tài liệu ngôn ngữ học về tiếng Thái Trắng (Donaldson 1963; Điêu Chính Nhìm & Donaldson 1970; Gedney 1964/1989; Hudak 2008; Brase 2007, 2008) và Wikipedia/Unicode. Chỉ mô tả tiếng Thái Trắng (twh) tại Tây Bắc Việt Nam (trọng tâm vùng Mường Lay / Phong Thổ - Lai Châu). Cần người bản ngữ Thái Trắng và nhà ngôn ngữ học chuyên ngành Thái học thẩm định lại ánh xạ chữ viết từng vùng (Lai Châu so với Quỳnh Nhai, Phù Yên).",
+  "phonology": {
+    "syllable_structure": "C1(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "b (ꪚ / ꪛ)",
+        "ipa": "b",
+        "note": "Âm tắc hai môi hữu thanh (thường tiền thanh hầu hóa nhẹ [ɓ]); chỉ xuất hiện tự nhiên ở lớp phụ âm tổ thấp (ꪚ) trong từ thuần Thái",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / đ (ꪒ / ꪓ)",
+        "ipa": "d",
+        "note": "Âm tắc lợi hữu thanh ([ɗ]); viết là <d> theo hệ Donaldson/IPA hoặc <đ> khi phiên theo Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p (ꪜ / ꪝ)",
+        "ipa": "p",
+        "note": "Âm tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t (ꪔ / ꪕ)",
+        "ipa": "t",
+        "note": "Âm tắc lợi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / ch (ꪊ / ꪋ)",
+        "ipa": "t͡ɕ",
+        "note": "Âm tắc xát lợi-ngạc vô thanh không bật hơi; Hudak/Fippinger ghi <c>, phiên âm kiểu Quốc ngữ viết <ch>",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c (ꪀ / ꪁ)",
+        "ipa": "k",
+        "note": "Âm tắc ngạc mềm vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ʔ / - (ꪮ / ꪯ)",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đứng trước nguyên âm đầu âm tiết; không ghi bằng chữ cái riêng trong hệ Latinh dựa trên Quốc ngữ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph (ꪞ / ꪟ)",
+        "ipa": "pʰ",
+        "note": "Âm tắc hai môi vô thanh bật hơi — đặc trưng quan trọng phân biệt Thái Trắng (giữ /pʰ/) với Thái Đen (nhập vào /f/); lưu ý chữ Quốc ngữ đọc <ph> là [f]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th (ꪖ / ꪗ)",
+        "ipa": "tʰ",
+        "note": "Âm tắc lợi vô thanh bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chh / s (ꪌ / ꪍ)",
+        "ipa": "t͡ɕʰ",
+        "note": "Âm tắc xát lợi-ngạc vô thanh bật hơi (có trong Thái Trắng, vắng mặt trong Thái Đen); hệ Điêu & Donaldson viết <chh>",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh (ꪂ / ꪃ)",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm vô thanh bật hơi; đối lập âm vị học rõ rệt với âm xát /x/ (ꪄ/ꪅ) trong tiếng Thái Trắng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m (ꪢ / ꪣ)",
+        "ipa": "m",
+        "note": "Âm mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n (ꪘ / ꪙ)",
+        "ipa": "n",
+        "note": "Âm mũi lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh / ny (ꪐ / ꪑ)",
+        "ipa": "ɲ",
+        "note": "Âm mũi ngạc cứng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh (ꪈ / ꪉ)",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v (ꪪ / ꪫ)",
+        "ipa": "v",
+        "note": "Âm xát môi-răng hữu thanh (mức xát nhẹ, phân bố bổ túc với bán nguyên âm cuối [-w])",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f / ph (ꪠ / ꪡ)",
+        "ipa": "f",
+        "note": "Âm xát môi-răng vô thanh; hệ Latinh viết <f> để phân biệt với <ph> /pʰ/",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x (ꪎ / ꪏ)",
+        "ipa": "s",
+        "note": "Âm xát lợi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khh / kh (ꪄ / ꪅ)",
+        "ipa": "x",
+        "note": "Âm xát ngạc mềm vô thanh; hệ Điêu & Donaldson viết <khh> để phân biệt với <kh> /kʰ/, người viết thông thường theo Quốc ngữ hay viết <kh>",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h (ꪬ / ꪭ)",
+        "ipa": "h",
+        "note": "Âm xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l (ꪨ / ꪩ)",
+        "ipa": "l",
+        "note": "Âm bên lợi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / d (ꪤ / ꪥ)",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng; ở Việt Nam thường biến thể thành [z] ở đầu âm tiết do ảnh hưởng tiếp xúc với tiếng Việt Bắc Bộ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kw / qu (ꪀꪫ / ꪁꪫ)",
+        "ipa": "kw",
+        "note": "Tổ hợp phụ âm ngạc mềm môi hóa vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khw (ꪂꪫ / ꪃꪫ)",
+        "ipa": "kʰw",
+        "note": "Tổ hợp phụ âm tắc ngạc mềm bật hơi môi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "khhw (ꪄꪫ / ꪅꪫ)",
+        "ipa": "xw",
+        "note": "Tổ hợp phụ âm xát ngạc mềm môi hóa",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ngw (ꪈꪫ / ꪉꪫ)",
+        "ipa": "ŋw",
+        "note": "Tổ hợp phụ âm mũi ngạc mềm môi hóa",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i (◌ꪲ)",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp; tự động kéo dài [iː] khi ở âm tiết mở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê (◌ꪸ)",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp; tương ứng lịch sử với nguyên âm đôi /iə/ của tiếng Thái Đen nên dùng chung ký tự ◌ꪸ trong chữ Tai Viet",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e (ꪵ◌)",
+        "ipa": "ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng; kéo dài [ɛː] ở âm tiết mở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (◌ꪳ)",
+        "ipa": "ɯ",
+        "note": "Nguyên âm hàng sau (hoặc giữa [ɨ]) không tròn môi độ mở hẹp",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ (ꪹ◌ / ◌ꪷ)",
+        "ipa": "ɤ",
+        "note": "Nguyên âm hàng sau không tròn môi hơi hẹp (thường phiên là [ə]); tương ứng với nguyên âm đôi /ɯə/ của tiếng Thái Đen",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă (◌ꪰ)",
+        "ipa": "a",
+        "note": "Nguyên âm rộng ngắn; chỉ xuất hiện trong âm tiết đóng (trước phụ âm cuối hoặc bán nguyên âm cuối; vần /-am/ viết ◌ꪾ, /-an/ viết ◌ꪽ, /-aj/ viết ꪼ◌, /-aɰ/ viết ꪻ◌)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a (◌ꪱ)",
+        "ipa": "aː",
+        "note": "Nguyên âm rộng dài; đối lập độ dài âm vị học duy nhất với /a/ trong các âm tiết đóng",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u (◌ꪴ)",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi độ mở hẹp; kéo dài [uː] ở âm tiết mở",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô (◌ꪺ / ꪶ◌)",
+        "ipa": "o",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp; tương ứng lịch sử với nguyên âm đôi /uə/ của tiếng Thái Đen (ký tự ◌ꪺ khi có âm cuối hoặc âm tiết mở tùy quy ước vùng, ꪶ◌ ở âm tiết mở)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o (◌ꪷ / ◌ꪮ)",
+        "ipa": "ɔ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng; trong chữ Tai Viet viết ◌ꪷ ở âm tiết mở và ◌ꪮ khi có phụ âm cuối",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "-p (-ꪚ)",
+        "ipa": "p̚",
+        "note": "Âm tắc hai môi không bật ra cuối âm tiết (âm tiết khép/checked)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-t (-ꪒ)",
+        "ipa": "t̚",
+        "note": "Âm tắc lợi không bật ra cuối âm tiết (âm tiết khép/checked)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-k / -c (-ꪀ)",
+        "ipa": "k̚",
+        "note": "Âm tắc ngạc mềm không bật ra cuối âm tiết (âm tiết khép/checked)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ʔ (-ꪀ)",
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu cuối một số âm tiết khép nguyên âm ngắn trong phân tích của Hudak/Gedney",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "-m (-ꪣ / ◌ꪾ)",
+        "ipa": "m",
+        "note": "Âm mũi hai môi cuối âm tiết; vần /-am/ dùng dấu ◌ꪾ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-n (-ꪙ / ◌ꪽ)",
+        "ipa": "n",
+        "note": "Âm mũi lợi cuối âm tiết; vần /-an/ dùng ký tự ◌ꪽ",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ng (-ꪉ)",
+        "ipa": "ŋ",
+        "note": "Âm mũi ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-u / -o / -w (-ꪫ)",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-ngạc mềm cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-y / -i (-ꪥ / ꪼ◌)",
+        "ipa": "j",
+        "note": "Bán nguyên âm ngạc cứng cuối âm tiết; vần /-aj/ viết bằng ꪼ◌",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "-ư / -ưi (ꪻ◌)",
+        "ipa": "ɰ",
+        "note": "Bán nguyên âm ngạc mềm không tròn môi cuối âm tiết, chỉ xuất hiện sau nguyên âm ngắn /a/ tạo vần /aɰ/ (ví dụ /baɰ˨˨/ 'lá'); không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1 (tổ thấp, không dấu)",
+        "mark": "",
+        "chao_contour": "22",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2 (tổ thấp, mai nưng; cũng xuất hiện ở âm tiết khép tổ thấp)",
+        "mark": "ꫀ / ◌꪿ (Latinh Donaldson: ´)",
+        "chao_contour": "45",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3 (tổ thấp, mai song)",
+        "mark": "ꫂ / ◌꫁ (Latinh Donaldson: ˇ / ˀ)",
+        "chao_contour": "24",
+        "phonation": "glottalized (thanh hầu hóa cuối: 24ʔ)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4 (tổ cao, không dấu; cũng xuất hiện ở âm tiết khép tổ cao)",
+        "mark": "Latinh Donaldson: ˜",
+        "chao_contour": "44",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5 (tổ cao, mai nưng)",
+        "mark": "ꫀ / ◌꪿ (Latinh Donaldson: ˙)",
+        "chao_contour": "454",
+        "phonation": "modal (lên cao rồi hạ nhẹ cuối âm tiết)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6 (tổ cao, mai song)",
+        "mark": "ꫂ / ◌꫁",
+        "chao_contour": "31",
+        "phonation": "glottalized (hạ thấp, thanh hầu hóa cuối: 31ʔ)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ 6 thanh điệu trên âm tiết trơn (mở hoặc kết thúc bằng âm vang) và 2 thanh điệu (tương ứng thanh 2 [45] và thanh 4 [44]) trên âm tiết khép (kết thúc bằng /-p, -t, -k, -ʔ/). Chữ viết Tai Viet chia phụ âm đầu thành hai tổ (tổ thấp ứng với thanh 1–3, tổ cao ứng với thanh 4–6) kết hợp 2 dấu thanh. Thanh 3 [24ʔ] và thanh 6 [31ʔ] có đặc trưng thanh hầu hóa (tắc thanh hầu ở cuối)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "trắng",
+      "form": "ꪒ꪿ꪮꪙ / ꪒꪮꪙꫀ (đón)",
+      "ipa": "dɔn˦˥",
+      "gloss_en": "white",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trắng (từ đồng nghĩa)",
+      "form": "ꪄꪱꪫ (khao)",
+      "ipa": "xaːw˨˨",
+      "gloss_en": "white",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trăng / tháng",
+      "form": "ꪚꪷꪙ (bơn)",
+      "ipa": "bɤn˨˨",
+      "gloss_en": "moon / month",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bố / cha",
+      "form": "ꪝ꪿ꪮ (pọ)",
+      "ipa": "pɔ˦˥˦",
+      "gloss_en": "father",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cửa",
+      "form": "ꪔꪴ (tu)",
+      "ipa": "tu˨˨",
+      "gloss_en": "door",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lá cây",
+      "form": "ꪻꪚ (băư)",
+      "ipa": "baɰ˨˨",
+      "gloss_en": "leaf",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "vải / tấm vải",
+      "form": "ꪞꪱꫂ (phả)",
+      "ipa": "pʰaː˨˦ʔ",
+      "gloss_en": "cloth",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trứng",
+      "form": "ꪼꪌꫀ (chháy)",
+      "ipa": "t͡ɕʰaj˦˥",
+      "gloss_en": "egg",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ngọt",
+      "form": "ꪪꪱꪙ (van)",
+      "ipa": "vaːn˨˨",
+      "gloss_en": "sweet",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hai (số 2)",
+      "form": "ꪎꪮꪉ (song)",
+      "ipa": "sɔŋ˨˨",
+      "gloss_en": "two",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "khói",
+      "form": "ꪅꪫꪽ (khhwăn)",
+      "ipa": "xwan˦˦",
+      "gloss_en": "smoke",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quạ (con quạ)",
+      "form": "ꪀꪱ (ka)",
+      "ipa": "kaː˨˨",
+      "gloss_en": "crow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mạ (cây lúa non)",
+      "form": "ꪀꪱꫂ (kả)",
+      "ipa": "kaː˨˦ʔ",
+      "gloss_en": "young rice plant",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "buôn bán",
+      "form": "ꪁꪱꫂ (kạ)",
+      "ipa": "kaː˧˩ʔ",
+      "gloss_en": "to trade",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "tắm",
+      "form": "ꪮꪱꪚ (áp)",
+      "ipa": "ʔaːp˦˥",
+      "gloss_en": "to bathe",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Khắp Thái Trắng (Khắp Tày Đón)",
+        "note": "Thể loại hát dân ca trữ tình, tự sự và giao duyên phổ biến nhất của người Thái (khắp báo sao - hát trai gái, khắp xống chụ - hát tiễn dặn, khắp chúc tụng). Lối khắp Thái Trắng (như tại Mường So, Mường Lay, Quỳnh Nhai, Phù Yên) thường có âm vực cao, nhả chữ rõ, tiết tấu linh hoạt theo đệm đàn tính tẩu hoặc pí."
+      },
+      {
+        "name": "Nghệ thuật Xòe Thái",
+        "note": "UNESCO ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại (2021, hồ sơ 01575); kết hợp múa vòng tròn cộng đồng, nhạc khí và lời khắp tại Lai Châu, Điện Biên, Sơn La, Yên Bái."
+      },
+      {
+        "name": "Thực hành Then của người Thái Trắng",
+        "note": "UNESCO ghi danh Di sản văn hóa phi vật thể đại diện của nhân loại (2019, hồ sơ 01379 - Thực hành Then của người Tày, Nùng, Thái ở Việt Nam); nghi lễ tâm linh hát kể hành trình lên Mường Trời kèm đàn tính tẩu (tiêu biểu ở Mường So - Phong Thổ, Mường Lay, Ngọc Chiến)."
+      },
+      {
+        "name": "Hạn Khuống",
+        "note": "Sinh hoạt văn hóa diễn xướng hát đối đáp giao duyên ban đêm trên sàn ngoài trời của thanh niên Thái."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến ngân hư từ mở đầu và kết câu khắp",
+        "description": "Các hư từ cảm thán và đưa hơi đầu/cuối câu thơ (như 'hà ơi', 'nơ', 'ơ') được ngân dài, rung giọng nhẹ và luyến mềm mại trước khi vào phần lời chính bám sát thanh điệu tiếng Thái Trắng.",
+        "abc": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Ngắt âm nhả chữ theo nhịp đàn tính / pí",
+        "description": "Trong lối khắp Thái Trắng vùng Phù Yên và dọc sông Đà, người hát dùng kỹ thuật ngắt hơi rõ, đẩy cao giọng ở các từ mang thanh cao [45], [44], [454] rồi lướt xuống ở thanh thấp [22], [31ʔ].",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung khuyết bán âm (Pentatonic)",
+        "note": "Giai điệu khắp Thái vận hành trên các điệu thức ngũ cung mềm mại, uyển chuyển, gắn chặt với đường nét cao độ 6 thanh điệu của lời ca (tránh hát sai thanh làm đổi nghĩa từ).",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn tính tẩu (tính tẩu)",
+        "note": "Đàn bầu hồ lô 2 hoặc 3 dây tơ/nilon, nhạc cụ linh hồn đệm cho hát khắp, hát Then và múa xòe của người Thái Trắng."
+      },
+      {
+        "name": "Pí (pí pặp, pí đôi, pí tam lay, pí lào nọi)",
+        "note": "Họ nhạc cụ hơi bằng trúc/nứa có lưỡi gà, thường đệm theo giai điệu giọng hát khắp."
+      },
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ hơi đa thanh bằng trúc dùng trong lễ hội, giao duyên và múa xòe."
+      },
+      {
+        "name": "Nhị (xí xọ)",
+        "note": "Đàn kéo 2 dây thường dùng đệm hát khắp giao duyên."
+      },
+      {
+        "name": "Trống (cống), chiêng (cheng), chập chọe",
+        "note": "Bộ gõ giữ nhịp không thể thiếu trong vòng xòe cộng đồng và lễ hội bản mường."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "thai",
+    "sub_varieties": [
+      {
+        "id": "thai-blt",
+        "name_vi": "Tiếng Thái Đen (Tày Đăm)",
+        "iso639_3": "blt",
+        "glottocode": "taid1247",
+        "note": "Nhóm lớn khác của dân tộc Thái ở Sơn La, Điện Biên, Yên Bái (Mường Lò); không có các âm tắc bật hơi /pʰ, t͡ɕʰ, kʰ/ như Thái Trắng và giữ nguyên âm đôi /iə, ɯə, uə/."
+      },
+      {
+        "id": "thai-tyr",
+        "name_vi": "Tiếng Thái Đỏ (Tày Đèng)",
+        "iso639_3": "tyr",
+        "glottocode": "taid1249",
+        "note": "Phân bố chủ yếu ở Thanh Hóa, Hòa Bình, Mộc Châu (Sơn La) và Nghệ An."
+      },
+      {
+        "id": "thai-tyj",
+        "name_vi": "Tiếng Thái Dọ (Tày Mường)",
+        "iso639_3": "tyj",
+        "glottocode": "taid1248",
+        "note": "Phân bố ở miền Tây Nghệ An và Thanh Hóa, có chữ Lai Tay truyền thống riêng (gần gũi với nhóm Thái Hàng Tổng mã ISO thc / taih1245)."
+      },
+      {
+        "id": "thai-tmm",
+        "name_vi": "Tiếng Tày Thanh (Man Thanh)",
+        "iso639_3": "tmm",
+        "glottocode": "tait1248",
+        "note": "Phân bố ở Nghệ An, Thanh Hóa; gần gũi về mặt phân loại với nhánh White Tai."
+      },
+      {
+        "id": "thai-tyt",
+        "name_vi": "Tiếng Tày Tắc",
+        "iso639_3": "tyt",
+        "glottocode": "tayt1241",
+        "note": "Nhóm nhỏ ở Mường Tắc (Phù Yên, Sơn La), có quan hệ rất gần với tiếng Thái Trắng."
+      }
+    ],
+    "phonemes_absent_in_vietnamese": [
+      "Âm tắc hai môi vô thanh bật hơi /pʰ/: chữ Quốc ngữ viết <ph> đọc là âm xát [f], hoàn toàn khác với [pʰ] của Thái Trắng (tiếng Thái Trắng phân biệt rõ /p/ - /pʰ/ - /f/).",
+      "Âm tắc xát lợi-ngạc vô thanh bật hơi /t͡ɕʰ/ (viết là <chh>): tiếng Việt chuẩn chỉ có âm không bật hơi <ch> [t͡ɕ].",
+      "Đối lập âm vị học giữa âm tắc ngạc mềm bật hơi /kʰ/ (<kh>) và âm xát ngạc mềm /x/ (<khh>): tiếng Việt chuẩn chỉ có âm xát [x] viết là <kh>.",
+      "Các tổ hợp phụ âm ngạc mềm môi hóa /kʰw/, /ŋw/ và đối lập /kw/ - /xw/: cần cẩn trọng vì tiếng Việt miền Nam đọc <qu> thành [w].",
+      "Bán nguyên âm cuối ngạc mềm không tròn môi /-ɰ/ trong vần /aɰ/ (ví dụ /baɰ˨˨/ 'lá'): không tồn tại trong tiếng Việt chuẩn.",
+      "Đối lập độ dài nguyên âm /a/ (ngắn) và /aː/ (dài) đi kèm hệ thống 6 thanh điệu có đường nét khác tiếng Việt (đặc biệt thanh [454] lên-xuống ở tầm cao và thanh [24ʔ] đi lên có tắc thanh hầu cuối)."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ꪼꪕ ꪒ꪿ꪮꪙ / ꪼꪕ ꪒꪮꪙꫀ (Tãy Đón)",
+        "quoc_ngu": "tay đón",
+        "note": "/taj˦˦ dɔn˦˥/ — 'Thái Trắng'; thanh 4 [44] cao hơn thanh ngang tiếng Việt [33] một chút, thanh 2 [45] gần thanh sắc [35]."
+      },
+      {
+        "native": "ꪼꪕ ꪄꪱꪫ (Tãy Khao)",
+        "quoc_ngu": "tay khao",
+        "note": "/taj˦˦ xaːw˨˨/ — <kh> Quốc ngữ ghi đúng âm xát [x]; thanh 1 [22] thấp phẳng (ở giữa thanh ngang và thanh huyền tiếng Việt)."
+      },
+      {
+        "native": "ꪞꪱꫂ (phả - vải)",
+        "quoc_ngu": "p-há / p-hả",
+        "note": "/pʰaː˨˦ʔ/ — KHÔNG viết 'phả' vì TTS tiếng Việt sẽ đọc thành [faː˨˩˦] (trùng với âm /f/ của Thái Trắng); cần tách hoặc huấn luyện token riêng cho âm bật hơi [pʰ] và dấu thanh hầu cuối."
+      },
+      {
+        "native": "ꪠꪱ (fa - nắp/vung)",
+        "quoc_ngu": "pha",
+        "note": "/faː˨˨/ — dùng <ph> của Quốc ngữ để biểu đạt âm xát [f] của tiếng Thái Trắng cho TTS tiếng Việt."
+      },
+      {
+        "native": "ꪂꪺꫂ (khổ - nấu ăn)",
+        "quoc_ngu": "c-hố / khố",
+        "note": "/kʰo˨˦ʔ/ — âm đầu là tắc bật hơi [kʰ] (như tiếng Anh 'k'), không phải xát [x] của <kh> tiếng Việt Bắc Bộ."
+      },
+      {
+        "native": "ꪼꪌꫀ (chháy - trứng)",
+        "quoc_ngu": "tráy / ch-háy",
+        "note": "/t͡ɕʰaj˦˥/ — âm đầu [t͡ɕʰ] bật hơi mạnh, không có cách ghi chính xác bằng chữ Quốc ngữ chuẩn."
+      },
+      {
+        "native": "ꪻꪚ (băư - lá)",
+        "quoc_ngu": "bâu / bư",
+        "note": "/baɰ˨˨/ — vần /-aɰ/ kết thúc bằng bán nguyên âm không tròn môi [ɰ]; xấp xỉ tạm bằng 'bâu' (nhưng tránh tròn môi ở cuối âm tiết)."
+      },
+      {
+        "native": "ꪚꪷꪙ (bơn - trăng)",
+        "quoc_ngu": "bơn",
+        "note": "/bɤn˨˨/ — nguyên âm đơn /ɤ/ (khác Thái Đen đọc 'bươn' /bɯən/); TTS tiếng Việt đọc 'bơn' khá sát chất nguyên âm."
+      },
+      {
+        "native": "ꪝ꪿ꪮ (pọ - bố)",
+        "quoc_ngu": "pó / po",
+        "note": "/pɔ˦˥˦/ — phụ âm đầu /p/ không bật hơi; thanh 5 [454] cao vồng lên rồi hạ nhẹ, không trùng thanh nào trong tiếng Việt."
+      },
+      {
+        "native": "ꪁꪱꫂ (kạ - buôn bán)",
+        "quoc_ngu": "cạ",
+        "note": "/kaː˧˩ʔ/ — thanh 6 [31ʔ] hạ thấp và ngắt bằng tắc thanh hầu cuối, gần giống thanh nặng giọng Bắc Bộ."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ꪒ꪿ꪮꪙ / ꪒꪮꪙꫀ",
+        "ipa": "dɔn˦˥",
+        "gloss_vi": "trắng (trong Tày Đón)"
+      },
+      {
+        "native": "ꪄꪱꪫ",
+        "ipa": "xaːw˨˨",
+        "gloss_vi": "trắng (trong Tày Khao)"
+      },
+      {
+        "native": "ꪚꪷꪙ",
+        "ipa": "bɤn˨˨",
+        "gloss_vi": "mặt trăng, tháng"
+      },
+      {
+        "native": "ꪝ꪿ꪮ",
+        "ipa": "pɔ˦˥˦",
+        "gloss_vi": "bố, cha"
+      },
+      {
+        "native": "ꪔꪴ",
+        "ipa": "tu˨˨",
+        "gloss_vi": "cửa"
+      },
+      {
+        "native": "ꪻꪚ",
+        "ipa": "baɰ˨˨",
+        "gloss_vi": "lá cây"
+      },
+      {
+        "native": "ꪞꪱꫂ",
+        "ipa": "pʰaː˨˦ʔ",
+        "gloss_vi": "tấm vải"
+      },
+      {
+        "native": "ꪼꪌꫀ",
+        "ipa": "t͡ɕʰaj˦˥",
+        "gloss_vi": "trứng"
+      },
+      {
+        "native": "ꪣꪳꪉ",
+        "ipa": "mɯŋ˦˦",
+        "gloss_vi": "mày, bạn (ngôi thứ 2)"
+      },
+      {
+        "native": "ꪘꪱꫂ",
+        "ipa": "naː˨˦ʔ",
+        "gloss_vi": "mặt (khuôn mặt)"
+      },
+      {
+        "native": "ꪑꪴꪉ",
+        "ipa": "ɲuŋ˦˦",
+        "gloss_vi": "con muỗi"
+      },
+      {
+        "native": "ꪪꪱꪙ",
+        "ipa": "vaːn˨˨",
+        "gloss_vi": "ngọt"
+      },
+      {
+        "native": "ꪎꪮꪉ",
+        "ipa": "sɔŋ˨˨",
+        "gloss_vi": "hai (số 2)"
+      },
+      {
+        "native": "ꪅꪫꪽ",
+        "ipa": "xwan˦˦",
+        "gloss_vi": "khói"
+      },
+      {
+        "native": "ꪮꪱꪚ",
+        "ipa": "ʔaːp˦˥",
+        "gloss_vi": "tắm"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Tai Dón (taid1250)",
+      "url": "https://glottolog.org/resource/languoid/id/taid1250",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tai Dón language (Phonology & Writing system, citing Hudak 2008 & Fippinger 1970)",
+      "url": "https://en.wikipedia.org/wiki/Tai_D%C3%B3n_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tai Viet script",
+      "url": "https://en.wikipedia.org/wiki/Tai_Viet_script",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Brase, Jim (2008). Writing Tai Don: Additional characters needed for the Tai Viet script (Unicode Technical Committee Document L2/08-217).",
+      "url": "https://www.unicode.org/L2/L2008/08217-tai-don.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "ScriptSource — Tai Viet (Tavt) Writing System Technical Resources",
+      "url": "https://scriptsource.org/cms/scripts/page.php?item_id=script_detail&key=Tavt",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Donaldson, Jean (1963). White Tai Phonology. Hartford Studies in Linguistics 5, Hartford Seminary Foundation.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Điêu Chính Nhìm & Donaldson, Jean (1970). Păp san khhãm pák tãy–Keo–Eng (Ngữ-vựng Thái–Việt–Anh / Tai–Vietnamese–English Vocabulary). Bộ Giáo-dục Xuất-bản, Sài Gòn.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Gedney, William J. (1989 [1964]). A Comparative Sketch of White, Black and Red Tai. In Selected Papers on Comparative Tai Studies, University of Michigan.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Mukdawijitra, Yukti (2011). Language Ideologies of Ethnic Orthography in a Multilingual State: The Case of Ethnic Thái Orthographies in Vietnam. Journal of the Southeast Asian Linguistics Society (JSEALS) 4(2): 92–119.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Art of Xòe dance of the Tai people in Viet Nam (RL 01575, 2021)",
+      "url": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "UNESCO Intangible Cultural Heritage — Practices of Then by Tày, Nùng and Thái ethnic groups in Viet Nam (RL 01379, 2019)",
+      "url": "https://ich.unesco.org/en/RL/practices-of-then-by-tay-nung-and-thai-ethnic-groups-in-viet-nam-01379",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[1].glottocode",
+          "severity": "high",
+          "problem": "Mã Glottocode của tiếng Thái Đỏ (Tai Daeng, ISO 639-3: tyr) bị ghi nhầm thành 'taid1248' (bị tráo với tiếng Thái Dọ).",
+          "fix": "Sửa thành 'taid1249' theo dữ liệu chuẩn của Glottolog."
+        },
+        {
+          "path": "ml_hints.sub_varieties[2].glottocode",
+          "severity": "high",
+          "problem": "Mã Glottocode của tiếng Thái Dọ (Tai Do, ISO 639-3: tyj) bị ghi nhầm thành 'taid1249' (bị tráo với tiếng Thái Đỏ). Ngoài ra tên gọi 'Hàng Tổng' có mã ISO riêng là thc (taih1245).",
+          "fix": "Sửa glottocode của tyj thành 'taid1248' và làm rõ chú thích về thc (taih1245)."
+        },
+        {
+          "path": "ml_hints.sub_varieties[3].glottocode",
+          "severity": "high",
+          "problem": "Mã Glottocode của tiếng Tày Thanh (Tai Thanh, ISO 639-3: tmm) bị ghi sai thành 'tait1249'.",
+          "fix": "Sửa thành 'tait1248' theo Glottolog."
+        },
+        {
+          "path": "ml_hints.sample_words[10].native",
+          "severity": "medium",
+          "problem": "Từ 'con muỗi' có IPA /ɲuŋ˦˦/ (nguyên âm /u/), nhưng chữ Tai Viet lại viết là 'ꪶꪑꪉ' (dùng ký tự nguyên âm ꪶ◌ /o/, đọc thành /ɲoŋ˦˦/).",
+          "fix": "Sửa thành 'ꪑꪴꪉ' (dùng dấu nguyên âm ◌ꪴ U+AAB4 cho âm /u/)."
+        },
+        {
+          "path": "autonym",
+          "severity": "low",
+          "problem": "Cách viết 'ꪒꪮꪙꫀ' dùng dấu thanh rời ꫀ ở cuối âm tiết, trong khi chuẩn chính tả Tai Viet phổ biến (và trên Wikipedia tiếng Thái Trắng) cũng thường viết bằng dấu thanh kết hợp ◌꪿ đặt trên phụ âm đầu: 'ꪼꪕ ꪒ꪿ꪮꪙ'.",
+          "fix": "Ghi nhận cả hai biến thể chính tả Unicode Tai Viet ('ꪼꪕ ꪒ꪿ꪮꪙ / ꪼꪕ ꪒꪮꪙꫀ') trong autonym và lexicon[0]."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết sự khác biệt hệ thanh điệu và cách viết chữ Thái cổ giữa các vùng Thái Trắng tại Việt Nam: Phong Thổ (Lai Châu), Mường Lay (Điện Biên), Quỳnh Nhai và Phù Yên (Sơn La).",
+      "Cần xác nhận quy ước chuyển tự Latinh thống nhất hiện dùng trong các chương trình phát thanh - truyền hình tiếng Thái tại Lai Châu và Điện Biên (khi người biên tập viết kịch bản bằng chữ Quốc ngữ thay vì chữ Tai Viet).",
+      "Cần thu thập ký âm ABC thực nghiệm từ nghệ nhân khắp Thái Trắng và tính tẩu để chuẩn hóa mục music.ornaments và music.scales_or_modes."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

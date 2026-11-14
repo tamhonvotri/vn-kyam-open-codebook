@@ -1,0 +1,131 @@
+{
+  "target": {
+    "id": "thai-tyt",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Tày Tấc",
+    "ethnic_group_vi": "Thái",
+    "iso639_3_expected": "tyt",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Thái tại Việt Nam (mã ISO dự kiến: tyt; bảng mã dân tộc gốc: thai). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"thai\"."
+  },
+  "started": "2026-11-13T23:56:17.322355",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9438,
+      "candidatesTokenCount": 7362,
+      "totalTokenCount": 22991,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9438
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7362
+        }
+      ],
+      "thoughtsTokenCount": 6191,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFexh_wW7k7DE_3kxJwjXPukX8fgfJ0g_MmN3z3TQDSUHEcm6ZNKKa-WF7gZIRGNFh1BswbVbHS3NgKMRzYGEUTfT-mBdZNOv1R2taskhyn_mTOotzvGS2oaCaGF1_B_ITOh1MISKOpVas="
+      },
+      {
+        "title": "language-archives.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF36ZYnGb00rihLErB3Iat9EmFdG2_-Ht9f4Mk-jZAUtIIpY0J-Kf55fn4r9CGSUo29cjnGmZmpIJ0sEoo8nVjFSHVmTCx4hL3JsIKCp4BvWFwPAX3_3tcZKwp185eSyb7e8ls="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeybH1VTOwCKhfFz7KhAlaiQ8K954kScKYtSXfOoV834n7A1nR5sYHBdPwvgLFAI9m5JDdG5K-ProJWkIw5WsHdwgSTx3vkgG2v8t7EkDSADXHeAhCFHjL5pBlvN7fT3eOc9qNrnJiM-6jStQRGr8DKP37ZxA="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXhFokEFx64ds0lZC2OtTiSiyST-9pgffmmuW9m0qFKHdX3APWedQQFN4WAS2LUEWGRY-mwlMJhpp5UzugwXA_8byTT37f2GVBDRDIhpkZt4ZNAMgQA_hO0EpIH-VYRIKaUugVRaMNqg=="
+      },
+      {
+        "title": "sonla.gov.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9qtLNF9qbCRSG33X42wNzv_oTRzr2fUmye7JTxCnaP02ymfd0KPIZxovITK0MO7M7F4u2dAcYYr_flHlMNwm9SmePMzQiJD41imU7U80SIpcNZDjhjUqsuo6A_JtLZGM5iSZr2BuSB0-Wo76HoSynWldabE7nQ-Ei-OzDXhsQJiki6wmJXZHkSyCxSwYwzJBsBgu3pI0Sl8al-gXa_8mY9pOAutdBzzGcKNmO2eKr22k="
+      },
+      {
+        "title": "vov.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWfE4NW9v7u2BDlQyTrDBpT_tlVCAGgLDGEUiY8qeYKgwnKkzj8KAy6NgHNYp1tyaQ-z-z5rgDde_iZNAPNzO_dbTgZUoXBE-N1m0guo107DneSUhPyEu-Ii38btcsFoo2qbVhZNArHklmOplBNV_KCTwp8EE8Pc6bwWGVyluK9mVzsNkvXZ563SzszU-WMqbhqANPKT6T0AyIUt2Ktl71q7wCYwH9gnArFR0NyfI3e2oS"
+      },
+      {
+        "title": "vjol.info.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7YuoNWvnqKDbHQkCdyi8HuFaBGdtS_28UOvZtZ9clWqdGsmGdaL4DHsCCqgiFSYX0f6b0ua206xKHXO5uT4oZNUm4pB9_0QlU5WfkqFwfHDVHepBS9zSMIx8ciku_"
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvY3a7vOrOlL5ORq2LOk4hIXfb854EqDu_7BESTeJ1YNUMiPK9QeFEXTtNs4yJQOYFsOq7anp0peKMPkNOvEUlBbDbf_ljx58KvnqUUhmfnIkeaea8wpoAbXj3JePv1A=="
+      }
+    ],
+    "queries": [
+      "\"Giữ hồn điệu Khắp và tiếng Pí\" Phù Yên",
+      "\"Tết Xíp Xí\" Phù Yên di sản văn hóa phi vật thể quốc gia",
+      "\"taid1246\" OR \"taid1250\" glottolog",
+      "\"tayt1241\" \"tyt\"",
+      "\"Tục thờ vía lúa Khoăn khạu\" Hoàng Lương"
+    ],
+    "usage": {
+      "promptTokenCount": 9342,
+      "candidatesTokenCount": 8372,
+      "totalTokenCount": 18558,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9342
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8372
+        }
+      ],
+      "thoughtsTokenCount": 844,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "ml_hints.sub_varieties[1].glottocode",
+        "severity": "high",
+        "problem": "Mã Glottocode của tiếng Thái Trắng (Tai Dón, ISO 639-3: twh) bị ghi sai thành 'taid1246'.",
+        "fix": "Sửa thành 'taid1250' theo chuẩn Glottolog."
+      },
+      {
+        "path": "validation.open_issues[0]",
+        "severity": "medium",
+        "problem": "Đề cập bài viết 'The Tay Tac writing system' của Hoàng Lương nhưng không kiểm chứng được sự tồn tại của nhan đề tiếng Anh này trên các cơ sở dữ liệu học thuật.",
+        "fix": "Xóa tên bài viết không kiểm chứng được khỏi open_issues, chỉ giữ tài liệu xác thực là Donaldson & Edmondson (1997)."
+      },
+      {
+        "path": "phonology",
+        "severity": "medium",
+        "problem": "status_note nêu Donaldson & Edmondson (1997) ghi nhận 13 nguyên âm, nhưng mảng phonology.vowels lại liệt kê 14 mục suy diễn từ khung âm vị Thái Tây Bắc chung và để nhiều mục ở mức confidence 'medium' dù chưa đối chiếu được bản in gốc.",
+        "fix": "Hạ toàn bộ confidence của onsets, vowels, codas suy diễn xuống 'low' để phản ánh đúng việc chưa truy cập được bảng âm vị gốc trong Donaldson & Edmondson (1997)."
+      },
+      {
+        "path": "lexicon",
+        "severity": "low",
+        "problem": "Các mục từ vựng văn hóa (mường, xíp xí, khoăn khạu, khắp, pí) được ghi nhận qua báo chí và tài liệu dân tộc học bằng cách phiên âm chữ Quốc ngữ, chưa có ký âm IPA âm vị học từ từ điển chuyên khảo Tày Tấc nhưng lại để confidence 'high'.",
+        "fix": "Hạ confidence của các mục từ này từ 'high' xuống 'medium'."
+      },
+      {
+        "path": "autonym",
+        "severity": "low",
+        "problem": "Chuỗi 'Kwam Tày Tấc / Táy Khao' ghép từ chỉ tiếng nói ('kwam') với tên gọi ngôn ngữ/tộc người, trong khi tài liệu thứ cấp dẫn Donaldson & Edmondson (1997: 235) chỉ ghi nhận tên ngôn ngữ là Tày Tấc (Tai Tâk) và tên tự nhận là Thái Trắng (White Tay / Táy Khao).",
+        "fix": "Chuẩn hóa lại thành 'Tày Tấc (Tai Tâk) / Táy Khao'."
+      }
+    ]
+  },
+  "schema_errors": []
+}

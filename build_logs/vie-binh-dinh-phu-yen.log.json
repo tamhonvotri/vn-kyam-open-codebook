@@ -1,0 +1,83 @@
+{
+  "target": {
+    "id": "vie-binh-dinh-phu-yen",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Giọng Bình Định – Phú Yên",
+    "hint": "Tách riêng khỏi vie-south-central; ví dụ biến đổi vần -ao/-au, -ương; hát bài chòi, hát bội."
+  },
+  "started": "2026-11-13T23:09:52.042586",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9410,
+      "candidatesTokenCount": 12080,
+      "totalTokenCount": 28273,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9410
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12080
+        }
+      ],
+      "thoughtsTokenCount": 6783,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 13575,
+      "candidatesTokenCount": 12556,
+      "totalTokenCount": 26131,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13575
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12556
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "respelling_rules[8..9]",
+        "severity": "medium",
+        "problem": "Quy tắc full respelling thay vần 'ôi' -> 'âu' (index 8) đặt sau quy tắc từ 'tôi' -> 'tui' (index 2) thì an toàn cho từ 'tôi', nhưng các quy tắc thay vần 'e' -> 'ia' (index 17) hay 'ê' -> 'ơ' (index 16) chưa lưu ý rõ việc công cụ có thể áp dụng đại trà làm biến dạng các từ Hán-Việt hoặc từ chỉ đọc theo âm chuẩn.",
+        "fix": "Bổ sung ghi chú vào note của các quy tắc vần mở 'ê' -> 'ơ' và 'e' -> 'ia' rằng chỉ áp dụng trên danh sách từ khẩu ngữ truyền thống, không áp dụng đại trà lên từ Hán-Việt."
+      },
+      {
+        "path": "lexicon[10].ipa",
+        "severity": "low",
+        "problem": "Từ 'nhóc' ghi IPA là 'ɲækp˧˥' thiếu dấu nối âm đôi (tie bar) chuẩn IPA giữa k và p (k͡p) dù trong phần phonology.codas đã dùng đúng 'k͡p'.",
+        "fix": "Sửa thành 'ɲæk͡p˧˥' để thống nhất ký hiệu IPA toàn bảng."
+      },
+      {
+        "path": "lexicon[20]",
+        "severity": "low",
+        "problem": "Từ 'chả chớt' trong tiếng Trung Bộ / Nam Bộ và tài liệu của Đào Đức Chương (2007) ngoài sắc thái giọng nhẹ, ngân dài còn mang nghĩa gốc là nói năng đùa cợt, nửa đùa nửa thật hoặc điệu đà (nựng trẻ con).",
+        "fix": "Bổ sung giải nghĩa đầy đủ hơn cho 'standard_vi' và 'gloss_en' của mục từ 'chả chớt'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Các nguồn URL hợp lệ đã có nhưng trường url_check còn để null; bổ sung thêm luận văn Thạc sĩ của Lê Nguyễn Hoàng Mai (2014) và Lê Xuân Hoàng (1996) đã được xác thực qua tìm kiếm.",
+        "fix": "Cập nhật url_check='ok' cho các URL đã kiểm tra và bổ sung thông tin nguồn."
+      }
+    ]
+  },
+  "schema_errors": []
+}

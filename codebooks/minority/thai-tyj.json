@@ -1,0 +1,805 @@
+{
+  "id": "thai-tyj",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Tai Yo (Thái Quỳ Châu)",
+  "name_en": "Tai Yo (Quy Chau Thai)",
+  "autonym": "Tay Yo / Thái Mường / Thái Hàng Tổng",
+  "ethnic_group_vi": "Thái",
+  "language": {
+    "iso639_3": "tyj",
+    "glottocode": "taid1248",
+    "family": "Kra-Dai",
+    "branch": "Kam-Tai, Tai (Southwestern Tai; bảo lưu lớp cơ tầng Northern Tai)"
+  },
+  "regions": [
+    "Nghệ An (Quỳ Châu, Quế Phong, Quỳ Hợp, Con Cuông, Tương Dương, Kỳ Sơn, Tân Kỳ)",
+    "Thanh Hóa (Thường Xuân, Như Xuân)"
+  ],
+  "speakers_estimate": "Khoảng 292.000 người tại Nghệ An và Thanh Hóa (ước tính năm 2019 dẫn trong tài liệu Unicode L2/22-289; các thống kê cũ thập niên 1990 ghi khoảng 57.500–60.000 người)",
+  "scripts": [
+    {
+      "name": "Chữ Thái Lai Tay (chữ Thái Quỳ Châu / Tai Yo)",
+      "iso15924": "Tayo",
+      "unicode_block": "Tai Yo (U+1E6C0..U+1E6FF)",
+      "official_in_vietnam": false,
+      "note": "Hệ chữ abugida gốc Ấn Độ – Khmer viết dọc từ trên xuống dưới, cột từ phải sang trái; nguyên âm mặc định là [ɔ], chữ cổ truyền thống không ghi dấu thanh. Đã được mã hóa chính thức trong Unicode 17.0 (09/2025) với 55 ký tự và được công nhận là Di sản văn hóa phi vật thể quốc gia (Quyết định 2191/QĐ-BVHTTDL ngày 27/6/2025), hiện được giảng dạy trong các lớp truyền dạy cộng đồng tại Nghệ An."
+    },
+    {
+      "name": "Chữ Thái Lai Pao (chữ Thái Tương Dương)",
+      "iso15924": null,
+      "unicode_block": null,
+      "official_in_vietnam": false,
+      "note": "Hệ chữ cổ viết ngang dùng bởi cộng đồng Thái Yo / Thái Mương dọc lưu vực sông Nậm Pao (Sông Cả) tại các huyện Tương Dương, Con Cuông, Kỳ Sơn (Nghệ An); chưa được mã hóa trong Unicode."
+    },
+    {
+      "name": "Chữ Latinh (phiên âm dựa trên chữ Quốc ngữ)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Được sử dụng rộng rãi trong sưu tầm văn nghệ dân gian, sách song ngữ Thái – Việt, bảng từ điền dã và tài liệu học chữ Thái ở Nghệ An – Thanh Hóa; chưa có bộ quy tắc chính tả Latinh chuẩn hóa cấp nhà nước riêng cho tiếng Tai Yo."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các nghiên cứu ngữ âm học, phương ngữ học lịch sử và tài liệu mã hóa Unicode cho chữ Tai Yo (Ferlus 1993, 2008; Sầm Công Danh 2021, 2023, 2026; Nguyễn Việt Khôi et al. 2022 – L2/22-289; ngữ liệu Pangloss CNRS). Chỉ mô tả các thổ ngữ nói tại Việt Nam (Nghệ An, Thanh Hóa). Chưa qua thẩm định trực tiếp của người bản ngữ và chuyên gia Thái học.",
+  "phonology": {
+    "syllable_structure": "C1(w)V(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "b",
+        "ipa": "ɓ",
+        "note": "Âm tắc đôi môi hữu thanh tiền thanh hầu hóa; chữ Lai Tay: 𞛐 (U+1E6D0 BO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc đôi môi vô thanh không bật hơi; chữ Lai Tay phân biệt tổ thấp 𞛑 (LOW PO) và tổ cao 𞛒 (HIGH PO) ứng với thanh điệu khác nhau",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Âm tắc đôi môi vô thanh bật hơi (khác tiếng Việt chuẩn đọc 'ph' là [f]); chữ Lai Tay: 𞛓 (U+1E6D3 PHO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Một số tài liệu phiên âm dân gian ghi bằng 'ph' hoặc 'f'; chữ Lai Tay: 𞛔 (LOW FO), 𞛕 (HIGH FO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Chữ Lai Tay: 𞛖 (U+1E6D6 MO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v ~ w",
+        "note": "Dao động giữa [v] và [w] tùy thổ ngữ và vị trí âm tiết; chữ Lai Tay: 𞛙 (U+1E6D9 VO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "ɗ",
+        "note": "Âm tắc chân răng hữu thanh tiền thanh hầu hóa; chữ Lai Tay: 𞛋 (U+1E6CB DO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Chữ Lai Tay: 𞛌 (LOW TO), 𞛍 (HIGH TO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Chữ Lai Tay: 𞛎 (U+1E6CE THO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Chữ Lai Tay: 𞛏 (U+1E6CF NO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Chữ Lai Tay: 𞛘 (U+1E6D8 LO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": "Chữ Lai Tay: 𞛇 (LOW XO), 𞛈 (HIGH XO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c ~ tɕ",
+        "note": "Chữ Lai Tay: 𞛆 (U+1E6C6 CO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Chữ Lai Tay: 𞛉 (LOW NYO), 𞛊 (HIGH NYO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / d",
+        "ipa": "j",
+        "note": "Tài liệu ngôn ngữ học thường ghi 'y' (như Tay Yo), phiên âm dựa Quốc ngữ đôi khi ghi 'd' (như Tay Dọ); chữ Lai Tay: 𞛗 (U+1E6D7 YO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Chữ Lai Tay: 𞛀 (LOW KO), 𞛁 (HIGH KO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Âm tắc ngạc mềm bật hơi (khác 'kh' [x] của tiếng Việt Hà Nội); chữ Lai Tay: 𞛂 (LOW KHO), 𞛃 (HIGH KHO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɣ",
+        "note": "Âm xát ngạc mềm hữu thanh (tần suất thấp); chữ Lai Tay: 𞛄 (U+1E6C4 GO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Chữ Lai Tay: 𞛅 (U+1E6C5 NGO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu / kw",
+        "ipa": "kʷ",
+        "note": "Tổ hợp ngạc mềm môi hóa; chữ Lai Tay có ký tự ghép riêng: 𞛝 (LOW KVO), 𞛞 (HIGH KVO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Chữ Lai Tay: 𞛚 (LOW HO), 𞛛 (HIGH HO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": null,
+        "ipa": "ʔ",
+        "note": "Âm tắc thanh hầu đầu âm tiết (không ghi bằng chữ cái trong lối phiên âm Quốc ngữ); chữ Lai Tay: 𞛜 (U+1E6DC QO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ",
+        "note": "Âm ngoại lai từ tiếng Việt hoặc xuất hiện trong họ 'Sầm'; tài liệu dạy chữ hiện đại có bổ sung ký tự riêng nhưng chưa đưa vào Unicode 17.0",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "ʐ ~ ɗ",
+        "note": "Chỉ gặp trong từ vay mượn tiếng Việt, nhiều người nói nhập vào /ɗ/",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ ~ t",
+        "note": "Chỉ gặp trong từ vay mượn tiếng Việt, nhiều người nói nhập vào /t/",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm dài; chữ Lai Tay: 𞛠 (U+1E6E0 AA)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a",
+        "note": "Nguyên âm ngắn, chỉ xuất hiện trong âm tiết đóng; chữ Lai Tay ghi gộp thành ký tự vần (𞛰 -an, 𞛱 -am, 𞛲 -ak, 𞛳 -at, 𞛴 -ap, ◌𞛦 -au, ◌𞛮 -ay, ◌𞛯 -ang)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i",
+        "ipa": "i ~ iː",
+        "note": "Đối lập ngắn – dài chỉ xuất hiện ở một số vần đóng, chữ Lai Tay dùng chung 𞛡 (U+1E6E1 I)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ ~ ɨː",
+        "note": "Chữ Lai Tay: 𞛢 (U+1E6E2 UE ở âm tiết mở) hoặc ◌𞛣 (U+1E6E3 SIGN UE ở âm tiết đóng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u ~ uː",
+        "note": "Chữ Lai Tay: 𞛤 (U+1E6E4 U)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e ~ eː",
+        "note": "Chữ Lai Tay: 𞛨 (U+1E6E8 E)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ ~ ɛː",
+        "note": "Chữ Lai Tay: 𞛥 (U+1E6E5 AE)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ / â",
+        "ipa": "ə ~ əː",
+        "note": "Chữ Lai Tay: 𞛭 (U+1E6ED AUE)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o ~ oː",
+        "note": "Chữ Lai Tay: 𞛧 (U+1E6E7 O); khi đi với âm cuối -m có thể dùng dấu vần ◌𞛵 (SIGN OM)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ ~ ɔː",
+        "note": "Trong chữ Lai Tay, phụ âm đứng một mình mang nguyên âm mặc định [ɔ]; nguyên âm dài /ɔː/ ở âm tiết mở ghi bằng 𞛬 (U+1E6EC OO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ia / iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi; chữ Lai Tay: 𞛩 (U+1E6E9 IA)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưa / ươ",
+        "ipa": "ɨə",
+        "note": "Nguyên âm đôi; chữ Lai Tay: 𞛪 (U+1E6EA UEA)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ua / uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi; chữ Lai Tay: 𞛫 (U+1E6EB UA)",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Âm tắc vô thanh không bật hơi; trong chữ Lai Tay dùng ký tự 𞛐 (BO) ở cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Trong chữ Lai Tay chuẩn dùng ký tự 𞛋 (U+1E6CB DO) ở cuối âm tiết (một số tư liệu có thể gặp 𞛌 LOW TO)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / k",
+        "ipa": "k",
+        "note": "Trong chữ Lai Tay dùng 𞛀 (LOW KO) ở cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Trong chữ Lai Tay dùng 𞛖 (MO) ở cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Trong chữ Lai Tay dùng 𞛏 (NO) ở cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Trong chữ Lai Tay dùng 𞛅 (NGO) hoặc dấu ◌𞛯 (SIGN ANG)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối; trong chữ Lai Tay dùng ký tự 𞛉 (LOW NYO) ở vị trí cuối vần hoặc dấu ◌𞛮 (SIGN AY)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối; trong chữ Lai Tay dùng ký tự 𞛙 (VO) ở vị trí cuối vần hoặc dấu ◌𞛦 (SIGN AU)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [
+      {
+        "id": "A1",
+        "name": "Thanh A1–3 (âm vực cao, vần trơn)",
+        "mark": null,
+        "chao_contour": "213",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "A2",
+        "name": "Thanh A4 (âm vực thấp, vần trơn)",
+        "mark": null,
+        "chao_contour": "35",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "B1",
+        "name": "Thanh B1–3 (âm vực cao, vần trơn)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "modal",
+        "merges_with": "B2",
+        "confidence": "high"
+      },
+      {
+        "id": "B2",
+        "name": "Thanh B4 (âm vực thấp, vần trơn)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": "B1",
+        "confidence": "medium"
+      },
+      {
+        "id": "C1",
+        "name": "Thanh C1–3 (âm vực cao, vần trơn)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "thanh hầu hóa nhẹ ở cuối vần (33ˀ ~ 44ˀ)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "C2",
+        "name": "Thanh C4 (âm vực thấp, vần trơn)",
+        "mark": null,
+        "chao_contour": "152",
+        "phonation": "uốn vòm lên-xuống kèm thanh hầu hóa (152ˀ ~ 53ˀ)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "DS1",
+        "name": "Thanh DS1–3 (vần khép nguyên âm ngắn, âm vực cao)",
+        "mark": null,
+        "chao_contour": "45",
+        "phonation": "checked (-p, -t, -k)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "DS2",
+        "name": "Thanh DS4 (vần khép nguyên âm ngắn, âm vực thấp)",
+        "mark": null,
+        "chao_contour": "33",
+        "phonation": "checked (-p, -t, -k); dao động 33 ~ 21 tùy điểm thổ ngữ",
+        "merges_with": null,
+        "confidence": "medium"
+      },
+      {
+        "id": "DL",
+        "name": "Thanh DL1–4 (vần khép nguyên âm dài)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "checked (-p, -t, -k); thường nhập chung với quỹ đạo nhóm B",
+        "merges_with": "B1",
+        "confidence": "medium"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 5 hoặc 6 thanh điệu trên âm tiết trơn tùy thổ ngữ (Sầm Công Danh 2023; Ferlus 1993, 2008): nhiều điểm như Quỳ Châu, Quế Phong, Thường Xuân nhập B123=B4 thành hệ 5 thanh trơn, trong khi một số điểm tách 6 thanh. Nhóm thanh C (C123 và C4) có đặc trưng thanh hầu hóa rõ. Ngoài ra, tiếng Tai Yo có hiện tượng đặc trưng rụng phụ âm cuối ở một lớp từ cơ bản (như 'ăn', 'đi', 'làm', 'lấy', 'nhau') kéo theo kéo dài nguyên âm chính và chuyển thanh từ A1 sang A2 (Sầm Công Danh 2026)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "năm",
+      "ipa": "nam˥˧",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gai",
+      "form": "nam",
+      "ipa": "naːm˨˩˧",
+      "gloss_en": "thorn",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rễ",
+      "form": "hak",
+      "ipa": "haːk˨˩",
+      "gloss_en": "root",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "yêu, thương",
+      "form": "hăk",
+      "ipa": "hak˧˧",
+      "gloss_en": "to love",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bọ, mạt",
+      "form": "măt",
+      "ipa": "mat˧˧",
+      "gloss_en": "vermin, flea",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "xác rắn (da rắn lột)",
+      "form": "chap",
+      "ipa": "caːp˨˩",
+      "gloss_en": "shed snake skin",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đậu (chim đậu)",
+      "form": "chăp",
+      "ipa": "cap˦˥",
+      "gloss_en": "perched",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "fi",
+      "ipa": "fiː˧˥",
+      "gloss_en": "fire",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con (con cái)",
+      "form": "lưk",
+      "ipa": "lɨk˧˧",
+      "gloss_en": "child, offspring",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ruộng nước",
+      "form": "na",
+      "ipa": "naː˧˥",
+      "gloss_en": "wet rice field",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nương, rẫy",
+      "form": "hảy",
+      "ipa": "haj˧˧",
+      "gloss_en": "swidden, upland field",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gà",
+      "form": "cảy",
+      "ipa": "kaj˨˩",
+      "gloss_en": "chicken",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mường, xứ sở",
+      "form": "mương",
+      "ipa": "mɨəŋ˧˥",
+      "gloss_en": "mueang, principality/community",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hổ",
+      "form": "xướ",
+      "ipa": "sɨə˨˩˧",
+      "gloss_en": "tiger",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Hát Lăm",
+        "note": "Làn điệu dân ca cổ đặc trưng và đòi hỏi kỹ thuật cao nhất của nhóm Thái Hàng Tổng / Thái Quỳ Châu (Nghệ An), thường hát đối đáp giao duyên hoặc trong lễ hội với tiếng khèn bè đệm."
+      },
+      {
+        "name": "Hát Nhuôn",
+        "note": "Làn điệu trữ tình – tự sự rất phổ biến của người Thái miền Tây Nghệ An, gồm 'nhuôn cu mún' (hát quanh ché rượu cần trong cuộc vui, mừng nhà mới, lễ bản) và nhuôn giao duyên; thường đệm bằng pí nhuôn hoặc khèn bè."
+      },
+      {
+        "name": "Hát Xuối",
+        "note": "Làn điệu dân ca cổ của nhóm Thái Hàng Tổng / Thái Quỳ Châu, giai điệu mượt mà, thường đi đôi với lăm và nhuôn (tục gọi 'xuối, lăm, nhuôn'), đệm bằng sáo/pí xuối."
+      },
+      {
+        "name": "Ứ noọng / Ứ ưi lực (hát ru)",
+        "note": "Điệu hát ru em ('Ứ noọng') và ru con ('Ứ ưi lực') truyền thống trong gia đình người Thái Nghệ An."
+      },
+      {
+        "name": "Khắp",
+        "note": "Làn điệu phổ biến ở nhóm Thái Tay Thanh (Man Thanh) lân cận và giao thoa mạnh trong sinh hoạt văn nghệ cộng đồng Thái miền Tây Nghệ An – Thanh Hóa."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Ngân rung và luyến cuối câu theo thanh điệu (lăm / nhuôn)",
+        "description": "Giai điệu bám sát đường nét thanh điệu tiếng Thái Yo, mở đầu thường có tiếng đệm ngân dài (như 'ơ...', 'ứ...') và luyến mềm cuối câu ăn khớp với tiếng bè của khèn bè hoặc pí.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung khuyết bán âm miền Tây Nghệ An",
+        "note": "Vận hành theo điệu thức ngũ cung dân gian vùng Tày – Thái Bắc Trung Bộ, gắn chặt với hàng âm cố định của khèn bè và pí nhuôn; cần nhạc sĩ dân tộc nhạc học thẩm định cao độ chuẩn.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Khèn bè",
+        "note": "Nhạc cụ hơi đa âm chủ đạo gồm 14 ống nứa nhỏ ghép thành 7 đôi xuyên qua bầu gỗ gắn lam đồng, dùng đệm cho hát lăm, nhuôn, xuối, khắp."
+      },
+      {
+        "name": "Xi xờ lo (Xò lò)",
+        "note": "Đàn nhị ống nứa đặc trưng của người Thái Nghệ An (2 hoặc 3 dây tơ tằm/kim loại, kéo bằng cung tre), dùng độc tấu hoặc đệm hát dân ca và hát ru."
+      },
+      {
+        "name": "Pí (pí nhuôn, pí xuối)",
+        "note": "Các loại sáo/kèn dăm nứa chuyên dùng đệm riêng cho làn điệu hát nhuôn và hát xuối."
+      },
+      {
+        "name": "Tập tinh",
+        "note": "Nhạc cụ dây gảy/gõ làm từ ống tre nứa già do nam giới diễn tấu giải trí, mô phỏng giai điệu lăm, nhuôn."
+      },
+      {
+        "name": "Khắc luống (khua luống)",
+        "note": "Nhạc cụ tự thân vang dùng chày gỗ gõ nhịp nhàng vào lòng và thành máng giã gạo bằng gỗ trong lễ hội, đám cưới."
+      },
+      {
+        "name": "Cồng chiêng và trống bản",
+        "note": "Hòa tấu trong lễ hội, mừng nhà mới, nhảy sạp."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "thai",
+    "orthography_note": "Chữ Lai Tay (Unicode U+1E6C0..U+1E6FF) không ghi dấu thanh điệu, đồng thời nhiều ký tự nguyên âm dùng chung cho cả nguyên âm ngắn và dài. Do đó, đối với mô hình TTS/SVS, đầu vào văn bản cần được chuyển tự sang hệ Latinh dựa trên chữ Quốc ngữ có đánh dấu thanh điệu tường minh.",
+    "quoc_ngu_approximation": [
+      {
+        "native": "p- (𞛑 / 𞛒, IPA /p/)",
+        "quoc_ngu": "p-",
+        "note": "Tiếng Việt chuẩn Hà Nội hầu như chỉ có 'p-' ở từ vay mượn và người nói dễ đọc thành [b]; cần giữ âm tắc đôi môi vô thanh không bật hơi [p]."
+      },
+      {
+        "native": "ph- (𞛓, IPA /pʰ/)",
+        "quoc_ngu": "p-h (hoặc ph- có chú giải IPA)",
+        "note": "Âm [pʰ] bật hơi KHÔNG có trong tiếng Việt chuẩn (chữ 'ph' Quốc ngữ đọc là [f]). Nếu đưa thẳng 'ph' vào TTS tiếng Việt, mô hình sẽ đọc nhầm thành [f] và trùng với âm /f/ (𞛔/𞛕)."
+      },
+      {
+        "native": "kh- (𞛂 / 𞛃, IPA /kʰ/)",
+        "quoc_ngu": "kh-",
+        "note": "Tiếng Tai Yo phát âm tắc bật hơi [kʰ], trong khi tiếng Việt chuẩn đọc 'kh' là âm xát [x]; dùng 'kh-' là xấp xỉ gần nhất trong Quốc ngữ."
+      },
+      {
+        "native": "x- (𞛇 / 𞛈, IPA /s/)",
+        "quoc_ngu": "x-",
+        "note": "Viết 'x' để TTS tiếng Việt đọc đúng âm xát đầu lưỡi [s], tránh viết 's' (dễ bị đọc quặt lưỡi [ʂ])."
+      },
+      {
+        "native": "Tay Yo (𞛍𞛮𞛗)",
+        "quoc_ngu": "Tăi Dọ / Tăi Do",
+        "note": "Phụ âm /j/ tương ứng cách đọc 'd/gi' [j] của phương ngữ Nam Bộ, nhưng trong giọng Bắc chuẩn 'd' đọc là [z]; cần lưu ý để tránh xát hóa thành [z]."
+      },
+      {
+        "native": "năm (𞛏𞛱, IPA /nam˥˧/) vs. nam (𞛏𞛠𞛖, IPA /naːm˨˩˧/)",
+        "quoc_ngu": "nắm / nẵm vs. nam",
+        "note": "Đối lập trường độ nguyên âm /a/ – /aː/ thể hiện tốt qua 'ă' và 'a' trong Quốc ngữ, nhưng với các cặp /i–iː/, /u–uː/, /e–eː/, /ɛ–ɛː/, /o–oː/, /ɔ–ɔː/, /ɨ–ɨː/ chữ Quốc ngữ không có ký hiệu phân biệt ngắn – dài."
+      },
+      {
+        "native": "Thanh C4 (Chao 152ˀ ~ 53ˀ)",
+        "quoc_ngu": "thanh ngã hoặc thanh sắc (tùy ngữ cảnh)",
+        "note": "Quỹ đạo vòm lên cao rồi hạ gấp kèm thanh hầu hóa [152ˀ] không có thanh điệu tương đương hoàn toàn trong tiếng Việt chuẩn; trong ghi âm thực địa người bản ngữ thường mượn dấu ngã (như 'nẵm' [nam⁵³])."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Thái Quỳ Châu / Thái Hàng Tổng / Thái Mường (Nghệ An – Thanh Hóa)",
+        "iso639_3": "tyj",
+        "note": "Biến thể trung tâm tại Quỳ Châu, Quế Phong, Quỳ Hợp (Nghệ An) và Thường Xuân, Như Xuân (Thanh Hóa); gắn với hệ chữ Lai Tay."
+      },
+      {
+        "name": "Thái Mương / Thái Pao (Tương Dương, Con Cuông, Kỳ Sơn – Nghệ An)",
+        "iso639_3": "tpo",
+        "note": "Biến thể dọc sông Nậm Pao (Sông Cả), gắn với hệ chữ Lai Pao; rất gần gũi về lịch sử và từ vựng với Tai Yo (tyj), đôi khi được gộp chung trong cụm phương ngữ Thái Mường – Thái Yo (Ferlus 2008)."
+      },
+      {
+        "name": "Tai Mène / Tai Maen (Borikhamxay, Khammouane – Lào)",
+        "iso639_3": "tyj",
+        "note": "Biến thể ngoài lãnh thổ Việt Nam của cư dân có nguồn gốc di cư từ vùng Xiềng My / Quỳ Châu – Nghệ An."
+      },
+      {
+        "name": "Tiếng Thái Đỏ / Tay Thanh (Man Thanh)",
+        "iso639_3": "tyr",
+        "note": "Ngôn ngữ thuộc nhóm Thái khác cùng cư trú xen cài tại Nghệ An và Thanh Hóa (dùng hệ chữ Xư Thanh / Lai Thanh), thuộc bảng mã gốc 'thai'."
+      },
+      {
+        "name": "Tiếng Thái Đen (Tai Dam)",
+        "iso639_3": "blt",
+        "note": "Ngôn ngữ chính của dân tộc Thái vùng Tây Bắc Việt Nam (thuộc bảng mã gốc 'thai')."
+      },
+      {
+        "name": "Tiếng Thái Trắng (Tai Dón)",
+        "iso639_3": "twh",
+        "note": "Ngôn ngữ chính khác của dân tộc Thái vùng Tây Bắc Việt Nam (thuộc bảng mã gốc 'thai')."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "Tay Yo (𞛍𞛮𞛗)",
+        "ipa": "taj˧˥ jɔː˩˥˨",
+        "gloss_vi": "người Thái Yo / tiếng Thái Yo"
+      },
+      {
+        "native": "năm (𞛏𞛱)",
+        "ipa": "nam˥˧",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "fi",
+        "ipa": "fiː˧˥",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "mương (𞛾)",
+        "ipa": "mɨəŋ˧˥",
+        "gloss_vi": "mường, bản mường"
+      },
+      {
+        "native": "na",
+        "ipa": "naː˧˥",
+        "gloss_vi": "ruộng nước"
+      },
+      {
+        "native": "hảy",
+        "ipa": "haj˧˧",
+        "gloss_vi": "nương, rẫy"
+      },
+      {
+        "native": "lưk (𞛘𞛣𞛀)",
+        "ipa": "lɨk˧˧",
+        "gloss_vi": "con (con cái)"
+      },
+      {
+        "native": "cảy",
+        "ipa": "kaj˨˩",
+        "gloss_vi": "gà"
+      },
+      {
+        "native": "xướ",
+        "ipa": "sɨə˨˩˧",
+        "gloss_vi": "hổ"
+      },
+      {
+        "native": "nam (𞛏𞛠𞛖)",
+        "ipa": "naːm˨˩˧",
+        "gloss_vi": "gai"
+      },
+      {
+        "native": "hak (𞛛𞛠𞛀)",
+        "ipa": "haːk˨˩",
+        "gloss_vi": "rễ cây"
+      },
+      {
+        "native": "hăk (𞛛𞛲)",
+        "ipa": "hak˧˧",
+        "gloss_vi": "yêu, thương"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Tai Do-Mene-Yo (taid1248)",
+      "url": "https://glottolog.org/resource/languoid/id/taid1248",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Nguyen, Viet Khoi; Sam, Cong Danh; van de Kasteelen, Frank (2022). L2/22-289: Final Proposal to encode the Tai Yo Script. Unicode Technical Committee.",
+      "url": "https://www.unicode.org/L2/L2022/22289-tai-yo-script.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (1993). Phonétique et écriture du Tai de Qui Châu (Vietnam). Cahiers de Linguistique – Asie Orientale, 22(1), 87–106.",
+      "url": "https://doi.org/10.3406/clao.1993.1432",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ferlus, Michel (2008). Les dialectes tai du Nghệ An, Vietnam (Tay Daeng, Tay Yo, Tay Muong). In A. V. N. Diller, J. A. Edmondson, & Y. Luo (Eds.), The Tai-Kadai Languages (pp. 298–315). Routledge.",
+      "url": "https://hal.science/halshs-01617791",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "CNRS Pangloss Collection — Tai Yo (Thái Mường / Thái Hàng Tổng) audio and lexical corpus",
+      "url": "https://pangloss.cnrs.fr/corpus/Tai_Yo",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sầm, Công Danh (2022). Bộ chữ Lai Tay và chữ Tay Dọ - Một số vấn đề và giải pháp.",
+      "url": "https://doi.org/10.5281/zenodo.6915049",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sầm, Công Danh (2023). Tone as a criterion for identifying a lect: the case of Tai Yo language via geographical distribution of tone. Proceedings of the Fifth International Conference on Asian Geolinguistics, 113–124.",
+      "url": "https://doi.org/10.5281/zenodo.8374626",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Sầm, Công Danh (2026). On some coda-loss words in Tai Yo: Phonological characteristics and preliminary explanations. Tokyo: Geolinguistic Society of Japan.",
+      "url": "https://doi.org/10.5281/zenodo.19353626",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tai Yo language & Lai Tay script",
+      "url": "https://en.wikipedia.org/wiki/Lai_Tay_script",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "APPROVE",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.codas[1].note",
+          "severity": "low",
+          "problem": "Ghi chú nêu chữ Lai Tay dùng cả 𞛋 (U+1E6CB DO) hoặc 𞛌 (U+1E6CC LOW TO) ở cuối âm tiết cho âm /-t/, trong khi chuẩn Unicode (Table 16-17, Chapter 16) quy định 8 phụ âm cuối tiêu chuẩn trong đó âm /-t/ dùng 𞛋 (U+1E6CB TAI YO LETTER DO).",
+          "fix": "Chỉnh lại ghi chú: chuẩn hóa dùng 𞛋 (U+1E6CB DO) cho âm cuối /-t/ (một số bản thảo có thể gặp biến thể dùng 𞛌 LOW TO)."
+        },
+        {
+          "path": "sources[6]",
+          "severity": "low",
+          "problem": "Tài liệu Sầm Công Danh (2023) thiếu URL/DOI (trường url đang để null) và ghi số trang 113–125 thay vì 113–124.",
+          "fix": "Bổ sung URL Zenodo chính thức (https://doi.org/10.5281/zenodo.8374626) và chỉnh số trang thành 113–124; cập nhật url_check cho toàn bộ danh mục nguồn."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần chuẩn hóa quy ước đánh dấu 5–6 thanh điệu khi phiên âm bằng chữ Latinh (do các tài liệu điền dã và tài liệu cộng đồng ở Quỳ Châu, Tương Dương hiện dùng quy ước dấu thanh Quốc ngữ chưa hoàn toàn thống nhất).",
+      "Cần bổ sung danh mục từ vựng đặc trưng mất phụ âm cuối (coda-loss layer: 'ăn', 'đi', 'làm', 'lấy', 'nhau') kèm IPA từng huyện từ người bản ngữ Quỳ Châu và Thường Xuân.",
+      "Cần nhạc sĩ dân tộc nhạc học ký âm ABC chuẩn cho các làn điệu hát Lăm, Nhuôn và Xuối."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

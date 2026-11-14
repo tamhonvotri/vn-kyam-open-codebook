@@ -1,0 +1,671 @@
+{
+  "id": "hmong-hmf",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Hmong Don",
+  "name_en": "Hmong Don",
+  "autonym": null,
+  "ethnic_group_vi": "H'Mông",
+  "language": {
+    "iso639_3": "hmf",
+    "glottocode": "hmon1263",
+    "family": "Hmong-Mien",
+    "branch": "Hmongic (West Hmongic, First Vernacular Hmong — Unclassified)"
+  },
+  "regions": [
+    "Yên Bái (vùng Nghĩa Lộ)",
+    "Sơn La",
+    "Hòa Bình",
+    "Hà Giang"
+  ],
+  "speakers_estimate": null,
+  "scripts": [
+    {
+      "name": "Chữ Hmông Việt (Ntơưr Hmôngz)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Phê chuẩn theo Nghị định số 206-CP ngày 27/11/1961 của Hội đồng Chính phủ (dựa trên ngữ âm H'Mông Lềnh vùng Sa Pa có bổ sung âm vị H'Mông Đơư và H'Mông Sua). Ethnologue ghi nhận chưa có bằng chứng giảng dạy riêng trong trường học đối với cộng đồng được gắn mã hmf."
+    },
+    {
+      "name": "Chữ Hmông Latin hóa quốc tế (RPA — Romanized Popular Alphabet / Ntawv Thoob Teb)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ Latinh phổ biến rộng rãi trên mạng xã hội, giao lưu xuyên biên giới và tài liệu tôn giáo trong cộng đồng người H'Mông tại Việt Nam."
+    },
+    {
+      "name": "Chữ Pahawh Hmong",
+      "iso15924": "Hmng",
+      "unicode_block": "Pahawh Hmong (U+16B00–U+16B8F)",
+      "official_in_vietnam": false,
+      "note": "Bộ chữ bán âm tiết do Yang Shong Lue tạo ra năm 1959; hiện rất ít sử dụng thực tế tại Việt Nam."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Mã ISO 639-3 'hmf' (Glottocode 'hmon1263', tên quốc tế 'Hmong Don') là một mục ngôn ngữ độc lập chỉ ghi nhận tại Việt Nam (nằm ngoài macrolanguage 'hmn'), được Glottolog xếp vào nhóm Unclassified First Vernacular Hmong dựa trên Niederer (1998: 310–311) và Nguyễn Văn Lợi (1971/1972). Ethnologue và Wikipedia đều lưu ý biến thể này hầu như chưa có tư liệu miêu tả âm vị – từ vựng riêng biệt và chưa có số liệu thống kê người nói; định danh 'Don' có khả năng bắt nguồn từ ngoại danh gốc Thái/Tày ở Tây Bắc ('đón' = trắng, tức Mèo Đón / Mông Trắng), song chưa được kiểm chứng bằng khảo sát điền dã đối chiếu trực tiếp với các ngành Mông Đơ, Mông Lềnh, Mông Si, Mông Đu, Mông Sua tại Việt Nam. Do thiếu miêu tả ngữ âm tách biệt cho riêng hmf, phần phonology dưới đây trình bày hệ thống ánh xạ chữ viết – âm vị chuẩn của cụm First Vernacular Hmong tại Việt Nam theo Chữ Hmông Việt (1961) với confidence='low' khi áp cho riêng hmf, đồng thời liên kết về bảng mã dân tộc gốc 'hmong'.",
+  "phonology": {
+    "syllable_structure": "C(C)V(ŋ)+T (âm tiết mở hoặc kết thúc bằng nguyên âm mũi hóa / phụ âm mũi ngạc mềm yếu [-ŋ]; chữ cái cuối âm tiết trong chữ viết Latinh dùng để ký hiệu thanh điệu, không phải phụ âm cuối)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (RPA: p); khung chung Chữ Hmông Việt",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (RPA: ph)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "ᵐb",
+        "note": "Tắc hai môi tiền mũi hóa (RPA: np)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pˡ",
+        "note": "Tắc hai môi vô thanh giải phóng bên (RPA: pl)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "bl",
+        "ipa": "ᵐbˡ",
+        "note": "Tắc hai môi tiền mũi hóa giải phóng bên (RPA: npl)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi hữu thanh (RPA: m)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "hm",
+        "ipa": "m̥",
+        "note": "Mũi hai môi vô thanh (RPA: hm); bảo lưu ở H'Mông Đơư, thường nhập vào /m/ ở H'Mông Lềnh — chưa rõ trạng thái ở hmf",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ml",
+        "ipa": "mˡ",
+        "note": "Mũi hai môi giải phóng bên (RPA: ml)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh (RPA: f)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh (RPA: v)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc chân răng vô thanh không bật hơi (RPA: t)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc chân răng vô thanh bật hơi (RPA: th)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "đ",
+        "ipa": "d",
+        "note": "Tắc chân răng hữu thanh / tiền thanh hầu hóa nhẹ [ʔd] (RPA: d); có ở H'Mông Đơư, cần xác minh cho hmf",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "nt",
+        "ipa": "ⁿt",
+        "note": "Tắc chân răng tiền mũi hóa (RPA: nt)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "đr",
+        "ipa": "tˡ",
+        "note": "Tắc chân răng giải phóng bên (RPA: dl)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi chân răng hữu thanh (RPA: n)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "hn",
+        "ipa": "n̥",
+        "note": "Mũi chân răng vô thanh (RPA: hn)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên chân răng hữu thanh (RPA: l)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "hl",
+        "ipa": "ɬ",
+        "note": "Xát bên chân răng vô thanh (RPA: hl)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "tx",
+        "ipa": "ts",
+        "note": "Tắc-xát chân răng vô thanh không bật hơi (RPA: tx)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "cx",
+        "ipa": "tsʰ",
+        "note": "Tắc-xát chân răng vô thanh bật hơi (RPA: txh)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "x",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (RPA: x)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "tr",
+        "ipa": "ʈ",
+        "note": "Tắc quặt lưỡi vô thanh không bật hơi (RPA: r)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ts",
+        "ipa": "ʈʂ",
+        "note": "Tắc-xát quặt lưỡi vô thanh không bật hơi (RPA: ts)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "tsh",
+        "ipa": "ʈʂʰ",
+        "note": "Tắc-xát quặt lưỡi vô thanh bật hơi (RPA: tsh)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "s",
+        "ipa": "ʂ",
+        "note": "Xát quặt lưỡi vô thanh (RPA: s)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "z",
+        "ipa": "ʐ ~ j",
+        "note": "Xát quặt lưỡi hữu thanh hoặc tiếp cận ngạc cứng (RPA: z / y)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi-ngạc cứng vô thanh không bật hơi (RPA: c)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "q",
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi-ngạc cứng vô thanh bật hơi trong Chữ Hmông Việt (RPA: ch; lưu ý trong RPA chữ q lại ghi âm /q/)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi ngạc cứng hữu thanh (RPA: ny)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "c",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (RPA: k)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (RPA: kh)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ᵑk",
+        "note": "Tắc ngạc mềm tiền mũi hóa trong Chữ Hmông Việt (RPA: nk)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "q",
+        "note": "Tắc lưỡi con vô thanh không bật hơi trong Chữ Hmông Việt (RPA: q)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "qh",
+        "ipa": "qʰ",
+        "note": "Tắc lưỡi con vô thanh bật hơi (RPA: qh)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (RPA: h)",
+        "confidence": "low"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước cao không tròn môi (RPA: i)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước hơi cao không tròn môi (RPA: e)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm mở (RPA: a)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau hơi mở tròn môi (RPA: o)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau cao tròn môi (RPA: u)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa cao không tròn môi (RPA: w)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ênh",
+        "ipa": "ẽ ~ eŋ",
+        "note": "Nguyên âm mũi hóa trước (RPA: ee)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ang",
+        "ipa": "ã ~ aŋ",
+        "note": "Nguyên âm mũi hóa mở (RPA: aa); phân biệt ở H'Mông Lềnh, nhập với /ɔ̃/ ở H'Mông Đơư — chưa rõ ở hmf",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ông",
+        "ipa": "ɔ̃ ~ ɔŋ",
+        "note": "Nguyên âm mũi hóa sau tròn môi (RPA: oo)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ai",
+        "ipa": "ai",
+        "note": "Nguyên âm đôi (RPA: ai)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "ơư",
+        "ipa": "aɨ ~ əɨ",
+        "note": "Nguyên âm đôi khép về [ɨ] (RPA: aw)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "âu",
+        "ipa": "au ~ əu",
+        "note": "Nguyên âm đôi (RPA: au)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "iê",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi mở dần (RPA: ia)",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "uô",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi mở dần (RPA: ua)",
+        "confidence": "low"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "nh, ng (trong ênh, ang, ông)",
+        "ipa": "ŋ",
+        "note": "Thực chất là mũi hóa nguyên âm chính kèm âm mũi ngạc mềm yếu [-ŋ]; tiếng H'Mông không có âm cuối tắc *-p, *-t, *-k.",
+        "confidence": "low"
+      }
+    ],
+    "tones": [
+      {
+        "id": "z",
+        "name": "thanh cao (RPA: -b)",
+        "mark": "z",
+        "chao_contour": "55",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "ngang",
+        "name": "thanh trung bằng (không ghi chữ cuối; RPA: không ghi)",
+        "mark": "",
+        "chao_contour": "33",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "s",
+        "name": "thanh thấp bằng (RPA: -s)",
+        "mark": "s",
+        "chao_contour": "11",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "x",
+        "name": "thanh cao giáng (RPA: -j)",
+        "mark": "x",
+        "chao_contour": "53",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "r",
+        "name": "thanh trung thăng (RPA: -v)",
+        "mark": "r",
+        "chao_contour": "34",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "v",
+        "name": "thanh thấp kẹt thanh hầu (RPA: -m)",
+        "mark": "v",
+        "chao_contour": "21",
+        "phonation": "kẹt thanh hầu (creaky voice), đôi khi kết thúc bằng [-ʔ]",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "l",
+        "name": "thanh giáng giọng thở (RPA: -g)",
+        "mark": "l",
+        "chao_contour": "31",
+        "phonation": "giọng thở (breathy / murmured voice)",
+        "merges_with": null,
+        "confidence": "low"
+      },
+      {
+        "id": "k",
+        "name": "biến thể thăng thấp cuối cụm của thanh -v (RPA: -d)",
+        "mark": "k",
+        "chao_contour": "213",
+        "phonation": "biến thể ngữ điệu kéo dài cuối cụm từ",
+        "merges_with": "v",
+        "confidence": "low"
+      }
+    ],
+    "register_or_phonation": "Hệ thống 7 thanh điệu cơ bản (kèm 1 biến thể ngữ điệu -k/-d thành 8 ký hiệu trong chữ viết), kết hợp chặt chẽ giữa đường nét cao độ và chất giọng (thanh hầu hóa/kẹt ở thanh -v/-m; giọng thở ở thanh -l/-g). Cần điền dã xác định giá trị Chao chính xác cho riêng nhóm Hmong Don [hmf]."
+  },
+  "lexicon": [],
+  "music": {
+    "genres": [
+      {
+        "name": "Gầu plềnh (dân ca giao duyên / tiếng hát tình yêu)",
+        "note": "Thể loại hát đối đáp trữ tình phổ biến nhất của người H'Mông miền núi phía Bắc Việt Nam trong lao động, chợ phiên và lễ hội Gầu Tào."
+      },
+      {
+        "name": "Gầu xuống (tiếng hát cưới xin)",
+        "note": "Hệ thống bài ca nghi lễ trong đám cưới truyền thống của người H'Mông tại Việt Nam."
+      },
+      {
+        "name": "Khâu xìa (hát kể / tiếng hát mồ côi, than thân)",
+        "note": "Lối hát tự sự truyền thống phản ánh thân phận và tâm tư trong đời sống bản làng."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến cao độ bám sát thanh điệu lời ca",
+        "description": "Giai điệu dân ca và tiếng đàn môi/kèn lá mô phỏng trực tiếp đường nét thanh điệu của từng âm tiết ngôn ngữ để người nghe nhận biết lời.",
+        "abc": null,
+        "confidence": "medium"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang ngũ cung không bán âm (pentatonic)",
+        "note": "Phổ biến trong dân ca H'Mông vùng núi phía Bắc Việt Nam; cao độ linh hoạt theo tầm cữ giọng hát hoặc nhạc cụ.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Khèn Mông (qeej)",
+        "note": "Nhạc cụ đa thanh gồm 6 ống trúc có lưỡi gà đồng cắm qua bầu gỗ, vừa thổi vừa múa trong lễ hội và nghi lễ."
+      },
+      {
+        "name": "Đàn môi (ncas)",
+        "note": "Nhạc khí tự thân vang bằng đồng mỏng, truyền tải lời giao duyên qua biến đổi bồi âm khoang miệng."
+      },
+      {
+        "name": "Sáo Mông (raj nplaim)",
+        "note": "Sáo trúc có lưỡi gà tự do bằng đồng ở lỗ thổi."
+      },
+      {
+        "name": "Kèn lá",
+        "note": "Dùng lá cây rừng thổi các giai điệu gọi bạn, giao duyên."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "hmong",
+    "scope_note": "Bảng mã này chỉ đại diện cho mục ngôn ngữ Hmong Don (ISO 639-3: hmf) tại Việt Nam. Do chưa có từ điển hay khảo sát âm học tách riêng cho hmf, khi huấn luyện hoặc tổng hợp giọng nói/giọng hát cần kế thừa tài nguyên từ bảng mã gốc 'hmong' và kiểm tra phương ngữ thực địa (Yên Bái/Nghĩa Lộ, Sơn La, Hòa Bình, Hà Giang).",
+    "sub_varieties": [
+      {
+        "name_vi": "Hmong Don",
+        "iso639_3": "hmf",
+        "glottocode": "hmon1263",
+        "note": "Biến thể tại Việt Nam (Yên Bái/Nghĩa Lộ, Sơn La, Hòa Bình, Hà Giang); Glottolog xếp vào Unclassified First Vernacular Hmong."
+      },
+      {
+        "name_vi": "Hmong Dô",
+        "iso639_3": "hmv",
+        "glottocode": "hmon1332",
+        "note": "Biến thể tại miền Bắc Việt Nam; Glottolog xếp vào Unclassified First Vernacular Hmong."
+      },
+      {
+        "name_vi": "H'Mông Đơư (Mông Trắng / Hmong Daw)",
+        "iso639_3": "mww",
+        "glottocode": "hmon1333",
+        "note": "Một trong các nhóm phương ngữ lớn của người H'Mông tại Việt Nam."
+      },
+      {
+        "name_vi": "H'Mông Lềnh (Mông Hoa, Mông Đỏ / Mong Leng, Hmong Njua)",
+        "iso639_3": "hnj",
+        "glottocode": "hmon1264",
+        "note": "Nhóm phương ngữ rất phổ biến tại Lào Cai, Yên Bái, Điện Biên, Sơn La; phương ngữ cơ sở của Chữ Hmông Việt 1961."
+      },
+      {
+        "name_vi": "H'Mông Sua (Mông Xanh / Hmong Shua)",
+        "iso639_3": "hmz",
+        "glottocode": "hmon1331",
+        "note": "Phân bố tại một số tỉnh biên giới phía Bắc và Tây Bắc Việt Nam."
+      },
+      {
+        "name_vi": "H'Mông Đu / Cụm phương ngữ Xuyên-Kiềm-Điền (Chuanqiandian Cluster Miao)",
+        "iso639_3": "cqd",
+        "glottocode": "chua1256",
+        "note": "Mã bao trùm cụm phương ngữ Xuyên-Kiềm-Điền / First Vernacular Hmong (trong một số cơ sở dữ liệu quốc tế gắn với nhóm Hmong Bua / Mông Đu tại Việt Nam; lưu ý phân biệt với tiếng Hmu [hea/hmq/hms] ở Quý Châu)."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "Hmôngz (RPA: Hmoob)",
+        "quoc_ngu": "Hờ-mông / Mông",
+        "note": "Chữ Hmông Việt chung (tham chiếu parent_codebook='hmong'). Phụ âm mũi vô thanh /m̥/ ('hm-') không có trong tiếng Việt; chữ '-z' cuối từ ghi thanh cao (55), không đọc là /z/."
+      },
+      {
+        "native": "ntơưr (RPA: ntawv)",
+        "quoc_ngu": "n-tơư / tơ",
+        "note": "Chữ Hmông Việt chung ('giấy, chữ viết'). Tổ hợp tiền mũi hóa /ⁿt/ ('nt-') và nguyên âm đôi /aɨ/ ('ơư') không có trong tiếng Việt chuẩn; chữ '-r' ghi thanh trung thăng (34), không đọc là /r/."
+      },
+      {
+        "native": "lul (RPA: lus / lug)",
+        "quoc_ngu": "lù",
+        "note": "Chữ Hmông Việt chung ('lời nói, tiếng'). Chữ '-l' cuối âm tiết ghi thanh giáng giọng thở (31), xấp xỉ bằng thanh huyền tiếng Việt."
+      },
+      {
+        "native": "gơưx plênhs / gầu plềnh (RPA: nkauj plees)",
+        "quoc_ngu": "gầu p-lềnh",
+        "note": "Cách phiên âm Quốc ngữ quen thuộc trong tài liệu văn hóa Việt Nam cho thể loại hát giao duyên. Âm tắc ngạc mềm tiền mũi hóa /ᵑk/ ('g-' / RPA 'nk-') và cụm giải phóng bên /pˡ/ ('pl-') không có trong tiếng Việt hiện đại, cần đọc lướt nhanh 'p-l'."
+      },
+      {
+        "native": "k- / qh- (RPA: q- / qh-)",
+        "quoc_ngu": "c- / kh-",
+        "note": "Âm tắc lưỡi con /q, qʰ/ không tồn tại trong tiếng Việt; mô hình TTS chỉ biết tiếng Việt chỉ có thể xấp xỉ gần đúng bằng âm ngạc mềm 'c/k' và 'kh'."
+      },
+      {
+        "native": "hl-",
+        "quoc_ngu": "h-l- / l-",
+        "note": "Âm xát bên vô thanh /ɬ/ không có trong tiếng Việt; xấp xỉ bằng luồng hơi 'h' rất ngắn trước 'l'."
+      },
+      {
+        "native": "tx- / cx- (RPA: tx- / txh-)",
+        "quoc_ngu": "x- / s-",
+        "note": "Âm tắc-xát chân răng /ts, tsʰ/ không có trong tiếng Việt chuẩn Hà Nội; chỉ xấp xỉ thô bằng 'x' hoặc 't-x' đọc liền."
+      }
+    ],
+    "sample_words": [],
+    "sample_words_note": "Để trống do chưa có danh sách từ vựng điền dã được công bố tách riêng và xác nhận cho mã ISO 639-3 'hmf' (Hmong Don); xem từ vựng tiếng H'Mông chung ở bảng mã gốc 'hmong'."
+  },
+  "sources": [
+    {
+      "title": "Glottolog 5.3 — Hmong Don [hmon1263]",
+      "url": "https://glottolog.org/resource/languoid/id/hmon1263",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "SIL International — ISO 639-3 Documentation: hmf (Hmong Don)",
+      "url": "https://iso639-3.sil.org/code/hmf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Hmong Don [hmf]",
+      "url": "https://www.ethnologue.com/language/hmf/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikidata — Hmong Don (Q13018555)",
+      "url": "https://www.wikidata.org/wiki/Q13018555",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Niederer, Barbara (1998). Les langues Hmong-Mjen (Miáo-Yáo): Phonologie historique. Munich: Lincom Europa (tr. 310–311).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Văn Lợi (1971). Một số nét về tiếng Mèo ở Việt Nam. Trong: Tìm hiểu ngôn ngữ các dân tộc thiểu số ở Việt Nam (tr. 139–171). Hà Nội: Viện Ngôn ngữ học.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Văn Lợi, Tạ Văn Thông, Hoàng Văn Ma, Lý Thị Hoa (2018). Ngữ pháp tiếng Hmông. Thái Nguyên: NXB Đại học Thái Nguyên.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Hmong language",
+      "url": "https://en.wikipedia.org/wiki/Hmong_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Chữ Hmông Việt",
+      "url": "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_Hm%C3%B4ng_Vi%E1%BB%87t",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "ml_hints.sub_varieties[5].glottocode",
+          "severity": "high",
+          "problem": "Glottocode 'blac1271' là mã của 'Black South African English' trên Glottolog, không phải của Chuanqiandian Cluster Miao [cqd] hay H'Mông Đu.",
+          "fix": "Sửa glottocode của 'cqd' (Chuanqiandian Cluster Miao) thành 'chua1256' theo Glottolog 5.3."
+        },
+        {
+          "path": "ml_hints.quoc_ngu_approximation[3]",
+          "severity": "medium",
+          "problem": "Ghi 'gầu plềnh (RPA: nkauj nplooj)' và giải thích âm đầu là '/ᵐbˡ/ (bl- / RPA npl-)' là nhầm lẫn từ vựng: 'gầu plềnh' (tiếng hát tình yêu/giao duyên) trong Chữ Hmông Việt là 'gơưx plênhs' (RPA: 'nkauj plees', âm đầu /pˡ/ 'pl-' và vần /ẽ/ 'ênh'/'ee'), còn 'nplooj' là lá cây (vần 'ông'/'oo').",
+          "fix": "Sửa thành 'gơưx plênhs / gầu plềnh (RPA: nkauj plees)' và chỉnh lại giải thích ngữ âm cho phụ âm đầu tiền mũi hóa /ᵑk/ ('g-' / RPA 'nk-') cùng tổ hợp giải phóng bên /pˡ/ ('pl-')."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "low",
+          "problem": "Bảng phụ âm đầu theo khung Chữ Hmông Việt (1961) liệt kê 'b' (/ᵐb/), 'bl' (/ᵐbˡ/), 'nt' (/ⁿt/) nhưng thiếu phụ âm tắc ngạc mềm tiền mũi hóa 'g' (/ᵑk/, RPA: 'nk') vốn xuất hiện ngay trong ví dụ 'gầu plềnh' (nkauj plees).",
+          "fix": "Bổ sung mục grapheme 'g' -> IPA 'ᵑk' (confidence='low') vào phonology.onsets để đồng bộ với hệ thống tiền mũi hóa và phần ml_hints."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Trường url_check của các nguồn trực tuyến đang để null.",
+          "fix": "Cập nhật url_check='verified' cho các URL đã kiểm chứng qua tìm kiếm thực tế."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần xác minh thực địa mối quan hệ giữa định danh quốc tế 'Hmong Don' [hmf] (ghi nhận tại Yên Bái/Nghĩa Lộ, Sơn La, Hòa Bình, Hà Giang) với phân loại 5 ngành H'Mông trong dân tộc học Việt Nam (Mông Đơ, Mông Lềnh, Mông Si, Mông Đu, Mông Sua) — đặc biệt kiểm chứng xem 'Hmong Don' có phải là ngoại danh tiếng Thái 'Mèo Đón' chỉ nhóm Mông Trắng (Mông Đơ) hay một thổ ngữ riêng.",
+      "Chưa có bảng đo âm học thanh điệu (Chao contours), bảng âm vị riêng và danh sách từ vựng cơ bản được thu âm/công bố tách biệt cho riêng mã hmf.",
+      "Cần khảo sát mức độ sử dụng thực tế giữa Chữ Hmông Việt (1961) và chữ RPA trong các cộng đồng H'Mông tại Yên Bái, Sơn La, Hòa Bình."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,857 @@
+{
+  "id": "stieng-stt",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Xtiêng Bù Đêh",
+  "name_en": "Budeh Stieng",
+  "autonym": "Điêng / Sơđiêng (nhóm Bù Đêh / Bù Đek)",
+  "ethnic_group_vi": "Xtiêng",
+  "language": {
+    "iso639_3": "stt",
+    "glottocode": "bude1236",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (South Bahnaric)"
+  },
+  "regions": [
+    "Bình Phước (tập trung ở vùng thấp: Lộc Ninh, Bình Long, Hớn Quản, Chơn Thành, Đồng Phú, Đồng Xoài — nay thuộc Đồng Nai theo địa giới sau sáp nhập)",
+    "Tây Ninh",
+    "Bình Dương (cũ)",
+    "Đồng Nai"
+  ],
+  "speakers_estimate": "Khoảng 40.000–50.000 người tại Việt Nam (trong tổng số 100.752 người dân tộc Xtiêng theo Tổng điều tra 2019; phân bố giữa hai nhánh lớn Bù Lơ và Bù Đêh)",
+  "scripts": [
+    {
+      "name": "Chữ Xtiêng Latinh (bộ chữ 38 chữ cái của tỉnh Bình Phước nghiệm thu năm 2008 và chữ Latinh truyền giáo/SIL trước 1975)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin, Latin-1 Supplement, Latin Extended-A, Latin Extended Additional",
+      "official_in_vietnam": true,
+      "note": "Hệ thống chữ Latinh do TS. Lê Khắc Cường chủ nhiệm được Hội đồng Khoa học tỉnh Bình Phước nghiệm thu năm 2008 (38 chữ cái: 23 chữ ghi phụ âm, 15 chữ ghi nguyên âm), dùng song song với truyền thống chữ Latinh SIL (Haupers 1968, 1991) trong tài liệu bồi dưỡng cán bộ và phát thanh - truyền hình địa phương; tuy nhiên mức độ chuẩn hóa đồng bộ giữa phương ngữ Bù Lơ và Bù Đêh vẫn đang hoàn thiện."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Biên soạn tự động từ các công trình phương ngữ học và ngữ âm học tiếng Xtiêng tại Việt Nam (Lê Khắc Cường 2010, 2015; Haupers 1968, 1969). Chỉ mô tả phần tiếng Xtiêng Bù Đêh (Bù Đek) nói tại Việt Nam. Hệ thống âm vị của Bù Đêh và Bù Lơ về cơ bản tương đồng, nhưng Bù Đêh bảo lưu tỷ lệ tiền âm tiết cao hơn (khoảng 18,66% từ đa tiết so với 11,52% ở Bù Lơ) và hiện thực hóa âm cuối /-s/ cổ thành /-jh/. Chưa có người bản xứ thẩm định.",
+  "phonology": {
+    "syllable_structure": "(C(C)ə(C)).C(C)V(C) — từ đơn tiết hoặc âm tiết rưỡi (sesquisyllabic); tiền âm tiết không mang trọng âm với nguyên âm trung hòa /ə/, âm tiết chính mang trọng âm và cho phép tổ hợp phụ âm đầu kết hợp với /h, w, l, r/.",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (hoặc phân tích là cụm /p/ + /h/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Tắc hai môi hữu thanh thường (khác với âm tiền thanh hầu hóa)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'b",
+        "ipa": "ʔb",
+        "note": "Tắc hai môi hữu thanh tiền thanh hầu hóa (hút vào / implosive [ɓ]); đôi khi viết b trong văn bản giản lược",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi răng vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi (hoặc cụm /t/ + /h/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d",
+        "ipa": "d",
+        "note": "Tắc đầu lưỡi hữu thanh thường (không phải âm xát/tiếp cận [z]/[j] như chữ d Quốc ngữ)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'d / đ",
+        "ipa": "ʔd",
+        "note": "Tắc đầu lưỡi hữu thanh tiền thanh hầu hóa (tương đương đ [ɗ] tiếng Việt)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "c / ch",
+        "ipa": "c",
+        "note": "Tắc mặt lưỡi (ngạc cứng) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chh",
+        "ipa": "cʰ",
+        "note": "Tắc mặt lưỡi vô thanh bật hơi (cụm /c/ + /h/)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "j",
+        "ipa": "ɟ",
+        "note": "Tắc mặt lưỡi (ngạc cứng) hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "'j / dj",
+        "ipa": "ʔɟ",
+        "note": "Tắc mặt lưỡi hữu thanh tiền thanh hầu hóa",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k",
+        "note": "Tắc gốc lưỡi (ngạc mềm) vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc gốc lưỡi vô thanh bật hơi (khác âm xát [x] tiếng Việt chuẩn)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "g",
+        "ipa": "ɡ",
+        "note": "Tắc gốc lưỡi hữu thanh (âm tắc [ɡ], không phải âm xát [ɣ] như tiếng Việt)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / ' / ∅",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu; ở đầu từ đơn tiết thường không ghi hoặc lược bỏ khi nói nhanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi; Bù Đêh còn ghi nhận biến thể tiền thanh hầu hóa /ʔm/ ('m)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi; Bù Đêh còn ghi nhận biến thể tiền thanh hầu hóa /ʔn/ ('n)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ngạc cứng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi (ngạc mềm)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Xát đầu lưỡi vô thanh; một số tài liệu ghi âm tiếng Việt viết là x (ví dụ xor 'heo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi; Bù Đêh còn có phụ âm tiền thanh hầu hóa /ʔl/ ('l)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r ~ ɾ",
+        "note": "Rung hoặc vỗ đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi - ngạc mềm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi (ví dụ yau 'nhà dài')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "iː",
+        "note": "Nguyên âm hàng trước độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "i",
+        "note": "Nguyên âm hàng trước độ mở hẹp, ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "eː",
+        "note": "Nguyên âm hàng trước hơi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĕ / ê̆",
+        "ipa": "e",
+        "note": "Nguyên âm hàng trước hơi hẹp, ngắn",
+        "confidence": "low"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛː ~ æː ~ ɛ",
+        "note": "Nguyên âm hàng trước hơi rộng (biến thể ngắn [ɛ ~ æ] trước -h và -q, dài [ɛː ~ æː] ở vị trí khác)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨː",
+        "note": "Nguyên âm hàng giữa độ mở hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư̆",
+        "ipa": "ɨ",
+        "note": "Nguyên âm hàng giữa độ mở hẹp, ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "əː ~ ʌː",
+        "note": "Nguyên âm hàng giữa hơi rộng, dài; ở tiền âm tiết (như sơ-, pơ-, kơ-) ghi nguyên âm trung hòa [ə] ngắn không trọng âm",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â",
+        "ipa": "ə ~ ʌ",
+        "note": "Nguyên âm hàng giữa hơi rộng, ngắn (ví dụ bnâm 'núi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "aː",
+        "note": "Nguyên âm độ mở rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "a ~ ɐ",
+        "note": "Nguyên âm độ mở rộng, ngắn (ví dụ sơnăm 'năm', prăk 'bạc/tiền')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "uː",
+        "note": "Nguyên âm hàng sau tròn môi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "u",
+        "note": "Nguyên âm hàng sau tròn môi hẹp, ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "oː",
+        "note": "Nguyên âm hàng sau tròn môi hơi hẹp, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔː",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, dài",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ ~ ɒ",
+        "note": "Nguyên âm hàng sau tròn môi hơi rộng, ngắn",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "iê / ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi hướng tâm (ví dụ miêk 'mây')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uə",
+        "note": "Nguyên âm đôi hướng tâm (ví dụ rua 'voi')",
+        "confidence": "high"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c / ch",
+        "ipa": "c̚",
+        "note": "Tắc mặt lưỡi vô thanh không bật ra, thường có âm lướt [i̯] đi trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k",
+        "ipa": "k̚",
+        "note": "Tắc gốc lưỡi vô thanh không bật ra",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / '",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối âm tiết (trong một số bảng chữ viết lược bỏ hoặc dùng dấu phụ)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi, có âm lướt [i̯] đi trước",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu cuối âm tiết (ví dụ sơteh 'đất', muh 'mũi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih / jh / s",
+        "ipa": "jʰ ~ ç",
+        "note": "Đặc trưng phương ngữ Bù Đêh: âm cuối /-s/ cổ của tiếng Xtiêng (còn giữ ở Bù Lơ Phước Long) đã chuyển thành /-jh/ (viết là -ih hoặc -jh, ví dụ rơwaih 'ruồi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Âm rung/vỗ cuối âm tiết (ví dụ ngkar 'nứa', xor 'heo')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Âm bên cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w / u / o",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối (ví dụ pơkao 'hoa', gâu 'bò', yau 'nhà dài')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "y / i",
+        "ipa": "j",
+        "note": "Bán nguyên âm cuối (ví dụ sơbưi 'khế', kơdêy 'chuột')",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Không có thanh điệu (non-tonal) và không đối lập âm vực thanh tính (voice quality register) trên nguyên âm như một số ngôn ngữ Môn-Khmer khác; thay vào đó bảo lưu đối lập hữu thanh – vô thanh – tiền thanh hầu hóa ở phụ âm đầu và đối lập độ dài ngắn của nguyên âm."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "đất",
+      "form": "sơteh",
+      "ipa": "səˈtɛh",
+      "gloss_en": "earth / soil",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nước",
+      "form": "dak",
+      "ipa": "daːk̚",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lửa",
+      "form": "uynh",
+      "ipa": "ʔuɲ",
+      "gloss_en": "fire",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "núi",
+      "form": "bnâm",
+      "ipa": "bəˈnʌm",
+      "gloss_en": "mountain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mây",
+      "form": "miêk / mleng",
+      "ipa": "miək̚ ~ mlɛːŋ",
+      "gloss_en": "cloud",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mưa",
+      "form": "mi",
+      "ipa": "miː",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trăng",
+      "form": "sơmănh (sơmanh)",
+      "ipa": "səˈmaɲ",
+      "gloss_en": "moon",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mặt trời",
+      "form": "măt nar",
+      "ipa": "mat̚ naːr",
+      "gloss_en": "sun",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "tối / đêm",
+      "form": "jơngâu",
+      "ipa": "ɟəˈŋʌw",
+      "gloss_en": "dark / night",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "năm / tuổi",
+      "form": "sơnăm",
+      "ipa": "səˈnam",
+      "gloss_en": "year / age",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hoa / bông",
+      "form": "pơkao",
+      "ipa": "pəˈkaːw",
+      "gloss_en": "flower",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "quả khế",
+      "form": "sơbưi",
+      "ipa": "səˈbɨːj",
+      "gloss_en": "starfruit",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cây nứa",
+      "form": "sơkar / ngkar",
+      "ipa": "səˈkaːr ~ ŋˈkaːr",
+      "gloss_en": "bamboo (Schizostachyum)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con trâu",
+      "form": "kơbư",
+      "ipa": "kəˈbɨː",
+      "gloss_en": "water buffalo",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con bò",
+      "form": "gâu",
+      "ipa": "ɡʌw",
+      "gloss_en": "cow / ox",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "con voi",
+      "form": "rua",
+      "ipa": "ruə",
+      "gloss_en": "elephant",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "con lợn / heo",
+      "form": "xor",
+      "ipa": "sɔːr",
+      "gloss_en": "pig",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "con chuột",
+      "form": "kơdêy",
+      "ipa": "kəˈdeːj",
+      "gloss_en": "rat / mouse",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con ruồi",
+      "form": "rơwaih",
+      "ipa": "rəˈwajʰ",
+      "gloss_en": "fly (insect)",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mũi",
+      "form": "muh",
+      "ipa": "muh",
+      "gloss_en": "nose",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bạc / tiền",
+      "form": "prăk",
+      "ipa": "prak̚",
+      "gloss_en": "silver / money",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà sàn dài",
+      "form": "yau",
+      "ipa": "jaːw",
+      "gloss_en": "traditional longhouse on stilts",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Pơn raw / Tâm pơt (Tơm pớt)",
+        "note": "Lối hát nói, hát kể truyền thống (diễn xướng sử thi, truyện cổ, ca dao) do một hoặc hai nghệ nhân thể hiện; tại vùng Xtiêng Bù Đêh hình thức này còn được gọi riêng là hát pơn raw."
+      },
+      {
+        "name": "Nao lan",
+        "note": "Thể loại hát tình ca giao duyên nam nữ của người Xtiêng."
+      },
+      {
+        "name": "O Kroong",
+        "note": "Trường ca dân gian Xtiêng."
+      },
+      {
+        "name": "Nhạc lễ cồng chiêng",
+        "note": "Diễn tấu trong lễ cúng rơm (mừng lúa mới), lễ đâm trâu, tang ma; khác với nhánh Bù Lơ dùng bộ 6 chiêng phẳng, nhánh Bù Đêh (Bù Đek) truyền thống chủ yếu dùng bộ 5 cồng (có núm), riêng đám tang dùng 3 chiếc."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm cồng 5 âm (nhánh Bù Đêh) và thang âm hát kể bình ổn",
+        "note": "Các bản dân nhạc thường ngắn gọn, mô phỏng âm thanh tự nhiên (tiếng suối, gió, chim muông); lối hát kể tâm pơt / pơn raw thiên về ngâm vịnh theo nhịp thở và trọng âm từ đa tiết.",
+        "confidence": "medium"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Bộ cồng 5 chiếc (đặc trưng nhóm Bù Đêh)"
+      },
+      {
+        "name": "Bộ chiêng phẳng 6 chiếc"
+      },
+      {
+        "name": "Đàn Đinh put (đàn ống tre)"
+      },
+      {
+        "name": "Khèn bầu (M'buốt / kèn M'buốt)"
+      },
+      {
+        "name": "Sáo Tơ lết"
+      },
+      {
+        "name": "Sáo U-Kooc-le"
+      },
+      {
+        "name": "Sáo Pia"
+      },
+      {
+        "name": "Sáo N'hôm"
+      },
+      {
+        "name": "Kèn Nung biên"
+      },
+      {
+        "name": "Tù và sừng trâu và trống da"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "stieng",
+    "phonological_notes_for_tts": "Tiếng Xtiêng Bù Đêh không có thanh điệu nhưng có trọng âm mạnh rơi vào âm tiết chính (âm tiết thứ hai trong từ song tiết/âm tiết rưỡi). Khi tổng hợp bằng mô hình tiếng Việt: (1) Tiền âm tiết (sơ-, pơ-, kơ-, rơ-, jơ-) phải đọc rất lướt, ngắn và nhẹ với thanh ngang thấp hoặc thanh huyền cực ngắn; (2) Chữ b, d, j, g là âm tắc hữu thanh thực sự [b, d, ɟ, ɡ] (khác chữ d/gi [z]/[j] và chữ b, đ [ɓ, ɗ] tiền thanh hầu hóa của tiếng Việt); (3) Các âm cuối không có trong tiếng Việt gồm -r [r], -l [l], -h [h], -jh/-ih [jʰ] và tắc thanh hầu -q [ʔ].",
+    "quoc_ngu_approximation": [
+      {
+        "native": "sơteh",
+        "quoc_ngu": "xơ-téc (hơi thở cuối)",
+        "note": "Tiền âm tiết 'sơ-' đọc cực ngắn [sə]; âm cuối -h [h] không có trong tiếng Việt, tránh kéo dài nguyên âm mà ngắt hơi mở thanh hầu ở cuối."
+      },
+      {
+        "native": "dak",
+        "quoc_ngu": "đác / dác",
+        "note": "Phụ âm đầu d là âm tắc hữu thanh [d] (không hút vào như 'đ' [ɗ] nhưng cũng không xát như 'd' [z]); âm cuối -k [k̚] ngậm miệng, dùng thanh sắc ngắn để mô phỏng âm tiết khép vô thanh."
+      },
+      {
+        "native": "sơnăm",
+        "quoc_ngu": "xơ-năm",
+        "note": "Nguyên âm ngắn ă [a] khớp tốt với vần '-ăm' tiếng Việt; đọc lướt tiền âm tiết 'xơ-'."
+      },
+      {
+        "native": "pơkao",
+        "quoc_ngu": "pơ-cao",
+        "note": "Phụ âm p- đầu âm tiết không phổ biến ở từ thuần Việt nhưng mô hình TTS tiếng Việt đọc được; trọng âm rơi vào 'cao'."
+      },
+      {
+        "native": "rơwaih",
+        "quoc_ngu": "rơ-oai-hờ (ngắt nhanh)",
+        "note": "Âm cuối -ih/-jh [jʰ] đặc trưng của Bù Đêh (tương ứng -s ở Bù Lơ) không có trong tiếng Việt; xấp xỉ bằng vần 'oai' kèm luồng hơi xát nhẹ vô thanh cuối âm tiết."
+      },
+      {
+        "native": "jơngâu",
+        "quoc_ngu": "giơ-ngâu",
+        "note": "Phụ âm j [ɟ] là âm tắc mặt lưỡi hữu thanh (cứng hơn 'gi' của tiếng Việt Bắc và Nam)."
+      },
+      {
+        "native": "xor",
+        "quoc_ngu": "xo-rờ (rung lưỡi cuối)",
+        "note": "Âm cuối -r [r] không có trong tiếng Việt; mô hình chỉ biết tiếng Việt dễ làm rơi âm cuối thành 'xo', cần nối nhẹ phụ âm rung [r] không thành tiếng."
+      },
+      {
+        "native": "prăk",
+        "quoc_ngu": "pờ-rắc",
+        "note": "Tổ hợp phụ âm đầu pr- không có trong tiếng Việt chuẩn; đọc lướt cực nhanh 'pờ-' nối liền vào 'rắc'."
+      }
+    ],
+    "sub_varieties": [
+      {
+        "name": "Xtiêng Bù Đêh Bình Long (Bình Phước cũ)",
+        "iso639_3": "stt",
+        "note": "Thổ ngữ vùng Bình Long, Hớn Quản, Chơn Thành; độ tương đồng từ vựng với Bù Đêh Lộc Ninh đạt 97,23% (Lê Khắc Cường 2015)."
+      },
+      {
+        "name": "Xtiêng Bù Đêh Lộc Ninh (Bình Phước cũ)",
+        "iso639_3": "stt",
+        "note": "Thổ ngữ vùng biên giới Lộc Ninh, giao lưu mật thiết với nhóm người nói biến thể tương đồng bên kia biên giới Campuchia."
+      },
+      {
+        "name": "Xtiêng Bù Lơ (Bulo Stieng — nhánh chị em thuộc dân tộc Xtiêng)",
+        "iso639_3": "sti",
+        "note": "Nhánh vùng cao (Phước Long, Bù Đăng, Bù Gia Mập); mã riêng sti / bulo1242, đơn tiết hóa mạnh hơn Bù Đêh và giữ âm cuối /-s/."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "sơteh",
+        "ipa": "səˈtɛh",
+        "gloss_vi": "đất"
+      },
+      {
+        "native": "dak",
+        "ipa": "daːk̚",
+        "gloss_vi": "nước"
+      },
+      {
+        "native": "uynh",
+        "ipa": "ʔuɲ",
+        "gloss_vi": "lửa"
+      },
+      {
+        "native": "bnâm",
+        "ipa": "bəˈnʌm",
+        "gloss_vi": "núi"
+      },
+      {
+        "native": "miêk / mleng",
+        "ipa": "miək̚ ~ mlɛːŋ",
+        "gloss_vi": "mây"
+      },
+      {
+        "native": "mi",
+        "ipa": "miː",
+        "gloss_vi": "mưa"
+      },
+      {
+        "native": "sơmănh (sơmanh)",
+        "ipa": "səˈmaɲ",
+        "gloss_vi": "mặt trăng"
+      },
+      {
+        "native": "jơngâu",
+        "ipa": "ɟəˈŋʌw",
+        "gloss_vi": "tối / ban đêm"
+      },
+      {
+        "native": "sơnăm",
+        "ipa": "səˈnam",
+        "gloss_vi": "năm / tuổi"
+      },
+      {
+        "native": "pơkao",
+        "ipa": "pəˈkaːw",
+        "gloss_vi": "hoa"
+      },
+      {
+        "native": "kơbư",
+        "ipa": "kəˈbɨː",
+        "gloss_vi": "con trâu"
+      },
+      {
+        "native": "gâu",
+        "ipa": "ɡʌw",
+        "gloss_vi": "con bò"
+      },
+      {
+        "native": "rua",
+        "ipa": "ruə",
+        "gloss_vi": "con voi"
+      },
+      {
+        "native": "rơwaih",
+        "ipa": "rəˈwajʰ",
+        "gloss_vi": "con ruồi"
+      },
+      {
+        "native": "prăk",
+        "ipa": "prak̚",
+        "gloss_vi": "bạc / tiền"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Lê Khắc Cường (2015). Phương ngữ tiếng Stiêng (Dialects of the Stieng language). Tạp chí Phát triển Khoa học và Công nghệ (ĐHQG-HCM), Tập 18, Số X2-2015, tr. 31–42.",
+      "url": "https://doi.org/10.32508/stdj.v18i2.1191",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Budeh Stieng [bude1236]",
+      "url": "https://glottolog.org/resource/languoid/id/bude1236",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Ethnologue — Stieng, Budeh [stt]",
+      "url": "https://www.ethnologue.com/language/stt/",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Haupers, Ralph (1969). Stieng phonemes. Mon-Khmer Studies Journal, Vol. 3, pp. 131–137.",
+      "url": "http://archives.sealang.net/mks/pdf/3:131-137.pdf",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Haupers, Ralph & Điểu 'Bi (1968). Nói tiếng Sơđiêng (Stieng Phrase Book): Sơđiêng – Việt – Anh. Saigon: Summer Institute of Linguistics.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Lê Khắc Cường (2010). Hệ thống chữ viết tiếng Stiêng và vấn đề xây dựng từ điển đối chiếu Việt – Stiêng, Stiêng – Việt. Tạp chí Khoa học Xã hội (Viện Phát triển Bền vững vùng Nam Bộ), số 3(139), tr. 60–68.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Wikipedia — Stieng language",
+      "url": "https://en.wikipedia.org/wiki/Stieng_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Báo Nhân Dân (2022). Dân tộc Xtiêng — Cộng đồng 54 dân tộc Việt Nam.",
+      "url": "https://nhandan.vn/dan-toc-xtieng-post721515.html",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "autonym",
+          "severity": "low",
+          "problem": "Chuỗi ký tự có khoảng trắng thừa ở đầu (\" Điêng / Sơđiêng...\").",
+          "fix": "Xóa khoảng trắng thừa ở đầu thành \"Điêng / Sơđiêng (nhóm Bù Đêh / Bù Đek)\"."
+        },
+        {
+          "path": "phonology.vowels[4].ipa",
+          "severity": "low",
+          "problem": "Con chữ 'e' được ghi chú là ngắn trước -h (ví dụ sơteh [səˈtɛh] trong lexicon), nhưng trường ipa chỉ ghi nguyên âm dài \"ɛː ~ æː\".",
+          "fix": "Bổ sung biến thể ngắn vào trường ipa thành \"ɛː ~ æː ~ ɛ\" để nhất quán với ngữ liệu thực tế và phiên âm trong lexicon."
+        },
+        {
+          "path": "lexicon[6].form",
+          "severity": "medium",
+          "problem": "Từ 'trăng' ở phương ngữ Bù Đêh trong Lê Khắc Cường (2015, tr. 34) được phiên âm là [səmăɲ] (tương ứng [măɲ] ở Bù Lơ) với nguyên âm ngắn /a/ (ă), nhưng trường form lại ghi là \"sơmanh\" (nguyên âm dài) trong khi IPA ghi \"səˈmaɲ\".",
+          "fix": "Sửa form thành \"sơmănh (sơmanh)\" trong cả lexicon và ml_hints.sample_words để khớp với nguyên âm ngắn trong tài liệu gốc và phiên âm IPA."
+        },
+        {
+          "path": "lexicon[4].form",
+          "severity": "low",
+          "problem": "Theo Lê Khắc Cường (2015, tr. 32, chú thích 5), từ 'mây' trong phương ngữ Bù Đêh có hai biến thể từ vựng là mleng / miêk (tương ứng với tuk / rơtuk ở Bù Lơ).",
+          "fix": "Cập nhật form thành \"miêk / mleng\" (IPA: \"miək̚ ~ mlɛːŋ\") để phản ánh đầy đủ khảo sát điền dã của Lê Khắc Cường (2015)."
+        },
+        {
+          "path": "lexicon[14..16].confidence",
+          "severity": "medium",
+          "problem": "Các mục từ 'gâu' (bò), 'rua' (voi), 'xor' (heo) lấy từ Bảng 1 trong Lê Khắc Cường (2015, tr. 32) vốn trích lại bảng ghi âm theo thói quen chính tả tiếng Việt của Nguyễn Thị Thu Trang (1995) (tác giả Lê Khắc Cường đã lưu ý bảng này có một số cách ghi âm chưa chuẩn xác).",
+          "fix": "Hạ mức độ tin cậy (confidence) của 'gâu', 'rua', 'xor' từ \"high\" xuống \"medium\"."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu chi tiết danh mục 38 chữ cái trong đề tài chữ viết Xtiêng tỉnh Bình Phước (Lê Khắc Cường 2008/2010) để thống nhất quy ước ký hiệu các âm tiền thanh hầu hóa (/ʔb, ʔd, ʔɟ, ʔm, ʔn, ʔl/) và nguyên âm ngắn giữa văn bản giáo dục địa phương và từ điển SIL.",
+      "Cần thu âm và thẩm định thực địa cách phát âm các tiền âm tiết và âm cuối /-jh/ (tương ứng /-s/ cổ) ở người bản ngữ Bù Đêh tại Lộc Ninh và Bình Long.",
+      "Cần nhạc sĩ dân tộc học bổ sung ký âm chuẩn (ABC notation) cho lối hát kể pơn raw / tâm pơt và thang âm bộ cồng 5 chiếc của nhánh Bù Đêh."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

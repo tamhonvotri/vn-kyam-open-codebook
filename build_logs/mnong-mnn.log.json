@@ -1,0 +1,162 @@
+{
+  "target": {
+    "id": "mnong-mnn",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mnông Nam",
+    "ethnic_group_vi": "Mnông",
+    "iso639_3_expected": "mnn",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Mnông tại Việt Nam (mã ISO dự kiến: mnn; bảng mã dân tộc gốc: mnong). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"mnong\"."
+  },
+  "started": "2026-11-13T23:39:22.373694",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9443,
+      "candidatesTokenCount": 8737,
+      "totalTokenCount": 23014,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9443
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 8737
+        }
+      ],
+      "thoughtsTokenCount": 4834,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [
+      {
+        "title": "sil.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsUzvPyLGDPH8s-ssl5At3FyzwrIIXxFRKLWKbFmlrGPBT2AzkHl3pxs-THwxGKLoTRs7p6NINjJ2JEL9XmTHoEnEAhq9e0Ml_JIxdMJxaxSAn_4w98JM465_aPvTYGqE_"
+      },
+      {
+        "title": "anu.edu.au",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc3NPHyTUSd-c_IfZbFL4AbSiPcxXB-22Ag3XnBSt-SZ95btCtVgG_9NU9scXzCry5KxyfSJQkgAnUjyJ5MTsvXyJhp3bnwZ9jKtKBoBjy6hfRGzMZsFFgVvJ2FOeU4UKQyMWAUtm5ABZlAp12czG5iQCCdBgKae0bMLO7hUUHWRGQnR_qdsY="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhKmMAUk4F5cbFIKE6sC59hO2lbemTZDOprR2truiqXNiPWWYCSRw0QdiuEpeQdvsl9m-KzKIDEZl3RqBPpbuIV4OmTjXD5X-3oF9DbzDmIdfTD6AhWfjuaTLvwZeLiIjG"
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpXUWktO1AHnAenj_nTmL-GFKfRQwkvoyGZLny5QgCb6-J69nYZHoj0r0Gyq9qfiI7ajsNCCLNTUD1YHQM9jVN9AtseaFs5Xmz55QumgvjTHzIOOIyy7L_9fZ0-SXo3-kcFQ=="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKj2IKOZEi9-z_dXRL8JS-byrUvNiDLHaH1sM8X-WkDtaffbfbQJAEnFCsK6onGSiwIKV-PcgvKR9tZFC5si3NITMNpwX0KUtDyVKPBOvRJrQ7Lhj3ohUk9T158vcFHEBXhA=="
+      },
+      {
+        "title": "soas.ac.uk",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExV7KHJG1OBznQ_p1QB7fW0EH01_kMSwweEGsgX1210DWOzx8zA1PcJWhNzCPW-5iS-Ska4InAnnKApEsv9gMuVfOxUkll21iPex090RUyvRBK9aPEPdfrPSkGI5sEJV2uO3meg89FNvAl1CYPax6WsDJKimLsenJTI5thBlaviKTBgMeOYQS0vLzj0jXOUWUDYZs="
+      },
+      {
+        "title": "nih.gov",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBzVarPdUwCTcxj1oZRHIc2ZwVlkXaQBZ4Hn36xDKfEQkvgovLJmrT1qbw4VJvqCMnFksMuto3mi_Fe7Hs0QNQBJAS_jDItsDTU6jshVsqe6aya_gZOsIJZ1M33JA7Iw=="
+      },
+      {
+        "title": "glottolog.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2BEyL70WutLK68XjQJTA7Vee8hHh41M5ZW12Fg2Zs7bMIeG477KvdNiWUf7KXq1ZAyRgr6oEI2zjwaBziLxGvMSFnwG2-yTRibuCKeY7QQpFAlZAJvrWFeZ6uZnyaPZI2shas9-Lt7O4="
+      },
+      {
+        "title": "researchgate.net",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtACyQlcIr8eZhjvYwdatpnxIOGWhs8MlvELkVO9eRbKiaPxTay4FL22saEzlT1ItpnfVc-u0OoY-MoIAAJN0CmE1ogI2q-Cf_ASgeH8ZE0IHbp44n5bfAemR2t_hQraIFXgM="
+      },
+      {
+        "title": "baolamdong.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1zsSzOOJFmdJZR7_YdcJwmy9UFmwWiUHXpm2ERdqKblwVvJjEaMZrXYoXh2nznTLjKR6qE7ik6tTMh1ew3sDOypaSNXBT585UK0n8IIdkefh157j1KM7wTcj8i_vfPz0n7QLPsPPouD9NjPjCIDGmP2Ww0smpa-SxkzS7_pki_ZglAMJIs3SdMBU6sbau1rhOsO0swKHJB7AXokukPemljLZBTiEfGumLVAJ1gsZZ"
+      },
+      {
+        "title": "thuvienphapluat.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUgxNPyyisatDhU9ngm9ksQDzrG7fdCfbHdfS_tW5SBVnBFCIL2uvvHAKCsDcA1uye4fJ5HlJwc67iuwvDbN0XoUpEqNGUYjk4M_QgEJblA7tfW5B90UAwAFSHUJAdABG6kTWWtj5qUtCQBjw8Lt0g4xxDKlXNgRqC3GrYQjQ2-a8shwDShOR8Ssgv4qTSmIjaOt7_et_Sl0C_Ewihr9m5pafc186DrqrugTx5OWQV7Q7ZKGtn_BH2_JqO62Q41qj7"
+      },
+      {
+        "title": "dulieuphapluat.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ2TZqRi99NFIjN1swFx2zZ1xUlkMOGBYC1HeOgLvMI2bIcpgkaQ4nT9vg_derLFFzadTgYMbxnEsi7VvMFHFQXCXTI_Jl-VEV2es8Om-DLQz5VFJMAT2zNyOzYD16v8DPl-SSzhaUb6AKN2BInSQK7h9iRzFSedPGhjMxuEq1I_GPdehXTRdf93aXw9UdCPQ="
+      },
+      {
+        "title": "baolaocai.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAWg2XmE9v8CtOD5juVTNetDhnlhPKb1gq_ADtwDsDJXlB8xHyMKlGlqiBEQxNyd7XcBscRWTqKRWbG8BdAmmEjebxugNisZstvgL0jsweVoeX_qes--Bxw8dHv0nqpf3043YJr2n14qpPAMsxC5xvllHSvvYdaF8PqnCZAkmBLSJB-I_q4_pXjcQEUgsabOfVrhxbV9Q9kOlCEXJprzIf"
+      },
+      {
+        "title": "vietnamplus.vn",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoIPfdIGpgn7A_PBEILdCJg7i1Vq8yJRZYJW_efM8TbH4Ua5SP5ZwlQU0c4V5czp3Hk-GNe7GnlAuRNWoQXtq8kdbS8WAJEdBcP-II109I2hVczLqFlEf5w1UFXABgzZdUOPn6jb8o9s_5bZRGxs3zohvhhOyLYinhw5a02SCQEVUtIVjrqRTb5J11JBWYZl5hc0JPFjDBqQ0mK4AwB7kIdEkdAzY="
+      },
+      {
+        "title": "wikipedia.org",
+        "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZWY3jAbmXYDYefIECTqP-x9dYRh-CZEkUJA7pZHEFznoY9bVq1mu7uOBdjpmkHDHxUDk_b0YifIYwR1fH-Yn3e1GPkq56P2lhM7IXjwEsZMR17eItkZucmYwc31k2Jou6gqKBldTpFeZSuliUN9R7BPaio___hSeq3qhY6IahvxXUuRgbh3kAcWua1Esf62uJzwbTO31C3zOzd7XW-LOyCMAzFoeICJRs4MYUIBvjUCKwPGx1aAXJZMy63_zuUoc0LGof"
+      }
+    ],
+    "queries": [
+      "\"Redundant voicing and register in Mnong\" Brunelle",
+      "\"Nau M'pring\" \"QĐ-BVHTTDL\"",
+      "site:en.wikipedia.org/wiki/Mnong_language \"Consonants\" \"Implosives\"",
+      "site:en.wikipedia.org/wiki/Mnong_language \"pham\"",
+      "\"Bu Noong\" \"Prâng\" Mnong numerals OR \"muay\" \"bar\"",
+      "\"A Reconstruction of Proto-Mnong\" Blood",
+      "\"sout2692\" \"mnn\" \"Southern Mnong\"",
+      "\"Ot Ndrong\" \"QĐ-BVHTTDL\""
+    ],
+    "usage": {
+      "promptTokenCount": 11357,
+      "candidatesTokenCount": 10913,
+      "totalTokenCount": 24925,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11357
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10913
+        }
+      ],
+      "thoughtsTokenCount": 2655,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "sources[6].title",
+        "severity": "low",
+        "problem": "Luận văn Thạc sĩ năm 1966 của Henry F. Blood ('A Reconstruction of Proto-Mnong') được bảo vệ tại Indiana University (Department of Linguistics), sau đó mới được Summer Institute of Linguistics tại University of North Dakota ấn hành năm 1968.",
+        "fix": "Sửa thông tin trường cấp bằng thành Indiana University (1966) và nơi xuất bản thành Summer Institute of Linguistics, University of North Dakota (1968)."
+      },
+      {
+        "path": "phonology.onsets[18]",
+        "severity": "low",
+        "problem": "Âm vị viết bằng chữ 's' trong cụm phương ngữ Mnông / Bahnar Nam thường được mô tả trong tài liệu ngữ âm học là âm xát ngạc cứng hoặc lợi-ngạc /ç ~ ɕ ~ s/ (bảng âm vị tổng hợp tiếng Mnông ghi /ç/), không chỉ thuần túy là [s] chân răng với độ tin cậy 'high'.",
+        "fix": "Cập nhật ipa thành 's ~ ç' và hạ confidence xuống 'medium'."
+      },
+      {
+        "path": "lexicon[9]",
+        "severity": "medium",
+        "problem": "Ở mục từ số 'chín' (trích từ bảng đối chiếu phương ngữ của Nguyễn Kiên Trường & Trương Anh 2009 trên Wikipedia), dòng số 9 có 8 biến thể trải trên 7 cột phương ngữ ('dŭm, sĭn, sĭn, chĭnh, sin, sư̆n, sĭn, sin'), dẫn đến khả năng dịch cột giữa Bu Nâr (cmo) và Prâng (mnn) đối với hai dạng 'chĭnh' và 'sin'.",
+        "fix": "Ghi nhận cả hai khả năng 'chĭnh / sin' cho thổ ngữ Prâng và hạ confidence xuống 'low' để chờ đối chiếu sách gốc."
+      },
+      {
+        "path": "lexicon[10]",
+        "severity": "medium",
+        "problem": "Mục từ 'mơ̆q' [məʔ] ('mày / bạn' ở thổ ngữ Nong) và mục từ 'tâm pớt' [təmpəːt] (lexicon[13]) chưa kiểm chứng được trực tiếp từ văn bản từ điển mở trực tuyến.",
+        "fix": "Hạ confidence của lexicon[10] và lexicon[13] từ 'medium' xuống 'low' theo nguyên tắc thận trọng."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check trong danh sách nguồn đang để null toàn bộ dù nhiều URL có thể kiểm chứng hoạt động.",
+        "fix": "Cập nhật trạng thái url_check cho các nguồn trực tuyến đã xác minh."
+      }
+    ]
+  },
+  "schema_errors": []
+}

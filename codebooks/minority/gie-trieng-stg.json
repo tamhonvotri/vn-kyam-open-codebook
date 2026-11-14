@@ -1,0 +1,897 @@
+{
+  "id": "gie-trieng-stg",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Triêng",
+  "name_en": "Trieng",
+  "autonym": "Triêng",
+  "ethnic_group_vi": "Giẻ Triêng",
+  "language": {
+    "iso639_3": "stg",
+    "glottocode": "trie1243",
+    "family": "Austroasiatic",
+    "branch": "Bahnaric (Central / Triengic)"
+  },
+  "regions": [
+    "Tỉnh Kon Tum: huyện Ngọc Hồi (tập trung tại các xã Đăk Dục, Đăk Nông / Dục Nông) và một phần huyện Đăk Glei (xã Đăk Môn)",
+    "Tỉnh Quảng Nam: vùng cao huyện Nam Giang (dọc lưu vực sông Thanh và sông Đắk Pring, các xã Đắc Pre, Đắc Pring, Đắc Tôi, La Dêê, La Êê, Chơ Chun)"
+  ],
+  "speakers_estimate": "Khoảng 15.000–27.000 người nói tại Việt Nam (thuộc tổng dân số 63.322 người dân tộc Giẻ Triêng theo Điều tra 53 DTTS năm 2019; Triêng là một trong hai nhóm ngôn ngữ lớn nhất của dân tộc Giẻ Triêng bên cạnh nhóm Giẻ/Jeh)",
+  "scripts": [
+    {
+      "name": "Chữ Latinh thực hành (dựa trên chữ Quốc ngữ tiếng Việt)",
+      "iso15924": "Latn",
+      "unicode_block": "Basic Latin; Latin-1 Supplement; Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Tiếng Triêng (stg) tại Việt Nam hiện chưa có bộ chữ viết chuẩn hóa do Nhà nước ban hành riêng và chủ yếu lưu truyền truyền khẩu. Trong sưu tầm dân ca, văn hóa dân gian và đối chiếu ngôn ngữ học vùng Giẻ Triêng (Giẻ, Triêng, Bhnong, Ve), từ ngữ thường được ký âm thực hành dựa trên chữ Quốc ngữ tiếng Việt (bổ sung các chữ cái j, w, q và tổ hợp như bh, đh...) hoặc ghi trực tiếp bằng IPA (Bùi Đăng Bình 2022, 2024, 2025)."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản nháp tổng hợp từ các công trình điền dã ngữ âm học tiếng Triêng tại xã Đăk Dục và Đăk Nông, huyện Ngọc Hồi, tỉnh Kon Tum của Bùi Đăng Bình (2022, 2024), kết hợp dữ liệu phân loại Glottolog 5.3 và tư liệu âm nhạc học dân tộc của Viện Âm nhạc tại Kon Tum và Quảng Nam. Lưu ý phân loại: Glottolog xếp Trieng (trie1243) cùng Talieng (tali1257) vào tiểu nhóm Triengic thuộc nhánh Bahnaric (Sidwell xếp vào Trung Bahnaric), trong khi một số nhà nghiên cứu xếp vào Bahnar Bắc hoặc Tây Bắc. Cần người bản ngữ và chuyên gia ngôn ngữ học thẩm định thêm về bảng phụ âm đầy đủ (61 đơn vị đơn và tổ hợp) cùng quy ước chính tả cộng đồng.",
+  "phonology": {
+    "syllable_structure": "±c±v±C1±C2+V1±V2±C3±C4 (từ đơn tiết hoặc đơn âm tiết rưỡi sesquisyllabic; tiền âm tiết cv- chỉ chứa nguyên âm duy nhất /a/, âm tiết chính gồm 8 kiểu theo Bùi Đăng Bình 2024: V, VC, V1V2, C(C)V, C(C)V1V2, C(C)VC, C(C)V1V2C, C(C)VCC)",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Phụ âm tắc hai môi vô thanh không bật hơi (ví dụ: puh /puh/ 'nóng', peh /peh/ 'nháy mắt', pah /pah/ 'chẻ, bửa', pih /pih/ 'cái mẹt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Phụ âm tắc hai môi vô thanh bật hơi (quy ước ghi theo hệ chữ Latinh nhóm Giẻ Triêng)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b",
+        "note": "Phụ âm tắc hai môi hữu thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "bh",
+        "ipa": "b̤",
+        "note": "Phụ âm hai môi chất giọng thở (breathy/murmured), viết bằng bh theo quy ước chữ viết nhóm Giẻ, Triêng, Bhnong, Ve (Bùi Đăng Bình 2024, 2025; ví dụ: /b̤il/ 'nhỡ, lỡ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Phụ âm mũi hai môi (ví dụ: ma /ma/ 'cô, mẹ ghẻ', mih /mih/ 'to, lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Phụ âm xát môi-răng hữu thanh (ví dụ: va /va/ 'bác')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "w",
+        "ipa": "w",
+        "note": "Bán nguyên âm môi-mạc",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Phụ âm tắc đầu lưỡi vô thanh (ví dụ: ti /ti/ 'tay', tăp /tăp/ 'đâm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Phụ âm tắc đầu lưỡi vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "d / đ",
+        "ipa": "d",
+        "note": "Phụ âm tắc đầu lưỡi hữu thanh (xuất hiện trong từ đơn và từ âm tiết rưỡi kad-...)",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Phụ âm mũi đầu lưỡi (ví dụ: ne /ne/ 'mẹ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s / x",
+        "ipa": "s",
+        "note": "Phụ âm xát đầu lưỡi vô thanh",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "z / d",
+        "ipa": "z",
+        "note": "Phụ âm xát đầu lưỡi hữu thanh (ví dụ: azăj /azăj/ 'chăn nhỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Phụ âm rung đầu lưỡi, xuất hiện cả ở tiền âm tiết ra- và âm tiết chính (ví dụ: raki /raki/ 'gầy', rapiăt /rapiăt/ 'lưỡi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Phụ âm bên đầu lưỡi, xuất hiện cả ở tiền âm tiết la- và âm tiết chính",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Phụ âm tắc mặt lưỡi (ngạc cứng) vô thanh (ví dụ: ca /ca/ 'ăn', acik /acik/ 'gì')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Phụ âm mũi mặt lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "j / y",
+        "ipa": "j",
+        "note": "Phụ âm tiếp cận mặt lưỡi (ngạc cứng)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Phụ âm tắc gốc lưỡi vô thanh, xuất hiện cả ở tiền âm tiết ka- và âm tiết chính (ví dụ: ki /ki/ 'nó', ka /ka/ 'cá', ku /ku/ 'còng, cúi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Phụ âm tắc gốc lưỡi vô thanh bật hơi",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "g / gh",
+        "ipa": "ɡ",
+        "note": "Phụ âm tắc gốc lưỡi hữu thanh",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng / ngh",
+        "ipa": "ŋ",
+        "note": "Phụ âm mũi gốc lưỡi",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / '",
+        "ipa": "ʔ",
+        "note": "Phụ âm tắc thanh hầu đầu âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Phụ âm xát thanh hầu vô thanh (ví dụ: hit /hit/ 'uống')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pl",
+        "ipa": "pl",
+        "note": "Tổ hợp phụ âm đầu tắc môi + bên (thuộc hệ 61 phụ âm đơn và tổ hợp phụ âm tiếng Triêng theo Bùi Đăng Bình 2022, 2024)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "pr",
+        "ipa": "pr",
+        "note": "Tổ hợp phụ âm đầu tắc môi + rung (ví dụ: trong từ chỉ 'cái hang' Bùi Đăng Bình 2024, 'dệt vải' tam prai)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "br / bhr",
+        "ipa": "br ~ b̤r",
+        "note": "Tổ hợp phụ âm đầu hai môi hữu thanh/thở + rung (ví dụ: /b̤ri/ 'rừng, trời, không gian')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ks",
+        "ipa": "ks",
+        "note": "Tổ hợp phụ âm đầu gốc lưỡi + xát (ví dụ: ksaj /ksaj/ 'cơm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "hn / hm / hl",
+        "ipa": "hn ~ hm ~ hl",
+        "note": "Tổ hợp tiền xát thanh hầu + mũi/bên (ví dụ: hniəh 'móng tay')",
+        "confidence": "medium"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm trước, cao, dài, không tròn môi (Bùi Đăng Bình 2024: âm vị số 1; ví dụ: ki /ki/ 'nó', ti /ti/ 'tay', pih /pih/ 'cái mẹt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ĭ",
+        "ipa": "ĭ",
+        "note": "Nguyên âm trước, cao, ngắn, không tròn môi (Bùi Đăng Bình 2024: âm vị số 2; đối lập trường độ với /i/, ví dụ cặp tối thiểu /b̤ĭl/ 'mất (đồ)' – /b̤il/ 'nhỡ, lỡ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iê / ie",
+        "ipa": "ie",
+        "note": "Nguyên âm đôi lướt trước, cao vừa, không tròn môi (Bùi Đăng Bình 2024: âm vị số 3; ví dụ: pie /pie/ 'trên (giới từ)', iewʔ /iewʔ/ 'sợ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê",
+        "ipa": "e",
+        "note": "Nguyên âm trước, hơi cao/trung bình, không tròn môi (Bùi Đăng Bình 2024: âm vị số 4; ví dụ: ne /ne/ 'mẹ', peh /peh/ 'nháy (mắt)')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iơ / ia",
+        "ipa": "iə",
+        "note": "Nguyên âm đôi lướt trước, trung bình, không tròn môi (Bùi Đăng Bình 2024: âm vị số 5; có biến thể [iə] ~ [ia], ví dụ: kial /kial/ 'gió', miəm /miəm/ 'mép', rapiăt /rapiăt/ 'lưỡi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước, thấp vừa, không tròn môi (Bùi Đăng Bình 2024: âm vị số 6; có biến thể căng khi đi trước /ŋ, ʔ, k/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ea",
+        "ipa": "ɛa",
+        "note": "Nguyên âm đôi lướt trước, thấp vừa, không tròn môi (Bùi Đăng Bình 2024: âm vị số 7)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a",
+        "ipa": "a",
+        "note": "Nguyên âm trước/giữa, thấp, dài, không tròn môi; cũng là nguyên âm duy nhất làm hạt nhân ở tiền âm tiết (Bùi Đăng Bình 2024: âm vị số 8; ví dụ: ka /ka/ 'cá', pah /pah/ 'chẻ, bửa, bổ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă",
+        "ipa": "ă",
+        "note": "Nguyên âm trước/giữa, thấp, ngắn, không tròn môi (Bùi Đăng Bình 2024: âm vị số 9; ví dụ: azăj /azăj/ 'chăn nhỏ', căwʔ /căwʔ/ 'cháo', kăl /kăl/ '(nước) đục')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm giữa, cao, không tròn môi (Bùi Đăng Bình 2024: âm vị số 10; ngoài vai trò âm chính còn là nguyên âm duy nhất làm âm cuối /-ɨ/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ơ",
+        "ipa": "ə",
+        "note": "Nguyên âm giữa, trung bình, dài, không tròn môi (Bùi Đăng Bình 2024: âm vị số 11)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "â / ơ̆",
+        "ipa": "ə̆",
+        "note": "Nguyên âm giữa, trung bình, ngắn, không tròn môi (Bùi Đăng Bình 2024: âm vị số 12)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm sau, cao, dài, tròn môi (Bùi Đăng Bình 2024: âm vị số 13; ví dụ: ku /ku/ 'còng, cúi', puh /puh/ 'nóng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŭ",
+        "ipa": "ŭ",
+        "note": "Nguyên âm sau, cao, ngắn, tròn môi (Bùi Đăng Bình 2024: âm vị số 14)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uô / ua",
+        "ipa": "uo",
+        "note": "Nguyên âm đôi lướt sau, cao, tròn môi (Bùi Đăng Bình 2024: âm vị số 15)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ô",
+        "ipa": "o",
+        "note": "Nguyên âm sau, trung bình, tròn môi (Bùi Đăng Bình 2024: âm vị số 16; ví dụ: o /o/ 'chú, bố dượng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau, thấp vừa, dài, tròn môi (Bùi Đăng Bình 2024: âm vị số 17; có biến thể căng hạn chế trước /ŋ, ʔ, k/)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ŏ",
+        "ipa": "ɔ̆",
+        "note": "Nguyên âm sau, thấp vừa, ngắn, tròn môi (Bùi Đăng Bình 2024: âm vị số 18)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / oo",
+        "ipa": "ɒ",
+        "note": "Nguyên âm sau, cực thấp, tròn môi (Bùi Đăng Bình 2024: âm vị số 19)",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Phụ âm tắc hai môi vô thanh cuối âm tiết (ví dụ: tăp /tăp/ 'đâm')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Phụ âm tắc đầu lưỡi vô thanh cuối âm tiết (ví dụ: hit /hit/ 'uống', rapiăt /rapiăt/ 'lưỡi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ch",
+        "ipa": "c",
+        "note": "Phụ âm tắc mặt lưỡi vô thanh cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "k / c",
+        "ipa": "k",
+        "note": "Phụ âm tắc gốc lưỡi vô thanh cuối âm tiết (ví dụ: acik /acik/ 'gì')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "q / '",
+        "ipa": "ʔ",
+        "note": "Phụ âm tắc thanh hầu cuối âm tiết (quy ước viết bằng q trong hệ chữ Bahnaric vùng Quảng Nam – Kon Tum theo Bùi Đăng Bình 2025)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Phụ âm mũi hai môi cuối âm tiết (ví dụ: miəm /miəm/ 'mép')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Phụ âm mũi đầu lưỡi cuối âm tiết (ví dụ: kon 'con', m'bin 'đàn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Phụ âm mũi mặt lưỡi cuối âm tiết",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Phụ âm mũi gốc lưỡi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Phụ âm xát thanh hầu cuối âm tiết (ví dụ: puh /puh/ 'nóng', mih /mih/ 'to, lớn', peh /peh/ 'nháy mắt', pah /pah/ 'chẻ, bửa', pih /pih/ 'cái mẹt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "r",
+        "ipa": "r",
+        "note": "Phụ âm rung đầu lưỡi cuối âm tiết (ví dụ: h'gơr 'trống lớn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Phụ âm bên đầu lưỡi cuối âm tiết (ví dụ: /b̤il/ 'nhỡ, lỡ', /b̤ĭl/ 'mất đồ', kial /kial/ 'gió', kăl /kăl/ '(nước) đục')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y / j",
+        "ipa": "j",
+        "note": "Bán nguyên âm trước cuối âm tiết (ví dụ: ksaj /ksaj/ 'cơm', azăj /azăj/ 'chăn nhỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / o / w",
+        "ipa": "w",
+        "note": "Bán nguyên âm tròn môi cuối âm tiết",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɨ",
+        "note": "Nguyên âm cuối vần đặc thù (theo Bùi Đăng Bình 2024: /ăɨ/ 'tôi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ih / yh / jh",
+        "ipa": "jh",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm + xát thanh hầu (ví dụ: majh 'độc ác' trong Bùi Đăng Bình 2024)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uh / oh / wh",
+        "ipa": "wh",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm môi + xát thanh hầu (ví dụ: /rɔwh/ 'rơi' trong Bùi Đăng Bình 2024)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "iq / yq / jʔ",
+        "ipa": "jʔ",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm + tắc thanh hầu (ví dụ: /kurajʔ/ 'hắc lào' trong Bùi Đăng Bình 2024)",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "uq / oq / wʔ",
+        "ipa": "wʔ",
+        "note": "Tổ hợp phụ âm cuối bán nguyên âm môi + tắc thanh hầu (ví dụ: /căwʔ/ 'cháo', /iewʔ/ 'sợ' trong Bùi Đăng Bình 2024)",
+        "confidence": "high"
+      }
+    ],
+    "tones": [],
+    "register_or_phonation": "Ngôn ngữ không có thanh điệu âm vị học như tiếng Việt, nhưng có đối lập trường độ nguyên âm (dài – ngắn) và bảo lưu đặc trưng âm vực / chất giọng căng – chùng (tense vs. lax/breathy register) chỉ xuất hiện ở âm tiết chính (không có ở tiền âm tiết). Theo Bùi Đăng Bình (2024), 2 nguyên âm (/ɛ/, /ɔ/) có biến thể phát âm căng trong kết hợp hạn chế với âm cuối /ŋ, ʔ, k/, và 7 nguyên âm có biến thể phát âm chùng/thở xuất hiện hạn chế trong một số từ kết thúc bằng phụ âm tắc vô thanh /p, t, k/."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "tay",
+      "form": "ti",
+      "ipa": "ti",
+      "gloss_en": "hand / arm",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mẹ",
+      "form": "ne",
+      "ipa": "ne",
+      "gloss_en": "mother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cô, mẹ ghẻ",
+      "form": "ma",
+      "ipa": "ma",
+      "gloss_en": "aunt / stepmother",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bác (anh của bố, mẹ)",
+      "form": "va",
+      "ipa": "va",
+      "gloss_en": "elder uncle",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chú, bố dượng",
+      "form": "o",
+      "ipa": "o",
+      "gloss_en": "younger uncle / stepfather",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nó (ngôi thứ ba số ít)",
+      "form": "ki",
+      "ipa": "ki",
+      "gloss_en": "he / she / it",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cá",
+      "form": "ka",
+      "ipa": "ka",
+      "gloss_en": "fish",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "còng, cúi",
+      "form": "ku",
+      "ipa": "ku",
+      "gloss_en": "bent / to bow",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nóng",
+      "form": "puh",
+      "ipa": "puh",
+      "gloss_en": "hot",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "to, lớn",
+      "form": "mih",
+      "ipa": "mih",
+      "gloss_en": "big / large",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "uống",
+      "form": "hit",
+      "ipa": "hit",
+      "gloss_en": "to drink",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "cha",
+      "ipa": "ca",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm",
+      "form": "ksai",
+      "ipa": "ksaj",
+      "gloss_en": "cooked rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cháo",
+      "form": "chăuq",
+      "ipa": "căwʔ",
+      "gloss_en": "rice porridge",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gì (từ để hỏi)",
+      "form": "achik",
+      "ipa": "acik",
+      "gloss_en": "what",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lưỡi",
+      "form": "rapiăt",
+      "ipa": "rapiăt",
+      "gloss_en": "tongue",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "gầy",
+      "form": "raki",
+      "ipa": "raki",
+      "gloss_en": "thin / skinny",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "chăn nhỏ",
+      "form": "azăi",
+      "ipa": "azăj",
+      "gloss_en": "small blanket",
+      "confidence": "high"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Giư chau (Dư chầu)",
+        "note": "Hát ru con truyền thống của người Triêng ở Kon Tum và Quảng Nam, thường hát mộc hoặc kết hợp với tiếng đàn M'bin pui (M'bin puil)."
+      },
+      {
+        "name": "Nghiê",
+        "note": "Hát giao duyên nam nữ trong sinh hoạt thanh niên và lễ hội."
+      },
+      {
+        "name": "Nêng rẹt (Nêng - Rẹt)",
+        "note": "Hát đối đáp trong đám cưới giữa Nêng (đại diện nhà gái) và Rẹt (đại diện nhà trai), kết hợp lời chúc tụng ấm no và lối đối đáp hóm hỉnh."
+      },
+      {
+        "name": "Tam prai",
+        "note": "Làn điệu dân ca hát trong khi phụ nữ Triêng dệt thổ cẩm."
+      },
+      {
+        "name": "Niêng, Kiơ, K'dwô",
+        "note": "Các lối hát sinh hoạt tự sự (Niêng), hát phong tục (Kiơ) và hát diễn xướng lễ hội cộng đồng (K'dwô)."
+      }
+    ],
+    "ornaments": [],
+    "scales_or_modes": [
+      {
+        "name": "Hệ bồi âm – hòa âm ống nứa Đinh tút và định âm quãng trống H'gơr",
+        "note": "Dàn đinh tút 6 ống thổi hòa âm theo từng cặp tạo chồng âm tự nhiên. Cặp trống H'gơr (mỗi trống 2 mặt da) được hơ lửa chỉnh cao độ: hai mặt của một trống cách nhau khoảng quãng 5 đúng và hai trống chênh nhau khoảng quãng 2 (ví dụ C–G và D–A theo khảo sát của Đàm Thị Lượng / Viện Âm nhạc).",
+        "confidence": "high"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đinh tút",
+        "note": "Nhạc cụ hơi tiêu biểu làm từ bộ 6 ống trúc/nứa rỗng khoét vát hai bên miệng ống, một đầu giữ mắt kín, do 6 người đàn ông diễn tấu theo nhóm trong sinh hoạt và lễ hội (trong tiếng Giẻ Triêng, 'đinh' là ống, 'tút' là âm thanh/giai điệu)."
+      },
+      {
+        "name": "Cồng chiêng Triêng (Chiêng Nỉ và Chiêng Ngô)",
+        "note": "Chiêng cổ truyền của người Triêng. Bộ Chiêng Nỉ nguyên gốc gồm 4 chiếc tượng trưng cho Ông – Cha – Con trai – Con rể (Ko – Kon – Tray – Sao tại Kon Tum, hoặc 3 chiếc cùng 1 ống nứa Dục tít thay cho chiếc Sao tạo thành bộ '3 chiếc rưỡi'); bộ Chiêng Ngô tượng trưng cho Cha mẹ – Con – Con út diễn tấu cùng ống nứa (Lốt/Ring)."
+      },
+      {
+        "name": "Trống H'gơr (Hagơr) và trống nhỏ Pa thân",
+        "note": "H'gơr là cặp trống lớn thân gỗ liền (dài khoảng 101cm), mặt lớn bưng da bò (đường kính ~33cm), mặt nhỏ bưng da sơn dương (đường kính ~30cm), treo ở xà nhà rông/nhà Ưng và chỉnh cao độ bằng lửa trước khi đánh bằng dùi gỗ bọc vải. Pa thân là trống nhỏ đeo ngang bụng, vỗ bằng hai tay hòa tấu cùng cồng chiêng."
+      },
+      {
+        "name": "Đàn M'bin và M'bin pui (M'bin puil)",
+        "note": "Nhạc cụ dây gảy có bầu vang làm bằng nửa vỏ quả bầu khô (puil/pui), thường đệm cho hát ru Giư chau và hát giao duyên Nghiê."
+      },
+      {
+        "name": "Đàn Ong eng (Oong eng nhâm)",
+        "note": "Nhạc cụ dây kéo vĩ bằng cật nứa mỏng, âm sắc nhỏ, ngân êm."
+      },
+      {
+        "name": "Các nhạc cụ hơi khác (Talẹl/Ta lẹh, Talil/Ta lin, Ta lun, Gor, Đơl đô, Brưl, Khèn, Ka jol)",
+        "note": "Hệ thống sáo, tiêu và ống thổi bằng nứa/trúc đa dạng của người Triêng ở Ngọc Hồi (Kon Tum) và Nam Giang (Quảng Nam)."
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "gie-trieng",
+    "sub_varieties": [
+      {
+        "name": "Tiếng Giẻ (Jeh)",
+        "iso639_3": "jeh",
+        "glottocode": "jehh1245",
+        "note": "Ngôn ngữ chính còn lại của dân tộc Giẻ Triêng tại Việt Nam, nói chủ yếu ở huyện Đăk Glei (Kon Tum)"
+      },
+      {
+        "name": "Tiếng Talieng (Tariang)",
+        "iso639_3": "tdf",
+        "glottocode": "tali1257",
+        "note": "Ngôn ngữ cùng tiểu nhóm Triengic nói chủ yếu bên kia biên giới tại các tỉnh Sekong và Attapeu (Lào)"
+      },
+      {
+        "name": "Tiếng Tareng",
+        "iso639_3": "tgr",
+        "glottocode": "tare1239",
+        "note": "Biến thể/ngôn ngữ liên quan được ghi nhận tại Lào"
+      },
+      {
+        "name": "Tiếng Bhnong (Bh'noong / Pơnoong)",
+        "iso639_3": null,
+        "glottocode": null,
+        "note": "Tiếng nói của nhóm địa phương Bhnong thuộc dân tộc Giẻ Triêng tại huyện Phước Sơn, tỉnh Quảng Nam"
+      },
+      {
+        "name": "Tiếng Ve (La Ve / Veh)",
+        "iso639_3": null,
+        "glottocode": null,
+        "note": "Tiếng nói của nhóm địa phương Ve thuộc dân tộc Giẻ Triêng tại hai xã Đắc Pre và Đắc Pring, huyện Nam Giang, tỉnh Quảng Nam (nay thuộc địa giới mở rộng giáp Đà Nẵng)"
+      }
+    ],
+    "phonological_divergences_from_vietnamese": [
+      "Tiếng Triêng có từ đơn âm tiết rưỡi (sesquisyllabic) với tiền âm tiết không mang trọng âm chỉ chứa nguyên âm /a/ (ka-, ra-, la-, a-...) và tổ hợp phụ âm đầu đa dạng (pl-, pr-, br-, ks-, hn-...) hoàn toàn vắng mặt trong tiếng Việt hiện đại.",
+      "Hệ thống âm cuối tiếng Triêng có các âm không tồn tại ở vị trí cuối âm tiết tiếng Việt chuẩn: xát thanh hầu /-h/, tắc thanh hầu /-ʔ/, rung /-r/, bên /-l/, nguyên âm cuối /-ɨ/, và đặc biệt là các tổ hợp phụ âm cuối /-jh, -wh, -jʔ, -wʔ/.",
+      "Tiếng Triêng không có hệ 6 thanh điệu như tiếng Việt mà phân biệt trường độ nguyên âm (dài – ngắn) trên nhiều cặp nguyên âm (/i–ĭ/, /a–ă/, /ə–ə̆/, /u–ŭ/, /ɔ–ɔ̆/) cùng nét chất giọng căng – chùng hạn chế ở âm tiết chính."
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "puh /puh/ ('nóng')",
+        "quoc_ngu": "pú-hờ (hoặc pu + hơi thở nhẹ cuối vần)",
+        "note": "Tiếng Việt không có âm cuối /-h/; tránh đọc thành 'pút', cần mở thanh môn xát nhẹ ở cuối âm tiết."
+      },
+      {
+        "native": "căwʔ /căwʔ/ ('cháo')",
+        "quoc_ngu": "cháu / chọp (ngắt thanh hầu gấp)",
+        "note": "Tổ hợp âm cuối /-wʔ/ (bán nguyên âm môi + tắc thanh hầu) không có trong tiếng Việt; có thể mượn nét ngắt thanh hầu của thanh nặng/sắc phương ngữ Bắc trên vần 'au'."
+      },
+      {
+        "native": "ksaj /ksaj/ ('cơm')",
+        "quoc_ngu": "cờ-xai",
+        "note": "Tổ hợp phụ âm đầu /ks-/ không có trong tiếng Việt; đọc lướt thật nhanh phụ âm 'cờ' không nhấn vào 'xai'."
+      },
+      {
+        "native": "rapiăt /rapiăt/ ('lưỡi')",
+        "quoc_ngu": "rơ-piắt",
+        "note": "Tiền âm tiết /ra-/ đọc nhẹ, ngắn (không kéo dài như âm tiết đầy đủ 'ra' trong tiếng Việt); âm chính đi với /-t/ dùng thanh sắc để giữ phụ âm tắc vô thanh cuối."
+      },
+      {
+        "native": "b̤ri /b̤ri/ ('rừng, trời')",
+        "quoc_ngu": "bờ-ri (giọng trầm thở)",
+        "note": "Phụ âm thở /b̤/ và tổ hợp /b̤r-/ không có trong tiếng Việt; hạ thấp thanh quản và pha hơi thở khi phát âm b- lướt sang r-."
+      },
+      {
+        "native": "b̤il /b̤il/ ('nhỡ, lỡ')",
+        "quoc_ngu": "bi-lờ / bin (cong đầu lưỡi lên lợi)",
+        "note": "Âm cuối /-l/ không có trong tiếng Việt; nếu dùng TTS tiếng Việt chỉ đọc được 'bin', âm sẽ bị mũi hóa sai từ /-l/ sang /-n/."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "ti",
+        "ipa": "ti",
+        "gloss_vi": "tay",
+        "gloss_en": "hand / arm"
+      },
+      {
+        "native": "ne",
+        "ipa": "ne",
+        "gloss_vi": "mẹ",
+        "gloss_en": "mother"
+      },
+      {
+        "native": "ma",
+        "ipa": "ma",
+        "gloss_vi": "cô, mẹ ghẻ",
+        "gloss_en": "aunt / stepmother"
+      },
+      {
+        "native": "va",
+        "ipa": "va",
+        "gloss_vi": "bác (anh của bố, mẹ)",
+        "gloss_en": "elder uncle"
+      },
+      {
+        "native": "ki",
+        "ipa": "ki",
+        "gloss_vi": "nó (đại từ ngôi 3 số ít)",
+        "gloss_en": "he / she / it"
+      },
+      {
+        "native": "ka",
+        "ipa": "ka",
+        "gloss_vi": "cá",
+        "gloss_en": "fish"
+      },
+      {
+        "native": "ku",
+        "ipa": "ku",
+        "gloss_vi": "còng, cúi",
+        "gloss_en": "bent / to bow"
+      },
+      {
+        "native": "puh",
+        "ipa": "puh",
+        "gloss_vi": "nóng",
+        "gloss_en": "hot"
+      },
+      {
+        "native": "mih",
+        "ipa": "mih",
+        "gloss_vi": "to, lớn",
+        "gloss_en": "big / large"
+      },
+      {
+        "native": "hit",
+        "ipa": "hit",
+        "gloss_vi": "uống",
+        "gloss_en": "to drink"
+      },
+      {
+        "native": "cha",
+        "ipa": "ca",
+        "gloss_vi": "ăn",
+        "gloss_en": "to eat"
+      },
+      {
+        "native": "ksai",
+        "ipa": "ksaj",
+        "gloss_vi": "cơm",
+        "gloss_en": "cooked rice"
+      },
+      {
+        "native": "achik",
+        "ipa": "acik",
+        "gloss_vi": "gì (từ hỏi)",
+        "gloss_en": "what"
+      },
+      {
+        "native": "raki",
+        "ipa": "raki",
+        "gloss_vi": "gầy",
+        "gloss_en": "thin / skinny"
+      },
+      {
+        "native": "rapiăt",
+        "ipa": "rapiăt",
+        "gloss_vi": "lưỡi",
+        "gloss_en": "tongue"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Bùi Đăng Bình (2024). Tiếng Trieng: các nguyên âm. Tạp chí Ngôn ngữ, Số 9 (2024), tr. 63–71. Viện Ngôn ngữ học.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bùi Đăng Bình (2022). Tiếng Triêng: các phụ âm. Tạp chí Kinh doanh và Công nghệ, Số 23 (2022), ISSN 2615-9414, tr. 79–95.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Bùi Đăng Bình (2025). Chữ viết tiếng Ve. Tạp chí Ngôn ngữ, Số 10 (2025), tr. 142–152 (đối chiếu quy ước ký âm nhóm Giẻ, Triêng, Bhnong, Ve).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Nguyễn Hữu Hoành (2004). Về mối quan hệ ngôn ngữ giữa các nhóm địa phương thuộc dân tộc Gié - Triêng. Tạp chí Ngôn ngữ, Số 7 (2004).",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": null
+    },
+    {
+      "title": "Glottolog 5.3 — Trieng (trie1243)",
+      "url": "https://glottolog.org/resource/languoid/id/trie1243",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Tariang language / Tiếng Triêng",
+      "url": "https://en.wikipedia.org/wiki/Tariang_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Viện Âm nhạc (Học viện Âm nhạc Quốc gia Việt Nam) — Sưu tầm âm nhạc dân gian dân tộc Gié Triêng tại huyện Ngọc Hồi, tỉnh Kon Tum & Điền dã âm nhạc dân gian nhóm Triêng",
+      "url": "https://vienamnhac.vn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 8,
+      "issues": [
+        {
+          "path": "phonology.syllable_structure",
+          "severity": "medium",
+          "problem": "Theo Bùi Đăng Bình (2024, tr. 66–67), âm tiết tiếng Triêng được phân thành 8 kiểu loại: (1) V, (2) C(C)V, (3) C(C)V1V2, (4) V1V2, (5) C(C)VC, (6) C(C)V1V2C, (7) C(C)VCC, (8) VC. Bản nháp hiện chỉ liệt kê 7 kiểu (bỏ sót kiểu loại 1 là V).",
+          "fix": "Bổ sung kiểu âm tiết V vào danh sách các kiểu âm tiết chính theo đúng mô tả của Bùi Đăng Bình (2024)."
+        },
+        {
+          "path": "phonology.vowels",
+          "severity": "medium",
+          "problem": "Thứ tự đánh số âm vị nguyên âm trích dẫn từ Bùi Đăng Bình (2024, tr. 68–69) bị đảo lộn ở các âm vị số 3, 4, 5, 6: trong bài báo gốc, số 3 là /ie/, số 4 là /e/, số 5 là /iə/, số 6 là /ɛ/ (bản nháp ghi nhầm số 3 là /e/, số 4 là /ie/, số 5 là /ɛ/, số 6 là /iə/). Ngoài ra, ví dụ 'bhie (mưa)' ở mục /ie/ và 'luok (bùn)' ở mục /uo/ chưa chính xác so với bản gốc (trong bài báo gốc, từ 'mưa' có phụ âm đầu mũi m- kết hợp trong kiểu C(C)V1V2, còn từ 'bùn' thuộc tổ hợp phụ âm đầu lC- bị lỗi hiển thị font IPA trong PDF, không phải phụ âm đơn /l/).",
+          "fix": "Sửa lại số thứ tự âm vị 3 (/ie/), 4 (/e/), 5 (/iə/), 6 (/ɛ/) khớp với Bùi Đăng Bình (2024); thay ví dụ bị lỗi font PDF ('bhie', 'luok') bằng các ví dụ rõ ràng từ bài báo (/pie/ 'trên', /peh/ 'nháy mắt', /pah/ 'chẻ, bửa', /pih/ 'cái mẹt', /kial/ 'gió')."
+        },
+        {
+          "path": "phonology.onsets[14].note",
+          "severity": "low",
+          "problem": "Ví dụ 'luok /luok/ (bùn)' ở phụ âm /l/ và phụ âm cuối /-k/ thực chất trong bản gốc Bùi Đăng Bình (2024, Bảng 1 & mục 6) là từ có tổ hợp phụ âm đầu bắt đầu bằng l- (hiển thị thành 'l uok' do lỗi mất ký tự IPA đặc biệt trong lớp văn bản PDF), không chắc chắn là phụ âm đơn /l/.",
+          "fix": "Bỏ ví dụ 'luok' ở mục /l/ và /-k/ để tránh truyền tải dữ liệu lỗi trích xuất PDF, thay bằng các từ xác thực trong bài báo (như /kial/ 'gió', /acik/ 'gì')."
+        },
+        {
+          "path": "phonology.onsets",
+          "severity": "medium",
+          "problem": "Tiếng Triêng chưa có bộ chữ viết chính thức; các ánh xạ con chữ (grapheme) sang IPA dựa trên quy ước chữ viết tiếng Ve (Bùi Đăng Bình 2025) và truyền thống ghi âm Bahnaric, trong khi hai bài báo về tiếng Triêng của Bùi Đăng Bình (2022, 2024) chỉ ghi bằng ký hiệu IPA. Việc để confidence='high' cho nhiều ánh xạ grapheme->IPA dễ gây hiểu lầm là chính tả đã chuẩn hóa.",
+          "fix": "Hạ confidence của các mục phụ thuộc vào quy ước chuyển tự chữ viết (chưa có chuẩn chính thức riêng cho tiếng Triêng) hoặc tổ hợp gộp nhiều âm vị xuống 'medium'."
+        },
+        {
+          "path": "music.instruments[1].note",
+          "severity": "low",
+          "problem": "Mô tả bộ Chiêng Nỉ ghi 'Ko - Tray - Ko - Xao' chưa phản ánh đầy đủ tư liệu điền dã tại Kon Tum (làng Đăk Răng, xã Đăk Nông/Dục Nông): nguyên bộ Chiêng Nỉ cổ gồm 4 chiếc là Ko (ông), Kon (cha), Tray (con trai), Sao (con rể); khi diễn tấu bộ '3 chiếc rưỡi' hoặc khi thất lạc chiêng Sao thì thay bằng ống nứa gọi là Dục tít.",
+          "fix": "Bổ sung thông tin chính xác về cấu trúc bộ Chiêng Nỉ (Ko - Kon - Tray - Sao / bộ 3 chiêng + 1 ống nứa Dục tít) theo tư liệu điền dã tại Kon Tum và Quảng Nam."
+        },
+        {
+          "path": "sources",
+          "severity": "low",
+          "problem": "Chưa ghi trạng thái kiểm tra URL (url_check) cho các nguồn trực tuyến.",
+          "fix": "Cập nhật url_check='ok' cho các URL đã kiểm chứng hoạt động."
+        }
+      ]
+    },
+    "open_issues": [
+      "Tiếng Triêng (stg) hiện chưa có bộ chữ viết chuẩn hóa được Nhà nước phê duyệt riêng; các con chữ Latinh trong bảng ánh xạ dựa trên quy ước ký âm thực hành của giới ngôn ngữ học cho cụm ngôn ngữ Giẻ – Triêng – Ve – Bhnong và cần thống nhất nếu xây dựng học liệu.",
+      "Cần bổ sung danh sách đầy đủ toàn bộ 61 phụ âm đơn và tổ hợp phụ âm đầu từ bản in gốc bài báo Bùi Đăng Bình (2022) (do bản PDF điện tử bị mất một số ký tự IPA đặc biệt) và đối chiếu sự khác biệt ngữ âm giữa thổ ngữ Triêng ở Ngọc Hồi (Kon Tum) với thổ ngữ Triêng/Treng ở Nam Giang (Quảng Nam).",
+      "Cần đo đạc âm học thực nghiệm (F0, phổ formant, tỉ số H1-H2) để lượng hóa chính xác biến thể căng/chùng trên nguyên âm tiếng Triêng phục vụ tổng hợp tiếng nói và giọng hát."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}

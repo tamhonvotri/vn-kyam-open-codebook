@@ -1,0 +1,90 @@
+{
+  "target": {
+    "id": "vie-southwest",
+    "kind": "vietnamese_variety",
+    "name_vi": "Tiếng Việt — Giọng miền Tây Nam Bộ (Đồng bằng sông Cửu Long)",
+    "hint": "Phân biệt với giọng Sài Gòn/Đông Nam Bộ; vọng cổ, đờn ca tài tử, hò. Dùng vie-south làm gốc, ghi rõ khác biệt."
+  },
+  "started": "2026-11-13T23:09:52.042708",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9406,
+      "candidatesTokenCount": 12316,
+      "totalTokenCount": 25840,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9406
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12316
+        }
+      ],
+      "thoughtsTokenCount": 4118,
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 14207,
+      "candidatesTokenCount": 12985,
+      "totalTokenCount": 28162,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 14207
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 12985
+        }
+      ],
+      "thoughtsTokenCount": 970,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 9,
+    "issues": [
+      {
+        "path": "phonology.onsets[7]",
+        "severity": "low",
+        "problem": "Mục 'grapheme': 'g + oa' gộp cả nguyên âm chính 'a' vào slot onset khi biểu diễn 'ipa': 'j' (từ 'góa' → 'giá'). Hiện tượng này thực chất là sự biến đổi tổ hợp phụ âm đầu + âm đệm (gw- → j-) mang tính từ vựng hóa ở một vài từ đơn lẻ.",
+        "fix": "Sửa grapheme thành 'g + o- (âm đệm -w- trong từ góa)' và hạ confidence xuống 'low' (vì chỉ giới hạn ở từ vựng cụ thể 'ở giá', không phải quy tắc âm vị học sản sinh)."
+      },
+      {
+        "path": "correspondences_from_standard_vietnamese[5].example_variety",
+        "severity": "low",
+        "problem": "Ví dụ 'qua / hoa / ngoan' ghi example_variety là 'wa / wa / wan', vừa lẫn ký hiệu IPA với chữ viết, vừa bỏ sót biến đổi âm cuối -n → -ng [-ŋ] trong từ 'ngoan' → 'quang' [waːŋ˧˧].",
+        "fix": "Sửa example_variety thành 'qua / qua / quang ([waː / waː / waːŋ])'."
+      },
+      {
+        "path": "phonology.codas[2]",
+        "severity": "low",
+        "problem": "Ghi chú '-inh → [ɨn], -ich → [ɨt]' hơi hẹp; trong ngữ âm học thực nghiệm phương ngữ Nam Bộ (Thompson 1965, Kirby 2011), nguyên âm trước /-n, -t/ (từ -nh/-ch) là nguyên âm hàng trước hơi trung tâm hóa hoặc nguyên âm trung tâm cao/vừa [ɪn ~ ɨn ~ əːn].",
+        "fix": "Bổ sung biến thể [ɪn ~ ɨn] và [ɪt ~ ɨt] vào phần mô tả để chính xác hơn về mặt ngữ âm học."
+      },
+      {
+        "path": "respelling_rules[0]",
+        "severity": "low",
+        "problem": "Quy tắc viết lại 'kêu' → 'kiu' ở mức 'light' không có cờ 'optional: true', có thể làm thay đổi sắc thái văn phong trong các bài ca cổ trang trọng.",
+        "fix": "Thêm 'optional': true cho quy tắc 'kêu' → 'kiu'."
+      },
+      {
+        "path": "sources",
+        "severity": "low",
+        "problem": "Trường url_check của các nguồn có URL đang để null.",
+        "fix": "Cập nhật url_check sau khi kiểm chứng."
+      }
+    ]
+  },
+  "schema_errors": []
+}

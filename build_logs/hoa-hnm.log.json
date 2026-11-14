@@ -1,0 +1,97 @@
+{
+  "target": {
+    "id": "hoa-hnm",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Hải Nam",
+    "ethnic_group_vi": "Hoa",
+    "iso639_3_expected": "hnm",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Hoa tại Việt Nam (mã ISO dự kiến: hnm; bảng mã dân tộc gốc: hoa). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"hoa\"."
+  },
+  "started": "2026-11-13T23:32:43.305832",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9436,
+      "candidatesTokenCount": 7966,
+      "totalTokenCount": 17402,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9436
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7966
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  },
+  "review": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 10303,
+      "candidatesTokenCount": 10464,
+      "totalTokenCount": 22995,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10303
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 10464
+        }
+      ],
+      "thoughtsTokenCount": 2228,
+      "serviceTier": "standard"
+    },
+    "decision": "MODIFY",
+    "score": 8,
+    "issues": [
+      {
+        "path": "autonym",
+        "severity": "medium",
+        "problem": "Trường autonym ghi 'Hhai3 nam2 ue1' (sao chép lỗi đánh máy từ infobox Wikipedia tiếng Anh), trong khi chữ 話 (ue) mang thanh Dương khứ (T5, 'ue5') như chính bảng mã đã ghi đúng ở ml_hints.quoc_ngu_approximation và ml_hints.sample_words ('Hhai3 nam2 ue5').",
+        "fix": "Sửa thành '海南話 / Hái-nâm-oe / Hhai3 nam2 ue5' để thống nhất nội bộ và đúng thanh điệu lịch sử của chữ 話."
+      },
+      {
+        "path": "phonology.tones",
+        "severity": "high",
+        "problem": "Có sự vênh nhau giữa hai nguồn Wikipedia về cách đánh số thanh 6, 7, 8 và giá trị Chao contour: (1) Bảng ở bài 'Hainanese' đánh số T6 = Âm nhập (5, 失), T7 = Dương nhập (3, 实), T8 = Trường nhập (55, 视) với đường nét thanh điệu nghiêng về phương ngữ Hải Khẩu; trong khi (2) Phương án Phiên âm tiếng Hải Nam 1960 (Hainanese Transliteration Scheme) và Từ điển Lương Du Cương đánh số T6 = Trường nhập / Âm nhập mở (視 di6), T7 = Âm nhập tắc (失 did7), T8 = Dương nhập tắc (實 did8). Ngoài ra, đường nét thanh điệu Văn Xương theo Woon (1979) có T1=44, T2=33, T3=ʔ21, T4=11, T5=33, khác với hệ Hải Khẩu (T1=24, T2=21, T3=211/213, T4=35, T5=33). Bản nháp dùng hệ contour Hải Khẩu trong phonology.tones và lexicon nhưng lại dùng hệ contour Văn Xương của Woon (1979) trong ml_hints.sample_words mà không giải thích rõ.",
+        "fix": "Ghi chú rõ cả hai quy ước đánh số thanh Nhập (T6/T7/T8) và ghi rõ biến thể Chao contour giữa Hải Khẩu và Văn Xương (Woon 1979) trong phonology.tones cũng như đồng bộ ghi chú IPA ở lexicon và ml_hints.sample_words; hạ confidence của T6, T7, T8 xuống 'medium'."
+      },
+      {
+        "path": "phonology.vowels[11].note",
+        "severity": "low",
+        "problem": "Ví dụ '食 giah7 / zia7' dùng chữ 食 (ăn) vốn là từ thanh Dương nhập (ở Văn Xương đọc âm mở hoặc tắc tùy từ tầng văn/bạch: zia6/ziah8), dễ gây nhầm lẫn với quy ước số thanh.",
+        "fix": "Đổi sang ví dụ rõ ràng hơn từ bảng chuẩn Phương án 1960: '也 ia3, 寫 sia3'."
+      },
+      {
+        "path": "lexicon",
+        "severity": "medium",
+        "problem": "Các mục từ ghép khẩu ngữ như 'ga1-bi1' (cà phê) và 'bui5-zin1' (cơm nắm) chưa có nguồn từ điển tiếng Hải Nam tại Việt Nam kiểm chứng trực tiếp về mặt hình thức âm vị và thanh điệu.",
+        "fix": "Hạ confidence của 'ga1-bi1' và 'bui5-zin1' xuống 'low' và ghi rõ hệ thanh điệu áp dụng trong cột IPA."
+      },
+      {
+        "path": "regions",
+        "severity": "low",
+        "problem": "Thiếu đề cập đến các cộng đồng người Hoa Hải Nam lịch sử tại miền Trung (Hội An – Quảng Nam và Ninh Hòa – Khánh Hòa), nơi vẫn còn các di tích Hội quán Quỳnh Phủ (Hội quán Hải Nam) nổi tiếng dù ngôn ngữ hiện đã chuyển dịch mạnh sang tiếng Việt.",
+        "fix": "Bổ sung thêm vùng di sản lịch sử tại miền Trung (Hội An, Ninh Hòa) vào trường regions."
+      },
+      {
+        "path": "sources[7]",
+        "severity": "low",
+        "problem": "Bài viết 'Thú vị nghệ thuật hát tuồng cổ Tết Nguyên Tiêu tại TP.HCM' đăng trên chuyên trang Tạp chí Du lịch TP.HCM thuộc báo Tuổi Trẻ nhưng URL gốc viết trực tiếp dưới tên miền tuoitre.vn có thể chuyển hướng hoặc khó truy xuất trực tiếp; đồng thời nên bổ sung mục từ Wikipedia tiếng Việt về Hội quán Quỳnh Phủ (TP.HCM).",
+        "fix": "Ghi chú rõ nguồn chuyên trang báo Tuổi Trẻ và bổ sung nguồn Wikipedia tiếng Việt cho Hội quán Quỳnh Phủ."
+      }
+    ]
+  },
+  "schema_errors": []
+}

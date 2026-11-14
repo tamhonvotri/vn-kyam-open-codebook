@@ -1,0 +1,36 @@
+{
+  "target": {
+    "id": "xo-dang-moo",
+    "kind": "minority_language",
+    "name_vi": "Tiếng Mơ Nâm",
+    "ethnic_group_vi": "Xơ Đăng",
+    "iso639_3_expected": "moo",
+    "hint": "Ngôn ngữ/biến thể của nhóm địa phương thuộc dân tộc Xơ Đăng tại Việt Nam (mã ISO dự kiến: moo; bảng mã dân tộc gốc: xo-dang). Chỉ mô tả phần nói tại Việt Nam; ghi ml_hints.parent_codebook=\"xo-dang\"."
+  },
+  "started": "2026-11-14T00:03:57.205994",
+  "draft": {
+    "grounding": [],
+    "queries": [],
+    "usage": {
+      "promptTokenCount": 9446,
+      "candidatesTokenCount": 9344,
+      "totalTokenCount": 25168,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9446
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 9344
+        }
+      ],
+      "thoughtsTokenCount": 6378,
+      "serviceTier": "standard"
+    }
+  },
+  "review_error": "gemini-4-argon failed: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Your billing account has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/billing to manage your billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#tier-spend-caps. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n",
+  "schema_errors": []
+}

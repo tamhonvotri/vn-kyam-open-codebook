@@ -1,0 +1,817 @@
+{
+  "id": "nung-zhn",
+  "kind": "minority_language",
+  "name_vi": "Tiếng Nùng Dín",
+  "name_en": "Nùng Dín (Western Nung / Nong Zhuang in Vietnam)",
+  "autonym": "Nồng / Phu Nồng (nɔŋ44 ~ nuŋ31)",
+  "ethnic_group_vi": "Nùng",
+  "language": {
+    "iso639_3": "zhn",
+    "glottocode": "nong1247",
+    "family": "Kra-Dai",
+    "branch": "Tai (Central Tai)"
+  },
+  "regions": [
+    "Lào Cai (Mường Khương, Bắc Hà, Si Ma Cai, Bảo Thắng)",
+    "Hà Giang (Hoàng Su Phì, Xín Mần, Vị Xuyên)",
+    "Tuyên Quang (một số điểm vùng cao phía tây)",
+    "Tây Nguyên (một số hộ di cư từ Lào Cai, Hà Giang)"
+  ],
+  "speakers_estimate": "Khoảng 30.000–40.000 người tại Việt Nam (riêng tỉnh Lào Cai có trên 27.000 người Nùng Dín, đông nhất tại huyện Mường Khương với trên 12.000 người; chưa có thống kê tách riêng số người nói thông thạo ở Hà Giang)",
+  "scripts": [
+    {
+      "name": "Chữ Latinh (phiên âm dựa trên chữ Quốc ngữ / chữ Tày-Nùng)",
+      "iso15924": "Latn",
+      "unicode_block": "Latin Extended Additional",
+      "official_in_vietnam": false,
+      "note": "Người Nùng Dín tại Việt Nam không có bộ chữ viết riêng được chuẩn hóa độc lập. Trong sưu tầm dân ca và sinh hoạt câu lạc bộ (như tại xã Nấm Lư, Mường Khương, Lào Cai), nghệ nhân dùng chữ Quốc ngữ tiếng Việt (kết hợp quy ước chữ Tày-Nùng Latinh 1961) để ký âm truyền dạy; không dùng hệ chữ Tráng Văn Sơn của Trung Quốc."
+    },
+    {
+      "name": "Chữ Hán / Chữ Nôm Nùng cổ truyền",
+      "iso15924": "Hani",
+      "unicode_block": "CJK Unified Ideographs",
+      "official_in_vietnam": false,
+      "note": "Chỉ còn lưu giữ hạn chế trong văn bản nghi lễ, sách cúng của thầy tào, thầy mo trong tang ma và cúng bản."
+    }
+  ],
+  "status": "draft-llm",
+  "status_note": "Bản thảo tổng hợp từ tư liệu điền dã ngữ âm phương ngữ 'Western Nung' (Nùng Phía Tây tại Mường Khương và Bản Lầu, Lào Cai) của William J. Gedney (Hudak biên tập, 1995, 2008), đối chiếu với phân loại Glottolog/SIL cho mã zhn và tư liệu dân tộc học Việt Nam về nhóm Nùng Dín ở Lào Cai – Hà Giang. Do Nùng Dín tại Việt Nam chưa có chính tả chuẩn riêng, cột grapheme phản ánh cách ghi Latinh dựa trên chữ Tày-Nùng / Quốc ngữ kết hợp ký hiệu ngữ âm học.",
+  "phonology": {
+    "syllable_structure": "C1(w)V(V)(C2)+T",
+    "onsets": [
+      {
+        "grapheme": "p",
+        "ipa": "p",
+        "note": "Tắc hai môi vô thanh không bật hơi (ví dụ: pay14 'đi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ph",
+        "ipa": "pʰ",
+        "note": "Tắc hai môi vô thanh bật hơi (ví dụ: phɯː14 'chúng tôi'); khác với chữ 'ph' [f] của tiếng Việt",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "b",
+        "ipa": "b ~ ʔb",
+        "note": "Tắc hai môi hữu thanh / tiền thanh hầu hóa (ví dụ: baːn22 'bản, làng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi (ví dụ: mow14 'lợn', maj21 'đốt, cháy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "f",
+        "ipa": "f",
+        "note": "Xát môi-răng vô thanh (ví dụ: faː55 'trời')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "v",
+        "ipa": "v",
+        "note": "Xát môi-răng hữu thanh ở đầu âm tiết; phân bố bổ túc với bán nguyên âm [-w-] sau phụ âm đầu (ví dụ: viː14 'cái lược')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi (ví dụ: tɛm22 'thắp, đốt')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "th",
+        "ipa": "tʰ",
+        "note": "Tắc đầu lưỡi vô thanh bật hơi (ví dụ: thaː14 'mắt', thiː21 'dày, khít'); Nùng Dín không có âm xát bên [ɬ] (sl) như Nùng Đông Bắc mà thường tương ứng với [tʰ] hoặc [s]",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "đ (d)",
+        "ipa": "d ~ ʔd",
+        "note": "Tắc đầu lưỡi hữu thanh / tiền thanh hầu hóa (ví dụ: dɔːk21 'hoa', dɯː14 'rốn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi (ví dụ: nam55 'nước', nɔŋ44 'người Nùng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "l",
+        "ipa": "l",
+        "note": "Bên đầu lưỡi (ví dụ: lɛŋ55 'khô', law22 'rượu')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "x (s)",
+        "ipa": "s",
+        "note": "Xát chân răng vô thanh (ví dụ: sɯɰ55 'mua', siw14 'cái đục')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "s (sh)",
+        "ipa": "ɕ ~ ʃ",
+        "note": "Xát ngạc/sau chân răng vô thanh, đối lập với /s/ trong tư liệu Mường Khương của Gedney (ví dụ: ʃɔj44 'đánh đu')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "r (d)",
+        "ipa": "ð ~ ʒ",
+        "note": "Xát hữu thanh ma sát nhẹ (phản ánh *r nguyên thủy trong từ 'rẫy': ðaj21 / ʒaj21); biến thể địa phương có thể đọc gần [z] hoặc [r]",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "ch (c)",
+        "ipa": "tɕ ~ c",
+        "note": "Tắc/tắc-xát mặt lưỡi vô thanh không bật hơi (ví dụ: tɕin14 'ăn', tɕiː55 'chỉ trỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "chh (x/s)",
+        "ipa": "tɕʰ ~ cʰ",
+        "note": "Tắc-xát mặt lưỡi vô thanh bật hơi (ví dụ: tɕʰuŋ22 'cay, nồng'); âm không có trong tiếng Việt chuẩn",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "nh",
+        "ipa": "ɲ",
+        "note": "Mũi mặt lưỡi (ví dụ: ɲiː22 'trốn chạy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "d / gi (y)",
+        "ipa": "j",
+        "note": "Tiếp cận ngạc cứng (ví dụ: jiw21 'ở, tại')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "k (c)",
+        "ipa": "k",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi (ví dụ: kɔːn21 'trước', kiːw14 'gọi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "kh",
+        "ipa": "kʰ",
+        "note": "Tắc ngạc mềm vô thanh bật hơi (ví dụ: kʰaw22 'lúa, gạo, cơm'); khác với âm xát [x] của tiếng Việt Hà Nội",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng (ngh)",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm (ví dụ: ŋuː44 'rắn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "qu (kw)",
+        "ipa": "kw",
+        "note": "Tổ hợp phụ âm đầu duy nhất được Gedney ghi nhận ở Mường Khương (ví dụ: kwaːj21 'bướng bỉnh', kwaːŋ14 'con nai'); ngoài ra âm đệm [-w-] còn đi sau kh- trong kʰwej21 'cưỡi'",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không viết)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu trước nguyên âm đầu âm tiết (ví dụ: ʔaːn14 'yên ngựa', ʔɯʔ21 'bí ngô')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "h",
+        "ipa": "h",
+        "note": "Xát thanh hầu vô thanh (ví dụ: hɔːŋ21 'đồ vật')",
+        "confidence": "high"
+      }
+    ],
+    "vowels": [
+      {
+        "grapheme": "i",
+        "ipa": "i",
+        "note": "Nguyên âm cao trước không tròn môi ngắn, xuất hiện trong âm tiết đóng (ví dụ: tɕin14 'ăn')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / ii",
+        "ipa": "iː",
+        "note": "Nguyên âm cao trước dài (ví dụ: viː14 'lược', tɕiː55 'chỉ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư",
+        "ipa": "ɯ",
+        "note": "Nguyên âm cao/trung sau không tròn môi ngắn (ví dụ: pʰɯn14 'mưa', tɯn14 'thức dậy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư / ưư",
+        "ipa": "ɯː",
+        "note": "Nguyên âm cao/trung sau không tròn môi dài (ví dụ: pʰɯː14 'chúng tôi', sɯː44 'màu sắc / chữ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u",
+        "ipa": "u",
+        "note": "Nguyên âm cao sau tròn môi ngắn (ví dụ: hup21 'hút thuốc', sut44 'húp, nhấp')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "u / uu",
+        "ipa": "uː",
+        "note": "Nguyên âm cao sau tròn môi dài (ví dụ: ŋuː44 'rắn', tʰuː14 'đầu', luːk31 ~ luk31 'con')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "e",
+        "ipa": "ɛ",
+        "note": "Nguyên âm trước mở trung bình ngắn (Gedney ghi e nhưng mô tả ngữ âm là [ɛ], ví dụ: tɛm22 'thắp, đốt', nɛʔ22 'này')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ê / e (ee)",
+        "ipa": "ɛː ~ eː",
+        "note": "Nguyên âm trước dài (ví dụ: lɛːw55 'xong, rồi', tɕʰɛːk21 'xé')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ă (a)",
+        "ipa": "a",
+        "note": "Nguyên âm mở ngắn, đối lập độ dài với /aː/ trong âm tiết đóng (ví dụ: nam55 'nước', kʰaw22 'gạo/cơm', vat44 'nhúng')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "a (aa)",
+        "ipa": "aː",
+        "note": "Nguyên âm mở dài (ví dụ: baːn22 'bản', tʰaː14 'mắt', laːw14 'sợ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o",
+        "ipa": "ɔ",
+        "note": "Nguyên âm sau mở trung bình tròn môi ngắn (ví dụ: nɔŋ44 'Nùng', tʰɔŋ21 'rò rỉ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "o / ô (oo)",
+        "ipa": "ɔː ~ oː",
+        "note": "Nguyên âm sau tròn môi dài (ví dụ: cɔːk21 'cốc, chén', hɔːŋ21 'đồ vật')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ây (ey)",
+        "ipa": "ej",
+        "note": "Nguyên âm đôi phản ánh *iː cổ trong một số từ (ví dụ: kʰwej21 'cưỡi', pej14 'đi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "âu / ôu (ow)",
+        "ipa": "ow",
+        "note": "Nguyên âm đôi phản ánh *uː cổ trong một số từ (ví dụ: mow14 'lợn', jow21 'ở')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ưưi / ưɰ",
+        "ipa": "ɯɰ",
+        "note": "Nguyên âm đôi kết thúc bằng bán nguyên âm ngạc mềm không tròn môi, phản ánh *ɯː cổ (ví dụ: sɯɰ55 'mua')",
+        "confidence": "medium"
+      }
+    ],
+    "codas": [
+      {
+        "grapheme": "m",
+        "ipa": "m",
+        "note": "Mũi hai môi cuối âm tiết (ví dụ: nam55 'nước', tɛm22 'viết / thắp')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "n",
+        "ipa": "n",
+        "note": "Mũi đầu lưỡi cuối âm tiết (ví dụ: baːn22 'bản', tɯn14 'thức dậy')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ng",
+        "ipa": "ŋ",
+        "note": "Mũi ngạc mềm cuối âm tiết, không đồng hóa môi hóa như tiếng Việt (ví dụ: lɛŋ55 'khô', kwaːŋ14 'con nai')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "p",
+        "ipa": "p̚",
+        "note": "Tắc hai môi vô thanh không bật hơi cuối âm tiết khép (ví dụ: hup21 'hút thuốc')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "t",
+        "ipa": "t̚",
+        "note": "Tắc đầu lưỡi vô thanh không bật hơi cuối âm tiết khép (ví dụ: vat44 'chấm, nhúng', sut44 'húp')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "c (k)",
+        "ipa": "k̚",
+        "note": "Tắc ngạc mềm vô thanh không bật hơi cuối âm tiết khép (ví dụ: bak55 'vợt', mak44 'thích', luːk31 ~ luk31 'con')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "(không viết)",
+        "ipa": "ʔ",
+        "note": "Tắc thanh hầu cuối một số từ hoặc tiểu từ (ví dụ: nɛʔ22 'này', ʔɯʔ21 'bí ngô', maːʔ21 'quả')",
+        "confidence": "medium"
+      },
+      {
+        "grapheme": "u / o (w)",
+        "ipa": "w",
+        "note": "Bán nguyên âm cuối tạo vần đôi (ví dụ: law22 'rượu', laːw14 'sợ', kiːw14 'gọi')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "i / y",
+        "ipa": "j",
+        "note": "Bán nguyên âm mặt lưỡi cuối âm tiết (ví dụ: kʰaj14 'mở', nɔːj21 'ít, nhỏ')",
+        "confidence": "high"
+      },
+      {
+        "grapheme": "ư (ɰ)",
+        "ipa": "ɰ",
+        "note": "Bán nguyên âm ngạc mềm không tròn môi cuối vần (ví dụ: maɰ21 'mới', sɯɰ55 'mua')",
+        "confidence": "medium"
+      }
+    ],
+    "tones": [
+      {
+        "id": "tone1",
+        "name": "Thanh 1 (thấp lên — tương ứng ô A1, A2, A3 của Gedney)",
+        "mark": null,
+        "chao_contour": "14",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone2",
+        "name": "Thanh 2 (thấp xuống — tương ứng ô B1, B2, B3; và DL1, DL2, DL3)",
+        "mark": null,
+        "chao_contour": "21",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone3",
+        "name": "Thanh 3 (trung-thấp ngang, thanh hầu hóa — tương ứng ô C1, C2, C3)",
+        "mark": null,
+        "chao_contour": "22",
+        "phonation": "glottalized (thanh hầu hóa / nghẽn thanh hầu cuối)",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone4",
+        "name": "Thanh 4 (trung-cao ngang — tương ứng ô A4; và DS4)",
+        "mark": null,
+        "chao_contour": "44",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone5",
+        "name": "Thanh 5 (trung xuống thấp — tương ứng ô B4; và DL4)",
+        "mark": null,
+        "chao_contour": "31",
+        "phonation": "modal",
+        "merges_with": null,
+        "confidence": "high"
+      },
+      {
+        "id": "tone6",
+        "name": "Thanh 6 (cao ngang, thanh hầu hóa — tương ứng ô C4; và DS1, DS2, DS3)",
+        "mark": null,
+        "chao_contour": "55",
+        "phonation": "glottalized (thanh hầu hóa trên âm tiết mở)",
+        "merges_with": null,
+        "confidence": "high"
+      }
+    ],
+    "register_or_phonation": "Ngôn ngữ có 6 thanh điệu trên âm tiết mở/mũi (theo tư liệu Mường Khương của Gedney). Thanh 3 (22) và thanh 6 (55) mang đặc trưng thanh hầu hóa (glottalized). Âm tiết khép (-p, -t, -k) phân bố theo độ dài nguyên âm và tính thanh của phụ âm đầu lịch sử: nguyên âm ngắn nhận nét cao độ tương đương thanh 6 (55) và thanh 4 (44); nguyên âm dài nhận nét cao độ tương đương thanh 2 (21) và thanh 5 (31)."
+  },
+  "lexicon": [
+    {
+      "standard_vi": "nước",
+      "form": "năm",
+      "ipa": "nam55",
+      "gloss_en": "water",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "cơm / lúa gạo",
+      "form": "khảu",
+      "ipa": "kʰaw22",
+      "gloss_en": "rice",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "ăn",
+      "form": "chỉn / kin",
+      "ipa": "tɕin14",
+      "gloss_en": "to eat",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "đi",
+      "form": "pảy / pây",
+      "ipa": "paj14 ~ pej14",
+      "gloss_en": "to go",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "bản, làng",
+      "form": "bản",
+      "ipa": "baːn22",
+      "gloss_en": "village",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "trời",
+      "form": "fá",
+      "ipa": "faː55",
+      "gloss_en": "sky",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mưa",
+      "form": "phưn",
+      "ipa": "pʰɯn14",
+      "gloss_en": "rain",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mắt",
+      "form": "thả",
+      "ipa": "tʰaː14",
+      "gloss_en": "eye",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "lợn (heo)",
+      "form": "mâu",
+      "ipa": "mow14",
+      "gloss_en": "pig",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rắn",
+      "form": "ngu",
+      "ipa": "ŋuː44",
+      "gloss_en": "snake",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "hoa",
+      "form": "đọc",
+      "ipa": "dɔːk21",
+      "gloss_en": "flower",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "con (con cái)",
+      "form": "lục",
+      "ipa": "luːk31 ~ luk31",
+      "gloss_en": "child",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "rượu",
+      "form": "lảu",
+      "ipa": "law22",
+      "gloss_en": "liquor / wine",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mua",
+      "form": "xứ",
+      "ipa": "sɯɰ55",
+      "gloss_en": "to buy",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "mới",
+      "form": "màư",
+      "ipa": "maɰ21",
+      "gloss_en": "new",
+      "confidence": "high"
+    },
+    {
+      "standard_vi": "nhà táng (tranh cắt giấy tang lễ)",
+      "form": "rân sả",
+      "ipa": null,
+      "gloss_en": "paper funeral house",
+      "confidence": "medium"
+    },
+    {
+      "standard_vi": "cột tiền / cây tiền (tang lễ)",
+      "form": "ẳn xả",
+      "ipa": null,
+      "gloss_en": "paper money tree (funeral)",
+      "confidence": "medium"
+    }
+  ],
+  "music": {
+    "genres": [
+      {
+        "name": "Dân ca Nùng Dín — Hát giao duyên",
+        "note": "Hát đối đáp nam nữ trong ngày hội xuân, hội bản, đám cưới hoặc ban đêm; thể thơ phổ biến là thơ 5 chữ, gồm các bài cổ cố định (24 bài) và lối ứng tác đối đáp."
+      },
+      {
+        "name": "Dân ca Nùng Dín — Hát mâm cỗ và hát chúc mừng",
+        "note": "Hát trong tiệc cưới, mừng nhà mới, lễ tết của người Nùng Dín tại Mường Khương (Lào Cai) và Hoàng Su Phì, Xín Mần (Hà Giang); riêng mảng hát mâm cỗ ghi nhận 41 bài cổ."
+      },
+      {
+        "name": "Dân ca Nùng Dín — Hát giao lưu và hát chính sự",
+        "note": "Phản ánh lịch sử di cư, lao động sản xuất, đạo lý gia đình và tình đoàn kết bản làng (ghi nhận khoảng 34 bài hát giao lưu và 5 bài hát chính sự); được Câu lạc bộ Dân ca Nùng Dín xã Nấm Lư (Mường Khương) bảo tồn và truyền dạy."
+      },
+      {
+        "name": "Hát cúng và nhạc lễ Múa ngựa giấy",
+        "note": "Gắn với nghi lễ cúng bản, cầu an, tạ ơn và lễ hiếu (tang ma) đặc trưng của người Nùng Dín ở Mường Khương."
+      }
+    ],
+    "ornaments": [
+      {
+        "name": "Luyến ngân cuối câu thơ 5 chữ",
+        "description": "Ngân dài và luyến nhẹ ở âm tiết thứ 5 cuối câu để người đối đáp bắt giọng; cao độ bám sát thanh điệu tự nhiên của từ tiếng Nùng Dín.",
+        "abc": null,
+        "confidence": "low"
+      }
+    ],
+    "scales_or_modes": [
+      {
+        "name": "Thang âm ngũ cung dân gian Tày - Nùng vùng biên giới Tây Bắc",
+        "note": "Hát mộc không nhạc đệm trong hát đối đáp giao duyên; giai điệu uyển chuyển phụ thuộc chặt vào 6 thanh điệu của phương ngữ Nùng Dín. Chưa có công trình ký âm nhạc lý chuẩn hóa cao độ cho riêng Nùng Dín.",
+        "confidence": "low"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Đàn nhị",
+        "note": "Dùng trong sinh hoạt văn nghệ và nghi lễ truyền thống"
+      },
+      {
+        "name": "Sáo trúc / Kèn",
+        "note": "Dùng trong đám cưới, lễ hội và nghi lễ"
+      },
+      {
+        "name": "Vòng chuông nhỏ (trên cổ ngựa giấy)",
+        "note": "Tạo nhịp điệu leng keng sôi động theo bước chân trong điệu múa ngựa giấy nghi lễ"
+      },
+      {
+        "name": "Thanh la, não bạt, trống, chiêng nhỏ",
+        "note": "Bộ gõ dùng trong nghi lễ cúng tào, mo và múa nghi lễ"
+      }
+    ]
+  },
+  "ml_hints": {
+    "parent_codebook": "nung",
+    "vietnam_scope_note": "Chỉ mô tả biến thể tiếng Nùng Dín nói tại Việt Nam (Lào Cai, Hà Giang). Dù chia sẻ mã ISO 639-3 [zhn] với Nong Zhuang ở châu Văn Sơn (Vân Nam, Trung Quốc), cộng đồng tại Việt Nam thuộc dân tộc Nùng, song ngữ với tiếng Việt/tiếng Quan Hỏa vùng biên và dùng chữ Quốc ngữ khi ghi âm dân ca. Từ vựng Nùng Dín khác biệt đáng kể so với các nhóm Nùng Đông Bắc (Lạng Sơn, Cao Bằng - mã ISO nut).",
+    "sub_varieties": [
+      {
+        "name": "Nùng Dín Lào Cai (Mường Khương, Bắc Hà, Si Ma Cai, Bảo Thắng)",
+        "iso639_3": "zhn",
+        "note": "Biến thể chính được mô tả ngữ âm chi tiết dưới tên 'Western Nung' (Gedney 1995/2008 tại Mường Khương và Bản Lầu)."
+      },
+      {
+        "name": "Nùng Dín Tây Hà Giang (Hoàng Su Phì, Xín Mần, Vị Xuyên)",
+        "iso639_3": "zhn",
+        "note": "Cùng nhóm tộc người Nùng Dín với Lào Cai, cư trú liền dải biên giới thượng nguồn sông Chảy."
+      },
+      {
+        "name": "Tiếng Nùng Đông Bắc (Nùng Phàn Slình, Nùng Cháo, Nùng Inh, Nùng An, Nùng Lòi...)",
+        "iso639_3": "nut",
+        "note": "Các nhóm Nùng chủ lưu ở Lạng Sơn, Cao Bằng; cùng nhánh Tai Trung tâm nhưng khác mã ISO và chỉ thông hiểu một phần từ vựng cơ bản với Nùng Dín."
+      },
+      {
+        "name": "Nùng Giang / Tráng Dương (Yang Zhuang)",
+        "iso639_3": "zyg",
+        "note": "Nhóm địa phương thuộc dân tộc Nùng chủ yếu ở Hà Quảng (Cao Bằng), gần gũi về mặt lịch sử ngữ âm với zhn."
+      },
+      {
+        "name": "Thu Lao / Tráng Đợi (Dai Zhuang)",
+        "iso639_3": "zhd",
+        "note": "Ngôn ngữ Tai Trung tâm khác cùng địa bàn Mường Khương, Si Ma Cai (Lào Cai), cần phân biệt với Nùng Dín."
+      }
+    ],
+    "quoc_ngu_approximation": [
+      {
+        "native": "ph [pʰ]",
+        "quoc_ngu": "p-h / ph (đọc bật hơi)",
+        "note": "Chữ 'ph' trong tiếng Việt đọc là âm xát [f]. Mô hình TTS chỉ biết tiếng Việt sẽ đọc sai /pʰɯn14/ ('mưa') thành [fɯn]; cần chú thích bật hơi môi như tiếng Thái/Lào, còn âm [f] thật sự trong Nùng Dín nên viết là 'f' (ví dụ: 'fá')."
+      },
+      {
+        "native": "chh [tɕʰ ~ cʰ]",
+        "quoc_ngu": "s / x (xấp xỉ thô)",
+        "note": "Âm tắc-xát mặt lưỡi bật hơi [tɕʰ] không tồn tại trong tiếng Việt chuẩn. Khi phiên âm dân gian dễ bị nhập vào 'ch' [c] hoặc 'x/s'."
+      },
+      {
+        "native": "kh [kʰ]",
+        "quoc_ngu": "kh",
+        "note": "Trong Nùng Dín là âm tắc ngạc mềm bật hơi [kʰ], cứng hơn âm xát [x] của phương ngữ Bắc Bộ tiếng Việt."
+      },
+      {
+        "native": "ưɰ / aɰ [-ɰ]",
+        "quoc_ngu": "ưi / ươi / âu",
+        "note": "Bán nguyên âm cuối ngạc mềm không tròn môi [-ɰ] (như trong sɯɰ55 'mua', maɰ21 'mới') không có trong tiếng Việt chuẩn; xấp xỉ Quốc ngữ gần nhất là '-ưi' hoặc '-ư'."
+      },
+      {
+        "native": "a vs. aa / i vs. ii (đối lập nguyên âm ngắn – dài)",
+        "quoc_ngu": "ă vs. a (cho cặp a/aː); không phân biệt được cho i/iː, u/uː, ư/ɯː",
+        "note": "Chữ Quốc ngữ chỉ phân biệt độ dài ở a/ă và â/ơ; các cặp nguyên âm ngắn-dài khác của Nùng Dín bị trung hòa khi viết bằng Quốc ngữ."
+      },
+      {
+        "native": "6 thanh điệu (14, 21, 22ʔ, 44, 31, 55ʔ)",
+        "quoc_ngu": "Thanh 1 (14) ≈ hỏi/sắc thấp; Thanh 2 (21) ≈ huyền; Thanh 3 (22ʔ) ≈ nặng; Thanh 4 (44) ≈ ngang cao; Thanh 5 (31) ≈ huyền bắt đầu cao; Thanh 6 (55ʔ) ≈ sắc cao ngắt",
+        "note": "Ánh xạ sang 6 dấu thanh tiếng Việt chỉ mang tính xấp xỉ đường nét cao độ; cần lưu ý tính thanh hầu hóa (nghẽn thanh hầu) ở thanh 3 (22) và thanh 6 (55)."
+      }
+    ],
+    "sample_words": [
+      {
+        "native": "năm",
+        "ipa": "nam55",
+        "meaning_vi": "nước"
+      },
+      {
+        "native": "fá",
+        "ipa": "faː55",
+        "meaning_vi": "trời"
+      },
+      {
+        "native": "phưn",
+        "ipa": "pʰɯn14",
+        "meaning_vi": "mưa"
+      },
+      {
+        "native": "khảu",
+        "ipa": "kʰaw22",
+        "meaning_vi": "lúa, gạo, cơm"
+      },
+      {
+        "native": "chỉn",
+        "ipa": "tɕin14",
+        "meaning_vi": "ăn"
+      },
+      {
+        "native": "pảy",
+        "ipa": "paj14",
+        "meaning_vi": "đi"
+      },
+      {
+        "native": "bản",
+        "ipa": "baːn22",
+        "meaning_vi": "bản, làng"
+      },
+      {
+        "native": "thả",
+        "ipa": "tʰaː14",
+        "meaning_vi": "mắt"
+      },
+      {
+        "native": "thủ",
+        "ipa": "tʰuː14",
+        "meaning_vi": "đầu"
+      },
+      {
+        "native": "mâu",
+        "ipa": "mow14",
+        "meaning_vi": "lợn"
+      },
+      {
+        "native": "ngu",
+        "ipa": "ŋuː44",
+        "meaning_vi": "rắn"
+      },
+      {
+        "native": "đọc",
+        "ipa": "dɔːk21",
+        "meaning_vi": "hoa"
+      },
+      {
+        "native": "lục",
+        "ipa": "luːk31 ~ luk31",
+        "meaning_vi": "con"
+      },
+      {
+        "native": "lảu",
+        "ipa": "law22",
+        "meaning_vi": "rượu"
+      },
+      {
+        "native": "phư",
+        "ipa": "pʰɯː14",
+        "meaning_vi": "chúng tôi / chúng ta"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hudak, Thomas John (ed.) (2008). William J. Gedney's Comparative Tai Source Book (Chapter: The Tai Dialect of Western Nung, pp. 34–36 — dữ liệu Mường Khương & Bản Lầu, Lào Cai). University of Hawai'i Press.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Hudak, Thomas John (ed.) (1995). William J. Gedney's Central Tai Dialects: Glossaries, Texts, and Translations. Center for South and Southeast Asian Studies, University of Michigan.",
+      "url": null,
+      "url_check": "skipped",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Glottolog 5.3 — Nong Zhuang [nong1247]",
+      "url": "https://glottolog.org/resource/languoid/id/nong1247",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "ISO 639-3 Registration Authority (SIL International) — Nong Zhuang [zhn]",
+      "url": "https://iso639-3.sil.org/code/zhn",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Johnson, Eric C. (2011). A Lexical and Phonological Comparison of the Central Taic Languages of Wenshan Prefecture, China. SIL Electronic Working Papers 2011-005.",
+      "url": "https://www.sil.org/resources/publications/entry/41727",
+      "url_check": "http_503",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia — Nong Zhuang language",
+      "url": "https://en.wikipedia.org/wiki/Nong_Zhuang_language",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Wikipedia tiếng Việt — Tiếng Nùng (mục phương ngữ Lào Cai / Nùng Dín)",
+      "url": "https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_N%C3%B9ng",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Đài Tiếng nói Việt Nam (VOV4) — Dân ca Nùng Dín được đưa vào trường học",
+      "url": "https://vov4.vov.vn/van-hoa-van-nghe/dan-ca-nung-din-duoc-dua-vao-truong-hoc-116180.vov4",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    },
+    {
+      "title": "Cục Di sản văn hóa — Nghề Chàng slaw (làm tranh cắt giấy) của người Nùng Dín ở Mường Khương, Lào Cai",
+      "url": "http://dsvh.gov.vn/nghe-chang-slaw-lam-tranh-cat-giay-cua-nguoi-nung-din-o-muong-khuong-lao-cai-1425",
+      "url_check": "ok_200",
+      "accessed": "2026-11-13"
+    }
+  ],
+  "validation": {
+    "native_speaker_reviewed": false,
+    "linguist_reviewed": false,
+    "llm_review": {
+      "model": "gemini-4-argon",
+      "decision": "MODIFY",
+      "score": 9,
+      "issues": [
+        {
+          "path": "phonology.vowels[4].note",
+          "severity": "medium",
+          "problem": "Ví dụ cho nguyên âm ngắn /u/ là `luk31` ('con'), nhưng trong tư liệu của Gedney (Hudak 2008, tr. 34), `luk5` ('child', đọc với nét thanh 5 [31]) được xếp vào nhóm âm tiết khép nguyên âm dài (DL4), tức bản chất âm vị học là /luːk31/ (dù bản in trang 34 của Hudak bị in thiếu một chữ u thành `luk 5`, trong khi ở phần Vowels của Gedney ghi nguyên âm ngắn/dài bằng chữ đơn/đôi).",
+          "fix": "Đổi ví dụ cho nguyên âm ngắn /u/ sang các từ âm tiết khép nguyên âm ngắn chuẩn trong Gedney như `hup21` ('hút thuốc') hoặc `sut44` ('húp, nhấp'), và giải thích rõ trường hợp `luːk31 ~ luk31` ('con')."
+        },
+        {
+          "path": "phonology.onsets[18].note",
+          "severity": "low",
+          "problem": "Ví dụ cho phụ âm đầu /k/ dùng từ `kuːk31` ('cái cuốc') thay vì từ minh họa trực tiếp trong mục Consonants của Gedney (Hudak 2008, tr. 35) là `kɔːn21` ('trước') hoặc `kiːw14` ('gọi').",
+          "fix": "Bổ sung ví dụ chuẩn từ danh mục của Gedney (`kɔːn21` 'trước', `kiːw14` 'gọi')."
+        },
+        {
+          "path": "phonology.onsets[15].note",
+          "severity": "low",
+          "problem": "Ví dụ cho phụ âm đầu /tɕʰ ~ cʰ/ đưa từ `tɕʰɯːŋ31` ('voi') và `tɕʰaː22` ('người vùng cao'), trong khi từ minh họa trực tiếp trong mục Consonants của Gedney (Hudak 2008, tr. 35) là `tɕʰuŋ22` (`chuŋ3` 'cay, nồng').",
+          "fix": "Bổ sung `tɕʰuŋ22` ('cay, nồng') làm ví dụ chính từ Gedney."
+        },
+        {
+          "path": "sources[7].url",
+          "severity": "low",
+          "problem": "Nguồn báo chí VOV4 và tài liệu di sản văn hóa về người Nùng Dín để `url: null` trong khi có URL chính thức có thể truy xuất và kiểm chứng.",
+          "fix": "Bổ sung URL bài viết của VOV4 và bổ sung nguồn Cục Di sản văn hóa (dsvh.gov.vn) cho các thuật ngữ văn hóa Nùng Dín (`rân sả`, `ẳn xả`)."
+        }
+      ]
+    },
+    "open_issues": [
+      "Cần đối chiếu ngữ âm thực địa giữa tiếng Nùng Dín ở Mường Khương (Lào Cai) với tiếng Nùng Dín ở Hoàng Su Phì và Xín Mần (Hà Giang) để xác định biến thể phụ âm xát hữu thanh (/ð ~ ʒ ~ r/) và hệ thống thanh điệu.",
+      "Người Nùng Dín tại Việt Nam chưa có bộ chữ viết chuẩn hóa riêng; cần thống nhất quy ước ký âm chữ cái Latinh với các nghệ nhân Câu lạc bộ Dân ca Nùng Dín (xã Nấm Lư, Mường Khương) cho các từ vựng văn hóa và lời ca cổ.",
+      "Cần bổ sung ký âm nhạc lý chuẩn (thang âm, cao độ, tiết tấu) cho 4–5 thể loại dân ca Nùng Dín từ băng thu âm thực tế."
+    ]
+  },
+  "provenance": {
+    "draft_model": "gemini-4-carbon",
+    "review_model": "gemini-4-argon",
+    "method": "LLM + Google Search grounding, cross-reviewed by a second LLM; NOT verified by native speakers",
+    "generated": "2026-11-13",
+    "search_queries": []
+  },
+  "license": "CC0-1.0"
+}
